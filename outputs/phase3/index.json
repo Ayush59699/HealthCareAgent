@@ -1,0 +1,31 @@
+{
+  "collection": "medical_knowledge",
+  "embedding": {
+    "model_name": "BAAI/bge-small-en-v1.5",
+    "dimension": 384,
+    "normalize_embeddings": true,
+    "max_seq_length": 512,
+    "text_format": "medical-source-text-v1",
+    "prompt": "",
+    "pipeline": "medical-knowledge-v1"
+  },
+  "sources": {
+    "medlineplus": {
+      "documents": 3,
+      "chunks": 17
+    },
+    "pmc": {
+      "documents": 2,
+      "chunks": 70
+    },
+    "who": {
+      "documents": 0,
+      "chunks": 0
+    }
+  },
+  "indexed_chunks": 87,
+  "processed_sha256": "8558bd80147ce1a3d519a9d6f95ba55223e03cd8f06991cdc096cc7318781ad9",
+  "truncated_texts": 0,
+  "max_words": 180,
+  "overlap": 30
+}

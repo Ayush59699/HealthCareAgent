@@ -1,0 +1,15 @@
+Before starting Phase 3, perform a cleanup and verification pass on the current healthcare-agentic-ai project.
+
+1. Inspect docs/validation.md and completely clean the corrupted/duplicated/garbled sections.
+2. Preserve all valid Phase 2 results, metrics, commands, limitations, and conclusions exactly; do not invent new results.
+3. Check README.md and docs/architecture.md for consistency with the actual implemented Phase 2 code.
+4. Remove obsolete temporary files/scripts and obvious artifacts if they are no longer needed.
+5. Run the existing test suite and confirm it still passes.
+6. Do not modify the Patient Case RAG implementation unless a clear documentation-related inconsistency requires it.
+7. At the end, report:
+   - files changed
+   - tests/results
+   - any remaining issues
+   - confirmation that Phase 2 is clean and ready for Phase 3.
+
+Do NOT start Phase 3 yet.

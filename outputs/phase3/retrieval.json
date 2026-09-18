@@ -1,0 +1,257 @@
+{
+  "passed": true,
+  "queries": 3,
+  "top_k": 3,
+  "interpretation": "Retrieval plumbing smoke test only; similarity is not medical accuracy or diagnostic confidence.",
+  "results": [
+    {
+      "query": "What is asthma and what causes wheezing?",
+      "hits": [
+        {
+          "document_id": "medlineplus:2",
+          "text": "What is asthma? Asthma is a chronic (long-term) lung disease. It affects your airways, the tubes that carry air in and out of your lungs. When you have asthma, your airways can become inflamed and narrowed. This can cause wheezing, coughing , and tightness in your chest. When these symptoms get worse than usual, it is called an asthma attack or flare-up. What causes asthma? The exact cause of asthma is unknown. Genetics and your environment likely play a role in who gets asthma. An asthma attack can happen when you are exposed to an asthma trigger. An asthma trigger is something that can set off or worsen your asthma symptoms. Different triggers can cause different types of asthma: Allergic asthma is caused by allergens. Allergens are substances that cause an allergic reaction. They can include Dust mites Mold Pets Pollen from grass, trees, and weeds Waste from pests such as cockroaches and mice Nonallergic asthma is caused by triggers that are not allergens, such as Breathing in cold air Certain medicines Household chemicals Infections such as colds and the",
+          "title": "Asthma",
+          "source": "medlineplus",
+          "url": "https://medlineplus.gov/asthma.html",
+          "license": "NLM-public-domain-summary",
+          "provenance": {
+            "download_url": "https://medlineplus.gov/xml/mplus_topics_2026-09-18.xml",
+            "retrieved_at": "2026-09-18T17:53:23.403145+00:00",
+            "raw_path": "C:\\Users\\Hp\\OneDrive\\Desktop\\HEALTHCARE AGENT\\TEST AGENTS\\mini-cc\\data\\medical_knowledge\\raw\\medlineplus\\mplus_topics_2026-09-18.xml",
+            "raw_sha256": "87f7d7bfc98721b3ea800ea817cb725515fcb66855df9c8b580f05988d3c82b4",
+            "license_url": "https://medlineplus.gov/copyright.html",
+            "terms_url": "https://medlineplus.gov/copyright.html",
+            "license_evidence": "NLM-produced health topic summaries only; linked external content, images, encyclopedia and drug monographs excluded. See MedlinePlus copyright policy."
+          },
+          "doi": "",
+          "pmid": "",
+          "pmcid": "",
+          "publication_date": "10/22/1998",
+          "document_type": "health-topic-summary",
+          "chunk_id": "fba6f011-9186-5a54-a175-ef706b3fd2ba",
+          "chunk_index": 0,
+          "chunking_version": "words-v1:180:30",
+          "score": 0.8647005436500281
+        },
+        {
+          "document_id": "medlineplus:2",
+          "text": "parents has it, especially if it's your mother. Race or ethnicity. Black and African Americans and Puerto Ricans are at higher risk of asthma than people of other races or ethnicities. Having other diseases or conditions such as obesity and allergies Often having viral respiratory infections as a young child Sex. In children, asthma is more common in boys. In teens and adults, it is more common in women. What are the symptoms of asthma? The symptoms of asthma include: Chest tightness Coughing, especially at night or early morning Shortness of breath Wheezing, which causes a whistling sound when you breathe out These symptoms can range from mild to severe. You may have them every day or only once in a while. When you are having an asthma attack, your symptoms get much worse. The attacks may come on gradually or suddenly. Sometimes they can be life-threatening. They are more common in people who have severe asthma. If you are having asthma attacks, you may need a change in your treatment. How is asthma diagnosed? Your health care provider may",
+          "title": "Asthma",
+          "source": "medlineplus",
+          "url": "https://medlineplus.gov/asthma.html",
+          "license": "NLM-public-domain-summary",
+          "provenance": {
+            "download_url": "https://medlineplus.gov/xml/mplus_topics_2026-09-18.xml",
+            "retrieved_at": "2026-09-18T17:53:23.403145+00:00",
+            "raw_path": "C:\\Users\\Hp\\OneDrive\\Desktop\\HEALTHCARE AGENT\\TEST AGENTS\\mini-cc\\data\\medical_knowledge\\raw\\medlineplus\\mplus_topics_2026-09-18.xml",
+            "raw_sha256": "87f7d7bfc98721b3ea800ea817cb725515fcb66855df9c8b580f05988d3c82b4",
+            "license_url": "https://medlineplus.gov/copyright.html",
+            "terms_url": "https://medlineplus.gov/copyright.html",
+            "license_evidence": "NLM-produced health topic summaries only; linked external content, images, encyclopedia and drug monographs excluded. See MedlinePlus copyright policy."
+          },
+          "doi": "",
+          "pmid": "",
+          "pmcid": "",
+          "publication_date": "10/22/1998",
+          "document_type": "health-topic-summary",
+          "chunk_id": "32f13991-1ad5-5b06-ab76-38b7184c074a",
+          "chunk_index": 2,
+          "chunking_version": "words-v1:180:30",
+          "score": 0.7838357968830343
+        },
+        {
+          "document_id": "medlineplus:2",
+          "text": "as cockroaches and mice Nonallergic asthma is caused by triggers that are not allergens, such as Breathing in cold air Certain medicines Household chemicals Infections such as colds and the flu Outdoor air pollution Tobacco smoke Occupational asthma is caused by breathing in chemicals or industrial dusts at work Exercise-induced asthma happens during physical exercise, especially when the air is dry Asthma triggers may be different for each person and can change over time. Who is at risk for asthma? Asthma affects people of all ages, but it often starts during childhood. Certain factors can raise your risk of having asthma: Being exposed to secondhand smoke when your mother is pregnant with you or when you are a small child Being exposed to certain substances at work , such as chemical irritants or industrial dusts Genetics and family history. You are more likely to have asthma if one of your parents has it, especially if it's your mother. Race or ethnicity. Black and African Americans and Puerto Ricans are at higher risk of asthma than people of other races or",
+          "title": "Asthma",
+          "source": "medlineplus",
+          "url": "https://medlineplus.gov/asthma.html",
+          "license": "NLM-public-domain-summary",
+          "provenance": {
+            "download_url": "https://medlineplus.gov/xml/mplus_topics_2026-09-18.xml",
+            "retrieved_at": "2026-09-18T17:53:23.403145+00:00",
+            "raw_path": "C:\\Users\\Hp\\OneDrive\\Desktop\\HEALTHCARE AGENT\\TEST AGENTS\\mini-cc\\data\\medical_knowledge\\raw\\medlineplus\\mplus_topics_2026-09-18.xml",
+            "raw_sha256": "87f7d7bfc98721b3ea800ea817cb725515fcb66855df9c8b580f05988d3c82b4",
+            "license_url": "https://medlineplus.gov/copyright.html",
+            "terms_url": "https://medlineplus.gov/copyright.html",
+            "license_evidence": "NLM-produced health topic summaries only; linked external content, images, encyclopedia and drug monographs excluded. See MedlinePlus copyright policy."
+          },
+          "doi": "",
+          "pmid": "",
+          "pmcid": "",
+          "publication_date": "10/22/1998",
+          "document_type": "health-topic-summary",
+          "chunk_id": "9f0e0c0e-046e-534b-b6cb-bcf7e4258f57",
+          "chunk_index": 1,
+          "chunking_version": "words-v1:180:30",
+          "score": 0.7744985969326714
+        }
+      ]
+    },
+    {
+      "query": "What is diabetes and blood glucose?",
+      "hits": [
+        {
+          "document_id": "medlineplus:4",
+          "text": "What is diabetes? Diabetes, also known as diabetes mellitus, is a disease in which your blood glucose , or blood sugar, levels are too high. Glucose is your body's main source of energy. Your body can make glucose, but it also comes from the food you eat. Insulin is a hormone made by your pancreas. Insulin helps move glucose from your bloodstream into your cells, where it can be used for energy. If you have diabetes, your body can't make insulin, can't use insulin as well as it should, or both. Too much glucose stays in your blood and doesn't reach your cells. This can cause glucose levels to get too high. Over time, high blood glucose levels can lead to serious health conditions . But you can take steps to manage your diabetes and try to prevent these health problems. What are the types of diabetes? There are different types of diabetes: Type 1 diabetes . If you have type 1 diabetes, your body makes little or no insulin. It happens when your immune system attacks and destroys the",
+          "title": "Diabetes",
+          "source": "medlineplus",
+          "url": "https://medlineplus.gov/diabetes.html",
+          "license": "NLM-public-domain-summary",
+          "provenance": {
+            "download_url": "https://medlineplus.gov/xml/mplus_topics_2026-09-18.xml",
+            "retrieved_at": "2026-09-18T17:53:23.403145+00:00",
+            "raw_path": "C:\\Users\\Hp\\OneDrive\\Desktop\\HEALTHCARE AGENT\\TEST AGENTS\\mini-cc\\data\\medical_knowledge\\raw\\medlineplus\\mplus_topics_2026-09-18.xml",
+            "raw_sha256": "87f7d7bfc98721b3ea800ea817cb725515fcb66855df9c8b580f05988d3c82b4",
+            "license_url": "https://medlineplus.gov/copyright.html",
+            "terms_url": "https://medlineplus.gov/copyright.html",
+            "license_evidence": "NLM-produced health topic summaries only; linked external content, images, encyclopedia and drug monographs excluded. See MedlinePlus copyright policy."
+          },
+          "doi": "",
+          "pmid": "",
+          "pmcid": "",
+          "publication_date": "10/22/1998",
+          "document_type": "health-topic-summary",
+          "chunk_id": "3be32987-6ede-5fd6-bf15-1269b1857182",
+          "chunk_index": 0,
+          "chunking_version": "words-v1:180:30",
+          "score": 0.8126156674609957
+        },
+        {
+          "document_id": "medlineplus:4",
+          "text": "or through a special pump. Some people also need to take another type of diabetes medicine that works with insulin. If you have type 2 diabetes, you may be able to manage or even reverse it by making lifestyle changes . These include eating a healthy diet , staying at healthy weight , and getting regular physical activity . Some people also need to take diabetes medicines to manage their diabetes. If you have gestational diabetes, you may be able to lower your glucose levels by eating a healthy diet and getting regular exercise. But be sure to talk to your provider about your treatment options. Gestational diabetes usually goes away after you give birth. But you will have a higher risk of developing type 2 diabetes later. Checking your blood glucose levels is also an important part of managing your diabetes. Ask your provider about the best way to check your blood glucose level and how often you should check it. Can diabetes be prevented? Type 1 diabetes can't be prevented. You may be able to delay or prevent",
+          "title": "Diabetes",
+          "source": "medlineplus",
+          "url": "https://medlineplus.gov/diabetes.html",
+          "license": "NLM-public-domain-summary",
+          "provenance": {
+            "download_url": "https://medlineplus.gov/xml/mplus_topics_2026-09-18.xml",
+            "retrieved_at": "2026-09-18T17:53:23.403145+00:00",
+            "raw_path": "C:\\Users\\Hp\\OneDrive\\Desktop\\HEALTHCARE AGENT\\TEST AGENTS\\mini-cc\\data\\medical_knowledge\\raw\\medlineplus\\mplus_topics_2026-09-18.xml",
+            "raw_sha256": "87f7d7bfc98721b3ea800ea817cb725515fcb66855df9c8b580f05988d3c82b4",
+            "license_url": "https://medlineplus.gov/copyright.html",
+            "terms_url": "https://medlineplus.gov/copyright.html",
+            "license_evidence": "NLM-produced health topic summaries only; linked external content, images, encyclopedia and drug monographs excluded. See MedlinePlus copyright policy."
+          },
+          "doi": "",
+          "pmid": "",
+          "pmcid": "",
+          "publication_date": "10/22/1998",
+          "document_type": "health-topic-summary",
+          "chunk_id": "94e4ecb2-ed32-5297-93f5-810c65eb8c0a",
+          "chunk_index": 5,
+          "chunking_version": "words-v1:180:30",
+          "score": 0.7136743677296195
+        },
+        {
+          "document_id": "medlineplus:4",
+          "text": "types of diabetes: Type 1 diabetes . If you have type 1 diabetes, your body makes little or no insulin. It happens when your immune system attacks and destroys the cells that produce insulin. Type 2 diabetes . This is the most common form of diabetes. If you have type 2 diabetes, your body may still be able to make insulin, but your cells don't respond well to insulin. They can't easily take up enough glucose from your blood. Gestational diabetes . This is a form of diabetes that develops during pregnancy. It happens when your body can't make the extra insulin it needs during pregnancy. What causes diabetes? The different types of diabetes have different causes: Researchers think type 1 diabetes is caused by genes and factors in the environment that might trigger the disease. Type 2 diabetes is caused by several factors, including lifestyle factors and genes . The lifestyle factors include not being physically active and being overweight or having obesity . Researchers think gestational diabetes is caused by the hormonal changes of pregnancy along with genetic",
+          "title": "Diabetes",
+          "source": "medlineplus",
+          "url": "https://medlineplus.gov/diabetes.html",
+          "license": "NLM-public-domain-summary",
+          "provenance": {
+            "download_url": "https://medlineplus.gov/xml/mplus_topics_2026-09-18.xml",
+            "retrieved_at": "2026-09-18T17:53:23.403145+00:00",
+            "raw_path": "C:\\Users\\Hp\\OneDrive\\Desktop\\HEALTHCARE AGENT\\TEST AGENTS\\mini-cc\\data\\medical_knowledge\\raw\\medlineplus\\mplus_topics_2026-09-18.xml",
+            "raw_sha256": "87f7d7bfc98721b3ea800ea817cb725515fcb66855df9c8b580f05988d3c82b4",
+            "license_url": "https://medlineplus.gov/copyright.html",
+            "terms_url": "https://medlineplus.gov/copyright.html",
+            "license_evidence": "NLM-produced health topic summaries only; linked external content, images, encyclopedia and drug monographs excluded. See MedlinePlus copyright policy."
+          },
+          "doi": "",
+          "pmid": "",
+          "pmcid": "",
+          "publication_date": "10/22/1998",
+          "document_type": "health-topic-summary",
+          "chunk_id": "dbfd09c1-42a1-55c8-a2e6-52d222df8803",
+          "chunk_index": 1,
+          "chunking_version": "words-v1:180:30",
+          "score": 0.707466016771719
+        }
+      ]
+    },
+    {
+      "query": "What is high blood pressure?",
+      "hits": [
+        {
+          "document_id": "medlineplus:34",
+          "text": "What is blood pressure? Blood pressure is the force of your blood pushing against the walls of your arteries. Each time your heart beats, it pumps blood into the arteries. Your blood pressure is highest when your heart beats, pumping the blood. This is called systolic pressure. When your heart is at rest, between beats, your blood pressure falls. This is called diastolic pressure. Your blood pressure reading uses these two numbers. Usually the systolic number comes before or above the diastolic number. For example, 120/80 means a systolic of 120 and a diastolic of 80. How is high blood pressure diagnosed? High blood pressure usually has no symptoms. So the only way to find out if you have it is to get regular blood pressure checks from your health care provider. Your provider will use a gauge, a stethoscope or electronic sensor, and a blood pressure cuff. They will take two or more readings at separate appointments before making a diagnosis. Blood Pressure Category Systolic Blood Pressure Diastolic Blood Pressure Normal Less than 120 and Less than 80 Elevated",
+          "title": "High Blood Pressure",
+          "source": "medlineplus",
+          "url": "https://medlineplus.gov/highbloodpressure.html",
+          "license": "NLM-public-domain-summary",
+          "provenance": {
+            "download_url": "https://medlineplus.gov/xml/mplus_topics_2026-09-18.xml",
+            "retrieved_at": "2026-09-18T17:53:23.403145+00:00",
+            "raw_path": "C:\\Users\\Hp\\OneDrive\\Desktop\\HEALTHCARE AGENT\\TEST AGENTS\\mini-cc\\data\\medical_knowledge\\raw\\medlineplus\\mplus_topics_2026-09-18.xml",
+            "raw_sha256": "87f7d7bfc98721b3ea800ea817cb725515fcb66855df9c8b580f05988d3c82b4",
+            "license_url": "https://medlineplus.gov/copyright.html",
+            "terms_url": "https://medlineplus.gov/copyright.html",
+            "license_evidence": "NLM-produced health topic summaries only; linked external content, images, encyclopedia and drug monographs excluded. See MedlinePlus copyright policy."
+          },
+          "doi": "",
+          "pmid": "",
+          "pmcid": "",
+          "publication_date": "11/14/1998",
+          "document_type": "health-topic-summary",
+          "chunk_id": "9b7ec18b-d8ef-59d0-8b69-aa611c41e5b5",
+          "chunk_index": 0,
+          "chunking_version": "words-v1:180:30",
+          "score": 0.8626437461756515
+        },
+        {
+          "document_id": "medlineplus:34",
+          "text": "take two or more readings at separate appointments before making a diagnosis. Blood Pressure Category Systolic Blood Pressure Diastolic Blood Pressure Normal Less than 120 and Less than 80 Elevated 120 - 129 and Less than 80 High Blood Pressure Stage 1 130 - 139 or 80 - 89 High Blood Pressure Stage 2 140 or higher or 90 or higher Hypertensive Crisis (dangerously high blood pressure - seek medical care right away) Higher than 180 and Higher than 120 For children and teens, the health care provider compares the blood pressure reading to what is normal for other kids who are the same age, height, and sex. What are the different types of high blood pressure? There are two main types of high blood pressure: Primary, or essential, high blood pressure. This is the most common type of high blood pressure. For most people who get this kind of blood pressure, it develops over time as you get older. Secondary high blood pressure. This is caused by another medical condition or use of certain medicines. It usually gets better",
+          "title": "High Blood Pressure",
+          "source": "medlineplus",
+          "url": "https://medlineplus.gov/highbloodpressure.html",
+          "license": "NLM-public-domain-summary",
+          "provenance": {
+            "download_url": "https://medlineplus.gov/xml/mplus_topics_2026-09-18.xml",
+            "retrieved_at": "2026-09-18T17:53:23.403145+00:00",
+            "raw_path": "C:\\Users\\Hp\\OneDrive\\Desktop\\HEALTHCARE AGENT\\TEST AGENTS\\mini-cc\\data\\medical_knowledge\\raw\\medlineplus\\mplus_topics_2026-09-18.xml",
+            "raw_sha256": "87f7d7bfc98721b3ea800ea817cb725515fcb66855df9c8b580f05988d3c82b4",
+            "license_url": "https://medlineplus.gov/copyright.html",
+            "terms_url": "https://medlineplus.gov/copyright.html",
+            "license_evidence": "NLM-produced health topic summaries only; linked external content, images, encyclopedia and drug monographs excluded. See MedlinePlus copyright policy."
+          },
+          "doi": "",
+          "pmid": "",
+          "pmcid": "",
+          "publication_date": "11/14/1998",
+          "document_type": "health-topic-summary",
+          "chunk_id": "8d4817a7-40b4-58f7-8243-639217ca4704",
+          "chunk_index": 1,
+          "chunking_version": "words-v1:180:30",
+          "score": 0.8205706377015735
+        },
+        {
+          "document_id": "medlineplus:34",
+          "text": "blood pressure, it develops over time as you get older. Secondary high blood pressure. This is caused by another medical condition or use of certain medicines. It usually gets better after you treat that condition or stop taking the medicines that are causing it. Why do I need to worry about high blood pressure? When your blood pressure stays high over time, it causes the heart to pump harder and work overtime, possibly leading to serious health problems such as heart attack , stroke , heart failure , and kidney failure . What are the treatments for high blood pressure? Treatments for high blood pressure include heart-healthy lifestyle changes and medicines . You will work with your provider to come up with a treatment plan. It may include only the lifestyle changes. These changes, such as heart-healthy eating and exercise, can be very effective. But sometimes the changes do not control or lower your high blood pressure. Then you may need to take medicine. There are different types of blood pressure medicines. Some people need to take more than one",
+          "title": "High Blood Pressure",
+          "source": "medlineplus",
+          "url": "https://medlineplus.gov/highbloodpressure.html",
+          "license": "NLM-public-domain-summary",
+          "provenance": {
+            "download_url": "https://medlineplus.gov/xml/mplus_topics_2026-09-18.xml",
+            "retrieved_at": "2026-09-18T17:53:23.403145+00:00",
+            "raw_path": "C:\\Users\\Hp\\OneDrive\\Desktop\\HEALTHCARE AGENT\\TEST AGENTS\\mini-cc\\data\\medical_knowledge\\raw\\medlineplus\\mplus_topics_2026-09-18.xml",
+            "raw_sha256": "87f7d7bfc98721b3ea800ea817cb725515fcb66855df9c8b580f05988d3c82b4",
+            "license_url": "https://medlineplus.gov/copyright.html",
+            "terms_url": "https://medlineplus.gov/copyright.html",
+            "license_evidence": "NLM-produced health topic summaries only; linked external content, images, encyclopedia and drug monographs excluded. See MedlinePlus copyright policy."
+          },
+          "doi": "",
+          "pmid": "",
+          "pmcid": "",
+          "publication_date": "11/14/1998",
+          "document_type": "health-topic-summary",
+          "chunk_id": "d250c887-a2a3-586f-b8e1-2d3c10919261",
+          "chunk_index": 2,
+          "chunking_version": "words-v1:180:30",
+          "score": 0.775343370307088
+        }
+      ]
+    }
+  ]
+}

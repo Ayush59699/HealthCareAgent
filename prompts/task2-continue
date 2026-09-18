@@ -1,0 +1,503 @@
+CONTINUE TASK 2 — COMPLETE AND VALIDATE THE PATIENT-CASE RAG PIPELINE
+
+You are continuing an interrupted implementation. Do NOT start over and do NOT delete/rewrite working code unnecessarily.
+
+The previous run already created substantial Phase 2 code under:
+
+healthcare-agentic-ai/
+
+including:
+
+- rag/patient_ingestion.py
+- rag/embeddings.py
+- rag/vector_store.py
+- rag/patient_retriever.py
+- rag/patient_rag.py
+- scripts/build_patient_index.py
+- scripts/test_patient_rag.py
+- tests/test_patient_rag.py
+- updated requirements.txt
+- updated configuration
+
+The previous agent run was interrupted because the coding-agent API itself failed with:
+
+Unsupported value: 'reasoning_effort' does not support 'none'.
+Supported values are: low, medium, high, xhigh.
+
+The API configuration has now been changed to:
+
+reasoning_effort="medium"
+
+Continue from the existing filesystem state.
+
+==================================================
+PRIMARY OBJECTIVE
+==================================================
+
+Finish Phase 2 as a REAL, WORKING Patient Case RAG pipeline using:
+
+DDXPlus → patient representation → local embeddings → persistent Qdrant → semantic retrieval.
+
+Do not move to medical-knowledge RAG, Gemma generation, LangGraph, multi-agent orchestration, or HITL yet.
+
+Phase 2 must be completely validated first.
+
+==================================================
+STEP 1 — INSPECT BEFORE MODIFYING
+==================================================
+
+First inspect the existing implementation.
+
+Read:
+
+- healthcare-agentic-ai/rag/config.py
+- healthcare-agentic-ai/rag/models.py
+- healthcare-agentic-ai/rag/patient_parser.py
+- healthcare-agentic-ai/rag/patient_ingestion.py
+- healthcare-agentic-ai/rag/embeddings.py
+- healthcare-agentic-ai/rag/vector_store.py
+- healthcare-agentic-ai/rag/patient_retriever.py
+- healthcare-agentic-ai/rag/patient_rag.py
+- healthcare-agentic-ai/scripts/build_patient_index.py
+- healthcare-agentic-ai/scripts/test_patient_rag.py
+- healthcare-agentic-ai/tests/test_patient_rag.py
+- healthcare-agentic-ai/README.md
+
+Also inspect the actual DDXPlus files available in the project.
+
+Do not assume that code written during the previous run is correct merely because it exists.
+
+Identify compatibility problems, syntax problems, incorrect imports, API mismatches, path problems, or logic errors before proceeding.
+
+==================================================
+STEP 2 — VERIFY DEPENDENCIES
+==================================================
+
+Verify that the project environment contains:
+
+- sentence-transformers
+- qdrant-client
+- torch
+
+If dependencies are missing, install them using the project's existing package/environment mechanism.
+
+Do not introduce unnecessary frameworks.
+
+Do NOT add LangChain or LangGraph.
+
+Do NOT add a cloud embedding API.
+
+Do NOT add an OpenAI embedding API.
+
+The embedding model must remain local.
+
+Default embedding model:
+
+BAAI/bge-small-en-v1.5
+
+Default device:
+
+CPU
+
+The code may support GPU configuration, but CPU must remain the safe default for the target machine.
+
+==================================================
+STEP 3 — VERIFY THE PATIENT DATA BOUNDARY
+==================================================
+
+This is a critical research requirement.
+
+Only DDXPlus TRAIN patients may be indexed.
+
+Validation and test patients must NEVER become retrievable documents.
+
+PATHOLOGY and DIFFERENTIAL_DIAGNOSIS must NEVER enter the patient vector payload.
+
+The vector payload should remain allowlisted to:
+
+- patient_id
+- split
+- text
+- source
+
+Do not serialize the entire PatientRecord.
+
+Do not use dataclasses.asdict() on a label-containing PatientRecord for embeddings.
+
+The patient text used for embeddings must be label-free.
+
+Verify this using tests and actual stored Qdrant payloads.
+
+If the current implementation violates this boundary, fix it before continuing.
+
+==================================================
+STEP 4 — TEST THE EXISTING UNIT TESTS
+==================================================
+
+Run the complete test suite.
+
+For example, from the project root:
+
+python -m unittest discover healthcare-agentic-ai/tests -v
+
+Use the appropriate project environment if necessary.
+
+Do not merely inspect the tests.
+
+Actually run them.
+
+If tests fail:
+
+1. diagnose the failure,
+2. fix the implementation,
+3. rerun the tests,
+4. continue until the Phase 2 unit tests pass.
+
+Do not weaken or remove tests merely to make them pass.
+
+==================================================
+STEP 5 — BUILD A REAL PATIENT INDEX
+==================================================
+
+After unit tests pass, perform a REAL indexing run against the actual DDXPlus training data.
+
+Initially use a bounded dataset to validate the complete pipeline:
+
+python scripts/build_patient_index.py --limit 1000 --allow-download
+
+Run this from:
+
+healthcare-agentic-ai/
+
+or otherwise ensure imports and paths work correctly.
+
+The script must:
+
+DDXPlus training ZIP
+        ↓
+stream patients
+        ↓
+PatientRepresentation
+        ↓
+label-free text
+        ↓
+BGE embedding
+        ↓
+persistent Qdrant
+        ↓
+training patient vectors
+
+Do not load the entire dataset into RAM unnecessarily.
+
+Do not create a fake embedding implementation for runtime.
+
+Do not use a fake vector database.
+
+The only fake embedding model allowed is inside offline unit tests.
+
+==================================================
+STEP 6 — VERIFY ACTUAL INDEX CONTENT
+==================================================
+
+After indexing, verify:
+
+1. Qdrant collection exists.
+2. Collection is persistent on disk.
+3. Number of indexed records is correct.
+4. Stored vectors have the expected dimension.
+5. Distance metric is cosine.
+6. Stored payloads contain only the allowed fields.
+7. All stored records have split="train".
+8. No PATHOLOGY field exists.
+9. No DIFFERENTIAL_DIAGNOSIS field exists.
+10. No hidden diagnosis field exists.
+11. Reopening Qdrant preserves the records.
+
+Report the actual values.
+
+Do not invent percentages or performance numbers.
+
+==================================================
+STEP 7 — TEST REAL RETRIEVAL
+==================================================
+
+Run the real retrieval validation:
+
+python scripts/test_patient_rag.py --queries 10 --top-k 5
+
+Use validation patients as QUERY inputs.
+
+Important:
+
+Validation patients may be used as queries.
+
+Validation patients must NOT be inserted into the vector database.
+
+The retrieved cases must all come from TRAIN.
+
+For every query, display:
+
+- query patient ID
+- retrieved patient IDs
+- rank
+- cosine similarity
+- source
+- retrieved patient text
+
+Clearly label cosine similarity as a retrieval similarity score.
+
+NEVER call it:
+
+- diagnostic probability
+- diagnosis confidence
+- clinical confidence
+- probability of disease
+
+==================================================
+STEP 8 — CHECK FOR DATA LEAKAGE
+==================================================
+
+Explicitly test for split leakage.
+
+The following must fail/reject indexing:
+
+- validate patient
+- test patient
+
+Also inspect actual Qdrant contents and confirm that every indexed payload has:
+
+split = train
+
+If any validation/test patient is found in the collection, stop and fix the problem.
+
+==================================================
+STEP 9 — CHECK DUPLICATE / ID BEHAVIOR
+==================================================
+
+Verify that patient IDs are deterministic.
+
+The same patient should map to the same Qdrant point ID.
+
+Rerunning indexing must be idempotent.
+
+For example:
+
+First run:
+1000 records → 1000 indexed
+
+Second run:
+same 1000 records → still 1000 indexed
+
+It must not create 2000 duplicate vectors.
+
+If this behavior is broken, fix it.
+
+==================================================
+STEP 10 — RETRIEVAL QUALITY METRICS
+==================================================
+
+Do NOT claim that retrieval quality is good merely because retrieval works.
+
+At this phase, the purpose is to establish a functioning retrieval infrastructure.
+
+If the DDXPlus labels can safely be accessed ONLY during evaluation, you may implement an OFFLINE retrieval evaluation that uses validation/test ground truth strictly outside the indexed payload.
+
+Potential metrics:
+
+- Recall@1
+- Recall@3
+- Recall@5
+- MRR
+
+But be extremely careful:
+
+semantic similarity between patients is NOT the same thing as diagnosis correctness.
+
+If implementing diagnosis-based retrieval metrics, clearly distinguish:
+
+A. case similarity retrieval
+
+from:
+
+B. diagnosis-label agreement evaluation
+
+Do not put diagnosis labels into the vector store.
+
+Do not use labels when creating embeddings.
+
+Do not allow evaluation labels to influence retrieval.
+
+If reliable evaluation cannot yet be implemented without violating the data boundary, report that honestly and leave the metric implementation for the next validation stage.
+
+==================================================
+STEP 11 — EMBEDDING MODEL HANDLING
+==================================================
+
+The implementation must prevent accidental mixing of embeddings from different models/configurations.
+
+Keep the embedding manifest/signature mechanism.
+
+At minimum track:
+
+- model name
+- embedding dimension
+- normalization
+- max sequence length
+- text representation version
+
+If an existing Qdrant collection was built using a different embedding configuration, fail clearly rather than silently mixing vectors.
+
+==================================================
+STEP 12 — CONTEXT-LENGTH HANDLING
+==================================================
+
+Check whether DDXPlus patient texts exceed the embedding model context length.
+
+Do not silently pretend that no truncation occurred.
+
+If truncation occurs:
+
+- preserve the original patient text in the payload,
+- record/log the number of truncated inputs,
+- clearly report this during indexing.
+
+Do not invent a medical summary to compensate for truncation.
+
+==================================================
+STEP 13 — DOCUMENTATION
+==================================================
+
+Update:
+
+healthcare-agentic-ai/README.md
+
+and relevant documentation so that it accurately describes what is ACTUALLY implemented.
+
+Do not describe future components as implemented.
+
+Clearly distinguish:
+
+IMPLEMENTED NOW:
+
+DDXPlus parser
+PatientRepresentation
+Training-only patient ingestion
+Local BGE embeddings
+Persistent Qdrant
+Patient-case semantic retrieval
+Retrieval validation
+Leakage protection
+Unit tests
+
+NOT IMPLEMENTED YET:
+
+Medical knowledge RAG
+Clinical guidelines RAG
+LLM generation
+Gemma/Qwen integration
+Clinical critic
+Multi-agent orchestration
+LangGraph
+Human-in-the-loop feedback
+Feedback memory
+Autonomous clinical actions
+
+Do not claim clinical validity.
+
+State clearly that DDXPlus is a synthetic dataset.
+
+==================================================
+STEP 14 — FIX README IF NECESSARY
+==================================================
+
+The previous implementation may have produced malformed/duplicated README content.
+
+Inspect README carefully.
+
+If it contains duplicated or truncated sections, clean it up.
+
+Keep it concise and technically accurate.
+
+==================================================
+STEP 15 — FINAL VALIDATION
+==================================================
+
+Before declaring completion, run:
+
+1. Complete unit tests.
+2. Real DDXPlus indexing with 1000 training patients.
+3. Real retrieval using validation patients.
+4. Payload audit.
+5. Persistence/reopen test.
+6. Split leakage check.
+7. Idempotent re-index check.
+
+If any of these fail, continue debugging.
+
+Do not stop after writing files.
+
+==================================================
+IMPORTANT RESEARCH SAFETY RULES
+==================================================
+
+This is a research prototype.
+
+Do not implement:
+
+- autonomous diagnosis
+- autonomous prescribing
+- patient-facing medical advice
+- treatment execution
+- clinical decision automation
+
+The current stage is retrieval infrastructure only.
+
+Do not claim:
+
+"clinically accurate"
+
+"clinically validated"
+
+"safe for clinical use"
+
+"doctor-level"
+
+"diagnosis confidence"
+
+unless such a claim is actually supported by a future properly designed evaluation.
+
+==================================================
+FINAL REPORT FORMAT
+==================================================
+
+When finished, provide a concise but concrete implementation report containing:
+
+1. Files created/modified.
+2. Dependencies installed.
+3. Embedding model used.
+4. Device used.
+5. Embedding dimension.
+6. Qdrant storage location.
+7. Collection name.
+8. Number of training records indexed.
+9. Number of validation queries executed.
+10. Top-k used.
+11. Example retrieval results.
+12. Unit-test result.
+13. Leakage-test result.
+14. Persistence-test result.
+15. Idempotency result.
+16. Any warnings or limitations.
+17. What remains for Phase 3.
+
+IMPORTANT:
+
+Do not fabricate any result.
+
+Every number in the final report must come from an actual command or test execution.
+
+If something cannot be executed, explicitly say so and explain why.
+
+Do not declare the task complete merely because the source files exist.
+
+The goal is a VERIFIED WORKING Patient Case RAG implementation.

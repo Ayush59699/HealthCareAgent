@@ -1,0 +1,6 @@
+{
+  "download_url": "https://pmc.ncbi.nlm.nih.gov/api/oai/v1/mh/?verb=GetRecord&identifier=oai:pubmedcentral.nih.gov:10000000&metadataPrefix=pmc",
+  "retrieved_at": "2026-09-18T17:53:35.096022+00:00",
+  "raw_path": "C:\\Users\\Hp\\OneDrive\\Desktop\\HEALTHCARE AGENT\\TEST AGENTS\\mini-cc\\data\\medical_knowledge\\raw\\pmc\\PMC10000000.xml",
+  "raw_sha256": "210cf3b356f24ad74a26a527a00dad46fe3f452afef4631d4f5c388d376800f5"
+}

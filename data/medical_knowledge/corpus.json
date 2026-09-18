@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "source": "medlineplus",
+      "raw_path": "raw/medlineplus/mplus_topics_2026-09-18.xml",
+      "sha256": "87f7d7bfc98721b3ea800ea817cb725515fcb66855df9c8b580f05988d3c82b4",
+      "titles": [
+        "Asthma",
+        "Diabetes",
+        "High Blood Pressure"
+      ]
+    },
+    {
+      "source": "pmc",
+      "raw_path": "raw/pmc/PMC2440804.xml",
+      "sha256": "be081d42ef71fdb40113c674fa900b9731011dae8edae8a209701b343cdbb8e2",
+      "pmcid": "PMC2440804"
+    },
+    {
+      "source": "pmc",
+      "raw_path": "raw/pmc/PMC5451008.xml",
+      "sha256": "035b460d04372a4a12ae387b86a9b71801874cba133607b190038f5b485ffd4b",
+      "pmcid": "PMC5451008"
+    }
+  ],
+  "failures": [],
+  "who_status": "No reviewed WHO selection; zero WHO documents downloaded/indexed"
+}

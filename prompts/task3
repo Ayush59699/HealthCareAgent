@@ -1,0 +1,153 @@
+Implement Phase 3: Medical Knowledge RAG in the existing healthcare-agentic-ai project.
+
+Goal:
+Build a separate medical-knowledge retrieval pipeline that complements the existing Phase 2 Patient Case RAG.
+
+IMPORTANT:
+- Do NOT modify or merge the existing Patient Case RAG.
+- Do NOT add LLM generation, agents, LangGraph, orchestration, or Qwen/Gemma reasoning yet.
+- Phase 3 is retrieval-only.
+- Preserve all existing Phase 2 tests and functionality.
+
+DATA SOURCES
+
+1. MedlinePlus
+- Use the official downloadable MedlinePlus XML dataset/API.
+- Do not scrape webpages.
+- Store the original downloaded files under:
+  data/medical_knowledge/raw/medlineplus/
+
+2. PubMed Central (PMC)
+- Use only authorized PMC retrieval mechanisms such as OAI-PMH, E-Utilities, BioC API, or another officially supported mechanism.
+- Retrieve only Open Access content with a clearly reusable license.
+- Prefer CC0, CC BY, or CC BY-SA for the initial corpus.
+- Do NOT scrape PMC webpages.
+- Do NOT bypass access restrictions.
+- Store license/provenance metadata for every article.
+- Store raw data under:
+  data/medical_knowledge/raw/pmc/
+
+3. WHO
+- Initially support selected openly reusable WHO documents.
+- Check the licensing/usage terms for each document.
+- Do not bulk-download the WHO website.
+- Store raw documents under:
+  data/medical_knowledge/raw/who/
+
+IMPLEMENTATION
+
+Create a separate medical knowledge pipeline approximately like:
+
+rag/
+  medical_ingestion/
+    medlineplus.py
+    pmc.py
+    who.py
+    chunker.py
+    models.py
+  medical_embeddings.py
+  medical_vector_store.py
+  medical_retriever.py
+
+scripts/
+  download_medical_data.py
+  build_medical_index.py
+  test_medical_rag.py
+  audit_medical_index.py
+
+data/
+  medical_knowledge/
+    raw/
+    processed/
+    qdrant/
+
+Use the existing BGE-small embedding infrastructure where appropriate.
+
+Normalize all sources into a common document/chunk representation containing, where available:
+
+- chunk_id
+- text
+- title
+- source
+- URL
+- DOI
+- PMID/PMCID
+- publication date
+- document type
+- license
+- provenance
+
+Then:
+
+raw source
+→ text extraction
+→ cleaning
+→ chunking
+→ BGE-small embeddings
+→ separate Qdrant collection
+
+Create a NEW collection, for example:
+
+medical_knowledge
+
+Do not store medical knowledge inside:
+ddxplus_patient_cases
+
+RETRIEVER
+
+Implement MedicalKnowledgeRetriever that:
+
+- accepts a text query
+- creates its BGE embedding
+- searches only the medical_knowledge collection
+- returns top-k results
+- returns the actual text plus provenance/metadata
+- never returns only similarity scores
+
+VALIDATION
+
+Add tests for:
+
+1. XML/PDF/text ingestion
+2. normalization
+3. chunking
+4. metadata preservation
+5. license filtering
+6. Qdrant persistence/reopening
+7. retrieval
+8. prevention of patient-case/diagnosis-label leakage
+9. deterministic indexing where applicable
+
+Create a small reproducible development corpus first. Do NOT download millions of articles.
+
+Run the complete existing test suite plus all Phase 3 tests.
+
+DOCUMENTATION
+
+Update the relevant README/docs with:
+
+- exact data sources
+- how data is obtained
+- licensing/provenance handling
+- directory structure
+- commands to reproduce ingestion/indexing
+- number of documents/chunks actually indexed
+- retrieval validation results
+- limitations
+
+Do not claim medical accuracy or diagnostic performance from embedding similarity.
+
+Do not invent datasets, licenses, retrieval results, or metrics.
+
+At the end, report:
+1. files created/changed
+2. exact sources used
+3. number of documents/chunks indexed per source
+4. Qdrant collection name
+5. embedding model and dimension
+6. retrieval validation results
+7. tests passed
+8. licensing/provenance status
+9. remaining limitations
+
+STOP after Phase 3. Do not begin Phase 4.

@@ -1,0 +1,140 @@
+The Patient Case RAG we are building is one component inside the larger multi-agent healthcare system, not the whole system.
+
+A simple architecture would be:
+
+                 PATIENT DATA
+                      │
+          ┌───────────┴───────────┐
+          ▼                       ▼
+     EHR/Data Agent          Imaging Agent
+          │                       │
+          └───────────┬───────────┘
+                      ▼
+             Patient Representation
+                      │
+                      ▼
+               ORCHESTRATOR
+                      │
+       ┌──────────────┼──────────────┐
+       ▼              ▼              ▼
+ Diagnostic       Medication      Risk/Prognosis
+    Agent            Agent             Agent
+       │              │              │
+       └──────────────┼──────────────┘
+                      ▼
+              ┌───────────────┐
+              │   RAG LAYER   │
+              │               │
+              │ Patient Case  │
+              │ RAG           │
+              │      +        │
+              │ Medical       │
+              │ Knowledge RAG │
+              └───────┬───────┘
+                      ▼
+               Clinical Critic
+                      ▼
+              Safety Validator
+                      ▼
+              Human Clinician
+                      │
+              Accept / Modify /
+                    Reject
+                      │
+                      ▼
+               Feedback Memory
+                      │
+                      ▼
+              Explanation Agent
+                      │
+                      ▼
+              Final Recommendation
+Where our current RAG fits
+
+The current RAG we're building first is:
+
+Patient Case RAG
+
+It retrieves similar previous DDXPlus patient cases.
+
+For example:
+
+Current patient: fever + cough + chest pain + etc.
+
+The RAG searches the indexed training patients and returns:
+
+Similar Case 1 → similar symptoms
+Similar Case 2 → similar demographics/evidence
+Similar Case 3 → similar clinical presentation
+
+Importantly, we're keeping their diagnosis labels out of the retrieval payload so we don't create leakage.
+
+Later we'll add a second RAG:
+
+Medical Knowledge RAG
+
+which retrieves things such as:
+
+clinical guidelines
+medical literature
+drug information
+contraindications
+evidence supporting a recommendation
+
+So ultimately:
+
+Patient Case RAG + Medical Knowledge RAG → Evidence layer for the agents.
+
+And yes — we need more agents
+
+The current RAG is infrastructure. The actual research system can eventually have agents such as:
+
+Patient/EHR Agent — understands patient data
+Diagnostic Agent — generates differential diagnoses
+Medication/Safety Agent — checks medications, contraindications and interactions
+Risk/Prognosis Agent — evaluates risk
+Evidence/RAG Agent — retrieves supporting cases and medical evidence
+Clinical Critic Agent — challenges the other agents
+Safety Validation Agent — checks for unsafe/inconsistent recommendations
+Explanation Agent — produces clinician-readable reasoning
+Orchestrator Agent — coordinates the workflow
+
+And eventually:
+
+Human Clinician → Feedback → Feedback Memory
+
+becomes a major part of the research contribution.
+
+About Astra vs Qwen vs Gemma
+
+Yes, we can use different models, but don't need a different LLM for every agent.
+
+For the first implementation I'd do:
+
+GPT-6 Astra
+     ↓
+Orchestrator / complex reasoning / evaluation
+     
+Qwen 8B or Gemma 3 4B/8B
+     ↓
+Local specialist agents
+     ↓
+RAG + Critic + Explanation
+
+The important research contribution isn't "we used 9 different LLMs." It's the multi-agent architecture, evidence retrieval, verification, and human-feedback loop.
+
+And because you're running locally, Qwen/Gemma can handle the local agents through Ollama, while Astra can be used where stronger reasoning is useful.
+
+So the development order should be:
+
+Phase 1: DDXPlus parser ✅
+Phase 2: Patient Case RAG ← we are here
+Phase 3: Medical Knowledge RAG
+Phase 4: Individual agents
+Phase 5: Orchestrator / LangGraph
+Phase 6: Critic + Safety Validator
+Phase 7: Human-in-the-loop
+Phase 8: Feedback Memory
+Phase 9: Full evaluation
+
+That gives us a much more complete agentic clinical decision-support system, rather than just another medical RAG chatbot.

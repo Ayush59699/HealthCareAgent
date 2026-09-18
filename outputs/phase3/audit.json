@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "collection": "medical_knowledge",
+  "audited_chunks": 87,
+  "sources": {
+    "medlineplus": {
+      "documents": 3,
+      "chunks": 17
+    },
+    "pmc": {
+      "documents": 2,
+      "chunks": 70
+    },
+    "who": {
+      "documents": 0,
+      "chunks": 0
+    }
+  },
+  "checks": [
+    "raw checksums",
+    "source reconstruction",
+    "license allowlist",
+    "strict metadata schema",
+    "deterministic IDs",
+    "vector dimension/normalization",
+    "persistence reopening"
+  ]
+}

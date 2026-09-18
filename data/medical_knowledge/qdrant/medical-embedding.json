@@ -1,0 +1,9 @@
+{
+  "dimension": 384,
+  "max_seq_length": 512,
+  "model_name": "BAAI/bge-small-en-v1.5",
+  "normalize_embeddings": true,
+  "pipeline": "medical-knowledge-v1",
+  "prompt": "",
+  "text_format": "medical-source-text-v1"
+}

@@ -1,0 +1,10 @@
+# SentenceTransformer supplies local normalized embeddings; brings torch,
+# transformers, numpy and supporting packages transitively. CPU-first.
+sentence-transformers>=3.4,<6
+# Persistent embedded Qdrant vector storage/search; no Docker or GPU needed.
+qdrant-client>=1.12,<2
+# Phase 1 and tests otherwise use the Python standard library (unittest).
+
+# Phase 3 safe XML and selected text-based PDF extraction.
+defusedxml>=0.7,<1
+pypdf>=5,<7

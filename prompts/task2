@@ -1,0 +1,560 @@
+Continue implementing the project. Phase 1 is complete and validated.
+
+DO NOT stop at planning or documentation. You must actually implement and test Phase 2.
+
+PROJECT:
+Human-in-the-Loop Multi-Agent Clinical Decision Support System
+
+CURRENT STATE:
+The project is:
+healthcare-agentic-ai/
+
+Phase 1 already contains:
+- rag/config.py
+- rag/models.py
+- rag/patient_parser.py
+- rag/__init__.py
+- scripts/prepare_ddxplus.py
+- tests/test_patient_parser.py
+- docs/architecture.md
+- docs/validation.md
+
+DDXPlus is already available and Phase 1 successfully parses the dataset.
+
+IMPORTANT:
+Do not rewrite or break Phase 1.
+Do not clone another repository into the runtime architecture.
+Do not copy DoctorRAG code.
+Use DoctorRAG only as an architectural reference.
+
+==================================================
+PHASE 2 GOAL — BUILD THE PATIENT CASE RAG
+==================================================
+
+Implement the first REAL RAG pipeline.
+
+Architecture:
+
+DDXPlus Patient
+      ↓
+PatientRepresentation
+      ↓
+Patient text representation
+      ↓
+Embedding model
+      ↓
+Vector database
+      ↓
+Retrieve similar TRAINING patients
+      ↓
+Return similar cases + similarity scores + metadata
+
+For now, DO NOT implement:
+- multi-agent orchestration
+- LangGraph
+- human feedback
+- medication agent
+- diagnostic agent
+- medical knowledge RAG
+- LLM generation
+
+Those will come after this phase.
+
+The purpose of Phase 2 is to create a clean, tested Patient Case Retrieval system that we can later plug into agents.
+
+==================================================
+1. DEPENDENCIES
+==================================================
+
+Add only the dependencies actually required:
+
+- sentence-transformers
+- qdrant-client
+
+Do NOT install LangChain or LangGraph yet.
+
+The target machine has approximately:
+- 16 GB RAM
+- 4 GB dedicated GPU VRAM
+
+Therefore:
+
+- Embeddings must run CPU-first.
+- Use small batches.
+- Do not load unnecessary large models.
+- Make the embedding model configurable.
+- Default to:
+
+BAAI/bge-small-en-v1.5
+
+If this model is unavailable locally, provide a clear download/setup instruction rather than silently substituting another model.
+
+Qdrant should run locally.
+
+Prefer Qdrant local persistent storage rather than requiring Docker.
+
+==================================================
+2. CREATE PATIENT INGESTION
+==================================================
+
+Create:
+
+rag/patient_ingestion.py
+
+Responsibilities:
+
+- Read ONLY the DDXPlus TRAIN split.
+- Use the existing DDXPlusParser.
+- Never index validation or test patients.
+- Never index PATHOLOGY.
+- Never index DIFFERENTIAL_DIAGNOSIS.
+- Never put evaluation labels into the vector payload.
+- Convert PatientRepresentation into a deterministic textual representation.
+
+Example:
+
+Patient:
+Age: 45
+Sex: Female
+
+Symptoms / clinical evidence:
+- ...
+- ...
+
+Antecedents:
+- ...
+
+Initial evidence:
+- ...
+
+Unlisted findings are not assumed absent.
+
+Each indexed document must contain:
+
+{
+    "patient_id": ...,
+    "split": "train",
+    "text": ...,
+    "source": ...
+}
+
+The payload must NOT contain:
+- PATHOLOGY
+- DIFFERENTIAL_DIAGNOSIS
+- ground_truth_pathology
+- diagnosis labels
+
+Add explicit tests proving that these fields never enter the indexed patient document.
+
+==================================================
+3. CREATE EMBEDDING MODULE
+==================================================
+
+Create:
+
+rag/embeddings.py
+
+Implement a small wrapper around SentenceTransformer.
+
+Requirements:
+
+class EmbeddingModel:
+
+    embed_text(text)
+    embed_texts(texts)
+
+Configuration:
+
+model_name = "BAAI/bge-small-en-v1.5"
+
+Use:
+
+normalize_embeddings=True
+
+Run CPU-first.
+
+Allow configuration through environment variables or config.
+
+Example:
+
+EMBEDDING_MODEL=BAAI/bge-small-en-v1.5
+EMBEDDING_DEVICE=cpu
+
+Do not hard-code CUDA.
+
+==================================================
+4. CREATE QDRANT VECTOR STORE
+==================================================
+
+Create:
+
+rag/vector_store.py
+
+Use qdrant-client.
+
+Store the collection locally, for example:
+
+data/qdrant/patient_cases
+
+Collection:
+
+ddxplus_patient_cases
+
+Use cosine similarity.
+
+The vector dimension must be determined dynamically from the embedding model.
+
+Do NOT hard-code the dimension.
+
+Implement:
+
+create_collection()
+delete_collection()
+collection_exists()
+upsert_patients()
+search()
+count()
+
+Payload must preserve:
+
+patient_id
+split
+text
+source
+
+Again:
+
+NO pathology
+NO differential diagnosis
+NO evaluation labels.
+
+==================================================
+5. CREATE PATIENT CASE RETRIEVER
+==================================================
+
+Create:
+
+rag/patient_retriever.py
+
+Implement:
+
+class PatientCaseRetriever:
+
+    retrieve(patient_text, top_k=5)
+
+It should:
+
+1. Embed the query patient.
+2. Search ONLY the training patient collection.
+3. Return the top-k most similar cases.
+4. Preserve similarity scores.
+5. Preserve patient IDs and source metadata.
+6. Never return validation/test records.
+
+Return a structured result such as:
+
+[
+    {
+        "patient_id": "...",
+        "score": 0.87,
+        "text": "...",
+        "source": "..."
+    }
+]
+
+Do not interpret similarity as diagnostic probability.
+
+==================================================
+6. CREATE INDEXING SCRIPT
+==================================================
+
+Create:
+
+scripts/build_patient_index.py
+
+Usage:
+
+python scripts/build_patient_index.py
+
+Optional:
+
+--limit 1000
+
+--batch-size 32
+
+--reset
+
+The script should:
+
+1. Verify DDXPlus files exist.
+2. Load training patients using DDXPlusParser.
+3. Convert them to patient text.
+4. Generate embeddings.
+5. Create/update Qdrant collection.
+6. Insert vectors and metadata.
+7. Print progress.
+8. Print final indexed count.
+
+It must stream/process batches rather than loading the entire training set into RAM.
+
+IMPORTANT:
+
+Do not index validation or test patients.
+
+==================================================
+7. CREATE RETRIEVAL TEST SCRIPT
+==================================================
+
+Create:
+
+scripts/test_patient_rag.py
+
+It should:
+
+1. Load one or several validation patients.
+2. Convert them to patient text.
+3. Retrieve similar training cases.
+4. Print:
+
+QUERY PATIENT
+...
+
+TOP 5 SIMILAR TRAINING CASES
+
+1.
+patient_id:
+similarity:
+case:
+
+2.
+...
+
+etc.
+
+If evaluation labels are loaded for testing, keep them completely separate from the retrieval query.
+
+Never display the ground-truth diagnosis as part of the query sent to the retriever.
+
+==================================================
+8. CREATE AUTOMATED TESTS
+==================================================
+
+Create:
+
+tests/test_patient_rag.py
+
+Tests must verify:
+
+1. Training patients can be indexed.
+2. Validation patients are never indexed.
+3. Test patients are never indexed.
+4. PATHOLOGY never appears in vector payload.
+5. DIFFERENTIAL_DIAGNOSIS never appears in vector payload.
+6. Retrieval returns requested top-k or fewer when collection is small.
+7. Similarity scores are numeric.
+8. Patient IDs are preserved.
+9. split is always "train" for indexed cases.
+10. The retriever does not treat similarity as probability.
+11. Empty collection is handled cleanly.
+12. Duplicate patient IDs are handled deterministically.
+13. Re-running indexing does not silently create duplicate points.
+
+Use a temporary Qdrant location for tests where possible.
+
+Do not require the real full dataset for unit tests.
+
+==================================================
+9. ADD A SIMPLE RAG PIPELINE
+==================================================
+
+Create:
+
+rag/patient_rag.py
+
+Implement:
+
+class PatientCaseRAG:
+
+    index(...)
+    retrieve(patient, top_k=5)
+
+The class should compose:
+
+DDXPlusParser
+EmbeddingModel
+QdrantVectorStore
+PatientCaseRetriever
+
+The API should make the next phase easy.
+
+Example:
+
+parser = DDXPlusParser()
+
+record = next(
+    parser.iter_patients("validate", limit=1)
+)
+
+rag = PatientCaseRAG()
+
+results = rag.retrieve(
+    record.patient.to_text(),
+    top_k=5
+)
+
+==================================================
+10. DO NOT USE AN LLM YET
+==================================================
+
+This phase is retrieval only.
+
+DO NOT call:
+- Gemma
+- Qwen
+- OpenAI
+- DeepSeek
+- any cloud API
+
+The purpose is to prove that the retrieval layer works independently.
+
+==================================================
+11. RETRIEVAL EVALUATION
+==================================================
+
+Create:
+
+docs/patient_rag_evaluation.md
+
+Explain how we will evaluate patient retrieval later.
+
+At minimum define:
+
+- Recall@K
+- Precision@K
+- MRR
+- similarity distribution
+- duplicate retrieval rate
+- split leakage rate
+
+IMPORTANT:
+
+Do not claim that semantic similarity means clinical similarity.
+
+Because DDXPlus contains ground-truth labels, evaluation can use labels AFTER retrieval, but labels must never be used to construct embeddings or query text.
+
+Keep:
+
+INFERENCE DATA
+and
+EVALUATION DATA
+
+strictly separated.
+
+==================================================
+12. README UPDATE
+==================================================
+
+Update README with exact Windows commands.
+
+Example:
+
+cd healthcare-agentic-ai
+
+py -3 -m venv .venv
+
+.\\.venv\\Scripts\\activate
+
+pip install -r requirements.txt
+
+python scripts/build_patient_index.py --limit 1000
+
+python scripts/test_patient_rag.py
+
+Also explain:
+
+- what the embedding model does
+- what Qdrant does
+- why only training patients are indexed
+- why validation/test patients are not indexed
+- why diagnosis labels are excluded
+- how this will later connect to the LLM and agents
+
+==================================================
+13. RUN REAL VALIDATION
+==================================================
+
+After implementation:
+
+1. Run all existing Phase 1 tests.
+2. Run all new Phase 2 tests.
+3. Build a small 1000-patient training index.
+4. Run retrieval against at least 10 validation patients.
+5. Show the retrieved patient IDs and scores.
+6. Verify every retrieved patient has split="train".
+7. Verify no diagnosis labels are stored in Qdrant payloads.
+8. Report actual timings and counts.
+
+Do NOT fabricate evaluation metrics.
+
+If something fails, debug it and fix it.
+
+==================================================
+14. FINAL OUTPUT
+==================================================
+
+When finished, report:
+
+IMPLEMENTED:
+- files created
+- files modified
+
+DATA:
+- training records indexed
+- validation records used for query
+- test records indexed = MUST be 0
+
+MODEL:
+- embedding model
+- device
+- embedding dimension
+
+VECTOR DATABASE:
+- Qdrant mode
+- collection name
+- vector distance
+
+TESTS:
+- Phase 1 tests
+- Phase 2 tests
+- total passed
+
+RETRIEVAL:
+- example query
+- top-k results
+- actual similarity scores
+
+SAFETY:
+- confirm PATHOLOGY excluded
+- confirm DIFFERENTIAL_DIAGNOSIS excluded
+- confirm validation/test never indexed
+
+NEXT PHASE:
+Explain exactly what needs to be added for:
+
+Patient Case RAG
+        +
+Medical Knowledge RAG
+        +
+Gemma/Qwen
+        +
+Evidence Fusion
+
+Do not implement those next phases yet.
+
+MOST IMPORTANT RULE:
+
+Do the implementation, not just the plan.
+Run the code.
+Run the tests.
+Fix errors.
+Do not stop after creating documentation.

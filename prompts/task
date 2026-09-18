@@ -1,0 +1,608 @@
+This is the github like: https://github.com/YuxingLu613/DoctorRAG
+clone this here into a separate folder and analyze the whole project
+i want to implement the rag structure that is present/implemented in that repo, somewhat similar architecture for a healthcare
+Multi agent rag reasoning agent, the data is present in the folder data\ddxplus\
+implement this repo's rag pipeline,
+there is also an ollama local llm present which will be used for the rag llm which is ollama run gemma3:4b,
+follow this prompt thoroughly:
+You are a senior ML/AI engineer specializing in medical RAG, multi-agent systems, and local LLM applications.
+
+I am building a research prototype called:
+
+"Human-in-the-Loop Multi-Agent Clinical Decision Support System"
+
+My local environment:
+- Windows
+- Ollama
+- Gemma 3 4B is already installed: gemma3:4b
+- I may later add Qwen3-8B
+- Python
+- The system must run locally wherever possible
+
+DATASET:
+I am using the English DDXPlus dataset.
+
+The dataset contains:
+- release_evidences.json
+- release_conditions.json
+- release_train_patients.zip
+- release_validate_patients.zip
+- release_test_patients.zip
+
+IMPORTANT:
+Do NOT simply copy the DoctorRAG repository.
+Use DoctorRAG as an architectural/reference source and reproduce only the useful RAG concepts for our use case.
+
+==================================================
+MAIN OBJECTIVE
+==================================================
+
+Build a modular medical RAG system that can later become one component of a larger multi-agent clinical decision-support system.
+
+The RAG system should retrieve:
+
+1. Relevant medical knowledge
+2. Similar patient cases
+3. Disease/diagnostic information
+4. Evidence relevant to the current patient's symptoms
+
+The retrieved information must be passed to an LLM to produce an evidence-grounded clinical reasoning response.
+
+The system must NOT claim to provide autonomous medical diagnosis or treatment.
+
+==================================================
+ARCHITECTURE
+==================================================
+
+Implement this pipeline:
+
+Patient Case
+     |
+     v
+Patient Representation
+     |
+     +--------------------------+
+     |                          |
+     v                          v
+Medical Knowledge Retriever   Patient Case Retriever
+     |                          |
+     v                          v
+Relevant Medical Evidence    Similar Patient Cases
+     |                          |
+     +------------+-------------+
+                  |
+                  v
+             Evidence Fusion
+                  |
+                  v
+             Gemma 3 4B
+                  |
+                  v
+          Evidence-Grounded
+          Clinical Reasoning
+                  |
+                  v
+             Structured Output
+
+Design the system so that it can later be connected to:
+
+EHR Agent
+Diagnostic Agent
+Medication/Safety Agent
+RAG Agent
+Clinical Critic Agent
+Explanation Agent
+Human Feedback Agent
+LangGraph Orchestrator
+
+The RAG component should therefore expose a clean Python API.
+
+==================================================
+PROJECT STRUCTURE
+==================================================
+
+Create:
+
+healthcare-agentic-ai/
+│
+├── data/
+│   └── ddxplus/
+│       ├── release_evidences.json
+│       ├── release_conditions.json
+│       ├── release_train_patients.zip
+│       ├── release_validate_patients.zip
+│       └── release_test_patients.zip
+│
+├── rag/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── models.py
+│   ├── patient_parser.py
+│   ├── knowledge_ingestion.py
+│   ├── patient_ingestion.py
+│   ├── embeddings.py
+│   ├── retriever.py
+│   ├── reranker.py
+│   ├── evidence_fusion.py
+│   ├── generator.py
+│   └── pipeline.py
+│
+├── knowledge_base/
+│   ├── medical/
+│   └── patients/
+│
+├── scripts/
+│   ├── prepare_ddxplus.py
+│   ├── build_medical_index.py
+│   ├── build_patient_index.py
+│   └── test_rag.py
+│
+├── tests/
+│
+├── requirements.txt
+└── README.md
+
+==================================================
+PART 1 — DDXPLUS PROCESSING
+==================================================
+
+Implement a parser for the DDXPlus dataset.
+
+Read:
+
+release_evidences.json
+release_conditions.json
+
+Extract meaningful human-readable mappings from the coded evidence.
+
+For example:
+
+E_130 + V_86
+
+should be converted into something understandable such as:
+
+"What color is the rash?" = "dark"
+
+Do NOT blindly send raw E_XXX and V_XXX codes to the LLM.
+
+Parse each patient into a structured representation containing:
+
+- age
+- sex
+- symptoms
+- antecedents
+- initial evidence
+- differential diagnosis
+- ground-truth pathology (only for evaluation)
+
+Example internal representation:
+
+{
+    "age": 18,
+    "sex": "M",
+    "symptoms": [...],
+    "antecedents": [...],
+    "initial_evidence": "...",
+    "differential_diagnosis": [...]
+}
+
+Ground-truth pathology MUST NOT be included in the prompt during inference.
+
+==================================================
+PART 2 — PATIENT CASE RAG
+==================================================
+
+Implement a patient-case retrieval system.
+
+Convert each training patient into a searchable textual representation.
+
+Example:
+
+Patient:
+Age: 45
+Sex: Female
+
+Symptoms:
+fever
+cough
+chest pain
+
+Antecedents:
+smoking history
+
+Use the training set to build the patient-case knowledge base.
+
+IMPORTANT:
+
+Never index validation/test ground-truth labels as retrievable information.
+
+The patient retriever should retrieve similar historical cases based on:
+
+- symptoms
+- antecedents
+- demographics
+- clinical evidence
+
+Use semantic embeddings.
+
+Start with a lightweight local embedding model that works on my hardware.
+
+Prefer:
+
+BAAI/bge-small-en-v1.5
+
+or another lightweight biomedical-compatible embedding model if justified.
+
+Do NOT use the large LLM itself as the embedding model.
+
+==================================================
+PART 3 — MEDICAL KNOWLEDGE RAG
+==================================================
+
+Create a separate medical knowledge collection.
+
+The architecture must support ingestion of:
+
+- medical guidelines
+- licensed medical documents
+- PubMed-derived documents
+- disease descriptions
+- drug safety information
+- other legally usable medical references
+
+Implement:
+
+document loading
+      ↓
+cleaning
+      ↓
+chunking
+      ↓
+metadata extraction
+      ↓
+embedding
+      ↓
+vector database
+
+Use Qdrant locally.
+
+Each chunk should contain metadata such as:
+
+{
+    "source": "...",
+    "title": "...",
+    "section": "...",
+    "document_type": "...",
+    "disease": "...",
+    "year": "..."
+}
+
+Do not invent medical sources.
+
+==================================================
+PART 4 — RETRIEVAL
+==================================================
+
+Implement two independent retrievers:
+
+MedicalKnowledgeRetriever
+
+and
+
+PatientCaseRetriever
+
+Both should support:
+
+retrieve(query, top_k)
+
+Return:
+
+- text
+- similarity score
+- metadata
+- source identifier
+
+Use top-k retrieval.
+
+Make k configurable.
+
+Default:
+
+top_k = 5
+
+==================================================
+PART 5 — RERANKING
+==================================================
+
+Implement an optional reranking stage.
+
+Pipeline:
+
+Dense Retrieval
+      ↓
+Top 10–20 candidates
+      ↓
+Reranker
+      ↓
+Top 3–5 evidence items
+
+Keep reranking modular so it can be disabled on low-resource hardware.
+
+==================================================
+PART 6 — EVIDENCE FUSION
+==================================================
+
+Combine:
+
+A. Current patient information
+
+B. Retrieved medical evidence
+
+C. Similar patient cases
+
+Do NOT simply concatenate huge amounts of text.
+
+Create a structured context:
+
+CURRENT PATIENT
+----------------
+...
+
+MEDICAL EVIDENCE
+----------------
+[Evidence 1]
+Source:
+Content:
+
+[Evidence 2]
+Source:
+Content:
+
+SIMILAR PATIENT CASES
+---------------------
+[Case 1]
+Similarity:
+Clinical features:
+Outcome:
+
+[Case 2]
+...
+
+The system must preserve source attribution.
+
+==================================================
+PART 7 — LOCAL LLM
+==================================================
+
+Use Ollama.
+
+Default model:
+
+gemma3:4b
+
+Call:
+
+ollama run gemma3:4b
+
+through the local Ollama API.
+
+Do NOT use OpenAI APIs.
+
+Create a configurable LLM interface:
+
+generate(prompt)
+
+so that Qwen3-8B can later replace Gemma without rewriting the RAG system.
+
+==================================================
+PART 8 — CLINICAL REASONING PROMPT
+==================================================
+
+The LLM must be instructed:
+
+"You are a clinical decision-support reasoning assistant.
+
+Use ONLY the supplied patient information and retrieved evidence.
+
+Do not invent symptoms, diagnoses, medications, laboratory results, studies, or citations.
+
+Distinguish:
+- observed patient evidence
+- retrieved medical evidence
+- reasoning/inference
+
+When evidence is insufficient, explicitly state that it is insufficient.
+
+Do not present the output as a definitive medical diagnosis.
+
+Provide:
+
+1. Patient summary
+2. Relevant clinical evidence
+3. Retrieved medical evidence
+4. Similar patient cases
+5. Differential considerations
+6. Reasoning
+7. Evidence supporting each consideration
+8. Missing information
+9. Safety concerns
+10. Sources used
+
+Every medical claim that depends on retrieved knowledge should reference the relevant source."
+
+==================================================
+PART 9 — HALLUCINATION CONTROL
+==================================================
+
+Implement basic safeguards.
+
+The generator must:
+
+- never fabricate sources
+- never fabricate citations
+- never invent patient information
+- never treat retrieved patient cases as identical to the current patient
+- clearly distinguish similarity from evidence
+- explicitly state when retrieval is insufficient
+
+Add a simple retrieval confidence mechanism based on actual retrieval scores.
+
+Do NOT use precision as a "confidence" score.
+
+Do not invent arbitrary confidence percentages.
+
+==================================================
+PART 10 — EVALUATION
+==================================================
+
+Create an evaluation script.
+
+Use:
+
+DDXPlus validation/test data.
+
+Evaluate:
+
+1. Diagnosis accuracy
+2. Top-k diagnostic recall
+3. Retrieval relevance
+4. Evidence grounding
+5. Hallucination rate
+6. Source citation correctness
+7. Similar-patient retrieval quality
+
+Keep diagnosis evaluation separate from RAG retrieval evaluation.
+
+IMPORTANT:
+
+Do not leak:
+
+PATHOLOGY
+or
+DIFFERENTIAL_DIAGNOSIS
+
+into the model's inference context.
+
+They are evaluation labels only.
+
+==================================================
+PART 11 — EXPERIMENTAL BASELINE
+==================================================
+
+Create three modes:
+
+MODE A:
+Gemma 3 4B without RAG
+
+MODE B:
+Gemma 3 4B + Medical Knowledge RAG
+
+MODE C:
+Gemma 3 4B + Medical Knowledge RAG
++ Similar Patient Case Retrieval
+
+The results should be saved so we can later compare them.
+
+==================================================
+PART 12 — FUTURE MULTI-AGENT INTEGRATION
+==================================================
+
+Design the RAG module so it can later become:
+
+RAG Agent
+
+inside:
+
+                 ORCHESTRATOR
+                      |
+       +--------------+--------------+
+       |              |              |
+       v              v              v
+   EHR Agent     Diagnosis Agent   RAG Agent
+                                      |
+                            +---------+---------+
+                            |                   |
+                            v                   v
+                     Medical RAG          Patient RAG
+                            |
+                            v
+                     Clinical Critic
+                            |
+                            v
+                     Human Clinician
+                            |
+                       Feedback
+                            |
+                            v
+                    Final Explanation
+
+Do NOT implement the complete multi-agent system yet.
+
+First make the RAG module independently functional.
+
+==================================================
+IMPORTANT CONSTRAINTS
+==================================================
+
+1. Do not copy DoctorRAG wholesale.
+
+2. Do not use proprietary medical datasets without proper authorization.
+
+3. Do not use fake medical references.
+
+4. Do not hard-code DDXPlus diagnoses into the reasoning prompt.
+
+5. Do not leak test-set ground truth.
+
+6. Keep everything modular.
+
+7. Prefer local/open-source components.
+
+8. Keep memory usage appropriate for a Windows laptop with approximately:
+   - 16 GB RAM
+   - 4 GB dedicated GPU VRAM
+
+9. Do not require a GPU for the vector database.
+
+10. Avoid unnecessarily large embedding models.
+
+11. Explain every dependency before adding it.
+
+12. Generate requirements.txt.
+
+13. Generate a README with exact Windows commands.
+
+14. Include error handling.
+
+15. Include logging.
+
+16. Make paths configurable rather than hard-coded.
+
+17. Do not build a medical autonomous agent that takes actions on behalf of patients.
+
+18. This is a research/clinical-decision-support prototype.
+
+==================================================
+FIRST TASK
+==================================================
+
+Before writing the entire system:
+
+1. Inspect the DDXPlus directory structure.
+2. Confirm which dataset files exist.
+3. Design the minimal architecture.
+4. Tell me which DoctorRAG concepts are being reused.
+5. Tell me which parts are intentionally NOT being copied.
+6. Then implement ONLY the DDXPlus parser and patient representation first.
+
+After that works, we will implement:
+
+Patient Case RAG
+→ Medical Knowledge RAG
+→ Reranking
+→ Evidence Fusion
+→ Gemma generation
+→ Evaluation
+
+Do not jump directly to the complete system.
+Build and test each component incrementally.

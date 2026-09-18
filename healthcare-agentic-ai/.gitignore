@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+outputs/
+data/ddxplus/*
+!data/ddxplus/README.md
+knowledge_base/medical/*
+!knowledge_base/medical/.gitkeep
+knowledge_base/patients/*
+!knowledge_base/patients/.gitkeep
+
+data/qdrant/
+
+# Medical originals/index artifacts remain local; corpus manifest pins admitted data.
+data/medical_knowledge/raw/
+data/medical_knowledge/processed/
+data/medical_knowledge/qdrant/
