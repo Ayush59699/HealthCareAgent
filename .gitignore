@@ -6,4 +6,5 @@ wheels/
 *.egg-info
 
 .venv
+*.zip
 .env
