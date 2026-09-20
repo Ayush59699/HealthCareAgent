@@ -1,0 +1,49 @@
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  24%|##3       | 47/199 [00:00<00:00, 461.19it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 1776.88it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  27%|##7       | 54/199 [00:00<00:00, 527.25it/s]Loading weights: 100%|##########| 199/199 [00:00<00:00, 1589.27it/s]
+WARNING rag.llm.provider: Cloud structured output rejected (agent_validation_failure); attempt 1
+WARNING rag.llm.provider: Cloud structured output rejected (agent_validation_failure); attempt 2
+{
+  "output_dir": "healthcare-agentic-ai\\outputs\\phase4\\gpt-migration-compatible",
+  "metrics": {
+    "diagnostically_measurable_cases": 0,
+    "accepted_primary_accuracy": null,
+    "accepted_top_k_accuracy": null,
+    "sample_size": 1,
+    "labeled_sample_size": 0,
+    "pipeline_success_rate": 0.0,
+    "structured_validity": {
+      "valid_agent_outputs": 1,
+      "attempted_agents": 2,
+      "rate": 0.5
+    },
+    "retrieval_success": {
+      "patient_case": {
+        "nonempty": 1,
+        "attempted": 1,
+        "rate": 1.0
+      },
+      "medical_knowledge": {
+        "nonempty": 1,
+        "attempted": 1,
+        "rate": 1.0
+      }
+    },
+    "primary_accuracy": null,
+    "top_k_accuracy": null,
+    "citation_provenance_coverage": null,
+    "hallucinated_evidence_count": 0,
+    "critic_outputs_scored": 0,
+    "diagnostic_outputs_scored": 0,
+    "critic_flag_count": 0,
+    "model_reported_unsupported_claim_count": 0,
+    "limitations": [
+      "Synthetic DDXPlus; small samples are not clinical validation.",
+      "Exact case/whitespace-normalized label match only; no synonym or LLM judge.",
+      "Legacy primary_accuracy/top_k_accuracy measure end-to-end yield among accepted diagnostic outputs (critic failures/abstentions count as misses); missing diagnoses are excluded. Use accepted_* metrics for diagnostic correctness independent of critic completion.",
+      "Retrieval success means nonempty, not relevant.",
+      "Citation coverage measures ID existence, not entailment. Rejected outputs are not scored as accepted claims.",
+      "Unsupported and critic counts are model reports, not adjudicated hallucination rates.",
+      "Similarity is not diagnostic probability; self-assessment is not calibrated clinical confidence."
+    ]
+  }
+}

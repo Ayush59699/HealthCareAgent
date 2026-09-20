@@ -1,5 +1,10 @@
 # Phase 2 execution evidence
 
+> Historical phase-specific validation record; subsequent Phase 4 implementation
+> and migration results are documented in [phase4.md](phase4.md) and
+> [phase4-validation.md](phase4-validation.md). Earlier stop/status statements below
+> describe the repository at the time of that phase.
+
 Executed on Windows with the existing uv-managed Python 3.13.11 environment.
 No packages needed installation: sentence-transformers 5.7.0, qdrant-client
 1.19.1, torch 2.14.0+cpu (distribution version 2.14.0), transformers 5.17.0.

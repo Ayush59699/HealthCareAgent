@@ -1,0 +1,218 @@
+{
+  "output_dir": "C:\\Users\\Hp\\AppData\\Local\\Temp\\tmpl5dkxev5\\run",
+  "metrics": {
+    "diagnostically_measurable_cases": 0,
+    "accepted_primary_accuracy": null,
+    "accepted_top_k_accuracy": null,
+    "sample_size": 1,
+    "labeled_sample_size": 1,
+    "pipeline_success_rate": 1.0,
+    "structured_validity": {
+      "valid_agent_outputs": 3,
+      "attempted_agents": 3,
+      "rate": 1.0
+    },
+    "retrieval_success": {
+      "patient_case": {
+        "nonempty": 1,
+        "attempted": 1,
+        "rate": 1.0
+      },
+      "medical_knowledge": {
+        "nonempty": 1,
+        "attempted": 1,
+        "rate": 1.0
+      }
+    },
+    "primary_accuracy": 0.0,
+    "top_k_accuracy": 0.0,
+    "citation_provenance_coverage": null,
+    "hallucinated_evidence_count": 0,
+    "critic_outputs_scored": 1,
+    "diagnostic_outputs_scored": 1,
+    "critic_flag_count": 1,
+    "model_reported_unsupported_claim_count": 0,
+    "limitations": [
+      "Synthetic DDXPlus; small samples are not clinical validation.",
+      "Exact case/whitespace-normalized label match only; no synonym or LLM judge.",
+      "Legacy primary_accuracy/top_k_accuracy measure end-to-end yield among accepted diagnostic outputs (critic failures/abstentions count as misses); missing diagnoses are excluded. Use accepted_* metrics for diagnostic correctness independent of critic completion.",
+      "Retrieval success means nonempty, not relevant.",
+      "Citation coverage measures ID existence, not entailment. Rejected outputs are not scored as accepted claims.",
+      "Unsupported and critic counts are model reports, not adjudicated hallucination rates.",
+      "Similarity is not diagnostic probability; self-assessment is not calibrated clinical confidence."
+    ]
+  }
+}
+test_real_validation_patient_dual_rag_three_agents (tests.integration.test_gpt.GPTIntegrationTests.test_real_validation_patient_dual_rag_three_agents) ... skipped 'Real cloud E2E integration is opt-in'
+test_chunks_deterministic_metadata_and_overlap (tests.test_medical_rag.IngestionTests.test_chunks_deterministic_metadata_and_overlap) ... ok
+test_clean_normalization (tests.test_medical_rag.IngestionTests.test_clean_normalization) ... ok
+test_download_host_and_protocol_rejected_before_network (tests.test_medical_rag.IngestionTests.test_download_host_and_protocol_rejected_before_network) ... ok
+test_invalid_chunk_settings (tests.test_medical_rag.IngestionTests.test_invalid_chunk_settings) ... ok
+test_license_allowlist (tests.test_medical_rag.IngestionTests.test_license_allowlist) ... ok
+test_manifest_reconstruction_deterministic (tests.test_medical_rag.IngestionTests.test_manifest_reconstruction_deterministic) ... ok
+test_medlineplus_xml_selection_html_and_language (tests.test_medical_rag.IngestionTests.test_medlineplus_xml_selection_html_and_language) ... ok
+test_pdf_extraction_real_pdf (tests.test_medical_rag.IngestionTests.test_pdf_extraction_real_pdf) ... ok
+test_pmc_metadata_and_exclusions (tests.test_medical_rag.IngestionTests.test_pmc_metadata_and_exclusions) ... ok
+test_pmc_missing_or_restricted_license_rejected (tests.test_medical_rag.IngestionTests.test_pmc_missing_or_restricted_license_rejected) ... ok
+test_pmc_open_set_required (tests.test_medical_rag.IngestionTests.test_pmc_open_set_required) ... ok
+test_provenance_checksum (tests.test_medical_rag.IngestionTests.test_provenance_checksum) ... ok
+test_reject_patient_labels_and_provenance_extras (tests.test_medical_rag.IngestionTests.test_reject_patient_labels_and_provenance_extras) ... ok
+test_text_extraction (tests.test_medical_rag.IngestionTests.test_text_extraction) ... ok
+test_who_review_and_hash_required (tests.test_medical_rag.IngestionTests.test_who_review_and_hash_required) ... ok
+test_xml_entities_rejected (tests.test_medical_rag.IngestionTests.test_xml_entities_rejected) ... ok
+test_foreign_payload_filtered (tests.test_medical_rag.MedicalStoreTests.test_foreign_payload_filtered) ... ok
+test_idempotent_and_persistent (tests.test_medical_rag.MedicalStoreTests.test_idempotent_and_persistent) ... C:\Users\Hp\AppData\Local\Programs\Python\Python313\Lib\copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x0000029AD3C66B60>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_invalid_queries_and_topk (tests.test_medical_rag.MedicalStoreTests.test_invalid_queries_and_topk) ... ok
+test_invalid_vectors_and_counts (tests.test_medical_rag.MedicalStoreTests.test_invalid_vectors_and_counts) ... ok
+test_patient_collection_forbidden (tests.test_medical_rag.MedicalStoreTests.test_patient_collection_forbidden) ... ok
+test_payload_label_fields_rejected_atomically (tests.test_medical_rag.MedicalStoreTests.test_payload_label_fields_rejected_atomically) ... ok
+test_payload_tampering_rejected (tests.test_medical_rag.MedicalStoreTests.test_payload_tampering_rejected) ... ok
+test_retrieval_actual_text_and_metadata (tests.test_medical_rag.MedicalStoreTests.test_retrieval_actual_text_and_metadata) ... ok
+test_same_path_separate_patient_collection_untouched (tests.test_medical_rag.MedicalStoreTests.test_same_path_separate_patient_collection_untouched) ... ok
+test_signature_mismatch (tests.test_medical_rag.MedicalStoreTests.test_signature_mismatch) ... ok
+test_api_errors_are_sanitized_not_schema_retried (tests.test_openai_provider.OpenAIProviderTests.test_api_errors_are_sanitized_not_schema_retried) ... ok
+test_default_and_dedicated_environment_configuration (tests.test_openai_provider.OpenAIProviderTests.test_default_and_dedicated_environment_configuration) ... ok
+test_env_file_only_loads_healthcare_settings_and_preserves_process_values (tests.test_openai_provider.OpenAIProviderTests.test_env_file_only_loads_healthcare_settings_and_preserves_process_values) ... ok
+test_grounding_failure_distinct_from_parsing_failure (tests.test_openai_provider.OpenAIProviderTests.test_grounding_failure_distinct_from_parsing_failure) ... Cloud structured output rejected (agent_validation_failure); attempt 1
+ok
+test_incomplete_valid_json_rejected_for_each_agent (tests.test_openai_provider.OpenAIProviderTests.test_incomplete_valid_json_rejected_for_each_agent) ... ok
+test_input_byte_boundary_and_repair_budget_rechecked (tests.test_openai_provider.OpenAIProviderTests.test_input_byte_boundary_and_repair_budget_rechecked) ... Cloud structured output rejected (parsing_failure); attempt 1
+ok
+test_invalid_settings_and_second_models_rejected (tests.test_openai_provider.OpenAIProviderTests.test_invalid_settings_and_second_models_rejected) ... ok
+test_malformed_envelopes_incomplete_refusals_and_tool_calls_fail_closed (tests.test_openai_provider.OpenAIProviderTests.test_malformed_envelopes_incomplete_refusals_and_tool_calls_fail_closed) ... ok
+test_missing_credentials_fail_without_using_coding_agent_key (tests.test_openai_provider.OpenAIProviderTests.test_missing_credentials_fail_without_using_coding_agent_key) ... ok
+test_request_uses_responses_strict_schema_no_tools_or_history (tests.test_openai_provider.OpenAIProviderTests.test_request_uses_responses_strict_schema_no_tools_or_history) ... ok
+test_sdk_constructor_and_report_never_contain_key (tests.test_openai_provider.OpenAIProviderTests.test_sdk_constructor_and_report_never_contain_key) ... ok
+test_sdk_response_extraction_ignores_reasoning (tests.test_openai_provider.OpenAIProviderTests.test_sdk_response_extraction_ignores_reasoning) ... ok
+test_all_signature_settings_must_match (tests.test_patient_audit.AuditTests.test_all_signature_settings_must_match) ... ok
+test_audit_actual_vectors_and_source (tests.test_patient_audit.AuditTests.test_audit_actual_vectors_and_source) ... ok
+test_audit_rejects_contamination_not_only_search_filter (tests.test_patient_audit.AuditTests.test_audit_rejects_contamination_not_only_search_filter) ... ok
+test_audit_rejects_hidden_label (tests.test_patient_audit.AuditTests.test_audit_rejects_hidden_label) ... ok
+test_audit_rejects_text_not_from_features (tests.test_patient_audit.AuditTests.test_audit_rejects_text_not_from_features) ... ok
+test_audit_rejects_wrong_point_id (tests.test_patient_audit.AuditTests.test_audit_rejects_wrong_point_id) ... ok
+test_id_source_agreement (tests.test_patient_audit.AuditTests.test_id_source_agreement) ... ok
+test_injected_embedder_mismatch_rejected (tests.test_patient_audit.AuditTests.test_injected_embedder_mismatch_rejected) ... ok
+test_label_changes_do_not_change_document_or_id (tests.test_patient_audit.AuditTests.test_label_changes_do_not_change_document_or_id) ... ok
+test_missing_manifest_rejected (tests.test_patient_audit.AuditTests.test_missing_manifest_rejected) ... ok
+test_reset_and_reopen_stays_empty (tests.test_patient_audit.AuditTests.test_reset_and_reopen_stays_empty) ... ok
+test_truncation_count_and_original_input_preserved (tests.test_patient_audit.EmbeddingTests.test_truncation_count_and_original_input_preserved) ... ok
+test_real_data_all_splits (tests.test_patient_parser.LocalDatasetTests.test_real_data_all_splits) ... ok
+test_bad_archive_and_split (tests.test_patient_parser.ParserTests.test_bad_archive_and_split) ... ok
+test_bad_labels (tests.test_patient_parser.ParserTests.test_bad_labels) ... ok
+test_bad_lists_and_demographics (tests.test_patient_parser.ParserTests.test_bad_lists_and_demographics) ... ok
+test_cli_removes_incomplete_exports (tests.test_patient_parser.ParserTests.test_cli_removes_incomplete_exports) ... INFO rag.patient_parser: Loaded 5 evidence definitions and 1 conditions
+INFO rag.patient_parser: Streaming release_train_patients.zip (limit=None, labels=False)
+ERROR root: Preparation failed: train row 1: EVIDENCES must be a literal list
+ok
+test_cli_separate_exports_and_no_overwrite (tests.test_patient_parser.ParserTests.test_cli_separate_exports_and_no_overwrite) ... INFO rag.patient_parser: Loaded 5 evidence definitions and 1 conditions
+INFO rag.patient_parser: Loaded 5 evidence definitions and 1 conditions
+WARNING root: Evaluation labels are exported separately; do not pass them to retrieval or generation
+INFO rag.patient_parser: Streaming release_train_patients.zip (limit=None, labels=True)
+INFO root: Successfully processed 1 train rows
+INFO rag.patient_parser: Loaded 5 evidence definitions and 1 conditions
+WARNING root: Evaluation labels are exported separately; do not pass them to retrieval or generation
+ERROR root: Preparation failed: [Errno 17] File exists: 'C:\\Users\\Hp\\AppData\\Local\\Temp\\tmps8jb02cd\\features.jsonl'
+ok
+test_conflicts_rejected (tests.test_patient_parser.ParserTests.test_conflicts_rejected) ... INFO rag.patient_parser: Loaded 5 evidence definitions and 1 conditions
+ok
+test_decoding_and_partition (tests.test_patient_parser.ParserTests.test_decoding_and_partition) ... INFO rag.patient_parser: Loaded 5 evidence definitions and 1 conditions
+ok
+test_inference_never_parses_labels (tests.test_patient_parser.ParserTests.test_inference_never_parses_labels) ... INFO rag.patient_parser: Loaded 5 evidence definitions and 1 conditions
+ok
+test_invalid_evidence_fails_closed (tests.test_patient_parser.ParserTests.test_invalid_evidence_fails_closed) ... INFO rag.patient_parser: Loaded 5 evidence definitions and 1 conditions
+ok
+test_labels_separate_and_opt_in (tests.test_patient_parser.ParserTests.test_labels_separate_and_opt_in) ... INFO rag.patient_parser: Loaded 5 evidence definitions and 1 conditions
+INFO rag.patient_parser: Streaming release_train_patients.zip (limit=None, labels=False)
+INFO rag.patient_parser: Streaming release_train_patients.zip (limit=None, labels=True)
+ok
+test_missing_categorical_initial_does_not_invent_answer (tests.test_patient_parser.ParserTests.test_missing_categorical_initial_does_not_invent_answer) ... INFO rag.patient_parser: Loaded 5 evidence definitions and 1 conditions
+ok
+test_missing_demographics_and_empty_findings (tests.test_patient_parser.ParserTests.test_missing_demographics_and_empty_findings) ... INFO rag.patient_parser: Loaded 5 evidence definitions and 1 conditions
+ok
+test_missing_metadata (tests.test_patient_parser.ParserTests.test_missing_metadata) ... INFO rag.patient_parser: Loaded 5 evidence definitions and 1 conditions
+ok
+test_multivalue_initial_and_deduplication (tests.test_patient_parser.ParserTests.test_multivalue_initial_and_deduplication) ... INFO rag.patient_parser: Loaded 5 evidence definitions and 1 conditions
+ok
+test_negative_binary (tests.test_patient_parser.ParserTests.test_negative_binary) ... INFO rag.patient_parser: Loaded 5 evidence definitions and 1 conditions
+ok
+test_split_ids_and_csv_suffix (tests.test_patient_parser.ParserTests.test_split_ids_and_csv_suffix) ... INFO rag.patient_parser: Loaded 5 evidence definitions and 1 conditions
+INFO rag.patient_parser: Streaming release_train_patients.zip (limit=None, labels=False)
+INFO rag.patient_parser: Streaming release_validate_patients.zip (limit=None, labels=False)
+INFO rag.patient_parser: Streaming release_test_patients.zip (limit=None, labels=False)
+ok
+test_stream_limit_does_not_parse_next_row (tests.test_patient_parser.ParserTests.test_stream_limit_does_not_parse_next_row) ... INFO rag.patient_parser: Loaded 5 evidence definitions and 1 conditions
+INFO rag.patient_parser: Streaming release_train_patients.zip (limit=1, labels=False)
+INFO rag.patient_parser: Streaming release_train_patients.zip (limit=0, labels=False)
+INFO rag.patient_parser: Streaming release_train_patients.zip (limit=None, labels=False)
+ok
+test_batches_bounded (tests.test_patient_rag.PatientRAGTests.test_batches_bounded) ... ok
+test_delete_and_create (tests.test_patient_rag.PatientRAGTests.test_delete_and_create) ... ok
+test_dimension_mismatch_rejected (tests.test_patient_rag.PatientRAGTests.test_dimension_mismatch_rejected) ... ok
+test_duplicate_ids_last_wins (tests.test_patient_rag.PatientRAGTests.test_duplicate_ids_last_wins) ... ok
+test_empty_collection (tests.test_patient_rag.PatientRAGTests.test_empty_collection) ... ok
+test_filter_excludes_contamination (tests.test_patient_rag.PatientRAGTests.test_filter_excludes_contamination) ... ok
+test_ingestion_explicit_train_no_labels (tests.test_patient_rag.PatientRAGTests.test_ingestion_explicit_train_no_labels) ... ok
+test_invalid_query_and_top_k (tests.test_patient_rag.PatientRAGTests.test_invalid_query_and_top_k) ... ok
+test_invalid_vectors_rejected (tests.test_patient_rag.PatientRAGTests.test_invalid_vectors_rejected) ... ok
+test_labels_never_in_payload_or_text (tests.test_patient_rag.PatientRAGTests.test_labels_never_in_payload_or_text) ... ok
+test_model_mismatch_rejected (tests.test_patient_rag.PatientRAGTests.test_model_mismatch_rejected) ... ok
+test_persistent_reopen (tests.test_patient_rag.PatientRAGTests.test_persistent_reopen) ... ok
+test_pipeline_index_rerun_and_retrieve (tests.test_patient_rag.PatientRAGTests.test_pipeline_index_rerun_and_retrieve) ... INFO rag.patient_rag: Processed 1 training records (0.02s)
+INFO rag.patient_rag: Processed 2 training records (0.03s)
+INFO rag.patient_rag: Processed 1 training records (0.01s)
+INFO rag.patient_rag: Processed 2 training records (0.01s)
+ok
+test_rejects_extra_label_fields (tests.test_patient_rag.PatientRAGTests.test_rejects_extra_label_fields) ... ok
+test_rerun_idempotent (tests.test_patient_rag.PatientRAGTests.test_rerun_idempotent) ... ok
+test_scores_not_probabilities (tests.test_patient_rag.PatientRAGTests.test_scores_not_probabilities) ... ok
+test_scores_numeric_ids_preserved (tests.test_patient_rag.PatientRAGTests.test_scores_numeric_ids_preserved) ... ok
+test_store_rejects_nontraining_payload (tests.test_patient_rag.PatientRAGTests.test_store_rejects_nontraining_payload) ... ok
+test_test_split_rejected (tests.test_patient_rag.PatientRAGTests.test_test_split_rejected) ... ok
+test_top_k_or_fewer (tests.test_patient_rag.PatientRAGTests.test_top_k_or_fewer) ... ok
+test_training_indexed (tests.test_patient_rag.PatientRAGTests.test_training_indexed) ... ok
+test_validation_rejected (tests.test_patient_rag.PatientRAGTests.test_validation_rejected) ... ok
+test_context_budget_fails_without_network (tests.test_phase4.Phase4Tests.test_context_budget_fails_without_network) ... ok
+test_diagnostic_receives_both_rags_and_provenance (tests.test_phase4.Phase4Tests.test_diagnostic_receives_both_rags_and_provenance) ... ok
+test_empty_retrieval_reported_not_fabricated (tests.test_phase4.Phase4Tests.test_empty_retrieval_reported_not_fabricated) ... ok
+test_extra_retrieval_labels_rejected_before_diagnostic (tests.test_phase4.Phase4Tests.test_extra_retrieval_labels_rejected_before_diagnostic) ... WARNING rag.phase4: Phase 4 stage retrieval failed (details omitted)
+ok
+test_failure_metrics_and_abstention_are_not_accuracy (tests.test_phase4.Phase4Tests.test_failure_metrics_and_abstention_are_not_accuracy) ... ok
+test_invalid_citations_rejected (tests.test_phase4.Phase4Tests.test_invalid_citations_rejected) ... ok
+test_malformed_output_bounded_and_fail_closed (tests.test_phase4.Phase4Tests.test_malformed_output_bounded_and_fail_closed) ... WARNING rag.llm.provider: Cloud structured output rejected (parsing_failure); attempt 1
+WARNING rag.llm.provider: Cloud structured output rejected (parsing_failure); attempt 2
+ok
+test_no_ground_truth_reaches_critic (tests.test_phase4.Phase4Tests.test_no_ground_truth_reaches_critic) ... ok
+test_no_ground_truth_reaches_diagnostic_agent (tests.test_phase4.Phase4Tests.test_no_ground_truth_reaches_diagnostic_agent) ... ok
+test_no_ground_truth_reaches_patient_agent (tests.test_phase4.Phase4Tests.test_no_ground_truth_reaches_patient_agent) ... ok
+test_no_retry_configuration (tests.test_phase4.Phase4Tests.test_no_retry_configuration) ... WARNING rag.llm.provider: Cloud structured output rejected (parsing_failure); attempt 1
+ok
+test_patient_schema_and_traceability (tests.test_phase4.Phase4Tests.test_patient_schema_and_traceability) ... ok
+test_pipeline_stops_after_invalid_patient (tests.test_phase4.Phase4Tests.test_pipeline_stops_after_invalid_patient) ... WARNING rag.llm.provider: Cloud structured output rejected (parsing_failure); attempt 1
+WARNING rag.llm.provider: Cloud structured output rejected (parsing_failure); attempt 2
+ok
+test_prompt_isolation_and_structured_handoff (tests.test_phase4.Phase4Tests.test_prompt_isolation_and_structured_handoff) ... ok
+test_provenance_tampering_rejected (tests.test_phase4.Phase4Tests.test_provenance_tampering_rejected) ... ok
+test_reject_label_containing_records_and_raw_rows (tests.test_phase4.Phase4Tests.test_reject_label_containing_records_and_raw_rows) ... ok
+test_repair_can_succeed (tests.test_phase4.Phase4Tests.test_repair_can_succeed) ... WARNING rag.llm.provider: Cloud structured output rejected (parsing_failure); attempt 1
+ok
+test_similarity_not_probability (tests.test_phase4.Phase4Tests.test_similarity_not_probability) ... ok
+test_strict_types_and_no_markdown_salvage (tests.test_phase4.Phase4Tests.test_strict_types_and_no_markdown_salvage) ... WARNING rag.llm.provider: Cloud structured output rejected (parsing_failure); attempt 1
+WARNING rag.llm.provider: Cloud structured output rejected (parsing_failure); attempt 1
+ok
+test_transport_failure_sanitized_and_no_retry (tests.test_phase4.Phase4Tests.test_transport_failure_sanitized_and_no_retry) ... ok
+test_unknown_demographics_preserved (tests.test_phase4.Phase4Tests.test_unknown_demographics_preserved) ... ok
+test_valid_citations_and_posthoc_evaluation (tests.test_phase4.Phase4Tests.test_valid_citations_and_posthoc_evaluation) ... ok
+test_atomic_write_retains_previous_report_on_replace_failure (tests.test_phase4_recovery.RecoveryTests.test_atomic_write_retains_previous_report_on_replace_failure) ... ok
+test_critic_failure_counts_as_accuracy_miss (tests.test_phase4_recovery.RecoveryTests.test_critic_failure_counts_as_accuracy_miss) ... ok
+test_no_medical_evidence_requires_empty_differential_too (tests.test_phase4_recovery.RecoveryTests.test_no_medical_evidence_requires_empty_differential_too) ... ok
+test_runner_requests_labels_only_after_all_inference (tests.test_phase4_recovery.RecoveryTests.test_runner_requests_labels_only_after_all_inference) ... ok
+test_missing_diagnosis_is_not_an_incorrect_diagnosis (tests.test_phase4_reporting.StageReportingTests.test_missing_diagnosis_is_not_an_incorrect_diagnosis) ... ok
+test_stage_observations_distinguish_skipped_failure_and_success (tests.test_phase4_reporting.StageReportingTests.test_stage_observations_distinguish_skipped_failure_and_success) ... ok
+
+----------------------------------------------------------------------
+Ran 119 tests in 3.427s
+
+OK (skipped=1)

@@ -1,0 +1,6 @@
+{
+  "http_status": 400,
+  "code": null,
+  "param": "temperature",
+  "message": "Unsupported parameter: 'temperature' is not supported with this model."
+}

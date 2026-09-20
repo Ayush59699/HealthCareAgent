@@ -1,0 +1,768 @@
+# TASK: COMPLETE OLLAMA → GPT-5.6-SOL MIGRATION
+
+You are modifying the existing healthcare-agentic-ai project.
+
+IMPORTANT:
+This is a FULL BACKEND MIGRATION.
+
+The current project contains an Ollama-based healthcare LLM backend.
+I want Ollama COMPLETELY REMOVED from the healthcare project.
+
+The new and ONLY healthcare LLM backend must be:
+
+    GPT-5.6-Sol
+
+through the configured OpenAI/Azure-compatible API using the Responses API.
+
+DO NOT leave Ollama as a fallback.
+DO NOT leave Ollama as an alternative provider.
+DO NOT leave dead Ollama code behind.
+DO NOT merely change the model name.
+Trace the entire project and migrate every healthcare-agent/LLM dependency.
+
+Astra 6 / mini-cc is ONLY the coding agent performing these modifications.
+Do NOT put Astra's coding tools into the healthcare runtime.
+
+============================================================
+1. FIRST: FULL PROJECT AUDIT
+============================================================
+
+Before modifying anything, inspect the entire repository.
+
+Search recursively for all references to:
+
+    ollama
+    Ollama
+    ollama-python
+    /api/chat
+    /api/generate
+    OLLAMA_BASE_URL
+    OLLAMA_MODEL
+    OLLAMA_TIMEOUT
+    OLLAMA_TEMPERATURE
+    OllamaProvider
+    ollama_provider
+    localhost:11434
+    11434
+    llama-server
+    qwen3
+    gemma3
+    gemma
+    qwen
+    local LLM
+    local model
+    model=...
+    LLMProvider
+
+Also inspect:
+
+    rag/
+    scripts/
+    tests/
+    docs/
+    requirements files
+    .env examples
+    configuration files
+    README files
+    phase4 files
+    evaluation files
+    prompts
+    agent implementations
+    orchestration code
+
+Do NOT assume the existing provider abstraction is correct.
+Trace the actual execution path.
+
+Create a concise internal migration map before editing:
+
+    current entry point
+        ↓
+    provider
+        ↓
+    agents
+        ↓
+    RAG
+        ↓
+    evaluation
+        ↓
+    CLI/scripts/tests
+
+============================================================
+2. TARGET ARCHITECTURE
+============================================================
+
+The resulting architecture must be:
+
+    DDXPlus Patient
+          |
+          v
+    Patient / EHR Agent
+          |
+          +----------------------+
+          |                      |
+          v                      v
+    Patient Case RAG       Medical Knowledge RAG
+          |                      |
+          +----------+-----------+
+                     |
+                     v
+              Diagnostic Agent
+                     |
+                     v
+              Clinical Critic
+                     |
+                     v
+                  Evaluation
+
+
+LLM backend:
+
+                    GPT-5.6-Sol
+                         |
+             OpenAI/Azure Responses API
+                         |
+        +----------------+----------------+
+        |                |                |
+        v                v                v
+ Patient Agent     Diagnostic Agent   Clinical Critic
+
+RAG remains a separate retrieval layer.
+
+RAG does NOT call Ollama.
+
+RAG embeddings remain exactly as currently implemented unless there
+is a specific incompatibility. Do NOT replace BGE-small merely because
+the generation backend is changing.
+
+============================================================
+3. REMOVE OLLAMA COMPLETELY
+============================================================
+
+Remove all production Ollama functionality.
+
+Specifically eliminate:
+
+    OllamaProvider
+    Ollama client initialization
+    Ollama HTTP requests
+    Ollama URLs
+    localhost:11434
+    OLLAMA_BASE_URL
+    OLLAMA_MODEL
+    OLLAMA_TIMEOUT
+    OLLAMA_TEMPERATURE
+    Ollama-specific retry handling
+    Ollama-specific response parsing
+    Ollama-specific configuration
+    Ollama-specific tests
+    Ollama-specific documentation
+
+If a generic LLMProvider interface is useful, KEEP the interface,
+but it must no longer contain an Ollama implementation.
+
+The final provider architecture should contain ONLY:
+
+    OpenAIProvider
+
+or, if the project already uses a more appropriate name:
+
+    GPTProvider
+
+Do NOT leave:
+
+    OllamaProvider
+    LocalLLMProvider
+    QwenProvider
+    GemmaProvider
+
+as unused alternatives.
+
+Remove unused imports and dependencies.
+
+============================================================
+4. GPT-5.6-SOL PROVIDER
+============================================================
+
+Implement the healthcare LLM backend using GPT-5.6-Sol.
+
+Use the Responses API.
+
+Do NOT use the Chat Completions API if the existing project can use
+the Responses API.
+
+Target:
+
+    model = gpt-5.6-sol
+
+Configuration should be environment-based.
+
+Use something conceptually equivalent to:
+
+    LLM_PROVIDER=openai
+    OPENAI_MODEL=gpt-5.6-sol
+    OPENAI_API_KEY=...
+    OPENAI_BASE_URL=...
+    OPENAI_TIMEOUT=...
+
+If this project is configured for Azure AI Foundry rather than the
+standard OpenAI endpoint, preserve the project's existing Azure
+authentication/deployment mechanism and adapt the provider correctly.
+
+DO NOT invent environment variable names if the repository already
+has an established API configuration convention.
+
+Inspect the current Astra/OpenAI configuration and reuse the
+appropriate authenticated endpoint pattern.
+
+IMPORTANT:
+
+The healthcare application must NEVER receive Astra coding tools.
+
+Do not expose:
+
+    list_file
+    read_file
+    write_file
+    run_command
+
+or any other coding-agent tool to GPT-5.6-Sol.
+
+GPT-5.6-Sol is ONLY a healthcare reasoning backend.
+
+============================================================
+5. RESPONSES API ADAPTER
+============================================================
+
+Create a clean provider abstraction.
+
+For example:
+
+    rag/llm/provider.py
+
+or use the project's existing provider location if one already exists.
+
+The interface should support the operations actually required by
+the agents.
+
+For example:
+
+    generate(...)
+    generate_structured(...)
+
+Do not over-engineer this.
+
+The provider must:
+
+    1. send the healthcare prompt to GPT-5.6-Sol
+    2. receive the response
+    3. extract the model's text/output
+    4. validate structured output
+    5. return the normalized result expected by the existing agents
+    6. raise controlled errors on API failures
+    7. preserve existing fail-closed behavior
+
+If structured JSON/Pydantic output is already used, preserve it.
+
+Do NOT weaken validation just because the backend changed.
+
+============================================================
+6. KEEP ALL EXISTING HEALTHCARE AGENTS
+============================================================
+
+Do NOT remove or redesign the existing agents.
+
+The following logical stages must remain:
+
+    Patient / EHR Agent
+    Diagnostic Agent
+    Clinical Critic
+
+Each must use GPT-5.6-Sol through the new provider.
+
+There must NOT be separate model implementations inside individual
+agents.
+
+Bad:
+
+    PatientAgent → Ollama
+    DiagnosticAgent → GPT
+    Critic → Ollama
+
+Correct:
+
+    PatientAgent ───────┐
+    DiagnosticAgent ────┼──> GPTProvider → GPT-5.6-Sol
+    ClinicalCritic ─────┘
+
+The agents should remain logically isolated through their structured
+handoffs.
+
+Do not give an agent unrestricted access to another agent's raw
+conversation history unless the existing architecture explicitly
+requires it.
+
+============================================================
+7. KEEP BOTH RAG SYSTEMS WORKING
+============================================================
+
+DO NOT remove or replace the existing RAG systems.
+
+Patient Case RAG must continue to use:
+
+    DDXPlus training cases
+    existing Qdrant patient collection
+    existing embedding model
+    existing retrieval implementation
+
+Medical Knowledge RAG must continue to use:
+
+    existing medical knowledge corpus
+    existing Qdrant medical_knowledge collection
+    existing embedding model
+    existing retrieval implementation
+
+The RAG systems are NOT LLM providers.
+
+They should retrieve evidence and return structured/provenance-rich
+results to the agents.
+
+The flow must remain:
+
+    Patient
+       ↓
+    Patient Agent
+       ↓
+    Patient Case RAG
+       +
+    Medical Knowledge RAG
+       ↓
+    Diagnostic Agent
+       ↓
+    Clinical Critic
+
+Do not accidentally connect either RAG to GPT merely for embedding
+or retrieval unless the existing architecture explicitly requires it.
+
+============================================================
+8. DO NOT CHANGE THE DATASET
+============================================================
+
+Keep DDXPlus exactly as the current evaluation dataset.
+
+Do NOT modify:
+
+    patient parsing
+    pathology labels
+    differential diagnosis labels
+    train/validation/test separation
+    leakage protections
+
+Ground-truth diagnosis must remain evaluator-only.
+
+The LLM must NEVER receive the ground-truth:
+
+    PATHOLOGY
+    DIFFERENTIAL_DIAGNOSIS
+
+unless the existing evaluator is explicitly operating after inference.
+
+============================================================
+9. PROMPTS
+============================================================
+
+Keep the existing agent prompts and their intent.
+
+Only make changes necessary for:
+
+    GPT-5.6-Sol compatibility
+    Responses API formatting
+    structured output
+    token/context handling
+
+Do NOT rewrite the medical reasoning methodology.
+
+Do NOT introduce autonomous treatment or prescribing behavior.
+
+Do NOT turn the system into a medical chatbot.
+
+This remains a research prototype for agentic clinical decision support.
+
+============================================================
+10. CONFIGURATION
+============================================================
+
+Replace Ollama-specific configuration with GPT configuration.
+
+Search every configuration file.
+
+Remove things like:
+
+    OLLAMA_BASE_URL=http://localhost:11434
+    OLLAMA_MODEL=...
+    OLLAMA_TIMEOUT=...
+    OLLAMA_TEMPERATURE=...
+
+Replace with the project's appropriate OpenAI/Azure variables.
+
+Use:
+
+    GPT-5.6-Sol
+
+as the default model.
+
+Temperature should remain 0 if the current experiment uses deterministic
+generation.
+
+If the Responses API/provider does not support a parameter in exactly
+the same form, adapt it correctly rather than blindly passing it.
+
+Do not hardcode the API key.
+
+============================================================
+11. DEPENDENCIES
+============================================================
+
+Inspect requirements files and pyproject configuration.
+
+Remove Ollama dependencies if they exist.
+
+Examples:
+
+    ollama
+    ollama-python
+
+Do NOT remove unrelated dependencies.
+
+Keep:
+
+    qdrant
+    sentence-transformers
+    pydantic
+    OpenAI/Azure SDK
+    existing RAG dependencies
+
+as required by the project.
+
+============================================================
+12. TESTS
+============================================================
+
+Update tests so they test the new architecture.
+
+Remove Ollama-specific tests.
+
+Add/update tests for:
+
+    OpenAIProvider
+    GPT-5.6-Sol configuration
+    Responses API response extraction
+    structured output parsing
+    provider error handling
+    agent/provider integration
+    RAG → agent handoff
+    diagnostic result validation
+    clinical critic validation
+
+IMPORTANT:
+
+Tests should NOT make real API calls by default.
+
+Use mocked provider responses for unit tests.
+
+Create ONE explicit opt-in integration test for the real GPT backend,
+if the existing project already uses integration-test conventions.
+
+Never require an API key for the normal test suite.
+
+============================================================
+13. REAL END-TO-END TEST
+============================================================
+
+After the code migration is complete, run the existing test suite.
+
+Then perform ONE real end-to-end validation case using:
+
+    Model: GPT-5.6-Sol
+    Patient: one DDXPlus validation patient
+    Patient RAG top-k: 1
+    Medical RAG top-k: 1
+    Temperature: 0
+    Sequential execution
+    No Phase 5
+    No HITL
+    No multi-model ensemble
+
+Execute:
+
+    Patient/EHR Agent
+        ↓
+    Patient Case RAG
+        ↓
+    Medical Knowledge RAG
+        ↓
+    Diagnostic Agent
+        ↓
+    Clinical Critic
+        ↓
+    Evaluator
+
+Record:
+
+    API success
+    Patient Agent success
+    Patient RAG success
+    Medical RAG success
+    Diagnostic Agent success
+    Clinical Critic success
+    structured-output validity
+    diagnosis match
+    top-k match
+    retrieval provenance
+    critic findings
+    latency
+    token usage if available
+    errors
+
+IMPORTANT:
+
+Do NOT interpret a failed API request as a medical-model failure.
+
+Distinguish:
+
+    API failure
+    provider failure
+    parsing failure
+    agent failure
+    retrieval failure
+    evaluation failure
+    actual diagnostic mismatch
+
+============================================================
+14. NO GEMMA / QWEN / OLLAMA DURING THIS TEST
+============================================================
+
+For this migration test:
+
+DO NOT run:
+
+    Gemma
+    Qwen
+    Ollama
+    local LLMs
+
+The only generation backend must be:
+
+    GPT-5.6-Sol
+
+============================================================
+15. DOCUMENTATION
+============================================================
+
+Update all relevant documentation.
+
+Search README and docs for:
+
+    Ollama
+    Gemma
+    Qwen
+    local LLM
+    localhost:11434
+    Ollama setup
+    Ollama commands
+
+Remove obsolete instructions.
+
+Document the new architecture:
+
+    GPT-5.6-Sol
+          ↓
+    OpenAI/Azure Responses API
+          ↓
+    Patient Agent
+    Diagnostic Agent
+    Clinical Critic
+
+Document that:
+
+    RAG remains local
+    Qdrant remains local
+    DDXPlus remains local
+    embeddings remain local
+    only LLM generation is cloud/API-backed
+
+Document required environment variables WITHOUT exposing secrets.
+
+Do not claim clinical effectiveness.
+
+State that DDXPlus is synthetic and that this is a research prototype.
+
+============================================================
+16. SEARCH AGAIN AFTER MIGRATION
+============================================================
+
+After implementation, perform a repository-wide search for:
+
+    ollama
+    Ollama
+    ollama-python
+    OLLAMA_
+    localhost:11434
+    11434
+    OllamaProvider
+    Gemma
+    gemma3
+    Qwen
+    qwen3
+    local LLM
+
+Classify every remaining occurrence.
+
+There should be ZERO production-code references to Ollama.
+
+If documentation contains historical references, remove them unless
+they are genuinely necessary historical notes.
+
+Do NOT leave dead compatibility code.
+
+============================================================
+17. VERIFY NO OLLAMA RUNTIME
+============================================================
+
+The final healthcare application must not:
+
+    start Ollama
+    connect to localhost:11434
+    invoke Ollama HTTP APIs
+    load a local generation model
+    require Ollama to run
+
+The only generation request should go to the configured
+GPT-5.6-Sol API endpoint.
+
+If Ollama happens to be installed on the computer, that is irrelevant.
+
+We are removing Ollama as a PROJECT DEPENDENCY, not necessarily
+uninstalling the user's system-wide Ollama application.
+
+DO NOT uninstall software from Windows.
+
+============================================================
+18. PRESERVE RAG DATA
+============================================================
+
+Do NOT delete:
+
+    data/ddxplus/
+    data/qdrant/patient_cases/
+    data/qdrant/medical_knowledge/
+
+Do NOT rebuild or modify the indexes unnecessarily.
+
+Verify:
+
+    patient collection still exists
+    medical collection still exists
+    vector counts are unchanged
+    payload structure is unchanged
+
+The backend migration must not corrupt RAG data.
+
+============================================================
+19. REGRESSION CHECK
+============================================================
+
+Run:
+
+    full unit test suite
+    Phase 2 tests
+    Phase 3 tests
+    Phase 4 tests
+    leakage tests
+    provider tests
+    integration test if explicitly enabled
+
+Also run:
+
+    git diff --check
+
+Check Python syntax/imports.
+
+Check for:
+
+    circular imports
+    stale Ollama references
+    stale model configuration
+    unused imports
+    broken environment-variable names
+    broken documentation commands
+
+============================================================
+20. DO NOT MAKE UNRELATED CHANGES
+============================================================
+
+Do NOT:
+
+    redesign the entire architecture
+    implement Phase 5
+    implement HITL
+    implement medication agents
+    implement autonomous prescribing
+    change RAG algorithms
+    change datasets
+    fine-tune models
+    add multimodal imaging
+    add a second LLM
+    add an ensemble
+    optimize unrelated code
+
+This task is ONLY:
+
+    Ollama → GPT-5.6-Sol
+
+while preserving the existing healthcare architecture.
+
+============================================================
+21. FINAL REPORT
+============================================================
+
+When finished, report:
+
+1. Files modified
+2. Files deleted
+3. Ollama references removed
+4. Ollama dependencies removed
+5. New GPT provider location
+6. GPT-5.6-Sol configuration
+7. Agents migrated
+8. RAG systems verified
+9. Tests passed
+10. Real end-to-end result
+11. Any remaining Ollama references and why they remain
+12. Exact command used to run the Phase 4 validation
+13. Any problems encountered
+
+Use this final status format:
+
+    OLLAMA REMOVAL: PASS/FAIL
+    GPT PROVIDER: PASS/FAIL
+    PATIENT AGENT: PASS/FAIL
+    PATIENT RAG: PASS/FAIL
+    MEDICAL RAG: PASS/FAIL
+    DIAGNOSTIC AGENT: PASS/FAIL
+    CLINICAL CRITIC: PASS/FAIL
+    E2E PIPELINE: PASS/FAIL
+    TEST SUITE: X passed / Y failed
+    RAG DATA INTEGRITY: PASS/FAIL
+    OLLAMA RUNTIME REFERENCES: 0 / N
+    READY FOR NEXT PHASE: YES/NO
+
+CRITICAL FINAL CONDITION:
+
+The project must have ONE healthcare generation backend:
+
+    GPT-5.6-Sol
+
+There must be NO Ollama fallback.
+
+Do not declare success until you have actually searched the entire
+repository and verified the migration.

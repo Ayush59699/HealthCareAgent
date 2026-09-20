@@ -1,0 +1,59 @@
+Deployment info
+Name
+gpt-5.6-sol
+Deployment type
+GlobalStandard
+Provisioning state
+Succeeded
+Version upgrade policy
+OnceNewDefaultVersionAvailable
+Spillover deployment
+N/A
+Priority processing
+N/A
+Created on
+Sep 21, 2026, 1:41 AM
+Last modified on
+Sep 21, 2026, 1:41 AM
+Create By
+singhrajan95858@gmail.com
+Modified by
+singhrajan95858@gmail.com
+Tokens per Minute Rate Limit
+500000
+Requests per Minute Rate Limit
+500
+Model name
+gpt-5.6-sol
+Model version
+2026-07-09
+Lifecycle status
+GenerallyAvailable
+Date created
+Jul 9, 2026, 5:30 AM
+Date updated
+Jul 9, 2026, 5:30 AM
+Retirement date
+Jan 11, 2028, 5:30 AM
+Model guardrails
+Name
+DefaultV2
+
+sample calling method:
+from openai import OpenAI
+
+endpoint = "https://meeting-summarizer-ai.services.ai.azure.com/openai/v1"
+deployment_name = "gpt-5.6-sol"
+api_key = "<your-api-key>"
+
+client = OpenAI(
+    base_url=endpoint,
+    api_key=api_key
+)
+
+response = client.responses.create(
+    model=deployment_name,
+    input="What is the capital of France?",
+)
+
+print(f"answer: {response.output[0]}")

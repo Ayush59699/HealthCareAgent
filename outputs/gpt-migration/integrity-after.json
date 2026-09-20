@@ -1,0 +1,53 @@
+{
+  "ddxplus_patient_cases": {
+    "count": 1000,
+    "payload_keys": [
+      [
+        "patient_id",
+        "source",
+        "split",
+        "text"
+      ]
+    ],
+    "content_sha256": "6d3e80193bd098f7e8e3d5698cd5ce2b3b8d7c2e68ad245fa08132116f4401e2"
+  },
+  "medical_knowledge": {
+    "count": 87,
+    "payload_keys": [
+      [
+        "chunk_id",
+        "chunk_index",
+        "chunking_version",
+        "document_id",
+        "document_type",
+        "doi",
+        "license",
+        "pmcid",
+        "pmid",
+        "provenance",
+        "publication_date",
+        "source",
+        "text",
+        "title",
+        "url"
+      ]
+    ],
+    "content_sha256": "92aac0f6bf3d68b941a0a1df9a0c89835dd0d57e3ea718560f94a9809973578b"
+  },
+  "protected_source_hashes": {
+    "rag/patient_parser.py": "84cd5b25bb4aedbfc5aacd1624db178d1a4196cd6a81d02b7c7615cb50d99344",
+    "rag/models.py": "5e1c43f93d64c10551a089ae0a7eb9548e215163ca6b10f6bac6e31fda37e48e",
+    "rag/embeddings.py": "53bfeeb648a6ca153a27c71927a6c9920ef14065f31dc73ea6ca64ef2ee8d9b8",
+    "rag/medical_embeddings.py": "5d6385b9ed0d8e2fd06e8b62733a91fb1fd7ed55f6ee352ca752207fce98b1f3",
+    "rag/patient_rag.py": "863259d3207b960a474f589408dcf82697d1f26e38ba2acf3cfb21e3773fcb02",
+    "rag/patient_retriever.py": "9c9da086553d289f34b359f53f5a1b3014028016dcfac1b83e461ca997e16f48",
+    "rag/medical_retriever.py": "9cc49cb850947c257197005116960684220031d78b4807e88bf539069b10d7c3",
+    "rag/vector_store.py": "87cf106b8df0d461522c11d95ba4510522b3a74bd3831d66550c84818c46b34a",
+    "rag/medical_vector_store.py": "000d1f3500a7168b7989f70ce88bb392a7a57602f59a491f45688a8a151b5b99",
+    "rag/patient_ingestion.py": "5d151c0578b303b2e29871cc728d77db9ff25c2e36f1f97d19a9c7d09614a3d3",
+    "rag/patient_audit.py": "e9ba7bf776b26decf050ccc1b3bff0c7503be0c16d0d03850b2311fe32d41f3f",
+    "rag/agents/grounding.py": "51a3324dab9841b5a62fd31b215555f905b73ac3a0d682584b29f748bb8532bd",
+    "rag/agents/models.py": "aa833a5b0b69937c178011dcd4943a21a9d3c39bfcf8c9e7d33c4a79301a44b3",
+    "rag/phase4_evaluation.py": "3477d5c8c032a769163de22b22703a5670b00c736e3f03faeba808b7d44282f4"
+  }
+}

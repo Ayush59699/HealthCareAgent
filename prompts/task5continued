@@ -1,0 +1,395 @@
+TASK: FIX THE DIAGNOSTIC ABSTENTION / GROUNDING CONTRACT
+
+We have completed the diagnostics-only investigation.
+
+ROOT CAUSE:
+The Diagnostic Agent can legitimately abstain:
+
+    primary_hypothesis = null
+    differential_diagnoses = []
+
+while still listing retrieved evidence IDs in:
+
+    patient_case_evidence
+    medical_knowledge_evidence
+
+The existing grounding validator derives `used` evidence ONLY from
+structured hypothesis claims:
+
+    claims(output)
+        -> rationale
+        -> supporting_evidence
+        -> contradicting_evidence
+        -> evidence_refs
+
+When there are no hypotheses:
+
+    used = empty set
+
+The validator then requires:
+
+    patient_case_evidence == []
+    medical_knowledge_evidence == []
+
+Therefore the current model output violates the existing evidence
+inventory invariant.
+
+IMPORTANT:
+This is NOT a reason to weaken grounding validation.
+
+Do NOT:
+- remove validate_references()
+- weaken evidence checks
+- accept unsupported diagnoses
+- count arbitrary uncertainty prose as clinical evidence claims
+- bypass the validator
+- remove source-category validation
+- remove unknown-reference validation
+- alter the RAG collections
+- inject ground truth
+- hardcode a diagnosis
+- change the patient
+- change the medical corpus
+- disable safety checks
+
+Instead, make the abstention contract explicit.
+
+============================================================
+1. INSPECT CURRENT IMPLEMENTATION
+============================================================
+
+Inspect:
+
+    rag/agents/models.py
+    rag/agents/grounding.py
+    rag/agents/clinical.py
+    rag/llm/provider.py
+    current diagnostic prompt construction
+    existing tests
+
+Do not make assumptions.
+
+Preserve the existing architecture.
+
+============================================================
+2. DEFINE THE ABSTENTION CONTRACT
+============================================================
+
+When:
+
+    primary_hypothesis is None
+
+AND:
+
+    differential_diagnoses is empty
+
+then:
+
+    patient_case_evidence MUST be []
+    medical_knowledge_evidence MUST be []
+
+because there are no structured clinical claims using those sources.
+
+Evidence may still be discussed in:
+
+    uncertainty
+    missing_information
+    reasoning_summary
+
+but those prose fields MUST NOT be interpreted as structured
+clinical evidence references.
+
+Do NOT change the existing meaning of `used`.
+
+============================================================
+3. FIX THE PROMPT CONTRACT
+============================================================
+
+Update the Diagnostic Agent prompt so the model is explicitly told:
+
+IF YOU ABSTAIN:
+
+    primary_hypothesis = null
+    differential_diagnoses = []
+
+    patient_case_evidence = []
+    medical_knowledge_evidence = []
+
+Retrieved evidence may be discussed in uncertainty, but an evidence
+ID belongs in the structured evidence inventory only when it is
+actually referenced by a structured diagnostic hypothesis claim.
+
+Do not tell the model to manufacture a hypothesis merely to cite
+retrieved evidence.
+
+ABSTENTION MUST REMAIN A VALID OUTCOME.
+
+============================================================
+4. CONSIDER SCHEMA-LEVEL VALIDATION
+============================================================
+
+Inspect whether the Pydantic model can express this invariant cleanly.
+
+If an appropriate model-level validation is useful, it may enforce:
+
+    no hypotheses
+        =>
+    evidence inventories empty
+
+But do not duplicate logic unnecessarily if the existing grounding
+validator is the correct single source of truth.
+
+Prefer the smallest clean change.
+
+============================================================
+5. DO NOT CHANGE THE GROUNDING SAFETY MODEL
+============================================================
+
+The existing rule:
+
+    evidence inventories == evidence references used by claims
+
+must remain intact.
+
+Do not make uncertainty citations count as clinical claims.
+
+Do not loosen exact inventory equality.
+
+============================================================
+6. ADD REGRESSION TESTS
+============================================================
+
+Add tests for at least these cases:
+
+TEST A:
+Valid abstention:
+
+    primary_hypothesis = None
+    differential_diagnoses = []
+    patient_case_evidence = []
+    medical_knowledge_evidence = []
+
+Expected:
+PASS
+
+TEST B:
+Invalid abstention with patient evidence:
+
+    primary_hypothesis = None
+    differential_diagnoses = []
+    patient_case_evidence = ["valid-case-id"]
+    medical_knowledge_evidence = []
+
+Expected:
+FAIL grounding validation
+
+TEST C:
+Invalid abstention with medical evidence:
+
+    primary_hypothesis = None
+    differential_diagnoses = []
+    patient_case_evidence = []
+    medical_knowledge_evidence = ["valid-medical-id"]
+
+Expected:
+FAIL grounding validation
+
+TEST D:
+Valid hypothesis with patient evidence:
+
+    hypothesis claim references valid patient case ID
+    inventory contains same ID
+
+Expected:
+PASS
+
+TEST E:
+Valid hypothesis with medical evidence:
+
+    hypothesis claim references valid medical ID
+    inventory contains same ID
+
+Expected:
+PASS
+
+TEST F:
+Hypothesis claim references evidence but inventory omits it.
+
+Expected:
+FAIL
+
+TEST G:
+Inventory contains evidence not referenced by any claim.
+
+Expected:
+FAIL
+
+TEST H:
+Unknown evidence ID.
+
+Expected:
+FAIL
+
+TEST I:
+Wrong source-category ID.
+
+Expected:
+FAIL
+
+Preserve all existing grounding tests.
+
+============================================================
+7. RUN THE FULL TEST SUITE
+============================================================
+
+Run:
+
+    .venv\Scripts\python.exe -m unittest discover -s healthcare-agentic-ai/tests -t healthcare-agentic-ai -v
+
+Expected:
+
+    existing tests remain passing
+    new abstention tests pass
+
+Do not modify unrelated tests.
+
+============================================================
+8. RUN ONE REAL GPT-5.6-SOL VALIDATION
+============================================================
+
+After tests pass, run exactly ONE fresh live validation.
+
+Use:
+
+    gpt-5.6-sol
+
+Use the same validation patient:
+
+    ddxplus:validate:1
+
+Use:
+
+    patient RAG top-k = 1
+    medical RAG top-k = 1
+
+Do NOT run Ollama.
+
+Do NOT run Gemma.
+
+Do NOT change RAG indexes.
+
+Do NOT run multiple patients.
+
+Do NOT add HITL yet.
+
+Do NOT proceed to Phase 5.
+
+============================================================
+9. IMPORTANT: DO NOT FORCE A DIAGNOSIS
+============================================================
+
+If GPT-5.6-Sol abstains again, that is acceptable.
+
+The expected successful behavior is:
+
+    Patient Agent
+        ↓
+    Patient RAG
+        ↓
+    Medical RAG
+        ↓
+    Diagnostic Agent
+        ↓
+    valid DiagnosticResult
+        ↓
+    grounding validation PASS
+        ↓
+    Clinical Critic executes
+
+If GPT produces a grounded hypothesis, validate it normally.
+
+If GPT abstains, validate the abstention normally.
+
+The goal is NOT to make the model produce a diagnosis.
+
+The goal is to make a valid abstention pass the existing safety
+contract.
+
+============================================================
+10. IMPORTANT: CLINICAL CRITIC
+
+Only execute Clinical Critic if DiagnosticResult passes validation.
+
+Do not bypass the diagnostic validation simply to reach the critic.
+
+If Diagnostic Agent passes with an abstention, inspect whether the
+Clinical Critic correctly accepts an abstaining DiagnosticResult.
+
+If Clinical Critic rejects it, STOP and report the exact reason.
+Do not modify the critic in this task unless the failure is directly
+caused by the same abstention contract and can be fixed minimally.
+
+============================================================
+11. RAG QUALITY OBSERVATION
+
+Do NOT change the RAG system in this task.
+
+Record separately that the medical RAG top-1 result in the diagnostic
+investigation had similarity approximately 0.689855 and was a PMC
+transplant/BK-polyomavirus article that the model itself considered
+irrelevant to the current patient.
+
+This is a retrieval-quality observation for later evaluation.
+
+It is NOT a reason to weaken grounding.
+
+============================================================
+12. OLLAMA REMOVAL MUST REMAIN COMPLETE
+
+Verify:
+
+    no Ollama runtime calls
+    no Ollama provider
+    no Ollama imports
+    no Ollama environment variables required by healthcare runtime
+    no Ollama fallback
+
+GPT-5.6-Sol remains the sole healthcare LLM backend.
+
+Do not reintroduce Ollama.
+
+============================================================
+13. FINAL REPORT
+
+Report:
+
+    Files modified
+    Exact contract change
+    Tests added
+    Full test results
+    GPT-5.6-Sol live result
+    Patient Agent result
+    Patient RAG result
+    Medical RAG result
+    Diagnostic Agent result
+    Grounding result
+    Clinical Critic result
+    E2E result
+    RAG counts/fingerprints
+    Ollama runtime reference count
+
+Clearly distinguish:
+
+    valid abstention
+    grounded diagnosis
+    grounding failure
+    diagnostic correctness
+
+Do NOT report an abstention as a diagnostic error.
+
+FINAL REQUIREMENTS:
+
+    Grounding validation weakened: NO
+    Ground-truth leakage: NO
+    RAG data modified: NO
+    Ollama reintroduced: NO

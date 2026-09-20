@@ -1,0 +1,286 @@
+PHASE 4 — FINAL CONTROLLED MEMORY-ORDER EXPERIMENT
+
+Read the complete report:
+
+healthcare-agentic-ai/outputs/phase4/memory-investigation/REPORT.md
+
+The previous investigation is COMPLETE and must be treated as the baseline.
+
+IMPORTANT BASELINE RESULTS
+
+- Total physical RAM: ~15.342 GiB.
+- Gemma 3 4B:
+  - context = 8192
+  - temperature = 0
+  - output limit = 2048
+  - load-only additional system RAM ≈ 2.69 GiB
+  - peak load-only physical usage ≈ 72.6%
+  - minimum available ≈ 4.2 GiB
+  - peak llama-server RSS ≈ 2.73 GiB
+- Both RAG systems:
+  - Patient corpus = 1000 vectors
+  - Medical corpus = 87 vectors
+  - dimension = 384
+  - two independent BGE-small-en-v1.5 models
+  - combined tensor storage ≈ 254.5 MiB
+  - total RAG Python RSS ≈ 731 MiB
+- SentenceTransformers import alone added ≈335 MiB RSS.
+- Qdrant retained vector/payload data is only ≈5.6 MiB.
+- Therefore Qdrant corpus size is NOT the main memory problem.
+- Closing stores without dropping references does not release the embedding/RAG objects.
+- Dropping references + GC released ≈282 MiB RSS.
+- Historical Phase 4 RAG-first → Gemma pipeline:
+  - peak ≈91%
+  - minimum available ≈1.288 GiB.
+- Historical direct Gemma:
+  - peak ≈85%
+  - minimum available ≈2.165 GiB.
+- Difference ≈898 MiB.
+- This difference is NOT proven to be entirely caused by RAGs; background workload, loading transients, context size and sampling differed.
+- Production files, tests and existing documentation were unchanged.
+- 62 protected files were hash-verified.
+- Original Qdrant indexes were hash-verified unchanged.
+- Tests: 117 passed, 1 opt-in integration skipped.
+- Ollama was unloaded after the investigation.
+- Phase 5 has NOT started.
+
+TASK
+
+Perform ONE and ONLY ONE controlled load-order experiment.
+
+DO NOT modify production code.
+
+DO NOT modify prompts.
+
+DO NOT modify schemas.
+
+DO NOT modify RAG implementations.
+
+DO NOT modify Qdrant data.
+
+DO NOT modify evaluation.
+
+DO NOT run healthcare inference.
+
+DO NOT run a patient.
+
+DO NOT call PatientAgent.
+
+DO NOT call DiagnosticAgent.
+
+DO NOT call ClinicalCritic.
+
+DO NOT perform retrieval.
+
+DO NOT perform embedding encode/query operations.
+
+DO NOT run Phase4Pipeline.run().
+
+DO NOT start Phase 5.
+
+DO NOT load Qwen.
+
+DO NOT load any model larger than gemma3:4b.
+
+The experiment must be diagnostic only.
+
+==================================================
+EXPERIMENT A — EXISTING BASELINE
+==================================================
+
+Use the same guarded, disposable approach as the previous investigation.
+
+Condition A:
+
+1. Verify no Ollama model is loaded.
+2. Record initial system memory.
+3. Initialize Patient Case RAG.
+4. Initialize Medical Knowledge RAG.
+5. Record memory.
+6. Load Gemma 3 4B only, with:
+   - context = 8192
+   - num_predict = 2048
+   - temperature = 0
+   - seed = 42
+7. Use the same EMPTY-PROMPT / LOAD-ONLY mechanism as the previous diagnostic.
+8. Do NOT generate text.
+9. Record:
+   - system RAM
+   - available RAM
+   - physical load percentage
+   - Python RSS
+   - llama-server RSS
+   - Ollama model state
+10. Unload Gemma.
+11. Close/drop RAG resources.
+12. GC.
+13. Verify cleanup.
+
+==================================================
+EXPERIMENT B — GEMMA FIRST
+==================================================
+
+Use a fresh process/session and comparable starting memory.
+
+Condition B:
+
+1. Verify no Ollama model is loaded.
+2. Record initial system memory.
+3. Load Gemma 3 4B FIRST using exactly:
+   - context = 8192
+   - num_predict = 2048
+   - temperature = 0
+   - seed = 42
+4. Use the same EMPTY-PROMPT / LOAD-ONLY mechanism.
+5. Do NOT generate text.
+6. Confirm exactly one Gemma model is loaded.
+7. Record memory after Gemma load.
+8. ONLY NOW initialize Patient Case RAG.
+9. ONLY NOW initialize Medical Knowledge RAG.
+10. Do NOT perform retrieval or embedding queries.
+11. Record memory after each RAG initialization.
+12. Record peak memory throughout the experiment.
+13. Close/drop both RAGs.
+14. GC.
+15. Unload Gemma.
+16. Verify final Ollama model count = zero.
+
+==================================================
+SAFETY
+==================================================
+
+Keep the previous safety policy.
+
+Hard stop:
+- >=90% physical RAM
+OR
+- <1.5 GiB available RAM
+
+Conservative early stop:
+- >=85% physical RAM
+OR
+- <2 GiB available RAM
+
+Also require sufficient initial headroom before starting.
+
+Never terminate arbitrary Windows applications.
+
+Never disable:
+- Windows Defender/security
+- Windows services
+- HP services
+- IDEs
+- system processes
+
+Only terminate processes created by this diagnostic harness if cleanup becomes necessary.
+
+If the safety threshold is approached:
+STOP immediately, unload Gemma, terminate only diagnostic child processes, clean up, and report the stop condition.
+
+==================================================
+MEASURE
+==================================================
+
+For BOTH conditions, record:
+
+- starting available RAM
+- RAM before first major allocation
+- RAM after Gemma load
+- RAM after Patient RAG initialization
+- RAM after Medical RAG initialization
+- peak physical RAM usage
+- minimum available RAM
+- peak llama-server RSS
+- peak diagnostic Python RSS
+- loaded model state
+- final cleanup state
+
+Use approximately 0.2-second sampling where practical.
+
+Do not claim that sampled peak is the absolute instantaneous peak.
+
+==================================================
+COMPARISON
+==================================================
+
+Produce a concise machine-readable JSON result and a human-readable report.
+
+Calculate:
+
+1. Peak physical-load difference:
+   B − A
+
+2. Minimum-available-RAM difference:
+   B − A
+
+3. llama-server RSS difference.
+
+4. Python/RAG RSS difference.
+
+5. Starting-memory difference between A and B.
+
+IMPORTANT:
+
+Do NOT compare raw peaks without accounting for starting-memory differences.
+
+If starting memory differs materially between A and B, explicitly mark the comparison as confounded and DO NOT claim that one ordering is definitively better.
+
+Do NOT infer causality beyond what the experiment measures.
+
+==================================================
+INTEGRITY
+==================================================
+
+Before the experiment:
+
+- Hash all protected production/test/documentation files.
+- Use disposable copies of both Qdrant stores.
+- Never write to the original indexes.
+
+After the experiment:
+
+- Hash protected files again.
+- Confirm no production/test/documentation files changed.
+- Confirm original Qdrant files remain byte-identical.
+- Confirm final Ollama model count = 0.
+- Confirm all diagnostic child processes exited.
+
+Run the existing test suite unchanged after cleanup.
+
+Do not rewrite tests.
+
+Do not change production code.
+
+==================================================
+OUTPUT
+==================================================
+
+Create only temporary diagnostic artifacts under:
+
+healthcare-agentic-ai/outputs/phase4/memory-investigation/
+
+Create:
+
+- order-experiment.py
+- order-experiment.json
+- ORDER-EXPERIMENT-REPORT.md
+- relevant sanitized logs/timeline files
+
+Do not modify existing production files.
+
+The final report must answer only:
+
+1. What was the starting memory for A and B?
+2. What was the peak memory for A and B?
+3. What was the minimum available RAM for A and B?
+4. What was the llama-server RSS for A and B?
+5. What was the Python/RAG RSS for A and B?
+6. Did changing initialization order measurably reduce the memory peak?
+7. Was the comparison sufficiently controlled?
+8. Is there enough evidence to justify changing production initialization order?
+
+Do NOT implement any optimization even if the result looks favorable.
+
+STOP after this experiment.
+
+Do not proceed to Phase 4 inference or Phase 5.

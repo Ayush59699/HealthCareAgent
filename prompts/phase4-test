@@ -1,0 +1,230 @@
+PHASE 4 — FINAL CONTROLLED E2E VALIDATION
+DO NOT START PHASE 5
+
+We need to finish and validate the current Phase 4 implementation before moving on.
+
+IMPORTANT CONTEXT:
+- Phase 4 implementation is already largely complete.
+- Do NOT redesign the architecture.
+- Do NOT add LangGraph.
+- Do NOT add Human-in-the-Loop yet.
+- Do NOT add Gemma yet.
+- Do NOT add fine-tuning.
+- Do NOT add new agents.
+- Do NOT modify Phase 1–3 RAG implementations unless a clear regression is discovered.
+- Do NOT run agents concurrently.
+- Use only the existing local Qwen3 model through Ollama.
+- The current model is:
+  qwen3:8b-q4_K_M
+- Previous validation:
+  - 32/32 Phase 4 tests passed
+  - 110 full-project tests passed, 1 skipped
+  - Ollama/Qwen smoke test passed
+  - Patient RAG regression passed
+  - Medical RAG regression passed
+  - Ground-truth leakage tests passed
+- The remaining problem is REAL E2E execution:
+  Patient Agent succeeded, both RAGs succeeded, but Diagnostic Agent exceeded the 300-second timeout.
+  Clinical Critic therefore never executed.
+- This is a performance/timeout issue, NOT evidence that the diagnostic result was incorrect.
+
+GOAL:
+Run ONE controlled real Phase 4 end-to-end validation case successfully.
+
+STEP 1 — INSPECT BEFORE MODIFYING
+Inspect:
+- Phase 4 runner
+- Ollama client
+- Patient Agent
+- Diagnostic Agent
+- Clinical Critic
+- Phase 4 configuration/environment variables
+- existing Phase 4 tests
+- existing Phase 4 validation/reporting scripts
+
+Do not rewrite working code.
+
+STEP 2 — FIRST EXPERIMENT: ONLY INCREASE TIMEOUT
+For this experiment, preserve the existing prompts, architecture, retrieval settings, model, and output schemas.
+
+Set:
+
+OLLAMA_TIMEOUT=900
+
+Use:
+- one validation patient only
+- top_k=1 for Patient Case RAG
+- top_k=1 for Medical Knowledge RAG
+- temperature=0
+- sequential execution
+- no concurrent model calls
+- existing Qwen3 8B Q4_K_M
+- existing 32K context configuration if already supported
+
+Do NOT change the Diagnostic Agent prompt in this first experiment.
+
+The purpose is to determine whether the previous 300-second timeout was simply too short.
+
+STEP 3 — RUN THE REAL PIPELINE
+Run the existing Phase 4 real validation script with exactly ONE validation case.
+
+Pipeline must be:
+
+Validation patient
+→ Patient Agent
+→ Patient Case RAG
+→ Medical Knowledge RAG
+→ Diagnostic Agent
+→ Clinical Critic
+
+Do not pass DDXPlus PATHOLOGY, DIFFERENTIAL_DIAGNOSIS, or any other ground-truth label to any agent.
+
+Ground truth may only be loaded by the evaluator AFTER inference is complete.
+
+STEP 4 — CAPTURE TIMINGS
+Record wall-clock duration separately for:
+
+- Patient Agent
+- Patient Case RAG
+- Medical Knowledge RAG
+- Diagnostic Agent
+- Clinical Critic
+- complete pipeline
+
+Also record:
+- whether each structured Pydantic output was valid
+- number of Ollama attempts/retries
+- model name
+- timeout
+- temperature
+- retrieval top-k
+- number of retrieved patient cases
+- number of retrieved medical chunks
+- whether any context truncation occurred
+
+STEP 5 — DIAGNOSTIC RESULT
+If Diagnostic Agent succeeds:
+
+Verify that the output:
+- conforms to the existing DiagnosticResult schema
+- contains a differential/diagnostic hypothesis
+- cites/retains provenance from BOTH RAG sources where applicable
+- distinguishes patient-case evidence from medical-knowledge evidence
+- does not claim retrieval similarity is diagnostic confidence
+- does not contain invented citations
+- does not contain unsupported medical evidence
+- does not contain DDXPlus ground truth
+
+Do not modify the schema just to make a failing output pass.
+
+STEP 6 — CLINICAL CRITIC
+If Diagnostic Agent succeeds, execute Clinical Critic.
+
+Verify that ClinicalCritique:
+- conforms to its existing schema
+- checks unsupported claims
+- checks contradictions
+- checks missing evidence
+- checks hallucinated evidence
+- checks safety concerns
+- references the diagnostic output rather than hidden ground truth
+- does not receive unrestricted prior chat history
+
+STEP 7 — EVALUATION
+Only after inference is complete, load the DDXPlus ground truth.
+
+Report:
+- primary diagnosis match
+- top-k diagnosis match if applicable
+- whether a valid diagnostic result was produced
+- whether a valid critique was produced
+- evidence provenance
+- unsupported claim flags
+- hallucinated evidence flags
+- safety flags
+
+IMPORTANT:
+If Diagnostic Agent times out again, DO NOT label the diagnosis as wrong.
+
+Instead report:
+
+"Diagnostic Agent did not produce an accepted DiagnosticResult within the configured timeout; therefore diagnostic correctness was not measurable for this run."
+
+Then stop and analyze the bottleneck.
+
+STEP 8 — IF 900 SECONDS STILL TIMES OUT
+Do NOT immediately increase the timeout again.
+
+Perform a performance diagnosis:
+- measure generated token count if available
+- measure prompt/context size
+- measure generation rate
+- identify whether the delay is prompt processing or token generation
+- inspect whether excessive retrieved text is being passed to Qwen
+- inspect whether the prompt asks for unnecessarily long reasoning/output
+- inspect Ollama logs if available
+
+Then propose the SMALLEST change needed to make the Diagnostic Agent practical on this hardware.
+
+Possible change:
+- reduce unnecessary prompt/context length
+- reduce maximum output tokens
+- require concise structured output
+- preserve all required reasoning/evidence fields without verbose chain-of-thought
+
+Do NOT expose or store hidden chain-of-thought. Store only the structured final reasoning summary/evidence fields already defined by the schema.
+
+Do NOT make changes until documenting the bottleneck.
+
+STEP 9 — TEST REGRESSION
+After any minimal change:
+
+Run:
+- all Phase 4 tests
+- full project test suite
+- real Ollama smoke test
+- Patient RAG regression
+- Medical Knowledge RAG regression
+- ground-truth leakage tests
+
+Expected result:
+No regression in Phase 1–3.
+
+STEP 10 — DOCUMENTATION
+Update docs/phase4.md and the Phase 4 validation report with ONLY actual observed results.
+
+Clearly distinguish:
+- successful tests
+- successful real pipeline stages
+- timeout/performance observations
+- diagnosis correctness
+- limitations
+
+Do not invent accuracy, clinical validity, or performance metrics.
+
+Do not claim clinical effectiveness.
+
+STEP 11 — FINAL REPORT
+At the end report exactly:
+
+1. Files changed
+2. Tests passed/failed/skipped
+3. Real E2E result
+4. Per-agent timings
+5. Ollama configuration used
+6. Retrieval configuration
+7. Whether Diagnostic Agent produced a valid result
+8. Whether Clinical Critic executed
+9. Ground-truth evaluation result, if measurable
+10. Any remaining bottleneck
+11. Whether Phase 4 is now ready for Phase 5
+
+CRITICAL:
+STOP AFTER THIS VALIDATION.
+
+DO NOT IMPLEMENT PHASE 5.
+DO NOT IMPLEMENT HUMAN-IN-THE-LOOP.
+DO NOT IMPLEMENT GEMMA VALIDATION.
+DO NOT IMPLEMENT FINE-TUNING.
+
+We are performing a controlled Phase 4 completion experiment only.

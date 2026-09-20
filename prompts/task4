@@ -1,0 +1,985 @@
+PHASE 4 — LOCAL LLM-POWERED CLINICAL AGENTS
+
+You are working on the existing project:
+
+healthcare-agentic-ai/
+
+Phases 1–3 have already been implemented and validated.
+
+DO NOT rewrite or replace the existing Patient Case RAG or Medical Knowledge RAG implementations.
+
+Your task is to implement PHASE 4: the first LLM-powered clinical-agent layer.
+
+==================================================
+1. FIRST: INSPECT THE EXISTING PROJECT
+==================================================
+
+Before writing code:
+
+1. Inspect the complete current repository structure.
+2. Read:
+   - README.md
+   - docs/architecture.md
+   - docs/validation.md
+   - docs/medical_knowledge.md
+3. Inspect the existing:
+   - DDXPlus parser
+   - Patient Case RAG
+   - Medical Knowledge RAG
+   - configuration
+   - tests
+   - scripts
+   - data structures
+4. Understand the actual APIs/classes already implemented.
+
+Do NOT assume the previous architecture from this prompt is identical to the current code.
+
+Reuse existing components wherever possible.
+
+Do not duplicate:
+- patient parsing
+- embeddings
+- Qdrant configuration
+- patient retrieval
+- medical retrieval
+- dataset loading
+
+If an existing component already performs a function, call it rather than implementing another version.
+
+==================================================
+2. PHASE 4 OBJECTIVE
+==================================================
+
+Implement three isolated LLM-powered software agents using ONE LOCAL MODEL:
+
+    Qwen3 8B
+
+The model is available locally through Ollama.
+
+Expected Ollama model:
+
+    qwen3:8b-q4_K_M
+
+The system must NOT use OpenAI, Anthropic, Gemini, or any cloud LLM API.
+
+Use Ollama's local HTTP API.
+
+The purpose of Phase 4 is to demonstrate that one local LLM can operate as multiple specialized clinical-role agents through separate prompts, contexts, inputs, and structured outputs.
+
+The three agents are:
+
+1. Patient Agent
+2. Diagnostic Agent
+3. Clinical Critic
+
+==================================================
+3. HIGH-LEVEL ARCHITECTURE
+==================================================
+
+Implement this pipeline:
+
+                    DDXPlus Patient
+                          |
+                          v
+                  +---------------+
+                  | Patient Agent |
+                  +---------------+
+                          |
+                          v
+                Structured Patient State
+                          |
+             +------------+------------+
+             |                         |
+             v                         v
+      Patient Case RAG        Medical Knowledge RAG
+             |                         |
+             +------------+------------+
+                          |
+                          v
+                 +----------------+
+                 | Diagnostic     |
+                 | Agent          |
+                 +----------------+
+                          |
+                          v
+                  Diagnostic Output
+                          |
+                          v
+                 +----------------+
+                 | Clinical Critic|
+                 +----------------+
+                          |
+                          v
+                  Critique Output
+
+
+IMPORTANT:
+
+This is NOT yet a fully autonomous multi-agent orchestrator.
+
+Do NOT implement LangGraph or another orchestration framework in Phase 4.
+
+The pipeline may be executed sequentially by a Python runner.
+
+Phase 5 will handle more advanced orchestration.
+
+==================================================
+4. AGENT 1 — PATIENT AGENT
+==================================================
+
+Create a dedicated Patient Agent.
+
+Purpose:
+
+Convert the parsed/raw DDXPlus patient information into a clean, structured patient representation.
+
+The Patient Agent MUST NOT diagnose the patient.
+
+Input:
+
+- patient information produced by the existing Phase 1 parser
+- symptoms/evidences
+- antecedents
+- demographic information
+- initial evidence
+- other inference-safe patient information
+
+Do NOT expose evaluation labels such as:
+
+- PATHOLOGY
+- ground-truth diagnosis
+- hidden evaluation labels
+
+to the Patient Agent.
+
+The agent must only receive information that would legitimately be available during inference.
+
+Output must be structured and machine-readable.
+
+Prefer Pydantic models.
+
+For example:
+
+PatientState:
+    patient_id
+    age
+    sex
+    presenting_evidence
+    symptoms
+    antecedents
+    relevant_findings
+    missing_information
+    uncertainty_notes
+
+Do not force fields that cannot be supported by the input.
+
+Do not allow the model to invent patient information.
+
+Every generated field must be traceable to the input.
+
+If something is unknown, explicitly represent it as unknown rather than guessing.
+
+==================================================
+5. AGENT 2 — DIAGNOSTIC AGENT
+==================================================
+
+Create a dedicated Diagnostic Agent.
+
+Purpose:
+
+Generate a differential diagnosis / diagnostic hypothesis using:
+
+1. Structured Patient State
+2. Patient Case RAG results
+3. Medical Knowledge RAG results
+
+The Diagnostic Agent must NOT directly access hidden DDXPlus evaluation labels.
+
+It must reason only from the inference-time patient information and retrieved evidence.
+
+Before calling the LLM:
+
+A. Run Patient Case RAG using the patient representation/query.
+
+B. Run Medical Knowledge RAG using an appropriate medical-information query.
+
+The existing Phase 2 and Phase 3 retrievers MUST be reused.
+
+Do not create a new embedding model.
+
+Do not create another vector database.
+
+Do not mix the two Qdrant collections.
+
+Clearly distinguish:
+
+PATIENT CASE EVIDENCE
+from
+MEDICAL KNOWLEDGE EVIDENCE.
+
+The Diagnostic Agent should receive retrieved evidence with provenance.
+
+Each retrieval result should preserve available metadata such as:
+
+- source
+- title
+- URL
+- patient_id where applicable
+- document identifiers
+- similarity score
+- chunk text
+
+Do not let similarity scores be interpreted as diagnostic probabilities.
+
+The prompt must explicitly tell the LLM that retrieval similarity is NOT diagnostic confidence.
+
+==================================================
+6. DIAGNOSTIC OUTPUT SCHEMA
+==================================================
+
+Use a strict structured output.
+
+Prefer a Pydantic model similar to:
+
+DiagnosticResult:
+
+    primary_hypothesis:
+        condition
+        rationale
+
+    differential_diagnoses:
+        [
+            {
+                condition
+                rationale
+                supporting_evidence
+                contradicting_evidence
+            }
+        ]
+
+    patient_case_evidence:
+        [...]
+
+    medical_knowledge_evidence:
+        [...]
+
+    missing_information:
+        [...]
+
+    uncertainty:
+        [...]
+
+    unsupported_claims:
+        [...]
+
+    reasoning_summary:
+        ...
+
+The exact schema can be improved after inspecting the existing project.
+
+IMPORTANT:
+
+The LLM must not invent:
+- citations
+- medical papers
+- URLs
+- patient cases
+- clinical facts
+- laboratory results
+- symptoms
+- medications
+- diagnoses
+
+All evidence references must point to retrieved material or patient input.
+
+==================================================
+7. AGENT 3 — CLINICAL CRITIC
+==================================================
+
+Create a separate Clinical Critic Agent.
+
+It uses the SAME Qwen3 8B model initially.
+
+However, it must operate with a DIFFERENT system prompt and an isolated context.
+
+The critic receives:
+
+- Patient State
+- Diagnostic Agent output
+- relevant retrieved evidence
+
+The critic must independently review the diagnostic output.
+
+It should check for:
+
+1. Unsupported clinical claims
+2. Evidence not actually present in retrieval results
+3. Contradictions with patient information
+4. Misinterpretation of retrieved evidence
+5. Missing important evidence
+6. Overconfident conclusions
+7. Unsupported causal reasoning
+8. Hallucinated sources/citations
+9. Differential diagnosis inconsistencies
+10. Safety concerns in the reasoning
+
+The critic must NOT simply agree with the Diagnostic Agent.
+
+It should explicitly identify problems when they exist.
+
+Output a structured object such as:
+
+ClinicalCritique:
+
+    overall_assessment
+
+    supported_points:
+        [...]
+
+    unsupported_points:
+        [...]
+
+    contradictions:
+        [...]
+
+    missing_evidence:
+        [...]
+
+    hallucination_flags:
+        [...]
+
+    safety_flags:
+        [...]
+
+    recommended_revisions:
+        [...]
+
+    critique_confidence:
+        ...
+
+IMPORTANT:
+
+Do not treat "critique_confidence" as medically calibrated confidence.
+
+It is only a model-generated assessment and must not be presented as a clinical probability.
+
+==================================================
+8. AGENT ISOLATION
+==================================================
+
+This is extremely important.
+
+Although all three agents use the same Qwen3 8B model:
+
+They must NOT share an unrestricted conversation history.
+
+Conceptually:
+
+Patient Agent
+    isolated prompt/context
+        ↓
+PatientState
+
+Diagnostic Agent
+    isolated prompt/context
+    + PatientState
+    + retrieved evidence
+        ↓
+DiagnosticResult
+
+Clinical Critic
+    isolated prompt/context
+    + PatientState
+    + DiagnosticResult
+    + retrieved evidence
+        ↓
+ClinicalCritique
+
+Only explicitly defined structured outputs should cross agent boundaries.
+
+Do not simply append all previous prompts/messages into one conversation.
+
+==================================================
+9. OLLAMA INTEGRATION
+==================================================
+
+Create a clean local LLM abstraction.
+
+For example:
+
+rag/llm/
+    ollama_client.py
+
+or an architecture that fits the existing repository.
+
+The client should:
+
+- connect to local Ollama
+- use configurable model name
+- support configurable temperature
+- support timeout
+- support deterministic generation where appropriate
+- return raw response + parsed structured response where useful
+- handle connection failures cleanly
+- handle malformed model output
+- log failures without exposing sensitive information
+
+Default model:
+
+    qwen3:8b-q4_K_M
+
+Default Ollama endpoint:
+
+    http://localhost:11434
+
+But make both configurable through environment variables.
+
+Example:
+
+OLLAMA_BASE_URL
+OLLAMA_MODEL
+OLLAMA_TIMEOUT
+OLLAMA_TEMPERATURE
+
+Do not hard-code assumptions throughout the project.
+
+==================================================
+10. STRUCTURED OUTPUT RELIABILITY
+==================================================
+
+Because local Qwen may occasionally return malformed JSON:
+
+Implement robust structured-output handling.
+
+Preferred sequence:
+
+1. Request JSON/structured output from Ollama if supported.
+2. Parse response.
+3. Validate with Pydantic.
+4. If invalid:
+   - capture the validation error
+   - perform at most a bounded repair/retry
+   - never silently accept malformed data.
+5. If still invalid:
+   - return an explicit failure object.
+
+Do NOT implement unlimited retries.
+
+Do NOT hide parsing failures.
+
+The system should fail closed.
+
+==================================================
+11. PROMPT DESIGN
+==================================================
+
+Create separate versioned prompts for each agent.
+
+For example:
+
+prompts/
+    patient_agent.txt
+    diagnostic_agent.txt
+    clinical_critic.txt
+
+or a Python equivalent if that fits the project better.
+
+Prompts must explicitly state:
+
+- role
+- task
+- allowed inputs
+- prohibited behavior
+- evidence requirements
+- output schema
+- uncertainty handling
+- no hallucinated information
+
+The Diagnostic Agent must be instructed to distinguish:
+
+INPUT FACTS
+RETRIEVED EVIDENCE
+MODEL INFERENCE
+
+The Clinical Critic must be instructed to verify those distinctions.
+
+==================================================
+12. EVIDENCE GROUNDING
+==================================================
+
+Implement provenance-preserving evidence objects.
+
+For example:
+
+RetrievedEvidence:
+    source_type
+    source_id
+    title
+    text
+    similarity
+    metadata
+
+Patient Case RAG:
+
+source_type = "patient_case"
+
+Medical RAG:
+
+source_type = "medical_knowledge"
+
+The final diagnostic result must preserve the evidence references.
+
+Do not convert retrieved evidence into plain untraceable text if this can be avoided.
+
+==================================================
+13. NO DIAGNOSIS LEAKAGE
+==================================================
+
+This is a critical research requirement.
+
+DDXPlus contains evaluation labels.
+
+The Phase 4 inference pipeline MUST NOT expose:
+
+- PATHOLOGY
+- ground-truth diagnosis
+- hidden differential labels
+- test-set labels
+
+to any LLM agent.
+
+Evaluation labels may ONLY be used by the evaluation/validation layer AFTER the agent pipeline finishes.
+
+Implement tests proving this.
+
+For example:
+
+test_no_ground_truth_reaches_patient_agent()
+
+test_no_ground_truth_reaches_diagnostic_agent()
+
+test_no_ground_truth_reaches_critic()
+
+The evaluator may separately compare:
+
+predicted diagnosis
+vs
+DDXPlus ground truth
+
+but this comparison must happen outside the agents.
+
+==================================================
+14. TESTING
+==================================================
+
+Add comprehensive Phase 4 tests.
+
+At minimum test:
+
+A. Ollama client configuration
+
+B. Agent prompt isolation
+
+C. Patient Agent input/output schema
+
+D. Patient Agent does not receive ground truth
+
+E. Diagnostic Agent receives both RAG outputs
+
+F. Diagnostic Agent does not receive ground truth
+
+G. Clinical Critic receives diagnostic output
+
+H. Clinical Critic does not receive ground truth
+
+I. Structured-output validation
+
+J. Malformed-output failure handling
+
+K. Retry bound
+
+L. Evidence provenance preservation
+
+M. Retrieval similarity is not represented as diagnostic probability
+
+N. Agent-to-agent structured handoff
+
+O. No cloud API configuration
+
+P. deterministic/mock tests without requiring Ollama
+
+Real Ollama tests should be separate and explicitly marked as integration tests.
+
+The normal unit test suite must NOT fail simply because Ollama is not running.
+
+==================================================
+15. MOCK LLM FOR TESTS
+==================================================
+
+Create a small mock LLM implementation.
+
+Unit tests should be able to run without:
+
+- Ollama
+- GPU
+- internet
+- model downloads
+
+The mock should return deterministic structured responses.
+
+Real Qwen integration tests can be run separately.
+
+==================================================
+16. PHASE 4 RUNNER
+==================================================
+
+Create a script such as:
+
+scripts/run_phase4.py
+
+It should run one or more DDXPlus validation examples through:
+
+Patient Agent
+    ↓
+Patient Case RAG
+    +
+Medical Knowledge RAG
+    ↓
+Diagnostic Agent
+    ↓
+Clinical Critic
+
+Use VALIDATION data only for evaluation.
+
+Do not index validation patients into the Patient Case RAG.
+
+Do not modify the existing training-only patient index.
+
+The script should produce a structured output/report.
+
+For example:
+
+outputs/phase4/
+
+    sample_case_001.json
+    sample_case_002.json
+    ...
+    phase4_run_report.json
+
+Do not commit generated large outputs unnecessarily.
+
+==================================================
+17. EVALUATION
+==================================================
+
+Implement an initial evaluation layer.
+
+Because this is still DDXPlus and not a real clinical deployment:
+
+DO NOT claim clinical safety or clinical effectiveness.
+
+Measure things that can actually be measured.
+
+At minimum collect:
+
+- pipeline success rate
+- structured-output validity
+- retrieval success
+- diagnosis match against DDXPlus ground truth
+- top-k diagnostic accuracy where appropriate
+- evidence citation/provenance coverage
+- unsupported-claim count
+- hallucinated-evidence count
+- critic-flag count
+
+If sample size is small, clearly report it.
+
+Do not manufacture metrics.
+
+Do not call cosine similarity "confidence".
+
+Do not call LLM self-reported confidence "calibrated confidence".
+
+==================================================
+18. SEPARATE EVALUATION FROM AGENTS
+==================================================
+
+This architecture is required:
+
+AGENTS
+    ↓
+Generated Outputs
+    ↓
+EVALUATOR
+    ↓
+Metrics
+
+The agents themselves must NOT receive the ground truth simply to make evaluation easier.
+
+The evaluator can access:
+
+- ground truth diagnosis
+- agent prediction
+- retrieval results
+- critic output
+
+This separation is essential for valid experiments.
+
+==================================================
+19. GEMMA — DO NOT USE YET
+==================================================
+
+Do NOT integrate Gemma 3 4B into the Phase 4 production pipeline.
+
+The available Gemma model may be used later as an independent critic/validator.
+
+Potential future experiment:
+
+Qwen Diagnostic
+       ↓
+Qwen Critic
+
+versus:
+
+Qwen Diagnostic
+       ↓
+Gemma Critic
+
+But this is NOT part of the current Phase 4 implementation.
+
+Do not install additional large models.
+
+Do not download another model.
+
+==================================================
+20. NO LANGGRAPH YET
+==================================================
+
+Do NOT add LangGraph in Phase 4.
+
+Do NOT create a complex autonomous planning system.
+
+Use a simple explicit Python execution pipeline.
+
+Example:
+
+patient_state = patient_agent.run(patient)
+
+patient_case_results = patient_rag.retrieve(patient_state)
+
+medical_results = medical_rag.retrieve(patient_state)
+
+diagnosis = diagnostic_agent.run(
+    patient_state,
+    patient_case_results,
+    medical_results
+)
+
+critique = clinical_critic.run(
+    patient_state,
+    diagnosis,
+    patient_case_results,
+    medical_results
+)
+
+This is sufficient.
+
+Phase 5 will introduce more sophisticated orchestration.
+
+==================================================
+21. SAFETY BOUNDARIES
+==================================================
+
+This is a research prototype.
+
+Do NOT implement:
+
+- autonomous prescribing
+- medication ordering
+- treatment execution
+- emergency triage claims
+- autonomous clinical actions
+- direct patient-facing medical advice
+- claims of clinical validation
+
+The output should clearly be treated as research/decision-support output.
+
+==================================================
+22. DOCUMENTATION
+==================================================
+
+Update:
+
+README.md
+docs/architecture.md
+
+Create:
+
+docs/phase4.md
+
+Document:
+
+1. Phase 4 objective
+2. Architecture
+3. Three agents
+4. Ollama/Qwen integration
+5. Agent isolation
+6. Structured outputs
+7. RAG integration
+8. Ground-truth leakage prevention
+9. Evaluation methodology
+10. Limitations
+11. How to run
+12. How to run tests
+13. How to run the real Ollama integration
+14. Why Gemma is reserved for later validation
+15. Why LangGraph is deferred to Phase 5
+
+Clearly state:
+
+- DDXPlus is synthetic.
+- The system is a research prototype.
+- Retrieval similarity is not diagnostic probability.
+- LLM-generated confidence is not calibrated clinical confidence.
+- Phase 4 does not establish clinical effectiveness or safety.
+
+==================================================
+23. CONFIGURATION
+==================================================
+
+Prefer environment variables/configuration rather than hard-coded paths.
+
+At minimum support:
+
+OLLAMA_BASE_URL
+OLLAMA_MODEL
+OLLAMA_TEMPERATURE
+OLLAMA_TIMEOUT
+
+Reuse the existing embedding/RAG configuration.
+
+Do not introduce duplicate configuration systems.
+
+==================================================
+24. CODE QUALITY
+==================================================
+
+Follow the existing project's coding conventions.
+
+Use:
+
+- type hints
+- Pydantic where appropriate
+- clear interfaces
+- deterministic tests
+- small modules
+- meaningful error messages
+- no unnecessary dependencies
+
+Avoid unnecessary frameworks.
+
+Do not refactor working Phase 1–3 code unless absolutely necessary.
+
+==================================================
+25. VALIDATION REQUIREMENTS
+==================================================
+
+After implementation:
+
+1. Run the entire existing test suite.
+2. Run all new Phase 4 unit tests.
+3. Run dependency compatibility checks.
+4. Verify existing Phase 2 Patient RAG still works.
+5. Verify existing Phase 3 Medical Knowledge RAG still works.
+6. Verify ground-truth leakage tests.
+7. If Ollama is available:
+   - run a small real Qwen integration test
+   - use qwen3:8b-q4_K_M
+8. If Ollama is unavailable:
+   - do not fabricate integration results
+   - clearly report that only mocked/unit validation was performed.
+
+Do NOT claim a real LLM test passed unless it was actually executed.
+
+==================================================
+26. FINAL REPORT
+==================================================
+
+At the end, provide:
+
+### Implementation
+- files created
+- files modified
+- architecture implemented
+
+### Agents
+- Patient Agent
+- Diagnostic Agent
+- Clinical Critic
+
+### LLM
+- Ollama configuration
+- actual model used
+
+### RAG
+- confirmation that existing Patient Case RAG was reused
+- confirmation that existing Medical Knowledge RAG was reused
+
+### Evaluation
+- tests passed
+- real integration results, if executed
+- sample evaluation results, if executed
+
+### Leakage
+- confirmation that ground-truth labels never enter the agents
+
+### Limitations
+- synthetic DDXPlus
+- small evaluation size if applicable
+- local model limitations
+- no clinical validation
+
+### Remaining issues
+List anything unresolved.
+
+### Phase 5 readiness
+Explain whether the repository is ready for Phase 5 orchestration.
+
+==================================================
+MOST IMPORTANT CONSTRAINT
+==================================================
+
+Do not over-engineer Phase 4.
+
+The goal is NOT to build the final autonomous healthcare system yet.
+
+The goal is to establish a clean, reproducible foundation where:
+
+    ONE LOCAL QWEN3 8B MODEL
+
+operates as:
+
+    Patient Agent
+          ↓
+    Diagnostic Agent
+          ↓
+    Clinical Critic
+
+while consuming:
+
+    Patient Case RAG
+          +
+    Medical Knowledge RAG
+
+with:
+
+    isolated contexts
+    structured outputs
+    evidence provenance
+    no ground-truth leakage
+    deterministic tests
+    local-only inference.
+
+Implement this carefully, validate it, and STOP after Phase 4.
+
+DO NOT START PHASE 5.

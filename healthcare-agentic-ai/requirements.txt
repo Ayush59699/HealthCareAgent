@@ -8,3 +8,9 @@ qdrant-client>=1.12,<2
 # Phase 3 safe XML and selected text-based PDF extraction.
 defusedxml>=0.7,<1
 pypdf>=5,<7
+
+# Phase 4 strict structured agent contracts (already transitive via Qdrant).
+pydantic>=2.10,<3
+
+# Cloud generation via the Azure/OpenAI-compatible Responses API.
+openai>=3.12,<4

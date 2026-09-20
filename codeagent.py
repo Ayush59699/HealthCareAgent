@@ -74,115 +74,123 @@ TOOLS = {
     "run_command": run_command
 }
 
+# Responses API uses a flat tool schema (no nested "function" wrapper)
 TOOL_SCHEMAS = [
     {
         "type": "function",
-        "function": {
-            "name": "list_file",
-            "description": "List the files in the directory. Folders end with /.",
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "path": {"type": "string", "description": "directory to list, eg. '.' "}
-                },
-                "required": ["path"]
-            }
+        "name": "list_file",
+        "description": "List the files in the directory. Folders end with /.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "path": {"type": "string", "description": "directory to list, eg. '.' "}
+            },
+            "required": ["path"]
         }
     },
     {
         "type": "function",
-        "function": {
-            "name": "read_file",
-            "description": "Read the contents of a file and return its components",
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "path": {"type": "string", "description": "path of the file to read "}
-                },
-                "required": ["path"]
-            }
+        "name": "read_file",
+        "description": "Read the contents of a file and return its components",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "path": {"type": "string", "description": "path of the file to read "}
+            },
+            "required": ["path"]
         }
     },
     {
         "type": "function",
-        "function": {
-            "name": "write_file",
-            "description": "Write content to a file. If the file already exists, its contents will be overwritten.",
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "path": {"type": "string", "description": "path of the file to write to, eg. './newfile.txt' "},
-                    "content": {"type": "string", "description": "content to be written"}
-                },
-                "required": ["path", "content"]
-            }
+        "name": "write_file",
+        "description": "Write content to a file. If the file already exists, its contents will be overwritten.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "path": {"type": "string", "description": "path of the file to write to, eg. './newfile.txt' "},
+                "content": {"type": "string", "description": "content to be written"}
+            },
+            "required": ["path", "content"]
         }
     },
     {
         "type": "function",
-        "function": {
-            "name": "run_command",
-            "description": "Execute a shell command and return the output.",
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "command": {"type": "string", "description": "shell command to run, eg. 'dir' "}
-                },
-                "required": ["command"]
-            }
+        "name": "run_command",
+        "description": "Execute a shell command and return the output.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "command": {"type": "string", "description": "shell command to run, eg. 'dir' "}
+            },
+            "required": ["command"]
         }
     }
 ]
 
 
-def run_tool(tc):
-    name = tc.function.name
-    args = json.loads(tc.function.arguments)
-    print(f"Running tool '{name}' with arguments {args}")
+def run_tool(item):
+    """Execute a function_call output item from the Responses API."""
+    name = item.name
+    args = json.loads(item.arguments)
+    print(f"\n Agent Thinking.... (tool: '{name}' args: {args})")
     try:
         return str(TOOLS[name](**args))
     except Exception as error:
         return f"error: {error}"
 
 
-def run_agent(messages):
-    while True:
-        response = client.chat.completions.create(
-            model=deployment_name,
-            messages=messages,
-            tools=TOOL_SCHEMAS,
-            tool_choice="auto",
-            reasoning_effort="none",
-        ) 
-        
-        message = response.choices[0].message
-        # print(message)
-        messages.append(message)
+def run_agent(user_input, previous_response_id=None):
+    """Single turn of the Responses API agentic loop.
 
-        if not message.tool_calls:
-            return message.content
-        print("\n Agent Thinking....")
-        for toolcall in message.tool_calls:
-            result = run_tool(toolcall)
-            messages.append({
-                "role": "tool",
-                "tool_call_id": toolcall.id,
-                "content": result
-            })   
+    Returns (final_text, last_response_id) so the caller can thread
+    subsequent turns via previous_response_id.
+    """
+    # Build the input for this turn
+    input_payload = user_input  # plain string on first call
+
+    while True:
+        kwargs = dict(
+            model=deployment_name,
+            instructions=SYSTEM_PROMPT,
+            tools=TOOL_SCHEMAS,
+            input=input_payload,
+        )
+        if previous_response_id is not None:
+            kwargs["previous_response_id"] = previous_response_id
+
+        response = client.responses.create(**kwargs)
+        previous_response_id = response.id
+
+        # Collect function calls from the output items
+        function_calls = [item for item in response.output if item.type == "function_call"]
+
+        if not function_calls:
+            # No tool calls — return the text response
+            return response.output_text, previous_response_id
+
+        # Execute each tool call and build function_call_output items
+        tool_outputs = []
+        for fc in function_calls:
+            result = run_tool(fc)
+            tool_outputs.append({
+                "type": "function_call_output",
+                "call_id": fc.call_id,
+                "output": result,
+            })
+
+        input_payload = tool_outputs
 
 
 def main():
-    messages = [{"role": "system", "content": SYSTEM_PROMPT}]
-
     print("Mini agent is ready")
+    last_response_id = None
 
     while True:
         user_input = input("\nUSER: ")
         if user_input.strip().lower() in ["exit", "break"]:
             break
 
-        messages.append({"role": "user", "content": user_input})
-        reply = run_agent(messages)
+        reply, last_response_id = run_agent(user_input, last_response_id)
         print(f"\nAgent: {reply}")
 
 

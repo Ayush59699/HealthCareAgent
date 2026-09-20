@@ -1,0 +1,49 @@
+{
+  "modified": [
+    "rag/config.py",
+    "rag/phase4.py",
+    "rag/agents/clinical.py",
+    "rag/agents/prompts.py",
+    "scripts/run_phase4.py",
+    "requirements.txt",
+    "README.md",
+    "docs/architecture.md",
+    "docs/medical_knowledge.md",
+    "docs/validation.md",
+    "docs/phase4.md",
+    "docs/phase4-validation.md",
+    "tests/phase4_helpers.py",
+    "tests/test_phase4.py",
+    "tests/test_phase4_recovery.py"
+  ],
+  "deleted": [
+    "rag/llm/ollama_client.py",
+    "docs/phase4-gemma-output-2048.md",
+    "docs/phase4-gemma-validation.md",
+    "docs/phase4-recovery.md",
+    "outputs/phase4/controlled-validation/instrument.py",
+    "outputs/phase4/gemma-output-2048/experiment.py",
+    "outputs/phase4/gemma-output-2048/finalize_report.py",
+    "outputs/phase4/gemma-safe-validation/edit.py",
+    "outputs/phase4/gemma-safe-validation/experiment.py",
+    "outputs/phase4/gemma-safe-validation/update_docs.py",
+    "outputs/phase4/gemma-safe-validation/update_tests.py",
+    "outputs/phase4/memory-investigation/measure_load_only.py",
+    "outputs/phase4/memory-investigation/measure_memory.py",
+    "outputs/phase4/memory-investigation/order-experiment.py",
+    "outputs/phase4/recovery/apply_fixes.py",
+    "outputs/phase4/recovery/finalize_report.py",
+    "outputs/phase4/recovery/update_docs.py",
+    "outputs/phase4/recovery/validate_remaining.py",
+    "tests/integration/test_ollama.py",
+    "tests/test_phase4_gemma.py",
+    "tests/test_phase4_output_budget.py"
+  ],
+  "added": [
+    ".env.example",
+    "rag/llm/provider.py",
+    "tests/test_openai_provider.py",
+    "tests/test_phase4_reporting.py",
+    "tests/integration/test_gpt.py"
+  ]
+}

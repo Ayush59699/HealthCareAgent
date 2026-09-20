@@ -100,22 +100,37 @@ The full payload/vector audit reconstructs label-free source features. A separat
 CLI (`scripts/audit_patient_index.py`) tests held-out rejection and persistence. Model manifests reject mismatches;
 UUID5 point IDs give idempotent upserts. Context truncation is counted and logged.
 
-Later modules, deliberately not created as nonfunctional stubs:
+## Phase 3 and Phase 4 additions
 
-| Module | Responsibility |
-|---|---|
-| `knowledge_ingestion.py` | Authorized documents, cleaning/chunking, provenance/license metadata |
-| `retriever.py` | Independent medical/patient Qdrant collections; `retrieve(query, top_k=5)` |
-| `reranker.py` | Optional small cross-encoder; 10-20 candidates down to 3-5 |
-| `evidence_fusion.py` | Deduplication, context budget, source IDs, distinct evidence classes |
-| `generator.py` | Local Ollama `generate(prompt)`, default `gemma3:4b`, validation/abstention |
-| `pipeline.py` | API accepts label-free representation and returns structured evidence/response |
+Phase 3 adds `medical_ingestion/`, `medical_embeddings.py`,
+`medical_vector_store.py` and `medical_retriever.py`, preserving a separate
+`medical_knowledge` collection and source/license provenance. See
+[medical knowledge](medical_knowledge.md) for the actual 5-document/87-chunk corpus.
 
-Planned flow: patient -> two independent retrievers -> optional reranking ->
-source-preserving fusion -> Ollama -> structured non-definitive decision support.
-The Ollama HTTP API, not an interactive subprocess, will execute the equivalent
-model selection of `ollama run gemma3:4b`. Model name will be configurable for Qwen.
-The future RAG agent can wrap this API without embedding LangGraph into parsing.
+Phase 4 reuses both existing retrievers without replacing parser, embeddings or
+stores. Its explicit flow is:
+
+```text
+PatientRepresentation (no labels)
+    → isolated Patient Agent → exact-copy validated PatientState
+    → PatientCaseRAG + MedicalKnowledgeRetriever (query only)
+    → isolated Diagnostic Agent + source-preserving evidence → DiagnosticResult
+    → isolated Clinical Critic + structured handoffs → ClinicalCritique
+    → saved PipelineResult
+    → separate evaluator (validation labels loaded only now)
+```
+
+`rag/llm/provider.py` uses GPT-5.6-Sol through the OpenAI/Azure-compatible
+Responses API for all three roles. `rag/agents/` owns strict Pydantic contracts,
+versioned prompts and deterministic grounding guards; `rag/phase4.py` sequences
+calls without shared chat history; `rag/phase4_evaluation.py` is post-inference
+only. `scripts/run_phase4.py` saves per-case outputs and an evaluation report with
+atomic JSON replacement. Context-budget and validation failures stop closed.
+
+Optional reranking, richer evidence fusion, LangGraph orchestration and feedback
+are not implemented. Phase 5 has not started.
+See [Phase 4](phase4.md) for APIs, configuration, tests and limits and
+[migration validation](phase4-validation.md) for actual validation outcomes.
 
 ## Safety boundaries and future evaluation plan
 
@@ -128,7 +143,7 @@ The future RAG agent can wrap this API without embedding LangGraph into parsing.
 - DDXPlus is synthetic; condition associations are dataset metadata, not clinical
   guidelines, drug-safety documents, or independently validated evidence.
 - External references need actual source/title/section/type/disease/year and usage
-  rights. None are invented or bundled now. Missing metadata stays unknown.
+  rights. The admitted Phase 3 sources carry these fields where available; none are invented. Missing metadata stays unknown.
 - Citation ID validation checks source existence, not medical entailment. Clinical
   grounding/hallucination need claim-level annotations and human adjudication;
   do not manufacture scores from string overlap or absent reference annotations.
@@ -156,6 +171,9 @@ collections may use a local Qdrant server. Both dependencies are installed and u
 in Phase 2. Local Qdrant keeps vectors in memory despite disk persistence; only
 bounded indexing has been validated. A narrow local-client compatibility workaround
 closes SQLite before collection deletion on Windows (qdrant-client 1.19).
-Ollama can be called with standard-library HTTP, avoiding a cloud SDK. PDF or
-other document loaders will only be added when actual licensed document formats
-are selected. No LangChain/LangGraph dependency until orchestration is requested.
+Phase 4 declares the OpenAI SDK for cloud generation and Pydantic 2 for strict
+schemas. No orchestration framework was added. The coding agent is separate from
+the healthcare runtime; generation has no tool access or shared conversation.
+RAG, DDXPlus, embeddings and Qdrant remain local, while selected prompt context
+is sent to the cloud. The deployment rejects temperature, so requested 0 is
+recorded but omitted from API calls; effective sampling is deployment-default.

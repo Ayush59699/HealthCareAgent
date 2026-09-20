@@ -1,5 +1,10 @@
 # Phase 3 — Medical Knowledge RAG
 
+> Historical phase-specific validation record; subsequent Phase 4 implementation
+> and migration results are documented in [phase4.md](phase4.md) and
+> [phase4-validation.md](phase4-validation.md). Earlier stop/status statements below
+> describe the repository at the time of that phase.
+
 Retrieval only. No generative LLM, agents, orchestration or diagnostic decision
 system. The Phase 2 patient modules, tests, collection and index are unchanged.
 Only the existing embedding implementation is reused, with a separate medical
