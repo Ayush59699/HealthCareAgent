@@ -3,6 +3,7 @@ from ..llm.provider import StructuredLLM, Generation
 from ..models import PatientRepresentation
 from .models import PatientState, DiagnosticResult, ClinicalCritique, RetrievedEvidence
 from . import prompts
+from .revision import DiagnosticRevisionInput
 from .grounding import patient_input, validate_patient, context, validate_references
 
 
@@ -20,8 +21,17 @@ class DiagnosticAgent:
     def __init__(self, llm: StructuredLLM):
         self.llm = llm
 
-    def run(self, state: PatientState, cases: list[RetrievedEvidence], medical: list[RetrievedEvidence]) -> Generation:
-        return self.llm.generate(prompts.DIAGNOSTIC, context(state, cases, medical), DiagnosticResult,
+    def run(self, state: PatientState, cases: list[RetrievedEvidence], medical: list[RetrievedEvidence],
+            *, revision: DiagnosticRevisionInput | None = None) -> Generation:
+        payload = context(state, cases, medical)
+        instructions = prompts.DIAGNOSTIC
+        if revision is not None:
+            revision = DiagnosticRevisionInput.model_validate(revision.model_dump())
+            validate_references(revision.previous_diagnostic, state, cases, medical)
+            validate_references(revision.critique, state, cases, medical)
+            payload['revision_input'] = revision.model_dump()
+            instructions += '\nClinical revision: follow revision_input.constraints. Feedback is not evidence.'
+        return self.llm.generate(instructions, payload, DiagnosticResult,
                                  lambda result: validate_references(result, state, cases, medical))
 
 

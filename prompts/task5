@@ -1,0 +1,594 @@
+PHASE 5 — IMPLEMENT MULTI-AGENT ORCHESTRATION
+
+Implement Phase 5 in the existing healthcare-agentic-ai project.
+
+IMPORTANT: Before changing anything, inspect the current repository and verify that the implementation plan below matches the actual Phase 4 code. Do not redesign the architecture unnecessarily.
+
+==================================================
+GOAL
+==================================================
+
+Phase 4 established the working baseline:
+
+Patient Agent
+→ Patient Case RAG
+→ Medical Knowledge RAG
+→ Diagnostic Agent
+→ Grounding Validation
+→ Clinical Critic
+
+Phase 5 must add a real application-level orchestrator around these existing components.
+
+The goal is:
+
+    Phase 4 = sequential baseline
+    Phase 5 = stateful, deterministic multi-agent orchestration
+
+Keep the Phase 4 pipeline available as the baseline/control implementation.
+
+==================================================
+TARGET ARCHITECTURE
+==================================================
+
+                    ORCHESTRATOR
+                         │
+                  owns WorkflowState
+                         │
+                         ▼
+                  Patient Agent
+                         │
+                         ▼
+                   Evidence Layer
+                  /               \
+           Patient Case RAG   Medical Knowledge RAG
+                  \               /
+                   └──────┬──────┘
+                          ▼
+                   Diagnostic Agent
+                          │
+                    HARD GROUNDING GATE
+                          │
+                          ▼
+                    Clinical Critic
+                          │
+                    ┌─────┴─────┐
+                    │           │
+                 ACCEPT      REVISE
+                    │           │
+                    ▼           ▼
+                  FINAL     Diagnostic Agent
+                              │
+                         Grounding Gate
+                              │
+                            Critic
+                              │
+                       maximum 2 revisions
+                              │
+                              ▼
+                         UNRESOLVED/
+                          ABSTENTION
+
+The Orchestrator owns the workflow and routing.
+
+Agents perform reasoning.
+
+RAG provides evidence.
+
+Validators enforce contracts.
+
+The LLM must NOT decide whether safeguards can be bypassed.
+
+==================================================
+1. WORKFLOW STATE
+==================================================
+
+Create a typed, versioned WorkflowState.
+
+It should contain at minimum:
+
+- run_id
+- patient_id
+- schema/version information
+- original label-free patient representation
+- accepted PatientState
+- frozen evidence snapshot
+- diagnostic result/version history
+- critic result/version history
+- current stage
+- transition history
+- revision_count
+- max_revisions
+- validation outcomes
+- sanitized failure information
+- terminal outcome/status
+- relevant request/time budget telemetry
+
+Do NOT put ground-truth EvaluationLabels into WorkflowState.
+
+Ground truth must remain evaluator-only and unavailable to agents.
+
+The Orchestrator must be the sole owner/writer of workflow state.
+
+Agents receive restricted structured snapshots and return typed outputs.
+
+Do not give agents unrestricted shared conversation history.
+
+==================================================
+2. EVIDENCE LAYER
+==================================================
+
+Create a thin orchestration-level evidence adapter/service around the EXISTING RAG interfaces.
+
+Do NOT modify the Patient Case RAG or Medical Knowledge RAG implementations.
+
+The evidence layer should:
+
+- call the existing retrievers
+- preserve patient/medical evidence separation
+- preserve source IDs
+- preserve provenance
+- preserve original retrieved text
+- preserve similarity values
+- validate returned evidence using existing mechanisms
+- produce a frozen evidence snapshot
+
+For the initial Phase 5 implementation:
+
+RETRIEVE ONCE PER CASE.
+
+Freeze the evidence snapshot across diagnostic revisions.
+
+Do NOT implement retrieval-revision loops yet.
+
+Critic comments, diagnoses, and feedback must never silently become RAG evidence.
+
+==================================================
+3. PATIENT AGENT
+==================================================
+
+Reuse the existing Patient Agent.
+
+Do not create a second Patient Agent.
+
+The Orchestrator should invoke it and commit its validated PatientState.
+
+If Patient Agent validation fails after its existing bounded repair behavior:
+
+→ terminate the workflow safely
+→ do not continue to downstream agents.
+
+==================================================
+4. DIAGNOSTIC AGENT
+==================================================
+
+Reuse the existing Diagnostic Agent.
+
+Do NOT create a separate "revision agent."
+
+The same Diagnostic Agent must support multiple workflow invocations.
+
+Initial invocation receives:
+
+- PatientState
+- frozen evidence snapshot
+
+Revision invocation receives:
+
+- same PatientState
+- same frozen evidence snapshot
+- previous accepted DiagnosticResult
+- validated ClinicalCritique
+- revision number
+- explicit revision constraints
+
+Do NOT simply append unrestricted conversation history.
+
+Create a clean structured revision input/contract.
+
+Every DiagnosticResult — initial or revised — MUST pass:
+
+1. strict schema validation
+2. existing grounding validation
+
+before it can be committed to WorkflowState.
+
+DO NOT weaken or modify grounding validation.
+
+DO NOT manufacture a diagnosis to avoid abstention.
+
+==================================================
+5. CLINICAL CRITIC
+==================================================
+
+Reuse the existing Clinical Critic.
+
+The Critic must evaluate the exact diagnostic/evidence version provided by the Orchestrator.
+
+The Critic must not modify WorkflowState directly.
+
+Its output is review feedback.
+
+Important:
+
+Critic feedback is NOT clinical evidence.
+
+The Orchestrator interprets the Critic output according to deterministic routing rules.
+
+The Critic must NOT have authority to bypass grounding or force a diagnosis.
+
+==================================================
+6. DETERMINISTIC ROUTING
+==================================================
+
+Create explicit routing logic.
+
+The LLM must not choose the workflow transition.
+
+At minimum support:
+
+INITIAL
+→ PATIENT
+→ EVIDENCE
+→ DIAGNOSTIC
+→ GROUNDING
+→ CRITIC
+→ ROUTE
+
+From ROUTE:
+
+If acceptable:
+    → FINAL
+
+If revision_required and revision budget remains:
+    → DIAGNOSTIC_REVISION
+    → GROUNDING
+    → CRITIC
+    → ROUTE
+
+If revision limit is reached:
+    → UNRESOLVED / ABSTENTION
+
+If provider failure:
+    → TERMINAL_FAILURE
+
+If grounding failure:
+    → revision/failure according to the existing safe contract
+    → never bypass validation
+
+If insufficient evidence:
+    → explicit insufficient-evidence/abstention outcome
+    → never force a diagnosis
+
+If safety concerns block completion:
+    → explicit review-required/blocked outcome
+    → do not label it clinically approved
+
+==================================================
+7. REVISION LIMIT
+==================================================
+
+Use:
+
+max_revisions = 2
+
+This means:
+
+initial DiagnosticResult
++
+at most 2 clinical revisions
+
+Provider-level schema/grounding repair attempts are NOT the same as clinical revisions.
+
+Track them separately.
+
+Also terminate early if:
+
+- the diagnostic result is unchanged across a requested revision
+- repeated diagnostic versions occur
+- cumulative budget is exhausted
+- provider refuses/incomplete output
+- invalid evidence/provenance occurs
+- workflow cannot make meaningful progress
+
+Never allow an infinite loop.
+
+==================================================
+8. ABSTENTION
+==================================================
+
+Preserve the Phase 4 abstention contract.
+
+If:
+
+primary_hypothesis = null
+AND
+differential_diagnoses = []
+
+then structured evidence inventories must remain empty.
+
+Do not force a diagnosis simply because the Critic requests a differential.
+
+A valid abstention may be reviewed by the Critic.
+
+If the workflow remains unresolved after the revision limit, terminate explicitly as unresolved/abstained.
+
+Distinguish at least:
+
+- diagnostic_agent_abstention
+- insufficient_evidence
+- max_revisions_reached
+- unresolved_critic
+- safety_blocked
+- technical_failure
+
+Do not call these clinical approval.
+
+==================================================
+9. VERSIONING
+==================================================
+
+Every DiagnosticResult should have an identifiable workflow version/revision association.
+
+Critiques must be associated with the exact diagnostic version and evidence snapshot they reviewed.
+
+Never allow:
+
+Diagnostic version 2
+to be paired with
+Critique for diagnostic version 1.
+
+The Orchestrator must reject stale/mismatched results.
+
+==================================================
+10. AUDIT / TRANSITION LOG
+==================================================
+
+Record structured workflow events such as:
+
+workflow_started
+patient_agent_completed
+evidence_retrieved
+diagnostic_started
+diagnostic_validated
+grounding_passed
+critic_completed
+revision_requested
+diagnostic_revision_started
+finalized
+abstained
+unresolved
+terminated
+
+Include:
+
+- timestamp if already supported
+- stage
+- revision number
+- reason
+- validation result
+- relevant IDs
+- sanitized errors
+
+Do not store ground-truth labels in agent-facing state.
+
+==================================================
+11. FILE STRUCTURE
+==================================================
+
+Adapt this structure to the existing repository rather than blindly creating it:
+
+healthcare-agentic-ai/
+    orchestration/
+        __init__.py
+        state.py
+        contracts.py
+        orchestrator.py
+        routing.py
+        policy.py
+        evidence.py
+        events.py
+
+    rag/
+        agents/
+            existing agents remain
+            prompts remain unless a minimal revision prompt is required
+        llm/
+            existing provider remains
+
+    scripts/
+        run_phase4.py       # KEEP BASELINE
+        run_phase5.py       # NEW
+
+    tests/
+        test_orchestration.py
+        test_orchestration_routing.py
+        test_orchestration_revision.py
+        test_orchestration_grounding.py
+        test_orchestration_boundaries.py
+
+Do not create placeholder implementations for:
+
+- Medication Agent
+- Risk/Prognosis Agent
+- Imaging Agent
+- HITL
+- Feedback Memory
+- Explanation Agent
+- Safety Validator
+
+Those belong to later phases.
+
+==================================================
+12. FUTURE EXTENSIBILITY
+==================================================
+
+Design the stage contracts so future agents can be added cleanly.
+
+The architecture should eventually allow:
+
+Patient/EHR Agent
+Imaging Agent
+Diagnostic Agent
+Medication/Safety Agent
+Risk/Prognosis Agent
+Clinical Critic
+Safety Validator
+Human Clinician
+Feedback Memory
+Explanation Agent
+
+But DO NOT implement them now.
+
+The current Phase 5 implementation should only orchestrate the existing working components.
+
+==================================================
+13. LANGGRAPH
+==================================================
+
+Do NOT introduce LangGraph merely because it is popular.
+
+First implement the orchestration using the project's existing Python architecture unless the repository's actual dependencies make LangGraph clearly necessary.
+
+The important requirement is explicit state + deterministic routing + bounded transitions.
+
+==================================================
+14. PHASE 4 BASELINE
+==================================================
+
+Do NOT break or replace Phase 4.
+
+Keep:
+
+scripts/run_phase4.py
+
+and its existing behavior intact.
+
+Phase 5 should be a separate composition layer.
+
+This is important because Phase 4 will later serve as a baseline for evaluation/ablation against Phase 5.
+
+==================================================
+15. TESTING
+==================================================
+
+Add comprehensive tests for at least:
+
+A. normal successful workflow
+B. valid diagnostic abstention
+C. Critic accepts result
+D. Critic requests revision
+E. revision succeeds
+F. revision still fails
+G. maximum revision termination
+H. unchanged diagnostic detection
+I. grounding failure cannot bypass gate
+J. stale diagnostic/critic mismatch rejected
+K. evidence snapshot remains unchanged across revisions
+L. patient/medical evidence remain separated
+M. no ground-truth leakage
+N. provider failure terminates safely
+O. insufficient evidence
+P. safety-blocked result
+Q. audit/transition events
+R. Phase 4 regression suite remains passing
+
+Use mocks/fakes for most orchestration tests.
+
+Do not require live GPT-5.6-Sol calls for the unit test suite.
+
+A live test may be added separately as an opt-in integration test if the existing project convention supports it.
+
+==================================================
+16. DOCUMENTATION
+==================================================
+
+Update Phase 5 documentation to explain:
+
+- actual Phase 5 architecture
+- WorkflowState
+- routing
+- evidence snapshot
+- revision loop
+- grounding gates
+- termination rules
+- audit events
+- difference between provider retries and clinical revisions
+
+Clearly state that:
+
+- Phase 5 is research orchestration
+- it is NOT clinical approval
+- it does NOT implement HITL yet
+- it does NOT establish clinical effectiveness
+
+==================================================
+17. HARD CONSTRAINTS
+==================================================
+
+DO NOT:
+
+- modify Patient Case RAG
+- modify Medical Knowledge RAG
+- weaken grounding validation
+- expose diagnosis labels to agents
+- reintroduce Ollama
+- introduce another healthcare LLM
+- use Astra 6 as a healthcare runtime model
+- add HITL
+- add fine-tuning
+- add new clinical agents
+- add autonomous prescribing
+- modify the RAG corpus
+- create infinite agent loops
+- allow an LLM to bypass deterministic routing/safety rules
+
+Healthcare backend remains:
+
+GPT-5.6-Sol
+
+Astra 6 remains:
+
+CODING AGENT ONLY.
+
+==================================================
+18. VALIDATION / FINAL REPORT
+==================================================
+
+After implementation:
+
+1. Run the complete existing test suite.
+2. Run all new Phase 5 tests.
+3. Verify Phase 4 tests still pass.
+4. Run syntax checks.
+5. Run git diff --check.
+6. Verify no Ollama runtime references were introduced.
+7. Verify Patient Case RAG count/fingerprint unchanged.
+8. Verify Medical Knowledge RAG count/fingerprint unchanged.
+9. Verify no ground-truth labels entered agent state.
+10. Verify Phase 4 runner still works.
+11. Run a controlled Phase 5 smoke test using one validation patient if safe and supported by the existing setup.
+
+Do not make unsupported claims about diagnostic correctness if the model abstains.
+
+Report:
+
+- files changed
+- architecture implemented
+- state model
+- routing rules
+- revision behavior
+- tests
+- smoke-test result
+- RAG integrity
+- leakage checks
+- remaining limitations
+
+IMPORTANT:
+
+Before coding, inspect the repository and reconcile this specification with the existing implementation.
+
+If an existing component already provides a required capability, reuse it rather than duplicating it.
+
+Do not modify anything outside the Phase 5 scope without explicitly reporting why it is necessary.
+
+Implement Phase 5 completely, then validate it.

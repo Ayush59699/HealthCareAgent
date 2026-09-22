@@ -127,8 +127,8 @@ calls without shared chat history; `rag/phase4_evaluation.py` is post-inference
 only. `scripts/run_phase4.py` saves per-case outputs and an evaluation report with
 atomic JSON replacement. Context-budget and validation failures stop closed.
 
-Optional reranking, richer evidence fusion, LangGraph orchestration and feedback
-are not implemented. Phase 5 has not started.
+Optional reranking, richer evidence fusion, LangGraph and feedback memory
+are not implemented. Phase 5 uses explicit Python state and deterministic routing.
 See [Phase 4](phase4.md) for APIs, configuration, tests and limits and
 [migration validation](phase4-validation.md) for actual validation outcomes.
 
@@ -177,3 +177,16 @@ the healthcare runtime; generation has no tool access or shared conversation.
 RAG, DDXPlus, embeddings and Qdrant remain local, while selected prompt context
 is sent to the cloud. The deployment rejects temperature, so requested 0 is
 recorded but omitted from API calls; effective sampling is deployment-default.
+
+
+## Phase 5 composition
+
+`orchestration/` owns versioned WorkflowState, a retrieve-once evidence snapshot,
+application-authored stage tickets, validation/audit events and explicit routing.
+The existing Diagnostic Agent supports a restricted revision input; all other
+Phase 4 components and grounding rules are reused unchanged. Every accepted
+diagnosis passes schema and grounding before review, with at most two clinical
+revisions, separate provider repair accounting, progress checks and budgets.
+Safety flags block completion and abstention never becomes clinical approval.
+`scripts/run_phase5.py` is separate from the preserved Phase 4 baseline runner.
+See [Phase 5 architecture](phase5.md) and [validation](phase5-validation.md).

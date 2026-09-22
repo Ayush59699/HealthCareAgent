@@ -1,4 +1,4 @@
-# Healthcare RAG — Phases 1–4
+# Healthcare RAG — Phases 1–5
 
 Research-only retrieval infrastructure using **synthetic DDXPlus patients**.
 No clinical validity, diagnostic correctness, or safety for clinical use is claimed.
@@ -27,9 +27,14 @@ end-to-end case with a valid abstention under unchanged grounding checks. The
 Clinical Critic executed and requested substantive revisions; technical completion
 does not mean clinical endorsement or diagnostic correctness.
 
+**Phase 5 implemented:** a separate stateful, deterministic Orchestrator reuses the
+Phase 4 agents with frozen evidence, mandatory grounding gates, versioned critiques,
+at most two clinical revisions and explicit abstention/blocked/failure outcomes.
+See [architecture and usage](docs/phase5.md) and [validation](docs/phase5-validation.md).
+The Phase 4 runner remains unchanged as the sequential baseline.
+
 **Not implemented:** comprehensive clinical guidelines coverage, broader cloud
-validation, Phase 5 orchestration/LangGraph, human-in-the-loop
-feedback or feedback memory. No autonomous prescribing, treatment execution or
+validation, human-in-the-loop feedback or feedback memory. No autonomous prescribing, treatment execution or
 patient-facing advice.
 
 ## Environment and commands
@@ -37,8 +42,8 @@ patient-facing advice.
 Python 3.10+; the existing workspace `.venv` can be reused. Dependencies are declared
 in `requirements.txt`: sentence-transformers (including PyTorch) and qdrant-client.
 No LangChain, LangGraph, cloud embeddings, GPU or Docker is required.
-Phases 1-3 and offline tests do not require an LLM or API key. Real Phase 4
-requires dedicated GPT_SOL credentials and the OpenAI SDK. RAG, Qdrant,
+Phases 1-3 and offline tests do not require an LLM or API key. Real Phases 4-5
+require dedicated GPT_SOL credentials and the OpenAI SDK. RAG, Qdrant,
 DDXPlus and embeddings remain local; generation prompt context goes to the cloud.
 The current parent workspace uses **uv** (its venv does not bundle pip): from that
 workspace use `uv pip install -r healthcare-agentic-ai/requirements.txt` if needed,
@@ -168,4 +173,18 @@ Default output is a fresh `outputs/phase4/<timestamp>/` directory. See
 The runner only queries existing indexes; it never modifies training cases.
 Retrieval similarity is not diagnostic probability; critic self-assessment is not
 calibrated clinical confidence. Phase 4 does not establish clinical effectiveness
-or safety. Stop here: Phase 5 has not been started.
+or safety. Phase 5 adds research orchestration, not clinical approval.
+
+
+## Phase 5 quick start
+
+```text
+python scripts/run_phase5.py --queries 1 --top-k 1 --max-requests 14 --max-seconds 600
+python -m unittest discover -s tests -t . -p "test_orchestration*.py" -v
+```
+
+This separate runner reads label-free validation features and queries existing
+indexes once per case. Output goes to a fresh `outputs/phase5/<timestamp>/`.
+Inspect terminal `status` and `outcome`: exit zero includes valid abstention,
+unresolved and safety-blocked research runs, not only accepted-with-limitations
+results. No HITL or clinical-effectiveness claim is implemented.

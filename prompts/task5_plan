@@ -1,0 +1,93 @@
+PHASE 5 ARCHITECTURE AUDIT — ANALYZE ONLY
+
+Do NOT modify, create, delete, or refactor any files.
+
+Analyze the entire current healthcare-agentic-ai repository and tell me what architecture is ACTUALLY implemented right now.
+
+Do not assume planned/documented architecture is implemented. Base everything on the actual code, schemas, prompts, RAG modules, provider, tests, and runtime flow.
+
+### 1. Current architecture
+Identify:
+
+- all implemented agents
+- Patient Case RAG
+- Medical Knowledge RAG
+- LLM/provider layer
+- grounding validator
+- Clinical Critic
+- runner/workflow logic
+- state/data passed between components
+
+Give me an ASCII diagram of the REAL current runtime flow.
+
+Clearly distinguish:
+IMPLEMENTED / PARTIAL / INFRASTRUCTURE / PLANNED.
+
+### 2. Current orchestration
+Determine whether the project currently has a real orchestrator.
+
+Explain:
+- what currently controls execution
+- how agents communicate
+- whether there is centralized state
+- whether there are routing/conditional transitions
+- whether revision loops exist
+- whether this is true multi-agent orchestration or simply sequential execution
+
+### 3. Phase 5 design
+Based ONLY on the existing implementation, propose how orchestration should be added.
+
+The eventual architecture should be able to support:
+
+Patient/EHR Agent
+Diagnostic Agent
+Medication/Safety Agent
+Risk/Prognosis Agent
+Patient Case RAG
+Medical Knowledge RAG
+Clinical Critic
+Safety Validator
+Human Clinician
+Feedback Memory
+Explanation Agent
+
+But do NOT implement these yet.
+
+Explain:
+
+- where the Orchestrator should live
+- what state it should manage
+- how agents should communicate
+- how RAG should act as a shared evidence layer
+- how grounding remains a hard gate
+- how Critic → Diagnostic revision should work
+- maximum revision/termination rules
+- how future agents can be added without redesigning everything
+- how HITL can later fit into the architecture
+
+### 4. Constraints
+
+Keep these unchanged:
+
+- GPT-5.6-Sol = healthcare backend
+- Astra 6 = coding agent only
+- Patient Case RAG unchanged
+- Medical Knowledge RAG unchanged
+- grounding validator unchanged/strict
+- no Ollama
+- no fine-tuning
+- no HITL implementation yet
+
+### 5. Final answer
+
+End with:
+
+A. What architecture we have TODAY
+B. What is missing for true orchestration
+C. Recommended Phase 5 architecture
+D. Proposed file/module structure
+E. Important architectural questions we should resolve before coding
+
+This is an ARCHITECTURE AUDIT ONLY.
+
+DO NOT MODIFY THE PROJECT.
