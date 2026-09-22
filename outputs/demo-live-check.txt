@@ -1,0 +1,306 @@
+============================================================
+        AGENTIC HEALTHCARE DECISION SUPPORT DEMO
+============================================================
+Research Prototype
+Synthetic DDXPlus patient | GPT-5.6-Sol | Qdrant RAG
+============================================================
+IMPORTANT: This is a research prototype using synthetic DDXPlus data.
+The result is not a clinical diagnosis or medical advice.
+Safety validation does not constitute clinical validation.
+HUMAN_REVIEW is terminal only; no human review is scheduled or implemented.
+
+------------------------------------------------------------
+SYNTHETIC RESEARCH CASE — NOT A REAL PATIENT
+------------------------------------------------------------
+Validation case: ddxplus:validate:1
+Age: 55
+Sex: F
+Symptoms / clinical evidence: 17
+  - Do you have pain somewhere, related to your reason for consulting? = Yes
+  - Characterize your pain: = tugging
+  - Characterize your pain: = a cramp
+  - Do you feel pain somewhere? = back of head
+  - Do you feel pain somewhere? = top of the head
+  - Do you feel pain somewhere? = forehead
+  - Do you feel pain somewhere? = temple(L)
+  - How intense is the pain? = 2
+  - Does the pain radiate to another location? = nowhere
+  - How precisely is the pain located? = 3
+  - How fast did the pain appear? = 5
+  - Do you feel slightly dizzy or lightheaded? = Yes
+  ... 5 additional items omitted
+Relevant history: 7
+  - Do you have a poor diet? = Yes
+  - Have you ever had a diagnosis of anemia? = Yes
+  - Do you have any family members who have been diagnosed with anemia? = Yes
+  - Do you have chronic kidney failure? = Yes
+  - Are you taking any new oral anticoagulants ((NOACs)? = Yes
+  - Have you traveled out of the country in the last 4 weeks? = South East Asia
+  - Is your BMI less than 18.5, or are you underweight? = Yes
+Unlisted findings are unknown, not assumed absent. Dataset labels are not loaded.
+
+→ Opening existing indexes and cached embedding models (no rebuild/download)...
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2158.04it/s]
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2006.88it/s]
+Indexed training cases / medical chunks: 1000 / 87
+Model: gpt-5.6-sol
+Patient collection: ddxplus_patient_cases
+Medical collection: medical_knowledge
+Embedding model: BAAI/bge-small-en-v1.5
+Patient / medical embedding dimensions: 384 / 384
+Top-k: 1
+→ Live GPT run: synthetic patient and retrieved evidence will be sent to the configured cloud deployment.
+Live call notifications are provisional; accepted outputs/gates appear in the audited walkthrough.
+
+------------------------------------------------------------
+[1] PATIENT AGENT
+------------------------------------------------------------
+Diagnostic version: None
+→ Calling [1] PATIENT AGENT...
+✓ Call returned; application validation is still required.
+
+------------------------------------------------------------
+[2] PATIENT CASE RAG
+------------------------------------------------------------
+Top-k: 1
+Query (label-free patient representation; excerpt): Patient: Age: 55 Sex: Female Symptoms / clinical evidence: - Do you have pain somewhere, related to your reason for consulting? = Yes - Characterize your pain: = tugging - Characterize your pain: = a cramp - Do you feel pain somewhere? = back of head - Do you feel pain somewhere? = top of the head - Do you feel pain somewhere? = forehead - Do you feel pain somewhere? = temple(L) - How intense is the pain? = 2 - Does the pain radiate to another location? = nowhere - How precisely is the pain located? = 3 - How fast did the pain appear? = 5 - Do you feel slightly dizzy or lightheaded? = Yes - Do you feel lightheaded and dizzy or do you feel like you are about to faint? = Yes - Do you feel so t ... [excerpt]
+→ Retrieval started
+Retrieved hits (pending snapshot validation): 1
+
+------------------------------------------------------------
+[3] MEDICAL KNOWLEDGE RAG
+------------------------------------------------------------
+Top-k: 1
+Query (label-free patient representation; excerpt): Patient: Age: 55 Sex: Female Symptoms / clinical evidence: - Do you have pain somewhere, related to your reason for consulting? = Yes - Characterize your pain: = tugging - Characterize your pain: = a cramp - Do you feel pain somewhere? = back of head - Do you feel pain somewhere? = top of the head - Do you feel pain somewhere? = forehead - Do you feel pain somewhere? = temple(L) - How intense is the pain? = 2 - Does the pain radiate to another location? = nowhere - How precisely is the pain located? = 3 - How fast did the pain appear? = 5 - Do you feel slightly dizzy or lightheaded? = Yes - Do you feel lightheaded and dizzy or do you feel like you are about to faint? = Yes - Do you feel so t ... [excerpt]
+→ Retrieval started
+Retrieved hits (pending snapshot validation): 1
+
+------------------------------------------------------------
+[4] DIAGNOSTIC AGENT
+------------------------------------------------------------
+Diagnostic version: 1
+→ Calling [4] DIAGNOSTIC AGENT...
+✓ Call returned; application validation is still required.
+
+------------------------------------------------------------
+[6] CLINICAL CRITIC
+------------------------------------------------------------
+Diagnostic version: 1
+→ Calling [6] CLINICAL CRITIC...
+✓ Call returned; application validation is still required.
+
+------------------------------------------------------------
+AUDITED WALKTHROUGH — committed results, not a live event stream
+------------------------------------------------------------
+Only accepted structured output is shown. Rejected output and hidden reasoning are omitted.
+⚠ OUTPUT WITHHELD by workflow; hypotheses below are review material, not a released result.
+
+------------------------------------------------------------
+[1] PATIENT AGENT
+------------------------------------------------------------
+INPUT: label-free DDXPlus patient representation
+PROCESS: Patient Agent constructed PatientState; exact-copy validation passed.
+OUTPUT: accepted structured PatientState
+patient_id: ddxplus:validate:1
+age: 55
+sex: F
+presenting_evidence: 1
+  - Is your skin much paler than usual? = Yes
+symptoms: 17
+  - Do you have pain somewhere, related to your reason for consulting? = Yes
+  - Characterize your pain: = tugging
+  - Characterize your pain: = a cramp
+  - Do you feel pain somewhere? = back of head
+  - Do you feel pain somewhere? = top of the head
+  - Do you feel pain somewhere? = forehead
+  - Do you feel pain somewhere? = temple(L)
+  - How intense is the pain? = 2
+  - Does the pain radiate to another location? = nowhere
+  - How precisely is the pain located? = 3
+  - How fast did the pain appear? = 5
+  - Do you feel slightly dizzy or lightheaded? = Yes
+  ... 5 additional items omitted
+antecedents: 7
+  - Do you have a poor diet? = Yes
+  - Have you ever had a diagnosis of anemia? = Yes
+  - Do you have any family members who have been diagnosed with anemia? = Yes
+  - Do you have chronic kidney failure? = Yes
+  - Are you taking any new oral anticoagulants ((NOACs)? = Yes
+  - Have you traveled out of the country in the last 4 weeks? = South East Asia
+  - Is your BMI less than 18.5, or are you underweight? = Yes
+relevant_findings: 0
+missing_information: 0
+uncertainty_notes: 1
+  - Unlisted findings are unknown, not assumed absent.
+
+------------------------------------------------------------
+[2] PATIENT CASE RAG
+------------------------------------------------------------
+Top-k: 1
+Retrieved: 1
+1. ID: case:ddxplus:train:60
+   Similarity (not disease probability): 0.9877
+   Source type: patient_case
+   Source: release_train_patients.zip!release_train_patients#row=60
+   Evidence excerpt: Patient: Age: 62 Sex: Female Symptoms / clinical evidence: - Do you have pain somewhere, related to your reason for consulting? = Yes - Characterize your pain: = sensitive - Characterize your pain: = tugging - Do you feel pain somewhere? = forehead - Do you feel pain somewhere? = temple(R) - Do you feel pain somewhere? = temple(L) - How intense is the pain? = 3 - Does the pain radiate to another location? = nowhere - How precisely is the pain located? = 3 - How fast did the pain appear? = 3 - Are you experiencing shortness of breath or difficulty breathing in a significant way? = Yes - Do you feel lightheaded and dizzy or do you feel like you are about to faint? = Yes - Do you feel so tired  ... [excerpt]
+
+------------------------------------------------------------
+[3] MEDICAL KNOWLEDGE RAG — external sources
+------------------------------------------------------------
+Top-k: 1
+Retrieved: 1
+1. ID: medical:ac51854d-8e35-564f-abfb-478014277625
+   Similarity (not disease probability): 0.6899
+   Source type: medical_knowledge
+   Source: pmc
+   Title: Pre-transplant immune factors may be associated with BK polyomavirus reactivation in kidney transplant recipients
+   Evidence excerpt: viruria and viremia together was analyzed. Variables were added in a step-wise fashion based upon their P value and retained in the model if their P value was ≤ 0.10. This process proceeded until all variables had a P value ≤0.10 or were identified as significant confounding variables. Logistic regression data are presented as an odds ratio with 95% CI and P value. All P values presented are two-tailed P values with P < 0.05 considered statistically significant. Statistical analysis performed on Stata version 14 statistical software, StataCorp LP, College Station, Tx. Graphics performed on GraphPad Prism Version 5.0 software, GraphPad Software, La Jolla CA. Results Patient characteristics an ... [excerpt]
+✓ Snapshot provenance validated: patient cases are training cases only.
+✓ Patient-case payload contract excludes pathology/differential labels.
+Medical knowledge is a separate evidence collection, not patient-case outcomes.
+Evidence snapshot ID: b29f393952dbca27d23941dc7e7cde326f000b64bc92b8133238bb762e804c58
+Evidence schema version: phase5-evidence-v1
+The frozen patient-case and medical evidence above was supplied separately to the agents.
+
+------------------------------------------------------------
+[4] DIAGNOSTIC AGENT — committed version 1
+------------------------------------------------------------
+Status: ABSTAINED
+Patient-case evidence refs: 0
+Medical-knowledge evidence refs: 0
+Missing information / abstention context: 5
+  - No blood count, hemoglobin, hematocrit, red-cell indices, iron studies, reticulocyte count, or other laboratory characterization is supplied.
+  - No vital signs, examination findings, duration or progression of symptoms, or characterization of the reported near-fainting episodes is supplied.
+  - The black-stool report is not clinically characterized or confirmed, and no information about other possible causes of dark stool is supplied.
+  - The specific anticoagulant, timing, indication, and exposure details are unknown.
+  - The nature, severity, and current status of the reported chronic kidney failure are unknown.
+Uncertainty / limitations: 5
+  - Unlisted findings are unknown and cannot be treated as absent.
+  - The supplied patient-case record is only an analogous case, has no diagnosis or outcome, and cannot establish this patient's diagnosis.
+  - The only retrieved medical-knowledge passage concerns BK polyomavirus reactivation after kidney transplantation and does not address the reported symptom pattern, anemia, black stools, bleeding, or headache.
+  - Retrieval similarity does not represent diagnostic confidence or probability.
+  - Because relevant medical knowledge evidence is absent, the available observations cannot support a structured, evidence-grounded differential under the supplied constraints.
+Unsupported claims: 2
+  - A specific cause of the reported pallor, fatigue, dizziness, near-fainting, black stools, or headache cannot be established from the supplied evidence.
+  - Anemia, gastrointestinal bleeding, anticoagulant-associated bleeding, and kidney-disease-associated anemia may be considerations suggested by the observations, but they are not supported here by relevant retrieved medical evidence and therefore are not proposed as diagnoses.
+No hypothesis was supplied. Context above is from the structured contract; no separate reason code exists.
+
+------------------------------------------------------------
+[5] GROUNDING VALIDATION
+------------------------------------------------------------
+Diagnostic version: 1
+Grounding result: PASS
+✓ Patient-fact, patient-case and medical references checked against frozen inventories.
+✓ Referenced IDs exist; diagnostic evidence inventories match claim references.
+Reference existence does not establish clinical entailment or correctness.
+
+------------------------------------------------------------
+[6] CLINICAL CRITIC
+------------------------------------------------------------
+Diagnostic version reviewed: 1
+Status: revision_required
+safety_flags: 2
+  - The combination of black stools, pallor, severe functional fatigue, dizziness or near-fainting, and new oral anticoagulant use represents a potentially high-risk bleeding or anemia pattern. The output mentions these findings but does not explicitly identify their safety significance.
+  - An empty differential may understate concern by making potentially serious hypotheses disappear from the structured output, even though the narrative acknowledges them.
+unsupported_points: 3
+  - The assertion that complete abstention is required is too strong. Relevant medical retrieval is absent, but the patient facts themselves can support a cautious, explicitly inferential differential without establishing any diagnosis.
+  - The claim that the observations cannot support a structured evidence-grounded differential conflates lack of confirmatory evidence with inability to generate hypotheses. Prior anemia, pallor, severe fatigue, dizziness or near-fainting, black stools, chronic kidney failure, and anticoagulant exposure provide factual grounds for provisional considerations.
+  - Stating that anemia is not supported overlooks the documented history of anemia and current anemia-compatible findings. These do not confirm current anemia, but they support including it as an unconfirmed differential consideration.
+contradictions: 2
+  - The differential_diagnoses field is empty, while the unsupported_claims section explicitly identifies anemia, gastrointestinal bleeding, anticoagulant-associated bleeding, and kidney-disease-associated anemia as considerations suggested by the observations.
+  - The reasoning summary recognizes multiple potentially related findings but then treats irrelevant retrieval as preventing any non-definitive differential, despite those findings being direct patient evidence rather than retrieval-derived claims.
+recommended_revisions: 6
+  - Replace complete abstention with a limited provisional differential derived from the patient facts, clearly labeling each item as model inference rather than a confirmed diagnosis.
+  - Include anemia and possible gastrointestinal blood loss among the leading considerations, while distinguishing prior anemia from unverified current anemia and avoiding unsupported causal conclusions.
+  - Represent anticoagulant-associated bleeding and kidney-disease-associated anemia as conditional etiologic considerations rather than established causes.
+  - Explicitly flag the safety significance of the combined black-stool, presyncope-like, pallor, fatigue, and anticoagulant findings without prescribing or directing treatment.
+  - Retain the conclusion that the medical-knowledge passage is irrelevant and that the analogous case and similarity score do not establish probability or diagnosis.
+  - Account for the headache details and travel history, or explicitly state that their diagnostic relevance remains uncertain with the supplied evidence.
+missing_evidence: 6
+  - No complete blood count, hemoglobin, hematocrit, red-cell indices, reticulocyte count, iron studies, or other laboratory characterization is supplied.
+  - No vital signs, physical examination, symptom duration, progression, or fuller characterization of the near-fainting episodes is supplied.
+  - The black-stool report is unconfirmed and lacks timing, frequency, associated findings, and alternative dark-stool exposures.
+  - The specific anticoagulant, timing, indication, and exposure details are unknown.
+  - The severity and current status of chronic kidney failure are unknown.
+  - The output does not meaningfully incorporate the documented headache locations, low reported intensity, lack of radiation, onset-speed response, or recent Southeast Asia travel into its uncertainty analysis.
+hallucination_flags: 0
+Revision requested by critic: True
+
+------------------------------------------------------------
+[7] SAFETY VALIDATOR — PHASE 6
+------------------------------------------------------------
+Diagnostic version: 1
+Critic reviewed diagnostic version: 1
+Evidence snapshot ID: b29f393952dbca27d23941dc7e7cde326f000b64bc92b8133238bb762e804c58
+Deterministic checks recorded by Phase 6: 5
+  - patient_and_evidence_integrity
+  - diagnostic_and_critic_grounding
+  - version_and_input_identity
+  - critic_safety_flags
+  - hypothesis_medical_references
+Semantic review: skipped_critic_block
+Safety findings: 2
+  critic_safety_flags [BLOCK]: A validated Clinical Critic safety flag prohibits continuation.
+  Evidence refs: 0
+  critic_safety_flags [BLOCK]: A validated Clinical Critic safety flag prohibits continuation.
+  Evidence refs: 0
+Structured decision reasons: 1
+  - critic_safety_flags
+Final Safety Decision for this version: BLOCK
+No issue identified is a model assessment, not proof of clinical safety.
+Critic fingerprint: 02e70308549613ea68fced70e7bf9f41dfa0e8c63d6c4b6f06178b8cdea628e8
+Safety policy version: phase6-safety-v1
+Safety prompt version: phase6-safety-prompt-v1
+
+------------------------------------------------------------
+TECHNICAL AUDIT
+------------------------------------------------------------
+schema_version: phase6-workflow-v1
+policy_version: phase6-routing-v1
+revision_count: 0
+total_requests: 3
+provider_repairs: 0
+seconds: 45.877302200000486
+Event 1 / INITIAL / vNone: workflow_started: label_free_input_accepted
+Event 2 / PATIENT / vNone: patient_started: initial_patient
+Event 3 / PATIENT / vNone: patient_agent_completed: patient_validated
+Event 4 / EVIDENCE / vNone: evidence_started: retrieve_once
+Event 5 / EVIDENCE / vNone: evidence_retrieved: provenance_validated
+Event 6 / DIAGNOSTIC / v1: diagnostic_started: initial_diagnosis
+Event 7 / DIAGNOSTIC / v1: diagnostic_validated: schema_passed
+Event 8 / GROUNDING / v1: grounding_started: mandatory_grounding_gate
+Event 9 / GROUNDING / v1: grounding_passed: diagnosis_committed
+Event 10 / CRITIC / v1: critic_started: review_exact_version
+Event 11 / CRITIC / v1: critic_completed: critique_validated
+Event 12 / SAFETY_VALIDATION / v1: safety_started: mandatory_safety_gate
+Event 13 / SAFETY_VALIDATION / v1: safety_deterministic_completed: deterministic_checks_passed
+Event 14 / SAFETY_VALIDATION / v1: safety_validated: assessment_committed
+Event 15 / SAFETY_VALIDATION / v1: safety_decision_recorded: application_safety_policy
+Event 16 / ROUTE / v1: route_started: deterministic_policy
+Event 17 / BLOCKED / v1: terminated: critic_safety_flags
+
+============================================================
+                    FINAL SYSTEM RESULT
+============================================================
+Patient: Synthetic DDXPlus case ddxplus:validate:1
+Diagnostic status: ABSTAINED
+Clinical critic: revision_required
+Safety decision: BLOCK
+Safety coverage: assessed
+Workflow status: blocked
+Workflow outcome: safety_blocked
+Evidence retrieved — patient cases: 1
+Evidence retrieved — medical knowledge: 1
+Evidence cited by latest diagnosis — patient cases: 0
+Evidence cited by latest diagnosis — medical knowledge: 0
+Revisions: 0
+LLM requests: 3
+Provider repairs: 0
+Execution time: 45.88 seconds (workflow only)
+✗ BLOCKED
+============================================================
+
+IMPORTANT: This is a research prototype using synthetic DDXPlus data.
+The result is not a clinical diagnosis or medical advice.
+Safety validation does not constitute clinical validation.
+HUMAN_REVIEW is terminal only; no human review is scheduled or implemented.
