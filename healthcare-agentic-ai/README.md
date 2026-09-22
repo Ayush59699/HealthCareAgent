@@ -188,3 +188,25 @@ indexes once per case. Output goes to a fresh `outputs/phase5/<timestamp>/`.
 Inspect terminal `status` and `outcome`: exit zero includes valid abstention,
 unresolved and safety-blocked research runs, not only accepted-with-limitations
 results. No HITL or clinical-effectiveness claim is implemented.
+
+
+## Phase 6: isolated output-safety validation
+
+Phase 6 adds a dedicated Safety Validator after the validated Clinical Critic and
+before routing, without changing the Phase 5 runner, contracts, prompts or tests.
+It uses the same frozen evidence and provider, with application-owned CONTINUE /
+HUMAN_REVIEW / BLOCK decisions and fail-closed safety checks on each new version.
+CONTINUE is not clinical clearance. HUMAN_REVIEW is a terminal withheld-output
+marker only: no human review is scheduled or implemented.
+
+```text
+python scripts/run_phase6.py --queries 1 --top-k 1
+python -m unittest discover -s tests -t . -p test_phase6*.py -v
+python -m unittest discover -s tests -t . -p test_safety*.py -v
+```
+
+The runner writes fresh versioned artifacts under `outputs/phase6/`. Exit zero
+includes withheld research outcomes; inspect status, outcome and safety coverage.
+The original Phase 4/5 commands and behavior remain unchanged. No Graph RAG, HITL,
+GUI, prescribing, tool execution or new diagnostic agent is added.
+See [architecture and limits](docs/phase6.md) and [validation](docs/phase6-validation.md).

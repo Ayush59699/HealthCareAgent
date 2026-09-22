@@ -190,3 +190,19 @@ revisions, separate provider repair accounting, progress checks and budgets.
 Safety flags block completion and abstention never becomes clinical approval.
 `scripts/run_phase5.py` is separate from the preserved Phase 4 baseline runner.
 See [Phase 5 architecture](phase5.md) and [validation](phase5-validation.md).
+
+
+## Phase 6 isolated safety composition
+
+The separate `orchestration/phase6/` workflow inserts a mandatory output-safety
+assessment after each validated critic and before routing. `safety/` contains
+strict semantic-result contracts and application-owned deterministic rules.
+CONTINUE delegates to unchanged Phase 5 routing; HUMAN_REVIEW and BLOCK withhold
+automated continuation. Human review is not scheduled or implemented.
+
+Phase 5 runtime, schemas, gates, prompts and tests remain unchanged. Phase 6 uses
+new workflow/report schema versions and a separate `scripts/run_phase6.py` runner.
+Existing diagnostic revisions, frozen evidence and provider are reused. Safety
+feedback is never evidence or a new revision input. No Graph RAG, HITL, GUI,
+clinical action tools or additional diagnostic role is introduced. See
+[Phase 6](phase6.md) and [its validation](phase6-validation.md).

@@ -1,0 +1,602 @@
+
+Agent: # Phase 6 Implementation Plan: Dedicated Safety Validator
+
+## 1. Scope and compatibility strategy
+
+Add a **dedicated output-safety validation layer**, not another diagnostic agent. It may identify risks and recommend withholding an output, but must not diagnose, prescribe, rewrite results, retrieve evidence, or control workflow transitions.
+
+Preserve these Phase 5 invariants:
+
+- The Orchestrator is the only workflow-state writer.
+- Patient features remain label-free and exact-copy validated.
+- Evidence is retrieved once and frozen.
+- Diagnostic and critic outputs pass existing schema and grounding gates.
+- Critiques remain associated with the exact diagnostic version.
+- Clinical revisions remain limited to two.
+- Provider repairs remain separate from clinical revisions.
+- Existing critic safety flags always block.
+- Existing failure, abstention, repetition, and budget behavior remains fail-closed.
+- No tools, feedback memory, Graph RAG, HITL, or GUI are introduced.
+
+### Recommended isolation
+
+Keep the existing Phase 5 runtime and schemas unchanged. Add a separately versioned Phase 6 implementation under `orchestration/phase6/`, with its own runner.
+
+This is preferable to silently extending Phase 5 because:
+
+- `Stage`, `EventName`, statuses, and outcomes use closed `Literal` contracts.
+- `WorkflowState` explicitly identifies itself as `phase5-workflow-v1`.
+- Existing tests assert exact invocation counts, transitions, and outcomes.
+- Most execution helpers are nested inside `Orchestrator.run()`. There is no existing extension hook for inserting a stage.
+
+The Phase 6 orchestrator should reuse existing agents, evidence services, validators, domain models, and the pure Phase 5 `route()` function. Its execution loop should be a narrowly adapted counterpart with explicit parity tests.
+
+**Trade-off:** this introduces some execution-loop duplication. Avoid a broad shared-engine refactor in the same change; that would increase the risk to Phase 5. Track extraction of common execution mechanics as a separate future task.
+
+---
+
+## 2. Integration point
+
+### Primary insertion point
+
+Run safety validation **after the Clinical Critic has passed schema/reference validation and been committed, but before routing**.
+
+In the current `Orchestrator.run()`, this corresponds to the boundary between:
+
+- `critic_completed`
+- `route_started`
+
+Proposed normal flow:
+
+```text
+INITIAL → PATIENT → EVIDENCE
+                       ↓
+                  DIAGNOSTIC
+                       ↓
+                   GROUNDING
+                       ↓
+                     CRITIC
+                       ↓
+               SAFETY_VALIDATION
+                       ↓
+                     ROUTE
+             ┌─────────┼───────────────┐
+             ↓         ↓               ↓
+       Phase 5 route  HUMAN_REVIEW    BLOCKED
+             ↓
+    FINAL / ABSTENTION / UNRESOLVED
+             or
+    DIAGNOSTIC_REVISION
+             ↓
+    GROUNDING → CRITIC → SAFETY_VALIDATION
+```
+
+This placement gives the validator access to:
+
+- Validated patient facts.
+- Frozen patient-case and medical evidence.
+- The current grounded diagnostic result.
+- The validated critique for that exact result.
+
+### Per-version requirement
+
+Every new, non-repeated diagnostic version that reaches routing must receive a fresh safety assessment. A safety assessment for version 1 must never authorize version 2.    
+
+### Preserve existing early exits
+
+Do not force these paths through semantic safety validation:
+
+| Existing condition | Preserved behavior |
+|---|---|
+| No medical evidence | Abstain before diagnosis |
+| Invalid patient, evidence, diagnostic, or critic contract | Technical failure |
+| Grounding failure | Technical failure |
+| Repeated diagnostic content | Existing unresolved outcome before another critic call |
+| Exhausted budget | Technical failure |
+
+Record safety as **not assessed**, with an application-authored reason, rather than treating skipped validation as `CONTINUE`.
+
+A diagnostic abstention that does reach the critic should still be safety-reviewed: its prose can contain unsafe certainty or instructions even when hypothesis inventories are empty.
+
+### Immediate critic safety block
+
+Inside the safety stage, deterministic checks run first. If the validated critic has any `safety_flags`:
+
+- Produce a deterministic `BLOCK` assessment.
+- Skip the semantic LLM call.
+- Preserve `blocked / safety_blocked`.
+
+No subsequent model response may downgrade that decision.
+
+---
+
+## 3. Required contracts and models
+
+Use strict Pydantic contracts, frozen application records, detached handoffs, and explicit version identifiers.
+
+### A. `SafetyInput`
+
+A restricted input containing:
+
+- Validated `PatientState`.
+- Current `DiagnosticResult`.
+- Matching `ClinicalCritique`.
+- Separate patient-case and medical evidence inventories reconstructed from the frozen snapshot.
+- Versioned safety policy identifier and fixed assessment instructions.
+
+Do not supply:
+
+- Whole `WorkflowState`.
+- Evaluation labels or raw dataset rows.
+- Complete diagnostic/critic histories.
+- Provider credentials, raw responses, or telemetry.
+- Other patients’ workflow state.
+
+Diagnostic and critic content must be explicitly identified as **material under review**, not new evidence.
+
+### B. `SafetyTicket`
+
+An application-authored immutable invocation identity containing:
+
+- Run ID.
+- Patient ID.
+- Stage: `SAFETY_VALIDATION`.
+- Revision number.
+- Diagnostic version and fingerprint.
+- Evidence snapshot ID.
+- Critic fingerprint.
+- Safety policy version.
+- Canonical safety-input fingerprint.
+
+The existing `StageTicket` lacks a critic fingerprint and cannot represent the new stage. Add a Phase 6 safety ticket rather than weakening the Phase 5 contract.
+
+Use an application-owned completion envelope. The LLM must not generate identity fields or tickets.
+
+### C. `SemanticSafetyResult`
+
+The semantic model should return observations, **not an executable route**.
+
+Recommended structure:
+
+- A fixed list of required assessment categories.
+- Per-category result: `no_issue_identified`, `issue_identified`, or `uncertain`.
+- Structured findings with:
+  - Allowlisted category.
+  - Bounded explanation.
+  - Typed target: diagnostic or critique.
+  - Target field path.
+  - Exact excerpt from that field where applicable.
+  - Supporting patient/evidence references where applicable.
+- Explicit assessment limitations.
+
+Reject missing categories, duplicates, unexpected categories, invalid types, and contradictory coverage declarations.
+
+A model’s declaration that it checked a category is an auditable assertion—not proof of complete safety assessment.
+
+### D. `SafetyFinding`
+
+Normalize deterministic and semantic findings into records containing:
+
+- Finding identifier.
+- Origin: `deterministic` or `semantic`.
+- Allowlisted rule/category code.
+- Validated content anchors.
+- Supporting references.
+- Application-assigned disposition.
+
+The model must not assign binding workflow severity. Application policy maps validated finding categories and uncertainty to dispositions.
+
+### E. `SafetyAssessment`
+
+An application-authored record containing:
+
+- Safety ticket.
+- Deterministic checks performed.
+- Semantic status: completed or intentionally skipped.
+- Validated findings.
+- Decision: `CONTINUE`, `HUMAN_REVIEW`, or `BLOCK`.
+- Allowlisted decision reasons.
+- Policy and prompt versions.
+- Completion timestamp.
+
+Technical failure is **not** a successful safety assessment. Never manufacture a `CONTINUE` assessment after validation fails.
+
+### F. Phase 6 workflow state
+
+Introduce `phase6-workflow-v1` and `phase6-routing-v1`.
+
+Preserve the existing state fields and their meanings, while adding:
+
+- Versioned safety assessment history.
+- Phase 6 stage/event types.
+- Safety-stage invocation telemetry.
+- Explicit safety coverage status and skip reason.
+- `human_review_required` terminal status/outcome.
+
+Reuse unchanged `DiagnosticVersion`, `CriticVersion`, `EvidenceSnapshot`, and existing patient/diagnostic/critic result contracts.
+
+Do not relabel Phase 6 JSON as Phase 5 JSON or silently insert safety approval into historical records.
+
+---
+
+## 4. Deterministic checks versus semantic checks
+
+### Deterministic responsibilities
+
+| Check | Handling |
+|---|---|
+| Correct run/patient/version/evidence/critic association | Technical failure on mismatch |
+| Current patient, diagnostic, critique, and evidence integrity | Reuse existing validation; technical failure |
+| Exact input/ticket fingerprint match | Technical failure |
+| Existing critic safety flags | `BLOCK` |
+| Safety result schema and required category coverage | Bounded provider repair, then technical failure |
+| Finding pointers and exact excerpts | Reject nonexistent or altered targets |
+| Safety evidence references | Reject unknown IDs and incorrect categories |
+| Policy version and supported rule codes | Reject unknown values |
+| Abstention inventories | Preserve existing grounding enforcement |
+| Request, byte, and time budgets | Technical failure; never skip required validation |
+| Decision aggregation | Application code only |
+
+The existing `validate_references()` accepts diagnostic and critic contracts, not safety outputs. Add a separate safety-result validator rather than expanding its accepted types.
+
+### Proposed additional structural review trigger
+
+A non-abstaining hypothesis can currently pass grounding while citing only patient facts, provided medical retrieval is nonempty.
+
+Phase 6 may deterministically identify:
+
+> A hypothesis has no structured medical-evidence reference.
+
+Recommended disposition: **`HUMAN_REVIEW`**, not a claim that the hypothesis is necessarily wrong.
+
+This would be a new Phase 6 release restriction, not a change to Phase 5 grounding. Make it an explicitly versioned policy rule.
+
+### Semantic responsibilities
+
+Use the existing stateless provider for narrowly scoped assessment of:
+
+- Invented patient facts in generated prose.
+- Unsupported diagnostic certainty or false reassurance.
+- Similarity scores presented as diagnostic probability.
+- Patient analogies presented as established diagnoses or outcomes.
+- Medical sources materially misrepresented.
+- Treatment, prescribing, or action instructions outside the research scope.
+- Unsafe recommendations to delay or avoid care.
+- Material contradictions between the diagnostic result and critique.
+- Instructions from retrieved text being followed as commands.
+- Safety ambiguity that cannot be resolved from supplied material.
+
+Inspect all generated textual fields, not only hypothesis rationales.
+
+### Important boundaries
+
+- Keyword matching alone must not declare prescribing or dangerous advice.
+- “Do not prescribe X” must not be treated as prescribing X.
+- A medicine name in source text is not an instruction by the diagnostic output.
+- Missing age or sex is not automatically unsafe.
+- The small medical corpus cannot support a comprehensive contraindication, dosing, emergency-triage, or guideline-compliance engine.
+- No newly invented clinical thresholds should become deterministic rules.
+
+A semantic `uncertain` result must not count as a clean pass. Its policy disposition should be `HUMAN_REVIEW`.
+
+---
+
+## 5. States, transitions, and routing
+
+### Separate decisions from stages
+
+`CONTINUE` and `BLOCK` should be safety decisions, not additional redundant workflow stages.
+
+| Safety decision | Workflow effect |
+|---|---|
+| `CONTINUE` | Execute unchanged Phase 5 routing logic |
+| `HUMAN_REVIEW` | Terminate in new `HUMAN_REVIEW` stage |
+| `BLOCK` | Terminate in existing `BLOCKED` stage |
+
+Add these transitions to the **Phase 6** allowlist:
+
+```text
+CRITIC → SAFETY_VALIDATION
+SAFETY_VALIDATION → ROUTE
+ROUTE → HUMAN_REVIEW
+```
+
+Preserve the existing applicable transitions, but disallow direct `CRITIC → ROUTE` in Phase 6.
+
+Continue allowing technical failure from any nonterminal stage.
+
+### Routing precedence
+
+1. **Technical/contract/budget failure:** `TERMINAL_FAILURE`.
+2. **Validated critic safety flags or completed safety `BLOCK`:** `BLOCKED`.
+3. **Completed safety `HUMAN_REVIEW`:** `HUMAN_REVIEW`.
+4. **Completed safety `CONTINUE`:** call existing Phase 5 `route()` unchanged.
+
+Consequences:
+
+- Safety cannot approve something the critic would block.
+- `CONTINUE` does not mean `FINAL`; the critic may still require revision or abstention.
+- Safety cannot increase revision limits.
+- Safety cannot substitute for grounding.
+- Safety uncertainty cannot be converted into acceptance.
+- A model cannot request an arbitrary workflow transition.
+
+### Meaning of `HUMAN_REVIEW`
+
+Use:
+
+- Stage: `HUMAN_REVIEW`
+- Status/outcome: `human_review_required`
+
+This is a **terminal research disposition**, not an implemented human workflow.
+
+It must not create a reviewer queue, send notifications, wait for approval, expose a resume endpoint, or allow manual overrides. Documentation and reports must explicitly state that no review has been scheduled or performed.
+
+---
+
+## 6. Interaction with the critic and Orchestrator
+
+### Clinical Critic
+
+Keep its contract, prompt, and revision role unchanged.
+
+The Safety Validator supplements the critic with a release restriction. It does not replace the critic or convert its safety flags into weaker findings.
+
+### Diagnostic Agent
+
+Keep the existing `DiagnosticRevisionInput` unchanged.
+
+Do not inject safety findings into revisions in this phase. Doing so would change the revision contract and introduce a new feedback loop.
+
+Instead:
+
+- Existing critic feedback continues to drive revisions when safety permits continuation.
+- Safety `HUMAN_REVIEW` or `BLOCK` terminates the automated workflow.
+
+### Orchestrator
+
+The Phase 6 orchestrator must:
+
+1. Verify the current diagnostic/critic association.
+2. Construct a detached safety input and application ticket.
+3. Run deterministic checks.
+4. Invoke semantic validation only when required and permitted by budget.
+5. Independently revalidate returned objects, including fake-provider objects.
+6. Validate finding anchors and source references.
+7. Compute the final safety decision in application code.
+8. Commit the assessment.
+9. Verify that the committed assessment matches the current version before routing.
+
+The Safety Validator must never receive state-writing capabilities.
+
+### Provider reuse
+
+Reuse `StructuredLLM` and `OpenAIProvider` without adding a generation backend.
+
+Preserve:
+
+- Strict structured output.
+- Bounded schema/validation repairs.
+- No transport/refusal/incomplete-output retries.
+- No tools or shared conversation history.
+- No persistence of rejected raw output.
+- Deployment-default sampling behavior.
+
+A legitimate concerning safety assessment is not a failed generation. Do not retry it merely to obtain a more permissive answer.
+
+---
+
+## 7. Budgets, audit, and reporting
+
+### Budgets
+
+Maximum logical LLM invocations become:
+
+- 1 Patient Agent invocation.
+- Up to 3 Diagnostic Agent invocations.
+- Up to 3 Clinical Critic invocations.
+- Up to 3 semantic safety invocations.
+
+**Maximum: 10 invocations.**
+
+With three provider attempts per invocation, worst-case capacity is 30 requests. With the current production default of two attempts, it is 20.
+
+Preserve the existing default request/byte/time limits initially. Document that these limits may terminate a Phase 6 run before all permitted revisions complete. Any increase should be explicit, not automatic.
+
+Budget reservations must use the actual provider limits for each invocation. Required safety checks must never become optional because budget is low.
+
+Retain cooperative deadlines and check elapsed time after deterministic validation, semantic calls, and before routing.
+
+### Audit
+
+Add ordered events such as:
+
+- `safety_started`
+- `safety_deterministic_completed`
+- `safety_semantic_completed`
+- `safety_validated`
+- `safety_decision_recorded`
+- `human_review_required`
+
+Events should contain identifiers, policy versions, counts, and machine reasons—not arbitrary model prose or quoted sensitive content.
+
+Store accepted detailed findings in the protected case artifact, not console logs.
+
+### Reports
+
+A Phase 6 report should include:
+
+- Phase 6 schema version.
+- Existing status/outcome fields.
+- Latest diagnostic and matching safety assessment identifiers.
+- Safety coverage and decision.
+- Finding counts by category.
+- Safety policy/prompt version.
+- Safety request counts, repairs, and duration.
+- Explicit statement that `CONTINUE` is not clinical clearance.
+
+Preserve Phase 5’s distinction between technical completion and acceptance. A Phase 6 `human_review_required` result may exit zero under that convention, but reports must clearly mark it as withheld and not approved.
+
+---
+
+## 8. Required tests
+
+### Contract and identity tests
+
+- Valid strict schema round trips.
+- Rejection of extra fields, coercion, missing categories, and invalid enums.
+- Rejection of stale run, patient, stage, revision, diagnostic, evidence, critic, or policy identities.
+- Rejection of modified input fingerprints.
+- Independent validation of `model_construct()` and fake-provider results.
+- Exact content-pointer, excerpt, and evidence-reference validation.
+
+### Fail-closed tests
+
+- Refusal, incomplete output, timeout, API error, and malformed output.
+- Exhausted structured repairs.
+- Missing or unavailable validator.
+- Missing required assessment categories.
+- Unknown evidence references or fabricated quotes.
+- Invalid telemetry and exhausted request/byte/time budgets.
+- Exceptions after the critic but before safety completion.
+- No finalization, revision, or fabricated `CONTINUE` after any such failure.
+
+### Routing tests
+
+- `CONTINUE` reproduces every applicable Phase 5 route.
+- Existing critic safety flags always block.
+- Safety `BLOCK` overrides an otherwise supported result.
+- Safety `HUMAN_REVIEW` overrides otherwise permitted automated continuation.
+- Unknown or incomplete safety results never route.
+- No direct Phase 6 `CRITIC → ROUTE`.
+- No terminal-state reopening.
+- No unsafe-assessment repair loop.
+
+### Revision and early-exit tests
+
+- Each new version receives its own assessment.
+- Prior-version safety cannot authorize a revision.
+- At most two clinical revisions.
+- Repairs do not increment revision counts.
+- Retrieval remains once per source per case.
+- Repetition exits remain before another critic/safety call.
+- No-medical-evidence abstention remains before diagnosis.
+- Valid diagnostic abstention is safety-reviewed when it reaches the critic.
+- Skipped safety is reported as unassessed, not passed.
+
+### Ownership and leakage tests
+
+- Validator mutation cannot alter committed patient, evidence, diagnosis, or critique.
+- No evaluation labels in safety payloads, assessments, events, or reports.
+- No full workflow histories passed to the validator.
+- No new retrieval or tool execution.
+- No raw rejected responses, credentials, or arbitrary exception text persisted.
+
+### Safety-rule fixtures
+
+Include affirmative, negated, quoted, hypothetical, and ambiguous examples for:
+
+- Prescribing/action instructions.
+- False certainty.
+- Misrepresented evidence.
+- Similarity/probability confusion.
+- Retrieved prompt-injection text.
+- Hypotheses lacking medical citations.
+
+These tests validate software behavior and policy mapping, not clinical sensitivity or specificity.
+
+### Regression and reporting tests
+
+- Keep all existing Phase 4/5 tests unchanged.
+- Compare Phase 5 and Phase 6 with all safety outcomes `CONTINUE`, allowing only additional safety records, time, and request consumption.
+- Verify new schema discrimination and unchanged historical Phase 5 parsing.
+- Test CLI setup failures, atomic case artifacts, and explicit human-review reporting.
+- Keep live tests opt-in; require separate authorization before paid execution.
+
+---
+
+## 9. Exact recommended file changes
+
+All paths below are relative to `healthcare-agentic-ai/`.
+
+### Add: safety validation service
+
+| File | Purpose |
+|---|---|
+| `safety/__init__.py` | Narrow public service exports |
+| `safety/models.py` | Restricted inputs, semantic results, findings, assessments, decisions |
+| `safety/policy.py` | Versioned categories, deterministic rules, disposition mapping |
+| `safety/prompts.py` | Isolated semantic safety-assessment prompt |
+| `safety/validation.py` | Finding anchors, category coverage, reference and consistency checks |
+| `safety/validator.py` | Stateless deterministic/semantic assessment service |
+
+### Add: isolated Phase 6 orchestration
+
+| File | Purpose |
+|---|---|
+| `orchestration/phase6/__init__.py` | Phase 6 exports |
+| `orchestration/phase6/contracts.py` | Safety tickets and completion envelopes |
+| `orchestration/phase6/events.py` | Extended stages and sanitized audit events |
+| `orchestration/phase6/state.py` | Versioned workflow state and safety history |
+| `orchestration/phase6/policy.py` | Phase 6 workflow limits and safe failure-code extensions |
+| `orchestration/phase6/routing.py` | Safety-aware transition allowlist and wrapper around Phase 5 routing |
+| `orchestration/phase6/orchestrator.py` | Application-owned execution with mandatory safety integration |
+| `scripts/run_phase6.py` | Separate CLI and Phase 6 reports |
+
+### Add: tests and documentation
+
+- `tests/safety_helpers.py`
+- `tests/test_safety_contracts.py`
+- `tests/test_safety_rules.py`
+- `tests/test_safety_validator.py`
+- `tests/test_phase6_orchestration.py`
+- `tests/test_phase6_boundaries.py`
+- `tests/test_phase6_routing.py`
+- `tests/test_phase6_reporting.py`
+- `tests/test_phase6_compatibility.py`
+- `docs/phase6.md`
+- `docs/phase6-validation.md`
+
+The validation document should contain actual results only after implementation and execution.
+
+### Modify: documentation only
+
+- `README.md` — Phase 6 scope, command, outcomes, and limitations.
+- `docs/architecture.md` — Updated architecture and compatibility boundary.
+
+### Leave unchanged
+
+- Existing `orchestration/*.py` Phase 5 modules.
+- `scripts/run_phase5.py`.
+- Phase 4 pipeline and runner.
+- Existing agent contracts, prompts, grounding, and revision input.
+- Provider and generation configuration.
+- Parser, evaluator, retrievers, ingestion, embeddings, and vector stores.
+- Existing tests.
+- Requirements, credentials, datasets, indexes, and historical artifacts.
+
+No new dependency is necessary.
+
+---
+
+## 10. Risks and decisions to make explicit
+
+1. **A safety gate necessarily changes Phase 6 outcomes.** Preserve Phase 5 as the baseline; define compatibility as unchanged contracts and routing when safety permits continuation—not identical outputs in every case.
+
+2. **“No new clinical agents” needs a clear boundary.** The proposed semantic component is a restricted validation service using the existing provider. It has no diagnostic, prescribing, retrieval, or execution role.
+
+3. **`HUMAN_REVIEW` is not HITL.** It is a terminal withheld-output marker only.
+
+4. **Semantic assessment remains fallible.** Using the same model backend does not provide independent clinical adjudication; shared blind spots remain possible.
+
+5. **Policy severity requires deliberate specification.** Clearly prohibited action instructions may map to `BLOCK`; uncertain interpretations should map to `HUMAN_REVIEW`. Avoid undocumented severity choices.
+
+6. **Schema validity does not establish clinical entailment.** Exact quotes and valid references improve traceability, not medical correctness.
+
+7. **Historical diagnostic records are not approved outputs.** A result committed before safety review must remain inspectable for audit, but consumers must use terminal status and the matching safety assessment before treating it as eligible research output.
+
+8. **No general input-triage guarantee is added.** Early abstention and repetition paths retain their existing behavior and may not receive semantic assessment.
+
+9. **Execution-loop duplication can drift.** Require parity tests and clearly identify every intentional Phase 6 difference. Defer shared-engine refactoring.
+
+10. **Release criterion:** no Phase 6 path may finalize or continue a new diagnostic version without a matching, complete safety assessment, except preserved early terminal paths explicitly marked unassessed.

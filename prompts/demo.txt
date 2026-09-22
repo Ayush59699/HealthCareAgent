@@ -1,0 +1,586 @@
+IMPLEMENT A LIVE INTERACTIVE DEMONSTRATION MODE FOR MY AGENTIC HEALTHCARE PROJECT
+
+IMPORTANT CONTEXT
+I need to demonstrate my project to my research guide tomorrow.
+
+The project currently has:
+- DDXPlus synthetic patient dataset
+- Patient Agent
+- Patient Case RAG using BGE-small + Qdrant
+- Medical Knowledge RAG using BGE-small + Qdrant
+- Diagnostic Agent
+- Clinical Critic
+- Phase 5 deterministic Orchestrator
+- Phase 6 Dedicated Safety Validator
+- GPT-5.6-Sol as the LLM backend
+- Existing automated tests and validation
+
+Phase 6 is already implemented and validated:
+- 263 tests
+- 262 passed
+- 1 opt-in cloud test skipped
+- 78 new Phase 6/safety tests
+- Phase 5 behavior must remain unchanged
+- Phase 6 is a separate workflow
+- HUMAN_REVIEW is currently only a terminal marker, not actual HITL
+
+GOAL
+
+Create a NEW, SIMPLE, INTERACTIVE DEMO ENTRY POINT that allows me to demonstrate the complete system to my guide as a real use case.
+
+I want to be able to run something like:
+
+    uv run python healthcare-agentic-ai/scripts/demo.py
+
+Then interactively enter a synthetic patient case and watch the system process it step-by-step.
+
+THIS IS A DEMONSTRATION LAYER ONLY.
+
+DO NOT redesign the architecture.
+DO NOT replace the existing orchestrator.
+DO NOT modify Phase 5 behavior.
+DO NOT modify Phase 6 safety logic.
+DO NOT weaken any existing validation.
+DO NOT introduce LangGraph.
+DO NOT add a GUI/web application.
+DO NOT add new agents.
+DO NOT add Graph RAG.
+DO NOT add HITL yet.
+DO NOT rebuild the indexes.
+DO NOT change the LLM provider.
+DO NOT change the existing prompts/contracts unless absolutely required for compatibility.
+
+First inspect the existing project and determine the correct existing entry points/APIs to call.
+
+==================================================
+DEMO EXPERIENCE
+==================================================
+
+The demo should be TERMINAL BASED and visually clear.
+
+When I run:
+
+    uv run python healthcare-agentic-ai/scripts/demo.py
+
+show:
+
+============================================================
+        AGENTIC HEALTHCARE DECISION SUPPORT DEMO
+============================================================
+
+Research Prototype
+Synthetic DDXPlus patient | GPT-5.6-Sol | Qdrant RAG
+
+============================================================
+
+Then provide two modes:
+
+1. USE SAMPLE PATIENT
+2. ENTER PATIENT MANUALLY
+
+Default/sample mode is important because I need a reliable demo tomorrow.
+
+==================================================
+SAMPLE PATIENT
+==================================================
+
+Create a sample patient using ONLY a valid/sensible DDXPlus-compatible synthetic case.
+
+Preferably allow selecting from a small number of existing DDXPlus validation cases rather than inventing a clinical case.
+
+For example:
+
+[1] Sample case
+[2] Another sample case
+[3] Enter manually
+[Q] Quit
+
+If possible, use an actual validation patient from the existing dataset/index rather than hard-coded medical claims.
+
+Clearly label it:
+
+    SYNTHETIC RESEARCH CASE — NOT A REAL PATIENT
+
+==================================================
+MANUAL INPUT
+==================================================
+
+Allow simple fields such as:
+
+Age:
+Sex:
+Symptoms:
+Relevant history:
+
+Example:
+
+Age: 45
+Sex: Male
+Symptoms: ...
+History: ...
+
+Convert this into the project's existing PatientState/input contract.
+
+Do NOT bypass existing validation.
+
+If manual input cannot safely map to the existing DDXPlus representation, explain the limitation and provide sample-case mode instead.
+
+==================================================
+MOST IMPORTANT REQUIREMENT:
+SHOW WHAT IS HAPPENING INTERNALLY
+==================================================
+
+The purpose of this demo is not just to print the final answer.
+
+I need my guide to SEE the agentic pipeline working.
+
+For every stage, display:
+
+------------------------------------------------------------
+[1] PATIENT AGENT
+------------------------------------------------------------
+
+INPUT
+- Patient information received
+
+PROCESS
+- Patient representation constructed
+
+OUTPUT
+- Structured PatientState
+
+Show the important structured fields without dumping huge objects.
+
+Then:
+
+------------------------------------------------------------
+[2] PATIENT CASE RAG
+------------------------------------------------------------
+
+Show:
+
+- Retrieval started
+- Query/patient representation used
+- Number of retrieved cases
+- Top-k setting
+- Retrieved case IDs
+- Similarity scores
+- Important retrieved evidence
+- Confirm that these are training cases
+- Confirm that pathology/differential labels are not exposed to the Patient Case RAG
+
+Example:
+
+Retrieved 3 similar training cases:
+
+1. ddxplus:train:60
+   similarity: 0.9877
+
+2. ...
+   similarity: ...
+
+Do not expose hidden dataset labels that the architecture intentionally excludes.
+
+------------------------------------------------------------
+[3] MEDICAL KNOWLEDGE RAG
+------------------------------------------------------------
+
+Show:
+
+- Retrieval started
+- Number of retrieved chunks
+- Top source titles
+- Similarity scores
+- Source type
+- Source identifier/title
+
+Example:
+
+1. Asthma
+   Source: MedlinePlus
+   similarity: ...
+
+2. ...
+   Source: PMC
+   similarity: ...
+
+Make it clear that this is external medical knowledge retrieval, separate from patient-case retrieval.
+
+------------------------------------------------------------
+[4] DIAGNOSTIC AGENT
+------------------------------------------------------------
+
+Show:
+
+- Diagnostic Agent invoked
+- Evidence supplied to the agent
+- Retrieved patient-case evidence
+- Retrieved medical evidence
+- Diagnostic output
+- Structured hypothesis/hypotheses if available
+- Evidence references
+- Abstention if applicable
+
+IMPORTANT:
+
+Do NOT display hidden chain-of-thought/internal reasoning.
+
+Only display the structured output and concise evidence-grounding information that is already part of the application's contracts.
+
+For example:
+
+Diagnostic Agent Output
+-----------------------
+Status: ...
+Primary hypothesis: ...
+Supporting evidence refs: ...
+Contradicting evidence refs: ...
+Uncertainty/limitations: ...
+
+If the agent abstains, show:
+
+    Diagnostic Agent: ABSTAINED
+
+and explain the structured reason.
+
+------------------------------------------------------------
+[5] GROUNDING VALIDATION
+------------------------------------------------------------
+
+This is important.
+
+Show:
+
+- Grounding validation started
+- Evidence references checked
+- Patient-case references validated
+- Medical-knowledge references validated
+- Whether all references exist in the frozen evidence snapshot
+- Result: PASS / FAIL
+
+Example:
+
+✓ All referenced evidence exists
+✓ Evidence inventories match claim references
+✓ No hallucinated evidence references
+
+Grounding result: PASS
+
+Do not print huge raw validation objects.
+
+------------------------------------------------------------
+[6] CLINICAL CRITIC
+------------------------------------------------------------
+
+Show:
+
+- Critic invoked
+- Diagnostic version being reviewed
+- Critic result
+- Safety flags
+- Unsupported claims
+- Contradictions
+- Recommended revisions
+- Evidence concerns
+
+Again, DO NOT expose hidden chain-of-thought.
+
+Only show structured critique fields.
+
+Example:
+
+Clinical Critic
+--------------
+Status: REVIEWED
+
+Safety flags: 0
+Unsupported claims: 1
+Contradictions: 0
+Revision requested: YES/NO
+
+------------------------------------------------------------
+[7] SAFETY VALIDATOR — PHASE 6
+------------------------------------------------------------
+
+This must be clearly highlighted because Phase 6 is a major part of my project.
+
+Show:
+
+- Diagnostic version
+- Critic version
+- Evidence snapshot/version
+- Deterministic safety checks
+- Semantic safety review if executed
+- Safety findings
+- Decision
+
+For example:
+
+Safety Validator
+----------------
+
+Deterministic checks:
+✓ Diagnostic identity valid
+✓ Critic identity valid
+✓ Evidence snapshot matches
+✓ Evidence references valid
+✓ No critic safety block
+
+Semantic checks:
+✓ Unsupported clinical certainty
+✓ Dangerous recommendation
+✓ Contradiction
+✓ Missing critical information
+✓ False reassurance
+✓ Patient-fact hallucination
+
+Final Safety Decision:
+
+    CONTINUE
+
+or
+
+    HUMAN_REVIEW
+
+or
+
+    BLOCK
+
+Explain the decision using the structured safety reasons.
+
+IMPORTANT:
+Do not invent safety results just for presentation.
+Everything displayed must come from the actual Phase 6 implementation.
+
+==================================================
+FINAL RESULT
+==================================================
+
+After the pipeline completes, display a clean summary:
+
+============================================================
+                    FINAL SYSTEM RESULT
+============================================================
+
+Patient:
+    Synthetic DDXPlus case
+
+Diagnostic status:
+    ...
+
+Clinical critic:
+    ...
+
+Safety decision:
+    CONTINUE / HUMAN_REVIEW / BLOCK
+
+Workflow outcome:
+    ...
+
+Evidence used:
+    Patient cases: X
+    Medical knowledge: X
+
+Revisions:
+    X
+
+LLM requests:
+    X
+
+Execution time:
+    X seconds
+
+============================================================
+
+Then show:
+
+IMPORTANT:
+This is a research prototype using synthetic DDXPlus data.
+The result is not a clinical diagnosis or medical advice.
+Safety validation does not constitute clinical validation.
+
+==================================================
+LIVE PROGRESS DISPLAY
+==================================================
+
+Make the terminal experience easy to understand.
+
+Use clear separators and statuses such as:
+
+✓ COMPLETED
+→ RUNNING
+⚠ REVIEW
+✗ BLOCKED
+
+If a stage takes time because of GPT/API calls, print:
+
+→ Calling Diagnostic Agent...
+
+and then:
+
+✓ Diagnostic Agent completed
+
+Do NOT fake progress bars or fake intermediate results.
+
+Only show real events/results.
+
+==================================================
+DEBUG / EXPLANATION LEVEL
+==================================================
+
+Add an optional:
+
+[D] Detailed mode
+
+If enabled, show additional technical information useful for explaining the research architecture:
+
+- Model name
+- RAG collection names
+- embedding model
+- embedding dimension
+- top-k
+- evidence snapshot ID/version
+- workflow version
+- routing policy version
+- diagnostic version
+- critic version
+- safety policy version
+- prompt version
+- request count
+- provider repair count
+- revision count
+- execution duration
+
+Do not expose:
+- API keys
+- credentials
+- private environment variables
+- hidden chain-of-thought
+- unnecessary raw prompts
+- massive JSON payloads
+
+==================================================
+ARCHITECTURE VIEW
+==================================================
+
+At startup, optionally print:
+
+PATIENT
+   ↓
+PATIENT AGENT
+   ↓
+PATIENT CASE RAG ──────┐
+                       │
+MEDICAL KNOWLEDGE RAG ─┤
+                       ↓
+                DIAGNOSTIC AGENT
+                       ↓
+                GROUNDING CHECK
+                       ↓
+                CLINICAL CRITIC
+                       ↓
+                SAFETY VALIDATOR
+                       ↓
+          ┌────────────┼────────────┐
+          ↓            ↓            ↓
+       CONTINUE    HUMAN_REVIEW    BLOCK
+
+Make clear that RAG is an evidence infrastructure layer, not an autonomous agent.
+
+==================================================
+IMPORTANT IMPLEMENTATION RULES
+==================================================
+
+1. Reuse the existing Phase 5/Phase 6 APIs/classes.
+2. Do not duplicate the actual clinical workflow logic if avoidable.
+3. The demo must call the same real orchestrator/workflow used by the validated implementation.
+4. Do not create a fake/demo-only diagnostic pipeline.
+5. Do not hard-code fake outputs.
+6. Do not bypass grounding validation.
+7. Do not bypass Safety Validator.
+8. Do not modify existing Phase 5/Phase 6 behavior.
+9. Do not alter existing tests.
+10. Do not change protected files unless absolutely necessary.
+11. Prefer adding new files only.
+12. Keep the demo deterministic in its presentation but use the actual backend.
+13. Handle API errors, missing indexes, invalid input, timeouts, and abstention cleanly.
+14. The demo must fail clearly rather than silently producing a fake result.
+
+==================================================
+RELIABILITY REQUIREMENT
+==================================================
+
+Because this is for a live academic demonstration tomorrow:
+
+Add a SAMPLE CASE mode that uses an existing DDXPlus validation case and the existing indexes.
+
+The demo should not depend on me typing a perfect medical representation manually.
+
+If GPT/API is unavailable:
+
+- clearly report the failure
+- do not fabricate a result
+- optionally provide a --validate-only mode that verifies the local RAG/index/configuration without making a clinical claim.
+
+==================================================
+FILES
+==================================================
+
+Prefer:
+
+healthcare-agentic-ai/scripts/demo.py
+
+You may add small supporting demo modules under something like:
+
+healthcare-agentic-ai/demo/
+
+only if necessary.
+
+Do not unnecessarily modify core project files.
+
+==================================================
+TESTING
+==================================================
+
+After implementation:
+
+1. Run syntax checks.
+2. Run the existing full test suite.
+3. Add focused tests for the demo helper/input/display logic.
+4. Verify CLI help.
+5. Verify sample-case discovery/loading.
+6. Verify the demo calls the real Phase 6 workflow.
+7. Verify no protected Phase 5/Phase 6 files were unintentionally modified.
+8. If possible, run one real cloud-backed demo invocation.
+9. Clearly distinguish:
+   - local tests
+   - integration test
+   - live GPT demonstration
+   - clinical validation
+
+==================================================
+FINAL REPORT
+==================================================
+
+After implementation, report:
+
+1. Files added
+2. Files modified
+3. Protected files confirmed unchanged
+4. How the demo calls the existing Phase 6 workflow
+5. Exact command to run it
+6. Example of the interaction
+7. What information is displayed at every stage
+8. Test results
+9. Whether a live GPT run was performed
+10. Any limitations or issues
+
+MOST IMPORTANT:
+
+This is NOT a request to redesign my healthcare architecture.
+
+I only need a polished, reliable, terminal-based LIVE DEMONSTRATION layer over the existing validated system so I can clearly demonstrate:
+
+"Here is a patient → here is what each agent does → here is what RAG retrieves → here is the diagnostic output → here is the critic → here is the dedicated Phase 6 safety validation → here is the final system decision."
+
+Implement this carefully and conservatively.
