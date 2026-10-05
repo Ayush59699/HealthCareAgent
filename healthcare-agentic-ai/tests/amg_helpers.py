@@ -42,4 +42,15 @@ def configure_provider(provider):
             ref = 'medical:' + amg_hit()['chunk_id']
             result.primary_hypothesis.rationale.evidence_refs = [ref]
             result.medical_knowledge_evidence = [ref]
+    # Default workflow now performs CHECK4 selection. AMG-focused scenarios
+    # explicitly stub a valid empty selection, preserving their safety cases.
+    import copy
+    from tests.phase4_helpers import envelope
+    original = provider.client.responses.create.side_effect
+    def respond(**request):
+        if request['text']['format']['schema']['title'] == 'WHOSelection':
+            provider.calls.append(copy.deepcopy(request))
+            return envelope(json.dumps({'selected_ids': []}))
+        return original(**request)
+    provider.client.responses.create.side_effect = respond
     return provider

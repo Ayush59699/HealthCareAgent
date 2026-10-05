@@ -67,11 +67,11 @@ class Console:
         self.say('=' * 60)
         self.say('        AGENTIC HEALTHCARE DECISION SUPPORT DEMO')
         self.say('=' * 60)
-        self.say('Research Prototype\nSynthetic DDXPlus patient | GPT-5.6-Sol | Patient Qdrant + AMG MedlinePlus')
+        self.say('Research Prototype\nSynthetic DDXPlus patient | GPT-5.6-Sol | Patient Qdrant + CHECK4 WHO + AMG MedlinePlus')
         self.say('=' * 60)
         self.say(DISCLAIMER)
         if architecture:
-            self.say('\nPATIENT -> PATIENT AGENT -> PATIENT CASE RAG -> AMG MEDICAL EVIDENCE')
+            self.say('\nPATIENT -> PATIENT AGENT -> PATIENT CASE RAG + CHECK4 WHO SELECTOR + AMG')
             self.say(' -> DIAGNOSTIC AGENT -> GROUNDING -> CLINICAL CRITIC -> SAFETY VALIDATOR')
             self.say(' -> CONTINUE (Phase 5 routing) / HUMAN_REVIEW / BLOCK')
             self.say('RAG is evidence infrastructure, not an autonomous agent.')
@@ -153,6 +153,7 @@ def make_workflow(provider, patients, medical, console, *, top_k, policy, enhanc
             names = {'PATIENT': '[1] PATIENT AGENT', 'DIAGNOSTIC': '[4] DIAGNOSTIC AGENT',
                      'DIAGNOSTIC_REVISION': '[4] DIAGNOSTIC AGENT â€” REVISION',
                      'CRITIC': '[6] CLINICAL CRITIC',
+                     'EVIDENCE': '[3] CHECK4 WHO SELECTOR / CONTENT REVIEW',
                      'SAFETY_VALIDATION': '[7] SAFETY VALIDATOR â€” PHASE 6 (semantic call)'}
             console.section(names.get(ticket.stage, ticket.stage))
             console.field('Diagnostic version', ticket.diagnostic_version)
@@ -174,6 +175,19 @@ def make_workflow(provider, patients, medical, console, *, top_k, policy, enhanc
 
 
 def show_medical_audit(console, audit):
+    if audit.get('backend') == 'who-check4-amg-v1':
+        console.section('CHECK4 WHO DOCUMENT SELECTION')
+        who = audit.get('who') or {}
+        console.field('Selection status', who.get('status'))
+        console.field('Selected documents (maximum 3)', who.get('selection_count', 0))
+        for item in who.get('documents', []):
+            console.field('WHO document ID', item['document_id'])
+            console.field('WHO source URL', item['url'])
+            console.field('Relevant source span', f"{item['char_start']}-{item['char_end']}")
+        console.say('LLM-selected, content-reviewed source sections; not lexical matches or diagnoses.')
+        if audit.get('amg'):
+            show_medical_audit(console, audit['amg'])
+        return
     if audit.get('backend') == 'amg-medlineplus-v1':
         console.section('AMG MEDICAL EVIDENCE AUDIT')
         console.field('Backend', audit['backend'])
@@ -287,7 +301,7 @@ def show_result(console, state, top_k):
     if state.medical_retrieval:
         show_medical_audit(console, state.medical_retrieval)
     if state.evidence:
-        show_evidence(console, state.evidence, top_k, medical_top_k=state.medical_retrieval['candidate_top_k'] if state.medical_retrieval else top_k)
+        show_evidence(console, state.evidence, top_k, medical_top_k=(state.medical_retrieval.get('amg') or state.medical_retrieval).get('candidate_top_k', top_k) if state.medical_retrieval else top_k)
         console.say('The frozen patient-case and medical evidence above was supplied separately to the agents.')
     else:
         console.say('[2â€“3] No committed evidence snapshot; retrieval not reached or failed.')
@@ -449,9 +463,10 @@ def main(argv=None):
                 show_medical_audit(console, service.audit)
                 show_evidence(console, snapshot, args.top_k, args.medical_top_k)
                 if not snapshot.medical_knowledge:
-                    console.say('No accepted medical evidence. Live workflow would abstain before diagnosis.')
+                    console.say('No AMG evidence in this local-only probe. Live CHECK4 WHO selection has not run.')
                 console.say('âœ“ LOCAL VALIDATION COMPLETED: configuration, sample loading, index signatures and retrieval.')
                 console.say('LLM requests: 0. Cloud connectivity/credentials and clinical performance were NOT tested.')
+                console.say('CHECK4 WHO selection/content review was NOT run by this AMG-only local probe.')
                 return 0
             phase = 'cloud provider setup/execution (check GPT_SOL credentials, availability, timeout and budgets)'
             from rag.llm.provider import OpenAIProvider

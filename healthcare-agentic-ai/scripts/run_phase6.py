@@ -14,7 +14,7 @@ from rag.config import PROJECT_ROOT, OpenAIConfig, PatientRAGConfig, load_genera
 from rag.patient_parser import DDXPlusParser
 from rag.patient_rag import PatientCaseRAG
 from rag.amg import AMGMedicalEvidence
-from rag.amg.provenance import BACKEND
+from rag.selector_evidence_service import BACKEND
 from application.workflow import create_workflow
 from application.decision import build_final_decision
 from application.resources import prepare_runtime
@@ -109,6 +109,9 @@ def main(argv=None):
             for i, record in enumerate(parser.iter_patients('validate', limit=args.queries, include_labels=False), 1):
                 result = orchestrator.run(record.patient, record.patient_id)
                 write_json_atomic(args.output_dir / f'sample_case_{i:03d}.json', result.model_dump_json(indent=2))
+                if orchestrator.evidence.combined is not None:
+                    write_json_atomic(args.output_dir / f'combined_evidence_{i:03d}.json',
+                                      orchestrator.evidence.combined.model_dump_json(indent=2))
                 decision = build_final_decision(result)
                 decision_name = f'final_decision_{i:03d}.json'
                 write_json_atomic(args.output_dir / decision_name, decision.model_dump_json(indent=2))

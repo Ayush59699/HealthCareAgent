@@ -8,8 +8,9 @@ Research prototype for **synthetic DDXPlus cases**, not clinical advice or a cli
 Label-free DDXPlus case
   -> Patient Agent (exact validated facts)
   -> Patient Case RAG (existing BGE / Qdrant training cases)
-  -> AMG MedlinePlus evidence (existing MiniLM / Chroma snapshot)
-  -> immutable, provenance-checked evidence snapshot
+  -> CHECK4 LLM WHO catalog selector + content gate (0–3 documents)
+  -> exact relevant WHO sections + AMG MedlinePlus (unchanged MiniLM / Chroma)
+  -> source-separated immutable Combined Medical Evidence snapshot
   -> Diagnostic Agent -> Grounding -> Clinical Critic -> Safety
   -> bounded revision / final research output / abstention / block / human review
   -> typed FinalDecision (ALLOW / HUMAN_REVIEW / BLOCK)
@@ -17,24 +18,37 @@ Label-free DDXPlus case
 
 **AMG retrieves evidence; it does not diagnose.** The active backend is the supplied AMG `medlineplus_lab.Retriever`, with its existing alias lookup, complete-unit passages and 1.10 squared-L2 gate unchanged. Its historical `experimental` collection name is retained to avoid reindexing or falsifying snapshot identity. The graph/answer demo, web searches and answer synthesis are **not** part of this application. The original plain AMG demo store was not the improved MedlinePlus dataset implementation.
 
+**Default WHO path:** the unchanged CHECK4 selector and content gate use the existing
+569-document WHO catalog. Full selected files are reviewed sequentially; exact
+supporting sections (not a blind 4,000-character prefix) reach Diagnostic. WHO
+catalog IDs, URLs, full-document/excerpt checksums and character spans are retained.
+No lexical fallback or diagnosis injection. Source/quote failures fail closed.
+Selector calls count toward the existing workflow budgets; no parallel cloud calls.
+
+See [CHECK5 integration and all live attempts](docs/check5-integration.md). The
+completed end-to-end run returned **BLOCK with pending review**, not clinical
+approval. Other retained attempts failed strict quote validation. This integration
+does not establish selector reliability or clinical usefulness.
+
 ## Layout
 
 | Path | Responsibility |
 |---|---|
 | `application/` | Workflow composition, CPU/index preflight and final decision/review handoff |
+| `rag/selector_evidence_service.py`, `rag/who_sections.py` | CHECK4 selection, exact section handoff, WHO + AMG composition |
 | `rag/amg/` | Thin AMG adapter, native provenance contract, evidence service |
 | `rag/patient_*`, `rag/embeddings.py`, `rag/vector_store.py` | Separate existing Patient Case RAG |
 | `rag/agents/`, `rag/llm/` | Patient/diagnostic/critic contracts and structured provider |
 | `orchestration/phase6/`, `safety/` | Versioned workflow, grounding, bounded revision, safety |
 | `vendor/amg/` | Supplied AMG source, datasets, snapshot stores, tests and research reports (formerly `NEW RAG/AMG-RAG`) |
 | `scripts/run_phase6.py`, `scripts/demo.py` | Supported batch/interactive entrypoints |
-| `scripts/verify_amg_run.py` | Offline source/grounding/safety-input verification of saved runs |
+| `scripts/verify_who_amg_run.py` | Offline combined source/selection/grounding/safety/final-decision verification; old AMG-only verifier retained for historical runs |
 | `tests/` | Existing regressions and new AMG boundary/integration tests |
 | `docs/` | Current architecture and merge verification |
 | `archive/pre_amg/` | Previous docs/output artifacts/OKF index and original README; preserved uncommitted research |
 | `outputs/` | New local validation and run artifacts (gitignored) |
 
-The old medical Qdrant retriever, focused/hybrid/reranking experiments and Phase 4/5 code remain **compatibility/research code only** for existing regression tests. Neither supported entrypoint constructs them. Historical commands and archived integrity manifests are not the active application. No original dataset, index, credential or benchmark label was deleted or rewritten.
+The old medical Qdrant retriever, focused/hybrid/reranking experiments and Phase 4/5 code remain **compatibility/research code only** for existing regression tests. Neither supported entrypoint constructs them. Old lexical WHO experiments remain historical only; the application factory never uses them. Historical commands and archived integrity manifests are not the active application. No original dataset, index, credential or benchmark label was deleted or rewritten.
 
 ## Run (Windows terminal, from this directory)
 
@@ -51,6 +65,7 @@ Use the parent workspace environment, which already contains the cached BGE and 
 If pip is unavailable in a uv-created environment, use `uv pip install -r requirements.txt --python ..\.venv\Scripts\python.exe`. On other platforms, use the Python interpreter for the environment containing these requirements.
 
 - **No automatic indexing, downloads, fallback retriever or API calls during local validation.** Missing/stale/corrupt AMG snapshots fail closed.
+- WHO assets: existing `data/who_fact_sheets/` and `data/who_questions_answers/` files/indexes are required for live selection. Local `--validate-only` checks AMG, not the cloud WHO selector.
 - Existing stores: `data/qdrant/patient_cases/`, `vendor/amg/knowledge/medlineplus/`, and `vendor/amg/knowledge/medlineplus_lab/`. They are local assets, not committed to Git. Preserve the whole vendor tree when moving the project.
 - Dataset default: this project's `data/ddxplus/`, then workspace `../data/ddxplus/`. Alternatively pass `--data-dir vendor/amg/examples` to use the supplied AMG DDXPlus copies. Labels are not loaded at runtime.
 - Generation uses the **existing workspace `../.env` GPT_SOL configuration**. The vendor `.env` is not read by this integration. No credentials were changed or copied into source.
@@ -64,7 +79,7 @@ If starting without the local assets, explicitly build the patient index with `s
 
 ```bat
 ..\.venv\Scripts\python.exe -m unittest discover -s tests -t .
-..\.venv\Scripts\python.exe scripts\verify_amg_run.py outputs\amg-live\sample_case_001.json
+..\.venv\Scripts\python.exe scripts\verify_who_amg_run.py outputs\check5\end-to-end\case_state.json
 ```
 
 AMG's full standalone suite also tests optional graph/LangChain demos. Run it from `vendor/amg` in an environment with `vendor/amg/requirements.txt` installed. Those optional graph dependencies are **not required by the integrated application**.
@@ -75,10 +90,10 @@ See [merge verification](docs/amg-merge.md) for actual commands/results and limi
 ## Final decisions and pending human review
 
 The completed workflow is validated in [FINAL implementation results](docs/final-system-validation.md);
-see also the [pre-change audit](docs/final-system-audit.md). The latest real run completed
+see also the [pre-change audit](docs/final-system-audit.md) and current [CHECK5 results](docs/check5-integration.md). The completed CHECK5 example ran
 all stages and correctly returned **BLOCK**, with no technical failure and no released diagnosis.
 
-Batch execution writes `final_decision_001.json` alongside `sample_case_001.json` and the
+Batch execution writes `final_decision_001.json` and `combined_evidence_001.json` alongside `sample_case_001.json` and the
 run report. The final artifact contains status, cited evidence, deterministic grounding,
 critic/safety findings, uncertainty and an explicit review state. **BLOCK/HUMAN_REVIEW
 withhold the diagnostic proposal**; the separate local workflow audit retains it for
@@ -87,14 +102,23 @@ is simulated. `ALLOW` only means eligible research output after all existing gat
 
 The Critic now receives a typed claim/reference grounding report. Citation presence is
 never labeled proof of medical support. Patient-case retrieval supplies analogous training
-cases; the current patient's exact facts are a separate inventory. Retrieval and safety
-policies remain unchanged; no New3/New4 experiment was promoted.
+cases; the current patient's exact facts are a separate inventory.
+AMG parameters and safety policies remain unchanged; CHECK4 is now the WHO path. No New3/New4 experiment was promoted.
 
 ```bat
 ..\.venv\Scripts\python.exe -B scripts\run_phase6.py --queries 1 --output-dir outputs\my-new-run
-..\.venv\Scripts\python.exe -B scripts\verify_amg_run.py outputs\my-new-run\sample_case_001.json --final-decision outputs\my-new-run\final_decision_001.json
+..\.venv\Scripts\python.exe -B scripts\verify_who_amg_run.py outputs\my-new-run\sample_case_001.json
 ```
 
 Use a new output directory. The second command checks native source provenance, exact
 safety input and the recomputed final handoff without a model or API call. Existing local
 assets/configuration are sufficient; no rebuild or installation was needed for this task.
+
+For a manual observation-only example (no benchmark labels or injected diagnosis):
+
+```text
+python scripts/run_manual_who_amg.py data/manual_check5_hot_water.txt --live
+```
+
+Omit `--live` to parse input only; no WHO lexical fallback, retrieval or cloud call.
+The workspace-root `AHS_RUN.txt` contains plain-text commands for this example.

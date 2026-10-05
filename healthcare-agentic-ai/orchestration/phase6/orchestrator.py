@@ -151,10 +151,11 @@ class Phase6Orchestrator:
                                       schema_valid=schema, grounding_valid=grounding, reason=reason)
             commit(validations=state.validations + (entry,))
 
-        def generate(expected, operation, schema):
+        def generate(expected, operation, schema, *, time_stage=True):
             budget(invocation=True)
             before = self.clock()
-            response = timed(expected.stage, lambda: self._invoke(expected, operation))
+            response = (timed(expected.stage, lambda: self._invoke(expected, operation))
+                        if time_stage else self._invoke(expected, operation))
             generation = response.generation
             attempts = generation.attempts
             telemetry = generation.telemetry
@@ -232,10 +233,27 @@ class Phase6Orchestrator:
             budget()
             event('evidence_started', 'retrieve_once', stage='EVIDENCE')
             try:
-                snapshot = timed('EVIDENCE', lambda: self.evidence.retrieve(copy.deepcopy(patient), state.patient_state.model_copy(deep=True))
-                                 if self.enhanced_medical else self.evidence.retrieve(copy.deepcopy(patient)))
+                def evidence_generate(instructions, payload, schema, validator=None):
+                    # CHECK4 calls use the SAME request/byte/time budgets and
+                    # telemetry validation as agent calls; no uncounted cloud I/O.
+                    completion = None
+                    def operation():
+                        nonlocal completion
+                        completion = self.evidence.provider.generate(instructions, payload, schema, validator)
+                        return completion
+                    generate(ticket(), operation, schema, time_stage=False)
+                    return completion
+                kwargs = ({'generate': evidence_generate}
+                          if getattr(self.evidence, 'requires_generation', False) is True else {})
+                snapshot = timed('EVIDENCE', lambda: self.evidence.retrieve(copy.deepcopy(patient),
+                    state.patient_state.model_copy(deep=True), **kwargs)
+                    if self.enhanced_medical else self.evidence.retrieve(copy.deepcopy(patient)))
                 snapshot = EvidenceSnapshot.model_validate(snapshot.model_dump())
+            except WorkflowStop:
+                commit(medical_retrieval=copy.deepcopy(getattr(self.evidence, 'audit', None)))
+                raise
             except Exception:
+                commit(medical_retrieval=copy.deepcopy(getattr(self.evidence, 'audit', None)))
                 raise WorkflowStop('invalid_evidence_or_retrieval_failure') from None
             commit(evidence=snapshot, medical_retrieval=copy.deepcopy(self.evidence.audit) if self.enhanced_medical else None)
             event('evidence_retrieved', 'provenance_validated', valid=True)

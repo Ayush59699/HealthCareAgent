@@ -19,7 +19,9 @@ def patient_input(patient: PatientRepresentation, patient_id: str) -> dict:
     if type(patient) is not PatientRepresentation:
         raise TypeError('Only label-free PatientRepresentation is accepted, never PatientRecord or raw rows')
     if not re.fullmatch(r'ddxplus:(train|validate|test):[1-9]\d*', patient_id):
-        raise ValueError('Expected parser-generated patient ID')
+        from rag.manual_patient import manual_patient_id
+        if patient_id != manual_patient_id(patient):
+            raise ValueError('Expected parser-generated or content-bound manual patient ID')
     features = patient.to_inference_dict()
     missing = [key for key in ('age', 'sex') if features[key] is None]
     for field in ('symptoms', 'antecedents', 'initial_evidence'):
@@ -55,6 +57,11 @@ def evidence_from_hits(hits: list[dict], source_type: str) -> list[RetrievedEvid
                 payload = validate_amg_hit(payload)
                 if hit['score'] != -payload['retrieval']['distance']:
                     raise ValueError('AMG score/distance mismatch')
+            elif payload.get('backend') == 'who-local-lookup-v1':
+                from rag.who_provenance import validate_who_hit
+                payload = validate_who_hit(payload)
+                if hit['score'] != 0.0:
+                    raise ValueError('WHO lookup has no similarity score')
             else:
                 payload = validate_chunk(payload)
             source_id, title = 'medical:' + payload['chunk_id'], payload['title']

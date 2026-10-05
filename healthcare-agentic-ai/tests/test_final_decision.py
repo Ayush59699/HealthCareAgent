@@ -168,7 +168,7 @@ class FinalDecisionTests(unittest.TestCase):
         self.assertEqual(final.workflow_status, 'abstained')
         self.assertIsNone(final.safety_result)
         self.assertIsNone(final.grounding_result)
-        self.assertEqual(len(parts[2].calls), 1)
+        self.assertEqual(len(parts[2].calls), 2)  # Patient + valid empty CHECK4 selection
 
     def test_empty_case_retrieval_does_not_erase_current_patient(self):
         parts = fixture()

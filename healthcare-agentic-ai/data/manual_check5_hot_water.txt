@@ -1,0 +1,16 @@
+Patient:
+Age: 46
+Sex: Male
+
+Chief complaint:
+Hot water spilled on the forearm one hour ago.
+
+Symptoms:
+- The affected skin is painful and red with two blisters.
+- No breathing difficulty.
+
+History:
+- No smoke exposure.
+
+Available information:
+- No other affected body areas reported.

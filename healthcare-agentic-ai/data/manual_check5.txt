@@ -1,0 +1,17 @@
+Patient:
+Age: 28
+Sex: Female
+
+Chief complaint:
+Bitten on the hand by a stray dog this morning; the skin is broken.
+
+Symptoms:
+- Pain at the bite site.
+- No fever.
+
+History:
+- Dog vaccination status is unknown.
+- Patient vaccination history is not supplied.
+
+Available information:
+- No examination findings or test results are supplied.
