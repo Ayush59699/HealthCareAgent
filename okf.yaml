@@ -161,3 +161,19 @@ check1_block_audit:
   classification: A/B evidence insufficiency confirmed; D possible overbroad Critic flags (especially warning against unused clot passage), not a proven clinically unjustified block. No immediate production change justified.
   verification: Native sources, grounding, safety identity, summary and final decision verified offline; 575 tests run (574 passed, one skipped); 224 protected pre-existing files unchanged.
   production_changes: None; no prompts, retrieval, safety-policy, labels, stores or configuration changes; no cloud call or new retrieval.
+
+check2_multi_case_evaluation:
+  request: prompts/check2.txt
+  runner: healthcare-agentic-ai/scripts/evaluate_current_system.py
+  tests: healthcare-agentic-ai/tests/test_current_system_evaluation.py
+  report: healthcare-agentic-ai/docs/multi_case_evaluation.md
+  artifacts: healthcare-agentic-ai/outputs/multi-case-evaluation/
+  scope: Evaluation only; frozen production composition and retrieval; include_labels=False; sequential cases; no manual relevance labels.
+  selection: CHECK1 validation row 1 plus nine max-min Jaccard feature-diverse cases from first 100 validation rows; fixed before retrieval, not a population prevalence sample.
+  measurement: Unique accepted medical IDs cited by diagnostic hypothesis claims; utilization proxy, not proven medical usefulness or entailment.
+  status: Complete; recovered all ten existing live traces without rerunning cloud calls.
+  results: 10 attempts; 7 technically completed, 3 Diagnostic validation failures; 45 accepted passages, 2 cited in one case; final BLOCK 10, ALLOW 0, HUMAN_REVIEW 0; all ten require pending review.
+  interpretation: Six of seven completed cases (five of six excluding CHECK1) have zero medical citations. Recurrent evidence-use limitation, not adjudicated relevance or proven retrieval-only causation; Diagnostic contract failures are a separate reliability issue.
+  recommendation: RETRIEVAL INVESTIGATION NEEDED
+  verification: Before 575 project tests (one skip), 56 upstream passed; after 580 project tests (one skip), 56 upstream passed. Offline replay verifies 45 source events, seven diagnostic/critic/safety versions and ten final decisions. Of 242 inventoried files, 241 unchanged; only project OKF changed.
+  limitations: Purposive sample; usefulness not independently measured; failed raw responses not persisted by production; integrity inventory excludes AMG Chroma SQLite bookkeeping. No production changes or additional recovery cloud calls.
