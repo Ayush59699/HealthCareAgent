@@ -1,0 +1,48 @@
+WHO QUESTIONS AND ANSWERS
+Title: Tuberculosis
+URL: https://www.who.int/news-room/questions-and-answers/item/tuberculosis
+Retrieved: 2026-10-05T09:50:15.588671+00:00
+
+========================================
+
+What is TB?
+===========
+
+Tuberculosis (TB) is caused by bacteria (Mycobacterium tuberculosis) that most often affect the lungs. About one-quarter of the world's population has been infected with TB bacteria. In general, people with TB infection don’t feel sick and are not contagious.
+
+How many people die from TB disease?
+====================================
+
+TB is the world's leading cause of death from a single infectious agent. In 2024, 1.23 million people died from TB. This includes 150 000 people who were living with HIV.
+
+How does TB infection differ from TB disease?
+=============================================
+
+Most people infected with TB bacteria do not have TB disease, but they can develop TB. About 5–10% of people infected with TB will eventually develop TB disease. However, people with compromised immune systems, such as people living with HIV, who are undernourished, are diabetics, or use tobacco, have a much higher risk of developing TB disease. Some persons with TB disease only have mild symptoms and some don’t have any at all. This can lead to delays in seeking care and continued transmission of the bacteria to others. Treatment for TB infection is different from treatment for TB disease.
+
+What are the symptoms of TB disease?
+====================================
+
+TB often affects the lungs and can lead to several symptoms. A common sign of active TB is a persistent cough, sometimes with mucus or even blood. People might also experience chest pain, weakness or fatigue, unintentional weight loss, fever and night sweats. It's important to remember that these symptoms can be absent or mild at first and develop slowly.
+
+How does TB spread?
+===================
+
+TB is spread from person to person through the air. When people with lung TB breathe, speak, cough, sneeze or spit, they propel the TB germs into the air. A person needs to inhale only a few of these germs to become infected. People with untreated TB can infect up to 10–15 other people through close contact over one year.
+
+How is TB diagnosed?
+====================
+
+WHO recommends the use of rapid diagnostic tests as the initial diagnostic tests in all persons with symptoms of TB. Increased use of these tests will lead to major improvements in the early detection of TB and drug-resistant TB.
+
+Diagnosing drug-resistant forms of TB, including multidrug-resistant TB, requires specific tests. Screening using chest X-ray and other tools can detect TB disease early on, including in individuals who do not have symptoms. In people without TB disease but who are at increased risk of TB, tests of TB infection can be used to identity individuals who will benefit most from preventive treatment.
+
+How is TB treated?
+==================
+
+Tuberculosis is mostly curable but without proper treatment, about two thirds of people who get TB will die. Since 2000, about 83 million lives have been saved through effective diagnosis and treatment. Most people who have TB disease can be cured with a course of 4 antimicrobials lasting 6 months, or even 4 months in some cases. Information, supervision and patient support by a health worker or trained volunteer are key to a successful outcome.
+
+How is TB prevented?
+====================
+
+Tuberculosis is largely preventable. TB preventive treatment (TPT) can be given to avoid progression from TB infection to disease in people at risk. TB screening and action on poverty, undernutrition, HIV, diabetes and tobacco are some of the population measures that can reduce TB burden. The currently licensed vaccine – BCG – protects from severe forms of TB and from deaths from TB, especially in young children.

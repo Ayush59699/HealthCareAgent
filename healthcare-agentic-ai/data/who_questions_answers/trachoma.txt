@@ -1,0 +1,84 @@
+WHO QUESTIONS AND ANSWERS
+Title: Trachoma
+URL: https://www.who.int/news-room/questions-and-answers/item/trachoma
+Retrieved: 2026-10-05T09:50:11.950940+00:00
+
+========================================
+
+Trachoma is a disease of the eye and the leading infectious cause of blindness worldwide.
+
+What is trachoma?
+=================
+
+Trachoma is a disease of the eye and the leading infectious cause of blindness worldwide. It is caused by an obligate intracellular bacterium called Chlamydia trachomatis.
+
+After years of repeated infection, the inside of the eyelid can become so severely scarred (trachomatous conjunctival scarring) that it turns inwards and causes the eyelashes to rub against the eyeball (trachomatous trichiasis), resulting in constant pain and light intolerance; this and other alterations of the eye can lead to scarring of the cornea. Left untreated, this condition leads to the formation of irreversible opacities, with resulting visual impairment or blindness. The age at which this occurs depends on several factors including local transmission intensity. In very highly endemic communities, it can occur in childhood, though onset of visual impairment between the ages of 30 and 40 years is more typical.
+
+How is the infection transmitted?
+=================================
+
+The infection is transmitted by direct or indirect transfer of eye and nose discharges of infected people, particularly young children who harbour the principal reservoir of infection. These discharges can be spread by particular species of flies.
+
+In areas where trachoma is endemic, active (inflammatory) trachoma is common among preschool-aged children, with prevalence rates which can be as high as 60–90%. Infection becomes less frequent and shorter in duration with increasing age.
+
+The disease thrives especially in crowded living conditions where there are shortages of water, inadequate sanitation and where numerous eye-seeking flies are present.
+
+An individual’s immune system can clear a single episode of infection, but in endemic communities, re-acquisition of the organism occurs frequently.
+
+Where does trachoma occur?
+==========================
+
+Trachoma is a public health problem in many of the poorest and most rural areas of Africa, Central and South America, Asia, Australia and the Middle East.
+
+It is responsible for the blindness or visual impairment of about 1.9 million people. It causes about 1.4% of all blindness worldwide.
+
+Overall, Africa is the most affected continent, and the one with the most intensive control efforts.
+
+As of May 2024, elimination of trachoma as a public health problem had been validated by WHO in 18 countries (Benin, Cambodia, China, Gambia, Ghana, Iraq, Islamic Republic of Iran, Lao People’s Democratic Republic, Malawi, Mali, Mexico, Morocco, Myanmar, Nepal, Oman, Saudi Arabia, Togo and Vanuatu). A further 10 countries (Botswana, Burundi, Guatemala, India, Mauritania, Namibia, Pakistan, Papua New Guinea, Tunisia and Viet Nam) report having achieved the prevalence targets for elimination.
+
+How is trachoma diagnosed?
+==========================
+
+Trachoma is usually clinically diagnosed. People are examined for clinical signs by trained graders using magnifiers (loupes) and illumination from either the sun or a good torch. Conjunctival infection with ocular strains of Chlamydia trachomatis (the cause of trachoma) does not always generate visible signs of disease. However, infection can be accompanied by signs of inflammation known as active trachoma, and as it progresses through its natural history, trachoma becomes more and more obvious on examination. Repeated episodes of inflammation cause scarring of the conjunctiva that can progress to drying of the eye and in-turning of the eyelashes. The latter is known as trachomatous trichiasis. This can abrade the eyeball, causing constant profound irritation, reflex spasm of the eyelids and opacification of the cornea.
+
+What are the clinical signs and how can trachoma be treated?
+============================================================
+
+Ocular Chlamydia trachomatis infection is associated with inflammatory changes in the conjunctiva known as active trachoma.
+
+The WHO simplified trachoma grading system includes five signs. Treatment involves antibiotics to clear infection and surgery for the most advanced cases. Signs and their associated treatment are listed below.
+
+Trachomatous inflammation–follicular (TF) – The presence of five or more follicles, each at least 0.5 mm in diameter, in the central part of the upper tarsal conjunctiva.
+
+Management: Give antibiotics (single-dose oral azithromycin 20mg/kg body weight, to a maximum of 1g, or 1% topical tetracycline eye ointment into both eyes twice a day for six weeks). Consider evaluating the population in which the patient lives for the prevalence of TF in 1–9-year-olds and TT in ≥15-year-olds, which might indicate a need for population-based implementation of the SAFE strategy for trachoma elimination.
+
+Trachomatous inflammation–intense (TI) – Pronounced inflammatory thickening of the upper tarsal conjunctiva that obscures more than half of the normal deep tarsal vessels.
+
+Management: Give antibiotics (regimens as above). Consider evaluating the population in which the patient lives for the prevalence of TF in 1–9-year-olds and TT in ≥15-year-olds, which might indicate a need for population-based implementation of the SAFE strategy for trachoma elimination.
+
+Trachomatous scarring (TS) – The presence of easily visible scarring in the upper tarsal conjunctiva. Scars are white lines, bands, or sheets.
+
+Management: There is no specific treatment for this sign.
+
+Trachomatous trichiasis (TT) – At least one eyelash from the upper eyelid touches the eyeball, or evidence of recent epilation of in-turned eyelashes from the upper eyelid.
+
+Management: Measure visual acuity. Refer the individual to the nearest eye unit for management, which might involve eyelid surgery or regular epilation. Consider evaluating the population in which the patient lives for the prevalence of TF in 1–9-year-olds and TT in ≥15-year-olds, which might indicate a need for population-based implementation of the SAFE strategy for trachoma elimination.
+
+Corneal opacity (CO) – Easily visible corneal opacity that is so dense that at least part of the pupil margin is blurred when viewed through the opacity. Vision is likely to be affected.
+
+Management: Measure visual acuity. Refer the individual to the nearest eye unit for management, which should involve management of TT if still present.
+
+How can trachoma be prevented and controled?
+============================================
+
+Elimination programmes in endemic countries are being implemented using the WHO-recommended SAFE strategy. This consists of:
+
+- Surgery to treat the blinding stage (trachomatous trichiasis);
+
+- Antibiotics to clear infection, particularly mass drug administration of the antibiotic azithromycin, which is donated by the manufacturer to elimination programmes, through the International Trachoma Initiative;
+
+- Facial cleanliness; and
+
+- Environmental improvement, particularly improving access to water and sanitation.
+
+Most endemic countries have agreed to accelerate the implementation of this strategy to achieve elimination targets.

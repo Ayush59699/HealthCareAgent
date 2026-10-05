@@ -1,0 +1,48 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Solidarity Trial and hydroxychloroquine
+URL: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-hydroxychloroquine
+Retrieved: 2026-10-05T09:44:29.759004+00:00
+
+========================================
+
+Why was the use of hydroxychloroquine stopped in the Solidarity Trial?
+======================================================================
+
+On 17 June 2020, WHO announced that the hydroxychloroquine (HCQ) arm of the Solidarity Trial to find an effective COVID-19 treatment was being stopped.
+
+The trial's Executive Group and principal investigators made the decision based on evidence from the Solidarity trial, UK's Recovery trial and a Cochrane review of other evidence on hydroxychloroquine.
+
+Data from Solidarity (including the French Discovery trial data) and the recently announced results from the UK's Recovery trial both showed that hydroxychloroquine does not result in the reduction of mortality of hospitalised COVID-19 patients, when compared with standard of care.
+
+What will happen to the people who were already enrolled in the hydroxychloroquine arm of the trial?
+====================================================================================================
+
+Investigators will not randomize further patients to hydroxychloroquine in the Solidarity trial. Patients who have already started hydroxychloroquine but who have not yet finished their course in the trial may complete their course or stop at the discretion of the supervising physician.
+
+The use of hydroxychloroquine and chloroquine are accepted as generally safe for use in patients with autoimmune diseases or malaria.
+
+What is WHO’s view of the use of hydroxychloroquine in pre or post-exposure prophylaxis?
+========================================================================================
+
+The decision to stop hydroxychloroquine’s use in the Solidarity trial does not apply to the use or evaluation of hydroxychloroquine in pre or post-exposure prophylaxis in patients exposed to COVID-19.
+
+What is the Solidarity Trial?
+=============================
+
+The Solidarity Trial is an international clinical trial to help find an effective treatment for COVID-19, launched by WHO and partners. It is hoped that one or more of the treatments under trial will result in improving clinical outcomes in COVID-19 patients and save lives. Other trials are on-going around the world in addition to the Solidarity Trial.
+
+The treatment options are: Remdesivir; Lopinavir/Ritonavir; and Lopinavir/Ritonavir with Interferon beta-1a. The treatment options were originally selected based on evidence from laboratory, animal and clinical studies. Hydroxychloroquine was originally included in the trial but this arm was stopped, as of 17 June 2020, as evidence showed it did not result in the reduction of mortality of hospitalised COVID-19 patients, when compared with standard of care.
+
+Over 100 countries have expressed an interest in participating in the trial and WHO is actively supporting more than 60 of them, including with the following:
+
+- ethical and regulatory approvals of the WHO core protocol;
+
+- identification of hospitals participating in the trial;
+
+- training of hospital clinicians on the web-based randomization and data system;
+
+- shipping the trial drugs as requested by each participating country.
+
+As of 3 June 2020, more than 3500 patients have been recruited in 35 countries, with over 400 hospitals actively recruiting patients.
+
+Interim trial analyses are monitored by a Global Data and Safety Monitoring Committee, which is an independent group of experts.

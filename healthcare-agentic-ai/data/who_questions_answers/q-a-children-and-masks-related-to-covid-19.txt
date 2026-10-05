@@ -1,0 +1,118 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Children and masks
+URL: https://www.who.int/news-room/questions-and-answers/item/q-a-children-and-masks-related-to-covid-19
+Retrieved: 2026-10-05T09:48:23.922217+00:00
+
+========================================
+
+These questions and answers were developed by WHO and UNICEF. Each country is facing a different situation in the pandemic with changing transmission intensity, circulating variants of concern, and capacities for health systems to respond. As the pandemic evolves, national policies for protective measures should be agile and adjusted as needed.
+
+Should my child wear a mask?
+============================
+
+Decisions about mask use in children should be driven by what is in the best interest of the child. Mask use should be flexible, so that children can continue play, education and everyday activities. These activities are an important part of child development and health. No child should be denied access to school or activities because of lack of a mask.
+
+Some countries and regions may have specific policies or recommendations in place. As always, follow the guidance provided by your country or local health department or ministry.
+
+WHO and UNICEF recommend the following:
+
+1. Children aged 5 years and under do not need to wear a mask because in this age group, they may not be able to properly wear a mask without help or supervision.
+
+2. In areas where SARS-CoV-2 is spreading, children ages 6-11 years are recommended to wear a well-fitted mask
+
+- in indoor settings where ventilation is poor or unknown, even if physical distancing of at least 1 meter can be maintained; and
+
+- in indoor settings that have adequate ventilation when physical distancing of at least 1 meter cannot be maintained.
+
+3. Adolescents 12 years or older should follow the same WHO recommendations for mask use as adults:
+
+A well-fitted mask that covers the nose and mouth should be worn in settings where SARS CoV-2 is spreading, regardless of vaccination status or history of prior infection, when interacting with individuals who are not members of their household:
+
+- in indoor settings where ventilation is known to be poor or cannot be assessed, or the ventilation system is not properly maintained, regardless of whether physical distancing of at least 1 meter can be maintained
+
+- in indoor settings that have adequate ventilation if physical distancing of at least 1 meter cannot be maintained; or
+
+- in outdoor settings where physical distancing of at least 1 meter cannot be maintained.
+
+As much as possible, it is important that children of all ages keep their hands clean when putting on and taking off their mask.
+
+A safe environment should be created for children who are not able to tolerate a mask, including requirements for caregivers, teachers or other adults interacting with the child to wear a mask and to be vaccinated against COVID-19 according to national vaccination policies.
+
+My child is under 5 years old. Should they wear a mask?
+=======================================================
+
+In general, children aged 5 years and under do not need to wear masks. However, there may be times when caregivers will choose to put a mask on a child – for example, if the child has contact with a person who is at a high risk of developing severe disease or is around someone who is ill. Children of this age should not wear masks for a long duration or without supervision.
+
+My child has disabilities. Should they wear a mask?
+===================================================
+
+Children with cognitive or respiratory impairments, developmental disorders, disabilities or other specific health conditions who experience difficulties wearing a mask should not be required to do so.
+
+The individual decision for a child to wear a mask should be discussed in consultation with the child's medical provider where possible.
+
+A safe environment should be created for children who are not able to tolerate a mask, including requirements for caregivers, teachers or other adults interacting with the child to wear a mask and to be vaccinated against COVID-19 according to national vaccination policies
+
+My child has a medical condition that compromises their immune system. Should they wear a mask?
+===============================================================================================
+
+The use of a medical mask is recommended for children with a higher risk of severe complications from COVID-19. This includes children with underlying noncommunicable diseases such as diabetes, cardiac disease, chronic lung disease, chronic kidney disease, immunosuppression, HIV, obesity, mental disorders and cancer.
+
+What type of mask should my child wear?
+=======================================
+
+Children should wear a well-fitted mask that overs the nose, mouth and chin.
+
+There are three types of masks that WHO recommends for the public*:
+
+- reusable non-medical masks that comply with standards
+
+- disposable medical masks
+
+- other types of reusable non-medical masks, including homemade multi-layered (fabric) masks are acceptable when other options are not available.
+
+*More on the types of masks, how to choose them, and how to wear them is available here: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks
+
+How should children wear a mask?
+================================
+
+Adults and children should follow the same principles for safe mask wearing. Some children may not be able to properly wear a mask without help or supervision. Parents or caregivers who help children with masks should be prepared to talk about mask safety and help children understand how to wear masks properly. If you are helping a child to put on or take off a mask, be sure to follow the same steps when you put on and take off your own mask.
+
+Children should be encouraged to clean their hands before putting on their mask and after taking it off and to wear a well-fitted mask that covers the nose, mouth and chin. It is important to not share masks with others.
+
+More information, including videos on how to put on, take off and care for a mask, can be found here:
+https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks
+
+Should my child wear a mask at home?
+====================================
+
+Your child’s health is a priority, and there may be times when wearing a mask at home is the safest thing to do.
+
+If you have visitors, outdoor gatherings are safer than indoor gatherings. If visitors come into your home, it may be best for everyone to wear a mask if ventilation is poor or if physical distancing of at least 1 metre cannot be maintained.
+
+Children who have symptoms of COVID-19 should wear a medical mask at home when they are in shared spaces, as long as they can tolerate it. Family members/caregivers who come within 1 metre of the sick child at home should also wear a medical mask.
+
+For more information refer to the Coronavirus disease (COVID-19): Home care for families and caregivers
+
+Should teachers or other adults interacting with children wear a mask?
+======================================================================
+
+In areas where SARS-CoV-2 is spreading, adults under the age of 60 interacting with children should wear a well-fitted mask that covers the nose and mouth when they are:
+
+- in indoor settings where ventilation is known to be poor or cannot be assessed, or the ventilation system is not properly maintained, regardless of whether or not physical distancing of at least 1 meter can be maintained; or
+
+- in indoor settings that have adequate ventilation if physical distancing of at least 1 meter cannot be maintained.
+
+Adults aged 60 or over, or who have any underlying health conditions, such as heart disease, diabetes or cancer, should wear a medical mask due to their higher risk of getting seriously ill from COVID-19.
+
+Should children wear a mask when playing sports or doing physical activities?
+=============================================================================
+
+Children do not need to wear a mask when playing sports or doing physical activities, such as running, jumping or playing, as it may affect their breathing. When organizing sporting activities for children, it is important to encourage all other public health measures:
+
+- Choose outside venues over indoor ones.
+
+- If gatherings must be held indoors, open windows to ensure good ventilation.
+
+- Maintain at least a 1-metre distance from others and limit the number of children playing together.
+
+- Provide access to hand hygiene facilities and encourage children to use them.

@@ -1,0 +1,48 @@
+WHO QUESTIONS AND ANSWERS
+Title: Yaws
+URL: https://www.who.int/news-room/questions-and-answers/item/yaws
+Retrieved: 2026-10-05T09:51:03.198576+00:00
+
+========================================
+
+Yaws forms part of a group of chronic bacterial infections commonly known as the endemic treponematoses. These diseases are caused by spiral bacteria of the genus Treponema, which also includes endemic syphilis (bejel) and pinta. Yaws is the most common of these three infections
+
+What is yaws?
+=============
+
+Yaws is a poverty-related chronic skin disease that affects mainly children below 15 years of age (with a peak between 6 and 10 years).
+
+Yaws forms part of a group of chronic bacterial infections commonly known as the endemic treponematoses. These diseases are caused by spiral bacteria of the genus Treponema, which also includes endemic syphilis (bejel) and pinta. Yaws is the most common of these three infections.
+
+It is caused by the bacterium - is a Treponema pallidumm subspecies pertenue and transmitted by skin contact. Yaws mainly affects the skin, but can also involve the bone and cartilage. The organism that causes yaws is closely related to the one that causes syphilis. Early detection and treatment can avoid gross disfigurement and disability which occur in about 10% of cases.
+
+Where does yaws occur?
+======================
+
+Yaws occurs in overcrowded communities, with limited access to basic amenities, such as water and sanitation, as well as health care.
+
+Yaws primarily affects children aged under 15 years who live in poor communities in warm, humid and tropical forested areas of Africa, Asia, Latin America and the Pacific islands.
+
+How is yaws diagnosed?
+======================
+
+Traditionally, laboratory-based serological tests such as Treponema pallidum particle agglutination (TPPA) and rapid plasma reagin (RPR) are widely used to diagnose treponemal infections (for example, syphilis and yaws). These tests cannot distinguish yaws from syphilis however, and the interpretation of results from these tests in adults who live in yaws endemic areas needs careful clinical assessment because of syphillis.
+
+Rapid point-of-care tests that can be used in the field are widely available.
+However, most of them are treponemal-based and cannot distinguish between past and current infection. Recently dual treponemal and nontreponemal rapid tests have become available, thus simplifying diagnosis in the field. These tests are able to detect both present and past infections to guide treatment of people with active infection.
+
+Polymerase chain reaction (PCR) can be used to definitively confirm yaws by detecting the organisms in the skin lesions. It can also be used to monitor azithromycin resistance and this test will be very useful in the last phase of the eradication programme.
+
+How can yaws be treated?
+========================
+
+Yaws is cured with a single oral dose of either of 2 antibiotics – azithromycin or benzathine penicillin.
+
+- Azithromycin (single oral dose) at 30 mg/kg (maximum 2 gm) is the preferred choice in the WHO "Yaws Eradication Strategy" (the Morges Strategy) because of the ease of administration and logistical consideration in large-scale treatment campaigns.
+
+- Benzathine penicillin (single intramuscular dose) at 1.2 million units (adults) and 600 000 units (children). For patients allergic to penicillin and azithromycin, doxycycline 100mg (1 tab) orally, b.d. twice daily for 7 days may be used.
+
+How can yaws be prevented?
+==========================
+
+There is no vaccine for yaws. Health education and improvement in personal hygiene are essential components to reduce transmission of the disease. Contacts of patients with yaws should receive empiric treatment.

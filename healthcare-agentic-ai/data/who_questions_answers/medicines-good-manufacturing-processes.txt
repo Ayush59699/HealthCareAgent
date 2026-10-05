@@ -1,0 +1,44 @@
+WHO QUESTIONS AND ANSWERS
+Title: Medicines: Good manufacturing practices
+URL: https://www.who.int/news-room/questions-and-answers/item/medicines-good-manufacturing-processes
+Retrieved: 2026-10-05T09:47:34.502580+00:00
+
+========================================
+
+Good manufacturing practice (GMP) is a system for ensuring that products are consistently produced and controlled according to quality standards. I
+
+Why is GMP important?
+=====================
+
+Poor quality medicines are not only a health hazard, but a waste of money for both governments and individual consumers.
+
+Poor quality medicines can damage health
+========================================
+
+A poor quality medicine may contain toxic substances that have been unintentionally added.
+A medicine that contains little or none of the claimed ingredient will not have the intended therapeutic effect.
+
+GMP helps boost pharmaceutical export opportunities
+===================================================
+
+Most countries will only accept import and sale of medicines that have been manufactured to internationally recognized GMP. Governments seeking to promote their countries' export of pharmaceuticals can do so by making GMP mandatory for all pharmaceutical production and by training their inspectors in GMP requirements.
+
+What is GMP?
+============
+
+Good manufacturing practice (GMP) is a system for ensuring that products are consistently produced and controlled according to quality standards. It is designed to minimize the risks involved in any pharmaceutical production that cannot be eliminated through testing the final product. The main risks are: unexpected contamination of products, causing damage to health or even death; incorrect labels on containers, which could mean that patients receive the wrong medicine; insufficient or too much active ingredient, resulting in ineffective treatment or adverse effects. GMP covers all aspects of production; from the starting materials, premises and equipment to the training and personal hygiene of staff. Detailed, written procedures are essential for each process that could affect the quality of the finished product. There must be systems to provide documented proof that correct procedures are consistently followed at each step in the manufacturing process - every time a product is made. WHO has established detailed guidelines for good manufacturing practice. Many countries have formulated their own requirements for GMP based on WHO GMP. Others have harmonized their requirements, for example in the Association of South-East Asian Nations (ASEAN), in the European Union and through the Pharmaceutical Inspection Convention.
+
+Is GMP necessary if there is a quality control laboratory?
+==========================================================
+
+Yes. Good quality must be built in during the manufacturing process; it cannot be tested into the product afterwards. GMP prevents errors that cannot be eliminated through quality control of the finished product. Without GMP it is impossible to be sure that every unit of a medicine is of the same quality as the units of medicine tested in the laboratory.
+
+Can manufacturers afford to implement GMP?
+==========================================
+
+Yes. Making poor quality products does not save money. In the long run, it is more expensive finding mistakes after they have been made than preventing them in the first place. GMP is designed to ensure that mistakes do not occur. Implementation of GMP is an investment in good quality medicines. This will improve the health of the individual patient and the community, as well as benefiting the pharmaceutical industry and health professionals. Making and distributing poor quality medicines leads to loss of credibility for everyone: both public and private health care and the manufacturer.
+
+WHO works to strengthen GMP
+===========================
+
+WHO GMP guidelines are available online. If you require more information, please contact the WHO representative in your country, your WHO regional office or WHO headquarters in Geneva.

@@ -1,0 +1,39 @@
+WHO QUESTIONS AND ANSWERS
+Title: Chemical safety: Pesticides
+URL: https://www.who.int/news-room/questions-and-answers/item/chemical-safety-pesticides
+Retrieved: 2026-10-05T09:43:31.266498+00:00
+
+========================================
+
+What are pesticides?
+====================
+
+Pesticides are chemical compounds that are used to kill pests, including insects, rodents, fungi and unwanted plants (weeds). Over 1000 different pesticides are used around the world.
+
+Pesticides are used in public health to kill vectors of disease, such as mosquitoes, and in agriculture to kill pests that damage crops.
+
+Are pesticides harmful to human health?
+=======================================
+
+By their nature, pesticides are potentially toxic to other organisms, including humans, and need to be used safely and disposed of properly. They are among the leading causes of death by self-poisoning, and this burden is felt disproportionately in low- and middle-income countries.
+
+Many of the older, cheaper (off-patent) pesticides, such as dichlorodiphenyltrichloroethane (DDT) and lindane, can remain for years in soil and water. These have adverse effects on larger parts of the ecosystem and can accumulate in the food chain. These chemicals have been banned by countries who signed the 2001 Stockholm Convention.
+
+Who is at risk?
+===============
+
+The general population is exposed to low levels of pesticides through food and water, and these are not typically cause for concern. People at higher risk of adverse health effects are those who work directly with pesticides, such as agricultural workers, and those who are in the immediate area when pesticides are applied. People not involved with applying the pesticide should avoid the area during and immediately after its use.
+
+How can I protect myself when handling or applying pesticides?
+==============================================================
+
+WHO recommends reducing the use of pesticides when possible. First, determine to what extend the use of pesticides are actually needed. Look for ways to solve the issue with non-chemical pest management where possible.
+
+If pesticides are necessary, seek products with the lowest risk to human health and the environment.
+
+When using pesticides, follow the manufacturer’s instructions for application and personal safety. In many cases, personal protective equipment (PPE) is appropriate to avoid direct contact with the pesticide and minimize exposure during handling and application.
+
+Are there international agreements about the use of pesticides?
+===============================================================
+
+International conventions, such as the Stockholm Convention on Persistent Organic Pollutants and the Rotterdam Convention on Prior Informed Consent, provide a means for countries to protect their populations from exposure to toxic pesticides. Successful implementation of these conventions requires information about the incidence and circumstances of pesticide exposures, and about the health impact of exposure. In many countries such information is still lacking.

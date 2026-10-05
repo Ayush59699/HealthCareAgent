@@ -1,0 +1,97 @@
+WHO QUESTIONS AND ANSWERS
+Title: Deafness and hearing loss: Hearing checks and the hearWHO app
+URL: https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-hearing-checks-and-the-hearwho-app
+Retrieved: 2026-10-05T09:45:07.977442+00:00
+
+========================================
+
+Why should I check my hearing?
+==============================
+
+Many people with hearing loss are unaware of it. Regular hearing checks can ensure that hearing loss is identified as early as possible so that you can take action and continue listening to the sounds around you.
+
+Who is at risk of hearing loss?
+===============================
+
+Anyone can be at risk of hearing loss; however, hearing loss is most likely to occur in people who:
+
+- are above 60 years of age.
+
+- often listen to loud music.
+
+- work in noisy environments.
+
+- take medicines that can damage the ear (ototoxic medicines).
+
+- have a disease of the ear e.g., ear infection.
+
+What is hearWHO?
+================
+
+hearWHO is a free software application which can be used by individuals to check their hearing. The app has been developed by the World Health Organization. It is currently available for iOS and Android devices in Chinese, English, Spanish, Russian and Dutch.
+
+hearWHO is not a formal hearing test and does not replace the need to consult a health professional.
+
+How does hearWHO work?
+======================
+
+The hearWHO app is based on digits-in-noise technology. The app presents 23 sets of three digits over background noise. The person checking their hearing has to respond by identifying the digits spoken. The responses are used by the app to estimate the signal-to-noise ratio which is indicative of one’s hearing ability.
+
+How accurate is hearWHO?
+========================
+
+This ‘digits-in-noise’ test has a sensitivity and specificity of over 85%*. hearWHO is intended for use by people 12 years of age and above. The hearWHO app is not for use for hearing checks in younger children, as it may not provide reliable results.
+
+However, WHO and the developers of the app cannot be held responsible or liable for any incorrect results.
+
+*Potgieter et al 2016; Potgieter et al 2017; Potgieter et al 2018, De Sousa et al 2020
+
+Can I use hearWHO without ear/headphones?
+=========================================
+
+No. The hearWHO app requires that you wear earphones or headphones.
+
+How loud should I set the volume for the digits?
+================================================
+
+When setting the volume prior to the test, ensure it is at a comfortable level where you can hear the spoken digits. You should not set the volume at the threshold of your hearing.
+
+What does the result of my hearWHO test mean?
+=============================================
+
+The hearWHO app provides a score between 0 to 100 when you finish testing.
+
+If the score is below 50: it is likely that you have some degree of hearing loss. The lower the score, the greater the hearing loss is likely to be. With scores below 50, you should have you hearing tested by a trained professional.
+
+If the score is between 50-75: you should check your hearing regularly (once in a year), to know if the score reduces further. Avoid loud sounds to protect ears.
+
+If the score is above 75: this indicates good hearing. You should take care and listen safely to avoid hearing loss. Repeat the test annually to monitor your hearing, or if you notice a change in your hearing.
+
+For more questions, check out the FAQs on ear care and safe listening.
+
+The test told me to get professional advice, but I think that I can hear well. What does it mean?
+=================================================================================================
+
+Hearing loss means a reduction in the ability to hear. There are different grades of hearing loss:
+
+- Mild: some difficulty in understanding soft speech or speech in noisy places
+
+- Moderate: difficulty in hearing regular conversations
+
+- Moderately severe: difficulty hearing most speech and taking part in conversation
+
+- Severe: difficulty in hearing all except loud sounds
+
+- Profound: inability to hear even loud sounds
+
+It is possible to have some mild or moderate hearing loss without realizing it. It is best to get an early diagnosis and take steps to address hearing loss. You should follow the advice of hearWHO and have a formal hearing test with a health professional.
+
+How is hearing loss diagnosed?
+==============================
+
+A professional hearing assessment is required to diagnose hearing loss. A very common test is pure tone audiometry – it identifies the minimum sound level (in decibels) at which one can hear different sound frequencies (pitch). It is used to identify the presence, type, and grade of hearing loss.
+
+What happens if I get hearing loss?
+===================================
+
+The management of hearing loss depends upon its cause, type and grade. You should consult a health care professional who can advise you about the most suitable interventions.

@@ -1,0 +1,134 @@
+WHO QUESTIONS AND ANSWERS
+Title: Tuberculosis: Extensively drug-resistant tuberculosis (XDR-TB)
+URL: https://www.who.int/news-room/questions-and-answers/item/tuberculosis-extensively-drug-resistant-tuberculosis-(XDR-TB)
+Retrieved: 2026-10-05T09:50:16.733461+00:00
+
+========================================
+
+What is XDR-TB?
+===============
+
+XDR-TB, an abbreviation for extensively drug-resistant tuberculosis (TB), is a form of TB that is caused by a strain of M. tuberculosis complex that is resistant to rifampicin (and may also be resistant to isoniazid), and that is also resistant to at least one fluoroquinolone (levofloxacin or moxifloxacin) and to at least one other Group A drug (bedaquiline or linezolid).
+
+While there are some shorter regimens available for multidrug-resistant TB, treatment of extensively drug-resistant tuberculosis is typically longer and often associated with a higher likelihood of toxicity. This increased risk stems from factors such as prolonged drug exposure, higher intolerance, adverse effects and a greater potential for drug-drug interactions, particularly in critically ill patients. Furthermore, some of the existing shorter regimens effective for multidrug-resistant TB (MDR-TB) are not applicable for XDR-TB patients.
+
+How do people get XDR-TB?
+=========================
+
+People may get XDR-TB in one of two ways. It may develop in a patient who is receiving treatment for active TB, when anti-TB drugs are misused or mismanaged, and is usually a sign of inadequate clinical care or drug management. It can happen when patients are not properly supported to complete their entire course of treatment, when the supply of drugs to the clinics dispensing drugs is erratic, or when the drugs are of poor quality.
+
+The second way that people can develop XDR-TB is by becoming infected by a patient who is already ill with the condition. Patients with TB of the lungs can spread the disease by coughing, sneezing or simply talking. To become infected, a person needs only to breathe in a small number of these germs. However, only a small proportion of people infected with TB germs develop the disease.
+
+How easily is XDR-TB spread?
+============================
+
+Studies suggest that there is probably no difference between the risk of transmission of XDR-TB and any other forms of TB. The spread of TB bacteria depends on factors such as the number and concentration of infectious people in any one place together, and the presence of people with a higher risk of being infected (such as those with HIV).
+
+The likelihood of becoming infected increases with the time that a previously uninfected person spends in the same room as an infectious person. The risk of spread increases where there is a high concentration of TB bacteria, such as in poorly ventilated environments like overcrowded houses, hospitals or prisons. The risk of spread is reduced if infectious patients receive timely and proper treatment.
+
+How can a person avoid becoming infected with XDR-TB?
+=====================================================
+
+While patients with XDR-TB may be as infectious as those with drug-susceptible TB, the chances of an XDR-TB infection are lower due to the rarity of the condition. The measures to be taken are the same as those for the prevention of DS-TB.
+
+Close contact with infectious TB patients must be avoided, especially in poorly ventilated spaces. The risk of becoming infected with TB is very low outdoors in the open air. TB patients should be encouraged to follow good cough hygiene, for example by covering their mouths with a handkerchief when they cough, or even using a surgical mask in the early stages of treatment, especially in closed environments with poor ventilation.
+
+How can a person who already has drug-susceptible TB avoid getting XDR-TB?
+==========================================================================
+
+The most important thing is for the health care workers and the community to provide all the means (information, counselling and material support) that enable patients to continue taking all their treatment as prescribed.
+
+No doses should be missed, and above all, treatment should be taken right through to the end. If a patient experiences adverse effects of the treatment – for example, the tablets make them feel sick – then they should inform their doctor or nurse because often there is a simple solution. If they need to go away for any reason, patients should ensure they have enough tablets with them for the duration of the trip.
+
+Can XDR-TB be cured or treated?
+===============================
+
+XDR-TB patients can be cured, but with the current drugs available, the likelihood of success is much smaller than in patients with DS-TB or even MDR/RR-TB. Cure depends on the extent of the drug resistance, the severity of the disease, and whether the patient’s immune system is compromised.
+
+Patients infected with HIV may have a higher mortality. Early and accurate diagnosis are important to provide effective treatment as soon as possible.
+
+How do countries prevent XDR-TB?
+================================
+
+National TB control programmes working with all health services can prevent XDR-TB by ensuring that all practitioners involved in TB care follow the latest WHO policy recommendations on drug-resistant TB treatment. These emphasize providing proper diagnosis and treatment to all TB patients, including those with drug-resistant TB; assuring regular, timely supplies of all anti-TB drugs; proper management of anti-TB drugs and providing support to patients to maximize adherence to prescribed regimens; caring for MDR- or XDR-TB cases in services with proper ventilation, and minimizing contact with other patients, particularly those with HIV, especially in the early stages before treatment has had a chance to reduce the infectiousness.
+
+Can the TB vaccine, known as BCG, prevent XDR-TB?
+=================================================
+
+The BCG vaccine prevents severe forms of TB in children, such as TB meningitis, but is less effective in preventing pulmonary TB in adults, the commonest and most infectious form of TB. BCG's effectiveness against XDR-TB is expected to be similar to that of ordinary TB. Nevertheless, new vaccines are urgently needed, and WHO is actively advocating for the development of new vaccines.
+
+What is the link between XDR-TB and HIV/AIDS? Why in some places is XDR-TB linked with HIV?
+===========================================================================================
+
+People living with HIV are at greater risk of developing TB – as well as XDR-TB - than people without HIV, because of their weakened immunity. In few places where XDR-TB strains circulate more frequently, people with HIV are therefore more likely to be infected with XDR-TB than elsewhere. To date, in most of the places with high rates of HIV infection, XDR-TB has not been widespread.
+
+For this reason, the majority of people with HIV who develop TB will have ordinary TB and can be treated with standard first-line anti-TB drugs. For those with HIV infection, treatment with antiretroviral drugs will likely reduce the risk of developing XDR-TB, just as it does with ordinary TB. Patients with both XDR-TB and HIV who do not receive antiretroviral drugs are at high risk of dying.
+
+How can I tell if I might have TB or XDR-TB?
+============================================
+
+XDR-TB can only be diagnosed in a well-equipped laboratory. Symptoms of XDR-TB are no different from ordinary TB: a cough with thick, cloudy mucus (or sputum), sometimes with blood, for more than two weeks; fever, chills and night sweats; fatigue and muscle weakness; weight loss; and in some cases shortness of breath and chest pain. If you have these symptoms, it does not mean you have XDR-TB.
+
+But it does mean you must go and see a doctor for a check-up. If you are already on treatment for TB, and at least some of these symptoms are not improving after a few weeks of medication, you should inform your clinician or nurse.
+
+How quickly can XDR-TB be diagnosed?
+====================================
+
+If TB bacteria are found in the sputum, TB can be diagnosed in a day or two. However, it may take 6 to 16 weeks to confirm XDR-TB.
+
+Is it safe to travel to places where XDR-TB has been identified?
+================================================================
+
+XDR-TB is still very rare but has been documented in many countries. People who are most at risk if they do come into contact with someone with XDR-TB are those with reduced immunity to infectious diseases, such as those with HIV infection or other medical conditions that can weaken a person's immunity.
+
+It is also advised that such people avoid areas where infection control measures are not in place. Air travel carries only very minimal risks of infection with any kind of TB. Concerned travelers should seek advice before their visit from their doctor, national authorities, or trusted travel websites such as WHO’s travel and health page.
+
+What should be done if a person has been in contact with a known or presumptive case of XDR-TB?
+===============================================================================================
+
+Anyone who has been in contact with someone known, or presumptive of having, XDR-TB should consult their doctor or a local TB clinic and be screened to see if they have TB. This is most important if the person has any symptoms of TB. If they have a cough, they will be asked to provide a sample of sputum, which will be tested for evidence of TB disease.
+
+If TB is confirmed, treatment should start according to the drug-susceptibility test profile results If there is any evidence of infection with TB bacteria but without TB disease, preventive treatment may be given or the person may simply be asked to attend health services periodically for a check up.
+
+Should patients with XDR-TB be isolated while on treatment or after treatment options have failed?
+==================================================================================================
+
+Patients with presumptive TB or XDR-TB are occasionally hospitalized to confirm the diagnosis. Following the commencement of appropriate treatment, isolation is usually unnecessary.
+
+Isolation has a very limited role in patients in whom treatment has failed. Studies have shown that treating TB patients at home with appropriate infection measures generally poses no substantial risk to other members of the household. By the time a diagnosis is made, the household contacts have already been exposed to the patient’s infection.
+
+However, in the absence of curative treatment options, all infection control measures at the household should be strengthened. Whenever this is not feasible, the patient should be offered options for voluntary isolation and delivery of palliative and end-of-life care.
+
+What risks do healthcare workers face with XDR-TB, particularly those who may be HIV-positive themselves?
+=========================================================================================================
+
+To protect healthcare workers who may come into contact with infectious TB patients, appropriate and strict infection control measures must be implemented in healthcare facilities at all times. Health-care workers are also encouraged to make sure that they are aware of their HIV status so that they can restrict putting themselves at risk of exposure.
+
+What is WHO doing to combat XDR-TB?
+===================================
+
+First, WHO ensures that the health authorities responsible for TB care and support receive the most up-to-date information about XDR-TB. The latest updates on XDR-TB, along with other relevant TB matters, are regularly published on the WHO Global TB Programme website.
+
+Second, WHO advises that good TB prevention, care and support prevent the emergence of drug resistance in the first place and that the proper treatment of MDR/RR-TB prevents the emergence of XDR-TB.
+
+Third, WHO is regularly updating its guidance to ministries of health on the treatment and diagnostic policies for drug-resistant TB patients.
+
+- Green Light Committee
+
+- Airborne: a journey into the challenges and solutions to stopping MDR-TB and XDR-TB
+
+- WHO consolidated guidelines on tuberculosis: module 4: treatment: tuberculosis care and support
+
+- WHO operational handbook on tuberculosis: module 3: diagnosis: rapid diagnostics for tuberculosis detection, 3rd ed
+
+- WHO consolidated guidelines on tuberculosis: module 3: diagnosis: rapid diagnostics for tuberculosis detection, 3rd ed
+
+- WHO operational handbook on tuberculosis. Module 4: treatment - drug-resistant tuberculosis treatment, 2022 update
+
+- Guidance on conducting reviews of tuberculosis programmes
+
+- Co-administration of treatment for drug-resistant tuberculosis and hepatitis C: rapid communication
+
+- Global tuberculosis report 2023
+
+- Adaptation and implementation of WHO’s multisectoral accountability framework to end TB: operational guidance

@@ -1,0 +1,63 @@
+WHO QUESTIONS AND ANSWERS
+Title: GISRS 70th anniversary
+URL: https://www.who.int/news-room/questions-and-answers/item/gisrs-70th-anniversary-faq
+Retrieved: 2026-10-05T09:46:02.285643+00:00
+
+========================================
+
+What is GISRS?
+==============
+
+The WHO Global Influenza Surveillance and Response System (GISRS) is a global network that encompasses more than 150 laboratories in more than 120 Member States. The network provides the expertise needed to monitor and rapidly respond to the continuous threat posed by seasonal, zoonotic and pandemic influenza viruses. GISRS provides detailed information on circulating seasonal influenza viruses, as well as immediate response to the influenza pandemics in 1957, 1968, and 2009, to threats caused by animal influenza viruses and, most recently, to the COVID-19 pandemic.
+
+How did the devastating impact of influenza lead to the founding of GISRS?
+==========================================================================
+
+The importance of influenza surveillance had been promoted by the scientific community in the years prior to the establishment of WHO. The catastrophic 1918 influenza pandemic alerted the world to the deadly threat to humankind posed by influenza. Over a decade later, researchers succeeded in isolating influenza viruses – first from pigs in 1931 and then from humans in 1933. Most of the researchers working on influenza during those early years had witnessed the devastating effects of the Spanish flu pandemic and they all agreed that such a global pandemic could arise again. In 1951, international experts recognized the need for global coordination of influenza research and identified the main objects for a WHO Expert Committee for influenza. The first meeting of this WHO Expert Committee for influenza, convened in Geneva in September 1952, marks the beginning of the WHO influenza surveillance network. Initially called Global Influenza Surveillance Network (GISN), the network was renamed to Global Influenza Surveillance and Response System in 2011 upon the adoption by the World Health Assembly, of the Pandemic Influenza Preparedness Framework (PIP Framework) for the Sharing of Influenza Viruses and Access to Vaccines and Other Benefits.
+
+How has the GISRS network expanded over the past 70 years?
+==========================================================
+
+Ever since its foundation, GISRS has continued to expand. From 25 countries in 1952, who had some influenza surveillance in place and were able to report data to WHO, to 127 countries, areas or territories 70 years later. The network now includes 158 institutions, including 148 National Influenza Centers recognized by WHO in 124 WHO Member States, seven WHO Collaborating Centres, four Essential Regulatory Laboratories, and 13 H5 Reference Laboratories.
+
+Why is GISRS’s role still so vital 70 years since it was founded?
+=================================================================
+
+There are a number of reasons:
+
+- Influenza continues to be a serious global health problem that impacts all countries: as many as 1 billion people get influenza every year, there are three to five million severe cases, and there are up to 650 000 influenza-related respiratory deaths.
+
+- Influenza viruses constantly evolve into new variants and spread rapidly.
+
+- GISRS tests over 3 million specimens every year (2014-2019), and in fact, this surged to 6.7 million tests annually for influenza and 44.2 million tests for SARS-CoV-2 in 2020 and 2021.
+
+- GISRS shares around 20 000 influenza virus samples every year to WHO Collaborating Centres.
+
+- GISRS updates the weekly influenza situation based on laboratory and disease surveillance reporting through the FluNet and FluID systems, and distributes timely risk assessments and alerts to countries.
+
+- GISRS has been recommending suitable viruses for inclusion in annual seasonal vaccines since 1973 and biannual recommendations or the northern and southern hemispheres since 1998.
+
+- GISRS played a key role in the avian influenza A(H5N1) outbreak in 1997 and its re-emergence in 2003, SARS-CoV-1 in 2002, the pandemic influenza A(H1N1) in 2009, and the A(H7N9) emergency in 2013 in partnership with organizations in the animal sector and other international agencies.
+
+- GISRS also serves as a critical resource for countries handling non-influenza emergencies, including the COVID-19 pandemic.
+
+- GISRS is developing into a stronger global system, built upon existing influenza infrastructure, to achieve integrated surveillance and response systems not only for influenza but also other respiratory viruses with epidemic or pandemic potential.
+
+Why and how does GISRS update influenza vaccine composition every year?
+=======================================================================
+
+In contrast to many other vaccines, influenza vaccines need to be evaluated and updated regularly because circulating influenza viruses evolve continuously.
+
+WHO convenes technical consultations twice a year (February and September) with an advisory group of experts from WHO Collaborating Centres and WHO Essential Regulatory Laboratories to analyze global influenza surveillance data generated by the GISRS to determine if current seasonal influenza vaccine composition need to be updated.
+
+This considerable task requires a range of activities including but not limited to: reviewing surveillance data, the genetic and antigenic characterization of viruses, and conducting human serology studies with influenza virus vaccines. Based on these data and the availability of candidate vaccine viruses, the advisory group decide if vaccine composition for the next influenza season need to be updated, and which vaccine viruses need to be replaced by which new ones. Further information can be found here.
+
+What is the role of GISRS in an influenza pandemic?
+===================================================
+
+GISRS plays a leading role in responses to an influenza pandemic. The global network conducts year-round surveillance of influenza, monitoring influenza activity and virus evolution, detecting human infections with zoonotic influenza viruses of pandemic potential, conducting rapid and timely risk assessment to guide public health responses. Such continuous operations of GISRS serve as the foundation for influenza pandemic response. With the declaration of an influenza pandemic, the GISRS response intensifies through highly collaborative operations of individual members of GISRS including National Influenza Centres, WHO Collaborating Centres and WHO Essential Regulatory Laboratories, with WHO being the coordinating body. In particular, GISRS develops valid laboratory tests along with testing protocols and algorithms for detection of the novel virus; monitors global spread of the novel viruses, fully characterize the novel viruses, develop candidate vaccine viruses and reagents, and conduct rapid and timely risk assessment to guide public health responses and pandemic vaccine preparation.
+
+How has GISRS been a foundational and continuing support in the COVID-19 pandemic?
+==================================================================================
+
+GISRS has made significant contributions in responding to the COVID-19 pandemic from the start. Since the emergence of SARS-CoV-2, GISRS network has been at the forefront of a concerted global and national response for the detection and containment of SARS-CoV-2 transmission. In many countries, National Influenza Centres of GISRS readily became primary hubs for national COVID-19 testing and response. Importantly, GISRS has leveraged the existing influenza surveillance system to conduct SARS-CoV-2 sentinel surveillance. GISRS integrated sentinel surveillance of influenza and SARS-CoV-2 informs public health response to the two viruses and associated diseases at the same time. Moreover, GISAID, a long-term partner of GISRS, published the first SARS-CoV-2 sequence data hours after it became available.

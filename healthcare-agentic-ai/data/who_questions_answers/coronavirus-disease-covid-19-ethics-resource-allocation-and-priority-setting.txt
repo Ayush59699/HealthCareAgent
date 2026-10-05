@@ -1,0 +1,113 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Ethics, resource allocation and priority setting
+URL: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-ethics-resource-allocation-and-priority-setting
+Retrieved: 2026-10-05T09:44:17.400002+00:00
+
+========================================
+
+Governments, international agencies and health systems have an obligation to ensure, to the best of their ability, adequate provision of health care for all. However, this may not be possible during a pandemic, when health resources are likely to be limited. Setting priorities and rationing resources in this context means making tragic choices, but these tragic choices can be ethically justified. This is why we have ethics. This policy brief answers a number of questions about the ethics of setting priorities for the allocation of resources during times of scarcity. Such decisions may include access to hospitals, ventilators, vaccines and medicines. It is essential that policies and practices are ethically justified in such contexts. The document provides a high-level ethical framework that can be used to guide decision-making, and complements WHO’s technical guidance.
+
+This page is no longer being updated. It remains live for reference purposes only.
+
+Can I adapt previous frameworks for pandemic influenza to guide resource allocation for COVID-19?
+=================================================================================================
+
+Many ethical frameworks have been produced for resource allocation, some of which have been included in pandemic plans. Those frameworks provide useful guidance in the current scenario. Yet, when applying them, we must take into account the type of health care resource, the context, and the stage of the pandemic. That is, while the ethical principles that apply to resource allocation might be the same in different pandemics, they can lead to different decisions, given contextual circumstances. For example, this pandemic appears to significantly impact older adults (those 60 years of age or older), and such characteristics are relevant to shaping priorities for the allocation of resources during COVID-19. As a result, it may be inappropriate to use critical care triage guidelines that have age cut-offs that deprioritize or exclude those aged over 60 years.
+
+When applying ethical guidelines for resource allocation, we should consider the extent to which resources are overwhelmed in the current context. It would be inappropriate, for instance, to exclude population groups from being allocated a resource (for example, ventilators) at the outset of a pandemic when capacity remains. When resources are scarce, though – when there is an insufficient supply to meet everyone’s needs – resource allocation should be guided by well established, broadly applicable ethical principles, unless there are characteristics of the outbreak that justify different courses of action. Irrelevant characteristics of populations within countries, such as ethnicity, race or creed, should play no role in any resource allocation in any pandemic. This reflects our commitment to treating people with equal respect.
+
+Are the ethical considerations the same for all medical countermeasures, including therapeutics, vaccines and personal protective equipment (PPE)?
+==================================================================================================================================================
+
+Generally, the considerations may be different. The allocation of different resources may find ethical justifications in different principles or values. For instance, once a novel vaccine is found to be safe and effective, to prioritize those at highest risk, as well as populations like health care workers who may be more likely to serve as vectors for transmission, is justified.
+
+Within those subgroups, some suggest that a lottery-based (i.e., random) allocation may be justified, given that resources will be limited and we can assume nearly equal benefits will be derived from any recipient within that group. This is not the case, however, for other resources such as ventilators, where some individuals may derive significantly more benefit than others.
+
+What is the basis for deciding who should have priority access to scarce resources?
+===================================================================================
+
+The ethical basis for deciding which individuals or groups might be prioritized, including the principles to be applied, are presented in the below table:
+
+Ethical considerations when deciding who to prioritize
+------------------------------------------------------
+
+Principle | Description | Practice implication |
+
+Equality | Each person’s interest should count equally unless there are good reasons that justify the differential prioritization of resources.
+
+Irrelevant characteristics of individuals, such as race, ethnicity, creed, ability or gender, should not serve arbitrarily as the basis for the differential allocation of resources.
+
+This principle can be used to justify the allocation of resources by a lottery – that is, randomly by chance – or by a system of first come, first served. | May be most appropriate to guide the allocation of scarce resources among individuals or populations who can be expected to derive the same benefit from the resource, for example, vaccines among high-risk populations, or ventilators among those with similar clinical indicators for benefit. |
+
+Best outcomes (utility) | This principle can be used to justify the allocation of resources according to their capacity to do the most good or minimize the most harm, for example, using available resources to save the most lives possible. | May be most appropriate to guide the allocation of scarce resources that confer substantially different benefits to different individuals, for example, ventilators to those expected to derive the most benefit. |
+
+Prioritize the worst off | This principle can be used to justify the allocation of resources to those in greatest medical need or those most at risk. | May be most appropriate to guide the allocation of resources that are designed or intended to protect those at risk, for example, PPE for health care workers, vaccines for those most at risk of infection and severe illness, or those most in need, as in the case of provision of drugs in short supply to those needing them most urgently. |
+
+Prioritize those tasked with helping others | This principle can be used to justify the allocation of resources to those who have certain skills or talents that can save many other people, or because something is owed to them on account of their participation in helping others. | May be most appropriate to guide the allocation of resources to health care workers, first responders, etc. |
+
+Allocation principles may be relevant or justified at different stages of resource scarcity (from less scarcity to more scarcity). For example, where little scarcity exists, the allocation of resources such as ventilators may be most justified by the principle of first come, first served (which promotes the value of equality). When those resources become increasingly scarce, their allocation may be justified according to a principle that prioritizes those most in need. With even greater scarcity, a principle that aims to maximize benefit from the resource may be most justified. At each stage, allocation should aim to promote equality – that is, first come, first served, or random allocation, when no relevant factors distinguish individuals within a particular scheme of allocation (for example, among those with similar needs, or among those who can be expected to benefit similarly from the resources, or among those that are at similar levels of risk).
+
+In addition, multiple principles may be combined within an allocation scheme. For example, an allocation scheme for PPE might find its justification in a principle prioritizing those most at risk as well as a principle prioritizing those tasked with helping others, which would support priority allocation of PPE to health care workers.
+
+How should decision-makers make considered ethical judgements about these matters, given the likelihood that there will not be enough of a resource? Who should be involved in decision-making on scarce resources?
+===================================================================================================================================================================================================================
+
+For most decisions, multiple ethical values and principles will be relevant to deliberations about how to allocate resources. This is likely to generate some disagreement, because different people may weigh the values differently. Some may prioritize equality while others might put more emphasis on best outcomes or prioritization of the worst-off. For this reason, it is imperative that the different values be weighed and applied to specific allocation issues using a fair process.
+
+A fair process for allocating scarce resources must promote certain ethical values:
+
+- Transparency. In a transparent process, the decisions and their justifications should be made public. This means that the population should be informed about the criteria guiding the decisions.
+
+- Inclusiveness. Those affected by allocation decisions – including individuals, communities or countries – should be able to exert at least some influence over the decision-making process as well as the decision itself. This also means that decisions 4 should be open to challenge and potentially revisable, perhaps through an appeal process.
+
+- Consistency. Decisions should be consistent so that all persons in the same categories are treated in the same way. This means that favouritism towards one’s own family, religious or political compatriots, or otherwise, is not appropriate. All forms of corruption that are at variance with this principle should be challenged and condemned.
+
+- Accountability. Those making decisions about allocation must be accountable for those decisions – that is, they should justify their decisions and be held responsible for them. A fair process means that allocation decisions should not be made by individuals, by individual pharmaceutical companies, or, in the case of allocation between countries, by a single country. Resources such as vaccines and therapies should not be stockpiled outside the system of fair allocation.
+
+The fair allocation of resources is one that is valuable in itself precisely because it is fair. However, it may also be valuable because a fair system engenders solidarity and trust, which are vital to the successful and sustained collective response necessary for dealing effectively with any outbreak.
+
+What are the key ethical considerations that governments, vaccine manufacturers and funders should take into account to ensure a fair distribution of vaccines globally?
+========================================================================================================================================================================
+
+Countries are equally vulnerable to COVID-19 and have a shared responsibility, grounded in solidarity, to collaborate globally to mitigate the outbreak. Each government has special obligations to its own citizens, but the fair allocation of vaccines globally requires us not to simply appeal to self-interest, claims of resource ownership and the prioritization of compatriots. Vaccines should be allocated in a way that prioritizes those who fall into the categories presented in the below table. (Where individuals or populations fall into multiple categories, they should receive even higher priority.)
+
+Priority populations, and rationale for prioritization
+------------------------------------------------------
+
+Priority population | Rationale for prioritization |
+
+Those at greatest risk of becoming infected and seriously ill | Maximize benefit of vaccine |
+
+Those who, if vaccinated, would prevent the greatest spread of the virus | Maximize benefit of vaccine |
+
+Those who have volunteered to participate in research aimed at developing the vaccine | Reciprocal obligation to those who were voluntarily put at risk to aid in this effort |
+
+Those falling into each category may change over time.
+
+What conclusions can we draw about the fair allocation of scarce resources within countries during the COVID-19 outbreak?
+=========================================================================================================================
+
+1. Health care workers (caring for patients) and first responders can justifiably be prioritized when allocating some resources because of their contribution to the health and well-being of the community. Their health helps preserve the health of others.
+
+2. Participants of research aimed at developing vaccines, therapies or other critical resources should receive some priority in receiving those resources because they have also helped save others by their participation. This is not an absolute priority – for example, it should not take precedence over giving priority to those most at risk in the case of resources such as vaccines.
+
+3. While the principle of first come, first served is often applied when allocating resources in health care settings, it is rarely appropriate in an emergency. In practice, it is very likely to favour certain groups, such as those closest to a distribution centre, those with access to better information, or those who are most well-off.
+
+4. Younger populations appear to be at lower risk in the COVID-19 context. Consequently, the principle of youngest first should have low priority for vaccine, but perhaps may have more weight if they do become sick and need critical care resources.
+
+5. The allocation of different resources may find ethical justification in different principles or values. For instance, if a novel vaccine is found to be safe and effective, a lottery-based allocation may be justified among those as highest risk, the old and those with co-morbidities, if they outnumber available vaccines.
+
+6. Maximizing utility should be balanced with the principle of priority to the worst-off: centralizing the availability of resources in larger centres may extend their benefits to more people, but may exclude isolated populations and challenge our concern for those at highest risk.
+
+WHO reference number: WHO/RFH/20.2.
+
+This policy brief was developed by the WHO Working Group on Ethics and COVID-19. This is a living document and will be updated according to new information and new questions arising.
+
+© World Health Organization 2020. Some rights reserved. This work is available under the CC BYNC-SA 3.0 IGO license.
+
+Read more
+---------
+
+- Ethical standards for research during public health emergencies: Distilling existing guidance to support COVID-19 R&D
+
+- WHO's work on Global Health Ethics

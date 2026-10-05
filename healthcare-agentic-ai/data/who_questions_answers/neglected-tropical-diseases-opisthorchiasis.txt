@@ -1,0 +1,61 @@
+WHO QUESTIONS AND ANSWERS
+Title: Neglected tropical diseases: Opisthorchiasis
+URL: https://www.who.int/news-room/questions-and-answers/item/neglected-tropical-diseases-opisthorchiasis
+Retrieved: 2026-10-05T09:47:56.854057+00:00
+
+========================================
+
+Opisthorchiasis belongs to the group of foodborne trematode infections and is a zoonosis, meaning an animal infection that may be transmitted to humans.
+
+What regions are most affected by opisthorchiasis?
+==================================================
+
+Opisthorchiasis is endemic in Southeast Asia, particularly Thailand, PDR Lao, Cambodia, and Vietnam, as well as parts of Eastern Europe and Russia. High prevalence is linked to cultural practices of eating raw or undercooked freshwater fish.
+
+What socioeconomic factors fuel opisthorchiasis transmission?
+=============================================================
+
+Opisthorchiasis transmission is strongly influenced by poor sanitation and limited access to clean water, which lead to the contamination of water bodies with parasite eggs. These unsanitary conditions, combined with the consumption of raw or undercooked freshwater fish—a common dietary practice in some communities—sustain the cycle of infection. Low levels of health literacy and lack of awareness about the risks associated with consuming raw fish contribute to continued infections. Additionally, insufficient healthcare access leads to delayed diagnosis and treatment, prolonging the disease burden in affected populations. Sustainable control measures should include improved sanitation, education campaigns on safe food preparation, and increased healthcare accessibility in endemic areas.
+
+What are the signs and symptoms of opisthorchiasis?
+===================================================
+
+In humans, both acute opisthorchiasis viverrini and opisthorchiasis felinea may be asymptomatic or scarcely symptomatic in light infections, but if the number of worms is significant (up to several thousands), fever and right upper-quadrant pain are not infrequent and may be associated with intermittent colic pain caused by obstruction of the gallbladder by the worms themselves. Typically, opisthorchiasis felinea is associated with a more pronounced and severe acute phase than opisthorchiasis viverrini or clonorchiasis.
+
+Chronic opisthorchiasis viverrini, which results from protracted episodes of re-infection over time, may be most severe. The presence of the worms in the smaller bile ducts causes chronic inflammation of their walls, resulting in fibrosis of the ducts and destruction of the adjacent liver parenchyma. Recurrent pyogenic cholangitis may also be frequent. Chronic opisthorchiasis viverrini is strongly associated with cholangiocarcinoma, a severe and often fatal form of bile duct cancer. The International Agency for Research on Cancer (IARC) classifies O. viverrini as a Group 1 agent (carcinogenic to humans).
+
+Not much information is available on chronic opisthorchiasis felinea: the presence of the worms in the smaller bile ducts is likely to cause chronic inflammation of their walls, resulting in fibrosis of the ducts and destruction of the adjacent liver parenchyma. Recurrent pyogenic cholangitis may be present. There is insufficient evidence to establish a causal link between opisthorchiasis felinea and cholangiocarcinoma or other forms of liver cancer. The International Agency for Research on Cancer (IARC) classifies O. felineus as a Group 3 agent (not classifiable as to its carcinogenicity to humans).
+
+How does opisthorchiasis spread to humans?
+==========================================
+
+Humans become infected by eating raw, undercooked, or fermented freshwater fish containing Opisthorchis viverrini or O. felineus larvae. The larvae mature into adult flukes in the bile ducts, where they lay eggs excreted in stool.
+
+Can pets or livestock spread opisthorchiasis?
+=============================================
+
+Yes. Cats, dogs, and other fish-eating mammals can act as reservoir hosts, shedding parasite eggs in their feces. This sustains the lifecycle in water systems, emphasizing the need for veterinary action in endemic areas.
+
+Why are raw fish dishes like koi pla still popular despite opisthorchiasis risks?
+=================================================================================
+
+Dishes like koi pla (Thailand) are deeply rooted in cultural traditions. Effective public health campaigns must balance respect for cultural practices with education on safer preparation methods, such as freezing or thoroughly cooking fish.
+
+What are the long-term health effects of opisthorchiasis?
+=========================================================
+
+Chronic infection causes bile duct inflammation, fibrosis, and obstruction, increasing the risk of cholangiocarcinoma (bile duct cancer). Early treatment is critical to prevent these complications.
+
+How does opisthorchiasis affect children compared to adults?
+============================================================
+
+Children in endemic areas often experience malnutrition and stunted growth due to chronic infection. Early exposure increases lifetime cancer risk, as bile duct damage accumulates over decades.
+
+What are the limitations of praziquantel for opisthorchiasis treatment?
+=======================================================================
+
+While praziquantel is effective at killing adult Opisthorchis flukes, it has several limitations. First, it cannot reverse existing damage to the bile ducts caused by long-term infections, such as scarring, inflammation, or an increased risk of bile duct cancer. Second, it does not kill the younger stages of the parasite, which may continue to grow after treatment. Third, praziquantel does not prevent people from getting infected again, so individuals in endemic areas who keep eating raw or undercooked fish remain at risk.
+
+Additionally, in areas where many people are infected, relying only on mass treatment without improving sanitation, clean water, and food safety limits the impact of control programs. People can easily become reinfected if water sources remain contaminated and risky eating habits continue.
+
+In short, while praziquantel is an important treatment, it is not a complete solution. Long-term control of opisthorchiasis requires combined efforts, including safe food practices, better sanitation, and health education.

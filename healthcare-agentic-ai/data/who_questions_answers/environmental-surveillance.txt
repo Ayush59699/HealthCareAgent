@@ -1,0 +1,64 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Environmental Surveillance
+URL: https://www.who.int/news-room/questions-and-answers/item/environmental-surveillance
+Retrieved: 2026-10-05T09:45:47.281748+00:00
+
+========================================
+
+Why is environmental surveillance of wastewater important during disease outbreaks?
+===================================================================================
+
+Testing wastewater has a long history of use in public health. Environmental surveillance is already used to detect poliovirus in high risk settings, monitor antimicrobial resistance and complement surveillance for other public health programmes.
+
+How is wastewater testing used for COVID-19?
+============================================
+
+Wastewater testing can be used to monitor the presence of SARS-CoV-2 virus in untreated sewage. Several countries are monitoring wastewater for SARS-CoV-2 virus, the virus that causes COVID-19, in a range of locations for different purposes. These include:
+
+- early warning for COVID-19 cases in a community;
+
+- detection of COVID-19 in locations with weak clinical surveillance;
+
+- monitoring circulation of the virus during outbreaks; or
+
+- to trigger case-finding in locations where there are or may be suspected cases, such as quarantine hotels, university campuses or prisons.
+
+Some countries are also analysing historical wastewater samples for evidence of past SARS-CoV-2 circulation.
+
+What does it mean when a wastewater sample tests positive for SARS-CoV-2?
+=========================================================================
+
+Molecular tests such as polymerase chain reaction (PCR) tests can detect the presence of the SARS-CoV-2 virus via fragments of genetic material (RNA) in wastewater. Finding this RNA in wastewater means that one or more people in the community likely excreted virus through urine, faeces or by coughing or sneezing. The RNA suggests that the virus was in the community at the time it was excreted. However, the wastewater test does not identify who was or is infected or indicate if the persons excreting the virus are still infectious to others.
+
+Can I get sick with COVID-19 through contact with urine, faeces or sewage?
+==========================================================================
+
+While fragments of SARS-CoV-2 genetic material (RNA) have been detected in the urine or faeces of some patients, there have been no reports to date of transmission of COVID-19 through urine or faeces. It remains important to protect yourself with personal protective equipment whenever contact with bodily fluids may occur and to clean your hands frequently
+
+Infectious SARS-CoV-2 has also not been detected in wastewater, suggesting transmission through contact or contamination with sewage is highly unlikely.
+
+Guidance for water, sanitation, hygiene and waste management can be found here.
+
+Can I get sick with COVID-19 from swimming in the sea, rivers, lakes or swimming pools?
+=======================================================================================
+
+Available evidence suggests that SARS-CoV-2 does not spread from water. Natural bodies of water and swimming pools do not appear to pose a risk for COVID-19 transmission even if polluted by faeces or wastewater. Pools are usually treated regularly to prevent contamination with a range of pathogens which could be present.
+
+However, crowded beaches or swimming pools do pose a risk of spreading COVID-19 through close contact with infected people or contaminated surfaces. To reduce the risk of this transmission, clean hands frequently, stay at least 1 metre away from others in and out of the water, and wear a mask when this distancing is not possible.
+
+Can I get sick with COVID-19 from drinking water?
+=================================================
+
+The risk coronaviruses pose to drinking water is considered to be low and SARS-CoV-2 virus has not been detected in drinking water supplies.
+
+Drinking water treatment methods neutralize infectious pathogens present in the water. SARS-CoV-2 is an enveloped virus, which means it has a fragile fatty envelope that is easily destroyed by the treatment process. Therefore, treated drinking water does not pose a risk for COVID-19.
+
+Can wastewater testing be conducted in low-resource settings?
+=============================================================
+
+Putting in place wastewater testing requires a good understanding of how environmental surveillance could add value in monitoring the spread of disease. The laboratory capacity needed to test wastewater samples may be limited in some settings. Clinical testing and epidemiological surveillance are higher priority strategies, as they lead directly to public health measures that can reduce transmission. Water, sanitation and hygiene (WASH) activities are also top public health priorities, such as ensuring access to hand washing facilities for all. The cost-benefit of wastewater testing relative to other public health measures should be carefully evaluated.
+
+Does WHO recommend environmental surveillance of wastewater for COVID-19?
+=========================================================================
+
+At present more evidence is needed regarding use of environmental surveillance for COVID-19. Wastewater monitoring may be considered as an optional and complementary approach to COVID-19 surveillance in addition to more standard clinical surveillance. Scientists and public health authorities continue to assess effectiveness and validate testing methods in different settings. WHO encourages efforts to continue to explore potential uses of wastewater testing and recognizes its potential as an emerging tool for improving control of COVID-19.

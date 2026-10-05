@@ -1,0 +1,59 @@
+WHO QUESTIONS AND ANSWERS
+Title: Food safety: Persistent organic pollutants (POPs)
+URL: https://www.who.int/news-room/questions-and-answers/item/food-safety-persistent-organic-pollutants-(pops)
+Retrieved: 2026-10-05T09:45:54.182826+00:00
+
+========================================
+
+What are persistent organic pollutants (POPs)?
+==============================================
+
+Persistent organic pollutants (POPs) are chemicals of global concern due to their potential for long-range transport, persistence in the environment, ability to bio-magnify and bio-accumulate in ecosystems, as well as their significant negative effects on human health and the environment.
+
+The most commonly encountered POPs are organochlorine pesticides, such as DDT, industrial chemicals, polychlorinated biphenyls (PCB) as well as unintentional by-products of many industrial processes, especially polychlorinated dibenzo-p-dioxins (PCDD) and dibenzofurans (PCDF), commonly known as dioxins.
+
+How are people exposed to POPs?
+===============================
+
+Humans are exposed to these chemicals in a variety of ways: mainly through the food we eat, but also through the air we breathe, in the outdoors, indoors and at the workplace. Many products used in our daily lives may contain POPs, which have been added to improve product characteristics, such as flame retardants or surfactants. As a result, POPs can be found virtually everywhere on our planet in measurable concentrations.
+
+POPs bio-magnify throughout the food chain and bio-accumulate in organisms. The highest concentrations of POPs are thus found in organisms at the top of the food chain. Consequently, background levels of POPs can be found in the human body.
+
+Human exposure - for some compounds and scenarios, even to low levels of POPs - can lead to many health effects including increased cancer risk, reproductive disorders, alteration of the immune system, neurobehavioural impairment, endocrine disruption, genotoxicity and increased birth defects.
+
+Are POPs found in breastmilk?
+=============================
+
+Through its GEMS/Food Programme, WHO has collected and evaluated information on levels of persistent organic pollutants in foods, including breastmilk, since 1976. Over the period 1987-2003, it has coordinated three international studies of breastmilk to assess the levels and trends of polychlorinated dibenzodioxins, polychlorinated dibenzofurans and dioxin-like polychlorinated biphenyls. Analysis of breastmilk, maternal blood and adipose tissue are all relevant matrices for assessment of body burdens for persistent organic pollutants. However, breastmilk is recognized as the preferred matrix because has several important advantages. Biomonitoring of breastmilk data can provide information on the exposure of the mother as well as the infants. Furthermore, such information provides guidance on the need for measures to reduce levels of this substances in food, which is the main source of exposures for most people. More recently, it has been recognized that breastmilk is an ideal matrix to generally monitor levels of persistent organic pollutants in the environment.
+
+In 2004, the Stockholm Convention on Persistent Organic Pollutants was ratified by governments to decrease environmental and human exposure to twelve priority substances in this class. The revised WHO guidelines for developing a national protocol describe the basic study design that can be used to monitor human exposure over time in order to, among other things, see if the Stockholm agreement is actually effective in reducing the release of these chemicals into the environment. These guidelines continue to support the monitoring of persistent organic contaminants for human health and food-chain contamination purposes. The protocol was designed based on the advice of experts in the field (see ad hoc WHO Breastmilk Survey Advisory Group) and on extensive experience of certain countries in undertaking similar surveys using human samples, including breastmilk. In order to promote reliability and comparability, participating countries are encouraged to adhere as closely to this protocol as possible. Ethical issues, including informed consent of donors and confidentiality, are major considerations in this protocol. Given that breastfeeding reduces child mortality and has health benefits that extend into adulthood, every effort has been made to protect, promote and support breastfeeding in the context of these studies.
+
+Are PCBs and dioxins found in salmonour food supply?
+====================================================
+
+A survey reported in the journal Science (09 January 2004) compared the level of organochlorine contaminants, including PCBs and dioxins, in farmed versus wild salmon collected from around the world. Most organochlorine substances analysed in the study show a significantly higher level of contamination in farmed than in wild salmon.
+
+This study is the largest conducted so far, in particular relating to the direct comparison between farmed and wild salmon. The results reported specifically for dioxins and PCBs are well within the range of previous studies. Dioxins and dioxin-like compounds are important substances that can affect human health. They are persistent environmental pollutants that enrich via the food chain. Dioxins and PCBs are associated with industrial discharges, including discharges into the sea, and ocean fish have varying levels of these substances often directly related to the proximity of their habitat to discharge areas. The level in farmed fish normally reflects the contamination level of the feed used, which has been also shown in above mentioned study by the detection of dioxins and PCBs in commercial fish feed.
+
+Is it safe to consume foods contaminated with POPs?
+===================================================
+
+WHO, in collaboration with FAO, has considered dioxins and dioxin-like compounds on several occasions. Most recently in June 2001, the Joint FAO/WHO Expert Committee on Food Additives (JECFA) examined new evidence on the toxicity of these chemicals and established a Provisional Tolerable Monthly Intake (PTMI) of 70 picograms of dioxins and dioxin-like PCBs. When evaluating standard diets in different parts of the world the results indicated that the estimated intakes of these chemicals approach or exceed this PTMI. Based on the mean contamination levels reported in above study, eating one or two portions per week of farmed salmon would result in a monthly intake below this level. However, an overall dietary risk assessment would require inclusion of other dietary sources of dioxins and dioxin-like PCBs.
+
+What is being done to prevent POPs contamination?
+=================================================
+
+To address the risks associated with these substances, several steps have been taken to reduce or eliminate emissions of dioxins, dioxin-like PCBs and other related persistent organic pollutants. Many countries have now implemented the Stockholm Convention on POPs (2001), which suggests ending commercial use of 12 POPs and reduce or eliminate their emission into the environment. To monitor reduction in human exposure WHO and UNEP run a monitoring program for POPs in breastmilk. A steady decline in levels has been observed since 1980 for most countries.
+
+In regard to food contamination, the FAO/WHO Codex Alimentarius Commission, which is a risk management body comprised of 169 member countries, is developing a draft code of practice for dioxins and dioxin-like PCBs in food, which identifies source-directed measures to reduce their presence in food, including fish, as well as a position paper, which provides an evaluation of the need for possible regulatory measures, such as limits in food and feed.
+
+The results of this new study in salmon and other studies should be used to maintain the focus on reducing the exposure of humans to dioxins and dioxin-like PCBs. Specifically, efforts to reduce the level of such substances in animals used for human consumption should be actively supported, in particular source-directed measures such as reduction of contamination levels in animal feed.
+
+FAO and WHO consider fish to be an important component of a nutritious diet, and that the risk of consuming contaminated fish must be weighted in view of the beneficial nutritive effects of fish. FAO and WHO plan to develop general guidance for such risk-benefit considerations, with the contamination of fish as case studies.
+
+What are toxic equivalency factors (TEFs) for dioxins and similar compounds?
+============================================================================
+
+Dioxins occur as a complex mixture in the environment and in food. More than 90% of human exposure is through food, mainly meat and dairy products, fish and shellfish. In order to assess the potential health risk of the whole mixture, the concept of toxic equivalence has been applied to this group of structurally and biologically related contaminants. TCDD, the most toxic member of the family, is used as reference compound, and all other dioxins are assigned a toxic potency relative to TCDD, based on experimental studies. These international TEFs have been developed for application in risk assessment and management, and have been adopted formally for regulatory purposes by a number of countries and regional bodies, including Canada, the European Union, Japan and the United States of America.
+
+During the last 15 years, WHO, through the International Programme on Chemical Safety (IPCS), has established and regularly re-evaluated toxic equivalency factors (TEFs) for dioxins and related compounds through expert consultations. WHO-TEF values have been established in 1998 which apply to humans, mammals, birds and fish. The last consultation was held in 2005 to update human and mammalian TEFs. Details on the process and outcome can be found through the links below.

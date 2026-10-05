@@ -1,0 +1,92 @@
+WHO QUESTIONS AND ANSWERS
+Title: Children's environmental health: Preventing and managing childhood diseases
+URL: https://www.who.int/news-room/questions-and-answers/item/childrens-environmental-health-preventing-and-managing-childhood-diseases
+Retrieved: 2026-10-05T09:43:40.201752+00:00
+
+========================================
+
+How many childhood diseases are linked to the environment?
+==========================================================
+
+A growing number of diseases in children are linked to unhealthy and degraded environments. The most recent World Health Organization (WHO) analysis in 2016 found that more than 28%, or almost 1.6 million, of all deaths in children under 5 were linked to the environment.
+
+Many of the leading causes of mortality in children have strong environmental components including:
+
+- respiratory infections, including pneumonia, which are linked household and ambient air pollution, and second-hand smoke exposure
+
+- neonatal conditions, including prematurity, are linked to maternal exposure to household air pollution, some chemicals and second hand smoke, as well as inadequate water and sanitation in birth settings
+
+- inadequate drinking-water, poor access to sanitation and hygiene facilities, and open defecation are strongly linked to diarrhoeal diseases
+
+- malaria and other vector-borne diseases
+
+- unintentional injuries, such as poisonings and burns, are linked to unsafely stored and unlabelled chemicals, and the use of polluting cooking, heating and lighting technologies and fuels in homes.
+
+How can we improve children’s environmental health?
+===================================================
+
+Health care professionals have critical roles to play in maintaining and stimulating change that will protect children’s health from environmental hazards and associated diseases.
+
+It is essential that healthcare professionals are trained to recognize environmental hazards and diagnose, treat and prevent childhood diseases linked to these hazards. This includes paediatricians, family doctors, nurses, primary healthcare workers, students and other healthcare workers.
+
+Healthcare workers should be trained using harmonized training materials that are adapted to the specific needs of countries, local contexts, resource constraints and professional groups.
+
+Additionally, healthcare professionals are trusted members of our societies and are powerful voices for change at the local and national levels. Healthcare professionals can use their knowledge to work with government agencies to recognize local environmental hazards, develop and implement sustainable policies to address and improve environmental health issues in their context, and support actions that reduce local environmental health threats.
+
+What are the benefits of training health care providers?
+========================================================
+
+Healthcare professionals are powerful advocates for change. Ensuring that healthcare professionals are trained on children’s environmental health can:
+
+- increase healthcare professionals’ understanding of the influence of environmental factors on children’s health and improve interventions to prevent hazardous exposure;
+
+- improved the timeliness and quality of diagnosis and management of environmental-related health and developmental effects;
+
+- increase the capacity of healthcare professionals to discuss and share knowledge with patients, their families and caregivers, communities, educators and policy-makers;
+
+- elevate healthcare professionals’ skills to advocate for children’s environmental health;
+
+improve data collection and research on children’s environmental health.
+
+What is the WHO training package for the health sector on children’s health and the environment?
+================================================================================================
+
+The WHO training package is collection of modules with internationally harmonized information and peer-reviewed materials to enable healthcare workers to be trained, and become trainers of their peers and colleagues. The modules include extensive notes and references, case studies and self-evaluation tools, backed up by manuals and guidelines.
+
+A selected team of experienced professionals from more than 15 countries, the International Paediatric Association (IPA) and selected NGOs participated in its development and preparation. Since the first iteration of the training package, selected modules have undergone multiple revisions to ensure their accuracy and relevance. Additional modules have been added to the package to address emerging environmental health issues, including e-waste and endocrine disrupting chemicals.
+
+What issues are covered in the WHO training package?
+====================================================
+
+The WHO training package consists of more than 30 modules. It can also be used to create subpackages on specific issues of concern, for example chemicals. The training package includes modules on:
+
+- children’s unique vulnerabilities to physical, chemical and biological environmental hazards, important sources of exposure and primary routes of exposure;
+
+- children’s health and developmental effects linked to environmental hazards, including chemicals such as lead, mercury and pesticides, ambient and household air pollution, and inadequate water, sanitation and hygiene;
+
+- specific environmental issues of concern, including climate change and e-waste, and their effects on children’s health, development and futures.
+
+Each module includes case studies from a particular context, interventions that have been undertaken to improve children’s environmental health and analysis of the outcomes.
+
+The training package includes a dedicated module on The paediatric environmental history: a tool for healthcare providers. This module trains healthcare providers to develop and use a localized paediatric environmental history to recognize, treat and prevent environmental-related diseases and health conditions in children.
+
+What is the UNICEF-WHO Introductory course on children’s environmental health?
+==============================================================================
+
+In 2024, UNICEF and WHO collaborated to produce a free, interactive and online course for frontline healthcare workers on children’s environmental health. The course is based on the content in the WHO training package on children’s environmental health for health care providers – but unlike the package the UNICEF-WHO course is an interactive, self-paced course that learners can complete on their own.
+
+At the end of this course participants should be able to:
+
+- describe the influences of environmental factors on children’s health, development and well-being
+
+- evaluate children’s unique vulnerability to environmental hazards
+
+- recognize signs, symptoms and diseases linked to existing and emerging environmental risk factors
+
+- take a paediatric environmental history
+
+- identify and access information on paediatric environmental threats
+
+- discuss the environmental risks proficiently with patients, families, policy-makers, educators and the community, providing understandable, concise information about potential threats and risk-reduction strategies.
+
+Learners who wish to earn a digital certificate of completion from UNICEF and WHO are required to score 80% or higher on all quizzes and complete the end-of-course survey.

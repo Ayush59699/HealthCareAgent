@@ -1,0 +1,264 @@
+WHO QUESTIONS AND ANSWERS
+Title: Questions and Answers on the OneHealth Tool
+URL: https://www.who.int/news-room/questions-and-answers/item/questions-and-answers-on-the-onehealth-tool
+Retrieved: 2026-10-05T09:48:49.614530+00:00
+
+========================================
+
+Expanded set for expert users such as Health Economics, Public Health Specialists, Health Planners and other who will be deeply involved in the use of the OneHealth Tool
+
+What are the different modules in the tool?
+===========================================
+
+Health programmes and interventions:
+
+The user can choose to plan for intervention target setting by vertical programme or by service delivery level. In both cases there is a process for detailed planning and for indicating which interventions should be delivered at which delivery level, and with which resources.
+
+Should the user choose to configure planning parameters by vertical programme, the tool is opened with default assumptions available for 8 programmes that aim to capture interventions related to health MDGs: Child health; Reproductive and maternal health; Immunization; Nutrition; Water and Sanitation (WASH); HIV; TB; and Malaria. Additional programme components with default values will be added in 2013, including NCDs and mental health.
+
+The tool is flexible allowing the user to shift interventions between programmes, and also merge and/or create new programmes as needed depending on the national planning context.
+
+The following modules are included for health systems planning
+
+- Human resources
+
+- Infrastructure
+
+- Logistics
+
+- Health information systems
+
+- Health finance
+
+- Governance and leadership
+
+Importantly the OneHealth Tool includes a Financial Space module for projecting the expected financial envelope under different country defined projections, as well as a Core Results module that brings together all the calculations into a set of summary results, identifying both quantities of inputs planned for, anticipated costs, and likely health impact(s).
+
+What formula algorithms are used?
+=================================
+
+The tool uses an ingredients approach which multiplies Quantities by Prices. Prices and quantities are sometimes aggregated and presented to the user as unit costs. The tool allows for changes in quantities and prices over time (by year). The following algorithms are used in the tool for intervention costing:
+
+• Population in need of intervention = Population (demographic projection) x Proportion (%) of population identified as in need of the intervention (based on prevalence, incidence, or preventive properties of the intervention)
+
+• Population receiving the intervention = Population in need of intervention x Coverage (%) 2
+
+• Intervention cost = Population receiving the intervention x Units of resources needed per case* x Price per unit
+
+• Cost per delivery channel = Population receiving the intervention x Units needed per case* x Price per unit x Delivery Channel (%)
+
+*It should be noted that the units of resources needed per intervention and per case treated are specific to the delivery level. In contrast, the unit prices for inputs are stored centrally within databases. One central database of commodities links to all modules in order to ensure that all references to the same commodity will utilise the same price.
+
+For health systems costing, similar algorithms are used. For example:
+
+Number of nurses = Number of nurses in previous year + recruitment – attrition (1)
+
+Salary cost for nurses per year = Number of nurses x average salary cost per year (2)
+
+Some modules within the tool apply more advanced approaches to support decision making – for example, the Logistics module allows the user to make optimal planning decisions based on current supply chain capacity and budget restrictions.
+
+To what extent are formulae visible to the user?
+================================================
+
+The tool uses a Price x Quantity approach (PxQ), making the calculations easy to follow. However in the interests of a user-friendly interface, formulas themselves are not visible in the software. The user can review the formulas through information available in the accompanying technical documentation and programming source code is available upon request.
+
+How is an increase in intervention coverage handled throughout the tool?
+========================================================================
+
+Any planned increase in intervention coverage is communicated throughout the tool to all relevant modules. At the level of intervention costing, any increase in population coverage is translated into a greater number of recipients of the intervention, and thus into greater quantities of drugs and commodities required, which is adjusted in the total budget for commodities within the plan.
+
+Furthermore there are direct links to the health system investment modules. For example the increase in commodities is translated into specific requirements for the supply chain where the user can model logistics activities to ensure that commodities are transported to where they are needed, thus impacting costs for logistics. As another example there is a link built in whereby population coverage is translated into the estimated required number of health care visits at all levels, which is then further translated into an estimated number of full time equivalent health care workers that would be required to provide the care, given the skills specification and time required indicated per service provided. This estimate can be used as a check within the human resources planning module, to compare the predicted output of health workers estimated needed, based on a bottom-up approach.
+
+Where necessary or by preference an option is also available for the user to manually enter increases in intervention coverage or through a menu of options.
+
+To what extent does the tool differentiate between costs at different service delivery levels of the system?
+============================================================================================================
+
+The tool distinguishes between different service delivery levels including outreach, community, health centre and hospital level. The cost for providing the same service at different levels will be different, given costs for infrastructure, human resources, equipment, etc. associated with each level. Moreover, the tool includes a function whereby the user can specify the commodities and human resource inputs needed for each 3 intervention, by delivery level. As an example, costs for maternal health services at hospital level may be relatively high and the tool can be used to model different scenarios for shifting maternal health services to lower levels, thus informing policy discussions.
+
+To what extent does the tool take into account economies (or diseconomies) of scale?
+====================================================================================
+
+Economies of scale refer to decreases in average unit costs as the number of outputs increases. This phenomenon applies within the health sector where large fixed costs are spread across the number of patients using health services and higher coverage rates would spread costs over a greater number of people. There may also be increasing average costs as coverage is extended to populations that are hard to reach, and where a higher per-patient investment in both fixed and variable costs may be needed in order to ensure universal coverage of health care.
+
+OneHealth takes into account economies and diseconomies of scale implicitly, since quantities of inputs are defined relative to the population covered. The user can enter assumptions for the programme activities needed to extend services to hard-to-reach populations, including information campaigns, delivery of services via outreach, and financial incentives to generate demand or encourage staff to work among marginalized populations. In essence, OneHealth allows average costs to vary with scale, thus there may be implicit economies of scale as output is increased. However the average cost (fixed and variable) would not be a user input into the tool, rather it could be an output of the tool (for example the average infrastructure cost per average outpatient visit).The tool does not output the average cost per person reached, but a user could calculate this based on total costs and the number of persons reached by intervention, if useful.
+
+To what extent does the tool deal with shared costs and potential double counting?
+==================================================================================
+
+Resources and costs are estimated at the input level to minimize double counting. Shared resources for health systems are estimated within the health systems modules and not in the programme-specific modules, to ensure that resources are planned for by each cost centre. For example in the tool, facilities, logistics, governance and human resources are systems costs only represented once, in the health systems modules. Numerous links are built into the tool to enable the user to ensure that double counting is minimised. For example, the list of surveys planned for M&E by each health programme is summarised and communicated to the module for Health Information Systems (HIS) where they can be reviewed and discussed to inform the HIS plan. Mechanisms within the tool also exist for analysing activities that could be considered cross-cutting and for which integration could be strengthened, such as training programmes that established to deal with multiple conditions rather than single conditions.
+
+How can countries find the cost information that they need to enter?
+====================================================================
+
+The application of OneHealth to inform health sector wide planning by necessity requires substantial data inputs. This is in line with global efforts to help countries develop comprehensive M&E systems that generate data which can be linked to results and from the foundation of evidence-based planning and budgeting. The approach used in OneHealth is ingredients based costing by which the user enters information on quantities and prices, rather than unit costs.
+
+Information on quantities and prices is often more readily available at the country level than unit costs. Where appropriate, OneHealth is also equipped with default values for both quantities and prices, with the former are based on technical programme standards for service provision and health system strengthening. Price defaults are made available from UN statistical databases, to the extent possible as country-specific 4 prices. Defaults for drug prices are incorporated based on UNICEF supply prices and the MSH drug price catalogue.
+
+In practice, users of the tool will want to consult the appropriate country specific resources in order to have accurate inputs for system inputs such as the costs of facilities, transportation and other equipment
+
+How does the tool help to ensure that the user fills in data in all relevant sections?
+======================================================================================
+
+The tool applies a logical framework in each section, guiding the user through a process of baseline data entry, situation analysis, strategic planning through various policy options, and viewing the anticipated costs and results. It is expected that the use of a logical framework will minimize the risk of the user unintentionally skipping relevant sections. In addition there is an overall dashboard which indicates to the user which modules have been filled in, and which modules yet to be completed.
+
+How will default data be updated?
+=================================
+
+The IAWG-Costing will create mechanisms to ensure regular updates of price defaults as well as standard treatment regimens, demographic projections, epidemiological data, etc.. At a minimum this will be done on an annual basis, and users will find information on the latest updates through OneHealth communications, including websites. Mechanisms for updates include negotiations with external data suppliers such as the Management Sciences for Health (MSH) regarding an annual update to the OneHealth commodity price database based on the most recent MSH drug price catalogue.
+
+How is health impact calculated?
+================================
+
+Health impact is estimated through impact models directly linked to the targets and strategies identified by the user within the tool. Three sub-models within OneHealth that draw upon UN epidemiological reference group models, a recognized gold standard, are fully incorporated as part of the OneHealth software:
+
+- The Lives Saved Tool (LiST)1 estimates impact for a range of child and maternal health interventions, including malaria interventions.
+
+- The AIDS Impact Model (AIM) model projects health impact for HIV/AIDS interventions
+
+- The Family Planning (FamPlan) model computes the relationship between family planning and total fertility rate. The output is then communicated to the population projection parts of the tool.
+
+- A newly developed tuberculosis (TB) model projects impact on TB health targets.
+
+Additional work is planned in the future to support further development of impact models where feasible, for example for Non-Communicable diseases and Malaria in adults.
+
+Health outcome is measured as the number of health problems averted or a reduction in morbidity. For example, the number of pneumonia deaths averted in children under-5 years is the number of deaths in the case of constant coverage minus the number of deaths in a situation with increased intervention coverage.
+
+Can the user attribute health impact to specific health programmes or interventions?
+====================================================================================
+
+With regards to health impact in terms of lives saved, the results are communicated for the entire plan and not per programme or for specific interventions. Given the considerable interaction between different interventions and risk factors in the population it is important to show health impact as an aggregate, in order to take interactions into account and to avoid double counting. If a user would want to show the impact for one specific programme only, s/he would need to run the analysis only with the selected interventions and interpret the results with caution.
+
+How does the tool estimate impact for health interventions and for systems activities?
+======================================================================================
+
+In addition to direct health impact (mortality, morbidity), there are also other effect options built into the tool, such as the impact of retention incentives on reducing health worker attrition. Currently the tool does not include defaults of estimated effectiveness for many of these health system interventions, but work is ongoing to undertake systematic reviews to collect data on the effectiveness of such activities. The user is able to enter his/her own assumptions for impact, and whenever defaults are provided, the user is encouraged to adjust these if there is local data available which is more appropriate.
+
+Can the tool be used to support disease-specific programme planning?
+====================================================================
+
+Yes. The tool uses a systemic modular approach. The user can establish and define national disease control programmes to match the country context, and then estimate the cost for a specific programme, including an analysis of broader health system implications. The format for programme planning is streamlined such that a consistent approach is used across programmes. It is however encouraged that a programme plan looks at the broader health system constraints that may affect the delivery of the key interventions. The OneHealth Tool enables disease-specific programme plans to be able to easily see the broader planning process that incorporates the entire health system. The tool can be used to facilitate a discussion on resource allocation and priority setting both between and within programmes.
+
+To what extent does the tool include defaults for disease-specific programme activities?
+========================================================================================
+
+Programme activities are planned to support interventions scale-up. This includes activities related to monitoring and supervision, programme-specific in-service training courses to build skills of health workers, programme planning and updating of guidelines. Many of these activities can be considered relatively standardized, for example the type of equipment required to deliver TB services, and the recommended training courses to ensure that health workers have the skills necessary to deliver high quality interventions.
+
+In order to simplify data entry, OneHealth includes default information on programmatic activities where these are standardized. This includes, where available, details on specific in-service training courses, and standard surveys that may be implemented for M&E of each programme. The intention is to provide default information, in order to reduce the data entry load on the user and to provide a check list of activities. The default assumptions for programme activities are based on expert opinion of the appropriate technical departments as to what kind of activities would need to be planned for within a national programme planning framework. It should be noted that the user must actively choose each activity and set a specific target in order for that activity to be included in the plan with an associated cost. The user guide makes it clear that these are to be treated as suggested activities for consideration, and not an absolute requirement for scaling-up.
+
+The advantage of using defaults is that users can apply defaults, reviewing and changing values as needed. It also helps to facilitate understanding of how the tool works, and what kind of data should be entered into each section. The disadvantage is that users may be encouraged to select as many of the default activities as possible without considering true programme needs.
+
+In general, the user is encouraged to review the defaults that are used the tool so as to ensure that the assumptions are accurate for their application.
+
+How does OneHealth support integrated planning?
+===============================================
+
+See above under the section on Scope and integration. Mechanisms are built into the tool to allow for analysis of cross-cutting activities and for which integration could be strengthened, such as training programmes that established to deal with multiple conditions rather than single conditions.
+
+What is the envisioned process of tool application?
+===================================================
+
+The order of data entry is flexible. Once the tool has been set up, the recommendation is however that the health systems modules for Human Resources for Health ( HRH) and Infrastructure are filled in first, to provide a basis for projecting the health system's capacity to deliver services over the coming years. Next, the service and intervention planning can be done (by disease-specific programme or by health service levels). The scale-up of interventions will affect the Logistics and Supply chain planning for medicines and commodities. Planning will be iterative, and several cycles of adjustments are likely needed.
+
+Financial space may be estimated prior to costing or following the first round of costing and then compared with the cost estimates produced with the tool. In the process of a Medium Term Expenditure Framework (MTEF) , the financial ceiling may have already been set and planning within each module (health systems, services) should then be done within the anticipated resource envelope.
+
+How does OneHealth link to the Joint Assessment of National Strategies (JANS)?
+==============================================================================
+
+Joint assessment is a shared approach to evaluating the strengths and weaknesses of a national strategy. It includes an examination of the strengths and weaknesses of generic attributes that are considered to be the foundation of a 'good' national strategy.2 OneHealth primarily responds to the first key attribute of the JANS criteria, namely to ensure that the strategies outlined within the plan are based on a rigorous situation analysis. Moreover the software facilitates an assessment of priority health needs where planning is driven by explicit analysis of the current health system and what can realistically be achieved in the medium term. OneHealth facilitates a comprehensive budget/costing of the program areas covered by the national strategy, and allows for analysis related to issues of equity and access.
+
+To what extent can OneHealth be used in countries where there is decentralized planning?
+========================================================================================
+
+The tool has a function whereby projections can be created for subnational planning and later combined to form the basis for an overall national health plan. This of course requires input data to be available at this sub-national level.
+
+How can costs be assessed for the private / non-state sector?
+=============================================================
+
+The tool is primarily developed for estimating budget for public sector activities but may also be used to take into account considerations of planning for activities carried out within the private sector. This includes service delivery by private providers, working in public-private sector partnership, training and accreditation, and monitoring the quality of care provided. Moreover the financial projections take into account health sector financing from private sector sources, including households.
+
+Can the tool be used for equity-sensitive planning, for example targeting specific interventions to specific sub-groups within the population?
+==============================================================================================================================================
+
+The tool has a function whereby multiple projections can be developed and viewed side by side. In this manner a separate projection can be created for each sub-group. Different strategies can be developed and costed for different demographic groups, for example low-income quintile vs. other quintiles, and the outputs can later be combined to inform one national health plan. This would however require data to be available and inputted for the different population subgroups. Activities and targets can be specified within each projection.3
+
+How can OneHealth support an MTEF or a SWAp?
+============================================
+
+A Medium Term Expenditure Framework (MTEF) is a multi-year public expenditure planning exercise that is used to set out future budget requirements for planned services and strategic activities, and to analyse these within the likely resource envelope available according to the finance department expenditure ceilings. While the MTEF is often multi-sectoral, there is also a need to plan within the resource envelope specific to health. A sector-wide approach (SWAp) is a process whereby all significant government and donor funding for the sector is aligned to support a single sector policy and expenditure programme.
+
+OneHealth can support MTEF and SWAp processes through facilitating the alignment with desired characteristics such as:
+
+- Costs estimated based on a bottom-up, evidence based approach
+
+- Revenue flows, including aid flows, estimated over time based on realistic targets.
+
+- Future implications of policy decisions are modeled and their affordability considered
+
+- The basis for MTEF costs and revenue projections is transparent, thus line departments need to plan activities explicitly and their implementation can also be monitored over time.
+
+- The national health strategy is evidence based and inputs can be compared with costs, outputs and health outcomes facilitating a priority setting process. This should facilitate buy-in from external donors.
+
+How does the tool support informed priority setting?
+====================================================
+
+The tool enables priority setting in several ways.
+
+First, the tool includes a function for performing bottleneck analysis. The function of the bottleneck analysis is to identify strategies that would facilitate scaling up the interventions. This is done by using indicators to indicate system and programme performance for different levels of access. The approach is done using six coverage indicators:
+
+– availability of essential commodities,
+
+– availability of human resources,
+
+– physical accessibility,
+
+– initial utilization,
+
+– timely continuous utilization, and
+
+– effective quality coverage of services.
+
+Note that it is the last level - the effective quality coverage of services - that can be directly linked to the final coverage, and thus the health impact modeling.
+
+Second, costs are compared with the financial resources available, which compel the users to consider their financial limitations and plan realistically. Third, the tool is designed to illustrate health system implications of scaling up intervention delivery, and to show the capital investment gap. The fact that the tool highlights to the user where intervention scale-up would be difficult given a weak health system helps place emphasis on the need to strengthen systems for sustainable long term planning, informing choices. Fourth, policy levers within modules can be adjusted and the user can observe the effects on targets (both system and health impact targets). Fifth, multiple projections can be launched and viewed side by side, varying certain parameters and observing how costs and outputs change.
+
+What will happen to existing tools when OneHealth is rolled out?
+================================================================
+
+The OneHealth tool was developed responding to country requests for a single tool which reflects the best aspects of the various tools in existence but which strengthens integrated planning. While the goal of the IAWG-Costing is that OneHealth will demonstrate significant added value, acknowledging that the choice of which tool to use remains the decision of a country based on their needs and preferences. Additionally some existing tools could be modified to serve as complementary tools to OneHealth; for example where appropriate they can serve to calculate costs that would then be used as inputs in OneHealth. Existing tools could also be reformatted into data collection tools for OneHealth.
+
+Does the planning for medical equipment include operating costs?
+================================================================
+
+Yes, both capital and operating costs are included.
+
+Are costs shown in current or constant prices?
+==============================================
+
+The tool currently estimates costs in constant prices but a function to adjust for inflation will be programmed into the tool as an option.
+
+What processes are in place to ensure that assumptions and modelling metrics for impact assessment is agreed upon though expert group consultation?
+===================================================================================================================================================
+
+Existing models for health impact as developed and supported by the UN epidemiological reference groups, are integrated into the tool. These models are reviewed by expert groups on a regular basis, and updates on their modeling parameters are regularly published in peer review articles.4
+
+For other components of the tool, such as Logistics, HRH and health financing policy, expert groups have been created specifically to provide technical guidance on the development of individual modules within OneHealth. This includes experts from participating UN agencies as well as external resource persons with specific expertise in discussion given area. To date expert groups include the following: Governance; HIS, HRH, Logistics, Infrastructure (health technologies), Private sector; Equity and Gender, Health Financing Policy, as well as a number of disease-programme planning specific discussion groups. Composition of (mednet) expert groups to date has been formed through suggestions made by participating IAWG members. All IAWG agencies are encouraged to continue to nominate experts for the discussion groups, to ensure that there is broad representation, including country experts and CSOs.
+
+Frameworks for health system planning and impact modeling will evolve over time. IAWG-Costing will institute mechanisms to support regular technical meetings which will discuss updates to OneHealth. At a minimum this will be done on an annual basis.
+
+Has the Tool Been Tested?
+=========================
+
+Individual components of OneHealth have been tested in their previous formats as individual tools. This includes the pre-existing widely applied impact modules, e.g., LiSTand FamPlan, as well as components and logic of planning and costing tools such as the RH costing tool, MBB, etc., which have been subject to considerable review, testing and documentation. Moreover, independent experts have been invited to peer review the newly developed modules such as the TB impact module; and the HRH module.
+
+Testing of the full OneHealth tool prior to its application in countries includes desk reviews undertaken by country health planners. A first desk review was performed for Burkina Faso between May-August 2011. This desk review included three objectives. First, it entailed testing the functionality of the software and obtaining feedback from country planners on the format of the tool including the logic of organization, ease of navigation, and usefulness of default data provided. Second, the review examined content of the current version to assess to what extent it captures elements of existing country health plans. Third, an assessment of the added value of OneHealth compared to other tools that were used for costing the national health plans was conducted. Two additional desk reviews are ongoing using data from DRC and Lao PDR and will be completed in early 2012.
+
+Can the tool be used on any operating system?
+=============================================
+
+This tool is a Windows-based program. Work is ongoing to ensure compatibility with Macintosh.
+
+How can the tool be incorporated with Excel-based programs?
+===========================================================
+
+The tool is designed to allow for easy outputting of information from the OneHealth Tool to Excel and Excel information may be copy/pasted into the OneHealth Tool.

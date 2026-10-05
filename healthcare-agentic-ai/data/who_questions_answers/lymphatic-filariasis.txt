@@ -1,0 +1,61 @@
+WHO QUESTIONS AND ANSWERS
+Title: Lymphatic filariasis
+URL: https://www.who.int/news-room/questions-and-answers/item/lymphatic-filariasis
+Retrieved: 2026-10-05T09:47:23.659318+00:00
+
+========================================
+
+Lymphatic filariasis is a parasitic disease caused by three species of microscopic, thread-like worms. The adult worms only live in the human lymph system. The lymph system maintains the body's fluid balance and fights infections.
+
+What is lymphatic filariasis?
+=============================
+
+Lymphatic filariasis, commonly known as elephantiasis, is a painful and profoundly disfiguring parasitic disease. In communities where the parasite is transmitted, all ages are affected. While the infection may be acquired during childhood its visible manifestations may occur later in life, causing temporary or permanent disability. In endemic countries, lymphatic filariasis has a major social and economic impact.
+
+What causes lymphatic filariasis?
+=================================
+
+The disease is caused by three species of thread-like nematode worms, known as filariae – Wuchereria bancrofti (responsible of 90% of the cases), Brugia malayi and Brugia timori. Male worms are about 3–4 centimetres in length, and female worms 8–10 centimetres. The male and female worms together form “nests” in the human lymphatic system, the network of nodes and vessels that maintain the delicate fluid balance between blood and body tissues. The lymphatic system is an essential component of the body’s immune system.
+
+How is the parasite transmitted?
+================================
+
+Adult male and female worms lodge in the lymphatics. Fecund females release larvae (microfilaria) which periodically circulate in the blood. Microfilaria circulating in the blood can be ingested by feeding mosquito vectors. Microfilaria must mature in the vector before becoming infective. The mosquitoes can then spread infective larvae to new hosts when feeding.
+
+The major vectors of W. bancrofti are mosquitoes of the genus Culex (in urban and semi-urban areas), Anopheles (in rural areas of Africa and elsewhere) and Aedes (in islands of the Pacific).
+
+Where is lymphatic filariasis most commonly found?
+==================================================
+
+An estimated 120 million people in tropical and subtropical areas of the world are infected with lymphatic filariasis. Of the total population requiring preventative chemotherapy to interrupt the transmission cycle, 57% live in the South-East Asia Region (9 countries) and 37% live in the African Region (35 countries).
+
+What are the signs and symptoms of lymphatic filariasis?
+========================================================
+
+Filarial infection can cause a variety of clinical manifestations, including lymphoedema of the limbs, genital disease (hydrocele, chylocele, and swelling of the scrotum and penis) and recurrent acute attacks, which are extremely painful and are accompanied by fever. The vast majority of infected people are asymptomatic, but virtually all of them have subclinical lymphatic damage and as many as 40% have kidney damage, with proteinuria and haematuria.
+
+How is lymphatic filariasis diagnosed?
+======================================
+
+There are two methods to diagnose the disease. One can either detect the presence of circulating microfilariae in the blood by examining thick smears (20–60 μl) of finger-prick blood. Blood must be collected at a specific time – either at night or during the day – depending on the periodicity of the microfilariae.
+
+The second possibility is to detect Wuchereria bancrofti (the parasite) antigen in human blood samples using the rapid diagnostic test Alere Filariasis Test Strip.
+
+Can lymphatic filariasis be cured?
+==================================
+
+All people with filariasis who have microfilaraemia or a positive antigen test should receive antifilarial drug treatment to eliminate microfilariae. Unfortunately, the medicines available have limited effect on adult worms. Treatment also requires managing morbidity and preventing disabilities for affected people.
+
+Can lymphatic filariasis be prevented?
+======================================
+
+Avoidance of mosquito bites through personal protection measures or community-level vector control and participation in MDA (Mass Drug Administration) at the community level is the best option to prevent lymphatic filariasis.
+
+The primary goal of treating affected communities is to eliminate microfilariae from the blood of infected individuals in order to interrupt transmission of infection by mosquitoes. Studies have shown that > 5 years of MDA with preventive chemotherapy reduces microfilariae from the bloodstream and prevents the spread of microfilariae to mosquitoes.
+
+What is the difference between lymphatic filariasis and podoconiosis?
+=====================================================================
+
+Podoconiosis is a type of tropical lymphoedema clinically distinguished from lymphatic filariasis through being ascending and commonly bilateral but asymmetric. Evidence suggests that podoconiosis is the result of a genetically determined abnormal inflammatory reaction to mineral particles in irritant red clay soils derived from volcanic deposits. It is a non-parasitic disease.
+
+It is mostly found in highland areas of tropical Africa, Central America and north-west India. Like lymphatic filariasis, podoconiosis results in impairments due to lymphoedema. As is the case for lymphatic filariasis, a basic package of care can alleviate suffering and prevent further progression of disease and disability.

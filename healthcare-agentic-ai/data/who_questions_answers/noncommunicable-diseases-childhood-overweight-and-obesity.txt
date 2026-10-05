@@ -1,0 +1,111 @@
+WHO QUESTIONS AND ANSWERS
+Title: Noncommunicable diseases: Childhood overweight and obesity
+URL: https://www.who.int/news-room/questions-and-answers/item/noncommunicable-diseases-childhood-overweight-and-obesity
+Retrieved: 2026-10-05T09:47:59.557715+00:00
+
+========================================
+
+The prevalence of overweight and obesity in children under five years old is defined according to the WHO growth reference 2006 (overweight = or > than 2 standard deviation of weight-for-height by sex, and obese = or > 3 standard deviations of weight-for-height by sex). The prevalence of overweight and obesity in adolescents is defined according to the WHO growth reference for school-aged children and adolescents (overweight > +1 standard deviation body mass index for age and sex, and obese + > +2 standard deviations body mass index for age and sex).
+
+What is overweight and obesity?
+===============================
+
+Overweight and obesity are defined as ''abnormal or excessive fat accumulation that presents a risk to health''.
+
+Childhood obesity is one of the most serious public health challenges of the 21st century. The problem is global and is steadily affecting many low- and middle-income countries, particularly in urban settings. The prevalence has increased at an alarming rate. Globally in 2024, the number of overweight children under the age of 5 years is estimated to have been over 35 million. Almost half of all overweight children under 5 lived in Asia and one quarter lived in Africa. Overweight and obese children are likely to stay obese into adulthood and more likely to develop noncommunicable diseases like diabetes and cardiovascular diseases at a younger age. Overweight and obesity, as well as their related diseases, are largely preventable. Prevention of childhood obesity therefore needs high priority.
+
+How are overweight and obesity measured in children?
+====================================================
+
+The most commonly used measure for overweight and obesity is weight-for-height in children under 5 years old.
+
+The Body Mass Index (BMI) is a simple index to classify overweight and obesity in school-age children, adolescents and adults. It is defined as the weight in kilograms divided by the square of the height in meters (kg/m2).
+
+The BMI provides the most useful population-level measure of overweight and obesity, as it is the same for both sexes and for all ages of adults. However, it should be considered as a rough guide because it may not correspond to the same body fat percentage in different individuals.
+
+It is difficult to develop one simple index for the measurement of overweight and obesity in children and adolescents because their bodies undergo a number of physiological changes as they grow. Depending on the age, different methods to measure a body's healthy weight are available:
+
+For children aged 0–5 years
+
+The WHO Child Growth Standards, launched in April 2006, include measures for overweight and obesity for infants and young children up to age 5 years.
+
+- The WHO Child Growth Standards
+
+- WHO Global Database on Child Growth and Malnutrition, 0-5 years.
+
+For individuals aged 5–19 years
+
+WHO developed the Growth Reference Data for 5–19 years. It is a reconstruction of the 1977 National Center for Health Statistics (NCHS)/WHO reference and uses the original NCHS data set supplemented with data from the WHO child growth standards sample for young children up to age 5.
+
+- Growth reference data for 5-19 years
+
+- Global school-based student health survey (GSHS)
+
+Why does childhood overweight and obesity matter?
+=================================================
+
+Childhood obesity is associated with a higher chance of premature death and disability in adulthood. Overweight and obese children are more likely to stay obese into adulthood and to develop noncommunicable diseases (NCDs) like diabetes and cardiovascular diseases at a younger age. For most NCDs resulting from obesity, the risks depend partly on the age of onset and on the duration of obesity. Obese children and adolescents suffer from both short-term and long-term health consequences.
+
+The most significant health consequences of childhood overweight and obesity, which often do not become apparent until adulthood, include:
+
+- cardiovascular diseases (mainly heart disease and stroke)
+
+- diabetes
+
+- musculoskeletal disorders, especially osteoarthritis
+
+- certain types of cancer (endometrial, breast and colon).
+
+In 2021, higher-than-optimal BMI caused an estimated 3.7 million deaths from noncommunicable diseases (NCDs) such as cardiovascular diseases, diabetes, cancers, neurological disorders, chronic respiratory diseases, and digestive disorders (1).
+
+What is the double burden of malnutrition?
+==========================================
+
+Many low- and middle-income countries are now facing the so-called double burden of disease. As they continue to struggle with the problems of infectious diseases and under-nutrition, at the same time they are experiencing a rapid increase in risk factors of NCDs such as obesity and overweight, particularly in urban settings.
+
+It is not uncommon to find under-nutrition and obesity existing side by side within the same country, the same community or even within the same household in these settings.
+
+This double burden is caused by inadequate prenatal, infant and child nutrition, which is then followed by exposure to high fat, energy dense, micronutrient poor foods and a lack of physical activity as the child grows older.
+
+What are the causes of childhood overweight and obesity?
+========================================================
+
+The fundamental cause of childhood overweight and obesity is an energy imbalance between calories consumed and calories expended.
+
+Global increases in childhood overweight and obesity are attributable to several factors. First, there has been a global shift in diet towards increased intake of energy-dense foods that are high in fat and sugars but low in vitamins, minerals and other healthy micronutrients. There is also a trend towards decreased physical activity levels due to the increasingly sedentary nature of many forms of recreation time, changing modes of transportation and increasing urbanization.
+
+WHO recognizes that the increasing prevalence of childhood obesity results from changes in society. Childhood obesity is mainly associated with unhealthy eating and low levels of physical activity, but the problem is linked not only to children's behaviour but also, increasingly, to social and economic development and policies in the areas of agriculture, transport, urban planning, the environment, food processing, distribution and marketing, as well as education.
+
+The problem is societal and therefore it demands a population-based multisectoral, multidisciplinary and culturally relevant approach.
+
+Unlike most adults, children and adolescents cannot choose the environment in which they live or the food they eat. They also have a limited ability to understand the long-term consequences of their behaviour. They therefore require special attention when fighting the obesity epidemic.
+
+What can be done to fight the childhood obesity epidemic?
+=========================================================
+
+Overweight and obesity, as well as related noncommunicable diseases, are largely preventable. It is recognized that prevention is the most feasible option for curbing the childhood obesity epidemic since current treatment practices are largely aimed at bringing the problem under control rather than effecting a cure. The goal in fighting the childhood obesity epidemic is to achieve an energy balance which can be maintained throughout the individual's life span.
+
+WHO recommends the following to reduce and prevent childhood overweight and obesity:
+
+- limit portion sizes;
+
+- increase consumption of fruit and vegetables, as well as legumes, whole grains and nuts;
+
+- limit energy intake from total fats and shift fat consumption away from saturated fats to unsaturated fats;
+
+- limit the intake of sugars; and
+
+- be physically active and accumulate at least 60 minutes of regular, moderate- to vigorous-intensity activity each day that is developmentally appropriate.
+
+What needs to be done at the societal level?
+============================================
+
+Curbing the childhood obesity epidemic requires sustained political commitment and the collaboration of many public and private stakeholders.
+
+Governments, international partners, civil society, NGOs and the private sector have vital roles to play in shaping healthy environments and making healthier diet options for children and adolescents affordable, and easily accessible. It is therefore WHO's objective to mobilize these partners and engage them in implementing the Global strategy on diet, physical activity and health.
+
+WHO supports the designation, implementation, monitoring and leadership of actions. A multisectoral approach is essential for sustained progress; the Organization mobilizes the combined energy, resources and expertise of all global stakeholders involved.
+
+References
+
+1. GBD 2021 Risk Factor Collaborators. “Global Burden of 88 Risk Factors in 204 Countries and Territories, 1990–2021: a systematic analysis for the Global Burden of Disease study 2021”. Lancet. 2024; 403:2162-2203.

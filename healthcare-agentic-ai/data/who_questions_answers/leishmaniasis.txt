@@ -1,0 +1,99 @@
+WHO QUESTIONS AND ANSWERS
+Title: Leishmaniasis
+URL: https://www.who.int/news-room/questions-and-answers/item/leishmaniasis
+Retrieved: 2026-10-05T09:47:20.183403+00:00
+
+========================================
+
+Leishmaniasis is caused by the protozoan Leishmania parasites which are transmitted by the bite of infected female phlebotomine sandflies. There are 3 main forms of leishmaniases – visceral (also known as kala-azar, which is and the most serious form of the disease), cutaneous (the most common), and mucocutaneous.
+
+What is leishmaniasis?
+======================
+
+Leishmaniasis is a disease caused by any species of Leishmania parasite. It is transmitted by the bite of an infected female sandfly. In most cases, a person who is infected by the parasite has neither symptoms nor signs of infection and is not considered to have leishmaniasis. Although there are some 20 different parasites that cause the disease, there are only three different types of leishmaniasis.
+
+The most common type (CL) causes skin lesions, mainly nodules or painless ulcers. The second type (VL, also known as kala-azar) is a life-threatening disease that causes anaemia (deficiency in the number or quality of red blood cells), fever, enlarged liver, enlarged spleen and significant weight loss. VL is invariably fatal if left untreated. The third type (MCL, or mucosal leishmaniasis alone) destroys the mucous membranes of the nose, mouth and throat cavities and surrounding tissues.
+
+How are Leishmania parasites transmitted?
+=========================================
+
+Leishmania parasites are transmitted by the bite of a tiny –2–3 mm long – female insect vector, the phlebotomine sandfly. There are some 800 known phlebotomine species, but only about 30 have been found to transmit Leishmania parasites. Only female sandflies can transmit the parasites; they need blood for their eggs to develop and become infected with Leishmania when they suck blood from an infected person or animal. Over a period of 4–25 days, the parasites develop in the sandfly. When the infectious female sandfly then feeds on a fresh source of blood, it inoculates the person or animal with the parasite, and the transmission cycle is completed.
+
+Phlebotomine sandflies are found throughout the intertropical and temperate regions of the world. The female sandfly lays its eggs in the burrows of certain rodents, the bark of old trees, ruins, cracks in the walls of houses, animal shelters and household rubbish, where the larvae can find the organic matter, heat and humidity they need to develop. In its search for blood (usually in the evening and at night), the female sandfly can cover a distance of up to several hundred metres around its habitat.
+
+Why is leishmaniasis important?
+===============================
+
+The different types of leishmaniasis last months or years, causing stigmatization, stress, mutilation, weakness, prostration or eventual death if treatment is not available, depending on the causative parasite and the underlying condition of the patient. Since the disease can start as a mild, slowly progressing condition, it may take a long time before patients seek medical care or before they are diagnosed by a health practitioner who may not be familiar with the disease or where there are no appropriate health services close to where patients reside.
+
+Leishmaniasis is closely linked to poverty. Factors that increase the risk of infection include poor housing conditions and environmental sanitation, lack of personal protective measures, and economically driven migration and employment that bring nonimmune people into contact with infected sandflies. Poverty is associated with poor nutrition and other infectious diseases, which increase the risk of an infected person progressing to clinical manifestations of the disease.
+
+Diagnosis and treatment of leishmaniasis are expensive when they are not offered free of charge in the public sector. Consequently, families must sell their assets and take loans to pay for care, leading to further impoverishment and reinforcing the vicious cycle of disease and poverty. Public investment in leishmaniasis would decrease the burden of the disease and alleviate poverty.
+
+How long does it take for leishmaniasis to develop after being infected?
+========================================================================
+
+For VL, the incubation period (i.e. the duration between infection and the first symptom or sign) is generally 2–6 months, but it can be longer or shorter in people with compromised immune systems who visit endemic areas.
+
+For CL, the incubation period between the bite of an infected sandfly and the development of lesions may range from 2 weeks to 6 months.
+
+For PKDL, it usually appear 6 months to 1 or more years after apparent cure of VL, but it may occur earlier or concurrently with VL in certain settings.
+
+What are the signs and symptoms of visceral leishmaniasis (VL) and PKDL?
+========================================================================
+
+VL, or kala-azar, is the most severe form of leishmaniasis. The main signs are prolonged irregular bouts of fever, enlarged spleen and/or loss of weight. Other signs and symptoms include anaemia, enlarged liver, cough, diarrhoea and enlarged lymph nodes. These signs and symptoms, alone or in combination, lack specificity and mimic those of malaria, malnutrition, typhoid, tuberculosis, schistosomiasis and other systemic diseases. Signs of malnutrition manifest with the progression of disease, with intercurrent[1] infections. In areas co‐endemic for malaria, kala-azar should be suspected when fever lasts for 2 weeks or longer and no response has been observed with antimalarial medicines (assuming that drug‐resistant malaria has been ruled out).
+
+PKDL is characterized by patchy and raised hypopigmented rashes. It mainly occurs in areas endemic for L. donovani in East Africa and South Asia. Late manifestations are plaques, papules or nodular and infiltrative lesions, especially on the face. Most PKDL cases occur in patients previously treated for VL. The macules are often confused with vitiligo or leprosy.
+
+[1] Infection that occurs during, and modifies the course of, another disease.
+
+What are the signs and symptoms of cutaneous and mucocutaneous leishmaniasis?
+=============================================================================
+
+CL is the most common form of leishmaniasis. The clinical spectrum is very broad and varies between and within endemic regions and depends upon several factors including parasite species or immunological status or type of zoonotic cycle involved. Classically, a typical lesion starts as a papule or nodule at the site of inoculation of the bite of the infected sandfly that grows slowly to develop a painless ulcer with surrounding induration. Lesions may not heal and require specific treatment, or spontaneously heal gradually over months or years, often resulting in a disfiguring scar with altered pigmentation. Lesions lack specificity and closely resemble many skin conditions such as cutaneous tuberculosis, fungal infection, impetigo, leprosy, psoriasis, tropical ulcer, venous leg ulcers, verruca or zona.
+
+MCL lesions can lead to partial or total destruction of the mucous membranes of the nose, mouth and throat cavities and surrounding tissues. Some patients have mucosal lesions without cutaneous involvement.
+
+How is leishmaniasis diagnosed?
+===============================
+
+The different forms of leishmaniasis can be diagnosed by various methods depending upon the type of health facility and the health care setting. These methods include serological tests or microscopic demonstration of parasites, culture or PCR (polymerase chain reaction). Parasite identification remains the gold standard of diagnosis.
+
+In areas endemic for VL, the disease can be diagnosed at primary health care level or in rural district hospitals using the rK39-based rapid diagnostic test, which produces results in less than 30 minutes.
+
+For PKDL, diagnosis is generally clinical and can be confirmed by skin smears or skin biopsies.
+
+CL is usually diagnosed clinically in highly endemic areas where only one type of infection exists. It is mandatory to obtain a parasitological confirmation of the diagnosis before engaging in a systemic, potentially highly toxic antileishmanial treatment. The same procedure is recommended before engaging in a local treatment.
+
+What is the treatment against leishmaniasis?
+============================================
+
+The various clinical forms of leishmaniasis are either life‐threatening (if untreated) or disfiguring in a proportion of patients. Therefore, confirmation of disease is important before initiating treatment. Several factors determine the choice of therapy, such as clinical form of leishmaniasis, parasite species, endemic region, health service setting, drug policy in endemic countries, availability of antileishmanial medicines, other morbid conditions and individual benefit–risk ratio of medicines. In certain cases, supportive treatment such as nutritional supplementation or rehydration blood transfusion may be required before starting therapy. Wherever possible, cases should be managed under medical supervision.
+
+VL is a life-threatening condition, and the aim of the treatment is to cure the patient, reduce the risk of relapse and reduce transmission of resistant parasites. Similarly, for CL, therapeutic interventions include a range of options such as topical, systemic and nonpharmacological treatments.
+
+Why are the number of cases reported lower than the number of cases estimated?
+==============================================================================
+
+Underreporting of leishmaniasis varies from country to country and among regions.
+
+Several factors have an impact on the accuracy of official data versus the actual burden of disease. Patients who are affected by minor or mild forms of the disease, such as some types of small self-healing lesions, do not seek medical attention.
+
+In other circumstances, the long distances between the place of residence and the health facility, or the lack of adequate equipment in some health facilities to diagnose or treat the disease, prevent patients from seeking medical attention. Frequently, surveillance systems in many countries are not configured to capture neglected tropical diseases such as leishmaniasis or the system does not perform well.
+
+What can I do to prevent infection?
+===================================
+
+The only way to prevent infection is to avoid being bitten by an infected female sandfly carrying the parasite. Practically, this can be difficult in real field conditions. Although there are a number of measures that could minimize the chances of being bitten, such as sleeping under an impregnated bed net or spraying the walls of houses, not all sandflies have the same resting and biting habits, and these vector behaviours pose a challenge to effective prevention.
+
+Some sandflies are indoors while others are outdoors, and their biting preferences for humans or other mammals affect the chances of being bitten in a given geographical area.
+
+There is no vaccination or preventive medicine against the disease.
+
+What are the control strategies for leishmaniasis?
+==================================================
+
+Control of leishmaniasis depends on several factors, including local epidemiology of disease, geographical areas, transmission habitats, knowledge of parasite and vector species involved, presence or absence of animal reservoirs, ecology of the area, presence of other vector-borne diseases and social contexts, for example population displacement, rapid urbanization and deforestation.
+
+Generally, control strategies include early detection and treatment of cases, control of reservoir hosts, vector control, environmental management and improvement in social determinants of risk factors.

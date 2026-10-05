@@ -1,0 +1,70 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Herd immunity, lockdowns and COVID-19
+URL: https://www.who.int/news-room/questions-and-answers/item/herd-immunity-lockdowns-and-covid-19
+Retrieved: 2026-10-05T09:46:29.392493+00:00
+
+========================================
+
+Updated 31 December 2020
+
+This page is no longer being updated. It remains live for reference purposes only.
+
+What is ‘herd immunity’?
+========================
+
+'Herd immunity', also known as 'population immunity', is the indirect protection from an infectious disease that happens when a population is immune either through vaccination or immunity developed through previous infection. WHO supports achieving 'herd immunity' through vaccination, not by allowing a disease to spread through any segment of the population, as this would result in unnecessary cases and deaths.
+
+Herd immunity against COVID-19 should be achieved by protecting people through vaccination, not by exposing them to the pathogen that causes the disease. Read the Director-General’s 12 October media briefing speech for more detail.
+
+Vaccines train our immune systems to create proteins that fight disease, known as ‘antibodies’, just as would happen when we are exposed to a disease but – crucially – vaccines work without making us sick. Vaccinated people are protected from getting the disease in question and passing on the pathogen, breaking any chains of transmission. Visit our webpage on COVID-19 and vaccines for more detail.
+
+To safely achieve herd immunity against COVID-19, a substantial proportion of a population would need to be vaccinated, lowering the overall amount of virus able to spread in the whole population. One of the aims with working towards herd immunity is to keep vulnerable groups who cannot get vaccinated (e.g. due to health conditions like allergic reactions to the vaccine) safe and protected from the disease. Read our Q&A on vaccines and immunization for more information.
+
+The percentage of people who need to be immune in order to achieve herd immunity varies with each disease. For example, herd immunity against measles requires about 95% of a population to be vaccinated. The remaining 5% will be protected by the fact that measles will not spread among those who are vaccinated. For polio, the threshold is about 80%. The proportion of the population that must be vaccinated against COVID-19 to begin inducing herd immunity is not known. This is an important area of research and will likely vary according to the community, the vaccine, the populations prioritized for vaccination, and other factors.
+
+Achieving herd immunity with safe and effective vaccines makes diseases rarer and saves lives.
+
+Find out more about the science behind herd immunity by watching or reading this interview with WHO’s Chief Scientist, Dr Soumya Swaminathan.
+
+What is WHO’s position on ‘herd immunity’ as a way of fighting COVID-19?
+========================================================================
+
+Attempts to reach ‘herd immunity’ through exposing people to a virus are scientifically problematic and unethical. Letting COVID-19 spread through populations, of any age or health status will lead to unnecessary infections, suffering and death.
+
+The vast majority of people in most countries remain susceptible to this virus. Seroprevalence surveys suggest that in most countries, less than 10% of the population have been infected with COVID-19.
+
+We are still learning about immunity to COVID-19. Most people who are infected with COVID-19 develop an immune response within the first few weeks, but we don’t know how strong or lasting that immune response is, or how it differs for different people. There have also been reports of people infected with COVID-19 for a second time.
+
+Until we better understand COVID-19 immunity, it will not be possible to know how much of a population is immune and how long that immunity last for, let alone make future predictions. These challenges should preclude any plans that try to increase immunity within a population by allowing people to get infected.
+
+Although older people and those with underlying conditions are most at risk of severe disease and death, they are not the only ones at risk.
+
+Finally, while most infected people get mild or moderate forms of COVID-19 and some experience no disease, many become seriously ill and must be admitted into hospital. We are only beginning to understand the long-term health impacts among people who have had COVID-19, including what is being described as ‘Long COVID.’ WHO is working with clinicians and patient groups to better understand the long term effects of COVID-19.
+
+Read the Director-General’s opening remarks at the 12 October COVID-19 briefing for a summary of WHO’s position.
+
+What do we know about immunity from COVID-19?
+=============================================
+
+Most people who are infected with COVID-19 develop an immune response within the first few weeks after infection.
+
+Research is still ongoing into how strong that protection is and how long it lasts. WHO is also looking into whether the strength and length of immune response depends on the type of infection a person has: without symptoms (‘asymptomatic’), mild or severe. Even people without symptoms seem to develop an immune response.
+
+Globally, data from seroprevalence studies suggests that less 10% of those studied have been infected, meaning that the vast majority of the world’s population remains susceptible to this virus.
+
+For other coronaviruses – such as the common cold, SARS-CoV-1 and Middle East Respiratory Syndrome (MERS) – immunity declines over time, as is the case with other diseases. While people infected with the SARS-CoV-2 virus develop antibodies and immunity, we do not yet know how long it lasts.
+
+Watch this conversation with Dr Mike Ryan and Dr Maria Van Kerkhove for more information on immunity.
+
+What is WHO’s position on ‘lockdowns’ as a way of fighting COVID-19?
+====================================================================
+
+Large scale physical distancing measures and movement restrictions, often referred to as ‘lockdowns’, can slow COVID‑19 transmission by limiting contact between people.
+
+However, these measures can have a profound negative impact on individuals, communities, and societies by bringing social and economic life to a near stop. Such measures disproportionately affect disadvantaged groups, including people in poverty, migrants, internally displaced people and refugees, who most often live in overcrowded and under resourced settings, and depend on daily labour for subsistence.
+
+WHO recognizes that at certain points, some countries have had no choice but to issue stay-at-home orders and other measures, to buy time.
+
+Governments must make the most of the extra time granted by ‘lockdown’ measures by doing all they can to build their capacities to detect, isolate, test and care for all cases; trace and quarantine all contacts; engage, empower and enable populations to drive the societal response and more.
+
+WHO is hopeful that countries will use targeted interventions where and when needed, based on the local situation.

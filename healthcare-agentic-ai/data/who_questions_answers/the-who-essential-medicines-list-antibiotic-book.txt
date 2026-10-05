@@ -1,0 +1,200 @@
+WHO QUESTIONS AND ANSWERS
+Title: The WHO Essential Medicines List Antibiotic Book
+URL: https://www.who.int/news-room/questions-and-answers/item/the-who-essential-medicines-list-antibiotic-book
+Retrieved: 2026-10-05T09:50:01.626267+00:00
+
+========================================
+
+What is the EML antibiotic book?
+================================
+
+The EML antibiotic book is a resource to help countries and health care systems implement responsible use of antibiotics recommended by WHO for specific infections and contained in the WHO Model Lists of Essential Medicines. The book provides recommendations on the choice of antibiotics for common infectious diseases These recommendations are complemented by other suggestions on management strategies for infectious diseases, most of which have been derived by ‘expert consensus’ as scientific evidence was limited or absent. However, in some instances, which are specifically highlighted in the book, the guidance in the EML antibiotic book is based on and in full alignment with recommendations in WHO guidelines (e.g. for sexually transmitted infections).
+
+The book will be finalized following feedback from a global public consultation. It is important that as many stakeholders as possible contribute their ‘real world’ input to the public consultation so that the guidance can be as close as possible to realities in different clinical settings.
+
+What kind of information does the EML antibiotic book provide?
+==============================================================
+
+The EML antibiotic book provides information on which antibiotics to use for certain infections but, importantly, also emphasizes when disease management without antibiotics is the best approach. For example, the majority of upper respiratory tract infections, which are mostly viral and/or self-limiting, should not generally be treated with antibiotics. Antibiotics may be necessary in some cases - e.g. signs and symptoms of severe infections, severe immunosuppression, etc. – and the book also outlines these.
+
+How is the empiric use of Reserve antibiotics covered in the EML antibiotic book?
+=================================================================================
+
+The EML antibiotic book has a section dedicated to Reserve antibiotics currently listed in the Model Lists of Essential Medicines. The book describes situations where empiric use of these last-resort antibiotics could be considered in clinical practice – e.g. seriously ill patients known to be colonized by multidrug-resistant organisms and who have not responded to other antibiotics and in whom other causes of treatment failure have been excluded.
+
+How is the EML antibiotic book integrated with other WHO activities?
+====================================================================
+
+The EML antibiotic book integrates closely with other WHO activities and tools to address antimicrobial resistance, such as the Global Antimicrobial Resistance and Use Surveillance System (GLASS), the Priority Pathogens List, the review of clinical and preclinical antibacterial pipelines and the antimicrobial stewardship toolkit; as well as the WHO Model List of Essential In Vitro Diagnostics. All these activities have been taken into account in the development of the EML antibiotic book, and will integrate and influence each other into the future.
+
+In what settings is the EML antibiotic book intended to be used?
+================================================================
+
+The EML antibiotic book is intended for use by clinicians in both the primary care and hospital settings worldwide. It includes 20 chapters in the primary health care section and 17 in the hospital facility section. It is acknowledged that the majority of antibiotic use happens in the community, but hospitals are an ideal place for transmission of resistance, so it is important to improve antibiotic use in both settings. However, for the hospital setting, the book focuses on community-acquired infections. Nosocomial infections are mentioned in the sections covering the use of Reserve antibiotics and may be addressed in more detail in future editions.
+
+The recommendations are equally relevant for physicians and health professionals from low-, middle-, and high-income settings. This handbook can make a greater impact in those care settings where currently no or limited guidance on the management of common infections exist.
+
+What is AWaRe?
+==============
+
+AWaRe (Access, Watch, Reserve) is a classification system of antibiotics developed by WHO in 2017 and updated in 2019 and 2021 aimed at optimizing antibiotic use taking into account what is best for patients in terms of clinical effectiveness and minimal toxicity, while minimizing the risk of developing antimicrobial resistance.
+
+According to this system, antibiotics can fall into one of three groups:
+
+- Access: antibiotics with a narrow spectrum of activity and a lower potential for the development of antimicrobial resistance compared to antibiotics in other AWaRe groups. They are recommended for the empiric treatment of most infections and therefore should be widely available.
+
+- Watch: antibiotics with a higher potential for the development of antimicrobial resistance with very limited recommended indications for empiric use. Their use should be carefully monitored to avoid overuse.
+
+- Reserve: antibiotics that should only be used when antibiotics from the other two classes cannot be used (e.g. due to infections caused by multidrug-resistant pathogens).
+
+All antibiotics listed in the WHO Model Lists of Essential Medicines are classified according to the AWaRe groups but there are many more antibiotics classified as Access, Watch or Reserve that are not included on the Model Lists.
+
+The 2021 AWaRe classification of antibiotics is available here.
+
+What is the additional value of the EML antibiotic book?
+========================================================
+
+The EML antibiotic book can supplement local guidance and help countries reach the target of 60% of antibiotic use coming from the Access group, established in the WHO 13th General Programme of Work (GPW 13) in 2018. The book puts a strong emphasis on symptomatic care for mild infections in otherwise healthy patients and on the use of Access antibiotics compared to other guidelines. It provides evidence-based guidance for the use of first and second-choice antibiotics for many common infections based on the AWaRe framework.
+
+What does the EML antibiotic book add to AWaRe?
+===============================================
+
+The EML antibiotic book is a simple clinical guidance on how to best use antibiotics on the Model Lists of Essential Medicines in children and adults both in primary health care and hospital settings based on the principles of the AWaRe framework in particular by favouring the use of Access antibiotics where appropriate.
+
+Where applicable, the book explicitly mentions the need to consider risk factors for infections caused by multidrug-resistant pathogens especially in very sick patients where an inadequate empiric treatment is most likely to negatively affect cure and survival.
+
+Additionally, GLASS surveillance data are referenced where applicable and situations when local surveillance could be useful to inform empiric treatment are highlighted.
+
+What is the role of Access antibiotics in the management of infections in primary care?
+=======================================================================================
+
+Many infections in primary care can be safely managed without antibiotics, namely most upper respiratory tract infections. Nevertheless, when antibiotics are indicated, Access antibiotics remain “first choice”. Nine out of the ten most common infections in primary care are recommended to be managed with either no antibiotics or Access group antibiotics (the only exception being bacterial dysentery-bloody diarrhoea, where Watch antibiotics are recommended).
+
+How were the infections covered in the EML antibiotic book selected?
+====================================================================
+
+The infections covered in the EML antibiotic book are those addressed in the current Model Lists of Essential Medicines. Antibiotic treatment of these infections has been comprehensively reviewed by the WHO EML antibiotics working group (a group of experts in infectious diseases and microbiology from around the world) and the WHO Expert Committee on Selection and Use of Essential Medicines. The book also includes guidance on the use of the Reserve antibiotics included on the current Model Lists.
+
+What was the choice of antibiotic treatment options for the different infections based on?
+==========================================================================================
+
+The antibiotic book gives guidance on first- and second-choice antibiotics for the empiric treatment of common infections in line with the recommendation in the WHO Model Lists of Essential Medicines. These recommendations are based on a deliberative, structured, evidence-based and transparent development process that included assessments of clinical trials, systematic reviews and meta-analyses, and clinical practice guidelines.
+
+The quality of the evidence for each systematic review and meta-analysis was evaluated based on five factors:
+
+1. Conclusions of the original authors (e.g. including overall quality of the evidence according to the GRADE assessment)
+
+2. Sample size of the studies
+
+3. Number of events
+
+4. Number of studies per outcome
+
+5. Publication year
+
+A rating of high, moderate, low, or very low quality was assigned for each of these five factors.
+
+Clinical practice guidelines were rated using 11 attributes:
+
+1. The overall objective(s) of the guideline is (are) specifically described
+
+2. The health question(s) covered by the guideline is (are) specifically described
+
+3. The population (patients, public, etc.) to whom the guideline is meant to apply is specifically described
+
+4. The guideline development group includes individuals from all the relevant professional groups
+
+5. Systematic methods were used to search for evidence
+
+6. The criteria for selecting the evidence are clearly described
+
+7. The strengths and limitations of the body of evidence are clearly described
+
+8. The methods for formulating the recommendations are clearly described
+
+9. The health benefits, side effects, and risks have been considered in formulating the recommendations
+
+10. There is an explicit link between the recommendations and the supporting evidence
+
+11. The guideline has been externally reviewed by experts prior to its publication
+
+Guidelines with scores of 70% or less were judged to be of low quality, while guidelines with scores of 80% or more were judged to be of high quality.
+
+How were differences in the prevalence of antibiotic resistance among countries taken into account?
+===================================================================================================
+
+The need to consider the local epidemiological context and individual risk factors is clearly highlighted in the book where relevant. However, the book does not give country-specific examples and users should take the local context into account in terms of when the use of an alternative empiric treatment may be preferable.
+
+What was the choice of antibiotic dose and treatment duration based on?
+=======================================================================
+
+Treatment dose and duration are based on non-systematic reviews of the literature and expert opinion within the EML antibiotic working group. Formal assessments of the quality of the evidence were not performed. The dose and duration of treatment should take into account the specific characteristics of the patient, the clinical setting, the situation and the available resources. Wherever possible, short treatment durations are suggested, and the need to adapt treatment based on microbiology result and to switch patients from intravenous to oral treatment is emphasized.
+
+How were differences in the availability of supportive tools (e.g. imaging, diagnostics) taken into account in the development of the EML antibiotic book?
+==========================================================================================================================================================
+
+The EML antibiotic book acknowledges that tests and imaging will differ based on local availabilities. For laboratory tests, the WHO Model List of Essential In Vitro Diagnostics was taken as a reference and only tests included in it are mentioned. For imaging, in general the most widely available and less expensive tests are suggested (e.g. ultrasound, X-ray).
+
+How does the EML antibiotic book help prescribers decide whether their patient needs antibiotics?
+=================================================================================================
+
+The EML antibiotic book presents the most common clinical presentations of a given syndrome, suggests diagnostic tests (based on the WHO Model List of Essential In Vitro Diagnostics) and imaging to better understand whether a bacterial infection is present and whether it is mild or severe. When available, the book also mentions scoring systems. However, it is clear that personal clinical judgement taking into account the circumstances of the individual patient remains key in terms of deciding how the case should be managed.
+
+What should be the role of the EML antibiotic book in relation to existing local or national guidelines?
+========================================================================================================
+
+The EML antibiotic book is a complementary tool to fill potential gaps in existing guidelines. Furthermore, the antibiotic book with its focus on favouring the use of Access antibiotics could be used as a template for updating or adapting local guidelines to help reach the WHO target of 60% Access antibiotic use. Local specificities of the healthcare system, and prevalence of resistance among common pathogens causing infections should always be considered when using the book.
+
+What if there are differences between the EML antibiotic book and existing WHO guidelines?
+==========================================================================================
+
+The EML antibiotic book is closely aligned with existing WHO guidelines (e.g. for sexually transmitted diseases, pneumonia in children and sepsis). If differences exist, these are clearly highlighted and justified in the text (e.g. changing prevalence of multidrug-resistant pathogens requiring different empiric treatment, new evidence from clinical trials of more effective and/or less toxic medicines). As new WHO guidelines may become available on topics covered in the book, these will ideally be incorporated in future updates of the book.
+
+What if a medicine recommended as first choice treatment option is not available in a given country?
+====================================================================================================
+
+Even though all antibiotics recommended in the book are on the WHO Model Lists of Essential Medicines and should therefore be usually available, it is acknowledged that availability may be a problem in some settings or circumstances. In many instances potential first-choice alternatives are highlighted in the book.
+
+How do the treatment recommendations in the EML antibiotic book take into account settings where the prevalence of multidrug-resistant organisms is very high?
+==============================================================================================================================================================
+
+The EML antibiotic book covers empiric antibiotic treatment given when the diagnosis is based on the patient’s history and examination and test results are not yet available and its use in settings with a high prevalence of multidrug-resistant (MDR) organisms could require local adaptation based on local epidemiological data.
+
+Any decision to use antibiotics with broader spectrum (e.g. Watch antibiotics instead of Access antibiotics) should be based on solid data and should be balanced against the risk of further selecting for antibiotic resistance.
+
+To assist in this, the book explicitly mentions (where applicable) the need to consider risk factors for infections caused by multidrug-resistant pathogens especially in very sick patients where an inadequate empiric treatment is most likely to negatively affect cure and survival. Additionally, GLASS surveillance data are referenced where applicable and suggestions on when local surveillance could be useful to inform empiric treatment is given.
+
+Can the EML antibiotic book be adapted to the local setting?
+============================================================
+
+We encourage national and regional stakeholders to adapt the book or sections of it for their local use, taking into account the local microbiology epidemiology. However, despite the reality of differences in the epidemiology of multidrug-resistant (MDR) organisms, there is a strong emphasis in the book in avoiding overtreatment of patients with antibiotics with an unnecessarily broad spectrum of activity especially for mild presentations in otherwise healthy patients with no known risk factors for infections caused by MDR pathogens and this is valid everywhere.
+
+What activities is WHO planning to help implement the use of the EML antibiotic book?
+=====================================================================================
+
+WHO is currently planning the implementation phase and aims to assist countries in making use of the EML antibiotic book. WHO is committed to generating more evidence on how to improve antibiotic prescribing worldwide and will assist investigators in different settings in designing and analyzing studies about the impact of WHO recommendations on changing clinical decisions, reducing antimicrobial resistance, increasing knowledge about appropriate antibiotic appropriate use and enhancing quality of care.
+
+Will the EML antibiotic book be regularly updated in the future?
+================================================================
+
+Yes. The EML antibiotic book will be updated periodically, adding additional chapters and maintaining alignment with updates to the WHO Model Lists of Essential Medicines.
+
+Where and in what formats will the EML antibiotic book be made available?
+=========================================================================
+
+The final version of the EML antibiotic book and infographics will be made available for free on the WHO website as downloadable PDF documents and also as a smartphone app. The infographics are intended to be a succinct resource for healthcare workers making treatment decisions with their patients, while the full book can be a useful resource for those wanting to know more about the various topics. The planned smartphone app which will incorporate the information from the infographics.
+
+Will there be a short summary of the EML antibiotic book?
+=========================================================
+
+The EML antibiotic book is complemented by short summaries in the form of infographics (one for adults and one for children for each infection). These will be available on the WHO website as downloadable PDFs and will also be the basis for the smartphone app.
+
+Will the EML antibiotic book be available in different languages?
+=================================================================
+
+For now, the EML antibiotic book is available only in English. Translation into other official UN languages is planned. National and regional stakeholders are also encouraged to translate the book or sections of it for their local use.
+
+When will the EML antibiotic book be made available?
+====================================================
+
+The final version of the EML antibiotic book will be made available in mid-2022, following the public consultation phase. An official release date will be communicated following the end of the consultation period.

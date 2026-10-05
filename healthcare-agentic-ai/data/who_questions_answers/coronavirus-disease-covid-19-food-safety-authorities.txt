@@ -1,0 +1,50 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Food safety authorities
+URL: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-food-safety-authorities
+Retrieved: 2026-10-05T09:44:21.523692+00:00
+
+========================================
+
+This page is no longer being updated. It remains live for reference purposes only.
+
+How should imported foods from countries with high prevalence of COVID-19 be treated?
+=====================================================================================
+
+As food has not been implicated in the transmission of COVID-19, imported food should be subjected to the same import controls as before the pandemic. See FAO guidance on risk based imported food control.
+
+Do food inspectors need to wear any protective equipment?
+=========================================================
+
+In the course of conducting a food inspection, food inspectors routinely wear protective equipment. There is no need for additional protective equipment to be used. The primary focus of the additional hygiene and sanitation measures implemented by food businesses should be on keeping the COVID-19 out of their businesses. COVID-19 virus will only enter business premises when an infected person enters, or contaminated fomites are brought into the premises. Food safety authorities should consider reducing the frequency of food inspections during this pandemic. If food inspectors continue to carry out food inspections, they will need to demonstrate that they are free from infection, they will need to practice physical distancing while in the food premises, changing clothes/shoes between inspections, washing hands before and after entering the food premises and good coughing/sneezing etiquette.
+
+What do food inspectors need to consider when reopening a food business when the pandemic is over?
+==================================================================================================
+
+Food inspectors do not need to intervene when restaurants reopen after having closed upon the advice of national governments.
+
+What are the lab protocols for identifying the virus in food? On surfaces?
+==========================================================================
+
+As food has not been implicated in the transmission of COVID-19, testing of food or food surfaces for this virus is not recommended. Frequent cleaning of food contact surfaces with virucidal disinfectants such as 0.05% sodium hypochlorite (NaClO) or products based on ethanol (at least 70%) should be carried out. Alcohol-based disinfectants (ethanol, propan-2-ol, propan-1-ol) have been shown to significantly reduce infectivity of enveloped viruses like SARS-CoV-2, in concentrations of 70-80% with one-minute exposure time. Chlorine-based disinfectants (sodium hypochlorite) are effective for surface decontamination, as are disinfectants with active ingredients based on quaternary ammonium compounds (QUATS).
+
+Is quarantine necessary for live animals imported from countries experiencing a large numbers of COVID-19 cases?
+================================================================================================================
+
+No, food animals have not been implicated in the transmission of COVID-19 and the same import controls should apply as before this pandemic. See Q&A from the World Organisation for Animal Health for more about COVID-19 and animals.
+
+How do we ensure the food supply chain remains intact to prevent food shortages?
+================================================================================
+
+While many businesses have introduced working from home and teleworking, these are not options for food workers who are required to continue to work as normal. Keeping all workers in the food production and supply chains healthy and safe is critical to avoid food shortage. Maintaining the movement of food along the food chain is an essential function of all sectors of the food industry and is extremely important for ensuring consumer confidence in the food supply. In order to ensure that the food supply chain remains intact to prevent food shortages there is an urgent requirement for the industry to introduce additional measures to protect food workers from contracting COVID-19; to prevent the risk of exposure to COVID-19, and to strengthen existing food hygiene and sanitation practices.
+
+Recorded webinars:
+
+- 3 April 2020
+
+- 6 April 2020
+
+WHO guidance for food businesses
+
+Questions relating to consumers
+
+Q&A: Sale of live wild mammals in traditional food markets

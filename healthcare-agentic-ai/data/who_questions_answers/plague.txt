@@ -1,0 +1,68 @@
+WHO QUESTIONS AND ANSWERS
+Title: Plague
+URL: https://www.who.int/news-room/questions-and-answers/item/plague
+Retrieved: 2026-10-05T09:48:13.038809+00:00
+
+========================================
+
+What is plague?
+===============
+
+Plague is an infectious disease found in some small mammals and their fleas. People can contract plague if they are bitten by infected fleas and develop the bubonic form of plague. Sometimes bubonic plague progresses to pneumonic plague, when the bacteria reach the lungs. Person-to-person transmission is possible through the inhalation of infected respiratory particles of a person who has pneumonic plague. Plague can be cured with common antibiotics, but treatment must start early because the disease can become severe very quickly.
+
+Fact sheet on plague
+
+What are the types of plague and how do people become infected?
+===============================================================
+
+The main clinical forms of plague are bubonic, pneumonic and septicaemic All forms are treatable, particularly when detected and treated early.
+
+- Bubonic plague is the most common form of plague globally and is caused by the bite of an infected flea. Plague bacillus, Y. pestis, enters at the bite and travels through the lymphatic system to the nearest lymph node where it replicates itself. The lymph node then becomes inflamed, tense and painful, and is called a "bubo". At advanced stages of infection, the inflamed lymph nodes can turn into open sores filled with pus. Human to human transmission of bubonic plague is rare. Bubonic plague can advance and spread to the lungs, causing pneumonic plague, or to the bloodstream, causing septicaemic plague.
+
+- Pneumonic plague – or lung-based plague – is the most virulent form of plague. Symptoms can appear quickly, sometimes within 24 hours after infection. It can spread from person to person through respiratory particles. Without early diagnosis and treatment, pneumonic plague is fatal. However, when detected and treated early, within 24 hours of symptom onset, recovery rates are high.
+
+- Septicaemic plague occurs when Y. pestis multiplies rapidly in the bloodstream. It can develop from any other form of plague. It can lead to severe complications, including organ failure, tissue damage, respiratory distress and bleeding under the skin. Septicaemic plague is fatal if left untreated.
+
+What are the symptoms of plague?
+================================
+
+Bubonic plague symptoms typically include sudden onset fever, chills, head and body aches and weakness, vomiting and nausea. Painful and inflamed lymph nodes can also appear.
+
+Symptoms of the pneumonic form appear quickly (sometimes less than 24 hours) after infection. They include severe respiratory symptoms such as shortness of breath and coughing, often with blood-tainted sputum.
+
+Symptoms of septicaemic plague include bleeding under the skin and, in some cases, a bluish discolouration of the skin (cyanosis) and tissue death (necrosis) of the extremities. The disease can also lead to multiple organ failure and severe breathing difficulties.
+
+How does pneumonic differ from bubonic plague?
+==============================================
+
+Bubonic plague is the most common form of plague, but it cannot be easily transmitted between people. Some people with bubonic plague will develop pneumonic plague, meaning the infection spreads to their lungs. Pneumonic plague can be transmitted between people through coughing. Bubonic plague has a mortality rate of 30% to 60%, while the pneumonic form is fatal in the absence of treatment. Both types have good recovery rates if people are treated in time.
+
+How can I protect myself from being infected with plague?
+=========================================================
+
+To prevent the spread of pneumonic plague, avoid close contact (under 2 metres) with someone who is coughing, and reduce time spent in crowded areas. To prevent bubonic plague, do not touch dead animals and wear insect repellent while in plague-endemic areas.
+
+What should I do if I suspect I have plague?
+============================================
+
+In case of sudden symptoms of fever, chills, painful and inflamed lymph nodes, or shortness of breath with coughing and/or blood-tainted expectoration, people should immediately contact a medical provider for an evaluation. Travellers who have left plague-affected areas should inform their health worker of their travel history to a plague-affected area. People should avoid self-medication, including using antibiotics, unless they are prescribed by a doctor.
+
+How do you diagnose plague?
+===========================
+
+Health workers make an evaluation based on symptoms. Confirmation is based on laboratory testing from a sample of blood, sputum (fluid coughed up from inside the lungs) or pus from a bubo.
+
+How can plague be treated?
+==========================
+
+Plague can be cured with antibiotics, especially when treatment begins early.In areas where there is a plague outbreak, people with symptoms should go to a health centre for evaluation and treatment. Patients with pneumonic plague must be isolated and treated by trained medical staff wearing personal protective equipment.
+
+If I am in an area with an active plague outbreak, should I wear a mask to protect myself?
+==========================================================================================
+
+Masks may help to reduce the spread of pneumonic plague if they are used correctly by people who are sick (to reduce the spread of infectious respiratory particles), and by health care workers (to protect themselves). Masks should be used and disposed of properly so they do not become a source of infection themselves.
+
+Do dead bodies spread plague?
+=============================
+
+The body of someone who has died after being infected with plague can infect people who are in close contact, such as those who are preparing the body for burial. The source of infection (the bacteria) is still present in body fluids.

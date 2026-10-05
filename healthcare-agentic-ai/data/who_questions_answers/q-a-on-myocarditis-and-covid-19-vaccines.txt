@@ -1,0 +1,73 @@
+WHO QUESTIONS AND ANSWERS
+Title: Q&A on Myocarditis and Covid-19 Vaccines
+URL: https://www.who.int/news-room/questions-and-answers/item/q-a-on-myocarditis-and-covid-19-vaccines
+Retrieved: 2026-10-05T09:48:34.277693+00:00
+
+========================================
+
+What is myocarditis, pericarditis and myopericarditis?
+======================================================
+
+Myocarditis is an inflammation of the heart muscle (myocardium) and pericarditis is an inflammation of the membrane around the heart (pericardium). When both heart muscle and the membrane are inflamed, the condition is known as myopericarditis. The most common cause of myocarditis is viral infection, but it can also be caused by a bacterial infection, a reaction to a drug or an autoimmune disease.
+
+How do I know if I have myocarditis or pericarditis? What are the symptoms?
+===========================================================================
+
+For both myocarditis and pericarditis, symptoms include new and persistent chest pain, shortness of breath and heart palpitations (racing or pounding heartbeat). If you experience any of these symptoms, contact your doctor immediately.
+
+Can myocarditis and pericarditis be treated?
+============================================
+
+The symptoms of myocarditis and pericarditis are usually mild to moderate and respond well to treatment. While severe cases need urgent medical attention and may need to be admitted to hospital, most go home after a few days with the right treatment and rest.
+
+Is there a link between some COVID-19 vaccines and myocarditis and pericarditis?
+================================================================================
+
+There have been reports of very rare cases of myocarditis and pericarditis following mRNA COVID-19 vaccines (Pfizer and Moderna), most often after the second dose. While myocarditis and pericarditis can be caused by many factors, the currently available data suggest there is a potential relationship between these symptoms and the vaccines. More data are needed to understand this potential relationship better. Myocarditis and pericarditis are more likely to be caused by COVID-19 infection than COVID-19 vaccination.
+
+See reference Barda study
+
+How common is myocarditis and/or pericarditis after vaccination with COVID-19 mRNA vaccines?
+============================================================================================
+
+Billions of people have been safely vaccinated against COVID-19. Reports of cases of myocarditis and pericarditis after vaccination with mRNA COVID-19 vaccines are very rare. In August 2021, the number of cases of myocarditis reported after vaccination for both COVID-19 mRNA vaccines in the US was about 40 cases per million people vaccinated after the second dose, mostly in males aged 12-29 years. The number was lower in males older than 30 years and in females of any age. Preliminary data suggest that the occurrence of myocarditis/pericarditis following mRNA vaccines may be slightly higher with Moderna (Spikevax) than with Pfizer (Comirnaty) vaccine. Research is underway to understand and confirm these data.
+
+Is it safe for males under 30 and people of all ages to be vaccinated with mRNA vaccines?
+=========================================================================================
+
+International regulatory agencies have assessed that the benefit of COVID-19 vaccines in preventing hospitalization and death greatly outweighs the risk of myocarditis/pericarditis following vaccination in vaccine-eligible age groups. COVID-19 vaccines protect health and save lives.
+
+See ACIP benefit-risk example
+
+Even if preliminary data show that there is a slightly higher incidence of myocarditis and pericarditis in young males up to 30 years old, cases of myocarditis and pericarditis following COVID-19 vaccination in this age group remain very rare.
+
+What should I do if I have symptoms that could be myocarditis or pericarditis following my COVID-19 vaccination?
+================================================================================================================
+
+If you experience symptoms such as chest pain, shortness of breath, and palpitations please seek immediate medical attention. You can let your doctor know that you have recently been vaccinated against COVID-19.
+
+Is it safe to exercise after vaccination with COVID-19 mRNA vaccines?
+=====================================================================
+
+At present, there are limited data available on the impact of exercise following vaccination. There is no current evidence that exercising after vaccination is linked to myocarditis or pericarditis. WHO does not currently recommend against exercise following vaccination with an mRNA vaccine in absence of any symptoms. Some people will experience mild side effects after vaccination including tiredness and body aches, which may make them less inclined to exercise, in which case they should rest and stay well hydrated until these symptoms go away within few days.
+
+Has myocarditis or pericarditis been reported after third doses of mRNA COVID-19 vaccines?
+==========================================================================================
+
+WHO is still gathering data on whether any cases of myocarditis and pericarditis have been reported following third doses of COVID-19 vaccines and will update their recommendations as soon as there is sufficient evidence to inform policy.
+
+At present, WHO recommends that moderately and severely immunocompromised persons should be offered an additional dose of COVID-19 vaccine as part of an extended primary series since these individuals are less likely to respond adequately to vaccination following a standard primary vaccine series and are at high risk of severe COVID-19 disease.
+
+See Reference ACIP https://www.cdc.gov/vaccines/acip/meetings/downloads/slides-2021-9-23/02-COVID-Wallace-508.pdf
+
+Would the chances of myocarditis/pericarditis decrease if I wait longer for the second dose?
+============================================================================================
+
+You should go ahead and get your second dose when it is recommended by your national authorities. Waiting to get your second dose leaves you vulnerable to COVID-19. Countries schedule first and second dose vaccinations so as to obtain the best possible protection for their populations while minimizing risks to recipients within the capacity of their immunization programmes. More information is being gathered to determine if the timing of COVID-19 mRNA vaccination affects the risk of myocarditis/pericarditis.
+
+How is WHO monitoring the potential link between myocarditis/pericarditis and COVID-19 vaccines?
+================================================================================================
+
+The COVID-19 subcommittee of the WHO Global Advisory Committee on Vaccine Safety has had several meetings to review latest safety data on mRNA vaccines and has issued statements alerting countries to this potential side effect. These statements can be found on the WHO website (GACVS 09 July 2021, GACVS 26 May 2021 ). WHO will update policies and recommendations if and when any changes are supported by new data.
+
+Additionally, WHO is preparing teaching aids and other guidance for healthcare professionals and the public to make them aware of the signs and symptoms for myocarditis and pericarditis. WHO will continue to monitor these and other events and recommends that countries collect and share all reports of adverse events following immunization observed with the new COVID-19 vaccines.

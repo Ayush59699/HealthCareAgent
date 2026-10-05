@@ -1,0 +1,99 @@
+WHO QUESTIONS AND ANSWERS
+Title: Influenza: A(H5N1)
+URL: https://www.who.int/news-room/questions-and-answers/item/influenza-h5n1
+Retrieved: 2026-10-05T09:47:12.767967+00:00
+
+========================================
+
+What is A(H5N1)?
+================
+
+H5N1 is one of several influenza viruses that causes a highly infectious respiratory disease in birds called avian influenza (or "bird flu"). Infections in mammals, including humans, have also been documented.
+
+H5N1 influenza virus infection can cause a range of diseases in humans, from mild to severe and in some cases, it can even be fatal. Symptoms reported have primarily been respiratory, but conjunctivitis and other non-respiratory symptoms have also been reported. There have also been a few detections of A(H5N1) virus in persons who were exposed to infected animals or their environments but who did not show any symptoms.
+
+The goose/Guangdong-lineage of H5N1 avian influenza viruses first emerged in 1996 and has been causing outbreaks in birds since then. Since 2020, a variant of these viruses has led to an unprecedented number of deaths in wild birds and poultry in many countries. First affecting Africa, Asia and Europe, in 2021, the virus spread to North America, and in 2022, to Central and South America. From 2021 to 2022, Europe and North America observed their largest and most extended epidemic of avian influenza with unusual persistence of the virus in wild bird populations.
+
+Since 2022, there have been increasing reports of deadly outbreaks among mammals also caused by influenza A(H5) – including influenza A(H5N1) – viruses. There are likely to be more outbreaks that have not been detected or reported. Both land and sea mammals have been affected, including outbreaks in farmed fur animals, seals, sea lions, and detections in other wild and domestic animals such as foxes, bears, otters, raccoons, cats, dogs, cows, goats and others.
+
+How does the H5N1 virus spread to people?
+=========================================
+
+Almost all cases of H5N1 virus infection in people have been associated with close contact with infected live or dead birds, or H5N1-contaminated environments, for example live bird markets. There have been some instances of spread from infected mammals to humans as well. While there may have been some cases that were not detected, the virus does not seem to easily infect humans or spread from person to person, based on the current knowledge and understanding.
+
+Why is there concern about influenza H5N1 virus?
+================================================
+
+The H5N1 virus remains as an animal virus that primarily infects animals. So far, close to 900 human infections have been reported since 2003, of which more than half were fatal. The H5N1 virus is constantly evolving and could potentially become easily transmissible from person to person. If this occurs, it could be the start of a new influenza pandemic, as was the case with the 1918 and 2009 H1N1 pandemics.
+
+What are the symptoms of H5N1 infection in humans?
+==================================================
+
+The symptoms of H5N1 infection may include fever (often high fever, > 38°C) and malaise, cough, sore throat and muscle aches. Other early symptoms may include conjunctivitis and other non-respiratory symptoms. The infection may progress quickly to severe respiratory illness and neurologic changes (altered mental status or seizures).
+
+H5N1 virus has also been detected in samples collected from people without symptoms who had exposure to infected animals or their environments.
+
+Is it safe to eat eggs, chicken and other meats and milk from areas with H5N1 outbreaks in animals?
+===================================================================================================
+
+- Meat products and eggs can be safely consumed, provided they are properly prepared. Please see the question "How can meat and eggs be safely prepared?” for detailed information.
+
+- Consuming raw or incompletely cooked meat and eggs from areas experiencing outbreaks of avian influenza is high-risk and should be avoided. Likewise, animals that are sick or have died unexpectedly should not be eaten.
+
+- Due to the potential health risks to consumers, raw milk should be avoided. WHO advises consuming pasteurized milk. If pasteurized milk isn’t available, heating raw milk until it boils can also make it safer for consumption.
+
+How can meat and eggs be safely prepared from areas with H5N1 outbreaks in birds?
+=================================================================================
+
+Follow the WHO Five keys to safer food:
+
+- keep clean
+
+- separate raw and cooked foods
+
+- cook thoroughly
+
+- keep food at safe temperatures
+
+- use safe water and raw materials.
+
+Learn more about safe food handling.
+
+Is it safe to drink milk and other dairy products from areas where animals are infected with H5N1 viruses?
+==========================================================================================================
+
+H5N1 viruses have been detected in raw milk from infected dairy cows in some places. Based on available studies, pasteurization appears to inactivate the virus and make it safe for consumption.
+
+WHO recommends that consumers avoid consuming raw milk to reduce exposure to a number of pathogens, including but not limited to H5N1 viruses. WHO strongly advises that people consume pasteurized milk. If pasteurized milk isn’t available, heating raw milk until it boils can also make it safer for consumption.
+
+Dairy products, like cheese, made from safe milk, following strict hygiene standards, should be safe to consume.
+
+WHO's work on food safety
+
+How is H5N1 virus infection in humans treated?
+==============================================
+
+Influenza patients should be managed properly to prevent severe illness and death. Patients with laboratory-confirmed influenza virus infection with progressive, complicated or severe illness – or those with asymptomatic or mild disease but who are at increased risk of severe disease – should be treated with antiviral medicines, for example oseltamivir, as soon as possible.
+
+Is a vaccine available to prevent human infection with H5N1 viruses?
+====================================================================
+
+As part of their influenza pandemic preparedness work, some countries have developed and licensed vaccines that could be used for avian influenza viruses, including H5N1. Currently, human infections of H5N1 are limited and vaccines are not recommended.
+
+WHO has agreements with 15 vaccine manufacturers, as part of implementation of the PIP Framework, to access about 10% of real-time production of future pandemic influenza vaccine production in the event of an influenza pandemic. These will be distributed to countries based on public health risk and need.
+
+Does seasonal influenza (seasonal flu) vaccination provide protection against human infection with H5N1 viruses?
+================================================================================================================
+
+Current seasonal influenza vaccines do not protect against human infection with animal influenza A viruses, including H5N1 viruses.
+
+What does WHO do to respond to H5N1 influenza?
+==============================================
+
+WHO works with countries to help them prevent, detect and manage cases of H5N1 virus infection in humans when they occur.
+
+WHO collaborates with global health partners and agencies, including the World Organisation for Animal Health (WOAH), and the Food and Agriculture Organization of the United Nations (FAO), to monitor the risk, and control and prevent the spread of animal diseases.
+
+WHO’s global laboratory system, the Global Influenza Surveillance and Response System (GISRS), identifies and monitors strains of circulating influenza viruses, and provides advice to countries on their risk to human health and available treatment or control measures.
+
+WHO works with partners around the world on pandemic preparedness for H5N1 and other animal influenzas.

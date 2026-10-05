@@ -1,0 +1,165 @@
+WHO QUESTIONS AND ANSWERS
+Title: Ebola disease
+URL: https://www.who.int/news-room/questions-and-answers/item/ebola-disease
+Retrieved: 2026-10-05T09:45:25.524662+00:00
+
+========================================
+
+What is Ebola disease?
+======================
+
+Ebola disease is a rare but severe illness, caused by a virus belonging to the genus orthoebolavirus of the Filoviridae family. Death rates have varied from 25% to 90% in past outbreaks.
+
+Six species of orthoebolaviruses have been identified to date, with three known to cause large outbreaks:
+
+- Ebola virus (EBOV) causing Ebola virus disease (EVD)
+
+- Sudan virus (SUDV) causing Sudan virus disease (SVD)
+
+- Bundibugyo virus (BDBV) causing Bundibugyo virus disease (BVD).
+
+The animal reservoir of the viruses is unknown, but current evidence suggests that fruit bats (Pteropodidae) may be a host.
+
+What are the typical symptoms of Ebola disease?
+===============================================
+
+The symptoms of Ebola disease can be sudden and can include:
+
+- fever
+
+- fatigue
+
+- muscle pain
+
+- headache and sore throat.
+
+These can be followed by:
+
+- vomiting
+
+- diarrhoea
+
+- rash
+
+- internal and external bleeding.
+
+How long does it take for people to develop symptoms after being infected?
+==========================================================================
+
+The time interval from infection to onset of symptoms ranges from 2 to 21 days. People are only infectious once they develop symptoms.
+
+Even when people have developed Ebola disease-like symptoms, only a laboratory test can confirm whether the cause is Ebola.
+
+What is the difference between Ebola disease and other diseases with similar symptoms?
+======================================================================================
+
+Ebola disease symptoms often appear suddenly and require early care by trained clinicians.
+
+Because of the similarity of symptoms, it can be difficult to clinically distinguish Ebola disease from other infectious diseases such as malaria, typhoid fever, dengue or Marburg virus disease.
+
+Therefore, it is essential that people with Ebola disease-like symptoms seek advice immediately from a health-care provider. Testing is the first step in identifying accurately what is causing illness and is essential for providing the right treatment. Early testing and treatment save lives and protect community and family members, including local health and care workers.
+
+How does Ebola disease spread?
+==============================
+
+Ebola disease most commonly spreads from person to person via exposure to blood or other body fluids (mostly through faeces, vomit, sweat and saliva) of an infected person, alive or deceased. This occurs when the virus enters a body through broken skin or mucous membranes (such as the eyes, nose or mouth), most often while someone is caring for a patient or touching the body of someone who has died from the disease.
+
+It is also spread by touching or handling objects that have been contaminated with the body fluids of a sick person or someone who has died from Ebola disease.
+
+In rare instances, transmission from a male survivor to his sexual partner has been documented. This is because the virus can persist for some time in the semen of some male survivors after they recover from the disease.
+
+What should people do to protect themselves during an Ebola disease outbreak?
+=============================================================================
+
+In case of an Ebola disease outbreak, people can protect themselves by taking specific measures that reduce the risk of infection. These include:
+
+- avoiding physical contact with individuals who are suspected of or confirmed to have Ebola disease;
+
+- refraining from handling the bodies of people who had symptoms of Ebola disease and have died, without appropriate protective measures; and
+
+- washing hands regularly, applying best practices recommended by local authorities on hand washing.
+
+What should people do to protect themselves from getting infected from animals?
+===============================================================================
+
+People can protect themselves from getting infected from animals by:
+
+- avoiding eating dead animals or touching them without protective measures, especially during an Ebola disease outbreak;
+
+- washing their hands correctly before and after touching any animal or related animal products; and
+
+- cooking thoroughly animal products (blood and meat) before consumption.
+
+Who is most at risk?
+====================
+
+During an outbreak, those at higher risk of infection are:
+
+- health and care workers in close contact with patients;
+
+- caretakers, family members or others in direct physical contact with infected people; and
+
+- mourners who have direct physical contact with bodies during funerals or burial rituals.
+
+Why are health-care workers at greater risk of catching Ebola?
+==============================================================
+
+Community health and care workers are among the first to detect new illnesses within a community, raise alerts, and refer those who are ill to the health facility.
+
+Health-care workers and community health workers are at greater risk of infection when they:
+
+- are not wearing correct personal protective equipment (PPE); and
+
+- are not applying infection prevention and control (IPC) measures when caring for patients or managing bodies of the deceased.
+
+Since the symptoms of Ebola disease are similar to many other common illnesses, community health and care workers may not immediately use appropriate infection prevention and control measures to protect themselves.
+
+What can people do after direct physical contact with someone with Ebola disease?
+=================================================================================
+
+If you have been in direct physical contact with a person infected or suspected with Ebola, you may be at risk of developing the disease. It is important that you contact your health-care provider or local health facility so that they can advise you on the next steps.
+
+Once you have been identified as a “contact”, your health will be monitored for 21 days following the exposure. The local authorities or health and care workers will guide you on recommended behaviors and encourage you:
+
+- to accept a daily visit from the contact tracing team to monitor your health, with respect to your occupation;
+
+- to allow your temperature to be taken;
+
+- to answer all questions as accurately as you can and ask any question you may have, including any arrangement that would make this follow-up more agreeable to you;
+
+- to report your symptoms (if any) as soon as you develop them;
+
+- to avoid travelling unless travel has been discussed with your local health authority; and
+
+- to take a vaccine if it is available. You will be encouraged to help identify your contacts so that they can also be offered the vaccine.
+
+If symptoms develop while being monitored for 21 days, you will be advised to go to an appropriate care centre. If you are requested to perform a laboratory test, the results will guide the health professional on whether you should immediately be admitted to a treatment centre for care or not.
+
+Early care improves survival and will help to break the chain of transmission within the community and families.
+
+Is there any treatment for Ebola?
+=================================
+
+There are two approved treatments for adults and children with Ebola virus disease (EVD), which are themonoclonal antibodies mAb114 (ansuvimabTM) and REGN-EB3 (InmazebTM).
+
+Building on these successes, potential new treatments are being evaluated for other orthoebolaviruses, but these have not yet been fully tested.
+
+If you or a loved one tests positive for Ebola disease, early supportive care at a designated treatment centre is essential and can improve the chance of survival. Care is free of charge and includes rehydration, provision of proper nutrition and the management of symptoms.
+
+Can people with Ebola be cared for at home?
+===========================================
+
+WHO does not advise families or communities to care for people with Ebola disease at home. People with symptoms should seek care at a health facility. Early supportive care at a designated treatment centre is essential and can improve the chance of recovery.
+
+If a person dies at home with suspicions of Ebola disease, the community and family members should refrain from handling or preparing the body for burial. Community or family members should immediately get in contact with local health authorities to perform a safe and dignified burial of the deceased person in accordance with the family’s wishes.
+
+What should people do if they want to travel during an Ebola disease outbreak?
+==============================================================================
+
+WHO does not recommend trade or movement restrictions such as lockdowns or quarantines in areas affected by Ebola disease.
+
+However, travel of close contacts of Ebola disease cases should be minimized or postponed wherever possible to protect people who may be exposed to the virus during travel and to avoid spreading of the virus.
+
+If travel of a contact is necessary, it should be discussed and supervised by the public health authorities for them to ensure the appropriate follow-up in the host area.
+
+Note: These Q&As use new virus taxonomy as approved in April 2023 by the International Committee of Taxonomy on Viruses.

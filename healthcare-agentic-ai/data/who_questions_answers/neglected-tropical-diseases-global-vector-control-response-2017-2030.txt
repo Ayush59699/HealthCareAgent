@@ -1,0 +1,88 @@
+WHO QUESTIONS AND ANSWERS
+Title: Neglected tropical diseases: Global vector control response 2017-2030
+URL: https://www.who.int/news-room/questions-and-answers/item/neglected-tropical-diseases-global-vector-control-response-2017-2030
+Retrieved: 2026-10-05T09:47:55.512695+00:00
+
+========================================
+
+The Global vector control response 2017–2030 (GVCR) provides a new strategy to strengthen vector control worldwide through increased capacity, improved surveillance, better coordination and integrated action across sectors and diseases.
+
+Why was the Global vector control response 2017–2030 (GVCR) developed?
+======================================================================
+
+Cognizant of recent major outbreaks of dengue, malaria, chikungunya, yellow fever and Zika virus disease, Member States at the 139th WHO Executive Board meeting in May 2016 requested the Director-General to devise an appropriate response.
+
+What is new about the GVCR?
+===========================
+
+The GVCR sets out a new strategy to strengthen vector control worldwide through increased capacity, improved surveillance, better coordination and integrated action.
+
+How was the GVCR developed?
+===========================
+
+Development commenced in June 2016 through a fast-tracked and broadly consultative process that was co-led by the WHO Global Malaria Programme, the WHO Department of Control of Neglected Tropical Diseases, and the Special Programme for Research and Training in Tropical Diseases. The strategic approach was welcomed by Member States at the Seventieth World Health Assembly in May 2017, and a dedicated resolution was adopted (WHA70.16).
+
+How were the GVCR goals, milestones and targets generated?
+==========================================================
+
+These were aligned with Sustainable Development Goal target 3.3 (1), and were formulated on the basis of a comprehensive review of relevant WHO global and regional strategies, plans, frameworks and resolutions on vector-borne diseases.
+
+These included:
+
+- the Global technical strategy for malaria 2016-2030 as adopted by the Sixty-eighth World Health Assembly in May 2015
+
+- the Global strategy for dengue prevention and control 2012-2020
+
+- resolution WHA66.12 on Neglected tropical diseases adopted by the Sixty-sixth World Health Assembly in May 2013.
+
+Targets were based on background modelling that included projections of vector-borne disease burden and risk over the strategic timeframe in order to develop reasonable and achievable targets. These goals, milestones and targets are not intended to replace or override established disease-specific goals, such as for malaria or dengue.
+
+How will the global targets defined in the GVCR apply to individual countries or regions?
+=========================================================================================
+
+GVCR provides strategic guidance to all Member States and development partners for sustainable vector surveillance and control. It is anticipated that the milestones and targets outlined in the GVCR will be adapted across regions and at national level based on the local situation (for example, diseases, capacity, interventions, and evidence). Countries will establish their own national or subnational targets in reference to national vector-borne disease strategies. Regional strategies and targets may also be developed.
+
+How will the GVCR be implemented?
+=================================
+
+Priority activities have been defined for action at national and regional levels. These will need to be supported through broader activities to be undertaken at global level, including those to be undertaken by the WHO Secretariat as well as other partners such as those involved in research and development of new vector control tools, technologies and approaches.
+
+Are the national priority activities to be implemented only at national level?
+==============================================================================
+
+In many countries, there is vast geographical and seasonal variation in vector-borne diseases. While GVCR advocates for reforms in national vector control structures, planning and action are not limited to national level. The GVCR emphasizes the need for locally-adapted action, with many of the priority activities to be implemented at provincial and local levels.
+
+What are the major changes that are expected at national level in line with the GVCR? Are all countries expected to have one integrated vector control department?
+==================================================================================================================================================================
+
+The required changes at national level will be determined through a comprehensive national vector control needs assessment. National needs assessments are one of the priority activities identified in the GVCR for immediate implementation. It is anticipated that through these needs assessments countries will identify areas that require restructuring/re-orientation for effective vector control programmes to integrate activities and increase efficiency. WHO is currently developing a framework to inform the development of these national vector control needs assessments.
+
+How does the GVCR differ from what is already defined for integrated vector management?
+=======================================================================================
+
+Integrated vector management is defined as a rational decision-making process for the optimal use of resources for vector control. The GVCR builds on the integrated vector management approach with renewed focus on human capacity at national and subnational levels, as well as strengthened surveillance, infrastructure and management systems. It includes reorienting relevant government programmes around proactive strategies to control new and emerging threats.
+
+How does the GVCR link with One Health concept?
+===============================================
+
+One Health recognizes that the health of people is connected to the health of animals and the environment. The goal of One Health is to encourage the collaborative efforts of multiple disciplines – working locally, nationally, and globally – to achieve the best health for people, animals, and our environment. A One Health approach is important because six out of every ten infectious diseases in humans are spread from animals. In many parts of the world, several vector-borne diseases such as dengue and yellow fever have a sylvatic transmission cycle in the forests which sustain the reservoir of the disease.
+
+What is the linkage of the GVCR with the International Health Regulations (2005) (IHR)?
+=======================================================================================
+
+An IHR network of country-level focal points and coordination of expertise will play a vital role in prevention and control of potential outbreaks. Vector surveillance and control will be strengthened at all ports of entry as per IHR requirements. Active leadership along with improved coordination and strengthened human capacity at national and subnational levels in accordance with GVCR will foster productive engagement and collaboration in the shared vision of vector-borne diseases reduction.
+
+What are the implications of the GVCR for research and its funding?
+===================================================================
+
+The GVCR calls for increased basic and applied research and innovation as a foundation for strengthening vector control. This encompasses the establishment and maintenance of appropriate capacity within national vector-borne disease programmes in order to collect and use data to inform implementation. It includes the establishment of a national research agenda appropriate to the needs of the programme to support evidence-based vector control. While it will also advocate for the development of new tools, this does not extend to financing and coordination for product research and development, which is adequately addressed through initiatives such as the Consultative Expert Working Group on Research and Development, as was discussed under agenda item 13.5 of the Seventieth World Health Assembly.
+
+Is it anticipated that Ministries of Health will be able to make cost savings through integration across disease programmes?
+============================================================================================================================
+
+Given the essential strengthening of health workforce and infrastructure that is outlined in GVCR, it is likely that in many countries there will need to be some initial increase in investment with a focus on programme re-orientation and sustainability. However, the boost in technical capacity and essential resources and locally-adaptive vector control implementation will be more efficient to detect and manage any possible increases in cases or pockets of outbreaks. This is likely to lead to more effective use of vector control tools for maximum impact – thereby protecting these investments in the mid- to long-term. Prevention of outbreaks of vector-borne diseases is expected to be highly cost-effective to all countries.
+
+Who is expected to fund implementation of the GVCR?
+===================================================
+
+GVCR has been formulated with inputs from Member States and other experts, including existing multilateral and bilateral donors. GVCR funding will depend on country capacity to re-orient programmes with a greater level of accountability, improved management and to leverage regional cooperation mechanisms. It is envisaged that the clear recognition of the importance of the GVCR at the World Health Assembly will lead to greater advocacy for and attract more resources in a time-limited manner based on the identified needs and activities.

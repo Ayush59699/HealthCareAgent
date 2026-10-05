@@ -1,0 +1,152 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19) and people living with HIV
+URL: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-covid-19-and-people-living-with-hiv
+Retrieved: 2026-10-05T09:43:56.240906+00:00
+
+========================================
+
+Are people living with HIV at increased risk of being infected with SARS-CoV-2 or develop more severe COVID-19?
+===============================================================================================================
+
+People living with HIV (PLHIV) who have not achieved viral suppression through antiretroviral treatment (ART) may have a compromised immune system that leaves them vulnerable to opportunistic infections and further HIV disease progression. There is no clinical evidence that PLHIV have a higher risk of infection with SARS-CoV-2 when compared with HIV-negative people.
+
+There are several small studies conducted early in the pandemic that describe the clinical presentation of COVID-19 in PLHIV, indicating that the clinical presentation of COVID-19 is similar in people with and without HIV, particularly if they are on ART and have achieved HIV viral suppression However, global data compiled by WHO from almost 350 000 patients in 38 countries indicate that PLHIV are at increased risk for development of severe illness and death due to COVID-19. This analysis found that the risk of developing severe fatal COVID-19 was 38% greater in this population when compared to people without HIV infection (1). PLHIV frequently face adverse social determinants of health and structural factors that may lead to higher SARS-CoV-2 exposure. They also have a high prevalence of some comorbidities associated with poorer COVID-19 outcomes, such as cardiovascular disease, diabetes, chronic respiratory disease and hypertension. Additionally, lower CD4 T-cell counts are associated with advanced HIV disease and several epidemiological studies are suggesting that this HIV subpopulation are at greater risk for hospitalization due to COVID-19 and mortality.
+
+Taken all these considerations together, there is no clear evidence of a higher risk for PLHIV to be infected with SARS-COV-2 when compared with the general population. However, those with advanced HIV disease, those with low CD4 T-cell counts and high HIV viral load and those who are not taking ART have an increased risk of COVID-19 complications in general.
+
+Should the treatment or prevention of COVID-19 be different in people living with HIV?
+======================================================================================
+
+Current recommendations for COVID-19 clinical management in people living with HIV generally do not differ from those of the general population, including treatment and prevention measures.
+
+PLHIV are as eligible to receive anti-SARS-CoV-2 therapies as people without HIV infection and those individuals with advanced HIV disease should be considered as a high priority.
+
+When starting treatment for COVID-19 in patients with HIV, clinicians should pay careful attention to potential interactions between drugs and overlapping toxicities among COVID-19 treatments, antiretrovirals (ARV), antimicrobial therapies, and other medications.
+
+PLHIV who develop COVID-19 should continue their ARV regimen, opportunistic infection treatment and prophylaxis whenever possible. The ARV regimen should not be switched or adjusted (i.e., by adding ARV drugs to the regimen) for the purpose of preventing or treating SARS-CoV-2 infection.
+
+Individuals who know their HIV status are advised to take the same COVID-19 precautions as the general population (e.g., wash hands often, practice cough hygiene, avoid touching your face, social distancing, seek medical care if symptomatic, self-isolation if in contact with someone with COVID-19 and other actions recommended in the government’s response). PLHIV who are taking ARV drugs should ensure that they have at least 30 days of ARVs, if not a 3- to 6-month supply.
+
+It is also an important opportunity to ensure that all PLHIV who are not yet on antiretroviral treatment begin to do so. People who feel they may have been at HIV risk are advised to seek testing to protect against HIV disease progression and complications from any other health issues.
+
+Can antiretrovirals be used to treat COVID-19 or prevent SARS-CoV-2 infection?
+==============================================================================
+
+No ARVs are currently recommended by WHO to treat or prevent COVID-19. Initial in vitro, animal and small human observational studies conducted during previous coronavirus outbreaks (SARS and MERS) and in the early phases of the COVID-19 pandemic have suggested that some ARVs, such as lopinavir/ritonavir (LPV/r), could help against SARS-CoV-2 and should be repurposed for treatment and prevention of COVID-19. This hypothesis was subsequently assessed in further observational studies and in large randomized controlled trials, but no clinical benefit or impact on disease severity or mortality were demonstrated (2).
+
+Several observational studies also indicated that use of tenofovir disoproxil fumarate (TDF) and tenofovir alafenamide (TAF) could be associated with lower risk of acquiring SARS-CoV-2 and develop severe COVID-19. However, these studies had limitations and may have been influenced by other health issues in the participants.. Subsequent larger observational studies and clinical trials have not found a relationship between TDF or TAF and risk of SARS-CoV-2 acquisition or severe outcomes.
+
+While the evidence of benefit of using ARVs to treat coronavirus infections was not demonstrated, serious side effects from these drugs were not rare. The routine use of LPV/r and TDF or TAF as part of treatment regimens for HIV can be associated with several side effects of moderate severity.
+
+Therefore, at this time there is no evidence to suggest that any particular ARV agent improves or worsens COVID-19 clinical outcomes in PLHIV, or can be used for prevention of SARS-CoV-2 infection. WHO recommends maintaining the standard approaches to initiation and continuation of ART in PLHIV, with a focus on reducing HIV-associated immune compromise and achievement of virologic suppression. The same principles are applicable for use of pre-exposure prophylaxis (PreP) or post-exposure prophylaxis (PEP) regimens for HIV prevention.
+
+Can COVID-19 infection affect HIV test results?
+===============================================
+
+Recent research suggests that some people have had false reactive HIV test results when they had COVID-19 (3, 4). These studies evaluated individuals using a 4th generation serology HIV assays. Over the past 4 decades, cross-reactivity due to viral or bacterial infections has been reported with serology HIV assays. To prevent misdiagnosis, WHO recommends HIV be diagnosed through a multi-assay 3 test strategy.
+
+Are COVID-19 vaccines safe for people living with HIV?
+======================================================
+
+Many of the initial clinical studies with COVID-19 vaccines have included a small number of people living with HIV (PLHIV) in their trials. Despite limited data, available information from those studies suggests that current WHO recommended COVID-19 vaccines are safe for PLHIV. The currently available COVID-19 vaccine products are not live vaccines but include modified viral proteins or genetic material from SARS-CoV-2 which cannot replicate or cause changes to human genes. More recent observational studies have further evaluated the safety of COVID-19 vaccines in this population and didn’t find any evidence of a higher rate of unusual side effects after vaccination when compared with general population. In addition, no pharmacological interactions have been reported between COVID-19 vaccines and antiretroviral medications (ARV) which PLHIV should continue to take after vaccination to maintain health.
+
+Recently, a debate in the scientific community has led to broader concerns about a potential association observed more than a decade ago between adenovirus vector-based vaccines and an increased risk of acquiring HIV infection among men who received this type of vaccine. This unexpected finding was detected in two HIV vaccine trials that used adenovirus type 5 (Ad5) vector containing products (5, 6). The reason for this observed increase in the HIV acquisition risk remains uncertain, although several hypothetical mechanisms have suggested a possible interference in the HIV specific vaccine response or in the CD4 T-cell susceptibility to HIV infection induced by pre-existing adenovirus- associated immunity in combination with other factors. However, a third study also using Ad5 vector-based HIV vaccine has not reported this finding (7).
+
+Despite these potential concerns, it is important to highlight that the benefits of all authorized COVID-19 vaccines in a pandemic context largely outweigh this potential risk. The theoretical concern on increased risk of HIV acquisition is confined to a specific Ad5 vectored HIV vaccine and should not be extended to other vaccine platforms. However, as several COVID-19 vaccines are using human and animal adenovirus vector platforms, specific studies are encouraged to better assess the safety of Ad5 vectored COVID-19 vaccines in sub-populations at high risk of HIV acquisition. An extended follow-up from a Phase III study of an Ad5 vectored COVID-19 vaccine is currently evaluating HIV seroconversion rates in the participants, and interim results are expected in the end of 2022.
+
+Global data have shown that PLHIV have a 38% greater risk of developing severe or fatal COVID-19 compared to people without HIV infection (8). For this reason, it is important to prioritize PLHIV to receive the COVID-19 vaccine. People with stable HIV disease have been now included in several COVID-19 vaccine trials, and specific cohort studies on COVID-19 vaccines with PLHIV has been recently rolled out. Therefore, more information on this topic specific to PLHIV is expected in the future. WHO will continue to monitor the situation as new data become available and SAGE recommendations will be updated accordingly.
+
+Do COVID-19 vaccines provide protection for people living with HIV?
+===================================================================
+
+Current available studies on the efficacy of COVID-19 vaccines in PLHIV with high CD4 T-cell counts and using ART, indicate that most of these individuals produce antibody levels and cellular immune response in the same range observed in people without HIV infection, suggesting that current recommended COVID-19 vaccines are safe and protective in this population. However, there is data in these studies from individuals with low CD4 T-cell counts (i.e., below 200 cells/mm3) or without HIV viral suppression that show a reduced immune response to the COVID-19 vaccine. Furthermore, the antibody responses after vaccination may dwindle faster than people with higher CD4 T-cell counts.
+
+This reduced immune response to COVID-19 vaccines has also been reported in individuals with other causes of severe immunodeficiency (e.g., solid and hematologic malignancies, people with organ transplants and in hemodialysis). Suboptimal immune response against certain vaccine preventable diseases has also been demonstrated in people with advanced HIV disease and/or lower CD4 T-cell counts.
+
+Higher rates of SARS-CoV-2 infection after primary vaccination (i.e., breakthrough infections) among PLHIV when compared with people without HIV have been described. A population-level analysis conducted in immunocompromised patients indicated a 33% higher incidence rate of breakthrough SARS-CoV-2 infections among PLHIV, albeit without accounting for HIV-specific factors (10).
+
+Additionally, a large HIV cohort study with more than 100 000 individuals vaccinated and with good HIV control showed a low overall (3.8%) but 28% higher risk of breakthrough infection without association with HIV viral load or CD4 T-cell counts. The breakthrough rate was also higher in people with vs without HIV (55 cases per 1000 person-years vs 43 cases per 1000 person-years) (11).
+
+These higher rates and risk of breakthrough infections observed in PLHIV when compared with the general population should not be a reason to postpone or to avoid COVID-19 vaccines in these patients, who have a higher risk of COVID-19 complications and death. It supports the recommendation for the use of additional primary doses in this population as in other immunocompromised groups.
+
+Furthermore, national COVID-19 immunization programmes should not exclude people from key and vulnerable populations at risk of HIV, who frequently have limited access to health services. WHO will continue to monitor emerging evidence and will provide timely guidance updates.
+
+Should people living with HIV get vaccines early in the roll out?
+=================================================================
+
+WHO currently recommends that PLHIV should be included as a priority population for COVID-19 immunization. It has been supported by growing evidence suggesting that PLHIV, particularly those with advanced HIV disease, lower CD4 T-cell count, or non-suppressed viral load appear to be at increased risk of poor outcomes and death due to COVID-19 when compared with people without HIV infection (12). Furthermore, many PLHIV have 1 or more chronic comorbidities that may put them at increased risk of severe COVID-19 or death, independent from their HIV disease or immune status. Therefore, PLHIV, particularly those with co-morbidities (such chronic obstructive pulmonary diseases, diabetes, heart, kidney, liver, motor neurone or Parkinson disease, multiple sclerosis, severe obesity) should be prioritized for COVID-19 vaccination.
+
+Many countries have included PLHIV as a priority group for COVID-19 vaccination according to their epidemiological context, prioritizing vaccination for all PLHIV or those who are immunocompromised (as indicated by having a CD4 T-cell count <200/mm3) (13). In mid-2021, according an informal WHO poll survey conducted with more than 100 countries from all regions, more than 40 have established a COVID-19 immunization policy that prioritizes vaccinations for PLHIV. However, the real coverage of COVID-19 vaccination among PLHIV in countries varies widely. A regional survey conducted at the end of 2021 in central and eastern Europe found that PLHIV had been prioritized for COVID-19 vaccination in 8 of the 22 countries and only 3 countries had formulated guidelines for the vaccination of PLHIV (14). A recent study conducted in New York State, USA, found that COVID-19 vaccination coverage among PLHIV was lower than that in the general adult population (63.5% vs 75.0%) (15).
+
+Differences in demographic composition between PLHIV and the general population might partly explain lower coverage; however, coverage was 75% lower across all examined PLHIV subgroups. Unmeasured structural factors, including socioeconomic status, might further explain the lower COVID-19 vaccination coverage among this group. As countries are in different stages of the COVID-19 pandemic and vaccine rollout and have different demographic structure, they should also refer to the WHO SAGE Roadmap for Prioritizing Uses of COVID-19 Vaccines for operational details.
+
+Should all people living with HIV receive additional doses of COVID-19 vaccine?
+===============================================================================
+
+Currently approved COVID-19 vaccines are safe and effective in most PLHIV, with significant reduction in the risk of severe COVID-19 disease or death when the standard regimen (currently 1 or 2 doses of the approved COVID-19 vaccine depending on the product) is fully taken as recommended. However, there is a growing evidence of a suboptimal immune response to the standard course of COVID-19 vaccination in people with moderate to severe immunodeficiency, including those with advanced HIV disease, lower CD4 T-cell counts, or unsuppressed viral load.
+
+Therefore, in people with moderate to severe advanced HIV disease, an additional vaccine dose should be administered as part of the extended primary series and should be given 1–3 months after the completion of the primary series to enhance the immune response and increase protection. This approach is recommended by WHO as well as several other major COVID-19 guidelines.
+
+A gradual reduction of vaccine effectiveness against SARS-CoV-2 infection has been observed after the completion of primary COVID-19 vaccine series, even in those individuals without clinical immunodeficiency and with good initial response to the primary vaccine course. Many countries are now recommending the administration of an additional vaccine dose as a booster in all individuals, including PLHIV who are asymptomatic or mild clinical immunodeficiency and CD4 counts above 200 T-cells/mm3 and virologically suppressed. This booster dose can be taken 4 to 6 months after the completion of the primary vaccination series. The objective of the booster doses strategy is to restore vaccine effectiveness from that deemed no longer sufficient. Some countries are implementing a second booster dose for their highest risk populations, including people with moderate to severe advanced HIV disease, 3–5 months after an initial booster dose. More data on the waning of protective immunity and vaccine effectiveness against severe disease and hospitalization after an initial booster dose is required before WHO endorsed recommendation on the additional booster dose. According to the WHO SAGE roadmap, the highest priority continues to be ensuring that all PLHIV receive their primary vaccine series against COVID-19, complemented by an additional dose in those with advanced HIV disease.
+
+Risk of development of immune escape variants in immunosuppressed patients
+
+People with moderate to severe immunodeficiency have an increased risk of developing severe COVID-19 and suffering from a long-term persistent infection with prolonged viral shedding due to suboptimal immune response.
+
+For persons with immune dysfunction, continued use of nonpharmaceutical interventions (e.g., facial mask wearing) and alternative vaccine strategies (e.g., additional vaccine doses or immunogenicity testing) are recommended even after full vaccination.
+
+This situation can create an environment for immune escape and selection of evolutionary variants. Several case reports indicated that multi-mutational SARS-CoV-2 variants can arise during such persistent infections in immunocompromised individuals and could result in novel SARS-CoV-2 variants of concern.
+
+The findings that immunocompromised patients with persistent SARS-CoV-2 infection may generate new SARS-CoV-2 variants have several medical and public health implications. Heightened precautions should be taken to avert nosocomial transmission of COVID-19 among immunocompromised patients. Such patients should be prioritized for anti-COVID-19 immunization not only to protect them but also to mitigate persistent SARS-CoV-2 infections.
+
+What is WHO’s position on clinical trials/research while the COVID-19 pandemic is ongoing?
+==========================================================================================
+
+WHO is providing support and direction to the scientific community and welcomes the research and development of effective tests, vaccines, medicines and other interventions for COVID-19.
+
+For public health emergencies, WHO has a systematic and transparent process for research and development, including for clinical trials of new drugs and vaccines. The WHO R&D Blueprint for COVID-19, initiated on 7 January 2020, will serve as the global strategy for research and development activities. Its aim is to fast-track the availability of effective tests, vaccines and medicines that can be used to save lives and avert large scale crises. As part of this, WHO is leading the global prioritization of candidate vaccines and therapeutics for development and evaluation. To support testing, WHO convened a scientific advisory group to develop guidance on trial designs for experimental vaccines and therapeutics.
+
+WHO is actively following the ongoing clinical trials for existing antivirals and other medicines that are being conducted for COVID-19. WHO continues to emphasize that all clinical trials should and must follow stringent ethical and regulatory standards. Regulatory authorities have a role to play to ensure close oversight of all clinical trials that will be undertaken.
+
+PLHIV should be offered the opportunity to participate in clinical trials that are evaluating agents for the prevention and treatment of SARS-CoV-2 infection.
+
+What can WHO and the world do to support people living with HIV to live a healthy life?
+=======================================================================================
+
+While WHO is working with countries to ensure fair and equitable access to safe and effective COVID-19 vaccines, it is important to continue actions to prevent SARS-CoV-2 transmission and to reduce COVID-19 deaths. Alongside the response to COVID-19, it is critical to maintain access to essential health services. This includes:
+
+- supporting PLHIV to continue taking antiretroviral therapy (ART) and adapting services to make this easier and more efficient during the COVID-19 response;
+
+- continuing to provide HIV prevention and testing services with linkage to ART initiation as a priority;
+
+- ensuring those who start ART can remain on it to reduce health risks and complications during COVID-19. This must be classified as an essential service, together with prevention, diagnosis and treatment of co-morbidities and co-infections; and
+
+- monitoring all PLHIV and SARS-CoV-2 infections, especially those with advanced HIV disease or with co-morbidities.
+
+Although there may be an increase in the risk of developing severe disease from COVID-19 among PLHIV, making sure that people have access to effective ART and other health care services they need will help minimize this risk.
+
+For further information on COVID-19 vaccines and all WHO guidance related to COVID-19 see https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance.
+
+For community friendly resources please see: https://i-base.info/covid-19/
+
+1. Bertagnolio S et al. Clinical features of, and risk factors for, severe or fatal COVID-19 among people living with HIV admitted to hospital: analysis of data from the WHO Global Clinical Platform of COVID-19. Lancet HIV, on line 10 May 2022. https://doi.org/10.1016/S2352-3018(22)00097-2.
+
+2. Ford N et al. Systematic review of the efficacy and safety of antiretroviral drugs against SARS, MERS or COVID-19: initial assessment. Journal of the International AIDS Society 2020,23:e25489 |https://doi.org/10.1002/jia2.254892
+
+3. Gudipati S et al. Increase in false positive fourth generation HIV tests in patients with COVID-19 disease. Clin Infect Dis 2023, ciad264, ) May 2023. https://doi.org/10.1093/cid/ciad264
+
+4. Miller ME et al. Higher rates of false-positive HIV antigen/antibody screens during the COVID-19 pandemic: implications for pregnant patients. Am J Obstet Gynecol. 2023 Jan; 228(1): S690. https://doi.org/10.1016/j.ajog.2022.11.1156
+
+5. Buchbinder SP et al. Efficacy assessment of a cell-mediated immunity HIV-1 vaccine (the Step Study): a double-blind, randomised, placebo-controlled, test-of-concept trial. Lancet. 2008; 372: 1881-1893.
+
+6. Gray GE et al. Safety and efficacy of the HVTN 503/Phambili study of a clade-B-based HIV-1 vaccine in South Africa: a double-blind, randomised, placebo-controlled test-of-concept phase 2b study. Lancet Infect Dis. 2011; 11: 507-515.
+
+7. Hammer SM et al. Efficacy trial of a DNA/rAd5 HIV-1 preventive vaccine. N Engl J Med. 2013; 369: 2083-2092.
+
+8. Sun J et al. Association Between Immune Dysfunction and COVID-19 Breakthrough Infection After SARS-CoV-2 Vaccination in the US. JAMA Intern Med. 2022;182(2):153-162. doi:10.1001/jamainternmed.2021.7024.
+
+9. Coburn SB et al. COVID-19 infections post-vaccination by HIV status in the United States. JAMA Netw Open. 2022;5(6):e2215934. doi:10.1001.
+
+10. Jilich D et al; for the ECEE Network Group. National strategies for vaccination against COVID-19 in people living with HIV in Central and Eastern European region. HIV Med.2022;23:546–552. doi:10.1111/hiv.1319.
+
+11. Tesoriero JM et al. Notes from the Field: COVID-19 Vaccination Among Persons Living with Diagnosed HIV Infection — New York, October 2021. MMWR Morb Mortal Wkly Rep 2022;71:182–184. doi: 10.15585/mmwr.mm7105a4external icon.

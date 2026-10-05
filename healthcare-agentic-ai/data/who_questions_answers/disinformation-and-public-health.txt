@@ -1,0 +1,69 @@
+WHO QUESTIONS AND ANSWERS
+Title: Disinformation and public health
+URL: https://www.who.int/news-room/questions-and-answers/item/disinformation-and-public-health
+Retrieved: 2026-10-05T09:45:21.333412+00:00
+
+========================================
+
+What are misinformation and disinformation? How do they differ?
+===============================================================
+
+Misinformation is the spread of false information without the intent to mislead. Those who share the misinformation may believe it is true, useful or interesting, and have no malicious intent towards the recipients they are sharing it with.
+
+Disinformation is designed or spread with full knowledge of it being false (information has been manipulated), as part of an intention to deceive and cause harm. The motivations can be economic gain, ideological, religious, political or in support of a social agenda among others. Both misinformation and disinformation may cause harm, which comprises threats to decision-making processes as well as health, environment or security.
+
+The key difference between disinformation and misinformation is not the content of the falsehood but the knowledge and intention of the sender.
+
+How does information manipulation affect public health?
+=======================================================
+
+Disinformation in public health is a distinct type of information risk which, unlike misinformation, is created with malicious intent to sow discord, disharmony and mistrust in targets such as government agencies, scientific experts, public health agencies, private sector and law enforcement, among others.
+
+The potential impacts of disinformation can be understood through examples during the COVID-19 pandemic. The COVID-19 pandemic had two key elements that created the perfect storm for disinformation to proliferate and spread. First, it swiftly caused global fear, uncertainty and doubt. Second, it occurred at a point in history where we can easily access, create and share information (as well as misinformation and disinformation) widely over the internet, mobile telecommunications, media and social media platforms. As the pandemic took hold, many posts appeared on social media and spread through instant messaging communications, stoking uncertainty about the treatment, the safety and effectiveness of vaccines, the usefulness of social distancing, and more. This caused social protest, turmoil, delayed vaccine uptake and led to higher death rates in some instances.
+
+Why would anyone spread health-related disinformation?
+======================================================
+
+The creation and spread of disinformation during public health crises is a not a new phenomenon and has existed in different forms for centuries. Disinformation has been noted in association with events such as the bubonic plague in as far back as the 14th century, cholera outbreaks in the 19th century and the influenza pandemics including the devastating 1918–19 pandemic in the 20th century. Modern day disinformation campaigns have been associated with the emergence of the HIV in the 1980s and more recently the spread of Ebola, COVID-19 and mpox.
+
+The motives of those who create disinformation are complex. In the older historical examples, the objective of the disinformation campaigns was to find ways to blame marginalized groups for the spread of disease and cause them harm. More modern disinformation campaigns evolved to be a part of geopolitical tensions as different groups sought to find ways place to accuse each other of causing the emergence of a disease and, additionally, to hamper the efficacy of their public health interventions (e.g. vaccine uptake and social isolation policies during COVID-19). Often, it is part of a larger agenda to sow confusion over facts and their sources, exacerbate divisive political fissures, erode trust in civil and scientific institutions, or undermine citizen confidence in governance. It can also be used for financial gain, to build a social media following, or to make a particular group appear superior to another based on how they are responding to a public health crisis. Security agencies have noted how extremist groups have leveraged disinformation to build their popularity for recruitment and legitimization.
+
+Understanding the history and background of the disinformation is critical to develop countering strategies.
+
+How can Member States counter health-related disinformation?
+============================================================
+
+WHO and partners have developed various strategies and tools which can be applied to tackle misinformation and disinformation.
+
+Disinformation is often difficult to detect and mitigate. This is because successful disinformation campaigns typically draw on elements of truth that may be manipulated, distrust against governments and institutions, and conspiracy theories already present and circulating within groups. However, Member States can use a range of tactics to counter disinformation, including:
+
+- raising awareness of disinformation and information manipulation;
+
+- promoting critical thinking;
+
+- promoting digital, health and scientific literacy programmes;
+
+- promoting trusted sources of information and voices of authority – these should provide clear and timely information about the event and evolving situation including knowns and unknowns, what is being done and when updates will be provided;
+
+- supporting fact-checking activities which includes the use of fact-checking technologies and human fact-checkers;
+
+- working with relevant stakeholders, such as the security sector, social media providers, law enforcement, cyber agencies, NGOs and international organizations to tackle this new threat; and
+
+- identifying drivers of (mis)trust in populations, and how those drivers are exploited to create disinformation campaigns. These drivers can inform long term solutions to guard against disinformation.
+
+How can I protect myself from health-related disinformation?
+============================================================
+
+Think critically and pause before sharing. When encountering new information, everyone should ask themselves:
+
+- Is this content reliable?
+
+- Who is the author?
+
+- What is the source of the claims?
+
+- Is the information outlet reliable?
+
+- How do I feel about this piece of information?
+
+One of the most important things you can do to protect yourself is to find out which sources represent the latest official and evidence-based health or scientific facts about a public health issue or crisis. For example, this could be your country’s Ministry of Health, the World Health Organization’s website, or your local health clinic. You can help your community by guiding your family and friends to these trusted sources and advise them to avoid acting on false information that’s spread through social media, online advertising or instant messaging.

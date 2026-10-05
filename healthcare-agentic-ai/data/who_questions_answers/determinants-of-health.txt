@@ -1,0 +1,303 @@
+WHO QUESTIONS AND ANSWERS
+Title: Determinants of health
+URL: https://www.who.int/news-room/questions-and-answers/item/determinants-of-health
+Retrieved: 2026-10-05T09:45:15.957298+00:00
+
+========================================
+
+Many factors combine together to affect the health of individuals and communities. Whether people are healthy or not, is determined by their circumstances and environment. To a large extent, factors such as where we live, the state of our environment, genetics, our income and education level, and our relationships with friends and family all have considerable impacts on health, whereas the more commonly considered factors such as access and use of health care services often have less of an impact.
+
+What are the determinants of health?
+====================================
+
+The determinants of health include:
+
+- the social and economic environment,
+
+- the physical environment, and
+
+- the person’s individual characteristics and behaviours.
+
+The context of people’s lives determine their health, and so blaming individuals for having poor health or crediting them for good health is inappropriate. Individuals are unlikely to be able to directly control many of the determinants of health. These determinants—or things that make people healthy or not—include the above factors, and many others:
+
+- Income and social status - higher income and social status are linked to better health. The greater the gap between the richest and poorest people, the greater the differences in health.
+
+- Education – low education levels are linked with poor health, more stress and lower self-confidence.
+
+- Physical environment – safe water and clean air, healthy workplaces, safe houses, communities and roads all contribute to good health. Employment and working conditions – people in employment are healthier, particularly those who have more control over their working conditions
+
+- Social support networks – greater support from families, friends and communities is linked to better health. Culture - customs and traditions, and the beliefs of the family and community all affect health.
+
+- Genetics - inheritance plays a part in determining lifespan, healthiness and the likelihood of developing certain illnesses. Personal behaviour and coping skills – balanced eating, keeping active, smoking, drinking, and how we deal with life’s stresses and challenges all affect health.
+
+- Health services - access and use of services that prevent and treat disease influences health
+
+- Gender - Men and women suffer from different types of diseases at different ages.
+
+How does evidence-based approach work within health impact assessment?
+======================================================================
+
+An evidence base about the impact that projects, programmes and policies have had on health is required to carry out health impact assessment (HIA). The best available evidence is used within the appraisal stage of HIA to determine what impacts may occur (both positive and negative), the size of the impact (if possible) and the distribution of that impact in different population groups. It is generally assumed that the evidence for health impacts exists, and that searching and collating will provide the necessary evidence. Unfortunately this is not often the case, and the evidence of health impacts is often not available. This is because of the long causal pathway between the implementation of a project/programme/policy and any potential impact on population health, and the many confounding factors that make the determination of a link difficult. Within the HIA it is important therefore to be explicit about sources of evidence and to identify missing or incomplete information.
+
+Providing a comprehensive review of the evidence base is not simple. It needs to draw on the best available evidence – that from reviews and research papers, and including qualitative and quantitative evidence. This information must be supplemented with local and expert knowledge, policy information, and proposal specific information.
+
+However, there are examples where the best available evidence has been documented, and in some cases summarised. These are presented below:
+
+- Transport
+
+- Food and Agriculture
+
+- Housing
+
+- Waste
+
+- Energy
+
+- Industry
+
+- Urbanization
+
+- Water
+
+- Radiation
+
+- Nutrition and health
+
+What are examples from the transport sector?
+============================================
+
+Evidence of health impact focus on:
+
+- Accidents between motor vehicles, bicycles and pedestrians (particularly children and young people).
+
+- Pollution from burning fossil fuels such as particulates and ozone.
+
+- Noise from transportation.
+
+- Psychosocial effects such as severance of communities by large roads and the restriction of children’s movement.
+
+- Climate change due to CO2 emission
+
+- Loss of land
+
+- Improved physical activity from cycling or walking
+
+- Increased access to employment, shops and support services
+
+- Recreational uses of road spaces
+
+- Contributes to economic development
+
+- Vector borne diseases
+
+Documents on the evidence of health impacts from transport policies
+-------------------------------------------------------------------
+
+- WHO Europe website on health impacts of transport
+
+- A different route to health: implications of transport policies
+BMJ 1999; 318: 1686-1689
+
+- WHO, Concern for Europe’s tomorrow
+
+What are examples from the food and agriculture sector?
+=======================================================
+
+Agricultural production issues and manufacturing
+
+- Tobacco farming and its impact on heart disease, stroke, certain cancers and chronic respiratory disease. Including passive smoking and impact of fetal development. Pesticide policies on tobacco crops require consideration.
+
+- Changes in land use, soil quality, choice of crop, use of agricultural labour and occupational health.
+
+- Mechanisation of work previously done by hand, and plantation agriculture.
+
+- Fisheries – biotoxins, pollution, chemical use, wastewater, processing, and occupational health
+
+- Forestry – vector borne diseases, occupational health, and food security.
+
+- Livestock use – vector borne diseases, drug residues, animal feed, waste, and food security.
+
+- Sustainable farming including chemical and energy use, biodiversity, organic production methods, and diversity of foods produced.
+
+- Fertiliser use – nitrate levels in food, pollution of waterways, re-use of agricultural waste.
+
+- Water – irrigation use and its impact on river/water-table levels and production outputs.
+
+- Pesticide usage and veterinary drugs– legal requirements, best practice, consumer issues.
+
+- Food packaging, preservation and safety, and avoidance of long storage and travel.
+
+Access to, and distribution of food
+
+- Household food security – appropriate food being available, with adequate access and being affordable (location of markets, supermarkets and closure of small suppliers creating food deserts in cities).
+
+- Food supplies, including national and regional food security, and regional production.
+
+- National food security – able to provide adequate nutrition within a country without relying heavily on imported products
+
+- Cold-chain reliability – the safety of transporting products that deteriorate microbiologically in the heat.
+
+Dietary patterns, diversity of food available and home production, particularly:
+
+- Fruit and vegetable consumption on reduced stroke, heart disease and risk of certain cancers,
+
+- Total, saturated and polyunsaturated fat, carbohydrates and sugars consumption on obesity, heart disease, stroke and other vascular diseases.
+
+- Alcohol consumption and impact on social effects related to behaviour (traffic accidents, work/home accidents, violence, social relations, unwanted pregnancy and STDs), and toxic effects (all-cause mortality, alcoholism, certain cancers, liver cirrhosis, psychosis, poisoning, gastritis, stroke, fetal alcohol syndrome and others).
+
+- Micronutrients such as iron, vitamin A, zinc and iodine and their impact on deficiency syndromes.
+
+Food safety and foodborne illness hazards
+
+Food and water are the major sources of exposure to both chemical and biological hazards. They impose a substantial health risk to consumers and economic burdens on individuals, communities and nations.
+
+- Microorganisms such as salmonella, campylobacter, E. coli O157, listeria, cholera.
+
+- Viruses such as hepatitis A, and parasites such as trichomonosis in pigs and cattle.
+
+- Naturally occurring toxins such as mycotoxins, marine biotoxins and glycosides.
+
+- Unconventional agents such as the agent causing bovine spongiform encephalopathy (BSE, or "mad cow disease"),
+
+- Persistent organic pollutants such as dioxins and PCBs. Metals such as lead and mercury.
+
+- New foods developed from biotechnology such as crops modified to resist pests, changes in animal husbandry, antibiotic use and new food additives.
+
+Documents on the evidence of food and agriculture
+-------------------------------------------------
+
+- Food safety
+
+- WHO, Concern for Europe’s tomorrow
+
+What are examples from the housing sector?
+==========================================
+
+Evidence of health impacts focus on:
+
+- Improvements in housing and improved mental health and general health
+
+- The possibility of improved housing leading to rent rises, impacting negatively on health.
+
+- Movement of original tenants after housing improvement and therefore not benefiting from the improvements.
+
+- Housing tenure, outdoor temperature, indoor air quality, dampness, housing design, rent subsidies, relocation, allergens and dust mites, home accident prevention, and fire prevention.
+
+- Homelessness.
+
+Housing evidence documents
+--------------------------
+
+- WHO, Concern for Europe’s tomorrow
+
+What are examples around waste management?
+==========================================
+
+Evidence of health impacts focuses on environmental and social determinants related to:
+
+- the transmission of agents of infectious disease from human and animal excreta (sanitation, hygiene and water-related);
+
+- exposure to toxic chemicals in human and animal excreta; and in industrial wastes discharged into the environment;
+
+- environmental degradation, direct and indirect impacts on health;
+
+- exposure to radioactive wastes;
+
+- exposure to health-care wastes;
+
+- exposure to solid wastes and involvement in informal waste recycling; and
+
+- breeding of disease vectors.
+
+What are examples from the energy sector?
+=========================================
+
+Evidence of health impacts focus on health hazards such as:
+
+- Fossil fuels
+
+- Biomass fuels
+
+- Hydropower and their impact on vector borne diseases, and pollution
+
+- Electricity generation and transmission
+
+- Nuclear power
+
+- Other energy sources
+
+- Occupational health effects of energy workers
+
+- Impacts on ecosystems, agriculture, forests, fisheries and building materials
+
+- Noise
+
+- Visual impact
+
+- Global warming
+
+What are examples from the industrial sectors?
+==============================================
+
+Evidence of health impacts focus on industrial sectors such as:
+
+- Asbestos and man made fibres
+
+- Basic chemicals
+
+- Cement, glass and ceramics
+
+- Electronics
+
+- Iron and steel
+
+- Manufacture of rubber and plastic products
+
+- Metal products
+
+- Mining
+
+- Pesticides, paints and pharmaceuticals
+
+- Petroleum products
+
+- Pulp and paper
+
+- Service industries
+
+- Textiles and leather
+
+- Wood and furniture.
+
+Industry evidence documents
+---------------------------
+
+- WHO, Concern for Europe’s tomorrow
+
+What are examples around urbanization?
+======================================
+
+Evidence of health impacts focus on topics such as:
+
+- Urban housing problems
+
+- City environment and non-communicable diseases
+
+- Communicable diseases
+
+- Road trauma
+
+- Psychosocial disorders
+
+- Sustainable urban development
+
+- Urban wastes
+
+- Health services
+
+Urbanisation evidence documents
+-------------------------------
+
+- Social Determinants of Health: the solid facts
+
+- WHO, Concern for Europe’s tomorrow

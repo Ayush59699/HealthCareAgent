@@ -1,0 +1,53 @@
+WHO QUESTIONS AND ANSWERS
+Title: Workplace heat stress
+URL: https://www.who.int/news-room/questions-and-answers/item/workplace-heat-stress
+Retrieved: 2026-10-05T09:51:00.304029+00:00
+
+========================================
+
+What is workplace heat stress?
+==============================
+
+Workplace heat stress describes circumstances under which a worker's body accumulates heat due to the combined effects of metabolic heat, environmental factors and clothing worn. Workplace heat stress causes physiological heat strain in the body that can lead to exhaustion, pathological conditions and death.
+
+How many people are affected?
+=============================
+
+More than 2.4 billion workers are exposed to excessive heat globally, resulting in more than 22.85 million occupational injuries each year. More than one third of all persons who frequently work in hot conditions experience physiological heat strain.
+
+What health problems does heat stress cause?
+============================================
+
+Heat stress is associated with clinical symptoms such as hyperthermia (elevated body temperature), syncope (dizziness/fainting), impaired kidney function, dehydration and neurological dysfunction. A systematic review and meta-analysis estimated that 35% of individuals who frequently work under workplace heat stress experience heat-related illnesses, including heat exhaustion and heat stroke.
+
+How does heat affect work productivity?
+=======================================
+
+Worker productivity decreases by 2–3% for every degree increase beyond 20°C in Wet-Bulb Globe Temperature (a measure of heat stress that takes into account air temperature, humidity, wind speed, sun angle, and cloud cover)1. Recent data from about 8000 workers showed that 30% of those frequently working under workplace heat stress conditions report labour productivity losses.
+
+1 Wet-Bulb Globe Temperature (WBGT) is a way to measure how hot it really feels to the human body when we combine: air temperature (how hot the air is); humidity (how much water vapor is in the air); sunlight or other sources of radiant heat (direct sun and hot objects at work make it much hotter); and wind (the air flow from a breeze, a fan or natural ventilation can cool you down). This is more accurate than just looking at a thermometer, because our bodies are affected by heat, moisture, air flow and radiant heat combined.
+
+Are indoor workers at risk too?
+===============================
+
+Yes, indoor workers are at risk of heat stress. Examples are people working in occupations where they are exposed to very hot environments such as when furnaces are present or working in hot and humid environments, such as coal mining green houses. Even those working in manufacturing and service industries where there are no cooling devices are at risk. In addition, jobs involving intense physical activities and/or that require wearing full personal protective equipment or other types of special clothing, are likely to experience greater physiological heat strain.
+
+What temperature is safe for work?
+==================================
+
+To sustain an eight-hour work shift, core body temperature should not exceed 38°C. Sustaining higher core body temperatures raises the risk of heat-related injuries, primarily for people who are more vulnerable to heat such as older workers, individuals with chronic health conditions, pregnant women, people working outdoors or those performing very intense physical jobs.
+
+What warning signs should workers watch for?
+============================================
+
+Mild health outcomes include heat fatigue, miliaria (heat rash), syncope, and heat cramps. Severe health outcomes requiring emergency response include heat exhaustion and heat stroke. Heat stroke is a life-threatening condition defined by profound central nervous system dysfunction and severe hyperthermia.
+
+Who is most at risk?
+====================
+
+Middle-aged and older workers, individuals with chronic health conditions, and those with lower physical fitness are more susceptible to the effects of heat stress. However, unfavourable consequences have been observed even in low-risk individuals who follow sound heat mitigation procedures. International migrant workers are at higher risk as they often have less work experience, poorer perception of health risks, are not acclimatized to the local environment, and are more likely to work in manual labour occupations requiring outdoor work.
+
+What can be done to protect workers?
+====================================
+
+WHO recommends developing Occupational Heat Action Programmes that include occupational heat-health policies with tailored plans and advisories that consider local weather patterns, specific jobs, and worker vulnerabilities. This includes education and awareness raising for first responders, health professionals, employers and workers to recognize and properly treat heat stress symptoms, and engaging all stakeholders in co-creating heat-health strategies.

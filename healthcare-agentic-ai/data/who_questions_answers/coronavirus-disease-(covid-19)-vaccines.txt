@@ -1,0 +1,151 @@
+WHO QUESTIONS AND ANSWERS
+Title: COVID-19 vaccines
+URL: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-vaccines
+Retrieved: 2026-10-05T09:44:03.065225+00:00
+
+========================================
+
+This page answers the most frequently asked questions about COVID-19 vaccines.
+
+What vaccines protect against COVID-19?
+=======================================
+
+All COVID-19 vaccines listed by WHO as for emergency use or prequalified provide protection against severe disease and death resulting from COVID-19 disease.
+
+Currently, there are two types of COVID-19 vaccines that are being manufactured:
+
+- protein-based vaccines: these contain harmless fragments of proteins or protein shells that mimic the SARS-CoV-2 virus that causes COVID-19 to safely generate an immune response; and
+
+- mRNA vaccines: these are genetically engineered RNA which create proteins that safely activate an immune response.
+
+Who should get vaccinated (or revaccinated) against COVID-19?
+=============================================================
+
+WHO’s recommends routine COVID-19 vaccination for people at highest risk of severe COVID-19 disease. The following groups should get at least one dose per year, but two doses (about 6 months part) are preferred:
+
+- adults aged 75 years and older (or the age threshold defined by their country);
+
+- adults aged 60 years and older (or the age threshold defined by their country) who have significant comorbidities or severe obesity, including heart disease, diabetes, lung disease, kidney disease, liver disease and neurological conditions;
+
+- people living in care homes for older adults or other long-term care facilities; and
+
+- people aged 6 months and older who are moderately or severely immunocompromised, including people with cancer, HIV, organ transplants, or those taking medicines that suppress the immune system.
+
+Countries may also consider routine COVID-19 vaccination for additional groups based on local context and feasibility. For the following groups, WHO recommends at least one dose per year:
+
+- adults aged 60 years and older (or the age threshold defined by their country) who do not have underlying health conditions or severe obesity;
+
+- children, teenagers, and adults (not including among older adults) with significant comorbidities or severe obesity;
+
+- pregnant adolescents and adults; and
+
+- health workers and other care providers who have direct contact with persons at high risk of severe COVID-19.
+
+Additionally, countries may consider COVID-19 vaccination for previously unvaccinated healthy children between 6 to 23 months of age if there is documented significant burden in this age group. Revaccination is not routinely recommended for this group.
+
+Who should not be vaccinated against COVID-19?
+==============================================
+
+There are very few conditions that would exclude someone from being vaccinated. You should NOT be vaccinated if:
+
+- you have a history of severe allergic reactions/anaphylaxis to any of the ingredients in the COVID-19 vaccines; or
+
+- you have a fever over 38.5 ºC on the day of your vaccine appointment. Postpone until you have recovered.
+
+COVID-19 vaccines are safe for people taking blood thinners. However, prior to being vaccinated, inform the health staff administering the vaccine of any medication that you are taking.
+
+How long does protection from a COVID-19 vaccine last against severe disease and death?
+=======================================================================================
+
+Protection against severe disease and death is highest in the first few months after vaccination and then starts to decrease. Routine periodic COVID-19 vaccination helps sustain this protection, as immunity declines relatively quickly within six months after vaccination or infection.
+
+Can I still get COVID-19 after I have been vaccinated?
+======================================================
+
+Yes. While COVID-19 vaccines are highly effective against severe disease and death, they are less effective against mild disease.
+
+Therefore, vaccinated people can get infected with SARS-CoV-2 and may fall ill with COVID-19. This is known as a ‘breakthrough infection’ or ‘breakthrough case’. Breakthrough infections can happen with any vaccine and do not mean that the vaccine does not work.
+
+People who get COVID-19 after being vaccinated are much more likely to only experience mild symptoms as effectiveness against serious illness and death remains high. Protection wanes over time, so it’s important to stay updated with your shots as recommended by your health-care provider.
+
+Can children and adolescents get vaccinated against COVID-19?
+=============================================================
+
+While anyone can be infected with SARS-CoV-2, healthy children and adolescents are not at higher risk of severe disease and death. Vaccinating them post-pandemic has limited public health impact. However, COVID-19 vaccination may be offered to unvaccinated children aged 6–23 months in countries with documented significant burden in this age group. Revaccination is not routinely recommended for healthy children and adolescents.
+
+Children and adolescents at higher risk of severe COVID-19 are those who are immunocompromised, and countries should consider their routine COVID-19 vaccination from 6 months of age, regardless of whether previously unvaccinated or vaccinated (last dose > 6 months ago) with at least one dose per year, preferably two about 6 months apart. Either an mRNA variant-adapted (for those 6 months of age and older) or protein subunit variant-adapted COVID-19 vaccine (for those 12 years of age and older) can be used in children and adolescents who do not have contraindications to the vaccine. COVID-19 vaccines may be given concurrently, or at any time before or after other vaccines.
+
+Do all COVID-19 vaccines protect against SARS-CoV-2 virus variants/subvariants?
+===============================================================================
+
+Yes, all WHO emergency-use listed or prequalified COVID-19 vaccines provide protection against severe disease and death from circulating SARS-CoV-2 variants. Any of the approved COVID-19 vaccines can be used.
+
+Should I be vaccinated if I have had COVID-19?
+==============================================
+
+WHO recommends that individuals who previously had COVID-19 (more than 6 months ago) should be vaccinated following the national programme recommendations.
+
+Vaccination is recommended particularly for those at highest risk of severe disease such as older persons, adults with chronic diseases, individuals with immunocompromising conditions.
+
+Hybrid immunity – the immunity one receives from both vaccination and prior SARS-CoV-2 infection – enhances protection against the severe outcomes of future SARS-CoV-2 infections and offers longer protection than infection alone.
+
+Can I be revaccinated with a vaccine different from my previous dose?
+=====================================================================
+
+It is safe for you to receive a COVID-19 vaccine different from the one used for the previous dose(s).
+
+If you’re offered a different type of vaccine, you can go ahead and get vaccinated. Depending on the type of vaccine, using a different type of vaccine may provide better protection than using the same type of vaccine.
+
+Can I receive other vaccines on the same day as the COVID-19 vaccine?
+=====================================================================
+
+Yes, it is safe to receive other vaccines, such as the seasonal influenza vaccine, or those recommended during pregnancy, on the same day as the COVID-19 vaccine. This allows you to receive protection against several diseases in one visit.
+
+When given together, the vaccines should be injected in different injection sites.
+
+What are the side effects of COVID-19 vaccines?
+===============================================
+
+Like with any vaccine, some people will experience mild to moderate side effects after being vaccinated against COVID-19. This is a normal sign that the body is developing protection.
+
+Side effects of COVID-19 vaccines include local pain, redness and swelling at the injection site, fatigue, muscle and joint pain, or low-grade fever.
+
+Not everyone will experience side effects. Most side effects go away within a few days on their own. You can manage any side effects with rest, plenty of non-alcoholic liquids and taking medication to manage pain and fever, if needed.
+
+More serious or long-lasting side effects of COVID-19 vaccines are possible but extremely rare. National health authorities monitor vaccines to detect and respond to rare adverse events. At the regional and global level, WHO also supports countries in monitoring vaccine safety.
+
+How do we know that COVID-19 vaccines are safe and effective?
+=============================================================
+
+WHO’s Global Advisory Committee on Vaccine Safety (GACVS) monitors how approved vaccines behave in the real world to identify any signals of adverse events following immunization. GACVS is an independent group of experts providing authoritative, scientific advice to WHO on vaccine safety issues of global or regional concern.
+
+Unprecedented scientific collaborations allowed COVID-19 vaccine research, development, and authorizations to be completed in record time – to meet the urgent need for these vaccines during the acute phase of the pandemic – while maintaining high safety standards.
+
+Vaccines must be proven safe and effective in large Phase III clinical trials to prove that they meet internationally agreed benchmarks for safety and efficacy before they are introduced in national immunization programmes.
+
+Independent reviews of the efficacy and safety evidence are required by WHO for each vaccine candidate, including regulatory review and approval in the country where the vaccine is manufactured, before WHO considers it approved for emergency use listing or prequalification.
+
+Billions of people have received the COVID-19 vaccine to date, showing that the benefits of COVID-19 vaccinations outweigh the risks of getting ill with COVID-19.
+
+Can I get vaccinated against COVID-19 if I am pregnant?
+=======================================================
+
+Yes, WHO recommends a single dose of the COVID-19 vaccine during each pregnancy. Pregnant persons are at a higher risk from COVID-19, which can affect both them and the baby.
+
+Vaccination during pregnancy is safe. It also benefits the baby, as it allows the antibodies created to be passed from mother to child. These antibodies can also help protect the baby for the first few months of life.
+
+The COVID-19 vaccine can be safely given at any time during pregnancy to avoid missing opportunities. Vaccination in the mid-second trimester maximizes protection. Additionally, COVID-19 vaccines can be safely administered with other vaccines recommended during pregnancy (for example, seasonal influenza and maternal respiratory syncytial virus vaccine).
+
+Can I get a COVID-19 vaccine if I want to have a baby in the future?
+====================================================================
+
+Yes, you can get vaccinated if you are planning to get pregnant.
+
+There is no evidence that suggests the COVID-19 vaccines interfere with fertility.
+
+Can I get a COVID-19 vaccine if I am breastfeeding?
+===================================================
+
+If you are breastfeeding, you can get vaccinated against COVID-19 according to your national recommendations.
+
+None of the current COVID-19 vaccines have live virus in them. This means there is no risk of you passing COVID-19 to your baby through your breastmilk. In fact, the antibodies you get after vaccination may go through your breast milk and help to protect your baby.

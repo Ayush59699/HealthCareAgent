@@ -1,0 +1,68 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Corticosteroids, including dexamethasone
+URL: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-dexamethasone
+Retrieved: 2026-10-05T09:44:15.996233+00:00
+
+========================================
+
+I have COVID-19, should I be prescribed corticosteroids like dexamethasone?
+===========================================================================
+
+Corticosteroids are lifesaving medicines recommended for patients with severe or critical COVID-19*. They should be given along with other current standard of care treatments for COVID-19, which currently include oxygen and other medications.
+
+They should not be given to patients with non-severe* COVID-19. In rare circumstances, they can be harmful to these patients’ health.
+
+*A patient has severe COVID-19 when they have signs of pneumonia, severe respiratory distress, and their blood oxygen level is low. A patient has critical COVID-19 when they need life sustaining treatment, have acute respiratory distress syndrome, or have septic shock (evidence of injury to other organs). For more information, see Therapeutics and COVID-19: Living guideline, 10 November 2023.
+
+What are corticosteroids and how do they work against COVID-19?
+===============================================================
+
+Corticosteroids, including dexamethasone, have anti-inflammatory and immunosuppressant qualities that are used to treat a wide range of conditions. Patients with severe or critical COVID-19 develop an overstimulation of the immune system, which can be very harmful to their health. Corticosteroids reduce this overstimulation, which helps balance the immune system responses so that they are effective and do not cause damage to the person themselves.
+
+What is the benefit of corticosteroid treatment?
+================================================
+
+Current evidence comes from the combined results of 8 clinical trials, utilizing data from 7000 patients with low oxygen levels, which show that dexamethasone (or other corticosteroids) reduces COVID-19 deaths. Data from these studies show that deaths are reduced by 20% when patients with severe COVID-19 are given corticosteroid treatment during their illness. There is also a benefit in reducing the need for ventilation (putting patients on a machine to help with breathing).
+
+How are corticosteroids administered and what is the dosage?
+============================================================
+
+Corticosteroids are given as a pill or via injection, depending on formulation
+
+Patients with severe or critical COVID-19 should be given low dose corticosteroids for 7-10 days. The daily dose depends on the corticosteroid being used.
+
+Are corticosteroids suitable for anyone with COVID-19?
+======================================================
+
+WHO recommends that only patients who have severe or critical COVID-19 receive corticosteroids.
+
+Is dexamethasone prequalified by WHO?
+=====================================
+
+Yes, WHO has prequalified dexamethasone solution for injection. It is produced by 3 manufacturers for use in treating COVID-19 illness. Prequalification means that the drug has been assessed by WHO and deemed safe and effective in treating COVID-19 illness.
+
+Do patients receiving corticosteroids need monitoring?
+======================================================
+
+WHO recommends that all patients, even those without diabetes, should be monitored when taking corticosteroids. This is because corticosteroids can increase blood glucose (sugar) levels temporarily. High blood glucose levels caused by corticosteroids usually only require monitoring until the steroids are stopped.
+
+Certain patients should be monitored closely when receiving corticosteroids since they are at increased risk of developing complications. These include people with diabetes, cancer, open wounds following traumatic injuries, severe burns or malnourishment. Patients taking immunosuppressants/immunomodulators, those with severe immunodeficiencies and intravenous drug users should also be monitored.
+
+How expensive are corticosteroids? Are they widely available?
+=============================================================
+
+Corticosteroids are readily available at a low cost globally.
+
+Corticosteroids are included in the WHO Model Lists of Essential Medicines. The most commonly used corticosteroid, dexamethasone is an off-patent, common supportive treatment option and is generally affordable. WHO’s 2016 and 2019 surveys of different health facilities in low- and middle-income countries indicated that dexamethasone was available to patients at a median price of US$ 0.33 per 4mg/ml injection ampoules (range: US$ 0.13–3.5).
+
+What are the typical side effects of corticosteroids, including dexamethasone?
+==============================================================================
+
+Corticosteroids including dexamethasone are generally safe. Their benefits far outweigh the risks, particularly in patients with severe forms of pneumonia. Higher blood glucose levels (hyperglycaemia) can occur, and patients should be monitored for this, particularly if they have diabetes. Treatments are usually short, and even at high doses, corticosteroids are not associated with other serious side effects.
+
+Prolonged use (i.e., use for more than 2 weeks) may be associated with adverse events such as glaucoma, cataract, fluid retention, hypertension, psychological effects (e.g., mood swings, memory issues, confusion or irritation), weight gain, or increased risk of infections and osteoporosis.
+
+Can corticosteroids be used in children/the elderly/pregnant?
+=============================================================
+
+Yes, they can be used to treat sick children, the elderly and during pregnancy.

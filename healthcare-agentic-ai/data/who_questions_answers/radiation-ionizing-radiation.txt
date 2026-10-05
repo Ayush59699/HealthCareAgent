@@ -1,0 +1,85 @@
+WHO QUESTIONS AND ANSWERS
+Title: Radiation: Ionizing radiation
+URL: https://www.who.int/news-room/questions-and-answers/item/radiation-ionizing-radiation
+Retrieved: 2026-10-05T09:48:57.361906+00:00
+
+========================================
+
+Energy emitted from a source is generally referred to as radiation. Examples include heat or light from the sun, microwaves from an oven, X rays from an X-ray tube and gamma rays from radioactive elements. Ionizing radiation can remove electrons from the atoms, i.e. it can ionize atoms.
+
+What is ionizing radiation?
+===========================
+
+Ionizing radiation is radiation with enough energy that to remove tightly bound electrons from the orbit of an atom, causing that atom to become charged or ionized.
+
+Here we are concerned with only one type of radiation, ionizing radiation, which occurs in two forms: waves or particles.
+
+There are several forms of electromagnetic radiation, which differ only in frequency and wavelength:
+
+- heat waves
+
+- radio waves
+
+- infrared light
+
+- visible light
+
+- ultraviolet light
+
+- X rays
+
+- gamma rays.
+
+Longer wavelength, lower frequency waves such as heat and radio have less energy than shorter wavelength, higher frequency waves like X and gamma rays. Not all electromagnetic (EM) radiation is ionizing. Only the high frequency portion of the electromagnetic spectrum, which includes X rays and gamma rays, is ionizing.
+
+What makes radiation wave-like?
+===============================
+
+Most of the more familiar types of electromagnetic radiation, such as visible light and radio waves, exhibit “wave-like” behaviour in their interaction with matter. This energy is carried by oscillating electrical and magnetic fields that travel through space. This form of radiation is measurable though things like reflection and diffraction (ie: how particles pass around and through matter), and the transmission of radio signals that occurs when these waves transfer energy to the electrons in the material through which they are passing. These waves of electromagnetic radiation occur in packets called a photon. Photons are chargeless bundles of energy that travel in a vacuum at the speed of light, which is roughly 300 000 km/sec.
+
+What is the particle form of radiation?
+=======================================
+
+Particulate radiation is a form of ionizing radiation. This consists of atomic or subatomic particles (electrons, protons, etc.) that carry kinetic energy, or mass in motion. This comes in several forms, including alpha and beta particles.
+
+Alpha particles and beta particles are considered directly ionizing because they carry a charge and can, therefore, interact directly with atomic electrons through coulombic forces (i.e. like charges repel each other; opposite charges attract each other).
+
+The neutron is an indirectly ionizing particle because it does not carry an electrical charge. Ionization is caused by charged particles, which are produced during collisions with atomic nuclei.
+
+The third type of ionizing radiation includes gamma and X rays, which are electromagnetic, indirectly ionizing radiation. These are indirectly ionizing because they are electrically neutral (as are all electromagnetic radiations) and do not interact with atomic electrons through coulombic forces.
+
+What are isotopes?
+==================
+
+Atoms in their normal state are electrically neutral because the total negative charge of electrons outside the nucleus equals the total positive charge of the nucleus.
+
+Atoms with the same number of protons and different number of neutrons are called isotopes. An isotope may be defined as one, two or more forms of the same element having the same atomic number (Z), differing mass numbers (A) and the same chemical properties.
+
+These different forms of an element may be stable or unstable (radioactive). However, since they are forms of the same element, they possess identical chemical and biological properties.
+
+The simplest atom is the hydrogen atom. It has one electron orbiting a nucleus on one proton. Any atom with one proton in the nucleus is a hydrogen atom. Hydrogen-2 is called deuterium, hydrogen-3 is called tritium. However, while their chemical properties are identical their nuclear properties are quite different as only tritium is radioactive.
+
+What does activity mean when discussing radioisotopes?
+======================================================
+
+The activity of a radioisotope is simply a measure of how many atoms undergo radioactive decay per a unit of time. The International System of Units (SI) unit for measuring the rate of nuclear transformations is the becquerel (Bq). The becquerel is defined as 1 radioactive disintegration per second.
+
+The old unit for this is the curie (Ci), in honour of Pierre and Marie Curie, who discovered radium and polonium. The curie is based on the activity of 1 gram of radium-226, i.e. 3.7 x 1010 radioactive disintegrations per second.
+
+What is a dose of radiation and how is it measured?
+===================================================
+
+Only the energy from ionizing radiation that is imparted to (or absorbed by) the human body can cause harm to health. To understand its biological effects, we must know (or estimate) how much energy is deposited per unit mass of the part of our body with which the radiation is interacting.
+
+The international (SI) unit of measure for an absorbed dose is the gray (Gy), which is defined as 1 joule of energy deposited in 1 kilogram of mass. The old unit of measure for this is the rad, which stands for radiation absorbed dose. One gray is equal to 100 rads.
+
+The biological effect of this radiation depends not only on the amount of the absorbed dose but also on the intensity of the ionization in the living cells caused by different types of radiation. This is known as the equivalent dose. For example, neutron, proton and alpha radiation can cause 5-20 times more harm than the same amount of the absorbed dose of beta or gamma radiation.
+
+The unit of equivalent dose is the sievert (Sv). The old unit of measure is the rem. One sievert is equal to 100 rems.
+
+What are the sources of radiation exposure?
+===========================================
+
+Radiation is permanently present throughout the environment - in the air, water, food, soil and in all living organisms. In fact, a large proportion of the average annual radiation dose received by people results from natural environmental sources.
+
+Each person is exposed to an average of 2.4 mSv per year of ionizing radiation from natural sources. In some areas around the world the natural radiation dose may be 5 to 10-times higher for large number of people.

@@ -1,0 +1,131 @@
+WHO QUESTIONS AND ANSWERS
+Title: Vaccines and immunization: Vaccine safety
+URL: https://www.who.int/news-room/questions-and-answers/item/vaccines-and-immunization-vaccine-safety
+Retrieved: 2026-10-05T09:50:25.816828+00:00
+
+========================================
+
+Vaccination is one of the most effective ways to prevent diseases. Over the past 50 years, essential vaccines against just 14 diseases have saved at least 154 million lives (1). During the same period, vaccination has contributed to 40% of the drop in infant deaths. Together with governments, vaccine manufacturers, scientists and medical experts, WHO's vaccine safety programme is constantly helping monitor the safety of vaccines. This helps ensure that vaccines are safe for you and your family.
+
+How do we know that a vaccine is safe?
+======================================
+
+Most childhood vaccines have been in use for decades, with millions of people receiving them safely every year, routinely or in response to specific disease threats.
+
+Before any vaccine is introduced in a country, the vaccine undergoes rigorous and stringent testing through multiple phases of clinical trials. Health authorities carefully evaluate the results of these trials to help ensure that the vaccine meets the highest safety and efficacy standards before being considered suitable for use.
+
+Once vaccines are introduced and used in countries, national health authorities continuously monitor vaccine safety to detect and immediately respond to potential concerns. In case of an adverse event, details are collected from the event and an independent group of experts assesses whether such an event is related to vaccines or is due to other causes.
+
+WHO assists countries in strengthening vaccine safety monitoring and response systems. Countries share reports on adverse events with WHO. At the global level, the Global Advisory Committee on Vaccine Safety (GACVS), an independent group of experts, evaluates these reports and provides authoritative and scientific advice to WHO.
+
+Are there side effects from vaccines?
+=====================================
+
+Vaccines are very safe. Like any medicine, vaccines can cause side effects. However, these are usually very minor and of short duration, such as a sore arm or a mild fever. More serious side effects are possible but extremely rare. If you or your child has an unexpected reaction after vaccination, consult with your health-care worker.
+
+A person is far more likely to be seriously harmed by a disease than by a vaccine. Vaccine-preventable diseases like measles, meningitis, hepatitis B or polio can be deadly or cause severe illness and disability. Possible complications of these diseases can include blindness, deafness, paralysis, brain damage, infertility, cancer, birth defects and death.
+
+What is an Adverse Event Following Immunizaton (AEFI)
+=====================================================
+
+An Adverse Event Following Immunization (AEFI) is any unexpected medical issue that happens after a person gets a vaccine. The issue could be a symptom, an unusual test result, a coincidental illness or something unrelated. An AEFI doesn’t necessarily mean the vaccine caused it. Only in extremely rare cases is the vaccine found to be the cause of the AEFI.
+
+In the very rare cases when a vaccine causes an AEFI, it may be due to a reaction to the vaccine itself or an error such as improper storage. Immunization programmes take all necessary steps to ensure vaccines are stored, handled and given safely, and that any rare reactions are promptly investigated and managed.
+
+How are vaccines tested?
+========================
+
+Every vaccine is carefully tested at each step to ensure it is safe and effective before it is approved for use.
+
+A promising vaccine candidate will first undergo laboratory testing. This includes careful examination and testing of the vaccine candidate and its ingredients. These tests evaluate the safety of the vaccine candidate and how well it prevents a disease.
+
+If positive results are achieved in the laboratory, a manufacturer can then apply to do clinical trials. These trials typically involve following up with several thousands of vaccinated healthy volunteers. The trials are also carefully monitored by national regulatory authorities.
+
+The trials are bound by strict regulations and take place across three main phases:
+
+- During Phase I, small groups (for instance, approximately 20-50 people) receive the vaccine. This phase will assess the safety, side effects, appropriate dosage, method of administration and composition of the vaccine.
+
+- If it is successful, it will proceed to Phase II. At this stage, the vaccine is usually given to several hundred people. This group will have the same characteristics (e.g. age, sex) as the people for whom the vaccine is intended to be given.
+
+- In Phase III, the vaccine is usually given to thousands of people to help ensure it is safe and effective for broader use.
+
+The results of all these studies will be assessed when regulators decide whether to approve a vaccine.
+
+Additional studies may also take place after a vaccine is introduced. They enable scientists to monitor efficacy and safety among an even larger number of people over a longer timeframe.
+
+How are vaccines approved for public use?
+=========================================
+
+In countries where vaccines are manufactured, national or regional regulators oversee the vaccine’s development. This includes approving clinical trials, evaluating their results, and making decisions on licensing. All decisions must adhere to strict international standards on ethical clinical practice.
+
+The national regulatory authority (NRA) of each country decides if a vaccine will be introduced in the country’s immunization programme. To assist NRAs, WHO offers a process called prequalification. Prequalification facilitates informed decision-making on the approval and procurement of vaccines, especially in countries with limited resources for conducting extensive evaluations.
+
+In prequalification, WHO independently assesses evidence on the quality, safety, and efficacy of vaccines and other medical products, helping ensure that only those that meet stringent international standards are used in public health programmes.
+
+How is vaccine safety monitored?
+================================
+
+Like all medicines, vaccines continue to be monitored for safety even after they have been tested in clinical trials and introduced for public use.
+
+Vaccine safety is monitored at local, national, regional and global levels. WHO works closely with vaccine manufacturers, health authorities, national advisory committees and other partners to monitor, quickly detect and review any possible safety concerns.
+
+WHO helps countries build and strengthen robust vaccine safety systems, enabling national immunization programmes and regulatory agencies to detect and respond to vaccine safety issues.
+
+When a serious event happens after vaccination, independent experts carefully assess whether it is related to the vaccine or due to another cause.
+
+Globally, WHO supports countries through the Uppsala Monitoring Centre, a WHO collaborating centre in Sweden, which collects reports of vaccine safety events worldwide; and the Global Advisory Committee on Vaccine Safety (GACVS), an independent group of experts that reviews vaccine safety data and advises WHO.
+
+What happens if a problem is suspected with a vaccine?
+======================================================
+
+If a potential problem is identified following vaccination, a thorough investigation will take place. Investigations involve a detailed examination of the case, including medical assessment. If necessary, studies are conducted.
+
+During these investigations, it is extremely rare that health problems are found to be caused by the vaccine itself. Health events are most often found to be coincidental, i.e. entirely unrelated to vaccination.
+
+Sometimes, events are related to how the vaccine has been stored, transported or administered (for instance, errors are made in preparing the vaccine). Such errors can be prevented by training health workers and strengthening vaccination programmes.
+
+In the rare cases where a genuine adverse reaction is suspected, the vaccine may be suspended from use. Further investigations will take place to determine what exactly caused the event. Programmes will then need to put corrective measures in place.
+
+How does WHO help ensure vaccine safety?
+========================================
+
+WHO works to ensure that everyone, everywhere, is protected by safe and effective vaccines.
+
+To do this, WHO helps countries set up rigorous safety systems for vaccines – alongside other medicines – and work to develop the strictest standards for their regulation.
+
+Together with external scientists, WHO experts continuously monitor and update the safety profile of vaccines. With external partners, it also helps countries investigate and communicate if potential issues of concern arise.
+
+Events that are reported to WHO are evaluated by an independent group of experts (the Global Advisory Committee on Vaccine Safety, or GACVS). On behalf of this Committee, WHO issues regular statements on vaccine safety.
+
+Is there a link between vaccines and autism?
+============================================
+
+No. Extensive research has shown that vaccines do not cause autism. Many large, high-quality studies conducted in different countries and involving large populations have all reached the same conclusion.
+
+The concern started with a 1998 study that suggested a link between the MMR (measles, mumps, rubella) vaccine and autism. The study was later proven to be wrong and fraudulent. The journal that published it withdrew the study, and the doctor who authored it lost his medical license. Unfortunately, the fear that the study created caused some parents to stop vaccinating their children, which led to outbreaks of diseases that the vaccine could have prevented.
+
+For more information, refer to the WHO fact sheet on autism.
+
+What is thiomersal, and is it safe in vaccines?
+===============================================
+
+Thiomersal (also called thimerosal) is a preservative in some multi-dose vaccine vials. It helps prevent germs from getting into the vial each time a dose is drawn.
+
+Thiomersal contains ethylmercury, which does not accumulate in the body because it is broken down and eliminated quickly. Ethylmercury is different from methylmercury, the type of mercury that can accumulate in certain fish and seafood and can pose health risks.
+
+Extensive research shows that the small amount of thiomersal used in vaccines does not cause harm. There is no link between thiomersal and autism or other neurodevelopmental disorders.
+
+Are aluminium-containing vaccines safe?
+=======================================
+
+Yes. WHO continues to review scientific evidence and confirms that aluminium-containing vaccines are safe.
+
+Aluminium salts have been safely used in some vaccines for decades. They are added to vaccines as adjuvants, compounds that help the body build a stronger and longer-lasting immune response.
+
+The amount of aluminium in vaccines is very small and much less than people are naturally exposed to over time. The total exposure to aluminium salts in the entire routine childhood vaccine schedule is far lower than from a normal diet.
+
+Extensive research, including a recent study of over one million children (2), has found no link between aluminium-containing vaccines and any serious health problems, including autism.
+
+1. Contribution of vaccination to improved survival and health: modelling 50 years of the Expanded Programme on Immunization. Shattock, Andrew J et al. The Lancet, Volume 403, Issue 10441, 2307 - 2316. https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)00850-X/fulltext
+
+2. Aluminum-Adsorbed Vaccines and Chronic Diseases in Childhood: A Nationwide Cohort Study. Andersson, Niklas W et al. Ann Intern Med. [Epub 15 July 2025]. doi:10.7326/ANNALS-25-00997

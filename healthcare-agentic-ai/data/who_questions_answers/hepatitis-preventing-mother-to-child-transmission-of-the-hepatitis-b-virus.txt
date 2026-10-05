@@ -1,0 +1,121 @@
+WHO QUESTIONS AND ANSWERS
+Title: Hepatitis: Preventing mother-to-child transmission of the hepatitis B virus
+URL: https://www.who.int/news-room/questions-and-answers/item/hepatitis-preventing-mother-to-child-transmission-of-the-hepatitis-b-virus
+Retrieved: 2026-10-05T09:46:28.059161+00:00
+
+========================================
+
+Hepatitis B is a viral infection that affects the liver and can cause both acute and chronic infection. Most people with HBV infection do not experience any symptoms when newly infected. A proportion of people develop chronic infection, which can then lead to progressive liver disease and result in cirrhosis (a scarring of the liver) or liver cancer. Chronic infection occurs in the majority (90%) of infants infected from their mothers or before 5 years of age. Those infected after the age of five years are much less likely (<5%) to develop a chronic infection.
+
+What is hepatitis B virus (HBV) infection?
+==========================================
+
+Hepatitis B is a viral infection that affects the liver and can cause both acute and chronic infection. Most people with HBV infection do not experience any symptoms when newly infected. A proportion of people develop chronic infection, which can then lead to progressive liver disease and result in cirrhosis (a scarring of the liver) or liver cancer. Chronic infection occurs in the majority (90%) of infants infected from their mothers or before 5 years of age. Those infected after the age of five years are much less likely (<5%) to develop a chronic infection.
+
+What is the global burden of HBV?
+=================================
+
+Worldwide, WHO estimates that 257 million people are currently living with chronic HBV infection worldwide, placing them at risk of serious illness and death from cirrhosis and liver cancer. Each year, WHO estimates that chronic HBV infection causes nearly 900 000 deaths, mostly through complications such as cirrhosis and liver cancer. The countries with the highest prevalence are in the WHO African and Western Pacific Regions, and the countries with the lowest prevalence are in the Region of the Americas and the European Region.
+
+How is HBV infection diagnosed?
+===============================
+
+It is not possible, on clinical grounds, to differentiate hepatitis B from hepatitis caused by other viruses. Laboratory confirmation of the diagnosis is therefore needed.
+
+Chronic infection is diagnosed by a positive test for the surface antigen of HBV (HBsAg). When a person tests positive for HBsAg, an HBV DNA test should also be done to determine how high the viral load is. Those with a high HBV viral load and with raised liver enzymes may need to be put on long-term antiviral treatment for their own health. Persons with cirrhosis are also in need of treatment. However, only a proportion of people with chronic HBV infection will require treatment. If the HBV DNA test is not available, a test for e-antigen of HBV (HBeAg) is sometimes used to give a less accurate indication of the level of virus in the blood.
+
+How is HBV transmitted and who is most at risk of contracting HBV infection?
+============================================================================
+
+Hepatitis B is spread mainly through exposure to various body fluids, including blood, saliva, menstrual, vaginal, and seminal fluids. Worldwide, the virus is most commonly spread from mother-to-child during birth (vertical transmission) as well as through horizontal early childhood transmission, and these routes of HBV transmission are responsible for most chronic infections. Transmission can also result from unsafe injections and poor infection control practices during medical, surgical, and dental procedures, sexual transmission among men who have sex with men, and through unscreened blood donations.
+
+How important is mother-to-child transmission of hepatitis B?
+=============================================================
+
+Worldwide, the most common route of transmission of hepatitis B is mother-to-child during birth (vertical transmission) as well as through horizontal early childhood transmission. These routes of HBV transmission are also responsible for most chronic infections. Therefore, prevention of these infections from mother-to-child or early childhood transmission is the most important strategy to control the HBV epidemic. Transmission of HBV from mother to child is more common in children born to women who have a high level of hepatitis B virus in the blood (known as HBV viral load).
+
+In the absence of any preventive interventions, the risk of transmission from mother to child ranges from 70% to 90% for mothers with high HBV viral load (or are HBeAg-positive) and from 10% to 40% for those that are HBeAg negative. These high maternal concentrations of HBV DNA (viral load) are associated with an elevated risk of transmission, even among infants who receive the hepatitis B vaccine. For this reason, pregnant women with high HBV DNA levels may benefit from antiviral prophylaxis during pregnancy to prevent mother-to-child transmission and protect their infants from becoming infected.
+
+Can HBV infections be prevented?
+================================
+
+Yes, there is a safe and effective vaccine. Three doses provide 98%-100% protection against HBV infection. WHO recommends that all infants receive a first dose of the hepatitis B vaccine as soon as possible after birth, preferably within 24 hours. This birth dose should be followed by at least 2 additional doses, given at least 4 weeks apart. Protection lasts at least 20 years and is probably lifelong. Since 1992, WHO has recommended the inclusion of the hepatitis B vaccine as part of routine vaccination services through the Expanded Programme on Immunization. Infant hepatitis B immune globulin (HBIG) prophylaxis (preventive treatment) shortly after birth and preventive maternal peripartum prophylaxis (preventive treatment) antivirals can provide additional protection to that provided by a timely birth dose of hepatitis B vaccine.
+
+Globally, what proportion of children have received the hepatitis B vaccine?
+============================================================================
+
+Major progress in the global response to HBV infection has been made through the expansion of routine hepatitis B vaccination. In 2019, coverage of 3 doses of the vaccine reached 85% worldwide compared to around 30% in 2000. However, coverage of the hepatitis B vaccine birth dose remains uneven. For example, coverage of the birth dose is 43% globally and only 6% in the WHO African Region. According to latest WHO estimates, the proportion of children under five years of age chronically infected with HBV dropped to just under 1% in 2019 down from around 5% in the pre-vaccine era (the period between the 1980s and the early 2000s).
+
+Why are new guidelines on use of antivirals to prevent mother-to-child transmission needed?
+===========================================================================================
+
+WHO already recommends that all infants receive their first dose of hepatitis B vaccine as soon as possible after birth, preferably within 24 hours, and that the birth dose be followed by at least 2 additional doses of hepatitis B vaccine, administered at least four weeks apart. In the 2015 WHO guidelines for prevention, care and treatment of persons with chronic HBV infection, no recommendation was made for the additional use of antiviral therapy to prevent mother-to-child HBV transmission. This was because of the still limited and low-quality evidence base with several ongoing trials, and the lack of consensus as to the programmatic implications of a policy for more widespread use of antivirals in pregnancy.
+
+The new recommendations were prompted by 3 key developments. First, additional evidence has become available on the efficacy and safety of antiviral prophylaxis in pregnant women and their children. Second, WHO has received requests for updated guidance from countries and regions that had already achieved high birth dose and infant vaccination coverage but had not yet achieved the 2030 WHO elimination target of less than 0.1% prevalence of HBV in 5-year-old children. Third, data from epidemiological studies and modelling suggest that infant vaccination alone would insufficient to reach the WHO goal of 0.1% HBsAg prevalence in children by 2030, and that antiviral prophylaxis for pregnant women may also be needed in some contexts.
+
+What are the new WHO recommendations for the prevention of mother-to-child transmission of HBV infection?
+=========================================================================================================
+
+There are 2 new recommendations:
+
+1. In addition to the series of hepatitis B vaccinations (including a first dose within 24 hours of birth), WHO now recommends that pregnant women testing positive for HBV infection (HBsAg positive) with an HBV DNA viral load threshold of ≥5.3 log10 IU/mL (≥200,000 IU/mL) receive tenofovir prophylaxis; the preventive therapy should be provided from the 28th week of pregnancy until at least birth. (conditional recommendation, moderate quality of evidence).
+
+2. In settings where antenatal HBV DNA testing is not available, WHO now recommends the use of HBeAg testing as an alternative to determine eligibility for tenofovir prophylaxis for the prevention of mother-to-child transmission of HBV (conditional recommendation, moderate quality of evidence). This is because some settings have poor access to tests that quantify an individual’s HBV viral load and determine whether a pregnant woman would be eligible for preventive treatment or prophylaxis. This is especially the case in low-income settings or, rural areas where many antenatal care visits take place.
+
+Pregnant women should first be assessed for eligibility for long-term antiviral treatment based on their own health needs. If this is the case, the treatment they will receive will also ensure prophylaxis. The indications for treatment in HBV-infected pregnant women are the same as that for non-pregnant adults, and are outlined in the 2015 Guidelines for the prevention, care and treatment of persons with chronic hepatitis B infection
+
+What is the evidence to support these new recommendations?
+==========================================================
+
+Evidence to inform the recommendations included two commissioned systematic reviews and meta-analyses, impact and cost-effectiveness modelling, an assessment of the overall balance of benefits and harms (at individual and population levels), patient/health worker values and preferences, resource use, cost-effectiveness, considerations on equity and human rights, and considerations of feasibility across the different WHO regions.
+
+A WHO-commissioned systematic review of 129 studies showed a substantial protective effect of using antiviral prophylaxis in preventing mother-to-child transmission in infants born to HBV-infected women, regardless of the antiviral used. Tenofovir disoproxil fumarate (TDF) is the medicine of choice for treatment of chronic hepatitis B infection and also prevention of mother-to-child transmission, and has a high barrier to development of drug resistance. Use of TDF was also safe.
+
+The Guidelines Development Group also determined an HBV DNA viral load threshold of ≥5.3 log10 IU/mL (≥200,000 IU/mL) at which pregnant women are eligible to receive tenofovir prophylaxis. This is because pregnant woman with a viral load above this level may transmit HBV to their infant even when the infant receives the timely birth dose vaccine, HBIG and completes the full hepatitis B vaccine series.
+
+Although HBV DNA measurement is the reference method to determine eligibility for tenofovir prophylaxis, the use of HBeAg was recommended as an acceptable alternative test in settings where access to HBV DNA quantification is limited. This was based on a further systematic review that showed the overall sensitivity and specificity of HBeAg for diagnosis of high HBV viral load (defined as ≥5.3 log10 IU/mL) was 88.2% (95% CI: 83.9–91.5) and 92.6% (95% CI: 90–94.5) respectively. Overall, HBeAg has a high sensitivity but lower specificity for predicting the risk of mother-to-child transmission. A global values and preferences survey showed a broad level of acceptability of HBV testing in pregnant women with use of antivirals in those eligible, but concerns about potential costs.
+
+How feasible will it be to implement these new recommendations?
+===============================================================
+
+Experience from elimination of mother-to-child transmission of HIV and syphilis suggests that providing testing for pregnant women followed by antiviral prophylaxis for eligible women to prevent infection is feasible. Programmes aimed at preventing mother-to-child transmission of HIV are the most mature and have shown remarkable success. For example, by the end of 2018, approximately 79% of pregnant women globally knew their HIV status, and 82% of those who tested positive for HIV received treatment. However, although the majority of women are offered HIV testing at antenatal care visits, the same is not yet true for syphilis or HBV testing.
+
+An online consultation held in 2019 as part of the guidelines development process among 153 health care workers, 56 programme managers and 81 civil society representatives reported that 77% of respondents felt it was feasible to provide HBV testing and offer eligible pregnant women tenofovir prophylaxis. Challenges reported by stakeholders included the high cost and low availability of HBV viral load assessment, inadequate training of health care workers, limited knowledge of HBV infection among women living with HBV infection, and a lack of capacity and infrastructure to test and treat pregnant women. These issues will need to be addressed to enable full implementation of routine testing of all pregnant women, as well as the use of antivirals in those with high HBV viral load or HBeAg status.
+
+What are the key messages for countries and regions?
+====================================================
+
+WHO regions are faced with different scenarios with respect to prevalence of HBV infection, service coverage of immunization (including birth dose), and in availability of commodities for diagnostics, antiviral prophylaxis and treatment. The implementation of the different recommendations to prevent mother-to-child transmission may therefore vary by region.
+
+Universal immunization of infants with the HBV vaccine, including a timely birth dose, is the foundation of programmes to prevent HBV infection at birth and in the first years of life in all settings. Countries that have not yet reached the 2020 goal of 1% HBsAg prevalence among children aged 5 years through vaccination should focus their efforts on increasing their coverage of infant hepatitis B vaccination, and a timely birth dose. This applies particularly to the African and Eastern Mediterranean region.
+
+However, for regions and countries that have already achieved a high coverage of hepatitis B infant vaccination, and the birth dose, implementation of these new recommendations for peripartum tenofovir prophylaxis in pregnant women with high viral loads would help further prevent perinatal HBV infections. This applies particularly to countries in the Regions of the Western Pacific and South East Asia. In the Americas and the European region, testing in view of prophylaxis is already been used and these guidelines can provide an additional reference.
+
+What are the cost-effectiveness considerations?
+===============================================
+
+Scaling up access to a timely birth dose of the hepatitis B vaccine is the most cost-effective option for preventing infection; this single intervention delivers the greatest health benefit for the lowest cost. However, in countries that have already achieved high hepatitis B vaccination coverage and, as a result, reduction in infections due to horizontal transmission in early childhood, mother-to-child vertical infections now account for a higher proportion of the remaining transmission. In these settings, routine testing for HBV infection among pregnant women, and providing tenofovir prophylaxis for those who are eligible, is an additional opportunity to prevent mother-to-child transmission of HBV. This complementary intervention may be cost-effective in some regions depending on the costs of diagnostics (ie. HBV DNA or HBeAg), and on how such a strategy is implemented.
+
+Are any countries already implementing the new recommendations?
+===============================================================
+
+Countries in several regions with a low burden of HBV infection have gained some experience in the use of peripartum prophylaxis, especially in the Americas, Western Pacific and Europe. Further expanded implementation of the recommendations for peripartum prophylaxis would prevent more perinatal HBV infections.
+
+In the WHO Region of the Americas, in 2017, 24 countries were routinely testing pregnant women for HBsAg, and 22 countries providing HBIG for exposed newborns.
+
+In the WHO European Region (mostly high-income countries with low baseline prevalence of HBV infection) some countries have not implemented universal hepatitis B vaccination but instead rely on testing all pregnant women and then providing targeted birth dose vaccine to children born to HBsAg-positive mothers.
+
+In the WHO South East Asian Region, antiviral prophylaxis has been used in certain countries where HBV is highly endemic and mother-to-child transmission is common, such as in Thailand.
+
+In the WHO Western Pacific Region, despite achieving overall high vaccination coverage including birth dose, there are some countries that still have a very high HBV prevalence in the general population and also large populations. As a result, breakthrough infections that occur despite vaccination still account for a significant number of mother-to-child infections. A number of these countries have spearheaded efforts to further reduce mother-to-child transmission, including the use of antiviral prophylaxis and follow up of exposed infants. For example, in China, universal antenatal testing for HIV, hepatitis B and syphilis has been offered since 2011, and comprehensive interventions including antiviral prophylaxis were established in three provinces as part of pilot projects on triple elimination. Other countries, have established pilot projects for the elimination of mother-to-child transmission (EMTCT) of HBV in four states (Malaysia), updated national guidelines for EMTCT to include HBV and HCV (Mongolia), developed triple elimination national action plans (Cambodia and Vietnam) or frameworks (Philippines and Papua New Guinea).
+
+In the WHO African and Eastern Mediterranean Regions, experience with peripartum prophylaxis is still very limited, and the priority is to expand coverage of vaccination that remains heterogeneous.
+
+What is ‘triple elimination” and are any regions implementing triple elimination of HIV, syphilis and hepatitis B?
+==================================================================================================================
+
+‘Triple elimination’ is an initiative that promotes the elimination of mother-to-child transmission of three infections - HIV, syphilis and hepatitis B virus, which are all prevalent in low- and middle-income countries. Two WHO regions – the Region of the Americas and also the Western Pacific Region – have triple elimination plans and a framework for triple elimination.
+
+In 2016, the WHO Region of the Americas endorsed “EMTCT Plus,” a new framework for the elimination of mother-to-child transmission of HIV, HBV, syphilis, and Chagas disease. Several countries in this region have introduced antiviral prophylaxis for pregnant women.
+
+In 2017, the WHO Regional Committee of the Western Pacific Region endorsed the Regional framework for the triple elimination of mother-to-child transmission of HIV, hepatitis B and syphilis in Asia and the Pacific, 2018–2030. The framework proposes a coordinated approach to combatting these 3 diseases through access to quality reproductive, maternal, newborn and child health care. A number of countries in the region including China are spearheading this effort and have developed triple elimination national action plans and frameworks.

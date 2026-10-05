@@ -1,0 +1,63 @@
+WHO QUESTIONS AND ANSWERS
+Title: Questions and answers on Zika Virus Vaccine Target Product Profile (TPP)
+URL: https://www.who.int/news-room/questions-and-answers/item/questions-and-answers-on-zika-virus-vaccine-target-product-profile
+Retrieved: 2026-10-05T09:48:51.674203+00:00
+
+========================================
+
+What was the process for developing the WHO TPP?
+================================================
+
+The general overview and process for developing WHO TPPs is available on the WHO website. Consistent with the standard approach, a Working Group of PDVAC was constituted to develop a draft TPP in April 2016, following declaration of a WHO Public Health Emergency of International Concern (PHEIC). The document underwent an open public comment period and was discussed in a WHO stakeholder consultation in Geneva. The first iteration was published in July 2016. Following the declaration that the PHEIC was over, WHO Secretariat and the PDVAC Working Group revised the TPP, opened a second public comment period, and it was discussed at a WHO/NIH joint meeting on Zika vaccine development. The revised TPP was published in February 2017.
+
+For which scenario is this TPP relevant?
+========================================
+
+The scenario faced in 2016 and today is that of outbreak response. In the context of an ongoing epidemic or an imminent outbreak of ZIKV, a mass vaccination campaign will help to prevent ZIKV-associated disease in women of reproductive age. The primary public health objective of vaccination in this scenario is the prevention of prenatal ZIKV infection, associated microcephaly, other nervous system malformations and pregnancy-related complications.
+
+What kind of vaccine is WHO asking for, and for whom?
+=====================================================
+
+In emergencies, we focus on the prevention of the most devastating disease manifestation which, in the context of Zika, is congenital Zika syndrome (CZS). This is a condition occurring in newborns and infants who were exposed to Zika virus infection in utero. For this reason, the priority population to protect through vaccination is women of childbearing age so that when pregnant they do not become infected with Zika virus.
+
+Because women of childbearing age may include women who are unknowingly pregnant, or even knowingly pregnant depending on the risk of disease and the benefit/risk profile of the vaccine, WHO’s preference is for non-replicating platforms with no documented safety concerns from use during pregnancy, such as inactivated whole, subunit based and those that use alum as adjuvant. It is also anticipated that these vaccines, which already have licensed vaccines in their class, would be faster to license by a regulatory authority than a novel vaccine platform. However, it is considered important that there be no contraindication for use during pregnancy or in lactating women, and the vaccine should be safe and effective regardless of prior flavivirus exposure.
+
+However, the TPP also outlines minimal criteria for a vaccine that support development of other platforms, such as DNA/RNA vaccine platforms, viral vectored vaccines, and new adjuvants. These products may also have favourable characteristics with respect to production capabilities or duration of protection.
+
+If, when a vaccine becomes available, vaccine supply is limited, then vaccine will be prioritized for women of child-bearing age. However, there are good reasons to vaccinate males as well, such as to prevent sexual transmission, and should vaccine supply not be limited, males of the same ages should also be included in the target population. Depending on the vaccine candidate and the risk of disease, off-label vaccination of pregnant women could be considered by public health agencies.
+
+Does WHO discourage development of other platforms/approaches?
+==============================================================
+
+No. It is not WHO’s intent to discourage development of replication competent approaches, or novel platforms for ZIKV vaccine development. These may be critical tools for the prevention of Zika outside the current outbreak context. For example, if ZIKV is or becomes a disease transmitted at younger ages, a vaccine platform may be prioritized that induces long-term, even life-long durability to protect women during their child-bearing years. Live, replicating platforms are likely to be prioritized in this scenario. Thus, investments in a wide range of platforms, even those that do not meet all preferred criteria in the WHO TPP, are strongly encouraged.
+
+WHO is committed to supporting vaccine development and innovative approaches. In the WHO Mission and Vision for 2015-2030, WHO outlines three strategic directions to support product development:
+
+1. Promote the development of new vaccines and vaccine delivery technologies to meet public health priorities,
+
+2. Establish norms and standards for vaccines and delivery technologies, and
+
+3. Ensure vaccines and delivery technologies are of assured quality.
+
+WHO will continue to support activities to meet these directions across public health priority pathogens.
+
+Is WHO expecting clinical trials to demonstrate vaccine protection against congenital Zika syndrome?
+====================================================================================================
+
+The public health value proposition for a Zika vaccine is to prevent congenital ZIKV syndrome through the protection of pregnant women against Zika virus infection. However, this value proposition is different than what is expected in the clinical development program and indication.
+
+It is preferred that vaccine candidates demonstrate vaccine efficacy of at least 80% against virologically-confirmed ZIKV illness, or even against infection if this can be adequately measured. If vaccine efficacy cannot be measured due to lack of ZIKV transmission, and if a surrogate of immunity is established through animal models or cohort studies, this could be sufficient to warrant use of the vaccine. Pending study approval by regulatory authorities, data from a human challenge model may complement immunogenicity data.
+
+It is expected that vaccine prevention of CZS and GBS can be demonstrated only in post-licensure studies.
+
+What are other scenarios in which a Zika vaccine might be important?
+====================================================================
+
+The second scenario is routine/endemic transmission use. Although there is insufficient evidence to characterize whether endemic transmission is occurring in various parts of the world, it is possible that Zika circulation could mimic something like Rubella, in which childhood vaccination could be envisaged as a way to increase population and long-term protection of females to prevent cases of CZS.
+
+There are currently insufficient data to inform a TPP for routine/endemic use. If and when sufficient data become available to warrant and develop a TPP for routine use, WHO will do so.
+
+What is WHO doing to support development of a Zika vaccine?
+===========================================================
+
+The Zika R&D activities are coordinated under WHO’s R&D Blueprint for Action to Prevent Epidemics. This is a strategic plan which allows the R&D community and regulators to fast-track the availability of effective diagnostic tests, vaccines and medicines that can be used to save lives for diseases for which few or no medical countermeasures exist. Zika is one of a number of priority diseases to benefit from the Blueprint.

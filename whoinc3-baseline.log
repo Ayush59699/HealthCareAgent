@@ -1,0 +1,173 @@
+s..........Cloud structured output rejected (agent_validation_failure); attempt 1
+Cloud structured output rejected (agent_validation_failure); attempt 2
+.................................................................................................................................................................................C:\Users\Hp\AppData\Local\Programs\Python\Python313\Lib\copy.py:220: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x000001F1AF7B0130>
+  memo[id(x)] = y
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.....................................................................................................................................................................................................................................usage: python.exe -m unittest [-h] [--queries QUERIES] [--top-k TOP_K]
+                              [--medical-top-k MEDICAL_TOP_K]
+                              [--max-requests MAX_REQUESTS]
+                              [--max-seconds MAX_SECONDS]
+                              [--max-request-bytes MAX_REQUEST_BYTES]
+                              [--data-dir DATA_DIR]
+                              [--patient-storage-path PATIENT_STORAGE_PATH]
+                              [--output-dir OUTPUT_DIR]
+python.exe -m unittest: error: Query counts, top-k and request budgets must be positive
+usage: python.exe -m unittest [-h] [--queries QUERIES] [--top-k TOP_K]
+                              [--medical-top-k MEDICAL_TOP_K]
+                              [--max-requests MAX_REQUESTS]
+                              [--max-seconds MAX_SECONDS]
+                              [--max-request-bytes MAX_REQUEST_BYTES]
+                              [--data-dir DATA_DIR]
+                              [--patient-storage-path PATIENT_STORAGE_PATH]
+                              [--output-dir OUTPUT_DIR]
+python.exe -m unittest: error: Time budget must be positive and finite
+usage: python.exe -m unittest [-h] [--queries QUERIES] [--top-k TOP_K]
+                              [--medical-top-k MEDICAL_TOP_K]
+                              [--max-requests MAX_REQUESTS]
+                              [--max-seconds MAX_SECONDS]
+                              [--max-request-bytes MAX_REQUEST_BYTES]
+                              [--data-dir DATA_DIR]
+                              [--patient-storage-path PATIENT_STORAGE_PATH]
+                              [--output-dir OUTPUT_DIR]
+python.exe -m unittest: error: Query counts, top-k and request budgets must be positive
+...................usage: python.exe -m unittest [-h] [--samples {1,2,3} [{1,2,3} ...]]
+                              [--artifacts ARTIFACTS] [--data-dir DATA_DIR]
+                              [--output OUTPUT]
+python.exe -m unittest: error: unrecognized arguments: --candidate-depth 100
+.........................usage: python.exe -m unittest [-h] [--samples {1,2,3} [{1,2,3} ...]]
+                              [--artifacts ARTIFACTS] [--data-dir DATA_DIR]
+                              [--output OUTPUT]
+python.exe -m unittest: error: unrecognized arguments: --batch-size 16
+............usage: python.exe -m unittest [-h] --output OUTPUT
+                              --authorized-preflight AUTHORIZED_PREFLIGHT
+python.exe -m unittest: error: unrecognized arguments: --batch-size 4
+usage: python.exe -m unittest [-h] --output OUTPUT
+                              --authorized-preflight AUTHORIZED_PREFLIGHT
+python.exe -m unittest: error: unrecognized arguments: --prefix 4
+usage: python.exe -m unittest [-h] --output OUTPUT
+                              --authorized-preflight AUTHORIZED_PREFLIGHT
+python.exe -m unittest: error: unrecognized arguments: --samples 4
+usage: python.exe -m unittest [-h] --output OUTPUT
+                              --authorized-preflight AUTHORIZED_PREFLIGHT
+python.exe -m unittest: error: unrecognized arguments: --workers 4
+usage: python.exe -m unittest [-h] --output OUTPUT
+                              --authorized-preflight AUTHORIZED_PREFLIGHT
+python.exe -m unittest: error: unrecognized arguments: --stop-gb 4
+...{
+  "output_dir": "C:\\Users\\Hp\\AppData\\Local\\Temp\\tmp6l2rahyv\\run",
+  "schema_version": "phase5-report-v1",
+  "model": "gpt-5.6-sol",
+  "split": "validate",
+  "index_counts": {
+    "patient_cases": 1,
+    "medical_chunks": 1
+  },
+  "retrieval_top_k": 1,
+  "policy": {
+    "max_revisions": 2,
+    "max_requests": 21,
+    "max_seconds": 900.0,
+    "max_request_bytes": 7000000,
+    "provider_attempt_limit": 3
+  },
+  "cases": [
+    {
+      "run_id": "2259eb32-2296-4588-bb86-27eb1d7fb653",
+      "patient_id": "ddxplus:validate:1",
+      "status": "abstained",
+      "outcome": "diagnostic_agent_abstention",
+      "revision_count": 0,
+      "total_requests": 3,
+      "provider_repairs": 0,
+      "seconds": 0.011534999999639695,
+      "failure": null
+    }
+  ],
+  "requested_cases": 1,
+  "disclaimer": "Research orchestration only; no clinical approval, HITL or effectiveness claim."
+}
+{
+  "output_dir": "C:\\Users\\Hp\\AppData\\Local\\Temp\\tmpik6hfkyd\\run",
+  "metrics": {
+    "diagnostically_measurable_cases": 0,
+    "accepted_primary_accuracy": null,
+    "accepted_top_k_accuracy": null,
+    "sample_size": 1,
+    "labeled_sample_size": 1,
+    "pipeline_success_rate": 1.0,
+    "structured_validity": {
+      "valid_agent_outputs": 3,
+      "attempted_agents": 3,
+      "rate": 1.0
+    },
+    "retrieval_success": {
+      "patient_case": {
+        "nonempty": 1,
+        "attempted": 1,
+        "rate": 1.0
+      },
+      "medical_knowledge": {
+        "nonempty": 1,
+        "attempted": 1,
+        "rate": 1.0
+      }
+    },
+    "primary_accuracy": 0.0,
+    "top_k_accuracy": 0.0,
+    "citation_provenance_coverage": null,
+    "hallucinated_evidence_count": 0,
+    "critic_outputs_scored": 1,
+    "diagnostic_outputs_scored": 1,
+    "critic_flag_count": 1,
+    "model_reported_unsupported_claim_count": 0,
+    "limitations": [
+      "Synthetic DDXPlus; small samples are not clinical validation.",
+      "Exact case/whitespace-normalized label match only; no synonym or LLM judge.",
+      "Legacy primary_accuracy/top_k_accuracy measure end-to-end yield among accepted diagnostic outputs (critic failures/abstentions count as misses); missing diagnoses are excluded. Use accepted_* metrics for diagnostic correctness independent of critic completion.",
+      "Retrieval success means nonempty, not relevant.",
+      "Citation coverage measures ID existence, not entailment. Rejected outputs are not scored as accepted claims.",
+      "Unsupported and critic counts are model reports, not adjudicated hallucination rates.",
+      "Similarity is not diagnostic probability; self-assessment is not calibrated clinical confidence."
+    ]
+  }
+}
+Protected integrity: 2/2
+........................................................................................................E............................E
+======================================================================
+ERROR: tests.test_who_fact_sheets (unittest.loader._FailedTest.tests.test_who_fact_sheets)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: tests.test_who_fact_sheets
+Traceback (most recent call last):
+  File "C:\Users\Hp\AppData\Local\Programs\Python\Python313\Lib\unittest\loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\Hp\AppData\Local\Programs\Python\Python313\Lib\unittest\loader.py", line 339, in _get_module_from_name
+    __import__(name)
+    ~~~~~~~~~~^^^^^^
+  File "C:\Users\Hp\OneDrive\Desktop\HEALTHCARE AGENT\TEST AGENTS\mini-cc\healthcare-agentic-ai\tests\test_who_fact_sheets.py", line 10, in <module>
+    from scripts import crawl_who_fact_sheets as who
+  File "C:\Users\Hp\OneDrive\Desktop\HEALTHCARE AGENT\TEST AGENTS\mini-cc\healthcare-agentic-ai\scripts\crawl_who_fact_sheets.py", line 17, in <module>
+    from bs4 import BeautifulSoup, Comment, NavigableString, Tag
+ModuleNotFoundError: No module named 'bs4'
+
+
+======================================================================
+ERROR: tests.test_who_questions_answers (unittest.loader._FailedTest.tests.test_who_questions_answers)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: tests.test_who_questions_answers
+Traceback (most recent call last):
+  File "C:\Users\Hp\AppData\Local\Programs\Python\Python313\Lib\unittest\loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\Hp\AppData\Local\Programs\Python\Python313\Lib\unittest\loader.py", line 339, in _get_module_from_name
+    __import__(name)
+    ~~~~~~~~~~^^^^^^
+  File "C:\Users\Hp\OneDrive\Desktop\HEALTHCARE AGENT\TEST AGENTS\mini-cc\healthcare-agentic-ai\tests\test_who_questions_answers.py", line 10, in <module>
+    from scripts import crawl_who_questions_answers as who
+  File "C:\Users\Hp\OneDrive\Desktop\HEALTHCARE AGENT\TEST AGENTS\mini-cc\healthcare-agentic-ai\scripts\crawl_who_questions_answers.py", line 18, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+
+
+----------------------------------------------------------------------
+Ran 610 tests in 22.743s
+
+FAILED (errors=2, skipped=1)

@@ -1,0 +1,72 @@
+WHO QUESTIONS AND ANSWERS
+Title: Vaccines and immunization: Dengue
+URL: https://www.who.int/news-room/questions-and-answers/item/dengue-vaccines
+Retrieved: 2026-10-05T09:45:14.755388+00:00
+
+========================================
+
+What types of dengue vaccines are available?
+============================================
+
+There is a growing public health need for effective preventive interventions against dengue, a disease caused by four viruses, termed serotypes 1–4.
+
+Currently, only one vaccine is available for dengue prevention. WHO recommends the use of Q-denga® (TAK-003) in children aged 6–16 years in settings with high intensity of dengue transmission. The vaccination course consists of two injections given 3 months apart.
+
+What is Qdenga® (TAK-003)?
+==========================
+
+TAK-003 is a live-attenuated vaccine containing weakened versions of dengue virus serotypes 1, 2, 3 and 4 developed by Takeda. TAK-003 uses the DENV2 strain as the genomic backbone. The vaccine schedule is a 2-dose series three months apart, given to specific age groups and in specific circumstances according to WHO recommendations.
+
+What are WHO’s recommendations related to TAK-003?
+==================================================
+
+WHO recommends the use of TAK-003 in children aged 6–16 years in settings with high dengue transmission intensity. WHO does not currently recommend the programmatic use of TAK-003 in children aged <6 years because of the lower efficacy of the vaccine in this age group. Furthermore, the dengue seropositivity rate in this age group is generally low, even in high dengue transmission settings.
+
+The vaccine is recommended as a 2-dose schedule with a minimum interval of 3 months between doses. It is not advised to reduce the interval between doses. If the second dose is delayed for any reason, it is not necessary to restart the series and the second dose should be administered at the first available opportunity.
+
+WHO recommends that countries consider introducing TAK-003 into their routine immunization programmes in geographical locations where high transmission intensity of dengue poses a significant public health problem. Many countries may have a heterogeneous geographical distribution of dengue transmission intensity and could consider targeted subnational introduction.
+
+Until the efficacy–risk profile for DENV3 and DENV4 in seronegative persons has been more thoroughly assessed, WHO does not recommend the programmatic use of TAK-003 vaccine in low to moderate dengue transmission settings.
+
+Persons with comorbidities who live in dengue-endemic countries could be offered vaccination, even if they fall outside the recommended age range for programmatic use (6–16 years), provided that a substantial country-specific burden of severe dengue outcomes in these subpopulations has been documented. Until more data on efficacy-safety profiles become available, WHO recommends the lower age limit of 6 years, and the upper limit of 60 years for vaccination in persons with comorbitities.
+
+What is the definition of high dengue transmission intensity?
+=============================================================
+
+To determine dengue transmission intensity, countries look at age-specific seroprevalence and age-specific hospital admissions for dengue. A seroprevalence rate (percentage of people in a population who have antibodies that show they have been exposed to dengue virus) of more than 60% by the age of 9 years or a mean age of peak dengue-associated hospitalizations below the age of 16 years could be considered as indicators of high dengue transmission.
+
+Who should not get a dengue vaccine?
+====================================
+
+The TAK-003 vaccine should not be administered to:
+
+- people who are pregnant or planning to become pregnant at least 1 month following vaccination;
+
+- people who are breastfeeding;
+
+- people with congenital or acquired immune deficiency, including those receiving immunosuppressive therapies such as chemotherapy or high doses of systemic corticosteroids (for example 20 mg/day or 2 mg/kg body weight/day of prednisone for 2 weeks or more) within 4 weeks prior to vaccination; and
+
+- people with symptomatic HIV infection or with asymptomatic HIV infection associated with evidence of impaired immune function.
+
+Can the dengue vaccine be administered with other vaccines?
+===========================================================
+
+Available evidence supports co-administration of TAK-003 with yellow fever and hepatitis A vaccines. Studies to assess co-administration with HPV vaccines are ongoing.
+
+Will vaccination fully protect me against dengue?
+=================================================
+
+TAK-003 does not prevent all cases of dengue.
+
+Vaccination against dengue should be viewed as part of an integrated strategy to control the disease, including vector control, proper case management, community education and community engagement. Comprehensive vector control must remain a critical component of dengue control programmes. Furthermore, the mosquito vectors of dengue transmit other important viruses, including yellow fever, chikungunya and Zika viruses.
+
+Is the dengue vaccine recommended for travellers to dengue endemic countries?
+=============================================================================
+
+Persons living in non-endemic countries who have previously been infected with any of the 4 dengue virus serotypes following travel to dengue-endemic countries may benefit from TAK-003 vaccination to prevent a second (and hence potentially more severe) dengue infection when travelling again to an endemic country.
+
+Frequent travellers, long-term travellers, migrants and long-term expatriates have a higher likelihood of previous dengue infection (and are therefore more likely to be seropositive) compared to first-time or short-term travellers.
+
+The benefits of vaccination with TAK-003 are lower for travellers who have never experienced dengue infection (and are therefore seronegative) compared to travellers who are seropositive.
+
+Check with your healthcare provider if dengue vaccination is needed.

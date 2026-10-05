@@ -177,3 +177,49 @@ check2_multi_case_evaluation:
   recommendation: RETRIEVAL INVESTIGATION NEEDED
   verification: Before 575 project tests (one skip), 56 upstream passed; after 580 project tests (one skip), 56 upstream passed. Offline replay verifies 45 source events, seven diagnostic/critic/safety versions and ten final decisions. Of 242 inventoried files, 241 unchanged; only project OKF changed.
   limitations: Purposive sample; usefulness not independently measured; failed raw responses not persisted by production; integrity inventory excludes AMG Chroma SQLite bookkeeping. No production changes or additional recovery cloud calls.
+
+who_fact_sheet_collection:
+  request: prompts/whoinc.txt
+  script: healthcare-agentic-ai/scripts/crawl_who_fact_sheets.py
+  dependencies: healthcare-agentic-ai/requirements-who.txt
+  documentation: healthcare-agentic-ai/docs/who-fact-sheets.md
+  tests: healthcare-agentic-ai/tests/test_who_fact_sheets.py
+  output: healthcare-agentic-ai/data/who_fact_sheets/
+  validation: healthcare-agentic-ai/docs/who-fact-sheets-validation.json
+  scope: Independent sequential requests/BeautifulSoup collection only; no models, vectors, search or healthcare runtime integration.
+  discovery: Actual WHO A-Z index links only; normalized, deduplicated and topic-sorted; urls.json retains full discovery even with --limit.
+  extraction: Whole article wording and sections, including legacy sibling Key facts in WHO Body column; title metadata, lists, tables, references; no summarization or truncation.
+  safety: One page at a time; delay/timeouts; scoped redirects; per-page failure isolation; cached-file skips unless --force; atomic writes; header-only index rebuilding.
+  verification: 20 offline tests passed; 244 live URLs discovered, five sample pages downloaded, zero failed; rerun skipped all five with unchanged hashes/index. Full crawl not performed.
+  production_changes: None; AMG, Patient RAG, retrieval, diagnostic, grounding, critic, safety, orchestration and existing corpora/indexes unchanged.
+
+who_questions_answers_collection:
+  request: prompts/whoinc.txt
+  script: healthcare-agentic-ai/scripts/crawl_who_questions_answers.py
+  dependencies: healthcare-agentic-ai/requirements-who.txt
+  documentation: healthcare-agentic-ai/docs/who-questions-answers.md
+  tests: healthcare-agentic-ai/tests/test_who_questions_answers.py
+  output: healthcare-agentic-ai/data/who_questions_answers/
+  validation: healthcare-agentic-ai/docs/who-questions-answers-validation.json
+  discovery: Reads WHO catalogue's embedded Q&A item template and qandagroups API configuration; sequential counted pagination; static links also supported; no guessed topics or JavaScript execution.
+  extraction: Complete questions and answers, including collapsed/hidden accordion content, introductions, lists and references; question headings preserved; no rewriting or truncation.
+  safety: Sequential requests, delay/timeouts, scoped redirects, per-page failure isolation, atomic writes, cached-file skips unless --force, header-only index rebuilding.
+  reuse: Imports only pure rendering and atomic-file helpers from unchanged Fact Sheets crawler; no new dependency or application import.
+  verification: 326 live URLs discovered; five sample pages downloaded, zero failed; 37 question/answer pairs and 88 answer text segments verified; rerun skipped all five with unchanged hashes/index. 22 Q&A plus 20 unchanged Fact Sheets tests passed. Full Q&A detail crawl not performed.
+  unchanged: Fact Sheets script/tests/shared requirements and all eight Fact Sheets output files hash-verified unchanged; no production healthcare/RAG/corpus/index changes or diagnostic integration.
+
+who_local_lookup:
+  request: prompts/whoinc2.txt
+  module: healthcare-agentic-ai/rag/who_lookup.py
+  symbols: [WHOLookup, Source, DocumentMatch, LookupResult]
+  command: 'python -m rag.who_lookup "asthma and diabetes"'
+  tests: healthcare-agentic-ai/tests/test_who_lookup.py
+  documentation: healthcare-agentic-ai/docs/who-lookup.md
+  validation: healthcare-agentic-ai/docs/who-lookup-validation.json
+  demo_output: healthcare-agentic-ai/outputs/who-lookup-demo.json
+  inputs: Existing data/who_fact_sheets/index.json and data/who_questions_answers/index.json; no corpus/index writes.
+  matching: Standard-library whole-word title/topic lookup; exact then phrase then conservative partial matches; generic/ambiguous matches abstain with explicit NO_MATCH; multiple sources/topics supported.
+  provenance: Original title, URL, type, topic and filename; full matched text loaded after header/path validation; metadata-only search available.
+  memory: Index metadata only between queries; sequential selected-text reads, no cache; 4096-character query, 5 MiB index, 4 MiB document and 20-result caps; no text truncation.
+  verification: 28 new lookup plus 42 unchanged crawler tests passed; Initially 249 local entries, then 569 (244 Fact Sheets, 325 Q&A) after on-disk Q&A expansion; both checkpoints verified against source bytes; CLI works with site packages disabled; 479 protected files unchanged at initial checkpoint before collection update.
+  boundary: No network, embeddings, vector DB, RAG integration, reranker, LLM or clinical inference; no AMG, Patient RAG, production agent/workflow, dependency, crawler or corpus edits.

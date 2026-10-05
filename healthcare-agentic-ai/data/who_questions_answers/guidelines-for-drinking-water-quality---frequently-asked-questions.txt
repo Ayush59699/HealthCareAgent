@@ -1,0 +1,73 @@
+WHO QUESTIONS AND ANSWERS
+Title: Guidelines for drinking-water quality
+URL: https://www.who.int/news-room/questions-and-answers/item/guidelines-for-drinking-water-quality---frequently-asked-questions
+Retrieved: 2026-10-05T09:46:14.927334+00:00
+
+========================================
+
+The Guidelines for drinking-water quality (GDWQ) provide the recommendations of the World Health Organization for managing the risk from hazards that may compromise the safety of drinking-water, and assist water and health regulators and policymakers in the development of national regulations and standards for water safety in support of public health.
+
+Why does WHO issue the Guidelines for drinking-water quality?
+=============================================================
+
+The primary purpose of the WHO Guidelines for Drinking-water Quality (GDWQ) is the protection of public health associated with drinking-water quality. It is a guidance to countries and to others as to what constitutes safe drinking-water and safe water supply.
+
+The GDWQ provide the recommendations of the World Health Organization for managing the risk from hazards that may compromise the safety of drinking-water, and assist water and health regulators and policymakers in the development of national regulations and standards for water safety in support of public health.
+
+The Guidelines are recognized as representing the position of the United Nations (UN) system on issues of drinking-water quality and health by UN-Water, a coordination mechanism comprised of UN entities and international organizations working on water and sanitation issues.
+
+What is in the GDWQ?
+====================
+
+The GDWQ provide the scientific point of departure for standard setting and regulation. They describe evidence-based guidance on reasonable minimum requirements of safe-practice to protect the health of consumers and progress towards improving water safety. They may also derive numerical “guidelines values” for constituents of water or indicators of water quality.
+
+The GDWQ describe the approaches used in deriving the guidelines, including numerical “guideline values”, and explain how the GDWQ are intended to be used.
+
+The GDWQ include an assessment of the health risk presented by the various microbial, chemical, radiological and physical constituents that may be present in drinking-water. The GDWQ also define the criteria used to select the various constituents addressed.
+
+The GDWQ may be accompanied by separate texts that provide background information substantiating or elaborating on the recommendations included in the GDWQ, and by texts that provide guidance on good practice towards effective implementation of the guidelines.
+
+How should the GDWQ be applied in countries?
+============================================
+
+The GDWQ promote the protection of public health by advocating for the development of locally relevant standards and regulations, adoption of preventive risk management approaches and independent surveillance to ensure that national standards are being met.
+
+Countries should adapt their application of the GDWQ based on their own sociocultural, environmental and economic circumstances. The GDWQ have a degree of flexibility and enable a judgement to be made regarding the provision of drinking-water of acceptable quality - each country should decide whether the benefit resulting from the adoption of any of the guidance including guideline values given in the GDWQ justifies the cost.
+
+In developing standards and regulations, care should be taken to ensure that scarce resources are not unnecessarily diverted to the development of standards and the monitoring of substances of relatively minor importance. Achievability aspects also need to be assessed, considering resource implications, ensuring that the most urgent problems are addressed with incremental improvement towards achieving long-term water quality targets. This approach should lead to standards and regulations that can be readily implemented and enforced and optimize public health protection.
+
+What is the Framework for Safe Drinking-water?
+==============================================
+
+The “Framework for Safe Drinking-water” is the key recommendation in the Guidelines. It encompasses complementary functions of national regulators, water suppliers and independent surveillance agencies and comprises:
+
+- Development of drinking-water quality regulations and standards including health-based targets;
+
+- Water safety plans (WSPs), a proactive risk management approach encompassing all steps in the water supply, to ensure the consistent delivery of a safe and acceptable drinking-water supply;
+
+- Independent surveillance, to ensure WSPs are effective and that health-based targets are met.
+
+How do the GDWQ keep step with science and best practice?
+=========================================================
+
+WHO has published four editions of the Guidelines for drinking-water quality (in 1984, 1993 – updated with addenda in 1998 and 2002, 2004 – updated in 2006 and 2008, and 2011 – updated in 2017 and in 2022), as successors to the previous WHO International standards for drinking-water, which were published in 1958, 1963 and 1971. The International Standards were replaced with the GDWQ recognizing the advantage of using a risk-benefit approach in the establishment of national standards and regulations.
+
+Since 1995, the Guidelines have been kept up to date through a process of “rolling revision” to ensure the GDWQ continue to present the latest available evidence and scientific consensus, and to address key concerns raised by countries. New editions usually introduce major new recommendations and are published following comprehensive review.
+
+The Guidelines, including its updates, are accompanied by a series of supporting publications and are referenced throughout the Guidelines.
+
+Who participates in the GDWQ updates and how long does the process take?
+========================================================================
+
+The GDWQ is subject to a rolling revision process with an associated workplan, coordinated by the WHO Secretariat housed in the Water, Sanitation, Hygiene and Health Unit of WHO, in partnership with WHO Regional Offices.
+
+The development of the next edition of the GDWQ, the 5th edition, and its associated guidance, is being supported by a roster of experts. The roster of experts reflects the diverse range of topics covered in the GDWQ, from water quality contaminants, to risk management aspects and cross cutting issues.
+
+How is the independence and impartiality of the Guidelines ensured?
+===================================================================
+
+Individual experts are invited to serve as members of the DWQC/GDG and its WGs, and are selected primarily on the basis of relevance of their expertise, excellence, independence, and willingness to support WHO’s drinking-water quality Guidelines work. All members of the DWQC/GDG and its WGs are invited to serve as individual scientists and not as representatives of any government or other organization.
+
+WHO has a robust process to protect the integrity of its normative work. All experts who participate in the work of the DWQC/GDG and its WGs are expected to disclose circumstances that could give rise to actual or ostensible conflicts of interest through a Declaration of Interest process, thus demonstrating their ability to participate impartially in the development of the Guidelines , as a prerequisite to participation.
+
+Any potential conflict of interest should be declared in advance to WHO. This does not necessarily exclude the person from participating in debate. They will, however, refrain from participating in decision-making processes related to their particular area of conflicting interest.

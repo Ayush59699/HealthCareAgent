@@ -1,0 +1,90 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Contact tracing for responders
+URL: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-contact-tracing-for-responders
+Retrieved: 2026-10-05T09:43:54.837854+00:00
+
+========================================
+
+This page is no longer being updated. It remains live for reference purposes only.
+
+How does contact tracing work?
+==============================
+
+Contact tracing identifies, and monitors people who have been exposed to someone who has been infected with SARS-CoV-2, and involves several steps:
+
+Defining contacts: Contact definitions may vary by country. WHO defines a contact as a person who has been exposed to someone else who has had recent probable or confirmed SARS-CoV-2 infection: 1. face-to-face contact with a probable or confirmed case within 1 meter and for at least 15 minutes; 2. direct physical contact with a probable or confirmed case; 3. direct care for a patient with probable or confirmed COVID-19 disease without the use of recommended PPE; or 4. other situations as indicated by local risk assessments. Exposure is considered any time between 2 days before to at least 13 days after the case started to show symptoms. For asymptomatic cases, a contact is anyone who has been exposed between 2 days before and 10 days after the date on which the sample that led to confirmation of infection was taken.
+
+Identifying contacts: this is usually done through an interview with the person infected with SARS-CoV-2 to find out who they have been in contact with during the period of time described above. There are other ways to identify contacts depending on the setting, for example through membership or attendance lists of places the case visited during the period described above, or through public notices. Digital proximity tracing applications have also been developed to help identify and notify contacts through automated processes.
+
+Informing contacts: each identified contact should be contacted to confirm whether they meet the definition of a contact. This may be done through health authorities and/or via digital tracing proximity applications. Cases may also be encouraged to inform their own contacts. Each person identified as a contact will be informed about the goal of contact tracing, the process (including how their personal data will be protected), how to undertake quarantine and for how long, and who to contact with any concerns or questions. Additional information should be provided on symptoms to monitor throughout the quarantine period, and what to do if a contact returns a positive test or becomes unwell.
+
+Managing and monitoring contacts: contacts should be encouraged and supported during the  quarantine period. WHO recommends that the quarantine period ends 14 days after the contact was last exposed to the person who has been infected with SARS-CoV-2. However, the duration of the quarantine period may vary between countries.
+
+Data processes and analysis: The information collected from each contact is stored in a secure database. These processes vary from country to country. See question What should be considered for data protection?
+
+Who is defined as a contact?
+============================
+
+A contact is currently defined as anyone who had direct contact with, or was within 1 metre for at least 15 minutes, with a person who may be infected or is infected with SARS-CoV-2 while they were infectious or potentially infectious, even if the person with the infection did not have symptoms. National and local public health authorities may have additional considerations to define contacts according to local risk assessments.
+
+Contacts should be supported to quarantine to limit the possibility of exposing other people to infection  if they become ill.(The complete definition of a contact can be found here).
+
+What is backward contact tracing?
+=================================
+
+Backward contact tracing refers to the process of trying to understand how the case became infected, also known as case or source investigation. While traditional contact tracing identifies people who were exposed to cases and may become cases themselves, backward contact tracing or source investigation looks back in time to identify settings or events where exposure to the virus may have occurred. This may help public health authorities identify more cases (such as at an event or setting where the case may have been infected) and identify settings that have led to infection. This can inform the development of targeted public health and social measures to reduce the overall number of cases.
+
+When should contact tracing be implemented?
+===========================================
+
+Comprehensive contact tracing should be implemented each time cases or clusters (groups of linked cases) are identified. During intense transmission, contact tracing capacities may be overwhelmed, so contact tracing activities may focus on household contacts, healthcare workerscontacts, contacts in high-risk closed settings (such as dormitories, institutions, long-term living facilities),and contacts at higher risk of developing severe COVID-19.
+
+It is important to maintain contact tracing and quarantine of contacts even when the number of new cases may be decreasing, and/or public health and social measures may be being relaxed, in order to ensure that transmission continues to reduce.
+
+How do you form a contact tracing workforce?
+============================================
+
+A contact tracing workforce can be drawn from many settings, including individuals connected with local government, civil society, non-governmental organizations, universities and community volunteers. Ideally, a gender-balanced contact tracing team should be recruited from the community and have general literacy, strong communication skills, local language proficiency and an understanding of the local context and culture.
+
+They should be provided with adequate training to ensure efficiency, accuracy and good communication skills when implementing case and contact investigations, and integrated within the wider COVID-19 response team.
+
+Several training materials have been developed by WHO and partners and may be adapted to local needs. Many are available through the Global Outbreak Alert and Response Network (GOARN) knowledge platform, and OpenWHO. Training should include the basics of virus transmission, prevention and control measures; how to monitor signs and symptoms; and standard operating procedures for contact tracing, including interview tips and ethics of public health surveillance and quarantine. Contact tracers should also be briefed on their rights, roles and responsibilities, including for occupational safety and health.
+
+It is important for public health authorities to train the contact tracing workforce when there is no or low transmission, and anticipate ways to be able to scale the size of the trained contact tracing workforce, if transmission increases.
+
+What are some of the challenges to effective contact tracing for COVID-19?
+==========================================================================
+
+Some of the challenges are the availability of a trained contact tracing workforce, availability of resources for contact tracing and community engagement.
+
+Another main challenge is the intensity of the COVID-19 transmission. In situations of intense transmission, public health resources can quickly become overwhelmed and often cannot cope with the workload of identifying contacts and monitoring them. In such situations, WHO recommends focusing on the contacts with highest exposure and those most at risk of developing severe disease.
+
+What are some digital tools used to support contact tracing? How can they enhance contact tracing processes?
+============================================================================================================
+
+Classic interview-based contact tracing relies heavily on the presence of a trained workforce to carry out  essential activities such as contact elicitation, notification and follow-up. However, this workforce can be quickly overwhelmed in the context of widespread SARS-CoV-2 transmission.
+
+Electronic tools and information technology have been used to enhance the efficiency of contact tracing processes, and are currently being used in the COVID-19 pandemic. So far, no single digital tool addresses all the steps required to monitor end-to-end contact tracing and quarantine of contacts. Oversight from public health workforce is still required. The technical and ethical requirements related to the use of such digital tools should be considered when making decisions as to the use of these tools. Digital tools that support contact tracing processes may be broadly divided into three categories based on their public health function during specific steps of the contact tracing process:
+
+- Identifying and notifying contacts: These solutions are intended for use by the general public, health professionals and the contact tracing team. They include digital proximity tracing tools that use systems based on Bluetooth or GPS location signaling, to notify users who have been in close proximity and prolonged contact to individuals who tested positive for COVID-19 and registered their status in the tool. There are also location-based digital contract tracing tools that use quick response (QR) codes that can be scanned by smartphones users when they visit a venue, so that if they later test positive for COVID-19, other application users who attended the same venue, at the same time may be sent an alert, if local public health authorities deem it necessary.
+
+- Monitoring contacts: These tools are intended for use by those identified as contacts, health professionals and the contact tracing team. They include symptoms checker tools that can help contacts to self-monitor and report the presence or absence of symptoms to health professionals who may conduct further assessments, health counselling and connect them with the public health authorities for testing and other supportive services. These tools may be particularly helpful in settings where contact tracing workforce personnel may be limited and/or there are physical or security barriers preventing in-person visits by contact tracing teams.
+
+- Surveillance data management and analysis:  These solutions are used by public health professionals to collect, manage, analyse and visualize data collected by contact tracing teams which link cases and contacts. They include outbreak response tools (such as Go.Data, Commcare, SORMAS, etc.) that can be used for case investigation, listing and monitoring of contacts, and analysis.
+
+It is important to note that these tools cannot substitute a well-trained health and community workforce, qualified supervisors, decentralized operations and good coordination; which are all necessary criteria for successful and effective contract tracing. More information on digital tools for contact tracing can be accessed here and ethical considerations to guide the use of digital proximity tracking technologies is available here.
+
+What should be considered for data protection?
+==============================================
+
+The ethics of public health information, data protection, and data privacy must be considered at all levels of contact tracing activities, including training and use of tools. In particular:
+
+- Safeguards must be in place to guarantee privacy and data protection in accordance with the legal frameworks of the countries where systems are implemented.
+
+- Everyone involved in contact tracing must adhere to the ethical principles of handling personal information, to ensure responsible data management and respect for privacy throughout the process.
+
+- How data will be handled, stored, and used needs to be communicated to those concerned in a clear and transparent manner. This is important for buy-in and engagement as well as to avoid misperceptions that could jeopardize the effectiveness of a contact tracing programme.
+
+- Digital tools used for contact tracing should be assessed before use to ensure safeguarding data protection according to national regulations.
+
+See WHO’s interim guidance on ethical considerations to guide the use of digital proximity tracking technologies for COVID-19 contact tracing.

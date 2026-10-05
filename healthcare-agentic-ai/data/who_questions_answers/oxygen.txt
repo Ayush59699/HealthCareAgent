@@ -1,0 +1,76 @@
+WHO QUESTIONS AND ANSWERS
+Title: Oxygen
+URL: https://www.who.int/news-room/questions-and-answers/item/oxygen
+Retrieved: 2026-10-05T09:48:08.889422+00:00
+
+========================================
+
+What is oxygen?
+===============
+
+Oxygen (O2) is a chemical element. At standard temperature and pressure, two oxygen atoms bind together to form a colourless and odourless gas with a molecular mass of 32 atomic mass units (amu). Together with nitrogen and argon, oxygen is one of the three major constituents of Earth’s atmosphere, being present in 21% of air.
+
+What is medicinal oxygen?
+=========================
+
+Medicinal oxygen is an essential medicine with no substitution. Medicinal oxygen composition is established in the pharmacopeias, such as the International Pharmacopeia. Healthcare professionals use it to treat respiratory diseases like COVID-19 and pneumonia. It is administered to patients as an inhalation gas. Medicinal oxygen differs from industrial oxygen in that medicinal oxygen is tested to meet authorized specifications for its identity, purity and content by following Good Manufacturing Practices (GMP) and Good Storage and Distribution Practices (GSDP) established in the regulatory framework for medicinal gases.
+
+What is the medical oxygen ecosystem?
+=====================================
+
+The oxygen ecosystem refers to holistic efforts, initiatives and resources across health systems, that are required for an optimal and sustainable implementation of oxygen systems. In addition to equipment and the medicine itself, the oxygen ecosystem also covers all of the other activities to ensure that oxygen systems can function safely, effectively and continuously. The ecosystem considers context, policies, guidelines, need-gap assessments, health infrastructure, the selection of appropriate systems, costing and financing, partnerships, implementation, operation and maintenance, training, monitoring and evaluation. And sustaining oxygen ecosystems means revisiting all of these aspects at a set frequency.
+
+What are oxygen systems?
+========================
+
+The oxygen systems for medical use include, but are not limited to, oxygen source (or production), storage, distribution and delivery supplies, as well as various items for flow regulation, conditioning, quality assurance (QA), quality control (QC) and safety. The long-term sustainability of oxygen systems requires a holistic approach, and a resource ecosystem focused not only on oxygen production but also on distribution and delivery, ongoing maintenance and upkeep.
+
+What is a pulse oximeter and how to use it?
+===========================================
+
+Pulse oximetry is the most accurate non-invasive method for detecting hypoxaemia. Pulse oximeters are reliable and now available at low cost. By detecting and monitoring hypoxaemia, it can help us make more efficient use of oxygen supplies and improve patient safety – a pulse oximeter is an essential medical device.
+
+It measures the percentage of oxygenated haemoglobin (SpO2). The pulse oximeter consists of a light source, a sensor, and an electronic chip to calculate, and a screen to display the results. In addition to the oxygen saturation and the pulse rate, many models also show a representation of the pulse wave (plethysmography).
+
+After the probe is clipped to the finger, toe or earlobe, it can give a result in seconds.
+
+Priority medical devices list for the COVID-19 response and associated technical specifications- https://www.who.int/publications/i/item/WHO-2019-nCoV-MedDev-TS-O2T.V2
+
+WHO-UNICEF Technical specifications and guidance for oxygen therapy devices- https://www.who.int/publications/i/item/9789241516914
+
+Oxygen therapy for children- https://www.who.int/publications/i/item/9789241549554
+
+Can medicinal oxygen be harmful?
+================================
+
+Very high levels of supplemental medical oxygen for prolonged periods can be harmful, particularly in prematurely-born or low birth-weight babies.
+
+WHO guidelines emphasise the careful monitoring of oxygen therapy to prevent such risks. Oxygen should be administered and monitored based on clinical guidelines to avoid lung and other organ damage. Guidelines based on the rational use of oxygen.
+
+For all patients, but especially neonates, it is important that healthcare providers are trained to administer the right amount of oxygen using the right device for the right length of time.
+
+Can patients sleep while using oxygen therapy?
+==============================================
+
+Oxygen therapy is usually given continuously, including overnight, until a patient has stabilized at a normal SpO2. Healthcare providers should consider which delivery interface may be most comfortable to not disrupt a patient in their sleep.
+
+Related
+-------
+
+- Oxygen sources and distribution for COVID-19 treatment centres
+
+- Oxygen Access Scale Up
+
+- Technical specifications for oxygen concentrators
+
+- WHO’s Science in 5 on COVID-19: Medicinal oxygen
+
+- Oxygen therapy for children
+
+- Priority medical devices list for the COVID-19 response and associated technical specifications
+
+- WHO-UNICEF Technical specifications and guidance for oxygen therapy devices
+
+- COVID-19 Clinical management: living guidance
+
+- Home care for patients with suspected or confirmed COVID-19 and management of their contacts

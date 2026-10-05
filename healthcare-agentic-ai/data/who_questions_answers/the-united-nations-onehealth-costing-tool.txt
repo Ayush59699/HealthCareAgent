@@ -1,0 +1,71 @@
+WHO QUESTIONS AND ANSWERS
+Title: The United Nations OneHealth Costing Tool
+URL: https://www.who.int/news-room/questions-and-answers/item/the-united-nations-onehealth-costing-tool
+Retrieved: 2026-10-05T09:50:00.117763+00:00
+
+========================================
+
+What is OneHealth?
+==================
+
+The United Nations OneHealth Model is a new software tool designed to strengthen health system analysis, costing and financing scenarios at the country level. Its primary purpose is to assess public health investment needs in low and middle income countries. For the fi rst time, planners have a single framework for planning, costing, impact analysis, budgeting and fi nancing of strategies for all major diseases and health system components.
+
+How does OneHealth strengthen national health planning?
+=======================================================
+
+Most existing costing tools take a disease-specific approach. OneHealth is the first tool to present the detailed components of these existing tools in a uniform format and link them together. The tool is modular in format and can easily be adapted to different country contexts to strengthen the overall capacity of the national health system. OneHealth enables countries to calculate and plan in the context of national and sub-national health processes. For instance, the UN Secretary General’s Global Strategy for Women’s and Children’s Health calls for an additional US$ 27 per capita in low-income countries to improve maternal and child health. An estimated US$ 40 billion in funding has already been committed over the next fi ve years. OneHealth helps countries to plan and spend that money for best effect.
+
+Who uses it?
+============
+
+The tool is designed for use by experts involved in national health planning, including government health planners, UN agencies, non-governmental organizations, donors, researchers and consultants. It can be used to support the development of a national health strategic plan, a medium-term expenditure framework, or a needs assessment for the Millennium Development Goals.
+
+Why was it developed?
+=====================
+
+OneHealth was developed by a group of UN agencies (UNAIDS, UNDP, UNFPA, UNICEF, World Bank and WHO) in response to requests from countries to harmonize the content, format and outputs of existing costing tools. The original request for a joint tool was made at a 2008 technical consultation in Senegal, and the model builds on the International Health Partnership (IHP+) and Joint Assessment of National Plans (JANS) framework.
+
+How has it been developed?
+==========================
+
+Experts in costing from all participating UN agencies have contributed to the technical development of the model. All participating UN agencies have contributed funds and staff time. The project also received funds from the Global Fund to fight Aids, Tuberculosis and Malaria, the Global Health Workforce Alliance and the Health Metrics Network, as well as from bilateral agencies.
+
+How have countries been involved?
+=================================
+
+A group of health planning experts (known as the Country Reference Group) in low- and middle-income countries ensures that inputs from ministries of health are incorporated into the tool. The group has been attending inter-agency working group meetings, participating in technical discussions engaging in the tool design and planning for its roll-out.
+
+When and how will the tool be made available?
+=============================================
+
+The tool will be made public in mid-2011, following pilot testing in selected countries. Mechanisms for training, such as web-based courses, are currently being explored.
+
+What does OneHealth cover?
+==========================
+
+The model covers the national health sector, with a focus on public sector health interventions. It also allows for incorporating activities in the private sector and costing of selected non-health sector activities that may have health impacts.
+
+What is the basic framework used?
+=================================
+
+The model considers the demands on the health system, whether from a system-wide perspective or a programme-specific perspective. Planning for improving service delivery can be done either by programme or by level of delivery (community, health centre, hospital level, etc). The model can be used for both national and sub-national activities. Bottleneck assessment can be used to assess constraints in the health system and propose solutions.
+
+How does the integration work between programmes and systems planning?
+======================================================================
+
+Direct links and checks are built in between different modules. For example, there is a direct link from the Infrastructure module to the Human Resources for Health module, communicating the number of health facilities to be built in a year. This enables users to base human resources norms on the forecasted number of facilities per year. Another type of check is the aggregation of programmespecifi c plans, in order to indicate opportunities for integration. For example, the model predicts the share of time that medical staff would need to spend attending programme-specifi c training courses on HIV services, maternal health, etc.
+
+What practical advantages does OneHealth present to users?
+==========================================================
+
+From the user perspective, moving to OneHealth is relatively simple as the front end of the model closely resembles the formats and programmes already used in tools such as SPECTRUM and LiST. The model has a user friendly interface with formulas explained in accompanying technical documentation. The intention is to allow fl exibility within a structure and language that corresponds to the ways in which real world health care system planning is performed. The software is automatically updated on a regular basis including recent updates of epidemiology impact models. Ultimately, OneHealth enables users to perform health care system planning in a straightforward and transparent manner.
+
+What are the health systems costs represented?
+==============================================
+
+The model takes a comprehensive approach to health systems. It incorporates planning and costing of all the health systems building blocks: human resources, facilities, equipment and transportation, medicines and supply chains, health management information systems, monitoring and evaluation, governance activities such as policy and advocacy, and activities related to financing and administration.
+
+Can OneHealth be used for programme-specifi c costing?
+======================================================
+
+Yes. The model uses a systemic modular approach. The user can set up and defi ne national disease control programmes to match the country context, and then estimate the cost for a specific programme, including an analysis of the broader health system implications. The format for programme planning is streamlined so that a consistent approach is used across programmes.

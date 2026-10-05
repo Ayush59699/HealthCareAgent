@@ -1,0 +1,133 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Similarities and differences between COVID-19 and Influenza
+URL: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-similarities-and-differences-with-influenza
+Retrieved: 2026-10-05T09:44:43.645357+00:00
+
+========================================
+
+COVID-19 and seasonal influenza (flu) are respiratory infections caused by two different viruses. While some of the signs, symptoms and population groups at risk of severe complications are similar, there are some important differences. This questions and answers page will help you know the facts about both COVID-19 and influenza so you can make more informed decisions about your health.
+
+How are COVID-19 and influenza similar?
+=======================================
+
+1. COVID-19 and influenza both predominantly affect the respiratory system
+
+Both infections are caused by viruses (SARS-CoV-2 causes COVID-19 and influenza viruses cause influenza), but their effect on individuals can vary. Some individuals have no symptoms or mild symptoms. Other people may suffer from severe disease, requiring hospitalization. Both COVID-19 and influenza can be fatal.
+
+In many cases COVID-19 and influenza cause similar symptoms, including cough, runny nose, sore throat, fever, headache and fatigue.
+
+Learn more about COVID-19 signs and symptoms.
+
+Learn more about seasonal influenza.
+
+Contact your healthcare provider if you have or someone you know has any of the following severe symptoms, including:
+
+- difficulty breathing, especially at rest, or being unable to speak in sentences
+
+- confusion
+
+- drowsiness or loss of consciousness
+
+- persistent pain or pressure in the chest
+
+- skin being cold or clammy or turning pale or a bluish colour
+
+- loss of speech or movement.
+
+2. SARS-CoV-2 and influenza virus spread in similar ways
+
+Both SARS-CoV-2 and influenza viruses spread mainly between people who are in close contact with each other, for example at a conversational distance. The viruses can spread through the air from an infected person’s mouth or nose in infectious respiratory (small liquid) particles when they cough, sneeze, speak or breathe. Another person can then contract the virus when infectious particles that pass through the air are inhaled or land on mucosal membranes.
+
+SARS-CoV-2 and influenza viruses spread more easily in poorly ventilated and/or crowded indoor settings and where people tend to spend longer periods of time. This is because infectious respiratory particles can remain suspended in the air or travel farther than conversational distance.
+
+People may also become infected when touching their eyes, nose or mouth after touching surfaces or objects that have been contaminated by the influenza or SARS-CoV-2 virus.
+
+3. Many risk factors for severe disease are common to both COVID-19 and influenza
+
+Most people who are infected with SARS-CoV-2 or influenza viruses make a full recovery without needing hospital treatment, but some people can get severely ill and may die. Although this can happen to anyone, the following groups are at higher risk for severe disease and death when they have an infection:
+
+- older adults;
+
+- people of any age with chronic medical conditions such as obesity, chronic diseases of the heart, lung (e.g. asthma or COPD), kidney, nervous system, liver or blood, and metabolic problems such as diabetes;
+
+- people with immunocompromising disease (such as those that can be caused by HIV or cancer), or as a result of medical treatment (for example those prescribed steroid treatments); and
+
+- pregnant people or people in the postnatal period.
+
+Health and care workers are more exposed to SARS-CoV-2 and influenza viruses and may have a higher risk of getting infected.
+
+4. Many of the same protective measures are effective against COVID-19 and influenza
+
+The following actions could help protect you and others from COVID-19 and influenza:
+
+- stay up to date with vaccinations against COVID-19 and influenza, especially if you are at high risk of exposure or severe disease;
+
+- practice respiratory hygiene and cough etiquette by covering the nose and mouth with a bent elbow or tissues while coughing or sneezing;
+
+- clean your hands regularly;
+
+- wear a mask when in crowded, enclosed, or poorly ventilated areas if you have symptoms, have tested positive for COVID-19 or influenza, or are at risk for severe COVID-19 or influenza infection; and
+
+- stay home if you are sick.
+
+Seek advice from professional healthcare providers if you have symptoms.
+
+How are COVID-19 and influenza different?
+=========================================
+
+1. Some treatments for COVID-19 and influenza are different
+
+COVID-19 and influenza are caused by different viruses. However, general and supportive measures are a core part of treatment for both. Treatment for all hospitalized patients with severe respiratory illness (due to COVID-19, influenza or another cause) includes oxygen and advanced respiratory support such as the use of ventilators.
+
+There are also specific treatments depending on which virus is causing the illness. WHO has specific guidelines for treating both COVID-19 and influenza, which are updated frequently based on new evidence. For more information, visit Clinical practice guidelines for influenza. If you have questions about your treatment options, consult your healthcare provider.
+
+Different antiviral medicines are used to reduce severe complications and death for COVID-19 and influenza. Antiviral medicines for influenza will not be effective against COVID-19 and vice-versa. Recommendations for antivirals and other treatments vary by the severity of illness.
+
+COVID-19:
+
+- For COVID-19, nirmatrelvir-ritonavir is strongly recommended for patients at high-risk of severe disease, although there are other options for these patients if this antiviral medicine isn’t available.
+
+- For hospitalized COVID-19 patients who are severely ill, specific treatment options include corticosteroids, interleukin-6 blocking drugs (such as tocilizumab or sarilumab) and baricitinib. Several other treatment options for COVID-19 are currently being evaluated in clinical trials.
+
+Influenza:
+
+- For influenza which is non-severe (that is the patient does not need admission to hospital), WHO suggests the use of the antiviral baloxavir only if the patient is at high risk of progressing to severe disease. This might be the case for those over 65 years of age, or those with a major risk factor. WHO does not recommend any other antiviral for people with non-severe influenza.
+
+- For severe influenza, WHO suggests the use of oseltamivir. WHO does not recommend other antivirals for patients with severe influenza and recommends against corticosteroids in these patients.
+
+2. Vaccines for COVID-19 and influenza are different
+
+Vaccines against COVID-19 do not protect against influenza, and similarly, influenza vaccines do not protect against COVID-19. COVID-19 vaccination protects against severe disease and death from SARS-CoV-2 infection and influenza vaccination protects against severe disease and death from infection with influenza viruses.
+
+It is safe and effective to receive both vaccines at the same time (e.g. during the same appointment with your medical provider). Follow the advice of your health care provider on getting the influenza and COVID-19 vaccines.
+
+COVID-19 vaccines approved for use by WHO are proven to be safe and effective to protect against severe illness and death caused by COVID-19 disease. More than 13 billion doses of COVID-19 vaccine have been administered globally since 2021. Those in the high-priority use group for COVID-19 vaccination include older adults, and adults with severe obesity or chronic conditions. Groups with special considerations for COVID-19 vaccination include persons with immunocompromising conditions (adults, adolescents, and children > 6 months), pregnant people, and health and care workers with direct patient contact. The protection wanes over time and COVID-19 revaccination is recommended 6–12 months after the last dose, depending on risk group, or once during each pregnancy.
+
+Influenza vaccines are also safe and effective and have been used for decades. Influenza, like many other viruses, has different variants. Vaccines are produced each year based on the expected circulating variants in the coming influenza season. It is therefore recommended to get the most up-to-date vaccine annually. WHO recommends yearly vaccination to prevent severe influenza disease in high-risk groups including older adults, individuals with chronic or immunocompromising conditions, and pregnant people. Health workers are recommended for vaccination due to their increased risk of exposure to or transmission of influenza virus. Depending on national priorities and disease burden, countries may consider additional populations for vaccination such as children or people at high risk of influenza living in congregate settings, and indigenous people.
+
+The importance of vaccinations for influenza (YouTube)
+
+Do at risk groups for COVID-19 and influenza need both vaccines?
+================================================================
+
+Yes. The vaccines protect against the development of severe disease from infection with different viruses, so you need both vaccinations to be protected against both illnesses.
+
+COVID-19 vaccines (including variant-containing vaccines) may be co-administered (that is, vaccines can be given at the same appointment) with seasonal influenza vaccines, or at any time before or after other vaccines for adults and adolescents. Both vaccines can be co-administered with other vaccines recommended during pregnancy.
+
+Questions and answers on COVID-19 vaccines.
+
+More information on seasonal influenza vaccination.
+
+Are the seasonality patterns for SARS-CoV-2 and influenza the same?
+===================================================================
+
+The seasonality pattern for SARS-CoV-2 has not yet been established and we don’t yet see the typical seasonal patterns for COVID-19 like we have seen for influenza.
+
+However, many respiratory virus illnesses tend to increase during the winter primarily due to environmental conditions and human behaviours (e.g. people spending more time in close contact indoors. COVID-19 has circulation peaks several times of the year of the year often driven by newly emerging SARS-CoV-2 variants and waning immunity.
+
+In temperate climates, seasonal influenza epidemics typically occur during autumn and winter while in tropical regions influenza peaks may occur throughout the year.
+
+Can someone be infected with COVID-19 and influenza at the same time?
+=====================================================================
+
+Yes, it is possible to be sick with COVID-19 and influenza at the same time.

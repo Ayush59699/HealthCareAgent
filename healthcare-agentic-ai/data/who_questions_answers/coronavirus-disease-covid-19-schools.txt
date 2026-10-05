@@ -1,0 +1,234 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Schools
+URL: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-schools
+Retrieved: 2026-10-05T09:44:40.848473+00:00
+
+========================================
+
+This page is no longer being updated. It remains live for reference purposes only.
+
+Are children at lower risk of COVID-19 than adults?
+===================================================
+
+So far, data suggests that children under the age of 18 years represent about 8.5% of reported cases, with relatively few deaths compared to other age groups and usually mild disease. However, cases of critical illness have been reported. As with adults, pre-existing medical conditions have been suggested as a risk factor for severe disease and intensive care admission in children.
+
+Further studies are underway to assess the risk of infection in children and to better understand transmission in this age group.
+
+What is the role of children in transmission?
+=============================================
+
+The role of children in transmission is not yet fully understood. To date, few outbreaks involving children or schools have been reported. However, the small number of outbreaks reported among teaching or associated staff to date suggests that spread of COVID-19 within educational settings may be limited.
+
+As children generally have milder illness and fewer symptoms, cases may sometimes go unnoticed. Importantly, early data from studies suggest that infection rates among teenagers may be higher than in younger children.
+
+Considering that many countries are starting to slowly lift restrictions on activities, the longer-term effects of keeping schools open on community transmission are yet to be evaluated. Some modelling studies suggest that school re-opening might have a small effect on wider transmission in the community, but this is not well understood. Further studies are underway on the role of children in transmission in and outside of educational settings. WHO is collaborating with scientists around the world to develop protocols that countries can use to study COVID-19 transmission in educational institutions. Click here to access this information.
+
+Should children with underlying health conditions (asthma, diabetes, obesity) return to school?
+===============================================================================================
+
+Whether a child should go to school depends on their health condition, the current transmission of COVID-19 within their community, and the protective measures the school and community have in place to reduce the risk of COVID-19 transmission. While current evidence suggests that the risk of severe disease for children is lower overall than for adults, special precautions can be taken to minimize the risk of infection among children, and the benefits of returning to school should also be considered.
+
+Current evidence suggests that people with underlying conditions such as chronic respiratory illness including asthma (moderate-to-severe), obesity, diabetes or cancer, are at higher risk of developing severe disease and death than people without other health conditions. This also appears to be the case for children, but more information is still needed.
+
+Should teachers and other staff with underlying health conditions return to school?
+===================================================================================
+
+Adults 60 years and older and people with underlying health conditions are at higher risk for severe disease and death. The decision to return to a teaching environment depends on the individual and should include consideration of local disease trends, as well as the measures being put in place in schools to prevent further spread.
+
+What is the incubation period for children?
+===========================================
+
+The incubation period for children is the same as in adults. The time between exposure to COVID-19 and when symptoms start is commonly around 5 to 6 days, and ranges from 1 to 14 days.
+
+What should be considered when deciding whether to re-open schools or keep them open?
+=====================================================================================
+
+Deciding to close, partially close or reopen schools should be guided by a risk-based approach, to maximize the educational, well-being and health benefit for students, teachers, staff, and the wider community, and help prevent a new outbreak of COVID-19 in the community.
+
+Several elements should be assessed in deciding to re-open schools or keep them open:
+
+- The epidemiology of COVID-19 at the local level: This may vary from one place to another within a country
+
+- Benefits and risks: what are the likely benefits and risks to children and staff of open schools? Including consideration of:
+
+- Transmission intensity in the area where the school operates: No cases, sporadic transmission; clusters transmission or community transmission
+
+- Overall impact of school closures on education, general health and wellbeing; and on vulnerable and marginalized populations (e.g. girls, displaced or disabled)
+
+- Effectiveness of remote learning strategies
+
+- Detection and response: Are the local health authorities able to act quickly?
+
+- The capacity of schools/educational institutions to operate safely
+
+- Collaboration and coordination: Is the school collaborating with local public health authorities?
+
+- The range of other public health measures being implemented outside school
+
+What benefits would school re-opening provide?
+==============================================
+
+School closures have clear negative impacts on child health, education and development, family income and the overall economy.
+
+The decision to reopen schools should include consideration of the following benefits:
+
+- Allowing students to complete their studies and continue to the next level
+
+- Essential services, access to nutrition, child welfare, such as preventing violence against children
+
+- Social and psychological well-being
+
+- Access to reliable information on how to keep themselves and others safe
+
+- Reducing the risk of non-return to school
+
+- Benefit to society, such as allowing parents to work
+
+What are the prevention and control measures to be prepared and put in place in schools?
+========================================================================================
+
+There are several actions and requirements that should be reviewed and put in place to prevent the introduction and spread of COVID-19 in schools and into the community; and to ensure the safety of children and school staff while at school. Special provisions should be considered for early childhood development, higher learning institutions, residential schools or specialized institutions.
+
+WHO recommends the following:
+
+Community-level measures: Carry out early detection, testing, contact tracing and quarantine of contacts; investigate clusters; ensure physical distancing, hand and hygiene practices and age-appropriate mask use; shield vulnerable groups. Community-led initiatives such as addressing misleading rumors also play an important role in reducing the risk of infection.
+
+Policy, practice and infrastructure: Ensure the necessary resources, policies and infrastructure, are in place that protect the health and safety of all school personnel, including people at higher risk.
+
+Behavioral aspects: Consider the age and capacity of students to understand and respect measures put in place. Younger children may find it more difficult to adhere to physical distancing or the appropriate use of masks.
+
+Safety and security: School closure or re-opening may affect the safety and security of students and the most vulnerable children may require special attention, such as during pick-up and drop-off.
+
+Hygiene and daily practices at the school and classroom level: Physical distancing of at least 1 metre between individuals including spacing of desks, frequent hand and respiratory hygiene, age-appropriate mask use, ventilation and environmental cleaning measures should be in place to limit exposure. Schools should educate staff and students on COVID-19 prevention measures, develop a schedule for daily cleaning and disinfection of the school environment, facilities and frequently touches surfaces, and ensure availability of hand hygiene facilities and national/local guidance on the use of masks.
+
+Screening and care of sick students, teachers and other school staff: Schools should enforce the policy of “staying home if unwell”, waive the requirement for a doctor’s note, create a checklist for parents/students/staff to decide whether to go to school (taking into consideration the local situation), ensure students who have been in contact with a COVID-19 case stay home for 14 days, and consider options for screening on arrival.
+
+Protection of individuals at high-risk: Schools should identify students and teachers at high-risk with pre-existing medical conditions to come up with strategies to keep them safe; maintain physical distancing and se of medical masks as well as frequent hand hygiene and respiratory etiquette.
+
+Communication with parents and students: Schools should keep students and parents informed about the measures being implemented to ensure their collaboration and support.
+
+Additional school-related measures such as immunization checks and catch-up vaccination programmes: Ensure continuity or expansion of essential services, including school feeding and mental health and psycho-social support.
+
+Physical distancing outside classrooms: Maintain a distance of at least 1 metre for both students (all age groups) and staff, where feasible.
+
+Physical distancing inside classrooms:
+
+In areas with community transmission of COVID-19, maintain a distance of at least 1 metre between all individuals of all age groups, for any schools remaining open. This includes increasing desk spacing and staging recesses, breaks and lunchbreaks; limiting the mixing of classes and of age groups; considering smaller classes or alternating attendance schedules, and ensuring good ventilation in classrooms.
+
+In areas with cluster-transmission of COVID-19, a risk-based approach should be taken when deciding whether to keep a distance of at least 1 metre between students. Staff should always keep at least 1 metre apart from each other and from students and should wear a mask in situations where 1-metre distance is not practical.
+
+In areas with sporadic cases/no cases of COVID-19, children under the age of 12 should not be required to keep physical distance at all times. Where feasible, children aged 12 and over should keep at least 1 metre apart from each other. Staff should always keep at least 1 metre from each other and from students and should wear a mask in situations where 1-metre distance is not practical.  Remote learning: Where children cannot attend classes in person, support should be given to ensure students have continued access to educational materials and technologies (internet, texting radio, radio, or television), (e.g. delivering assignments or broadcasting lessons). Shutting down educational facilities should only be considered when no alternatives are available.
+
+Checklist for parents/caregivers and community members
+======================================================
+
+- Monitor your child’s health and keep them home from school if they are ill.
+
+- Teach and model good hygiene practices for your children:
+
+- Wash your hands with soap and safe water frequently. If soap and water are not readily available, use an alcohol-based hand sanitizer with at least 60% alcohol. Always wash hands with soap and water, if hands are visibly dirty.
+
+- Ensure that safe drinking water is available and toilets or latrines are clean and available at home.
+
+- Ensure waste is safely collected, stored and disposed of.
+
+- Cough and sneeze into a tissue or your elbow and avoid touching your face, eyes, mouth and nose.
+
+- Encourage your children to ask questions and express their feelings with you and their teachers. Remember that your child may have different reactions to stress; be patient and understanding.
+
+- Prevent stigma by using facts and reminding students to be considerate of one another.
+
+- Coordinate with the school to receive information and ask how you can support school safety efforts (though parent-teacher committees, etc),.
+
+Checklist for students and children
+===================================
+
+- In a situation like this it is normal to feel sad, worried, confused, scared or angry. Know that you are not alone and talk to someone you trust, like your parent or teacher so that you can help keep yourself and your school safe and healthy.
+
+- Ask questions, educate yourself and get information from reliable sources.
+
+- Protect yourself and others:
+
+- Wash your hands frequently, always with soap and water for at least 20 seconds.
+
+- Remember to not touch your face, eyes, nose and mouth.
+
+- Do not share cups, eating utensils, food or drinks with others.
+
+- Be a leader in keeping yourself, your school, family and community healthy.
+
+- Share what you learn about preventing disease with your family and friends, especially with younger children
+
+- Model good practices such as sneezing or coughing into your elbow and washing your hands, especially for younger family members.
+
+- Don’t stigmatize your peers or tease anyone about being sick; remember that the virus doesn’t follow geographical boundaries, ethnicities, age or ability or gender.
+
+- Tell your parents, another family member, or a caregiver if you feel sick, and ask to stay home.
+
+What are the risks during transportation to and from schools?
+=============================================================
+
+The following adaptations to transport to and from school should be implemented to limit unnecessary exposure of school or staff members.
+
+- Promote and put in place respiratory and hand hygiene, physical distancing measures and use of masks in transportation such as school buses, in accordance with local policy.
+
+- Provide tips for how to safely commute to and from school, including for public transportation.
+
+- Organize only one child per seat and ensure physical distancing of at least 1 metre between passengers in school buses, if possible. This may require more school buses per school.
+
+- If possible and safe, keep the windows of the buses, vans, and other vehicles open.
+
+Does WHO recommend staff and children to wear masks at school? And if yes, what type of masks?
+==============================================================================================
+
+In countries or areas where there is intense community transmission of COVID-19 and in settings where physical distancing cannot be achieved, the following criteria for use of masks in schools are recommended:
+
+1. Children aged 5 years and under should not be required to wear masks.
+
+2. For children between six and 11 years of age, a risk-based approach should be applied to the decision to use a mask, considering:
+
+- intensity of transmission in the area where the child is and evidence on the risk of infection and transmission in this age group.
+
+- beliefs, customs and behaviours.
+
+- the child’s capacity to comply with the correct use of masks and availability of adult supervision.
+
+- potential impact of mask wearing on learning and development.
+
+- additional considerations such as sport activities or for children with disabilities or underlying diseases.
+
+3. Children and adolescents 12 years or older should follow the national mask guidelines for adults.
+
+4. Teacher and support staff may be required to wear masks when they cannot guarantee at least a 1-metre distance from others or there is widespread transmission in the area.
+
+Types of mask:
+
+Fabric masks are recommended to prevent onward transmission in the general population in public areas, particularly where distancing is not possible, and in areas of community transmission. This could include the school grounds in some situations. Masks may help to protect others, because wearers may be infected before symptoms of illness appear. The policy on wearing a mask or face covering should be in line with national or local guidelines. Where used, masks should be worn, cared for and disposed of properly.
+
+The use of masks by children and adolescents in schools should only be considered as one part of a strategy to limit the spread of COVID-19.
+
+Are there any specific recommendations on school ventilation and air conditioning use?
+======================================================================================
+
+Yes, ensure adequate ventilation and increase total airflow supply to occupied spaces, if possible. Clean, natural ventilation (i.e., opening windows) should be used inside buildings where possible, without re-circulating the air. If heating, ventilation and air conditioning systems are used they should be regularly inspected, maintained and cleaned. Rigorous standards for installation, maintenance and filtration are essential to make sure they are effective and safe. Consider running the systems at maximum outside airflow for two hours before and after times when the building is occupied, according to the manufacturer’s recommendations.
+
+What should be monitored after re-opening of school?
+====================================================
+
+The following should be monitored:
+
+- effectiveness of symptoms-reporting, monitoring, rapid testing and tracing of suspected cases
+
+- the effects of policies and measures on educational objectives and learning outcomes
+
+- the effects of policies and measures on health and well-being of children, siblings, staff, parents and other family members
+
+- the trend in school dropouts after lifting the restrictions
+
+- the number of cases in children and staff in the school, and frequency of school-based outbreaks in the local administrative area and the country.
+
+- Assessment of impact of remote teaching on learning outcomes.
+
+Based on what is learned from this monitoring, further modifications should be made to continue to provide children and staff with the safest environment possible.
+
+Based on guidance: Considerations for school-related public health measures in the context of COVID-19

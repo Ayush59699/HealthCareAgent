@@ -1,0 +1,127 @@
+WHO QUESTIONS AND ANSWERS
+Title: WHO’s Fifth WHO Air Quality Database of over 6000 Cities
+URL: https://www.who.int/news-room/questions-and-answers/item/who-s-fifth-who-air-quality-database-of-over-6000-cities-updated-april-2022
+Retrieved: 2026-10-05T09:50:51.893988+00:00
+
+========================================
+
+The Fifth WHO air quality database – the largest of its kind – covers over 6000 cities/human settlements, mostly cities, in 117 countries, and indicates where air pollution levels and the related health risks are higher. The WHO air quality database compiles data on ground measurements of annual mean concentrations of particulate matter and nitrogen dioxide. The database is updated regularly every 2-3 years since 2011. The data compiled in this database is used as input to derive the Sustainable Development Goal Indicator 11.6.2, Air quality in cities, for which WHO is custodial agency.
+
+What is the aim of the ambient air quality database?
+====================================================
+
+The aim of WHO’s database 5th update is three-fold:
+
+- to compile measurements of air quality that can be used in assessing population exposure to air pollution. The data on particulate matter compiled in this database are directly used as inputs to model the Sustainable Development Goal 11.6.2 indicator – air quality in cities – for which WHO is the custodial agency;
+
+- to raise awareness on air pollution and its impact on health; and
+
+- to provide a snapshot of air quality monitoring in countries.
+
+What information does the ambient air quality database include?
+===============================================================
+
+Included in the ambient air quality database are annual mean concentrations of particulate matter (PM10 or PM2.5) – which is an important indicator of long-term air quality and of health risks – and nitrogen dioxide (NO2), based on daily measurements or data which could be aggregated into annual means. In a few exceptional cases, where annual means could not be calculated, measurements covering a more limited part of the year were used.
+
+To present air quality that is largely representative for human exposure, only measurements characterized as urban background, residential areas, commercial and mixed areas were used. Stations characterized as particular hot spots or exclusively industrial areas were not included, unless they were contained in reported city means and could not be dissociated.
+
+What are the key findings about the database?
+=============================================
+
+The great majority of cities worldwide exceed WHO’s air quality guideline levels. The WHO global air quality guidelines report recommended PM10 maximum annual mean levels of 15 µg/m3, 5 µg/m3 for PM2.5 and 10 µg/m3 for NO2. Globally, only a few of the monitored cities and towns currently meet the WHO guideline values. These tend to be clustered in high-income countries. Based on the monitored cities and towns, air quality is poorest in the Eastern Mediterranean and South-East Asia Regions, followed by the African countries.
+
+Based on extrapolations of these data, more than half of the urban population live in cities that exceed by more than 6 times the recommended levels of fine particulate matter set out by the WHO air quality guidelines. Additionally, only around 17% of the total urban population assessed live in cities and towns where the air quality complies with such levels.
+
+The fifth air quality database – the largest of its kind – covers over 6000 cities/human settlements, mostly cities, in 117 countries, and indicates where air pollution levels and the related health risks are higher.
+
+The aim of this updated database is not to rank cities or countries but to reflect the monitoring efforts undertaken in those countries. WHO has brought together this information on ambient air quality collected by cities and towns worldwide to raise awareness and facilitate adequate responses to protect public health from the adverse impacts of outdoor air pollution.
+
+What has changed since the last compilation of the WHO database?
+================================================================
+
+The WHO air quality database introduces for the first time ground measurements of annual mean concentrations of nitrogen dioxide (NO2), as well as measurements of particulate matter with diameters equal or smaller than 10 μm (PM10) or 2.5 μm (PM2.5), from an additional 2000-plus cities and towns.
+
+What is particulate matter and what its primary sources?
+========================================================
+
+Particulate matter (PM) consists of a complex mixture of solid and liquid particles of organic and inorganic substances suspended in the air. The major components of PM are sulfate, nitrates, secondary organic aerosols, sea salt, black carbon, mineral dust and water. PM can originate from many different sources, such as residential fuel burning, transport, power plants, agriculture, waste burning, industry and natural sources. PM may be emitted directly or may be part of secondary processes in the atmosphere. PM is a common proxy indicator for air pollution, and epidemiological studies have linked PM exposure to a variety of health effects. It affects more people than any other pollutant.
+
+What are the health impacts from PM?
+====================================
+
+While particles with a diameter of 10 microns or less (≤ PM10) can penetrate and lodge deep inside the lungs, the even more health-damaging particles are those with a diameter of 2.5 microns or less, (≤ PM2.5). PM2.5 can penetrate the lung barrier and enter the blood system. Chronic exposure to particles contributes to the risk of developing cardiovascular and respiratory diseases, as well as lung cancer.
+
+What is nitrogen dioxide NO2 and what are its primary sources?
+==============================================================
+
+Nitrogen dioxide is a strong oxidant and an important atmospheric trace gas, not only because of its effect on health but also because it has a potential direct role in global climate change and is a precursor of ozone and particulate matter.
+
+Nitrogen dioxide primarily originates from anthropogenic fossil fuel (oil and gas) combustion, such as transport, power plants, industry and agriculture. NO2 is an especially good proxy indicator for traffic and is thus especially common in urban areas.
+
+What are the health impacts from NO2?
+=====================================
+
+NO2 has an impact on the respiratory system, leading to symptoms such as coughing, wheezing or difficulty breathing. It can also cause respiratory diseases (particularly asthma), increase hospital admissions and visits to emergency rooms, as well as increased susceptibility to respiratory infections.
+
+This is the 5th time the AQ database has been updated. What trends can be seen since the start of this process?
+===============================================================================================================
+
+The number of measurements has multiplied by 6 since 2011, which indicates that an increasing number of governments recognize the threat to health posed by air pollution and how important it is to measure and communicate about air quality.
+
+New technologies (e.g., low-cost sensors) and techniques to assess population exposure (e.g., modelling and data fusion with various sources of information) have developed and provided important alternatives. Data are thus increasingly available, including from civil society (2). Follow-up actions to reduce emissions in a sustainable way have been slower.
+
+What policies or interventions should cities consider to ensure air pollution below WHO limits?
+===============================================================================================
+
+Air pollution has no boundaries and neither its sources nor impacts are limited to cities, at least for particulate matter. Monitoring air quality levels and origins is the first important step, as sources of air pollution are context-specific and so are the solutions. Actions is thus needed at different geographical levels, for example local, national, regional and international. Intersectoral policies aimed at reducing emissions of air pollutants in transport, land-use planning and energy should be encouraged.
+
+How was this information collected and organized in this database?
+==================================================================
+
+The primary source of data in the ambient air pollution database includes official reporting from countries to WHO, official national and sub-national reports, or national institutes or governmental websites reporting measurements of PM10 or PM2.5 and NO2. Additional sources of air pollution measurements include other UN agencies, other development agencies, peer-reviewed journal articles, the regional networks such as air quality e-reporting from the European Environment Agency for Europe, and ground measurements compiled in the framework of the Global Burden of Disease project.
+
+Is tackling air pollution necessary to also address the climate crisis?
+=======================================================================
+
+On top of carbon dioxide (CO2), the other main sources of climate change are short-lived climate pollutants (SLCPs), such as black carbon (BC) which is a component of particulate matter, methane (CH4), and ground-level ozone (O3). Policies that improve air quality are fundamental to reduce the impacts of the climate crisis through, for example, the reduction of greenhouse gas emissions and its environmental and health effects. Policies that reduce climate change and improve environmental conditions have the potential for huge health co-benefits. For example, an increase of 7% in total clean energy investment for the period 2012–2040 could prevent 1.7 million premature deaths from outdoor air pollution and 1.6 million deaths from household pollution by 2040.
+
+What are some of the major sources or causes of ambient air pollution?
+======================================================================
+
+Both mobile sources (i.e., motorized vehicles) and stationary sources (i.e., smoke stacks) make significant contributions to ambient (outdoor) air pollution. Some of the major sources include exhaust fumes from vehicles, emissions from manufacturing facilities (e.g., factories) and power generation (e.g., smoke stacks of coal-fired power plants). In settlements where residential use of coal and wood for cooking and heating is permitted, the emissions from households using these fuels can make an important contribution to the levels of ambient air pollution. The contribution of natural sources of air pollution (e.g., desert dust) is also relevant.
+
+WHO alerts regularly on the number of deaths caused by air pollution. How are these estimates calculated?
+=========================================================================================================
+
+The number of deaths caused by air pollution is estimated based on the air quality levels people are exposed to and the increased risks of cardiovascular and respiratory diseases that are incurred at those levels. The air quality levels are estimated from a combination of satellite information, chemical transport models and ground measurements of air quality, and the increased risks come from epidemiological studies. The methods are explained in detail on our web site (https://www.who.int/teams/environment-climate-change-and-health/air-quality-and-health/health-impacts/exposure-air-pollution).
+
+What is WHO doing to tackle air pollution?
+==========================================
+
+- WHO monitors trends in exposure and health risks associated with air pollution, reflected by its role as custodial agency for the global monitoring of air pollution-related SDGs (3.9.1, 7.1.2, and 11.6.2).
+
+- WHO develops evidence-based recommendations on what can be considered safe levels of air pollution. This normative guidance is found in its air quality guidelines like the recently updated WHO air quality guidelines: global update 2021 or the WHO guidelines for indoor air quality: household fuel combustion (documents available here). These often serve as the basis for formulating national standards and policies for air quality and energy access.
+
+- WHO has a global communications campaign called BreatheLife. It is a partnership of WHO, UN Environment and the Climate and Clean Air Coalition to reduce short-lived climate pollutants that aims to increase awareness and action on air pollution by governments and individuals (see www.breathelife2030.org).
+
+- WHO’s Urban Health Initiative has been providing a model for the health sector to contribute to healthy urban planning and policies. This model has focussed on cross-sector consultations, health sector training, policy-scenario modelling, advocacy and communications (link to UHI reports ?).
+
+- WHO develops training material on air pollution and health that specifically targets the health workforce, for example clinicians and community health workers.
+
+- WHO develops and pilots a number of tools and resources to support countries, cities and regions address the health impacts from air pollution by engaging in multisectoral activities such as:
+
+- a web-based tool, AirQ+, which estimates health impacts from varying levels of pollutant exposure;
+
+- the Clean Household Energy Solutions Toolkit (CHEST) to support the development of clean household energy policies and the implementation of the WHO Guidelines for indoor air quality: household fuel combustion, including tools for stakeholder mapping, monitoring and evaluation, and engaging the health community;
+
+- the Health Economic Assessment Tool (HEAT) to assess walking and cycling interventions;
+
+- a Carbon Reduction Benefits on Health (CaRBonH) calculation tool that allows quantification of the physical and economic consequences for human health achieved through improvements in country-level air quality from domestic carbon reductions; and
+
+- the GreenUr tool to raise importance of green space and health.
+
+References
+
+1. Shaddick et al. Half the world’s population are exposed to increasing air pollution. npj Climate and Atmospheric Science 2020 3:1, (2020), 1-5, 3(1). https://www.nature.com/articles/s41612-020-0124-2
+
+2. Note that these are not included in the current database, which only reports on measurements from reference-grade instruments.

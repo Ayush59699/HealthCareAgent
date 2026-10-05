@@ -1,0 +1,188 @@
+WHO QUESTIONS AND ANSWERS
+Title: Malaria: The malaria vaccine implementation programme (MVIP)
+URL: https://www.who.int/news-room/questions-and-answers/item/malaria-vaccine-implementation-programme
+Retrieved: 2026-10-05T09:47:27.762547+00:00
+
+========================================
+
+Note: please see updated information in the Q&A on the RTS,S malaria vaccine in the related links.
+
+This page is no longer being updated. It remains live for reference purposes only.
+
+What is RTS,S/AS01?
+===================
+
+RTS,S/AS01 (RTS,S) is a vaccine that acts against Plasmodium falciparum, the deadliest malaria parasite globally and the most prevalent in Africa.* In January 2016, the vaccine was recommended by WHO for pilot introduction in selected areas of 3 African countries. RTS,S is being evaluated for use as a complementary malaria control tool that could be added to (and not replace) the core package of WHO-recommended preventive, diagnostic and treatment measures.
+
+* The vaccine offers no protection against P. vivax malaria, which predominates in many countries outside of Africa.
+
+What makes RTS,S different from malaria vaccine candidates currently under development?
+=======================================================================================
+
+RTS,S is the first, and to date, the only vaccine that has demonstrated it can significantly reduce malaria, and life-threatening severe malaria, in young African children.
+
+Beginning in 2019, 3 sub-Saharan African countries – Ghana, Kenya and Malawi – led the introduction of the vaccine in selected areas of moderate-to-high malaria transmission as part of a large-scale pilot programme coordinated by WHO. The aim is to vaccinate about 360 000 children per year in the selected areas across the 3 countries. Vaccinations are being provided through each country’s routine immunization programme.
+
+What is the efficacy of the RTS,S vaccine?
+==========================================
+
+The Phase 3 trial, conducted over 5 years (from 2009 to 2014), enrolled approximately 15 000 young children and infants in 7 sub-Saharan African countries.* The trial sites within these countries represented a range of malaria transmission settings.
+
+Among children aged 5–17 months who received 4 doses of RTS,S, the vaccine prevented approximately 4 in 10 (39%) cases of malaria over 4 years of follow-up and about 3 in 10 (29%) cases of severe malaria, ** with significant reductions also seen in overall hospital admissions as well as in admissions due to malaria or severe anaemia. The vaccine also reduced the need for blood transfusions, which are required to treat life-threatening malaria anaemia by 29%.
+
+* These countries included: Burkina Faso, Gabon, Ghana, Kenya, Malawi, Mozambique, and the United Republic of Tanzania.
+
+** Severe malaria refers to those cases where the initial infection with the malaria parasite evolves into an acute, life-threatening illness.
+
+What is WHO’s official position on RTS,S?
+=========================================
+
+In October 2015, after a thorough review of the Phase 3 trial results, 2 independent WHO advisory groups – the Strategic Advisory Group of Experts (SAGE) on Immunization and the Malaria Policy Advisory Group (MPAG) – jointly called for pilot implementation of the vaccine in 3 to 5 settings in sub-Saharan Africa.
+
+In a position paper published on 29 January 2016, WHO officially adopted the joint recommendation of SAGE and MPAG; in doing so, the Organization recognized the public health potential of the RTS,S vaccine while also acknowledging the need for further evaluation before considering wide-scale deployment. There is currently no WHO policy recommendation for the large-scale use of the RTS,S malaria vaccine beyond the pilot programme.
+
+What is the purpose of the malaria vaccine implementation programme?
+====================================================================
+
+The efficacy of the RTS,S vaccine was established in the Phase 3 clinical trial (see #3, above); children who received 4 doses of the vaccine had a significantly lower risk of developing malaria, including severe malaria. The malaria vaccine implementation programme (MVIP), coordinated by WHO, was designed to address several outstanding questions related to the public health use of the vaccine.
+
+Specifically, the MVIP will assess the feasibility of administering the recommended 4 doses of the vaccine in children; the vaccine’s potential role in reducing childhood deaths; and its safety in the context of routine use. Data and information derived from the pilot will inform a WHO policy recommendation on the broader use of the vaccine.
+
+The evaluation protocols have been reviewed and approved by the WHO Ethical Review Committee, and by the institutional or national ethical review committees in each of the pilot countries.
+
+Which countries will participate in MVIP?
+=========================================
+
+Three countries – Ghana, Malawi and Kenya – are participating in the MVIP. Each of these countries selected the areas to be included in the pilot programme.
+
+What were the criteria for country selection?
+=============================================
+
+In December 2015, WHO issued a call for expressions of interest from African ministries of health to collaborate in the malaria vaccine implementation programme. Of the 10 countries that responded positively, 3 were selected for the programme based on pre-specified criteria. Key among these was the expressed desire by the ministry of health to engage in the MVIP, and well-functioning malaria and immunization programmes.
+
+Other criteria included: good coverage of recommended malaria control interventions and childhood vaccinations; moderate-to-high malaria transmission despite good implementation of WHO-recommended malaria interventions; a sufficient number of young children living in the malaria-transmission areas where the vaccine will be introduced; strong implementation research or evaluation experience in the country; and capacity to assess safety outcomes. Participation in the Phase 3 RTS,S trial was an additional criterion considered during the country selection process.
+
+Within the pilot areas, which districts will receive the vaccine first?
+=======================================================================
+
+It is important at this stage to learn how best to introduce the malaria vaccine into routine immunization systems, and to evaluate that introduction. To do this, some districts/sub-counties within the selected areas will have the opportunity to introduce the vaccine into their immunization schedules at the start of the programme, while other districts will not receive the vaccine until a later date, should there be a WHO recommendation for wider use. Assignment of areas into those that receive the vaccine and those that do not has been through a process called “randomization”, based on chance using a computer programme.
+
+Introducing the vaccine into some areas, while delaying it in others, is also important for understanding the public health usefulness of the vaccine and will provide key information on whether the vaccine should be introduced throughout the pilot countries and more broadly across Africa.
+
+Who is eligible for vaccination?
+================================
+
+The vaccine is being delivered by the ministries of health as part of the Expanded Programme on Immunizations (EPI). Children who present to health facilities for vaccination in the pilot areas of the 3 African countries will be able to receive the vaccine as part of their routine immunizations, in selected areas of Ghana, Kenya and Malawi. Approximately 360 000 children per year across the 3 pilot countries will receive the RTS,S vaccine. Some areas selected for participation in the MVIP will serve as comparator areas in which the vaccine will not be available initially.
+
+Immunization authorities in the 3 countries have specified the vaccination schedule, based on WHO recommendations. In Malawi, the vaccine is first offered at 5 months of age, while in Ghana and Kenya, the vaccine is first offered at 6 months of age. A 4-dose schedule is recommended, with the first 3 doses provided at approximately monthly intervals and the fourth dose near the child’s second birthday.
+
+How do families get the information they need to decide on whether or not to vaccinate their child with the malaria vaccine?
+============================================================================================================================
+
+As with other vaccines provided to children in routine vaccination settings, the EPI programmes in the pilot countries inform caregivers and communities about the new vaccine before and throughout its introduction. For RTS,S, this includes information about the benefits and risks of the vaccine, at what age a child is eligible for vaccination, the recommended 4-dose vaccination schedule, what to expect following vaccination, and the importance of continuing other malaria control measures (such as using insecticide-treated bed nets). Communities are also told that the vaccine is being provided as part of a pilot introduction.
+
+Information is provided one on one by health workers, through health talks led by health officials and health providers – using flip charts, informational leaflets and posters – as well as meetings with community leaders, community health volunteers, public service announcements, and through the local health media, among other methods. Parents who bring their children to clinics for vaccination do so with the option to vaccinate their children or not, as with other vaccines.
+
+The vaccine is being delivered through EPI programmes as part of routine delivery, and similar to how other childhood vaccines are offered to families. Because it is not an experimental vaccine, but approved by the regulatory authorities, written consent is not sought for individuals who are vaccinated.
+
+When did the vaccinations begin?
+================================
+
+Vaccinations began in the 3 pilot countries in 2019: in Malawi on 23 April, in Ghana on 30 April, and in Kenya on 13 September.
+
+Is the vaccine safe?
+====================
+
+In the Phase 3 trial, the vaccine was generally well tolerated, with adverse reactions similar to those of other childhood vaccines.
+
+A stringent regulatory authority – the European Medicines Agency – issued a positive scientific opinion of the vaccine in July 2015, concluding that the benefits of the vaccine outweigh the risks. As with other new vaccines, and in line with national regulations, the safety profile for RTS,S will continue to be monitored. Any safety signals that arose in the clinical testing phase will be monitored closely as the vaccine is introduced more widely.
+
+- During the Phase 3 trial of the RTS,S vaccine, there were more cases of meningitis in children who received the vaccine than in those who did not; however, no causal link to the vaccine has been established.
+
+- Overall, there were 29% fewer cases of severe malaria in children who received the vaccine. In those children who did develop severe malaria, there were more cases of cerebral malaria, one type of severe malaria; however, no causal link to the vaccine has been established.
+
+- Finally, a post-hoc analysis identified an imbalance in female mortality in the phase 3 trial. This was considered by the national regulators and by the European Medicines Agency (EMA). The EMA concluded that there is insufficient information to classify the finding as a “potential risk” (a formal EMA classification) and that this was likely to be a chance finding, but one that should be monitored during vaccine introduction.
+
+Are there any known side effects?
+=================================
+
+Known side effects include pain and swelling at the injection site, and fever. These side effects are similar to reactions observed with other vaccines given to children. The vaccine is associated with an increased risk of febrile seizures within 7 days of the administration. In the Phase 3 trial, children who had febrile seizures after vaccination recovered completely and there were no long-lasting consequences.
+
+Who developed and who manufactures the vaccine?
+===============================================
+
+GSK led the development of RTS,S over a 30-year period. In 2001, GSK began collaborating with PATH’s Malaria Vaccine Initiative (MVI) to continue developing RTS,S. A 5-year Phase 3 efficacy and safety trial was conducted between 2009 and 2014 through a partnership that involved GSK, MVI (with support from the Bill & Melinda Gates Foundation), and a network of African research centres at 11 sites in 7 countries. GSK is the vaccine manufacturer.
+
+What is the purpose of the Phase 4 studies, and how do they relate to the MVIP?
+===============================================================================
+
+As part of the malaria vaccine implementation programme, GSK is conducting a number of Phase 4 studies in parts of the pilot areas. These studies – as required and standard for a new vaccine – will gather additional information on the vaccine’s effectiveness and on any side effects associated with routine use. Data collected through the Phase 4 studies will complement data from the pilot evaluations led by WHO.
+
+Which partners are involved in MVIP?
+====================================
+
+The malaria vaccine implementation programme is coordinated by WHO in close collaboration with ministries of health in participating countries and a range of in-country and international partners.
+
+Ministries of health in each country are delivering the malaria vaccine through their national immunization programmes in the selected areas. National malaria control programmes are ensuring that existing WHO-recommended prevention tools, such as long-lasting insecticidal nets (LLINs) and artemisinin-based combination therapies (ACTs), continue to be deployed on a wide scale.
+
+WHO is working with PATH and GSK on the vaccine pilot programme through a collaboration agreement. PATH provides technical and project management support and is leading studies on health care utilization and the economics of vaccine implementation. GSK is donating up to 10 million doses of RTS,S vaccine for use in the pilot and is leading additional studies to continue monitoring the vaccine’s safety and effectiveness in routine use. UNICEF is supporting the forecasting and deployment of the donated RTS,S vaccine to pilot countries.
+
+In-country research partners are leading the evaluation of the RTS,S vaccine pilot implementation. This includes a consortium of partners in each pilot country led by the Kintampo Health Research Centre in Ghana; the CDC Foundation in Kenya; and the University of Malawi College of Medicine in Malawi. Health utilization studies are being led by the University of Health and Allied Services in Ghana; the Liverpool School of Tropical Medicine in Kenya; and the Malawi-Liverpool Wellcome Trust in Malawi.
+
+Pilot evaluation and health utilization study partners in each country are the following:
+
+- Ghana: Kintampo Health Research Centre; Navrongo Health Research Centre; Research and Development Division of Ghana Health Service; University of Ghana School of Public Health; Malaria Research Centre, Agogo Presbyterian Hospital; University of Health and Allied Services; Noguchi Memorial Institute of Medical Research; and, the University of Health and Allied Sciences.
+
+- Kenya: the CDC Foundation (the National Foundation for the Centers for Disease Control and Prevention, Inc.); The U.S. Centers for Disease Control and Prevention; the KEMRI-Wellcome Trust Research Programme; the U.S. Army Research Directorate-Kenya; the Kenya Medical Research Institute (KEMRI); and, the Liverpool School of Tropical Medicine.
+
+- Malawi: the University of Malawi College of Medicine; the Malawi-Liverpool-Wellcome Trust Clinical Research Programme; and, the University of North Carolina Project Malawi.
+
+What are the terms of the collaboration agreement between WHO, PATH and GSK?
+============================================================================
+
+The collaboration agreement between WHO, PATH and GSK defines the roles and responsibilities of these 3 partners for the MVIP. Specifically:
+
+- WHO is responsible for programme oversight and coordination of all aspects of the malaria vaccine pilot programme; this includes rigorous evaluations of the feasibility of implementing the 4-dose vaccination schedule, and the vaccine’s impact and safety in the context of routine immunization. WHO also provides technical assistance to the Ministries of Health in Ghana, Kenya and Malawi as the countries introduce the vaccine in selected areas through their national immunization programmes.
+
+- PATH provides technical and project management support to the programme and is leading studies on health care utilization and the economics of vaccine implementation.
+
+- GSK is donating up to 10 million doses of RTS,S for use in the pilot programme. GSK is also leading Phase 4 studies to continue to monitor vaccine safety and effectiveness in routine use, as is required and standard for a new vaccine.
+
+The partners are also exploring how best to assure the longer-term supply of the vaccine, should there be a WHO policy recommendation for wider use of the vaccine.
+
+Who is funding the MVIP?
+========================
+
+In November 2016, WHO announced funding commitments for the pilot programme through 2020 by Gavi, the Vaccine Alliance, the Global Fund to Fight AIDS, Tuberculosis and Malaria, and Unitaid. In 2019, the trio of global health funding bodies committed additional funding to complete the pilot programme through 2023.
+
+What is the expected duration of the programme?
+===============================================
+
+The programme is expected to continue through 2023. The pilot will generate data on the feasibility of delivering the vaccine in childhood vaccination clinics, the vaccine’s potential role in reducing childhood deaths and its safety in the context of routine use. Results will inform future decisions on the potential wider-scale deployment of the vaccine.
+
+Why is the MVIP being rolled out only in Africa, and not in other regions?
+==========================================================================
+
+The WHO African region bears the greatest burden of malaria worldwide. Young children are especially vulnerable: in 2018 alone, malaria claimed the lives of approximately 265 000 African children under the age of 5.*
+
+Over the last 2 decades, African countries have made tremendous progress in the fight against malaria using core WHO-recommended tools such as insecticide-treated mosquito nets, indoor spraying with insecticides and antimalarial medicines. However, in some areas where these approaches have been adopted, malaria illness and death remain stubbornly high. New and complementary tools are needed to further drive down the disease burden, with a view to ultimately achieving the vision of a world free of malaria.
+
+Most malaria illness and death in the African region are caused by the parasite targeted by the RTS,S vaccine (P. falciparum). The vaccine was developed specifically for African children who are at highest risk of dying of malaria. Additional studies will be needed before the vaccine can be recommended for use outside Africa.
+
+* In 2018, children under 5 accounted for two thirds (67%) of global malaria deaths, the vast majority of which (approximately 265 000) were African children. Globally, there were an estimated 405 000 deaths from malaria in 2018.
+
+What other interventions exist for malaria control?
+===================================================
+
+Existing WHO-recommended interventions for malaria control include: LLINs, indoor residual spraying with insecticides, preventive treatment for infants and during pregnancy, and prompt diagnostic testing and treatment of confirmed cases with effective anti-malarial medicines. In the Sahel, a sub-Saharan region of Africa, seasonal malaria chemoprevention is recommended in areas with highly seasonal malaria transmission. Deployment of these tools has already dramatically lowered the malaria disease burden in many African settings. The disease burden can be further lowered through the continued scale-up of these existing control measures.
+
+While efforts to sustain and further expand existing interventions must continue, new complementary tools and strategies are needed in some areas to accelerate the fight against malaria and further drive down the disease burden. The malaria vaccine is proposed as a potential additional tool to complement the existing package of WHO-recommended preventive, diagnostic and treatment measures for malaria.
+
+Is RTS,S licensed by a regulatory authority?
+============================================
+
+Following a joint review convened by the African Vaccine Regulatory Forum (AVAREF) in May 2018, the National Regulatory Authorities of Ghana, Kenya and Malawi authorized the RTS,S vaccine for use in the pilot areas.
+
+The European Medicines Agency (EMA) carried out a scientific assessment of RTS,S and issued a “European scientific opinion” on the vaccine in July 2015. This opinion was given as part of the EMA’s cooperation with WHO, whereby EMA provides opinions on medicines that are not intended for use in the European Union but are needed to prevent or treat diseases of major public health importance around the world. The EMA found that the quality of the vaccine and its risk-benefit profile are favorable from a regulatory perspective.
+
+EMA’s opinion did not consider contextual elements such as the feasibility of implementation, the value of the vaccine in the context of other malaria control measures, and the likely cost-effectiveness of the intervention in different settings.

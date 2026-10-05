@@ -1,0 +1,98 @@
+WHO QUESTIONS AND ANSWERS
+Title: Radioactivity in food after a nuclear emergency
+URL: https://www.who.int/news-room/questions-and-answers/item/radioactivity-in-food-after-a-nuclear-emergency
+Retrieved: 2026-10-05T09:49:08.331085+00:00
+
+========================================
+
+How can people be exposed to radioactivity in food?
+===================================================
+
+In normal situations, people are exposed to natural radiation sources as well as human-made sources daily. Every day, people inhale and ingest radionuclides from air, food and water. Most of these radionuclides are naturally present in our environment, but a minor proportion come from human-made sources related with medical and industrial applications of radiation.
+
+Additional radioactivity may be present in food if radioactive materials are released as the result of a nuclear or radiological emergency. Either falling from the air or carried in rainwater or snow, these radioactive materials can deposit on the surface of foods like vegetables or animal feed. Over time, radionuclides may be transferred through soil into crops or animals and build up within food. Radionuclides can also be washed into rivers, lakes and the sea where fish and seafood could take them up.
+
+What are the potential health effects of consuming contaminated food?
+=====================================================================
+
+Consuming food contaminated with radionuclides in a nuclear or radiological emergency will increase the amount of radioactivity in the body and could increase the health risks associated with exposure to radiation. The level of risk will depend on which radionuclides have been ingested and the amount of radioactivity that has been incorporated.
+
+For instance, if radioactive iodine is ingested with contaminated food or drink, or inhaled with contaminated air, it will accumulate in the thyroid gland and increase the risk of thyroid cancer, particularly in children. Radioactive iodine reduces its radioactivity in half (so called half-life) within 8 days and eventually stops being radioactive (decays) within few weeks. To prevent the uptake of radioactive iodine by the thyroid, stable iodine pills (KI pills) are used to saturate the thyroid so radioactive iodine will not accumulate (more information about iodine thyroid blocking at https://www.who.int/publications/i/item/9789241550185).
+
+In contrast, radioactive isotope of caesium with half-life of 30 years will stay in the environment for many years. It is distributed in the whole body more homogeneously than iodine. Exposure to radioactive caesium can result in an increased risk of certain types of cancer, and this is also the case for some other radionuclides.
+
+Will all food production be affected by a radiological or nuclear emergency?
+============================================================================
+
+No, not all foods will be affected. Radioactivity is unlikely to contaminate food that is packaged; for example, tinned or plastic-wrapped food is protected from radioactivity especially if the food is sealed. Food that was dispatched or commercially packaged before the emergency would not be affected. However, some food produced in areas where radioactive materials have been deposited may be contaminated and therefore food monitoring may support a risk analysis. When deemed necessary in light of a risk assessment, risk managers adopt evidence-based mitigation measures that help in keeping the dose of radionuclides ingested by populations as low as reasonably achievable.
+
+How can radioactivity be measured in food?
+==========================================
+
+Radioactive substances released due to a radiological or nuclear emergency can be measured in the environment using different detection methods. Very small amounts of radioactivity, such as those naturally present in food, might be identified using very sensitive detection techniques that are currently available. The sampling of food should target in priority the main potential contributors to radiation exposure based on their susceptibility to radioactive contamination and their significance in the diet of the general population and most vulnerable populations groups, such as the infant and young child, and women of childbearing age. It is important to bear in mind that the dietary exposure to radioactive material can increase as the result of either a high concentration or a high consumption of contaminated food, and therefore both aspects need consideration.
+
+What impact will this have on food and food production in the affected country?
+===============================================================================
+
+The impact on food and food production in a country affected by a radiological or nuclear emergency will depend upon the types of radionuclides and the amount of radioactivity deposited or present where food is being produced or harvested. Although the presence of radioactive iodine in food is of immediate concern after nuclear emergencies, it will not represent a problem for consumption in the long term due to its relatively short half-life and the fact that it will naturally decay over a short time frame. In contrast, radioactive caesium can linger in the environment for many years and could continue to present a long term problem for food production and trade, and a threat to human health.
+
+Can food be contaminated in areas beyond the most critical zone (evacuation zone)?
+==================================================================================
+
+During a nuclear emergency, an evacuation zone is established to prevent people from being exposed to immediate and unacceptable levels of radiation posing a threat to human health. However, the release of radioactivity into the environment may result in contamination of food chains and potentially cause contamination of food beyond this most critical zone through uptake from soil to crops, or to animals through feed, even when levels of radioactive contamination are lower than those which might pose a direct threat to human health. The acceptable amount of radioactivity in food is set at low levels by the regulatory authorities, taking into account the possibility of contaminated food being eaten over an extended period and resulting in a cumulative dose.
+
+Are there rules for radioactivity in foods for trade?
+=====================================================
+
+There are internationally agreed standards for radionuclide levels in internationally traded food following a nuclear or radiological emergency. The Codex Guideline Levels (GLs), published by the Joint FAO/WHO Codex Alimentarius Commission, are provided for adult and infant foods. The GLs state, “as far as generic radiological protection of food consumers is concerned, when radionuclide levels in food do not exceed the corresponding GL, the food should be considered as safe for human consumption.”
+
+When the GLs are exceeded, national governments shall decide whether and under what circumstances the food should be distributed within their territory or jurisdiction. National governments may wish to adopt different values for internal use within their own territories, where the assumptions concerning food distribution that have been made to derive the GLs may not apply, e.g., in the case of widespread radioactive contamination. For foods that are consumed in small quantities, such as spices, that represent a small percentage of total diet and hence a small contribution to the total dose, the GLs may be increased by a factor of 10.
+
+GLs for radionuclide levels in food can be found in the Codex General Standard for Contaminants and Toxins in Food and Feed – (CODEX STAN 193-1995). More information about international standards on radioactivity in food and drinking-water is available at: Criteria for radionuclide activity concentrations for food and drinking-water (2016) - (TECDOC 1788), Management of radioactivity in drinking-water (2018).
+
+What actions can be taken to monitor the safety of food following a radiological or nuclear emergency?
+======================================================================================================
+
+In response to a radiological or nuclear emergency, the national authorities should implement monitoring of food products and restrict the consumption and distribution of some products in certain areas if the amount of radionuclides they contain exceed levels consider acceptable in local regulations, and in accordance to international standards. It is advisable that the relevant authorities provide information about their food monitoring findings and decisions related to the consumption and distribution of food.
+
+In addition to the above mentioned Codex standards for traded food following a nuclear or radiological emergency, criteria on radioactivity concentration in food have been also internationally agreed for countries where a radiological emergency occurred. They are available at:
+
+- IAEA (2011). Criteria for use in preparedness and response for a nuclear or radiological emergency. IAEA Safety Standards Series No. GSG-2. Cosponsored by FAO, IAEA, ILO, PAHO and WHO. Vienna: International Atomic Energy Agency (http://www-pub.iaea.org/MTCD/publications/PDF/Pub1467_web.pdf ); and
+
+- IAEA (2015) Preparedness and response for a nuclear or radiological emergency. IAEA Safety Standards Series No. GSR Part 7. Cosponsored by CTBTO, FAO, IAEA, ICAO, ILO, IMO, INTERPOL, OECDE/NEA, PAHO, UNEP, UN OCHA, WHO and WMO, Vienna: International Atomic Energy Agency (http://www-pub.iaea.org/MTCD/publications/PDF/P_1708_web.pdf ).
+
+Other countries can implement food control measures such as requiring documentation to verify the safety of products or the area of origin of the food. Other countries may decide to suspend food imports from the affected area or increase monitoring on foods imported from that area by measuring radioactive activity at the port of entry.
+
+What general advice can be given to food consumers and producers in the event of a nuclear emergency?
+=====================================================================================================
+
+The response to a radiological or nuclear emergency is similar to the response to any other emergency involving hazardous material contaminating food. In the early stages of an emergency, and if it is safe to do so, it is possible to take immediate actions to prevent or minimize the radioactive contamination of food. For example, it is possible to:
+
+- protect food and animal fodder which is stored in the open; cover with plastic sheets or impermeable tarpaulins;
+
+- close the ventilation of greenhouses to protect growing vegetables;
+
+- bring livestock in from pastures and move animals into a shed or barn;
+
+- harvest any ripe crops and place under cover before any fallout has been recorded; and
+
+- not harvest after fallout – wait for further instructions after contamination has been recorded.
+
+Many other short-, medium- and long-term actions need to be considered in areas confirmed to be seriously contaminated, such as:
+
+- avoid consumption of locally produced milk or vegetables;
+
+- avoid slaughtering animals;
+
+- avoid consumption and harvesting of aquatic animals and plants (including fish, shellfish, and algae); and
+
+- avoid hunting or gathering mushrooms or other wild or collected foods.
+
+Food that was packaged and sealed before the incident, such as tinned or plastic-wrapped, is safe for consumption.
+
+Considerations for breastfeeding women
+======================================
+
+Due to the known higher sensitivity of children to radiation, radiation emergencies resulting in releases of radioactive substances to the environment may understandably cause fear among nursing mothers about the potential transfer of radioactivity with breastmilk to their babies.
+
+However, this transfer might only be of concern in extreme situations, like for local populations near the area most affected by a radioactive release. The concern would be mainly limited to situations with large releases of radioactive iodine, as the risk of thyroid cancer for breastfed infants would be higher than to their mothers. Thyroid blocking by oral administration of stable iodine (together with control of food and drinking-water) is an important protective action when radioactive iodine may be released in large quantities. Children, adolescents, and pregnant and breastfeeding women are most likely to benefit from iodine thyroid blocking. The national and local authorities will provide advice on the practical implementation of these and other public health protective measures.

@@ -1,0 +1,68 @@
+WHO QUESTIONS AND ANSWERS
+Title: Research: WHO and cOAlition S
+URL: https://www.who.int/news-room/questions-and-answers/item/coalition-s
+Retrieved: 2026-10-05T09:43:46.054710+00:00
+
+========================================
+
+What is cOAlition S?
+====================
+
+cOAlition S is an initiative of the European Commission and the European Research Council to make full and immediate open access to research publications a reality. Its members include research councils and funding bodies from across Europe and several non-State actors representing philanthropic foundations, including the Bill & Melinda Gates Foundation and the Wellcome Trust. It has also attracted support from outside Europe, most notably from national research bodies in China and India.
+
+[Funders that have endorsed Plan S and are jointly working on its implementation. Brussels: Science Europe; 2019 (https://www.coalition-s.org/funders/, accessed 28 August 2019).]
+
+cOAlition S is an informal network. Membership requires a public statement in support of the 10 principles of Plan S and how they will be implemented. It should be noted that much of its structure and governance has yet to be defined. Governance and organisational structure.
+
+[Brussels: Science Europe; 2019 (https://www.coalition-s.org/governance/, accessed 28 August 2019).]
+
+What is Plan S?
+===============
+
+Plan S is an initiative that seeks to ensure that “all scholarly publications on the results from research funded by public or private grants provided by national, regional and international research councils and funding bodies,” are published in open-access journals, on open-access platforms, or made immediately available through open-access repositories without embargo. This means that the public can freely access and reuse the research immediately without cost barriers and under the terms of an open licence.
+
+Plan S includes a set of 10 principles and guidance on how those principles can be implemented.
+
+[Principles and implementation. Brussels: Science Europe; 2019 (https://www.coalition-s.org/principles-and-implementation/, accessed 28 August 2019).]
+
+Plan S: making full and immediate open access a reality.
+
+[Brussels: Science Europe; 2019 (https://www.coalition-s.org, accessed 28 August 2019).]
+
+When will Plan S come into effect?
+==================================
+
+Plan S will come into effect from 1 January 2021. This will follow an extensive period of consultation with the public and major stakeholders in order to establish the framework for the implementation of the Plan. WHO will engage with other members of cOAlition S during its implementation and will provide updates on how the WHO open-access policy will evolve.
+
+[WHO policy on open access. Geneva: World Health Organization; 2017]
+
+Why has WHO joined cOAlition S?
+===============================
+
+1. The principles of Plan S are strongly aligned with the objectives of WHO’s institutional policies (such as the WHO open-access policy) and its strategies (such as the WHO strategy on research for health), as well as its strategic objectives, including achieving the Sustainable Development Goals and supporting universal health coverage. Ensuring universal access to scientific research publications that are publicly funded is fundamental for enabling better public health. Many institutions in the world are unable to access a large proportion of scientific information because they cannot afford the subscriptions that the journal publishers charge.
+
+[ WHO strategy on research for health. In: Sixty-third World Health Assembly, Geneva, 17–21 May 2010. Resolutions and decisions, annexes. Geneva: World Health Organization; 2010: Annex 7 (WHA63/2010/REC/1; http://apps.who.int/gb/ebwha/pdf_files/WHA63-REC1/WHA63_REC1-en.pdf , accessed 28 August 2019).]
+
+2. cOAlition S is supported by several of WHO’s key stakeholders, including Member States, and donors such as the Bill & Melinda Gates Foundation, the European Commission and the Wellcome Trust. By joining cOAlition S, WHO will align itself with the open-access principles and objectives of these stakeholders.
+
+3. As the first UN agency or intergovernmental organization to join this initiative, WHO intends to show strong leadership and provide a bold statement to the international public health community.
+
+What are the requirements of Plan S?
+====================================
+
+Researchers must publish in (1) open-access journals or platforms; or (2) in subscription journals (i) that allow authors to deposit the version of record or their accepted manuscript in a public repository immediately, under the terms of a Creative Commons Attribution licence (CC BY), or (ii) that are covered by a transformative agreement that has a clear and time-specified commitment to transition to full open access.
+
+What is the impact of Plan S on WHO’s open-access policy?
+=========================================================
+
+WHO’s open-access policy will be updated in 2020 in accordance with the principles and implementation guidance of Plan S. The revised policy will enter into force on 1 January 2021. WHO will also update its grant agreements to reflect the new policy requirements.
+
+If I am a recipient of WHO funding, do I need to follow the requirements of Plan S?
+===================================================================================
+
+If you submit your article to the journal publisher before 1 January 2021, the current WHO open-access policy will apply. Articles submitted on or after this date will be subject to the revised WHO open-access policy, to be developed in 2020.
+
+Where can I obtain further information?
+=======================================
+
+For further information, contact openaccess@who.int.

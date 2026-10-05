@@ -1,0 +1,74 @@
+WHO QUESTIONS AND ANSWERS
+Title: Foodborne diseases: Global burden
+URL: https://www.who.int/news-room/questions-and-answers/item/foodborne-diseases-global-burden
+Retrieved: 2026-10-05T09:45:57.181320+00:00
+
+========================================
+
+What are foodborne diseases?
+============================
+
+Foodborne diseases encompass a wide spectrum of illnesses and are a significant cause of morbidity and mortality worldwide. They are illnesses associated with the ingestion of food contaminated by bacteria, viruses, parasites and chemicals as well as bio-toxins.
+
+What are some examples of foodborne diseases?
+=============================================
+
+Foodborne diseases can be caused:
+
+- by micro-organisms (e.g. salmonella, campylobacter, enterohaemorrhagic E. Coli, listeria, cholera);
+
+- by parasites (e.g. fasciola, echinococcus, taenia solium);
+
+- by chemical agents and bio-toxins such as:
+- naturally-occurring toxins (e.g. mycotoxins, which are toxins in fungi),
+- persistant organic pollutants (i.e. pollutants that accumulate in the environment and human bodies) ;
+- metals (which accumulate in food e.g. lead, mercury, cadmium); and
+- unconventional agents (e.g. the agent that caused bovine spongiform encephalopathy
+- also known as "mad cow disease").
+
+How widespread are foodborne diseases?
+======================================
+
+Foodborne diseases are a widespread and growing public health problem, both in developed and developing countries. In 2000 the World Health Assembly recognized that the prevention and control of foodborne diseases is an important public health issue (resolution WHA53.15).
+
+While most foodborne diseases are sporadic and often not reported, foodborne disease outbreaks may take on massive proportions. For example, the current Salmonella Saintpaul outbreak in the United States affected 43 out of 50 states in the country. The melamine-contaminated dairy products in China affected over 54,000 children. The WHO Global Burden of Disease: Update 2004 has estimated that 2.16 million children die every year from diarrhoeal diseases as a result of exposure to unsafe water, food, and poor sanitation and hygiene. However the proportion of these deaths that is attributable to eating unsafe food is not currently known. Additionally, diarrhoea is a major cause of malnutrition in infants and young children.
+
+What is the situation regarding foodborne diseases in developed and developing countries?
+=========================================================================================
+
+In some industrialized countries, the percentage of the population suffering from foodborne diseases each year is estimated to be up to 30%. While less well documented, developing countries bear the brunt of the problem. People living in developing countries are more likely to be exposed to unhealthy environments through:
+
+1. Poor access to clean water to adequately wash food items
+
+2. Unsafe transportation and/or inadequate storage of foods
+
+3. Insufficient knowledge of safe food processing and handling practices
+
+4. Compromised immune responses to foodborne infections, particularly in populations where malnutrition and HIV/AIDS are prevalent
+
+This is compounded by poor countries' limited capacity to enforce effective food safety measures, including:
+
+1. Efficient foodborne disease surveillance and monitoring systems
+
+2. Food safety regulations and functioning inspection systems
+
+3. Food safety education programs and
+
+4. Effective emergency planning and relief.
+
+The high prevalence of diarrhoeal diseases in many developing countries, including those caused by parasites, points out the urgent need to prioritize foodborne disease prevention and control in national health and development plans.
+
+The full picture of the impact and costs of foodborne diseases - in industrial just as in developing countries - is to date unknown. Many foodborne disease outbreaks go unrecognized, unreported or uninvestigated and may only be visible if connected to situations that have a major public health or economic impact. In order to fill this current data vacuum, the WHO Department of Food Safety, Zoonoses and Foodborne Diseases (FOS) together with its partners launched the Initiative to Estimate the Global Burden of Foodborne Diseases.
+
+How do foodborne diseases challenge public health security?
+===========================================================
+
+Many recent developments have accelerated the spread of foodborne diseases worldwide:
+
+1) In today’s interconnected and interdependent world, local foodborne disease outbreaks have become a potential threat to the entire globe.
+
+2) Both accidentally and deliberately contaminated food products can affect the health of people in many countries at the same time, as well as causing considerable economic losses from lost production and trade embargoes, and damage to a country's tourist industry.
+
+3) Foodborne diseases are not only spreading faster, they also appear to be emerging more rapidly than ever before1 and are able to circumvent conventional control measures.
+
+4) The growing industrialization of food production catalyses the appearance and spread of new pathogens, as was the case for prions associated with bovine spongiform encephalopathy (BSE) which led to new variant Creutzfeldt-Jakob disease (vCJD) in humans in the United Kingdom during the 1990s. The increasing resistance of pathogens to antibiotics is also a major problem.

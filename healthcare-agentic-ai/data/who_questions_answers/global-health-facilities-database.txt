@@ -1,0 +1,63 @@
+WHO QUESTIONS AND ANSWERS
+Title: Geolocated Health Facilities Data initiative
+URL: https://www.who.int/news-room/questions-and-answers/item/global-health-facilities-database
+Retrieved: 2026-10-05T09:46:07.912217+00:00
+
+========================================
+
+The GHFD initiative is a key initiative of WHO’s Centre for GIS Health.
+
+What is a Health Facility Master List (HFML)?
+=============================================
+
+The unique, complete, up-to-date and uniquely coded list of all the active and prior health facilities in the country officially that are officially curated by the mandated agency. At a minimum, the HFML includes a unique ID, location, type and name of each facility.
+
+What is the purpose of the GHFD initiative?
+===========================================
+
+To strengthen the technical capacity of the Ministries of Health across all levels to ensure the availability, quality, accessibility and use of a master list of health facilities by building on what already exists to avoid duplicated efforts and more efficiently address public health priorities.
+
+Why should countries provide their HFML as a global public good?
+================================================================
+
+Centralizing health facility data in an open, global and standardized directory ensures verified information is integrated into a common system. As a global public good, it allows for consistent understanding and usage of the data, in addition to supporting innovation and new service development.
+
+How can countries access funding and support?
+=============================================
+
+The initiative is developing a resourcing plan. Support will be tailored for each country based on a needs assessment. Interested countries can contact their local WHO country office for more information or email ghfd@who.int.
+
+Who is involved in the initiative?
+==================================
+
+The initiative is a cross-sectoral collaboration that includes: Ministries of Health and other government partners; WHO global, regional, and country offices; donors, implementing partners and technical advisors with deep experience in GIS and health data.
+
+What is the operational structure of the initiative?
+====================================================
+
+WHO regional offices provide country and regional support and coordination. The WHO GIS Centre at headquarters facilitates the initiative’s global-level strategic, technical, and implementation working groups.
+
+How is the initiative defining a health facility type?
+======================================================
+
+The GHFD initiative is not defining a health facility type at the global level. Rather, country-level health facility definitions will be included in the metadata of each HFML. This approach ensures that we do not duplicate existing efforts nor create additional work for Ministry of Health staff. It also provides a more accurate account of health facilities within a country, as it reflects the differences between the Ministries of Health and cultural norms and definitions of what constitutes a health facility.
+
+What constitutes “location” of a health facility?
+=================================================
+
+Our goal is for the geographic coordinates (latitude and longitude) of each health facility to be accurately collected and captured in the HFML in addition to street name, administrative unit, etc. When geographic coordinates are not available, the name and unique identifier of the administrative unit in which the health facility is located will suffice while the Ministry of Heatlh builds the capacity to collect geographic coordinates.
+
+How is the initiative promoting data interoperability?
+======================================================
+
+Unique identifiers in country HFMLs are critical to ensuring health facility level data can connect with and be used by other systems, services, and tools. The initiative encourages countries to assign proper unique identifiers in their HFMLs to support interoperability at the country level.
+
+Who is in charge of hosting and managing the directory?
+=======================================================
+
+All countries are in charge of hosting and managing their HFML themselves, maintaining full control over their data. To help maintaining a sustainably integrated, functional, updated, and shareable HFML, the initiative offers support to countries to develop, maintain, and share their own HFMLs on their website as a Global Public Good. A global directory will link to the respective HFMLs’ websites.
+
+Why is the GHFD initiative focusing on the unique identifier, name, type and location of each facility?
+=======================================================================================================
+
+The GHFD initiative is intentionally focusing on four groups of data elements (unique identifier, name, type and location) because they capture the minimum information necessary to identify how many health facilities exist in a country and where they are located. Countries may choose to include, maintain and regularly update other data elements in their HFML.

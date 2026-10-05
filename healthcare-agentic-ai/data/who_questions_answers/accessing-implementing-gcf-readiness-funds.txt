@@ -1,0 +1,166 @@
+WHO QUESTIONS AND ANSWERS
+Title: Accessing and implementing GCF readiness funds
+URL: https://www.who.int/news-room/questions-and-answers/item/accessing-implementing-gcf-readiness-funds
+Retrieved: 2026-10-05T09:39:26.345205+00:00
+
+========================================
+
+To provide further guidance in accessing GCF financing for health-related readiness activities with WHO as the Delivery Partner, some of the most common questions we have received regarding the readiness process for the health sector are answered below.
+
+1. Who can access the GCF Readiness Programme?
+==============================================
+
+All developing country parties to the UNFCCC can access the Readiness Programme. At least 50 per cent of the readiness support is intended for particularly vulnerable countries, including Least Developed Countries (LDCs), Small Island Developing States (SIDS) and African States.
+
+2. How much funding is available under the GCF Readiness Programme?
+===================================================================
+
+The GCF Readiness Programme provides:
+
+- Up to USD 1 million per country per year for support related to institutional capacity building, coordination, policy and planning, and programming for investment.
+
+Of this overall amount, NDAs may request up to USD 300,000 per year in direct support to help establish or strengthen a NDA or focal point to deliver on the Fund’s requirements. A maximum of USD 100,000 can be used for NDA-led stakeholder meetings.
+
+Activities under Objectives 1, 2, 4 and 5 can be proposed for this funding bucket. While the maximum funding available is USD 1 million per year, projects may be implemented in timeframes longer than 12 months (and will only be counted against the funding cap for the year the proposal was approved).
+
+- Up to USD 3 million per country for the formulation of National Adaptation Plans (NAPs) and/or other adaptation planning processes. This may include support for subnational adaptation plans and/or sectoral adaptation planning processes including H-NAPs.
+
+Activities under Objective 3 can be proposed for this funding bucket.
+
+These two caps work independently of each other. The USD 1 million cap is applied on approvals per calendar year, not implementation period. For example, in 2020, a country may be approved for Grant A of USD 1 million with an 18-month implementation term ending in 2021. That country would not be able to access another readiness grant under the USD 1 million cap system in 2020. However, in 2021, they could submit Grant B for up to USD 1 million for an implementation term concurrent, at least in part, with Grant A.
+
+2. What can WHO do as a GCF Readiness Delivery Partner?
+=======================================================
+
+Readiness Delivery Partners provide services such as: support to NDAs in the development of readiness request proposals; implementation and supervision; financial management; progress reporting; and project completion and evaluation.
+
+WHO can support countries in developing readiness proposals in cooperation with NDAs and implementing readiness activities for health such as conducting a health vulnerability and adaptation assessment, developing the health component of the national adaptation plan (H-NAP), assessing the health co-benefits of mitigation, the development of a full project proposal or any other health priority issues as agreed with the NDA.
+
+3. Can a Readiness Delivery Partner develop and implement full GCF projects?
+============================================================================
+
+Full project proposals (not readiness proposals) must be developed by a GCF Accredited Entity (AE). WHO is currently not an AE of the GCF. WHO can assist with the development of full project proposals for submission to GCF (although not as part of a readiness proposal) and implement activities as part of a GCF-funded project, however, an AE is responsible for project proposal submission and then managing the overall project.
+
+3. Is it possible to apply for both the USD 1 million per year and the readiness funds of USD 3 million per year at the same time with different readiness delivery partners?
+=============================================================================================================================================================================
+
+Yes, it is. The USD 3 million is a one-time funding allocation available for NAP-related activities (including the development of a health component of a NAP (H-NAP)).
+
+4. What is the funding cap for WHO as a Readiness Delivery Partner?
+===================================================================
+
+Currently, there is no funding cap for WHO as a Delivery Partner. Any GCF Readiness projects for which WHO is a delivery partner will be subject to the USD 3 million per country cap on support for adaptation planning (Objective 3) and the annual cap of USD 1 million per country.
+
+5. Who needs to submit the GCF readiness proposal?
+==================================================
+
+The readiness proposal must be submitted by the country’s NDA and as such, it is very important to have the NDA’s support at an early stage, ideally at proposal conceptualization. It is equally important to ensure that the proposal is developed in partnership with the Ministry of Health (or equivalent Government department) and other relevant Government counterparts.
+
+For proposals in which WHO is the delivery partner, WHO Headquarters (HQ), specifically the Assistant Director General, Healthier Populations (GCF@who.int), is the appropriate contact point for section 1.4 of the readiness template. Other relevant WHO contacts may also be added in section 1.4 in addition to HQ. Please also include villalobose@who.int in the list of additional emails to be copied.
+
+6. Does a No Objection Letter (NOL) need to be submitted with the GCF Readiness Proposal?
+=========================================================================================
+
+No, The GCF Board policies do not require NoLs for Readiness proposals. The act of Proposal submission is effectively taken as NDA consent since NDAs rather than Delivery partners are responsible for submitting the proposal. Some countries may submit NoL type letter, but this may be due to National protocols rather than GCF policies.
+
+7. Are the Letters of Financial Support required for regional or multi-country proposals separate from the No Objection Letters?
+================================================================================================================================
+
+Yes, Letters of Financial Support are separate from NoLs.
+
+8. If WHO is the readiness delivery partner who will receive the funds?
+=======================================================================
+
+WHO HQ will receive funds directly from the GCF. The funding will then be transferred to WHO Regions or countries accordingly.
+
+9. What are the regulations for using funds to support project-related staff from WHO
+=====================================================================================
+
+Regarding the use of funds to support existing WHO staff under the outcome budget, this is allowable with the following circumstances:
+
+1. WHO staff must have clearly defined roles in the execution of activities. This is especially true if the budget for the same output/activity includes the use of consultants and/or firms.
+
+2. WHO staff technical responsibilities must be separate from those eligible to be charged against the Project Management Cost (PMC). That is, WHO must ensure these are not generic costs related to programme management or implementation oversight (such as quality assurance on deliverables, managing consultants, reporting, stakeholder engagement, etc.) Detailed information is provided on p. 26 of the Guidebook, and also the Annex to the GCF Board decision on the policy on fees (p. 50).
+
+3. Section 6.2 must contain a thorough explanation of what each consultant, firm, and/or WHO staff will perform under each activity they are budgeted against. This section should indicate, for activities that will have more than one staff/consultant/firm budgeted, who is leading and who is supporting the work.
+
+10. What are the regulations for using funds to support project-related staff from partners (e.g. Ministry of Health)?
+======================================================================================================================
+
+GCF has strict regulations regarding the transfer of funds to project partners. Any transfer of funds from the Delivery Partner to second a staff member of national government or from a partner agency to work on grant activities will require the three following conditions:
+
+1. a) The staff member is not on the payroll of the government/receives no government salary during the grant term;
+
+2. b) The staff member was procured under the approved procurement policies of the delivery partner, and;
+
+3. c) The staff member has specifically detailed role and responsibilities in the outcome budget and explained in Section 6.2.
+
+11. Is it possible to use Direct Financial Cooperation (DFC) arrangements during project implementation?
+========================================================================================================
+
+Direct Financial Cooperation (DFC) arrangements are not allowed under the GCF process. This could only be allowed if:
+
+1. A financial management capacity assessment has been performed on the sub-grantee (e.g. Ministry of Health of Health) confirming that they meet the basic requirements to handle GCF funding;
+
+2. The proposal specifies the activities and budget lines that will be implemented by the sub-grantee, and;
+
+3. The proposal confirms that a legal contract between the delivery partner and the sub-grantee will be agreed wherein the sub-grantee assumes all compliance responsibilities from GCF (e.g. WHO “passes down” such responsibilities to the Ministry of Health).
+
+12. Who has responsibility for the implementation of approved readiness activities?
+===================================================================================
+
+The role of a delivery partner of any approved readiness activities is the implementation of the said activities. Hence, if WHO is the selected and approved readiness delivery partner for that specific proposal, WHO will be responsible for ensuring the activities are implemented as outlined in the proposal.
+
+However, to ensure effective delivery of proposal activities it is crucial that the proposal is developed in partnership with the Ministry of Health (or equivalent Government department) and the NDA.
+
+13. Does the funding for a readiness proposal count towards the funding limit of the year the proposal is submitted or the year that it is approved (if they are different)?
+============================================================================================================================================================================
+
+The year it is approved. For example, if a country submits a readiness proposal in June 2021 but it is not approved until March 2022 it will be part of the USD 1 million cap for 2022.
+
+14. What is the usual approval timeframe from the date of proposal submission?
+==============================================================================
+
+The GCF Secretariat aims to process approval of all readiness grants within 90 business days from submission date. For National Adaptation Plan (NAP)/adaptation planning proposals, the GCF Secretariat aims to approve proposals in 110 business days. However, this does not count the time required for revisions to proposals by the Nationally Designated Authority and/or delivery partner. On average, for regular readiness proposals, the time from submission to first tranche disbursement is 180 – 200 days.
+
+Key contacts
+============
+
+WHO Headquarters
+----------------
+
+Elena Villalobos, Health and Climate Change Unit: villalobose@who.int
+
+Amy Savage, Health and Climate Change Unit: savagea@who.int
+
+WHO Regional Offices
+--------------------
+
+Regional Office for Africa: Guy Mbayo Kakumbi, mbayog@who.int;
+
+Regional Office for the Americas (Pan American Health Organization): Daniel Buss, bussd@paho.org; Sally Edwards edwardss@paho.org and Jonathan Drewry drewryj@paho.org
+
+Regional Office for South-East Asia: Rasheed Hussein, hrasheed@who.int and Faustina Gomez gomezf@who.int;
+
+Regional Office for Europe: Vladimir Kendrovsky kendrovskyv@who.int and Oliver Schmoll schmollo@who.int;
+
+Regional Office for the Eastern Mediterranean: Hamed Bakir, bakirh@who.int
+
+Regional Office for the Western Pacific: Genandrialine Peralta, peraltag@who.int; Nasir Hassan hassanm@who.int
+
+GCF Readiness
+-------------
+
+Daniel Buckley, Readiness Program Senior Specialist: dbuckley@gcfund.org
+
+Corey Fortin, Regional Officer (West, South, and East Asia): cfortin@gcfund.org
+
+Samantha Rabine, Regional Officer (Western Pacific): s.rabine@gcfund.org
+
+Mahendra Saywack, Regional Officer (Latin America and Caribbean): msaywack@gcfund.org
+
+Olade Balo Akakpo, Regional Officer (Africa Region I): oakakpo@gcfund.org
+
+Stephen Seres, Regional Officer (Africa Region II): sseres@gcfund.org
+
+Salamat Erejepov, Regional Officer (Eastern Europe and Central Asia): serejepov@gcfund.org

@@ -1,0 +1,359 @@
+WHO QUESTIONS AND ANSWERS
+Title: Radiation: Japan nuclear concerns
+URL: https://www.who.int/news-room/questions-and-answers/item/radiation-japan-nuclear-concerns
+Retrieved: 2026-10-05T09:48:58.911019+00:00
+
+========================================
+
+This page is no longer being updated. It remains live for reference purposes only.
+
+What is the current risk of radiation-related health problems in Japan for those residing near the reactor in comparison to those in other parts of Japan?
+==========================================================================================================================================================
+
+- During the early phase of the nuclear emergency, radiation-related health was dependent on exposure, which is turn was due to several things, including the amount and type of radiation released from the reactor; weather conditions, such as wind and rain; a person’s proximity to the plant; and the amount of time spent in irradiated areas.
+
+- The Government of Japan’s early actions in response to events at the Fukushima Daiichi nuclear power plant were in line with the existing recommendations for radiation exposure. The Government has evacuated individuals who were living within a 20-kilometre radius around the Fukushima Daiichi plant. Those living between 20 km and 30 km from the plant were asked to evacuate voluntarily. In general, people living farther away of the site of the event are at lower risk than those who live nearby.
+
+- In light of evolving new information on levels of environmental radioactivity in the 20-30 km zone and some surrounding areas beyond the 30km zone, the Government of Japan established new planned evacuation zones from which residents were relocated to temporary housing based on the estimated cumulative doses they may receive in the 1 year following the accident.
+
+- In addition, an emergency evacuation preparedness zone was also identified in which residents were asked to prepare their affairs in case they were asked to evacuate. These zones also follow administrative boundaries and extend beyond the 30 km radius.
+
+Is there a risk of radioactive exposure from food contamination?
+================================================================
+
+- Yes, there is a risk of exposure as a result of contamination in food.
+
+- However, contaminated food would have to be consumed over prolonged periods to represent a risk to human health.
+
+- The radioactive iodine and caesium in concentrations above the Japanese regulatory limits have been detected in some food commodities as a result of food monitoring
+
+- Japanese authorities have advised residents to avoid these foods and have implemented measures to prevent their sale and distribution.
+
+Are there health risks to people living outside of Japan from radiation emitted into the atmosphere from damaged Japanese nuclear power plants?
+===============================================================================================================================================
+
+Thus far, there are no health risks to people living in other countries from radioactive material released into the atmosphere from the Japanese nuclear power plants. Radiation levels measured to date in other countries are far below the level of background radiation that most people are exposed to in every day circumstances.
+
+Radiation levels have been monitored by the Preparatory Commission for the Comprehensive Nuclear-Test-Ban Treaty Organization (CTBTO), which operates 63 surveillance stations around the world.
+
+Preparatory Commission for the Comprehensive Nuclear-Test-Ban Treaty Organization (CTBTO)
+
+Are people normally exposed to ionizing radiation?
+==================================================
+
+- Human beings are exposed to natural radiation (also known as background radiation) on a daily basis. Natural radiation comes from space (i.e. cosmic rays) as well as from naturally-occurring radioactive materials found in the soil, water and air. Radon gas is a naturally-occurring gas that is the main source of natural radiation.
+
+- People can also be exposed to radiation from artificial sources. Today, the most common artificial sources of ionizing radiation are X-ray machines and other medical devices.
+
+- Radiation doses can be expressed in Sievert (Sv) units. On average, a person is exposed to approximately 3.0 milli Sieverts (mSv)/year, of which 80% (2.4 mSv) is due to naturally-occurring sources (i.e., background radiation), 19.6 % (almost 0.6 mSv) is due to the medical use of radiation and the remaining 0.4% (around 0.01 mSv) is due to other sources of human-made radiation.
+
+- In some parts of the world, levels of exposure to natural radiation differ due to local geology. People in some areas can be exposed to more than 200 times the global average.
+
+What is ionizing radiation?
+===========================
+
+- When certain atoms disintegrate, they release a type of energy called ionizing radiation. This energy can travel as either electromagnetic waves (i.e. gamma or X-rays) or as particles (i.e. alpha, beta or neutrons).
+
+- The atoms that emit radiation are called radionuclides; e.g., radioactive iodine, caesium, and plutonium.
+
+- Ionizing radiation is an essential tool for diagnosis and treatment in medicine, that must be used with rigorous attention to safety.
+
+How are people exposed to ionizing radiation?
+=============================================
+
+- Ionizing radiation may result from sources outside or inside of the body (i.e. external irradiation or internal contamination).
+
+- External irradiation is produced when a person is exposed to external sources (i.e. X-rays) or when radioactive material (i.e. dust, liquid, or aerosols) becomes attached to skin or clothes.
+
+- Internal contamination may result from breathing in or swallowing radioactive material or through contamination of wounds.
+
+What type of radiation exposure could occur in a nuclear power plant accident?
+==============================================================================
+
+- In the event a nuclear power plant does not function properly, individuals, land, and structures in the vicinity of the plant could be exposed to a mixture of radioactive products generated inside the reactor, also known as “nuclear fission products”. The main radionuclides representing health risk are radioactive caesium and radioactive iodine.
+
+- Members of the public may be exposed directly to radionuclides, either in the air or if food and water become contaminated by these materials.
+
+- Rescuers, first responders, and nuclear power plant workers may be exposed to radioactive materials and higher radiation doses inside or around the power plant due to their professional activities.
+
+What is the WHO travel advice for Japan?
+========================================
+
+- WHO has not issued any advice on general restrictions regarding travel to Japan.
+
+- During the early phase of the emergency, travellers were advised to avoid travel to the areas most affected by the earthquake and tsunami because of disruptions to essential services, such as transport and electric power. The ongoing disaster relief activities, including the nuclear power plant emergency response and control activities, would have made travel difficult and could have consumed resources needed by relief workers and residents. Moreover, as indicated by the Japanese authorities, travel within the evacuation and exclusion zones surrounding the Fukushima Daiichi nuclear power plant was prohibited.
+
+- In general, travellers who do not have essential reasons to travel were advised to give careful consideration to deferring travel to any areas where there had been considerable disruption to the normal infrastructure and where authorities were responding to urgent humanitarian needs.
+
+- The situation in Japan has improved. Residents are being temporary allowed access into some areas that had been evacuated, but restrictions still exist. The Government of Japan is monitoring the situation and plans to lift restrictions once safety conditions are met.
+
+- Information on the status of the nuclear facilities in Fukushima can be found on Japan’s Nuclear and Industrial Safety Agency (NISA) website and on the International Atomic Energy Agency (IAEA) website.
+
+- Travellers should be aware of the risk of further earthquakes across Japan. Moreover, there may be areas of power, fuel, food and water shortages.
+
+International Atomic Energy Agency (IAEA)
+
+Do travellers returning from Japan represent a health risk for others?
+======================================================================
+
+At this time, only those involved in the emergency response near the nuclear power plant remain in the area where there are higher levels of radioactivity. For their own safety, all personnel in these areas should undergo decontamination procedures when they leave the site. Travellers returning from Japan who have come from the 20 km evacuation zone surrounding the Fukushima Daiichi nuclear power plant and who have undergone proper screening and decontamination procedures, and travellers from all other areas, do not pose a radioactive health risk to others and do not require screening.
+
+What are the acute health effects of radiation exposure?
+========================================================
+
+- If the dose of radiation exceeds a certain threshold level, it can produce acute effects, including skin redness, hair loss, radiation burns, and acute radiation syndrome (ARS).
+
+- In a nuclear power plant accident, the general population is not likely to be exposed to doses high enough to cause such effects.
+
+- Rescuers, first responders, and nuclear power plant workers are more likely to be exposed to doses of radiation high enough to cause acute effects.
+
+What long-term effects can be expected from radiation exposure?
+===============================================================
+
+- Exposure to ionizing doses of radiation can increase the risk of cancer.
+
+- Radioactive iodine can be released during nuclear emergencies. If radioactive iodine is breathed in or swallowed, it will concentrate in the thyroid gland and increase the risk of thyroid cancer. Among persons exposed to radioactive iodine, the risk of thyroid cancer can be lowered by taking potassium iodide pills, which helps prevent the uptake of the radioactive iodine.
+
+- The risk of thyroid cancer following radiation exposure is higher in children and young adults.
+
+Does radiation exposure pose a risk to foetuses?
+================================================
+
+- Foetuses are at risk of brain damage from radiation during weeks 8-25 of gestation.
+
+- Studies have shown brain damage in foetuses following exposure to an acute dose of radiation exceeding 100 mSv during weeks 8-15 and an acute dose exceeding 200 mSv during weeks 16-25. Outside of weeks 8-25, studies have not shown radiation risk to the fetal brain.
+
+- Foetal exposure to radiation can increase the risk of cancer in childhood. Studies have shown this effect with doses above 100 mSv.
+
+- Dose comparisons for ionising radiation
+Health Protection Agency (UK) web site
+
+What emotional impact can a nuclear accident have on children? How can they be assisted?
+========================================================================================
+
+- Disasters and their aftermath can have a profound emotional impact on children and may result in long term behavioural disturbances. Children exhibiting signs of stress - including difficulty sleeping, loss of appetite, developing new fears, changes in behaviour (e.g. clinging, bedwetting), being preoccupied with the crisis - should receive extra time and attention from family members and other caregivers.
+
+- Children are among the most vulnerable of those affected by a nuclear accident because of their inability to fully understand and process the immediate and long-term effects of the emergency. Family members and caregivers should try to find out what the child thinks and feels about the disaster. If the child is scared because she/he has misunderstood what has happened, then simple explanations should be provided while avoiding alarming details. Children need a chance to play and relax. Encourage older children to be helpful and maintain regular routines.
+
+- Reactions to stress can depend on developmental level and are generally marked by changes in typical behaviour for a specific child or adolescent. Reactions may continue for days, weeks or even months. Children should see a paediatrician or mental health professional if anxiety or grief interferes with their daily functioning, or if these emotions do not reduce with time. Early management of these symptoms can speed recovery and prevent long-term consequences.
+
+Mental Health and Psychosocial Support in Emergency Settings (English version) [pdf, 816KB]
+Inter-Agency Standing Committee (IASC) Guidelines
+
+Triage, Monitoring and Treatment of people exposed to ionizing radiation
+TMT Hand book Triage, Monitoring and Treatment of people exposed to ionizing radiation following a malevolent act (2009). WHO, SCK, NRPA, STUK, Enviros, Clor. Chapter 8: 328 - 331 Prevention and treatment of psychological consequences
+
+Which public health actions are most important to take?
+=======================================================
+
+- Health effects can only occur if someone is exposed to radiation, thus the main protective action someone can take is to prevent exposure. Those closest to the radiation source are at greatest risk of exposure and the greater the distance away, the lower the risk.
+
+- In the early phase of a nuclear emergency (within the first hours/days), urgent protective actions may be implemented to prevent radiation exposure, taking into account projected doses that people may received in the short-term (e.g. within 2-7 days). These necessary actions depend on the estimated exposure (i.e., the amount of radioactivity released into the atmosphere and the prevailing meteorological conditions, such as wind and rain. Actions may include: evacuation of the area around or near the nuclear power plant; advising people to shelter in their homes, offices, other secure buildings or designated shelters to reduce exposure; and distributing and administering potassium iodide pills to reduce the risk of thyroid cancer).
+
+- When environmental and human monitoring data increases, relocation of people to temporary housing may be considered in particular areas, taking into account the radiation doses that residents may receive over the long-term (e.g. one year).
+
+- If warranted, public health or national authorities may restrict or prohibit the consumption of vegetables and dairy products produced in the vicinity of the nuclear power plant in order to reduce exposure. Monitoring programs are established to inform longer term decisions on food restriction, water consumption, and the control of internationally traded foodstuffs.
+
+- Only competent authorities who have conducted a careful analysis of the emergency situation are in a position to recommend which of these public health measures should be undertaken.
+
+How can I protect myself?
+=========================
+
+- Keep informed by obtaining accurate and authoritative information (e.g., information from authorities delivered by radio, TV or the Internet) and following your government's instructions.
+
+- The decision to take potassium iodide should be based on information provided by national health authorities who will be in the best position to determine if this step is warranted.
+
+If I have been exposed to radioactive material released into the environment, what should I do?
+===============================================================================================
+
+- If you are coming indoors after exposure to radioactive material, undress in the doorway to avoid further contamination in your home or shelter. Remove clothing and shoes and place them in a plastic bag. Seal the bag and place it in a safe location away from living areas, children, and pets.
+
+- Shower or bathe with warm water and soap.
+
+- Notify authorities that you may have contaminated clothing and personal belongings to be handled appropriately and disposed of according to accepted national procedures.
+
+When people are advised to stay indoors, what does this mean?
+=============================================================
+
+- When a radiological or nuclear event occurs, public health authorities may order residents in the affected areas to stay indoors rather than evacuate. You may be advised to take shelter at home, at work, or in public shelters. Shelter can provide protection from external exposure and from inhalation of radioactive material.
+
+- If you are advised to stay indoors, you should find the safest room in your house or office building: if possible, one which has no windows and no external doors. Ventilation systems, such as heating and cooling systems, should be shut down.
+
+- In sub-zero temperatures, it is important to keep warm. If you have been instructed to shelter in your home, office, or other structure, it may not be safe to burn fuels—such as gas, coal, or wood—to keep warm. Doing so may result in carbon monoxide poisoning, which can occur when rooms are not adequately ventilated. If it is available, electrical forms of heating are safer.
+
+What are potassium iodide pills?
+================================
+
+- Potassium iodide pills are a source of stable (i.e. non-radioactive) iodine. The thyroid gland requires iodine to produce thyroid hormones. The presence of stable iodine in the body in an appropriate amount blocks the thyroid from absorbing radioactive iodine (radioiodine), reducing the risk of thyroid cancer which may follow from exposure to radioiodine.
+
+- Potassium iodide pills are not “radiation antidotes”. They do not protect against external radiation, or against any other radioactive substances besides radioiodine. They may also cause medical complications for some individuals with poorly functioning kidneys. Potassium iodide should be taken only when there is a clear public health recommendation.
+
+When and why should I take potassium iodide?
+============================================
+
+- You should only take potassium iodide when it is recommended by public health authorities. If you are at risk or have been exposed to radioiodine, potassium iodide pills may be given to protect the thyroid gland from uptake of radioiodine. This can reduce the risk of thyroid cancer in the long run, when given before or shortly after exposure.
+
+Should I take iodized salt to protect myself from radiation?
+============================================================
+
+- No, you should not take iodized salt to protect yourself from radiation. It is dangerous to take large amounts of iodized salt in order to increase the amount of stable iodine in the body.
+
+- Increasing one's daily intake of iodized salt will cause more harm than good. The main ingredient of iodized salt is sodium chloride, which is linked with hypertension (high blood pressure) and other medical disorders. The iodine content in iodized salt is too low to prevent uptake of radioiodine.
+
+- Sodium chloride is acutely toxic in large amounts: even tablespoon quantities of salt repeatedly taken over a short period of time could cause poisoning.
+
+Can I take other forms of iodine?
+=================================
+
+- No, you should not take products that contain iodine, other than medicines recommended by public health authorities.
+
+- Iodine is found in a variety of household and industrial products. For example, iodine may be found in some disinfectants, antiseptics, and water-sterilizing solutions. These products should not be taken as an alternative to potassium iodide pills, because such products contain other ingredients that can be harmful if swallowed.
+
+Can pregnant women take potassium iodide pills?
+===============================================
+
+- Yes, most pregnant women can take potassium iodide pills, following the instructions of public health authorities. Potassium iodide will cross the placenta and protect the thyroid of the growing foetus, as well as the mother.
+
+What are the recommendations for breastfeeding women regarding potassium iodide?
+================================================================================
+
+- As with the rest of the population, breastfeeding women should take potassium iodide tablets only when advised by public health authorities. However, this will not be sufficient to fully protect the breastfed child who will need potassium iodide as well, in special doses adapted for newborns and infants.
+
+- Under these conditions, breastfeeding can continue.
+
+Can food produced in other countries be affected by the events in Japan?
+========================================================================
+
+- Radioactive material has been released into the environment from damaged Japanese nuclear power plants. Radiation levels measured to date in other countries are far below the level of background radiation that most people are exposed to in everyday circumstances and do not present health or transportation safety hazards, according to the United Nations organizations closely monitoring the situation.
+
+- Minute amounts of radioactive caesium and iodine might be found using very sensitive detection methods but this should not affect foods produced in other countries as the amounts involved will be well below acceptable levels and would not pose a health concern to those who eat the food.
+
+What are the potential health effects of consuming contaminated food?
+=====================================================================
+
+- Consuming food contaminated with radioactive material will increase the amount of radioactivity a person is exposed to and could increase the health risks associated with exposure to radiation. The exact effect will depend on which radionuclides have been ingested and the amount. According to data reported so far, radioactive iodine and caesium are the main contaminants, and concentrations in some food samples have been detected at levels above the Japanese regulatory limits.
+
+- Radioactive iodine has a half-life of eight days and decays naturally within weeks. If ingested, it can accumulate in the body, particularly the thyroid gland, and increase the risk of thyroid cancer, particularly in children.
+
+- The ingestion of potassium iodide is an established method to prevent the accumulation of radioactive iodine in the thyroid.
+
+- Radioactive caesium has a half-life longer than that of radioactive iodine (up to 30 years) and can stay in the environment for many years. Like all radionuclides, exposure to radiation from radioactive caesium can result in an increased risk of cancer.
+
+Is all food production in Japan affected by the nuclear emergency?
+==================================================================
+
+- No, not all foods will be affected. Food that was dispatched or commercially packaged before the emergency situation would not be affected. However, some food produced in areas where radioactive material has been deposited has been found to be contaminated. This is why the Japanese authorities have instituted monitoring and are taking measures to address the issue.
+
+What impact will this have on food and food production in Japan?
+================================================================
+
+- The impact on food and food production in Japan will depend upon the types of radionuclides and the amount of radioactivity deposited or present where food is being produced or harvested. Although radioactive iodine in food is of immediate concern after nuclear emergencies, it has a relatively short half-life and will naturally decay over a short time frame. Radioactive caesium has also been detected in food. In contrast to radioactive iodine, radioactive caesium can linger in the environment for many years and could continue to present a longer term problem for food, and food production, and a threat to human health.
+
+How do food products become radioactive?
+========================================
+
+- Foods can become contaminated with radioactive materials when they are released as the result of a nuclear or radiological emergency. In these circumstances, radioactive material falling from the air or carried in rain water or snow, can deposit on the surface of foods like fruits and vegetables or animal feed. Also, over time, radioactivity can build up within food, as radionuclides are transferred through soil into crops or animals. Radioactivity can also be washed into rivers, lakes and the sea where fish and seafood could take up the radionuclides. The severity of the risk depends on the radionuclide mix and the level of contaminant released.
+
+- Radioactivity cannot contaminate food that is packaged; for example, tinned or plastic-wrapped food is protected from radioactivity as long as the food is sealed.
+
+Why is food affected in areas beyond the evacuation zone?
+=========================================================
+
+- During a nuclear emergency, an evacuation zone is established to prevent people from being exposed to immediate and unacceptable levels of radiation posing a threat to human health. However, contamination of food can occur through uptake from soil to crops, or to animals through feed, even when levels of radioactive contamination are lower than those which might pose a direct threat to human health. The standards for acceptable limits for radioactivity in food are set at low levels in order to take into account the possibility of contaminated food being eaten over an extended period of time and resulting in a cumulative dose.
+
+Are there rules for radioactivity in foods for international trade?
+===================================================================
+
+- There are internationally agreed Codex Guideline Levels (GLs) for radionuclide levels in internationally traded food following a nuclear or radiological emergency. These GLs are published by the Joint FAO/WHO Codex Alimentarius Commission.
+
+- The GLs state that, “as far as generic radiological protection of food consumers is concerned, when radionuclide levels in food do not exceed the corresponding Guideline Level, the food should be considered as safe for human consumption. When the Guideline Levels are exceeded, national governments shall decide whether and under what circumstances the food should be distributed within their territory or jurisdiction. National governments may wish to adopt different values for internal use within their own territories, where the assumptions concerning food distribution that have been made to derive the Guideline Levels may not apply, e.g., in the case of widespread radioactive contamination. For foods that are consumed in small quantities, such as spices, that represent a small percentage of total diet and hence a small addition to the total dose, the Guideline Levels may be increased by a factor of 10”.
+
+- GLs for radionuclide levels can be found in the Codex General Standard for Contaminants and Toxins in Food and Feed – (CODEX STAN 193-1995)
+
+Codex General Standard for Contaminants and Toxins in Food and Feed
+(CODEX STAN 193-1995)
+
+What actions are being taken to monitor the safety of food from Japan?
+======================================================================
+
+- In response to the nuclear accident in Japan, Japanese authorities have instituted monitoring of food products and have restricted the consumption and distribution of some products in certain prefectures, or areas found to contain radionuclides exceeding Japan's provisional regulation value. Findings from food monitoring in Japan and decisions related to the consumption and distribution of food products are published regularly on the Ministry of Health, Labour and Welfare web site.
+
+- Many countries have implemented food control measures to mirror actions taken within Japan. Some countries have indicated they now require documentation verifying the safety of products and/or the prefecture of origin of the food. Other countries have suspended food imports from Japan. In addition, many countries have increased monitoring on foods imported from Japan.
+
+Japan Ministry of Health, Labour and Welfare
+
+What general advice can be given to food consumers and producers in the event of a nuclear emergency?
+=====================================================================================================
+
+- The response to an emergency involving radioactivity should be the same as the response to any emergency involving any hazardous material contaminating food. In the early stages of an emergency, and if it is safe to do so, it is possible to take immediate actions to prevent or minimize the contamination of food by radiological materials. For example, it is possible to do the following:
+
+- protect food and animal fodder which is stored in the open; cover with plastic sheets or impermeable tarpaulins;
+
+- close the ventilation of greenhouses to protect growing vegetables;
+
+- bring livestock in from pastures and move animals into a shed or barn;
+
+- harvest any ripe crops and place under cover before any fallout has been recorded; and
+
+- don’t harvest after fallout – wait for further instructions after contamination has been recorded.
+
+- Many other short-, medium- and long-term actions need to be considered in areas confirmed to be seriously contaminated, such as:
+
+- avoid consumption of locally produced milk or vegetables;
+
+- avoid slaughtering animals;
+
+- avoid consumption and harvesting of aquatic animals and plants (including fish, shellfish, and algae); and
+
+- avoid hunting or gathering mushrooms or other wild or collected foods.
+
+Additional information on emergency preparedness and response
+Joint FAO/IAEA Programme
+
+Can I drink the tap water in Japan?
+===================================
+
+- Drinking tap water in Japan poses no immediate health risk
+
+- The Japanese authorities closely monitored the situation and issued advice, when needed, against consumption of tap water, including specific recommendations for infants. Essential hydration of infants should not be compromised in an attempt to reduce exposure to radionuclide contamination.
+
+- The standards adopted by the Japanese authorities for this emergency are precautionary. In the case of radioactive iodine the standard for adults is 300 Becquerels per litre in drinking-water. In the very unlikely scenario that drinking-water was contaminated and consumed for an entire year at this level, the additional radiation exposure from this water would be equivalent to natural background radiation during one year.
+
+- During the early phase of the emergency WHO urged people in the area to heed the advice of local authorities, as they have access to the latest measurements of radiation levels in water to compare against the standards for adults and children. Currently, restrictions of consumption of tap water have been lifted in all prefectures.
+
+Can radioactive contamination be removed from water?
+====================================================
+
+- Standard water treatment procedures may remove significant amounts of radioactive contaminants. Other options to reduce concentrations of radiation contaminants include controlled dilution of contaminated water with non-contaminated water.
+
+- Boiling water will not remove radioactive iodine.
+
+Why do the guidance levels for radioactive Iodine-131 in drinking water vary?
+=============================================================================
+
+The guidance levels found in different sets of recommendations vary because some apply to routine situations and others to emergency situations. The table below summarizes the guidance on radioactive Iodine-131 in drinking water and provides an indication of the equivalent exposure from routine activities.
+
+Guideline name | Advised maximum levels for radioactive activity in water (Bq/L) | Approximate equivalent radiation exposure if consuming water at this activity level for a year |
+
+WHO Guidelines for Drinking-water Quality (1) | 10 | A New York - London flight |
+
+Japanese provisional (emergency) standard for adults (2) | 300 | One year's exposure to natural background radiation, or 10-15 chest X-rays |
+
+Japanese provisional (emergency) standard for infants (3) | 100 |
+
+IAEA Operational Intervention Level for nuclear emergencies (4) | 3000 | Not applicable. The advised maximum level should be used only to trigger action in the early stages of the emergency |
+
+(1) WHO Guidelines for Drinking-water Quality should not be taken as the reference point for nuclear emergencies because the levels set are extremely conservative, and designed to apply to lifetime routine intake.
+
+(2) Provisional regulation values relating to limits on food and drink ingestion, established by the Japanese Food Sanitation Act, as indicated by the Nuclear Safety Commission of Japan. These standards are precautionary and have taken international guidance into consideration, including recommendations of the IAEA and the International Commission on Radiological Protection.
+
+(3) As in (2) above, but applicable to drinking-water used to prepare baby food. This level is equivalent to the international guideline set by Codex Alimentarius for infant food.
+
+(4) IAEA Safety Guide GSG-2 established Operational Intervention Levels (OILs) which would be the default international guidance levels for the early stage of an emergency.
+
+What is WHO's role in nuclear emergencies?
+==========================================
+
+- In accordance with its Constitution and the International Health Regulations, WHO is mandated to assess public health risks and provide technical consultation and assistance in association with public health events, including those associated with radiation events. In doing so, WHO is working with independent experts and other UN agencies.
+
+- WHO's work is supported by a global network comprising more than 40 specialized institutions in radiation emergency medicine. The network, the Radiation Emergency Medical Preparedness and Assistance Network (REMPAN), provides technical assistance for radiation emergency preparedness and response.

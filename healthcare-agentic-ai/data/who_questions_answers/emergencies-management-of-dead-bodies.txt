@@ -1,0 +1,95 @@
+WHO QUESTIONS AND ANSWERS
+Title: Emergencies: Management of dead bodies
+URL: https://www.who.int/news-room/questions-and-answers/item/emergencies-management-of-dead-bodies
+Retrieved: 2026-10-05T09:45:36.159379+00:00
+
+========================================
+
+Do dead bodies cause epidemics?
+===============================
+
+No, dead bodies from natural disasters generally do not cause epidemics. This is because victims of such disasters usually die from trauma, drowning or fire and do not normally harbour organisms which cause epidemics.
+
+The exception to this is when deaths have occurred from highly infectious diseases (such as Ebola, Lassa fever, cholera), or when the disaster occurred in an area that is endemic for such highly infectious diseases. In these circumstances, the possibility of disease spreading from dead bodies exists.
+
+What are the health risks for the public?
+=========================================
+
+Unless the deceased has died from a highly infectious disease, the risk to the public is negligible. However, there is a risk of diarrhoea from drinking water contaminated by faecal material from dead bodies. Routine disinfection of drinking water is sufficient to prevent waterborne illness. (See question 6 for the health risks to those handling dead bodies).
+
+Can dead bodies contaminate water?
+==================================
+
+Yes, they can, as do live bodies. Dead bodies often leak faeces which may contaminate rivers or other water sources, causing a risk of diarrhoeal illness which adequate treatment of water can prevent.
+
+Is spraying bodies with disinfectant or lime powder useful?
+===========================================================
+
+Lime powder does not hasten decomposition and, since dead bodies are generally not an infectious risk to the public, disinfectant is not needed.
+
+Local officials and journalists say there is a risk to the public of disease from dead bodies. Are they correct?
+================================================================================================================
+
+The risk from dead bodies after disasters due to natural hazards is misunderstood by many professionals and the media. Even local or international health workers are often misinformed and contribute to the spread of unfounded rumours about outbreaks and epidemics. Dead bodies from natural disasters generally do not cause epidemics. The risk of disease from dead bodies is real only in cases where the deceased has died of a highly infectious disease or has died in an area where such infectious disease is endemic. Even then, the risk of disease transmission to a trained body-handler is low (see question 6)
+
+Is there a risk for those handling dead bodies?
+===============================================
+
+For people handling dead bodies (rescue workers, mortuary workers, etc.), there is a risk if the deceased are infected with highly infectious disease (such as Ebola, Lassa fever, cholera). The infectious agents responsible for these diseases last for varying periods after death. The internal organs that harbour organisms such as tuberculosis, which can survive for very long periods after a person’s death, are usually handled only by trained personnel during an actual autopsy. This is not part of any procedure described in this manual. Processes to support persons handling the dead should be in place to deal with any psychological impacts arising from their work.
+
+Should workers wear a mask?
+===========================
+
+The smell from decaying bodies is unpleasant, but the smell itself is not a health risk in well-ventilated areas, and in such areas wearing a mask is not generally required for health reasons. However, special masks may be required for health and safety purposes in some circumstances, including in the presence of toxic gases, smoke, particles, etc.
+
+What should the authorities do with dead bodies in the short term?
+==================================================================
+
+Dead bodies should be collected and stored, using refrigerated containers where possible, or temporary burial. The simple steps required to help identify all the dead bodies should be taken. Photographs should be taken and descriptive information recorded for each body. Remains should be stored or buried temporarily to allow for the possibility of an expert forensic investigation in the future.
+
+Should mass graves be used to speed up the disposal of dead bodies?
+===================================================================
+
+The rapid mass burial of victims on public health grounds is not justified. Rushing to dispose of bodies without having taken photographs and relevant information from them, and without keeping track of the location of each body, traumatizes families and communities. If these simple steps to identify the greatest possible number of bodies are taken, serious social and legal consequences for families can be avoided. In exceptional circumstances, the use of communal graves as a form of temporary traceable storage and protection of dead bodies is acceptable if properly managed.
+
+How urgent is the collection of dead bodies?
+============================================
+
+Body collection is not the most urgent task after a disaster from natural hazards. The priority is to rescue and care for survivors. Nevertheless, bodies should be collected and photographed as soon as possible (and preferably before decomposition has commenced), basic information about the bodies should be collected and recorded, unique body codes allocated, and the bodies should be temporarily stored to protect them and to assist possible identification. The earlier this is done, the greater the number of bodies which will be identified. In the presence of an epidemic of highly infectious disease, collection and proper management of dead bodies by trained personnel is an urgent priority.
+
+What are the minimum steps needed to identify as many dead bodies as possible?
+==============================================================================
+
+Identifying dead bodies following disasters can be complex. The minimum steps needed to identify as many dead bodies as possible are set out in the Management of Dead Bodies after Disasters manual. In general terms, identifying a dead body is done by comparing information about the person while alive with information about the dead body. Thus, information about those who are missing or presumed to be dead is needed (a list of the missing, and specific individual information about each missing person). Also, information about the dead body is needed (photographs, preferably taken before decomposition has started, and information about identifying features, clothing and personal effects). To keep track of this information, the body needs to be given a unique code which must be in all the photographs, and on all the information collected; and attached to the body and the body bag, and any burial site, so that its location can be recorded, and the body retrieved at any time. Ideally, forensic experts should be involved, but this is not always possible.
+
+What are the potential mental health issues for the bereaved?
+=============================================================
+
+The overwhelming desire of relatives (from all religions and cultures) is to identify their loved ones. All efforts to identify the bodies will help. Grieving and traditional individual burial (or other means of disposal of the body) are important factors for the personal and communal recovery or healing process. In the case of epidemics, traditional burial rites may not be appropriate because of the health risks involved. The psychological issues arising from this must be taken into consideration.
+
+How should bodies of foreigners be managed?
+===========================================
+
+Overseas families of visitors killed in a disaster, just like local families, will be hoping their loved one is identified, and the body is returned to them. Proper identification has family, social, economic and diplomatic implications. The simple steps required (allocation of a unique body code, photographs, data from the dead bodies collected and stored) will maximize the number of foreigners identified. Foreign consulates and embassies should be informed, and other relevant agencies (ICRC, Interpol, etc.) should be contacted for assistance.
+
+I am a volunteer: how can I help?
+=================================
+
+To be helpful you could promote the proper recovery and management of dead bodies and assist in recording the necessary information. You could also assist with the recovery and disposal of the dead, under the direction of a recognized coordinating authority. However, you would first need to be briefed, advised, trained, equipped and supported for this difficult task. The field manual on Management of Dead Bodies after Disasters should be the framework for your participation.
+
+I represent an NGO: how can I help?
+===================================
+
+Providing support for families and collecting information in collaboration with the coordinating authority will best help the surviving relatives. You may also promote proper identification and treatment of the dead, including through dissemination of the field manual on Management of Dead Bodies after Disasters. NGOs should not be asked to manage the dead unless they are trained for this task and work for and under the direct supervision of a legal authority.
+
+Management of Dead Bodies after Disasters: A Field Manual for First Responders Second Edition
+
+I am a health professional: how can I help?
+===========================================
+
+The survivors need you more than the dead. Any professional help in fighting the myth of epidemics caused by dead bodies will be appreciated. Talk about this with your colleagues and representatives of the media referencing the field manual on Management of Dead Bodies after Disasters.
+
+I am a journalist: how can I help?
+==================================
+
+If you hear comments or statements regarding the need for mass burial or incineration of bodies to avoid epidemics, challenge them. Promote an understanding of the field manual on Management of Dead Bodies after Disasters, including by referring to it in your reports. If necessary, do not hesitate to consult the appropriate persons at WHO, PAHO, ICRC, IFRC or the local Red Cross/Red Crescent office.

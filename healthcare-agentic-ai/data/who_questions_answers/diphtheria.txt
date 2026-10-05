@@ -1,0 +1,40 @@
+WHO QUESTIONS AND ANSWERS
+Title: Diphtheria
+URL: https://www.who.int/news-room/questions-and-answers/item/diphtheria
+Retrieved: 2026-10-05T09:45:19.853472+00:00
+
+========================================
+
+What is diphtheria?
+===================
+
+Diphtheria is an infection caused by the bacterium Corynebacterium diphtheriae. Signs and symptoms usually start 2 – 5 days after exposure and range from mild to severe. Symptoms often come on gradually, beginning with a sore throat and fever. In severe cases, the bacteria produce a poison (toxin) that causes a thick grey or white patch at the back of throat. This can block the airway making it hard to breathe or swallow and create a barking cough. The neck may swell in part due to enlarged lymph nodes.
+
+The toxin may also get into the blood stream causing complications that may include inflammation and damage of the heart muscle, inflammation of nerves, kidney problems, and bleeding problems due to low blood platelets. The damaged heart muscles may result in an abnormal heart rate and inflammation of the nerves may result in paralysis.
+
+How is diphtheria spread?
+=========================
+
+Diphtheria spreads easily between people by direct contact or through the air though respiratory droplets, like from coughing or sneezing. It may also be spread by contaminated clothing and objects.
+
+How is diphtheria diagnosed?
+============================
+
+Clinical diagnosis of diphtheria usually relies on the presence of a greyish membrane covering the throat. Although laboratory investigation of suspected cases is recommended for case confirmation, treatment should be started immediately.
+
+How is diphtheria treated?
+==========================
+
+Diphtheria infection is treated with the administration of a diphtheria antitoxin, administered intravenously or through an intramuscular injection. Antibiotics are also given to eliminate the bacteria and stop toxin production, and to prevent transmission to others.
+
+Are diphtheria vaccines recommended?
+====================================
+
+All children worldwide should be immunized against diphtheria. A 3-dose primary series during infancy is the foundation for building lifelong immunity to diphtheria. Further, immunization programmes should ensure that 3 booster doses of diphtheria toxoid-containing vaccine are provided during childhood and adolescence. At any age those who are unvaccinated or incompletely vaccinated against diphtheria should receive the doses necessary to complete their vaccination.
+
+Recent diphtheria outbreaks in several countries reflect inadequate vaccination coverage and have demonstrated the importance of sustaining high levels of coverage in childhood immunization programmes. Those who are unimmunized are at risk regardless of the setting. An estimated 84% of children worldwide receive the recommended 3 doses of diphtheria-containing vaccine when they are infants, leaving 16% with no or incomplete coverage.
+
+Do health-care workers need to take extra precautions?
+======================================================
+
+In endemic settings and outbreaks, health workers may be at greater risk of diphtheria than the general population. Consequently, special attention should be paid to immunizing health workers who may have occupational exposure to Corynebacterium diphtheriae.

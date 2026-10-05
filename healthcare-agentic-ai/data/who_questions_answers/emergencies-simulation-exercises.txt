@@ -1,0 +1,47 @@
+WHO QUESTIONS AND ANSWERS
+Title: Emergencies: Simulation exercises
+URL: https://www.who.int/news-room/questions-and-answers/item/emergencies-simulation-exercises
+Retrieved: 2026-10-05T09:45:41.732165+00:00
+
+========================================
+
+What is a Public Health Emergency Operations Centre (PHEOC)?
+============================================================
+
+Emergency operations centres (EOCs) perform a vital role in the coordination of information and resources for efficient and effective responses to emergency events. A PHEOC is a type of emergency operations centre that addresses the specific requirements for coordinating responses to public health emergencies such as communicable disease outbreaks. These centres are physical locations or virtual spaces in which designated emergency management functions are performed. An operations centre may be a temporary facility or may be established in a permanent location. They are often referred to as operations centres, situation rooms or command centres. PHEOCs are supported by appropriate legal authority and regulations, and designed and resourced with sustainability in mind.
+
+Experience has shown that timely implementation of a well-resourced PHEOC provides an essential platform for the management of public health emergencies and can help avoid common failings such as lack of clear leadership leading to delayed decision making, mismanagement of resources and poor coordination.
+
+What is the emergency preparedness exercise?
+============================================
+
+WHO, in collaboration with Member States and international health emergency management agencies, uses PHEOCs to run simulation exercises that act as dry runs to better prepare for health emergencies. The exercises include a variety of forms of training and evaluation, often through scenarios such as a simulated global public health event. Team members will respond to the simulated events in their normal roles in the centre, drawing on established plans, procedures and capabilities. This allows them to practice and maintain critical skill sets, assess the functionality and interoperability of the PHEOC, and to continuously improve the overall efficacy of emergency response.
+
+What is an example of an effective exercise?
+============================================
+
+In 2018, WHO worked with Member States and international health emergency management agencies in a series of simulation exercises to allow participants to demonstrate and enhance their understanding of these events. In this example, the scenario involved the introduction of a novel virus causing severe acute respiratory symptoms (SAR) in a cluster of disease with high mortality and significant morbidity. Exercises like this provided valuable information used in the global response to the COVID-19 pandemic.
+
+Is the public affected by these exercises while they are taking place?
+======================================================================
+
+Exercises, depending on the types, do not usually include the deployment of people or goods. They are not meant to affect public or official activity at all. Most personnel involved will participate in the exercises from the facilities they would normally occupy.
+
+What happens if there is a real-world emergency during an exercise?
+===================================================================
+
+The exercise will be halted immediately. No essential personnel will be diverted from any type of actual emergency response during an exercise. Participating WHO units and Member States also have the option of withdrawing any of their players from the exercise at any time to address matters or concerns directly related to their public safety missions.
+
+Are countries required to have a PHEOC?
+=======================================
+
+Countries are not obligated to have a PHEOC. However, the International Health Regulations (IHR 2005) requires that States Parties develop, strengthen and maintain their capacity to prevent, detect and respond promptly and effectively to public health risks and public health emergencies of international concern. To achieve the mandates of IHR (2005) and to address emergencies that have health consequences (which may be caused by any or all hazards), many Member States are establishing or improving their EOCs to strengthen communications and coordination for effective public health response.
+
+In 2012, WHO established the Public Health Emergency Operations Centre Network (EOC-NET) to identify and promote best practices and standards for EOCs and provide support to EOC capacity building in Member States. WHO has been working with EOC-NET partners in developing evidence-based guidance for building, operating and improving public health EOCs.
+
+What are the benefits of participation for agencies and Member States?
+======================================================================
+
+These exercises provide an opportunity to test existing country’s plans, procedures and capabilities in a realistic environment to gain an in-depth experience that can only be achieved by practice.
+
+The experiences help to identify gaps and areas for opportunity that will ultimately help in the assessment and improvement of Member States’ readiness to respond jointly and effectively to global public health emergencies.

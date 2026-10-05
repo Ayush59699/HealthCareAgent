@@ -1,0 +1,150 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Food businesses
+URL: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-food-businesses
+Retrieved: 2026-10-05T09:44:18.778508+00:00
+
+========================================
+
+This page is no longer being updated. It remains live for reference purposes only.
+
+How can food businesses remain safe from virus contamination?
+=============================================================
+
+The main priority is to keep the virus out of the food environment. Several key measures are required including upgrading of cleaning and sanitation measures, disinfecting surfaces and high-touch points, educating staff on the virus and how to protect themselves and others, reinforcing protocols such as physical distancing, hand washing, and improved security with people staying in their vehicles/sanitizing hands when handing out documents and other material.
+
+Should grocery store workers wear gloves? Masks?
+================================================
+
+Disposable Gloves
+
+Gloves may be used by food workers but must be changed frequently and hands must be washed between glove changes and when gloves are removed. Gloves must be changed after carrying out non-food related activities such as opening/closing doors by hand, and emptying bins. Food workers should be aware that wearing gloves can allow bacteria to build up on the surface of the hands, so hand washing is extremely important when gloves are removed to avoid subsequent contamination of food. Food workers should not touch their mouth, nose and eyes when wearing gloves.
+
+Disposable gloves can give a false sense of safety and should not be used in the food work environment as a substitute for hand washing. The COVID-19 virus can contaminate disposable gloves in the same way it can get onto workers hands and contact surfaces. Removal of disposable gloves can lead to contamination of hands. Wearing disposable gloves can give you a false sense of security and may result in staff not washing hands as frequently as required.
+
+Handwashing is a greater protective barrier to infection than wearing of disposable gloves. Food businesses need to ensure adequate sanitary facilities are provided and ensure food workers thoroughly and frequently wash their hands. Soap and water is adequate for hand washing. Hand sanitisers can be used as an additional measure but should not replace hand washing.
+
+Wearing of Face Masks
+
+WHO advice on the use of masks in the context of COVID-19 should be followed. Face Masks do not have to be routinely used by food workers to protect against transmission of COVID-19. However, for some food processing activities, such as working in abattoirs or handling cooked, ready-to-eat foods, wearing face masks is a usual practice.
+
+WHO recommends that face masks should be used if a person is sick with symptoms of COVID-19 (especially coughing) or looking after someone with suspected or confirmed COVID-19.
+
+However, a food worker who is sick or who has symptoms of COVID-19 should not be allowed to work in grocery stores or other food businesses and should be excluded from work until free of symptoms or deemed fit for work by a medical doctor.
+
+What is the protocol when an employee working in a food business becomes ill with COVID-19?
+===========================================================================================
+
+Staff who are feeling unwell should not report to work and should seek medical advice. However, in the event that a food worker becomes unwell in the workplace with typical symptoms of COVID-19, they should be removed to an area away from other people. If possible, find a room or area where they can be isolated behind a closed door, such as a staff office. If it is possible to open a window, do so for ventilation. Arrangements should be made for the unwell employee to be removed quickly from the food premise.
+
+The employee who is unwell should follow national guidelines for reporting cases/suspect cases of COVID-19. Whilst they wait for medical advice or to be sent home, they should avoid any contact with other employees. They should avoid touching people, surfaces and objects and be advised to cover their mouth and nose with a disposable tissue when they cough or sneeze and put the tissue in a bag or pocket and then dispose of the tissue in a bin. If they do not have any tissues available, they should cough and sneeze into the crook of their elbow. If they need to go to the bathroom whilst waiting for medical assistance, they should use a separate bathroom, if available.
+
+All surfaces that the infected employee has come into contact with must be cleaned. Alcohol based sanitizers/surface disinfectants should be used for cleaning purposes. In general, alcohol-based disinfectants (ethanol, propan-2-ol, propan-1-ol) have been shown to significantly reduce infectivity of enveloped viruses like COVID-19 virus, in concentrations of 70-80%. Common disinfectants with active ingredients based on quaternary ammonium compounds (QUATS) and chlorine would also have virucidal properties. All staff should wash their hands thoroughly for 20 seconds with soap and water after any contact with someone who is unwell with symptoms consistent with coronavirus infection.
+
+If an employee is confirmed as a case of COVID-19 it will be necessary to notify all close contacts of the infected employee so they too can take measures to minimise further risk of spread. WHO definitions of a contact of a COVID-19 case can be found here. Examples of contacts in the food businesses could include any employee who was in face-to-face or physical (i.e., touching) contact; any employee who was within 1 meter with the confirmed case; anyone who has cleaned up any bodily fluids without adequate PPE (e.g. gloves, overalls, protective clothing); employees in the same working team or workgroup as the confirmed case, and any employee living in the same household as a confirmed case.
+
+WHO recommends that contacts be quarantined for 14 days from the last point of exposure to the confirmed case.22 At a minimum, staff who have had close contact with the infected employee should be asked to stay at home for 14 days from the last time they had contact with the confirmed case and practice physical distancing. If they become unwell at any time within their 14-day isolation period and they test positive for COVID-19, they will become a confirmed case, and should be managed as such.
+
+Staff who have not had close contact with the original confirmed case should continue taking the usual precautions and attend work as usual. Organising employees into small teams or workgroups will help to minimise disruption to work processes in the event of an employee reporting sick with symptoms of COVID-19. Closure of the workplace is not recommended.
+
+More detailed information can be found in COVID-19 and food safety: guidance for food businesses.
+
+For more information on contacts of COVID-19 confirmed cases, see WHO guidance on surveillance and case definitions.
+
+When can an employee return to work following illness? Are temperature checks appropriate?
+==========================================================================================
+
+A return to work policy for staff who have been infected and recovered from COVID-19 should be in place. WHO recommends that a confirmed patient could be released from isolation once their symptoms resolve and they have two negative PCR tests at least 24 hours apart. If testing is not possible, WHO recommends that a confirmed patient can be released from isolation 14 days after symptoms resolve.
+
+Taking the temperature of food workers is not recommended. Fever is only one of the symptoms of COVID-19 and absence of fever alone is not a reliable indicator of wellness. As part of a food business ‘fitness to work’ guidelines, staff should report to management if they are sick with typical COVID-19 symptoms, particularly fever.
+
+What specific precautions do food workers need to take?
+=======================================================
+
+Physical distancing, good personal hygiene with frequent hand washing, and application of general food hygiene measures are the most important precautions food workers should adopt. Physical distancing is very important to help slow the spread of coronavirus. This is achieved by minimising contact between potentially infected individuals and healthy individuals. Frequent hand washing with soap and water and use of hand sanitizers are also important in reducing the risk of transmission. All food businesses should follow the physical distancing and hand washing guidance of WHO.
+
+The Codex Alimentarius Commission has adopted several practical guidelines on how to apply and implement best practices to ensure food hygiene (Codex General Principles of Food Hygiene, CXC 1- 1969), handle meats (Codex Code of Hygienic Practice for Meat, CXC 58 – 2005), and control viruses in foods (Guidelines for the Application of General Principles of Food Hygiene to the Control of Viruses in Food (CAC/GL 79-2012). Enhanced food safety practices at this time, such as those recommended in the Codex documents mentioned, will reduce the likelihood of contamination of foods with any pathogen and help lowering the public health burden caused by already established foodborne infections, reducing the stress on an already overburdened public health system.
+
+How should employees maintain safe distance from one another during food production and processing?
+===================================================================================================
+
+WHO guidelines are to maintain at least 1 metre (3 feet) between fellow workers. Where the food production environment makes it difficult to do so, employers need to consider what measures to put in place to protect employees. Examples of practical measures to adhere to physical distancing guidance in the food processing environment are to:
+
+- stagger workstations on either side of processing lines so that food workers are not facing one another,
+
+- provide personal protection equipment (PPE) such as face masks, hair nets, disposable gloves, clean overalls and slip reduction work shoes for staff. The use of PPE would be routine in high risk areas of food premises that produce ready-to-eat and cooked foods. When staff are dressed in PPE it is possible to reduce distance between workers,
+
+- space out workstations, which may require reduction in the speed of production lines,
+
+- limit the number of staff in a food preparation area at any one time,
+
+- organise staff into working groups or teams to facilitate reduced interaction between groups, including during change of work shifts.
+
+How should baked goods and fresh produce be displayed in a food market/grocery store?
+=====================================================================================
+
+It is important to maintain good hygiene practices around open food displays, with ready-to-eat food products such as salad bars, fresh produce displays and bakery products. Consumers should always be advised to wash fruits and vegetables with potable water prior to consumption. Both customers and staff should strictly observe good personal hygiene practices at all times around open food areas.
+
+In order to hygienically manage open food displays and to avoid the transmission of COVID-19 through surface contact, food retailers should:
+
+- Maintain frequent washing and sanitising of all food contact surfaces and utensils;
+
+- Require food service workers to frequently wash hands, and, if using gloves, these must be changed;
+
+- Require food service workers to frequently clean and sanitise counters, serving utensils and condiment containers;
+
+- Make available hand sanitiser for consumers on their way in and out of the food premises;
+
+- Should consider not openly displaying or selling unwrapped bakery products from self-service counters. Bakery products on open, self-service displays in retail stores should be placed in plastic/cellophane or paper packaging. Where loose bakery products are displayed in retail stores, these should be placed in plexiglass display cabinets and placed in bags using tongs when customers are served.
+
+- Ready-to-eat salads available in retail for self-serve, should also be placed behind plexiglass display cabinets and serving utensils should be frequently sanitized.
+
+How should shopping trolleys or carts be disinfected?
+=====================================================
+
+The handles of shopping trolleys or carts should be frequently cleaned using either alcohol-based sanitizers or chlorine-based disinfectants (sodium hypochlorite). Sanitizers, paper towels and trash bins should be placed outside the retail premises close to the trolley park for customers to use.
+
+What is the most appropriate sanitizer to use on surfaces in a food production environment?
+===========================================================================================
+
+In general, alcohol-based disinfectants (ethanol, propan-2-ol, propan-1-ol) have been shown to significantly reduce infectivity of enveloped viruses like SARS-CoV-2, in concentrations of 70-80% with one-minute exposure time. Chlorine-based disinfectants (sodium hypochlorite) are effective for surface decontamination, as are disinfectants with active ingredients based on quaternary ammonium compounds (QUATS).
+
+Could the virus be transmitted from humans to food animals or vice versa?
+=========================================================================
+
+Currently, there is no evidence to suggest that food animals could be a possible route for transmission of COVID-19 to humans or that food animals can become infected by humans. Studies are underway to better understand the susceptibility of different animal species to the COVID-19 virus and to assess infection dynamics in susceptible animal species. Additional information can be found on the website of the World Organisation for Animal Health (OIE).
+
+What is known about various conditions affecting survivability of the virus?
+============================================================================
+
+Very little is known about how the SARS-CoV-2 virus survives outside the human body. Probably the most up-to-date summary of scientific information we have on survival in the environment is from the European Centre for Disease control (ECDC) and the following is extracted from their recent technical report:
+
+Recent publications have evaluated the survival of SARS-CoV-2 on different surfaces. According to van Doremalen et al., the environmental stability of SARS-CoV-2 is up to three hours in the air post-aerosolization, up to four hours on copper, up to 24 hours on cardboard and up to two to three days on plastic and stainless steel, albeit with significantly decreased titres [3]. These findings are comparable with results obtained for environmental stability of SARS-CoV-1. These findings resulted from experiments in a controlled environment and should be interpreted with caution in the real-life environment. Moreover, different levels of environmental contamination have been detected in rooms of COVID-19 patients, ranging from 1 out of 13 to 13 out of 15 samples testing positive for SARS-CoV-2 before cleaning. No air samples were positive in these studies, but one sample from an air exhaust outlet was positive indicating that virus particles may be displaced by air and deposited on surfaces [4,5]. In a study of environmental contamination in a Chinese hospital during the COVID-19 outbreak, SARS-CoV-2 was detected in environmental samples from the COVID-19 dedicated intensive care units (ICU), the COVID-19 dedicated obstetric isolation ward and the COVID-19 dedicated isolation ward. SARS-CoV-2 was also detected on objects such as the self-service printers used by patients to self-print the results of their exams, desktop keyboards and doorknobs. Virus was detected most commonly on gloves (15.4% of samples) and rarely on eye protection (1.7%) [6]. This evidence shows the presence of SARS-CoV-2 in the environment of a COVID-19 patient, therefore reinforcing the belief that fomites play a role in transmission of SARS-CoV-2; however, the relative importance of this route of transmission compared to direct exposure to respiratory droplets is still unclear.
+
+What measures should be taken to ensure safe transport of food during this pandemic?
+====================================================================================
+
+The general guidelines outlined in the Codex Code of Hygienic Practice for the Transport of Food in Bulk and Semi-Packed Food.1 should be followed, in addition to ensuring that employees delivering foods are free from COVID-19, coughing/sneezing etiquette is practiced by all involved in food transport and that frequent hand washing/sanitizing is practiced and staff practice physical distancing.
+
+See also other Codes of Hygienic Practice for various groups of food.
+
+What measures should be taken to ensure safe water is used in food production during this pandemic?
+===================================================================================================
+
+There is no evidence that COVID-19 is transmitted by water used in food processing. The WHO guidelines for drinking-water quality should be followed.
+
+How should food premises be cleaned/disinfected during this pandemic?
+=====================================================================
+
+The general guidelines outlined in the General Principles of Food Hygiene for food processing and manufacture premises should be followed. If a suspected or confirmed case of COVID-19 is identified in a food premises then there is a requirement to completely clean the area with a neutral detergent, followed by decontamination of surfaces using a disinfectant effective against viruses. All surfaces that the infected employee has come into contact with must be cleaned, including all surfaces and objects which are visibly contaminated with body fluids/respiratory secretions, and all potentially contaminated high-contact areas such as toilets, door handles, telephones. Alcohol based sanitizers/surface disinfectants should be used for cleaning purposes. In general, alcohol-based disinfectants (ethanol, propan-2-ol, propan-1-ol) have been shown to significantly reduce infectivity of enveloped viruses like SARS-CoV-2, in concentrations of 70-80% with one-minute exposure time. Chlorine-based disinfectants (sodium hypochlorite) are effective for surface decontamination, as are disinfectants with active ingredients based on quaternary ammonium compounds (QUATS).
+
+All staff should wash their hands thoroughly for 20 seconds after any contact with someone who is unwell with symptoms consistent with coronavirus infection. Staff engaged in environmental cleaning should wear PPE when performing cleaning activities, such as overalls or uniform, single-use plastic aprons, gloves and a face mask. Protective clothing (e.g. uniforms, overalls, etc.) should be frequently washed at 60°C or above.
+
+Recorded webinars:
+
+- 3 April 2020
+
+- 6 April 2020
+
+WHO guidance for food businesses
+
+Q&A: Sale of live wild mammals in traditional food markets

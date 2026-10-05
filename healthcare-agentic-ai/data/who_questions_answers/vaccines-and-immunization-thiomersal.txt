@@ -1,0 +1,32 @@
+WHO QUESTIONS AND ANSWERS
+Title: Vaccines and immunization: Thiomersal
+URL: https://www.who.int/news-room/questions-and-answers/item/vaccines-and-immunization-thiomersal
+Retrieved: 2026-10-05T09:50:24.676374+00:00
+
+========================================
+
+What is thiomersal?
+===================
+
+Thiomersal is the most widely-used preservative for vaccines.
+
+Thiomersal is a compound containing ethyl mercury used to prevent bacterial and fungal growth in some inactivated vaccines in multi-dose vials.
+
+It is also used during production of specific vaccines, for example certain pertussis (whooping cough) vaccines, as part of the manufacturing process that makes the product safe and effective. Thiomersal has been used since the 1930s in the manufacture of some vaccines and other medicinal products.
+
+Why do vaccines need preservatives?
+===================================
+
+Preservatives inhibit growth of bacterial and fungal contaminants, which may be introduced during repeated use of a multi-dose vial. Multi-dose vials are used in many countries because they require less storage space in the cold-chain and lead to less wastage, both of which have a significant impact on programme costs. In many countries, for inactivated vaccines supplied in multi-dose vials, the presence of a preservative is a regulatory requirement.
+
+Does the amount of thiomersal in vaccines pose a health risk ?
+==============================================================
+
+WHO has closely monitored scientific evidence relating to the use of thiomersal as a vaccine preservative for over 10 years, in particular through its independent expert advisory group, the Global Advisory Committee on Vaccine Safety. The Committee has consistently reached the same conclusion: there is no evidence to suggest that the amount of thiomersal used in vaccines poses a health risk. Other expert groups (for example the U.S. Institute of Medicine, the American Academy of Pediatrics, the United Kingdom Committee on Safety of Medicine, and the European Agency for the Evaluation of Medicinal Products) have reached similar conclusions.
+
+What would be the health impact of restricting thiomersal-containing vaccines ?
+===============================================================================
+
+Immunization with thiomersal-containing multi-dose vaccines currently protects at least 64% of all infants and children against four diseases with high mortality rates: diphtheria, tetanus, pertussis and Haemophilus influenzae type b. The use of thiomersal-containing vaccines to protect against these diseases averted at least 1 400 000 child deaths in 2010. Thiomersal-containing vaccines are being used in over 120 countries. Removing thiomersal completely from vaccines would require either using alternative preservatives or using preservative-free single dose vaccines exclusively. Alternatives would incur significant costs for development and regulatory approval, thereby limiting the ability to offer affordable vaccines.
+
+Use of multi-dose vials is the most efficient and cost-effective way to protect populations when vaccines need to be administered to large numbers of people in a short space of time, such as in epidemic or pandemic situations.

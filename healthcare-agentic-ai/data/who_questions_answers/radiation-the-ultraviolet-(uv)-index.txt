@@ -1,0 +1,55 @@
+WHO QUESTIONS AND ANSWERS
+Title: Radiation: The ultraviolet (UV) index
+URL: https://www.who.int/news-room/questions-and-answers/item/radiation-the-ultraviolet-(uv)-index
+Retrieved: 2026-10-05T09:49:04.008580+00:00
+
+========================================
+
+What is the UV index?
+=====================
+
+- The UVI is a measure of the level of UV radiation.
+
+- The values of the index range from zero upward - the higher the UVI, the greater the potential for damage to the skin and eye, and the less time it takes for harm to occur.
+
+- The UVI is an important vehicle to alert people about the need to use sun protection.
+
+A marked increase in the incidence of skin cancer in fair-skinned populations worldwide is strongly associated with excessive UV radiation exposure from the sun and possibly artificial sources such as sunbeds. Current evidence indicates that personal habits in relation to sun exposure constitute the most important individual risk factor for UV radiation damage.
+
+The UV Index is an important vehicle to raise public awareness of the risks of excessive exposure to UV radiation, and to alert people about the need to adopt protective measures. As part of an international effort, the UV index was developed by WHO, the United Nations Environment Programme, the World Meteorological Organization and the International Commission on Non-Ionizing Radiation Protection. Encouraging people to reduce their sun exposure can decrease harmful health effects and significantly reduce health care costs.
+
+The INTERSUN programme promotes the harmonized use of the UVI, and advises governments to employ this educational tool in their health promotion programmes. WHO encourages dissemination channels such as the media and tourism industry to publish the UVI forecast and promote sun protection messages.
+
+What does the UV index mean?
+============================
+
+The levels of UV radiation and therefore the values of the index vary throughout the day. In reporting the UVI, the maximum daily UV level, which occurs during the four-hour period around solar noon, is provided on a given day. . Depending on geographical location and whether daylight saving time is applied, solar noon takes place between noon and 2 p.m. In some countries, sun protection times may also be issued when UV levels levels are forecast to be 3 or higher. At these levels there is an increased risk of skin damage, and protective measures are recommended.
+
+How can the UV index help me to protect myself?
+
+The UVI gives an indication of the level of UV radiation and the potential danger of sun exposure. It can help individuals make healthy choices.
+
+Most people are used to adjusting their daily plans and choice of clothing to the weather forecast, especially to temperature predictions. Analogous to the temperature scale, the UVI gives an indication of the level of UV radiation and the potential danger of sun exposure. It can help individuals make healthy choices.
+
+Step 1: Find out today’s UV Index
+
+Step 2: Check out the recommended sun protection.
+
+UV index | Action |
+
+0 to 2 | You can safely enjoy being outside! |
+
+3 to 7 | Seek shade during midday hours! Slip on a shirt, slop on sunscreen and slap on hat! |
+
+8 and above | Avoid being outside during midday hours! Make sure you seek shade! Shirt, sunscreen and hat are a must! |
+
+Even for very sensitive fair-skinned people, the risk of short-term and long-term UV damage below a UVI of 2 is limited, and under normal circumstances no protective measures are needed. If sun protection is required, this should include all protective means, i.e. clothing, hat and sunglasses, shade and sunscreen.
+
+Where is the UV index reported?
+
+In many countries the UVI is reported along with the weather forecast in newspapers, on TV, radio; internet and mobile applications.
+
+How can meteorological offices, national authorities and media use the UV index?
+================================================================================
+
+The Global Solar UV Index is intended to be used by national and local authorities and non-governmental organizations active in the area of skin cancer prevention, as well as meteorological offices and media outlets involved with UVI reporting. The publication can serve as an entry point for the development and implementation of an integrated public health approach to sun protection and skin cancer prevention.

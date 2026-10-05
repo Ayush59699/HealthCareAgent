@@ -1,0 +1,112 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Mass gatherings
+URL: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-mass-gatherings
+Retrieved: 2026-10-05T09:44:35.543896+00:00
+
+========================================
+
+This page is no longer being updated. It remains live for reference purposes only.
+
+How large does a meeting or event need to be in order to be a “mass gathering”?
+===============================================================================
+
+Mass gathering (MG) events can range in size and profile. For example, high-profile international sporting events such as the Olympics or World Cup and international religious events such as the Hajj are all well-known mass gatherings. However, smaller events can also meet WHO’s definition of a mass gathering. WHO defines mass gatherings as events characterized by the concentration of people at a specific location for a specific purpose over a set period of time and which has the potential to strain the planning and response resources of the country or community.
+
+Any event can count as a mass gathering if the number of people it brings together can strain the planning and response resources of the health system in the community where it takes place. There is no defined threshold qualifying an event as a mass gathering based on the number of attendees alone. However, generally speaking, we can say that the risk associated with an event grows if, for example, the event takes place over several days, or if the event takes place in a small island state where the capacity of the health system is limited.
+
+What does WHO recommend to have in place for a mass gathering event?
+====================================================================
+
+WHO continues to recommend that the decision-making process related to holding, modifying, postponing, or cancelling gatherings in the context of the COVID-19 pandemic should rely on a risk-based approach focused on the evaluation, mitigation and communication of risk. This assessment should involve all relevant stakeholders, including the health authorities in the country or community where the event is due to take place in consultation with event organizers. These authorities and stakeholders are in the best position to assess the level of stress an event might place on the local health system and emergency services – and whether this level of stress is acceptable in the current situation.
+
+The risk-based approach is flexible and adaptable to all SARS-CoV-2 transmission scenarios. It can be applied to gatherings of any size and type, whether they are large and highly visible events or smaller ones, formal or informal, planned or spontaneous.
+
+Many countries are currently easing restrictions or have no restrictions on gatherings of different sizes. Nevertheless, even where an event is determined safe to proceed, it is recommended that large gatherings apply a risk-based approach prior to the event.
+
+For further information on the WHO Mass Gatherings COVID-19 Risk Assessment and the WHO Mass Gatherings Risk Assessment WebApp tool, see the links here and here.
+
+What factors should organizers and health authorities look at when assessing risks associated with mass gatherings?
+===================================================================================================================
+
+There are three main steps that event organizers and health authorities should consider when assessing risks associated with mass gatherings:
+
+- assessment of risk factors of the mass gathering event, including COVID-19 and other risks;
+
+- designing of mitigation measures to be implemented to reduce the risk associated with the mass gathering event; and
+
+- communicating the risks associated with the event with staff, participants and the general public, and providing considerations for the event's risk communication and community engagement strategy.
+
+These three steps together will help guide a decision to restrict, modify, postpone, cancel or proceed with holding any gathering. For public gatherings, this kind of risk assessment should be undertaken by local and national public health authorities and event organizers.
+
+Large public events are often associated with international travel, multiple venues, prolonged duration and extensive media and social media interest. They can have significant reputational, political, economic and societal implications. These mass gatherings carry with them additional risks, as the spread of COVID-19 or other diseases during or after they are held can strain the planning and response resources of the host country or community, and lead to disruptive impacts on health services.
+
+The potential for disruption associated with mass gatherings is also dependent on the following factors.
+
+- Epidemiological factors: The current epidemiological situation of the COVID-19 pandemic in the host area including the proportion of COVID-19 positive tests (of the total test performed in a given time and place), any ongoing spikes of disease transmission in the host area and from where most of the event attendees come from. Importantly, with the increasing self-testing and the use of rapid diagnostic test kits, the available information about the number of cases should be interpreted carefully.
+
+- Individual factors: The geographical spread and number of participants, and their individual risk perception, practice of protective behaviours, status of vaccination or natural infection, and risk profile – such as being older adults, having underlying health conditions (diabetes, hypertension, etc.) or being a healthcare worker – may increase the risk profile of an individual for COVID-19. Additional factors such as none to mild symptoms may affect individual behaviours in accessing to healthcare and receiving the diagnosis.
+
+- Health system factors: Current implementation of public health and social measures (PHSM) in place to help reduce infections of SARS-CoV-2 and the capacity of the local health system to respond to increased health burdens.
+
+- Venue factors: The context of mass gathering, and the characteristics of its venue(s) should be considered. For example, a mass gathering held outdoors with good ventilation may have different risk profile characteristics than one held in an indoor area with poor ventilation.
+
+You can find more advice in the WHO document Key planning recommendations for Mass Gatherings in the context of COVID-19 outbreak of 4 November 2021.
+
+See: https://www.who.int/publications/i/item/10665-332235, policy brief https://www.who.int/publications/i/item/WHO-2019-nCoV-Policy-brief-Gatherings-2023.1
+
+Risk Assessment Tool - https://www.who.int/publications/i/item/WHO-2019-nCoV-Mass-gathering-RAtool-2022.1
+
+What if my organization does not have the expertise to assess the risks COVID-19 poses for our planned mass gathering?
+======================================================================================================================
+
+National and local public health authorities in your country can provide guidance on how to conduct a public health risk assessment. If there is a WHO country office in your country, you may also be able to seek expert guidance.
+
+Where can I find more resources to assess and manage health risks associated with mass gatherings?
+==================================================================================================
+
+WHO has published a variety of technical guidance, tools and a training course that provide detailed information on how to plan for a mass gathering in cooperation with local authorities and other stakeholders. These materials can be found here.
+
+Advice for individual participants on how to protect themselves, their families and communities from COVID-19 can be found here.
+
+Additionally, a MG Risk Assessment web app tool for event organizers, health authorities and other stakeholders involved in the planning of MGs can be found here.
+
+Should event organizers arrange screening at venues beyond national government requirements for point of entry (PoE)?
+=====================================================================================================================
+
+No. However, event organizers should prioritize and promote an individual risk-based approach where eventgoers can individually assess their risk factors for COVID-19. Similarly, event organizers should provide travellers and eventgoers with information and visible reminders to encourage protective behaviours and adherence to PHSMs.
+
+The individual-based approach is important because some people who are infected with SARS-CoV-2 do not have symptoms but can still transmit the virus. Syndromic screening, which includes screening for fever and respiratory or other symptoms, as well as visual observation and completion of health declaration forms, may not detect COVID-19 infections among pre-symptomatic and asymptomatic people. Additionally, infected individuals with fever who use drugs that reduce symptoms may not be detected via temperature screening.
+
+https://apps.who.int/iris/bitstream/handle/10665/331512/WHO-2019-nCoV-POEmgmt-2020.2-eng.pdf
+
+Should event organizers provide COVID-19 testing?
+=================================================
+
+The decision to conduct COVID-19 testing at a mass gathering event should continue to be monitored and not be limited to specific populations (e.g., only those in urban settings with high access to testing or travellers). At this time, WHO continues to recommend that decision-making related to gatherings follow a risk-based approach in collaboration with authorities and event organizers.
+
+It is recommended that anyone who is feeling unwell or is symptomatic should stay at home and refrain from participating in or attending an event.
+
+Are there additional safeguards event organizers can implement or recommend to athletes/officials/visitors in the context of COVID-19?
+======================================================================================================================================
+
+Event organizers should provide the current general guidance to all potential participants or visitors to a mass gathering or event. WHO continues to recommend these measures:
+
+- wear a well-fitting mask and keep a safe distance from others, as feasible
+
+- avoid crowds and keep indoor spaces well-ventilated
+
+- always practice respiratory etiquette by covering coughs and sneezes
+
+- clean your hands regularly
+
+- stay up to date with vaccinations
+
+- stay home if you are sick
+
+- get tested if you have symptoms or you’ve been exposed to COVID-19.
+
+Clear information should be provided to the public about what to do if someone is unwell and whom to contact for advice, testing and/or treatment.
+
+Organizers should always implement precautionary measures to mitigate the risk of COVID-19 spread, regardless of the calculated event risk. This includes developing a comprehensive risk communication and community engagement strategy to inform attendees about associated risks and necessary precautions.
+
+Regular reassessment of measures based on the COVID-19 situational level framework should be conducted, with adherence monitored through assessments like mobility data and community surveys. Personal protective measures, such as hand hygiene, respiratory etiquette, and mask usage, should be followed, and clear guidance provided on seeking advice, testing, and treatment when unwell. In the event of a new variant of concern, implementing higher-level of PHSM as a precautionary measure may be necessary until it is fully characterized.

@@ -1,0 +1,53 @@
+WHO QUESTIONS AND ANSWERS
+Title: Neglected tropical diseases: Sleeping sickness (human African trypanosomiasis)
+URL: https://www.who.int/news-room/questions-and-answers/item/neglected-topical-diseases-sleeping-sickness-(human-african-trypanosomiasis)
+Retrieved: 2026-10-05T09:47:51.320048+00:00
+
+========================================
+
+Human African trypanosomiasis (HAT), also known as sleeping sickness, is a parasitic disease transmitted by the bite of the Glossina, commonly known as the tsetse fly. The disease mostly affects poor populations living in remote rural areas of Africa. Untreated, it is usually fatal. Travellers also risk becoming infected if they venture through regions where the insect is common. Generally, the disease is not found in urban areas, although cases have been reported in suburban areas of big cities in some disease‐endemic countries.
+
+Which parasite causes HAT?
+==========================
+
+The disease is caused by trypanosomes that are unicellular parasitic protozoa. A large number of species and subspecies of trypanosomes have been described, but only two subspecies can cause HAT. Different species of trypanosomes infect a variety of different vertebrates, including animals and humans. Most species are transmitted by insects.
+
+HAT occurs only in sub-Saharan Africa. It is caused by two subspecies of Trypanosoma brucei brucei, namely Trypanosoma brucei gambiense (T.b. gambiense) and Trypanosoma brucei rhodesiense (T.b. rhodesiense).
+
+Why do we specify human in African trypanosomiasis?
+===================================================
+
+African trypanosomiasis also occurs in animals. Animal African trypanosomiasis (AAT) is caused by other trypanosome species and subspecies than those affecting human beings. All these diseases have an important economic impact on the development of agriculture in Africa. Those affecting cattle are undoubtedly the most important economically since they are a major cause for reduced meat and milk production and draught power for agricultural production. Occasional infections in humans with these trypanosomes have been described.
+
+How is the parasite that causes HAT transmitted to humans?
+==========================================================
+
+Trypanosomiasis is transmitted to humans and animals by a blood‐sucking insect, the tsetse fly. Both male and female tsetse flies can transmit the infection. Tsetse flies include all the species in the genus Glossina, but not all the species are recognized as vectors of sleeping sickness. Tsetse flies are found on the African continent south of the Sahara. Wild and domestic animals can host these parasites and may represent a reservoir of infection for the tsetse flies.
+
+Vertical transmission (mother to child) can happen in infected pregnant women. Blood transfusion and laboratory infection have been described but they are rare.
+
+Are there differences between the sleeping sickness caused by T.b. gambiense and T.b. rhodesiense?
+==================================================================================================
+
+Yes, there are several differences between these two forms of the disease.
+
+First, the transmission circuit differs. T.b. gambiense is transmitted mainly from an infected human to a tsetse fly and then to another human. The transmission cycle of T.b. rhodesiense involves to a great extent domestic and wild animals that act as a reservoir of infection for the tsetse flies. Humans may act as a reservoir also when transmission is intensified during epidemics.
+
+Secondly, there are major differences in the symptoms. Infection with T.b. rhodesiense is acute, lasting from a few weeks to several months, while T.b. gambiense infection is chronic, generally progressing slowly over several years.
+
+What are the symptoms of sleeping sickness?
+===========================================
+
+HAT progresses in two stages. Following the bite of the infected fly, the parasite multiplies in the lymph and the blood of the person bitten, causing unspecific symptoms and signs such as headaches, fever, weakness, pain in the joints and lymphadenopathy. People who become infected may or may not show signs of illness immediately. Over time the parasite crosses the blood–brain barrier and migrates to the central nervous system. This second stage causes various neurological changes including sleep disorders (hence the name “sleeping sickness”), deep sensory disturbances, abnormal tone and mobility, ataxia, psychiatric disorders, seizures, coma and ultimately death.
+
+How is sleeping sickness diagnosed?
+===================================
+
+Diagnosis requires parasitological tests to confirm the presence of the parasite in any body fluid, usually in the blood and lymph. The disease stage (haemo-lymphatic or meningo-encephalitic) is determined by examination of the cerebrospinal fluid. Lumbar puncture for staging is usually performed immediately after parasitological diagnosis of trypanosome infection or when indications of infection are present that justify this invasive intervention (e.g. indicative clinical signs or strong serological suspicion).
+
+Can sleeping sickness be treated?
+=================================
+
+Sleeping sickness is difficult to treat because of the toxicity and complex administration of the medicines currently available for treatment. Furthermore, parasite resistance to existing medicines is always a risk.
+
+Five medicines are registered for the treatment of HAT: pentamidine, suramin, melarsoprol, eflornithine and fexinidazole. A sixth medicine, nifurtimox, is used in combination under special authorizations. However, none of them are anodyne as all have a certain level of toxicity.

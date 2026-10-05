@@ -1,0 +1,121 @@
+WHO QUESTIONS AND ANSWERS
+Title: International Health Regulations: amendments
+URL: https://www.who.int/news-room/questions-and-answers/item/international-health-regulations-amendments
+Retrieved: 2026-10-05T09:47:15.684473+00:00
+
+========================================
+
+Questions and answers relating to the International Health Regulations and the process for amending them.
+
+Why and how were amendments made to the International Health Regulations (2005) (IHR)?
+======================================================================================
+
+In light of the experience of the COVID-19 pandemic, in January 2022, the Executive Board of WHO, through decision EB150(3), urged “Member States to take all appropriate measures to consider potential amendments to the International Health Regulations (2005)” to strengthen the global preparedness and response capacity to public health emergencies.
+
+In May 2022, the Seventy-fifth World Health Assembly, through decision WHA75(9), decided to establish the Member State-led Working Group on Amendments to the International Health Regulations (2005) (WGIHR) to consider potential amendments to the IHR, and invited Member States to propose amendments to the IHR by 30 September 2022 (amendments proposed by States Parties to the IHR are available here).
+
+The Seventy-fifth World Health Assembly further asked the Director-General to convene a Review Committee regarding amendments to the International Health Regulations (2005) to provide technical recommendations on the proposed amendments. The Review Committee submitted its report to the Director-General in January 2023, who shared it with the WGIHR.
+
+The WGIHR commenced its work on 14 November 2022 and concluded it on 24 May 2024. The outcome of the WGIHR negotiations was submitted for consideration by the Seventy-seventh World Health Assembly (document A77/9).
+
+A package of amendments to the IHR was agreed by Member States through the work of a Drafting Group, from 29 May through 1 June 2024, established by Committee A of the Seventy-seventh World Health Assembly.
+
+On 1 June 2024, the Seventy-seventh World Health Assembly, through a resolution, adopted the package of amendments to the IHR.
+
+Who decided on the amendments to the IHR?
+=========================================
+
+There are 196 States Parties to the IHR: all 194 WHO Member States plus Liechtenstein and the Holy See, and it is they who negotiated the amendments to the IHR.
+
+Were all States Parties required to agree on the IHR amendments for them to be adopted? Is abstention considered agreement?
+===========================================================================================================================
+
+The package of amendments was adopted by consensus, i.e. without a vote, by the Seventy-seventh World Health Assembly on 1 June 2024. The amendments will come into force for all States Parties except for those States Parties that may notify the Director-General of a rejection or reservation within a set deadline which will be communicated by WHO to all States Parties.
+
+Will the amended IHR give WHO the ability to forcefully impose health measures, lockdowns or restrictions on the populations of any country?
+============================================================================================================================================
+
+No. WHO will have no ability to impose any health measure, including lockdowns or other restrictions, on the populations of any country.
+
+When will the amendments to the IHR come into force?
+====================================================
+
+In accordance with Article 59 of the IHR (as amended in 2022), the amendments adopted by the Seventy-seventh World Health Assembly through resolution WHA77.17 (2024) will come into force 12 months following the notification by the Director-General to all States Parties, which occurred on 19 September 2024. The amendments will, therefore, come into force on 19 September 2025.
+
+With respect to the four States Parties that rejected the 2022 amendments, the amendments adopted by the Seventy-seventh World Health Assembly will come into force 24 months after after the 19 September 2024 notification by the Director-General to those States Parties, on 19 September 2026.
+
+What criteria are used by the WHO Director-General when determining a public health emergency of international concern?
+=======================================================================================================================
+
+Article 1 of the IHR defines a public health emergency of international concern (PHEIC) as “an extraordinary event which is determined to constitute a public health risk to other States Parties through the international spread of disease and to potentially require a coordinated international response.”
+
+In accordance with Article 12(4) of the IHR, in determining whether an event constitutes a PHEIC, the Director-General shall, among other issues, consider the following:
+
+- information provided by the State Party;
+
+- the Emergency Committee’s advice;
+
+- scientific principles, available scientific evidence and other relevant information; and
+
+- an assessment of the risks to human health, international spread of disease and interference with international traffic.
+
+What are the implications for States Parties of the WHO Director-General determining a public health emergency of international concern?
+========================================================================================================================================
+
+- The determination of an event as PHEIC serves as a global alert and, most importantly, it implies the issuance of Temporary Recommendations to States Parties – which, by definition, are not legally binding – to guide them in preparing for and responding to the PHEIC.
+
+- Under the IHR, Temporary Recommendations automatically expire three months after their issuance. Emergency Committees are, therefore, reconvened at least every three months to advise the WHO Director-General on whether the event continues to constitute a PHEIC, as well as on temporary recommendations to States Parties that the Director-General may continue to issue.
+
+- A statement of the Emergency Committee meeting is published on the WHO website after each Committee meeting.
+
+The amendments have introduced a “pandemic emergency”, which constitutes the highest level of global alert that the Director-General May issue. What are the criteria for a pandemic emergency being determined?
+================================================================================================================================================================================================================
+
+In accordance with the definition adopted by the Seventy-seventh World Health Assembly, a “pandemic emergency” means a public health emergency of international concern that is caused by a communicable disease and:
+
+1. has, or is at high risk of having, wide geographical spread to and within multiple States; and
+
+2. is exceeding, or is at high risk of exceeding, the capacity of health systems to respond in those States; and
+
+3. is causing, or is at high risk of causing, substantial social and/or economic disruption, including disruption to international traffic and trade; and
+
+4. requires rapid, equitable and enhanced coordinated international action, with whole-of-government and whole-of-society approaches.”
+
+What are the implications for States Parties of the WHO Director-General determining a pandemic emergency?
+==========================================================================================================
+
+The determination of an event as a pandemic emergency serves as the highest level of global alert and, most importantly, it implies the issuance of Temporary Recommendations to States Parties – which, by definition, are not legally binding – to guide them in preparing for and responding to the PHEIC.
+
+Was Article 55 of the IHR applied to the WGIHR process?
+=======================================================
+
+Yes. Provisions of Article 55 of the IHR, which set out who can propose amendments to the IHR, and when and how such proposals must be communicated to States Parties, have been met by the WHO Secretariat.
+
+Article 55(1) of the IHR enables any State Party or the WHO Director-General to propose amendments to the IHR for consideration by the World Health Assembly. This has been applied to the WGIHR process.
+
+Article 55(2) of the IHR further provides that the WHO Director-General shall communicate any proposed amendment to all States Parties at least four months before the World Health Assembly for consideration. This applies to any proposed IHR amendment submitted by a State Party or the WHO Director-General pursuant to Article 55(1).
+
+In fulfilling the Article 55(2) requirement, the WHO Secretariat circulated all proposals for amendments to the IHR on 16 November 2022, some 17 months before the Seventy-seventh World Health Assembly, which begins on 27 May 2024, when they are proposed for consideration.
+
+The World Health Assembly established the WGIHR, which operates as a subdivision of the Assembly and includes all 196 States Parties. As such, the WHO Secretariat has further exceeded the technical requirements of Article 55(2) by communicating not only the original 308 amendments, but also by communicating all proposed changes to these amendments developed by the WGIHR drafting group, to all 196 States Parties, after each WGIHR meeting.
+
+These communications to all States Parties occurred at the conclusion of each WGHIR meeting.
+
+In sum, both the letter and the spirit of Article 55(2) have been met.
+
+The letter of the provision was fulfilled, again, by the communication of 16 November 2022. This was well in advance of the four-month requirement. This notice maximized the time available for all States Parties for domestic and international consideration and coordination.
+
+The spirit of the provision, which is to ensure that all States Parties have adequate time to consider and coordinate domestically and internationally on the proposed amendments in the run up to the Assembly, has been met.
+
+How does the WGIHR’s work relate to that of the group leading negotiations on a pandemic agreement?
+===================================================================================================
+
+During a Special Session of the Health Assembly in December 2021, governments agreed to draft and negotiate a convention, agreement or other international instrument under WHO’s Constitution to strengthen pandemic prevention, preparedness and response. These negotiations are ongoing, led by the Intergovernmental Negotiating Body (INB).
+
+A new pandemic agreement could contain a provision on its relationship to other international instruments, including clarifying its complementarity with the IHR.
+
+Article 57 of the IHR includes provisions regarding the relationships with other international agreements, including the possibility for State Parties to conclude special treaties or arrangements to facilitate the implementation of the IHR.
+
+In establishing the INB, the World Health Assembly noted the “need for coherence and complementarity between the process of developing the new instrument and the ongoing work with regard to implementation and strengthening of the IHR (2005).”
+
+At the Seventy-seventh World Health Assembly, on 1 June 2024, WHO’s Member States decided to extend the INB’s mandate, to allow the INB to finish its work as soon as possible, and submit its outcome for consideration by the Seventy-eighth World Health Assembly in 2025, or earlier by a special session of the World Health Assembly if possible in 2024.

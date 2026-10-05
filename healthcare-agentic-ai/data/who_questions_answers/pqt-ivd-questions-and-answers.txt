@@ -1,0 +1,63 @@
+WHO QUESTIONS AND ANSWERS
+Title: In vitro diagnostics: Frequently asked questions
+URL: https://www.who.int/news-room/questions-and-answers/item/pqt-ivd-questions-and-answers
+Retrieved: 2026-10-05T09:48:18.387263+00:00
+
+========================================
+
+This page provides answers to frequently asked questions relating to EUL assessment of in vitro diagnostics (IVD) to detect SARS-CoV-2 or anti-SARS-CoV-2 antibodies. These questions and answers provide additional clarity on the procedure and instructions documents published on our website and do not intended to introduce any new requirements or to modify any existing processes in place.
+
+How can I submit for EUL assessment?
+====================================
+
+The manufacturer should first contact diagnostics@who.int.The Prequalification (PQ)-IVD team organizes a teleconference as the first step of the EUL process. Thereafter, we invite manufacturers to submit an application letter if the manufacturer has conducted all the required minimum studies in our instructions document. We prefer if manufacturers submit all information at one time rather than partial data at multiple timepoints as it assists us to undertake a more efficient data review. However, when this is not possible, manufacturers are encouraged to contact our Team to seek guidance. Once we receive the application letter, we will prepare a letter of agreement, and ask the manufacturer to submit their product dossier. The QMS documentation and product performance data are reviewed in parallel. Firstly, the provided information is screened for completeness and (if complete) then undergoes a technical assessment. We inform the manufacturer of the outcome of each step and ask for more information where required.
+
+What are the EUL timelines?
+===========================
+
+The time to accepting the application letter is less than one week. Responses to screening and dossier review takes six to eight weeks depending on the completeness of the information submitted. If you have a question regarding your application that is currently under review, email diagnostics@who.int and we will give an update as soon as we can. For queries about active applications and products published on our website as emergency use listed, refer to the status updates and public reports on our website or email diagnostics@who.int and we will try to give you as much information we can, understanding that we cannot share confidential information.
+
+What IVD products are eligible for the abridged assessment pathway?
+===================================================================
+
+IVDs to detect SARS-CoV-2 nucleic acid that have US FDA Emergency Use Authorization are eligible for an abridged assessment pathway. For these applications, we accept the submission prepared for the FDA. Note however that any additional requirements outlined in the WHO instructions document must supplement the submission and the entire dossier will be assessed. We do not abridge any other national regulatory authority approvals for NAT assays (such as CE-marking, Chinese NMPA, ANVISA, Korea MFDS), nor any other types of IVDs.
+
+We have conducted performance studies for our kit as per national regulatory authority requirements. Do we have to repeat these studies for the EUL if they do not completely align with WHO EUL instructions?
+==============================================================================================================================================================================================================
+
+We understand that time and specimens are critical. We will work with the data that you have available at the time of submission and discuss your application in detail during the presubmission call. Submit any data that has been generated that can help us evaluate your assay more comprehensively. We publish minimum requirements in our instructions document that we require all manufacturers to meet. As the pandemic evolves and more evidence becomes, we are updating our minimum requirements. The most recent version is posted on our website.
+
+What is the relationship between the performance studies such as the study organized by FIND and the EUL?
+=========================================================================================================
+
+Currently, several performance evaluations of SARS-CoV-2 IVDs are being implemented by regulatory authorities, reference laboratories and other stakeholders in various regions. Manufacturer are strongly encouraged to participate in initiatives which generate evidence that can be used to support the EUL submission, However, participation in external evaluations does not replace the EUL submission nor is participation in such studies mandatory for submission to the WHO EUL.
+
+Does the EUL expression of interest include multiplex NAT assays which detect other respiratory pathogens in addition to SARS-CoV-2?
+====================================================================================================================================
+
+PQT-IVD are not accepting applications for multiplex NAT assays that detect other respiratory pathogens in addition to SARS-CoV-2 to the EUL assessment procedure.
+
+I am developing a SARS-CoV-2 assay and preparing to submit to the EUL. What instructions should I follow?
+=========================================================================================================
+
+We have published different instructions depending on the assay type on our website to assist in the preparation of the EUL submission. As the pandemic evolves and more scientific evidence becomes available, these instructions may change. It is recommended to verify that you are using the most recent version of instructions which are posted on our website.
+
+I am submitting a RT-PCR kit to detect SARS-CoV-2 nucleic acid, do I have to include the extraction step in my validation studies?
+==================================================================================================================================
+
+Yes, the extraction step must be considered for all analytical and clinical performance studies. It is essential that the limit of detection is determined in each specimen type claimed using all extraction kits recommended in the instructions for use.
+
+Do I need to provide detailed information regarding specimen collection and storage?
+====================================================================================
+
+More and more evidence is emerging as to how critical appropriate specimen collection and storage is in the testing process, and the potential impacts it can have on the IVD kit sensitivity. PQT-IVD consider it essential that the manufacturer fully understands the impact of the viral transport media (VTM) or other means recommended in the instructions for use as users will follow this information. If commercial VTM, in-house developed VTM or other storage solutions are recommended, it is essential that the manufacturer has evidence of its performance in the claimed specimen type.
+
+I cannot get access to the full list of organisms that are required for NAT assay cross- reactivity studies. Can WHO source these specimens or conduct testing on our behalf?
+=============================================================================================================================================================================
+
+PQT-IVD team are not undertaking any laboratory evaluation on manufacturers behalf. However, we understand that some organisms are proving difficult to source in different jurisdictions. As long as manufacturers can demonstrate that they have made adequate attempts to source these specimens, we can accept the testing to be submitted at an agreed later timepoint when the manufacturer can access these specimens. We will review the overall dataset and accept that there might be some small gaps in the dossier where other sections have been addressed completely.
+
+In our clinical evidence studies, we have not used a comparator assay that is recommended in your instructions document. Do we have to repeat the clinical studies?
+===================================================================================================================================================================
+
+No, we will not necessarily request you to repeat your clinical evidence studies without reviewing the data you already have available. Please provide a justification for how you have chosen your comparator assay. We would expect that a minimum, that you have knowledge of the comparator assay primers and probes and that they are not the same sequences as used in your assay. As part of the dossier submission. PQT-IVD will consider this information as part of the total dossier.

@@ -1,0 +1,173 @@
+WHO QUESTIONS AND ANSWERS
+Title: Refugee and migrant health
+URL: https://www.who.int/news-room/questions-and-answers/item/refugee-and-migrant-health
+Retrieved: 2026-10-05T09:49:11.111985+00:00
+
+========================================
+
+What is the connection between health and refugees and migrants?
+================================================================
+
+Regardless of migration status, all refugees and migrants have the right to health and countries should provide refugee and migrant-sensitive health care services.
+
+Refugees and migrants often face vulnerabilities related to the condition of their journeys such as inadequate access to health services, food and water, sanitation and other basic services. They may be at risk of noncommunicable and communicable diseases, including vaccine-preventable diseases and food- and waterborne diseases. Access to healthcare and continuity of care is more challenging when people are on the move.
+
+Refugee and migrant health are also strongly related to the social determinants of health such as employment, income, education and housing.
+
+How do displacement and migration affect the health of refugees and migrants?
+=============================================================================
+
+Migration could both improve or diminish an individual’s health status. Refugees and migrants can be vulnerable to disease because of a lack of or restricted access to health care, interrupted care or under-immunization, exposure to infections and lack of care and poor living conditions in countries of origin, transit or destination.
+
+During their journey, they may face the risk of injuries, hypothermia or burns and be exposed to conditions such as overcrowding and inadequate hygiene.
+
+In transit and host countries, they may face policies that exclude them from access to health care. Many refugees and migrants, especially undocumented migrants, live on the fringes of society and may suffer from xenophobia, dangerous work and substandard housing.
+
+Women (as well as trans and gender diverse people who can get pregnant) may be affected by risks related to pregnancy and childbirth and lack of effective and timely sexual and reproductive health services. Exposure to gender-based and sexual violence, abuse and trafficking also represents a risk for many.
+
+There is also considerable variation in the mental health of refugees and migrants. People may suffer from mood disorders, depression or post-traumatic stress disorder (PTSD). Poor conditions, such as unemployment or isolation, are linked to increased rates of depression.
+
+Migration can affect children’s mental health. Refugee and asylum-seeking children may be at higher risk of experiencing mental health conditions such as depression and post-traumatic stress disorder (1). Unaccompanied children are particularly vulnerable and may have unmet needs, including mental health needs.
+
+COVID-19 has posed additional challenges including the increased risk of infection and death, the adverse economic consequences of lockdowns and other restrictions (2), and a lack of access to health services and vaccination against COVID-19.
+
+Migration itself could also improve the health of individuals by improving the conditions that increased or prolonged their illness such as dire poverty, violence or natural disasters. However, the sustained benefits of migration and the impact on their health depends on the ultimate access to migrant-sensitive health systems designed to address in a continuous form the health needs of citizens and non-citizens alike.
+
+2. Bambra C, Riordan R, Ford J, et al. The COVID-19 pandemic and health inequalities. J Epidemiol Community Health 2020; 74:964-968.
+
+Why is refugee and migrant health important?
+============================================
+
+Global migration is a long-standing phenomenon. It may increase because of conflict, persecution, environmental degradation and climate change, and a profound lack of human security and opportunity. Many people move in the hope of improved employment and life opportunities.
+
+The correlation between health and migration is dynamic by nature and complex. Health is strongly related to the social determinants of health, including employment, income, education and housing. When not properly supported by appropriate intersectoral policies, migration can expose the most vulnerable socioeconomic groups to significant risks.
+
+Addressing the needs of these populations with well-functioning public health and health services responds to the human right to health, protects the health of both migrants and host communities, and contributes to integration and social and economic development. This is because refugees and migrants contribute to the society in which they live, especially when in good health. Access to information, prevention and appropriate care, including diagnostics, treatment and vaccines, is essential for these groups to fulfil their health needs. Furthermore, it ensures security for global public health.
+
+What are the definitions of refugee and migrant?
+================================================
+
+The term refugee is defined in Article 1 of the 1951 Convention Relating to the Status of Refugees, which states, "For the purposes of the present Convention, the term 'refugee' shall apply to any person who … owing to well-founded fear of being persecuted for reasons of race, religion, nationality, membership of a particular social group or political opinion, is outside the country of his nationality and is unable or, owing to such fear, is unwilling to avail himself of the protection of that country; or who, not having a nationality and being outside the country of his former habitual residence as a result of such events, is unable or, owing to such fear, is unwilling to return to it”.
+
+There is no universally accepted definition of the term migrant (1). However, the United Nations Department of Economic and Social Affairs defines an international migrant as “any person who changes his or her country of usual residence” and this definition includes any people who are moving or have moved across an international border, regardless of legal status, duration of the stay abroad and causes for migration (2).
+
+Migrants may be given a migration status that limits their entitlement and access to essential services, including health care. However, international law guarantees universal access in line with the 2030 Agenda for Sustainable Development, in particular with Sustainable Development Goal 3 (ensure healthy lives and promote well-being for all at all ages) (3).
+
+Although governed by separate legal frameworks, refugees and migrants are entitled to the same universal human rights and fundamental freedoms as other people (4).
+
+Should refugees and migrants have health screening on arrival?
+==============================================================
+
+There is no clear evidence of benefits or cost-effectiveness from screening. Therefore, WHO does not recommend compulsory disease screening of refugees and migrants when they arrive in a country. This can trigger anxiety in individual refugees or migrants, and in the wider community. It may deter people, especially those in an irregular situation, from asking for a medical check-up and can jeopardize the identification of high-risk patients.
+
+If screening is used, it should be associated with appropriate risk assessments serve the needs of refugees and migrants, and its effectiveness should be considered. It should be voluntary, non-discriminatory and non-stigmatizing, carried out clearly for the benefit of the individual and the public, and be linked to accessing treatment, care and support. Attention should be paid to medical ethics including informed consent and confidentiality. Pre- and post-screening counselling should be offered.
+
+WHO has produced a broad range of technical guidance to assist States in carrying out assessments at borders in the context of COVID-19 while protecting human rights, including management of ill travellers at points of entry (1).
+
+Should refugees and migrants be vaccinated?
+===========================================
+
+Immunization is one of the most cost-effective public health investments and a key component of primary health care. Vaccines underpin global health security and are critical to the prevention and control of infectious-disease outbreaks.
+
+A systemic and tailored approach to strengthening vaccination programmes is needed, with national policies that provide equitable and high-quality immunization services tailored to specific populations, including refugees and migrants, offered free of charge.
+
+Outreach strategies should be considered to improve the delivery and uptake of vaccines. Such strategies may include interpreters and cultural mediators; information in the languages of the refugees and migrants; collaboration between health and social services networks, local service providers and refugee and migrant communities; and training and culturally relevant information for health care and other professionals so they understand the specific needs of refugees and migrants.
+
+The COVID-19 pandemic has provided a new focus and priority for the vaccination of vulnerable groups. Equitable access to vaccination, including for refugees and migrants, is of prime importance. Many countries, including those receiving large influxes of refugees and migrants, have adopted best practices and included them into their routine vaccination programmes. All countries should ensure the eligibility and access to vaccination services for refugees and migrants, as well as international travellers and marginalized communities, along with the host population.
+
+Should refugees and migrants be given health care?
+==================================================
+
+WHO supports policies to provide equitable access to health care services for refugees and migrants, irrespective of their migration status, as part of universal health coverage. Everyone should enjoy the human right to health and have full, uninterrupted access to high quality health care including access to safe, effective, quality and affordable essential medicines and vaccines, as well as financial risk protection, in the country of origin, transit and destination, without discrimination based on gender, age, religion, nationality or race.
+
+Access to screening programmes that are in place for the host population (for example, screening during pregnancy, for antenatal, neonatal, and postnatal care) should be explicitly promoted for refugee and migrant populations, who should also have full access to health promotion and disease prevention programmes (such as vaccination).
+
+Diagnosis and treatment of noncommunicable diseases can prevent these conditions from worsening and becoming life-threatening. Good record keeping and cross-border continuity of care along the migrant journey are important but may be difficult to achieve. Access to specialist mental health services should be offered.
+
+Although some care may be given in temporary settlements, refugees and migrants should access care from the same facilities and clinics as the general population; mainstream provision is crucial to avoid the creation of parallel health systems.
+
+How should health care be organized for refugees and migrants?
+==============================================================
+
+It is important that health systems systematically incorporate the needs of refugees and migrants in national and local health policies, financing, planning, and service design and provision. Including refugees, migrants, and diaspora communities in decision-making is crucial to identifying challenges and solutions for refugee and migrant health.
+
+In rapid and effective emergency responses, life-saving health service may sometimes need to be delivered in parallel to national health systems, but in the long term, refugee and migrant health should be mainstreamed into existing health systems.
+
+Health systems should be sensitive to the needs of these populations, their culture, language and their unique health specificities.
+
+The main challenges and vulnerabilities of refugee and migrant populations must be identified by assessing their health needs and whether they are being met by the health system and public health activities, and how to adapt health system capacity and public health interventions.
+
+Health systems should deliver culturally informed, people-centred care and tailored population services, provided by competent supportive staff.
+
+Training should be provided for clinical, support and administrative personnel, and where possible, refugees and migrants with health professional backgrounds incorporated into the local workforce
+
+Patients should be equipped with knowledge of their entitlements. Access to interpreters and translated resources should be provided. Practical support may be required for patients to register, make appointments and attend services.
+
+What barriers do refugees and migrants face?
+============================================
+
+Refugees and migrants often experience barriers in accessing essential services including health because legislation or regulations restrict access according to nationality or migration status; fear of immigration authorities and detection, detention and deportation; financial barriers; language and cultural differences; social stigma; administrative hurdles; and the inability to join local health financing schemes (particularly social insurance schemes).
+
+A significant challenge is the national acceptance in legal and policy terms of the human right to health of refugees and migrants. This acceptance requires political commitment to tackle xenophobia, discrimination, exclusion and misinformation about these populations and their health needs.
+
+Reduction or removal of communication and language barriers is key to improving access to services by refugees and migrants. However, while a common language is crucial, culturally competent services should offer more than just minimal communication. Refugee- and migrant- friendly services should be able to explain the host country’s system of health care, and use telephone interpreting, face-to-face interpreting, intercultural mediation, and supportive written information to improve health communication for both providers and patients.
+
+How is WHO supporting countries to help refugees and migrants?
+==============================================================
+
+WHO’s Health and Migration Programme (PHM) brings together WHO’s technical departments, regional and country offices, as well as partners, to secure the health rights of refugees and migrants and achieve universal health coverage. To this end, the Programme has 5 core functions:
+
+1. to provide global leadership, advocacy and support for policy development and implementation relating to health and migration;
+
+2. to set norms and standards to support decision-making for responses to the health needs of refugees and migrants, and promote research to support evidence-based practice, and inform policy making;
+
+3. to monitor trends, strengthen health information systems and promote tools and strategies for progress monitoring and reporting on the implementation of the Global Action Plan Promoting the health of refugees and migrants (GAP 2019–2023);
+
+4. to provide specialized technical assistance, response, and capacity-building support to address public health challenges associated with human mobility. The Programme assists Member States to strengthen health system capacity to meet the health needs of migrants and refugees, and host populations; promote emergency care; ensure migrant-sensitive health policies; improve the quality of health services; and optimize countries’ use of health structures and resources; and
+
+5. to promote global multilateral action and collaboration to accelerate progress and achieve continuity of care.
+
+Among WHO’s 6 regions, the numbers and situations of refugees and migrants differ considerably, and there is extensive knowledge and experience. Inter-regional sharing of information and good practices is promoted by PHM and contributes to improving recommendations and guidance, the wider dissemination of lessons learnt.
+
+What are WHO’s commitments for the health of refugees and migrants?
+===================================================================
+
+At the 70th Session of the WHO World Health Assembly in May 2017, Member States adopted WHA 70.15 on promoting the health of refugees and migrants, in the context of resolution WHA61.17 (2008) on the health of migrants.
+
+These earlier resolutions informed the WHO Global Action Plan Promoting the health of refugees and migrants (GAP 2019–2023), which was noted by the World Health Assembly in 2019 and represents WHO’s commitment to promote the health of refugees and migrants globally.
+
+In 2020, WHO established the Health and Migration Programme (PHM) to implement the Global Action Plan at global, regional and country levels by providing global leadership in health and migration issues.
+
+The WHO GAP is part of an international framework established by the United Nations to enable a constructive global approach to migration. This framework includes the 2030 Agenda for Sustainable Development and two global compacts, the Global Compact on Refugees (GCR) and the Global Compact for Safe, Orderly and Regular Migration (GCM).
+
+WHO is part of the Executive Committee of the UN Network on Migration, set up to ensure effective, timely and globally coordinated system-wide support to countries in the implementation of the GCM.
+
+In line with the global policy framework on refugee and migrant health, in the European Region, the WHO Regional Committee for Europe adopted the European Strategy and Action Plan for 2016–2022. In the Region of the Americas, the Pan American Health Organization also has a strategic document on migration and health. In the Eastern Mediterranean Region, WHO EMRO prepared the draft refugee and migrant health strategy for the Region.
+
+How is WHO working to keep refugees and migrants safe during the pandemic?
+==========================================================================
+
+WHO is working closely with countries and partners to advocate for the inclusion of refugees and migrants in all aspects of the COVID-19 pandemic response, including access to reliable information, treatment and care, and vaccination. WHO is working to promote COVID-19 vaccine demand, confidence and uptake in refugees and migrants. WHO also supports countries and partners to address barriers that prevent refugees and migrants in accessing to COVID-19 vaccination services including through the development of interim guidance and operational guide, and closely monitors the implementation of the National Deployment and Vaccination Plans (NDPVs).
+
+WHO co-leads the Executive Committee of the UN Network on Migration’s Working Group on access to services, which during the pandemic refocused on ensuring inclusion of migrants in the COVID-19 response and recovery. The UN Network’s 2021–2022 workplan includes promoting equitable access and inclusion of refugees and migrants in national vaccination rollouts.
+
+Through the Multi-Partner Trust Fund for Safe, Orderly and Regular Migration (MPTF), a financing mechanism aiming to assist Member States in their national implementation of the Global Compact for Migration, WHO is working with other UN entities and national partners at the country-level to implement joint programmes to provide a collective response to specific needs.
+
+Where is WHO active to help address the health needs of refugees and migrants?
+==============================================================================
+
+WHO works with regions to address the health needs of refugees and migrants at all stages of the migration journey, including during the pandemic, in countries such as Bangladesh; Burkina Faso; Cambodia; Cameroon; Colombia; Dominican Republic; Ecuador; Ethiopia; Greece; Guatemala; Guinea; India; Iran (Islamic Republic of); Jordan; Kenya; Lebanon; Libya; Malaysia; Mali; Mexico; Myanmar; Nepal; Niger; Nigeria; Pakistan; Peru; Rwanda; Serbia; Sierra Leone; Singapore; Sri Lanka; Sudan; Tajikistan; Thailand and Turkey.
+
+In all 6 regions, WHO provides specialized technical assistance, response and capacity-building support to Member States in developing and implementing strategies that respond to the health needs of refugees and migrants throughout their journey, and in all settings. WHO works closely with regional and country offices to scale up the implementation of the GAP 2019–2023.
+
+In the African Region, WHO works with country offices and partners to strengthen Member States’ capacity to integrate and respond to refugee and migrant health needs in areas such as logistics; vaccinating people against preventable communicable diseases; healthcare for children; and mental health services in humanitarian settings. WHO contributes to the review of GCM implementation.
+
+In the Americas, the Pan American Health Organization works with countries to address systemic issues that limit migrants’ access to health services and support the establishment of coordination mechanisms to ensure improved health outcomes for migrant and host communities. Simultaneously, it provides immediate, humanitarian health responses with sustained planning in health that considers migration challenges and opportunities.
+
+In the Eastern Mediterranean Region, WHO prepared the draft refugee and migrant health strategy for the Region with national and regional experts, including high level political representatives, to advocate for international cooperation between Member States to promote the health and wellbeing of these populations in any given setting and throughout the routes of migration, echoing the WHO/EMRO vision that health is for all and by all and UN commitment to prioritizing refugee and migrant health on the international agenda.
+
+In the European Region, WHO is supporting Member States to manage and respond to public health aspects of refugee and migrant health, with a focus on preparing for and responding to refugee and migrant influxes and empowering frontline Member States and ministries of health with clear public health advice; identifying and filling knowledge gaps by strengthening public health knowledge on migrants and refugees; developing knowledge products and policy guidance; and promoting migrant-inclusive and migrant-friendly health systems in Member States.
+
+In the South-East Asia Region, WHO supports Member States to enhance health service delivery, focus on outbreak prevention and control, and strengthen community engagement to improve the health of refugees and migrants.
+
+In the Western Pacific Region, WHO is using community engagement strategies to reach migrant and refugees, to address barriers to help improve access to essential services and information and to strengthen data to promote evidence-based policies and programmes.

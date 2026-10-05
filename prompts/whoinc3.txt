@@ -1,0 +1,676 @@
+TASK: Implement an isolated WHO + AMG combined medical-evidence experiment.
+
+PROJECT:
+healthcare-agentic-ai
+
+OBJECTIVE:
+Add an opt-in evidence composition layer that retrieves medical knowledge from BOTH:
+
+1. Existing AMG-RAG medical evidence
+2. Existing local WHO Lookup collection
+   - WHO Fact Sheets
+   - WHO Questions & Answers
+
+The Diagnostic Agent should receive both sources as clearly separated evidence sections.
+
+IMPORTANT:
+This is an EXPERIMENTAL ADDITION.
+Do NOT replace AMG-RAG.
+Do NOT delete or disable WHO Lookup.
+Do NOT change the existing production/default retrieval behavior.
+Do NOT modify diagnostic reasoning logic, grounding logic, critic logic, safety logic, abstention rules, or human-review rules.
+
+==================================================
+HARD CONSTRAINTS
+==================================================
+
+1. DO NOT use DDXPlus diagnosis labels at runtime.
+
+2. DO NOT use benchmark/relevance labels.
+
+3. DO NOT add hidden diagnosis information to queries.
+
+4. DO NOT create synthetic medical facts or artificial evidence.
+
+5. DO NOT modify the WHO crawler or downloaded WHO documents unless a compatibility bug is discovered that prevents the experiment from functioning. If a compatibility bug exists, report it before changing the crawler.
+
+6. DO NOT modify AMG-RAG retrieval parameters:
+   - embedding model
+   - vector database
+   - distance metric
+   - top-k
+   - retrieval gate
+   - corpus
+   - index
+   - ranking
+   - reranking
+   - query compression
+   - candidate generation
+
+7. DO NOT introduce embeddings, vector search, BM25, reranking, or another RAG system for WHO.
+
+8. WHO Lookup must remain deterministic/local.
+
+9. Do not send the entire WHO collection to the LLM.
+
+10. Only load WHO documents returned as relevant by the existing WHO lookup layer.
+
+11. Preserve source provenance for BOTH evidence sources.
+
+12. Do not merge WHO and AMG evidence into an unlabeled text blob.
+
+13. Do not force a diagnosis simply because WHO or AMG returned evidence.
+
+14. If evidence is weak, missing, conflicting, or insufficient, the existing uncertainty/abstention/human-review behavior must remain intact.
+
+15. Do not change the final safety policy.
+
+16. Do not make parallel cloud LLM calls.
+
+17. Keep memory usage bounded. Do not load all 569 WHO documents into memory at once.
+
+18. Do not modify unrelated production files.
+
+19. Keep the existing AMG-only workflow available.
+
+20. Keep the existing WHO-only lookup available.
+
+==================================================
+CURRENT COMPONENTS TO REUSE
+==================================================
+
+First inspect the repository and identify the exact existing implementations.
+
+WHO:
+
+    rag/who_lookup.py
+
+WHO data:
+
+    data/who_fact_sheets/
+    data/who_questions_answers/
+
+Existing WHO indexes should already exist.
+
+AMG:
+
+    rag/amg/
+    rag/amg/backend.py
+    rag/amg/service.py
+    rag/amg/provenance.py
+
+Also inspect:
+
+    application/workflow.py
+    rag/agents/grounding.py
+    orchestration/phase6/orchestrator.py
+    safety/
+    diagnostic agent implementation
+    existing AMG integration tests
+    existing WHO lookup tests
+
+Do not assume these files have unchanged APIs.
+Read the actual current code before implementing.
+
+==================================================
+DESIRED ARCHITECTURE
+==================================================
+
+Current:
+
+    Patient Case
+        |
+        v
+    Patient Agent
+        |
+        v
+    AMG-RAG
+        |
+        v
+    Diagnostic Agent
+        |
+        v
+    Grounding
+        |
+        v
+    Clinical Critic
+        |
+        v
+    Safety
+        |
+        v
+    Final Decision / Human Review
+
+
+New experimental path:
+
+    Patient Case
+        |
+        v
+    Patient Agent
+        |
+        +----------------------+
+        |                      |
+        v                      v
+    WHO Lookup             AMG-RAG
+        |                      |
+        |                      |
+        +----------+-----------+
+                   |
+                   v
+          Combined Evidence
+                   |
+                   v
+           Diagnostic Agent
+                   |
+                   v
+              Grounding
+                   |
+                   v
+           Clinical Critic
+                   |
+                   v
+                Safety
+                   |
+                   v
+       Final Decision / Human Review
+
+
+The combined evidence object MUST preserve source identity.
+
+Conceptually:
+
+    CombinedMedicalEvidence
+        ├── who_evidence
+        │     ├── fact_sheets
+        │     └── questions_answers
+        │
+        └── amg_evidence
+              └── accepted_passages
+
+
+Do not flatten these into one anonymous list.
+
+==================================================
+WHO LOOKUP BEHAVIOR
+==================================================
+
+Reuse the existing:
+
+    rag/who_lookup.py
+
+Do not build a second WHO search implementation.
+
+The combined layer should pass a clinically appropriate, label-free query to WHO Lookup based only on available patient/case information.
+
+The WHO query must NOT contain:
+- hidden diagnosis labels
+- benchmark labels
+- expected answer
+- DDXPlus diagnosis
+- manually injected disease name
+
+If WHO returns:
+
+    NO_MATCH
+
+that is valid behavior.
+
+Do not force a WHO match.
+
+If multiple WHO topics are returned, preserve them individually.
+
+Each WHO document should retain at minimum:
+
+    title
+    url
+    doc_type
+    filename
+    relevant text/content
+
+If the existing lookup exposes more provenance, preserve it.
+
+==================================================
+AMG BEHAVIOR
+==================================================
+
+Call the EXISTING AMG evidence service exactly through its current supported interface.
+
+Do not alter retrieval internals.
+
+Preserve:
+
+    source ID
+    title
+    URL
+    section/chunk information
+    provenance
+    accepted/rejected status
+
+Only accepted AMG evidence should be supplied to the Diagnostic Agent.
+
+Do not convert rejected candidate audit records into accepted evidence.
+
+==================================================
+COMBINED EVIDENCE CONTRACT
+==================================================
+
+Create a small typed contract for the combined result.
+
+Suggested location:
+
+    rag/combined_medical_evidence.py
+
+Use the project's existing typing/dataclass conventions if different.
+
+The contract should conceptually contain:
+
+    CombinedMedicalEvidence
+        who_evidence
+        amg_evidence
+        query
+        provenance
+        status
+
+Possible statuses:
+
+    BOTH_AVAILABLE
+    WHO_ONLY
+    AMG_ONLY
+    NONE_AVAILABLE
+
+Do not invent evidence when one source is empty.
+
+Example:
+
+    WHO_ONLY:
+        WHO contains useful evidence
+        AMG returned no accepted evidence
+
+    AMG_ONLY:
+        AMG contains useful evidence
+        WHO returned NO_MATCH
+
+    BOTH_AVAILABLE:
+        both contain accepted/useful evidence
+
+    NONE_AVAILABLE:
+        neither source provides usable evidence
+
+The status is informational and MUST NOT bypass safety.
+
+==================================================
+DIAGNOSTIC AGENT INPUT
+==================================================
+
+Update only the composition/input layer needed to expose both evidence sources.
+
+The Diagnostic Agent should receive clearly labeled sections.
+
+Example structure:
+
+    MEDICAL KNOWLEDGE — WHO
+    --------------------------------
+    Source: WHO Fact Sheet
+    Topic: Asthma
+    URL: ...
+    Section: Key facts
+
+    ...
+
+    MEDICAL EVIDENCE — AMG
+    --------------------------------
+    Source ID: ...
+    Title: ...
+    Section: ...
+    Passage: ...
+
+The actual prompt format should follow the project's current Diagnostic Agent interface rather than blindly copying this example.
+
+Important:
+
+The model must be explicitly instructed:
+
+- WHO and AMG are external medical knowledge/evidence.
+- They are not patient facts.
+- Patient facts come only from the patient/case context.
+- Do not assume that a retrieved source proves the patient has a disease.
+- Do not invent evidence.
+- Cite only evidence actually present.
+- State uncertainty when evidence is insufficient.
+- Conflicting sources must be reported, not silently reconciled.
+- Diagnosis remains a clinical hypothesis/reasoning output subject to existing grounding, critic, safety, and human review.
+
+Do not make the prompt excessively large.
+
+==================================================
+GROUNDING
+==================================================
+
+DO NOT redesign grounding.
+
+Inspect the current grounding implementation first.
+
+Make the minimum changes necessary so that citations can refer to:
+
+    WHO sources
+    AMG sources
+
+without breaking existing AMG provenance.
+
+If the existing grounding contract cannot yet semantically verify medical entailment, DO NOT pretend that it can.
+
+Preserve existing terminology such as:
+
+    reference_present_not_verified
+    unsupported_by_medical_evidence
+    medical_entailment=not_established
+
+where applicable.
+
+A source being present does NOT automatically mean the diagnosis is medically supported.
+
+==================================================
+CLINICAL CRITIC
+==================================================
+
+DO NOT redesign the Clinical Critic.
+
+The critic must continue independently checking the Diagnostic Agent output.
+
+If the Diagnostic Agent cites WHO evidence, the critic should be able to identify that evidence as WHO evidence.
+
+If it cites AMG evidence, identify it as AMG evidence.
+
+Do not make citations automatically count as "supported."
+
+==================================================
+SAFETY
+==================================================
+
+DO NOT weaken or bypass Safety.
+
+Existing rules remain authoritative.
+
+In particular:
+
+    BLOCK remains BLOCK.
+    HUMAN_REVIEW remains HUMAN_REVIEW.
+    Failed validation remains failed.
+    Missing evidence remains missing evidence.
+    Uncertain clinical reasoning remains uncertain.
+
+Do not create an automatic ALLOW path.
+
+Do not add:
+
+    "WHO says X, therefore ALLOW."
+
+There must be no such shortcut.
+
+==================================================
+EXPERIMENT MODES
+==================================================
+
+Implement three selectable evidence modes if the current architecture permits it cleanly:
+
+    amg_only
+    who_only
+    who_plus_amg
+
+Default production behavior MUST remain unchanged.
+
+The new:
+
+    who_plus_amg
+
+mode must be opt-in.
+
+If adding a mode parameter would require broad production changes, instead create a small experimental entry point that invokes the existing components without modifying the default workflow.
+
+Do not refactor the entire application merely to add the mode.
+
+==================================================
+CLI / DEMO
+==================================================
+
+Add a small experimental command or script if appropriate.
+
+For example:
+
+    python -m rag.who_amg_experiment --mode who_plus_amg ...
+
+Use the project's existing CLI conventions if available.
+
+The command should print:
+
+    Evidence Mode: WHO + AMG
+
+    WHO evidence:
+      - title
+      - document type
+      - source
+      - matched topic
+
+    AMG evidence:
+      - source ID
+      - title
+      - provenance
+
+    Combined evidence status:
+      BOTH_AVAILABLE / WHO_ONLY / AMG_ONLY / NONE_AVAILABLE
+
+Do NOT print the entire WHO corpus.
+
+Keep output bounded.
+
+==================================================
+TESTING
+==================================================
+
+Create focused tests for the new composition layer.
+
+Suggested:
+
+    tests/test_who_amg_evidence.py
+
+At minimum test:
+
+1. WHO + AMG both return evidence.
+
+2. WHO returns evidence while AMG is empty.
+
+3. AMG returns evidence while WHO returns NO_MATCH.
+
+4. Both sources return no evidence.
+
+5. WHO provenance is preserved.
+
+6. AMG provenance is preserved.
+
+7. WHO and AMG remain separately identifiable.
+
+8. No hidden diagnosis/benchmark label is inserted into the query.
+
+9. Empty WHO result does not cause an exception.
+
+10. Empty AMG result does not cause an exception.
+
+11. Large WHO corpus is not loaded wholesale.
+
+12. Existing AMG behavior remains unchanged.
+
+13. Existing WHO lookup tests still pass.
+
+14. Existing grounding/critic/safety tests still pass.
+
+Use mocks/stubs for external/cloud calls where possible.
+
+Do not make the unit tests dependent on live network access.
+
+==================================================
+LABEL-FREE VALIDATION
+==================================================
+
+After implementation, run a SMALL validation set.
+
+Do not use diagnosis labels as runtime inputs.
+
+Do not modify benchmark labels.
+
+For each case record:
+
+    case ID
+    WHO match status
+    WHO topics/documents
+    AMG accepted evidence count
+    combined evidence status
+    Diagnostic Agent citation counts
+        WHO
+        AMG
+    grounding result
+    critic result
+    safety result
+    final decision
+
+Do NOT judge success merely by:
+
+    "WHO returned something."
+
+The important question is whether the evidence is actually useful for the patient's reasoning.
+
+Do not declare the system successful simply because citations increased.
+
+==================================================
+COMPARISON
+==================================================
+
+If feasible, compare:
+
+    A: AMG only
+    B: WHO only
+    C: WHO + AMG
+
+Use the same label-free patient cases.
+
+Do not change retrieval settings between runs.
+
+Do not change prompts between A/B/C except for the evidence source being supplied.
+
+Do not use hidden expected diagnoses to evaluate retrieval.
+
+The purpose is to determine whether WHO adds useful evidence to AMG, whether AMG adds useful evidence to WHO, and whether the combination improves evidence coverage without weakening safety.
+
+==================================================
+MEMORY SAFETY
+==================================================
+
+This project runs on a 16 GB RAM machine.
+
+Be conservative.
+
+DO NOT:
+
+- load all 569 WHO documents into memory
+- duplicate WHO documents
+- load multiple LLMs unnecessarily
+- run cases in parallel
+- create large in-memory combined corpora
+- copy full WHO collections into prompts
+- create another vector index
+- load a second embedding model
+- preload every WHO file
+
+Load only the selected WHO documents.
+
+Keep intermediate objects bounded.
+
+==================================================
+GIT / CHANGE SAFETY
+==================================================
+
+Before editing:
+
+    inspect git status
+    inspect relevant existing files
+    identify current test commands
+
+Do not overwrite unrelated work.
+
+After implementation:
+
+    show changed files
+    show git diff/stat
+    run focused tests
+    run the relevant existing regression suite
+
+Do not commit unless explicitly requested.
+
+==================================================
+IMPORTANT STOP CONDITIONS
+==================================================
+
+STOP and report instead of guessing if:
+
+1. WHO Lookup API does not match assumptions.
+
+2. AMG service API does not match assumptions.
+
+3. Diagnostic Agent expects a different evidence contract.
+
+4. Grounding cannot accept WHO provenance without a broader redesign.
+
+5. Combining both sources would require modifying safety semantics.
+
+6. The change would require altering AMG retrieval behavior.
+
+7. The change would require altering WHO crawler/data.
+
+8. Tests reveal existing production behavior would change unexpectedly.
+
+9. Memory usage becomes unsafe.
+
+Do not "fix" these by silently changing architecture.
+
+==================================================
+FINAL REPORT
+==================================================
+
+At the end report:
+
+1. Files created/modified.
+
+2. Exact architecture implemented.
+
+3. How WHO and AMG evidence are kept separate.
+
+4. Whether default AMG behavior remains unchanged.
+
+5. Test results.
+
+6. Validation results.
+
+7. Any failures.
+
+8. Any production files changed.
+
+9. Whether the WHO + AMG mode is opt-in.
+
+10. Recommended next step based ONLY on observed results.
+
+Do not claim that WHO + AMG improves diagnosis unless the validation evidence actually demonstrates it.
+
+MOST IMPORTANT:
+This task is about adding a second independent medical knowledge source and testing the combination.
+
+It is NOT a request to redesign the RAG system.
+
+It is NOT a request to improve retrieval.
+
+It is NOT a request to change diagnosis logic.
+
+It is NOT a request to change safety.
+
+It is NOT a request to create benchmark labels.
+
+Keep the experiment isolated, reversible, provenance-preserving, label-free, and memory-safe.

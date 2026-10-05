@@ -1,0 +1,141 @@
+WHO QUESTIONS AND ANSWERS
+Title: Global excess deaths associated with the COVID-19 pandemic
+URL: https://www.who.int/news-room/questions-and-answers/item/global-excess-deaths-associated-with-the-COVID-19-pandemic
+Retrieved: 2026-10-05T09:46:05.090797+00:00
+
+========================================
+
+What is excess mortality?
+=========================
+
+Excess mortality associated with the COVID-19 pandemic is used to quantify the direct and indirect impacts of the pandemic. Excess mortality is defined as the difference between the total number of deaths estimated for a specific place and given time period and the number that would have been expected in the absence of a crisis (e.g., COVID-19 pandemic). This difference is assumed to include deaths attributable directly to COVID-19 as well as deaths indirectly associated with the COVID-19 pandemic through impacts on health systems and society, minus any deaths that would have occurred under normal circumstances but were averted due to pandemic-related changes in social conditions and personal behaviours.
+
+Estimates of the excess mortality associated with the COVID-19 pandemic encompass deaths from all causes. In certain locations, these estimates may also capture excess deaths related to other crises such as extreme weather, disasters or conflicts. These non-COVID-19 pandemic related deaths are removed from the final estimates to isolate excess mortality solely attributable to the COVID-19 pandemic.
+
+Why is excess mortality the preferred measure?
+==============================================
+
+While aggregate COVID-19 case and death numbers are being reported to WHO, they do not always provide a complete picture of the health burden attributable to COVID-19. In general, reported death numbers under-estimate the number of lives lost due to the pandemic, there are several reasons for this. They miss those who died without testing, they are contingent on the country correctly defining COVID as the cause-of-death and they miss the increases in other deaths that are related to the pandemic leading to overwhelmed health systems or patients avoiding care. A few countries have experienced lower than expected total deaths during the pandemic due to reduced contact and reduced mobility, which have led to reduced infectious disease related mortality as well as reduced transport and injury related fatalities. Reported COVID-19 death numbers do not account for this.
+
+In light of the challenges posed by using reported data on COVID-19 cases and deaths, excess mortality from all causes is considered a more objective and comparable measure that accounts for both the direct and indirect impacts of the pandemic.
+
+Why do the estimates show negative excess deaths for some countries?
+====================================================================
+
+Negative excess deaths could be observed if deaths that would have happened in the absence of the pandemic were averted due to measures taken to deal with the pandemic. Some public health measures (e.g., lockdown, social distancing, mask wearing, working from home) have led to decrease in the number of deaths from causes other than COVID-19. For instance, during lockdowns, fewer deaths due to road traffic injuries and seasonal flu were observed due to the restricted movement of people.
+
+Why are the WHO estimates different from estimates produced by others?
+======================================================================
+
+It is important to note that other groups and countries have produced excess death estimates. The difference in the estimates produced by WHO and those produced by other groups are due to key differences in the input data used and assumptions made including how the expected deaths are calculated, the statistical model used, and the variables used to predict deaths in locations where limited or no data is available. There might also be variations of the period/month/week assessed. To minimize these differences, uncertainty intervals are provided.
+
+What are the challenges in calculating excess mortality?
+========================================================
+
+Mortality data to calculate actual deaths in real-time are available in only a subset of countries where reporting systems are functioning effectively, and historical datasets to calculate expected deaths are also often incomplete. Many countries do not have the mortality surveillance capacity to generate and collect data in a timely manner and these data gaps mean that excess mortality cannot be derived for all countries using standard methods.
+
+Where can I review the methodology used to calculate the estimates for each country?
+====================================================================================
+
+The methodology paper can be found here. In light of the evolving situation surrounding the COVID-19 pandemic, the estimates will be updated periodically as more data becomes available.
+
+Is a one-size-fits-all model used to produce excess mortality estimates?
+========================================================================
+
+WHO produces estimates using statistical modelling for all global health estimates, often with the advice of technical experts, to ensure robust statistical standards are followed and facilitate global comparability. This is the standard approach followed also by other UN agencies for global estimates. The model adopted for estimating excess deaths is not a one-size-fits-all approach. WHO, in collaboration with the TAG, scrutinizes the relationships between excess mortality and certain contextually relevant variables in locations with good quality data to estimate excess mortality in countries with limited data.
+
+This approach takes the specificity of countries (e.g., income level, reported COVID-19 death rates, test positivity rate, containment index) into consideration while ensuring global comparability. Countries may have their own approach to estimating excess deaths that may produce results that are different from those produced by WHO.
+
+What are the limitations of these estimates and methods?
+========================================================
+
+Every model approximates reality. Models are subject to trade-offs, not least the balance between comprehensiveness and comprehensibility. WHO’s estimates of the excess mortality associated with the COVID-19 pandemic are also approximations in a rapidly evolving pandemic with regard to transmissibility and severity. It is worth noting that WHO relies on models to compile a wide range of global health statistics. This is necessary as not all countries have high quality information systems, or those that do cannot always share their data in a timely manner. Therefore, WHO works with countries to strengthen their data and health information systems, while at the same time makes the best use of the data currently available to generate high quality evidence.
+
+Specifically with regard to the excess mortality estimates, the model uses relationships that have been quantified using data from the countries with high quality systems for data reporting. We extrapolate these relationships to settings that are in many ways systematically different across multiple dimensions such as health systems capacity, underlying disease burden and age-structure. Countries have differed on when they experienced waves and how they responded, and quantifying this temporal relationship between COVID-19 surges or the effects of the emergence of variants is not trivial. In some settings the country responses were reactive but in many others they were proactive. As such, despite the effort to calibrate the model such that it is accurate in different settings, one of the more important limitations to note is that the input data have limited representation and this model generalizes the covariate relationships quantified to settings that may be systematically different from those observed. The final model is intentionally parsimonious. This reduction in complexity means it is not possible for such a reduced set of variables to explain all the variation that is observed across countries. While the variables chosen are contextually relevant and are found to explain a significant component of the variation in excess, the underlying population characteristics that drove these differences are too complex to capture perfectly in a single global model and, hence, the trade-offs referred to above have had to be made. The estimates, therefore, are the best possible at this time for the period of analysis and have some degree of uncertainty around them.
+
+What process did the WHO follow to calculate the estimates?
+===========================================================
+
+In February 2021, in collaboration with the United Nations Department of Economic and Social Affairs (UN DESA), WHO convened a Technical Advisory Group (TAG) on COVID-19 Mortality Assessment to advise on the development of analytical methods for estimating excess mortality in all countries. The COVID TAG is comprised of leading demographers, epidemiologists, data and social scientists and statisticians from a range of backgrounds and geographies.
+
+Under Working Group I of the TAG (Working Group I: Global excess mortality estimates including COVID-19), members considered several statistical models and after assessing performance, interpretability as well as extensibility, the TAG proposed a Poisson regression model (parameterized to account for over-dispersion) to predict the total number of deaths from all causes during the pandemic period, conditional on the monthly expected deaths over the period and a predicted relative rate parameter which is modelled using country-specific variables.
+
+The model has been used by WHO to generate estimates for countries and regions for which adequate input data were available for reliable inference and to predict estimates for countries with no data available. In addition to determining levels of excess mortality associated with the COVID-19 pandemic, the expertise of the TAG is also being leveraged to develop methods for disaggregating the estimated number of excess deaths by age and sex.
+
+WHO’s estimates are produced following the Guidelines for Accurate and Transparent Health Estimates Reporting (GATHER).
+
+Who are the members of the Technical Advisory Group (TAG) on COVID-19 Mortality Assessment?
+===========================================================================================
+
+The TAG is currently chaired by Professor Jon Wakefield (Professor in Biostatistics, University of Washington). Member profiles and a list of observers can be found here.
+
+What is a country consultation process and what are countries consulted on?
+===========================================================================
+
+It is a regular process that WHO consults with its Member States when producing new estimates. Circular Letter (C.L. 29.2021) is shared through WHO’s official list of addresses with all Member States requesting the designation of a national focal point to interact with the technical team in this process.
+
+Designated focal points for each Member State are requested to review estimates of excess mortality associated with the COVID-19 pandemic, the data sources and methods used, and to share primary data sources that may not have been previously available to WHO. Any additional feedback is also taken into consideration during the country consultation.
+
+The draft estimates of excess mortality associated with the COVID-19 pandemic prepared for each country and the methodology applied to produce these estimates are then made available for download and accessible through WHO’s Country Portal. The WHO estimates of excess mortality associated with the COVID-19 pandemic aim to offer a comprehensive and comparable set of country estimates disaggregated by sex and age for the period of analysis during the pandemic period.
+
+Designated national focal points review and upload supporting data and provide feedback on estimates via the WHO Country Portal. National focal points interact with the WHO Global Health Estimates team. Regional webinars and a Mission Briefing (for Permanent Missions in Geneva) are usually organized to present the estimates and methodology and provide opportunity to respond to any questions.
+
+Where can I find the estimates for my country?
+==============================================
+
+The latest global, regional, and country estimates for the years 2020 and 2021 were published in May 2023 and are available for download here. The methodology to produce these estimates is available here.
+
+What are the next steps?
+========================
+
+The revised estimates for the years 2020 and 2021 were published in May 2023. These estimates will be revised following additional country consultations conducted in 2024.
+
+What is WHO's guidance on certifying COVID-19 deaths?
+=====================================================
+
+A death due to COVID-19 is defined for surveillance purposes as a death resulting from a clinically compatible illness, in a probable or confirmed COVID-19 case, unless there is a clear alternative cause of death that cannot be related to COVID disease (e.g. trauma). There should be no period of complete recovery from COVID-19 between illness and death. A death due to COVID-19 may not be attributed to another disease (e.g. cancer) and should be counted independently of preexisting conditions that are suspected of triggering a severe course of COVID-19.
+
+How is WHO supporting countries to strengthen national health information systems?
+==================================================================================
+
+At the heart of WHO’s Transformation Agenda is a commitment to support countries to strengthen their data and health information systems and make progress towards achieving the Triple Billion targets and health-related SDGs.
+
+The SCORE for Health Data Technical Package (Survey, Count, Optimize, Review, Enable) identifies data gaps and provides countries with tools to close them. Based on findings from the first assessment of country health data and information systems, WHO is using an integrated approach to improve public health and disease surveillance, track civil registration and vital statistics (CRVS) data, and optimize routine health information systems, including regular and reliable data from health facilities.
+
+The following tools are available to countries:
+
+- The World Health Survey Plus (WHS+) is a multi-topic, multi-mode, multi-platform survey tool to gather health data quickly in standardized and cost effective ways to assess and improve health.
+
+- The CRVS strategic implementation plan is focused on supporting countries so that over the next five years there will be substantial progress with accurate and timely tracking of births, deaths, and causes of death.
+
+- WHO’s Routine Health Information Systems (RHIS) strategy aims to strengthen RHIS in countries through strengthened partnerships, improved data collection, and improved integration and interoperability of RHIS, along with building capacity and ensuring sustainability.
+
+- The WHO Toolkit for Routine Health Information Systems Data strengthens facility data analysis through standardized indicators, visualizations, and guidance, while promoting integrated routing data platforms.
+
+- The WHO Harmonized Health Facility Assessment (HHFA) is a comprehensive facility survey providing data on the availability of health services and the resources and systems needed to improve quality.
+
+These data solutions enable public health decision makers to improve essential health services and better respond to emergencies.
+
+Why is WHO producing these estimates and what is the utility?
+=============================================================
+
+WHO’s core normative function is to compile and disseminate statistics on mortality – numbers and causes. The world expects WHO to provide objective evidence on the impact of the COVID-19 pandemic.
+
+Estimating excess mortality associated with the COVID-19 pandemic supplements the traditional direct measure – mortality directly attributable to COVID-19 – with a broader measure showing the direct plus the indirect effects of the pandemic.
+
+It was important to start this work in the midst of the pandemic, rather than wait, in order to underpin the need for an equitable response during the pandemic by showing the real underlying impact of COVID-19 in different countries – especially lower and middle income countries that may not have developed health information systems to guide a targeted response.
+
+Deaths directly attributable to COVID-19 provide only a narrow perspective of the wide ranging harms being caused by the pandemic. The collateral damage from the COVID-19 pandemic is much wider. It was important to quantify this in the midst of the pandemic as it could inform choices that governments made regarding prioritization between routine and emergency health systems.
+
+The utility of the excess mortality estimates goes beyond estimation of the impact of the COVID-19 pandemic. It underlines the significance of investing in health and better targeting of interventions and resources to those most in need to prevent future deaths. These estimates will serve to underscore to governments around the world the need to sharpen their data tools and specifically improve civil registration and vital statistics (CRVS), mortality surveillance, and data and health information systems.
+
+Estimates of excess mortality associated with the COVID-19 pandemic are also critical inputs for other important work currently underway, for example pandemic preparedness and estimating the global population. The UN is mandated to estimate the global population and prepare population projections. COVID-19 is a significant disruption to normal population growth trends and must be factored into any future estimates. Global excess mortality associated with the COVID-19 pandemic provides a key input to this work, showing the effects of the pandemic on the global population now, but also the longer tail effects on future population projections. The importance of this should not be underestimated as population is one of the most important denominators for economic and social statistics.
+
+How is this work related to other global health and population estimates?
+=========================================================================
+
+The COVID-19 pandemic will have long lasting impacts on the structure of populations brought by changes in deaths and births. Substantial increases in mortality in many countries have affected premature mortality and life expectancy. WHO’s excess mortality estimates are critical inputs to WHO global health estimates and other UN partners’ work, including UN World Population Prospects.
+
+The excess mortality estimates associated with the COVID-19 pandemic provide a valuable set of comparable country estimates to better understand the impact of the pandemic. It is thus of vital importance that these estimates are made available in a timely manner and updated periodically to identify inequalities and gaps in health information systems and civil registration and vital statistics (CRVS), which in turn will help in determining likely future vulnerabilities and target interventions.
+
+For any questions, please contact: healthstat@who.int

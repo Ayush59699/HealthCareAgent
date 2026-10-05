@@ -1,0 +1,40 @@
+WHO QUESTIONS AND ANSWERS
+Title: Frequently Asked Questions about EIOS
+URL: https://www.who.int/news-room/questions-and-answers/item/frequently-asked-questions-about-eios
+Retrieved: 2026-10-05T09:45:59.751643+00:00
+
+========================================
+
+What is the EIOS Initiative?
+============================
+
+The Epidemic Intelligence from Open Sources (EIOS) initiative is a unique collaboration between various stakeholders that brings together new and existing initiatives, networks and systems to create a unified all-hazards One Health approach to early detection, verification and assessment of public health risks and threats using open source information. Creating a community of practice for public health intelligence (PHI) including Member States, international organisations and other collaborators that is supported by robust, harmonised and standardised PHI systems and frameworks across organisations and jurisdictions, is at the heart of the initiative; saving lives through early detection of threats and subsequent intervention its ultimate goal.
+
+Objectives of the EIOS initiative:
+
+- Build a modular, evolving, state of the art, Web-based system
+
+- Capitalise on open source information and cross sectoral development
+
+- Facilitate and streamline information sharing
+
+- Collaborate across a global multidisciplinary network of experts
+
+- Reinforce surveillance of health risks and threats to strengthen global health security
+
+- Strengthen public health activities at national, regional and global levels
+
+Who is the owner of the EIOS initiative? How is it governed?
+============================================================
+
+The EIOS initiative is led by WHO under the Health Emergencies Programme (WHE) with a governance structure involving multiple stakeholders forming the Coordination Group (CG). The CG is made up of representatives from twelve stakeholder members (UN organisations, Ministries of Health, public health agencies) that serve two years terms. The CG meets quarterly, including one annual face-to-face meeting to discuss and set priorities for the initiative and system.
+
+How can organizations get involved in EIOS governance?
+======================================================
+
+Coordination Group members are chosen by the EIOS Core Team (ECT) in consultation with the current CG and considering the identified needs of the EIOS initiative and whether nominees have been active within the initiative for at least 6 months prior to application. New organisations will be eligible to become part of the EIOS Coordination Group starting in January 2021. The application process involves an initial nomination sent to the ECT within an identified time frame for review and consideration (eligible stakeholders may self-nominate). Nominations must be accompanied by a summary of the organisation’s interest and intended participation in the EIOS initiative and the name, position, and contact information for the proposed focal point.
+
+What is the EIOS system?
+========================
+
+A main project of the initiative has been the development of the EIOS system in collaboration with the Joint Research Centre (JRC) of the European Commission to develop a system for public health intelligence and responds to the need for a global initiative to bring together PHI efforts. The system consolidates existing systems including the Early Alerting and Reporting system (Global Health Security Initiative), the Hazard Detection and Risk Assessment System (WHO) and MEDISYS / Europe Media Monitor all of which were developed by JRC. Each day the system collates hundreds of thousands of articles from a broad range of sources such as government and official sites, specific social media sources, news aggregators, expert groups and other systems like GPHIN, HealthMap, ProMED and MEDISYS / Europe Media Monitor. It runs these sources through a series of text mining and analytical modules to sort and categorise articles by category, country, language, and source (among others). The system allows users to interact with the output of this process through a user-friendly interface where they can browse, search, filter, read, flag, comment, communicate, export, and more. Within the system, each collaborating organisation has its own space and can securely share information within and across organisations.

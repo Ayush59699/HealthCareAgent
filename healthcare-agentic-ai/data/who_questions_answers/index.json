@@ -1,0 +1,1952 @@
+[
+  {
+    "topic": "abortion-safety",
+    "title": "Abortion: Safety",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/abortion-safety",
+    "file": "abortion-safety.txt"
+  },
+  {
+    "topic": "accessing-implementing-gcf-readiness-funds",
+    "title": "Accessing and implementing GCF readiness funds",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/accessing-implementing-gcf-readiness-funds",
+    "file": "accessing-implementing-gcf-readiness-funds.txt"
+  },
+  {
+    "topic": "addictive-behaviours-gaming-disorder",
+    "title": "Addictive behaviours: Gaming disorder",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/addictive-behaviours-gaming-disorder",
+    "file": "addictive-behaviours-gaming-disorder.txt"
+  },
+  {
+    "topic": "adolescent-health-and-development",
+    "title": "Adolescent health and development",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/adolescent-health-and-development",
+    "file": "adolescent-health-and-development.txt"
+  },
+  {
+    "topic": "adolescent-sexual-and-reproductive-health",
+    "title": "Adolescent sexual and reproductive health",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/adolescent-sexual-and-reproductive-health",
+    "file": "adolescent-sexual-and-reproductive-health.txt"
+  },
+  {
+    "topic": "ageing-ageism",
+    "title": "Ageing: Ageism",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/ageing-ageism",
+    "file": "ageing-ageism.txt"
+  },
+  {
+    "topic": "air-pollution-personal-interventions-and-risk-communication",
+    "title": "Air pollution: Personal interventions and risk communication",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/air-pollution-personal-interventions-and-risk-communication",
+    "file": "air-pollution-personal-interventions-and-risk-communication.txt"
+  },
+  {
+    "topic": "air-pollution-reducing-short-lived-climate-pollutants",
+    "title": "Air pollution: Reducing short-lived climate pollutants",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/air-pollution-reducing-short-lived-climate-pollutants",
+    "file": "air-pollution-reducing-short-lived-climate-pollutants.txt"
+  },
+  {
+    "topic": "alcohol-based-handrub-risks-hazards",
+    "title": "Infection prevention and control: Alcohol-based handrub risks and hazards",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/alcohol-based-handrub-risks-hazards",
+    "file": "alcohol-based-handrub-risks-hazards.txt"
+  },
+  {
+    "topic": "antimicrobial-resistance-in-the-food-chain",
+    "title": "Antimicrobial resistance: The food chain",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/antimicrobial-resistance-in-the-food-chain",
+    "file": "antimicrobial-resistance-in-the-food-chain.txt"
+  },
+  {
+    "topic": "artemisinin-resistance",
+    "title": "Malaria: Artemisinin partial resistance",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance",
+    "file": "artemisinin-resistance.txt"
+  },
+  {
+    "topic": "attacks-on-health-care-initiative",
+    "title": "Attacks on health care initiative",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/attacks-on-health-care-initiative",
+    "file": "attacks-on-health-care-initiative.txt"
+  },
+  {
+    "topic": "attacks-on-healthcare-initiative-advocating-for-change",
+    "title": "Attacks on health care initiative: Advocating for change",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/attacks-on-healthcare-initiative-advocating-for-change",
+    "file": "attacks-on-healthcare-initiative-advocating-for-change.txt"
+  },
+  {
+    "topic": "attacks-on-healthcare-initiative-documenting-the-problem",
+    "title": "Attacks on health care initiative: Documenting the problem",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/attacks-on-healthcare-initiative-documenting-the-problem",
+    "file": "attacks-on-healthcare-initiative-documenting-the-problem.txt"
+  },
+  {
+    "topic": "autism-spectrum-disorders-(asd)",
+    "title": "Autism",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/autism-spectrum-disorders-(asd)",
+    "file": "autism-spectrum-disorders-(asd).txt"
+  },
+  {
+    "topic": "blindness-and-vision-impairment-refractive-errors",
+    "title": "Eye care, vision impairment and blindness: Refractive errors",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/blindness-and-vision-impairment-refractive-errors",
+    "file": "blindness-and-vision-impairment-refractive-errors.txt"
+  },
+  {
+    "topic": "blood-products-why-should-i-donate-blood",
+    "title": "Blood products: Blood donation",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/blood-products-why-should-i-donate-blood",
+    "file": "blood-products-why-should-i-donate-blood.txt"
+  },
+  {
+    "topic": "breastfeeding",
+    "title": "Breastfeeding",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/breastfeeding",
+    "file": "breastfeeding.txt"
+  },
+  {
+    "topic": "cancer-carcinogenicity-of-the-consumption-of-red-meat-and-processed-meat",
+    "title": "Carcinogenicity of red and processed meat",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/cancer-carcinogenicity-of-the-consumption-of-red-meat-and-processed-meat",
+    "file": "cancer-carcinogenicity-of-the-consumption-of-red-meat-and-processed-meat.txt"
+  },
+  {
+    "topic": "cannabidiol-(compound-of-cannabis)",
+    "title": "Drugs (psychoactive): Cannabidiol (compound of cannabis)",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/cannabidiol-(compound-of-cannabis)",
+    "file": "cannabidiol-(compound-of-cannabis).txt"
+  },
+  {
+    "topic": "cfs-voluntary-guidelines-on-food-systems-and-nutrition",
+    "title": "Nutrition: CFS Voluntary Guidelines on Food Systems and Nutrition",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/cfs-voluntary-guidelines-on-food-systems-and-nutrition",
+    "file": "cfs-voluntary-guidelines-on-food-systems-and-nutrition.txt"
+  },
+  {
+    "topic": "chagas-disease",
+    "title": "Chagas disease (American trypanosomiasis)",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/chagas-disease",
+    "file": "chagas-disease.txt"
+  },
+  {
+    "topic": "chemical-safety-lead-poisoning",
+    "title": "Chemical safety: Lead poisoning",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/chemical-safety-lead-poisoning",
+    "file": "chemical-safety-lead-poisoning.txt"
+  },
+  {
+    "topic": "chemical-safety-pesticides",
+    "title": "Chemical safety: Pesticides",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/chemical-safety-pesticides",
+    "file": "chemical-safety-pesticides.txt"
+  },
+  {
+    "topic": "chickenpox",
+    "title": "Chickenpox",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/chickenpox",
+    "file": "chickenpox.txt"
+  },
+  {
+    "topic": "chikungunya",
+    "title": "Chikungunya",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/chikungunya",
+    "file": "chikungunya.txt"
+  },
+  {
+    "topic": "child-growth-standards",
+    "title": "Child growth standards",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/child-growth-standards",
+    "file": "child-growth-standards.txt"
+  },
+  {
+    "topic": "child-health-and-development",
+    "title": "Child health and development",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/child-health-and-development",
+    "file": "child-health-and-development.txt"
+  },
+  {
+    "topic": "child-health-recommended-food-for-the-very-early-years",
+    "title": "Child health: Recommended food for the very early years",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/child-health-recommended-food-for-the-very-early-years",
+    "file": "child-health-recommended-food-for-the-very-early-years.txt"
+  },
+  {
+    "topic": "children-and-digital-dumpsites-e-waste-and-health",
+    "title": "Electronic waste: Digital dumpsites and children’s health",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/children-and-digital-dumpsites-e-waste-and-health",
+    "file": "children-and-digital-dumpsites-e-waste-and-health.txt"
+  },
+  {
+    "topic": "childrens-environmental-health-preventing-and-managing-childhood-diseases",
+    "title": "Children's environmental health: Preventing and managing childhood diseases",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/childrens-environmental-health-preventing-and-managing-childhood-diseases",
+    "file": "childrens-environmental-health-preventing-and-managing-childhood-diseases.txt"
+  },
+  {
+    "topic": "cholera-outbreaks",
+    "title": "Cholera outbreaks",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/cholera-outbreaks",
+    "file": "cholera-outbreaks.txt"
+  },
+  {
+    "topic": "climate-change-land-degradation-and-desertification",
+    "title": "Climate change: Land degradation and desertification",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/climate-change-land-degradation-and-desertification",
+    "file": "climate-change-land-degradation-and-desertification.txt"
+  },
+  {
+    "topic": "clinical-trials",
+    "title": "Clinical trials",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/clinical-trials",
+    "file": "clinical-trials.txt"
+  },
+  {
+    "topic": "coalition-s",
+    "title": "Research: WHO and cOAlition S",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coalition-s",
+    "file": "coalition-s.txt"
+  },
+  {
+    "topic": "comprehensive-sexuality-education",
+    "title": "Comprehensive sexuality education",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/comprehensive-sexuality-education",
+    "file": "comprehensive-sexuality-education.txt"
+  },
+  {
+    "topic": "condoms",
+    "title": "Condoms",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/condoms",
+    "file": "condoms.txt"
+  },
+  {
+    "topic": "contact-tracing",
+    "title": "Infection prevention and control: Contact tracing",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/contact-tracing",
+    "file": "contact-tracing.txt"
+  },
+  {
+    "topic": "contaminated-medicines-affecting-children",
+    "title": "Contaminated medicines affecting children",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/contaminated-medicines-affecting-children",
+    "file": "contaminated-medicines-affecting-children.txt"
+  },
+  {
+    "topic": "coronavirus-disease-(covid-19)-casirivimab-and-imdevimab---monoclonal-antibody-therapy",
+    "title": "Coronavirus disease (COVID-19): Casirivimab and Imdevimab - monoclonal antibody therapy",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-casirivimab-and-imdevimab---monoclonal-antibody-therapy",
+    "file": "coronavirus-disease-(covid-19)-casirivimab-and-imdevimab---monoclonal-antibody-therapy.txt"
+  },
+  {
+    "topic": "coronavirus-disease-(covid-19)-contact-tracing-for-responders",
+    "title": "Coronavirus disease (COVID-19): Contact tracing for responders",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-contact-tracing-for-responders",
+    "file": "coronavirus-disease-(covid-19)-contact-tracing-for-responders.txt"
+  },
+  {
+    "topic": "coronavirus-disease-(covid-19)-covid-19-and-people-living-with-hiv",
+    "title": "Coronavirus disease (COVID-19) and people living with HIV",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-covid-19-and-people-living-with-hiv",
+    "file": "coronavirus-disease-(covid-19)-covid-19-and-people-living-with-hiv.txt"
+  },
+  {
+    "topic": "coronavirus-disease-(covid-19)-hydroxychloroquine",
+    "title": "Coronavirus disease (COVID-19): Hydroxychloroquine",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-hydroxychloroquine",
+    "file": "coronavirus-disease-(covid-19)-hydroxychloroquine.txt"
+  },
+  {
+    "topic": "coronavirus-disease-(covid-19)-post-covid-19-condition",
+    "title": "Coronavirus disease (COVID-19): Post COVID-19 condition",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-post-covid-19-condition",
+    "file": "coronavirus-disease-(covid-19)-post-covid-19-condition.txt"
+  },
+  {
+    "topic": "coronavirus-disease-(covid-19)-tocilizumab-and-sarilumab---interleukin-6-receptor-blockers",
+    "title": "Coronavirus disease (COVID-19): Tocilizumab and sarilumab - Interleukin-6 receptor blockers",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-tocilizumab-and-sarilumab---interleukin-6-receptor-blockers",
+    "file": "coronavirus-disease-(covid-19)-tocilizumab-and-sarilumab---interleukin-6-receptor-blockers.txt"
+  },
+  {
+    "topic": "coronavirus-disease-(covid-19)-vaccines",
+    "title": "COVID-19 vaccines",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-vaccines",
+    "file": "coronavirus-disease-(covid-19)-vaccines.txt"
+  },
+  {
+    "topic": "coronavirus-disease-(covid-19)-variants-of-sars-cov-2",
+    "title": "Coronavirus disease (COVID-19): Variants of SARS-COV-2",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-variants-of-sars-cov-2",
+    "file": "coronavirus-disease-(covid-19)-variants-of-sars-cov-2.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19",
+    "title": "Coronavirus disease (COVID-19)",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19",
+    "file": "coronavirus-disease-covid-19.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-adolescents-and-youth",
+    "title": "Coronavirus disease (COVID-19): Adolescents and youth",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-adolescents-and-youth",
+    "file": "coronavirus-disease-covid-19-adolescents-and-youth.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-breastfeeding",
+    "title": "Coronavirus disease (COVID-19): Breastfeeding",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-breastfeeding",
+    "file": "coronavirus-disease-covid-19-breastfeeding.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-cleaning-and-disinfecting-surfaces-in-non-health-care-settings",
+    "title": "Coronavirus disease (COVID-19): Cleaning and disinfecting surfaces in non-health care settings",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-cleaning-and-disinfecting-surfaces-in-non-health-care-settings",
+    "file": "coronavirus-disease-covid-19-cleaning-and-disinfecting-surfaces-in-non-health-care-settings.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-climate-change",
+    "title": "Coronavirus disease (COVID-19): Climate change",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-climate-change",
+    "file": "coronavirus-disease-covid-19-climate-change.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-contact-tracing",
+    "title": "Coronavirus disease (COVID-19): Contact tracing",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-contact-tracing",
+    "file": "coronavirus-disease-covid-19-contact-tracing.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-contraception-and-family-planning",
+    "title": "Coronavirus disease (COVID-19): Contraception and family planning",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-contraception-and-family-planning",
+    "file": "coronavirus-disease-covid-19-contraception-and-family-planning.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-dexamethasone",
+    "title": "Coronavirus disease (COVID-19): Corticosteroids, including dexamethasone",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-dexamethasone",
+    "file": "coronavirus-disease-covid-19-dexamethasone.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-ethics-resource-allocation-and-priority-setting",
+    "title": "Coronavirus disease (COVID-19): Ethics, resource allocation and priority setting",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-ethics-resource-allocation-and-priority-setting",
+    "file": "coronavirus-disease-covid-19-ethics-resource-allocation-and-priority-setting.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-food-businesses",
+    "title": "Coronavirus disease (COVID-19): Food businesses",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-food-businesses",
+    "file": "coronavirus-disease-covid-19-food-businesses.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-food-safety-and-nutrition",
+    "title": "Coronavirus disease (COVID-19): Food safety and nutrition",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-food-safety-and-nutrition",
+    "file": "coronavirus-disease-covid-19-food-safety-and-nutrition.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-food-safety-authorities",
+    "title": "Coronavirus disease (COVID-19): Food safety authorities",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-food-safety-authorities",
+    "file": "coronavirus-disease-covid-19-food-safety-authorities.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-food-safety-for-consumers",
+    "title": "Coronavirus disease (COVID-19): Food safety for consumers",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-food-safety-for-consumers",
+    "file": "coronavirus-disease-covid-19-food-safety-for-consumers.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-health-and-safety-in-the-workplace",
+    "title": "Coronavirus disease (COVID-19): Health and safety in the workplace",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-health-and-safety-in-the-workplace",
+    "file": "coronavirus-disease-covid-19-health-and-safety-in-the-workplace.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-home-care-for-families-and-caregivers",
+    "title": "Coronavirus disease (COVID-19): Home care for families and caregivers",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-home-care-for-families-and-caregivers",
+    "file": "coronavirus-disease-covid-19-home-care-for-families-and-caregivers.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-home-care-for-health-workers-and-administrators",
+    "title": "Coronavirus disease (COVID-19): Home care for health workers and administrators",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-home-care-for-health-workers-and-administrators",
+    "file": "coronavirus-disease-covid-19-home-care-for-health-workers-and-administrators.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-how-is-it-transmitted",
+    "title": "Coronavirus disease (COVID-19): How is it transmitted?",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-how-is-it-transmitted",
+    "file": "coronavirus-disease-covid-19-how-is-it-transmitted.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-hydroxychloroquine",
+    "title": "Coronavirus disease (COVID-19): Solidarity Trial and hydroxychloroquine",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-hydroxychloroquine",
+    "file": "coronavirus-disease-covid-19-hydroxychloroquine.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-infection-prevention-and-control-for-health-care-workers",
+    "title": "Coronavirus disease (COVID-19): Infection prevention and control for health care workers",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-infection-prevention-and-control-for-health-care-workers",
+    "file": "coronavirus-disease-covid-19-infection-prevention-and-control-for-health-care-workers.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-malaria-and-covid-19",
+    "title": "Coronavirus disease (COVID-19): Malaria and COVID-19",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-malaria-and-covid-19",
+    "file": "coronavirus-disease-covid-19-malaria-and-covid-19.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-masks",
+    "title": "Coronavirus disease (COVID-19): Masks",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-masks",
+    "file": "coronavirus-disease-covid-19-masks.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-mass-gatherings",
+    "title": "Coronavirus disease (COVID-19): Mass gatherings",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-mass-gatherings",
+    "file": "coronavirus-disease-covid-19-mass-gatherings.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-pregnancy-and-childbirth",
+    "title": "Coronavirus disease (COVID-19): Pregnancy, childbirth and the postnatal period",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-pregnancy-and-childbirth",
+    "file": "coronavirus-disease-covid-19-pregnancy-and-childbirth.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-risks-and-safety-for-older-people",
+    "title": "Coronavirus disease (COVID-19): Risks and safety for older people",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-risks-and-safety-for-older-people",
+    "file": "coronavirus-disease-covid-19-risks-and-safety-for-older-people.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-schools",
+    "title": "Coronavirus disease (COVID-19): Schools",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-schools",
+    "file": "coronavirus-disease-covid-19-schools.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-serology",
+    "title": "Coronavirus disease (COVID-19): Serology, antibodies and immunity",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-serology",
+    "file": "coronavirus-disease-covid-19-serology.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-similarities-and-differences-with-influenza",
+    "title": "Coronavirus disease (COVID-19): Similarities and differences between COVID-19 and Influenza",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-similarities-and-differences-with-influenza",
+    "file": "coronavirus-disease-covid-19-similarities-and-differences-with-influenza.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-small-public-gatherings",
+    "title": "Coronavirus disease (COVID-19): Small public gatherings",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-small-public-gatherings",
+    "file": "coronavirus-disease-covid-19-small-public-gatherings.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-staying-active",
+    "title": "Coronavirus disease (COVID-19): Staying active",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-staying-active",
+    "file": "coronavirus-disease-covid-19-staying-active.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-staying-at-hotels-and-accommodation-establishments",
+    "title": "Coronavirus disease (COVID-19): Staying at hotels and accommodation establishments",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-staying-at-hotels-and-accommodation-establishments",
+    "file": "coronavirus-disease-covid-19-staying-at-hotels-and-accommodation-establishments.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-tobacco",
+    "title": "Coronavirus disease (COVID-19): Tobacco",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-tobacco",
+    "file": "coronavirus-disease-covid-19-tobacco.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-travel-advice-for-the-general-public",
+    "title": "Coronavirus disease (COVID-19): Travel advice for the general public",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-travel-advice-for-the-general-public",
+    "file": "coronavirus-disease-covid-19-travel-advice-for-the-general-public.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-tuberculosis",
+    "title": "Coronavirus disease (COVID-19): Tuberculosis",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-tuberculosis",
+    "file": "coronavirus-disease-covid-19-tuberculosis.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-ventilation-and-air-conditioning",
+    "title": "Coronavirus disease (COVID-19): Ventilation and air conditioning",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-ventilation-and-air-conditioning",
+    "file": "coronavirus-disease-covid-19-ventilation-and-air-conditioning.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-ventilation-and-air-conditioning-in-public-spaces-and-buildings",
+    "title": "Coronavirus disease (COVID-19): Ventilation and air conditioning in public spaces and buildings",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-ventilation-and-air-conditioning-in-public-spaces-and-buildings",
+    "file": "coronavirus-disease-covid-19-ventilation-and-air-conditioning-in-public-spaces-and-buildings.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-violence-against-women",
+    "title": "Coronavirus disease (COVID-19): Violence against women",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-violence-against-women",
+    "file": "coronavirus-disease-covid-19-violence-against-women.txt"
+  },
+  {
+    "topic": "coronavirus-disease-covid-19-working-in-hotels",
+    "title": "Coronavirus disease (COVID-19): Working in hotels and other accommodation establishments",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-working-in-hotels",
+    "file": "coronavirus-disease-covid-19-working-in-hotels.txt"
+  },
+  {
+    "topic": "covdp-frequently-asked-questions",
+    "title": "CoVDP Frequently Asked Questions",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/covdp-frequently-asked-questions",
+    "file": "covdp-frequently-asked-questions.txt"
+  },
+  {
+    "topic": "cyber-attacks-on-critical-health-infrastructure",
+    "title": "Cyber-attacks on critical health infrastructure",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/cyber-attacks-on-critical-health-infrastructure",
+    "file": "cyber-attacks-on-critical-health-infrastructure.txt"
+  },
+  {
+    "topic": "deafness-and-hearing-loss--tinnitus",
+    "title": "Deafness and hearing loss: Tinnitus",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss--tinnitus",
+    "file": "deafness-and-hearing-loss--tinnitus.txt"
+  },
+  {
+    "topic": "deafness-and-hearing-loss-age-related-hearing-loss-(presbycusis)",
+    "title": "Deafness and hearing loss: Age-related hearing loss (presbycusis)",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-age-related-hearing-loss-(presbycusis)",
+    "file": "deafness-and-hearing-loss-age-related-hearing-loss-(presbycusis).txt"
+  },
+  {
+    "topic": "deafness-and-hearing-loss-ear-care",
+    "title": "Deafness and hearing loss: Ear care",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-ear-care",
+    "file": "deafness-and-hearing-loss-ear-care.txt"
+  },
+  {
+    "topic": "deafness-and-hearing-loss-hearing-checks-and-the-hearwho-app",
+    "title": "Deafness and hearing loss: Hearing checks and the hearWHO app",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-hearing-checks-and-the-hearwho-app",
+    "file": "deafness-and-hearing-loss-hearing-checks-and-the-hearwho-app.txt"
+  },
+  {
+    "topic": "deafness-and-hearing-loss-safe-listening",
+    "title": "Deafness and hearing loss: Safe listening",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-safe-listening",
+    "file": "deafness-and-hearing-loss-safe-listening.txt"
+  },
+  {
+    "topic": "deliberate-events-chemical-release",
+    "title": "Deliberate events: Chemical release and oil fires",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/deliberate-events-chemical-release",
+    "file": "deliberate-events-chemical-release.txt"
+  },
+  {
+    "topic": "dementia-information-for-caregivers",
+    "title": "Dementia: Information for caregivers",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/dementia-information-for-caregivers",
+    "file": "dementia-information-for-caregivers.txt"
+  },
+  {
+    "topic": "dengue-and-severe-dengue",
+    "title": "Dengue and severe dengue",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/dengue-and-severe-dengue",
+    "file": "dengue-and-severe-dengue.txt"
+  },
+  {
+    "topic": "dengue-vaccines",
+    "title": "Vaccines and immunization: Dengue",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/dengue-vaccines",
+    "file": "dengue-vaccines.txt"
+  },
+  {
+    "topic": "determinants-of-health",
+    "title": "Determinants of health",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/determinants-of-health",
+    "file": "determinants-of-health.txt"
+  },
+  {
+    "topic": "diabetes",
+    "title": "Diabetes",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/diabetes",
+    "file": "diabetes.txt"
+  },
+  {
+    "topic": "diabetes--who-s-response",
+    "title": "Diabetes: WHO's response",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/diabetes--who-s-response",
+    "file": "diabetes--who-s-response.txt"
+  },
+  {
+    "topic": "diphtheria",
+    "title": "Diphtheria",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/diphtheria",
+    "file": "diphtheria.txt"
+  },
+  {
+    "topic": "disinformation-and-public-health",
+    "title": "Disinformation and public health",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/disinformation-and-public-health",
+    "file": "disinformation-and-public-health.txt"
+  },
+  {
+    "topic": "dracunculiasis-(guinea-worm-disease)",
+    "title": "Dracunculiasis (Guinea-worm disease)",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/dracunculiasis-(guinea-worm-disease)",
+    "file": "dracunculiasis-(guinea-worm-disease).txt"
+  },
+  {
+    "topic": "early-essential-newborn-care",
+    "title": "Early Essential Newborn Care",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/early-essential-newborn-care",
+    "file": "early-essential-newborn-care.txt"
+  },
+  {
+    "topic": "ebola-disease",
+    "title": "Ebola disease",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/ebola-disease",
+    "file": "ebola-disease.txt"
+  },
+  {
+    "topic": "ebola-vaccines",
+    "title": "Ebola vaccines",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/ebola-vaccines",
+    "file": "ebola-vaccines.txt"
+  },
+  {
+    "topic": "echinococcosis",
+    "title": "Echinococcosis",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/echinococcosis",
+    "file": "echinococcosis.txt"
+  },
+  {
+    "topic": "emergencies-emergency-medical-teams",
+    "title": "Emergencies: Emergency medical teams",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/emergencies-emergency-medical-teams",
+    "file": "emergencies-emergency-medical-teams.txt"
+  },
+  {
+    "topic": "emergencies-emergency-risk-communication-guidance",
+    "title": "Emergencies: Emergency risk communication guidance",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/emergencies-emergency-risk-communication-guidance",
+    "file": "emergencies-emergency-risk-communication-guidance.txt"
+  },
+  {
+    "topic": "emergencies-humanitarian-health-action",
+    "title": "Emergencies: Humanitarian Health Action",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/emergencies-humanitarian-health-action",
+    "file": "emergencies-humanitarian-health-action.txt"
+  },
+  {
+    "topic": "emergencies-international-health-regulations-and-emergency-committees",
+    "title": "Emergencies: International health regulations and emergency committees",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/emergencies-international-health-regulations-and-emergency-committees",
+    "file": "emergencies-international-health-regulations-and-emergency-committees.txt"
+  },
+  {
+    "topic": "emergencies-management-of-dead-bodies",
+    "title": "Emergencies: Management of dead bodies",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/emergencies-management-of-dead-bodies",
+    "file": "emergencies-management-of-dead-bodies.txt"
+  },
+  {
+    "topic": "emergencies-mosquitoes",
+    "title": "Emergencies: Mosquitoes",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/emergencies-mosquitoes",
+    "file": "emergencies-mosquitoes.txt"
+  },
+  {
+    "topic": "emergencies-myths-and-realities-in-disaster-situations",
+    "title": "Emergencies: Myths and realities in disaster situations",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/emergencies-myths-and-realities-in-disaster-situations",
+    "file": "emergencies-myths-and-realities-in-disaster-situations.txt"
+  },
+  {
+    "topic": "emergencies-risk-communication",
+    "title": "Emergencies: Risk communication",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/emergencies-risk-communication",
+    "file": "emergencies-risk-communication.txt"
+  },
+  {
+    "topic": "emergencies-simulation-exercises",
+    "title": "Emergencies: Simulation exercises",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/emergencies-simulation-exercises",
+    "file": "emergencies-simulation-exercises.txt"
+  },
+  {
+    "topic": "emergencies-ten-things-you-need-to-do-to-implement-the-international-health-regulations",
+    "title": "Emergencies: Ten things you need to do to implement the International Health Regulations",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/emergencies-ten-things-you-need-to-do-to-implement-the-international-health-regulations",
+    "file": "emergencies-ten-things-you-need-to-do-to-implement-the-international-health-regulations.txt"
+  },
+  {
+    "topic": "emergency-health-kits",
+    "title": "Emergencies: WHO Health emergency kits",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/emergency-health-kits",
+    "file": "emergency-health-kits.txt"
+  },
+  {
+    "topic": "environmental-health-estimations-of-attributable-burden-of-disease-due-to-a-risk-factor",
+    "title": "Environmental health: Estimations of attributable burden of disease due to a risk factor",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/environmental-health-estimations-of-attributable-burden-of-disease-due-to-a-risk-factor",
+    "file": "environmental-health-estimations-of-attributable-burden-of-disease-due-to-a-risk-factor.txt"
+  },
+  {
+    "topic": "environmental-surveillance",
+    "title": "Coronavirus disease (COVID-19): Environmental Surveillance",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/environmental-surveillance",
+    "file": "environmental-surveillance.txt"
+  },
+  {
+    "topic": "expert-committee-on-drug-dependence",
+    "title": "Expert Committee on Drug Dependence",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/expert-committee-on-drug-dependence",
+    "file": "expert-committee-on-drug-dependence.txt"
+  },
+  {
+    "topic": "fgm-cost-calculator",
+    "title": "FGM Cost Calculator",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/fgm-cost-calculator",
+    "file": "fgm-cost-calculator.txt"
+  },
+  {
+    "topic": "food-fortification",
+    "title": "Food fortification",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/food-fortification",
+    "file": "food-fortification.txt"
+  },
+  {
+    "topic": "food-genetically-modified",
+    "title": "Food, genetically modified",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/food-genetically-modified",
+    "file": "food-genetically-modified.txt"
+  },
+  {
+    "topic": "food-safety-persistent-organic-pollutants-(pops)",
+    "title": "Food safety: Persistent organic pollutants (POPs)",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/food-safety-persistent-organic-pollutants-(pops)",
+    "file": "food-safety-persistent-organic-pollutants-(pops).txt"
+  },
+  {
+    "topic": "food-safety-pesticide-residue",
+    "title": "Food safety: Pesticide residue",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/food-safety-pesticide-residue",
+    "file": "food-safety-pesticide-residue.txt"
+  },
+  {
+    "topic": "foodborne-diseases-global-burden",
+    "title": "Foodborne diseases: Global burden",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/foodborne-diseases-global-burden",
+    "file": "foodborne-diseases-global-burden.txt"
+  },
+  {
+    "topic": "fractional-doses-of-the-yellow-fever-vaccine",
+    "title": "Fractional doses of the yellow fever vaccine",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/fractional-doses-of-the-yellow-fever-vaccine",
+    "file": "fractional-doses-of-the-yellow-fever-vaccine.txt"
+  },
+  {
+    "topic": "frequently-asked-questions-about-eios",
+    "title": "Frequently Asked Questions about EIOS",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/frequently-asked-questions-about-eios",
+    "file": "frequently-asked-questions-about-eios.txt"
+  },
+  {
+    "topic": "gender-and-health",
+    "title": "Gender and health",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/gender-and-health",
+    "file": "gender-and-health.txt"
+  },
+  {
+    "topic": "gisrs-70th-anniversary-faq",
+    "title": "GISRS 70th anniversary",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/gisrs-70th-anniversary-faq",
+    "file": "gisrs-70th-anniversary-faq.txt"
+  },
+  {
+    "topic": "global--regional-and-national-burdens-of-non-melanoma-skin-cancer-attributable-to-occupational-exposure-to-solar-ultraviolet-radiation-for-183-countries--2000-2019",
+    "title": "Global, regional and national burdens of non-melanoma skin cancer attributable to occupational exposure to solar ultraviolet radiation for 183 countries, 2000–2019",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/global--regional-and-national-burdens-of-non-melanoma-skin-cancer-attributable-to-occupational-exposure-to-solar-ultraviolet-radiation-for-183-countries--2000-2019",
+    "file": "global--regional-and-national-burdens-of-non-melanoma-skin-cancer-attributable-to-occupational-exposure-to-solar-ultraviolet-radiation-for-183-countries--2000-2019.txt"
+  },
+  {
+    "topic": "global-excess-deaths-associated-with-the-COVID-19-pandemic",
+    "title": "Global excess deaths associated with the COVID-19 pandemic",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/global-excess-deaths-associated-with-the-COVID-19-pandemic",
+    "file": "global-excess-deaths-associated-with-the-COVID-19-pandemic.txt"
+  },
+  {
+    "topic": "global-group-of-heads-of-state-and-government-for-the-prevention-and-control-of-ncds",
+    "title": "Global Group of Heads of State and Government for the Prevention and Control of NCDs",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/global-group-of-heads-of-state-and-government-for-the-prevention-and-control-of-ncds",
+    "file": "global-group-of-heads-of-state-and-government-for-the-prevention-and-control-of-ncds.txt"
+  },
+  {
+    "topic": "global-health-facilities-database",
+    "title": "Geolocated Health Facilities Data initiative",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/global-health-facilities-database",
+    "file": "global-health-facilities-database.txt"
+  },
+  {
+    "topic": "global-regional-and-national-burdens-of-ischemic-heart-disease-and-stroke-attributable-to-exposure-to-long-working-hours-for-194-countries-2000-2016",
+    "title": "Global, regional and national burdens of ischemic heart disease and stroke attributable to exposure to long working hours for 194 countries, 2000-2016",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/global-regional-and-national-burdens-of-ischemic-heart-disease-and-stroke-attributable-to-exposure-to-long-working-hours-for-194-countries-2000-2016",
+    "file": "global-regional-and-national-burdens-of-ischemic-heart-disease-and-stroke-attributable-to-exposure-to-long-working-hours-for-194-countries-2000-2016.txt"
+  },
+  {
+    "topic": "global-report-on-health-equity-for-persons-with-disabilities",
+    "title": "Global Report on Health Equity for Persons with Disabilities",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/global-report-on-health-equity-for-persons-with-disabilities",
+    "file": "global-report-on-health-equity-for-persons-with-disabilities.txt"
+  },
+  {
+    "topic": "guidance-on-handling-interruptions-in-antiretroviral-treatment-due-to-hiv-service-disruptions--drug-shortages--or-stockouts",
+    "title": "Guidance on handling interruptions in antiretroviral treatment due to HIV service disruptions, drug shortages, or stockouts",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/guidance-on-handling-interruptions-in-antiretroviral-treatment-due-to-hiv-service-disruptions--drug-shortages--or-stockouts",
+    "file": "guidance-on-handling-interruptions-in-antiretroviral-treatment-due-to-hiv-service-disruptions--drug-shortages--or-stockouts.txt"
+  },
+  {
+    "topic": "guideline-for-screening-and-treatment-of-cervical-pre-cancer-lesions-for-cervical-cancer-prevention",
+    "title": "Guideline for screening and treatment of cervical pre-cancer lesions for cervical cancer prevention",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/guideline-for-screening-and-treatment-of-cervical-pre-cancer-lesions-for-cervical-cancer-prevention",
+    "file": "guideline-for-screening-and-treatment-of-cervical-pre-cancer-lesions-for-cervical-cancer-prevention.txt"
+  },
+  {
+    "topic": "guidelines-for-drinking-water-quality---frequently-asked-questions",
+    "title": "Guidelines for drinking-water quality",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/guidelines-for-drinking-water-quality---frequently-asked-questions",
+    "file": "guidelines-for-drinking-water-quality---frequently-asked-questions.txt"
+  },
+  {
+    "topic": "headache-disorders-how-common-are-headaches",
+    "title": "Headache disorders: How common are headaches?",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/headache-disorders-how-common-are-headaches",
+    "file": "headache-disorders-how-common-are-headaches.txt"
+  },
+  {
+    "topic": "health-consequences-of-fukushima-nuclear-accident",
+    "title": "Radiation: Health consequences of the Fukushima nuclear accident",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/health-consequences-of-fukushima-nuclear-accident",
+    "file": "health-consequences-of-fukushima-nuclear-accident.txt"
+  },
+  {
+    "topic": "health-promotion",
+    "title": "Health promotion",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/health-promotion",
+    "file": "health-promotion.txt"
+  },
+  {
+    "topic": "health-statistics",
+    "title": "Health statistics",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/health-statistics",
+    "file": "health-statistics.txt"
+  },
+  {
+    "topic": "health-technology-assessment",
+    "title": "Health technology assessment",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/health-technology-assessment",
+    "file": "health-technology-assessment.txt"
+  },
+  {
+    "topic": "healthy-ageing-and-functional-ability",
+    "title": "Healthy ageing and functional ability",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/healthy-ageing-and-functional-ability",
+    "file": "healthy-ageing-and-functional-ability.txt"
+  },
+  {
+    "topic": "healthy-diet-keys-to-eating-well",
+    "title": "Healthy diet: Keys to eating well",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/healthy-diet-keys-to-eating-well",
+    "file": "healthy-diet-keys-to-eating-well.txt"
+  },
+  {
+    "topic": "heatwaves-how-to-stay-cool",
+    "title": "Heatwaves: How to stay cool",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/heatwaves-how-to-stay-cool",
+    "file": "heatwaves-how-to-stay-cool.txt"
+  },
+  {
+    "topic": "hepatitis",
+    "title": "Hepatitis",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/hepatitis",
+    "file": "hepatitis.txt"
+  },
+  {
+    "topic": "hepatitis-preventing-mother-to-child-transmission-of-the-hepatitis-b-virus",
+    "title": "Hepatitis: Preventing mother-to-child transmission of the hepatitis B virus",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/hepatitis-preventing-mother-to-child-transmission-of-the-hepatitis-b-virus",
+    "file": "hepatitis-preventing-mother-to-child-transmission-of-the-hepatitis-b-virus.txt"
+  },
+  {
+    "topic": "herd-immunity-lockdowns-and-covid-19",
+    "title": "Coronavirus disease (COVID-19): Herd immunity, lockdowns and COVID-19",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/herd-immunity-lockdowns-and-covid-19",
+    "file": "herd-immunity-lockdowns-and-covid-19.txt"
+  },
+  {
+    "topic": "hiv-aids",
+    "title": "HIV and AIDS",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/hiv-aids",
+    "file": "hiv-aids.txt"
+  },
+  {
+    "topic": "hiv-aids-infant-feeding-and-nutrition",
+    "title": "HIV/AIDS: Infant feeding and nutrition",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/hiv-aids-infant-feeding-and-nutrition",
+    "file": "hiv-aids-infant-feeding-and-nutrition.txt"
+  },
+  {
+    "topic": "how-can-i-avoid-getting-the-flu",
+    "title": "How can I avoid getting the flu?",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/how-can-i-avoid-getting-the-flu",
+    "file": "how-can-i-avoid-getting-the-flu.txt"
+  },
+  {
+    "topic": "how-do-i-protect-my-health-in-a-flood",
+    "title": "Floods: How to protect your health",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/how-do-i-protect-my-health-in-a-flood",
+    "file": "how-do-i-protect-my-health-in-a-flood.txt"
+  },
+  {
+    "topic": "how-to-be-hearing-loss-friendly",
+    "title": "Deafness and hearing loss: how to be deaf or hard-of-hearing friendly",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/how-to-be-hearing-loss-friendly",
+    "file": "how-to-be-hearing-loss-friendly.txt"
+  },
+  {
+    "topic": "how-to-quit-e-cigarettes",
+    "title": "How to quit e-cigarettes?",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/how-to-quit-e-cigarettes",
+    "file": "how-to-quit-e-cigarettes.txt"
+  },
+  {
+    "topic": "human-genome-editing-registry",
+    "title": "Human Genome Editing Registry",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/human-genome-editing-registry",
+    "file": "human-genome-editing-registry.txt"
+  },
+  {
+    "topic": "influenza-avian",
+    "title": "Influenza: Avian",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/influenza-avian",
+    "file": "influenza-avian.txt"
+  },
+  {
+    "topic": "influenza-h5n1",
+    "title": "Influenza: A(H5N1)",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/influenza-h5n1",
+    "file": "influenza-h5n1.txt"
+  },
+  {
+    "topic": "influenza-pandemic-influenza-preparedness-framework",
+    "title": "Influenza: Pandemic influenza preparedness framework",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/influenza-pandemic-influenza-preparedness-framework",
+    "file": "influenza-pandemic-influenza-preparedness-framework.txt"
+  },
+  {
+    "topic": "international-health-regulations-amendments",
+    "title": "International Health Regulations: amendments",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/international-health-regulations-amendments",
+    "file": "international-health-regulations-amendments.txt"
+  },
+  {
+    "topic": "introduction-to-gcf-readiness-programme",
+    "title": "Introduction to the GCF Readiness Programme",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/introduction-to-gcf-readiness-programme",
+    "file": "introduction-to-gcf-readiness-programme.txt"
+  },
+  {
+    "topic": "legionellosis-legionnaires-disease",
+    "title": "Legionellosis (Legionnaires' disease)",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/legionellosis-legionnaires-disease",
+    "file": "legionellosis-legionnaires-disease.txt"
+  },
+  {
+    "topic": "leishmaniasis",
+    "title": "Leishmaniasis",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/leishmaniasis",
+    "file": "leishmaniasis.txt"
+  },
+  {
+    "topic": "long-term-studies-on-children-s-health-and-the-environment-how-can-we-identify-assess-and-follow-up-the-effects-of-exposure-to-environmental-factors",
+    "title": "Children's environmental health: Long term studies",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/long-term-studies-on-children-s-health-and-the-environment-how-can-we-identify-assess-and-follow-up-the-effects-of-exposure-to-environmental-factors",
+    "file": "long-term-studies-on-children-s-health-and-the-environment-how-can-we-identify-assess-and-follow-up-the-effects-of-exposure-to-environmental-factors.txt"
+  },
+  {
+    "topic": "lymphatic-filariasis",
+    "title": "Lymphatic filariasis",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/lymphatic-filariasis",
+    "file": "lymphatic-filariasis.txt"
+  },
+  {
+    "topic": "malaria",
+    "title": "Malaria",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/malaria",
+    "file": "malaria.txt"
+  },
+  {
+    "topic": "malaria-eradication",
+    "title": "Malaria eradication",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/malaria-eradication",
+    "file": "malaria-eradication.txt"
+  },
+  {
+    "topic": "malaria-vaccine-implementation-programme",
+    "title": "Malaria: The malaria vaccine implementation programme (MVIP)",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/malaria-vaccine-implementation-programme",
+    "file": "malaria-vaccine-implementation-programme.txt"
+  },
+  {
+    "topic": "malnutrition",
+    "title": "Malnutrition",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/malnutrition",
+    "file": "malnutrition.txt"
+  },
+  {
+    "topic": "malnutrition-emergencies-and-disasters",
+    "title": "Malnutrition: Emergencies and disasters",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/malnutrition-emergencies-and-disasters",
+    "file": "malnutrition-emergencies-and-disasters.txt"
+  },
+  {
+    "topic": "marburg-virus-disease",
+    "title": "Marburg virus disease",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/marburg-virus-disease",
+    "file": "marburg-virus-disease.txt"
+  },
+  {
+    "topic": "medicines-fair-pricing-forum",
+    "title": "Medicines: Fair pricing forum",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/medicines-fair-pricing-forum",
+    "file": "medicines-fair-pricing-forum.txt"
+  },
+  {
+    "topic": "medicines-good-manufacturing-processes",
+    "title": "Medicines: Good manufacturing practices",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/medicines-good-manufacturing-processes",
+    "file": "medicines-good-manufacturing-processes.txt"
+  },
+  {
+    "topic": "mental-health-promoting-and-protecting-human-rights",
+    "title": "Mental health: Promoting and protecting human rights",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/mental-health-promoting-and-protecting-human-rights",
+    "file": "mental-health-promoting-and-protecting-human-rights.txt"
+  },
+  {
+    "topic": "middle-east-respiratory-syndrome-coronavirus-(mers-cov)",
+    "title": "Middle East respiratory syndrome coronavirus (MERS-CoV)",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/middle-east-respiratory-syndrome-coronavirus-(mers-cov)",
+    "file": "middle-east-respiratory-syndrome-coronavirus-(mers-cov).txt"
+  },
+  {
+    "topic": "model-disability-survey",
+    "title": "Disability: Model disability survey",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/model-disability-survey",
+    "file": "model-disability-survey.txt"
+  },
+  {
+    "topic": "mononucleosis-(glandular-fever)",
+    "title": "Mononucleosis (glandular fever)",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/mononucleosis-(glandular-fever)",
+    "file": "mononucleosis-(glandular-fever).txt"
+  },
+  {
+    "topic": "mpox",
+    "title": "Mpox",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/mpox",
+    "file": "mpox.txt"
+  },
+  {
+    "topic": "mpox--preventing-and-managing-mpox-in-schools-and-learning-spaces",
+    "title": "Mpox: Preventing and managing mpox in schools and learning spaces",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/mpox--preventing-and-managing-mpox-in-schools-and-learning-spaces",
+    "file": "mpox--preventing-and-managing-mpox-in-schools-and-learning-spaces.txt"
+  },
+  {
+    "topic": "mpox-vaccines",
+    "title": "Mpox: Vaccines",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/mpox-vaccines",
+    "file": "mpox-vaccines.txt"
+  },
+  {
+    "topic": "mrna-technology-transfer-hub",
+    "title": "mRNA technology transfer hub",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/mrna-technology-transfer-hub",
+    "file": "mrna-technology-transfer-hub.txt"
+  },
+  {
+    "topic": "national-reporting-instrument",
+    "title": "National Reporting Instrument",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/national-reporting-instrument",
+    "file": "national-reporting-instrument.txt"
+  },
+  {
+    "topic": "ncds",
+    "title": "Noncommunicable diseases (NCDs)",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/ncds",
+    "file": "ncds.txt"
+  },
+  {
+    "topic": "neglected-topical-diseases-sleeping-sickness-(human-african-trypanosomiasis)",
+    "title": "Neglected tropical diseases: Sleeping sickness (human African trypanosomiasis)",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/neglected-topical-diseases-sleeping-sickness-(human-african-trypanosomiasis)",
+    "file": "neglected-topical-diseases-sleeping-sickness-(human-african-trypanosomiasis).txt"
+  },
+  {
+    "topic": "neglected-tropical-diseases",
+    "title": "Neglected tropical diseases",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/neglected-tropical-diseases",
+    "file": "neglected-tropical-diseases.txt"
+  },
+  {
+    "topic": "neglected-tropical-diseases-clonorchiasis",
+    "title": "Neglected tropical diseases: Clonorchiasis",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/neglected-tropical-diseases-clonorchiasis",
+    "file": "neglected-tropical-diseases-clonorchiasis.txt"
+  },
+  {
+    "topic": "neglected-tropical-diseases-global-vector-control-response-2017-2030",
+    "title": "Neglected tropical diseases: Global vector control response 2017-2030",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/neglected-tropical-diseases-global-vector-control-response-2017-2030",
+    "file": "neglected-tropical-diseases-global-vector-control-response-2017-2030.txt"
+  },
+  {
+    "topic": "neglected-tropical-diseases-opisthorchiasis",
+    "title": "Neglected tropical diseases: Opisthorchiasis",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/neglected-tropical-diseases-opisthorchiasis",
+    "file": "neglected-tropical-diseases-opisthorchiasis.txt"
+  },
+  {
+    "topic": "neglected-tropical-diseases-paragonimiasis",
+    "title": "Neglected tropical diseases: Paragonimiasis",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/neglected-tropical-diseases-paragonimiasis",
+    "file": "neglected-tropical-diseases-paragonimiasis.txt"
+  },
+  {
+    "topic": "noncommunicable-diseases-childhood-overweight-and-obesity",
+    "title": "Noncommunicable diseases: Childhood overweight and obesity",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/noncommunicable-diseases-childhood-overweight-and-obesity",
+    "file": "noncommunicable-diseases-childhood-overweight-and-obesity.txt"
+  },
+  {
+    "topic": "nutrition-the-decade-of-action",
+    "title": "Nutrition: The decade of action",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/nutrition-the-decade-of-action",
+    "file": "nutrition-the-decade-of-action.txt"
+  },
+  {
+    "topic": "obesity-glp-1-therapies",
+    "title": "Obesity: GLP-1 therapies",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/obesity-glp-1-therapies",
+    "file": "obesity-glp-1-therapies.txt"
+  },
+  {
+    "topic": "obesity-health-consequences-of-being-overweight",
+    "title": "Obesity: Health consequences of being overweight",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/obesity-health-consequences-of-being-overweight",
+    "file": "obesity-health-consequences-of-being-overweight.txt"
+  },
+  {
+    "topic": "one-health",
+    "title": "One Health",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/one-health",
+    "file": "one-health.txt"
+  },
+  {
+    "topic": "oral-health",
+    "title": "Oral health",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/oral-health",
+    "file": "oral-health.txt"
+  },
+  {
+    "topic": "oxygen",
+    "title": "Oxygen",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/oxygen",
+    "file": "oxygen.txt"
+  },
+  {
+    "topic": "pandemic-prevention--preparedness-and-response-accord",
+    "title": "Pandemic prevention, preparedness and response agreement",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/pandemic-prevention--preparedness-and-response-accord",
+    "file": "pandemic-prevention--preparedness-and-response-accord.txt"
+  },
+  {
+    "topic": "phase-3-trial-results-for-malaria-vaccine-rtss-as01",
+    "title": "Malaria: Phase 3 trial results for vaccine RTS,S/AS01",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/phase-3-trial-results-for-malaria-vaccine-rtss-as01",
+    "file": "phase-3-trial-results-for-malaria-vaccine-rtss-as01.txt"
+  },
+  {
+    "topic": "plague",
+    "title": "Plague",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/plague",
+    "file": "plague.txt"
+  },
+  {
+    "topic": "polio-transition",
+    "title": "Polio transition",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/polio-transition",
+    "file": "polio-transition.txt"
+  },
+  {
+    "topic": "poliomyelitis",
+    "title": "Poliomyelitis",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/poliomyelitis",
+    "file": "poliomyelitis.txt"
+  },
+  {
+    "topic": "population-ageing",
+    "title": "Ageing: Global population",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/population-ageing",
+    "file": "population-ageing.txt"
+  },
+  {
+    "topic": "pqt-ivd-questions-and-answers",
+    "title": "In vitro diagnostics: Frequently asked questions",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/pqt-ivd-questions-and-answers",
+    "file": "pqt-ivd-questions-and-answers.txt"
+  },
+  {
+    "topic": "preparing-proposals-gcf-readiness",
+    "title": "Multiple-year strategic readiness proposals",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/preparing-proposals-gcf-readiness",
+    "file": "preparing-proposals-gcf-readiness.txt"
+  },
+  {
+    "topic": "preventing-protecting-against-attacks",
+    "title": "Attacks on health care initiative: Preventing and protecting against attacks",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/preventing-protecting-against-attacks",
+    "file": "preventing-protecting-against-attacks.txt"
+  },
+  {
+    "topic": "primary-health-care",
+    "title": "Primary health care",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/primary-health-care",
+    "file": "primary-health-care.txt"
+  },
+  {
+    "topic": "q-a-children-and-masks-related-to-covid-19",
+    "title": "Coronavirus disease (COVID-19): Children and masks",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/q-a-children-and-masks-related-to-covid-19",
+    "file": "q-a-children-and-masks-related-to-covid-19.txt"
+  },
+  {
+    "topic": "q-a-ethics-in-public-health-surveillance",
+    "title": "Ethics in public health surveillance",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/q-a-ethics-in-public-health-surveillance",
+    "file": "q-a-ethics-in-public-health-surveillance.txt"
+  },
+  {
+    "topic": "q-a-for-guidelines-on-emergency-use-listing-procedure",
+    "title": "Medicines: Guidelines on Emergency Use Listing Procedure",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/q-a-for-guidelines-on-emergency-use-listing-procedure",
+    "file": "q-a-for-guidelines-on-emergency-use-listing-procedure.txt"
+  },
+  {
+    "topic": "q-a-global-and-national-tobacco-cessation-investment-cases",
+    "title": "Q&A: Global and national tobacco cessation investment cases",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/q-a-global-and-national-tobacco-cessation-investment-cases",
+    "file": "q-a-global-and-national-tobacco-cessation-investment-cases.txt"
+  },
+  {
+    "topic": "q-a-global-eoc-exercise",
+    "title": "Q&A: Global EOC Exercise",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/q-a-global-eoc-exercise",
+    "file": "q-a-global-eoc-exercise.txt"
+  },
+  {
+    "topic": "q-a-inclusion-of-bupropion-and-varenicline-in-the-who-model-list-of-essential-medicines",
+    "title": "Q&A: Inclusion of bupropion and varenicline in the WHO Model List of Essential Medicines",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/q-a-inclusion-of-bupropion-and-varenicline-in-the-who-model-list-of-essential-medicines",
+    "file": "q-a-inclusion-of-bupropion-and-varenicline-in-the-who-model-list-of-essential-medicines.txt"
+  },
+  {
+    "topic": "q-a-on-fascioliasis",
+    "title": "Neglected tropical diseases: Fascioliasis",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/q-a-on-fascioliasis",
+    "file": "q-a-on-fascioliasis.txt"
+  },
+  {
+    "topic": "q-a-on-myocarditis-and-covid-19-vaccines",
+    "title": "Q&A on Myocarditis and Covid-19 Vaccines",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/q-a-on-myocarditis-and-covid-19-vaccines",
+    "file": "q-a-on-myocarditis-and-covid-19-vaccines.txt"
+  },
+  {
+    "topic": "q-a-on-rts-s-malaria-vaccine",
+    "title": "Malaria vaccines (RTS,S and R21)",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/q-a-on-rts-s-malaria-vaccine",
+    "file": "q-a-on-rts-s-malaria-vaccine.txt"
+  },
+  {
+    "topic": "q-a-on-strengthening-infection-prevention-control-in-healthcare-facilities-focus-on-private-sector-webinar-on-ipc-practices",
+    "title": "Q&A on Strengthening Infection Prevention & Control in Healthcare Facilities – focus on Private Sector – webinar on IPC practices",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/q-a-on-strengthening-infection-prevention-control-in-healthcare-facilities-focus-on-private-sector-webinar-on-ipc-practices",
+    "file": "q-a-on-strengthening-infection-prevention-control-in-healthcare-facilities-focus-on-private-sector-webinar-on-ipc-practices.txt"
+  },
+  {
+    "topic": "q-a-rss",
+    "title": "Medicines: WHO policy and approach towards building and strengthening regulatory capacity for medical products",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/q-a-rss",
+    "file": "q-a-rss.txt"
+  },
+  {
+    "topic": "q-a-the-paediatric-environmental-history",
+    "title": "Children's environmental health: The paediatric environmental history",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/q-a-the-paediatric-environmental-history",
+    "file": "q-a-the-paediatric-environmental-history.txt"
+  },
+  {
+    "topic": "q-a-universal-health-coverage",
+    "title": "Universal Health Coverage",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/q-a-universal-health-coverage",
+    "file": "q-a-universal-health-coverage.txt"
+  },
+  {
+    "topic": "q-a-who-expert-committee-on-drug-dependence-review-of-cannabis-august-2018",
+    "title": "Drugs (psychoactive): WHO Expert Committee on Drug Dependence review of cannabis",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/q-a-who-expert-committee-on-drug-dependence-review-of-cannabis-august-2018",
+    "file": "q-a-who-expert-committee-on-drug-dependence-review-of-cannabis-august-2018.txt"
+  },
+  {
+    "topic": "q-a-who-handbook-for-national-quality-policy-and-strategy",
+    "title": "WHO Handbook for national quality policy and strategy",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/q-a-who-handbook-for-national-quality-policy-and-strategy",
+    "file": "q-a-who-handbook-for-national-quality-policy-and-strategy.txt"
+  },
+  {
+    "topic": "q-a-with-dr-ann-moen-how-influenza-preparedness-helps-fight-other-infectious-diseases",
+    "title": "Influenza: How preparedness helps fight other infectious diseases",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/q-a-with-dr-ann-moen-how-influenza-preparedness-helps-fight-other-infectious-diseases",
+    "file": "q-a-with-dr-ann-moen-how-influenza-preparedness-helps-fight-other-infectious-diseases.txt"
+  },
+  {
+    "topic": "q-a-world-no-tobacco-day-2022",
+    "title": "Q&A: World No Tobacco Day 2022",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/q-a-world-no-tobacco-day-2022",
+    "file": "q-a-world-no-tobacco-day-2022.txt"
+  },
+  {
+    "topic": "question-and-answer-on-reviewing-global-response-to-h1n1-pandemic",
+    "title": "Question and answer on reviewing global response to H1N1 pandemic",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/question-and-answer-on-reviewing-global-response-to-h1n1-pandemic",
+    "file": "question-and-answer-on-reviewing-global-response-to-h1n1-pandemic.txt"
+  },
+  {
+    "topic": "questions-and-answers-on-the-onehealth-tool",
+    "title": "Questions and Answers on the OneHealth Tool",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/questions-and-answers-on-the-onehealth-tool",
+    "file": "questions-and-answers-on-the-onehealth-tool.txt"
+  },
+  {
+    "topic": "questions-and-answers-on-zika-virus-vaccine-target-product-profile",
+    "title": "Questions and answers on Zika Virus Vaccine Target Product Profile (TPP)",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/questions-and-answers-on-zika-virus-vaccine-target-product-profile",
+    "file": "questions-and-answers-on-zika-virus-vaccine-target-product-profile.txt"
+  },
+  {
+    "topic": "radiation-5g-mobile-networks-and-health",
+    "title": "Radiation: 5G mobile networks and health",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/radiation-5g-mobile-networks-and-health",
+    "file": "radiation-5g-mobile-networks-and-health.txt"
+  },
+  {
+    "topic": "radiation-and-health",
+    "title": "Radiation and health",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/radiation-and-health",
+    "file": "radiation-and-health.txt"
+  },
+  {
+    "topic": "radiation-electromagnetic-fields",
+    "title": "Radiation: Electromagnetic fields",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/radiation-electromagnetic-fields",
+    "file": "radiation-electromagnetic-fields.txt"
+  },
+  {
+    "topic": "radiation-ionizing-radiation",
+    "title": "Radiation: Ionizing radiation",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/radiation-ionizing-radiation",
+    "file": "radiation-ionizing-radiation.txt"
+  },
+  {
+    "topic": "radiation-japan-nuclear-concerns",
+    "title": "Radiation: Japan nuclear concerns",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/radiation-japan-nuclear-concerns",
+    "file": "radiation-japan-nuclear-concerns.txt"
+  },
+  {
+    "topic": "radiation-protecting-against-skin-cancer",
+    "title": "Radiation: Protecting against skin cancer",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/radiation-protecting-against-skin-cancer",
+    "file": "radiation-protecting-against-skin-cancer.txt"
+  },
+  {
+    "topic": "radiation-the-chernobyl-accident",
+    "title": "Radiation: The Chernobyl accident",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/radiation-the-chernobyl-accident",
+    "file": "radiation-the-chernobyl-accident.txt"
+  },
+  {
+    "topic": "radiation-the-known-health-effects-of-ultraviolet-radiation",
+    "title": "Radiation: The known health effects of ultraviolet radiation",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/radiation-the-known-health-effects-of-ultraviolet-radiation",
+    "file": "radiation-the-known-health-effects-of-ultraviolet-radiation.txt"
+  },
+  {
+    "topic": "radiation-the-ultraviolet-(uv)-index",
+    "title": "Radiation: The ultraviolet (UV) index",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/radiation-the-ultraviolet-(uv)-index",
+    "file": "radiation-the-ultraviolet-(uv)-index.txt"
+  },
+  {
+    "topic": "radiation-ultraviolet-(uv)",
+    "title": "Radiation: Ultraviolet (UV) radiation",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/radiation-ultraviolet-(uv)",
+    "file": "radiation-ultraviolet-(uv).txt"
+  },
+  {
+    "topic": "radiation-ultraviolet-(uv)-radiation-and-skin-cancer",
+    "title": "Radiation: Ultraviolet (UV) radiation and skin cancer",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/radiation-ultraviolet-(uv)-radiation-and-skin-cancer",
+    "file": "radiation-ultraviolet-(uv)-radiation-and-skin-cancer.txt"
+  },
+  {
+    "topic": "radioactivity-in-food-after-a-nuclear-emergency",
+    "title": "Radioactivity in food after a nuclear emergency",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/radioactivity-in-food-after-a-nuclear-emergency",
+    "file": "radioactivity-in-food-after-a-nuclear-emergency.txt"
+  },
+  {
+    "topic": "readiness-process-from-proposal-development-to-approval",
+    "title": "Readiness process: From proposal development to approval",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/readiness-process-from-proposal-development-to-approval",
+    "file": "readiness-process-from-proposal-development-to-approval.txt"
+  },
+  {
+    "topic": "refugee-and-migrant-health",
+    "title": "Refugee and migrant health",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/refugee-and-migrant-health",
+    "file": "refugee-and-migrant-health.txt"
+  },
+  {
+    "topic": "refugee-and-migrant-health-the-european-region",
+    "title": "Refugee and migrant health: European region",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/refugee-and-migrant-health-the-european-region",
+    "file": "refugee-and-migrant-health-the-european-region.txt"
+  },
+  {
+    "topic": "regional-proposals-gcf-readiness",
+    "title": "Regional GCF readiness proposals",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/regional-proposals-gcf-readiness",
+    "file": "regional-proposals-gcf-readiness.txt"
+  },
+  {
+    "topic": "rehabilitation",
+    "title": "Rehabilitation",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/rehabilitation",
+    "file": "rehabilitation.txt"
+  },
+  {
+    "topic": "respiratory-syncytial-virus-(rsv)-immunization-products",
+    "title": "Respiratory syncytial virus (RSV) immunization products",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/respiratory-syncytial-virus-(rsv)-immunization-products",
+    "file": "respiratory-syncytial-virus-(rsv)-immunization-products.txt"
+  },
+  {
+    "topic": "road-traffic-injuries-children",
+    "title": "Road traffic injuries: Children",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/road-traffic-injuries-children",
+    "file": "road-traffic-injuries-children.txt"
+  },
+  {
+    "topic": "safe-surgery-saves-lives-frequently-asked-questions",
+    "title": "Patient safety: Safe surgery saves lives",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/safe-surgery-saves-lives-frequently-asked-questions",
+    "file": "safe-surgery-saves-lives-frequently-asked-questions.txt"
+  },
+  {
+    "topic": "sale-of-live-wild-mammals-in-traditional-food-markets",
+    "title": "Food safety: Sale of live wild mammals in traditional food markets",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/sale-of-live-wild-mammals-in-traditional-food-markets",
+    "file": "sale-of-live-wild-mammals-in-traditional-food-markets.txt"
+  },
+  {
+    "topic": "sars-cov-2-evolution",
+    "title": "Coronavirus disease (COVID-19): Virus Evolution",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/sars-cov-2-evolution",
+    "file": "sars-cov-2-evolution.txt"
+  },
+  {
+    "topic": "schistosomiasis-(bilharzia)",
+    "title": "Schistosomiasis (bilharzia)",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/schistosomiasis-(bilharzia)",
+    "file": "schistosomiasis-(bilharzia).txt"
+  },
+  {
+    "topic": "schistosomiasis-genital-manifestations",
+    "title": "Schistosomiasis: Genital manifestations",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/schistosomiasis-genital-manifestations",
+    "file": "schistosomiasis-genital-manifestations.txt"
+  },
+  {
+    "topic": "score-technical-package",
+    "title": "Health information systems: SCORE technical package",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/score-technical-package",
+    "file": "score-technical-package.txt"
+  },
+  {
+    "topic": "self-care-for-health-and-well-being",
+    "title": "Self-care for health and well-being",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/self-care-for-health-and-well-being",
+    "file": "self-care-for-health-and-well-being.txt"
+  },
+  {
+    "topic": "semaglutide-injection-products",
+    "title": "Semaglutide injection products",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/semaglutide-injection-products",
+    "file": "semaglutide-injection-products.txt"
+  },
+  {
+    "topic": "severe-acute-hepatitis-of-unknown-cause-in-children",
+    "title": "Severe acute hepatitis of unknown cause in children",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/severe-acute-hepatitis-of-unknown-cause-in-children",
+    "file": "severe-acute-hepatitis-of-unknown-cause-in-children.txt"
+  },
+  {
+    "topic": "simple-rapid-tests",
+    "title": "In vitro diagnostics: Simple / rapid tests",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/simple-rapid-tests",
+    "file": "simple-rapid-tests.txt"
+  },
+  {
+    "topic": "smallpox",
+    "title": "Smallpox",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/smallpox",
+    "file": "smallpox.txt"
+  },
+  {
+    "topic": "snakebite-envenoming",
+    "title": "Snakebite envenoming",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/snakebite-envenoming",
+    "file": "snakebite-envenoming.txt"
+  },
+  {
+    "topic": "social-connection",
+    "title": "Social connection",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/social-connection",
+    "file": "social-connection.txt"
+  },
+  {
+    "topic": "social-determinants-of-health-key-concepts",
+    "title": "Social determinants of health: Key concepts",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/social-determinants-of-health-key-concepts",
+    "file": "social-determinants-of-health-key-concepts.txt"
+  },
+  {
+    "topic": "soil-transmitted-helminths",
+    "title": "Soil-transmitted helminths",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/soil-transmitted-helminths",
+    "file": "soil-transmitted-helminths.txt"
+  },
+  {
+    "topic": "stress",
+    "title": "Stress",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/stress",
+    "file": "stress.txt"
+  },
+  {
+    "topic": "submitting-gcf-project-proposals",
+    "title": "Climate change & health: Submitting GCF Project Proposals",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/submitting-gcf-project-proposals",
+    "file": "submitting-gcf-project-proposals.txt"
+  },
+  {
+    "topic": "substandard-and-falsified-medical-products-advice-to-patients-and-consumers",
+    "title": "Substandard and falsified medical products: Advice to patients and consumers",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/substandard-and-falsified-medical-products-advice-to-patients-and-consumers",
+    "file": "substandard-and-falsified-medical-products-advice-to-patients-and-consumers.txt"
+  },
+  {
+    "topic": "substandard-and-falsified-medical-products-scope-scale-and-harm",
+    "title": "Substandard and falsified medical products: Scope, scale and harm",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/substandard-and-falsified-medical-products-scope-scale-and-harm",
+    "file": "substandard-and-falsified-medical-products-scope-scale-and-harm.txt"
+  },
+  {
+    "topic": "substandard-and-falsified-who-activities",
+    "title": "Substandard and falsified medical products: WHO Activities",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/substandard-and-falsified-who-activities",
+    "file": "substandard-and-falsified-who-activities.txt"
+  },
+  {
+    "topic": "suicide",
+    "title": "Suicide",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/suicide",
+    "file": "suicide.txt"
+  },
+  {
+    "topic": "surgical-site-infections",
+    "title": "Infection prevention and control: Surgical site infections",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/surgical-site-infections",
+    "file": "surgical-site-infections.txt"
+  },
+  {
+    "topic": "sustainable-development-goals-health-price-tag",
+    "title": "Sustainable Development Goals: Health price tag",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/sustainable-development-goals-health-price-tag",
+    "file": "sustainable-development-goals-health-price-tag.txt"
+  },
+  {
+    "topic": "systematic-screening-for-tb",
+    "title": "Tuberculosis: Systematic screening",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/systematic-screening-for-tb",
+    "file": "systematic-screening-for-tb.txt"
+  },
+  {
+    "topic": "taeniasis-and-cysticercosis",
+    "title": "Neglected tropical diseases: Taeniasis and cysticercosis",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/taeniasis-and-cysticercosis",
+    "file": "taeniasis-and-cysticercosis.txt"
+  },
+  {
+    "topic": "testing-for-mpox--health-workers",
+    "title": "Testing for mpox: health workers",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/testing-for-mpox--health-workers",
+    "file": "testing-for-mpox--health-workers.txt"
+  },
+  {
+    "topic": "testing-for-mpox--individuals-and-communities",
+    "title": "Testing for mpox: individuals and communities",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/testing-for-mpox--individuals-and-communities",
+    "file": "testing-for-mpox--individuals-and-communities.txt"
+  },
+  {
+    "topic": "tetanus-immunization",
+    "title": "Tetanus: Immunization",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/tetanus-immunization",
+    "file": "tetanus-immunization.txt"
+  },
+  {
+    "topic": "the-role-of-health-impact-assessment-(hia)-in-decision-making",
+    "title": "Health-impact-assessment (HIA) and its role in decision making",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/the-role-of-health-impact-assessment-(hia)-in-decision-making",
+    "file": "the-role-of-health-impact-assessment-(hia)-in-decision-making.txt"
+  },
+  {
+    "topic": "the-triple-billion-targets",
+    "title": "The Triple Billion targets",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/the-triple-billion-targets",
+    "file": "the-triple-billion-targets.txt"
+  },
+  {
+    "topic": "the-united-nations-onehealth-costing-tool",
+    "title": "The United Nations OneHealth Costing Tool",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/the-united-nations-onehealth-costing-tool",
+    "file": "the-united-nations-onehealth-costing-tool.txt"
+  },
+  {
+    "topic": "the-who-essential-medicines-list-antibiotic-book",
+    "title": "The WHO Essential Medicines List Antibiotic Book",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/the-who-essential-medicines-list-antibiotic-book",
+    "file": "the-who-essential-medicines-list-antibiotic-book.txt"
+  },
+  {
+    "topic": "tobacco-and-the-who-framework-convention-on-tobacco-control",
+    "title": "Tobacco: WHO Framework Convention on Tobacco Control",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/tobacco-and-the-who-framework-convention-on-tobacco-control",
+    "file": "tobacco-and-the-who-framework-convention-on-tobacco-control.txt"
+  },
+  {
+    "topic": "tobacco-e-cigarettes",
+    "title": "Tobacco: E-cigarettes",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/tobacco-e-cigarettes",
+    "file": "tobacco-e-cigarettes.txt"
+  },
+  {
+    "topic": "tobacco-growing--myth-buster",
+    "title": "Tobacco growing: myth buster",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/tobacco-growing--myth-buster",
+    "file": "tobacco-growing--myth-buster.txt"
+  },
+  {
+    "topic": "tobacco-health-benefits-of-smoking-cessation",
+    "title": "Tobacco: Health benefits of smoking cessation",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/tobacco-health-benefits-of-smoking-cessation",
+    "file": "tobacco-health-benefits-of-smoking-cessation.txt"
+  },
+  {
+    "topic": "tobacco-industry-tactics-to-attract-younger-generations",
+    "title": "Tobacco: Industry tactics to attract younger generations",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/tobacco-industry-tactics-to-attract-younger-generations",
+    "file": "tobacco-industry-tactics-to-attract-younger-generations.txt"
+  },
+  {
+    "topic": "total-who-ilo-joint-estimates-of-the-work-related-burden-of-disease-and-injury--2000-2016",
+    "title": "Total WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury, 2000–2016",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/total-who-ilo-joint-estimates-of-the-work-related-burden-of-disease-and-injury--2000-2016",
+    "file": "total-who-ilo-joint-estimates-of-the-work-related-burden-of-disease-and-injury--2000-2016.txt"
+  },
+  {
+    "topic": "trachoma",
+    "title": "Trachoma",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/trachoma",
+    "file": "trachoma.txt"
+  },
+  {
+    "topic": "tracking-universal-health-coverage",
+    "title": "Universal health coverage global monitoring report 2023",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/tracking-universal-health-coverage",
+    "file": "tracking-universal-health-coverage.txt"
+  },
+  {
+    "topic": "traditional-medicine",
+    "title": "Traditional medicine",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/traditional-medicine",
+    "file": "traditional-medicine.txt"
+  },
+  {
+    "topic": "tuberculosis",
+    "title": "Tuberculosis",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/tuberculosis",
+    "file": "tuberculosis.txt"
+  },
+  {
+    "topic": "tuberculosis-extensively-drug-resistant-tuberculosis-(XDR-TB)",
+    "title": "Tuberculosis: Extensively drug-resistant tuberculosis (XDR-TB)",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/tuberculosis-extensively-drug-resistant-tuberculosis-(XDR-TB)",
+    "file": "tuberculosis-extensively-drug-resistant-tuberculosis-(XDR-TB).txt"
+  },
+  {
+    "topic": "tuberculosis-multidrug-resistant-tuberculosis-(mdr-tb)",
+    "title": "Tuberculosis: Multidrug-resistant (MDR-TB) or rifampicin-resistant TB (RR-TB)",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/tuberculosis-multidrug-resistant-tuberculosis-(mdr-tb)",
+    "file": "tuberculosis-multidrug-resistant-tuberculosis-(mdr-tb).txt"
+  },
+  {
+    "topic": "universal-trial-number",
+    "title": "Universal trial number",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/universal-trial-number",
+    "file": "universal-trial-number.txt"
+  },
+  {
+    "topic": "universal-trial-numbers",
+    "title": "Research: Universal trial numbers",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/universal-trial-numbers",
+    "file": "universal-trial-numbers.txt"
+  },
+  {
+    "topic": "use-of-potassium-iodine-for-thyroid-protection-during-nuclear-or-radiological-emergencies",
+    "title": "Use of potassium iodide for thyroid protection during nuclear or radiological emergencies",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/use-of-potassium-iodine-for-thyroid-protection-during-nuclear-or-radiological-emergencies",
+    "file": "use-of-potassium-iodine-for-thyroid-protection-during-nuclear-or-radiological-emergencies.txt"
+  },
+  {
+    "topic": "vaccines-and-immunization-investigational-vaccine-candidate-m72-as01e",
+    "title": "Vaccines and immunization: Investigational vaccine candidate M72/AS01E",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/vaccines-and-immunization-investigational-vaccine-candidate-m72-as01e",
+    "file": "vaccines-and-immunization-investigational-vaccine-candidate-m72-as01e.txt"
+  },
+  {
+    "topic": "vaccines-and-immunization-thiomersal",
+    "title": "Vaccines and immunization: Thiomersal",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/vaccines-and-immunization-thiomersal",
+    "file": "vaccines-and-immunization-thiomersal.txt"
+  },
+  {
+    "topic": "vaccines-and-immunization-vaccine-safety",
+    "title": "Vaccines and immunization: Vaccine safety",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/vaccines-and-immunization-vaccine-safety",
+    "file": "vaccines-and-immunization-vaccine-safety.txt"
+  },
+  {
+    "topic": "vaccines-and-immunization-what-is-vaccination",
+    "title": "Vaccines and immunization: What is vaccination?",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/vaccines-and-immunization-what-is-vaccination",
+    "file": "vaccines-and-immunization-what-is-vaccination.txt"
+  },
+  {
+    "topic": "violence-against-children-how-can-it-be-prevented",
+    "title": "Violence against children: How can it be prevented?",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/violence-against-children-how-can-it-be-prevented",
+    "file": "violence-against-children-how-can-it-be-prevented.txt"
+  },
+  {
+    "topic": "what-is-dual-use-research-of-concern",
+    "title": "What is dual-use research of concern?",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/what-is-dual-use-research-of-concern",
+    "file": "what-is-dual-use-research-of-concern.txt"
+  },
+  {
+    "topic": "what-is-guinea-worm-is-it-a-real-worm",
+    "title": "Dracunculiasis (Guinea-worm disease): What is guinea worm? Is it a real worm?",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/what-is-guinea-worm-is-it-a-real-worm",
+    "file": "what-is-guinea-worm-is-it-a-real-worm.txt"
+  },
+  {
+    "topic": "what-is-who-s-role-in-mass-gatherings",
+    "title": "Emergencies: WHO's role in mass gatherings",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/what-is-who-s-role-in-mass-gatherings",
+    "file": "what-is-who-s-role-in-mass-gatherings.txt"
+  },
+  {
+    "topic": "what-s-super-about-super-gonorrhea-a-q-a-with-who-s-dr.-teodora-wi",
+    "title": "What's super about super gonorrhoea? a Q&A with Dr Teodora Wi",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/what-s-super-about-super-gonorrhea-a-q-a-with-who-s-dr.-teodora-wi",
+    "file": "what-s-super-about-super-gonorrhea-a-q-a-with-who-s-dr.-teodora-wi.txt"
+  },
+  {
+    "topic": "what-you-need-to-know-about-measles",
+    "title": "What you need to know about measles",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/what-you-need-to-know-about-measles",
+    "file": "what-you-need-to-know-about-measles.txt"
+  },
+  {
+    "topic": "who-academy",
+    "title": "WHO Academy",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/who-academy",
+    "file": "who-academy.txt"
+  },
+  {
+    "topic": "who-as-a-gcf-delivery-partner",
+    "title": "WHO as a GCF Delivery Partner",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/who-as-a-gcf-delivery-partner",
+    "file": "who-as-a-gcf-delivery-partner.txt"
+  },
+  {
+    "topic": "who-as-an-accredited-entity-of-the-adaptation-fund",
+    "title": "WHO as an accredited entity of the adaptation fund",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/who-as-an-accredited-entity-of-the-adaptation-fund",
+    "file": "who-as-an-accredited-entity-of-the-adaptation-fund.txt"
+  },
+  {
+    "topic": "who-cessation-consortium",
+    "title": "WHO Cessation Consortium",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/who-cessation-consortium",
+    "file": "who-cessation-consortium.txt"
+  },
+  {
+    "topic": "who-choice-frequently-asked-questions",
+    "title": "WHO-CHOICE",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/who-choice-frequently-asked-questions",
+    "file": "who-choice-frequently-asked-questions.txt"
+  },
+  {
+    "topic": "who-expert-committee-on-drug-dependence-review-of-cannabis",
+    "title": "WHO Expert Committee on Drug Dependence review of cannabis",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/who-expert-committee-on-drug-dependence-review-of-cannabis",
+    "file": "who-expert-committee-on-drug-dependence-review-of-cannabis.txt"
+  },
+  {
+    "topic": "who-global-air-quality-guidelines",
+    "title": "WHO Global Air Quality Guidelines",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/who-global-air-quality-guidelines",
+    "file": "who-global-air-quality-guidelines.txt"
+  },
+  {
+    "topic": "who-health-workforce-support-and-safeguards-list",
+    "title": "WHO health workforce support and safeguards list",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/who-health-workforce-support-and-safeguards-list",
+    "file": "who-health-workforce-support-and-safeguards-list.txt"
+  },
+  {
+    "topic": "who-learning-strategy",
+    "title": "WHO Learning Strategy",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/who-learning-strategy",
+    "file": "who-learning-strategy.txt"
+  },
+  {
+    "topic": "who-listed-authorities",
+    "title": "WHO Listed Authorities",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/who-listed-authorities",
+    "file": "who-listed-authorities.txt"
+  },
+  {
+    "topic": "who-mortality-database",
+    "title": "WHO Mortality Database",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/who-mortality-database",
+    "file": "who-mortality-database.txt"
+  },
+  {
+    "topic": "who-s-fifth-who-air-quality-database-of-over-6000-cities-updated-april-2022",
+    "title": "WHO’s Fifth WHO Air Quality Database of over 6000 Cities",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/who-s-fifth-who-air-quality-database-of-over-6000-cities-updated-april-2022",
+    "file": "who-s-fifth-who-air-quality-database-of-over-6000-cities-updated-april-2022.txt"
+  },
+  {
+    "topic": "who-s-role-in-emergencies",
+    "title": "Emergencies: WHO's role",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/who-s-role-in-emergencies",
+    "file": "who-s-role-in-emergencies.txt"
+  },
+  {
+    "topic": "who-statement-on-caesarean-section-rates-frequently-asked-questions",
+    "title": "WHO Statement on Caesarean Section Rates",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/who-statement-on-caesarean-section-rates-frequently-asked-questions",
+    "file": "who-statement-on-caesarean-section-rates-frequently-asked-questions.txt"
+  },
+  {
+    "topic": "who-unicef-estimates-of-national-immunization-coverage",
+    "title": "WHO/UNICEF estimates of national immunization coverage",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/who-unicef-estimates-of-national-immunization-coverage",
+    "file": "who-unicef-estimates-of-national-immunization-coverage.txt"
+  },
+  {
+    "topic": "why-is-smoking-an-issue-for-non-smokers",
+    "title": "Tobacco: Why is smoking an issue for non-smokers?",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/why-is-smoking-an-issue-for-non-smokers",
+    "file": "why-is-smoking-an-issue-for-non-smokers.txt"
+  },
+  {
+    "topic": "why-is-the-convention-on-the-rights-of-persons-with-disabilities-important",
+    "title": "Disability: The Convention on the Rights of Persons with Disabilities",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/why-is-the-convention-on-the-rights-of-persons-with-disabilities-important",
+    "file": "why-is-the-convention-on-the-rights-of-persons-with-disabilities-important.txt"
+  },
+  {
+    "topic": "workplace-heat-stress",
+    "title": "Workplace heat stress",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/workplace-heat-stress",
+    "file": "workplace-heat-stress.txt"
+  },
+  {
+    "topic": "world-no-tobacco-day-2023---grow-food--not-tobacco",
+    "title": "World No Tobacco Day 2023 – Grow food, not tobacco",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/world-no-tobacco-day-2023---grow-food--not-tobacco",
+    "file": "world-no-tobacco-day-2023---grow-food--not-tobacco.txt"
+  },
+  {
+    "topic": "yaws",
+    "title": "Yaws",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/yaws",
+    "file": "yaws.txt"
+  },
+  {
+    "topic": "yellow-fever",
+    "title": "Yellow fever",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/yellow-fever",
+    "file": "yellow-fever.txt"
+  },
+  {
+    "topic": "zika",
+    "title": "Zika",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/zika",
+    "file": "zika.txt"
+  },
+  {
+    "topic": "zika-safe-blood-supply",
+    "title": "Zika: Safe blood supply",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/zika-safe-blood-supply",
+    "file": "zika-safe-blood-supply.txt"
+  }
+]

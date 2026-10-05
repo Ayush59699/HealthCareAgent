@@ -1,0 +1,71 @@
+WHO QUESTIONS AND ANSWERS
+Title: Self-care for health and well-being
+URL: https://www.who.int/news-room/questions-and-answers/item/self-care-for-health-and-well-being
+Retrieved: 2026-10-05T09:49:27.358944+00:00
+
+========================================
+
+What is self-care?
+==================
+
+WHO defines self-care as the ability of individuals, families and communities to promote health, prevent disease, maintain health, and to cope with illness – with or without the support of a health or care worker.
+
+Self-care does not replace the health system or health and care workers, but complements them.
+
+What are self-care interventions and actions?
+=============================================
+
+Self-care interventions are evidence-based, high-quality tools that support self-care. They can include evidence-based drugs, devices and diagnostics. Self-care actions include healthy practices, habits and lifestyle choices.
+
+What does WHO recommend for self-care interventions?
+====================================================
+
+The WHO guideline on self-care interventions for health and well-being includes recommendations on safe and effective interventions that should be used within a supportive enabling environment.
+
+Recommendations cover interventions to
+
+- advance sexual and reproductive health and rights (SRHR)
+
+- promote maternal and newborn health
+
+- combat sexually transmitted infections (STIs), including HIV, and cervical cancer elimination; and
+
+- manage noncommunicable diseases (NCDs), including mental health, cardiovascular disease and diabetes.
+
+Examples of self-care interventions include self-administered injectable contraception, self-collection of vaginal samples for human papillomavirus (HPV) screening, self-monitoring of blood glucose for diabetes, including gestational diabetes; self-monitoring of blood pressure for heart disease and for managing pre-eclampsia during pregnancy, and self-tests for HIV, pregnancy and coronavirus disease (COVID-19). Further interventions will be regularly added to the WHO guideline as the evidence base expands.
+
+What are the elements of an enabling environment for self-care interventions?
+=============================================================================
+
+WHO’s conceptual framework on self-care interventions has core elements from both people-centred and health systems approaches, underpinned by the key principles of human rights, ethics, inclusivity and gender equality. The enabling environment includes elements, beyond health services themselves, that require attention to ensure that self-care interventions can be appropriately implemented. These include the education, justice and social services sectors, because self-care interventions are mostly accessed and/or used outside formal health services and facilities. For example, it is important for people to have enough education and sufficient health literacy, and sometimes digital literacy, to understand information about self-care interventions and make informed choices about their use.
+
+Do I need to see a health or care worker to engage in self-care activities?
+===========================================================================
+
+This depends on the self-care activity. Self-care actions and interventions are a way for individuals, families and communities to manage their own health. They are intended as a complement to facility-based care and may require support from the health system and a health or care worker in some instances. Some self-care actions, such as washing your hands, wearing masks and practicing good respiratory hygiene measures that protect you from COVID-19 do not require any contact with a health or care worker. Self-care interventions, such as obtaining a prescription for hormonal contraception or counselling during pregnancy following a positive pregnancy test, may need interaction with a health or care worker. Such support can be provided in different ways and will depend on the health-care arrangements in place where you live. For example, some medicines are available over the counter without a prescription in a pharmacy, and the provision of counselling and important information during pregnancy and when caring for a newborn can be provided over the phone or online.
+
+Are self-care interventions safe?
+=================================
+
+Yes. All WHO recommendations on self-care interventions are based on the best available evidence to date, including evidence of their safety and effectiveness when provided alongside support from the formal health system if needed. WHO does not recommend use of unregulated and substandard products. Incorrect or unclear health information or lack of access to health and care workers and/or health facilities, should they be needed, are potential challenges that need to be addressed when using self-care interventions.
+
+Why are self-care interventions important during health emergencies?
+====================================================================
+
+In crisis settings, securing necessities such as food and shelter is the primary need. In addition, meeting people’s health needs by providing the right care at the right time can prevent or mitigate adverse health consequences. In situations where health-care resources are scarce, self-care interventions can provide opportunities to access the appropriate care at the right time and complement limited access to facility-based care. Evidence-based, high-quality self-care interventions can provide an important means of maintaining health in emergency settings when national health systems are disrupted and health facility or health and care worker-based services become unavailable or restricted.
+
+In fragile and humanitarian settings, the need for innovative approaches that increase efficiencies in provision, management, quality control and service integration could drive the creation or refinement of self-care interventions and lead to more self-care interventions to become sustainable, accessible and effective health-care options.
+
+Do self-care interventions shift the burden of care to vulnerable people?
+=========================================================================
+
+No. People may use self-care interventions for several reasons, including convenience, privacy, cost, autonomy, a better fit with lifestyle, or because they lack access to quality health services or anticipate facing stigma and discrimination. The self-care interventions and practices that WHO recommends are not intended to add to the daily workload and financial burden of individuals and communities, especially those who may already be marginalized and underserved by the health system. For many self-care interventions to be effective, links to care and complementary support from the health system are essential. When integrated into health systems, self-care interventions may save money for users (including the cost of transport and loss of income when attending facility-based health-care appointments), as well as for health and care providers (under circumstances where complications and need to hospitalize people are reduced). Blending direct user payment for self-care interventions with public subsidies and private-sector financing can help reduce large out-of-pocket expenditure on self-care for individuals and families.
+
+Where can I get more information?
+=================================
+
+Further information about self-care can be found on the WHO website:
+
+- WHO guideline on self-care interventions for health
+
+- Self-care interventions for health

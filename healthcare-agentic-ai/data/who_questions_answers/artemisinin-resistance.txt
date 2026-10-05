@@ -1,0 +1,127 @@
+WHO QUESTIONS AND ANSWERS
+Title: Malaria: Artemisinin partial resistance
+URL: https://www.who.int/news-room/questions-and-answers/item/artemisinin-resistance
+Retrieved: 2026-10-05T09:43:14.119445+00:00
+
+========================================
+
+Efficacious antimalarial medicines are critical to malaria control and elimination. Continuous monitoring of their efficacy is needed to inform treatment policies in malaria-endemic countries, and to ensure early detection of, and response to, drug resistance.
+
+What is artemisinin and how is it used for the treatment of malaria?
+====================================================================
+
+Isolated from the plant Artemisia annua, or sweet wormwood, artemisinin and its derivatives are powerful medicines known for their ability to swiftly reduce the number of Plasmodium parasites in the blood of patients with malaria.
+
+Artemisinin-based combination therapies (ACTs) are recommended by WHO as the first- and second-line treatment for uncomplicated P. falciparum malaria as well as for chloroquine-resistant P. vivax malaria. ACTs combine an artemisinin derivative (artemisinin derivatives include artesunate, artemether and dihydroartemisinin) with a partner drug. The role of the artemisinin compound is to reduce the number of parasites during the first 3 days of treatment (reduction of parasite biomass), while the role of the partner drug is to eliminate the remaining parasites (cure).
+
+WHO currently recommends 6 different ACTs (*). Two injectable treatments, artesunate or artemether, are recommended for the treatment of severe malaria and should be followed by an ACT when the patient can tolerate oral therapy.
+
+Increased access to ACTs in malaria-endemic countries has been integral to the remarkable success in reducing the global malaria burden over the last 15 years. Almost 4.5 billion treatment courses of prequalified ACTs were delivered globally by manufacturers between 2010 and 2023. An estimated 68% of these procurements were reported to have been distributed to the public sector in malaria endemic countries.
+
+* Artesunate-amodiaquine; artesunate-mefloquine; artesunate-pyronaridine; artesunate+sulfadoxine-pyrimethamine; artemether-lumefantrine; dihydroartemisinin-piperaquine.
+
+What is the definition of “artemisinin partial resistance”?
+===========================================================
+
+Artemisinin partial resistance typically refers to a delay in the clearance of malaria parasites from the bloodstream following treatment with an ACT. As a result, the artemisinin compound is less effective in clearing all parasites within a 3-day period among patients who are infected with artemisinin partial resistant strains of malaria.
+
+Studies have demonstrated that the mechanisms of resistance developed by the parasites against artemisinin compounds affect only one stage of the malaria parasite cycle in humans: the ring stage. It is therefore more appropriate to call the delayed clearance “partial resistance” to highlight this time-limited and cycle-specific feature. It is unknown whether artemisinin partial resistance could further evolve to affect other stages of the parasites, developing into complete resistance. “Full” artemisinin resistance has not been reported.
+
+Currently, even if patients are infected with artemisinin partial resistant parasites, nearly all patients treated with an ACT are fully cured provided that the partner drug is highly efficacious in that geographical area. In the absence of partner drug resistance, artemisinin partial resistance rarely leads to treatment failure. Furthermore, there is no evidence that artemisinin partial resistance alone has resulted in an increase in malaria morbidity and mortality in the areas where it has been detected.
+
+What are the current molecular markers of artemisinin partial resistance?
+=========================================================================
+
+Artemisinin partial resistance is seen as delayed parasites clearance after treatment with a drug containing artemisinin. In vitro and in vivo studies have shown that mutations in the PfKelch13 BTB/POZ and propeller domain (PfK13) are associated with this delayed parasite clearance. To date, more than 260 non-synonymous PfK13 mutations have been reported. However, not all the non-synonymous PfK13 mutants reported are associated with artemisinin partial resistance; mutants can also represent genotypes arising de novo but not being selected for.
+
+Different PfK13 mutations have varying effects on the clearance phenotype. WHO has established a list of candidates or associated and validated markers of artemisinin partial resistance. The criteria for classification of PfK13 markers of artemisinin partial resistance are shown in the box below.
+
+Candidate or associated PfK13 markers of artemisinin partial resistance | 1. A statistically significant association (p <0.05) between a PfK13 mutation and clearance half-life >5 hours or day 3 parasitaemia via a chi-squared test or appropriate multivariable regression model on a sample of at least 20 clinical cases
+OR
+
+2. Survival of >1% using the RSA0–3h in at least five individual isolates with a given mutation or a statistically significant difference (p <0.05) in the RSA0–3h assay between culture-adapted recombinant isogenic parasite lines, produced using transfection and gene editing techniques, which express a variant allele of PfK13 as compared with the wild-type allele |
+
+Validated PfK13 markers of artemisinin partial resistance | Both requirements 1 and 2 are met |
+
+The list of validated and candidate markers is continually being updated. The current list is provided below; all are located in the PfK13 BTB/POZ and propeller domain. Outside these domains, 2 mutations were reported frequently in clinical studies: K189T and E252Q. E252Q has been associated with delayed clearance, but in vitro this association appears to be dependent on other mutations. The mutation A578S has been identified in several studies in Asia and Africa but has not been associated with clinical or in vitro resistance to artemisinin.
+
+PfKelch13 markers of artemisinin partial resistance
+
+Validated markers | Candidate or associated markers |
+
+F446I | P441L |
+
+N458Y | G449A |
+
+C469Y | C469F |
+
+M476I | A481V |
+
+Y493H | R515K |
+
+R539T | P527H |
+
+I543T | N537I/D |
+
+P553L | G538V |
+
+R561H | V568G |
+
+P574L |
+
+C580Y |
+
+R622I |
+
+A675V |
+
+What is the state of partial artemisinin resistance around the world?
+=====================================================================
+
+Clear evidence of parasites partially resistant to artemisinin has now been identified in the Greater Mekong subregion (GMS) and Africa – specifically in Eritrea, Rwanda, Uganda and the United Republic of Tanzania.
+
+In late 2013, researchers identified a new molecular marker: mutations in the PfKelch13 (K13) propeller domain were shown to be associated with delayed parasite clearance in vitro and in vivo following treatments with artemisinins. The molecular marker allows for a more precise mapping and monitoring of the geographical distribution of artemisinin partial resistance.
+
+Artemisinin partial resistance likely first emerged in the GMS prior to 2001, and prior to the widespread deployment of ACTs. Molecular surveys have shown that artemisinin partial resistance has emerged independently in several locations within the GMS.
+
+In Africa, artemisinin partial resistance has been confirmed in Eritrea, Rwanda,Uganda and the United Republic of Tanzania. These parasites have emerged independently and have not spread from South-East Asia. Based on available evidence, such resistance is also suspected in Ethiopia, Namibia, Sudan and Zambia.
+
+What is the current state of ACT failures around the world?
+===========================================================
+
+The efficacy of WHO-recommended ACTs is assessed through therapeutic efficacy studies (TES). Such studies done at regular intervals at the same sites allow for the early detection of declines in drug efficacy, providing evidence for guiding national malaria treatment policies.
+
+While artemisinin partial resistance alone rarely leads to treatment failure, in the Greater Mekong subregion (GMS) there is also resistance to a number of the ACT partner drugs. As a consequence, several ACTs are failing in the GMS. Managing the drug resistance situation requires close monitoring but there are still ACTs available, capable of treating patients even in the areas where the drug resistance is worst.
+
+In Eritrea, Rwanda, Uganda and the United Republic of Tanzania, where artemisinin partial resistance has been confirmed, therapeutic efficacy studies are being done to ensure that the ACTs which are recommended in the national treatment policy continue to be efficacious. In other areas of Africa, a few TES studies have reported treatment failures from studies with artemether-lumefantrine and dihydroartemisinin-piperaquine. WHO is working with countries and partners to investigate if these failures are linked to ACT partner drug resistance.
+
+How is WHO supporting countries in the Greater Mekong subregion tackle multidrug resistance?
+============================================================================================
+
+In the Greater Mekong Subregion (GMS), the response to resistance has included improved monitoring of efficacy and resistance and pursuit of malaria elimination.
+
+In collaboration with national malaria programmes and partners, WHO led the development of the Strategy for malaria elimination in the Greater Mekong subregion (2015–2030). With technical guidance from WHO, all GMS countries have developed national malaria elimination plans that are aligned with the subregional strategy. As countries implement these plans, WHO is providing ongoing technical support through its 5 GMS country offices, regional offices in New Delhi and Manila, and the Organization’s headquarters in Geneva.
+
+Furthermore, in 2017, WHO launched the Mekong Malaria Elimination (MME) programme. The MME subregional team in Phnom Penh, Cambodia, supports the malaria elimination strategy by facilitating coordination and dialogue among partners, communicating with external stakeholders, and coordinating cross-border initiatives. Impressive progress has been made towards eliminating P. falciparum from the GMS.
+
+How is WHO responding to the emergence of partial artemisinin resistance in Africa?
+===================================================================================
+
+The emergence of artemisinin partial resistance in Africa necessitates a response aiming to ensure that efficacious treatments remain available. An immediate priority is to provide support to improve the phenotypic and genotypic surveillance to better map the extent of the resistance. Plans are being developed to help countries address issues that could cause resistance to spread.
+
+Artemisinin partial resistance has likely occurred as a consequence of several factors: poor treatment practices, inadequate patient adherence to prescribed antimalarial regimens, and the widespread availability of oral artemisinin-based monotherapies and substandard forms of the drug.
+
+Scaling up interventions will require considerable financial resources, long-term political commitment, and strong cross-border cooperation. One of the most urgent challenges is to strengthen pharmaceutical market regulation and remove oral artemisinin-based monotherapies and substandard medicines from markets.
+
+In November 2022, WHO launch a new Strategy to respond to antimalarial drug resistance in Africa. The strategy aims to tackle drug resistance through, among other actions, tracking its spread, identifying the populations most at risk, and developing viable alternative treatments.
+
+ACTs remains the best available treatment for uncomplicated P. falciparum malaria, and it is imperative that the emergence of artemisinin partial resistance does not lead health care providers or patients to hesitate to prescribe and use ACTs to treat confirmed malaria.
+
+Who is funding these efforts?
+=============================
+
+The fight to eliminate malaria in the Greater Mekong subregion (GMS) is supported through generous contributions from a number of donors, including: the Australian Department of Foreign Affairs and Trade; the Bill & Melinda Gates Foundation; the Global Fund to Fight AIDS, Tuberculosis and Malaria (Global Fund); the Foreign, Commonwealth & Development Office of the UK Government; and the US Agency for International Development.
+
+In response to the emergence of artemisinin partial resistance in the GMS, the Global Fund launched the Regional Artemisinin-resistance Initiative (RAI) in 2013. Funding provided through this initiative has enabled countries to purchase and distribute commodities such as long-lasting insecticidal nets (LLINs), rapid diagnostic tests and quality-assured drugs. In 2020, the Global Fund announced an expansion of the RAI (RAI3E), committing an additional US$ 228.3 million for the period 2021 to 2023.
+
+WHO is in discussions with donors to scale up efforts in areas in Africa affected by resistance.

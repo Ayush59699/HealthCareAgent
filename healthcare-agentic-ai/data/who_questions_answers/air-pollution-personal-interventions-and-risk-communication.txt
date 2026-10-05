@@ -1,0 +1,188 @@
+WHO QUESTIONS AND ANSWERS
+Title: Air pollution: Personal interventions and risk communication
+URL: https://www.who.int/news-room/questions-and-answers/item/air-pollution-personal-interventions-and-risk-communication
+Retrieved: 2026-10-05T09:43:08.513330+00:00
+
+========================================
+
+What is this report on "Personal interventions and risk communication on air pollution" about ?
+===============================================================================================
+
+This report presents the results of an expert consultation whose objectives were to review and assess the current scientific evidence on questions related to protection measures that individuals can take (or so-called personal interventions) to reduce their exposure to air pollution. Such measures include wearing respirators, using indoor portable air filters (cleaners) or avoiding certain places and limiting activities or exercising in an environment with high levels of air pollution. It was agreed, however, that these measures are the least desirable choice in the hierarchy of interventions - the most preferred being public policies aiming at reducing emissions. The report also discusses the communication challenges associated to information related to air pollution and health impacts, such as air pollution sources, Air Quality Index (AQI), and the role of medical societies.
+
+What should policy makers do to protect citizen from air pollution?
+===================================================================
+
+The best way to protect people from the harmful effects of air pollution is to bring concentrations of air pollutants down to those recommended by the WHO Air Quality Guidelines, through pollutant emission monitoring, land-use and urban planning, and sustainable consumption.
+
+Policy makers and citizens need to know the sources of air pollutants and their contributions to air pollution in each location, and this information should guide effective emission control strategies. One of the most significant pollutants, particulate matter (PM2.5), can originate from a wide range of sources and can be spread over several hundreds of kilometres, illustrating the importance of national and regional cooperation to recognizing and addressing the specific sources and combatting air pollution efficiently.
+
+What are effective ways to communicate about air pollution and health?
+======================================================================
+
+Successful communication approaches to policy makers and administrations should underline the importance of source apportionment, emission control of the sources, population weighted exposure as a guidance of the interventions, the importance of regional in addition to local policies, and the relevance of the co-benefits of other policies (e.g. climate mitigation). The public should be informed about the complexity of the issue and of the relative importance of the sources. Successful communication approaches to the public should include communication on local, personal, feasible actions that can be undertaken by individuals to mitigate air pollution. People are motivated by a sense of self-efficacy and neglect hazards that they cannot reduce.
+
+However, communication strategies should be tailored to the geography, economic conditions, culture, expectations and norms in each setting. Messages should be specific for the general public and for sensitive individuals. Help in adapting messages can be provided by social structures such as schools and other educational facilities, local and regional administrative structures, and institutions of the civil society, such as patients organizations, professional societies, and specific interest groups. Trust in expert knowledge should be built by issuing publicly accessible information on facts, evidence and peer-reviewed data and results.
+
+What is an air pollution or quality index?
+==========================================
+
+An air quality index (AQI), or Air quality and health index (AQHI) or Air pollution index (API) is a common tool for the reporting and communication of the state of air quality at the city or at regional level on as short-term basis. Ideally, it expresses air quality in easily understood terms. AQI is also used to make recommendations aimed at reducing air pollution exposure and to provide health advisories to members of the public, including those who are more vulnerable to adverse air pollution exposures.
+
+How is an air pollution or quality index calculated?
+====================================================
+
+An AQI generally includes more than one pollutant and provides, with a simple scheme (for example using colours), a grading of the current air quality.
+
+It is most often reported on an hourly basis. Nearly all indices are set as ratios to predetermined thresholds based on either regulatory or recommended levels, which are locally or nationally set. However, few indices are based on rigorous health-based evidence.
+
+Can different AQIs be compared?
+===============================
+
+There is currently no harmonized method for calculating AQI. As the methodology and chosen thresholds vary by country, AQIs are intrinsically not valuable for international comparisons. Indeed, they can be quite misleading when used in this way.
+
+It is advised that all jurisdictions also report the actual measurement data in normal units (e.g. μg/ m3) for all included pollutants in addition to their local AQI, including which pollutant is contribu- ting the most, as people may be sensitive to different pollutants.
+
+How useful are AQIs?
+====================
+
+An AQI is useful if by providing relevant timely air quality information to the public and vulnerable groups, it can reduce exposure to air pollution through individual behaviour modification, while public authorities ensure a timely reduction of emissions activities. These interventions by their very nature are only used sporadically, therefore their effectiveness depends on whether individuals have information that is applicable, reliable, and understandable and if relevant actions are feasible in the affected population.
+
+Often, these indices summarize several air pollutant concentrations in one number, which makes it difficult to isolate the effect of one specific pollutant. For example, in some cases the same index can result from a combination of low particle and high ozone exposure or a combination of high particle and low ozone concentration. As patients are often not affected by all pollutants, a combined index makes it more difficult to react accordingly.
+
+Even indices that have been specifically designed based on health research have been mostly based on long term population-level health risks. Therefore, they are not designed to capture short term risk increases to especially vulnerable groups, such as babies or respiratory disease patients.
+
+Who is more at risk of air pollution?
+=====================================
+
+Two groups of people are at a higher risk from air pollution than the general population. People who are more susceptible have an increased response to exposure to air pollution. This increased response comes from an innate or acquired predisposition, such as pre-existing conditions or diseases. Moreover, some people are more vulnerable, which means they have an increased exposure, which is due to external factors such as place of residence, type of occupation, or internal factors such as increased ventilation (children), etc.
+
+While one can argue that almost everyone may fit into one of these categories, the following categories are generally considered more at risk:
+
+- People with pre-existing conditions (e.g. cardiorespiratory)
+
+- Children & Pregnant women
+
+- Elderly
+
+- Outdoor workers
+
+It is particularly important for pregnant women, children and old people and patients with cardio- vascular, cerebrovascular or respiratory disease to reduce short-term exposure (hours to weeks) to air pollution. Reducing long-term exposure (weeks to year) is important for everybody.
+
+Should susceptible or vulnerable people be recommended personal interventions?
+==============================================================================
+
+Some evidence exists for children and people with cardiorespiratory conditions to recommend clinicians to provide guidance about the health risks of air pollution and behavioral aspects such as avoidance or reduction of pollution exposure, physical activity and personal protection. Yet, prioritization of risk and unintended consequences need to be balanced.
+
+Are specific recommendations on reducing exposure during major air pollution episodes useful in protecting health?
+==================================================================================================================
+
+Public health recommendations aiming at reducing exposure to decrease risk of acute harm often occur during major pollution episodes, however, greatest health benefit is likely to happen when exposure reduction occurs on in the long run, reducing risk of chronic harm.
+
+Providing recommendations to avoid or reduce exposure may not always be possible or even advisable depending on individual circumstances. However, modifying the location, timing, and type of outdoor activity can greatly modify pollution exposures since the levels of air pollutants vary both spatially and temporally.
+
+Should people remain indoors during a major air pollution episode?
+==================================================================
+
+Avoiding air pollution through staying indoors may be beneficial but the effect largely depends on the level of indoor exposure. There are many potential sources of indoor air pollution – such as cooking, active and passive smoking, incense burning – in addition to the infiltration of air pollutants from outdoors to indoors, which in turn is a function of many factors (e.g. type of ventilation, building specificities, etc.).
+
+During acute episodes of air pollution, emergency interventions may be applied by local authorities, including school closures and limitation of sports events, as part of a risk management strategy. However: the reduction in exposure of populations and the health benefits of these interventions are not clear or may be reversed, depending on various circumstances, and the potential benefits and harms should be quantified with more research.
+
+What are the links between air pollution and physical activity?
+===============================================================
+
+Physical activity is defined as any bodily movement produced by skeletal muscles that require energy expenditure. Popular ways to be active are through walking, cycling, sports and recreation or any activities undertaken while working, playing, or carrying out household chores.
+
+Physical activity has significant health benefits and contributes to prevent non-communicable diseases. On the other hand, physical activity may influence the uptake and deposit of air pollutants in the lungs and airways. At higher air pollutants concentrations, more air pollutants will be inhaled. High air pollution levels may also prevent people from engaging in physical activity.
+
+Is it safe to exercise (either through occupation, active transport or recreational physical activity) when the levels of air pollutions are high?
+==================================================================================================================================================
+
+Evidence on healthy adult populations in high-income countries advocates for regular physical activity, even if the air quality does not meet the levels recommended by WHO, as it provides health benefits. However, scientific evidence is weak for all the examined associations in low and middle- income countries (LMIC), for indoor settings (e.g. households, dedicated places for physical activity practice), and for susceptible subpopulations (children, old, people with pre-existing conditions).
+
+Specifically, evidence on short-term impacts suggest that air pollution diminishes (but not eliminate) the beneficial effects of physical activity, in populations with diseases such as cardiovascular and respiratory conditions and for those who are healthy. In the long-term, studies suggest that air pollution slightly reduces the protective effect of physical activity on mortality. Also, modelling studies have estimated that in most situations, the benefits of physical activity should be larger than risks of air pollution, at least in walking and cycling environments.
+
+Should people at risk be advised to reduce their physical activity levels during air pollution episodes?
+========================================================================================================
+
+In general, regular physical activity should be promoted even if the local air quality is not optimal. Whenever possible, people should adapt the timing and location of physical activity to reduce exposure to air pollution. Any recommendation should include consideration of ozone and temperature levels, especially in warmer climates. Patients who take medication should follow their physician’s recommendations.
+
+Going by the precautionary principle, populations at specific risk (due to their health status or occupation) should be advised about the best time and location for physical activity or for work (e.g. outdoors) and to reduce moderate–vigorous physical or work outdoors during high air pollution episodes.
+
+In addition to regional action, local action to reduce daily background air pollution should be promoted in order to ensure physical activity under the best conditions for health.
+
+What does the report say on portable air filters?
+=================================================
+
+Staying indoor is one way to reduce exposure from air pollution, provided that indoor air pollutants are kept low. A systematic review of the literature about the efficacy of portable air filters (or por- table air cleaners) in real-world situations (i.e. not in a laboratory or occupational setting) showed that they are efficient to reduce indoor particulate matter (PM2.5) concentration by 40-82%. As for the improvement of health effects, the results indicate some health improvements, and mostly in healthy adults.
+
+However, the few studies available in the literature that focused mostly on efficacy, only included small number of participants - mostly health ones - and covered short-term time frames only. Long-term studies on susceptible population to air pollution impacts are lacking.
+
+Can air filters be recommended as a public health measure?
+==========================================================
+
+It would be premature to recommend the use of portable air filters as a public health measure for three reasons :
+
+- There is a lack of information on effectiveness in the real world, which depends on rates of infiltration of outdoor air pollutants into the indoor environment and human activities.
+
+- They may have adverse indoor and environmental impact, such as build-up of gaseous pollutants either generated indoors, like ozone produced by some electrostatic filters or due to sealing measures (e.g. closing windows) for CO2, and noise.
+
+- The high cost of maintenance (e.g. changing filters) and equitable access issues need to be considered as limiting factors.
+
+The use of portable air filters might be proposed for people with preexisting conditions, such as COPD, heart failure or lung transplants, who should stay at home and be protected from exposure to air pollution.
+
+What is a respirator in the context of air pollution?
+=====================================================
+
+A respirator is a mask that covers the nose and mouth and fits tightly to the face, which can filter out PM2.5 particles, including smoke or ash particles. Respirators have primarily been developed to protect workers in high exposure work places. Filtering facepiece respirators are made entirely of filter material and are the most common type of air-purifying particulate respirators.
+
+There are well-established occupational certifications, recommendations and protocols for respirator use. The general public should be cautious when purchasing products advertised online that have not been assessed for conformity by e.g. Chinese National Standards (GB), European Conformity (CE), the Japanese Industrial Standard or the US National Institute for Occupational Safety and Health (NIOSH) standard.
+
+Respirators that are filtering 95% of airborne particle are called N95 (the most popular name) in the USA following the NIOSH Standard but are called KN95 in China following the Chinese National Standard, and FFP2 respirators in Europe following the European Conformity Standard. These terms (e.g. N95 etc), which refer to the particle removal efficiency of respirators, has not been patented or copyrighted and can be used by any maker of masks, even without proper testing. Packaging should be examined for certification or approval by a known national or international authority.
+
+Can respirators protect from air pollution in the occupational setting?
+=======================================================================
+
+According to occupational recommendations and protocols, there are five factors that ensure that a respirator is effective :
+
+- Putting it on correctly.
+
+- Ensuring that it fits properly.
+
+- Using it continuously during exposure.
+
+- Replacing the respirator or the filter when it becomes saturated.
+
+- Confirming that it has been approved to remove ≥ 95 % of particles.
+
+Because of differences in facial structures across the world, no one respirator can be guaranteed to fit all users. There are no commercial respirators designed for children (based on information available as of February 2019). There is, to date. no information on the application of well-established occupational recommendations and protocols for respirator use by the public and who should be the responsible authority on this.
+
+When respirators are properly selected and used, they reduce exposure to harmful inhalation pollutants. However, those with underlying medical conditions such as respiratory disease need to be cautious, as these issues could be exacerbated when using a respirator.
+
+Do respirators protect from air pollution in real world situations?
+===================================================================
+
+A systematic review of the literature about the efficacy of respirators use in reducing exposure to particulate matter in real-world situations (i.e. not in a laboratory or occupational setting) showed little if any health improvements. However, there were few studies in the literature that focused mostly on efficacy, and these only included small numbers of participants - mostly health ones – and only covered short-term time frames. Most studies did not provide information on how well the respirators worked or fitted, which might have biased the results. There is no evidence available on the effectiveness of respirator use in the general population or on susceptible populations.
+
+Can respirators be recommended as a public health measure?
+==========================================================
+
+Given the limited evidence on the effectiveness of respirators to protect health in real conditions of use by the general population, their use should not be recommended. Rather, the recommendation should be to continue and intensify action to reduce air pollutant emissions and to reduce or limit every day exposure when possible.
+
+The use of respirators is recommended or required in specific occupational situations. In the general population they may be recommended under well-controlled procedures for short periods in situations such as wildfires, volcanic eruptions, acute desert dust episodes or clean-up after a disaster. Here again, a special caution is necessary for people with respiratory and cardiovascular disease for whom it may not be advisable to use a respirator due to increased dead space, airway resistance and psychological stress.
+
+How equitable is it to recommend personal interventions?
+========================================================
+
+Breathing clean air is a human right. Responsibility for the provision of clean air lies within the society and must not be delegated to the individual, as the individual has very limited options of decreasing her/his own exposure. Moreover, placing the responsibility for reducing exposure to air pollution on individuals raises important issues of equity in terms of individuals’ need and opportunities/ability to implement the recommendations due to differential access to information and resources.
+
+Recommendations should account for the individual cultural, educational and socioeconomic context, the resources available to follow those recommendations, the information available to make an informed decision, people’s perceived risk of harm from air pollution as compared with competing health risks and the basic human right to a sustainable livelihood.
+
+Effective actions by authorities could ease the pressure on individuals to reduce their own expo- sure. The actions include, most importantly, legislation to ensure clean air, but in the interim can include subsidies to individuals in the greatest need, in terms of both reducing exposure to air pollution and accessing resources, to implement the recommended interventions.
+
+What is this the role of medical societies?
+===========================================
+
+Medical societies can play a central role in educating the public about the health effects of air pollution and in developing and distributing clinical guidelines, which might have to be region-specific and with inequity properly addressed.
+
+In guideline development and advocacy, medical societies should ensure that the responsibility for providing a healthy environment is that of society, and every attempt to place the responsibility on the individual must be prevented.

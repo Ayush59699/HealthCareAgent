@@ -1,0 +1,102 @@
+WHO QUESTIONS AND ANSWERS
+Title: mRNA technology transfer hub
+URL: https://www.who.int/news-room/questions-and-answers/item/mrna-technology-transfer-hub
+Retrieved: 2026-10-05T09:47:46.358523+00:00
+
+========================================
+
+What is a technology transfer hub?
+==================================
+
+Technology transfer in biomedical research and development is the transfer of a medical technology from the originator to a secondary user, allowing that user to manufacture the technology and sell it on usually new markets. It can also include transfer of knowledge, manufacturing practices and intellectual property.
+
+Typically, technology transfer is bilateral – from the originator of the technology to a recipient. A technology transfer hub in contrast, is multilateral. It brings together in one single place all the elements needed to establish the technology (know-how, data, formula, intellectual property and in many cases training) and then transfers the fully validated manufacturing process to multiple secondary users.
+
+Multilateral technology transfer hubs are needed when there is a request from multiple recipients to receive the technology and when there is limited interest in bilateral agreements.
+
+Why did WHO establish the mRNA technology transfer hub?
+=======================================================
+
+By early 2021, production and supply constraints, vaccine hoarding by wealthy countries and companies prioritizing sales to governments that could pay the highest price had made it clear that low- and middle-income countries would be pushed to the end of the queue for receiving COVID-19 vaccines.
+
+While WHO continuously advocated for equitable sharing of vaccines through the COVAX Facility, and for sharing of technology through bilateral and multilateral agreements (i.e. through the COVID-19 Technology Access Pool), the initiative of establishing an mRNA technology transfer hub surfaced as a valid strategy to increase mRNA vaccine production capacity in under-served regions, and thus promote regional health security.
+
+The aim is to support manufacturers in low- and middle-income countries to produce their own vaccines, ensuring that they have all the necessary operating procedures and know-how to produce mRNA vaccines at scale and according to WHO Good Manufacturing Practices.
+
+Have any mRNA hubs been established, and how many are planned?
+==============================================================
+
+In April 2021, WHO issued a call for expressions of interest to companies wishing to host an mRNA technology transfer hub. In June 2021, WHO announced that it had selected a South African consortium to run the hub, which will serve all low- and middle-income countries. No additional mRNA technology transfer hubs are planned.
+
+The selected consortium comprises Afrigen Biologics, the South African Medical Research Council (SAMRC) and Biovac, a South African vaccine producer. Within this consortium, Afrigen is the entity mandated to establish mRNA vaccine production technology, SAMRC is providing the research and Biovac is the first manufacturing “spoke”.
+
+The hub has already established mRNA vaccine production at laboratory scale and is currently scaling up and validating production at commercial scale.
+
+Training of the recipients (the spokes) will begin in March 2022.
+
+How many spokes will there be?
+==============================
+
+In September 2021, the Pan-American Health Organization (PAHO) announced agreements with two centres to establish regional mRNA manufacturer spokes - in Brazil, with the Bio-Manguinhos Institute of Technology on Immunobiologicals at the Oswaldo Cruz Foundation, and in Argentina with Sinergium Biotech.
+
+In November 2021, WHO had an open call for Expressions of Interest from other potential manufacturing spokes. Announcements of these are expected in February.
+
+How will the South African mRNA hub work?
+=========================================
+
+Afrigen Biologics will develop the vaccine and produce batches for clinical trials. Researchers will initially use publicly available information on an existing vaccine for which raw ingredients are commercially available as a basis to develop a first candidate and validate the process. With support from South African researchers and biotech companies, Afrigen will, in parallel, proceed to develop a vaccine more suited to the geographical contexts in which it will be used – i.e. with fewer storage constraints – and cheaper to produce.
+
+Once a vaccine has been successfully developed, the spokes will mass-produce the vaccine for national and regional use. Each spoke will need to seek approval in their jurisdiction, which will be facilitated by the sharing of the full pre-clinical and clinical data from the hub.
+
+Who will hold the intellectual property rights to the vaccines developed by the hub?
+====================================================================================
+
+The South African hub will initially use publicly available information about an existing COVID-19 vaccine to replicate the technology. This technology was chosen because the originator company has publicly stated that it would not enforce patent rights during the pandemic.
+
+The hub, in collaboration with South African academic groups and biotech companies outside of South Africa is developing second generation mRNA vaccine technologies. Intellectual property resulting from this activity will be held by the inventors but will be made freely available to the spokes in the hub.
+
+The Medicines Patent Pool (MPP) – which co-leads the hub initiative with WHO – will assist with its expertise in intellectual property management by providing intellectual property analysis and defining and negotiating terms and conditions of eventual agreements.
+
+How long before the vaccines produced by the hub can be administered?
+=====================================================================
+
+Clinical trials are expected to start in the fourth quarter of 2022. A first approval could potentially be in 2024. The spokes in countries receiving the technology should be able to secure approval shortly thereafter.
+
+Why does the hub focus specifically on mRNA?
+============================================
+
+There are several factors that make mRNA technology a good focus for the technology transfer hub:
+
+- mRNA vaccines have proved highly efficacious against COVID-19, and so far against new variants.
+
+- mRNA technologies can potentially be adapted to vaccines for other diseases and also to treatments. Investing in training for use of this technology will have long-term benefits for the regions where production will be based, most of which are currently under-served by the global pharmaceutical market.
+
+- Though a relatively new technology, mRNA is easy to share, develop and adapt to new variants. Companies that can produce quality medical products can adapt their manufacturing to this technology.
+
+How do the announcements by Moderna, Biontech, Providence and others for their plans to establish mRNA vaccine production in Africa affect the WHO hub?
+=======================================================================================================================================================
+
+Numerous biotech companies have announced plans to establish mRNA vaccine production on the African continent. WHO welcomes all initiatives aiming to expand quality biomedical manufacturing in Africa and other under-served regions. These bilateral partnerships are good contributions to the overall effort and WHO stands ready to support all countries involved at their request
+
+The mRNA hub in South Africa has more of a global approach. It is serving not only Africa but the entire world. To date, over 20 countries have requested access to the hub’s technology transfer.
+
+How is WHO encouraging scale-up of manufacturing capacity in under-served regions?
+==================================================================================
+
+Within the broader context of promoting local production, technology transfer alone is insufficient. Two major barriers need to be overcome – the low availability of a trained workforce and weak regulatory capacity.
+
+WHO is addressing these gaps by establishing biomanufacturing workforce training hubs and working with the WHO Academy to ensure that regulatory and biomanufacturing training meet countries’ needs and objectives.
+
+How will WHO ensure that regulatory authorities in low- and middle-income countries will be able to provide quality assurance for these new products?
+=====================================================================================================================================================
+
+Regulatory systems play a key role in assuring the quality, safety, and efficacy of medical products and in licensing them so that they may be made available to populations. WHO is working with multiple regulatory authorities in countries that stand to benefit from the hub by evaluating them through its global benchmarking tool (GBT).
+
+The tool and benchmarking methodology enable WHO and regulatory authorities to identify strengths and gaps and build improvement plans. Once improvements have been made, the regulatory authority is assessed according to its maturity level on a scale of 1 (existence of some elements of a regulatory system) to 4 (operating at advanced level of performance and continuous improvement).
+
+WHO intends to use the GBT to evaluate and publicly designate WHO-listed authorities (WLAs) that have been objectively documented to perform at maturity levels 3 and 4. Several countries involved in the hub are at an advanced stage of being assessed for their maturity level.
+
+Will the transfer of mRNA technology be sufficient to ensure regional/national health security?
+===============================================================================================
+
+While the initiative will contribute to regional capacity to produce vaccines, we have seen during the COVID-19 pandemic that supply chains are a critical barrier to national and regional responses. During the early phase of the pandemic, supplies of key materials for vaccine production, such as glass vials, rubber stoppers or fermented bags were not reaching regions lacking their own capacities to produce them. For mRNA, the list of essential raw materials is long and could be a barrier to local production. WHO is exploring opportunities to facilitate regional production of some of these ingredients.

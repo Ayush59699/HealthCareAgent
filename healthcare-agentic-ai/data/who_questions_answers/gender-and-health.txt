@@ -1,0 +1,104 @@
+WHO QUESTIONS AND ANSWERS
+Title: Gender and health
+URL: https://www.who.int/news-room/questions-and-answers/item/gender-and-health
+Retrieved: 2026-10-05T09:46:00.914117+00:00
+
+========================================
+
+Gender norms, roles and relations, and gender inequality and inequity, affect people’s health all around the world. This Q&A examines the links between gender and health, highlighting WHO’s ongoing work to address gender-related barriers to healthcare, advance gender equality and the empowerment of women and girls in all their diversity, and achieve health for all.
+
+What is gender?
+===============
+
+Gender refers to socially constructed characteristics of women and men – such as norms, roles and relations of and between groups of women and men[1]. Gender norms, roles and relations vary from society to society and evolve over time. They are often upheld and reproduced in the values, legislation, education systems, religion, media and other institutions of the society in which they exist. When individuals or groups do not “fit” established gender norms they often face stigma, discriminatory practices or social exclusion – all of which adversely affect health. Gender is also hierarchical and often reflects unequal relations of power, producing inequalities that intersect with other social and economic inequalities.
+
+[1] World Health Organization. (‎2011)‎. Gender mainstreaming for health managers: a practical approach. Geneva : World Health Organisation.
+
+What is the difference between gender and sex?
+==============================================
+
+Gender interacts with but is different from sex. The two terms are distinct and should not be used interchangeably. It can be helpful to think of sex as a biological characteristic and gender as a social construct. Sex refers to a set of biological attributes in humans and animals. Sex is mainly associated with physical and physiological features including chromosomes, gene expression, hormone level and function, and reproductive and sexual anatomy.
+
+Sex is often categorized as females and males, but there are variations of sex characteristics called intersex. The term ‘intersex’ is used as an umbrella term for individuals born with natural variations in biological or physiological characteristics (including sexual anatomy, reproductive organs and/or chromosomal patterns) that do not fit traditional definitions of male or female[1]. Infants are generally assigned the sex of male or female at birth based on the appearance of their external anatomy/genitalia.
+
+[1] UN High Commissioner for Refugees. (2021). Need to Know Guidance: Working with Lesbian, Gay, Bisexual, Transgender, Intersex and Queer Persons in Forced Displacement.
+
+What is the difference between gender, sex, gender identity, gender expression and sexual orientation?
+======================================================================================================
+
+Gender identity refers to a person’s innate, deeply felt internal and individual experience of gender, which may or may not correspond to the person’s physiology or designated sex at birth.
+
+Gender expression refers to how an individual expresses their gender identity, including dress and speech[1]. Gender expression is not always indicative of gender identity. ‘Transgender’ is an umbrella term for people whose gender identity and expression does not conform to the norms and expectations traditionally associated with the sex assigned to them at birth; it includes people who are transsexual, transgender or otherwise gender non-conforming[2].
+
+Sexual orientation refers to a person’s physical, romantic and/or emotional attraction (or lack thereof) towards other people[3]. It encompasses hetero-, homo- and bisexuality and a wide range of other expressions of sexual orientation[4]. Sexual orientation cannot be assumed from one’s assigned sex at birth, gender identity or gender expression.
+
+[1] World Health Organization. (‎2016)‎. Frequently asked questions on health and sexual diversity: an introduction to key concepts. World Health Organization.
+
+[2] World Health Organization. (‎2016)‎. Consolidated guidelines on HIV prevention, diagnosis, treatment and care for key populations, 2016 update. World Health Organization.
+
+[3] World Health Organization. (‎2016)‎. Frequently asked questions on health and sexual diversity: an introduction to key concepts. World Health Organization.
+
+[4] UN High Commissioner for Refugees. (2021). Need to Know Guidance: Working with Lesbian, Gay, Bisexual, Transgender, Intersex and Queer Persons in Forced Displacement.
+
+How do sex and gender influence health?
+=======================================
+
+Sex and gender interact in complex ways to affect health outcomes. Sex can affect disease risk, progression and outcomes through genetic (e.g. function of X and Y chromosomes), cellular and physiological, including hormonal, pathways. These pathways can produce differences in susceptibility to disease, progression of disease, treatment and health outcomes, and are likely to vary over the life-course. For example, data shows that men experience more severe COVID-19 outcomes in terms of hospitalizations and deaths than women. This is, in part, explained by higher quantities of angiotensin-converting enzyme found in men, which binds to the SARS-COV2 virus.
+
+Gender norms, socialization, roles, differentials in power relations and in access to and control over resources contribute to differences in vulnerabilities and susceptibilities to illness, how illness is experienced, health behaviours (including health-seeking), access to and uptake of health services, treatment responses and health outcomes. For example, gender can determine health risks faced and taken. Data show that men’s increased risk of acquiring SARS-COV2, is also linked to their lower rates of handwashing, higher rates of smoking and alcohol misuse and, related to that – higher comorbidities for severe COVID-19 symptoms as compared to women.
+
+How else does gender link with health?
+======================================
+
+Gender has implications for health across the course of every person’s life. Gender can influence a person’s experiences of crises and emergency situations, their exposure to diseases and their access to healthcare, water, hygiene and sanitation.
+
+Gender inequality disproportionately affects women and girls. In most societies, they have lower status and have less control over decision-making about their bodies, in their intimate relationships, families and communities, exposing them to violence, coercion and harmful practices. Women and girls face high risks of unintended pregnancies, sexually transmitted infections including HIV, cervical cancer, malnutrition and depression, amongst others. Gender inequality also poses barriers for women and girls to access health information and critical services, including restrictions on mobility, lack of decision-making autonomy, limited access to finances, lower literacy rates and discriminatory attitudes of healthcare providers.
+
+Gender diverse people are more likely to experience violence and coercion, stigma and discrimination, including from health workers. Data suggests that transgender individuals experience high levels of mental health illness – linked to the discrimination and stigma they face from societies and in healthcare settings[1].
+
+[1] Blondeel, Karel, de Vasconcelos, Sofia, García-Moreno, Claudia, Stephenson, Rob, Temmerman, Marleen. et al. (‎2018)‎. Violence motivated by perception of sexual orientation and gender identity: a systematic review. Bulletin of the World Health Organization, 96 (‎1)‎, 29 - 41L. World Health Organization.
+
+What is intersectionality and why does it matter to gender and health?
+======================================================================
+
+“Intersectionality” builds on, and extends, the understanding of how gender power dynamics interact with other power hierarchies of privilege or disadvantage, resulting in inequality and differential health outcomes for different people[1]. These factors include sex, gender, race, ethnicity, age, class, socioeconomic status, religion, language, geographical location, disability status, migration status, gender identity and sexual orientation.
+
+For example, indigenous women have worse maternal health outcomes than non-indigenous women and are less likely to benefit from health care services in Latin America and the Caribbean. Therefore, inequities in maternal health between different ethnic groups should be monitored to identify critical, modifiable, health system and community factors that could limit health care coverage, including language, religion, territory and place of residence. Monitoring health inequities is essential for designing more effective programmes and policies to reduce health risks among indigenous women[2].
+
+[1] Manandhar, Mary, Hawkes, Sarah, Buse, Kent, Nosrati, Elias & Magar, Veronica. (‎2018)‎. Gender, health and the 2030 agenda for sustainable development. Bulletin of the World Health Organization, 96 (‎9)‎, 644 - 653. World Health Organization.
+
+[2] Paulino, Nancy Armenta, Vázquez, María Sandín & Bolúmar, Francisco. (‎2019)‎. Indigenous language and inequitable maternal health care, Guatemala, Mexico, Peru and the Plurinational State of Bolivia. Bulletin of the World Health Organization, 97 (‎1)‎, 59 - 67. World Health Organization.
+
+Why is gender equality also men’s concern?
+==========================================
+
+Harmful gender norms – including those related to rigid notions of masculinity – affect the health and well-being of boys and men. For example, notions of masculinity encourage boys and men to smoke, take sexual and other health risks, misuse alcohol and not seek help or health care. Such gender norms also contribute to boys and men perpetrating violence against women and girls. They also contribute to violence perpetrated against men including homicide, youth and gang violence, which are among leading causes of morbidity and mortality among young men. Harmful masculinities also have grave implications for men’s mental health.
+
+Societal expectations and norms around “manhood” lead men to engage in risk-taking behaviors; for example, being encouraged to have multiple sexual partners. In addition to affecting men’s health, this also leads to negative outcomes for women and children due to increased interpersonal violence, the transmission of sexually transmitted infections (STIs) and unintended pregnancy. Men’s lack of participation in domestic and care work adds to the high burden of unpaid care work often performed by women[1].
+
+[1] Pan American Health Organization. (2019). Masculinities and Health in the Region of the Americas. Washington, D.C.: PAHO.
+
+What are gender mainstreaming and gender analysis?
+==================================================
+
+Gender mainstreaming is the process of assessing the implications for women, men and gender diverse people of any planned action within a health system, including legislation, policies, programmes or service delivery, in all technical areas and at all levels. It is a strategy for making the concerns and experiences of diverse women and men an integral dimension of the design, implementation, monitoring and evaluation of policies and programmes in all spheres so that they benefit equally and inequality is not perpetuated. Gender mainstreaming is not an end in itself but a strategy, an approach and a means to achieve the goal of gender equality.
+
+Gender analysis identifies, assesses and informs actions to address inequality and inequity[1]. It is used to systematically identify differentials between groups of women and men, whether related to sex or gender, in terms of risk factors, exposures and manifestations of ill-health, severity and frequency of diseases, health seeking behaviours, access to care and experiences in health care settings, as well as outcomes and impact of ill-health. Systematically collecting and analyzing data disaggregated by sex and additional factors such as age, ethnicity, socio-economic status and disability, is critical.
+
+[1] World Health Organization. (‎2011)‎. Gender mainstreaming for health managers: a practical approach. Geneva : World Health Organisation.
+
+What does gender have to do with the health targets of the Sustainable Development Goals (SDGs)?
+================================================================================================
+
+Gender equality and the empowerment of women and girls are central to the 2030 Agenda for Sustainable Development and all 17 Sustainable Development Goals (SDGs). Ensuring health and well-being for all at all ages (SDG 3) cannot be achieved without addressing the specific barriers and challenges faced by women, men, girls, boys and gender diverse people. Gender equality (SDG 5) is a development goal in its own right and there are 45 targets and 54 gender-specific indicators addressing gender equality across all of the SDGs. Achieving these targets and closing gender inequalities will therefore create a multiplier effect across all of the SDGs and accelerate their achievement.
+
+WHO’s work on gender is aligned with and supports the advancement of the SDGs, especially SDG3 and SDG5. The achievement of SDG3 on universal health coverage and SDG 5 on gender equality are co-dependent – without strengthening gender equality in the health workforce, across communities and across the world, universal health coverage cannot be attained. The WHO is committed to non-discrimination and to leaving no-one behind and seeks to ensure that every person, regardless of gender or sex, has the opportunity to live a healthy life.
+
+What is WHO doing to advance gender equality and to mainstream gender across its work?
+======================================================================================
+
+WHO’s 13th General Programme of Work (2019-23) recognizes the need to promote gender equality and to mainstream gender in all of the Organization’s work. WHO develops norms, standards and guidelines and delivers training on gender-responsive health service provision and delivery, and commissions research on issues focusing on gender equality, human rights and health equity.
+
+WHO also supports country-level action to strengthen health sector response to gender-based violence as well as to address gender equality in health workforce development and gender-related barriers to health services. WHO works to challenge gender stereotypes and to implement programmes, services and policies that promote gender equality in order to achieve health equity and Universal Health Coverage.
+
+WHO regularly reports on the UN System-wide Action Plan for Mainstreaming Gender Equality and the Empowerment of Women (UN-SWAP) to foster accountability and monitor progress towards gender equality. WHO is committed to increasing diversity and women’s meaningful participation within the Organization at all levels. Institutional policies to promote women’s career development, increase gender parity, end all-male panels, address work−life balance and prevent harassment in the workplace are being implemented in the Organization. The WHO Director General is a Gender Champion for the International Gender Champion (IGC) Parity Panel Pledge.

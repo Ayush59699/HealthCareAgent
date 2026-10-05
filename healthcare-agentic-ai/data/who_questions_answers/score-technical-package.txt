@@ -1,0 +1,148 @@
+WHO QUESTIONS AND ANSWERS
+Title: Health information systems: SCORE technical package
+URL: https://www.who.int/news-room/questions-and-answers/item/score-technical-package
+Retrieved: 2026-10-05T09:49:25.915070+00:00
+
+========================================
+
+SCORE is a technical package of essential interventions, recommended actions, tools and resources that aim to support countries in addressing challenges in meeting health information systems (HIS) needs. It represents – for the first time in a single, harmonized package – all the key elements to enable governments to address data gaps, invest in scalable solutions, and take informed policy action. SCORE will be maintained and updated on a regular basis by WHO. See a set of frequently asked questions and how to get in touch below.
+
+What is the SCORE for Health Data Technical Package?
+====================================================
+
+- SCORE (Survey, Count, Optimize, Review, Enable) for Health Data Technical Package addresses WHO’s commitment to support Member States in the effective collection, analysis, reporting and use of health data to improve population health and achieve the health-related Sustainable Development Goals. This has been further reiterated in WHO’s Thirteenth General Programme of Work
+
+- SCORE is a one-stop solution to address common challenges around availability of timely, reliable, validated and comparable health data raised by the WHO World Health Statistics 2020 Report and UN Sustainable Development Goals Report 2020 and highlighted by the current COVID-19 pandemic.
+
+- SCORE is not intended to replace existing guidance on implementing various components of a health information system. Rather, it provides a harmonized package of the most effective interventions needed to address critical gaps and strengthen country health data for planning and monitoring of national and subnational health priorities.
+
+What comprises the SCORE for Health Data Technical Package?
+===========================================================
+
+- The SCORE for Health Data Technical Package comprises an Assessment Instrument which measures the status of country or regional health information systems and can be used to provide a basis for country planning for health information system strengthening; two technical guidance documents published in August 2020 (Essential Interventions and Tools & Standards); and the recently launched SCORE Global Report on Health Data Systems and Capacity-2020 and SCORE Online Data Portal (1 February 2021).
+
+Current Resources
+
+- SCORE Essential Interventions: An overview of health information systems. For each of the interventions, the document provides the underlying key elements, the indicators used to assess and monitor and examples of actions to be taken.
+
+- SCORE Tools and Standards: A list of up-to-date resources for each intervention.
+
+- SCORE Assessment Instrument: A data collection instrument (and accompanying user guide) to assess a country’s health information system and identify gaps.
+
+- SCORE Global Report on Health Data Systems and Capacity-2020: Presents assessment results from 133 country health information systems covering 87% of the global population.
+
+- SCORE Assessment Methodology: A technical explanation of the scoring method used in the Global Report for quantifying SCORE indicators, elements and interventions.
+
+- SCORE Country Assessment Summary: PDFs showing country-specific results.
+
+- SCORE Online Data Portal: An interactive data platform that allows countries and regions to view their assessment result summaries and conduct other regional analysis using validated SCORE data.
+
+Forthcoming Resources
+
+- SCORE Regional Status Report and Assessment: Regional summary reports and profiles that focus on interventions relevant to specific regions.
+
+What is the added value of the SCORE for Health Data Technical Package?
+=======================================================================
+
+- Countries are faced with increasing demands for quality health data in a timely manner. Data of increasing scope and complexity are required for monitoring progress and informing action on national and subnational priorities as well as global and regional health targets, which must encompass multiple equity dimensions and multisectoral components.
+
+To respond to this, the SCORE Technical Package:
+
+- Improves data quality in countries by providing a one-stop solution to address challenges around data availability, timeliness, and comparability as raised in the WHO World Health Statistics 2020 Report and UN Sustainable Development Goals Report 2020.
+
+- Addresses data fragmentation by providing a common set of tools and standards to improve health information systems.
+
+- Provides resources for countries to prepare and respond to health emergencies such as COVID-19 and other public health threats.
+
+- Provides a comprehensive resource to effectively measure and track progress against health-related SDGs, including Universal Health Coverage and other national and sub-national health priorities and targets.
+
+- Provides tools and resources to enable governments to assess inequality by generating disaggregated data.
+
+- Addresses lack of funding and country capacity by guiding governments to prioritize health challenges, develop health policies, direct resources and measure the success of their investments.
+
+- Increases multisectoral collaboration by bringing together - for the first time - a collection of the most effective interventions and resources for health systems strengthening from diverse experts and stakeholders.
+
+- Includes precise solutions to improve health information systems and addresses the entire data life cycle from collection to use and everything in-between.
+
+What is unique about the SCORE for Health Technical Package?
+============================================================
+
+- The SCORE for Health Data Package brings together, for the first time, a set of the most effective interventions and tools for addressing critical data gaps and strengthening country health data for monitoring health priorities and inform planning.
+
+- The interventions selected are known to be the most effective, feasible, sustainable, and scalable, and, like other technical packages, aim to communicate in a way that resonates with policy makers and health leaders globally.
+
+How can SCORE for Health Data Technical Package strengthen country Health Information Systems?
+==============================================================================================
+
+- The SCORE for Health Data Technical Package will assist Member States in strengthening country data systems and capacity to monitor and track progress towards the health-related SDGs, including Universal Health Coverage and other national and sub-national health priorities and targets.
+
+- Countries can use the SCORE technical package, particularly the SCORE country summary, to prioritize investments and accelerate progress towards universal health coverage and WHO’s Triple Billion targets while protecting the health and wellbeing of their populations.
+
+- SCORE will help focus investments on priority interventions that together can achieve substantial impact on the availability, quality, synthesis, analysis and use of health data.
+
+- The package will guide countries to take strategic and targeted action, and drive investments, by consolidating the best technical practices to strengthen health information systems using universally accepted standards and tools.
+
+What is the SCORE global report on health data systems and capacity, 2020?
+==========================================================================
+
+The SCORE global report on health data systems & capacity, 2020, launched on 1 February 2021, is a key component of the SCORE Technical Package.
+
+The report places countries at the centre to address gaps and inequalities in health information systems. It presents assessment results from 133 country health information systems covering 87% of the global population and highlights the need for greater investment in key areas. Additional countries are anticipated to be included in future releases.
+
+The report represents the results of country health information system assessments conducted by WHO between 2018 and 2020 using the WHO SCORE Assessment Instrument. This is a global monitoring tool that can be used as a basis for countries to collect data on their health information systems.
+
+The report provides concrete recommendations and guidance for countries to invest in health information system priority areas that can achieve greatest impact to improve heath data collection, quality control, synthesis, analysis and the use of health data.
+
+How many countries were covered by the report?
+==============================================
+
+The SCORE global report required great commitment and efforts to collect and validate the large amount of data across a wide spectrum. 133 countries made the cut-off point and were included in this first report; we look forward to including the more countries in future assessments.
+
+What are the key findings of the SCORE global report?
+=====================================================
+
+- The SCORE global report shows key health information system areas that have benefited from efforts made over time, but also highlights critical areas in need of strengthening that require focused national and international collaboration.
+
+- Globally, 68% of countries have well-developed and sustainable capacity for public health threat surveillance. Yet this varies between regions and income groups.
+
+- Most countries maintain a census or population registry and 86% conducted a census in the last 10 years, providing important baseline data for many health estimates. However, only half of the countries provided disaggregated population projections, limiting the use of these data.
+
+- High-quality data are not routinely collected in sufficient detail to allow effective assessment of health trends and health inequalities at various levels.
+
+- The divide between high and low-income countries is reflected in many key areas, including the counting of births, deaths and causes of death.
+
+- Nearly 40% (4 in 10) of the world’s deaths remain unregistered. The current COVID-19 pandemic has brought this into focus, whereby countries face serious challenges in both measuring the full burden of the virus as well as accurately counting deaths.
+
+- Optimizing health service data is critical to ensure equitable, quality services for all. Yet nearly 50% of countries have limited or less capacity for systematic monitoring of quality of care.
+
+- The report illustrates the high availability of data on immunization, tuberculosis and HIV/AIDS although less coverage of mental health and cancer. For instance, only 48% of countries report national facility data on severe mental health disorders. Data coverage is usually better at national and subnational levels, but less so when disaggregated by sex and age.
+
+- Approximately 60% of 133 countries have a well-developed or sustainable system for conducting analytical reviews of progress and performance of their health sector to make informed decisions, representing more than 75% of the world population.
+
+- An environment that enables data use for policy and action is critical for ensuring the effective use of health data. Almost 60% of countries have good capacity for using data and evidence to drive policy and planning, but only 42% of countries have good capacity for data access and sharing; 32% of the countries have good capacity for a national digital health strategy based on recommended standards.
+
+In summary, while some countries have achieved a sustainable capacity in key areas,  no country has a fully mature health information system capable of meeting its evolving needs.
+
+What are the recommendations of the SCORE global report?
+========================================================
+
+- All countries to conduct post-enumeration surveys after each census.
+
+- Countries should strengthen their death registration systems.
+
+- Improve health data disaggregation to identify health gaps among underprivileged groups and address
+inequalities.
+
+- Investments should be made across all major health programmes to strengthen countries’ general health data systems, rather than specific programmes.
+
+- Strong data governance regulations are also needed to improve data access and sharing, and to translate data into policies.
+
+Where can I find more information on SCORE?
+===========================================
+
+Find out more information on score on the WHO website at https://www.who.int/data/data-collection-tools/score
+
+How do I make enquiries, send comments, feedback, and/or make updates to SCORE tools and resources?
+===================================================================================================
+
+The SCORE for Health Data Technical Package will be routinely updated to keep current with new resources. For enquiries, comments, feedback and updates to SCORE tools and resources, please send an email with details to score@who.int.

@@ -1,0 +1,101 @@
+WHO QUESTIONS AND ANSWERS
+Title: Poliomyelitis
+URL: https://www.who.int/news-room/questions-and-answers/item/poliomyelitis
+Retrieved: 2026-10-05T09:48:15.902388+00:00
+
+========================================
+
+Does polio still exist? Is it curable?
+======================================
+
+Polio does still exist, although polio cases have decreased by over 99% since 1988, from an estimated more than 350 000 cases in more than 125 endemic countries, to two endemic countries (as of 2025). This reduction is the result of the global effort to eradicate the disease, thanks to the Global Polio Eradication Initiative, a global public-private partnership.
+
+Despite the progress achieved since 1988, as long as a single child remains infected with poliovirus, children in all countries are at risk of contracting the disease. The poliovirus can easily be imported into a polio-free country and can spread rapidly amongst unimmunized populations. Failure to eradicate polio would result in global resurgence of the disease.
+
+There is no cure for polio, it can only be prevented. Polio vaccine, given multiple times, can protect a child for life.
+
+For more on the global effort to eradicate polio, please visit the Global Polio Eradication Initiative website at www.polioeradication.org.
+
+What is wild poliovirus?
+========================
+
+Wild polioviruses are the naturally occurring strains of poliovirus that circulate in the environment.
+
+There are three serotypes of wild poliovirus: type 1, type 2, and type 3. Immunity to one serotype does not confer immunity to the other two. Outbreaks were largely unknown prior to the 20th century. However, with improved sanitation in the 20th century, the average age at which individuals were exposed to the virus increased. With progressively declining protection from maternal antibodies, infection increasingly resulted in paralysis.
+
+Type 2 wild poliovirus was declared eradicated in September 2015, with the last virus detected in India in 1999. Type 3 wild poliovirus was declared eradicated in October 2019. It was last detected in November 2012. Only type 1 wild poliovirus remains.
+
+What is variant (vaccine-derived) polio?
+========================================
+
+Circulating variant (vaccine-derived) poliovirus, are rare, but such strains have been increasing in recent years due to low immunization rates within communities. cVDPV type 2 (cVDPV2) are the most prevalent.
+
+The oral polio vaccine (OPV) that has brought the wild poliovirus to the brink of eradication has many benefits: the live attenuated (weakened) vaccine virus provides better immunity in the gut, which is where polio replicates. The vaccine virus is also excreted in the stool, and in communities with low-quality sanitation, this means that it can be spread from person to person and actually help protect the community.
+
+However, in communities with low immunization rates, as the virus is spread from one unvaccinated child to another over a long period of time (often over the course of about 12–18 months), it can mutate and take on a form that can cause paralysis just like the wild poliovirus. This mutated poliovirus can then spread in communities, leading to cVDPVs.
+
+The small risk of cVDPVs pales in significance to the tremendous public health benefits associated with OPV. Every year, hundreds of thousands of cases due to wild polio virus are prevented. Well over 20 million cases have been averted since large-scale administration of OPV began when the Global Polio Eradication Initiative was launched.
+
+Circulating VDPVs in the past have been rapidly stopped with 2–3 rounds of high-quality immunization campaigns. The solution is the same for all polio outbreaks: immunize every child several times with the oral vaccine to stop polio transmission, regardless of the origin of the virus.
+
+What is the difference between oral polio vaccine (OPV) and inactivated polio vaccine (IPV)?
+============================================================================================
+
+The development of effective vaccines to prevent paralytic polio was one of the major medical breakthroughs of the 20th century. The Global Polio Eradication Initiative uses two types of vaccine to stop polio transmission – inactivated polio vaccine (IPV) and oral polio vaccine (OPV).
+
+If enough people in a community are immunized against polio, the virus will be deprived of susceptible hosts and will die out. High levels of vaccination coverage must be maintained to stop transmission and prevent outbreaks occurring. The Global Polio Eradication Initiative is constantly assessing the optimal use of the different types of vaccine to prevent paralytic polio and stop poliovirus transmission in different areas of the world.
+
+The oral polio vaccine (OPV) is safe and extremely effective, and the most common kind of vaccine used in the fight to eradicate polio. There are different types of OPVs that protect against one, a combination of two, or all three different serotypes of polio – types 1, 2, and/or 3.
+
+Unlike the inactivated polio vaccine (IPV), OPV has a unique ability to stop person-to-person spread of poliovirus. Additionally, it is easier to administer and can be distributed quickly on a large scale. The use of OPV has helped reduce global polio cases by over 99% since 1988, and it remains a vital tool in the effort to end polio everywhere.
+
+Inactivated polio vaccine (IPV) was developed in 1955 by Dr Jonas Salk. Also called the Salk vaccine IPV consists of inactivated (killed) poliovirus strains of all three poliovirus types. IPV is given by intramuscular or intradermal injection and needs to be administered by a trained health worker. IVP produces antibodies in the blood to all three types of poliovirus. In the event of infection, these antibodies prevent the spread of the virus to the central nervous system and protect against paralysis.
+
+What are the advantages and disadvantages of the opal polio vaccine?
+====================================================================
+
+Advantages
+
+- OPVs are all inexpensive (US$ 0.15–0.20 for countries procuring through UNICEF).
+
+- OPVs are safe and effective and offer long lasting protection for individuals against the serotype(s) which they target.
+
+- For several weeks after vaccination the vaccine virus replicates in the intestine, is excreted and can be spread to others in close contact. This means that immunization with OPV can result in ‘passive’ immunization of people who have not been vaccinated.
+
+- OPVs are administered orally and do not require health professionals, sterile needle syringes or a complex cold chain system. As such, OPVs are easy to administer in large-scale vaccination campaigns and to transport to hard-to-reach areas.
+
+Disadvantages
+
+- OPV is safe and effective. However, in extremely rare cases (at a rate of approximately 1 in 2.7 million doses) the weakened vaccine-virus in OPV can cause vaccine-associated paralytic poliomyelitis (VAPP). The extremely low risk of VAPP is accepted by public health programmes given the strong protection OPV otherwise provides.
+
+- In places where not enough children are immunized against polio, the weakened vaccine-virus can pass through the community and, in rare instances over time, genetically revert to a form that can cause paralysis. This is known as variant poliovirus, or cVDPV.
+
+What are advantages and disadvantages of the inactivated polio vaccine (IPV)?
+=============================================================================
+
+Advantages
+
+- As IPV is not a ‘live’ vaccine, it carries no risk of vaccine-associated paralytic poliomyelitis (VAPP).
+
+- IPV triggers an excellent protective immune response in most people.
+
+Disadvantages
+
+- IPV induces very low levels of immunity in the intestine. As a result, when a person immunized with IPV is infected with wild poliovirus, the virus can still multiply inside the intestines and be shed in the faeces, risking continued circulation.
+
+- IPV is over five times more expensive than OPV. Administering the vaccine requires trained health workers, as well as sterile injection equipment and procedures.
+
+Safety
+
+IPV is one of the safest vaccines in use. No serious systemic adverse reactions have been shown to follow vaccination.
+
+Efficacy
+
+IPV is highly effective in preventing paralytic disease caused by all three types of poliovirus.
+
+Which polio vaccine is recommended?
+===================================
+
+An increasing number of industrialized, polio-free countries are using IPV as the vaccine of choice. This is because the risk of paralytic polio associated with continued routine use of OPV is deemed greater than the risk of imported wild virus.
+
+However, as IPV does not stop transmission of the virus, OPV is used wherever a polio outbreak needs to be contained, even in countries which rely exclusively on IPV for their routine immunization programme. Once polio has been eradicated, use of all OPV will need to be stopped to prevent re-establishment of transmission due to VDPVs.

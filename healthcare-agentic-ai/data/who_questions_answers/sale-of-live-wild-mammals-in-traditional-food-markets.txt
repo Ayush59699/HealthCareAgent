@@ -1,0 +1,51 @@
+WHO QUESTIONS AND ANSWERS
+Title: Food safety: Sale of live wild mammals in traditional food markets
+URL: https://www.who.int/news-room/questions-and-answers/item/sale-of-live-wild-mammals-in-traditional-food-markets
+Retrieved: 2026-10-05T09:49:20.434642+00:00
+
+========================================
+
+Why are WHO, OIE and UNEP recommending countries suspend trade in live wild mammals for food and close sections of food markets selling these animals?
+======================================================================================================================================================
+
+Animals, particularly wild animals, are the source of more than 70% of all emerging infectious diseases in humans, many of which are caused by novel viruses. Traditional food markets, where live animals are held, slaughtered and dressed, pose a particular risk to workers and customers alike. Captured wild mammals carry the highest risk of infections going undetected and affecting humans who are exposed to them through close contact.
+
+Suspending trade in these live wild mammals and closing those parts of the market where they are kept or sold will reduce the potential for new, dangerous viruses to emerge and infect humans.
+
+Millions of people around the world depend on traditional markets for their food and livelihoods. These measures will protect people’s health – both those working there and those shopping there.
+
+Is the recommendation to suspend the sale of live wild mammals a temporary, emergency measure?
+==============================================================================================
+
+WHO, OIE and UNEP recommend suspending the sale of all live wild mammals as an emergency measure. Calling for an emergency measure allows for a quick change to food regulations, which is typically a lengthy process.
+
+This suspension may be temporary while national authorities conduct a risk assessment of each market to identify critical areas and practices for improvement, and develop new regulations. These regulations should also include provisions for identifying the source of animals to ensure that live wild animals are not illegally introduced to wildlife farms, as mixing wild and farmed animals could further increase the risk of transmission of pathogens to humans.
+
+Why are captured wild mammals sold in markets a risk to human health?
+=====================================================================
+
+Captured wild mammals come into markets without any way to certify if they carry dangerous viruses. Thus, there is a risk of direct transmission to humans from coming into contact with the saliva, blood, urine, mucus, faeces, or other body fluids of an infected animal, and an additional risk of picking up the infection from contact with areas where animals are housed in markets or objects or surfaces that could have been contaminated with such viruses.
+
+What animals are a part of the suspension and what animals are not?
+===================================================================
+
+The suspension covers captive live wild mammals, usually small animals, such as civet cats, bamboo rats, raccoon dogs and other small mammals.
+
+This does NOT cover farmed wild animals, fish or seafood of any kind, farmed or domestically raised animals (poultry, beef, pork, sheep, goats etc), sale of slaughtered wild animals or their meat.
+
+Why are farmed wild mammals considered safer than those captured in the wild?
+=============================================================================
+
+Farming of wild animals is a common practice in many parts of the world. This is done as a means of providing wild meat (as opposed to, for example, domesticated beef and pork) under more controlled settings. Farms that produce captive wild animals need to be registered, approved, and inspected for animal health and welfare standards by the relevant competent authorities. These measures contribute to reducing the introduction and spread of zoonotic diseases. These controls are not possible with captured wildlife, since their exposure to pathogens cannot be monitored or regulated.
+
+Should I no longer hunt in the wild and eat what I kill?
+========================================================
+
+This suspension only applies to commercially traded live wild animals. It does not apply to hunting and eating wild game for yourself.
+
+Check your country’s Wild Game Regulations to follow proper procedures.
+
+Can I get COVID-19 from the food I eat?
+=======================================
+
+COVID-19 is not foodborne, but precautions should always be taken when preparing and consuming food. See five keys to safer food and Q&As on COVID-19 and food safety.

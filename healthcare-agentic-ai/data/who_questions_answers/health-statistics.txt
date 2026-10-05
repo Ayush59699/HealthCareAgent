@@ -1,0 +1,29 @@
+WHO QUESTIONS AND ANSWERS
+Title: Health statistics
+URL: https://www.who.int/news-room/questions-and-answers/item/health-statistics
+Retrieved: 2026-10-05T09:46:20.388498+00:00
+
+========================================
+
+How do statistics improve health?
+=================================
+
+Countries need health statistics in order to identify why people die or what causes illness or injury. This information enables countries to target their health problems and prioritize the use of precious health resources.
+
+Every year WHO analyses data from its 194 Member States and produces burden of disease and mortality health estimates, which are published in the "World health statistics". These estimates are a report card of global health. They tell us, for example, that risks to health are changing. Fewer people are dying from infectious diseases in low- and middle-income countries but more people are suffering from chronic diseases due to changing patterns of physical activity and consumption of alcohol, tobacco and food. These countries now suffer from a double burden of chronic, non-communicable conditions as well as the diseases that traditionally affect the poor.
+
+How does WHO collect statistics?
+================================
+
+WHO statistics are generated from multiple sources using a variety of data collection methods, including household surveys, routine reporting by health services, civil registration and censuses and disease surveillance systems.
+
+In estimating country figures, WHO applies methods of analysis that improve data quality and ensure transparency in the application of the adjustments that are needed to make the data more comparable across countries and over time. (Data that are comparable have been generated using the same or similar methods, for similar populations and time periods, using standard definitions).
+
+WHO is working with countries to improve the quality of health information. Currently, WHO receives cause-of-death statistics regularly from only about 100 Member States.. Globally, two-thirds (38 million) of 56 million annual deaths are not registered.
+
+WHO makes its data and analyses accessible through the Global Health Observatory portal as well as databases that provide statistics on a wide range of diseases and health indicators.
+
+Related links
+-------------
+
+Global Health Observatory

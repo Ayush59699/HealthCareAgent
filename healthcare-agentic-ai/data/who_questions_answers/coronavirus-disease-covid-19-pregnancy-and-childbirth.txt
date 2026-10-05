@@ -1,0 +1,110 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Pregnancy, childbirth and the postnatal period
+URL: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-pregnancy-and-childbirth
+Retrieved: 2026-10-05T09:44:37.077794+00:00
+
+========================================
+
+Updated 15 March 2022.
+
+Are pregnant women at higher risk from COVID-19?
+================================================
+
+Pregnant women do not seem to be at higher risk of getting SARS-CoV-2, the virus that causes COVID-19. However, studies have shown an increased risk of developing severe COVID-19 if they are infected, compared with non-pregnant women of a similar age. COVID-19 during pregnancy has also been associated with an increased likelihood of preterm birth.
+
+Pregnant women who are older, overweight or have pre-existing medical conditions such as hypertension (high blood pressure) and diabetes are at particular risk of serious outcomes of COVID-19.
+
+It is important that pregnant women – and those around them – take precautions to protect themselves against COVID-19. If they become unwell (including with fever, cough or difficulty breathing), they should seek urgent medical advice from a health worker.
+
+I’m pregnant. How can I protect myself against COVID-19?
+========================================================
+
+Pregnant women should take the same precautions to avoid COVID-19 infection as other people. Measures to protect yourself – and those around you – include:
+
+- getting vaccinated;
+
+- keeping space between yourself and other people, and avoiding crowded spaces;
+
+- keeping rooms well ventilated;
+
+- wearing a mask where it is not possible to keep sufficient physical distance from others;
+
+- washing your hands frequently with an alcohol-based hand rub or soap and water; and
+
+- practicing respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.
+
+If you have fever, cough or difficulty breathing, seek medical care early. Call before going to a health facility and follow the directions of your local health authority.
+
+Pregnant women and women who have recently delivered should attend their routine care appointments according to local policies and following adapted measures to reduce possible transmission of the virus.
+
+Should pregnant women be tested for COVID-19?
+=============================================
+
+Testing protocols and eligibility during pregnancy vary depending on where you live.
+
+However, WHO recommendations are that pregnant women with symptoms of COVID-19 should be prioritized for testing. If they have COVID-19, they may need specialized care.
+
+Can COVID-19 be passed from a woman to her unborn or newborn baby?
+==================================================================
+
+Transmission of the virus while your baby is in the womb or during birth is possible, but very rare. Most babies won’t develop COVID-19 disease, and those who develop symptoms tend to recover quickly.
+
+Babies can be infected after birth, so if you do get COVID-19, it is important for you and other caregivers to take all precautions to reduce the risks of passing the virus to the baby.
+
+Babies can be placed skin-to-skin and breastfed if the mother is confirmed or suspected to have COVID-19. The numerous benefits of skin-to-skin contact and breastfeeding substantially outweigh the potential risks of transmission and illness associated with COVID-19.
+
+What care should be available during pregnancy, childbirth and the postnatal period?
+====================================================================================
+
+All pregnant and postpartum women and their newborns, including those with confirmed or suspected COVID-19 infections, have the right to high quality care before, during and after childbirth, including mental health care.
+
+A safe and positive childbirth experience includes:
+
+- being treated with respect and dignity
+
+- having a companion of choice present during delivery
+
+- clear communication by maternity staff
+
+- appropriate pain relief strategies
+
+- mobility in labour where possible, and birth position of choice.
+
+If COVID-19 is suspected or confirmed, health workers should take all appropriate precautions to reduce risks of infection to themselves and others, including hand hygiene and appropriate use of protective clothing like gloves, gown and medical mask.
+
+Do pregnant women with suspected or confirmed COVID-19 need to give birth by caesarean section?
+===============================================================================================
+
+No. WHO advice is that caesarean sections should only be performed when medically justified.
+
+The mode of birth should be individualized and based on a woman’s preferences alongside obstetric indications.
+
+Can I touch and hold my newborn baby if I have COVID-19?
+========================================================
+
+Yes. Close contact and early, exclusive breastfeeding helps a baby to thrive. You should be supported to
+
+- breastfeed safely, with good respiratory hygiene
+
+- hold your newborn skin-to-skin
+
+- share a room with your baby.
+
+Can pregnant women get vaccinated against COVID-19?
+===================================================
+
+Yes, pregnant women can be vaccinated against COVID-19.
+
+COVID-19 vaccines offer strong protection against severe illness, hospitalization and death from COVID-19. Vaccination during pregnancy is important whenever there is risk of the disease, but especially for frontline health workers, people living in areas where there is high community transmission, and those with health conditions like hypertension (high blood pressure) and diabetes that add to risk of severe disease.
+
+Some evidence also suggests that babies may receive protective benefits from the vaccine, in addition to the benefits for pregnant women.
+
+Pregnant women in many countries around the world have now received COVID-19 vaccines, and no safety concerns have been identified related to their pregnancies or the health of their babies. None of the COVID-19 vaccines authorized to date use live viruses, which are more likely to pose risks during pregnancy.
+
+- Clinical management interim guidance
+
+- WHO recommendations on antenatal care for a positive pregnancy experience
+
+- WHO recommendations: intrapartum care for a positive childbirth experience
+
+- Recommendations on non-clinical interventions to reduce unnecessary c-sections

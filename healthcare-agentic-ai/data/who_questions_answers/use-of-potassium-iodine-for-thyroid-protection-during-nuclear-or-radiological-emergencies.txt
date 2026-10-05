@@ -1,0 +1,94 @@
+WHO QUESTIONS AND ANSWERS
+Title: Use of potassium iodide for thyroid protection during nuclear or radiological emergencies
+URL: https://www.who.int/news-room/questions-and-answers/item/use-of-potassium-iodine-for-thyroid-protection-during-nuclear-or-radiological-emergencies
+Retrieved: 2026-10-05T09:50:21.826720+00:00
+
+========================================
+
+During a nuclear accident, radioactive iodine may be released to the environment in a plume or cloud and subsequently contaminate soil, surfaces, food and water.
+
+How does exposure to radioactive iodine occur?
+==============================================
+
+During a nuclear accident, radioactive iodine may be released to the environment in a plume or cloud and subsequently contaminate soil, surfaces, food and water. It may settle on an individual’s skin and clothing, resulting in external exposure to radiation. Radioactive iodine deposited on skin can be removed by washing with warm water and soap.
+
+If radioactive iodine is inhaled (e.g., from a radioactive cloud) or ingested (e.g., through contaminated food, milk or water), it results in internal exposure to radiation. When radioactive iodine enters the body, it accumulates in the thyroid gland in the same way non-radioactive stable iodine would due to the natural biokinetic pathway of iodine in the human body.
+
+What are the health risks of exposure to radioactive iodine?
+============================================================
+
+Iodine is a necessary element of the human diet and is used by the thyroid gland to produce hormones that regulate the body’s metabolism. During a nuclear accident, the thyroid gland is at particular risk as it does not differentiate between stable (non-radioactive) and radioactive iodine. Uptake of radioactive iodine may increase the risk of thyroid cancer, particularly in children. The younger the age at exposure, the higher the risk of developing thyroid cancer later in life. In children of Chernobyl, exposed to radioactive iodine with contaminated milk and food, the increase in the incidence of thyroid cancer was first detected 4 to 5 years after the time of exposure in 1986.
+
+How can the risk of exposure to radioactive iodine be reduced?
+==============================================================
+
+The thyroid gland can be protected from radioactive iodine by saturating it with stable (non-radioactive) iodine. This protective measure known as iodine thyroid blocking (ITB) consists of administering potassium iodide (KI) (1) tablets before or at the beginning of exposure to radioactive iodine. When taken at the appropriate dosage and within the correct time interval around exposure to radioactive iodine, KI saturates the thyroid gland with stable (non-radioactive) iodine. As a result, radioactive iodine will not be taken up and stored by the thyroid gland. Any iodine which exceeds the thyroid’s needs for production of thyroid hormones (either non-radioactive or radioactive) will be excreted through the urine within days.
+
+Is KI a radiation antidote?
+===========================
+
+No. KI is not an antidote for radiation exposure. It only protects the thyroid gland and only if there is a risk of internal exposure to radioactive iodine (e.g., a nuclear power plant accident).
+
+Please note that KI:
+
+- does not protect against any other radioactive substances that may be released in the environment as a result of a nuclear accident (2);
+
+- does not protect against external radiation, e.g., from radioactivity deposited on the ground, on surfaces or on foods; and
+
+- does not prevent radioactive iodine from entering the body, but it does prevent its accumulation in the thyroid.
+
+Is there enough iodine in table salt and a normal diet?
+=======================================================
+
+Stable (non-radioactive) iodine is an essential nutrient that humans need in very small quantities for the thyroid gland to function properly. This gland gathers iodine to produce thyroid hormones, which are important for metabolism in all age groups. Thyroid hormones are also crucial for brain maturation and the development in the fetus and young child from the 15th week of gestation to 3 years of age. When iodine intake falls below certain levels, the thyroid is no longer able to produce hormones in sufficient amounts, which is a threat to health. In some areas where foods and diet are deficient in iodine, intake is supplemented using iodized table salt.
+
+However, iodized table salt used in day-to-day eating and cooking does not contain sufficient concentrations of iodine to block the uptake of radioactive iodine by the thyroid. During nuclear emergencies, iodized table salt should not be used as a substitute for KI since it will not provide protection against radioactive iodine, and because eating excessive amounts of iodized salt will itself pose a significant health hazard.
+
+When and how should I take KI?
+==============================
+
+KI should not be taken as a generic protective measure in anticipation of an event. KI tablets should be taken only when explicitly instructed to do so by public health authorities. The effectiveness of KI for thyroid blocking depends on its timely administration. The optimal period of administration of stable iodine is less than 24 hours prior to, and up to 2 hours after, the expected onset of exposure. It would still be reasonable to take KI up to 8 hours after the exposure. However, taking it later than 24 hours after exposure will offer no protection.
+
+Instructions from public health authorities about how KI must be taken should be followed carefully; the correct dose of KI will differ according to age (see the package insert for detailed dosage explanation). A single dose of KI usually offers adequate protection for 24 hours.
+
+In the event of prolonged or repeated exposure, unavoidable ingestion of contaminated food and drinking water, and where evacuation is not feasible, repeated administration of stable iodine may be necessary. Under such circumstances, neonates (< 1 month of age), pregnant or breastfeeding women, and persons older than 60 years should not be given repeated doses of KI. Other protective actions should be considered for these particular groups on a case-by-case basis and under medical advice.
+
+How is KI distributed?
+======================
+
+Nuclear emergency preparedness usually includes plans to ensure that KI tablets are readily accessible. This can mean they are pre-distributed to strategic sites such as households, schools, hospitals, pharmacies, fire and police stations, and evacuation and civil defence centres. When the implementation of iodine thyroid blocking with KI is warranted, public health authorities should define the geographic area in which the population should take KI tablets, as well as when, how and by whom. These instructions may be given through the radio, TV, internet, loudspeakers and other available channels and should be carefully followed. National authorities decide on the methods of pre-positioning and pre-distribution of KI pills in their countries.
+
+Voluntary purchase of iodine tablets by the general public is allowed in many countries; however, it should not be taken until instructed by authorities. In addition, iodine thyroid blocking (ITB) should not be implemented as stand-alone protective action but jointly with other measures such as sheltering, evacuation, and stopping the consumption of contaminated food and drinking water, if needed.
+
+Can KI be given to children?
+============================
+
+Yes, when instructed by public health authorities. The risk of thyroid cancer in children following exposure to radioactive iodine is higher than in adults; younger age groups are at highest risk. As a result, the protection of children must be considered a priority when public health authorities distribute and administer KI to individuals. It should be given to all children at the recommended dosage. The only exceptions are children who have an absolute contraindication (see below on contraindications).
+
+Newborn babies (< 1 month of age) should only ever take a single dose of KI. These babies should have their thyroid hormone levels monitored after the administration of KI; a consultation with a paediatrician within the first week after the administration of KI is advisable. As thyroid function in newborn babies is critical for brain development, babies should have their thyroid hormone levels monitored after the administration of KI.
+
+Can pregnant and breastfeeding women take KI tablets?
+=====================================================
+
+Yes, when instructed by public health authorities and following the recommended dosage for adults.
+
+During pregnancy, the mother's thyroid gland is metabolically more active than in non-pregnant women, and the amount of radioactive iodine that will be taken up by the thyroid increases in comparison with other adults. The fetal thyroid gland may be exposed to radioactive iodine through the placenta, but it will also be protected by the KI taken by the mother. Like the rest of the population, pregnant women should take KI tablets only when instructed so by the authorities. By doing so, they will protect their own thyroid as well as that of their unborn child. Once the nuclear emergency is over, pregnant women should inform their doctor so this information can be added to their medical records and thyroid function of the newborn baby can be evaluated. Pregnant women should usually take only a single dose of KI.
+
+Breastfeeding women also should take KI tablets only when instructed by public health authorities. The amount of KI that a breastfeeding woman will provide to an infant through breast milk is not enough to protect the thyroid of an infant exposed to radioactive iodine. Therefore, in addition to the KI tablet taken by a woman who is breastfeeding, the baby should also be given KI at the recommended, age-specific dosage (3). Under these conditions, breastfeeding can continue. Unless otherwise instructed, breastfeeding women and newborn babies should each take only a single dose of KI.
+
+Are there adverse effects of KI?
+================================
+
+When used as instructed by public health authorities, the overall benefits of thyroid blocking with KI during a nuclear emergency will outweigh the risks of side effects in all age groups. When the appropriate dosage is followed, side effects from KI are rare in children and young adults. However, they may include mild allergic reactions, skin rash and gastrointestinal upset.
+
+The risk of side effects from KI increases with age, while the risk of radiation induced thyroid cancer in individuals over 40 years old is low. For this reason, thyroid blocking with KI is not generally indicated in adults over 40 years of age (with an exception for emergency response personnel). Rare adverse effects of KI on thyroid function may occur in individuals with pre-existing thyroid disorders, which are more common in older adults and the elderly than in children or young adults. Side effects are more likely in individuals who receive a dosage higher than recommended, or who receive repeated doses of KI. The frequency of these thyroid disorders varies between countries, so national authorities may adopt different approaches when determining the appropriate age groups and dosing for administration of KI.
+
+There are few clinical conditions in which the administration of KI is absolutely contraindicated.
+
+Notes
+
+1. Potassium iodide is an inorganic salt where potassium (K) and iodine (I) are combined in a one-to-one ratio to form potassium iodide. Therefore, its chemical formula is KI. Another compound that national health authorities may decide to use is potassium iodate (KIO3) and in that case the appropriate dosage will be indicated.
+
+2. A nuclear accident may result in a release of a mixture of many radionuclides known as “nuclear fission products”. The exact composition of the release will depend on the type of the reactor and the materials involved in the release, but main radionuclides representing health risk are radioactive isotopes of caesium and radioactive iodine.
+
+3. KI is usually presented in scored tablets, which facilitates fractionation for pediatric dosage.

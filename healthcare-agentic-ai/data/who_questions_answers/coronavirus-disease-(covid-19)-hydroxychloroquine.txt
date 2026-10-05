@@ -1,0 +1,21 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Hydroxychloroquine
+URL: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-hydroxychloroquine
+Retrieved: 2026-10-05T09:43:57.725088+00:00
+
+========================================
+
+Does WHO recommend hydroxychloroquine to prevent COVID-19?
+==========================================================
+
+WHO does not recommend hydroxychloroquine to prevent COVID-19. This recommendation is based on findings from 6 trials, with more than 6000 participants, who did not have COVID-19 and received hydroxychloroquine. Using hydroxychloroquine for prevention had little or no effect on preventing illness, hospitalization or death from COVID-19. Taking hydroxychloroquine to prevent COVID-19 may increase the risk of diarrhoea, nausea, abdominal pain, drowsiness and headache. More information can be found here.
+
+Hydroxychloroquine is used to treat autoimmune diseases including arthritis. While considered generally safe, several adverse events are associated with its use, and it should only be used under medical supervision.
+
+Does WHO recommend hydroxychloroquine as a treatment for COVID-19?
+==================================================================
+
+WHO does not recommend hydroxychloroquine as a treatment for COVID-19. This recommendation is based on findings from 30 trials with more than 10 000 COVID-19 patients. Hydroxychloroquine did not reduce mortality, the need for or duration of mechanical ventilation. Taking hydroxychloroquine to treat COVID-19 may increase the risk of heart rhythm problems, blood and lymph disorders, kidney injury, liver problems and failure.
+More information can be found here.
+
+Hydroxychloroquine is used to treat autoimmune diseases including arthritis. While considered generally safe, several adverse events are associated with its use, and it should only be used under medical supervision.

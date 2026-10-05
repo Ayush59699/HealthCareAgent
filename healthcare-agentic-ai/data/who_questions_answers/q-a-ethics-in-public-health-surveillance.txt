@@ -1,0 +1,41 @@
+WHO QUESTIONS AND ANSWERS
+Title: Ethics in public health surveillance
+URL: https://www.who.int/news-room/questions-and-answers/item/q-a-ethics-in-public-health-surveillance
+Retrieved: 2026-10-05T09:48:25.279010+00:00
+
+========================================
+
+What is public health surveillance?
+===================================
+
+Public health surveillance is the continuous and systematic collection, analysis and interpretation of health-related data, in order to plan, implement and evaluate public health practice. Public health surveillance is performed routinely to monitor disease trends, and also plays a vital role in responding to epidemics. It can be done by using door-to-door surveys, web surveys, disease registries, laboratory data, and so on. Newer tools currently being employed or considered include data from social networks, genetic data, and non-health related data from various sources.
+
+Why are ethics important in public health surveillance?
+=======================================================
+
+The effectiveness of public health surveillance as a basis for stemming the spread of disease depends on trust: can the people whose data are being collected trust that it will be used to protect their health? If there is no trust, people will not agree to share their data, or if they do, it will be unreliable. Public health surveillance, conducted in a manner that anticipates ethical challenges and seeks proactively to reduce unnecessary risks, will go a long way in building and maintaining trust of the affected populations.
+
+How should communities be involved in public health surveillance?
+=================================================================
+
+Agencies or organizations that conduct public health surveillance should take account of community values, concerns, and priorities in a transparent manner. Communities can’t be engaged if they have no means of knowing about the benefits, and risks (or potential for harm) of surveillance. Active engagement of the community may involve meetings with community leaders, focus group discussions, and other forums that provide an opportunity for members to clearly express their values and concerns. In whatever manner the community is engaged, it is critical that decision-making be transparent, fair, and open to revision. The active inclusion and participation of communities fosters trust and creates conditions for citizens to advance the common good individually and collectively.
+
+How are surveillance ethics different from research ethics?
+===========================================================
+
+The principle guiding values in research ethics are autonomy, privacy and confidentiality. By contrast, the ethics of public health surveillance focuses on the common good, solidarity, accountability, trust and balancing of individual rights with collective interests.
+
+How can potential harms from public health surveillance be avoided?
+===================================================================
+
+Identifiable information like names and addresses of individuals are sometimes part of surveillance records. Using unique identifiers such as numbers instead of names is one way to prevent identities from being inadvertently disclosed. Another is “geo-masking”, which preserves vital information on the spatial distribution of cases but does not pinpoint exactly where the clusters of cases are. Assessing the legal protections for those who might be particularly susceptible to harm is another strategy for ensuring that, in advance of surveillance, broad social protections are in place. In many nations, laws requiring surveillance are paired not only with security protections but clear protections of economic, social, and civil rights.
+
+Should public health data be shared, and if so, who with?
+=========================================================
+
+In the context of emergency situations, rapid data sharing is imperative. It is also appropriate to share public health data for legitimate research purposes that have been approved by an ethics review committee. But data collected in the name of the public health should never be shared for the purpose of taking action against individuals or for uses unrelated to public health. Access to such personal information by agencies responsible for national security, law enforcement, or the allocation of social benefits should usually be allowed only after legal due process. To preserve trust in public health surveillance systems, there should be a compelling justification for sharing identifiable data for non-public health uses.
+
+Why is oversight important?
+===========================
+
+An engaged oversight body can help to identify ethical issues when they arise, consider new evidence or emerging best practices, and deal with vexing problems in an accountable, transparent manner. Decisions that may require ethical oversight include collecting data that reveal stigmatized behaviour; adopting new uses for existing surveillance data, such as for case management or contact tracing; or using public health surveillance data for commercial or security purposes. Oversight is also important to ensure that there is active monitoring for harms and appropriate data sharing. But mechanisms for the ethical oversight can also help to ensure that states meet their obligations to conduct surveillance responsibly.

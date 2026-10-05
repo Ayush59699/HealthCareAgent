@@ -1,0 +1,262 @@
+WHO QUESTIONS AND ANSWERS
+Title: Q&A on Strengthening Infection Prevention & Control in Healthcare Facilities – focus on Private Sector – webinar on IPC practices
+URL: https://www.who.int/news-room/questions-and-answers/item/q-a-on-strengthening-infection-prevention-control-in-healthcare-facilities-focus-on-private-sector-webinar-on-ipc-practices
+Retrieved: 2026-10-05T09:48:36.809352+00:00
+
+========================================
+
+What is the definition of a contact? What are the criteria for high risk and low risk contacts?
+===============================================================================================
+
+In the context of COVID-19, a contact is a person who has come in contact with a lab confirmed case of
+
+COVID-19 through:
+
+- Providing direct care without proper personal protective equipment (PPE) for COVID-19 patients,
+
+- Staying in the same close environment of a COVID-19 patient, including workplace, classroom, household, gatherings, or
+
+- Traveling together in close proximity (1 m) with a symptomatic person who later tested positive for COVID-19.
+
+Criteria for a high-risk contact include:
+
+- Touched body fluids of the patient respiratory tract secretions, blood, vomit, saliva, urine, faeces.
+
+- Had direct physical contact with the body of the patient including physical examination without PPE.
+
+- Touched or cleaned the linen, clothes or dishes of the patient.
+
+- Lives in the same household as the patient.
+
+- Anyone in close proximity (within 1m) and for >15 minutes of the confirmed case without precautions.
+
+- Passenger in close proximity (within 1m) and for >6 hours of a conveyance with a symptomatic person who later tested positive for COVID-19
+
+Criteria for a low risk contact include:
+
+- Shared the same space – room or area with a COVID-19 patient but not having a high-risk exposure.
+
+- Travelled in same environment (bus/train/flight/any mode of transit) but not having a high-risk exposure.
+
+References:
+
+- Updated case definitions and contact categorisation
+
+- Guidelines on preventive measures to contain spread of COVID-19 in workplace settings (Annexure – I)
+
+Which areas and procedures in hospitals and laboratory require wearing of PPE – triple-layered mask/N95?
+========================================================================================================
+
+SARS-CoV-2 is transmitted mainly through respiratory droplets that get generated when people cough, sneeze, or exhale. SARS-CoV-2 also gets transmitted by touching, by direct touch and through contaminated surfaces or objects and then touching their own mouth, nose, or possibly their eyes. Based on risk assessment, MoHFW has developed the following guidelines on personal protective equipment (PPE) to protect healthcare workers from healthcare associated infections:
+
+- Novel Coronavirus Disease 2019 (COVID-19): Guidelines on rational use of Personal Protective Equipment – guides healthcare workers and others working in points of entries (POEs), quarantine centres, hospital, laboratory and primary health care/community, using the setting approach to guide regarding the type of personal protective equipment to be used in different settings.
+
+- Novel Coronavirus Disease 2019 (COVID-19): Additional guidelines on rational use of Personal Protective Equipment (setting approach for Health functionaries working in non-COVID areas) – guides healthcare workers and others working in Non-COVID hospitals and Non-COVID treatment areas of a hospital which has a COVID block.
+
+- Revised Guidelines for Dialysis of COVID-19 patients – provides guidance for healthcare workers in haemodialysis units
+
+What are the specifications and standards for various types of personal protective equipment (PPE) particularly face shield, mask, gown, safety goggles, gloves?
+================================================================================================================================================================
+
+The MoHFW, Government of India standards for personal protective equipment are detailed in annexure-A of Novel Coronavirus Disease 2019 (COVID-19): Guidelines on rational use of Personal Protective Equipment
+
+Is 0.3-micron mask enough for COVID-19 work? Will it filter the viruses?
+========================================================================
+
+Yes. Since infection is spread primarily through respiratory droplets (5-10 microns) or rarely through droplet nuclei (1-5 micron) during aerosol generating procedures, a 0.3-micron mask is enough for COVID-19 work.
+
+How to reuse and extend usage of N95? What is the guidance from AIIMS/CDC on reuse of N95 masks?
+================================================================================================
+
+All India Institute of Medical Sciences, New Delhi has prepared guidelines on extended use of N95 masks for personal safety of healthcare workers; notification available at
+
+https://www.aiims.edu/images/pdf/notice/SOP_N95_09_04_20.pdf
+
+These are also explained in a video available at https://covid.aiims.edu/using-personal-protection-n95- masks-given-to-health-care-workers-at-aiims/
+
+Centers for Disease Control and Prevention (CDC) USA has also developed Recommended Guidance for Extended Use and Limited Reuse of N95 Filtering Facepiece Respirators in Healthcare Settings
+
+Kindly elaborate the sequence of putting on (donning) and taking off (doffing) of personal protective equipment (PPE)?
+======================================================================================================================
+
+The procedure for putting on and removing PPE should be tailored to the specific type of PPE. The steps for donning are:
+
+- Gown
+
+- Mask/respirator
+
+- Goggles or face shield
+
+- Gloves
+
+The steps for doffing are:
+
+- Gloves – these are the most contaminated and should be removed first, followed by hand hygiene.
+
+- Goggles or face shield
+
+- Gown – roll it inside-out before discarding in appropriate bin
+
+- Mask or respirator
+
+- Wash hands or use alcohol-based hand rub if hands get contaminated during any of the steps of doffing.
+
+- Hand hygiene is very important before donning, after doffing as well as in between the steps of doffing. Kindly refer to CDC guidance on putting on and safe removal of PPE available at https://www.cdc.gov/hai/pdfs/ppe/ppe-sequence.pdf
+
+If you triage asymptomatic patient as non-COVID and take him for surgery and intubation – is this high risk?
+============================================================================================================
+
+Risk assessment must be performed as per triage guidelines issued by MoHFW. Based on the assessment, personal protective equipment is required for all procedures and interventions that may generate aerosols. Kindly refer to the following guidelines by MoHFW on the following.
+
+- Guidance document on appropriate management of suspect/confirmed cases of COVID-19
+
+- Additional guidelines on rational use of Personal Protective Equipment (setting approach for Health functionaries working in non-COVID areas)
+
+How do you triage asymptomatic/pre-symptomatic patients presenting with non-COVID features?
+===========================================================================================
+
+There is no national policy, and each hospital must frame their own guideline for this. The common COVID symptoms (fever, dry cough and tiredness) and less common symptoms (aches and pains, nasal congestion, headache, conjunctivitis, sore throat, diarrhoea, loss of taste or smell or a rash on skin or discoloration of fingers or toes) may be used for triaging. However, triaging of truly asymptomatic cases is a challenge.
+
+Is home quarantine better than institutional quarantine for asymptomatic persons?
+=================================================================================
+
+Home quarantine is more convenient and comfortable and based on the challenge of compliance/quality of institutional quarantine, MoHFW has provided the option for home isolation/quarantine, subject to fulfilling certain conditions.
+
+Please refer to Revised guidelines for Home Isolation of very mild/pre-symptomatic COVID-19 cases
+
+If any inpatient or health care worker becomes COVID-positive, does the entire hospital have to be shut down? If so, for how many hours or days?
+================================================================================================================================================
+
+Once a suspect/confirmed case is detected in a healthcare facility, standard procedure of rapid isolation, contact listing and tracking, disinfection will follow with no need to shut down the whole facility. Kindly refer to Guidelines to be followed on detection of suspect/confirmed COVID-19 case in a non COVID Health Facility
+
+What should be the air-changes/hour in isolation rooms, where there is no air-conditioning?
+===========================================================================================
+
+If air-conditioning is not available, negative pressure could be created by putting 3-4 exhaust fans to suck air out of the room. In district hospitals, where there is sufficient space, natural ventilation may be followed. Such isolation facility should have large windows on opposite walls of the room allowing a natural unidirectional flow and air changes. Kindly refer to the MoHFW guidelines on COVID19 outbreak: guidelines for setting up isolation facility/wards
+
+What extra-precautions should be taken in operation theatre about ventilation and design?
+=========================================================================================
+
+Ventilation and design requirements are detailed in annex 10 (page 232) of the National Guidelines for Infection Prevention and Control in Healthcare Facilities.
+
+What are aerosol generating procedures?
+=======================================
+
+Aerosols are produced when air currents move across the surface of a film of liquid, generating small particles at the air–liquid interface. The particle size is inversely related to the velocity of air. Therefore, if a procedure causes air to travel at high velocity over the respiratory mucosa and epithelium, there is potential risk of the production of tiny aerosols (e.g. droplet nuclei).
+
+An aerosol-generating procedure (AGP) is defined as any procedure on a patient that can induce the production of aerosols of various sizes, including droplet nuclei. AGPs associated with documented increase in risk of pathogen transmission include intubation and related procedures (manual ventilation and suctioning), cardiopulmonary resuscitation, bronchoscopy, autopsy and surgery where high-speed devices (e.g. saw or drill) are used.
+
+What are recommended concentrations for hand sanitiser and surface disinfectants?
+=================================================================================
+
+Environmental surfaces are more likely to be contaminated with the COVID-19 virus in health-care settings where certain medical procedures are performed. Environmental surfaces in health-care settings include furniture and other fixed items inside and outside of patient rooms and bathrooms, such as tables, chairs, walls, light switches and computer peripherals, electronic equipment, sinks, toilets as well as the surfaces of non-critical medical equipment, such as blood pressure cuffs, stethoscopes, wheelchairs and incubators. The concentrations of products for environmental cleaning and disinfection in following guidelines.
+
+- Cleaning and disinfection of environmental surfaces in the context of COVID-19
+
+- National Guidelines for Infection Prevention and Control in Healthcare Facilities (see annex 5.2: Procedures for cleaning and sanitation of environment)
+
+Which is the best disinfectant for high touch surfaces including electronic items?
+==================================================================================
+
+After cleaning, the following disinfectants and defined concentrations can be used on environmental surfaces – especially high-touch surfaces including electronic items – to achieve a >3 log10 reduction of human coronavirus, and they are also effective against other clinically relevant pathogens in the health-care setting. Contact time of a minimum of 1 minute is recommended for these disinfectants or as recommended by the manufacturers
+
+- Chlorine based products (1% hypochlorite)
+
+- Alcohol based products (70% ethanol or isopropyl alcohol)
+
+Kindly refer to National Guidelines for Infection Prevention and Control in Healthcare Facilities  (see annex 5.2: Procedures for cleaning and sanitation of environment)
+
+What's the current recommendation on fumigation/fogging of laboratory/OT/ward handing COVID samples/cases?
+==========================================================================================================
+
+Fumigation is not advocated, surface disinfection is recommended with good ventilation of rooms.
+
+Can Calcium hypochlorite be used instead of sodium hypochlorite?
+================================================================
+
+No. Calcium hypochlorite although a disinfectant, acts as an oxidizer with combustible material and may react explosively with ammonia, amines or organic sulphides. Contact with organic matter, hydrocarbon, ethanol may cause explosion if used for wastewater treatment.
+
+Which disinfectant is the best, in the form of sanitizer spray for environmental cleaning?
+==========================================================================================
+
+Sanitiser spray is not recommended for environmental disinfection as spraying leads to sanitiser droplet entering lungs and be harmful. Instead surface mopping and good ventilation is a better method for disinfection.
+
+Can UV light be used for disinfection of articles like stethoscopes etc?
+========================================================================
+
+No. Alcohol wipes are recommended. Please refer to annex 5.2 (pages 199–208) of National Guidelines for Infection Prevention and Control in Healthcare Facilities
+
+Can Bio Medical Waste (BMW) be given directly to common facility through ward? Whether sanitation staff will go from ward to dedicated area wearing personal protective equipment (PPE)?
+========================================================================================================================================================================================
+
+Yes, COVID waste has both options – it can be given directly from ward to vehicle of Common Biomedical Waste Treatment & Disposal Facility (CBWTF).
+
+Bio-medical waste from suspected & COVID positive patients is to be disposed as COVID-19 waste as per BMWM categories: Yellow, Red, Blue and White – in the bins/bags, containers, trolleys are labelled as COVID19 waste. A vehicle of CBWTF picks it up from temporary storage area or directly from COVID ward.
+
+The sanitation staff from common waste collection site (dedicated area) wearing full PPE as (mentioned in WHO WASH guidelines) will collect BMW bags from the sanitation worker of ward wearing full PPE in a dedicated and labelled colour coded trolley for COVID-19 BMW. Kindly refer to the following guidelines.
+
+- Guidelines for handling, treatment, disposal of waste generated during treatment/diagnosis/quarantine of COVID-19 patients, 18 April 2020.
+
+- Water, sanitation, hygiene, and waste management for the COVID-19 virus
+
+Whether Common Biomedical Waste Treatment & Disposal Facility (CBWTF) workers are eligible for PM insurance scheme?
+===================================================================================================================
+
+Yes, sanitation staff, doctors, nurses, paramedics, ASHA workers are covered under PMs insurance scheme for HCWs involved in COVID-19 management.
+
+Can you please share the sewage water treatment guidelines during COVID-19?
+===========================================================================
+
+Responsible agencies for sewage water treatment guidelines are healthcare facilities / isolation wards / operators of terminal sewage treatment plants (Public Health Engineering Department (PHED)/Jal Board/etc.). Healthcare facilities and the agencies operating sewage treatment plants should continue to ensure disinfection of treated wastewater as per prevailing practices to inactivate coronaviruses. These are already there in existing effluent treatment plants (ETP)/ sewage treatment plants (STP). Operators of ETPs/STPs attached with discharge from healthcare facilities and isolation wards should adopt standard operational practices, practice basic hygiene precautions, and wear personal protective equipment (PPE) prescribed for operation of STPs. PPEs should include goggles, face mask, liquid repellent coveralls, waterproof gloves and rubber boots. During the period of COVID-19 pandemic, utilization of treated wastewater in utilities within HCFs may be avoided. Kindly refer to Management of wastewater from HCFs / Isolation Wards in CPCB guidelines, April 2020. Guidelines for Handling, Treatment and Disposal of Waste Generated during Treatment/Diagnosis/ Quarantine of COVID-19 Patients
+
+How do you segregate Bio Medical Waste (BMW) & food waste of COVID potentials in COVID wards? Whether pre-treatment of COVID waste is recommended in COVID wards?
+=================================================================================================================================================================
+
+The COVID 19 isolation ward has two setups-
+
+- Nursing station and
+
+- Isolation room/isolation ward for patients
+
+In nursing station BMW and general solid waste (SW) bins are there. Here solid waste is not infected. In patient isolation room BMW bins are kept. The disposables with leftover food (infected solid waste) should be disposed in yellow bins in patient isolation room. Rest of the categories yellow, red, white and blue remain for other bio-medical wastes. Only the lab waste and blood bags are should be pre-treated.
+
+Is it necessary to disinfect sharp waste with sodium hypochlorite at COVID 19 wards? How to dispose of sharp and pointed tipped instruments?
+============================================================================================================================================
+
+No. When its ¾ full, hand it over to common biomedical waste treatment & disposal facility (CBWTF), where treatment is done; thereafter handed over to state pollution control board (SPCB) authorised recyclers. Only routine needle can be cut in needle hub-cutter and then disposed in white leak proof, puncture proof container for sharps. Please also see page 47 of National Guidelines for Infection Prevention and Control in Healthcare Facilities
+
+Do we need to disinfect waste bags? What is the method of disposal of plastic waste after disinfection at common treatment facility (CTF)?
+==========================================================================================================================================
+
+No; only the bins & BMW trolley need to be disinfected daily. Discard plastic waste after pre-treatment in hospital and treatment at common biomedical waste treatment & disposal facility (CBWTF). Treated plastic waste should be;
+
+- sent to registered or authorized recyclers (or)
+
+- for energy recovery (or)
+
+- for diesel or fuel oil recovery (or)
+
+- for road making, whichever is possible.
+
+Please refer to the Revised Guidelines for Common Bio-medical Waste Treatment and Disposal Facilities
+
+Please mention daily biomedical waste management timetable chart in lab?
+========================================================================
+
+Please adhere to BMWM rules 2016, 2018 & 2019 amendment
+
+All colour categories: Yellow, Red, White, Blue
+
+- Pre-treatment of lab waste including all samples
+
+- From lab after autoclaving or microwaving (pre-treatment) – plastic culture plate, VTM, pipette tips, vacutainers, disposal plastic plates, Eppendorf tubes, plastic vials go to red bags.
+
+- Standards and controls for autoclave/microwave and disinfection
+
+- Maintain logbook of BMW
+
+- Maintain logbook of pre-treatment equipment
+
+- Lab waste in COVID context is covered under CPCB guidelines, 18 April 2020
+
+Please refer to Guidelines for handling, treatment, disposal of waste generated during treatment/diagnosis/quarantine of COVID-19 patients, 18 April 2020.

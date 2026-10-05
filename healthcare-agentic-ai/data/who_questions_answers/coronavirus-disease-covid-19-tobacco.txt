@@ -1,0 +1,50 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Tobacco
+URL: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-tobacco
+Retrieved: 2026-10-05T09:44:50.338154+00:00
+
+========================================
+
+As a smoker, am I likely to get more severe symptoms if I get COVID-19?
+=======================================================================
+
+Tobacco compromises lung function, and COVID-19 primarily affects the lungs. Smoking tobacco is also a known risk factor for severe disease from many respiratory infections, including coronaviruses SARS (first identified in 2003) and MERS-CoV (first documented in June 2012). Smoking also impairs the immune system and previous studies have established that tobacco use is linked with poorer outcomes for people with TB and pneumonia.
+
+Evidence indicates that smokers are more likely to suffer more severe outcomes of COVID-19, such as admission into intensive care units and death, than never smokers. Furthermore, severe forms of COVID-19 or deaths due to COVID-19 are more frequent in people with comorbidities that are related to tobacco use, including COPD, lung cancer and cardiovascular diseases. There is currently only limited information on COVID-19 in relation to other tobacco products (e.g. heated tobacco products, waterpipe, cigars) and electronic nicotine delivery systems (e.g. e-cigarettes), although these products are thought to play an unfavourable role in COVID-19 severity.
+
+As a e-cigarette user, am I more likely to have more severe symptoms if infected?
+=================================================================================
+
+There is currently limited evidence about the relationship between e-cigarette use and COVID-19. However, existing evidence indicates that electronic nicotine delivery systems (ENDS) and electronic non-nicotine delivery systems (ENNDS), more commonly referred to as e-cigarettes, are harmful and increase the risk of heart disease and lung disorders. Given that the COVID-19 virus affects the respiratory tract, e-cigarette use may increase the risk of infection or severity of outcomes due to COVID-19.
+
+What about using smokeless tobacco, like chewing tobacco?
+=========================================================
+
+Using smokeless tobacco often involves some hand to mouth contact. Another risk associated with using smokeless tobacco products, like chewing tobacco, is that the virus can be spread when the user spits out the excess saliva produced during the chewing process.
+
+What does WHO recommend for tobacco users?
+==========================================
+
+Given the risks to health that tobacco use causes, WHO recommends quitting tobacco use. Quitting will help your lungs and heart to work better from the moment you stop. Within 20 minutes of quitting, elevated heart rate and blood pressure drop. After 12 hours, the carbon monoxide level in the bloodstream drops to normal. Within 2–12 weeks, circulation improves and lung function increases. After 1–9 months, coughing and shortness of breath decrease. Quitting will help to protect your loved ones, especially children, from exposure to second-hand smoke.
+
+WHO recommends the use of proven interventions such as toll-free quit lines, mobile text-messaging cessation programmes, and nicotine replacement therapies (NRTs), among others, for quitting tobacco use.
+
+What can I do to protect people from the risks associated with smoking, smokeless tobacco use and vaping?
+=========================================================================================================
+
+- If you smoke, use e-cigarettes or use smokeless tobacco, now is a good time to quit completely.
+
+- Do not share devices like waterpipes and e-cigarettes.
+
+- Spread the word about the risks of smoking, using e-cigarettes and using smokeless tobacco.
+
+- Protect others from the harms of second-hand smoke.
+
+- Know the importance of washing your hands, physical distancing, and not sharing any smoking or e-cigarette products.
+
+- Do not spit in public places.
+
+Can nicotine affect my chances in the context of COVID-19?
+==========================================================
+
+There is currently insufficient information to confirm any link between nicotine in the prevention or treatment of COVID-19. WHO urges researchers, scientists and the media to be cautious about amplifying unproven claims that tobacco or nicotine could reduce the risk of COVID-19. WHO is constantly evaluating new research, including that which examines the link between tobacco use, nicotine use, and COVID-19.

@@ -1,0 +1,27 @@
+WHO QUESTIONS AND ANSWERS
+Title: Tuberculosis: Multidrug-resistant (MDR-TB) or rifampicin-resistant TB (RR-TB)
+URL: https://www.who.int/news-room/questions-and-answers/item/tuberculosis-multidrug-resistant-tuberculosis-(mdr-tb)
+Retrieved: 2026-10-05T09:50:17.841952+00:00
+
+========================================
+
+What is multidrug-resistant and rifampicin-resistant tuberculosis (MDR/RR-TB) and how do we treat it?
+=====================================================================================================
+
+MDR/RR-TB definition usually refers to either multidrug-resistant TB (MDR-TB) or rifampicin-resistant TB (RR-TB).
+
+Multidrug-resistant TB (MDR-TB) is a form of TB disease caused by a strain of M. tuberculosis complex that is resistant to rifampicin and isoniazid.
+
+Globally, an estimated 410 000 people (95% UI: 370 000–450 000) developed multidrug- or rifampicin-resistant tuberculosis (MDR/RR-TB) in 2022. The treatment success rate for people diagnosed with MDR/RR-TB has steadily improved, but it remains alarmingly low. Globally, in 2020, the treatment success rate was 63%, up from 60% in 2019 and 50% in 2012.
+
+The two reasons why MDR/RR-TB continues to emerge and spread are mismanagement of TB treatment and person-to-person transmission. Most people with TB are cured by a 6-month treatment regimen that is provided to patients with adequate support. Inappropriate or incorrect use of TB drugs, use of ineffective formulations of drugs (such as the use of single drugs, poor quality medicines or bad storage conditions), and premature treatment interruption can cause drug resistance, which can then be transmitted, especially in crowded settings such as prisons and hospitals. Patients with TB of the lungs can spread the disease by coughing, sneezing or simply talking. To become infected, a person needs only to breathe in a small number of these germs.
+
+Based on current WHO policy, several regimens can be used in patients with MDR/RR-TB. The key factors that define treatment regimen choice include the patient's drug-resistance profile, prior exposure to TB medicines and patient history, the drug-resistance profile of close contacts, the patient’s age, the extent of pulmonary TB disease, and the localization of extrapulmonary TB lesions.
+
+- BPaLM regimen (6 Bdq-Pa-Lzd-Mfx): in patients with MDR/RR-TB with or without additional resistance to fluoroquinolones. This 6-month all-oral treatment regimen comprises bedaquiline, pretomanid, linezolid, and moxifloxacin. It is possible to omit moxifloxacin and start or continue with the BPaL regimen for MDR/RR-TB patients with confirmed fluoroquinolone resistance.
+
+- 9-month all-oral regimen (4–6 Bdq(6 m)-Lfx/Mfx-Cfz-Z-E-Hh-Eto or Lzd(2 m) / 5 Lfx/Mfx- Cfz-Z-E): in patients with MDR/RR-TB and in whom resistance to fluoroquinolones has been excluded. The 9-month all-oral regimen comprises bedaquiline (used for six months), in combination with levofloxacin/moxifloxacin, ethionamide, ethambutol, isoniazid (high dose), pyrazinamide and clofazimine (for four months, with the possibility of extending to 6 months if the patient remains sputum smear positive at the end of 4 months); followed by treatment with levofloxacin/moxifloxacin, clofazimine, ethambutol and pyrazinamide (for five months). Ethionamide can be replaced by two months of linezolid.
+
+- Longer individualized regimens: for patients with MDR/RR-TB who are not eligible for, or had no favorable treatment outcome using, the above 6-month or 9-month regimens, have TB disease caused by M. tuberculosis strains with extensive drug resistance (e.g. extensively drug-resistant TB [XDR-TB]) or have intolerance to key components of the above-mentioned regimens. These regimens have a duration of at least 18 months and are individually designed based on a hierarchical grouping of second-line TB medicines, the drug-resistance profile and the patient’s medical history.
+
+Based on the review of the latest available evidence, the 6-month BPaLM regimen is the preferred option for most patients with MDR/RR-TB.

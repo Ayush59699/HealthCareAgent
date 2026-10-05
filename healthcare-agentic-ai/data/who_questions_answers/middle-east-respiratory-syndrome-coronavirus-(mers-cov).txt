@@ -1,0 +1,111 @@
+WHO QUESTIONS AND ANSWERS
+Title: Middle East respiratory syndrome coronavirus (MERS-CoV)
+URL: https://www.who.int/news-room/questions-and-answers/item/middle-east-respiratory-syndrome-coronavirus-(mers-cov)
+Retrieved: 2026-10-05T09:47:37.079185+00:00
+
+========================================
+
+What is Middle East respiratory syndrome (MERS)?
+================================================
+
+Middle East respiratory syndrome (MERS) is a viral respiratory illness caused by a coronavirus (Middle East respiratory syndrome coronavirus, or MERS‐CoV) that was first identified in Saudi Arabia in 2012.
+
+Coronaviruses are a large family of viruses that can cause diseases in humans, ranging from the common cold to Severe Acute Respiratory Syndrome (SARS).
+
+What are the symptoms of MERS? How severe is it?
+================================================
+
+A typical case of MERS includes fever, cough, and/or shortness of breath. Pneumonia is common, however some people infected with the MERS virus have been reported to be asymptomatic. Gastrointestinal symptoms, including diarrhoea, have also been reported.
+
+Severe cases of MERS can include respiratory failure that requires mechanical ventilation and support in an intensive-care unit.
+
+Some patients have had organ failure, especially of the kidneys, or septic shock. The virus appears to cause more severe disease in people with weakened immune systems, older people, and people with chronic diseases as diabetes, cancer, and chronic lung disease.
+
+The mortality rate for people with the MERS virus is approximately 35% – this may be an overestimate however, as mild cases may be missed by existing surveillance systems.
+
+Is there a vaccine for MERS‐CoV? What is the treatment?
+=======================================================
+
+No vaccine or specific treatment for MERS is currently available, however there are several vaccines for MERS in development. Treatment is supportive and based on a person’s clinical condition.
+
+Where have cases of MERS been identified?
+=========================================
+
+MERS has been reported in 27 countries since 2012, with approximately 80% of human cases reported by the Kingdom of Saudi Arabia.
+
+Cases identified outside the Middle East are people who were infected in the Middle East and travelled to areas outside the Middle East. On rare occasions, small outbreaks have occurred in areas outside the Middle East.
+
+For the latest information on MERS outbreaks please see:
+
+- WHO Disease Outbreak News
+
+How do people get infected with the MERS virus?
+===============================================
+
+The MERS virus is transmitted primarily from infected dromedary camels to people, but transmission from people to people is also possible.
+
+From animals to people
+----------------------
+
+MERS-CoV is a zoonotic virus, meaning it is transmitted between animals and people. Scientific evidence suggests that people are infected through unprotected direct or indirect contact with infected dromedary camels.
+
+The MERS virus has been identified in dromedary camels in several countries, including Burkina Faso, Egypt, Ethiopia, Iran, Jordan, Kenya, Kingdom of Saudi Arabia, Kuwait, Mali, Morocco, Netherlands, Nigeria, Oman, Pakistan, Qatar, Spain (Canary Islands), Somalia, Sudan, Tunisia, and the United Arab Emirates.. There is further evidence suggesting the MERS-CoV is widespread in dromedary camels in the Middle East, Africa and South Asia.
+
+It is possible that other animal reservoirs exist, however animals including goats, cows, sheep, water buffalo, swine, and wild birds have been tested for MERS-CoV and the virus has not been found.
+
+Between people
+--------------
+
+The MERS virus does not pass easily between people unless there is close unprotected contact, such as the provision of clinical care to an infected patient without strict hygiene measures.
+
+Transmission between people has been limited to-date, and has been identified among family members, patients, and health care workers. The majority of reported MERS cases to date have occurred in health care settings.
+
+Can someone be infected with MERS-CoV and not be ill?
+=====================================================
+
+Yes, infection with MERS-CoV can be asymptomatic.
+
+Infected people with no symptoms have been identified because they were tested for MERS-CoV during investigations among contacts of people known to be infected with MERS-CoV. The role of asymptomatic infected individuals in transmission is currently unknown and under investigation.
+
+Is it easy to detect people who are infected with MERS-CoV?
+===========================================================
+
+It is not always possible to identify people infected with the MERS virus because early symptoms of the disease are non-specific.
+
+For this reason, all health care facilities should have standard infection prevention and control practices in place. It is also important to investigate the travel history of people with respiratory infection to determine if they have recently visited countries with active MERS-CoV circulation or have had contact with dromedary camels.
+
+What should a person do if she/he has contact with a person who has MERS?
+=========================================================================
+
+If you have had close contact with someone infected with MERS-CoV within the last 14 days without using the recommended infection control precautions, you should contact a healthcare provider for an evaluation.
+
+Should people avoid contact with camels or camel products? Is it safe to visit farms, markets, or camel fairs?
+==============================================================================================================
+
+As a general precaution, anyone visiting farms, markets, barns, or other places where animals are present should practice general hygiene measures. These include regular hand-washing before and after touching animals, and avoiding contact with sick animals.
+
+The consumption of raw or undercooked animal products, including milk and meat, carries a high risk of infection from a variety of organisms. Animal products processed appropriately through cooking or pasteurization are safe for consumption, but should also be handled with care to avoid cross-contamination with uncooked foods. Camel meat and camel milk are nutritious products that can be consumed after pasteurization, cooking, or other heat treatments.
+
+Until more is understood about MERS-CoV, people with diabetes, renal failure, chronic lung disease, and immunocompromised persons are considered to be at high risk of severe disease from MERS-CoV infection. Especially in the Middle East, this group of people should avoid contact with dromedary camels, consuming raw camel milk or camel urine, as well as eating meat that has not been properly cooked.
+
+Camel farm and slaughterhouse workers should practice good personal hygiene, including frequent hand washing, facial protection, and protective clothing (which should be removed after work and washed daily). Workers should also avoid exposing family members to soiled work clothing, shoes, or other items that may have come into contact with camels or camel excretions. Sick animals should never be slaughtered for consumption.
+
+People should avoid direct contact with any animal that has been confirmed positive for MERS-CoV infection.
+
+Are health care workers at risk from MERS‐CoV?
+==============================================
+
+Yes. Transmission of MERS-CoV has occurred in health care facilities in several countries, most notably in Saudi Arabia and the Republic of Korea. It is not always possible to identify patients infected with MERS-CoV early or without testing because symptoms and other clinical features may be non-specific. For this reason, it is important that health care workers apply standard precautions consistently with all patients.
+
+Droplet precautions should be added to standard precautions when providing care to all patients with symptoms of acute respiratory infection. Contact precautions and eye protection should be added when caring for suspected or confirmed cases of MERS. Airborne precautions should be applied when performing aerosol‐generating procedures.
+
+- Infection prevention and control during health care for MERS
+
+Are there travel restrictions due to MERS-CoV?
+==============================================
+
+WHO does not currently recommend restrictions on travel or trade with regard to MERS-CoV.
+
+National authorities may take precautions to raise awareness of MERS-CoV and its symptoms among travellers, however, based on their own local risk assessment.
+
+- International travel and health

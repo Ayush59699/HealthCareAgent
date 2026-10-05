@@ -1,0 +1,77 @@
+WHO QUESTIONS AND ANSWERS
+Title: Echinococcosis
+URL: https://www.who.int/news-room/questions-and-answers/item/echinococcosis
+Retrieved: 2026-10-05T09:45:28.559330+00:00
+
+========================================
+
+Echinococcosis is a parasitic disease that occurs in two main forms in humans: cystic echinococcosis (also known as hydatidosis) and alveolar echinococcosis, caused by the tapeworms Echinococcus granulosus and Echinococcus multilocularis, respectively.
+
+What are the key types of echinococcosis, and how do they differ?
+=================================================================
+
+The three primary types are cystic echinococcosis (CE), alveolar echinococcosis (AE), and neotropical echinococcosis (NE). They are caused by different Echinococcus species, and differ on their geographical distribution, transmission cycles and clinical presentation.
+
+- Echinococcus granulosus is the cause of CE. It has a worldwide distribution, and the highest prevalence is observed in pastoral communities. It is the most common cause of echinococcosis in humans in which typically forms slow-growing fluid-filled cysts in the liver or lungs, causing symptoms like abdominal pain or cough.
+
+- E. multilocularis causes AE. It is only present in the northern hemisphere. It behaves aggressively, invading tissues like a malignant tumor, primarily in the liver and spreading to other organs, often leading to fatal liver failure if untreated.
+
+- NE is quite rare and includes two subtypes: Echinococcus vogeli which causes polycystic growths mainly in the liver and Echinococcus oligarthra wich has only been identified in very few human cases. They have only been reported in rural areas of the tropics in Central and South America.
+
+Can echinococcosis be asymptomatic?
+===================================
+
+Echinococcosis, especially CE, can remain without symptoms for years. Cysts grow often unnoticed in organs until they enlarge, rupture, or cause complications. AE and NE may also have latent phases, though AE’s usually progresses quickly. Since NE is so rare it is not well understood how long it can remain without symptoms.
+
+Who is most at risk of contracting echinococcosis?
+==================================================
+
+People at highest risk of CE include pastoral communities where livestock and dogs interact (dogs are the main definitive host), and those in areas with poor sanitation. Children are particularly vulnerable due to close contact with dogs and poor hygiene
+
+People at high risk of AE are people in contact with the definitive hosts (mainly wild carnivores, for example foxes, coyotes, wolves) such as hunters.
+
+How is echinococcosis transmitted to humans?
+============================================
+
+Humans contract echinococcosis through accidental ingestion of Echinococcus eggs, shed in the faeces of infected definitive hosts—primarily dogs (for E. granulosus) or foxes/coyotes (for E. multilocularis). The Echinococcus eggs can be present on contaminated animals’ fur, soil, food, water, or other surfaces (e.g., unwashed vegetables, untreated water).
+
+How is echinococcosis transmitted to animals?
+=============================================
+
+Definitive hosts (e.g., dogs, foxes, coyotes) become infected by consuming tissues such as contaminated offal of intermediate hosts harbouring larval cysts. The intermediate hosts are livestock (mainly sheep) for CE, and rodents for AE.
+
+How are dogs, cattle, sheep, and other domestic animals infected with Echinococcus?
+===================================================================================
+
+Dogs serve as the definitive host for E. granulosus, and wild canids are the main definitive hosts for E. multilocularis. The definitive hosts carry adult tapeworms in their intestines (which are very small, 1.5-7mm long) without showing symptoms. They shed parasite eggs in faeces.
+
+For CE, livestock like sheep, cattle, goats, and pigs act as intermediate hosts. For AE, rodents act as intermediate hosts. Intermediate hosts get infected by ingesting Echinococcus eggs shed by the definitive hosts, from contaminated environments, which form cysts in their organs—primarily the liver and lungs. Definitive hosts get infected by eating those cysts when for example contaminated livers are fed to dogs, or when foxes eat infected rodents.
+
+The cysts in livestock rarely cause clinical illness in animals, but infected organs (offal) are unsafe for consumption at slaughter, resulting in economic losses.
+
+Is echinococcosis contagious and can it be transmitted from humans to humans?
+=============================================================================
+
+Echinococcosis is not contagious between humans. The parasite requires an animal host, and human-to-human transmission is rare, except in cases like organ transplantation or accidental cyst fluid exposure during surgery.
+
+Why is echinococcosis treatment complex in humans?
+==================================================
+
+Treatment is complicated because cysts and the disease progress in differing ways depending on cyst type and location.
+
+For CE, options for clinical management include: (i) antiparasitic drug treatment; (ii) percutaneous treatment of CE cysts with the PAIR (Puncture, Aspiration, Injection, Re-aspiration) technique, standard catheterization or the modified catheterization technique; (iii) surgery; and (iv) the “watch and wait” approach.
+
+AE often requires surgery, followed by long term medication with albendazole to prevent recurrence. Even in complex cases, treatment can help manage the disease effectively, and ongoing medical care improves outcomes.
+
+How does the One Health approach contribute to the prevention and control of echinococcosis?
+============================================================================================
+
+The One Health approach integrates human, animal, and environmental strategies to control echinococcosis transmission. Key contributions include:
+
+Veterinary/livestock interventions: Regular deworming of dogs with praziquantel, controlling stray dog populations, banning raw offal feeding and proper disposal of infected offal, and stricter meat inspections reduce the risk of transmission. A very safe an effective sheep vaccine is also available to help break the parasite’s cycle.
+
+Public health education: Promoting hygiene in endemic regions and educating high-risk groups (herders, hunters) about safer practices.
+
+Environmental measures: such as improved sanitation and regulating wild canid populations, further limit spread.
+
+Lastly, Surveillance of human, animal, and wildlife infections helps target high-risk areas.

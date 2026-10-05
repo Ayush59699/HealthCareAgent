@@ -1,0 +1,84 @@
+WHO QUESTIONS AND ANSWERS
+Title: FGM Cost Calculator
+URL: https://www.who.int/news-room/questions-and-answers/item/fgm-cost-calculator
+Retrieved: 2026-10-05T09:45:50.081871+00:00
+
+========================================
+
+For whom is this tool useful?
+=============================
+
+The tool is useful for policy makers, programme planners and managers, the donor community, advocates for FGM abandonment and anyone interested in learning more about the impact of FGM on health and economies.
+
+How do you hope that countries will use this tool?
+==================================================
+
+This tool can be considered an advocacy tool—demonstrating to countries the positive economic impacts of ending FGM. FGM accounts for on average 9% and up to 30% of the current health expenditures per capita in the 27 included countries.
+
+How were the costs calculated?
+==============================
+
+The increased health risks associated with FGM were calculated using the best available scientific evidence.
+
+Health conditions which have a statistically significant increased risk were included in this analysis.
+
+Costs of treating health complications were calculated using standard methods (WHO OneHealth Tool) and (WHO guidance and tools on treatment of health complications of FGM ), and these costs were applied according to demographic data in each country to arrive at current costs and to project cost savings in each of those countries.
+
+What information can this tool give?
+====================================
+
+The tool allows the user to choose to visualize data by country on the costs associated with health complications of FGM over a woman’s lifetime. It shows how much money can be saved if FGM is prevented – both for now, and for future generations. Users can see the impact of investing in the prevention of FGM both for particular countries and also globally.
+
+What is the FGM cost calculator?
+================================
+
+It is an interactive online tool developed by WHO to visualize current health care related costs of FGM. The tool allows users to see cost savings that can be expected by abandoning the practice in current and future generations in about 30 countries which have the highest prevalence of FGM.
+
+What is WHO doing to address FGM?
+=================================
+
+WHO plays a critical role in building the health sector response to FGM. The primary aim of this work is to support countries to prevent the practice of FGM while also ensuring that health care providers can provide the highest quality care possible for the millions of women and girls already affected.
+
+WHO: (1) develops evidence-based guidance and tools for the health sector to prevent FGM and manage its health complications; (2) supports countries to strengthen their health sector response to FGM; and (3) generates evidence on the epidemiology and costs of FGM, as well as evidence on effectiveness of interventions to prevent FGM and mitigate its consequences.
+
+What types of costs are included in the tool?
+=============================================
+
+FGM increases the risk of multiple health complications, which have significant costs. To ensure the economic model was data driven and to maintain clear parameters of the cost analysis, the tool shares estimates of health-related costs attributable to FGM and the reduction in these costs that could potentially be achieved with abandonment of FGM.
+
+There are many additional costs of FGM, not covered by this tool. Some of these are presently not quantifiable. Some of these have not been sufficiently researched which means there is a lack of evidence to include into an economic model.
+
+Which countries are included in the tool?
+=========================================
+
+27 countries with a high prevalence of FGM are included in the tool. These countries have existing population-based data on the prevalence of FGM.
+
+There are also estimates available on specific types of FGM for these countries. Countries included are: Benin, Burkina Faso, Central African Republic, Côte d'Ivoire, Cameroon, Chad, Djibouti, Egypt, Eritrea, Ethiopia, Ghana, Guinea, Gambia, Guinea-Bissau, Iraq, Kenya, Mali, Mauritania, Niger, Nigeria, Sudan, Senegal, Sierra Leone, Somalia, Togo, United Republic of Tanzania, Yemen.
+
+While population-based data for Liberia, Indonesia and Uganda exist, these countries were not included as they lacked data on types of FGM.
+
+Why do costs not disappear when FGM is abandoned?
+=================================================
+
+Throughout the world, there are currently 200 million women and girls already affected by FGM. Some are still children and unfortunately many continue to suffer health consequences as a result of FGM. These health consequences, and their associated costs generally cannot be prevented.
+
+Countries must continue to ensure provision of the highest quality health care to women and girls affected by FGM. WHO has developed guidance and tools to help countries and health care providers to provide high quality health care.
+
+Why does this tool focus on economic cost only?
+===============================================
+
+- The burden of health costs can be a powerful incentive for countries to take action to ensure that FGM is reduced and abandoned. The financial burden for health systems is linked to sustainable development and human rights. When women thrive, families and communities are also more likely to thrive.
+
+- Prevention of FGM helps girls and women to reach their full potential, for example, by participating fully in society through education and work.
+
+- By preventing FGM, countries can reduce their expenditures for treatment and care, child protection and judicial services, which may enable them to invest more fully in development initiatives – which in turn can support the rights of girls, women and entire populations of a country.
+
+Why is it important to estimate the financial cost of female genital mutilation (FGM)?
+======================================================================================
+
+The health complications caused by FGM put a heavy financial burden on health systems. Preventing new cases of FGM will reduce cost to countries, communities and individual women and their families.
+
+Why is zero tolerance of FGM so important?
+==========================================
+
+WHO promotes a zero tolerance stance to FGM. Any type of FGM can lead to severe health complications, both in the short and long-term. FGM is internationally recognized as a violation of the human rights of girls and women and must never be carried out.

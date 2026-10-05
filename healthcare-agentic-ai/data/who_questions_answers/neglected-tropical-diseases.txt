@@ -1,0 +1,121 @@
+WHO QUESTIONS AND ANSWERS
+Title: Neglected tropical diseases
+URL: https://www.who.int/news-room/questions-and-answers/item/neglected-tropical-diseases
+Retrieved: 2026-10-05T09:47:52.683868+00:00
+
+========================================
+
+Neglected tropical diseases (NTDs) are a diverse group of conditions that are mainly prevalent in tropical areas, where they thrive among people living in impoverished communities. They are caused by a variety of pathogens including viruses, bacteria, parasites, fungi and toxins, and are responsible for devastating health, social and economic consequences.
+
+What are neglected tropical diseases?
+=====================================
+
+Neglected tropical diseases (NTDs) are a diverse group of conditions1 caused by a variety of pathogens (including viruses, bacteria, parasites, fungi and toxins) and associated with devastating health, social and economic consequences. NTDs are mainly prevalent among impoverished communities in tropical areas, although some have a much larger geographical distribution. It is estimated that NTDs affect approximately 1 billion people, while the number of people requiring NTD interventions (both preventive and curative) is 1.4 billion. The epidemiology of NTDs is complex and often related to environmental conditions. Many of them are vector-borne, have animal reservoirs and are associated with complex life cycles. All these factors make their public-health control challenging.
+
+---------------------------------------------
+
+1 NTDs include: Buruli ulcer; Chagas disease; dengue and chikungunya; dracunculiasis; echinococcosis; foodborne trematodiases; human African trypanosomiasis; leishmaniasis; leprosy; lymphatic filariasis; mycetoma, chromoblastomycosis and other deep mycoses; noma; onchocerciasis; rabies; scabies and other ectoparasitoses; schistosomiasis; soil-transmitted helminthiases; snakebite envenoming; taeniasis/cysticercosis; trachoma; and yaws.
+
+Why are they called ‘neglected’?
+================================
+
+They are ‘neglected’ because they are almost absent from the global health agenda. Even today, when the focus is on universal health coverage, NTDs have very limited resources and are almost ignored by global funding agencies. NTDs are diseases of neglected populations that perpetuate a cycle of poor educational outcomes and limited professional opportunities; in addition, they are associated with stigma and social exclusion.
+
+Where are NTDs most prevalent?
+==============================
+
+NTDs flourish mainly in rural areas, in conflict zones and hard-to reach-regions. They thrive in areas where access to clean water and sanitation is scarce – worsened by climate change. Furthermore, NTDs tend to affect regions without quality healthcare, leaving poor populations vulnerable to these often debilitating diseases and newly emerging threats.
+
+While the largest number of people requiring NTD interventions lives in Asia, the largest share of the burden of disease in terms of mortality and morbidity is found in Africa.
+
+How can we tackle NTDs?
+=======================
+
+WHO recommends five core strategic interventions to accelerate the prevention, control, elimination and eradication of neglected tropical diseases (NTDs):
+
+- innovative and intensified disease management
+
+- preventive chemotherapy
+
+- vector control
+
+- veterinary public health
+
+- provision of safe water, sanitation and hygiene.
+
+Experience has demonstrated that while one intervention may predominate for the control of one specific disease or disease groups, a more effective impact on both morbidity and transmission results when all required interventions are combined and delivered simultaneously.
+
+Recently, WHO has focused its attention on specific challenges that need to be addressed to achieve the targets set for 2030. These include assessing the impact of climate change on the epidemiology of NTDs and adapting disease control interventions accordingly; identifying those key gaps in research and development (R&D) that limit efficacy and effectiveness of action against NTDs, through the preparation of an R&D blueprint for neglected tropical diseases; reinforcing supply chain mechanisms to enable timely delivery of NTD medicines and health products to those in need as well as sound accountability at every step and all levels; and strengthening systems for data collection, analysis and dissemination so as to be able to track progress towards milestones and targets set for each NTD.
+
+How are NTDs related to the Sustainable Development Goals (SDG)?
+================================================================
+
+NTDs have the greatest relevance for SDG 3 (the health goal). Interventions against NTDs directly contribute to the achievement of the Sustainable Development Goal 3.3: “end the epidemics of...neglected tropical diseases”, while their impact is measured by SDG indicator 3.3.5: “number of people requiring interventions against neglected tropical diseases”. NTD activities also contribute indirectly to many other SDGs (1, 2, 4, 5, 8, 10 and 17), while progress towards some SDGs (6, 9, 11, 13) is critical to tackle NTDs.
+
+What concrete steps is WHO taking against NTDs?
+===============================================
+
+Despite the difficulties inherent in their public health control, WHO envisages ambitious targets for NTDs, including control, elimination as a public health problem, elimination of transmission and global eradication.
+
+Over the past decade, WHO has progressively harmonized public health approaches against NTDs around three main concepts: integration, person-centred care and cross-sectoral collaboration.
+
+Disease control efforts have been progressively integrated in endemic areas. Countries are moving away from vertical, disease-specific programmes and strengthening crosscutting interventions that are best poised to impact on diseases that often overlap geographically and affect the same population groups, in line with WHO’s multi-disease elimination initiative. Examples include preventive chemotherapy and the skin-NTD framework.
+
+Action has also been taken to promote person-centred care, not just by treating infections, but by addressing the longer-term burden of morbidity and disability, and by tackling conditions often associated with NTDs, such as those related to mental health, stigma and social exclusion.
+
+Cross-sectoral collaboration aims at mobilizing all actors beyond the health sector to maximize the impact of interventions against neglected tropical diseases. Notably the education, environment and veterinary sectors play critical roles in the prevention, treatment and care of neglected tropical diseases and in the implementation of NTD interventions. Examples include the school-based distribution of anthelmintic medicines, platforms tackling vector-borne diseases such as the Global Arbovirus Initiative, and the One Health approach.
+
+How has WHO’s global action against NTDs evolved?
+=================================================
+
+WHO has supported the global community by developing a comprehensive set of normative guidance dedicated to the planning, financing, implementation, monitoring and evaluation of NTD interventions, from global to community level. World Health Assembly resolution 66.12 (2013) reflects the commitment of WHO’s Member States to address the burden of NTDs through integrated, cohesive approaches. While the first NTD road map (2012–2020) delineated milestones and targets, the second roadmap (2021–2030) sets out key actions and programmatic shifts to drive progress towards a world free of NTDs by 2030.Over the years, WHO has also facilitated or joined global initiatives such as the Kigali declaration on neglected tropical diseases and the Abu Dhabi declaration on the eradication of Guinea worm disease
+
+Does addressing NTDs contribute to promote global health equity?
+================================================================
+
+The notion of equity is woven into the fabric of the global NTD agenda. NTD programmes mostly serve marginalized communities and prioritize the needs of the most disadvantaged population groups. NTD programmes are closely aligned with SDG targets and contribute to achieving several of them. NTD interventions are often delivered through a primary health care approach, may represent the most advanced point of contact between remote communities and national health services, and are considered important steps on the path towards achieving universal health coverage (UHC) by 2030.
+
+What progress has been achieved over the past years?
+====================================================
+
+Much progress has been made over the past decade. The population requiring NTD interventions decreased by 36% between 2010 and 2024, from 2.19 to 1.4 billion. As of end 2025, 58 countries have eliminated at least one NTD, with several countries being acknowledged by WHO for eliminating 2, 3 or 4 conditions: in total, 84 elimination process have been successfully completed and acknowledged by WHO; hundreds of millions of people at risk of NTDs are treated and provided care, every year.
+
+Has the COVID-19 pandemic affected NTD programmes?
+==================================================
+
+NTD programmes have been among the most frequently and severely affected by the pandemic across health systems. Many countries had to delay community-based interventions such as preventive chemotherapy or active case-finding, while access to health-facility services dropped because of movement restrictions for both health staff and patients. For example, in 2020, the number of people reached by mass treatment interventions dropped to 762 million from 1.165 billion in 2019. From 2021 onwards, the number of people treated has progressively increased, although not reaching the levels attained before the pandemic. Nevertheless, the coverage has almost recovered to pre-COVID-19 levels, although this is mainly due to a decrease in the number of people requiring treatment.
+
+In 2020−2022, the need to address the COVID-19 emergency determined a reprioritization of resources to other areas, in cash and kind. Production and supply lines for medicines and diagnostics were repurposed to support the need for products in high demand during the pandemic, and shipment of commodities to countries was severely disrupted. Financial support to NTD programmes was also affected at all levels, from global to local, jeopardizing job security and activities. While it would have been expected that the progressive decrease of the public health relevance of the COVID-19 pandemic would witness a return to normality, this has not been the case.
+
+How can we make NTD programmes more sustainable?
+================================================
+
+Many national NTD programmes are largely reliant on donor funding, so that NTDs are often not included in established national policy, financial and coordination processes. While this model has driven significant progress, as we move forward it is imperative that these investments are complemented with more sustainable approaches and a stronger country ownership.
+
+There is a need to increase the sustainability and predictability of funding, the availability of medicines and diagnostics across the whole NTD spectrum, and the mainstreaming of NTD programmes and services within national health systems. In this way, we can maximize the contribution of NTD interventions to each of the three dimensions of universal health coverage (who is covered, which services are covered, and the proportion of the costs covered).
+
+How can we do that? A sustainability framework and an investment rationale, complementing the road map, highlight the need to support cost-efficient interventions. They challenge the global community to invest in cross-cutting interventions outside of the health sector, in areas including water, sanitation and hygiene; education; agriculture; animal welfare; and finance. All these sectors impact the lives of those living in areas endemic for NTDs and are important as part of a holistic, sustainable approach. Ultimately, NTD interventions need to be a routine part of national systems and services to preserve the progress made, continue protecting those benefiting from services, and expand services where needed.
+
+WHO’s road map: can it end the suffering from NTDs by 2030?
+===========================================================
+
+The NTD road map 2021−2030 aims to leave no one behind.
+
+It moves away from vertical disease programmes towards cross-cutting approaches, through smarter investments to improve health and wellbeing by 2030. It works to reduce poverty by addressing the burden of disease due to NTDs and aims to support the achievement of universal health coverage (UHC) and poverty reduction. The road map fosters innovation in critical area such as diagnostics, and provides opportunities to evaluate, assess and adjust programmatic actions as and when needed over the next decade, by setting overarching, cross-cutting and disease-specific targets and milestones. Another distinct feature is to drive greater ownership by national and local governments, including communities.
+
+The overarching 2030 global targets are:
+
+- reduce by 90% the number of people requiring treatment for NTDs
+
+- reduce by 75% the disability-adjusted life years (DALYs) related to NTD
+
+- eliminate at least one NTD from 100 countries
+
+- eradicate two diseases (dracunculiasis and yaws) globally.
+
+Will 2030 really signal the end of suffering from NTDs?
+=======================================================
+
+WHO is optimistic, although significant challenges remain. Some of these can include consequences arising from climate change, conflict, emerging zoonotic and environmental health threats, as well as continued socio-economic inequalities that have a direct impact on access to health-care services, adequate housing, safe water and sanitation. Disruption to health services caused by the COVID-19 pandemic has added a further burden.
+
+Nevertheless, the WHO road map offers all the tools required to overcome these and any future challenges. It is built on delivering health services in an integrated, cross-sectoral manner, it moves away from the vertical, disease-centred approach to being people-focused, and is adaptable to different contexts and scenarios.

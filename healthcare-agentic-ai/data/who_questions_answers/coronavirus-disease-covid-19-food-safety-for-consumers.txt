@@ -1,0 +1,63 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Food safety for consumers
+URL: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-food-safety-for-consumers
+Retrieved: 2026-10-05T09:44:22.876464+00:00
+
+========================================
+
+This page is no longer being updated. It remains live for reference purposes only.
+
+Can I get COVID-19 from food?
+=============================
+
+There is currently no evidence that people can catch COVID-19 from food or food packaging. COVID-19 is a respiratory illness and the transmission route is through person-to-person contact and through direct contact with respiratory droplets generated when an infected person coughs or sneezes.
+
+Can the virus live on the surface of foods (including fruits and vegetables, frozen foods, pre-packaged foods)?
+===============================================================================================================
+
+Coronaviruses cannot multiply in food – they need a live animal or human host to multiply and survive ( see question 10 of Questions relating to food businesses).
+
+How to wash fruits and vegetables? Just with water, or something else?
+======================================================================
+
+Washing fruit and vegetables with potable water is sufficient: it is recommended to follow the WHO Five keys to safer food.
+
+Can the virus live on the surface of food packaging? How long? Is it necessary to disinfect?
+============================================================================================
+
+See question 10 of Questions relating to food businesses. It is not necessary to disinfect food packaging materials, but hands should be properly washed after handling food packages and before eating.
+
+How long is it to cook food? To what temperature to kill the virus?
+===================================================================
+
+This virus is not more resistant to heat than the usual viruses and bacteria found in food. As recommended for good hygiene practice, foods should be thoroughly cooked to at least 70°C. It is recommended to follow the WHO Five keys to safer food.
+
+What precautions should consumers take in grocery stores?
+=========================================================
+
+Consumers should maintain a safe physical distance of at least one metre from all other shoppers and staff while queuing before entering the store and while shopping in the store. If a trolley or basket is used while shopping, sanitize the handle before and after use. Hands should be sanitized before entering the store. Practice good coughing/sneezing etiquette while in the store. Avoid touching mouth, nose or eyes during shopping. Minimise direct hand contact with food by using available tongs and serving utensils. Use contactless payment rather than cash/notes (where feasible).
+
+Is food/grocery delivery safe?
+==============================
+
+Yes, if the provider follows good personal and food hygiene practices. After accepting food/grocery deliveries, hands should be washed with soap and water.
+
+What is the best household disinfectant for surfaces?
+=====================================================
+
+Regular household cleaning and disinfection products will effectively eliminate the virus from household surfaces. For cleaning and disinfecting households with suspected or confirmed COVID19 illnesses - surface virucidal disinfectants, such as 0.05% sodium hypochlorite (NaClO) and products based on ethanol (at least 70%), should be used.
+
+Is it still safe to go to food markets? Animal markets? Wet markets?
+====================================================================
+
+It should be safe provided it is possible to maintain a safe physical distance of at least one metre from all other shoppers and staff, it is possible to wash/sanitize hands, and that Good Manufacturing Practices and Good Hygienic Practices (GMP/GHP) standards are maintained in the market. For more recommendations on how to minimise the risk of transmission of emerging pathogens in wet markets, see the WHO recommendations to reduce risk of transmission of emerging pathogens from animals to humans in live animal markets or animal product markets.
+
+Recorded webinars:
+
+- 3 April 2020
+
+- 6 April 2020
+
+WHO guidance for food businesses
+
+Q&A: Sale of live wild mammals in traditional food markets

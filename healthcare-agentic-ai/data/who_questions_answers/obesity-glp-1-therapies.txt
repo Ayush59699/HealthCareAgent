@@ -1,0 +1,50 @@
+WHO QUESTIONS AND ANSWERS
+Title: Obesity: GLP-1 therapies
+URL: https://www.who.int/news-room/questions-and-answers/item/obesity-glp-1-therapies
+Retrieved: 2026-10-05T09:48:02.691857+00:00
+
+========================================
+
+What are GLP-1 therapies?
+=========================
+
+GLP-1 therapies (glucagon-like peptide-1 receptor agonists) are a class of medications that mimic the natural GLP-1 hormone, which helps regulate blood sugar and appetite. They were originally used for managing type 2 diabetes, but are now also approved for treating obesity and weight loss. Some GLP-1 drugs lower the risk of heart attack, stroke, and heart failure, and reduce the incidence of type 2 diabetes, kidney and liver disease among other outcomes.
+
+How do GLP-1 therapies work?
+============================
+
+GLP-1 medicines stimulate insulin release when blood sugar is high and reduce glucagon secretion, helping lower blood glucose levels.
+
+They slow down the process of food digestion and increase feelings of fullness, leading to a reduction in food intake.
+
+When should people consider taking GLP-1 drugs for weight loss?
+===============================================================
+
+GLP-1 therapies are not for everyone. They should only be prescribed by a medical practitioner, after taking into account individual health history and clinical indications. Based on current WHO recommendations, GLP-1 medicines may be used as a long-term treatment option for adults with obesity (body mass index ≥30). The guideline does not cover the use of GLP-1 therapies in pregnant women as these medications have not been tested in this population.
+
+How effective are GLP-1 therapies for weight loss?
+==================================================
+
+GPL-1 therapies are efficacious for reducing weight. Most people taking them lose at least 5% of their body weight. However, for better results they should be associated with structured behavioral interventions that incorporate both a healthy diet and physical activity.
+
+What are the side effects of GLP-1 therapies?
+=============================================
+
+Common side effects of GLP-1 drugs are nausea, vomiting, constipation and diarrhoea. These are usually mild and stop with cessation of therapy or decrease over time. Other gastrointestinal problems – including biliary disease, acute pancreatitis, bowel obstruction and gastroparesis (disorder relating to difficulty in digesting food) – continue to be linked to the use of GLP-1 drugs but are still being evaluated. Thyroid cancer has also been cited as a possible harm. However such risk in humans is still under investigation.
+
+Non-arteritic anterior ischemic optic neuropathy (NAION) – a medical condition characterized by loss of vision – has been considered as a very rare adverse event. However evidence is currently inconclusive.
+
+How long do people need to take GLP-1 therapies to lose weight?
+===============================================================
+
+GPL-1 therapies are generally long-term treatments, meaning for 6 months or longer. Data on the long-term efficacy and safety of these therapies, as well as the timing and effects of stopping them, are being monitored by WHO to be able to provide specific guidance in the future.
+
+Are GLP-1 therapies available everywhere?
+=========================================
+
+No, GLP-1 therapies are not available everywhere. Factors influencing their availability are production capacity, registration in countries, cost, and supply issues. Availability is highest in high-income countries, although shortages have occurred due to high demand. Availability is much lower in low- and middle-income countries. WHO supports country efforts to improve the availability of medicines, including GLP-1 therapies.
+
+Can GLP-1 therapies replace other means of weight control?
+==========================================================
+
+No, while GLP-1 therapies are used for the treatment of people with obesity, they should not replace other means of weight control. Maintaining a healthy diet and regular physical activity are important components of any obesity chronic care programme.

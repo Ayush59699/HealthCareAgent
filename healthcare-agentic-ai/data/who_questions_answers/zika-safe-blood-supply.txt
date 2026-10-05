@@ -1,0 +1,52 @@
+WHO QUESTIONS AND ANSWERS
+Title: Zika: Safe blood supply
+URL: https://www.who.int/news-room/questions-and-answers/item/zika-safe-blood-supply
+Retrieved: 2026-10-05T09:51:07.281720+00:00
+
+========================================
+
+Can Zika virus be transmitted through donated blood?
+====================================================
+
+Zika virus is primarily transmitted to people through the bite of an infected Aedes species mosquito but can also be transmitted from mother to fetus during pregnancy, as well as directly through sexual contact. Zika virus has been detected in blood donors during Zika outbreaks and transmission by transfusion of blood and blood products has been described in a few cases in Brazil; therefore, Zika virus may present a risk to blood safety. In addition, the possibility exists of transmission through infected organ transplantation.
+
+Precautions should be taken to ensure the supply of blood is safe.
+
+What precautions should be taken to ensure that the blood supply is safe in countries where Zika infection is occurring?
+========================================================================================================================
+
+Ideally the blood supply during a regional outbreak of Zika should be maintained by increasing blood collections in non-affected areas. In non-affected areas, consideration may be given to defer potential donors who have recently visited areas with ongoing transmission of Zika virus infection for 28 days after their departure from these areas. If a donor is diagnosed with Zika within weeks after blood donation, they should inform the blood collection centre. It is generally recommended that donors wait four months after confirmed infection before donating again.
+
+What about blood donations in areas affected by Zika?
+=====================================================
+
+Blood collection may need to continue in affected areas to meet needs for blood and its components. This may be necessary when an outbreak is affecting a large swathe of a country or when it is not possible to get blood from regions where Zika is not circulating.
+
+What measures may be considered for reducing the risk of Zika virus through blood transfusion in areas with active Zika virus transmission?
+===========================================================================================================================================
+
+- Temporary exclusion of donors with a recent clinical history consistent with Zika virus disease, such as a combination of rash with fever, conjunctivitis (pinkeye), muscle aches, headache or malaise.
+
+- Temporary exclusion of donors for whom laboratory test results show they may recently have been infected; donors may have prolonged presence of virus in the blood for up to four months after infection.
+
+- Donors with clinical history consistent with Zika virus disease or a recent history of Zika virus infection should be deferred for a period not less than 28 days following the full resolution of symptoms.
+
+- Similarly, sex partners of men with confirmed or suspected Zika virus infection in the last 3 months should be deferred for at least 28 days after their last sexual contact.
+
+- People who have already donated must be encouraged to report to the blood transfusion service if they subsequently get symptoms of Zika virus infection, or if they are diagnosed with recent Zika virus infection within 14 days after blood donation.
+
+- Blood components of appropriate shelf life (e.g. red blood cells) may be quarantined for a period of 7–14 days and released following confirmation from the donor that he or she has not experienced symptoms consistent with the acute phase of Zika virus infection. For platelets, which have a shorter shelf life, a 3-day quarantine period may be considered.
+
+- Countries with many visitors to affected countries may need to assess the impact of deferral on blood supply availability and weigh the risks against the benefits of restricting donations.
+
+How could blood donations be tested for the presence of Zika virus?
+===================================================================
+
+Where possible, and where epidemiologically appropriate, blood donations may be tested for the presence of Zika virus by appropriate tests, such as nucleic acid amplification tests. Likely, pathogen reduction technology (PRT) may be implemented for plasma and platelets.
+
+In some cases, selective testing for the presence of the virus in blood donors returning from affected countries may be considered as an alternative to deferral.
+
+Should countries that have Aedes mosquitoes but where Zika virus has not been found, have a preparedness plan for blood safety if an outbreak occurs?
+=====================================================================================================================================================
+
+WHO recommends that countries where the mosquito that carries Zika is present, yet the virus itself has not been found, consider preparing a plan to ensure the availability of a safe and sufficient supply of blood should an outbreak occur.

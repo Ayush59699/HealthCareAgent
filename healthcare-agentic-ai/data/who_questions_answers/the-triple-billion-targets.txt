@@ -1,0 +1,38 @@
+WHO QUESTIONS AND ANSWERS
+Title: The Triple Billion targets
+URL: https://www.who.int/news-room/questions-and-answers/item/the-triple-billion-targets
+Retrieved: 2026-10-05T09:49:58.316999+00:00
+
+========================================
+
+Q. What are the Triple Billion targets?
+=======================================
+
+The Triple Billion targets are an ambitious initiative to improve the health of billions by 2023. As the foundation of WHO’s Thirteenth General Programme of Work (GPW13), the Triple Billions function both as a measurement and a policy strategy. They are an integral part of the GPW13’s Results Framework, a new tool designed to measure and improve WHO’s impact on health at the country level. Additionally, measurement of these targets has been consciously aligned with those of the SDGs, to reduce country burden in data collection and streamline efforts to accelerate progress towards achieving key targets.
+
+Finally, the Triple Billions will focus on the execution and delivery of significant improvements in the health of the world’s population through evidence-based interventions, strengthened health information systems, and support for transformational public health policy.
+
+Q. What are the objectives of the Triple Billion targets?
+=========================================================
+
+The goals of the Triple Billions are simple and straightforward. By 2023, WHO proposes to achieve:
+
+- 1 billion more people benefitting from universal health coverage
+
+- 1 billion more people better protected from health emergencies
+
+- 1 billion more people enjoying better health and well-being.
+
+However, the Triple Billions have implications beyond these three targets. Measuring the Triple Billions highlights the considerable gaps in public health data that exist in many parts of the world. Therefore, strengthening data collection and monitoring across all levels will be key to achieving both the Triple Billions and SDGs, and will have long-term implications for improving the health of the world.
+
+Q. How are the Triple Billion targets calculated?
+=================================================
+
+Each of the Triple Billions will be assessed at the population level, and are designed to count lives that benefit from direct intervention. The choice of methods used to calculate the Triple Billions follows extensive debate and consultation with experts from a wide range of disciplines and backgrounds  and has been documented as the GPW13 Methods Report. The resulting estimates will be best approximations given multiple variables, including the definition of the Triple Billions, limitations of indicator data availability and quality, and variations in country and regional contexts. Additionally, the design of the targets and their methods is such that countries can independently calculate their contributions to each of the Triple Billions, helping inform their own target-setting for national health priorities.
+
+Q. What are the limitations of the Triple Billion methods?
+==========================================================
+
+The Triple Billions are inherently broadly defined and they are linked to the GPW13 programme and its indicators. They are primarily based on SDG data, which WHO has committed to using for minimizing any additional burden of data collection, and to reinforce progress towards those global aims. Additionally, the accuracy of calculating the Triple Billions is constrained by large data gaps, disparate sources and quality of data, and delays in availability of the data for the calculations. Additionally, in many instances the indicators being used are proxies and not an exact measure. For example, the use of prevalence of raised blood pressure as a proxy for hypertension treatment as part of the UHC Billion. In other cases, important health indicators relevant to the Triple Billions were not defined at the time of the SDGs and so those indicators are missing (e.g. cancer screening and treatment, treatment of mental disorders, and physical inactivity).
+
+Despite these limitations, the Triple Billions provide an important mechanism to measure progress, and it is through the monitoring and use of this data that we will see accelerated improvements to the health of citizens.

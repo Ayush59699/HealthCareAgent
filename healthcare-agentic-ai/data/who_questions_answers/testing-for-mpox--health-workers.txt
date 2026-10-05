@@ -1,0 +1,94 @@
+WHO QUESTIONS AND ANSWERS
+Title: Testing for mpox: health workers
+URL: https://www.who.int/news-room/questions-and-answers/item/testing-for-mpox--health-workers
+Retrieved: 2026-10-05T09:49:53.160509+00:00
+
+========================================
+
+Who should I test for mpox?
+===========================
+
+WHO recommends that any individual meeting the definition for a “suspected case” of mpox should be offered testing.
+
+The case definition is outlined in the WHO mpox outbreak toolkit
+
+What tests are available?
+=========================
+
+PCR is the reference standard for monkeypox virus detection. Other tests, including viral culture and serology, can be performed in some laboratories, but they are not recommended for routine diagnosis.
+
+When and how to provide testing or refer a patient for testing?
+===============================================================
+
+Testing is highly recommended for all people with suspected mpox infection. Pathways for testing vary according to the country and health system.
+
+How do I make a diagnosis? Is one test enough?
+==============================================
+
+A single positive PCR test is sufficient to confirm a diagnosis of mpox, and testing is highly recommended for all suspected cases.
+
+Where tests are unavailable, a clinical diagnosis might rely on a patient meeting the case definition of a “suspected case”. This would be either:
+
+1. On the basis of contact with a probable or confirmed mpox case in the 21 days before the onset of signs or symptoms, in a person who presents with any of the following: acute onset of fever (>38.5 °C), headache, myalgia (muscle pain/body aches), back pain, profound weakness or fatigue or
+
+2. On the basis of the presence of an unexplained acute skin rash (especially in locations typical for mpox), mucosal lesions or lymphadenopathy (swollen lymph nodes).
+
+However, care should be taken to differentiate mpox from other infections which may resemble mpox, including varicella zoster (shingles), herpes zoster, measles, herpes simplex, bacterial skin infections, disseminated gonococcal infection, primary or secondary syphilis, chancroid, lymphogranuloma venereum, granuloma inguinale and molluscum contagiosum, among others.
+
+Testing for co-infection including for HIV and STIs should be considered as indicated and may be considered as routine clinical practice in sexual health services, and standard local guidance should be followed.
+
+How do I test a client without lesions?
+=======================================
+
+Patients may have known contact of a probable or confirmed case in the previous 21 days without showing lesions. Look for these symptoms:
+
+- acute onset of fever (>38.5°C)
+
+- headache
+
+- proctitis/anal pain
+
+- myalgia (muscle pain/body aches)
+
+- back pain
+
+- swollen lymph node
+
+- profound weakness or fatigue
+
+If a combination of these symptoms present without visible lesions, consider testing them using an upper respiratory (oro/nasopharyngeal) swab or an anorectal swab, particularly if anal sex may have been the exposure route.
+
+However, the interpretation of results from oropharyngeal, anal and rectal swabs requires caution; while a positive result is indicative of mpox infection, a negative result is not enough to rule it out.
+
+How can I protect myself during specimen collection?
+====================================================
+
+To collect specimens in a safe and efficient manner, ensure you have received proper training and are familiar with the recommendations and guidelines regarding specimen collection. Interim guidance for laboratory testing for the monkeypox virus can be found here.
+
+Vigorous swabbing of lesions can be used as a first line method for specimen collection. The use of sharp instruments carries a risk of injury and contamination and should be avoided unless appropriate safety measures are in place.
+
+Before specimen collection, it is important to ensure that all appropriate personal protective equipment (PPE) has been properly worn and fitted. In addition, it is important to communicate clearly to the patient what they should expect in terms of procedure but also discomfort. This will help avoid unexpected reactions. See WHO’s clinical and IPC guidance for mpox for more information.
+
+If available and appropriate, you can also consider getting vaccinated, as additional protection against infection.
+
+How do I encourage testing for someone who might have mpox?
+===========================================================
+
+To help encourage testing, it is important to build and maintain trust with your communities and ensure that services are free from stigma and discrimination. It should be emphasized that testing for mpox is voluntary and just one part of a package of support which includes counselling, referral for medical care and social support where available.
+
+When individuals seek medical advice around mpox, equip them with adequate information by explaining clearly how testing works and what it entails. Understand that people may only come for testing if they have severe symptoms like pain and multiple lesions.
+
+Helping inform at-risk communities about mpox including signs, symptoms, and how it can be passed on to others through close contact can help encourage open conversations around risks and testing. Encourage your clients to raise awareness in their communities for people with symptoms and close contacts to seek health advice.
+
+How do I counsel clients about their results and next steps based on results?
+=============================================================================
+
+A diagnosis of mpox can be distressing for clients, friends and family. Here are some considerations:
+
+- Providing easy to understand information about home care and medical support services can be empowering for individuals.
+
+- A positive test result should lead to referral for medical care and counselling services. Understanding what is available and how clients can access these services is important.
+
+- Follow up is important especially for people recovering at home in isolation – ensure that clients are engaged with follow up contact and support.
+
+For negative test results it is also important to advise your client that it does not necessarily mean they are not infected. Provide them with information on how to monitor for symptoms and counsel them on retesting if appropriate.

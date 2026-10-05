@@ -1,0 +1,41 @@
+WHO QUESTIONS AND ANSWERS
+Title: Human Genome Editing Registry
+URL: https://www.who.int/news-room/questions-and-answers/item/human-genome-editing-registry
+Retrieved: 2026-10-05T09:46:38.610929+00:00
+
+========================================
+
+What is the aim of the HGE Registry?
+====================================
+
+In accordance with the principles of transparency and inclusivity, the HGE Registry aims at making information about the kind of research and development that is happening publicly accessible to all interested stakeholders. Making such information available will also contribute to inform appropriate governance.
+
+Why is there a phased approached?
+=================================
+
+The Committee agreed on a phased approach, with an initial focus on clinical applications and subsequent efforts to incorporate relevant basic research on human embryos and germline cells. The Committee agreed to begin piloting the first phase of the HGE Registry and begin to consult with those communities most likely to generate relevant work.
+
+What is the scope of the HGE Registry?
+======================================
+
+In a first phase, the HGE Registry will cover both somatic and germline clinical trials. The creation of the HGE Registry that covers any proposed clinical trials involving genome editing tools on human embryos and germline cells does not mean that WHO advocates and endorses such activities. In a statement issued on 26 July 2019, the WHO Director General agreed with the WHO Expert Advisory Committee’s recommendation that it would be irresponsible at this time for anyone to proceed with clinical applications of human germline genome editing.
+
+In a second phase, the HGE Registry will also cover research using genome editing technologies on (i) human embryos and on (ii) germline cells or their progenitors when gametes derived from these will be used to create embryos, even when there is no attempt to initiate/establish a pregnancy.
+
+How does the search filter work?
+================================
+
+The HGE Registry identifies clinical trials using genome editing tools by using a filter specifically developed for this purpose. The search filter includes keywords such as “genome editing”, “gene editing”, “CRISPR”, “ZFN” and “TALEN” and several associated products. This filter of keywords was created by the Registry Working Group, which is a sub-group of the WHO Expert Advisory Committee. Searching the complete database of registered records by keywords remains problematic. Indeed, there are risks of having false positives but also, when clinical trials are not using the identified keywords, of missing relevant clinical trials. The feedback of users is therefore very important to continue to improve the accuracy of the search filter. Please contact us if you have any comment or suggestion on the search filter or if you think that a clinical trial is missing from the list of results. In order to better identify clinical trials using genome editing tools, the filter will be regularly revised.
+
+How to register a trial?
+========================
+
+You cannot register a trial with the WHO Human Genome Editing (HGE) Registry. The HGE Registry is not a clinical trials registry but it is a central database that collects information of clinical trials using human genome editing technologies. The HGE Registry is using the data collected by the WHO International Clinical Trials Registry Platform (ICTRP), which gathers the trial registration data sets provided by Primary Registries.
+
+To register a trial, you need to submit the details of your trial directly to any one of the Primary Registries in the WHO Registry Network or an ICMJE approved registry.
+
+To meet the requirements of the International Committee of Medical Journal Editors (ICMJE) you can register your trial with any Primary Registry in the WHO Registry Network or an ICMJE approved registry. To meet WHO requirements for transparency and publication, it is only necessary for your trial to be registered once, in either a Primary Registry in the WHO Registry Network or an ICMJE approved registry.
+
+NOTE: Regulatory, legal, ethical, funding and other requirements for oversight and conduct of clinical trials differ from country to country. It is recommended that those responsible for conducting a clinical trial check to make sure they are complying with the specific requirements of each country.
+
+For additional information: see ICTRP How to Register a Trial.

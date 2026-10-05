@@ -1,0 +1,138 @@
+WHO QUESTIONS AND ANSWERS
+Title: Electronic waste: Digital dumpsites and children’s health
+URL: https://www.who.int/news-room/questions-and-answers/item/children-and-digital-dumpsites-e-waste-and-health
+Retrieved: 2026-10-05T09:43:38.825562+00:00
+
+========================================
+
+How much e-waste is generated each year and where does it go?
+=============================================================
+
+The Global E-waste Statistics Partnership (GESP) estimates that 62 million tonnes of e-waste were generated in 2022. This was equivalent to 7.8 kg of e-waste for every person in the world in 2022 (1).
+
+Only 22.3% of e-waste was documented globally as being properly collected and recycled in 2022. The remaining e-waste was likely dumped, traded or recycled under inferior conditions.
+
+Even in areas with well-organized waste management systems, e-waste is often discarded alongside other solid waste and ends up in landfills. Such discarded e-waste can leach hazardous substances into aquifers and drinking water supplies and can pose significant risks to human health and the environment.
+
+The reliance on and use of a wide range of technologies is growing exponentially around the world. Additionally, rapid obsolescence is causing faster replacement cycles, and technological advances are creating new products containing valuable and dangerous components, such as electric cars and e-cigarettes. Without action, these factors are expected to lead to record amounts of e-waste. Annual global e-waste levels are expected to reach 82 million tonnes by 2030 (1).
+
+Which hazardous substances are released when e-waste is recycled using unsound activities and practices? How are children and informal workers exposed to them?
+===============================================================================================================================================================
+
+More than 1000 different harmful substances have been identified that are either components of e-waste or produced through unsound recycling activities, including lead, cadmium, mercury, dioxins, nickel, brominated flame retardants and polycyclic aromatic hydrocarbons. These substances can pollute the air, dust, water and soil.
+
+Workers, their families and communities are exposed to hazardous substances when reclaiming valuable metals from e-waste through open burning, heating, acid leaching (using cyanide salt, nitric acid or mercury), shredding, dismantling and open dumping.
+
+Burning e-waste materials makes recycling sites sources of toxic air pollution contaminated by mixes of harmful particles, including heavy metals and industrial chemicals and compounds.
+
+E-waste workers, their families and communities are exposed to these hazardous chemicals in several different ways. Primary routes of exposure include ingestion of contaminated food, water, soil and dust and inhalation of hazardous aerosol particles and gases. Children and babies face additional risks from direct contact with hazardous chemicals due to frequent hand-to-mouth and object-to-mouth behaviours. Some chemicals found in e-waste or produced through unsound recycling activities can cross the placenta and expose the fetus.
+
+Young children have been reported working at recycling sites and are known to frequently work alongside their parents and families in recycling activities and businesses. Working as a waste picker, including e-waste, is considered hazardous labour and one of the worst forms of child labour by the International Labour Organization.
+
+How many children and women work in the informal e-waste processing sector?
+===========================================================================
+
+The ILO estimates that 16.5 million children were working in the industrial sector in 2020, of which waste processing is a subsector (2). According to the latest global estimates of the total number of informal waste workers, anywhere between 2.9 and 12.9 million women are working in the informal waste sector. This potentially exposes them to hazardous substances from e-waste. As some chemicals found in e-waste streams can cross the placenta, if waste workers are pregnant, the fetus is also at risk of irreparable health effects.
+
+What are the child health impacts associated with informal recycling of e-waste?
+================================================================================
+
+E-waste exposure has been linked to various adverse health outcomes. Prenatal and childhood exposures to e-waste toxicants may be associated with:
+
+- impaired neurological and behavioural development, including changes to child temperament and behaviour and reduced cognitive and language scores;
+
+- negative birth outcomes, including stillbirth, premature births, low birth weight and length;
+
+- poorer lung function and increased respiratory effects, including cough, wheeze and asthma);
+
+- negative immune system effects, including greater vulnerability to infection, reduced immunization response and higher rates of allergies and autoimmune diseases; and
+
+- increased risk of chronic disease later in life, including cancer and cardiovascular disease.
+
+Health outcomes that affect children’s health and development may last a lifetime.
+
+In studies of adults exposed to e-waste recycling activities, several health effects have been observed including:
+
+- impaired thyroid function
+
+- changes in cardiovascular system function
+
+- DNA damage.
+
+Why are children particularly vulnerable to hazardous substances released through unsound e-waste recycling activities?
+=======================================================================================================================
+
+Children are more vulnerable than adults to hazardous substances released through unsound e-waste recycling activities as they have immature immune, respiratory and central nervous systems, and are going through a rapid period of growth and development. Children absorb more pollutants relative to their size and immature systems may not be able to break down some hazardous substances and eliminate them.
+
+Children are closer to the ground where some air pollutants, such as mercury, may be at their highest concentration. As children practice more frequent hand-to-mouth and object-to-mouth activity, this increases their risk of ingesting contaminants. Children have less agency than adults and do not choose where they live, how much time they spend indoors or at their parent’s workplaces, where they may be exposed to high levels of toxicants from unsound recycling activities.
+
+What actions can be taken to protect children’s health from unsound e-waste recycling?
+======================================================================================
+
+In response to the health and environmental threats from unsound e-waste recycling practices, United Nations (UN) agencies and independent experts have called for stronger regulations and legislation.
+
+This means effective and binding action by exporters, importers and governments that:
+
+- ensure health and safety of e-waste workers, children, their families and communities with systems that train and protect workers, and monitor exposures and health outcomes;
+
+- enforce sound environmental health practices for disposal, recapture and reuse of materials;
+
+- shift towards a circular economy by manufacturing more-durable equipment, use safer and less-toxic materials, and encourage sustainable consumption to reduce e-waste;
+
+- manage e-waste by prioritizing health and environmental protection throughout the life cycle, with reference to the Basel Convention, appropriate regional conventions and the Sustainable Development Goals; and
+
+- eliminate child labour and incorporate adult e-waste workers into the formal economy with decent working conditions across the value chain of collection, processing, recycling and resale.
+
+There are also economic imperatives for improving global e-waste recycling systems. Better recycling presents opportunities for increased income and decreased demand for new materials. GESP estimates that benefits could exceed costs by more than US$ 38 billion if countries bring the e-waste collection and recycling rate to 60% by 2030 (1).
+
+What can the healthcare sector do to protect children from unsound e-waste recycling activities and hazardous substances?
+=========================================================================================================================
+
+The healthcare sector has a critical role to play in maintaining and stimulating change that will protect children’s health from harmful e-waste recycling activities.
+
+At the clinical level, healthcare professionals can:
+
+- stay up-to-date on health issues and diseases associated with e-waste recycling activities;
+
+- where relevant, include e-waste recycling as an environmental etiology in differential diagnoses;
+
+- diagnose and treat conditions associated with unsound e-waste recycling activities;
+
+- provide prevention advice and interventions to reduce and prevent exposures; and
+
+- educate patients and their families, communities, other healthcare professionals and officials on health risks of unsound e-waste recycling activities.
+
+The healthcare sector also provides essential leadership and advocacy to e-waste initiatives and contributions to multi-sectoral action. Opportunities for healthcare sector leadership and collaboration include:
+
+- local, national and international capacity-building activities to diagnose, monitor and prevent toxic exposures within primary health care services for children and women;
+
+- health-based assessments of e-waste policies and regulations, particularly regarding children’s health;
+
+- awareness raising of e-waste recycling health risks and encouraging responsible recycling with policy-makers, communities, waste workers and their families; and
+
+- pursuing better data and research on women and children working with e-waste, and evaluation studies of prevention-intervention measures.
+
+What is WHO doing to reduce the health risks of e-waste recycling?
+==================================================================
+
+The WHO Initiative on E-waste and Child Health was launched in 2013 and contributes to international e-waste programmes and pilot projects in countries in Latin America and Africa. The pilot projects aim to promote local advocacy, collaborate with affected communities, and build the capacity of primary health systems to address risks by monitoring e-waste exposure and measuring the success of interventions. These projects are designing frameworks for action that can be adapted and replicated in different countries and settings.
+
+The WHO Initiative aims to:
+
+- increase access to evidence, knowledge and awareness of the health effects of unsound e-waste recycling;
+
+- improve health sector capacity to manage and prevent risks, track progress and promote policies that protect child health;
+
+- improve monitoring of e-waste exposures; and
+
+- facilitate and evaluate interventions that protect public health.
+
+WHO publishes a training package for the health sector, including a specific module on e-waste and children’s health. Additionally, UNICEF and WHO have developed a free, self-paced and online introductory course on children’s environmental health. This online course features a section dedicated to e-waste.
+
+WHO is a member of the E-Waste Coalition, a group of 10 UN agencies and international organizations that aim to increase collaboration, build partnerships and more efficiently provide support to Member States to address the e-waste challenge.
+
+References:
+
+1. Balde CP, Kuehr R, Yamamoto T, McDonald R, D’Angelo E, Althaf S et al. The Global E-waste Monitor 2024. Bonn, Geneva: International Telecommunication Union, United Nations Institute for Training and Resources; 2024 (https://ewastemonitor.info/)
+
+2. Child labour: global estimates 2020, trends and the road forward. Geneva: International Labour Organization; 2021 (https://www.ilo.org/ipec/ChildlabourstatisticsSIMPOC/lang--en/index.htm).

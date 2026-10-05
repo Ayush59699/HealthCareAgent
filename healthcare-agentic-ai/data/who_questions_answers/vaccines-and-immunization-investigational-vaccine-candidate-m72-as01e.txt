@@ -1,0 +1,60 @@
+WHO QUESTIONS AND ANSWERS
+Title: Vaccines and immunization: Investigational vaccine candidate M72/AS01E
+URL: https://www.who.int/news-room/questions-and-answers/item/vaccines-and-immunization-investigational-vaccine-candidate-m72-as01e
+Retrieved: 2026-10-05T09:50:23.283844+00:00
+
+========================================
+
+What is the M72/AS01E vaccine candidate?
+========================================
+
+M72/AS01E is a subunit candidate vaccine comprised of an immunogenic fusion protein (M72) derived from two Mycobacterium tuberculosis (M.tb) antigens (MTB32A and MTB39A), and the GlaxoSmithKline (GSK) proprietary adjuvant AS01E. AS01E is the same adjuvant used in Shingrix GSK vaccine, as well as in the new malaria vaccine RTS,S/AS01E.
+
+Who developed and who manufactured the vaccine?
+===============================================
+
+The M72/AS01E vaccine candidate was developed by the pharmaceutical company GlaxoSmithKline, in partnership with AERAS. AERAS was a not for profit organization based in the US, aimed at supporting tuberculosis vaccine research, funded by the Bill and Melinda Gates foundation, the UK Department for International Development (DFID), and other organizations. Current efforts are being coordinated by the Bill & Melinda Gates Medical Research Institute.
+
+What clinical data efficacy data already exists for this vaccine candidate?
+===========================================================================
+
+A phase 2b study was has been conducted to evaluate the safety, immunogenicity and protective efficacy of M72/AS01E vaccine against pulmonary TB, as compared to placebo in HIV negative adults with latent TB infection living in high TB burden countries (South Africa, Kenya and Zambia) and aged 18 - 50 years.
+
+This was a multicenter, double-blind, randomized, placebo-controlled trial participating 3573 HIV negative adults (18-50 years old) in Southern Africa (2873 from South Africa, 162 from Zambia, 538 from Kenya) who had evidence of Mycobacterium tuberculosis (M.tb) infection at baseline (IGRA+) vaccinated with M72/AS01E or placebo on a 2 dose schedule administered at 1 month interval. The primary endpoint was the development of pulmonary TB. This was a case driven analysis, where analysis was triggered by the accrual of a certain number of pulmonary TB cases.
+
+The results showed that administering two-doses of M72/AS01E was successful in reducing the development of active TB disease with 50% efficacy (90% CI, 12 to 71) in HIV negative adults with latent M.tb infection. A total of 39 participants contributed to the primary vaccine efficacy analysis during 3 years of follow up: 13 participants vaccinated with M72/AS01E developed pulmonary TB, as compared to 26 participants in the placebo group.
+
+How does the vaccine candidate work?
+====================================
+
+The exact mechanism of action of M72/AS01E protection is not known. Previous studies have showed that this vaccine induces an immune response characterized by the activation of interferon-gamma producing CD4+ T cells, and the production of antibodies. WHO strongly urges basic research to expand the current understanding of immune mechanisms of protection, and a comprehensive programme is currently underway to evaluate the samples from the phase 2b study to identify potential correlates. The phase 3 efficacy study will further evaluate and potentially validate correlates of immunity for this candidate.
+
+Will this candidate provide life long or long term protection?
+==============================================================
+
+The phase 2b demonstrated protection over approximately three years of study follow up. A similar period will be evaluated in the phase 3 efficacy trial. It is not currently known whether protection can extend for longer.
+
+Is the efficacy reported adequate to have an impact on disease burden and spread?
+=================================================================================
+
+WHO has produced guidance expressing a preference for at least 50% efficacy against prevention of disease in adults and adolescents. It will be important to determine whether the M72/AS01E candidate vaccine is safe and is likely to offer benefit in people who have not previously been infected with M.tb, in people living with HIV and in people across different geographical regions.
+
+Will this vaccine protect against the development of drug resistant TB?
+=======================================================================
+
+This has not been evaluated in the studies to date. However, a vaccine protective against pulmonary tuberculosis in adults, if used widely, has the potential to reduce drug resistant tuberculosis by reducing transmission and preventing the need for antibiotics; essential steps for curbing anti-microbial resistance. The role of this candidate vaccine in limiting the development and spread of drug-resistant forms of TB disease should be further evaluated.
+
+What is the difference between the phase 2b study that has demonstrated initial efficacy and this phase 3 study?
+================================================================================================================
+
+This phase 3 study has a larger number of participants, to further assess the efficacy of the M72/AS01E candidate in adults and older adolescents who have previously been exposed to M.tb., as well as to generate safety and immunogenicity data inadolescents and adults who have not been previously exposed to M.tb and people living with HIV.
+
+What has WHO’s role been in the design of the current phase III study?
+======================================================================
+
+WHO welcomes the initiation of the phase 3 study with M72/AS01E and will follow its progression with great interest. WHO has not been involved in the design of this trial, and will not be involved in the conduct, but WHO has had discussions with the developers of M72/AS01E to provide input through its expert advisory bodies.
+
+How is WHO supporting the development of new TB vaccines?
+=========================================================
+
+In addition to the guidance and publications that WHO develops to inform new TB vaccine development, WHO’s Director General has recently established the TB Vaccine Accelerator. The aims of the accelerator are to foster high-level coordination and alignment between funders, global agencies, governments, and end users on the important challenges in TB vaccine development, and on actions to address them. Its vision is to boost the TB vaccine pipeline and to facilitate the approval, access, and use of effective novel TB vaccines as a critical step to halt the epidemic.

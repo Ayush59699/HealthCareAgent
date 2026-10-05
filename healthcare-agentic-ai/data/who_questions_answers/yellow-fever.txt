@@ -1,0 +1,134 @@
+WHO QUESTIONS AND ANSWERS
+Title: Yellow fever
+URL: https://www.who.int/news-room/questions-and-answers/item/yellow-fever
+Retrieved: 2026-10-05T09:51:04.540236+00:00
+
+========================================
+
+Where does yellow fever occur?
+==============================
+
+Yellow fever occurs in 47 endemic countries in Africa in Central and South America. Around 90% of cases reported every year occur in Sub-Saharan Africa.
+
+Infected travellers from areas where yellow fever occurs can export cases to countries that are free of yellow fever, but the disease can only spread easily if that country has the mosquito species able to transmit it, specific climatic conditions and the animal reservoir needed to maintain it.
+
+How do you get yellow fever?
+============================
+
+The yellow fever virus is transmitted by infected mosquitoes, most commonly from the Aedes species – the same mosquito that spreads the Zika, Chikungunya and Dengue virus. Haemogogus mosquitoes also spread yellow fever and are mostly found in the jungle. Mosquitoes become infected with the virus when they bite an infected human or monkey. The disease cannot be spread by contact from one person to another.
+
+Mosquitoes breed in tropical rainforests, humid, and semi-humid environments, as well as around bodies of still water in and close to human habitations in urban settings. Increased contact between humans and infected mosquitoes, particularly in urban areas where people have not been vaccinated for yellow fever, can create epidemics.
+
+Outbreaks of the disease are of particular concern when they occur in overcrowded settings with inadequate water supply and waste management services that allow the mosquitoes to breed easily.
+
+What are the symptoms?
+======================
+
+Once contracted, the yellow fever virus incubates in the body for 3 to 6 days. Symptoms usually present themselves in 2 phases.
+
+The first, "acute", phase usually causes fever, muscle pain with prominent backache, headache, shivers, loss of appetite, and nausea or vomiting. Most patients improve and their symptoms disappear after 3 to 4 days.
+
+However, a small percentage of people enter a second, more toxic phase within 24 hours of the initial remission. They will experience high fever, jaundice, and abdominal pain with vomiting and deteriorating kidney function. Bleeding can occur from the mouth, nose, eyes or stomach, with blood appearing in vomit and faeces. Half of the patients who enter the toxic phase die within 10 to 14 days, the rest recover without significant organ damage.
+
+How is it treated?
+==================
+
+There is no specific treatment for yellow fever but good supportive treatment of symptoms, such as dehydration, fever and infection, improves survival rates. Associated bacterial infections can be treated with antibiotics. Yellow fever can be prevented by an extremely effective vaccine that is protective for life.
+
+How is it diagnosed?
+====================
+
+Yellow fever is difficult to diagnose (especially during the early stages) because its symptoms can be confused with other common diseases such as malaria, dengue, leptospirosis and Zika virus, as well as with poisoning. Doctors or clinicians who see a sick patient may not be able to tell that they have yellow fever from their symptoms alone, especially if they are in an area where many of these diseases are occurring at the same time.
+
+To confirm a suspected diagnosis of yellow fever, laboratory tests need to be done. Blood tests can detect antibodies produced in response to yellow fever, proving that the person has been infected or vaccinated. Several other techniques are used to identify the virus in blood specimens or liver tissue collected after death. These tests require highly trained laboratory staff and specialized equipment and materials.
+
+How can it be prevented?
+========================
+
+Vaccine is the most important means to combat yellow fever. The yellow fever vaccine is safe and affordable, and a single dose provides life-long immunity against the disease. To prevent outbreaks in affected regions, vaccination coverage must reach at least 80% of the population at risk.
+
+Mosquito control can also help to prevent yellow fever, and is vital in situations where vaccination coverage is low or the vaccine is not immediately available. Mosquito control includes eliminating sites where mosquitoes can breed, and killing adult mosquitoes and larvae by using insecticides in areas with high mosquito density. Community involvement through activities such as cleaning household drains and covering water containers where mosquitoes can breed is a very important and effective way to control mosquitoes.
+
+Is the vaccine effective and safe?
+==================================
+
+Vaccination is the single most important measure for preventing yellow fever. The vaccine has been used for many decades and is safe and affordable, providing effective immunity against yellow fever within 10 days for more than 90% of people vaccinated and within 30 days for 99% of people vaccinated. A single dose provides lifelong protection and costs less than US$ 2.
+
+Side effects of the yellow fever vaccine are generally mild and may include headaches, muscle aches, and low-grade fevers. There have been rare reports of serious side-effects.
+
+Who should be vaccinated?
+=========================
+
+In countries where yellow fever occurs, WHO strongly recommends routine vaccination for everyone older than 9 months. During an epidemic, when a mass vaccination campaign is underway, the vaccine is given to everyone over the age of 6 months (when the risk of disease is higher than an adverse event from the vaccine).
+
+WHO recommends vaccination for all travellers (with few exceptions) visiting areas where there is risk of yellow fever. Travellers, who have medical grounds for not being vaccinated, must have those grounds certified by the appropriate authorities.
+
+Many countries require proof of vaccination against yellow fever before they will issue a visa, particularly if travellers come from or have visited a country where yellow fever occurs. Make sure to keep your yellow fever proof of vaccination safe and bring it with you when you travel to another country.
+
+- Map: Yellow fever vaccination requirements
+
+Who should not be vaccinated?
+=============================
+
+Some people should not be routinely vaccinated, including:
+
+- infants aged less than 9 months (or less than 6 months during an outbreak, where the risk of disease is higher than an adverse event from the vaccine)
+
+- pregnant women (unless during an outbreak)
+
+- people with severe allergies to egg protein; and
+
+- people with severe immunodeficiency
+
+Am I protected from yellow fever immediately following vaccination?
+===================================================================
+
+In general, it takes 10 to 14 days from the date of vaccination for a person to develop immunity to the yellow fever virus. Additional personal protection measures from mosquitoes are critically important during this 10-14 day period in yellow fever endemic areas. These include wearing protective clothing, sleeping under insecticide treated bed nets even during the day and using recommended repellents. The vaccination certificate for yellow fever is valid from 10 days after administration of the vaccine for recipients.
+
+Is eradication of yellow fever possible?
+========================================
+
+Eradication of yellow fever is not feasible since we are unable to control the virus in the natural animal hosts.
+
+Who manages the vaccine supply for yellow fever outbreaks?
+==========================================================
+
+In an emergency situation it is often difficult to get enough vaccine doses to protect the entire population at risk due to the limited global vaccine supply. The emergency stockpile is managed by the International Coordinating Group on Vaccine Provision for Yellow Fever Control which was created in 2001. The role of the ICG is to verify that eligibility criteria are met by countries applying for outbreak support from the stockpile and to decide on the amount of vaccine to be shipped.
+
+- International Coordinating Group (ICG) on Vaccine Provision
+
+Who manages the yellow fever vaccine supply for routine immunization and preventive mass campaign?
+==================================================================================================
+
+WHO and UNICEF have the oversight role in tracking and supplying yellow fever vaccine for routine immunization. The YF Initiative (YFI) led by WHO and UNICEF coordinates yellow fever control at the global level. The goals of the Initiative are to prevent yellow fever outbreaks and to secure the supply of yellow fever vaccines. The Yellow Fever Initiative monitors the yellow fever activities at global level and identifies priorities in routine immunization, preventive campaigns, and outbreaks, including yellow fever vaccine supply issues.
+
+Video
+
+Yellow fever - facts and challenges
+
+- Yellow fever vaccine supply in an emergency
+
+General information
+-------------------
+
+- Fact sheet: yellow fever
+
+- Q&A: Fractional doses of the yellow fever vaccine
+
+- International Coordinating Group on Vaccine Provision
+
+Technical information
+---------------------
+
+- WHO's work on yellow fever
+
+- Yellow fever surveillance
+
+Vaccination
+-----------
+
+- Yellow fever vaccination booster not needed
+
+- Yellow fever vaccination requirements and recommendations
+
+Eliminate yellow fever epidemics (EYE) strategy 2017-2026

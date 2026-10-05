@@ -1,0 +1,57 @@
+WHO QUESTIONS AND ANSWERS
+Title: Antimicrobial resistance: The food chain
+URL: https://www.who.int/news-room/questions-and-answers/item/antimicrobial-resistance-in-the-food-chain
+Retrieved: 2026-10-05T09:43:12.750673+00:00
+
+========================================
+
+How does the use of antibiotics in food-producing animals lead to antimicrobial resistance in humans? ﻿
+=======================================================================================================
+
+The high volume of antibiotics in food-producing animals contributes to the development of antimicrobial-resistant bacteria, particularly in settings of intensive animal production. In some countries, the total amount of antibiotics used in animals is 4 times larger than the amount used in humans. In many countries much of the antibiotics used in animals are for growth promotion and prevention of disease, not to treat sick animals.
+
+These bacteria can be transmitted from animals to humans via direct contact between animals and humans, or through the food chain and the environment. Antimicrobial-resistant infections in humans can cause longer illnesses, increased frequency of hospitalization, and treatment failures that can result in death. Some types of bacteria that cause serious infections in humans have already developed resistance to most or all of the available treatments and we are running out of treatment options for some types of infection. WHO recommends an overall reduction in use of antibiotics in food-producing animals to help preserve their effectiveness for human medicine.
+
+Why is antimicrobial resistance important for food safety?
+==========================================================
+
+Many of the bacteria (such as Salmonella, Campylobacter and Escherichia coli) carried by animals can also cause disease in people. These bacteria, which are frequently antimicrobial-resistant, can contaminate our food supply from farm to fork, such as through slaughtering and processing. Fruits and vegetables may also be contaminated by such bacteria at the farm or later through cross-contamination. We know about this because we can link drug-resistant bacteria isolated from sick people to an agricultural source through DNA fingerprinting.
+
+Over 400 000 people die each year from foodborne diseases, with over one-third of these deaths occurring in children under 5 years of age. The vast majority of foodborne illnesses are caused by microbes, including bacteria, according to WHO estimates . If these bacteria become resistant to antibiotics, it will become impossible to treat them and more people will die from foodborne diseases.
+
+Why is WHO providing advice to the agriculture sector?
+======================================================
+
+WHO is providing advice to the agriculture sector because the most effective way to prevent the transmission of antimicrobial-resistant bacteria from food-producing animals to humans is by preventing the emergence and dissemination of antimicrobial-resistant bacteria in food-producing animals. WHO’s mandate is to build a better, healthier future for people all over the world. This includes protecting people from health threats due to antimicrobial-resistant infections and unsafe food.
+
+Antimicrobial resistance is a major threat to human health. Optimizing the use of antibiotics in both human medicine and animal husbandry will help slow down its emergence and spread. These WHO guidelines were developed to reduce this important public health threat to preserve the effectiveness of antibiotics important for human health. The recommendations are based on WHO’s list of critically important antimicrobials for human medicine, with the goal to safeguard all, especially critically important antibiotics. to treat multi-drug resistant infections in humans.
+
+Who are the important actors that can help implement the recommendations in the Guidelines?
+===========================================================================================
+
+These guidelines are relevant to every country, regardless of region, income and setting. The primary audience of these guidelines is policy makers and regulatory officials overseeing the use of antibiotics in food-producing animals. In addition, veterinarians, food animal organizations, food producers, pharmaceutical companies, animal health and public health officials, physicians and other health providers all have a role to play. Consumers also have a strong influence on the way foods are produced and are driving the market for meat produced without routine use of antibiotics in some countries. For example, Namibia has developed a strong export market for its beef since it introduced a ban on the use of antibiotics for growth promotion.
+
+Do the Guidelines call for a total ban of the preventive use of antibiotics in animals?
+=======================================================================================
+
+Recommendation No.3 of the new guidelines says that antibiotics should not be used as a preventive tool in the absence of disease in animals. The use of antimicrobials for disease prevention may be justified when a veterinary professional judges that there is a high risk of spread of a particular infectious disease, if such a judgement is made on the basis of recent culture and sensitivity testing results.
+
+The antimicrobials used should start with those of least importance for human health, i.e. start with classes not used in humans, and then as listed on the WHO List of critically important antimicrobials for human medicine (important and then highly important). Antimicrobials classified by WHO as critically important for human medicine should be used in animals only when the most recent culture and sensitivity results of bacteria known to have caused the disease indicate that the critically important antimicrobial is the only option.
+
+The WHO guidelines address the use of antibiotics used in human medicine. Antibiotics that are used only in animals are outside the scope of the guidelines. All possible means, such as improved hygiene and vaccination, should be taken to reduce the risks of food producing animals contracting infections and therefore reduce the need for antibiotics.
+
+How were FAO and OIE involved in the development of the guidelines?
+===================================================================
+
+The Food and Agriculture Organization of the United Nations (FAO), the World Organisation for Animal Health (OIE) and WHO have a long history of collaboration to address health threats at the human-animal-ecosystems interface. A number of expert meetings have been held jointly or in partnership with these agencies since 1997 to address antimicrobial resistance in the food chain, providing a basis for the development of the WHO guidelines. WHO appreciates the important roles played by FAO and OIE in the development of these guidelines.
+
+Recent reviews and data on antibiotic resistance in agriculture provided by FAO and OIE were used by the Guideline Development Group, which was responsible for assessing the evidence and for formulating the recommendations, and are quoted throughout the guidelines. Representatives from FAO and OIE were appointed as special members of the WHO Steering Group and were invited to attend the meetings of the Guideline Development Group as observers and they provided input to the draft guidelines. FAO and OIE were also invited to nominate members of the External Review Group, which provided comments on the draft final guidelines.
+
+Why are some of the recommendation made with "low-quality evidence"?
+====================================================================
+
+WHO’s guideline development process uses the Grading of Recommendations, Assessment, Development and Evaluation (GRADE) approach for assessment of the quality of the scientific evidence upon which the recommendations are based. The GRADE approach is designed to assess the effectiveness of specific interventions, such as a new treatment for a disease. It rates evidence derived from randomized controlled trials as “high quality”, while evidence from epidemiological studies, surveillance programmes and other sources of observational data, in which unknown confounders cannot be adequately controlled for, is rated initially as “low quality”, which can be upgraded according to specific criteria.
+
+In common with many important public health issues, due to ethical and technical complexity, there are very few randomized controlled studies that have assessed associations between use of antibiotics in food-producing animals and risks of human exposure to and infection by drug-resistant zoonotic pathogens. Most of the supporting scientific evidence – the best available - was collected from epidemiological studies, surveillance programmes and observational studies.
+
+In addition to the quality of the evidence and the balance of benefits and harms of an intervention, a number of other factors are considered when Guideline Development Groups formulate recommendations. These factors include the relative value placed on the potential beneficial and harmful outcomes of an intervention, the acceptability and feasibility of the intervention, resource considerations, and effects on equity across subpopulations. A “strong recommendation” means that after taking all relevant considerations into account, the Guideline Development Group is reasonably certain that the desirable consequences (benefits) of an intervention outweigh the undesirable consequences (risks or harms), such that the intervention should be implemented in most contexts.

@@ -1,0 +1,32 @@
+WHO QUESTIONS AND ANSWERS
+Title: Hepatitis
+URL: https://www.who.int/news-room/questions-and-answers/item/hepatitis
+Retrieved: 2026-10-05T09:46:26.695919+00:00
+
+========================================
+
+What is hepatitis?
+==================
+
+Hepatitis is an inflammation of the liver. The condition can be self-limiting or can progress to fibrosis (scarring), cirrhosis or liver cancer. Hepatitis viruses are the most common cause of hepatitis in the world but other infections, toxic substances (e.g. alcohol, certain drugs), and autoimmune diseases can also cause hepatitis.
+
+There are 5 main hepatitis viruses, referred to as types A, B, C, D and E. These 5 types are of greatest concern because of the burden of illness and death they cause and the potential for outbreaks and epidemic spread. In particular, types B and C lead to chronic disease in hundreds of millions of people and, together, are the most common cause of liver cirrhosis and cancer.
+
+Hepatitis A and E are typically caused by ingestion of contaminated food or water. Hepatitis B, C and D usually occur as a result of parenteral contact with infected body fluids. Common modes of transmission for these viruses include receipt of contaminated blood or blood products, invasive medical procedures using contaminated equipment and for hepatitis B transmission from mother to baby at birth, from family member to child, and also by sexual contact.
+
+Acute infection may occur with limited or no symptoms, or may include symptoms such as jaundice (yellowing of the skin and eyes), dark urine, extreme fatigue, nausea, vomiting and abdominal pain.
+
+What are the different hepatitis viruses?
+=========================================
+
+Scientists have identified 5 unique hepatitis viruses, identified by the letters A, B, C, D, and E. While all cause liver disease, they vary in important ways.
+
+Hepatitis A virus (HAV) is present in the faeces of infected persons and is most often transmitted through consumption of contaminated water or food. Certain sex practices can also spread HAV. Infections are in many cases mild, with most people making a full recovery and remaining immune from further HAV infections. However, HAV infections can also be severe and life threatening. Most people in areas of the world with poor sanitation have been infected with this virus. Safe and effective vaccines are available to prevent HAV.
+
+Hepatitis B virus (HBV) is transmitted through exposure to infective blood, semen, and other body fluids. HBV can be transmitted from infected mothers to infants at the time of birth or from family member to infant in early childhood. Transmission may also occur through transfusions of HBV-contaminated blood and blood products, contaminated injections during medical procedures, and through injection drug use. HBV also poses a risk to healthcare workers who sustain accidental needle stick injuries while caring for infected-HBV patients. Safe and effective vaccines are available to prevent HBV.
+
+Hepatitis C virus (HCV) is mostly transmitted through exposure to infective blood. This may happen through transfusions of HCV-contaminated blood and blood products, contaminated injections during medical procedures, and through injection drug use. Sexual transmission is also possible, but is much less common. There is no vaccine for HCV.
+
+Hepatitis D virus (HDV) infections occur only in those who are infected with HBV. The dual infection of HDV and HBV can result in a more serious disease and worse outcome. Hepatitis B vaccines provide protection from HDV infection.
+
+Hepatitis E virus (HEV) is mostly transmitted through consumption of contaminated water or food. HEV is a common cause of hepatitis outbreaks in developing parts of the world and is increasingly recognized as an important cause of disease in developed countries. Safe and effective vaccines to prevent HEV infection have been developed but are not widely available.

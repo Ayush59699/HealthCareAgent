@@ -1,0 +1,69 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Serology, antibodies and immunity
+URL: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-serology
+Retrieved: 2026-10-05T09:44:42.224358+00:00
+
+========================================
+
+Updated 31 December 2020 The answers to the questions below are based on our current understanding of the SARS-CoV-2 virus and COVID-19, the disease it causes. WHO will continue to update these answers as new information becomes available.
+
+This page is no longer being updated. It remains live for reference purposes only.
+
+What is serology?
+=================
+
+‘Serology’ is the study of antibodies in blood serum.
+
+‘Antibodies’ are part of the body’s immune response to infection. Antibodies that work against SARS-CoV-2 – the virus that causes COVID-19 – are usually detectable in the first few weeks after infection. The presence of antibodies indicates that a person was infected with SARS-CoV-2, irrespective of whether the individual had severe or mild disease, or no symptoms.
+
+‘Seroprevalence studies’ are conducted to measure the extent of infection, as measured by antibody levels, in a population under study. With any new virus, including SARS-CoV-2, initial seroprevalence in the population is assumed to be low or non-existent due to the fact that the virus has not circulated before.
+
+What is the difference between molecular testing and serologic testing?
+=======================================================================
+
+‘Molecular testing’, including polymerase-chain reaction (PCR) testing, detects genetic material of the virus and so can detect if a person is currently infected with SARS-CoV-2.
+
+‘Serologic testing’ detects antibodies against a virus, measuring the amount of antibodies produced following infection, thereby detecting if a person has previously been infected by SARS-CoV-2. Serologic tests should not be used to diagnose acute SARS-CoV-2 infection, as antibodies develop a few weeks after infection.
+
+What is the purpose of serologic testing?
+=========================================
+
+When a new disease, like COVID-19 emerges, initial surveillance and testing strategies focus initially on patients with severe disease and the use of molecular testing to measure acute infections, as these are the individuals who seek and require health care. This can often miss the fraction of mild or asymptomatic infections that do not require medical attention, and as such, the full extent of infection is not known early in an outbreak.
+
+Serologic testing helps retrospectively determine the size of an outbreak or extent of infection in a population under study. Seroprevalence studies give a more complete picture of how much of a population has been infected with SARS-CoV-2 and will capture unrecognized cases not identified through routine or active surveillance.
+
+Does the presence of antibodies mean that a person is immune?
+=============================================================
+
+There are many studies underway to better understand the antibody response following infection to SARS-CoV-2. Several studies to date show that most people who have been infected with SARS-CoV-2 develop antibodies specific to this virus. However, the levels of these antibodies can vary between those who have severe disease (higher levels of antibodies) and those with milder disease or asymptomatic infection (lower levels of antibodies). Many studies are underway to better understand the levels of antibodies that are needed for protection, and how long these antibodies last.
+
+Can people who have had SARS-CoV-2 infection be re-infected?
+============================================================
+
+To date, there are some reports of individuals who have been reinfected with SARS-CoV-2. There are likely to be more examples of reinfection reported and scientists are working to understand the role of the immune response in the first and second infection. WHO is working with scientists to understand each occurrence of reinfection and the antibody response during the first and subsequent infections.
+
+What are the results of seroprevalence studies published to date?
+=================================================================
+
+There are now more than 200 peer-reviewed publications, pre-prints, manuscripts and government reports of SARS-CoV-2 seroprevalence studies. These studies vary in study design, populations under study, serologic tests used, timing of sample collection, and quality. Overall, the population-based seroprevalence reported across available studies remains low, at below 10%.
+
+Some studies conducted in areas of known high virus transmission and studies of health care workers in areas of known high transmission have reported seroprevalence estimates over 20%.
+
+Available study results indicate that, globally, most people remain susceptible to SARS-CoV-2 infection.
+
+What is herd immunity?
+======================
+
+'Herd immunity', also known as 'population immunity', is the indirect protection from an infectious disease that happens when a population is immune either through vaccination or immunity developed through previous infection. WHO supports achieving 'herd immunity' through vaccination, not by allowing a disease to spread through any segment of the population, as this would result in unnecessary cases and deaths.
+
+Herd immunity against COVID-19 should be achieved by protecting people through vaccination, not by exposing them to the pathogen that causes the disease. Read the Director-General’s 12 October media briefing speech for more detail.
+
+Vaccines train our immune systems to create proteins that fight disease, known as ‘antibodies’, just as would happen when we are exposed to a disease but – crucially – vaccines work without making us sick. Vaccinated people are protected from getting the disease in question and passing on the pathogen, breaking any chains of transmission. Visit our webpage on COVID-19 and vaccines for more detail.
+
+To safely achieve herd immunity against COVID-19, a substantial proportion of a population would need to be vaccinated, lowering the overall amount of virus able to spread in the whole population. One of the aims with working towards herd immunity is to keep vulnerable groups who cannot get vaccinated (e.g. due to health conditions like allergic reactions to the vaccine) safe and protected from the disease. Read our Q&A on vaccines and immunization for more information.
+
+The percentage of people who need to be immune in order to achieve herd immunity varies with each disease. For example, herd immunity against measles requires about 95% of a population to be vaccinated. The remaining 5% will be protected by the fact that measles will not spread among those who are vaccinated. For polio, the threshold is about 80%. The proportion of the population that must be vaccinated against COVID-19 to begin inducing herd immunity is not known. This is an important area of research and will likely vary according to the community, the vaccine, the populations prioritized for vaccination, and other factors.
+
+Achieving herd immunity with safe and effective vaccines makes diseases rarer and saves lives.
+
+Find out more about the science behind herd immunity by watching or reading this interview with WHO’s Chief Scientist, Dr Soumya Swaminathan.

@@ -1,0 +1,64 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Climate change
+URL: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-climate-change
+Retrieved: 2026-10-05T09:44:12.145615+00:00
+
+========================================
+
+Frequently asked questions and answers to clarify the relationship between COVID-19 and climate change. WHO is continuously monitoring and responding to this outbreak. This Q&A will be updated as more is known about COVID-19, how it is affecting people worldwide, and the effectiveness of interventions against the disease.
+
+This page is no longer being updated. It remains live for reference purposes only.
+
+Where can I find the latest information on COVID-19?
+====================================================
+
+For the latest information on COVID-19, check regularly on the WHO’s coronavirus pages: https://www.who.int/emergencies/diseases/novel-coronavirus-2019
+
+Do weather and climate determine where COVID-19 occurs?
+=======================================================
+
+No. There is currently no conclusive evidence that either weather (short term variations in meteorological conditions) or climate (long-term averages) have a strong influence on transmission. The SARS-CoV-2 virus which causes COVID-19 disease has been transmitted in all regions of the world, from cold and dry, to hot and humid climates.
+
+SARS-CoV-2 is thought to be mainly transmitted directly from person-to-person through close contact, or through respiratory droplets produced when an infected person coughs or sneezes. People may be infected by touching exposed surfaces, but this is not thought to be a major transmission route. While temperature and humidity may influence how long the virus survives outside of the human body, this effect is likely to be small compared to the degree of contact between people.
+
+Physical distancing and washing hands are therefore essential to breaking the chain of transmission, and are the most effective way to protect yourself, in all locations and all seasons of the year.
+
+Will climate change make COVID-19 worse?
+========================================
+
+There is no evidence of a direct connection between climate change and the emergence or transmission of COVID-19 disease. As the disease is now well established in the human population, efforts should focus on reducing transmission and treating patients.
+
+However, climate change may indirectly affect the COVID-19 response, as it undermines environmental determinants of health, and places additional stress on health systems. More generally, most emerging infectious diseases, and almost all recent pandemics, originate in wildlife, and there is evidence that increasing human pressure on the natural environment may drive disease emergence. Strengthening health systems, improved surveillance of infectious disease in wildlife, livestock and humans, and greater protection of biodiversity and the natural environment, should reduce the risks of future outbreaks of other new diseases.
+
+Have measures to contain COVID-19 reduced air pollution and emissions of greenhouse gases?
+==========================================================================================
+
+Air pollution is a serious health risk. It kills approximately 7 million people every year and is responsible for one third of all deaths from stroke, lung cancer and heart disease. Over 90% of the global population lives in places where the WHO outdoor air quality guideline levels are not met, and about two-thirds of this exposure is caused by burning of fossil fuels, which also drives climate change.
+
+Efforts to control COVID-19 transmission have reduced economic activity and led to temporary improvements in air quality in some areas. In contrast, as carbon dioxide and other greenhouse gases that drive climate change persist for a long time in the atmosphere, temporary emissions reductions only have a limited effect on atmospheric concentrations. Carbon dioxide levels at observing stations around the world in the first months of 2020 have been higher than in 2019.
+
+Environmental improvements resulting from the COVID-19 response may be reversed by a rapid expansion of polluting economic activities once the measures have ended, unless there is a clear focus to promote equity, environmental health, around a just transition to a green economy.
+
+Any short-term environmental benefits as a result of COVID-19 come at an unacceptable human and economic cost, and are no substitute for planned and sustained action on air quality and climate.
+
+How does water scarcity affect infectious diseases like COVID-19?
+=================================================================
+
+Access to adequate and safe water and sanitation is essential for communities to practice basic hygiene and reduce transmission of COVID-19. Access to these services in health facilities is crucial to preventing infections, reducing the spread of antimicrobial resistance and providing quality care.
+
+One in four health care facilities around the world lacks basic water services, directly impacting over two billion people. Around 80% of the world’s population is already experiencing some level of water scarcity. Climate change further threatens the availability of water for consumption, food production, personal hygiene, and medical care, including for infectious disease.
+
+What can the global response to COVID-19 teach us about our response to climate change?
+=======================================================================================
+
+The COVID-19 pandemic is a Public Health Emergency of International Concern (PHEIC), which has claimed lives, and severely disrupted communities. Climate change is a gradually increasing stress that may be the defining public health threat of the 21st century. Nonetheless, common lessons can be drawn:
+
+- Ensuring universal health coverage (UHC), through well-resourced, equitable health systems, is essential to protect the public from both short and long-term health threats.
+
+- Guaranteeing global health security requires an all-hazards approach to preparedness, from infectious disease outbreaks, to extreme weather events, to climate change.
+
+- Ensuring access to the environmental determinants of health, such as clean air, water and sanitation, safe and nutritious food, is an essential protection against all health risks. WHO estimates that avoidable environmental risks cause about a quarter of the global health burden.
+
+- Early action saves lives. Delay in responding to clear evidence of threats, whether from pandemics, or from climate change, increases human and socioeconomic costs.
+
+- Inequality is a major barrier in ensuring health and wellbeing, especially for the most vulnerable in society. Social and economic inequality manifests in unequal health risks. When faced with public health threats of a global scale, such as COVID-19 or climate change, we are only as strong as our weakest health system.

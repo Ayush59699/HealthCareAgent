@@ -1,0 +1,71 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Casirivimab and Imdevimab - monoclonal antibody therapy
+URL: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-casirivimab-and-imdevimab---monoclonal-antibody-therapy
+Retrieved: 2026-10-05T09:43:53.352118+00:00
+
+========================================
+
+Disclaimer: WHO has updated its recommendation on casirivimab-imdevimab since the publication of this Q&A. Since 3 March 2022, WHO guidelines have made a strong recommendation against casirivimab and imdevimab. Please refer to Therapeutics and COVID-19: living guideline, found in the Publications section, for the latest recommendations.
+
+This page is no longer being updated. It remains live for reference purposes only.
+
+I have COVID-19, should I be prescribed this monoclonal antibody therapy?
+=========================================================================
+
+A combination of casirivimab and imdevimab, a monoclonal antibody cocktail developed by Regeneron, is recommended for:
+
+- Patients with confirmed non-severe COVID-19 at highest risk for hospitalization.
+
+- Those at highest risk are typically individuals older than 60, have a chronic disease, are immunocompromised, or are not vaccinated.
+
+- Patients with severe or critical COVID-19* who do not have antibodies to the COVID-19 virus (i.e., those who are seronegative).
+
+This drug should be administered by a healthcare worker in a monitored clinical setting along with the current standard of care for COVID-19 which may include oxygen and other medications.
+
+*A patient has severe COVID-19 when they have signs of pneumonia, severe respiratory distress, and their blood oxygen level is low. A patient has critical COVID-19 when they need life sustaining treatment, have acute respiratory distress syndrome, or have septic shock (evidence of injury to other organs ).
+
+More.
+
+How is this monoclonal antibody therapy administered and what is the dosage?
+============================================================================
+
+Casirivimab and imdevimab should be administered by a healthcare worker in a monitored clinical setting intravenously through an infusion (drip). In some instances, the medication may be given subcutaneously through an injection.
+
+The dosage of the medication will be determined by the healthcare provider.
+
+For patients with non-severe COVID-19 the total dose of casirivimab and imdevimab is 1200 – 2400 mg given once intravenously. Alternatively, a patient may receive a total one-time dose of 1200 mg subcutaneously.
+
+For patients with severe or critical COVID-19 the total dose of casirivimab and imdevimab is 2400 – 8000 mg given once intravenously.
+
+Is this monoclonal antibody therapy suitable for anyone with COVID-19?
+======================================================================
+
+There is limited data regarding the use of casirivimab and imdevimab in patients who are pregnant or breastfeeding. If you are pregnant or breastfeeding discuss the risks and benefits of this drug with your healthcare provider first.
+
+How does this monoclonal antibody therapy act?
+==============================================
+
+These drugs (casirivimab and imdevimab) are antibodies like the ones produced by our bodies when they are faced with the COVID-19 virus. They act by blocking the ability of the virus to infect our body’s cells.
+
+Casirivimab and imdevimab are a combination of two recombinant human antibodies that targets a different part of the spike protein, the part of the coronavirus responsible for infecting human cells.
+
+Are there any side effects? Interactions with other drugs?
+==========================================================
+
+In rare instances, patients receiving casirivimab and imdevimab can develop severe allergic reactions. If this occurs, appropriate medical therapy should be initiated immediately. This is why it is important for patients to receive this medication in the presence of a healthcare professional in a monitored clinical setting.
+
+Infusion-related reactions are rare and may occur while receiving the infusion or up to 24 hours after completion. If during the infusion a severe or life-threatening reaction occurs, the infusion may be given more slowly or stopped. Signs of an infusion-related reaction include fever, difficulty breathing, reduced oxygenation, chills, fatigue, irregular heartbeat, chest pain or discomfort, weakness, nausea, headache, angioedema (swelling of the lips), throat irritation, hypertension (high blood pressure), hypotension (low blood pressure), throat irritation, rash, tching, muscle aches, feeling faint, passing out, dizziness, and diaphoresis (sweating).
+
+Do patients receiving the monoclonal antibody therapy need monitoring?
+======================================================================
+
+It is important for patients to receive this medication in the presence of a healthcare professional in a monitored clinical setting in the event of rare severe allergic reactions.
+
+How expensive is this drug? Is it widely available?
+===================================================
+
+There is currently a shortage of casirivimab and imdevimab globally and these medications are expensive.
+
+WHO and partners are working with the manufacturer of this therapeutic, Roche Pharmaceutical, to see how the medication can be developed and obtained at a lower price. It is important that we improve access to this life saving medication in low- and middle-income countries .
+
+WHO has launched a call to manufacturers to submit biosimilar versions of this drug for approval or prequalification. This would allow global production to be ramped up so that more people can access the drugs.

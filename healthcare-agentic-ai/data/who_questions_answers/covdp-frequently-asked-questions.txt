@@ -1,0 +1,84 @@
+WHO QUESTIONS AND ANSWERS
+Title: CoVDP Frequently Asked Questions
+URL: https://www.who.int/news-room/questions-and-answers/item/covdp-frequently-asked-questions
+Retrieved: 2026-10-05T09:45:00.450097+00:00
+
+========================================
+
+What is the COVID-19 Vaccine Delivery Partnership (CoVDP)?
+==========================================================
+
+The COVID-19 Vaccine Delivery Partnership (CoVDP) was launched in January 2022 by the United Nations Children’s Fund (UNICEF), the World Health Organization (WHO), and Gavi, the Vaccine Alliance and is supported by a broad network of partners including the Africa CDC, World Bank, International Monetary Fund, United Nations organisations, the European Union, the G20 and many others. CoVDP is an inter-agency partnership that works to accelerate vaccination coverage in the 92 “Advanced Market Commitment” countries with a particular focus on the 34 countries that were at or below 10% coverage in January 2022.
+
+What is the CoVDP’s goal?
+=========================
+
+CoVDP’s goal is to accelerate COVID-19 vaccination rates in countries with the lowest vaccination rates and support them in reaching their national targets on their way to global vaccination targets, thereby closing the vaccine equity gap that exists between high- and low-income countries. Closing the vaccine gap is essential as a highly vaccinated population diminishes the risk of transmission, lowers the risk of severe illness and hospitalization, and reduces the chances of new variants emerging globally. The CoVDP focuses first and foremost on the vaccination of high-priority groups such as the elderly, the immuno-compromised, pregnant women and health care workers.
+
+Why is the CoVDP needed?
+========================
+
+During 2021, COVID-19 vaccine supply constraints were the main bottleneck to increasing global vaccination coverage. In recent months, with significant efforts from partners through initiatives such as COVAX and AVATT, the global supply and availability of vaccines has substantially increased. The focus has now shifted to addressing the significant inequities in vaccine access that continue to exist as 61% of the global population is fully vaccinated against only 13% in low-income countries.
+
+Addressing low vaccination rates requires sustained, concerted and country-by-country efforts to identify and overcome the political, financial and operational obstacles that are the primary causes of low vaccination rates in these countries
+
+How is the CoVDP different to COVAX and other partners?
+=======================================================
+
+The largest vaccine operation in history, requires large scale coordination and cooperation —particularly in remote areas and countries dealing with humanitarian emergencies and fragile health systems. For this reason, the Access to COVID-19 Tools (ACT) Accelerator was launched in April 2020 as a global collaboration platform to accelerate development, production, and equitable access to COVID-19 tests, treatments, and vaccines.
+
+The COVAX facility is the vaccines pillar of the Access to COVID-19 Tools (ACT) Accelerator whose aim is to accelerate the development and manufacturing of COVID-19 vaccines, and to guarantee fair and equitable access for every country in the world.Across its partner agencies – CEPI, Gavi, UNICEF and WHO – COVAX supports the entire value chain of vaccinations from R&D, to manufacturing, procurement and delivery.
+
+The CoVDP is primarily focused on supporting the final piece of the vaccine value chain, namely the delivery of vaccines in-country, focusing in particular on country engagement, demand planning, delivery funding, delivery coordination and monitoring. CoVDP works closely with all COVAX partners but focuses on the delivery of all vaccines, regardless of whether vaccines have been procured via COVAX, AVATT, through other partners or bilaterally.
+
+What has the CoVDP achieved so far?
+===================================
+
+Since January 2022, the number of countries with very low vaccination rates has reduced significantly. A total of 16 out of the 34 countries that have received concerted support to accelerate vaccinations since January 2022 had increased vaccination coverage to over 10% by June 2022, including six countries that have reached vaccination rates of 20% or more (Central African Republic, Cote d’Ivoire, Ghana, Sierra Leone, Solomon Islands and Uganda).
+
+Through the CoVDP funding alignment workstream, we have reviewed and disbursed a total of $53 million to nine countries across the three agencies to cover short-term funding gaps that would have otherwise hindered the delivery of vaccines. This includes $16.7 million for Ethiopia, $7.3 for Somalia, $5.8 for South Sudan, $5.7 million for Sudan and $4.9 million for Chad, all of which were used to cover the operational costs of COVID-19 vaccination campaigns.
+
+What are the main challenges that countries face in rolling out COVID-19 vaccinations?
+======================================================================================
+
+There are multiple causes for low demand and low absorption capacity, and they vary between countries, but they can be grouped broadly into three main categories:
+
+- Political bottlenecks: These include a lack of coordinated political leadership at various levels, where COVID-19 is not considered a major priority or where there are competing priorities. Efficient planning and roll-out is not possible without political engagement. This is especially true in countries that experience humanitarian emergencies, conflict, and other fragile contexts.
+
+- Funding challenges: These are mainly related to the coverage of operational costs for vaccine delivery, including payments and incentives for health workers, vaccinators and community mobilizers, training costs, transport, and logistics. Even where operational funding is available, it is sometimes insufficient or structures in an inflexible way.
+
+- Operational challenges: These are common across most countries and include inadequate cold chain, logistics and transport equipment; insufficient availability of trained health workers, vaccinators, and community mobilizers; the complexity of managing multiple vaccines; demand-side factors such as vaccine hesitancy, misinformation, and a lack of information about COVID-19 and vaccines.
+
+What support do countries need to successfully increase the uptake of vaccines?
+===============================================================================
+
+There are several ingredients for success: to increase demand and absorption capacity:
+
+- Predictable supply: It is important that vaccine manufacturers continue to provide realistic and accurate supply-side data with a 6-month horizon at a minimum.
+
+- Quality dose donations: Vaccines with ample remaining shelf-life are needed to reduce the risk of wastage. A minimum of 4 months of shelf-life is needed but longer shelf-lives are preferred as many countries need more time to plan and deploy vaccines, especially fragile and conflict-affected states.
+
+- Funding: Dedicated, predictable, and quickly disbursable financial resources are essential. Funding is needed for a range of operational and support activities around vaccine delivery. Flexibility, such as the ability to use funding meant for vaccine purchases for operational support when the situation requires it, is key to successful vaccine roll out.
+
+- Strong leadership at all levels: The engagement of high-level government officials at the national and regional levels, as well as the involvement of traditional and community leaders are key ingredients in building trust in vaccines.
+
+- Efficient planning: An efficient country coordination mechanism is key for planning and oversight of the COVID-19 vaccine delivery. Detailed microplanning at subnational level is key to optimize delivery strategies.
+
+How does the CoVDP operate at a country level?
+==============================================
+
+At the country-level, the CoVDP engages primarily through the One Country Team, a government-led team at the centre of all planning and support activities. The One Country Teams represent existing coordination structures put in place at the start of the pandemic.
+
+The exact composition of the One Country Team varies from country to country but generally involves the highest-level government entity in charge of COVID-19 vaccinations (e.g., Office of the Prime Minister, Presidential Task Force, Ministry of Health), the Ministry of Finance, the Expanded Programme on Immunization (EPI) and focal points from partners.
+
+Why is the CoVDP focusing on COVID-19 vaccinations if countries face multiple and possibly more urgent health priorities?
+=========================================================================================================================
+
+The COVID-19 pandemic is not over, it continues to affect impact families, communities, and countries, causing between 65,000 and 75,000 deaths globally every week and hundreds of thousands of new cases. Over 6.3 million lives have been lost to the pandemic. COVID-19 vaccinations protect the most vulnerable members of society, health care workers and frontline workers as well as the general population against severe disease and death that could overburden countries’ health care systems—many of which were already fragile prior to the pandemic.
+
+In addition, the systems required for the COVID-19 vaccine rollout strengthen countries’ existing health systems including cold storage, logistics, health ICT systems and the training of healthcare workers.
+
+How does the CoVDP prevent dose expiry and wastage?
+===================================================
+
+All partners are all working to increase vaccine uptake and minimise wastage wherever possible. Vaccine wastage is not a new phenomenon – it happens in all immunisation programmes, including in high income countries – and is to be expected with the rollout of COVID vaccines. While the data is incomplete, low-income countries have achieved relatively low levels of wastage, despite the swift pace of their scaled-up vaccination programs.

@@ -1,0 +1,55 @@
+WHO QUESTIONS AND ANSWERS
+Title: Carcinogenicity of red and processed meat
+URL: https://www.who.int/news-room/questions-and-answers/item/cancer-carcinogenicity-of-the-consumption-of-red-meat-and-processed-meat
+Retrieved: 2026-10-05T09:43:24.729275+00:00
+
+========================================
+
+What is red meat?
+=================
+
+Red meat refers to all mammalian muscle meat, including beef, veal, pork, lamb, mutton, horse and goat.
+
+What is processed meat?
+=======================
+
+Processed meat refers to meat that has been transformed through salting, curing, fermentation, smoking or other processes to enhance flavour or improve preservation.
+
+Examples of processed meat include hot dogs (frankfurters), ham, sausages, corned beef and biltong or beef jerky, as well as canned meat and meat-based preparations and sauces.
+
+Red meat has been classified as Group 2A, probably carcinogenic to humans. What does this mean?
+===============================================================================================
+
+The categories of the classification indicate the strength of the evidence as to whether a substance is capable of causing cancer (technically called “hazard assessment”), but it does not measure the likelihood that cancer will occur (technically called “risk characterization”) at a particular level of exposure to the substance. Group 2A is the second highest hazard classification, meaning there is evidence of carcinogenicity but that it is not definitive.
+
+In the case of red meat, the classification is based on limited evidence from observational studies showing positive associations between eating red meat and developing colorectal cancer as well as strong mechanistic evidence (evidence showing how it could cause cancer).
+
+Processed meat has been classified as Group 1, carcinogenic to humans. What does this mean?
+===========================================================================================
+
+Group 1 is used when there is sufficient evidence of carcinogenicity in humans. In other words, there is convincing evidence that the substance causes cancer. The evaluation is usually based on epidemiological studies showing the development of cancer in exposed humans.
+
+What types of cancer are linked or associated with eating red meat?
+===================================================================
+
+The strongest evidence suggests that eating red meat is linked to colorectal cancer, although the evidence is still limited. There is also some evidence that it may be linked to pancreatic and prostate cancers.
+
+What types of cancer are linked or associated with eating processed meat?
+=========================================================================
+
+The evidence shows that eating processed meat causes colorectal cancer. It also suggests a link with stomach cancer, but there is not enough evidence to draw a firm conclusion.
+
+What about people who have had colon cancer? Should they stop eating red meat?
+==============================================================================
+
+Meat can be part of a healthy diet and provides nutrients that are important for good health. However, many national dietary guidelines recommend limiting processed meat and red meat because higher intakes are linked to an increased risk of heart disease, type 2 diabetes and some cancers.
+
+How much red or processed meat is it safe to eat?
+=================================================
+
+The risk increases with the amount of red or processed meat consumed, but the data available for evaluation did not permit a conclusion at the time of the original assessment about whether a safe level exists. WHO is currently developing a guideline on the optimal intake of animal-source foods, which will include recommendations on the amount of red and processed meat to consume.
+
+What is WHO’s health recommendation to prevent cancer risk associated with eating red meat and processed meat?
+==============================================================================================================
+
+WHO is currently developing a guideline on the optimal intake of animal-source foods, which will include recommendations on red and processed meat. As part of this work, several systematic reviews of the scientific literature are being undertaken that will inform the recommendations, including those covering red and processed meat consumption and cancer risk, among many other relevant health outcomes.

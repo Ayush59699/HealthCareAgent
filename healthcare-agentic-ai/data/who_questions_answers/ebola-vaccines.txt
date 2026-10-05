@@ -1,0 +1,175 @@
+WHO QUESTIONS AND ANSWERS
+Title: Ebola vaccines
+URL: https://www.who.int/news-room/questions-and-answers/item/ebola-vaccines
+Retrieved: 2026-10-05T09:45:27.015623+00:00
+
+========================================
+
+Note: These Q&As use the virus taxonomy approved in April 2023 by the Executive Committee of the International Committee of Taxonomy on Viruses.
+
+Is there a vaccine against Ebola disease?
+=========================================
+
+Ebola disease is caused by a group of viruses called Orthoebolaviruses, and there are four species that are known to cause disease in humans:
+
+- Ebola virus (EBOV) causing Ebola virus disease (EVD, previously called Zaire ebolavirus)
+
+- Bundibugyo virus (BDBV) causing Bundibugyo virus disease (BVD)
+
+- Sudan virus (SUDV) causing Sudan virus disease (SVD)
+
+- Taï Forest virus (TAFV) causing Taï Forest virus disease.
+
+Currently, only one licensed and WHO prequalified vaccine (Ervebo) is available specifically for EBOV causing EVD. There are no licensed vaccines for the other species.
+
+Is there a vaccine for Bundibugyo virus disease?
+================================================
+
+No. There is no licensed vaccine for Bundibugyo virus disease (BVD). Research is underway hoping to develop one or more vaccines that work against BVD. Some of these vaccines are already in the early phases of testing in humans.
+
+Before BVD-specific vaccines can be used, they must be tested in clinical trials to confirm that they are safe and protect against disease and/or prevent transmission of the virus. Research is underway on new vaccine candidates designed specifically for the Bundibugyo virus and to determine whether Ervebo, the licensed vaccine against Ebola virus might also work against the Bundibugyo virus.
+
+What are the current WHO recommendations for use of the Ervebo vaccine?
+=======================================================================
+
+The Ervebo vaccine is only recommended by WHO for use against Ebola virus disease (EVD). It is recommended for use in outbreaks and for preventive vaccination of health care workers and frontline workers in areas at risk of future EVD outbreaks. Ervebo is safe and effective to protect against EVD.
+
+See July 2024 WHO recommendation on EVD vaccination.
+
+In case of an EVD outbreak, Ervebo vaccine can be accessed by countries through the International Coordinating Group (ICG) on Vaccine Provision global stockpile.
+
+For preventive vaccination of health care and front Line workers with Ervebo, countries at risk of an EVD outbreak can apply to Gavi.
+
+What are the WHO recommendations on using Ervebo vaccine during the current Bundibugyo virus disease outbreak?
+==============================================================================================================
+
+Evidence from animal models suggests that Ervebo vaccine might offer some protection against Bundibugyo virus disease (BVD). Nevertheless, there is currently insufficient evidence to determine whether Ervebo vaccine protects against BVD in humans, or to quantify any potential level of protection.
+
+Therefore, WHO recommends that, until this evidence on protection in humans is generated in the context of the current BVD outbreak, Ervebo should only be used within a research protocol.
+
+See 31 August 2026 WHO emergency guidance.
+
+What is the meaning of using Ervebo vaccine within a research protocol in the context of Bundibugyo virus disease outbreak?
+===========================================================================================================================
+
+Both a ring vaccination randomized controlled trial (RCT) and an observational vaccine effectiveness (Obs-VE) study constitute research protocols. WHO considers a well-designed and well-conducted ring vaccination RCT to be the most rigorous and reliable approach for assessing the efficacy of Ervebo against Bundibugyo virus disease (BVD).
+
+However, WHO recognizes that in the context of a rapidly evolving BVD outbreak, countries facing substantial transmission may contemplate using Ervebo beyond a ring-vaccination RCT. In such circumstances, where a ring RCT is not feasible, WHO recommends implementing vaccination within a carefully designed Obs-VE study to ensure the systematic generation of evidence on vaccine effectiveness of Ervebo against BVD.
+
+Implementing Ervebo vaccination within a research protocol facilitates the systematic and high-quality documentation of vaccination activities and establishes predefined criteria for pausing, modifying, or discontinuing vaccination in response to emerging evidence on the level of protection that Ervebo may or may not provide against BVD.
+
+Should Ervebo vaccine be used for health workers and frontline workers in areas affected by Bundibugyo virus disease?
+=====================================================================================================================
+
+Areas at risk of Ebola virus disease (EVD) outbreaks are likely to overlap with areas affected by the current Bundibugyo virus disease (BVD) outbreak. Ervebo is already recommended to be used for health workers and frontline workers as a prevention measure for future EVD outbreaks. In the current situation where that use overlaps with the BDV outbreak, Ervebo vaccination of health and frontline workers can go ahead under the current policy. However, its use should be implemented within the context of a research protocol.
+
+The research protocol should be designed to generate evidence on its efficacy against BVD and safety, such as a ring vaccination randomized controlled trial (RCT), or a well-designed observational vaccine effectiveness (Obs-VE) study. If a ring RCT or Obs-VE study is not feasible, use of Ervebo may continue outside a research protocol, provided that robust and systematic vaccination record systems are in place to ensure reliable identification of vaccine recipients.
+
+In all instances of Ervebo use, especially outside a research protocol recipients should be clearly informed that the vaccine has only been proven to protect against EVD and this is the reason the vaccine is being offered. Recipients should also be advised to continue all recommended measures to protect themselves from BVD. They should also be informed that receiving the vaccine for EVD prevention may help researchers learn whether Ervebo has any additional effect against BVD.
+
+What vaccination strategies are recommended for the current Bundibugyo virus disease outbreak?
+==============================================================================================
+
+If Ervebo or another vaccine is shown to protect against Bundibugyo virus disease (BVD), WHO will provide policy guidance on how and when a vaccine should be used in BVD outbreak responses. The specific guidance will depend on the evidence available.
+
+Can children, pregnant and breastfeeding women be vaccinated with Ervebo?
+=========================================================================
+
+The Ervebo vaccine is licensed for use in individuals aged 12 months and older including pregnant and breastfeeding women during Ebola virus disease (EVD) outbreaks. In EVD outbreak settings, however, WHO recommends vaccination of all contacts and contacts of contacts identified in a ring, including children from birth.
+
+Vaccination of children younger than 12 months is considered off-label use, meaning use of a vaccine outside the age group included in its approved indication.
+
+Can survivors of Ebola virus disease be vaccinated with Ervebo?
+===============================================================
+
+People who survive Ebola virus disease (EVD) usually develop some protection against the disease. This protection is believed to last for several years, although it may slowly decrease over time.
+
+EVD survivors are encouraged to apply all the protective measures against the disease, including vaccination.
+
+What are the benefits of being vaccinated against Ebola virus disease?
+======================================================================
+
+Vaccination against Ebola virus disease (EVD) provides individual and collective immunity that reduces the harmful effects of the disease, including severe illness and death.
+
+Unvaccinated persons have a high risk of dying in case of infection and increase the risk of the spread of the virus within the community.
+
+It is important to ensure that all people at immediate risk of EVD are vaccinated to protect themselves and others.
+
+What are the common side effects of Ervebo vaccine?
+===================================================
+
+Most common side effects associated Ervebo vaccine are mild and occur within 24–48 hours of being vaccinated.
+
+After receiving Ervebo, people can experience:
+
+- injection site pain
+
+- fever
+
+- headache.
+
+Symptoms will generally disappear within 24 hours of onset.
+
+How long does the Ervebo vaccine take to provide protection against Ebola virus disease?
+========================================================================================
+
+According to evidence, it takes between 10 and 14 days to develop a sufficient immune response against Ebola virus disease (EVD) that results in protection. This means that a person can still get infected and develop EVD before the vaccine provides protection.
+
+Is it possible for a person who has been vaccinated with Ervebo vaccine to get infected with Ebola virus?
+=========================================================================================================
+
+Vaccines are not 100% effective. The Ervebo vaccine reduces the risk of Ebola virus disease (EVD) which can cause severe illness and death. Not everyone develops the same level of protection after vaccination so some people may not be protected.
+
+Because Ervebo is often given to people at highest risk of exposure during an EVD outbreak, some people may already have been infected with the virus before they received the vaccine, even if they do not yet have symptoms.
+
+If a person was infected before vaccination, they may still develop EVD after receiving the vaccine. Anyone who develops symptoms of illness after vaccination should immediately seek medical care.
+
+People who have received the vaccine should continue to follow public health advice and take steps to protect themselves and others from Ebola infection. They should avoid direct contact with someone who has or may have an Ebola infection including their body (dead or alive), or their body fluids, including blood, vomit, tears, saliva, urine or faeces, as well as their personal items such as bedding and clothes.
+
+Is it possible to contract Ebola disease from Ervebo?
+=====================================================
+
+No, it is not possible to be infected with Ebola virus as a result of vaccination. Ervebo contains only a small, non-infectious part of Ebola virus that helps the body's immune system recognize and respond to the virus in the future. It does not contain the complete Ebola virus which causes Ebola disease.
+
+If someone develops Ebola disease after vaccination, it is most likely because they were infected before they received the vaccine or before the vaccine had enough time to provide protection.
+
+How long does immunity last following vaccination with Ervebo vaccine?
+======================================================================
+
+Antibodies to the virus have been detected up to five years after vaccination against Ebola virus disease (EVD). However, it is not known whether this level of antibodies is enough to protect against infection. Therefore, revaccination is recommended for anyone at high risk of the disease during an EVD outbreak if they have not received the Ervebo in the last six months.
+
+Research is ongoing to learn more about the need for booster doses.
+
+Is vaccination the primary component of an Ebola disease outbreak control strategy?
+===================================================================================
+
+Control of an Ebola disease outbreak relies on a package of core public health interventions including:
+
+- systematically engaging communities from the start in the Ebola disease response;
+
+- early detection of confirmed and probable patients through active surveillance and contact tracing;
+
+- functional laboratory services to confirm Ebola disease;
+
+- isolate patients to prevent further spread at home or in the community and to provide safe and supportive care;
+
+- ensuring adequate infection and prevention control measures to reduce transmission associated with care; and
+
+- safely and respectfully burying deceased patients to reduce further spread of the virus through contact with deceased patients.
+
+For more information see the WHO fact sheet on Ebola disease.
+
+For Ebola virus disease, vaccination with Ervebo is an additional tool to help protect against the disease and control the transmission.
+
+For Bundibugyo virus disease (BVD), research is on-going to generate evidence on potential protection by BVD-specific candidate vaccines and to assess the potential protection of Ervebo vaccine against BVD.
+
+Can routine immunization services continue during an Ebola disease outbreak?
+============================================================================
+
+Yes. Routine immunization should continue during an Ebola disease outbreak whenever it is safe to do so. Keeping routine immunization services running is an important part of maintaining essential health care.
+
+If routine immunizations are interrupted, even for a short time, more people can become vulnerable to serious diseases such as measles, polio and diphtheria. These diseases can cause illness and deaths, particularly among babies and other vulnerable people.
+
+WHO has issued guidance to help health workers and the community safely continue routine vaccination services during the current Bundibugyo virus disease (BVD) outbreak. The guidance also provides key messages for communities about why routine vaccination remains important and how vaccination can be provided safely.
+
+See August 2026 WHO’s guidance: Infection prevention and control considerations for routine immunization activities during the Bundibugyo virus disease outbreak: interim guidance, 21 August 2026.

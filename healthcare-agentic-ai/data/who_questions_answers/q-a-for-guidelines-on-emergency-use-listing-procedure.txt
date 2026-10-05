@@ -1,0 +1,80 @@
+WHO QUESTIONS AND ANSWERS
+Title: Medicines: Guidelines on Emergency Use Listing Procedure
+URL: https://www.who.int/news-room/questions-and-answers/item/q-a-for-guidelines-on-emergency-use-listing-procedure
+Retrieved: 2026-10-05T09:48:26.648780+00:00
+
+========================================
+
+Disclaimer: this Q&A document provides general information only. Manufacturers or NRA’s should not rely solely on this Q&A when considering an application for an Emergency Use Listing (EUL) but should consult the published procedure and contact WHO for any further information.
+
+What is the scope of the EUL?
+=============================
+
+WHO has developed the EUL process to expedite the availability of unlicensed medical products needed in public health emergency situations, to assist interested United Nations procurement agencies and WHO Member States in determining the acceptability of using specific products in the context of a public health emergency, based on an essential set of available quality, safety, and efficacy/immunogenicity/ performance data.
+
+Can WHO member states use the EUL as the basis to authorize the use of an unlicensed vaccine/medicine/In Vitro Diagnostics at the national level?
+=================================================================================================================================================
+
+Yes. Once a product has been assessed by WHO under the EUL procedure, the outcome will be published and it is the prerogative of each country to use this as the basis for their decision regarding the emergency use authorization of a product at the national level.
+
+How is the EUL procedure different from Prequalification?
+=========================================================
+
+The EUL is a special procedure for unlicensed vaccines, medicines and in vitro diagnostics in the event of a public health emergency when the community/public health authorities may be willing to tolerate less certainty about the efficacy and safety of products, given the morbidity and/or mortality of the disease and the lack or paucity of treatment, diagnosis/detection or prevention options. The procedure is intended to provide a time-limited listing for unlicensed products in an emergency context when limited data are available and the products are not yet ready for application for prequalification. As part of the EUL, the expectation is that the manufacturer will complete the development of the product and submit for licensure and WHO prequalification.
+
+Does the listing of a product assessed under the EUL procedure ensure safety, efficacy & performance of the product?
+====================================================================================================================
+
+The assessment of products under the EUL procedure is conducted on the quality, safety, efficacy or performance data available up to the time of submission. However, since the product is still in development (vaccines and medicines only, IVDs under development are not accepted for assessment), the decision to list will be based on a risk-benefit assessment considering the public health emergency. The available data must provide an indication that the use of the product will provide a benefit to the target population.
+
+What written standards are used to assess new products if there are no published guidelines for the specific product?
+=====================================================================================================================
+
+The product evaluation committee will prepare a list of existing guidelines that are related to the vaccines and medicines, and published scientific data that may support the evaluation. This list of documents used as reference will be included in the report prepared by the product evaluation committee.
+
+What are the factors that have an impact on the review timelines?
+=================================================================
+
+For vaccines, the approval of the product for emergency use by a stringent NRA and the history of the manufacturer with prequalification. For medicines, whether the product has been authorized for emergency use by a stringent regulatory agency/WHO listed authority. For in vitro diagnostics whether the product has been assessed through another emergency mechanism of an acceptable standard.
+
+Is emergency use approval required in the country of manufacture?
+=================================================================
+
+No. However, when a product has already been assessed and authorized for use in emergency situations by the NRA of the country of manufacture, the assessment may have a shorter timeline as WHO may consider this evaluation to avoid duplication. The selection of assessment pathway, done in the pre-emergency phase, takes this into consideration.
+
+Are manufacturers required to follow-up once a product is listed in the EUL and used in the field?
+==================================================================================================
+
+Yes. Since vaccines and medicines assessed using the EUL procedure are still in development, the manufacturers must continue with product development and clinical trials towards registration and prequalification. The manufacturer must notify WHO of any change made to the product. In addition they must provide updated information, so the product evaluation committee reviews and updates their assessment report.
+
+Does WHO need to evaluate a product that has already been approved by a NRA for use in public health emergencies?
+=================================================================================================================
+
+When the product submitted for EUL has been assessed through other emergency mechanisms by a SRA/WLA (for vaccines or medicines) WHO does not intend to duplicate work. However, WHO may still perform some assessment activities –if deemed necessary to provide a level of assurance of quality, safety, efficacy and performance of the products according to the settings in which the product will be used. In the case of vaccines, programmatic aspects are critical and are never assessed by the NRA of the manufacturing country as they refer to matters outside of the NRA’s jurisdiction. In general, in this case, the assessment pathway will consider the assessment by the NRA and may shorten the timeline significantly. For IVDs, WHO will perform an assessment independent of a prior NRA assessment.
+
+Will WHO review only information on preclinical and clinical data to make a risk/benefit assessment?
+====================================================================================================
+
+No. WHO will also review quality aspects (and performance in case of in vitro diagnostics). In addition to the data indicating safety and efficacy of the product, compliance with Good Manufacturing Practices is also a requirement.
+
+How will monitoring and surveillance be performed post-listing?
+===============================================================
+
+After a product has been listed, WHO will take into consideration reports on safety surveillance, efficacy/effectiveness/performance monitoring, quality complaints and other relevant data that may impact the validity of the listing status.
+
+The sources of such information will inter alia be based on existing surveillance mechanisms in affected countries (as discussed with relevant NRAs during the pre-emergency phase for vaccines and medicines) and on post-listing surveillance commitments of the manufacturer, set as conditions for the listing.
+
+Is WHO able to de-list a product that has been granted an EUL?
+==============================================================
+
+Yes. Updated information from the manufacturer or from the field may alter the initial assessment of the risk/benefit profile used to support the initial decision.
+
+Can a medical product be assessed under the EUL procedures for a new indication or subpopulation?
+=================================================================================================
+
+Yes. An existing product that is found to be safe and efficacious for treatment of prevention of a disease in an emergency may be assessed. However, clinical data relevant to the use of such products in the new indication or subpopulation must be generated and submitted.
+
+For how long can a product assessed under the EUL remain listed?
+================================================================
+
+The validity of an emergency use listing in the context of a public health emergency will generally be for 12 months. All decisions to list a product in the EUL will be reassessed at 12 months intervals (or sooner, if further data become available that could alter the original decision). When deemed necessary, the emergency use listing can be extended. Products may be taken off the EUL list earlier, if new data become available that change the benefit-risk balance of the product or immediately upon termination of the public health emergency.

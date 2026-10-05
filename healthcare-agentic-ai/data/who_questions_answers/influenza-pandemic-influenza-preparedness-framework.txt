@@ -1,0 +1,68 @@
+WHO QUESTIONS AND ANSWERS
+Title: Influenza: Pandemic influenza preparedness framework
+URL: https://www.who.int/news-room/questions-and-answers/item/influenza-pandemic-influenza-preparedness-framework
+Retrieved: 2026-10-05T09:47:14.243467+00:00
+
+========================================
+
+What is the PIP Framework?
+==========================
+
+The Pandemic Influenza Preparedness Framework, or PIP Framework, is an innovative access and benefit sharing instrument that seeks to better prepare the world to respond more equitably to the next influenza pandemic.
+
+The PIP Framework was adopted on 24 May 2011 by the 194 Member States of WHO, recognizing that an influenza pandemic would be a global challenge, and preparing for it requires a holistic, collective and cooperative approach. WHO implements the PIP Framework in close partnership with Member States, public health laboratories that are specialized in influenza, industry and civil society.
+
+What are the objectives of the PIP Framework?
+=============================================
+
+The PIP Framework has two objectives that are equally important:
+
+- sharing by WHO Member States of influenza viruses with human pandemic potential with the Global Influenza Surveillance and Response System (GISRS); and
+
+- equitable access to vaccines, medicines and other products and technologies.
+
+Under the Framework, Member States are expected to share their influenza viruses with pandemic potential (IVPPs) in a rapid, systematic and timely manner with GISRS, a WHO coordinated global network of public health laboratories. In addition to serving as a virus sharing platform, GISRS also develops – inter alia – candidate vaccine viruses, and other analyses, materials and information that are shared with Member States and manufacturers of influenza vaccines and other products, such as antivirals and diagnostics.
+
+The PIP Framework establishes two key benefit sharing mechanisms to strengthen pandemic influenza preparedness and ensure a more equitable response to the next influenza pandemic:
+
+- advance supply agreements (known as a Standard Material Transfer Agreement 2, or SMTA2) to ensure that WHO will have access, in real time, to specific percentages of pandemic influenza vaccines, antivirals, and diagnostics, at the time of the next influenza pandemic; and
+
+- an annual partnership contribution that ensures that WHO has funds to strengthen pandemic influenza preparedness and response capacities in countries where these are weak.
+
+Which influenza viruses does the PIP Framework cover?
+=====================================================
+
+The PIP Framework only applies to influenza viruses with human pandemic potential, including H5N1. It does not apply to seasonal influenza viruses.
+
+How is the annual partnership contribution used?
+================================================
+
+The partnership contribution funds (currently US$ 28 million per annum) are paid to WHO by influenza vaccine, antiviral and diagnostic manufacturers that use the Global Influenza Surveillance and Response System. The majority of funds are used to support multi-year, pandemic influenza preparedness and capacity strengthening projects in countries where such capacities are weak. A small percentage of funds received is set aside for response activities when the next influenza pandemic emerges, and a smaller portion of funds supports the costs to implement the Framework, including the work to conclude advance supply agreements, and convene the meetings of the PIP Advisory Group.
+
+Use of the preparedness funds is guided by the High-Level Implementation Plan III 2024-2030 (HLIP III), which covers four key areas of work:
+
+- policy and plans
+
+- collaborative disease surveillance through GISRS
+
+- community protection
+
+- access to pandemic influenza countermeasures such as vaccines and antivirals.
+
+Use of the PIP partnership contribution response funds at the time of an influenza pandemic will be guided by the Guiding Principles for use of PIP Framework Partnership Contribution Funds for Pandemic Influenza Response.
+
+The PIP Framework operates on a biennial basis and publishes four progress reports per biennium (at 6, 12, 18 and 24 months). The reports present overall progress against milestones and indicators that help measure achievements against defined objectives and goals. The reports include infographics and stories from the field and cover technical and financial implementation. All reports can be found on the Partnership Contribution website.
+
+What are Standard Material Transfer Agreements 2?
+=================================================
+
+A Standard Material Transfer Agreement 2 (SMTA2) (as distinguished from SMTA1, which governs the interactions among GISRS laboratories) is a legally binding advance supply contract between WHO and an entity that has received PIP biological materials from GISRS. Under an SMTA2, an entity commits to providing specific benefits to WHO, based on the nature of its work and its capacities. These benefits include pandemic influenza vaccines, antiviral medicines or other pandemic-related products or technologies. The agreements for vaccines and antivirals specify the percent of future production that is to be provided to WHO when it is produced, at the time of the next pandemic.
+
+With SMTA2s, WHO and its partners ensure that countries without access to life-saving vaccines, antivirals and other products will have access to some of the supplies they need at the same time as other countries. For more information please refer to the SMTA2 webpage.
+
+What is the governance structure of the PIP Framework?
+======================================================
+
+WHO Member States established a three-pillared oversight mechanism for the PIP Framework in which 1) the World Health Assembly oversees implementation; 2) the Director-General promotes implementation; and 3) an advisory group monitors implementation of the Framework.
+
+The advisory group is comprised of 18 independent experts drawn from three Member States in each WHO region and appointed by the Director-General. The members are experts in health policy, public health, or influenza and serve for up to 6 years. The advisory group provides evidence-based reporting, assessment and recommendations to the Director-General regarding the functioning of the Framework.

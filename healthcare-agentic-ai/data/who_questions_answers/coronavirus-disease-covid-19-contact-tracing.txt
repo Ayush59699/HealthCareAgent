@@ -1,0 +1,69 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Contact tracing
+URL: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-contact-tracing
+Retrieved: 2026-10-05T09:44:13.299733+00:00
+
+========================================
+
+This page is no longer being updated. It remains live for reference purposes only.
+
+What is contact tracing?
+========================
+
+Contact tracing is the process of identifying, assessing, and managing people who have been exposed to someone who has been infected with the COVID-19 virus. Contact tracing and quarantine of contacts identified through contact tracing interrupt transmission between people and are essential public health tools for controlling the virus. Contact tracing can also help people who are at a higher risk of developing severe disease know earlier that they have been exposed so that they can  get medical care quicker if they go on to develop symptoms.
+
+Can contact tracing help in controlling spread of the virus?
+============================================================
+
+Yes. Contact tracing is an essential public health tool for controlling infectious disease outbreaks, such as those caused bythe COVID-19 virus. Contact tracing can break the chains of transmission through the rapid identification, isolation and clinical care of cases, and providing supported quarantine of  contacts, meaning that virus transmission can be stopped.
+
+Does contact tracing still work against new variants of the COVID-19 virus ?
+============================================================================
+
+Yes, the principles of contact tracing remain the same for newly identified variants of the COVID-19 virus. While some of the variants of the virus are more transmissible, thorough and timely contact tracing and supported quarantine of contacts is even more important to control the spread of the virus.
+
+How do I know if I’m a contact? What should I do if I am?
+=========================================================
+
+If you think you may be a contact of someone who has recently been infected, you should be contacted by health authorities to determine if you meet the contact definition. You may also be informed directly by someone you were in contact with who later tested positive. If you have downloaded a COVID-19 proximity tracing application, you may also get notified through your mobile phone.
+
+If you are identified as a contact, you should undertake quarantine, which means that you separate yourself from others in your household, stay there and monitor your health for any signs of illness. Some countries have set up dedicated facilities to enable contacts to complete quarantine outside their household. Contact your local health authorities to find out how you can safely quarantine.
+
+WHO recommends that you stay in quarantine for 14 days after you were last in contact with the person infected with the COVID-19 virus, but the duration of quarantine may vary by country. Check with your local or national health authority.
+
+How is digital proximity tracing data stored and protected?
+===========================================================
+
+The data storage for tracing apps can either be stored and processed on a central server managed by the national public health authority, or stored and processed on the users’ phones. There is a consensus by several data protection authorities that storing data on users’ phones enhances privacy, since users have greater control over the amount of information that they share with health authorities. The collection and use of such data by health authorities can therefore be limited to what is strictly necessary for the operation of a digital tracing system.
+
+Whichever approach is selected, governments and third parties should ensure digital tracing systems follow WHO guidance on ethical considerations on the use of digital proximity tracing for COVID-19 contact tracing. Protecting the personal data and privacy of individuals participating in digital tracing is critical to ensure the protection of human rights and civil liberties as well as the establishment of public trust.
+
+What is quarantine? And how is it different from isolation?
+===========================================================
+
+Quarantine is the separation of contacts from others after exposure to a probable or confirmed COVID-19 case – you may or may not be infected.
+
+Isolation is the separation of people who are known to be infected with the COVID-19 virusfrom other who are not infected.
+
+Both quarantine and isolation help to stop the spread of the virus.
+
+How do I manage quarantine and how do I take care of myself during quarantine?
+==============================================================================
+
+WHO recommends supported quarantine for 14 days from the last contact with a confirmed case to minimize risk of infecting others. You should remain separated from others in the household for the duration of quarantine. If you cannot be in a separate room, stay at least one metre away from others, the farther the better. Make sure you have enough foodand water, and a way to communicate with others. The quarantine space should be well ventilated. You should minimize your contact with others. If you do have someone visit you during quarantine, you should both wear medical masks, keep windows open if possible and clean your hands before and after being together. Ideally, you should have only one visitor provide food and supplies during the quarantine period and this should be someone at low risk of developing severe COVID-19.
+
+Quarantinemay cause worry or anxiety, and this is normal. Thiscan also be an opportunity to take time to care for yourself. Consider reconnecting with loved ones via telephone or phone apps, watch movies or read books, exercise indoors, make crafts, or catch up on things you haven’t had time for. To help you get groceries, medicine and other necessities, ask family and friends or use delivery services.
+
+To learn more about taking care of yourself during quarantine, watch this video:
+
+What can I do as an individual to support contact tracing measures in my community?
+===================================================================================
+
+Everyone has a part to play to bring COVID-19 under control, and contact tracing begins with informed, engaged and enabled communities. Understand the local public health and social measures and collaborate with health authorities for case and contact investigation. Agree to monitoring, report signs or symptoms of COVID-19 promptly, and be prepared to quarantine or go into isolation if you become a confirmedcase of COVID-19.
+
+In addition, you can, while respecting physical distancing and all other protective measures, provide support to relatives or friends who have to be isolated or undertake quarantine. Check in on them by phone or offer to bring supplies to their house, if needed. Transmission of the COVID-19 virus can only be stopped if we all play our role to protect our family, friends and community.
+
+If I’m travelling outside my country, do I need to provide accurate information to contact tracing personnel at the airport or at my destination? What if I’m concerned about how my private information is going to be used?
+=============================================================================================================================================================================================================================
+
+Yes, providing accurate information when requested is important to successful contact tracing activities. National authorities may ask incoming travelers to report their health status at the time of travel, possible exposures to confirmed or probable COVID-19 cases within the previous two weeks, and to provide their contact details so they can be located for health monitoring or international contact tracing purposes. Authorities may also require arriving passengers to download and use a national COVID-19 digital proximity tracing app on arrival.  Please consult national authorities/airline companies to verify details before you travel.

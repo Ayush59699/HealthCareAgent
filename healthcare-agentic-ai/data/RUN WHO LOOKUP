@@ -1,0 +1,9 @@
+### Demo
+From `healthcare-agentic-ai`:
+
+
+python -m rag.who_lookup "asthma and diabetes"
+
+
+Metadata-only preview:
+python -m rag.who_lookup "abortion" --metadata-only

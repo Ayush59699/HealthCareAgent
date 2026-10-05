@@ -1,0 +1,90 @@
+WHO QUESTIONS AND ANSWERS
+Title: Respiratory syncytial virus (RSV) immunization products
+URL: https://www.who.int/news-room/questions-and-answers/item/respiratory-syncytial-virus-(rsv)-immunization-products
+Retrieved: 2026-10-05T09:49:16.383872+00:00
+
+========================================
+
+What is respiratory syncytial virus?
+====================================
+
+Respiratory syncytial virus (RSV) is a common respiratory virus that causes symptoms similar to the common cold, including a runny nose, cough and fever. RSV can cause more severe illnesses such as pneumonia or bronchiolitis. It is particularly dangerous for infants, young children, older adults, and those with weakened immune systems or serious underlying health conditions.
+
+Each year, RSV causes an estimated 33 million lung infections in children under 5 globally, leading to 3.6 million hospital stays and more than 100 000 deaths. About half of RSV deaths occur in infants younger than 6 months of age. The vast majority of paediatric RSV deaths (97%) occur in low- and middle-income countries where there is limited access to supportive medical care, such as oxygen or hydration.
+
+Nearly all children will experience at least one RSV infection by their second year of life.
+
+Can RSV in babies be prevented by immunization?
+===============================================
+
+Currently, there are two types of RSV immunization products recommended by WHO:
+
+- maternal vaccine (RSVpreF), given to pregnant women during the third trimester of pregnancy (from 28 weeks gestation in most places) to protect infants against RSV by transferring antibodies from the mother to the baby through the placenta before birth; and
+
+- monoclonal antibody (nirsevimab), given to infants right after birth or before the start of the RSV season to provide passive immunity against RSV.
+
+Another monoclonal antibody, Clesrovimab, has recently reached market authorization.
+
+Given the global burden of severe RSV disease among infants, WHO recommends that all countries introduce immunization products for the prevention of severe RSV disease in this population.
+
+WHO recommends the use of either the maternal RSV vaccine or the monoclonal antibody, but not both, for the same mother-infant pair, except for special cases.
+
+Who should get immunized against RSV?
+=====================================
+
+Pregnant women should receive vaccination to protect their infants, or infants should receive monoclonal antibodies.
+
+Some countries are using RSV vaccines for older adults. WHO will evaluate RSV vaccines for older adults for potential future policy recommendations in the coming years.
+
+What is the maternal RSV vaccine (RSVpreF)?
+===========================================
+
+As of January 2025, one RSV vaccine is available for use during pregnancy: RSVpreF.
+
+RSVpreF is administered during pregnancy in the third trimester to protect infants against RSV by transferring antibodies from the mother to the fetus through the placenta before birth.
+
+Pregnant individuals should receive the vaccine more than two weeks before delivery to ensure adequate transfer of antibodies to protect the baby. However, even when administered in the weeks before delivery, transfer of lower amounts of antibodies is still likely to provide some protection.
+
+The vaccine may be given during routine antenatal care, including at one of the 5 WHO-recommended antenatal care contacts in the third trimester or any additional medical visits or consultations.
+
+RSVpreF has also been approved for use in several countries for:
+
+- adults aged 60 and older
+
+- adults aged 18–59 who have a higher risk of getting very sick from RSV.
+
+What is the monoclonal antibody (nirsevimab)?
+=============================================
+
+Nirsevimab is a one-time injection of monoclonal antibody given to infants after birth to help protect them against severe RSV. Nirsevimab starts protecting babies against RSV within a week of administration and lasts for at least 5 months, which can cover the entire RSV season in countries with RSV seasonality.
+
+In countries that administer the product year-round, WHO recommends that infants receive a single dose at birth or at the earliest opportunity thereafter. For countries that administer the product seasonally, a single dose is recommended for infants beginning shortly before the start of the RSV season, as well as at birth or the earliest opportunity thereafter.
+
+The greatest impact in preventing severe RSV disease will be achieved by administering monoclonal antibodies to infants under 6 months of age. However, there is still a potential benefit among infants up to 12 months of age.
+
+How effective are RSV immunization products?
+============================================
+
+Both the maternal RSV vaccine and monoclonal antibody (nirsevimab) have shown high efficacy in preventing severe RSV disease. While neither offers complete immunity, both significantly reduce the risk of serious illness in infants.
+
+A large international study found that the maternal RSV vaccine (RSVpreF) reduced severe RSV illness requiring medical care by 82% in the first 3 months and by 70% in the first 6 months. RSV-related hospitalizations dropped by over 55% in the first 6 months.
+
+Studies have also found the monoclonal antibody (nirsevimab) to be effective at reducing RSV requiring medical care, including reducing serious RSV illness requiring hospitalization by 77% over 5 months.
+
+Are RSV immunization products safe?
+===================================
+
+RSV maternal vaccine – RSVpreF
+
+Mild side effects, such as pain at the injection site, fever, and fatigue are common with the RSV maternal vaccine. Serious side effects are extremely rare. A large clinical trial and early data from use in countries showed the vaccine was generally well tolerated by pregnant women and their babies.
+
+Monoclonal antibody – nirsevimab
+
+Nirsevimab is effective in preventing RSV in healthy and high-risk infants and is well tolerated. Clinical trials and global use confirm a favourable safety profile, with extremely rare serious side effects.
+
+In countries that have implemented these products, safety is being closely monitored.
+
+Can RSV immunization products be administered with other vaccines?
+==================================================================
+
+RSV vaccines and monoclonal antibody treatments can be administered alongside other routine vaccinations for pregnant individuals or infants. However, specific recommendations may vary by country. Consult your healthcare provider for specific recommendations in your country.

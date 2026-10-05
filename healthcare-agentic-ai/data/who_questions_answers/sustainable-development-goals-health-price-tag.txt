@@ -1,0 +1,82 @@
+WHO QUESTIONS AND ANSWERS
+Title: Sustainable Development Goals: Health price tag
+URL: https://www.who.int/news-room/questions-and-answers/item/sustainable-development-goals-health-price-tag
+Retrieved: 2026-10-05T09:49:49.030070+00:00
+
+========================================
+
+What is the SDG Health Price Tag?
+=================================
+
+The Sustainable Development Goals (SDG) Health Price Tag is a model that estimates the financial investments needed to strengthen health systems in order to reach the health targets in the Sustainable Development Goals by 2030.
+
+The WHO SDG Heath Price Tag is a ballpark estimate, and is not prescriptive for what countries should spend. It shows the areas in which major investments are needed, and forecasts the extent to which different countries can afford them.
+
+What are the main findings?
+===========================
+
+The SDG Health Price Tag models two scenarios: an "ambitious" scenario in which countries reach the health targets in the SDGs by 2030, and a “progress” scenario in which countries get two thirds or more of the way to the targets.
+
+In both scenarios, health systems investments such as employing more health workers; building and operating new clinics, hospitals and laboratories; and buying medical equipment account for about 75% of the total cost. The remainder is for medicines, vaccines, syringes and other commodities used to prevent or treat specific diseases, and for activities such as training, health campaigns and outreach to vulnerable communities.
+
+Under the "ambitious" scenario, achieving the SDG health targets would require new investments increasing over time from an initial US$ 134 billion annually to $371 billion, or $58 per person, by 2030.
+
+The model includes adding more than 23 million health workers, and building more than 415 000 new health facilities, 91% of which would be primary health care centres.
+
+The investments could prevent 97 million premature deaths – one every five seconds over 15 years – including more than 50 million infants and children who are either stillborn or die before their fifth birthday, and 20 million deaths from noncommunicable diseases such as cardiovascular disease, diabetes and cancer. Life expectancy would increase by between 3.1 and 8.4 years, and 535 million years of healthy living would be added across the 67 countries.
+
+The "progress" scenario would require new investments increasing from an initial US$ 104 billion a year to $274 billion, or $41 per person, by 2030. These investments would prevent about 71 million premature deaths, add more than 14 million new health workers, and nearly 378 000 new health facilities, 93% of which would be primary health care centres.
+
+Can countries afford it?
+========================
+
+Yes, most can. WHO analysis shows that 85% of the costs can be met with domestic resources, although as many as 32 of the world’s poorest countries will face an annual gap of up to US$ 54 billion and will continue to need external assistance.
+
+Investments made under the ambitious scenario would boost health spending as a proportion of gross domestic product across all 67 countries from an average of 5.6% to 7.5%. The progress scenario would boost health spending as a proportion of GDP to an average of 6.5%. The global average for health spending as a proportion of GDP is 9.9%. Although higher spending does not necessarily translate to improved health, making the right investments at the right time can.
+
+WHO encourages countries to set nationally appropriate spending targets for quality investments in essential public services in the health sector as well as other social sectors, consistent with national sustainable development strategies.
+
+Governments can generate more public revenue by broadening the tax base, increasing the efficiency of tax collection, and reducing corruption and international tax avoidance. Parallel to this, governments should also ensure that an appropriate share of public revenue is allocated to health.
+
+However, it’s not only how much is spent but how it’s spent. At the same level of spending, WHO observes a significant variance in health system performance across countries due to differing levels of efficiency.
+
+How were these estimates produced?
+==================================
+
+WHO analysed existing databases to assess country data on disease burden, health service coverage, and health system performance. We grouped countries into five categories in terms of their health systems and financial capacity.
+
+We considered how health services could be scaled up through four categories of health service delivery from policy and community interventions like taxes and regulations up to hospital services. Next, we identified what investments are needed to bring countries towards global benchmarks in terms of health system performance targets, health service coverage, and overall health outcomes. These activities and investments are modelled by country and by year, and multiplied by country-specific prices. Investments are modelled to increase over time. The majority of the analysis was done in the OneHealth Tool, a software application whose development is overseen by WHO and other UN agencies.
+
+What is not included in your estimates? What is missing?
+========================================================
+
+For some areas there is a lack of good data and projection models, such as injury prevention, road traffic accidents, chemical poisoning, and hepatitis, so we have not included them in the analysis.
+
+Interventions were also excluded for which current coverage levels could not be identified and/or there is limited agreement on what target levels to strive for (such as for oral health, assistive technologies, and consumables like gloves and laboratory reagents).
+
+The costs of research and development were not included. While technological innovation will be important to enable us to deliver services more efficiently in the future, there is considerable uncertainty around the size of future gains and when those will happen. Moreover, while future technologies may be more cost-effective, they also may be more expensive and require additional resources than what we have modelled. Given the uncertainty, we did not attempt to model a forecasted change in technology whereby more effective technologies are implemented than what is available today.
+
+For all of the reasons above, these estimates should be considered as minimum indicative estimates. WHO plans to update the model with more data as it becomes available.
+
+Why did you only include 67 countries?
+======================================
+
+WHO decided to include all low-income countries, the 20 most-populous lower-middle-income countries, and the 20 most populous upper-middle-income countries. Some countries were excluded from the final dataset because they did not have the required data available for GDP projections, and other countries changed income category classification during the course of the analysis, such that in the end there were 28 low-income countries and 39 middle-income countries.
+
+These jointly account for 95% of the population in low- and middle-income countries, and 75% of the global population. Notably, Russia is not included because it was classified as a high-income country when we started our work, although it has since been reclassified as a middle-income country.
+
+High income countries are not included to allow focus on those countries that face the greatest challenges in increasing service provision and resource mobilization to progress towards the SDG health targets.
+
+So what should my country spend on health?
+==========================================
+
+We have not published a breakdown of costs by country, because the purpose of the SDG Health Price Tag is to give a global overview of the types of investments needed to strengthen health systems, rather than a prescription for what individual countries should spend.
+
+Countries can request assistance from WHO to set priorities and estimate resource needs through the WHO-CHOICE programme of work and the OneHealth Tool, which would closely replicate the methods used in this study.
+
+Can you guarantee that the SDG health targets will be reached if countries meet these spending levels?
+======================================================================================================
+
+No. Achieving the SDG health targets is not simply a matter of spending money. Political commitment to pursuing the targets is vital, as is respect for human rights. Making wise investments in health system, coupled with stronger institutions are likely to bring about the wanted changes.
+
+For additional information about the modelling approach used, please contact the Economic Evaluation and Analysis (EEA) team of the WHO Department of Health Systems Governance and Financing: whochoice@who.int

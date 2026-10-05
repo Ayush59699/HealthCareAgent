@@ -1,0 +1,83 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Tuberculosis
+URL: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-tuberculosis
+Retrieved: 2026-10-05T09:44:52.903175+00:00
+
+========================================
+
+Are people with tuberculosis likely to be at increased risk of COVID-19 infection, illness and death?
+=====================================================================================================
+
+COVID-19 patients who develop tuberculosis (TB) have a higher risk of mortality. People with TB who develop COVID-19 may have poorer treatment outcomes if TB treatment is interrupted. Older age, diabetes and chronic obstructive pulmonary disease (COPD) are linked with more severe COVID-19 and are also risk factors for poor outcomes in TB. In people with these pre-existing conditions special precautions are advised by health authorities to protect from COVID-19 and TB.
+
+Both COVID-19 and TB attack primarily the lungs. People ill with COVID-19 and TB may show similar symptoms such as cough, fever and difficulty breathing. The incubation period from exposure to disease in TB is longer, often with a slow onset.
+
+Do COVID-19 and tuberculosis spread in the same way?
+====================================================
+
+While both COVID-19 and TB spread by close contact between people, the exact mode of transmission differs, which explains some differences in infection control measures to mitigate the two conditions. TB bacteria remain suspended in particles in the air for several hours after a TB patient coughs, sneezes, shouts or sings, and people who inhale these particles can get infected. The infection happens in the lung.
+
+COVID-19 transmission has primarily been attributed to the direct breathing of particles expelled by someone with COVID-19 (people may be infectious before clinical features become apparent). Coughing, sneezing, exhaling and speaking may contaminate objects and surfaces, and contacts can get infected with COVID-19 by touching them and then touching their eyes, nose or mouth. Handwashing, in addition to respiratory precautions, are thus important in the control of COVID-19.
+
+What has been the impact of COVID-19 pandemic on essential tuberculosis services?
+=================================================================================
+
+The COVID-19 pandemic had a damaging impact on access to TB diagnosis and treatment and the burden of TB disease. Progress made in the years up to 2019 was slowed, stalled or reversed, and global TB targets are off track. The most obvious and immediate impact was a large global drop in the reported number of people newly diagnosed with TB. From a peak of 7.1 million in 2019, this fell to 5.8 million in 2020 (-18%), back to the level last seen in 2012. Reductions in the reported number of people diagnosed with TB in 2020 and 2021 suggest that the number of people with undiagnosed and untreated TB has grown, resulting first in an increased number of TB deaths and more community transmission of infection. Globally, the estimated number of deaths from TB increased from 1.4 million in 2019 to 1.6 million in 2021, reversing years of decline between 2005 and 2019. All measures should be taken to ensure continuity of services for people who need preventive and curative treatment for tuberculosis (TB).
+
+What should health authorities do to provide sustainability of essential tuberculosis services during the COVID-19 pandemic?
+============================================================================================================================
+
+People-centred delivery of TB prevention, diagnosis, treatment and care services should be ensured in tandem with COVID-19 care. Outpatient and community-based care should be strongly preferred over hospital treatment for TB patients (unless serious conditions require hospitalization) to reduce opportunities for transmission.
+
+Prevention: Measures must be implemented to limit transmission of TB and COVID-19 in congregate settings and health care facilities. Administrative, environmental and personal protection measures apply to both (e.g. basic infection prevention and control, cough etiquette, patient triage). Provision of TB preventive treatment should be maintained and expanded.
+
+Diagnosis: Tests for TB and COVID-9 are different and both should be made available for individuals with respiratory symptoms, which may be similar for the two diseases.
+
+Treatment and care: TB treatment, in line with the latest WHO guidelines, must be provided for all TB patients, including those in quarantine and those with confirmed COVID-19 disease. Adequate stocks of TB medicines should be provided to all patients to reduce trips to collect medicines.
+
+Use of digital health technologies for patients and programmes should be intensified. In line with WHO recommendations, technologies like electronic medication monitors and video-supported therapy can help patients complete their TB treatment.
+
+How can health authorities ensure supplies of tuberculosis medicines and diagnostics?
+=====================================================================================
+
+Appropriate planning and monitoring are essential to ensure that procurement and supply of TB medicines and diagnostics are not interrupted.
+
+WHO monitors medicine supply at the global level, while the Global Fund, the Stop TB Partnership Global Drug Facility (GDF), USAID, Unitaid and other donors play an essential role in supporting countries to secure adequate and sustainable supplies of TB medicines, drugs and diagnostics.
+
+What services can be leveraged across both diseases?
+====================================================
+
+The response to COVID-19 can benefit from the capacity building efforts developed for TB over many years of investment by national authorities and donors. These include infection prevention and control, contact tracing, household and community-based care, and surveillance and monitoring systems.
+
+Although modes of transmission of the two diseases are slightly different, administrative, environmental and personal protection measures apply to both (e.g. basic infection prevention and control, cough etiquette, patient triage).
+
+TB laboratory networks have been established in countries with the support of WHO and international partners. These networks as well as specimen transportation mechanisms could also be used for COVID-19 diagnosis and surveillance.
+
+Respiratory physicians, pulmonology staff of all grades, TB specialists and health workers at the primary health care level may be points of reference for patients with pulmonary complications of COVID-19. They should familiarize themselves with the most current WHO recommendations for the supportive treatment and containment of COVID-19.
+
+Various digital technologies used in TB programmes can support the COVID-19 response, including adherence support, electronic medical records and eLearning.
+
+What measures should be in place to protect staff working in tuberculosis laboratories and healthcare facilities, and community health workers, from COVID-19 infection?
+========================================================================================================================================================================
+
+Existing WHO recommendations for infection prevention and control for TB and for COVID-19 should be strictly implemented, including personal protection equipment.
+
+Lessons learnt over many years of TB infection prevention and control, contact tracing, investigation and management can benefit efforts to stop the spread of COVID-19.
+
+Is tuberculosis treatment different in people who have both TB and COVID-19?
+============================================================================
+
+In most cases TB treatment is not different in people with or without COVID-19 infection.
+
+TB preventive treatment, treatment for drug-susceptible or drug-resistant TB disease should continue uninterrupted to safeguard the patient’s health, reduce transmission and prevent the development of drug-resistance.
+
+Effective treatments to prevent TB and to treat active TB have been scaled up and are in use worldwide. The risk of death in TB patients approaches 50% if left untreated and may be higher in the elderly or in the presence of comorbidity.
+
+Read more on the clinical management of COVID-19
+
+Should TB patients be vaccinated against COVID-19?
+==================================================
+
+Yes, people with TB and those at risk of TB should be vaccinated against COVID-19 if they are free of fever and other symptoms.
+
+More information

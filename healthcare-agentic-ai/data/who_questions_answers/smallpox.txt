@@ -1,0 +1,70 @@
+WHO QUESTIONS AND ANSWERS
+Title: Smallpox
+URL: https://www.who.int/news-room/questions-and-answers/item/smallpox
+Retrieved: 2026-10-05T09:49:32.944765+00:00
+
+========================================
+
+What is smallpox?
+=================
+
+Smallpox is an ancient disease caused by the variola virus. Early symptoms include high fever and fatigue. The virus then produces a characteristic rash, particularly on the face, arms and legs. The resulting spots become filled with clear fluid and later, pus, and then form a crust, which eventually dries up and falls off. Smallpox was fatal in up to 30% of cases.
+
+Smallpox has existed for at least 3000 years and was one of the world’s most feared diseases until it was eradicated by a collaborative global vaccination programme led by the World Health Organization. The last known natural case was in Somalia in 1977. Since then, the only known cases were caused by a laboratory accident in 1978 in Birmingham, England, which killed one person and caused a limited outbreak. Smallpox was officially declared eradicated in 1979.
+
+Does it occur naturally?
+========================
+
+Smallpox no longer occurs naturally since it was totally eradicated by a lengthy and painstaking process, which identified all cases and their contacts and ensured that they were all vaccinated. Until then, smallpox killed many millions of people.
+
+How can I catch it and is it contagious?
+========================================
+
+The virus which causes smallpox is contagious and spreads through person-to- person contact and saliva droplets in an infected person’s breath. It has an incubation period of between 7 and 17 days after exposure and only becomes infectious once the fever develops. A distinctive rash appears two to three days later. The most infectious period is during the first week of illness, although a person with smallpox is still infectious until the last scabs fall off.
+
+How fast does smallpox spread?
+==============================
+
+The speed of smallpox transmission is generally slower than for such diseases as measles or chickenpox. Patients spread smallpox primarily to household members and friends because by the time patients are contagious, they are usually sick and stay in bed; large outbreaks in schools were uncommon.
+
+Weren't the remaining stocks of the smallpox virus destroyed after smallpox was eradicated?
+===========================================================================================
+
+When smallpox was officially certified as eradicated, in December 1979, an agreement was reached under which all remaining stocks of the virus would either be destroyed or passed to one of two secure laboratories – one in the United States and one in the Russian Federation. That process was completed in the early 1980s and since then no other laboratory has officially had access to the virus which causes smallpox.
+
+Then why is smallpox being talked about now?
+============================================
+
+Some governments believe there is a risk that the virus which causes smallpox exists in places other than these laboratories and could be deliberately released to cause harm. It is impossible to assess the risk that this might happen, but at their request, WHO is making efforts to help governments prepare for this possibility.
+
+Can it be treated?
+==================
+
+There is no cure for smallpox, but vaccination can be used very effectively to prevent infection from developing if given during a period of up to four days after a person has been exposed to the virus. This is the strategy that was used to eradicate the disease during the 20th century. New antiviral drugs, that have been developed for other diseases since smallpox was eradicated, may have a role. No studies of their usefulness, or safety, have been conducted on humans exposed to smallpox.
+
+Is a vaccine currently available?
+=================================
+
+There is a vaccine against smallpox that was a key tool in the eradication of the disease. This vaccine does not contain the variola virus which causes smallpox, but a closely related virus called vaccinia. When this vaccine is given to humans, it protects them against smallpox. However, it may have rare, but serious side effects, which in extreme cases can be fatal. Since smallpox was eradicated, the vaccine is not recommended in routine immunization. It is used to protect researchers who work on the variola virus that causes smallpox and other viruses in the same virus family (known as orthopox viruses). It could also be used to protect anyone else judged to have a high risk of exposure to smallpox. The vaccine cannot be used in people who are immune depressed or immune suppressed.
+
+After the eradication programme, a second generation of vaccines was developed that used the same smallpox vaccine strains as the vaccines used during the eradication campaign. A third generation of smallpox vaccines representing more attenuated vaccine strains, was specifically developed as safer vaccines for those high risk groups with immune disorders or dermatitis at the end of the eradication programme. However as these vaccines have not been used during the eradication campaign, the efficacy/effectiveness is not known.
+
+Should the smallpox vaccine be widely used to protect people?
+=============================================================
+
+Vaccination with the vaccinia virus as a protection against smallpox is not recommended for widespread use. No government gives or recommends the vaccine routinely since it can cause serious complications, and even death. It should be given only to those persons who have a high risk of coming into contact with the virus which causes smallpox, or who have been exposed.
+
+What can be done to protect people from smallpox?
+=================================================
+
+Doctors, health workers and hospital personnel around the world have been trained to identify infectious diseases, verify their diagnosis and then respond accordingly. The same system would identify any possible outbreak of smallpox even if the virus is deliberately spread to cause harm. The public health system would then be mobilized to trace all known contacts of the infected person and vaccinate them to prevent more cases of smallpox from developing. If this is done rapidly and effectively, the number of cases could be kept to a minimum and the outbreak would be contained. This was the approach which successfully eradicated the disease. Key is to have a good disease detection system in place as well as a rapid response to infectious diseases, no matter what their cause. Several governments have examined the potency and levels of their smallpox vaccine stocks, and to consider whether, and under what circumstances, to obtain additional supplies.
+
+I had the vaccination when I was a child. Am I still protected?
+===============================================================
+
+Anyone who has been vaccinated against smallpox (in most countries, this means anyone aged 40 or over) will have some level of protection. The vaccination may not still be fully effective, but it is likely to protect you from the worst effects of the disease. However, if you were directly exposed to the virus which causes smallpox, a repeat vaccination would be recommended.
+
+What is WHO doing now?
+======================
+
+WHO coordinates various preparedness and response activities to protect global health from any possible outbreak of smallpox. WHO receives information from governments and other sources on unusual disease outbreaks. It provides technical guidance to help countries respond to these events. WHO has displayed practical information on smallpox diagnosis, surveillance, and outbreak response on its web site. It can help countries identify potential sources of vaccine, should such a need arise.

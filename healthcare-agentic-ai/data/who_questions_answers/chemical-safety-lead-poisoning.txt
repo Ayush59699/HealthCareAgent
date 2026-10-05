@@ -1,0 +1,180 @@
+WHO QUESTIONS AND ANSWERS
+Title: Chemical safety: Lead poisoning
+URL: https://www.who.int/news-room/questions-and-answers/item/chemical-safety-lead-poisoning
+Retrieved: 2026-10-05T09:43:30.125107+00:00
+
+========================================
+
+What is lead?
+=============
+
+Lead is a naturally occurring toxic metal found in the Earth’s crust. It has many uses, including in the manufacture of lead-acid batteries for motor vehicles and energy storage, in pigments and paints, solder, ammunition, ceramic glazes, jewellery, toys and in some cosmetics and traditional medicines. Lead additives have been phased out of petrol globally for motor vehicles (1); however, lead continues to be used in some aviation fuels. The processing, use and disposal of lead can result in widespread environmental contamination and lead to human exposure. As lead is an element, it is highly persistent in the environment.
+
+What are the sources of human exposure to lead?
+===============================================
+
+Lead has had many uses throughout history and consequently there are many potential sources of exposure. Important sources today include environmental contamination from the recycling of lead-acid batteries and from poorly controlled lead mining and smelting operations; the use of lead-containing traditional, complementary and integrative medicines; lead ceramic glazes used on food containers; lead pipes and other lead-containing components in water distribution systems; and lead paint.
+
+Informal, unsound recycling electrical and electronic waste is a growing source of environmental lead contamination, particularly in low- and middle-income countries (LMICs) (2). Leaded gasoline was an important source of exposure, but all countries have now banned its use. The continued use of tetraethyl lead in some aviation fuels exposes communities around airfields to lead (3).
+
+Environmental contamination can lead to ingestion and inhalation of lead and its compounds. Most cases of oral lead poisoning result from small amounts of lead-containing material, such as contaminated dust or soil or flakes of lead paint. Inhalation of lead as fumes or particles is a major occupational route of exposure.
+
+What is lead poisoning?
+=======================
+
+A diagnosis of lead poisoning is based on medical history, clinical examination and the results of investigations including blood lead concentration, biomarkers of effect such as full blood count and, if relevant, medical imaging. Exposure to lead can occur from inhalation of lead fumes and particles or from ingestion of lead-contaminated dust, water and food. Children are at high risk due to hand-to-mouth and object-to-mouth behaviours.
+
+Exposure can occur over a short period (acute poisoning) or over a prolonged period (chronic poisoning). There is no level of exposure to lead that is known to be without harmful effects to health. As a consequence, some health authorities define excessive exposure as having a blood lead concentration above the reference value for the population as a whole. This reference value is usually the blood lead concentration that characterizes the top 2.5% or 5% of the population, i.e. the 97.5th or 95th percentile, respectively; however, this can change. For example, in the USA, the Centers of Disease Control and Prevention lowered its blood lead reference value to 3.5 µg/dL for children aged 1–5 years based on the 97.5th percentile in October 2021 (4). In contrast, France uses a reference value of 5 µg/dL for children under 7 years based on the 98th percentile (5).
+
+WHO recommends that for an individual with a blood lead concentration ≥ 5 µg/dL, the source of lead exposure should be identified, and appropriate action taken to reduce and terminate exposure (6).
+
+What are the health effects of lead poisoning?
+==============================================
+
+Lead has no biological function in the body and affects almost all organ systems. Studies to date have been unable to identify any level of exposure that has no harmful effects in children or adults (6). Lead exposure can cause chronic and debilitating health effects in all age groups. It is particularly harmful to young children as the developing nervous system is vulnerable to the toxic effects of lead, even at low-levels of exposure.
+
+Lead exposure in early childhood can result in reduced cognitive abilities, lower intelligence quotient (IQ) scores, antisocial behaviours and reduced educational attainment. The initial signs of lead exposure may include sporadic vomiting, loss of appetite, behavioural changes with aggression, irritability and agitation, headache, clamminess and intermittent lethargy. Lead exposure can also cause anaemia, hypertension, renal impairment, immunotoxicity and toxicity to the reproductive organs (6).
+
+Severe lead poisoning can cause coma, convulsions and even death. Children who survive severe lead poisoning may be left with permanent neurological injury, such as deafness and intellectual disability. Lead can cross the placenta and has been linked to adverse birth outcomes including stillbirth, reduced birth weight, premature birth and miscarriage (6,7).
+
+The Institute for Health Metrics and Evaluation (IHME) estimates that more than 1.5 million deaths globally were attributed to lead exposure in 2021, primarily due to cardiovascular effects (8).
+
+What are the costs associated with lead poisoning?
+==================================================
+
+There are both direct and indirect economic costs resulting from lead exposure. These include health care costs in treating lead poisoning, social costs such as the need for special education to combat lead-induced intellectual impairment, and productivity loss due to reduced IQ. The estimated economic costs attributable to the neurodevelopmental impacts of childhood lead exposure amounted to 1.2% of global gross domestic product (GDP) in 2011. Expressed in terms of loss to regional GDP, the estimated cost in Africa was 4%, in Latin America and the Caribbean 2% and in Asia 1.9% (9).
+
+How important are used lead-acid batteries as a source of lead exposure?
+========================================================================
+
+Lead-acid batteries are used in motorized vehicles, for storage of energy generated by solar panels and wind turbines and for back-up power supplies. The growth in the use of renewable energy sources and the concomitant need for storage batteries, as well as the increasing demand for motor vehicles as countries undergo economic development, mean that the demand for lead-acid batteries is increasing. The majority of the total global consumption of lead is for the production of these batteries, and over half of this demand is met through recycling. On average, lead-acid batteries contain 10 kilograms of lead (10).
+
+Lead, as fumes, particles and dust, can be released at all stages of the battery recycling process, from draining and dismantling the batteries to smelting and refining the lead. Environmental contamination from recycling can be extensive and can cause significant exposure to workers and to surrounding communities. People engaged in recycling who do not wash and change their clothes before leaving work can bring lead contamination home with them and expose household members, including children.
+
+Preventing lead release requires the use of adequate engineering controls, trained staff, the provision of protective equipment and the implementation of occupational and environmental standards. In many parts of the world where lead is recycled, these measures are not available or enforced. Non-regulated, informal lead-acid battery recycling is carried out in homes, backyards and surrounding areas, and is performed with few, if any, pollution controls. It has the potential to expose a large number of people across communities or neighbourhoods. Informal, or so-called backyard, recycling is widely practised in many LMICs and has resulted in cases of mass lead poisoning and is associated with many serious health outcomes including poor cognitive development in children, cardiovascular disease and even death (9,10).
+
+What is lead paint?
+===================
+
+The term ‘paint’ can include varnishes, lacquers, stains, enamels, glazes, primers and other coatings. Paint is typically a formulated mixture of resins, pigments, fillers, solvents and other additives. Lead paint has one or more lead compounds added to give it specific properties such as colour, corrosion resistance or rapid drying. Lead compounds are primarily added to some solvent-based paints, such as enamel (gloss) paints. The lead content of paint can range from less than 90 ppm (90 mg/kg) to over 100 000 ppm (100 000 mg/kg). In paints with no added lead, there may be a small amount present as a contaminant of the raw materials used in manufacturing processes. When a manufacturer takes care to source uncontaminated raw materials, the lead content of paint is usually well below 90 ppm.
+
+How feasible is it to eliminate lead in paint, and how important are regulations to restrict the use of lead in paint?
+======================================================================================================================
+
+To achieve the global goal of phasing out lead paint, every country needs to implement legally-binding laws restricting the manufacture, sale, distribution and import of lead paint. Such measures can include statutes, regulations, and/or mandatory technical standards establishing a binding, enforceable limit on lead in paint, with penalties for non-compliance. Additionally, non-lead-based ingredients are available that can be used to formulate paint. Many manufacturers, including small- and medium-sized enterprises, have already successfully reformulated their products to avoid the use of lead-based ingredients, seeing it as part of their corporate social responsibility to protect workers, consumers and the environment. Lead paint data collected around the world show that in every country where studies have been conducted, there are paint companies producing paint containing less than 90 ppm of lead. This demonstrates that eliminating lead in all paints is within the capability of local producers (11). In those countries where no lead paint regulations, paint intended for household use containing hazardous levels of lead is typically widely available.
+
+Why is lead paint an important source of human exposure?
+========================================================
+
+Lead paint is still legal in 52% of countries and it is one of the most widespread sources of domestic exposure to lead for children (12). As lead painted objects start to decay, the paint often fragments into flakes and dust that contaminate the home environment. This aging process can occur quickly in some climates. Paint flakes and dust are readily swallowed by young children, who typically play on the ground and have frequent hand-to-mouth activity. Some children compulsively pick flakes of paint off surfaces and eat them. The removal of lead paint, for example during home renovation or maintenance of painted structures, such as bridges, can result in the release of lead-contaminated dust if it is done improperly.
+
+Lead paint can remain a source of exposure for many years after its use is prohibited. Even in countries that banned lead paint decades ago, there are still many homes where lead painted surfaces can be found. The sooner that lead paint is banned in a country, the sooner this toxic legacy can be eliminated.
+
+What are the economic costs of removing lead paint?
+===================================================
+
+Once lead paint has been applied in the home, it becomes a potential source of lead exposure, particularly as the paint starts to age and decay. In France, while the number of children with blood lead concentrations above 10 µg/dL is now small, 74% of cases are associated with poor quality housing where there is lead paint (13). Older housing with lead paint has also been identified in the USA as a risk factor for elevated blood lead concentrations in children (14).
+
+Removing lead paint carries a cost, particularly as measures must be taken to prevent environmental contamination with lead during removal and disposal. In France, based on 2008 values, it was estimated that the cost of remediating all homes with lead paint would range from €133.1 million to €342.5 million (US$ 193.8–498.7 million at 2008 exchange rates) (13). In the USA, the costs of remediating lead-painted homes inhabited by young children were estimated to range from US$ 1.2 billion to US$ 11 billion in 2009 (14).
+
+Cost-benefit analyses have indicated that investment in lead paint abatement yields large returns. In France, the estimated net benefit was €3.8 billion (US$ 5.5 billion at 2008 exchange rates) (13). These benefits were calculated on the basis of avoided health costs for the management of lead exposure and avoided social costs, for example in relation to reduced IQ, the need for special education and lost lifetime earnings. In the USA, it has been estimated that each dollar invested in lead paint hazard control yields a return of US$ 17–221 (14).
+
+The most cost-effective solution is to prevent the use of lead paint altogether. Eliminating the use of lead in paints does not need to be expensive and a number of manufacturers have already successfully reformulated products to avoid the intentional addition of lead (14).
+
+What is the Global Alliance to Eliminate Lead Paint and what are its aims?
+==========================================================================
+
+The Global Alliance to Eliminate Lead Paint (the Alliance) is jointly led by the World Health Organization (WHO) and the United Nations Environment Programme (UNEP). It is a voluntary collaborative initiative that aims to focus and catalyse the efforts of diverse stakeholders to achieve international goals to prevent children’s exposure and to minimize occupational exposure to lead from paint.
+
+Stakeholders include governments, intergovernmental organizations and non-State actors, such as civil society, regional bodies, philanthropic organizations, academia, media and the private sector. Interested individuals may also participate as stakeholders. The broad objective of the Alliance is to promote the phase-out of the manufacture and sale of paints containing lead and eventually to eliminate the risks that such paints pose.
+
+Learn more on the Lead Paint Alliance, including how to become a partner
+
+What can Member States do to eliminate lead exposure?
+=====================================================
+
+There are safer alternatives to lead compounds for use as pigments and driers in paint. However, there is still a general lack of awareness of lead and an absence of mandatory standards for lead in paints in many countries. In countries where lead paint is still available, governments should introduce legally binding controls to either ban or restrict the use of lead paint. Examples of control measures include prohibiting the use of any lead compounds in paint or setting a maximum permissible limit for the lead content of paint at the lowest feasible level. Additional information on establishing legally binding control measures, including a Model law and guidance for regulating lead paint can be found on the UNEP website.
+
+Other measures include requiring the use of paint with no added lead in public buildings such as schools and hospitals and informing the public about the hazards of lead to encourage the purchase of paint without added lead. Market pressure can encourage manufacturers to take voluntary action to phase-out lead compounds in paint.
+
+The Lead Paint Alliance is working towards the global elimination of lead paint through the adoption in all countries of legally binding laws, regulations, standards and procedures to control the production, import, sale and use of lead paints. This target gives special attention to the elimination of lead decorative paints and lead paints for other applications most likely to contribute to childhood lead exposure; however, the goal is to control lead in all paints. As of 31 March 2023, 93 countries had informed the Lead Paint Alliance secretariat that such control measures were in place. For further information on the status of legally binding controls, see the WHO Global Health Observatory database.
+
+The phasing out of lead paint is one of the priority actions for governments included in the WHO Road map to enhance health sector engagement in the Strategic Approach to International Chemicals Management towards the 2020 goal and beyond. This road map was approved by the Seventieth World Health Assembly in decision WHA70(23).
+
+How will the elimination of lead paint contribute to achievement of the Sustainable Development Goals (SDGs)?
+=============================================================================================================
+
+The elimination of lead paint will prevent future exposures to lead and the consequent toxic effects, as well as environmental contamination from decaying and waste lead paint. In this way it will contribute to the achievement of the following SDG targets:
+
+3.9: By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water, and soil pollution and contamination.
+
+12.4: By 2020, achieve the environmentally sound management of chemicals and all wastes throughout their life cycle, in accordance with agreed international frameworks, and significantly reduce their release to air, water and soil in order to minimize their adverse impacts on human health and the environment.
+
+What is International Lead Poisoning Prevention Week (ILPPW)?
+=============================================================
+
+ILPPW takes place every year during the third week of October. The purpose of the week is to raise awareness about the human health effects of lead exposure, especially in children, highlight the efforts of countries and partners to prevent lead exposure, and urge the completion of action to eliminate lead paint through regulatory action.
+
+During ILPPW event organizers join together to create a global network of events which are registered on WHO’s dedicated webpage. In 2023, there were 127 events in 58 countries organized by community groups, public health departments, academia, government departments and others.
+
+A guidance document on organizing an advocacy or awareness-raising campaign on lead paint is available from WHO. This document is based on the experience of the Global Alliance to Eliminate Lead Paint in promoting and facilitating successful awareness raising campaigns, including past events during ILPPW. The guidance provides tools to support advocacy or awareness-raising activities to build momentum at country-level toward the development, adoption and implementation of lead paint laws and is available in multiple languages.
+
+More information on the week of action and to find campaign materials.
+
+What can I do to prevent lead exposure?
+=======================================
+
+As an individual, one of the ways to protect yourself and your family from lead exposure is by being an informed and careful consumer. By being informed and aware of potential sources of lead exposure and the symptoms of lead exposure, you can avoid buying or using products that may contain lead. For example, check the label when buying paint to see if lead is an ingredient. If you are not sure ask the vendor or the manufacturer about possible lead content. If you know that lead paint is not legally controlled in your country, lobby your politicians to take action.
+
+If you are planning to redecorate a building or to renovate painted furniture and you think the original paint may contain lead, seek expert advice about safe methods for testing the paint before removing it, and ensure appropriate removal methods are used.
+
+When buying cosmetics and traditional, complementary and integrative medicines, only buy from a regulated manufacturer, as high levels of lead have been reported in some of these products.
+
+When you buy a new car battery, take the old one back to the distributor or to a licensed recycling facility rather than dumping or storing the battery or recycling it at an informal or unlicensed facility.
+
+Only dispose of your electrical and electronic equipment when they break, not simply when they go out of fashion. Dispose of end-of-life electrical and electronic items in designated bins or via take-back systems (15).
+
+How is WHO tackling the problem of lead and its effects on health?
+==================================================================
+
+WHO identifies lead as one of 10 chemicals of major public health concern requiring action by Member States to protect the health of workers, children and women of reproductive age. In its role in setting norms and standards, WHO provides technical support and recommendations to countries through Ministries of Health and national experts. WHO work at country-level focuses on filling gaps in information to support policy decision and raising awareness, as well as providing strategic support and technical assistance.
+
+WHO published evidence-based guidelines on the clinical management of exposure to lead in 2021 (6). The guidelines aim to assist policy-makers, public health authorities and health professionals in implementing measures to protect the health of children and adults from lead exposure.
+
+WHO is the lead agency organizing and supporting the annual International Lead Poisoning Prevention Week.
+
+WHO maintains a database on current status on legally-binding controls on lead paint in Member States (12).
+
+Further WHO information on lead
+
+References
+
+1. Era of leaded petrol over, eliminating a major threat to human and planetary health [website].Nairobi: United Nations Environment Programme; 2021 (https://www.unep.org/news-and-stories/press-release/era-leaded-petrol-over-eliminating-major-threat-human-and-planetary, accessed 10 September 2024).
+
+2. Children and digital dumpsites: e-waste exposure and child health. Geneva: World Health Organization; 2021 (https://iris.who.int/handle/10665/341718, accessed 10 September 2024).
+
+3. Miranda ML, Anthopolos R, Hastings D. A geospatial analysis of the effects of aviation gasoline on childhood blood lead levels. Environ Health Perspect. 119(10):1513–16.
+
+4. CDC updates blood lead reference value [website]. Atlanta: US Centers for Disease Control and Prevention; 2024 (https://www.cdc.gov/lead-prevention/php/news-features/updates-blood-lead-reference-value.html, accessed 10 September 2024).
+
+5. Détermination de nouveaux objectifs de gestion des expositions au plomb. Synthèse et recommandations. Paris: Haut Conseil de la santé publique; 2014 (http://www.hcsp.fr/explore.cgi/avisrapportsdomaine?clefr=444, accessed 10 September 2024).
+
+6. WHO guideline for the clinical management of exposure to lead. Geneva: World Health Organization; 2021 (https://iris.who.int/handle/10665/347360, accessed 10 September 2024).
+
+7. Childhood lead poisoning. Geneva: World Health Organization; 2010 (https://apps.who.int/iris/handle/10665/136571, accessed 10 September 2024).
+
+8. Institute for Health Metrics and Evaluation. Lead exposure-Level 3 risk [website]. Seattle: University of Washington; 2024 (https://www.healthdata.org/research-analysis/diseases-injuries-risks/factsheets/2021-lead-exposure-level-3-risk, accessed 10 September 2024).
+
+9. Attina TM, Transande L. Economic costs of childhood lead exposure in low- and middle-income countries. Environ Health Perspect. 2013;121(9):1097-1102.
+
+10. Used Lead Acid Batteries (ULAB) – Waste Lead Acid Batteries (WLAB) [website]. Nairobi: United Nations Environment Programme; 2024 (https://www.unep.org/topics/chemicals-and-pollution-action/pollution-and-health/heavy-metals/used-lead-acid-batteries, accessed 10 September 2024).
+
+11. Global elimination of lead paint: why and how countries should take action: technical brief. Geneva: World Health Organization; 2020 (https://apps.who.int/iris/handle/10665/333840, accessed 10 September 2024).
+
+12. Legally-binding controls on lead paint [website]. Geneva: World Health Organization; 2024 (https://www.who.int/data/gho/data/indicators/indicator-details/GHO/legally-binding-lead-controls, accessed 10 September 2024).
+
+13. Pichery C, Bellanger M, Zmirou-Navier D, Glorennec P, Hartemann P, Grandjean P. Childhood lead exposure in France: benefit estimation and partial cost-benefit analysis of lead hazard control. Environmental Health. 2011;10:44 (https://ehjournal.biomedcentral.com/articles/10.1186/1476-069X-10-44, accessed 9 August 2022).
+
+14. Lead in solvent-based paints for home use global report. Stockholm: International Pollutants Elimination Network; 2017 (http://ipen.org/documents/lead-solvent-based-paints-home-use-global-report, accessed 10 September 2024).).
+
+15. Children and digital dumpsites: e-waste exposure and child health. Geneva: World Health Organization; 2021 (https://apps.who.int/iris/handle/10665/341718, accessed 10 September 2024).

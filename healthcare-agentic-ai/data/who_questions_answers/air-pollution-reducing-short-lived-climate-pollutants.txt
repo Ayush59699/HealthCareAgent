@@ -1,0 +1,51 @@
+WHO QUESTIONS AND ANSWERS
+Title: Air pollution: Reducing short-lived climate pollutants
+URL: https://www.who.int/news-room/questions-and-answers/item/air-pollution-reducing-short-lived-climate-pollutants
+Retrieved: 2026-10-05T09:43:09.903722+00:00
+
+========================================
+
+What are SLCPs?
+===============
+
+Short-lived climate pollutants (SLCPs), found in ambient (outdoor) and household air pollution, produce strong climate change effects but only remain in the atmosphere briefly, from a few days to about a decade. The short life span of SLCPs means that assertive action now to reduce emissions can rapidly improve both air quality as well as slowing the rate of near-term climate change.
+
+The main SLCPs of direct concern to health include black carbon (or soot), methane and ozone, which all contribute to both health-harmful air pollution and global warming. Black carbon (BC) is a component of fine particulate matter, the air pollutant most associated with premature death and morbidity. Ozone has significant adverse impacts on respiratory health, and methane contributes to ozone formation. Mitigation experts believe that firm actions reducing SLCP emissions could slow the pace of climate change by as much as 0.6 ⁰C over the next few decades. Even so, it is important to note that SLCP reduction measures complement, but do not replace, the actions needed to reduce longer-lived CO2 emissions for climate stabilization.
+
+Where do these pollutants come from?
+====================================
+
+Open fires, (including wildfires, deliberate forest/brush burning, and burning of urban and crop waste), comprise the largest single source of black carbon emissions. Household fuel combustion and transport, account for roughly 77% of black carbon emissions from human activities related to energy production and use. Emissions from diesel, biomass and kerosene combustion are among the sources with the heaviest black carbon concentrations, and accordingly have been identified as priority sources for reducing emissions that contribute to near-term climate change.
+
+Particulate emissions from other sources, such as coal-fired power plants, are also a source of black carbon emissions. In health terms, however, mitigation efforts that reduce fine particulates from other sources can, of course, be beneficial, and may also reduce CO2 and thus longer-term climate change.
+
+Ozone is not emitted directly but develops when a number of precursor pollution emissions interact in the presence of sunlight. Precursor emissions often include methane, oxides of nitrogen, volatile organic compounds, and carbon monoxide. Ozone is the second SLCP that causes adverse respiratory effects, with impacts ranging from changes in lung function and increased incidence of asthma to premature mortality. Methane is a powerful SLCP in and of itself, mainly produced from the agriculture sector, including livestock production, waste sector, and as a byproduct of fossil fuel extraction and distribution. Methane emissions impact on health through their role in ozone formation.
+
+What is the impact of SCLPs on health?
+======================================
+
+Since SLCPs contribute to ambient levels of ozone and PM2.5, SCLP emissions are directly associated with cardiovascular and respiratory diseases, including heart disease, pulmonary disease, respiratory infections and lung cancer. SLCP emissions thus contribute significantly to the more than 7 million premature deaths annually linked to air pollution.
+
+Indirectly, the SLCPs such as ozone can reduce plant photosynthesis and growth, thus decreasing agricultural yields, which in turn threatens food security. Ozone as well as black carbon can also affect weather patterns and the melting of snow and ice, which may harm and endanger health through extreme weather events such as floods.
+
+What are the mitigation actions?
+================================
+
+As SLCP mitigation is seen as complementary to mitigation of CO2 emissions, same strategies considered to stabilize climate and ensure the health of future generations also examined the CO2 reduction potential. Four strategies were identified which appear to have the largest aggregate potential for health and SLCP mitigation benefits as well as reducing CO2.
+
+- Policies and investments that prioritize dedicated rapid transit and walking and cycling networks in compact cities can promote health in multiple ways, including reduced air pollution exposures, reduced injury risks and greater opportunities for safe active travel.
+
+- Encouraging healthier diets rich in plant-based foods and low in red and processed meats among affluent populations at risk of a range of diet-related noncommunicable diseases will have a positive effect on health and will also reduce emissions.
+
+- Provide and promote the use of clean and efficient cook-stoves and fuels, and cleaner energy sources, to the approximately 2.8 billion low-income households that currently rely on solid fuels for heating and cooking.
+
+- Reducing vehicle emissions of both particulate matter as well as ozone precursors (e.g. NO2) by implementing stricter vehicle emission and fuel standards.
+
+Along with these four, however, many other SLCP measures identified in this report are also very beneficial to health. Examples include improved waste management strategies, more energy efficient homes and buildings, phasing out kerosene lamps and greater reliance on clean light and power sources, including renewable energy, for homes and health clinics, cleaner brick industries and coke ovens, etc. Measures outlined can reduce many other types of health risks, ranging from housing related diseases associated with exposure to extreme heat, cold or damp; sanitation-related diseases; air pollution from kerosene and generator fumes; work-related diseases, and so on.
+
+What can I do?
+==============
+
+Some simple lifestyle choices coming from individuals can have potential benefits for reducing emissions and contributing to better health. Although policy decisions make up a big part for mitigation actions, the choices we make on what we eat, how we travel, and the energy sources we use, for example, choosing to take public transport over private cars and choosing a plant-based meal over red meat will contribute to the reduction of emissions and noise pollution while increasing health and well-being.
+
+Read more about short-lived climate pollutants in WHO’s policy brief.

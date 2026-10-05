@@ -1,0 +1,72 @@
+WHO QUESTIONS AND ANSWERS
+Title: Social determinants of health: Key concepts
+URL: https://www.who.int/news-room/questions-and-answers/item/social-determinants-of-health-key-concepts
+Retrieved: 2026-10-05T09:49:36.521669+00:00
+
+========================================
+
+What are health inequities or inequalities?
+===========================================
+
+Health inequities are avoidable inequalities in health between groups of people within countries and between countries. These inequities arise from inequalities within and between societies. Social and economic conditions and their effects on people’s lives determine their risk of illness and the actions taken to prevent them becoming ill or treat illness when it occurs.
+
+Examples of health inequities between countries:
+
+- the infant mortality rate (the risk of a baby dying between birth and one year of age) is 2 per 1000 live births in Iceland and over 120 per 1000 live births in Mozambique;
+
+- the lifetime risk of maternal death during or shortly after pregnancy is only 1 in 17 400 in Sweden but it is 1 in 8 in Afghanistan.
+
+Examples of health inequities within countries:
+
+- in Bolivia, babies born to women with no education have infant mortality greater than 100 per 1000 live births, while the infant mortality rate of babies born to mothers with at least secondary education is under 40 per 1000;
+
+- life expectancy at birth among indigenous Australians is substantially lower (59.4 for males and 64.8 for females) than that of non-indigenous Australians (76.6 and 82.0, respectively);
+
+- life expectancy at birth for men in the Calton neighbourhood of Glasgow is 54 years, 28 years less than that of men in Lenzie, a few kilometres away;
+
+- the prevalence of long-term disabilities among European men aged 80+ years is 58.8% among the lower educated versus 40.2% among the higher educated.
+
+What is meant by social gradient?
+=================================
+
+The poorest of the poor, around the world, have the worst health. Within countries, the evidence shows that in general the lower an individual’s socioeconomic position the worse their health. There is a social gradient in health that runs from top to bottom of the socioeconomic spectrum. This is a global phenomenon, seen in low, middle and high income countries. The social gradient in health means that health inequities affect everyone.
+
+For example, if you look at under-5 mortality rates by levels of household wealth you see that within counties the relation between socioeconomic level and health is graded. The poorest have the highest under-5 mortality rates, and people in the second highest quintile of household wealth have higher mortality in their offspring than those in the highest quintile. This is the social gradient in health.
+
+What are the social 'determinants' of health?
+=============================================
+
+The social determinants of health are the circumstances in which people are born, grow up, live, work and age, and the systems put in place to deal with illness. These circumstances are in turn shaped by a wider set of forces: economics, social policies, and politics.
+
+What are the drivers of health inequities?
+==========================================
+
+The global context affects how societies prosper through its impact on international relations and domestic norms and policies. These in turn shape the way society, both at national and local level, organizes its affairs, giving rise to forms of social position and hierarchy, whereby populations are organized according to income, education, occupation, gender, race/ethnicity and other factors. Where people are in the social hierarchy affects the conditions in which they grow, learn, live, work and age, their vulnerability to ill health and the consequences of ill health.
+
+- The benefits of the economic growth that has taken place over the last 25 years are unequally distributed. In 1980 the richest countries, containing 10% of the world’s population, had gross national income 60 times that of the poorest countries, containing 10% of the world’s population. By 2005 this ratio had increased to 122.
+
+- International flows of aid – grossly inadequate in themselves, and well below the levels promised – are dwarfed by the scale of many poor countries’ debt repayment obligations. The result is that, in many cases, there is a net financial outflow from poorer to richer countries – an alarming state of affairs.
+
+- The trend over the last 15 years has been for the poorest quintile of the population in many countries to have a declining share in national consumption. In Kenya, for example, at current economic growth rates and with the present levels of income inequality, the median family in poverty would not cross the poverty line until 2030. Doubling the share of income growth enjoyed by Kenya’s poor would mean that reduction in poverty would happen by 2013.
+
+- Gender biases in power, resources, entitlements, norms and values, and the way in which organizations are structured and programmes are run damage the health of millions of girls and women. The position of women in society is also associated with child health and survival – of boys and girls.
+
+- Health equity depends vitally on the empowerment of individuals to challenge and change the unfair and steeply graded distribution of social resources to which everyone has equal claims and rights. Inequity in power interacts across four main dimensions – political, economic, social, and cultural – together constituting a continuum along which groups are, to varying degrees, excluded or included.
+
+What is primary health care?
+============================
+
+As stated at Alma Ata Conference: "Primary health care is essential health care based on practical, scientifically sound and socially acceptable methods and technology made universally accessible to individuals and families in the community through their full participation and at a cost that the community and country can afford to maintain at every stage of their development in the spirit of self-reliance and self-determination." The WHO World Health Report of 2008 will further elaborate on this definition.
+
+World Health Report 2008
+
+What is health equity in all policies?
+======================================
+
+Every aspect of government and the economy has the potential to affect health and health equity – finance, education, housing, employment, transport, and health, to name just six. While health may not be the main aim of policies in these sectors, they have strong bearing on health and health equity.
+
+Policy coherence is crucial – different government departments’ policies must complement rather than contradict each other in relation to health equity. For example, trade policy that actively encourages the production, trade, and consumption of foods high in fats and sugars to the detriment of fruit and vegetable production is contradictory to health policy
+
+Obesity is becoming a real public health challenge in transitioning countries, as it already is in high-income nations. Obesity prevention requires approaches that ensure a sustainable, adequate, and nutritious food supply; a habitat that lends itself to easy uptake of healthier food; participation in physical activity; and a family, educational, and work environment that positively reinforces healthy living. Very little of this action sits within the capabilities or responsibilities of the health sector. Positive advances have been made – for example, bans on advertisements for foods high in fats, sugars, and salt during television programmes aimed at children. However, a significant challenge remains: to engage with the multiple sectors outside health in areas such as trade, agriculture, employment, and education, if we are to redress the global obesity epidemic.
+
+Equity monitor

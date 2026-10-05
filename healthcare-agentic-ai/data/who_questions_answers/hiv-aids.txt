@@ -1,0 +1,145 @@
+WHO QUESTIONS AND ANSWERS
+Title: HIV and AIDS
+URL: https://www.who.int/news-room/questions-and-answers/item/hiv-aids
+Retrieved: 2026-10-05T09:46:30.575874+00:00
+
+========================================
+
+What is HIV?
+============
+
+The human immunodeficiency virus (HIV) targets cells of the immune system, called CD4 cells, which help the body respond to infection. Within the CD4 cell, HIV replicates and in turn, damages and destroys the cell. Without effective treatment of a combination of antiretroviral (ARV) drugs, the immune system will become weakened to the point that it can no longer fight infections and diseases.
+
+Is AIDS different from HIV?
+===========================
+
+Acquired immunodeficiency syndrome (AIDS) is a term that applies to the most advanced stages of HIV infection. It is defined by the occurrence of any of the more than 20 life-threatening cancers or “opportunistic infections”, so named because they take advantage of a weakened immune system. AIDS was a defining feature of the earlier years of the HIV epidemic, before antiretroviral therapy (ART) became available. Now, as more people access ART, the majority of people living with HIV will not progress to AIDS.
+
+Advanced HIV disease (AHD), defined as having a CD4 cell count less than 200 copies, having an AIDS-defining illness, or all children less than 5 years old with confirmed HIV infection, is more likely to occur in people with HIV who have not been tested, in people who are diagnosed late, and in people who have stopped or never started taking ART.
+
+Without treatment, how quickly can a person living with HIV become ill?
+=======================================================================
+
+For people living with HIV who are not diagnosed or taking ART, signs of HIV-related illness may develop within 5–10 years, although it can be sooner. The time between HIV transmission and an AIDS diagnosis is usually 10-15 years, but sometimes longer. There is a very small number of people who have managed to control the HIV infection without ART and are called ‘elite-controllers’. This situation is very rare and most people will need ART to avoid becoming ill.
+
+How is HIV transmitted?
+=======================
+
+HIV is found in certain bodily fluids of people living with HIV, including blood, semen, vaginal fluids, rectal fluids and breastmilk. HIV can be transmitted by:
+
+- unprotected vaginal or anal sex, and, in very rare cases, through oral sex with a person living with HIV;
+
+- blood transfusion of contaminated blood;
+
+- sharing of needles, syringes, other injecting equipment, surgical equipment or other sharp instruments; and
+
+- from a mother living with HIV to her infant during pregnancy, childbirth or breastfeeding.
+
+A person living with HIV who is taking ART and whose viral load is “undetectable” will not transmit HIV to their sexual partner/s.
+
+How is HIV infection treated?
+=============================
+
+While there is no cure for HIV infection, it can be treated using antiretroviral drugs, which work by stopping the replication of the virus. ART can reduce the level of virus to such low levels in the body that the immune system will function normally, and a person living with HIV can enjoy good health, provided they adhere to treatment and the treatment remains effective. People living with HIV are also much less likely to transmit the virus to others when treatment is working.
+
+What does “undetectable” mean?
+==============================
+
+Evidence from several studies show that people living with HIV who have an “undetectable” viral load cannot pass HIV on to others. A person is “undetectable” when ART has reduced the level of virus in their body to such low levels that it cannot be detected by normal viral load tests. Monitoring of viral load, and confirmation of an undetectable viral load is often undertaken by a healthcare professional as part of the routine medical care for people with HIV. In many low- and middle-income countries, viral load tests may not be consistently or routinely available, so many people do not benefit from the knowledge that they are undetectable. They can be assured, however, that the risk of transmitting HIV is greatly reduced when they adhere to treatment, and when treatment is started without delay.
+
+What illnesses can affect people living with HIV?
+=================================================
+
+ART allows people with HIV to live long and healthy lives by ensuring that their immune system remains healthy. In certain settings, however, many people living with HIV remain undiagnosed, not on treatment, or not taking consistent treatment, and, as a result their HIV disease progresses.
+
+People with HIV who develop severe immunodeficiency and are not on antiretroviral treatment frequently develop severe opportunistic infections and some rare cancers as Kaposi Sarcoma. Tuberculosis (TB) is the number one cause of death among people living with HIV in Africa, and a leading cause of death among people living with HIV worldwide. Routine TB-symptom screening and early initiation of ART can greatly improve the health outcomes of people living with HIV. Other common HIV coinfections include hepatitis B and C in some populations.
+
+HIV infection can result in a range of health problems. As people living with HIV age and live longer, non-AIDS defining illnesses are becoming more common. These include heart disease, cancer and diabetes.
+
+How can people get tested for HIV?
+==================================
+
+Testing for HIV is the only way to know if a person has HIV or not. HIV can be diagnosed using rapid diagnostic tests that provide results within minutes. However, such results should only be considered as a full diagnosis following review and confirmation by a qualified health worker.
+
+Knowledge of one’s HIV-positive status has two important benefits:
+
+- People who test positive can take steps to get treatment, care and support before symptoms appear, which can prolong life and prevent health complications for many years.
+
+- People who are aware of their status can take precautions to prevent the transmission of HIV to others.
+
+WHO recommends that HIV tests be made available in all health facilities and through a range of community settings. People can also use HIV self-test kits to test themselves. People using self-tests and have a positive result should always get this confirmed at a health centre.
+
+Who is at more risk of HIV?
+===========================
+
+The main routes of HIV transmission include unsafe sex without condoms, receiving blood transfusions or other blood products contaminated with HIV, sharing of needles and syringes and other injecting equipment, being exposed to HIV through contaminated surgical and other skin piercing equipment and vertical transmission from mothers with HIV to their children. HIV is fully preventable; different interventions exist to stop transmission.
+
+However, many people are not accessing necessary information and skills to prevent HIV. In some cases, major legal and social barriers prevent people from accessing effective prevention services and measures. Some populations are at higher risk of HIV infection, including men who have sex with men; people who inject drugs; People in prisons and other closed settings; sex workers and their clients; and transgender people. These populations are referred to as ‘key populations’, who are often marginalized in communities and experience major barriers in accessing HIV prevention and treatment and other health services. In some settings, other populations may be particularly vulnerable to HIV infection, such as adolescent girls in southern Africa.
+
+How can sexual transmission of HIV be prevented?
+================================================
+
+Globally, HIV is mainly transmitted through unprotected vaginal and anal sex. Several methods can be used to prevent this from happening. It is recommended that a combination of effective prevention interventions be used, including:
+
+- using male and/or female condoms consistently and correctly;
+
+- for HIV-negative people, taking pre-exposure prophylaxis of HIV (PrEP) to prevent HIV transmission;
+
+- for people living with HIV, taking ART to reduce viral load to undetectable levels, meaning they can’t transmit HIV to their sexual partners;
+
+- for adolescent boys and men in high HIV burden settings, voluntary medical male circumcision reduces the risk of heterosexually acquired HIV;
+
+- diagnosing and treating other STIs; and
+
+- being aware of one’s status and for people with HIV stay on ART to prevent transmission to their partner/s.
+
+What is the relationship between HIV and other STIs?
+====================================================
+
+HIV infection is more likely to occur if a person has another sexually transmitted infection (STI) and vice-versa. The probability of infection by HIV or other sexually transmitted pathogens significantly increases when people engage in risky sexual behaviours (e.g. no condom use, unprotected sex with multiple partners; sex under the influence of drugs and alcohol). Additionally, sores and inflammations from some STIs facilitate HIV infection. Evidence indicates that genital herpes (HSV-2) almost triples the risk of acquiring HIV in both men and women. Also, women living with HIV are at high risk of human papillomavirus (HPV) infection and are 6 times more likely to develop cervical cancer, among several other examples.
+
+How can transmission through the sharing of needle/syringes be prevented?
+=========================================================================
+
+Harm reduction interventions aim to reduce the harms associated with injecting drug use, including HIV and viral hepatitis without necessarily stopping drug use. The provision of sterile needle/syringes and other injecting equipment through needle/syringe programmes helps people who inject drugs to use a sterile needle/syringe at each injection, reducing their risk of HIV. Opioid substitution therapy (OST) is an evidence-based treatment for opioid dependence which reduces HIV risk and has other health benefits.
+
+How can vertical transmission of HIV be prevented?
+==================================================
+
+HIV can be transmitted from a mother to her child during pregnancy, labour, delivery or breastfeeding. But such vertical transmission can be prevented with effective interventions, including the use of ART by the mother and a short course of antiretroviral drugs for the baby. Other effective interventions include measures to prevent HIV acquisition in pregnant woman, prevent unintended pregnancies in women with HIV and appropriate breastfeeding practices. HIV testing services should be integrated into maternal and child health services, so that they women at risk can readily access testing. Pregnant women and mothers diagnosed with HIV should receive ART as soon as possible, so that their children are born free from HIV.
+
+What is PrEP?
+=============
+
+Pre-exposure prophylaxis, or PrEP, is a course of antiretroviral drugs that HIV-negative people can take to prevent HIV acquisition. When taken as recommended, it can practically eliminate the chance of acquiring HIV. PrEP is recommended for populations who are at higher risk of HIV. These groups may include men who have sex with men, sex workers, people who use drugs, and young women in southern Africa.
+
+Long acting PrEP products have also been shown to be effective in preventing HIV acquisition. A monthly vaginal ring for women and an intramuscular injection given every 8 weeks for men, women and transgender diverse populations are both effective. Although currently not widely available there are currently global efforts to increase access.
+
+How does male circumcision prevent HIV transmission?
+====================================================
+
+Male circumcision reduces the risk of sexual transmission from a woman to a man by around 60%. A one-time intervention, medical male circumcision provides life-long partial protection against HIV, as well as other sexually transmitted infections. It should always be considered as part of a comprehensive HIV prevention package, and should not replace other known methods of prevention, such as female and male condoms. The minimum package of services should include: safer sex education, promotion of condoms, management of STIs, HIV testing, linkage to treatment for men and adolescents 15 years and older in high HIV burden settings.
+
+How effective are condoms in preventing HIV?
+============================================
+
+When used correctly and consistently every time a person has sex, condoms are among the most effective means of preventing HIV infection in women and men.
+
+Is there a cure for HIV?
+========================
+
+No, there is currently no cure for HIV. Science is moving at a fast pace, and there have been 3 people who have achieved a ‘functional cure’ by undergoing a bone marrow transplant for cancer with re-infusion of new CD4 T cells that are unable to be infected with HIV. However, neither a cure nor a vaccine is available to treat and protect all people currently living with or at risk of HIV. But with good and continued adherence to ART, HIV infection can be contained and managed as a chronic health condition. In all parts of the world, people living with HIV are now surviving and thriving into old age.
+
+What other kinds of care do people living with HIV need?
+========================================================
+
+While ART helps the immune system stay strong, people living with HIV can benefit from counselling and psychosocial support to ensure that they are truly “living well” with HIV. HIV is manageable, but it is a life-long chronic illness, and people may need support with their mental health and with lifestyle changes to support good health through life. Access to good nutrition, safe water and basic hygiene can also help people living with HIV to maintain a good quality of life. As with the general community, people living with HIV may experience a broad range of other health conditions that may need treatment and care. A people-centred approach to health care, particularly through primary health services, aims to deliver comprehensive health services to people living with HIV, in which all their health issues are addressed.
+
+What is the intersection between HIV and monkeypox ?
+====================================================
+
+People living with HIV may be at risk of developing monkeypox (mpox) because of weak immune systems. There is some evidence that being immunocompromised may increase your risk of becoming infected if you are exposed, and of having serious illness or dying from mpox. However, more data is needed to understand this fully.
+
+Many people with mpox in the current outbreak are also living with HIV, but there have been relatively few severe cases of mpox, likely because in most cases their HIV infection was well-controlled. Since the beginning of the outbreak, a high prevalence of HIV infection (52%; 14 573/28 006) has been reported among cases with known HIV status. Monkeypox and HIV share common behavioural risk factors such as transmission through sexual contact. Consideration should be given to testing any person with monkeypox infection for HIV infection if their status is not already known.
+
+People with multiple sexual partners, including people who are living with HIV, are encouraged to take steps to reduce their risk of being exposed to mpox by avoiding close contact with anyone who has symptoms and by avoiding high-risk situations where multiple contacts may occur even with persons who may not realize they have mpox. Reducing the number of sexual partners may reduce your risk.

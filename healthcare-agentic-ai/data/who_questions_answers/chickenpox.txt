@@ -1,0 +1,58 @@
+WHO QUESTIONS AND ANSWERS
+Title: Chickenpox
+URL: https://www.who.int/news-room/questions-and-answers/item/chickenpox
+Retrieved: 2026-10-05T09:43:32.420079+00:00
+
+========================================
+
+What is chickenpox and what causes it?
+======================================
+
+Chickenpox, also called varicella, is a highly contagious disease caused by the varicella-zoster virus (VZV). This virus is a member of the herpesvirus family, and humans are the only known natural hosts for it. VZV is found worldwide. The initial infection with VZV results in chickenpox. After someone recovers from chickenpox, the virus becomes inactive in the nerve cells. It can reactivate later, leading to a painful condition known as shingles (herpes zoster). The virus spreads when someone with chickenpox coughs or sneezes, releasing infected droplets into the air, and through direct contact with the fluid from the chickenpox blisters. If a person is susceptible (meaning they haven't had chickenpox or been vaccinated), they are likely to contract the virus if exposed. Chickenpox tends to occur more often during winter and spring or cool and dry months, with outbreaks occurring every 2–5 years. While typically mild in children, it can be more severe in adults.
+
+What are the signs and symptoms?
+================================
+
+The most noticeable sign of chickenpox is an itchy rash that turns into small, fluid-filled blisters. This rash often starts on the scalp and face before spreading to the trunk and limbs. It can be preceded by a few days of fever, general discomfort (malaise) and loss of appetite. The rash develops over about five to seven days, progressing from flat spots (macules) to raised bumps (papules), then to itchy blisters (vesicles) and finally to scabs. Unvaccinated individuals typically develop around 300 lesions. These blisters eventually dry out, and crusts form and then disappear over one to two weeks. The time from exposure to the virus to the appearance of the rash (the incubation period) is usually 14–16 days, with a range of 10–21 days. The virus is contagious one to two days before the rash appears and until all the lesions are crusted over.
+
+How does chickenpox spread?
+===========================
+
+Chickenpox is very contagious and spreads in several ways. It spreads through the air when an infected person coughs or sneezes, releasing droplets containing the virus. The virus can also spread through direct contact with the fluid from chickenpox blisters or respiratory secretions. A person is contagious from one to two days before the rash appears until all the blisters have formed scabs. This ease of transmission is why chickenpox can easily spread in places like schools and daycare centres. The secondary attack rate for chickenpox is high, with 61–100% of susceptible individuals contracting the disease after being exposed.
+
+What are the possible complications?
+====================================
+
+While chickenpox is usually a mild illness, it can lead to complications, particularly in certain groups of people. These complications can include pneumonia (lung infection), encephalitis (inflammation of the brain) and bacterial infections of the skin. These complications can be severe and sometimes fatal. Although severe complications are more likely in individuals with weakened immune systems, most deaths from chickenpox occur in otherwise healthy children because the disease is so common. Those at higher risk for severe complications include infants under one year of age, pregnant women, adults and people with compromised immune systems.
+
+How long does chickenpox last from start to finish?
+===================================================
+
+The chickenpox rash typically appears within 10 to 21 days after exposure to the virus. The rash takes about 5-7 days to fully develop from flat spots to blisters and then scabs. The scabs typically fall off within one to two weeks. Thus, the full course of chickenpox, from the first sign of the rash to the disappearance of scabs, can last approximately 2 to 4 weeks. Importantly, a person is contagious until all lesions have crusted over. Once the scabs have formed, the risk of transmitting the virus is greatly reduced.
+
+Can someone get chickenpox more than once in their lifetime?
+============================================================
+
+Usually, a person will only get chickenpox once in their life. After recovery, their body develops immunity to the virus. The virus then remains inactive in the nerve cells but may reactivate later in life to cause shingles. While it's rare, some people who have been vaccinated can develop a mild case of chickenpox known as "breakthrough varicella". This is usually less severe than the disease in unvaccinated individuals.
+
+How are chickenpox and shingles connected?
+==========================================
+
+Both chickenpox and shingles are caused by the same virus: the varicella-zoster virus (VZV). When a person is initially infected with VZV, they develop chickenpox. After the chickenpox infection has resolved, the virus remains inactive in nerve cells. Shingles occurs when this inactive virus reactivates, often later in life. Shingles appears as a painful rash, usually in a specific area of the body. Unlike chickenpox, shingles cannot be spread from person to person but can be transmitted to susceptible individuals who will then develop chickenpox. Shingles can sometimes lead to long-term nerve pain.
+
+How is chickenpox diagnosed?
+============================
+
+Doctors usually diagnose chickenpox based on the characteristic rash and symptoms. The rash usually starts on the face and trunk before spreading and is characterized by the appearance of new lesions over several days in the form of macules, papules, vesicles and scabs. In most cases, laboratory tests are not necessary. However, in some situations, such as when someone has been vaccinated or has a weakened immune system, lab tests may be used to confirm the diagnosis. These tests can include polymerase chain reaction (PCR) to detect the virus's DNA, direct antigen detection, or serological testing. PCR is considered the most reliable method for confirmation.
+
+What is the recommended treatment?
+==================================
+
+For most healthy individuals, chickenpox is generally mild and doesn't require specific medical treatment. The focus is usually on relieving symptoms. This can include using calamine lotion or taking oatmeal baths to soothe the itching, and using acetaminophen (paracetamol) to reduce fever. Aspirin should not be used, especially in children, as it can cause Reye's syndrome, a rare but serious condition. Antiviral medications, like acyclovir, are generally not needed for healthy individuals, but they may be recommended for people at higher risk of complications, such as those who are immunocompromised or those with severe cases.
+
+How can chickenpox be prevented?
+================================
+
+Chickenpox is a preventable disease. There are also several steps that can be taken to reduce the spread of the disease. These include avoiding contact with infected individuals, avoiding sharing personal items like towels and utensils, and practicing good hygiene. People with chickenpox should avoid leaving home until all their lesions have crusted and dried. Those with modified varicella (breakthrough cases) should isolate themselves until no new lesions appear for 24 hours.
+
+WHO recommends that the use of the recombinant herpes zoster vaccine in a 2-dose schedule with a minimum 2-month interval between doses, for the prevention of herpes zoster in older adults and those with chronic conditions, be considered in countries where herpes zoster is an important public health problem. WHO advised countries to conduct cost-effectiveness analyses to inform decision-making.

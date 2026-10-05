@@ -1,0 +1,48 @@
+WHO QUESTIONS AND ANSWERS
+Title: WHO-CHOICE
+URL: https://www.who.int/news-room/questions-and-answers/item/who-choice-frequently-asked-questions
+Retrieved: 2026-10-05T09:50:41.678375+00:00
+
+========================================
+
+Updates for this questions and answers page are expected in June 2025.
+
+Describe the WHO initiative, WHO-CHOICE, in a nutshell.
+=======================================================
+
+WHO-CHOICE is a program in the World Health Organization that helps countries decides priorities based on considerations of impact and cost-effectiveness.
+
+WHO-CHOICE results are presented for regions. How do these apply to my country?
+===============================================================================
+
+WHO-CHOICE analyses are compiled into regional databases which can then be modified for specific country settings by policymakers, using a country contextualization tool which makes it possible to adapt regional results to the country level
+
+What is involved in a country contextualisation of a CHOICE analysis?
+=====================================================================
+
+WHO-CHOICE tools, including disease models and costing tools, are pre-set with regional average data. For a contextualisation, data including epidemiology, intervention impacts, and prices can be replaced by a country analyst in order to use data that is more appropriate to the local setting. WHO-CHOICE staff can provide support and assist with analyses. Please contact the CHOICE team to discuss your needs.
+
+How is the WHO-CHOICE methodology for determining cost-effectiveness different from others?
+===========================================================================================
+
+WHO-CHOICE incorporates any activities that may be considered policy-relevant: either because they’re highly cost-effective or the opposite. All options are compared to a common comparator, a null scenario in which the impacts of currently implemented interventions are removed. This enables us to compare interventions across diseases.
+
+Does CHOICE continue to use the null comparator and why?
+========================================================
+
+Yes, the null is used as the comparator for all interventions. This gives us a common comparator for all scenarios, so that interventions from different diseases can be compiled into an analysis across the spectrum of diseases. Rather than looking only at incremental costs and benefits, the use of the null also enables us to look at allocative efficiency – ie. what allocation of resources will give the greatest health impact.
+
+How do you determine the “Costs” and “Effects”?
+===============================================
+
+The impact on the population of interest when it is given a certain technology gives the estimate of effectiveness, which is applied to a population level model to project the likely impact in health adjusted life expectancy over the next 100 years. For cost, the costs of administration, training, and programme elements are added to the cost of operations as determined from best practice guidelines.
+
+My disease/risk factor of interest is not included in the CHOICE results. Can it be added?
+==========================================================================================
+
+WHO-CHOICE uses a generic set of tools which can be applied to any health condition. The CHOICE team would be happy to discuss the addition of additional diseases to our knowledge base. Please contact the team to discuss.
+
+What are some examples of one of the more significant results of WHO CHOICE so far?
+===================================================================================
+
+In 2021, we present for the first-time a cross-programme analysis of the comparative cost-effectiveness of 479 intervention scenarios across 20 disease programmes and risk factors. This analysis follows the standard WHO-CHOICE approach to generalized cost-effectiveness analysis applied to two regions, Eastern sub-Saharan Africa, and Southeast Asia. The scope of the analysis is all interventions included in programme specific WHO-CHOICE analyses, using WHO treatment guidelines for major disease areas as the foundation. Costs are measured in 2010 international dollars, and benefits modelled beginning in 2010, or the nearest year for which validated data was available, both for a period of 100 years. We observe that, across both regions included in the analysis, interventions span multiple orders of magnitude in terms of cost-effectiveness ratios. A health benefit package optimized through a value for money lens incorporates interventions responding to all the main drivers of disease burden. Interventions delivered through first level clinical and nonclinical services represent most of the high impact cost-effective interventions. Therefore, in conclusion cost-effectiveness is one important criterion when selecting health interventions for benefit packages to progress towards universal health coverage (UHC), but it is not the only criterion, and all calculations should be adapted to the local context.

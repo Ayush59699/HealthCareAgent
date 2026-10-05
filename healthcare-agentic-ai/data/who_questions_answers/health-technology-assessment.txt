@@ -1,0 +1,25 @@
+WHO QUESTIONS AND ANSWERS
+Title: Health technology assessment
+URL: https://www.who.int/news-room/questions-and-answers/item/health-technology-assessment
+Retrieved: 2026-10-05T09:46:21.896143+00:00
+
+========================================
+
+How can I connect with other HTA groups?
+========================================
+
+International cooperation and information exchange is very well established in the HTA community of practice and there are many international and regional networks worldwide. Please see section on Networks for more information. For a list of international HTA agencies please refer to the INAHTA website
+
+- International HTA networks
+
+What is the difference between Health Impact Assessment and Health Technology Assessment?
+=========================================================================================
+
+Health Impact Assessment is a means of assessing the health impacts of policies, plans and projects in diverse economic sectors using quantitative, qualitative and participatory techniques. HIA helps decision-makers make choices about alternatives and improvements to prevent disease/injury and to actively promote health. Whereas Health Technology Assessment is systematic evaluation of properties, effects, and/or impacts of health technology and interventions. It is a multidisciplinary process to evaluate the clinical, social, economic, organizational and ethical issues of a health intervention or health technology. The main purpose of conducting an assessment is to inform a policy decision-making, especially on how best to allocate limited funds to health interventions and technologies.
+
+Where can I find some examples of HTA reports?
+==============================================
+
+Most HTA organizations publish an executive summary or the full version of their HTA reports on their website. The Center for Reviews and Dissemination at the University of York has developed an extensive database of completed and ongoing health technology assessments from around the world.
+
+- The database access

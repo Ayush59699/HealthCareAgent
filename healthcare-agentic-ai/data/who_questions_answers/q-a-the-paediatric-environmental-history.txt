@@ -1,0 +1,96 @@
+WHO QUESTIONS AND ANSWERS
+Title: Children's environmental health: The paediatric environmental history
+URL: https://www.who.int/news-room/questions-and-answers/item/q-a-the-paediatric-environmental-history
+Retrieved: 2026-10-05T09:48:39.375722+00:00
+
+========================================
+
+Recording children's exposure to environmental health threats: A "green page" in the medical record. Children may be exposed to physical, chemical and biological environmental risks during crucial periods of growth and development. Information about these exposures is crucial for improving the quality of care and facilitating surveillance. Furthermore, this information allows the health professional to educate the family, promote prevention, and increase the knowledge-base about environmentally related diseases in children. However, few health care providers are able to include environmental data into the clinical records of children.
+
+What is children’s environmental health?
+========================================
+
+Children’s environmental health is the discipline that studies how environmental exposures in early life – chemical, nutritional, and social – influence health and development in childhood and across the entire human life span. It emerged as a branch of paediatric medicine in the second half of the twentieth century and draws primarily on the fields of epidemiology, toxicology, occupational medicine and the social sciences. The discipline considers children’s special and unique sensitivities to environmental threats.
+
+There are four broad categories that are considered when assessing children’s health and environmental risks:
+
+1. different and unique exposures
+
+2. developmental physiologies, including the central nervous system
+
+3. longer life expectancies allowing for more time to manifest a disease with a long latency period
+
+4. dependency upon adults to provide a safe and healthy environment.
+
+Children’s sensitivities should be considered when assessing health risks and can provide valuable insight on treating and preventing diseases linked to the environment.
+
+What is the paediatric environmental history (PEH)?
+===================================================
+
+The PEH is a primary tool to recognize, treat and prevent environmental-related diseases and health conditions. It is a series of basic, concise questions that assists health professionals to identify children’s exposure to environmental risks.
+
+The PEH is not a single, one-time endeavour, but part of a comprehensive medical history that is updated often and used for prevention, diagnosis, treatment and follow-up as appropriate.
+
+Just as questions about growth and development, medical conditions and a child’s social environments are standard and updated regularly, so too should questions about their physical environment. Asking the right questions about a patient’s physical environment requires appropriate knowledge of local, regional and global environmental hazards, their importance in different life-stages and local access to resources for intervention.
+
+The primary goal of the PEH is to systematize a set of basic, concise questions into both well and sick paediatric health care and tailor them to local situations, resources, needs and capacities.
+
+How will the PEH improve children’s health?
+===========================================
+
+The regular use of the PEH by health care providers will enable more effective primary care of children, their families and communities, improve the quality of medical surveillance, and contribute to the prevention of environmental-related diseases and health conditions.
+
+Health care providers have specific roles and responsibilities in recording environmental and health data and can use the PEH to:
+
+- recognize clinical, subclinical and potential effects of environmental risk factors on children's health;
+
+- take a thorough exposure history by asking appropriate questions and recording the information;
+
+- contribute to research and knowledge generation. Data on the environment and health that have been collected, collated and analysed can provide valuable information that may fill knowledge gaps and contribute to research;
+
+- inform the community and decision-makers about environmental threats to child health, and advocate for change to improve conditions and prevent further harm; and
+
+- work to prevent, reduce and eliminate harmful environmental exposure, consequently preventing related health conditions.
+
+Who takes the PEH, where, when and how?
+=======================================
+
+The decision about who takes the PEH depends on the characteristics of the local health system, availability of health workers and other resources. As it is an ongoing effort, different methods and individuals may be used depending on the circumstances and reasons for the visit.
+
+People who take the PEH may include:
+
+- health care professionals working with infants, children and adolescents including paediatricians, family doctors, nurses, primary health care workers, residents, medical students, and midwives;
+
+- social workers or environmental officers who visit the home, school, playground or other places where children spend time; and
+
+- self-administered parent or caregiver questionnaires may be possible in some settings and can provide a starting point for discussion during clinical visits.
+
+Environmentally trained staff in health care facilities can offer advantages, as they can identify and assess any potential threats in a child’s environment, inform health care providers and authorities, and educate parents, teachers and communities.
+
+What are the key areas covered by the PEH?
+==========================================
+
+The areas covered in each PEH will differ depending on the local context, environment risks and the individual context of patients. Key areas to consider include:
+
+- local environmental hazards including physical, biological and chemical risks and their sources. Some common examples include pesticides, lead, mercury, waste management, water, sanitation and hygiene facilities, vectors of disease and air pollution;
+
+- where, how and when are children exposed to environmental hazards in their context? Common questions may ask about the child’s home or school, activities they engage in such as sports or work, the type and origin of foods and water, the presence of animals, and the parents work; and
+
+- past medical history and events, including past diagnoses or any unexplained health issues.
+
+What is the WHO’s Green Page?
+=============================
+
+The WHO’s Green Page was developed to provide a starting point for local PEH templates. It represents a place to record a core set of basic environmental details. It can be used as a starting point for developing a local PEH that is appropriate in a particular location, clinic, country, or setting.
+
+Some key features of the Green Page include:
+
+1. the combination of potential environmental risks, including elements that are essential resources for prevention of exposure;
+
+2. it can be completed using several information sources, including clinical and personal observations;
+
+3. the template contains a space to estimate the risk qualitatively - the "ABC" of environmental risks. The ABC assessment requires training and the development of specific criteria using intersectoral expertise, as well as diverse sources of data; and
+
+4. it offers inspiration for possible lines of enquiry, innovation and data collection in a variety of setting.
+
+WHO publishes a training package for the health sector, including a specific module on how to develop and use a paediatric environmental history. In 2024, UNICEF and WHO published a joint online introductory course for healthcare workers on children’s environmental health, including a section dedicated to the PEH.

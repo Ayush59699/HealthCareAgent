@@ -1,0 +1,87 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Cleaning and disinfecting surfaces in non-health care settings
+URL: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-cleaning-and-disinfecting-surfaces-in-non-health-care-settings
+Retrieved: 2026-10-05T09:44:10.753839+00:00
+
+========================================
+
+This page is no longer being updated. It remains live for reference purposes only.
+
+What areas should be prioritized for disinfection in non-health care settings?
+==============================================================================
+
+Disinfection practices are important to reduce the potential for COVID-19 virus contamination in non-healthcare settings, such as in the home, office, schools, gyms, publicly accessible buildings, faith-based community centres, markets, transportation and business settings or restaurants. High-touch surfaces in these non-health care settings should be identified for priority disinfection such as door and window handles, kitchen and food preparation areas, counter tops, bathroom surfaces, toilets and taps, touchscreen personal devices, personal computer keyboards, and work surfaces.
+
+Which surface disinfectants are effective against COVID-19 in non-health care setting environments?
+===================================================================================================
+
+In non-health care settings, sodium hypochlorite (bleach / chlorine) may be used at a recommended concentration of 0.1% or 1,000ppm (1 part of 5% strength household bleach to 49 parts of water). Alcohol at 70-90% can also be used for surface disinfection. Surfaces must be cleaned with water and soap or a detergent first to remove dirt, followed by disinfection. Cleaning should always start from the least soiled (cleanest) area to the most soiled (dirtiest) area in order to not spread the dirty to areas that are less soiled.
+
+All disinfectant solutions should be stored in opaque containers, in a well-ventilated, covered area that is not exposed to direct sunlight and ideally should be freshly prepared every day.
+
+In indoor spaces, routine application of disinfectants to surfaces via spraying is not recommended for COVID-19. If disinfectants are to be applied, these should be via a cloth or wipe which is soaked in the disinfectant.
+
+What protection measures should people take when using disinfectants?
+=====================================================================
+
+It is important to reduce your risk when using disinfectants:
+
+- The disinfectant and its concentration should be carefully selected to avoid damaging surfaces and to avoid or minimize toxic effects on household members (or users of public spaces).
+
+- Avoid combining disinfectants, such as bleach and ammonia, since mixtures can cause respiratory irritation and release potentially fatal gases.
+
+- Keep children, pets and other people away during the application of the product until it is dry and there is no odour.
+
+- Open windows and use fans to ventilate. Step away from odours if they become too strong. Disinfectant solutions should always be prepared in well-ventilated areas.
+
+- Wash your hands after using any disinfectant, including surface wipes.
+
+- Keep lids tightly closed when not in use. Spills and accidents are more likely to happen when containers are open.
+
+- Do not allow children to use disinfectant wipes. Keep cleaning fluids and disinfectants out of the reach of children and pets.
+
+- Throw away disposable items like gloves and masks if they are used during cleaning. Do not clean and re-use.
+
+- Do not use disinfectant wipes to clean hands or as baby wipes.
+
+- The minimum recommended personal protective equipment when disinfecting in non-health care settings is rubber gloves, waterproof aprons and closed shoes. Eye protection and medical masks may also be needed to protect against chemicals in use or if there is a risk of splashing.
+
+Note: Where cleaning and disinfection are not possible on a regular basis due to resource limitations, frequent hand washing and avoiding touching the face should be the primary prevention approaches to reduce any potential transmission associated with surface contamination.
+
+What is the guidance for the disinfection of outdoor spaces such as open markets, roads?
+========================================================================================
+
+In outdoor spaces, large-scale spraying or fumigation in areas such as streets or open market places for the COVID-19 virus or other pathogens is not recommended. Streets and sidewalks are not considered as routes of infection for COVID-19. Spraying disinfectants, even outdoors, can be noxious for people’s health and cause eye, respiratory or skin irritation or damage.
+
+This practice will be ineffective since the presence of dirt or rubbish for example, inactivates the disinfectant, and manual cleaning to physically remove all matter is not feasible. This is even less effective on porous surfaces such as sidewalks and unpaved walkways. Even in the absence of dirt or rubbish, it is unlikely that chemical spraying would adequately cover surfaces allowing the required contact time to inactivate pathogens.
+
+Are public systems for disinfecting individuals such as spraying via tunnel or chambers safe to use?
+====================================================================================================
+
+No. Spraying of individuals with disinfectants (such as in a tunnel, cabinet, or chamber) is not recommended under any circumstances. This practice could be physically and psychologically harmful and would not reduce an infected person’s ability to spread the virus through droplets or contact. Even if someone who is infected with COVID-19 goes through a disinfection tunnel or chamber, as soon as they start speaking, coughing or sneezing they can still spread the virus.
+
+The toxic effect of spraying with chemicals such as chlorine on individuals can lead to eye and skin irritation, bronchospasm due to inhalation, and potentially gastrointestinal effects such as nausea and vomiting. In addition to health safety concerns, the use of chlorine in large-scale spraying practices may prevent this resource from being used for important interventions such as drinking water treatment and environmental disinfection of health care facilities.
+
+What are the recommended practices once back home after outdoor activities?
+===========================================================================
+
+Thorough hand hygiene: washing hands with soap and water or using alcohol-based hand gel, should be performed before touching surfaces, items, pets, and people within the household environment. Please see: https://www.who.int/media/docs/default-source/integrated-health-services-(ihs)/infection-prevention-and-control/hand-hygiene-when-and-how-leaflet.pdf
+
+While outside, people should always follow physical distancing measures, staying at least one metre from another person; perform hand hygiene by washing hands frequently with soap and water or using alcohol-based hand rub; follow good respiratory hygiene by covering your mouth and nose with your bent elbow or tissue when coughing or sneezing; avoid touching your eyes, nose and mouth; and avoid crowded places.
+
+Are gloves recommended for the community in public spaces to protect against COVID-19, for example when going to the grocery store supermarket?
+===============================================================================================================================================
+
+No. The use of gloves by the public in public spaces is not a recommended or proven prevention measure. Wearing gloves in public spaces does not replace the need for hand hygiene, nor does it offer any additional measure of protection against the COVID-19 virus than hand hygiene. Gloves do not provide complete protection against hand contamination, as pathogens may gain access to the hands via small defects in gloves or by contamination of the hands during glove removal. People can also transfer pathogens from one surface to another by touching with gloved hands, or even transfer pathogens to the mouth, nose, or eyes if they touch their face with gloved hands.
+
+How should I clean food items from the grocery store, for example fruit, vegetables or packaged items?
+======================================================================================================
+
+There is no evidence to date of viruses that cause respiratory illnesses being transmitted via food or food packaging. Coronaviruses cannot multiply in food; they need an animal or human host to multiply.
+
+The COVID-19 virus is generally thought to be spread from person to person through respiratory droplets. Currently, there is no evidence to support transmission of the COVID-19 virus associated with food.
+
+Before preparing or eating food it is important to always wash your hands with soap and water for at least 40-60 seconds. Regular food safety and handling guidance should be followed.
+See: https://www.who.int/activities/promoting-safe-food-handling.
+
+For food service businesses, please see the below guidance on COVID-19 and Food Safety: https://www.who.int/teams/risk-communication/food-and-agriculture-sectors.

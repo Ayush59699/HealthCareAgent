@@ -1,0 +1,86 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Home care for health workers and administrators
+URL: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-home-care-for-health-workers-and-administrators
+Retrieved: 2026-10-05T09:44:27.225258+00:00
+
+========================================
+
+This page is no longer being updated. It remains live for reference purposes only.
+
+When should a patient with COVID-19 be cared for at home?
+=========================================================
+
+Ideally, all patients with COVID-19 are cared for in a healthcare facility. However, there may be some circumstances where patients may not require hospitalization or inpatient care is unavailable or unsafe, such as when capacity is insufficient to meet the demand for healthcare services. Patients should be assessed on a case-by-case basis by the health worker to determine where their care needs can best be met.
+
+What factors determine whether a COVID-19 patient can be cared for at home?
+===========================================================================
+
+Patients with mild or moderate disease can be considered for home care if the home setting is suitable for the isolation and care of a COVID-19 patient, and if the patient is under the age of 60, does not smoke, is not obese, and does not have other diseases such as cardiovascular disease, diabetes mellitus, chronic lung disease, cancer, chronic kidney disease, immunosuppression. An assessment about home care for each patient should be based on the following factors:
+
+- Clinical evaluation of the patient.
+
+- Evaluation of the patient’s home setting according to infection prevention and control (IPC) criteria (e.g., ability to carry out hand and respiratory hygiene, environmental cleaning, adequate ventilation, limitations on movement around or from the house).
+
+- Presence of vulnerable people at higher risk of COVID-19 in the home.
+
+- Ability of a caregiver to provide care and closely monitor the evolution of the patient’s health, at least once per day, and to recognize signs and symptoms of any worsening of the health status.
+
+- Availability of trained health workers to support the patient and caregiver (home-based, phone, telemedicine, trained community workers or outreach teams).
+
+If adequate isolation from others in the home and infection prevention control measures cannot be ensured, then isolation in designated community facilities or a health facility may need to be arranged, with consent from the patient and in agreement with the caregiver and household members.
+
+It is important to note that in areas with other endemic infections that cause fever, such as influenza, malaria, dengue, etc., febrile patients should seek medical care, be tested and treated for those endemic infections per routine protocols, irrespective of the presence of respiratory signs and symptoms.
+
+Home care does not replace healthcare by professionals. Those patients who receive homecare should be regularly monitored by health workers.
+
+What additional factors should be taken into consideration when assessing the home setting to determine if it is safe for patients and families to remain at home?
+==================================================================================================================================================================
+
+There are a number of environmental and social factors to consider for patients to safely remain at home with their families or household members. An overall needs assessment of the patient and family that includes the availability of trained health workers for support should be conducted. A detailed description is available in the Appendix, Box 2, of the guidance.
+
+What precautions should health workers take when providing care to patients in home settings?
+=============================================================================================
+
+Health workers should take the following precautions:
+
+- Perform a risk assessment to select the use of appropriate personal protective equipment (PPE), such as a medical mask, eye protection, gloves and gown when caring for the patient.
+
+- Implement infection prevention and control measures, including hand hygiene.
+
+- Ensure the room where the patient is cared for is well ventilated, opening windows if necessary.
+
+- Provide instructions to caregivers and household members on cleaning and disinfection in the home, and on management of waste, laundry and utensils related to the patient.
+
+- Request the patient to wear a medical mask when providing care or within a 1-metre distance.
+
+- Request limiting the number of household members during visits and maintaining at least a 1-metre distance.
+
+- Remove PPE and discard what is disposable, then perform hand hygiene before leaving the home.
+
+- Make sure that the waste generated from providing care to the patient be placed in strong bags or safety boxes as appropriate, closed completely, disposed as infectious waste and removed from the home.
+
+Could pregnant women be cared for at home if they have COVID-19?
+================================================================
+
+Pregnant women with mild or moderate disease can be considered for home care if the home setting is suitable for the isolation and care of a COVID-19 patient, if they do not smoke, are not obese, and do not have other diseases such as cardiovascular disease, diabetes mellitus, chronic lung disease, cancer, chronic kidney disease, immunosuppression. An assessment about home care for each patient should be based on the following factors:
+
+- Clinical evaluation of the patient.
+
+- Evaluation of the patient’s home setting according to IPC criteria (e.g., ability to carry out hand and respiratory hygiene, environmental cleaning, limitations on movement around or from the house).
+
+- Presence of vulnerable people at higher risk of COVID-19 in the home.
+
+- Ability of a caregiver to provide care and closely monitor the evolution of the patient’s health, at least once per day, and to recognize signs and symptoms of any worsening of the health status.
+
+- Availability of trained health workers to support the patient and caregiver (home-based, phone, telemedicine, trained community workers or outreach teams).
+
+Can children be cared for at home if they have COVID-19?
+========================================================
+
+Children should be kept together with their parents or caregivers wherever possible. Children with mild or moderate disease can be considered for home care if the home setting is suitable for the isolation and care of a COVID-19 patient, if they are not obese, do not smoke, and do not have other conditions such as cardiovascular disease, diabetes mellitus, chronic lung disease, cancer, chronic kidney disease, or immunosuppression.
+
+Caregivers of children with COVID-19 should monitor for signs and symptoms of clinical deterioration requiring urgent re-evaluation. These include difficulty breathing/fast or shallow breathing (for infants: grunting, inability to breastfeed), blue lips or face, chest pain or pressure, new confusion, inability to awaken/not interacting when awake, inability to drink or keep down any liquids.
+
+If caregivers are suspected or have confirmed COVID-19 infection, medical and non-medical factors must be taken into account due to the negative and possible long-term consequences of even a short period of family separation.
+
+Community protection focal points and caseworkers should help families plan–in advance–agreements for the care of children in case the caregiver becomes ill. Children living with primary caregivers who are elderly, disabled or have underlying health conditions should be prioritized.

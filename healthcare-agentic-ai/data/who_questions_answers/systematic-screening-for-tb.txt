@@ -1,0 +1,109 @@
+WHO QUESTIONS AND ANSWERS
+Title: Tuberculosis: Systematic screening
+URL: https://www.who.int/news-room/questions-and-answers/item/systematic-screening-for-tb
+Retrieved: 2026-10-05T09:49:50.377511+00:00
+
+========================================
+
+What is TB screening?
+=====================
+
+TB screening involves the active identification of people at risk for TB disease. Populations or high-risk groups are screened by assessing symptoms and by using tests, examinations or other procedures that can be applied rapidly. TB screening is sometimes also referred to as “active TB case finding”.
+
+Why is systematic screening for TB disease necessary?
+=====================================================
+
+WHO recommends that screening is carried out systematically in people who are at the highest risk of getting TB, as early detection and start of treatment can improve their outcomes and prevent them from sustaining catastrophic costs. People may not fully appreciate their risk of TB and treatment programmes that rely completely on people presenting for TB care when they feel sick will miss many opportunities to treat people earlier in their disease. In this way screening can help promote health, and help people bypass many of the barriers that they face in accessing health care.
+
+Screening can benefit the entire community by reducing the prevalence of TB and averting future disease. Scaling up systematic screening for TB is important for communities with a high burden of TB, and for countries where a large proportion of TB patients remains undetected or present late for care.
+
+Who could benefit from TB screening?
+====================================
+
+WHO strongly recommends screening the following populations for TB:
+
+- household and close contacts of TB patients (either at home or in their communities),
+
+- people living with HIV,
+
+- people exposed to silica (usually through some forms of mining) and
+
+- people in prisons.
+
+Other groups that may be considered for screening include:
+
+- people with risk factors for TB in a healthcare setting (for example, those with diabetes, chronic lung disease, malnourishment, older age groups),
+
+- communities at higher risk of TB or with limited access to care.
+
+Is community-wide screening recommended?
+========================================
+
+Community-wide screening may be conducted among target populations at higher risk for TB and with limited access to health care, such as urban poor communities, homeless communities, migrants, refugees, remote isolated communities, and other vulnerable or marginalized groups.
+
+Community-wide screening may also be conducted in areas where the prevalence of TB in the general population is 0.5% or higher. Studies show that in these conditions TB screening can reduce the prevalence and spread of TB in the population, if it is conducted with adequate coverage using rigorous tools for screening and diagnosis.
+
+Where can I get screened for TB?
+================================
+
+TB screening is often done during contact investigations in households and community settings, or in clinics, such as HIV clinics, primary health care centres or outpatient departments. Occupational screening might be done in the workplace and screening can also take place in penitentiary or other institutions. Communities at risk can be reached through mobile outreach screening campaigns.
+
+What screening options are available?
+=====================================
+
+There are a number of ways to screen for TB and decide to do further testing. These consist of symptom screens, chest radiography (chest X-ray or CXR), and molecular WHO-recommended rapid diagnostic tests (mWRDs) such as Xpert MTB/RIF® and Truenat® on sputum. C-reactive protein, a simple point-of-care blood test, can also be used to screen for TB among people living with HIV. Multiple screening tests may be performed, either in parallel or one after the other. Tests for TB infection - skin test (using tuberculin (TST) or new TB antigens (TBST)) and interferon-gamma release assay (IGRAs) - are not used for the screening of TB disease.
+
+How are tests used for screening?
+=================================
+
+Screening aims to identify people who have a higher likelihood of having TB and who need further testing. Screening tests are done as part of algorithms so that people who screen positive receive further diagnostic tests. There are different screening algorithms which depend on the populations being tested (e.g. general population, people living with HIV, people with other risk factors for TB, children) as well as the availability of the tests. The operational handbook that accompanies the guidelines describes several algorithms that reflect the most recent evidence on the performance of these tests and screening algorithms.
+
+Can I choose the screening option that suits me?
+================================================
+
+Different screening tests and algorithms may apply to people with different characteristics (e.g. age, HIV infection, prevalence of TB in the community). Your healthcare provider can give you more information about which screening tests are best suited for you.
+
+Is it true that artificial intelligence is better than people at reading X-rays?
+================================================================================
+
+Computer-aided detection (CAD) software can be used to interpret chest radiography instead of trained people like radiologists. CAD software products, which incorporate artificial intelligence in their functioning, have been shown to identify TB abnormalities as well as trained healthcare workers. However, for the time being, radiologists and other trained specialists are still needed to distinguish different diseases on CXR or interpret CXR for TB in children. The 2021 WHO recommendation on CAD relates only to its use to determine the likelihood that an X-ray abnormality is due to pulmonary TB or not. Nonetheless the field of CAD is rapidly evolving, and it is possible that these technologies will become proficient for other uses in medicine in future.
+
+What happens if my screening test is “positive”?
+================================================
+
+This is not a confirmation that you are sick with TB. It usually means that further testing may be required to check if you have TB disease. These confirmatory tests may involve the collection of sputum, urine, blood, X-ray or other types of investigations. Sometimes these tests may be done in the same place where you were screened but at times they are done in other centres. Your healthcare provider can give you more information about this.
+
+How do I know if I have TB disease?
+===================================
+
+TB disease typically causes cough, sputum (sometimes with blood), fever, night sweats and loss of appetite. If you develop any of these, you should contact your healthcare provider immediately. Some of these symptoms may be due to conditions other than TB, like colds or pneumonia.
+
+What happens if my screening test is “negative”?
+================================================
+
+This usually means that no further testing is required and there is no evidence that you have disease caused by TB. Sometimes a second screening test will be carried out to confirm the negative result of the first screening test. However, you may still be at a higher risk of developing TB and therefore a discussion with your healthcare provider on testing for TB infection and any need for TB preventive treatment (TPT) will be useful. If symptoms suggestive of TB develop, please consult with your healthcare provider.
+
+What is tuberculosis preventive treatment or TPT?
+=================================================
+
+Tuberculosis preventive treatment (TPT) consists of a course of one or more anti-tuberculosis medicines given with the intent of preventing the development of TB disease. TPT is only given to people who are infected with TB bacteria, or who have been exposed to it, and who are at a higher risk of developing TB disease. TPT is effective in eliminating TB bacilli that have infected the body before they can damage the organs and cause illness. It is estimated that about one fourth of the world’s population has been infected with TB bacteria and most of them will not have disease. However, some of these individuals have a higher risk of developing TB disease and effective TPT can reduce that risk substantially.
+
+How often should screening be repeated?
+=======================================
+
+Some people who are at particularly high risk of developing TB disease or who have continued exposure to infectious TB may require repeated screening, such as people with an abnormal CXR (e.g. fibrotic lesion) that is compatible with TB but who were not diagnosed with TB disease at the time of screening, health-care workers, prisoners and people living with HIV.
+
+People living with HIV should be screened for symptoms of TB or using other screening tools at every encounter with a health worker, such as annual X-ray screening for people living with HIV who are in regular HIV care, at the time of viral load testing or other investigations.
+
+Annual or semi-annual workplace screenings can be a practical option for occupations with higher risk of TB, such as miners with silica exposure and healthcare workers. In penitentiary institutions it is suggested that, at minimum, screening be conducted at entry, annually thereafter and before release.
+
+For community-wide screening, reduction in the prevalence and transmission of TB has been shown from repeated screenings conducted annually over multiple years. Once the prevalence of TB in a community or risk group is substantially reduced, a TB programme may decide to stop screening but the criteria for doing so should be established in advance.
+
+What is the cost of screening? Who will pay for screening?
+==========================================================
+
+Early and complete detection and treatment of people with TB also prevents transmission and could lead to a reduced prevalence, and by doing so it can ultimately save costs. However, implementing screening requires extra resources, both human and financial. There will also be additional costs due to increased demand for diagnostic testing of people who screen positive for TB, and for treating the extra people with TB who may be identified by screening.
+
+Resource mobilization from domestic and/or external sources may thus be needed. Funding agencies such as the Global Fund can support screening activities.
+
+Early and complete detection and treatment of people with TB also prevents transmission and could lead to a reduced prevalence, and by doing so it can ultimately save costs. People who are undergoing screening should not pay out-of-pocket expenses for screening tests or any resulting diagnosis or treatment of TB, nor should they suffer financial hardship as a result of screening.

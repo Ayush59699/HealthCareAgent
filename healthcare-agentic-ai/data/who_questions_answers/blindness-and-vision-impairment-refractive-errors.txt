@@ -1,0 +1,60 @@
+WHO QUESTIONS AND ANSWERS
+Title: Eye care, vision impairment and blindness: Refractive errors
+URL: https://www.who.int/news-room/questions-and-answers/item/blindness-and-vision-impairment-refractive-errors
+Retrieved: 2026-10-05T09:43:20.806151+00:00
+
+========================================
+
+What is a refractive error?
+===========================
+
+A refractive error is a very common eye condition. Due to an abnormal shape or length of the eye, light does not focus on the retina, which results in blurred vision. There are several types of refractive error:
+
+- myopia (short-sightedness or near-sightedness): difficulty in seeing distant objects clearly;
+
+- hyperopia (long-sightedness or farsightedness): difficulty in seeing close objects clearly;
+
+- astigmatism: distorted vision resulting from irregular curvature of the cornea or lens of the eye resulting in difficulty in seeing distant and close objects clearly; and
+
+- presbyopia: difficulty in seeing objects at near distance that is associated with increasing age (i.e. after 40 years of age) and occurs almost universally.
+
+Why is refractive error important?
+==================================
+
+Uncorrected refractive error is the leading cause of vision impairment in both children and adult populations. If left uncorrected, refractive error significantly impacts on well-being, can contribute to poor academic performance in children, reduced workforce participation and productivity loss in working adults, and social isolation in older adults.
+
+How big is the problem of uncorrected refractive error?
+=======================================================
+
+Globally, it is estimated that 2 out of 3 people in low-income countries with a distance vision impairment due to refractive error don't have access to eyeglasses. In addition, more than 800 million people have a near vision impairment (i.e. presbyopia) that could be addressed with a pair of reading glasses.
+
+To confound this problem, the number of people in need of refractive error care is expected to increase substantially in the coming decade. Presbyopia, projected to reach 2.1 billion cases by 2030, is part of the ageing process. Meanwhile, the projected increase in myopia to 3.36 billion cases by 2030 will be driven largely by modifiable lifestyle related risk factors.
+
+How can refractive error be addressed?
+======================================
+
+Reduced vision from refractive errors can be fully corrected with appropriate eyeglasses, contact lenses or treated by laser surgery. Eyeglasses are undoubtedly the most common intervention used worldwide to address refractive error. They are a non-invasive assistive product and are part of the WHO Priority Assistive Product List and WHO lists of Priority Medical Devices.
+
+Can refractive error be prevented?
+==================================
+
+While presbyopia, hyperopia and astigmatism are not preventable, there are strategies that may help delay the onset and slow the progression of myopia in children. These include spending at least 90 minutes outdoors during daylight hours, taking regular breaks during near-work activities and consistently using prescribed eyeglasses or other optical interventions. Implementing these measures may reduce the risk of developing high myopia and its associated complications later in life.
+
+What are the barriers to deliver refractive error services?
+===========================================================
+
+Despite the availability of simple, sight-correcting interventions such as a pair of eyeglasses, there are several challenges to increasing refractive error coverage. First, the burden of uncorrected refractive error is often greater in underserved communities or groups, such as those in rural areas, low-income populations, women, indigenous populations, and ethnic minorities. Second, in most low- and middle-income settings, refractive error services are not prioritized for government investments and are poorly integrated into health systems. Refractive error services are available primarily in the private sector, which can create issues of availability, affordability and quality. Other key challenges include low awareness and acceptance of eyeglasses among the public, insufficient availability of competent human resources to provide refractive services and dispense eyeglasses, limited government oversight and clinical regulation, and scarce services points that are predominantly located in urban areas.
+
+Do refractive errors cost countries money?
+==========================================
+
+Uncorrected refractive error poses a substantial economic burden on society: annual global productivity losses associated with vision impairment from uncorrected myopia in adults and presbyopia alone are estimated to be US$ 244 billion and US$ 25.4 billion, respectively. In contrast, the estimated financial resource gap to address unmet refractive error correction needs with eyeglasses is US$ 16 billion, a fraction of the economic losses incurred. Addressing uncorrected refractive errors could potentially yield a net positive economic impact of over US$ 250 billion annually.
+
+There is a strong health economic rationale for increasing coverage of eye care services and eyeglasses. For example, the correction of myopia with eyeglasses can return US$ 10.50 for every US$ 1.00 spent, while school eye health programmes can have a reported benefit cost ratio as high as 26.4 in some settings. For presbyopia, the near vision correction can increase average median income of people in low-income communities by over 30%.
+
+What is WHO’s response to refractive error?
+===========================================
+
+WHO has taken significant steps to address the global challenge of refractive error, recognizing its widespread impact and the availability of cost-effective interventions. In 2021, at the Seventy-fourth World Health Assembly, WHO Member States endorsed the first-ever global target for refractive error in: a 40-percentage-point increase in effective coverage of refractive error by 2030. This ambitious goal acknowledges the large unmet need for care and the potential for substantial improvement through accessible interventions like eyeglasses.
+
+To support Member States in the achievement of the World Health Assembly endorsed 2030 target, WHO launched the SPECS 2030 initiative in May 2024, a comprehensive approach to tackle refractive error globally. This initiative calls for coordinated global action amongst all stakeholders across 5 strategic pillars (Services, Personnel, Education, Cost and Surveillance). By focusing on these key areas, the initiative aims to address the main challenges in refractive error care, including improving access to services, developing a skilled workforce, enhancing public awareness, reducing costs, and strengthening data collection and monitoring systems. Through the SPECS 2030 initiative, WHO is working to catalyse global efforts, promote best practices, and support Member States in achieving the 2030 target, ultimately aiming to reduce vision impairment and improve quality of life for millions affected by uncorrected refractive errors worldwide.

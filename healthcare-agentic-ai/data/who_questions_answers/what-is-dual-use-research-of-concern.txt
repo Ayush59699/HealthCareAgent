@@ -1,0 +1,17 @@
+WHO QUESTIONS AND ANSWERS
+Title: What is dual-use research of concern?
+URL: https://www.who.int/news-room/questions-and-answers/item/what-is-dual-use-research-of-concern
+Retrieved: 2026-10-05T09:50:29.408490+00:00
+
+========================================
+
+What is dual-use research of concern?
+=====================================
+
+Dual-use research of concern (DURC) describes research that is intended to provide a clear benefit, but which could easily be misapplied to do harm. It usually refers to work in the life sciences, but the principles are also applicable to other fields including engineering and information technology. It encompasses everything from information to specific products that have the potential to create negative consequences for health and safety, agriculture, the environment or national security.
+
+The possibility that research might be misused, either intentionally or accidentally, is a long-standing concern of science. It can have implications in ethics and wider societal issues, and involves not only research communities and public health, but also donors, scientific publishing and public communication.
+
+One example is research into viruses and other pathogens. Scientists often create modified versions of dangerous viruses in laboratories to study how they behave in humans and animals, and ultimately how to fight them. While this is a necessary step in biological research, the modified viruses also pose safety concerns and have the potential to cause great harm if not controlled correctly or used to intentionally infect people or animals.
+
+Another example is pharmaceutical research and development. Scientists researching asthma have developed aerosol methods that help deliver drugs deeper into the lungs. While this research may hold great benefits for people with asthma and other respiratory issues, they could also be used to increase the damage of biological weapons such as anthrax.

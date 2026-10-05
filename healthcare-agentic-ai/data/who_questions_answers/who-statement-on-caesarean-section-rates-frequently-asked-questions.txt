@@ -1,0 +1,70 @@
+WHO QUESTIONS AND ANSWERS
+Title: WHO Statement on Caesarean Section Rates
+URL: https://www.who.int/news-room/questions-and-answers/item/who-statement-on-caesarean-section-rates-frequently-asked-questions
+Retrieved: 2026-10-05T09:50:54.701146+00:00
+
+========================================
+
+Does WHO recommend a specific caesarean section rate at country level?
+======================================================================
+
+No, as explained in this statement, WHO does not recommend a specific rate for countries to achieve at population level. The work conducted by WHO found that as countries increase their caesarean section rates up to 10%, maternal and neonatal mortality decrease. However, caesarean section rates higher than 10% are not associated with reductions in maternal and newborn mortality rates. Despite this, mortality is not the only outcome to consider. Other important outcomes would be short- and long-term maternal and perinatal morbidity, for example, obstetric fistula, birth asphyxia, or psychosocial implications regarding the maternal¬–¬infant relationship, women’s psychological health, women’s ability to successfully initiate breastfeeding and paediatric outcomes. Lack of data prevented the inclusion of these and other outcomes in the WHO analysis.
+
+Does WHO recommend a specific caesarean section rate at hospital level?
+=======================================================================
+
+No, WHO does not recommend a specific caesarean section rate in hospitals. The need for caesarean section at each hospital can vary dramatically depending of the type of population served by the hospital. For example, larger hospitals tend to receive referrals of most complicated pregnancies or deliveries which in turn, may need more caesarean sections. On the other hand, some small facilities may not even be equipped to conduct caesarean sections. Recommending a caesarean section rate for all hospitals would be inappropriate.
+
+Why can’t a caesarean section rate at population level be applied or used at hospital level?
+============================================================================================
+
+In population-based studies, populations are often defined within geopolitical boundaries (e.g. state, country). A caesarean section rate at population level includes, thus, all deliveries in such a geopolitical area. On the other hand, the medical and obstetric characteristics of the women attending any particular hospital are often different from those of the overall population. This results in different needs for caesarean section, and also different caesarean section rates. For example, larger hospitals often receive referrals of most complicated pregnancies or deliveries which in turn, may need more caesarean sections. On the other hand, some smaller facilities may not be equipped to carry out caesarean sections.
+
+Why are more women giving birth by caesarean section nowadays?
+==============================================================
+
+In the last decades, the proportion of birth by caesarean section has increased in an unprecedented way. This is due to many reasons, which may be country- and culture-specific. Some of the most omnipresent reasons behind this rise are: the fear of pain during birth including the pain of uterine contractions; the convenience to schedule the birth when it is most suitable for families or health care professionals; and because caesarean section can be perceived as being less traumatic for the baby.
+
+In some cultures, caesarean section allows people to choose the date or day of the birth due to beliefs around luck or that a certain date or day is more auspicious for the child’s future.
+
+In a number of countries, there is societal pressure for a perfect birth outcome, and health professionals may be sued when the results of a vaginal delivery are not as expected, which fuels their fear of litigation.
+
+In addition, in some societies, delivery by caesarean section is perceived to better preserve the pelvic floor, resulting in less urinary incontinence, in addition to a more satisfactory return to sexual life.
+
+Why could caesarean sections be dangerous?
+==========================================
+
+When medically justified, caesarean sections can effectively prevent maternal and perinatal mortality and morbidity. However, there is no evidence showing the benefits of caesarean delivery for women or infants who do not require the procedure. Although caesarean section has become a very safe procedure in many parts of the world, it is not without risk. As with any surgery, caesarean section is associated with short- and long-term risks with potential implications in future pregnancies. These risks are higher in women with limited access to comprehensive obstetric care and in settings that lack the facilities and the capacity to properly conduct safe surgery and appropriately manage its complications.
+
+Why is a standardized system to classify caesarean sections necessary?
+======================================================================
+
+Particularly in hospitals, it is important to be able to compare caesarean section rates and outcomes in a reliable manner. For example, doctors and midwives need tools to analyze the impact of their practices, clinical protocols and changes. Historically, we have classified caesareans according to their indications or causes (e.g. intrapartum fetal distress, dystocia, failure to progress). The challenge with these types of systems is that their results are difficult to accurately reproduce as definitions vary and different doctors may categorize the same caesarean section under different indications. This has prevented meaningful comparisons not only between hospitals but also within hospitals over time. The Robson (also known as the “10 groups”) Classification system overcomes some of the inherent problems of the indications classifications. It is simple, robust, reproducible, and clinically relevant. It allows comparisons and analysis of caesarean section rates more reliably across different facilities, cities and regions.
+
+How can I implement the Robson classification in my hospital?
+=============================================================
+
+WHO has published the Robson Classification Implementation Manual which will help you to implement and interpret the Robson Classification. The Robson Classification requires minimal resources and it is being implemented in many facilities worldwide. The system organizes women into one of 10 categories for which only five obstetric characteristics are necessary. These variables are routinely collected in most maternities worldwide:
+
+1. Parity and previous caesarean section (nulliparous, multiparous with and without previous caesarean section);
+
+2. onset of labour (spontaneous, induced or pre-labour caesarean section);
+
+3. gestational age (preterm or term);
+
+4. foetal presentation/lie (cephalic, breech or transverse);
+
+5. number of foetuses (single or multiple).
+
+The use of a simple spreadsheet will allow you to calculate the proportion of women and caesarean section rates in each group.
+
+What are the tools available to implement the Robson classification in my hospital?
+===================================================================================
+
+WHO has developed the Robson Classification Implementation Manual which will help you to implement and interpret the Robson Classification in your hospital.
+
+WHO has also developed the web-based Robson Platform. The Platform is a global interactive database aiming to facilitate global sharing of perinatal data according to the Robson classification.
+
+You can use this platform to share your data and to view and learn from data shared by other maternity units. You can start data-driven conversations with colleagues worldwide to compare, discuss and find insights to improve your practice.
+
+The Platform is an initiative of the WHO to increase access and expand the use of the Robson Classification system.

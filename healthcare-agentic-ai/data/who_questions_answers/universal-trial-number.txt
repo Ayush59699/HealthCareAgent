@@ -1,0 +1,101 @@
+WHO QUESTIONS AND ANSWERS
+Title: Universal trial number
+URL: https://www.who.int/news-room/questions-and-answers/item/universal-trial-number
+Retrieved: 2026-10-05T09:50:19.353575+00:00
+
+========================================
+
+When should a UTN be obtained?
+==============================
+
+It is recommended that the UTN be obtained as soon as the first draft of the protocol has been compiled, although it can be obtained either sooner or later. For example:
+
+- as soon as an investigator has an idea
+
+- as soon as the idea becomes a research proposal
+
+- at the time the first draft of the protocol is compiled
+
+- at the time the first meeting is held to discuss the protocol
+
+- at the time the first meeting of potential investigators is held
+
+A UTN may be obtained later in the trial's history (e.g. at the time of submission to the first ethics committee, or at the time of submission to a funding agency). It is likely to be more effective in unambiguously identifying a trial, though, if it is obtained early.
+
+How can we obtain a UTN?
+========================
+
+Go to https://trialsearch.who.int/utn.aspx and follow the instructions.
+
+The process of obtaining a UTN involves 2 stages:
+
+- applying for and obtaining a security code
+
+- applying for and obtaining the UTN
+
+To apply for the security code, the applicant will need to provide:
+
+- the name of the individual submitting the request (Requestor)
+
+- the email address of the individual submitting the request
+
+- the Requestor's organization
+
+An email containing a secure hyperlink will then be sent to the email address entered. You should click on the hyperlink which will take you to the 'Get UTN' web site, where you should click on 'Get UTN'. The UTN will then be sent to you in an email.
+
+Who should obtain the UTN?
+==========================
+
+The Sponsor, the Principal Investigator or other appropriate person (for example, the administrator of a collaborative trials group) should obtain a UTN for each trial.
+
+How many UTNs should a trial have?
+==================================
+
+One only.
+
+What should we do with the UTN?
+===============================
+
+You should use it every time you need to identify the trial. The UTN should be submitted whenever the trial is registered. It may be entered into a field dedicated specifically to the UTN, or it may be entered into the secondary identifier field.
+
+Is the UTN mandatory?
+=====================
+
+No, the UTN is not currently mandatory, although some registries may choose to make providing the UTN mandatory in order to register a trial on their registry.
+
+What should we do if a trial registry does not have a separate field for the UTN?
+=================================================================================
+
+If a trial registry does not have a specific field for the UTN, enter it in the secondary identifier field.
+
+How will the UTN work?
+======================
+
+The UTN will be one of many identifiers that a trial may have, just as a driving license number may be one of many identifiers that an individual human has. Even though a single object has multiple identifiers, each one may play a role in helping to identify the object. When an individual applies for a passport, for example, they may be required to show 3 forms of identification (such as driving license number, a credit card number, a utilities bill number) to verify that an individual exists. Similarly, when a trial is registered, multiple identifiers may be able to help us to verify that a trial exists.
+
+The UTN will help us to unambiguously identify a trial by enabling us to link (or "bridge") multiple records on the same trial together on the ICTRP search portal.
+
+What if my trial was registered before the UTN?
+===============================================
+
+We recognize that in some circumstances, a trial registered prior to the inception of the UTN may request retrospective assignment. UTN numbers may be issued for previously registered trials.
+
+In order to avoid duplication of records and permit accurate record bridging on the ICTRP, it is strongly suggested that only the coordinating centre apply for the UTN. Once the UTN has been assigned, the coordinating centre should update all records within primary registers and on all other documentation (e.g., ethical review committee submissions, letters, etc) to reflect the UTN.
+
+Remember a trial, no matter how many sites should have only one UTN.
+
+Circumstances where retrospective UTN applications may be considered are:
+
+- proposal, registered (not yet enrolling)
+
+- trial registered and enrolment terminated
+
+- trial registered, still enrolling, no new sites
+
+- trial registered, still enrolling, adding a new site
+
+As the primary purpose of the UTN is to identify a trial through stages of a clinical trial (including registration, approvals, trial recruitment, and participant follow up), the utility of a UTN following trial completion and/or publication is currently limited. While it is possible to apply for a UTN, it is again strongly suggested that this be a centralized process and that all documentation be linked to the UTN, retrospectively.
+
+International Clinical Trials Registry Platform (ICTRP)
+
+The Universal Trial Number (UTN) website

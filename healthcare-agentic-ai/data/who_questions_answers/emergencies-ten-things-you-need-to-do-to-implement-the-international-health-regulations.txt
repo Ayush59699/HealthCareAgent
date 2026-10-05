@@ -1,0 +1,122 @@
+WHO QUESTIONS AND ANSWERS
+Title: Emergencies: Ten things you need to do to implement the International Health Regulations
+URL: https://www.who.int/news-room/questions-and-answers/item/emergencies-ten-things-you-need-to-do-to-implement-the-international-health-regulations
+Retrieved: 2026-10-05T09:45:43.147130+00:00
+
+========================================
+
+Know the IHR; purpose, scope, principles and concepts
+=====================================================
+
+The International Health Regulations (2005) (hereinafter "the IHR" or “the Regulations”) are an international agreement that is legally binding on 194 countries (States Parties), including all WHO Member States. The IHR define their "purpose and scope" as: "to prevent, protect against, control and provide a public health response to the international spread of disease in ways that are commensurate with and restricted to public health risks, and which avoid unnecessary interference with international traffic and trade". Since their entry into force on 15 June 2007, the IHR directs and governs particular WHO and States Parties activities aiming that protect the global community from public health risks and emergencies that cross international borders.
+
+These activities are implemented in ways that are consistent with other international law and agreements; their implementation must "be with full respect for the dignity, human rights and fundamental freedom of persons" and "guided by the goal of their universal application for the protection of all people of the world from the international spread of disease".
+
+The scope of the IHR is purposely broad and inclusive in respect of the public health event to which they have application in order to maximize the probability that all such events that could have serious international consequences are identified early and promptly reported by States Parties to WHO for assessment. The Regulations aim to provide a legal frame work for the prevention, detection and containment of public health risks at source, before they spread across borders, through the collaborative actions of States Parties and WHO.
+
+Notification is required under IHR for all "events that may constitute a public health emergency of international concern". In this regard, the broad new definitions of "event", "disease" and "public health risk" in the IHR are the building blocks of the surveillance obligations for States Parties and WHO. "Disease" means "an illness or medical condition, irrespective of origin or source, that presents or could present significant harm to humans". The term "event" is broadly defined as "a manifestation of disease or an occurrence that creates a potential for disease". "Public health risk" refers to "a likelihood of an event that may affect adversely the health of human populations, with an emphasis on one which may spread internationally or may present a serious and direct danger". A public health emergency of international concern (PHEIC) is defined as "an extraordinary event which is determined to constitute a public health risk to other States through the international spread of disease and to potentially require a coordinated international response". Consequently, events of potential international concern, which require States Parties to notify WHO, can extend beyond communicable diseases and arise from any origin or source.
+
+The IHR explicitly allow WHO to take into account information from sources other than official notifications and consultations, and, after assessment, to seek verification of specific events from the concerned States Parties. Notification to WHO marks the beginning of an exclusive dialogue between the notifying State Party and WHO on further event assessment, potential investigation and any appropriate local or global public health response.
+
+The responsibility for implementing the IHR rests jointly with States Parties and WHO. In order to be able to notify events, or respond to public health risks and emergencies, States Parties must have the capacity to detect such events through a well established national surveillance and response infrastructure. States Parties are required to collaborate actively with each other, together with WHO, to mobilize the financial resources to facilitate the implementation of their obligations under the IHR. Upon request, WHO assists developing countries in mobilizing financial resources and provides technical support to build, strengthen and maintain the capacities set out in Annex 1 of the Regulations.
+
+Update national legislation
+===========================
+
+An adequate legal framework to support and enable all of the varied IHR State Party activities is needed in each country. In some countries, giving effect to the IHR within domestic jurisdiction and national law requires that the relevant authorities adopt implementing legislation for some or all of the relevant rights and obligations for States Parties. However, even where new or revised legislation may not be explicitly required under a country's legal system for implementation of one or more provisions in the IHR, revision of some legislation, regulations or other instruments may still be considered by the country in order to facilitate performance of IHR activities in a more efficient, effective or otherwise beneficial manner. Additionally, from a policy perspective, implementing legislation may serve to institutionalize and strengthen the role of IHR capacities and operations within the State Party, as well as the ability to exercise certain rights contained in the Regulations. A further potential benefit from such legislation is that it can facilitate necessary coordination among the different entities involved in implementation and help to ensure continuity. For these reasons, States Parties to the IHR should consider assessing their relevant existing legislation to determine whether they may be appropriate for revision in order to facilitate full and efficient implementation of the Regulations.
+
+Recognize shared realities and the need for collective defences
+===============================================================
+
+The recognition that globalisation brings with it new challenges and opportunities for preventing the international spread of disease was the starting point for the revision of the International Health Regulations (1969) or "IHR (1969)". In 2003, the outbreak and eventual control of SARS convinced the world's governments of the necessity for a collective and coordinated defence against emerging public health threats, providing the impetus needed to complete the revision process. The IHR were adopted by the Health Assembly on 23 May 2005, and entered into force on 15 June 2007.
+
+The IHR legal framework supports existing and innovative approaches in the global detection of events and response to public health risks and emergencies. The current Regulations were built in part on the foundations of their predecessor, the IHR (1969), and were primarily based on the experiences of WHO and its Member States in national surveillance systems, epidemic intelligence, verification, risk assessment, outbreak alert, and coordination of international response, all of which are part of WHO’s decade-long work to enhance global public health security.
+
+In contrast to the IHR (1969), the current Regulations have a broad scope, provide for the use of a wide range of information and emphasize collaborative actions between States Parties and WHO in the identification and assessment of events and response to public health risks and emergencies. In WHO's coordination of the international response to public health emergencies of international concern, maximum measures are replaced by formally recommended and context-specific temporary health measures, tailored to the actual threat faced.
+
+Monitor and report on IHR implementation progress
+=================================================
+
+States Parties and WHO alike are required to report to the World Health Assembly on IHR implementation. To date, this requirement has been fulfilled through annual reporting by the WHO Secretariat to its governing bodies. Using information gathered through questionnaires, the WHO Secretariat has summarized the activities carried by countries to implement the IHR. It is anticipated that, in the future, this data will be collected using specific indicators currently under development. In addition to this, the IHR Coordination Department collaborates closely with WHO Regional Offices and other relevant departments and programmes to report on WHO’s work in support of IHR implementation.
+
+Notify, report, consult and inform WHO
+======================================
+
+The IHR describe key elements of the procedures to be followed by States Parties and WHO in terms of information sharing with regard to notified events. Official event-related communications under the IHR are carried out between the National IHR Focal Point and their corresponding regional WHO IHR Contact Point, both of whom are officially designated and required to be available on a 24 hour basis, 7 days a week.
+
+The IHR (2005) specify three ways in which States Parties can initiate event-related communications with WHO:
+
+Notification – Under the IHR, States Parties are required to notify WHO of all events that are assessed as possibly constituting a PHEIC, taking into account the context in which an event occurs. These notifications must occur within 24 hours of assessment by the country using the decision instrument provided in Annex 2 of the Regulations. This decision instrument identifies four criteria that States Parties must follow in their assessment of events within their territories and their decision as to whether an event is notifiable to WHO:
+
+- Is the public health impact of the event serious?
+
+- Is the event unusual or unexpected?
+
+- Is there a significant risk of international spread?
+
+- Is there a significant risk of international restriction(s) to travel and trade?
+
+Notifications must be followed by ongoing communication of detailed public health information on the event, including, where possible, case definition, laboratory results, source and type of the risk, number of cases and deaths, conditions affecting the spread of the disease and the health measures employed.
+
+Consultation - In cases where the State Party is unable to complete a definitive assessment with the decision instrument in Annex 2, State Parties have an explicit option of initiating confidential consultations with WHO and seeking advice on evaluation, assessment and appropriate health measures to be taken.
+
+Other Reports - State Parties must inform WHO through the National IHR Focal Point within 24 hours of receipt of evidence of a public health risk identified outside their territory that may cause international disease spread, as manifested by imported or exported human cases, vectors which carry infection or contamination, or by contaminated goods.
+
+In addition to these three types of communications, States Parties are required under the IHR to respond to WHO Requests for Verification. WHO has an express mandate to obtain verification from States Parties concerning unofficial reports or communications, received from various sources, about events arising within their territories which may constitute a PHEIC; these reports are initially reviewed by WHO prior to the issuing of a verification request. States Parties must acknowledge verification requests by WHO within 24 hours and provide public health information on the status of the event, followed, in a timely manner, by continued communication of accurate and sufficiently detailed public health information available to the notifying State Party.
+
+Understand WHO’s role in international event detection, joint assessment and response
+=====================================================================================
+
+The IHR underpin WHO’s mandate to manage the international response to acute public health events and risks, including public health emergencies of international concern. The Regulations also recognize WHO's general surveillance obligations, and set out specific procedures for concerned States Parties and WHO to collaborate in the assessment and control of public health events and risks, even before such events have been officially notified to WHO.
+
+At the international level, WHO’s real-time analysis of public health events uses technical knowledge, an understanding of the situational and operational context, and risk communication requirements to assess public health risks in accordance with WHO’s mandate under the IHR. To further strengthen international alert and response capabilities, an enhanced event-management system and standard operating procedures have been developed by WHO. This web-based tool functions as the official repository of all information relevant to an event that may constitute a public health emergency of international concern. It facilitates communications within WHO, with National IHR Focal Points, with technical institutions and partners, and provides timely public health information for the management of these events and risks.
+
+Information relating to public health risks notified or reported under the IHR (2005) to WHO is jointly assessed with the affected State Party to ascertain the nature and extent of the risk, the potential for international disease spread and interference with travel and trade, and appropriate response and containment strategies.
+
+In order to meet its IHR obligations and to facilitate information sharing between the Organization and States Parties to the Regulations, WHO has established an IHR Event Information Site. This site is accessible to National IHR Focal Points and provides up-to-date information on ongoing public health events of international concern.
+
+Participate in the PHEIC determination and WHO recommendations-making processes
+===============================================================================
+
+PHEIC determinations and the issuing of corresponding WHO recommendations by the Director-General will be a rare occurrence. Indeed, since the entry into force of the IHR on 15 June 2007 only one such determination has been made and recommendations issued. It is important that States Parties to the IHR are aware of the processes that may affect them and of their right to be consulted and present their views.
+
+If immediate global action is needed to provide a public health response to prevent or control the international spread of disease, the IHR give the Director-General of WHO the authority to determine that the event constitutes a PHEIC. On such occasions, an IHR Emergency Committee provides its views to the Director-General on temporary recommendations on the most appropriate and necessary public health measures to respond to the emergency. A State Party affected by a potential emergency needs to work closely with WHO to ensure that all relevant information and considerations are brought to bear prior such a determination and the adoption of any corresponding temporary recommendations. However, the right of a State to be consulted or prevent its views to an Emergency Committee shall be without prejudice to the need to act swiftly in the event of an emergency.
+
+In cases where the State Party concerned may not agree that a PHEIC is occurring, the Emergency Committee will also provide advice. The temporary recommendations issued by the Director-General are for affected and non-affected States Parties in order to prevent or reduce the international spread of disease and avoid unnecessary interference with international traffic.
+
+Strengthen national surveillance and response capacities
+========================================================
+
+Another fundamental aspect of the IHR is the obligation for all States Parties to develop, strengthen and maintain core public health capacities for surveillance and response. In order to be able to detect, assess, notify and report events and respond to public health risks and emergencies of international concern, States Parties must meet the requirements described in Annex 1A of the IHR (2005). Annex 1A outlines these core capacities at the local (community), intermediate and national levels, including, at the national level, the assessment of all reports of urgent events within 48 hours and the immediate reporting to WHO through the National IHR Focal Point, when required.
+
+The IHR require each State Party, with the support of WHO, to meet the core surveillance and response capacity requirements "as soon as possible", but not later than five years after the date of entry into force for that country. The IHR set out a two-phase process to assist States Parties to plan for the implementation of their public health capacity obligations. In the first phase, from 15 June 2007 to 15 June 2009, States Parties must assess the ability of their existing national structures and resources to meet the core surveillance and response capacity requirements. This assessment must lead to the development and implementation of national plans of action. As specified in the IHR, WHO must support these assessments and provide guidance on the national planning and implementation of these capacity strengthening plans.
+
+In the second phase from 15 June 2009 to 15 June 2012, the national action plans are expected to be implemented by each State Party to ensure that core capacities are present and functioning throughout the country and/or its relevant territories. States Parties that experience difficulties in implementing their plans may request an additional two year period until 15 June 2014 to meet their Annex 1A obligations. On the basis of a justified need, an extension of two years may be obtained. In exceptional circumstances, and supported by a new implementation plan, the Director-General of WHO may grant an individual State Party a further extension not exceeding two years to meet its obligations.
+
+Increase public health security at ports airports and ground crossings
+======================================================================
+
+International points of entry, whether by land, sea or air, provide an opportunity to apply health measures to prevent international spread of disease. For this reason, many of the provisions addressing this aspect in the IHR (1969) have been updated in the IHR (2005). A number of new provisions have been included. When applying IHR-related health measures to international travellers, for example, it is required that they be treated with courtesy and respect, taking into consideration their gender, sociocultural, ethnic and religious concerns. They must be supplied with appropriate food, water, accommodation and medical treatment if quarantined, isolated or otherwise subject to medical or public health measures under the IHR (2005).
+
+States Parties are required to designate the international airports and ports and any ground crossings which will develop specific capacities in the application of the public health measures required to manage a variety of public health risks. These capacities include access to appropriate medical services (with diagnostic facilities), services for the transport of ill persons, trained personnel to inspect ships, aircraft and other conveyances, maintenance of a healthy environment as well as ensuring plans and facilities to apply emergency measures such as quarantine.
+
+Use and disseminate IHR health documents at points of entry
+===========================================================
+
+The IHR require the implementation of a range of health documents at ports, airports and ground crossings. Failure by States Parties to use and include these documents in their daily operations may result in unnecessary disruption to international traffic.
+
+Model Ship Sanitation Control Exemption Certificate/Ship Sanitation Control Certificate
+
+The Ship Sanitation Control Exemption Certificate/Ship Sanitation Control Certificate replaced the narrower in scope Deratting/Deratting Exemption Certificate on 15 June 2007.
+
+Model Maritime Declaration of Health
+
+The Maritime Declaration of Health reflects the broader scope of the IHR and currently accepted technical standards and terminology.
+
+Model International Certificate of Vaccination or Prophylaxis replaces the International Certificate of Vaccination or Revaccination against Yellow Fever
+
+Yellow fever is the only disease specifically designated under the IHR for which proof of vaccination or prophylaxis may be required for travellers as a condition of entry to a State. The “International certificate of vaccination or revaccination against yellow fever” was replaced by the “International certificate of vaccination or prophylaxis” (ICVP). Clinicians issuing the certificate should note that the main difference from the old certificate is that they have to specify in writing in the space provided that the disease for which the certificate is issued is “yellow fever”. The ICVP does not contain a references to a designated vaccination centre.
+
+Health Part of the Aircraft General Declaration
+
+This is a document of the International Civil Aviation Organization (ICAO), a United Nations agency. The document is periodically reviewed by ICAO Member States, and has historically, for practical purposes, been reproduced in the annexes of the IHR. Consequently, the July 2007 revision of the Declaration adopted by ICAO has been reproduced in the 2008 second edition of the IHR (2005).

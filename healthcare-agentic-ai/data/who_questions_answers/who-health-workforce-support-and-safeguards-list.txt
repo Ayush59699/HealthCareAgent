@@ -1,0 +1,97 @@
+WHO QUESTIONS AND ANSWERS
+Title: WHO health workforce support and safeguards list
+URL: https://www.who.int/news-room/questions-and-answers/item/who-health-workforce-support-and-safeguards-list
+Retrieved: 2026-10-05T09:50:45.804640+00:00
+
+========================================
+
+The Expert Advisory Group on the WHO Global Code of Practice on the International Recruitment of Health Personnel (The Code) recommended that countries with the most pressing health workforce needs related to universal health coverage should be identified, and support and safeguards targeted at them. The answers below clarify issues related to workforce density, how countries are added to the Support and safeguards list (SSL), the nature of The Code, workers’ rights and protections, and how to interpret and act upon the policy recommendations.
+
+Is 49 doctors, nurses and midwives per 10 000 population the recommended workforce density for all countries?
+=============================================================================================================
+
+No, the WHO does not have a recommendation for health worker density. Optimal health workforce density depends on national and local context, including the burden of disease, demographics, skill mix of health workers, division of labour and distribution of health services.
+
+Countries included in the WHO health workforce support and safeguard list (SSL) 2026 have a health workforce (medical doctors, nursing personnel and midwifery personnel) density less than the median of 49 per 10 000 population defined in the release of SSL 2020, and a universal health coverage (UHC) service coverage index less than 50. This does not imply that it is the health worker density recommended by WHO; rather, this is the threshold used to identify relative shortage of national stock of health workers when compared globally.
+
+WHO also recognizes that health workers other than medical doctors and nursing and midwifery personnel make substantial contributions to health outcomes. Other occupations have not been included in the analysis for SSL because of limitations on data availability to allow for global comparison.
+
+Can a country choose whether to be on the SSL?
+==============================================
+
+The update of the SSL from 2026 onwards includes the flexibility option in its application, as directed by World Health Assembly Resolution WHA79.12. Subsequent updates of this publication will include a two-step process:
+
+1. WHO identifies countries in the provisional SSL based on health workforce density and UHC service coverage index to be prioritized for health systems related support and safeguards against active international recruitment.
+
+2. WHO shares the provisional SSL with all Member States who can request an exemption from or extension of the recommendations on the support and safeguards for their country. This means that Member States that are on the provisional list can inform WHO that they do not need safeguards against active international recruitment. Conversely, Member States that are not in the provisional list can request to be included in the recommendation for support and safeguards.
+
+If no response from Member States is received, standard WHO recommendations on support and safeguards will apply to countries identified only through the technical parameters (health workforce density and UHC service coverage index).
+
+After incorporating Member State responses, WHO publishes the final list of countries and shares them with Member States and the public. The SSL is scheduled to be updated every 3 years or earlier if necessary, following standard WHO procedures.
+
+How does the SSL 2026 update differ from previous SSL 2020 and 2023?
+====================================================================
+
+Unlike SSL 2020 and 2023, SSL 2026 is not based solely on the technical criteria identified by WHO for health workforce vulnerability. It also includes Member States’ position on exemption or extension of support and safeguards recommendations against active international recruitment. In practice, this means:
+
+1. countries that have been identified as facing the most pressing health workforce vulnerability based on technical parameters can be exempted from the recommendations for safeguards; and
+
+2. recommendations for support and safeguards against active international recruitment may also apply to countries that are above the WHO technical threshold.
+
+The flexibility on the application of the SSL is based on the recommendation of the Expert Advisory Group and the resolution adopted by the Seventy-ninth World Health Assembly. The flexibility considers substantial differences between countries in income levels, burden of disease, health systems, health workforce capacity and labour market conditions, which may not be reflected in the technical parameters used to identify health workforce vulnerability.
+
+Are the WHO Global Code of Practice and the SSL recommendations legally binding?
+================================================================================
+
+The WHO Global Code of Practice on the international recruitment of health personnel and the SSL are voluntary instruments adopted under article 23 of the WHO Constitution, and as such they are not legally binding. However, their provisions can become legally binding in a specific country or jurisdiction when countries adopt the entirety or elements of the Code and the SSL in their national legislation. For example, countries may have laws to avoid active international recruitment of health workers from countries with the greatest health worker shortages but simultaneously accept applications for published vacancies from individual health workers. Additional information on national adoption of the Code principles in national policies is available in the National Reporting Instruments database.
+
+What are the safeguards?
+========================
+
+WHO recommends refraining from active international recruitment of health workers from countries in the SSL. This means avoiding targeted approaches by employers or recruiting agencies to recruit large numbers of health workers from countries with workforce vulnerabilities. As essential safeguards, when recruitment happens, it could take place through government-to-government agreements after consulting with source country ministries of health to ensure enough domestic supply of health workers and providing support to the source countries in nationally-identified priority areas identified by that deliver proportionate benefit to health systems.
+
+WHO also recommends countries in the SSL be prioritized for support for health workforce development and health system strengthening by destination countries, development partners, donors and national and international organizations. These safeguards and support measures can be extended to other low- and middle-income countries.
+
+What support should recruiting countries provide to source countries?
+=====================================================================
+
+The Code recommends supporting source countries to strengthen their health systems and health workforce. The needs of each country are unique and as such the ministries of health are best placed to decide on the priority areas that require support. Health system needs assessment, including health labour market analysis, can help inform and identify these priority areas and the type of support required.
+
+Health workers are not commodities that can be bought. They are individuals who make their own decisions on where to work, as allowed by national legislation. Health workers also are a fundamental building block of health systems. Therefore, countries need to formulate appropriate policies and make strategic investment on health worker production, employment and retention to be self-sufficient on the health workforce. Destination countries could support the source countries as required.
+
+What is the universal health coverage service coverage index?
+=============================================================
+
+The UHC service coverage index (UHC SCI) is a measurement of the Sustainable Development Goal indicator 3.8.1 (Coverage of essential health services). It is based on a set of 14 sub-indicators organized by four broad categories: reproductive, maternal, newborn and child health; infectious diseases; non-communicable diseases; and service capacity and access. These sub-indicators are meant to be indicative of service coverage and should not be interpreted as a complete or exhaustive list of the health services or interventions that are required to achieve universal health coverage. The UHC SCI is measured as an index reported on a unitless scale of 0 to 100 and computed as a geometric mean. More information on the UHC SCI is available in the Tracking universal health coverage: 2023 global monitoring report.
+
+Does WHO comment on individual countries’ policies on migration?
+================================================================
+
+WHO does not comment on decisions of individual countries but shares available health workforce data and evidence reported annually by countries. The Code is a voluntary instrument, but reporting on its implementation is mandatory.
+
+Does the SSL cover private sector recruitment?
+==============================================
+
+The SSL is the list of countries that face the most pressing health workforce challenges in their progress towards universal health coverage. WHO discourages active international recruitment of health workers from these countries from both public and private sector employers or recruiters, to prevent exacerbation of health workforce shortages. However, passive recruitment (where individual health workers respond to vacancies) and recruitment under the terms of bilateral agreements can take place; these practices may include private sector involvement.
+
+Does the SSL restrict individual health workers’ choices to migrate?
+====================================================================
+
+The Code and the list have no provisions limiting the individual pursuit of employment opportunities in other countries. Rather, they aim to discourage systematic and proactive approaches by employers or recruiting agencies to recruit large numbers of health workers from source countries with workforce vulnerabilities. In fact, the Code recommends fair and just recruitment and contractual practices for migrant health workers and promotes equal rights of migrant health workers and domestic health workers to education and career opportunities.
+
+What is WHO doing to address the negative consequences of health worker migration?
+==================================================================================
+
+Migration is a long-standing and ongoing phenomenon. Minimizing the negative consequences of international health worker migration requires addressing the health labour market failures as well as collaboration of source and destination countries. The WHO Global Code of Practice on the International Recruitment of Health Personnel is the overarching international framework that links the ethical international recruitment of health workers and the strengthening of health systems. Through the periodic reporting on the implementation of the Code, WHO highlights the trends, key issues and challenges related to international health worker mobility and policy advice to address it, including through publication of the Health Workforce Support and Safeguards List, which identifies countries facing the most pressing health workforce challenges. The WHO guidance on bilateral agreements for health worker mobility and migration supports Member States to develop agreements related to health worker mobility and migration in a way that advances health system strengthening of participating countries and welfare of health workers.
+
+What can countries do to retain their health workers?
+=====================================================
+
+Each country must assess its situation to develop and implement health workforce strategies that are suited to its context. Health workforce planning requires understanding of the labour market dynamics in each country and using the findings to inform investments in education, employment and decent working conditions and to design appropriate strategies and regulatory interventions. Management, support and retention of existing health workers to cater to population needs while ensuring their security is equally important.
+
+Destination countries should increase production of health workers to meet domestic needs; source countries should invest through domestic financing and development assistance they receive in health workforce education and retention; they should adopt workforce policies to absorb the health workers in their health systems and improve working conditions, including fair remuneration, to enhance retention. Health workforce planning and education policies will have to consider population health needs and likely workforce attrition due to international migration. Development partners and international organizations should prioritize technical and financial support to countries in the SSL and other low- and middle-income countries to strengthen health workforce and health systems.
+
+What is the WHO recommendation on international recruitment from low- and middle-income countries that are not in the SSL?
+==========================================================================================================================
+
+The SSL is based on health workforce and service coverage data available to WHO, but there is wide variation in the availability and quality of data across countries. Countries that are not on the SSL have substantial differences in income levels, burden of disease, health systems and health workforce capacity. Therefore, as good practice, WHO recommends that policy recommendations for countries in the SSL be extended to other low- and middle-income countries as necessary.

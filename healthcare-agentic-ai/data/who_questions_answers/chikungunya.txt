@@ -1,0 +1,138 @@
+WHO QUESTIONS AND ANSWERS
+Title: Chikungunya
+URL: https://www.who.int/news-room/questions-and-answers/item/chikungunya
+Retrieved: 2026-10-05T09:43:33.575948+00:00
+
+========================================
+
+Questions and answers about chikungunya: what it is, where it occurs, how to protect against it, symptoms, treatment and reduction of spread.
+
+What is chikungunya?
+====================
+
+Chikungunya is a viral disease spread by mosquito bites, primarily from Aedes aegypti and Aedes albopictus (or tiger) mosquitoes, which mainly bite during daylight hours. It is caused by the chikungunya virus. It causes fever and severe joint pain. Other symptoms include muscle pain, rash, headache and severe fatigue. While most people recover after a week, joint pain can sometimes last for much longer.
+
+Where does chikungunya disease occur?
+=====================================
+
+Chikungunya is present in many parts of the world, especially in tropical and sub-tropical regions of Africa, Asia, and the Americas, where Aedes aegypti or Aedes albopictus (tiger) mosquitoes – the primary carriers of the virus – are found. The virus has also spread to new areas (occasionally causing outbreaks), such as Europe and North America, through infected travelers. Places in those new areas where temperatures are warm enough for mosquitoes to thrive are particularly vulnerable.
+
+How can I protect myself and my family from chikungunya?
+========================================================
+
+There is currently no treatment for chikungunya, so the best way to protect yourself and your family is through prevention. Avoiding mosquito bites is essential. Here are some effective ways to reduce your risk:
+
+- apply mosquito repellant (containing DEET, IR3535 or picaridin) to exposed skin or clothing, according to label instructions;
+
+- wear protective clothing, such as long sleeves and trousers, especially during the day when the mosquitoes that spread chikungunya are most active;
+
+- sleep under mosquito nets, especially during the day;
+
+- use mosquito screens on doors and windows or keep them closed, to prevent mosquitoes from entering the room; and
+
+- remove standing water from items like tyres, buckets and flowerpots – these are common breeding grounds for mosquitoes.
+
+What are the symptoms of chikungunya?
+=====================================
+
+Symptoms of chikungunya typically appear 4 to 8 days after being bitten by an infected mosquito.
+
+Symptoms may include:
+
+- sudden high fever
+
+- severe joint pain
+
+- muscle pain
+
+- headache
+
+- skin rash
+
+- fatigue or general weakness
+
+- occasionally, nausea.
+
+Most people begin to feel better within a week. However, some symptoms, like joint pain, sometimes last for several weeks or even months. A small minority of patients may still feel very tired even after two years.
+
+Who is most at risk?
+====================
+
+While chikungunya can affect people of all ages, certain groups are more likely to experience severe symptoms, or recover more slowly than others. These include:
+
+- older adults, particularly those over 65 years;
+
+- infants and young children;
+
+- pregnant women; and
+
+- people suffering from high blood pressure, diabetes, heart disease or other health conditions.
+
+Anyone experiencing symptoms of chikungunya should seek medical care as soon as possible, especially if they belong to a high-risk group.
+
+What is the treatment for chikungunya?
+======================================
+
+Currently, there are no specific medicines for chikungunya. Instead, care focuses on relieving symptoms:
+
+- treat fever and joint pain with paracetamol (acetaminophen) or metamizole (if available);
+
+- avoid aspirin, ibuprofen and other non-steroidal anti-inflammatory drugs (NSAIDs) until dengue infection has been ruled out, as they can increase the risk of bleeding in dengue patients; and
+
+- stay well hydrated and get plenty of rest to support recovery.
+
+If symptoms persist for more than a few days or worsen, it is important to seek medical care.
+
+Can I get chikungunya more than once?
+=====================================
+
+Based on current scientific evidence, it is unlikely that people who have been infected with chikungunya will get reinfected again. Research is still ongoing.
+
+Some people develop chronic chikungunya infection, which usually manifests as chronic joint pain that lasts for months and even years. However, this does not mean that the person has been infected more than once.
+
+Is there a vaccine for chikungunya?
+===================================
+
+As of now, two single-dose chikungunya vaccines (IXCHIQ and VIMKUNYA) have been approved by regulatory agencies in several countries and regions, including by the United States Food and Drug Administration (FDA) and the European Medicines Agency (EMA). Generally, these vaccines are recommended in those jurisdictions for people at risk of severe disease and those travelling to areas with known chikungunya transmission. However, the vaccines are not yet widely available or in widespread use globally.
+
+Currently, WHO has not issued recommendations for the use of these vaccines. WHO and its external expert advisors (the Strategic Advisory Group Experts on immunization) are still reviewing vaccine clinical trial data to inform future guidance. Additionally, neither vaccine has received WHO prequalification or been included on the WHO Emergency Use Listing at this time.
+
+How is chikungunya diagnosed?
+=============================
+
+Diagnosing chikungunya based on symptoms alone can be difficult, because the symptoms are similar to those of other illnesses such as dengue or Zika.
+
+To confirm infection, laboratory testing is required.
+
+- During the first week of illness, when symptoms first appear, chikungunya can be diagnosed by detecting the virus in a blood sample, using molecular or virus isolation tests.
+
+- After the first week, tests can detect antibodies (the body’s immune response) to the virus. These tests are usually done 1 to 2 weeks apart to confirm a recent or past infection.
+
+Accurate diagnosis is important, especially in areas where similar viruses are circulating.
+
+What can be done to prevent or reduce the spread of chikungunya?
+================================================================
+
+Chikungunya spreads through the bite of infected mosquitoes, mainly Aedes aegypti and Aedes albopictus, which are most active during the day. The best way to prevent or reduce its spread is to prevent mosquito bites, through mosquito control and personal protection. It is recommended that people living in or visiting areas where chikungunya is spreading:
+
+- wear long clothing that minimizes skin exposure to mosquitoes, especially during the day;
+
+- apply mosquito repellants containing DEET, IR3535 or picaridin to exposed skin or clothing according to product label instructions;
+
+- sleep under mosquito nets (ideally insecticide-treated nets), especially when sleeping during the day and to protect people at high-risk (such as sick patients, older people and young children) from mosquito bites; and
+
+- use screens in windows and doors to prevent mosquitoes from entering homes.
+
+It is important to note that persons with suspected or confirmed chikungunya infection should also take these measures and avoid mosquito bites during the first week of illness, as mosquitoes that bite them could become infected and potentially spread the virus to others.
+
+To help stop the spread of chikungunya virus, it is important to control the mosquitoes that carry the virus and destroy their breeding places. These mosquitoes usually lay eggs in standing water found in everyday containers like tyres, open water reservoirs, tanks, and empty cans around the home. To reduce mosquito breeding:
+
+- empty and clean water containers at least once a week
+
+- keep water reservoirs and containers tightly covered.
+
+- dispose of garbage regularly and properly to avoid water collecting.
+
+During outbreaks, health authorities may take extra steps such as spraying insecticides in affected areas (called mosquito fogging) and applying insecticide on indoor surfaces where mosquitoes usually land (indoor residual spraying) to kill adult mosquitoes. Additionally, special products can be added to water to kill the mosquito larvae before they grow into adults.
+
+Ultimately, preventing chikungunya requires the effort of the whole community. When everyone comes together to reduce mosquito breeding sites and protect themselves against bites, the risk of transmission drops significantly, and outbreaks can be prevented.

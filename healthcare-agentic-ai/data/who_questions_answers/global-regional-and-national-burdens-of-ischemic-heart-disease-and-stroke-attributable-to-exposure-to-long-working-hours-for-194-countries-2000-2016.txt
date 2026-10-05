@@ -1,0 +1,119 @@
+WHO QUESTIONS AND ANSWERS
+Title: Global, regional and national burdens of ischemic heart disease and stroke attributable to exposure to long working hours for 194 countries, 2000-2016
+URL: https://www.who.int/news-room/questions-and-answers/item/global-regional-and-national-burdens-of-ischemic-heart-disease-and-stroke-attributable-to-exposure-to-long-working-hours-for-194-countries-2000-2016
+Retrieved: 2026-10-05T09:46:09.306749+00:00
+
+========================================
+
+What do the latest WHO/ILO figures show in relation to long working hours/overtime?
+===================================================================================
+
+Systematic reviews and meta-analyses conducted by WHO and the International Labour Organization (ILO), with the support of a large number of individual experts, show an increased risk of ischaemic heart disease and stroke among people working long hours (≥55 hours/week), when compared with people working standard hours (35-40 hours/week).
+
+In 2016, 479 million people or 9% of the global population were working at least 55 hours/week. That percentage is growing. From 2000 to 2016, in relative terms, the proportion of the population working at least 55 hours/week has increased by 9%.
+
+In 2016, an estimated 745,000 deaths and 23.26 million disability-adjusted life years (DALYs from ischemic heart disease and stroke were attributable to these long working hours. DALYs are a standard measure of the number of years lost due to ill-health, disability or early death. This total burden was roughly equally split between the two causes, with ischemic heart disease and stroke accounting for 47% and 53% of deaths, respectively.
+
+What are the estimates based on?
+================================
+
+The estimates are based on a large and new database on exposure to long working hours and on a systematic review and synthesis of the existing bodies of evidence on the effect of long working hours on heart disease and stroke.
+
+WHO and ILO established the database, which includes over 2,300 surveys from 154 countries with data on number of hours on average or actually worked per week. This data is almost exclusively collected by countries through their national statistical offices.
+
+WHO and ILO conducted two systematic reviews and meta-analyses, supported by a large number of individual experts. Key findings were:
+
+- Compared with working 35-40 hours/week, working ≥55 hours/week may have led to a moderate increase of an estimated 17% in the risk of acquiring ischaemic heart disease, when followed up between one year and 20 years. This was based on a pooled analysis of 339,680 participants in 22 cohort studies.
+
+- Compared with working 35-40 hours/week, working ≥55 hours/week may have led to a moderate increase by 35% in the risk of acquiring stroke. This was based on a pooled analysis of 162,644 participants in 7 studies.
+
+What regions are most impacted?
+===============================
+
+Exposure to long working hours
+------------------------------
+
+In 2016, the percentage of people working 55 hours or more a week was highest in WHO’s South-East Asia region, at 11.7%, followed closely by Africa and the Eastern Mediterranean (each at 11.4%). It was lowest in Europe at 3.5%.
+
+Over time, from 2000 to 2016, exposure prevalence (the proportions of those working 55 hours or more a week) increased most in the Western Pacific; it decreased the most in Africa.
+
+Burdens of disease from heart disease and stroke attributable to long working hours
+-----------------------------------------------------------------------------------
+
+Of all regions in 2016, South-East Asia had by far the largest number of deaths caused by ischaemic heart disease attributable to long working hours, at 160,000 deaths. In relative terms, South-East Asia still had the largest death rate at 11.4 deaths per 100,000 people. Over 2000-2016, the number of deaths increased in all regions, except Europe.
+
+In 2016, the largest number of deaths by stroke attributable to working long hours was estimated in South-East Asia (159,000 deaths). In relative terms, South East Asia had the highest death rate at 11.3 deaths/100,000 population. Between 2000 and 2016, out of all regions, South-East Asia and Africa saw the greatest increase in the number of deaths, while Europe had the greatest relative decrease.
+
+Which countries are most impacted?
+==================================
+
+Exposure to long working hours
+------------------------------
+
+In 2016, the country with by far the highest proportion of the population working 55 hours per week or more was Angola with 33.7%. The countries with the lowest proportions (>1%) were Bulgaria, Lithuania and Romania.
+
+All country estimates are displayed at https://www.who.int/teams/environment-climate-change-and-health
+
+Burdens of disease from heart disease and stroke attributable to long working hours
+-----------------------------------------------------------------------------------
+
+Egypt, Lebanon and the Ukraine had the highest estimated death rates from heart disease attributable to long working hours, around 15 deaths/100,000 population; compared to 0.6–0.7 deaths/100,000 in the countries with the lowest rates, France, Rwanda and Kenya.
+
+The country with the highest estimated rate of death by stroke attributable to long working hours was the Democratic People's Republic of Korea with 28.1 deaths/100,000 population. The lowest rates were under 1 death/100,000 population, seen in countries such as France, Norway and Switzerland.
+
+Are men more affected than women?
+=================================
+
+Exposure to long working hours
+Men, as well as adults of the early middle-age groups, were overrepresented among those working 55 hours or more a week.
+
+Burdens of disease from ischaemic heart disease and stroke attributable to long working hours
+---------------------------------------------------------------------------------------------
+
+For ischaemic heart disease attributable to long working hours, men carried a larger burden than women, and the numbers and rates of deaths increased with age up to 70 years. Both in absolute and in relative terms, men and older age groups (60–74) carried a larger burden from deaths from stroke attributable to long working hours.
+
+What are recommendations?
+=========================
+
+Governments, employers, workers and any other relevant parties need to take concrete steps to design, plan, cost, implement and evaluate policies and interventions to prevent exposure to hazardous long working hours and thereby reduce the attributable burden of ischemic heart disease and stroke, at the national, regional and global levels, across the health and labour sectors. These WHO/ILO joint estimates provide the basis for this.
+
+Governments, employers and workers can take the following actions to protect workers’ health:
+
+- Governments, in consultation with employers and workers, can introduce, implement and enforce laws, regulations and policies that ban mandatory overtime and ensure maximum limits on working time.
+
+- Bipartite or collective bargaining agreements between employers’ and workers’ associations can arrange working time to be more flexible, while at the same time ensuring that maximum limits are not crossed.
+
+- A heathy and green recovery from the labour consequences of the COVID-19 pandemic could include a sharing of working hours between workers to ensure that numbers of hours worked do not climb above 55 or more per week, to prevent increased risk and burden of cardiovascular disease.
+
+How exactly does working long hours cause stroke and heart disease?
+===================================================================
+
+Evidence suggests that working long hours can cause mortality and morbidity from heart disease and stroke through two main “pathways”. The first is through physiological responses to psychosocial stress: working long hours continually activates the autonomic nervous system, immune system and, in turn, associated stress responses, with excessive release of stress hormones (e.g. adrenalin, noradrenalin and cortisol). This triggers reactions in the cardiovascular system (e.g., those that results in low heart rate variability and/or sustained high blood pressure) and lesions that cause a change in tissue (e.g., leading to the formation of fatty deposits in the arteries in coronary vessels).
+
+The second pathway is through health-harming behavioural responses to stress, which include tobacco use, alcohol use, unhealthy diet, physical inactivity and, in turn, impaired sleep and poor recovery, all established risk factors for ischemic heart disease and stroke.
+
+How are working hours expected to change due to the Covid-19 pandemic and in the future?
+========================================================================================
+
+Working time is likely to be impacted by the Covid-19 pandemic. There has been a huge increase in teleworking. A 2017 Eurofound and ILO report highlighted the complex association between teleworking and working hours.1 While partial and occasional forms of teleworking seemed to provide the best balance in terms of benefits and drawbacks, many workers have been teleworking for most of their working week. Teleworking can lead to longer working hours and work intensification. The National Bureau of Economic Research carried out research on 3.1 million workers in North America, Europe and the Middle East in 2020, before and after government-backed lockdowns, and found the average workday increased in length by 48.5 minutes (8.2%) during lockdowns.2 In a different report, looking at the consequences of the recession in the late 2000s, they noted productivity increased despite a decline in the workforce – the National Bureau of Economic Research concluded that one reason for this is that companies could be getting the same output from fewer workers.
+
+Further to this, the future of work may also increase workers’ exposure to long working hours. The number of people working in the gig and platform economies has been increasing – a trend that started even before the Covid-19 pandemic. The impact of the expansion of the gig and platform economies is difficult to predict. The possibility of gig work could offer flexibility for workers over their working hours, however, according to an ILO report from 2018,4 work-time autonomy depends on the availability of work. Additionally, many workers use gig work to supplement their income. Further, the distinction between paid and unpaid work can be blurred for gig workers. A 2020 paper that collected information from a small number of gig workers in Indonesia found the average working day was 12 hours.5 They suggested that “platform work can be seen as the latest way for firms to evade employment regulation”, but that more research and evidence is needed.
+
+References
+----------
+
+1. Eurofound and the International Labour Office (2017), Working anytime, anywhere: The effects on the world of work, Publications Office of the European Union, Luxembourg, and the International Labour Office, Geneva.
+
+2. National Bureau of Economic Research (2020), Collaborating during Coronavirus: The impact of Covid-19 on the nature of work. National Bureau of Economic Research: Cambridge, MA. Available at: https://www.nber.org/system/files/working_papers/w27612/w27612.pdf
+
+3. National Bureau of Economic Research (2018), MAKING DO WITH LESS: WORKING HARDER DURING RECESSIONS. National Bureau of Economic Research: Cambridge, MA. Available at: https://www.nber.org/system/files/working_papers/w19328/w19328.pdf
+
+4. Messenger (2018), Working time and the future of work. International Labour Organization: Geneva.
+
+5. De Ruyer A, Rachmawati R (2020), Understanding the Working Conditions of Gig Workers and Decent Work: Evidence from Indonesia’s Online Ojek Riders. Socialpolicy.ch 2/2020 – Article 2.4
+
+6. Link to the article in Environment International
+
+7. Link to systematic reviews and meta-analyses in Environment International:
+https://www.sciencedirect.com/science/article/pii/S0160412019331642?via%3Dihub
+https://www.sciencedirect.com/science/article/pii/S0160412019332118?via%3Dihub

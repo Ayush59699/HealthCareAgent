@@ -1,0 +1,271 @@
+{
+  "indexed_documents": 249,
+  "index_counts": {
+    "who_fact_sheets": 244,
+    "who_questions_answers": 5
+  },
+  "index_errors": [],
+  "cases": [
+    {
+      "query": "abortion",
+      "status": "MATCH",
+      "documents": [
+        {
+          "source": {
+            "topic": "abortion",
+            "title": "Abortion",
+            "url": "https://www.who.int/news-room/fact-sheets/detail/abortion",
+            "document_type": "fact_sheet",
+            "filename": "abortion.txt"
+          },
+          "match_type": "exact",
+          "matched_terms": [
+            "abortion"
+          ],
+          "characters": 13431,
+          "sha256": "f737c26df6e31fd2fcba32dc96ab065f144723dcec6ad8ff461ec26e06209c54",
+          "full_text_equals_file": true
+        },
+        {
+          "source": {
+            "topic": "abortion-safety",
+            "title": "Abortion: Safety",
+            "url": "https://www.who.int/news-room/questions-and-answers/item/abortion-safety",
+            "document_type": "question_answer",
+            "filename": "abortion-safety.txt"
+          },
+          "match_type": "partial",
+          "matched_terms": [
+            "abortion"
+          ],
+          "characters": 2161,
+          "sha256": "6a5e61f3edd7bc181bbb1685fc0d0746744571038e40f193b1aaf49fc9a59e1d",
+          "full_text_equals_file": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "query": "gaming disorder",
+      "status": "MATCH",
+      "documents": [
+        {
+          "source": {
+            "topic": "addictive-behaviours-gaming-disorder",
+            "title": "Addictive behaviours: Gaming disorder",
+            "url": "https://www.who.int/news-room/questions-and-answers/item/addictive-behaviours-gaming-disorder",
+            "document_type": "question_answer",
+            "filename": "addictive-behaviours-gaming-disorder.txt"
+          },
+          "match_type": "partial",
+          "matched_terms": [
+            "gaming"
+          ],
+          "characters": 3197,
+          "sha256": "0415be5199fdb1523302b674144573861af5cc699e6d4e8a880ed6587b975545",
+          "full_text_equals_file": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "query": "asthma and diabetes",
+      "status": "MATCH",
+      "documents": [
+        {
+          "source": {
+            "topic": "asthma",
+            "title": "Asthma",
+            "url": "https://www.who.int/news-room/fact-sheets/detail/asthma",
+            "document_type": "fact_sheet",
+            "filename": "asthma.txt"
+          },
+          "match_type": "topic_phrase",
+          "matched_terms": [
+            "asthma"
+          ],
+          "characters": 8039,
+          "sha256": "72624448874941a64047afa0d776f1b053dc33d80ce864820aa81a6e042ef3e0",
+          "full_text_equals_file": true
+        },
+        {
+          "source": {
+            "topic": "diabetes",
+            "title": "Diabetes",
+            "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+            "document_type": "fact_sheet",
+            "filename": "diabetes.txt"
+          },
+          "match_type": "topic_phrase",
+          "matched_terms": [
+            "diabetes"
+          ],
+          "characters": 8640,
+          "sha256": "868d2b92e0cf483bf998a096411c60d8234da7882876e945caba087e0cae5ae9",
+          "full_text_equals_file": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "query": "health symptoms",
+      "status": "NO_MATCH",
+      "documents": [],
+      "errors": []
+    },
+    {
+      "query": "quantum spaceship",
+      "status": "NO_MATCH",
+      "documents": [],
+      "errors": []
+    }
+  ],
+  "tests": {
+    "lookup": 28,
+    "fact_sheets": 20,
+    "questions_answers": 22,
+    "total_passed": 70
+  },
+  "cli_demo": {
+    "command": "python -S -m rag.who_lookup \"abortion\" --max-results 2",
+    "full_output": "outputs/who-lookup-demo.json",
+    "return_code": 0
+  },
+  "integrity": {
+    "preexisting_files_hash_checked": 479,
+    "changed": [],
+    "scope": "Production Python files under rag/application/orchestration/safety, existing WHO crawlers/tests, both WHO local collection directories.",
+    "checkpoint_note": "Verified before the Q&A index expanded during this task. Source collections were not written by this lookup implementation; this earlier hash result does not assert that the later Q&A index is identical."
+  },
+  "network_calls": 0,
+  "diagnostic_integration": false,
+  "latest_collection_check": {
+    "timestamp": "2026-10-05T09:51:58.773287+00:00",
+    "indexed_documents": 569,
+    "index_counts": {
+      "who_fact_sheets": 244,
+      "who_questions_answers": 325
+    },
+    "index_errors": [],
+    "note": "On-disk Q&A collection expanded during implementation without this lookup task running any crawler. Revalidated fresh WHOLookup instance against the expanded indexes.",
+    "cases": [
+      {
+        "query": "abortion",
+        "status": "MATCH",
+        "documents": [
+          {
+            "source": {
+              "topic": "abortion",
+              "title": "Abortion",
+              "url": "https://www.who.int/news-room/fact-sheets/detail/abortion",
+              "document_type": "fact_sheet",
+              "filename": "abortion.txt"
+            },
+            "match_type": "exact",
+            "characters": 13431,
+            "full_text_equals_file": true
+          },
+          {
+            "source": {
+              "topic": "abortion-safety",
+              "title": "Abortion: Safety",
+              "url": "https://www.who.int/news-room/questions-and-answers/item/abortion-safety",
+              "document_type": "question_answer",
+              "filename": "abortion-safety.txt"
+            },
+            "match_type": "partial",
+            "characters": 2161,
+            "full_text_equals_file": true
+          }
+        ],
+        "errors": []
+      },
+      {
+        "query": "gaming disorder",
+        "status": "MATCH",
+        "documents": [
+          {
+            "source": {
+              "topic": "addictive-behaviours-gaming-disorder",
+              "title": "Addictive behaviours: Gaming disorder",
+              "url": "https://www.who.int/news-room/questions-and-answers/item/addictive-behaviours-gaming-disorder",
+              "document_type": "question_answer",
+              "filename": "addictive-behaviours-gaming-disorder.txt"
+            },
+            "match_type": "partial",
+            "characters": 3197,
+            "full_text_equals_file": true
+          }
+        ],
+        "errors": []
+      },
+      {
+        "query": "asthma and diabetes",
+        "status": "MATCH",
+        "documents": [
+          {
+            "source": {
+              "topic": "asthma",
+              "title": "Asthma",
+              "url": "https://www.who.int/news-room/fact-sheets/detail/asthma",
+              "document_type": "fact_sheet",
+              "filename": "asthma.txt"
+            },
+            "match_type": "topic_phrase",
+            "characters": 8039,
+            "full_text_equals_file": true
+          },
+          {
+            "source": {
+              "topic": "diabetes",
+              "title": "Diabetes",
+              "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+              "document_type": "fact_sheet",
+              "filename": "diabetes.txt"
+            },
+            "match_type": "topic_phrase",
+            "characters": 8640,
+            "full_text_equals_file": true
+          },
+          {
+            "source": {
+              "topic": "diabetes",
+              "title": "Diabetes",
+              "url": "https://www.who.int/news-room/questions-and-answers/item/diabetes",
+              "document_type": "question_answer",
+              "filename": "diabetes.txt"
+            },
+            "match_type": "topic_phrase",
+            "characters": 5541,
+            "full_text_equals_file": true
+          },
+          {
+            "source": {
+              "topic": "diabetes--who-s-response",
+              "title": "Diabetes: WHO's response",
+              "url": "https://www.who.int/news-room/questions-and-answers/item/diabetes--who-s-response",
+              "document_type": "question_answer",
+              "filename": "diabetes--who-s-response.txt"
+            },
+            "match_type": "partial",
+            "characters": 4865,
+            "full_text_equals_file": true
+          }
+        ],
+        "errors": []
+      },
+      {
+        "query": "health symptoms",
+        "status": "NO_MATCH",
+        "documents": [],
+        "errors": []
+      },
+      {
+        "query": "quantum spaceship",
+        "status": "NO_MATCH",
+        "documents": [],
+        "errors": []
+      }
+    ]
+  }
+}

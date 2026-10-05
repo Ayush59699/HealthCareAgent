@@ -1,0 +1,134 @@
+WHO QUESTIONS AND ANSWERS
+Title: Radiation: The known health effects of ultraviolet radiation
+URL: https://www.who.int/news-room/questions-and-answers/item/radiation-the-known-health-effects-of-ultraviolet-radiation
+Retrieved: 2026-10-05T09:49:02.888681+00:00
+
+========================================
+
+Do UV-A and UV-B affect the body in different ways?
+===================================================
+
+UV-A rays have longer wavelengths than UV-B rays, and thus penetrate deeper into the tissue layers of the eye and the skin. UV-A and UV-B rays also differ from each other by how strong their energy is, with UV-A rays having a lower amount of energy. UV-A and UV-B can therefore trigger different biological and health effects.
+
+The skin
+--------
+
+UV-A penetrates deep into the skin and can reach the dermis and subcutis, where connective tissue and blood vessels are affected, resulting in gradual loss of skin elasticity and premature ageing. UV-A darkens melanin pigment already present in the upper skin cells and creates a tan that appears quickly but also fades quickly.
+
+Most of UV-B is absorbed in the epidermis. UV-B stimulates the production of new melanin pigment within a few days, resulting in a tan that may last a relatively long time. UV-B also stimulates the cells to produce a thicker epidermis. Thus UV-B, together with UV-A, is responsible for the synthesis, darkening and thickening of the outer cell layers – these reactions are the body's defense against further UV damage.
+
+UV-B is the primary cause of sunburn. Sunburn is the result of overexposure and one serious factor which increases the risk of skin cancer. However, even doses of UV-B not high enough to cause sunburns may increase the likelihood of developing melanoma and non-melanoma skin cancers.
+
+Production of vitamin D is stimulated by UV-B radiation.
+
+The eye
+-------
+
+As for the skin, the UV-A and UV-B components of sun rays penetrate the eye to different depths. While UV-B radiation is completely absorbed by the cornea and lens, a small amount of UV-A penetrates through these and reaches the retina. It is under discussion whether this could cause retinal damage that manifests as health complications later in life. Among adults, around 1–2% of UV-A radiation is transmitted while for children, the transmittance is strongly age-dependent starting with transmittance of around 20% at birth and gradually decreases with age. Therefore, a child’s eye is more sensitive to UV radiation and requires special protection to prevent damage from UV exposure.
+
+The immune system
+
+Most experiments to date have concentrated on UV-B, as it appears to be more effective than UV-A in causing immunosuppression. There are hints that UV-A and UV-B radiation is absorbed by different molecules in the skin. This leads to changes in the distribution and activity of some of the key molecular and cellular players of the immune system. An altered balance of the immune response through cells and antibodies may reduce the body's ability to defend itself against certain diseases.
+
+Are there beneficial effects of UV radiation?
+=============================================
+
+The only beneficial effect of UV, triggered by UV-B, is the stimulation of the production of vitamin D. Vitamin D has an important function in increasing calcium and phosphorus absorption from food and plays a crucial role in skeletal development, immune function, and blood cell formation. Thus, this beneficial effect from UV exposure must be weighed against the simultaneous adverse health effects to the eyes and skin.
+
+Based on current scientific knowledge, sufficient vitamin D synthesis is achieved by healthy people when exposing the face, hands, and arms uncovered and without sunscreen two to three times a week to half the time it would usually take unprotected skin to develop a sunburn (corresponding to around 12 minutes for sensitive people (skin type II)) with a UV index of 7.
+
+Vitamin D deficiency is possible for those who have very limited sun exposure, such as the elderly who are housebound or with age-related reduced vitamin D synthesis, those with dark pigmented skin who live in high-latitude countries where UV levels are relatively low, traditionally veiled persons, and people whose vitamin D metabolism does not function properly. Vitamin D deficiency should only be medically diagnosed and treated. Vitamin D supplementation or medication should be carried out under medical supervision. Recognizing the need for vitamin D, many countries have introduced supplements into common food like flour, cereals, and milk. Naturally occurring vitamin D is very rare in the human diet and is mainly present in fatty fish and cod liver oil. Most oral multivitamin tablets also contain adequate daily dose of vitamin D.
+
+What are the harmful effects of UV on the skin?
+===============================================
+
+UV radiation can cause short- and long-term health effects on the skin. In addition to the well-known short-term effects such as sunburn or allergic reactions, long-term effects like skin cancer represent a chronic health risk. Skin cancer risk is strongly correlated with the duration and frequency of sun exposure over one’s lifetime. Cumulative UV dose is related to the development of squamous cell carcinoma while intermittent intense UV exposure and sunburn are related to melanoma.
+
+Suntan
+------
+
+There is no such thing as a healthy tan! The skin produces a dark-coloured pigment, melanin, as a shield against further damage from UV radiation. The darkening provides some protection against sunburn. With a UV-A- and UV-B-induced tan a sun protection factor of between 2 and 4 can be achieved. However, it is no defence against long-term UV damage such as skin cancer. A suntan may be cosmetically desirable, but in fact it is a sign that your skin has been damaged and has attempted to protect itself.
+
+Sunburn
+-------
+
+Sunburn is an inflammation of the skin largely triggered by UV-B. This inflammation manifests as reddening and swelling of the affected areas of skin, as well as blistering in particularly serious cases. The resulting discomfort reaches its peak within 12 to 36 hours. Frequent sunburns during childhood and adolescence seriously increase the risk of developing skin cancer (melanoma). The occurrence of erythema remains the dermatological indicator for overexposure of the skin to UV radiation. However, DNA damage relevant to skin cancer can occur even before the erythema threshold is reached.
+
+Sun allergy
+-----------
+
+"Sun allergy" refers to various skin conditions induced by UV radiation. The most common form of sun allergy is polymorphic light dermatosis. Following exposure to UV, in particular to UVA, the skin may develop patchy reddening, blisters, and nodules (papules) with an intense itching sensation, typically affecting the neck, upper chest, upper arms, backs of the hands, or thighs. The "Mallorca acne" is a special form of polymorphic light dermatosis whereby skin lesions are caused by the interaction of UV radiation and lipids from sunscreen (or the body’s own cutaneous sebum).
+
+Phototoxic reactions
+--------------------
+
+A set of substances that can be found in medications, herbal remedies and cosmetics like fragrances and soaps may provoke phototoxic reactions of the skin. These substances are said to have a photosensitizing effect. A minimal dose of UV radiation is sufficient to trigger an allergic reaction leading to rash or severe sunburn. Photosensitizing substances can also be found in certain plants and foods, such as citrus fruits, celery, or giant hogweed. If these plants are eaten or touched, subsequent exposure to UV radiation can lead to skin diseases.
+
+Premature skin ageing - the wrinkle factor
+------------------------------------------
+
+Sun exposure promotes skin ageing due to a combination of several factors. Photoaging of the skin can frequently be observed in sun-exposed individuals who have spent much time outdoors. Both UV-B and UV-A contribute to photoaging. It is a gradual process, which is irreversible. The skin gradually loses its elasticity. Wrinkles, sags, and bags are the common result of this loss of elasticity.
+
+Skin Cancer
+-----------
+
+UV radiation is the main cause of skin cancers, the most frequent cancers in fair-skinned populations. Risk factors for skin cancer include skin type, large congenital or clinically atypical moles, the number of moles, a family history of skin cancer, also acquired risk factors like immunosuppression-inducing diseases, and the UV exposure pattern the individual lifetime UV exposure (lifetime dose), intermittent UV exposures and sunburns.
+
+The major types of skin cancer are listed below in order of increasing severity and decreasing frequency.
+
+Basal cell carcinoma
+
+Basal cell carcinomas arises from skin epithelial cells and is the most common type of skin cancer. It is most frequent on those parts of the body that are commonly exposed to the sun such as ears, face, neck, and forearms. The reported incidence has drastically increased over the past decades and continues to rise. They usually appear as a red lump or scaly area; however, no clear precursors have been identified. They grow slowly, rarely spread to other parts of the body (metastasize) but may form a deep sore if not removed surgically.
+
+Squamous cell carcinomas
+
+Squamous cell carcinomas also forms in the epithelial cells of the skin and is the second most common form of skin cancer. It appears as a thickened red scaly spot at body sites most often exposed to UV radiation and in which actinic keratosis forms as a precursor with sharply delimited reddening and a raw, sandpaper-like surface. As they sometimes metastasize, they are more dangerous than basal cell carcinomas. However, they also tend to be slow growing and can usually be removed surgically before they become a serious risk.
+
+Melanoma skin cancers
+
+Melanoma is the least common but the most dangerous type of skin cancer, accounting for most skin cancer deaths. It is caused by a malignancy of melanocytes and may arise as a new mole or as changes in colour, shape, size, or sensation of an old spot, freckle, or mole. Melanomas tend to have an irregular outline and a patchy colouring. Itching is another common symptom but is also found in normal moles. If recognized and treated early, the chances of survival are good. If untreated, the tumour can develop rapidly, and cancer cells can spread to other parts of the body. Melanoma may occur early in life, and its incidence is rapidly increasing worldwide. There is strong evidence that melanoma occurs due to intermittent UV exposure (occasional exposure to short periods of intense sunlight) and severe sunburns during childhood and adolescence.
+
+What are the harmful effects of UV on the eye?
+==============================================
+
+During human evolution a number of mechanisms have evolved to protect the eye against effects of the sun's rays. The eye is recessed within the anatomy of the head and somewhat shielded by the eyebrow ridge and the eyelashes. Constriction of the pupil, closure of the eyelids and the squinting reflex minimize the penetration of the sun's rays into the eye. These mechanisms are activated by bright visible light and not by UV radiation – but on a cloudy day UV radiation exposure may still be high. Therefore, the effectiveness of these anatomical adaptations and natural defences in protecting against UV damage is limited.
+
+There are a number of acute and long-term effects of UV exposure on the eye.
+
+Photokeratitis and photoconjunctivitis
+--------------------------------------
+
+Photokeratitis is an inflammation of the cornea, while photoconjunctivitis refers to an inflammation of the conjunctiva, the membrane that lines the inside of the eyelids and eye socket. These inflammatory reactions may be compared to a sunburn of the very sensitive skin-like tissues of the eyeball and eyelids and usually appear within a few hours of exposure. Photokeratitis and photoconjunctivitis can be very painful, however, they are reversible and do not seem to result in any long-term damage to the eye or vision.
+
+An extreme form of photokeratitis is snow blindness. It sometimes occurs in skiers and climbers who experience extreme UV levels due to high altitude conditions and very strong ground reflection – fresh snow can reflect up to 80% of incident UV radiation. These extreme UV levels kill the outer cells of the eyeball leading to blindness. Snow blindness is very painful when the dead cells are being shed. In most cases new cells grow quickly, and vision is restored within a few days. Very severe snow blindness may involve complications such as chronic irritations or tearing.
+
+Pterygium
+
+This growth of the conjunctiva on the surface of the eye is a common condition associated with excessive solar exposure. It is generally accepted that UV exposure is linked to the formation of pterygia. Pterygium may extend over the centre of the cornea and thereby reduce vision. It also tends to become inflamed. Even though it can be removed by surgery, the outgrowth tends to recur.
+
+Climatic droplet keratopathy
+----------------------------
+
+Climatic droplet keratopathy is a spheroidal degeneration of the superficial corneal stroma that is generally confined to geographical areas with high levels of UV exposure such as the arctic or tropics. Climatic droplet keratopathy is causally associated with chronic UV-A and UV-B exposure.
+
+Cataracts
+---------
+
+Cataracts are the leading cause of blindness in the world. Proteins in the eye's lens unravel, tangle, and accumulate pigments which cloud the lens and eventually lead to blindness. Even though cataracts appear to different degrees in most individuals as they age, some studies strongly support UV-B as a risk factor for cortical cataract. Cataracts can be surgically removed, and an artificial lens or other means of optical correction can restore vision.
+
+Every year some 16 million people in the world suffer from blindness due to a loss of transparency in the lens. WHO estimates suggest that up to 10% of cataracts may be caused by overexposure to UV radiation and are therefore avoidable.
+
+Cancer of the eye
+-----------------
+
+Current scientific evidence suggests that different forms of eye cancer may be associated with UV exposure. Uveal melanoma, the most frequent cancer of the eyeball, sometimes requires surgical removal and is associated with high mortality. Evidence of an association with ultraviolet exposure is mixed. Basal cell carcinoma, accounting for approximately 90% of all eyelid malignancies, and squamous cell carcinoma are the two most common tumors of the eyelid.
+
+Does UV interact with the immune system?
+========================================
+
+One of the main effects of UV radiation is its ability to suppress the body’s immunological response to antigens. UV exposure triggers a series of reactions in the skin that may lead to local, but possibly also systemic immunosuppression. These reactions are a complicated interaction involving a wide range of different cell types such as skin cells and cells of the immune system. The precise mechanisms are yet to be fully understood. An example of UV induced immunosuppression is the recurrent eruption of cold sores when the immune system can no longer keep the virus herpes simplex under control
+
+I am dark-skinned – do I still need to be careful?
+==================================================
+
+Yes, you do. Compared to fair-skinned people, dark-skinned people have a much lower risk of developing melanoma or non-melanoma skin cancers, but there is still a risk. People with darker skin require more solar UV exposure to maintain adequate vitamin D levels, which may make them more susceptible to deficiency at high latitudes. But – regardless of skin colour - the risk of DNA damage, skin ageing, eye damage and harmful effects on the immune system remains and all protective measures are recommended.

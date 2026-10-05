@@ -1,0 +1,17 @@
+WHO QUESTIONS AND ANSWERS
+Title: Emergencies: Mosquitoes
+URL: https://www.who.int/news-room/questions-and-answers/item/emergencies-mosquitoes
+Retrieved: 2026-10-05T09:45:37.501817+00:00
+
+========================================
+
+Q: We know that the same mosquito species can carry many diseases (such as dengue, Zika, chikungunya, and yellow fever). Can a mosquito carry more than one disease at the same time? If so, could someone get more than one disease from a single bite?
+========================================================================================================================================================================================================================================================
+
+The mosquito species Aedes aegypti and Aedes albopictus carry dengue, chikungunya and Zika virus. In addition, Aedes aegypti also transmits yellow fever.
+
+Studies done in Gabon and India show that humans can be infected with chikungunya and dengue at the same time.
+
+Entomological studies confirming coinfection in mosquitoes are rare. The Gabon study found one mosquito specimen that was positive for both viruses, meaning that it is possible that the bite of a single mosquito could infect a person with 2 viruses at the same time.
+
+Coinfection poses a challenge for accurate diagnosis and treatment, particularly when symptoms such as fever and aches can be similar for many diseases.

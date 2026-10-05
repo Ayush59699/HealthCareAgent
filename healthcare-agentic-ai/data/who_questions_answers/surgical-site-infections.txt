@@ -1,0 +1,58 @@
+WHO QUESTIONS AND ANSWERS
+Title: Infection prevention and control: Surgical site infections
+URL: https://www.who.int/news-room/questions-and-answers/item/surgical-site-infections
+Retrieved: 2026-10-05T09:49:47.522865+00:00
+
+========================================
+
+Are these guidelines radically different from what happens in surgical practice now?
+====================================================================================
+
+Many of these recommendations have existed for a while but health workers are not necessarily following them. We hope these new WHO guidelines will draw attention to the need to change practices in order to save lives. They itemize a range of important changes and recommend ways to help health providers change the behaviour of health workers. For example, patients are still often shaved before surgery – this practice needs to stop, given the evidence (see below).
+
+How will these guidelines help to stop the spread of antibiotic resistance?
+===========================================================================
+
+The use of certain antibiotics is associated with the risk of emergence in antibiotic resistance, which is a global problem. A number of the guideline recommendations detail when to use and not to use antibiotics, aimed to help over- and mis-use of these valuable drugs.
+
+I am having surgery soon, am I at risk?
+=======================================
+
+Surgery always involves risk and the risk of infection can never be completely eliminated. Risk is generally highest in low- and middle-income countries, because of insufficient equipment, staffing and poor infrastructure, as well as lack of policies and knowledge, for example.
+
+Is any one of the recommendations more important than the others?
+=================================================================
+
+No, they’re all equally important and each can play a role in reducing the risk of infection. Health providers will make their own decisions about which recommendations to prioritize based on their own context, existing measures, resources and so on.
+
+The guidelines recommend using warming devices to prevent SSIs. How does warming a patient help?
+================================================================================================
+
+A cold operating room and the effects of anaesthesia, for example, can lead to low body temperature (hypothermia). The human body compensates for this by reducing blood flow, which in turn slows wound healing, increasing the risk of infection. Warming a patient, for which a range of affordable devices are available, ensures that healing is optimized, reducing the opportunity for infections to develop.
+
+The guidelines say that surgical teams should either use disposable non-woven gowns or reusable woven gowns. Why?
+=================================================================================================================
+
+Sterile surgical gowns are worn over the scrub suit of the operating team to maintain a sterile surgical area and to reduce the risk of the spread of germs to both patients and staff. Two types of gowns are traditionally used in the operating room: disposable and reusable gowns. The material of both must be impermeable to liquids and germs. The cost is similar for both disposable and reusable items, but both are not available in all countries.
+
+What are surgical site infections and how common are they?
+==========================================================
+
+Surgical site infections are caused by bacteria that get in through incisions made during surgery. They threaten the lives of millions of patients each year and contribute to the spread of antibiotic resistance. In low- and middle-income countries, 11% of patients who undergo surgery are infected in the process. In Africa, up to 20% of women who have a caesarean section contract a wound infection, compromising their own health and their ability to care for their babies.
+
+But surgical site infections are not just a problem for poor countries. In the United States, they contribute to patients spending more than 400 000 extra days in hospital at an additional cost of US$ 900 million per year.
+
+What’s the difference between these guidelines and WHO’s Surgical Safety Checklist?
+===================================================================================
+
+The WHO Surgical Safety Checklist (published in 2009) identified a wide range of measures aimed at keeping patients safe during surgery. These new guidelines focus, in much greater detail, on one specific area of surgical safety, namely preventing surgical site infections.
+
+Why do the guidelines recommend that surgical patients not be shaved? How does hair removal increase the risk of infection?
+===========================================================================================================================
+
+Removing hair from the intended site of surgical incision has traditionally been part of the routine preparation for surgery, and has been considered necessary to facilitate adequate exposure, skin marking and suturing. However, hair removal can increase the risk of infection by causing microscopic trauma of the skin (i.e. cuts). The evidence now tells us that there is a clear benefit to not removing hair, or if absolutely necessary, to just clipping it instead of shaving.
+
+Why should antibiotics be used to prevent infections before surgery, but not afterwards?
+========================================================================================
+
+There is evidence showing that antibiotics given at a set time before surgery will usually prevent infections occurring, for certain surgical procedures. This is called prophylaxis. However, there is no evidence to show that using antibiotics for prophylaxis after surgery prevents infection in any way. In fact, it may even be harmful by contributing to the development of antibiotic resistance. Antibiotics should only be used after surgery to treat infections, not to prevent them.

@@ -1,0 +1,134 @@
+WHO QUESTIONS AND ANSWERS
+Title: Expert Committee on Drug Dependence
+URL: https://www.who.int/news-room/questions-and-answers/item/expert-committee-on-drug-dependence
+Retrieved: 2026-10-05T09:45:48.654275+00:00
+
+========================================
+
+The Committee consists of an independent group of experts in the field of drugs and medicines.
+
+What is the function of the Expert Committee on Drug Dependence?
+================================================================
+
+The ECDD assesses the health risks and benefits of the use of psychoactive substances according to a set of fixed criteria.
+
+For the Single Convention on Narcotic Drugs, 1961, these criteria include:
+
+- Similarity to other substances under the Convention with regard to the dependence potential of the substance and actual abuse, and/or evidence of likelihood of abuse,
+
+- Extent of harm to public health,
+
+- Therapeutic applications of the substance.
+
+For the Convention on Psychotropic Substances, 1971, these criteria include:
+
+- Evidence of dependence potential of the substance,
+
+- Similarity to other substances under the Convention with regard to abuse and/or evidence of likelihood of abuse,
+
+- Extent of harm to public health and social problems,
+
+- Therapeutic applications of the substance,
+
+Depending on the outcome of the assessment of a specific substance, the Committee may recommend to:
+
+- Place the substance under international control (i.e. place it in one of the Schedules)
+
+- Transfer the substance to a different schedule with more or fewer control measures
+
+- Delete the substance from a Schedule, effectively removing it from being under international control)
+
+- Keep the substance under surveillance
+
+What is the difference between a pre-review and critical review?
+================================================================
+
+If a substance has a known therapeutic use, a pre-review may be initiated to determine if there is sufficient information to proceed to a critical review. Not all substances will be assessed by a pre-review but a pre-review is normally carried out if the substance is used as a medicine. A pre-review can also be an opportunity to identify gaps in the available scientific data that would need to be addressed to enable a critical review.
+
+A critical review takes place if the ECDD working group recommend a substance be reviewed, after a pre-review has recommended the substance proceeds to the critical review, or if there has been a formal notification by a Member State.
+
+Substances that are placed under international control are regulated by the International Drug Control Conventions, which restrict international production and trade of these substances. Individual countries can exercise discretion in how they will apply controls within their territories.
+
+What does scheduling status mean?
+=================================
+
+Psychoactive substances are classified and placed under international control in compliance with international conventions ratified by United Nations (UN) Member States, namely:
+
+- 1961 United Nations Single Convention on Narcotic Drugs
+
+- 1971 Convention on Psychotropic Substances
+
+The purpose of these classifications is to control the use of these drugs to protect public health. For countries, this may include limits on the possession, consumption, trade, distribution, import or export, manufacture and production of substances controlled under these schedules.
+
+The scope of the 1961 Single Convention was limited to drugs with cannabis-, cocaine- and opium-like effects and did not cover the many new psychotropic substances discovered later.
+
+The 1971 Convention is designed to control psychoactive drugs such as amphetamine-type stimulants, barbiturates, benzodiazepines, and hallucinogens.
+
+What is the Technical Report Series (TRS)?
+==========================================
+
+The WHO Technical Report Series makes available the findings of various international groups of experts that provide WHO with the latest scientific and technical advice on a broad range of medical and public health subjects. Members of such expert groups such as the Expert Committee on Drug Dependence serve without remuneration in their personal capacities rather than as representatives of governments or other bodies; their views do not necessarily reflect the decisions or the stated policy of WHO.
+
+How does the ECDD evaluate a compound?
+======================================
+
+The Secretariat is responsible to collect and assemble data based on these criteria for substances under critical review or pre-review. The type of information included for the assessment are:
+
+- Substance identification,
+
+- Chemistry, including general information on synthesis, preparation and properties,
+
+- Convertibility into controlled substances,
+
+- General pharmacology, including pharmacokinetics and pharmacodynamics,
+
+- Toxicology,
+
+- Adverse reactions in humans,
+
+- Dependence potential,
+
+- Abuse potential,
+
+- Therapeutic applications, extent of therapeutic use and epidemiology of medical use,
+
+- Listing on WHO Model List of Essential Medicines,
+
+- Marketing authorizations (as a medicine),
+
+- Industrial use,
+
+- Non-medical use, abuse and dependence,
+
+- Nature and magnitude of public health problems related to abuse and dependence,
+
+- Licit production, consumption and international trade,
+
+- Illicit manufacture and traffic, and related information,
+
+- Current international controls and their impact,
+
+- Current and past national controls,
+
+- Other medical and scientific matters relevant for a recommendation on the scheduling of a substance.
+
+How is the ECDD recommendation for a drug processed?
+====================================================
+
+The ECDD recommendations are presented by the Director General of the WHO to the UN Secretary General and the United Nations Control Narcotic Board (CND).
+
+The recommendations of the Expert Committee are based on the best available scientific, medical and public health evidence and must comply with the criteria established in the conventions. Specific rules and procedures for the evaluation of substances are published in Guidance on the WHO review of psychoactive substances for international control. The process of substance evaluation has evolved over time and the methods of the Expert Committee are continuously adapted to maximise the scientific rigour of the review process and to enable inclusion of emerging data sources.
+
+The CND convenes each year in March in Vienna and reviews and analyzes the global drug situation, considering the interrelated issues of prevention of drug abuse, rehabilitation of drug users and supply and trafficking in illicit drugs. It takes action through resolutions and decisions. The CND decides, on the basis of recommendations by the WHO, whether or not to place narcotic drugs and psychotropic substances under international control.
+
+Who are the members of the ECDD?
+================================
+
+An expert committee is a group of expert advisory panel members convened by the Director-General for the purpose of reviewing and making technical recommendations on a subject of interest to the Organization. The expert committees are established by the Executive Board of the World Health Assembly, and it is the Director-General who convenes the meetings and decides on the participants, who are drawn from the expert advisory panels. The membership of an expert committee is not standing.
+
+The members of the Expert Committee on Drug Dependence include selected experts with recognised expertise on drug dependence liability (e.g., toxicology, pharmacology, psychiatry, etc.). The members provide independent medical or scientific expertise, they do not represent a country or a governmental agency, and they are clear of conflicts of interest. There is also a balance among members in terms of geographic and gender representation. The observers of the Expert Committee on Drug Dependence include UN agencies, e.g., International Narcotics Control Board and United Nations Office on Drugs and Crime.
+
+When is the next ECDD meeting?
+==============================
+
+The Expert Committee on Drug Dependence meeting usually takes place in October each year. Further information on when the next ECDD meeting will take place will be displayed on our Events page in due course.

@@ -1,0 +1,58 @@
+WHO QUESTIONS AND ANSWERS
+Title: Radiation: 5G mobile networks and health
+URL: https://www.who.int/news-room/questions-and-answers/item/radiation-5g-mobile-networks-and-health
+Retrieved: 2026-10-05T09:48:53.120025+00:00
+
+========================================
+
+5G, or fifth generation, is the latest wireless mobile phone technology, first widely deployed in 2019. 5G is expected to increase performance and a wide range of new applications, including strengthening e-Health (telemedicine, remote surveillance, telesurgery).
+
+What is 5G?
+===========
+
+5G, or fifth Generation, is the latest wireless mobile phone technology, first widely deployed in 2019.
+
+5G is expected to increase performance and a wide range of new applications, including strengthening e-Health (telemedicine, remote surveillance, telesurgery).
+
+What are the main differences between 5G and previous technologies?
+===================================================================
+
+5G represents an evolution in telecommunication standards. To enable increased performance, 5G will extend into higher frequencies around 3.5 GHz and up to a few tens of GHz. The higher frequencies are new to mobile phone networks, but are commonly used in other applications, such as point-to-point radio links and body-scanners for security checks.
+
+At these higher frequencies, 5G networks will use a greater number of base stations and of connected objects. 5G will further employ beam-forming antennas to focus signals more efficiently towards the device in use, rather than having the signal spread in broad directions as in current base station antennas.
+
+Exposure levels
+===============
+
+Currently, exposure from 5G infrastructures at around 3.5 GHz is similar to that from existing mobile phone base stations. With the use of multiple beams from 5G antennas, exposure could be more variable as a function of location of the users and their usage. Given that the 5G technology is currently at an early stage of deployment, the extent of any change in exposure to radiofrequency fields is still under investigation.
+
+What are the potential health risks from 5G?
+============================================
+
+To date, and after much research performed, no adverse health effect has been causally linked with exposure to wireless technologies. Health-related conclusions are drawn from studies performed across the entire radio spectrum but, so far, only a few studies have been carried out at the frequencies to be used by 5G.
+
+Tissue heating is the main mechanism of interaction between radiofrequency fields and the human body. Radiofrequency exposure levels from current technologies result in negligible temperature rise in the human body.
+
+As the frequency increases, there is less penetration into the body tissues and absorption of the energy becomes more confined to the surface of the body (skin and eye). Provided that the overall exposure remains below international guidelines, no consequences for public health are anticipated.
+
+What are the international exposure guidelines?
+===============================================
+
+Two international bodies produce exposure guidelines on electromagnetic fields. Many countries currently adhere to the guidelines recommended by:
+
+- The International Commission on Non-Ionizing Radiation Protection and,
+
+- The Institute of Electrical and Electronics Engineers, through the International Committee on Electromagnetic Safety
+
+These guidelines are not technology-specific. They cover radiofrequencies up to 300 GHz, including the frequencies under discussion for 5G.
+
+What is WHO doing?
+==================
+
+WHO is conducting a health risk assessment from exposure to radiofrequencies, covering the entire radiofrequency range, including 5G, to be published by 2022.
+
+WHO will review scientific evidence related to potential health risks from 5G exposure as the new technology is deployed, and as more public health-related data become available.
+
+WHO established the International Electromagnetic Fields (EMF) Project in 1996. The project investigates the health impact of exposure to electric and magnetic fields in the frequency range 0-300 GHz and advises national authorities on EMF radiation protection.
+
+WHO advocates for further research into the possible long-term health impacts of all aspects of mobile-telecommunications. The Organization identifies and promotes related research priorities. It also develops public information materials and promotes dialogue among scientists, governments, and the public to increase understanding around health and mobile communications.

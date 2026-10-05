@@ -1,0 +1,79 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Variants of SARS-COV-2
+URL: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-variants-of-sars-cov-2
+Retrieved: 2026-10-05T09:44:04.447139+00:00
+
+========================================
+
+Last updated on 20 November 2023
+
+1. What are variants of SARS-COV-2, the virus that causes COVID-19?
+===================================================================
+
+It is usual for viruses to change and evolve as they spread between people over time. When these changes become significantly different to a previously detected virus, these new virus types are known as “variants.” To identify variants, scientists map the genetic material of viruses (known as sequencing) and then look for differences between them to see if they have changed.
+
+Since 2020, SARS-CoV-2, the virus that causes COVID-19, has been spreading and changing globally. These changes have led to the detection of variants in many countries around the world. The more significant of these variants are grouped in three different ways – variants under monitoring, variants of interest and variants of concern.
+
+2. What is the difference between variants under monitoring, variants of interest, and variants of concern?
+===========================================================================================================
+
+A Variant Under Monitoring (VUM) is a term used to signal to public health authorities that a SARS-CoV-2 variant may require prioritized attention and monitoring. The main objective of this category is to investigate if this variant (and others closely related to it) may pose an additional threat to global public health as compared to other circulating variants.
+
+the WHO variant tracking website. A Variant of Interest (VOI) is a term used to describe a SARS-CoV-2 variant with changes that are known to affect how the virus behaves or its potential impact on human health. This can include, for example, its ability to spread, its ability to cause serious disease, or how easily it may be detected or treated. A VOI may also be identified because it has an increased ability to spread when compared with other circulating variants, suggesting a potential emerging risk to global public health.
+
+A Variant of Concern (VOC) is a term that describes a SARS-CoV-2 variant that meets the definition of a VOI (see above), but also meets at least one of the following criteria when compared with other variants:
+
+- it can cause a detrimental change in disease severity
+
+- it can have a substantial impact on the ability of health systems to provide care to patients with COVID-19 or other illnesses and therefore require major public health interventions.
+
+- there is a significant decrease in the effectiveness of available vaccines in protecting against severe disease.
+
+For more information on SARS-COV-2 variants, please visit the WHO variant tracking website.
+
+3. What can I do to protect myself from SARS-CoV-2 variants?
+============================================================
+
+To protect yourself and others from all SARS-CoV-2 (COVID-19), including all the virus variants, consider the following:
+
+- wear a mask when in crowded, enclosed, or poorly ventilated areas, and keep a safe distance from others, as feasible
+
+- practice respiratory etiquette - covering coughs and sneezes
+
+- clean your hands regularly with soap and water or alcohol-based sanitizer
+
+- stay up to date with vaccinations, including booster/additional doses
+
+- stay home if you are sick
+
+- get tested if you have symptoms or you’ve been exposed to SARS-CoV-2.
+
+4. How can we stop new variants from emerging?
+==============================================
+
+As with all viruses, SARS-CoV-2, the virus that causes COVID-19, will continue to evolve as long as it continues to spread. The more that the virus spreads, the more pressure there is for the virus to change. So, the best way to prevent more variants from emerging is to stop the spread of the virus.
+
+Follow these measures to protect yourself and others from all SARS-CoV-2 variants:
+
+- wear a mask when in crowded, enclosed, or poorly ventilated areas, and keep a safe distance from others, as feasible
+
+- practice respiratory etiquette - covering coughs and sneezes
+
+- clean your hands regularly with soap and water or alcohol-based sanitizer
+
+- stay up to date with vaccinations, including additional doses
+
+- stay home if you are sick
+
+- get tested if you have symptoms or you’ve been exposed to SARS-CoV-2
+
+5. Do COVID-19 vaccines protect against newer virus variant?
+============================================================
+
+The COVID-19 vaccines with WHO Emergency Use Listing (EUL) or approval from stringent regulatory authorities (SRAs) provide different levels of protection against infection, mild disease, severe disease, hospitalization, and death, and are most effective against severe disease. Research is ongoing by thousands of scientists around the world to better understand how new virus mutations and variants affect the effectiveness of the different COVID-19 vaccines.
+
+Though current vaccines are less effective at protecting against infection and mild disease than they were for earlier virus variants; if you do get ill after being vaccinated, your symptoms are more likely to be mild.
+
+Remember that while the COVID-19 vaccines with WHO EUL or approved from SRAs are incredibly effective at reducing your risk of developing serious illness and death, no vaccine is 100% effective. This makes it very important to consider continuing to practice protective measures, even after being up to date with the COVID-19 vaccines as recommended by your country’s health authority.
+
+For more information on the COVID-19 vaccine, see COVID-19: Vaccines Q&A.

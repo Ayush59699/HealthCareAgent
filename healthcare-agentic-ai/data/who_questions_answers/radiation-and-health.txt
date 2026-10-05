@@ -1,0 +1,87 @@
+WHO QUESTIONS AND ANSWERS
+Title: Radiation and health
+URL: https://www.who.int/news-room/questions-and-answers/item/radiation-and-health
+Retrieved: 2026-10-05T09:48:54.467921+00:00
+
+========================================
+
+What is radiation and how are people exposed to it?
+===================================================
+
+Radiation is the emission of energy as electromagnetic waves or moving subatomic particles. Natural radiation comes from many naturally occurring radioactive materials found in soil, water, air and in the body. Every day, people inhale and ingest forms of radiation from air, food and water.
+
+Today, the most common artificial sources of human exposure to radiation are X-ray machines and radiopharmaceuticals used for diagnostic or radiotherapy and other medical devices.
+
+Exposure to radiation can result from natural sources (e.g. radon in homes), planned (medical, occupational) or accidental situations. Exposure may be external (with or without contamination of skin, hair, clothes), internal (inhalation, ingestion or via a contaminated wound), or a combination of both.
+
+How does radiation affect my health?
+====================================
+
+Excessive exposure to radiation may damage living tissues and organs, depending on the amount of radiation received (i.e. the dose). The extent of the potential damage depends on several factors, including:
+
+- the type of radiation;
+
+- the sensitivity of the affected tissues and organs;
+
+- the route and duration of exposure;
+
+- the radioactive isotopes involved; and
+
+- the individual characteristics of the exposed person (such as age, gender and underlying health condition).
+
+The risk of developing adverse health effects depends on the radiation dose. The higher the dose, the higher the risk of adverse effects. If the radiation dose is low or is delivered over a long period of time, the risk is substantially lower because the damage to cells and molecules will be repaired by the body.
+
+What are the acute health effects of radiation exposure?
+========================================================
+
+At very high doses, radiation can impair the functioning of tissues and organs and produce acute effects such as nausea and vomiting, skin redness, hair loss, acute radiation syndrome, local radiation injuries (also known as radiation burns), or even death.
+
+In a radiological or nuclear emergency, first responders and the workers of the affected facility (e.g. nuclear power plant workers) are at a greater risk of being exposed to doses of radiation high enough to cause acute effects. The general population, however, is not likely to be exposed to doses high enough to cause the effects mentioned above.
+
+In the case of a radiation emergency, people should follow information from local authorities and comply with urgent protective actions to reduce their risk of exposure.
+
+How can I protect myself if I’m in an affected area?
+====================================================
+
+The three main principles to follow are to “Get in, Stay in and Tune in” in order to receive instructions.
+
+Always follow safety instructions from your local and national authorities and stay connected to receive the latest updates. If you have been instructed to stay inside, do so, as walls and ceilings can provide protection from radioactive fallout outside. If possible, stay in a room with no windows and external doors, and close windows and turn off ventilation systems (air conditioners or heaters) within your home.
+
+Are children at greater risk of being harmed from radiation exposure?
+=====================================================================
+
+Yes, children are more likely to develop adverse health effects from radiation exposure. Younger people's bodies are still growing and developing. As compared to adults, they have more cells that are dividing rapidly. Dividing cells are more sensitive to radiation and vulnerable to damage, which may lead to development of cancer in the future. Children also have a longer lifespan ahead of them, therefore there is more time for cancers to develop and manifest. It is especially important for children to follow instructions for protective measures and to seek medical attention after a radiation emergency as soon as emergency officials say it is safe to do so.
+
+What long-term effects can be expected from radiation exposure?
+===============================================================
+
+Excessive exposure to doses of radiation can increase the risk of certain types of cancer developing in the long term. Radioactive iodine can be released during nuclear emergencies, which, if breathed in or swallowed, will concentrate in the thyroid gland and increase the risk of thyroid cancer in younger people (of 0-18 years).To reduce the risk of developing thyroid cancer, potassium iodide pills can be administered, but this should be done only when instructed by the local authorities.
+
+What is potassium iodide (KI)?
+==============================
+
+Potassium iodide is a medication which, if taken at the right time and at the right dose, blocks radioactive iodine from entering the thyroid gland. This reduces the risk of thyroid cancer in persons aged 0-18 years, if they have been exposed to radioactive iodine.
+
+Will potassium iodide protect people from radiation in general?
+===============================================================
+
+No. Potassium iodide only protects the thyroid gland from radioactive iodine exposure. Not every radiation emergency will have a release of radioactive iodine. The best ways to protect yourself are to follow three main actions: 1) get inside, 2) stay inside until it is safe to leave, and 3) tune in to available information channels and follow instructions from local and national authorities.
+
+What is WHO's role in emergencies?
+==================================
+
+WHO is committed to saving lives and reducing suffering during times of crisis – whether caused by conflict, disease outbreak or a disaster. The Organization works with Member States, international partners and other stakeholders so that the health sector is better prepared to respond to radiological and nuclear emergencies, radiation exposure is minimized, and patients with radiation injuries are rapidly managed. .
+
+More specifically, WHO:
+
+- supports the assessment of countries’ preparedness for radiation emergencies and development of national plans to address critical capacity gaps;
+
+- contributes to the development of strategies, policies and relevant national capacities to respond to radiation emergencies; and
+
+- monitors new and ongoing public health events to assess, communicate and recommend action on public health risks related to potential radiological and nuclear hazards.
+
+In addition, WHO works with countries and partners to:
+
+- ensure readiness to reduce public health risks in the event of emergencies in countries with high vulnerability; and
+
+- provide life-saving health services to affected populations in countries with ongoing emergencies.

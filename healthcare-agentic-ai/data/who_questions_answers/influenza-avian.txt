@@ -1,0 +1,106 @@
+WHO QUESTIONS AND ANSWERS
+Title: Influenza: Avian
+URL: https://www.who.int/news-room/questions-and-answers/item/influenza-avian
+Retrieved: 2026-10-05T09:47:11.632423+00:00
+
+========================================
+
+What is avian influenza?
+========================
+
+Avian influenza, sometimes known as bird flu, is a disease caused by a virus that mainly affects birds but can also affect mammals, including humans. It primarily spreads from infected birds to humans through close contact with birds or contaminated environments, such as in backyard poultry farm settings and at markets where birds are sold. There have also been limited reports of transmission from other infected animals to humans.
+
+Symptoms in humans range from mild to severe, and in some cases, can be fatal. Respiratory symptoms, such as cough, shortness of breath or difficulty breathing, and sore throat are more common but non-respiratory symptoms such as fatigue and muscle or body aches are also reported. Asymptomatic infection has also been found in humans with exposure to infected animals or their environments.
+
+Who is at risk of avian influenza?
+==================================
+
+People who come in contact with infected poultry (live or dead) or contaminated environments, such as farms or live bird markets, are at risk of exposure to avian influenza viruses. Slaughtering, defeathering, handling carcasses and preparing poultry for consumption, especially in household or backyard settings, are also risk factors.
+
+Mammals can also be infected with avian influenza viruses. There are increasing global reports of avian influenza in both wild and domestic animals such as minks, foxes, cats and most recently, dairy cows in the United States of America. Spread from mammals to humans has also been documented.
+
+While human infection with avian influenza viruses has been limited and sporadic so far, individuals who live in or visit regions where outbreaks are occurring in birds or other animals should take precautions and monitor their health. Seek care from your local health professional if you have flu-like symptoms.
+
+How can people protect themselves from avian influenza infections?
+==================================================================
+
+In areas with avian influenza outbreaks in animals, avoid:
+
+- contact with sick or dead animals
+
+- contact with animals in farms and animal markets
+
+- entering areas where animals may be slaughtered
+
+- contact with any surfaces that appear to be contaminated with animal faeces
+
+- slaughtering or eating sick animals.
+
+Follow good food safety practices such as avoiding the consumption of raw milk, eggs and meat; and hand hygiene, including regular handwashing with soap and water.
+
+What should you do if you think you may have avian influenza?
+=============================================================
+
+Seek medical care immediately if you live in or have recently visited an area experiencing an outbreak of avian influenza (also called bird flu) in domestic poultry, wild birds or other animals and you are suffering flu-like symptoms such as fever, cough and difficulty breathing, or conjunctivitis or other unexplained symptoms. Inform your healthcare provider of any exposure to sick or dead animals.
+
+In addition, take protective measures:
+
+- wear a mask and limit contact with others;
+
+- practice respiratory hygiene – covering mouth and nose when coughing or sneezing, disposing of tissues correctly;
+
+- improve ventilation when indoors;
+
+- avoid touching your eyes, nose or mouth; and
+
+- wash your hands with soap and water regularly.
+
+Is it safe to eat animal products such as eggs, milk and meat from areas with outbreaks of avian influenza in animals?
+======================================================================================================================
+
+- Meat products and eggs can be safely consumed, provided they are properly prepared. Please see the question "How can meat and eggs be safely prepared?” for detailed information.
+
+- Consuming raw or incompletely cooked meat and eggs from areas experiencing outbreaks of avian influenza is high-risk and should be avoided. Likewise, animals that are sick or have died unexpectedly should not be eaten.
+
+- Due to the potential health risks to consumers, raw milk should be avoided. WHO advises consuming pasteurized milk. If pasteurized milk isn’t available, heating raw milk until it boils makes it safer for consumption.
+
+How can meat and eggs be safely prepared?
+=========================================
+
+Follow the WHO Five keys to safer food:
+
+- keep clean
+
+- separate raw and cooked foods
+
+- cook thoroughly
+
+- keep food at safe temperatures
+
+- use safe water and raw materials.
+
+Learn more about safe food handling.
+
+Is there a vaccine against avian influenza infection in humans?
+===============================================================
+
+As part of their influenza pandemic preparedness work, some countries have developed and licensed vaccines that could be used for avian influenza viruses. Currently, human infections of avian influenza are limited and vaccines are not recommended.
+
+WHO has agreements with 15 vaccine manufacturers, as part of implementation of the PIP Framework, to access about 10% of real-time production of future pandemic influenza vaccine production in the event of an influenza pandemic. These will be distributed to countries based on public health risk and need.
+
+The seasonal influenza vaccine does not protect against avian influenza, but it may reduce the likelihood of being simultaneously infected with both avian and seasonal influenza viruses (dual infections).
+
+How is avian influenza in humans treated?
+=========================================
+
+Influenza patients should be managed properly to prevent severe illness and death. Patients with laboratory-confirmed influenza virus infection with progressive, complicated or severe illness – or those with asymptomatic or mild disease but who are at increased risk of severe disease – should be treated with antiviral medicines, for example oseltamivir, as soon as possible.
+
+Is it safe to travel to areas reporting avian influenza outbreaks in animals and/or humans?
+===========================================================================================
+
+WHO does not currently recommend travel restrictions related to avian influenza. However, travelers can take certain measures to reduce the risk of infection. Please see the question "How can people protect themselves from avian influenza infections?"
+
+Can avian influenza viruses spread between humans?
+==================================================
+
+Although very limited human-to-human transmission of avian influenza viruses might have occurred in some instances when there had been close or prolonged contact with an infected person, sustained human-to-human transmission (spread between humans) has not been identified to date. Among the 28 human cases that have been reported to WHO since 2021, no human-to-human transmission has been reported.

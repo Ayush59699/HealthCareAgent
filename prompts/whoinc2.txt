@@ -1,0 +1,33 @@
+Implement a simple local WHO knowledge lookup layer using the existing:
+
+* `data/who_fact_sheets/`
+* `data/who_questions_answers/`
+
+Do NOT use embeddings, vector DB, RAG, reranking, or LLMs.
+
+Requirements:
+
+1. Load the existing `index.json` files.
+2. Given a medical query/topic, perform fast local keyword/topic matching against the indexes.
+3. Return the best matching WHO Fact Sheet and/or Q&A documents.
+4. Open the matching `.txt` files and return their full text or relevant sections.
+5. Preserve source title, URL, document type, and filename for provenance.
+6. Support multiple relevant topics from one query.
+7. If no reliable match exists, return an explicit `NO_MATCH` rather than guessing.
+8. Keep it deterministic, lightweight, and memory-safe.
+9. Add unit tests for exact matches, partial matches, multiple matches, and no-match cases.
+10. Do NOT integrate it into the Diagnostic Agent yet.
+
+Create a small reusable module, e.g.:
+
+`rag/who_lookup.py`
+
+and tests under:
+
+`tests/test_who_lookup.py`
+
+Also provide a simple test/demo command showing:
+
+`medical query → matched WHO documents → loaded text + provenance`.
+
+Do not modify AMG or the existing production RAG pipeline.

@@ -1,0 +1,92 @@
+WHO QUESTIONS AND ANSWERS
+Title: Testing for mpox: individuals and communities
+URL: https://www.who.int/news-room/questions-and-answers/item/testing-for-mpox--individuals-and-communities
+Retrieved: 2026-10-05T09:49:54.524302+00:00
+
+========================================
+
+When should I get tested for mpox (also known as monkeypox)?
+============================================================
+
+If you are experiencing an unexplained skin rash or lesions inside your mouth or genital area you should seek medical care. After considering your medical history, symptoms and potential exposures, your healthcare provider will advise you on whether you need to be tested for mpox.
+
+If you know you have been in close contact with someone else with mpox and you have symptoms, you should ask your healthcare provider to be tested. Close contact can mean face-to-face (such as talking); skin-to-skin (such as touching or anal or vaginal sex); mouth-to-mouth (such as kissing); or mouth-to-skin contact (such as oral sex).
+
+Common symptoms of mpox include rash, swollen lymph nodes, fever and body aches, but they can also be more general such as headache, fatigue and a sore throat. Some people also experience a rash or swelling around the genital area or anus or pain and inflammation of the rectum (proctitis). There is more detailed information about mpox symptoms on this infographic1.
+
+You should carefully monitor for symptoms if you have been in contact with someone who has mpox. You can also contact your healthcare provider who can support you as you monitor for symptoms.
+
+Why should I get tested if I have mpox symptoms?
+================================================
+
+If you have symptoms, getting tested for mpox is important for your health and to protect people around you. It is the first step towards making a full recovery without complications.
+
+Knowing if you have mpox will enable you to get the right support in a timely manner. While most people with mpox recover on their own, some people will need social support, counselling and medical care which may include pain management and antibiotics.
+
+Some people have a higher risk of complications if they have mpox. This includes children, people who are pregnant and people who are immunosuppressed including some people living with HIV. It is important for anyone in these high-risk groups who is concerned they may have mpox to seek health advice, including getting tested and, if needed, receiving the appropriate care to manage their symptoms.
+
+Testing is also a vital tool in helping end the outbreak. If you test positive for mpox, take precautions to protect others by wearing a mask and covering your lesions. Precautions could also include a period of self-isolation until your lesions have crusted, the scabs have fallen off and a fresh layer of skin has formed underneath.
+
+Depending on your local context, local health authorities may carry out contact tracing to alert contacts of possible infections while respecting your confidentiality. If we are able to stop more people from getting infected, we can end the outbreak.
+
+How should I get tested if I think I have mpox?
+===============================================
+
+Your healthcare provider can advise you on testing options in your local area if they think you may have mpox. The first step is to have a sample collected. Usually, a sample is collected by a healthcare provider, but you may be given instructions on how to collect your own sample at home.
+
+Your sample will be sent to the laboratory to be tested and it may take a few days to receive the results. During this time your healthcare provider may also link you with support services including counselling, social support, and medical care if required.
+
+Since testing capacity for mpox is still limited around the world, WHO is working to support countries and ensure that everyone who needs a test has access to one.
+
+How should testing for mpox work?
+=================================
+
+First, if you are getting testing in a health facility, you should be placed in a private room or area. Your healthcare provider will be wearing appropriate personal protective equipment (PPE) for sample collection.
+
+A sample will be collected by swabbing your skin or mouth lesions and surrounding skin because lesion material is the best sample type and most likely to give an accurate test result. The healthcare provider may swab more than one of your lesions.
+
+If you do not have lesions other sample types might be collected, including a swab from the back of your throat (oropharyngeal swab) or from your genital and anal area (genital, anal and rectal swabs).
+
+Your healthcare provider will then send your sample to a laboratory where it will be tested for the monkeypox virus. Other possible causes of your lesions may be tested for, to arrive at a diagnosis.
+
+Depending on your local context, the lab will either contact you directly or the results will be returned to your healthcare provider. You should be contacted to receive the result and if necessary be referred for further care.
+
+What kinds of tests are available for mpox?
+===========================================
+
+Currently, mpox testing is done using a laboratory-based technique called polymerase chain reaction (PCR). This type of test is widely used to diagnose many types of infections. At this time, PCR tests are the only method recommended to test for mpox.
+
+There are rapid tests in development that detect antigens (proteins) that are part of the virus. It is not known at this time how easily these antigens are detected, in which samples, or when in the course of infection they may be detected; therefore, we don’t yet know if rapid tests are accurate. Research is ongoing to understand whether and how well antigen tests can be used and with which samples. Because of this, antigen tests should not be used for testing of active infection with the monkeypox virus at this time.
+
+The immune response following infection with monkeypox virus can be checked through antibody tests (sometimes called serological tests). As these tests do not detect the virus itself, they only indicate that you have been exposed to the virus and are not recommended as the sole test for the diagnosis of mpox. Antibody tests are mostly used for research purposes and are not widely available.
+
+How accurate are the results?
+=============================
+
+Positive results from samples taken from lesions are generally very accurate in identifying cases of mpox. It is very unlikely you will get a positive result (false positive) if you do not have mpox.
+
+False negative results, where the result is negative, but the individual does have mpox, are uncommon. They may happen if the sample was collected quite early or late in the course of the illness, as there may have been less virus in the sample. This means that although the test result is negative you might have mpox infection.
+
+Results from other sample types, such as throat, genital, anal or rectal swabs, may be less accurate than samples taken from lesions, but research is ongoing to understand these better.
+
+Generally, a positive result for these can be trusted and it means you are infected; a negative result doesn’t necessarily mean you do not have mpox, as the amount of virus in these samples may be lower and therefore infections can be missed.
+
+What should I do if my test results are positive for mpox?
+==========================================================
+
+If you have a positive test result for mpox, this means you have mpox. Your healthcare provider will advise you on next steps. Take precautions to protect others by following the WHO advice for recovering from mpox at home, if this is what is recommended to you. Isolation could also be in a health care facility until your lesions have crusted, the scabs have fallen off and a fresh layer of skin has formed underneath.
+
+This will help prevent anyone else from getting infected. Your healthcare provider will give you advice on how to take care of yourself.
+
+WHO’s public health advice for recovering from monkeypox at home provides some useful tips.
+
+If you have had close contact (including sex) with anyone in the 21 days before your symptoms started or you tested positive, if possible, you should tell them about your diagnosis so they can monitor for symptoms of mpox and get tested if necessary. Healthcare providers may be able to pass on information to your previous contacts anonymously if you do not feel able to share the information yourself.
+
+Do I have to tell other people that I have mpox?
+================================================
+
+Your test results are private. Neither the laboratory nor your healthcare provider will tell anyone other than you and relevant public health authorities the results of your mpox test.
+
+You are not obliged to tell anyone what your results are. However, letting anyone who you have been in close contact with, after the onset of symptoms know that you have mpox, can help them monitor for symptoms and get tested if required.
+
+If it is safe for you to do without fear of stigma, discrimination or harm, then having open, non-judgmental conversations with people who you have been in close contact with since you developed symptoms can help curb transmission.

@@ -1,0 +1,113 @@
+WHO QUESTIONS AND ANSWERS
+Title: Universal health coverage global monitoring report 2023
+URL: https://www.who.int/news-room/questions-and-answers/item/tracking-universal-health-coverage
+Retrieved: 2026-10-05T09:50:13.328585+00:00
+
+========================================
+
+What is the Universal health coverage global monitoring report?
+===============================================================
+
+The Universal health coverage global monitoring report (UHC GMR) is the official monitoring tool of Sustainable Development Goal (SDG) target 3.8.1 (health service coverage) and SDG 3.8.2 (financial hardship). The report is jointly prepared every other year by WHO and the World Bank.
+
+What data does the report use?
+==============================
+
+The data used to measure the service coverage dimension of UHC are derived from a combination of reported administrative data (from countries), survey-derived estimates (from countries and agencies that conduct surveys such as demographic and health surveys and multiple indicator cluster surveys), and modelled estimates (from WHO technical programmes). The report presents country, regional and global estimates of service coverage for the following reference years: 2000, 2005, 2010, 2015, 2017, 2019 and 2021. More detailed information on specific data sources can be found in annex 1 of the 2023 UHC GMR.
+
+The report presents global and regional estimates of financial hardship for six reference years in the 2000–2019 period (2000, 2005, 2010, 2015, 2017, 2019). The reference year estimates are projections based on data from almost 1000 household surveys from 167 countries representing over 90% of the world’s population, and modelled estimates for the remaining countries and territories for which no household survey data were available.
+
+In addition, the report provides estimates of financial hardship during the COVID-19 pandemic for the 23 countries that continued to collect household survey data in 2020 or 2021. More detailed information on specific data sources can be found in annex 10 of the 2023 UHC GMR.
+
+What is the UHC Service Coverage Index (SCI) and how is it calculated?
+======================================================================
+
+The inclusive nature of UHC and its emphasis on providing quality health services that address needs across the life course pose unique challenges for monitoring SDG 3.8.1. No single index can fully capture all the health services included in UHC. The current UHC Service Coverage Index (SCI) therefore uses a selection of indicators to represent overall coverage of essential health services across the entire population in a country.
+
+A basket of representative essential health services is combined into the SCI across four broad areas of service coverage: reproductive, newborn, maternal and child health; infectious diseases, noncommunicable diseases; and service capacity and access. The SCI is calculated as the average score (out of 100) of 14 tracer indicators selected from these health areas for each country. The regional and global aggregates are calculated as the population-weighted averages of the country-level SCIs.
+
+It is most useful to make comparisons over time across levels of the SCI: very high service coverage (index of 80 and above), high service coverage (index between 60 and 79), medium service coverage (index between 40 and 59), low service coverage (index between 20 and 39) and very low service coverage (index <20).
+
+What is catastrophic out-of-pocket health spending?
+===================================================
+
+Catastrophic health spending refers to people incurring large out-of-pocket health spending relative to their total consumption or income. Specifically, SDG 3.8.2 considers people as suffering catastrophic health spending if their household’s out-of-pocket health spending exceeds 10% or 25% of the household’s income or consumption. As such, catastrophic spending can affect households of all income or consumption levels.
+
+Catastrophic out-of-pocket (OOP) health spending reduces the ability of households to consume other essential goods and services like food, shelter, clothing or education. Those living in or near poverty are particularly vulnerable to being forced to reduce their consumption of necessities due to out-of-pocket health spending which, in turn, may lead to a perpetual vicious cycle of poor health and poverty. For more information consult the SDG 3.8.2 metadata.
+
+What is impoverishing health spending?
+======================================
+
+Indicators of impoverishing health spending complement SDG 3.8.2 catastrophic spending indicators by recognizing that even small out-of-pocket payments in absolute terms can threaten the living standards of people living near or in poverty. Indeed, spending on very basic needs such as food absorbs a much larger share of poorer households’ income.
+
+As a result, in absolute terms poorer households may not be able to spend much, if anything, on health care. That is why indicators of impoverishing health spending identify:
+
+1. people living in poverty that are spending any amount on health directly out of their own pocket. These people are further impoverished by such payments as they are going deeper into poverty because of them and;
+
+2. people who had to reduce their consumption below the subsistence levels identified by the poverty line due to the absolute amounts they spent on health out-of-pocket. These people are impoverished or pushed into poverty by out-of-pocket health payments. Therefore, out-of-pocket health spending is considered as impoverishing if it either pushes or further pushes people below the poverty line.
+
+For more information, please consult box 2.2 and annexes 7 and 8 of Tracking universal health coverage: 2023 global monitoring report.
+
+Are "impoverishing health spending" from the report and "living in or going deeper into poverty due to health costs" from the media the same?
+=============================================================================================================================================
+
+The indicators of impoverishing health spending aim to capture the impact of out-of-pocket health spending on subsistence levels. In the media the language is less technical to facilitate the understanding of the issues. Those identified as going deeper into poverty due to health care costs include both those impoverished and further impoverished (or pushed and further pushed) by out-of-pocket health spending as in both cases they become poorer. However, when reference is made to those living in poverty it concerns only those that are further impoverished, for example they are poor even in the absence of any out-of-pocket health spending but paying for health directly worsened their living condition by reducing even further their basic consumption below minimum levels to secure essential necessities.
+
+The report shows that in 2019 an estimated 344 million people are impoverished and further impoverished by out-of-pocket health spending at the extreme poverty line, how many of them are living in extreme poverty?
+=====================================================================================================================================================================================================================
+
+The 344 million with impoverishing out-of-pocket health spending at the extreme poverty line include:
+
+- 55 million people impoverished or pushed into extreme poverty; and
+
+- 289 million people further impoverished or further pushed into extreme poverty. These are the people living in extreme poverty and spending on health out-of-pocket. In the media, this number is rounded to about 300 million people living in extreme poverty.
+
+Why are there so many population estimates related to financial hardship?
+=========================================================================
+
+The report shows that in 2019, 1 billion people faced catastrophic health spending from spending more than 10% of their household budget on health out of their own pocket. The report also shows that 1.3 billion were pushed or further pushed into relative poverty by out-of-pocket health spending. However, the overall total number of people facing any form of financial hardship is only 2 billion people. This is because indicators of catastrophic and impoverishing out-of-pocket health spending are not mutually exclusive – people might be affected by neither, one or both. There is an overlap, but the report shows that the estimated overlap is small. For more information, see section 2.2.2 of the 2023 UHC GMR.
+
+What is the difference between relative and extreme poverty?
+============================================================
+
+The extreme poverty line, defined as 2.15 purchasing-power-adjusted US dollars per person per day, reflects a global threshold under which a person’s most basic needs cannot be met. Consumption above this threshold, however, does not mean the absence of poverty. This is why the 2023 UHC GMR also presents findings for impoverishment due to healthcare costs for a relative poverty line.
+
+The relative poverty line determines if a person is considered poor by comparing their consumption not to an absolute poverty line like US$ 2.15/day, but to the average consumption of other people in the same country or territory. Specifically for this report, this is defined as those whose consumption lies below 60% of the median per capita consumption in their country.
+
+The report also shows that 344 million people are pushed or further pushed into extreme poverty. Are those part of the 1.3 billion people pushed or further pushed into relative poverty?
+=========================================================================================================================================================================================
+
+There is an overlap, but it hasn’t been estimated yet. This will be done for the next global report. For more information, please consult box 2.2. of the 2023 UHC GMR.
+
+The report mentions that 4.5 billion people are not fully covered by essential health services and 2 billion people faced financial hardship. Are these the same people?
+========================================================================================================================================================================
+
+There is an overlap, but the extent of the overlap is still under investigation. The methodologies, including data sources, used to estimate those fully covered by essential health services and those who faced financial hardship are very different, and therefore it is not straightforward to assess. For more information on the methodologies please consult annex 1, annex 9 and section 2.2. of the 2023 UHC GMR.
+
+How recent is the data in the UHC GMR 2023 report?
+==================================================
+
+The most recent year for the service coverage index depends on data availability and the process of publishing SDG 3.8.1. At the global level, data sources for service coverage have lag times which means that the data is not immediately available for all countries but rather takes time to move through the various data collection, validation and reporting systems.
+
+The estimates published in the 2023 UHC GMR are not living estimates that are continuously updated, but rather provide a snapshot of a specific time period. In the case of the 2023 report, the time period assessed for service coverage is 2000–2021. Data assessment for each update of the time series begins about 18 months prior to publication in each report and can include new data for any year since 2000 that may have become available since the last report. The global and regional estimates of financial hardship in this report are available until 2019 and based on data from over 1000 nationally representative household budget and multipurpose surveys.
+
+Did the COVID-19 pandemic affect data collection and progress monitoring?
+=========================================================================
+
+Most countries do not conduct such surveys every year and, typically, the survey data become available for analysis only 1–2 years after being collected. Even in the best of times, both factors limit the recency of the global and regional estimates of financial hardship that the global monitoring reports can provide. Both factors were also severely exacerbated during the COVID-19 pandemic, which brought household survey data collection and processing to an almost complete halt. For instance, at the beginning of the pandemic in May 2020, 96% of 122 National Statistical Offices interviewed for a study of COVID-19-related data collection disruptions reported that face-to-face data collection had stopped completely. By May 2021, only 44% of 118 national statistical offices had resumed face-to-face data collection. Data availability was thus insufficient for this report to provide global or regional estimates of financial hardship for 2020 or later. However, the report does present evidence on financial hardship during the pandemic from 23 countries which continued their household survey programs in 2020 and 2021.
+
+Did COVID-19 have an impact on progress toward UHC?
+===================================================
+
+While the available evidence points towards an adverse impact of COVID-19 on service coverage, stagnated essential health services expansion has been observed since 2015. The global service coverage index did not change at all between 2019 and 2021, with a global index of 68 out of 100. However, subregional and country-level decreases were observed in some dimensions of the service coverage index, alongside significant acute disruptions in delivering health services not captured by the annual index at the global level.
+
+While a lack of data made it impossible to compute global and regional estimates of financial protection for the 2020–2022 period, evidence from a small sample of countries with data collected during the pandemic indicates a worsening of financial hardship in the general population, particularly among the poor, as well as an uneven and unfinished recovery.
+
+Both indicators for UHC require modern, fit-for-purpose health and financial information systems to regularly report data and improve the timeliness of progress tracking and guide policy design. This is a key call to action in the 2023 UHC GMR.
+
+How can governments and experts use the findings of the report?
+===============================================================
+
+While the evidence presented in this report is global and regional, specific policy recommendations strongly depend on country contexts. Some general lessons can also be drawn from the worrying global and regional trends in service coverage and financial hardship, and the challenges in data availability as noted above. Reaching the goal of UHC by 2030 requires substantial public and private sector investment and accelerated action by governments and partners. This includes reorienting health systems to a primary health care approach bolstering frontline and community healthcare workers and promoting the latest advancements in digital health and technology to advance equity in both the delivery of essential health services and financial protection.
+
+To enable governments and experts to carry out additional and country-specific analyses, the global, regional and country level data presented in this report are freely available to the public via WHO’s Global Health Observatory.

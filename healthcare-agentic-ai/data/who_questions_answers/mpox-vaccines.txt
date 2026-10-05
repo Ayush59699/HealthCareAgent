@@ -1,0 +1,172 @@
+WHO QUESTIONS AND ANSWERS
+Title: Mpox: Vaccines
+URL: https://www.who.int/news-room/questions-and-answers/item/mpox-vaccines
+Retrieved: 2026-10-05T09:47:44.934121+00:00
+
+========================================
+
+This page answers the most frequently asked questions about mpox vaccines. For more information about protecting yourself and others from mpox, please see our public advice page, accessible from the "Related" section of this page.
+
+Is there a vaccine for mpox?
+============================
+
+Yes, there are vaccines available to help prevent and reduce the symptoms of mpox.
+
+There are some important differences between how these vaccines are given, and to whom they can be given. The available vaccines are:
+
+- MVA-BN (also known as Imvamune®, Imvanex® or Jynneos®). This vaccine is given as an injection delivering the vaccine under the skin (subcutaneously). It can also be given between layers of the skin (intradermally), this technique allows a smaller dose (known as a fractional dose) to be given.
+
+- LC16m8 (also known as LC16-KMB®). This vaccine involves lightly pricking the skin multiple times with a special bifurcated needle which helps deliver the vaccine just under the skin.
+
+MVA-BN and LC16m8 both contain a weakened form of a related virus called vaccinia virus to stimulate an immune response in the body.
+
+In addition, a vaccine known as ACAM2000 is currently licensed in the United States of America for prevention of mpox. Due to known side effects in some people, use of this vaccine is restricted.
+
+Why is mpox vaccination important?
+==================================
+
+Vaccination is important because it helps prevent infection and slow the spread of mpox between people. It also helps to protect people from severe illness.
+
+Mpox is mainly spread through close contact with a person who has mpox or contact with contaminated materials such as bedding, and in some places through contact with infected animals. In areas where there is an outbreak, the main aim of mpox vaccination is to prevent transmission among people at risk of being exposed to mpox.
+
+Who should get vaccinated against mpox?
+=======================================
+
+Mpox vaccination is recommended for people at risk of contracting mpox, especially during an outbreak. Whether or not vaccination is advised depends on an individual’s personal risk level and national and local health policies.
+
+This targeted approach prioritizes vaccination for the following people:
+
+- People who have been in close contact with someone who has mpox (including children).
+
+- People living in geographical areas with a high risk of exposure to mpox.
+
+- Healthcare workers at risk of being exposed to mpox, including clinical laboratory and healthcare personnel performing tests to diagnose mpox.
+
+- Mpox outbreak response team members.
+
+- People who have multiple sex partners, including men who have sex with men.
+
+- Sex workers of any gender and their clients.
+
+The risk of severe mpox disease and complications is greater for pregnant women, young children (especially those who are malnourished or affected by other illness), and immunocompromised persons (for example, persons with untreated or uncontrolled advanced HIV infection). In areas with community transmission of mpox, these groups may also be prioritized for vaccination.
+
+It is important to use the available stocks to protect the people who are most at risk. Mass vaccination (vaccination of a large number of people in a country or a region regardless of their level of risk) is not currently recommended.
+
+When should someone get vaccinated against mpox?
+================================================
+
+Mpox vaccines can be given before or after exposure to the virus.
+
+- Before exposure: to reduce the risk of becoming infected.
+
+- After exposure: to reduce the risk of developing symptoms or severe disease.
+
+If you are in a group at risk for whom vaccination is recommended in your country, or were recently in close contact with someone who has mpox symptoms, contact your healthcare provider immediately for advice.
+
+Where possible, people who have been exposed to someone who has mpox should be vaccinated within four days of exposure, or within 14 days if no symptoms develop.
+
+How many doses of the vaccine will I need?
+==========================================
+
+The number of vaccine doses you need depends on which vaccine is available to you.
+
+- MVA-BN vaccine. Typically, this vaccine is given as two full doses, 28 days apart.
+
+To offer vaccination to more people during an mpox outbreak, health authorities might decide to offer:
+
+- two smaller "fractional" doses between layers of the skin, 28 days apart; or,
+
+- one full dose under the skin.
+
+These vaccination schedules can help to ensure that vaccination can benefit as many people as possible.
+
+- LC16m8 vaccine. This is a single dose vaccine, only one dose is needed for the body to develop protection.
+
+Booster doses are not currently recommended.
+
+How effective are the mpox vaccines?
+====================================
+
+Available evidence shows that both MVA-BN and LC16m8 vaccines provide good protection for those fully vaccinated. Latest studies show that people vaccinated with two doses of the MVA-BN vaccine have 82% less chance, and those vaccinated with one dose have 76% less chance, of getting mpox than those who did not get the vaccine.
+
+While some people may still develop mild mpox after vaccination, it will still give them protection against developing severe disease. You should continue to protect yourself wherever possible to reduce your risk of infection and to protect others, even after being vaccinated.
+
+Do mpox vaccines cause side effects?
+====================================
+
+Available evidence shows mpox vaccines are safe and well tolerated in most people. As with any vaccine, some people may experience mild to moderate side effects after being vaccinated against mpox. This is a normal sign that the body is developing immunity.
+
+Common side effects can include pain, redness, swelling and itching at the injection site, muscle pain, headache, and fever.
+
+Most side effects go away within a few days on their own. You can manage any side effects with rest, staying hydrated and taking medication to manage pain and fever, if needed.
+
+In addition to the side effects above, the LC16m8 vaccine causes a “take” at the site of the injection. This is a skin reaction which occurs within two weeks of vaccination and leaves a small scar.
+
+Reports of severe adverse events such as inflammation of the heart (called myocarditis or pericarditis) from these vaccines are very rare. Individuals should alert their local healthcare providers and seek urgent medical care following vaccination if they experience chest pain or other concerning symptoms.
+
+Can I still get mpox after being vaccinated?
+============================================
+
+It takes some time for immunity to develop after you have been vaccinated. How soon you develop maximum immunity depends on which vaccine you receive:
+
+- MVA-BN vaccine: two weeks after your second dose.
+
+- LC16m8 vaccine: within four weeks of a single dose.
+
+Continue taking precautions during this period to avoid mpox. This also helps to protect those around you. The protective behaviours are described here and include:
+
+- Avoiding close contact with anyone who has mpox, including sexual contact.
+
+- If possible, pausing sexual activity with multiple partners.
+
+- Washing hands often with soap and water or an alcohol-based hand rub.
+
+Some people exposed to mpox may still develop mild symptoms even after having been vaccinated; in this case, the vaccine will still provide protection against more serious symptoms and complications. Continue to practice protective behaviours to reduce your risk of being exposed to mpox, even after being vaccinated.
+
+Should I get vaccinated against mpox if I am travelling or have travelled to an area where there is an mpox outbreak?
+=====================================================================================================================
+
+If you are travelling to a place where there is an mpox outbreak, make sure you take steps to avoid exposure to mpox. Vaccination against mpox is not routinely recommended when travelling to a country where there is an mpox outbreak, unless you are at risk of exposure to mpox.
+
+If you have been in close contact with someone who has mpox, contact your local healthcare provider for further guidance on vaccination.
+
+Can I get vaccinated against mpox if I am pregnant or breastfeeding?
+====================================================================
+
+The risk of developing severe mpox increases during pregnancy. The MVA-BN vaccine can be given to pregnant people at risk of exposure to mpox. It can also be given to breastfeeding women. Breastfeeding offers substantial health benefits to breastfeeding women and their breastfed children. WHO does not recommend discontinuing breastfeeding because of vaccination.
+
+The LC16m8 vaccine is not recommended for pregnant or breastfeeding women.
+
+Can children be vaccinated against mpox?
+========================================
+
+- LC16m8 vaccine can be used for children from 1 year of age.
+
+- MVA-BN vaccine is not currently licensed for use in children under 12 years of age, however, available data about children show it is safe. Based on existing safety data, WHO advised that MVA-BN may be used “off-label” for infants and children. This means the vaccine is recommended in emergency situations where the benefits of vaccination outweigh any potential risk. Its use must also be in alignment with national guidelines and approvals.
+
+Can I get vaccinated against mpox if I am living with HIV infection?
+====================================================================
+
+People living with HIV can be vaccinated and should be considered for vaccination as they may be at higher risk of mpox. Either MVA-BN or LC16m8 can be given to persons with treated and well-controlled HIV infection. Only MVA-BN can be given to people living with HIV who are currently immunocompromised (see below).
+
+Can I get vaccinated against mpox if I am immunocompromised?
+============================================================
+
+Immunocompromised people are at risk of developing more severe disease if they get mpox. People who are immunocompromised or who are on medical treatment that results in immune suppression can be vaccinated using the MVA-BN vaccine. The LC16m8 vaccine should not be given to any person who is immunocompromised.
+
+Why are smallpox vaccines being used for mpox?
+==============================================
+
+A weakened form of a virus called vaccinia is used in the smallpox and mpox vaccines. Vaccinia, smallpox and mpox are all from the same family of viruses. The weakened form of the vaccinia virus is safe to use in vaccines to prevent both mpox and smallpox.
+
+Can I get vaccinated against mpox if I was vaccinated against smallpox in the past?
+===================================================================================
+
+If you are eligible for vaccination, you should go ahead and get vaccinated against mpox even if you have documentation proving previous smallpox vaccination or a visible smallpox vaccine scar.
+
+Some mpox vaccines (LC16m8 and ACAM2000) are delivered using a ‘bifurcated needle’. What does this mean?
+========================================================================================================
+
+A bifurcated needle has two tips which your healthcare worker will use to prick the arm for the vaccine to enter your body. The bifurcated needle was designed in the 1960s and was successfully used to vaccinate many millions of people during the smallpox eradication campaign.
+
+In giving the vaccine with a bifurcated needle, a multiple puncture vaccination technique is used, and a small drop of blood appears at the vaccination site. After vaccination, a skin reaction (called a “take”) will appear at the place on the body where the injection is given and you will need to take care of the vaccination site. Follow instructions of your healthcare worker on how to do this.

@@ -1,0 +1,6 @@
+### Full crawl
+From `healthcare-agentic-ai`:
+
+python scripts/crawl_who_questions_answers.py
+
+Use `--force` to refresh existing files or `--limit 5` for validation. The full catalogue download has **not** been run.

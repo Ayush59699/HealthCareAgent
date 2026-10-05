@@ -1,0 +1,86 @@
+WHO QUESTIONS AND ANSWERS
+Title: Malaria: Phase 3 trial results for vaccine RTS,S/AS01
+URL: https://www.who.int/news-room/questions-and-answers/item/phase-3-trial-results-for-malaria-vaccine-rtss-as01
+Retrieved: 2026-10-05T09:48:11.894946+00:00
+
+========================================
+
+This page is no longer being updated. It remains live for reference purposes only.
+
+What is a Phase 3 clinical trial?
+=================================
+
+Clinical trials are a critical source of data for decisions around the development of vaccines, drugs and other medical interventions. They are carried out in several phases.
+
+- Phase 1: Researchers test a new intervention in a small group of people for the first time to evaluate its safety, determine a safe dosage range, and identify side effects.
+
+- Phase 2: The intervention is given to a larger group of people to see if it is effective, to further evaluate its safety and eventually to select optimal dosages.
+
+- Phase 3: The intervention is given to larger numbers of the target group of people to confirm it works (i.e. the efficacy of the intervention), monitor side effects, compare it to commonly used treatments, and collect information that will allow the drug or treatment to be used safely.
+
+- Phase 4: Studies are done after the intervention has been marketed to gather information on the drug's effectiveness in various populations and any side effects associated with long-term use.
+
+Where was the Phase 3 clinical trial for RTS,S conducted?
+=========================================================
+
+The Phase 3 trial of RTS,S/AS01 (RTS,S) was conducted over 5 years (2009–2014) in 7 sub-Saharan African countries: Burkina Faso, Gabon, Ghana, Kenya, Malawi, Mozambique and the United Republic of Tanzania. The trial sites within these countries represented a range of malaria transmission settings (low, medium and high).
+
+Who were the target age groups?
+===============================
+
+The Phase 3 trial enrolled approximately 15 500 infants and young children. There were 2 target age groups:
+
+- Older children received their first dose of the malaria vaccine between 5 and 17 months of age.
+
+- Infants received the vaccine together with other routine childhood vaccines at 6, 10 and 14 weeks of age.
+
+What were the vaccine efficacy trial results?
+=============================================
+
+Children aged 5–17 months
+-------------------------
+
+Among children aged 5–17 months who received three doses of RTS,S administered at 1-month intervals, followed by a fourth dose 18 months later, the vaccine reduced malaria by 39%, equivalent to preventing nearly 4 in 10 malaria cases. In addition, the 4-dose vaccine schedule reduced severe malaria by 31.5% in this age group, with reductions also seen in malaria hospitalizations, all-cause hospitalizations and the need for blood transfusions. Among children aged 5–17 months who did not receive a fourth dose of the vaccine, the protective benefit against severe malaria was lost, highlighting the importance of the fourth dose of this vaccine to maximise its benefits.
+
+Infants
+-------
+
+Among the younger infants, the malaria vaccine did not work sufficiently well to justify its further use in this age group.
+
+Why did vaccine efficacy vary between the 2 target age groups?
+==============================================================
+
+Lower immune responses are induced by the RTS,S vaccine in infants aged 6–12 weeks compared to children aged 5–17 months. Possible factors underlying this difference include interference by co-administration with DTP-containing vaccines, the presence of maternally acquired antibodies to malaria in this age group, and immaturity of the immune system in the 6–12 week olds compared to the 5–17 month age group.
+
+What were the safety results for the vaccine?
+=============================================
+
+In the Phase 3 trial, the vaccine was generally well tolerated, with adverse reactions similar to those of other childhood vaccines. Among children in the older age group, there was an increased risk of febrile seizures within 7 days after any of the vaccine doses. Among the younger infants, this risk was only apparent after the fourth dose. There were no long-lasting consequences due to any of the febrile seizures.
+
+Among children in the older age group, a modest increase in the number of cases of meningitis and cerebral malaria was found in the group receiving the malaria vaccine compared to the control group. It is unclear whether there is a causal link between these findings and the RTS,S vaccinations; this will be further monitored in the pilot implementation programme. This observation was not seen in infants aged 6–12 weeks.
+
+The European Medicines Agency found RTS,S to have an acceptable safety profile. As with other new vaccines, and in line with national regulations, the safety profile of RTS,S will continue to be monitored as the vaccine is made available.
+
+What is an EMA scientific opinion based on Article 58?
+======================================================
+
+The European Medicines Agency (EMA) provides a regulatory procedure (Article 58) to assess the quality, safety and efficacy of a medicine or vaccine that is intended for use only outside the European Union (EU) and to issue a scientific opinion on the benefit-risk ratio of the product. The assessment uses the same standards and procedures as for medicines marketed in the EU. National regulators may use the EMA’s scientific opinion to support their own regulatory review to reach a decision on licensure.
+
+What is the EMA scientific opinion on RTS,S?
+============================================
+
+In July 2015, the EMA issued a “European scientific opinion” on RTS,S. The opinion indicated that, in EMA’s assessment, the quality of the vaccine and its risk-benefit profile was favorable from a regulatory perspective. EMA’s opinion did not consider contextual elements such as the feasibility of implementation, the value of the vaccine in the context of other malaria control measures, and the likely cost-effectiveness of the intervention in different settings. RTS,S is expected to be approved for use in the context of the pilots by the National Regulatory Authorities (NRAs) in each of the three countries participating in the Malaria Vaccine Implementation Programme.
+
+What are the WHO recommendations related to RTS,S?
+==================================================
+
+In October 2015, WHO jointly convened the Strategic Advisory Group of Experts (SAGE) on Immunization and the Malaria Policy Advisory Committee (MPAC) to review all evidence regarding RTS,S relevant for global policy. SAGE/MPAC recommended that pilot implementation of RTS,S occur in 3–5 settings in sub-Saharan Africa, administering 3 doses of the vaccine to children beginning as close to 5 months of age as possible and a fourth dose 15–18 months after the third dose. SAGE and MPAC were not supportive of vaccine use among infants aged 6–12 weeks due to the lower efficacy seen in this age group.
+
+SAGE/MPAC recommended large-scale implementation pilots, to evaluate the extent to which the protection demonstrated in children aged 5–17 months in the Phase 3 trial can be replicated in the context of the routine health system, particularly in view of the need for a 4-dose schedule that requires new immunization contacts.
+
+The pilot implementation should also assess the extent to which RTS,S vaccination impacts mortality, which could not be adequately assessed in the Phase 3 trial due to the very low overall mortality in the trial setting, and whether the excess cases of meningitis and cerebral malaria, identified during the Phase 3 trial, are causally related to RTS,S vaccination or not. The pilot implementation programme will generate critical evidence in 3–5 years’ time to enable decision-making about the potential wider scale use of this vaccine.
+
+WHO officially adopted the SAGE/MPAC recommendations in January 2016 and is strongly supportive of the need to proceed with these pilots as the next step for the RTS,S malaria vaccine.
+
+- WHO position paper on malaria vaccine
+pdf, 536kb

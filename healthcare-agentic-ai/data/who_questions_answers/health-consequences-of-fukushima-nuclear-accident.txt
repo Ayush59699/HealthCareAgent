@@ -1,0 +1,116 @@
+WHO QUESTIONS AND ANSWERS
+Title: Radiation: Health consequences of the Fukushima nuclear accident
+URL: https://www.who.int/news-room/questions-and-answers/item/health-consequences-of-fukushima-nuclear-accident
+Retrieved: 2026-10-05T09:46:17.665877+00:00
+
+========================================
+
+This page is no longer being updated. It remains live for reference purposes only.
+
+What happened?
+==============
+
+On 11 March 2011, a magnitude 9 earthquake occurred off the east coast of Japan, generating a tsunami that severely damaged coastal areas and resulted in 15 891 deaths and 2579 missing people. As a consequence of the tsunami, the Fukushima Daiichi Nuclear Power Station (FDNPS), located along the shoreline, lost its core cooling capacity which caused severe damage to the reactor’s core and led to a nuclear accident rated as Level 7 on the International Nuclear Events Scale (INES). Substantial amounts of radioactive materials (radionuclides) were released into the environment following explosions at the FDNPS on March 12, 14 and 15.
+
+What were the main radionuclides to which people were exposed?
+==============================================================
+
+People living in the vicinity of the FDNPS were exposed externally to irradiation from the radioactive cloud and ground deposits and internally from inhalation and ingestion of radionuclides. The main radionuclides to which individuals were exposed included iodine-131 (131I) and caesium-137 (137Cs). 131I has a radioactive half-life of eight days and can be inhaled with the air and ingested with contaminated food or water, mainly by consumption of contaminated milk and leafy vegetables. In the human body, iodine concentrates in the thyroid gland. Exposure to radioactive iodine is usually higher for children than for adults because of the size of their thyroid glands and the nature of their metabolism. 137Cs has a half-life of 30 years and this implies long term risk of exposure through ingestion and through exposure from ground deposition.
+
+What levels of radiation have people been exposed to?
+=====================================================
+
+Doses of radiation have been estimated based on models and measurements for different representative groups of individuals of the Japanese population. The assessment of the doses included both external and internal (through inhalation of the radioactive plume and ingestion of radioactivity in food) exposure pathways. A large survey of the health of residents of Fukushima Prefecture, the Fukushima Health Management Survey, has estimated individual doses based on typical scenarios of evacuation and time spent indoors and outdoors. Based on this survey and the dose assessments done by WHO and by UNSCEAR, the average lifetime effective doses for adults in the Fukushima prefecture were estimated to be around 10 mSv or less, and about twice for 1-year old infants.
+
+See:
+
+- Preliminary dose estimation from the nuclear accident after the 2011 Great East Japan Earthquake and Tsunami
+
+- Sources, effects and risks of ionizing radiation, UNSCEAR 2013 Report, vol. 1
+
+The doses incurred by workers were reported by the Tokyo Electric Power Company (TEPCO) and by some of its contractors. According to TEPCO records, the average workers’ effective dose over the first 19 months after the accident was about 12 mSv. About 35% of the workforce received total doses of more than 10 mSv over that period, while 0.7% of the workforce received doses of more than 100 mSv. Based on the UNSCEAR assessment, 12 of the most exposed workers received thyroid doses in the range of 2 to 12 Gy, mostly from inhalation of 131I.
+
+What were the main public health consequences of the disaster?
+==============================================================
+
+There were public health consequences related to the response actions to the disaster, such as evacuation and relocation of people. These measures were taken based on radiation safety considerations and the massive damage to the infrastructure and facilities following the earthquake and tsunami. These measures resulted in a wide range of social, economic, and public health consequences. A sharp increase in mortality among elderly people who were put in temporary housings has been reported, along with increased risk of non-communicable diseases, such as diabetes and mental health problems. The lack of access to health care further contributed to deterioration of health.
+
+Similar to what was observed and reported for the Chernobyl population, the displaced Fukushima population is suffering from psycho-social and mental health impact following relocation, ruptured social links of people who lost homes and employment, disconnected family ties and stigmatization. A higher occurrence of post-traumatic stress disorder (PTSD) among the evacuees was assessed as compared to the general population of Japan. Psychological problems, such as hyperactivity, emotional symptoms, and conduct disorders have been also reported among evacuated Fukushima children6. While no significant adverse outcomes were observed in the pregnancy and birth survey after the disaster, a higher prevalence of postpartum depression was noted among mothers in the affected region.
+
+See:
+
+- Psychological distress and the perception of radiation risks: the Fukushima health management survey - WHO bulletin 2015
+
+What are the health implications of the Fukushima Daiichi NPS (FDNPS) nuclear accident?
+=======================================================================================
+
+In 2013, WHO published a health risk assessment from the FDNPS accident. It included an evaluation of the risks of cancers, non-cancer diseases as well as public health considerations. The following year, UNSCEAR published a report on the levels and effects of radiation exposure due to the accident. In 2015, UNSCEAR released a white paper that evaluates new information in the peer-reviewed literature.
+
+See:
+
+- Health risk assessment from the nuclear accident after the 2011 Great East Japan earthquake and tsunami, based on a preliminary dose estimation
+
+- Sources, effects and risks of ionizing radiation, UNSCEAR 2013 Report, Vol. I
+
+- Developments since the 2013 UNSCEAR Report on the levels and effects of radiation exposure due to the nuclear accident following the great east-Japan earthquake and tsunami - UNSCEAR Fukushima 2015 White Paper
+
+There were no acute radiation injuries or deaths among the workers or the public due to exposure to radiation resulting from the FDNPS accident.
+
+Considering the level of estimated doses, the lifetime radiation-induced cancer risks other than thyroid are small and much smaller than the lifetime baseline cancer risks. Regarding the risk of thyroid cancer in exposed infants and children, the level of risk is uncertain since it is difficult to verify thyroid dose estimates by direct measurements of radiation exposure.
+
+For the twelve workers who were estimated to have received the highest absorbed radiation doses to the thyroid, an increased risk of developing thyroid cancer and other thyroid disorders was estimated. About 160 additional workers who received whole body effective doses estimated to be over 100 mSv, an increased risk of cancer could be expected in the future although it will not be detectable by epidemiological studies because of the difficulty of confirming a small incidence against the normal statistical fluctuations in cancer incidence.
+
+From a global health perspective, the health risks directly related to radiation exposure are low in Japan and extremely low in neighbouring countries and the rest of the world.
+
+Is there a risk of radiation-induced thyroid cancer among children of Fukushima prefecture?
+===========================================================================================
+
+Given the exposure to radioactive iodine during the early phase of the emergency, WHO specifically assessed the risk of thyroid cancer. The greatest risk was found among girls exposed as infants (i.e. < 1 year old) in the most affected area in the Fukushima prefecture. Even if those levels of risk might not be clinically detectable, WHO anticipated that the thyroid ultrasound screening programme being conducted in Fukushima prefecture was likely to lead to an increase in the incidence of thyroid diseases due to earlier detection of non-symptomatic cases.
+
+There have been recent reports about thyroid cancer cases being diagnosed among children exposed to low doses of radioactive iodine as a result of the Fukushima accident. These reports should be interpreted with caution. A large excess of thyroid cancer due to radiation exposure, such as occurred after the Chernobyl accident, can be discounted because the estimated thyroid doses due to the Fukushima accident were substantially lower than in Chernobyl. Nevertheless, the highly-sensitive thyroid screening of those under 18 years old at the time of the accident is expected to detect a large number of thyroid cysts and solid nodules, including a number of thyroid cancers that would not have been detected without such intensive screening. Similar or even slightly higher rates of cysts and nodules were found in prefectures not affected by the nuclear accident. The substantial number of cases that have already been observed in the Fukushima Health Management Survey have been considered likely due to the sensitivity of the screening rather than to radiation exposure. Further analysis of epidemiological data being currently collected in Japan will be necessary to evaluate a potential attribution of thyroid cancer to radiation exposure.
+
+Is there any risk from radioactive food contamination in Japan today?
+=====================================================================
+
+Radioactive iodine and caesium in concentrations above the Japanese regulatory limits were detected in some food commodities as a result of food monitoring in the early period after the accident. Since the early phase of the emergency, the Japanese authorities have monitored food contamination closely and implemented protective measures to prevent sale and distribution of contaminated food in Japan and outside of Japan.
+
+WHO works closely with FAO through the International Food Safety Authorities Network (INFOSAN) to ensure that the global community receives the best advice on the matters related to the radioactive contamination in food. Food is still monitored by the Ministry of Health, Labour and Welfare of Japan, which informs INFOSAN about any residual radioactivity levels in food.
+
+What are the public health lessons learned from the response to Fukushima?
+==========================================================================
+
+The Fukushima nuclear accident as a part of a triple disaster was unprecedented in its scale and nature. A number of lessons were learned that help Japan and all countries better plan, prepare, respond and recovery from potential nuclear accidents. These include:
+
+- Evacuation aims to minimize or prevent health risks of radiation exposure. However the process of evacuation itself, especially under the conditions of a severe natural disaster, may pose serious health risks, particularly for vulnerable populations (such as those with disabilities, older populations, young children).
+
+- Relocating thousands of people has caused a wide range of health consequences including increase of disaster-related deaths, psychosocial and access to health care issues. Disrupted infrastructure, disconnection of evacuees from their municipalities, reduced number of health workers and failure of local public health and medical systems due to relocation made it more difficult to address these issues.
+
+- Strengthening of public health services and improving access to health care are key issues for the well-being of evacuees, in addition to mental health and psychological support, behavioral and societal support.
+
+- Risk communication proved to be essential and should be carried out by trained specialists. Health care workers also need education and training on health effects of radiation.
+
+What was WHO response?
+======================
+
+- WHO continues to support Member States in building national capacities for preparedness and response to radiation emergencies and implementing the International Health Regulations (IHR 2005).
+
+- WHO develops technical tools, training and exercises, promotes international cooperation and provides an information-sharing platform with its Radiation Emergency Medical Preparedness and Assistance Network (REMPAN) and its global network of biodosimetry laboratories (BioDoseNet). Through these partnerships, it contributes to the development, promotion, and harmonization of international radiation safety standards.
+
+- WHO supports countries to increase their Disaster Risk Management capacities pursuant to the Sendai framework for disaster risk reduction.
+
+- WHO collaborates with international organizations using the existing inter-agency framework and arrangements under the Joint Radiation Emergency Management Plan of the International Organizations for preparedness for and response to a radiation incident or emergency.
+
+- WHO continues its efforts towards implementation of the International Basic Safety Standards by promoting international cooperation, harnessing research, providing advice on risk assessment and evidence-based policies development.
+
+What is being done to mitigate the public health impact of the Fukushima accident?
+==================================================================================
+
+The Fukushima Health Management Survey (FHMS) is expected to contribute to future health effect assessments. Population health surveillance will permit the identification of additional needs for the delivery of health care. Moreover, as part of the occupational health programmes, a special protocol for medical follow-up of emergency workers is being implemented.
+
+To date, the biggest challenge for the mitigation of the public health consequences of the triple disaster is the restoration of the social fabric and social trust. The Sendai Framework for Disaster Risk Reduction post-2015 underlines that response to major disasters should include social mobilization and empowerment of local communities. Community representatives should be involved in the decision-making on protective and restoration actions that would consider the needs and priorities of local communities.
+
+Steps towards improving the psycho-social and socio-economic consequences of the disaster should be considered. Health systems need to provide effective counselling services and social support in a team approach and people-centered care. Efforts are needed, both inside and outside Japan, to share the lessons learned from Fukushima around the world.
+
+Also see:
+
+- Towards long-term responses in Fukushima - The Lancet, vol. 386, Issue 9992, 1–7 August 2015.

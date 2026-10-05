@@ -1,0 +1,191 @@
+WHO QUESTIONS AND ANSWERS
+Title: Clinical trials
+URL: https://www.who.int/news-room/questions-and-answers/item/clinical-trials
+Retrieved: 2026-10-05T09:43:44.162953+00:00
+
+========================================
+
+What is a clinical trial
+========================
+
+For the purposes of registration, a clinical trial is any research study that prospectively assigns human participants or groups of humans to one or more health-related interventions to evaluate the effects on health outcomes. Clinical trials may also be referred to as interventional trials. Interventions include but are not restricted to drugs, cells and other biological products, surgical procedures, radiologic procedures, devices, behavioural treatments, process-of-care changes, preventive care, etc. This definition includes Phase I to Phase IV trials.
+
+Which trials should be registered?
+==================================
+
+All clinical trials meeting the above definition should be registered. Thus, early and late trials, trials of marketed or non-marketed products, randomized or non-randomized trials -- all should be registered.
+
+What is the difference between a clinical trials register and a clinical trials registry?
+=========================================================================================
+
+A clinical trials register is the formal record of an internationally agreed minimum amount of information about a clinical trial. This record is usually stored in and managed using a database. A clinical trials registry is the entity that houses the register, and is responsible for ensuring the completeness and accuracy of the information it contains, and that the registered information is used to inform health care decision making. A clinical trials registry is more than its database.
+
+Why register clinical trials?
+=============================
+
+Why is Trial Registration Important?
+
+The registration of all interventional trials is considered to be a scientific, ethical and moral responsibility because:
+
+- There is a need to ensure that decisions about health care are informed by all of the available evidence.
+
+- It is difficult to make informed decisions if publication bias and selective reporting are present.
+
+- The Declaration of Helsinki states that "Every clinical trial must be registered in a publicly accessible database before recruitment of the first subject".
+
+- Improving awareness of similar or identical trials will make it possible for researchers and funding agencies to avoid unnecessary duplication.
+
+- Describing clinical trials in progress can make it easier to identify gaps in clinical trials research.
+
+- Making researchers and potential participants aware of recruiting trials may facilitate recruitment.
+
+- Enabling researchers and health care practitioners to identify trials in which they may have an interest could result in more effective collaboration among researchers. The type of collaboration may include prospective meta-analysis.
+
+- Registries checking data as part of the registration process may lead to improvements in the quality of clinical trials by making it possible to identify potential problems (such as problematic randomization methods) early in the research process.
+
+Who is responsible for registering a trial?
+===========================================
+
+An appropriate representative of the trial’s primary Sponsor. The Responsible Registrant is responsible for ensuring that the trial is properly registered. The primary Sponsor may or may not be the primary funder. The responsible registrant should make every reasonable effort to ensure that a trial is registered once and only once in any one register, and that the trial is registered in the fewest number of registers necessary to meet applicable regulations.
+
+When should trials be registered?
+=================================
+
+Trials should be registered before the first participant is recruited.
+
+Can I register with the WHO ICTRP?
+==================================
+
+No, WHO does not maintain its own registry so you cannot register your trial directly with us.
+
+What information needs to be registered?
+========================================
+
+The minimum information that must be registered is specified in the WHO Trial Registration Data Set. Individual registers may request more information than this (e.g., study sites).
+
+Are there software or hardware specifications that should be followed for building a trial registry?
+====================================================================================================
+
+Yes, please contact us.
+
+How many times should a trial be registered?
+============================================
+
+To meet WHO requirements for transparency and publication it is only necessary for your trial to be to registered once, in either a Primary Registry or an ICMJE approved registry.
+
+How do I cite a record on a clinical trials register?
+=====================================================
+
+Please read this document, pdf 21kb
+
+When to cite a record on a clinical trials register
+===================================================
+
+The registry record will be the only publicly available document on a trial until results from the trial are published. Some examples of situations when studies might be quoted are:
+
+- When a manuscript reporting the results of the trial is published or otherwise reported
+
+- When a manuscript reporting methodological issues relating to a particular trial are published or otherwise reported
+
+- In protocols to systematic reviews, or in completed systematic reviews (e.g. when a list of ongoing trials are included)
+
+- In protocols to prospective meta-analyses, which will list the ongoing trials to be included
+
+- In any manuscript when reference to an ongoing or unpublished (or even published) trial might be relevant
+
+What is trial registration?
+===========================
+
+WHO regards trial registration as the publication of an internationally-agreed set of information about the design, conduct and administration of clinical trials. These details are published on a publicly-accessible website managed by a registry conforming to WHO standards.
+
+What is the ICTRP?
+------------------
+
+The International Clinical Trials Registry Platform (ICTRP) is a global initiative that aims to make information about all clinical trials involving humans publicly available. It also aims to:
+
+- To improve the comprehensiveness, completeness and accuracy of registered clinical trial data
+
+- To communicate and raise awareness of the need to register clinical trials
+
+- To ensure the accessibility of registered data
+
+- To build capacity for clinical trial registration
+
+- To encourage the utilization of registered data
+
+- To ensure the sustainability of the ICTRP
+
+What does the ICTRP do?
+=======================
+
+The ICTRP:
+
+- Publishes the ICTRP Search Portal
+
+- Supports the WHO Registry Network
+
+- Supports countries and regions wanting to establish WHO-compliant clinical trial registries or policies on trial registration.
+
+How does the ICTRP support countries and regions?
+=================================================
+
+If an agency in a member state (such as a Ministry of Health or a National Regulatory Authority) is interested in establishing a new clinical trial registry that complies with WHO criteria (or improving an existing registry), or in establishing policies that require registration in an existing Primary Registry, then they can approach the ICTRP for support. The types of support requested will vary and depend on the specific needs of the member state. It may include:
+
+- Advice on how to meet the criteria required by a Primary Registry in the WHO Registry Network
+
+- The different models for achieving trial registration and the need to work with key agencies such as regulatory authorities and research ethics committees (or Institutional Review Boards) to ensure compliance
+
+- Database and software issues, including data interchange standards
+
+- Developing and implementing standard operating procedures to ensure high quality data
+
+- Facilitating collaboration with other member states, particularly those in the same region or those that speak the same language
+
+The ICTRP works with only 1 registry per member state, and encourages collaboration across member states to build regional solutions, particularly when languages are shared. If a member state has more than one registry then it is up to that member state to determine which one will be the national registry.
+
+What is a Primary Registry?
+===========================
+
+A Primary Registry in the WHO Registry Network is a clinical trial registry with at least a national remit that meets WHO Registry Criteria for content, quality and validity, accessibility, unique identification, technical capacity and governance and administration. Primary Registries have the support of the ICMJE.
+
+How does a registry become a Primary Registry in the WHO Registry Network?
+==========================================================================
+
+The ICTRP is a country-led initiative. Clinical trial registration happens when countries seek to improve the transparency of clinical trial research involving nationals of that country, and to be more accountable to the individuals who consent to participate in clinical research, and to better oversee and monitor that research. It is up to each country to decide if they want to have a clinical trial registry and, if so, where that registry will be housed.
+
+To become a Primary Registry in the WHO Registry Network a registry must:
+
+- Submit a Registry Profile (available from the ICTRP Secretariat)
+
+- Meet all of the WHO Registry Criteria
+
+- Be approved by the Chief Scientist of the World Health Organization
+
+- View the list Primary Registries in the WHO Registry Network. Only registries on this list meet WHO requirements.
+
+The designation as a Primary Registry in the WHO Registry Network is conditional on continuing compliance with WHO Registry criteria.
+
+What should I do if I want to take part in clinical trial?
+==========================================================
+
+If you are patient or family member and you find a trial that is of interest we suggest that you print out the information and discuss it with your health care provider. They should be able to advise you on the appropriate course of action.
+
+If you are a health care provider or researcher you should approach one of the contact persons listed in the registered record.
+
+How can I register a trial?
+===========================
+
+You cannot register a trial with WHO. The WHO ICTRP is not a clinical trials registry.
+
+To register a trial, submit the details directly to any one of the Primary Registries in the WHO Registry Network or an ICMJE approved registry.
+
+To meet the requirements of the International Committee of Medical Journal Editors (ICMJE) you can register your trial with any Primary Registry in the WHO Registry Network or an ICMJE approved registry.
+
+To meet WHO requirements for transparency and publication, it is only necessary for your trial to be registered once, in either a Primary Registry in the WHO Registry Network or an ICMJE approved registry.
+
+NOTE: Regulatory, legal, ethical, funding and other requirements for oversight and conduct of clinical trials differ from country to country. It is recommended that those responsible for conducting a clinical trial check to make sure they are complying with the specific requirements of each country.
+
+Which organizations have policies on clinical trial registration?
+=================================================================
+
+https://www.who.int/clinical-trials-registry-platform/network/trial-registration

@@ -1,0 +1,54 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Virus Evolution
+URL: https://www.who.int/news-room/questions-and-answers/item/sars-cov-2-evolution
+Retrieved: 2026-10-05T09:49:21.762358+00:00
+
+========================================
+
+What does it mean to say a virus mutates or changes?
+====================================================
+
+When a virus replicates or makes copies of itself, it sometimes changes a little bit. These changes are called “mutations.” A virus with one or several new mutations is referred to as a “variant” of the original virus.
+
+The more viruses circulate, the more they may change. These changes can occasionally result in a virus variant that is better adapted to its environment compared to the original virus. This process of changing and selection of successful variants is called “virus evolution.”
+
+Some mutations can lead to changes in a virus’s characteristics, such as altered transmission (for example, it may spread more easily) or severity (for example, it may cause more severe disease).
+
+Some viruses change quickly and others more slowly. SARS-CoV-2, the virus which causes COVID-19, tends to change more slowly than others such as HIV or influenza viruses. This could in part be explained by the virus’s internal “proofreading mechanism” which can correct “mistakes” when it makes copies of itself. Scientists continue to study this mechanism to better understand how it works.
+
+Should I be concerned about SARS-CoV-2 changing?
+================================================
+
+It is normal for viruses to change, but it is still something scientists follow closely because there can be important implications. All viruses, including SARS-CoV-2, the virus that causes COVID-19, change over time. So far hundreds of variations of this virus have been identified worldwide. WHO and partners have been following them closely since January 2020.
+
+Most changes have little to no impact on the virus’ properties. However, depending on where the changes are located in the virus’s genetic material, they may affect the virus’s properties, such as transmission (for example, it may spread more easily) or severity (for example, it may cause more severe disease).
+
+WHO and its international network of experts, are monitoring changes to the virus so that if significant mutations are identified, WHO can report any modifications to interventions needed by countries and individuals to prevent the spread of that variant. The current strategies and measures recommended by WHO continue to work against virus variants identified since the start of the pandemic.
+
+See WHO’s Disease Outbreak News for reports on variants.
+
+The best way to limit and suppress the transmission of COVID-19 is for people to continue taking the necessary precautions to keep themselves and others safe.
+
+What is WHO doing to monitor and understand the changes in SARS-CoV-2?
+======================================================================
+
+Since the start of the outbreak, WHO has been working with a global network of expert laboratories around the world to support testing and better understanding of SARS-CoV-2, the virus that causes COVID-19.
+
+Research groups have sequenced SARS-CoV-2 and shared these on public databases, including GISAID. This global collaboration allows scientists to better track the virus and how it is changing.
+
+WHO’s global SARS-CoV-2 laboratory network includes a dedicated SARS-CoV-2 Virus Evolution Working Group, which aims to detect new mutations quickly and assess their possible impact.
+
+WHO recommends that all countries increase the sequencing of SARS-CoV-2 viruses where possible and share sequence data internationally to help one another monitor and respond to the evolving pandemic.
+
+How does SARS-CoV-2 change when it infects animals, and what are the implications?
+==================================================================================
+
+SARS-CoV-2 spreads primarily through human-to-human transmission, but there is evidence of transmission between humans and animals. Several animals like mink, dogs, domestic cats, lions, tigers and raccoon dogs have tested positive for SARS-CoV-2 after contact with infected humans.
+
+There have been reports of large animal outbreaks in mink farms in several countries. SARS-CoV-2 can change while infecting minks. It has been observed that these mink variants are able to transmit back into humans through close contact with the mink. Preliminary results suggest that the mink variants infecting humans appear to have the same properties as other variants of the SARS-CoV-2 virus.
+
+Further research is needed to better understand whether these mink variants will cause sustained transmission among humans and could have a negative impact on countermeasures, such as vaccines.
+
+See WHO’s Disease Outbreak News on Denmark ( 3 December 2020)
+
+WHO works closely with other organizations, such as the Food and Agriculture Organization of the United Nations, and the World Organisation for Animal Health, to evaluate situations of SARS-CoV-2 in animals and transmission occurring between animals and humans.

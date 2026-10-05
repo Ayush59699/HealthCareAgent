@@ -1,0 +1,64 @@
+WHO QUESTIONS AND ANSWERS
+Title: Emergencies: International health regulations and emergency committees
+URL: https://www.who.int/news-room/questions-and-answers/item/emergencies-international-health-regulations-and-emergency-committees
+Retrieved: 2026-10-05T09:45:34.729460+00:00
+
+========================================
+
+What are the International Health Regulations?
+==============================================
+
+The International Health Regulations (2005), or IHR (2005), represents a binding international legal agreement involving 196 countries across the globe, including all the Member States of WHO. Their aim is to help the international community prevent and respond to acute public health risks that have the potential to cross borders and threaten people worldwide. The purpose and scope of the IHR (2005) is to prevent, protect against, control and provide a public health response to the international spread of disease in ways that are commensurate with and restricted to public health risks, and which avoid unnecessary interference with international traffic and trade.
+
+How does the IHR Emergency Committee work?
+==========================================
+
+The Emergency Committee is made up of international experts who provide technical advice to the WHO Director-General in the context of a “public health emergency of international concern” (PHEIC) The Committee provides views on:
+
+- whether the event constitutes a public health emergency of international concern (PHEIC);
+
+- the Temporary Recommendations that should be taken by the country experiencing an emergency of international concern, or by other countries, to prevent or reduce the international spread of disease and avoid unnecessary interference with international trade and travel; and
+
+- the termination of a PHEIC.
+
+The Director-General makes the final determination of a PHEIC and Temporary Recommendations to address the situation, based on advice from the Emergency Committee, information provided by the State Parties, scientific experts and an assessment of risk to human health, risk of international spread of disease and of risk of interference with international travel.
+
+Under the IHR (2005), Temporary Recommendations automatically expire three months after their issuance. Emergency Committees are therefore reconvened at least every 3 months to review the current epidemiological situation and to review whether the event continues to be a public health emergency of international concern and whether changes need to be made to the Temporary Recommendations. A statement of the Emergency Committee meeting is published on the WHO website after each meeting of the Committee.
+
+What is a public health emergency of international concern?
+===========================================================
+
+A PHEIC is defined in the IHR (2005) as, “an extraordinary event which is determined to constitute a public health risk to other States through the international spread of disease and to potentially require a coordinated international response”. This definition implies a situation that is:
+
+- serious, sudden, unusual or unexpected;
+
+- carries implications for public health beyond the affected State’s national border; and
+
+- may require immediate international action.
+
+Who are the members of an IHR Emergency Committee?
+==================================================
+
+Members of an IHR Emergency Committee are drawn from the IHR Experts Roster, established by the Director-General, and, where appropriate, from other WHO expert advisory panels. The IHR Expert Roster is composed of international experts in fields such as disease control, virology, vaccine development or infectious disease epidemiology.
+
+Members can be selected on the basis of expertise required for any particular session. At least 1 member of the Emergency Committee should be an expert nominated by a State Party within whose territory the event arises. These States Parties are invited to present their views to the Emergency Committee. The Director-General may also appoint 1 or more technical experts to advise the Committee, on his or her own initiative or at the request of the Committee.
+
+Persons who are neither members of the IHR Experts Roster nor other WHO Expert Advisory Panels could be appointed as technical experts to advise the Committee, but not as members of the Committee.
+
+The names of members and advisers to an IHR Emergency Committee, their job titles and any other information that could be determined to be a potential conflict of interest are published on WHO’s website.
+
+How are the members of an IHR Emergency Committee chosen?
+=========================================================
+
+Selection of members is based primarily on their technical ability and experience in the relevant fields of expertise. The Director-General aims to ensure that members of the IHR Emergency Committee have the broadest possible geographical representation and reflect diverse knowledge, practical experience and approaches. Achieving gender balance is also a desirable aim.
+
+Members of WHO advisory panels and committees do not receive any remuneration from the Organization.
+
+How are people appointed to the expert advisory panels?
+=======================================================
+
+- A member of an expert advisory panel is an expert appointed by the DG.
+
+- An expert advisory panel may be established by the DG in any field, as and when required by the development of the Organization’s programme.
+
+- Any person possessing qualifications and/or experience relevant and useful to the activities of the Organization in a field covered by an established expert advisory panel may be considered for appointment as a member of that panel – after consultations with the national authorities concerned.

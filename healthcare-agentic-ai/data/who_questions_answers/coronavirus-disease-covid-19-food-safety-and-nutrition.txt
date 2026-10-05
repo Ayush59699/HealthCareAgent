@@ -1,0 +1,101 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Food safety and nutrition
+URL: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-food-safety-and-nutrition
+Retrieved: 2026-10-05T09:44:20.147934+00:00
+
+========================================
+
+This page is no longer being updated. It remains live for reference purposes only.
+
+Can I get COVID-19 from eating fresh foods, like fruits and vegetables?
+=======================================================================
+
+There is currently no evidence that people can catch COVID-19 from food, including fruits and vegetables. Fresh fruits and vegetables are part of a healthy diet and their consumption should be encouraged. Read more in the  COVID-19 and food safety: guidance for food businesses.
+
+How should I wash fruits and vegetables in the time of COVID-19?
+================================================================
+
+Wash fruit and vegetables the same way you would in any other circumstance. Before handling them, wash your hands with soap and water. Then wash fruits and vegetables thoroughly with clean water, especially if you eat them raw.
+
+Can the virus that causes COVID-19 live on the surface of food packaging?
+=========================================================================
+
+Coronaviruses need a live animal or human host to multiply and survive and cannot multiply on the surface of food packages. It is not necessary to disinfect food packaging materials, but hands should be properly washed after handling food packages and before eating (see question 10 of Questions relating to food businesses).
+
+Can the virus that causes COVID-19 be transmitted through the consumption of cooked foods, including animal products?
+=====================================================================================================================
+
+There is currently no evidence that people can catch COVID-19 from food. The virus that causes COVID-19 can be killed at temperatures similar to that of other known viruses and bacteria found in food. Foods such as meat, poultry and eggs should always be thoroughly cooked to at least 70°C. Before cooking, raw animal products should be handled with care to avoid cross-contamination with cooked foods. The WHO 5-Keys to Safer Food provides further information.
+
+Is it safe to go to grocery stores and other food markets?
+==========================================================
+
+Yes, it is generally safe to go grocery shopping and to markets by following the below prevention measures:
+
+- Clean your hands with sanitizer before entering the store.
+
+- Cover a cough or sneeze in your bent elbow or tissue.
+
+- Maintain at least a 1-metre distance from others, and if you can’t maintain this distance, wear a mask (many stores now require a mask).
+
+- Once home, wash your hands thoroughly and also after handling and storing your purchased products.
+
+There is currently no confirmed case of COVID-19 transmitted through food or food packaging.
+
+More information on masks is available here.
+
+For more recommendations on how to minimize the risk of transmission of emerging pathogens in traditional food markets, see the WHO recommendations to reduce risk of transmission of emerging pathogens from animals to humans in live animal markets or animal product markets.
+
+Is it safe to have groceries delivered?
+=======================================
+
+Yes, it is safe to have groceries delivered if the provider follows good personal and food hygiene practices. After accepting food/grocery deliveries, hands should be properly washed.
+
+What is the best household disinfectant for surfaces?
+=====================================================
+
+Regular household cleaning and disinfection products will effectively eliminate the virus from household surfaces. For cleaning and disinfecting households with suspected or confirmed COVID19, surface virucidal disinfectants, such as 0.05% sodium hypochlorite (NaClO) and products based on ethanol (at least 70%), should be used.
+
+What foods should be consumed to support the immune system?
+===========================================================
+
+The immune system requires the support of many nutrients. It is recommended to consume a variety of foods for a healthy and balanced diet, including whole grains, legumes, vegetables, fruits, nuts and animal source foods. There is no single food that will prevent you from catching COVID-19. For more information on a healthy diet, see the Healthy diet fact sheet.
+
+Can micronutrient (vitamin and mineral) supplements prevent COVID-19 in healthy individuals or cure it in those with COVID-19 disease?
+======================================================================================================================================
+
+No. There is currently no guidance on micronutrient supplementation for the prevention of COVID-19 in healthy individuals or for the treatment of COVID-19. Micronutrients are critical for a well-functioning immune system and play a vital role in promoting health and nutritional well-being. Wherever possible, micronutrient intakes should come from a nutritionally balanced and diverse diet, including from fruits, vegetables and animal source foods.
+
+Are vitamin D supplements needed if individuals are not exposed to sunlight due to lockdowns?
+=============================================================================================
+
+Vitamin D can be made in the skin by exposure to sunlight or obtained through the diet from natural sources (e.g. fatty fishes such as salmon, tuna and mackerel, fish liver oils, beef liver, cheese and egg yolks), or from vitamin D-fortified foods or vitamin D-containing supplements.
+
+In situations where individuals’ vitamin D status is already marginal or where foods rich in vitamin D (including vitamin D-fortified foods) are not consumed, and exposure to sunlight is limited, a vitamin D supplement in doses of the recommended nutrient intakes (200-600 IU, depending on age) or according to national guidelines may be considered.
+
+See WHO guidance on Vitamin and mineral requirements in human nutrition.
+
+Are there any herbal teas or herbal supplements that may help prevent or cure COVID-19?
+=======================================================================================
+
+No. There is currently no evidence to support the use of herbal teas or herbal supplements to prevent or cure COVID-19.
+
+Can probiotics help prevent COVID-19?
+=====================================
+
+No. Probiotics are live microorganisms that are generally added to foods or used as a supplement to the diet to confer a health benefit. However, there is currently no evidence to support the use of probiotics to help prevent or cure COVID-19.
+
+Can eating ginger help prevent COVID-19?
+========================================
+
+No. There is no evidence that eating ginger has protected people from COVID-19. However, ginger is a food that may have some antimicrobial and anti-inflammatory properties.
+
+Can eating garlic help prevent COVID-19?
+========================================
+
+No. There is no evidence that eating garlic has protected people from COVID-19. However, garlic is a food that may have some antimicrobial properties.
+
+Can adding pepper to your soup or other meals help prevent or cure COVID-19?
+============================================================================
+
+No. There is no evidence that adding hot peppers to your food can prevent or cure COVID-19.

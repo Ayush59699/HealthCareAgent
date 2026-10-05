@@ -163,3 +163,34 @@ who_fact_sheet_collection:
   safety: One page at a time; delay/timeouts; scoped redirects; per-page failure isolation; cached-file skips unless --force; atomic writes; header-only index rebuilding.
   verification: 20 offline tests passed; 244 live URLs discovered, five sample pages downloaded, zero failed; rerun skipped all five with unchanged hashes/index. Full crawl not performed.
   production_changes: None; AMG, Patient RAG, retrieval, diagnostic, grounding, critic, safety, orchestration and existing corpora/indexes unchanged.
+
+who_questions_answers_collection:
+  request: ../prompts/whoinc.txt
+  script: scripts/crawl_who_questions_answers.py
+  dependencies: requirements-who.txt
+  documentation: docs/who-questions-answers.md
+  tests: tests/test_who_questions_answers.py
+  output: data/who_questions_answers/
+  validation: docs/who-questions-answers-validation.json
+  discovery: Reads WHO catalogue's embedded Q&A item template and qandagroups API configuration; sequential counted pagination; static links also supported; no guessed topics or JavaScript execution.
+  extraction: Complete questions and answers, including collapsed/hidden accordion content, introductions, lists and references; question headings preserved; no rewriting or truncation.
+  safety: Sequential requests, delay/timeouts, scoped redirects, per-page failure isolation, atomic writes, cached-file skips unless --force, header-only index rebuilding.
+  reuse: Imports only pure rendering and atomic-file helpers from unchanged Fact Sheets crawler; no new dependency or application import.
+  verification: 326 live URLs discovered; five sample pages downloaded, zero failed; 37 question/answer pairs and 88 answer text segments verified; rerun skipped all five with unchanged hashes/index. 22 Q&A plus 20 unchanged Fact Sheets tests passed. Full Q&A detail crawl not performed.
+  unchanged: Fact Sheets script/tests/shared requirements and all eight Fact Sheets output files hash-verified unchanged; no production healthcare/RAG/corpus/index changes or diagnostic integration.
+
+who_local_lookup:
+  request: ../prompts/whoinc2.txt
+  module: rag/who_lookup.py
+  symbols: [WHOLookup, Source, DocumentMatch, LookupResult]
+  command: 'python -m rag.who_lookup "asthma and diabetes"'
+  tests: tests/test_who_lookup.py
+  documentation: docs/who-lookup.md
+  validation: docs/who-lookup-validation.json
+  demo_output: outputs/who-lookup-demo.json
+  inputs: Existing data/who_fact_sheets/index.json and data/who_questions_answers/index.json; no corpus/index writes.
+  matching: Standard-library whole-word title/topic lookup; exact then phrase then conservative partial matches; generic/ambiguous matches abstain with explicit NO_MATCH; multiple sources/topics supported.
+  provenance: Original title, URL, type, topic and filename; full matched text loaded after header/path validation; metadata-only search available.
+  memory: Index metadata only between queries; sequential selected-text reads, no cache; 4096-character query, 5 MiB index, 4 MiB document and 20-result caps; no text truncation.
+  verification: 28 new lookup plus 42 unchanged crawler tests passed; Initially 249 local entries, then 569 (244 Fact Sheets, 325 Q&A) after on-disk Q&A expansion; both checkpoints verified against source bytes; CLI works with site packages disabled; 479 protected files unchanged at initial checkpoint before collection update.
+  boundary: No network, embeddings, vector DB, RAG integration, reranker, LLM or clinical inference; no AMG, Patient RAG, production agent/workflow, dependency, crawler or corpus edits.

@@ -1,0 +1,60 @@
+WHO QUESTIONS AND ANSWERS
+Title: Attacks on health care initiative: Documenting the problem
+URL: https://www.who.int/news-room/questions-and-answers/item/attacks-on-healthcare-initiative-documenting-the-problem
+Retrieved: 2026-10-05T09:43:18.327107+00:00
+
+========================================
+
+What are attacks on health care?
+================================
+
+WHO defines an attack on health care as any act of verbal or physical violence or obstruction or threat of violence that interferes with the availability, access and delivery of curative and/or preventive health services during emergencies. The nature and types of attacks vary across contexts and can range from violence with heavy weapons to psychological threats and intimidation.
+
+Examples of types of attacks on health can include:
+
+- Violence with individual weapons
+
+- Violence with heavy weapons
+
+- Psychological violence/threat of violence/intimidation
+
+- Obstruction to delivery of care
+
+- Assault without weapons
+
+- Sexual assault
+
+- Denial of access to services
+
+- Armed or violent search of health resource
+
+- Removal of health care assets
+
+- Setting fire to health resources
+
+- Militarization of health care facility
+
+- Removal of health care assets
+
+What is the Surveillance System for Attacks on Health Care?
+===========================================================
+
+The Surveillance System for Attacks on Health Care (SSA) is a global, standardized monitoring system to collect primary data of attacks on health care. WHO works closely with partners on the ground to gather relevant information, which is then reviewed by the WHO country office, and published in near-real time to the publicly available website: ssa.who.int.
+
+The SSA is used in emergency-affected countries and fragile settings that are priority areas of the WHO Health Emergencies Programme. As of December 2023, there are 21 reporting countries.
+
+Furthermore, the SSA website aggregates the global data and allows users to filter the data for tailored analysis: Surveillance System for Attacks on Health Care (SSA) dashboard.
+
+Is all of the data publicly available?
+======================================
+
+The SSA publishes data that is collected and verified by WHO on the affected health resources, types of attacks and number of affected personnel. Information such as the date of an attack, the country in which it occurred and its associated certainty level is also available. Furthermore, the SSA website aggregates the global data and allows users to filter the data for tailored analysis.
+
+The SSA has specific measures in place to protect the confidentiality of sources and to prevent any further harm to survivors of an attack and affected population. For this reason, WHO does not share data beyond information published on the SSA.
+
+The SSA methodology paper can be downloaded from WHO’s publication platform.
+
+Does WHO seek to identify the perpetrators of the attacks? Why or why not?
+==========================================================================
+
+WHO does not collect nor verify information on perpetrators as WHO does not have the mandate nor the capacity to address the question of perpetrators of attacks. WHO’s objective is not to instigate action in relation to accountability but to increase awareness of the issue by highlighting the extent and consequences of the problem, so as to instigate action to prevent attacks from occurring.

@@ -1,0 +1,111 @@
+WHO QUESTIONS AND ANSWERS
+Title: What's super about super gonorrhoea? a Q&A with Dr Teodora Wi
+URL: https://www.who.int/news-room/questions-and-answers/item/what-s-super-about-super-gonorrhea-a-q-a-with-who-s-dr.-teodora-wi
+Retrieved: 2026-10-05T09:50:33.583968+00:00
+
+========================================
+
+We sat down with Dr Teodora Wi, WHO Medical Officer, specializing in sexually transmitted infections (STIs), to discuss antimicrobial resistance (AMR), gonorrhoea and the future of drug resistant STIs.
+
+Can you explain what exactly is ‘super gonorrhoea’?
+===================================================
+
+We have heard a lot about super gonorrhoea this year. Basically, when we say super gonorrhoea we mean a gonorrhoea ‘superbug’. These are extensively drug-resistant gonorrhoea with high-level resistance to the current recommended treatment for gonorrhoea (ceftriaxone and azithromycin), including resistance to penicillin, sulphonamides, tetracycline, fluoroquinolones and macrolides. The gonorrhoea superbug was previously reported by several countries including France, Japan and Spain, and in 2020 also in Australia and the United Kingdom of Great Britain and Northern Ireland.
+
+What is the current situation of gonorrhoea and resistance to current treatment to gonorrhoea?
+==============================================================================================
+
+Neisseria gonorrhoeae is the second most common bacterial STI and results in substantial morbidity and a huge economic cost worldwide. WHO estimates that in 2020, 82.4 million new cases occurred among adolescents and adults aged 15–49 years worldwide with a global incident rate of 19 (11–29) per 1000 women and 23 (10–43) per 1000 men. Most cases were in the WHO African and Western Pacific Regions.
+
+AMR in gonorrhoea appeared shortly after the introduction of antimicrobials at the beginning of the 20th century. Resistance has continued to expand since then. In countries where appropriate and quality assured surveillance is in place, there are rising trends in decreased susceptibility and increased resistance in N. gonorrhoeae to the last line of antibiotics (cefixime and ceftriaxone).
+
+What causes resistant gonorrhoea?
+=================================
+
+There are 5 reasons for the rise of resistant gonorrhoea.
+
+1. unrestricted access to antimicrobials;
+
+2. inappropriate selection and overuse of antibiotics;
+
+3. suboptimal quality of antibiotics;
+
+4. inherent genetic mutations within the organism which have contributed to the development of a pattern of resistance in N. gonorrhoeae; and
+
+5. extra genital infections – anorectal and pharyngeal – particularly affect key populations such as men who have sex with men. This may also play an important role in the development of resistant strains as N. gonorrhoeae interacts and exchanges genetic material with other co-infections in these anatomical sites. Added challenges are that most infections in the pharynx are asymptomatic, and that antimicrobial drugs do not penetrate the tissue well in that area.
+
+As levels of AMR and resistant infections are on the rise globally, should we expect to see an increase in resistance to other STIs? Is it possible that we will have ‘super’ syphilis or ‘super’ chlamydia in the near future?
+===============================================================================================================================================================================================================================
+
+Yes, there are risks that resistance could be seen in other STIs. In fact, we’re already seeing it. Although the first line treatment of benzathine penicillin remains highly effective, there has been evidence of resistance to azithromycin, commonly used as an alternative treatment for syphilis and other common infections.
+
+There have been no reported cases of ‘super’ syphilis. There is, however, increasing resistance in Mycoplasma genitalium, a common STI that causes urethral discharge, and a common symptom shared with gonorrhoea and chlamydial infection as well. Luckily, there have been no reports yet of resistance to the treatment of chlamydia.
+
+What happens if gonorrhoea is not treated effectively or is untreatable?
+========================================================================
+
+When we talk about the risks of ineffectively-treated gonococcal infections, there are really 3 main areas of concern.
+
+Reproductive implications
+
+Gonococcal infections have critical implications to reproductive, maternal and newborn health including:
+
+- a 5-fold increase of HIV transmission
+
+- infertility, with its cultural and social implications
+
+- inflammation, leading to acute and chronic lower abdominal pain in women
+
+- ectopic pregnancy and maternal death
+
+- first trimester abortion
+
+- severe neonatal eye infections that may lead to blindness.
+
+Financial implications
+
+The financial costs of the complications mentioned above are very high for individuals and governments. AMR further increases this burden by prolonging the infection in more people and increasing the number of people with long-term sequalae. There is a real worry as we see both the number of people becoming infected and a rise in number of people with long-term complications associated with gonococcal infections.
+
+Spread of disease
+
+The emergence of different forms of resistance in N. gonorrhoea is often followed by a rapid spread of the disease. The effect of this is felt in all countries, but with disproportional effects in low- and middle-income countries, whose health systems maybe underdeveloped or lacking resources. It is important to remember that we are all at risk of epidemics produced by antimicrobial resistance.
+
+What can be done to prevent antimicrobial resistance and spread of resistance in antibiotic resistant gonorrhoea?
+=================================================================================================================
+
+To prevent the continued problem of multidrug-resistant N. gonorrhoeae infections two goals must be met.
+
+1. We must control drug resistance
+
+2. We must control gonorrhoea
+
+Controlling gonococcal infections involves a range of actions defined in the Global Health Sector Strategy on HIV, Hepatitis and STIs (2022–2030):
+
+- effective prevention and control of gonococcal infections, using prevention messages and interventions and appropriate evidence-based treatment regimens;
+
+- effective drug regulations in place;
+
+- strengthened AMR surveillance; especially in countries with a high burden of gonococcal infections (expand >70% of countries to report AMR in N. gonorrhoeae to the WHO Gonococcal Antimicrobial Surveillance Programme by 2030, compared to 36% in 2020);
+
+- strengthen the WHO Gonococcal Antimicrobial Surveillance Programme by establishing regional networks of laboratories to perform gonococcal culture, with good quality control mechanisms and linked to epidemiological data;
+
+- systematic monitoring of treatment failures by developing a standard set of protocols for monitoring;
+
+- support research to find low-cost tests to identify N. gonorrhoeae which would allow effective screening;
+
+- ensure high-quality, evidence-based, people-centred services including STI case management with same-day testing and treatment;
+
+- research into newer molecular methods for detecting antimicrobial resistance; and
+
+- support research into alternative effective treatments and vaccines for gonococcal infections.
+
+What new medications are available/what new research needs to be done to stop resistant gonorrhoea becoming a worse issue?
+==========================================================================================================================
+
+Increasing resistance to the last-line treatment for gonorrhoea, poses a big challenge because it limits the treatment choices. The development of resistance clearly outpaces the development of new antibiotics. There is an urgent need to develop new treatment options for gonorrhoea.
+
+The Global Antibiotic Research and Development Partnership (GARDP), a joint initiative between WHO and the Drugs for Neglected Diseases initiative (DNDi), aims to facilitate the development, clinical evaluation and registration of new antimicrobials and therapeutic regimens for gonorrhoea. This is being accompanied by a sound access strategy and stewardship framework, so that the newly developed antibiotics are not lost to resistance within a few years after their introduction.
+
+Gonococcal AMR will only be effectively mitigated when additionally the global gonorrhoea burden is reduced. This is why sexual education is so important.
+
+Apart from prevention through safer sexual behaviour, the development of an effective gonococcal vaccine to prevent transmission is vital. It is likely the only sustainable solution for effective control of gonorrhoea.

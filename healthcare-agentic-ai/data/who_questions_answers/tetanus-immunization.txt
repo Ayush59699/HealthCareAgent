@@ -1,0 +1,48 @@
+WHO QUESTIONS AND ANSWERS
+Title: Tetanus: Immunization
+URL: https://www.who.int/news-room/questions-and-answers/item/tetanus-immunization
+Retrieved: 2026-10-05T09:49:55.823497+00:00
+
+========================================
+
+Should tetanus immunizations be given to survivors with injuries in emergency situations?
+=========================================================================================
+
+In emergency situations where there are serious injuries, tetanus immunization has to be taken into consideration.
+
+As tetanus is a complication of wounds and injuries, it is essential that injured people receive appropriate surgical and medical care of contaminated open wounds. Open wounds must be considered as contaminated and should not be closed. Debridement and removal of dead tissue and debris is essential, and depending on the size of the wound may necessitate a surgical procedure undertaken in appropriate conditions. Wounds should be dressed with sterile dressings and the patient scheduled for delayed primary closure.
+
+Tetanus immunization is usually provided to victims of natural disasters on an as-needed basis for several reasons.
+
+In addition, passive immunization using TIG, preferably of human origin, may be needed for prophylaxis in cases of dirty wounds in incompletely immunized patients. TIG is essential in the treatment and prophylaxis of tetanus cases and should be readily available in all countries.
+
+Types of tetanus vaccines
+-------------------------
+
+- TT - Tetanus Toxoid vaccine
+
+- DTP - Diphtheria, Tetanus and Pertussis vaccine
+
+- DT - Diphtheria toxoid and Tetanus toxoid vaccine
+
+- Td - Tetanus toxoid and Diphtheria toxoid vaccine (low dose diphtheria)
+
+- First, it is not communicable from person-to-person.
+
+- Second, in many parts of the world, most people have already some protection against tetanus through immunization.
+
+In summary, tetanus prevention can be achieved during emergencies through:
+
+- Careful cleaning of wounds, both deep and superficial, can substantially decrease the risk of tetanus. Protecting cleaned wounds from recontamination with dressings, and/or topical disinfectants also is important.
+
+- Protective clothing and closed shoes, if available, should be worn by anyone engaged in clearing away or sifting through debris.
+
+- If possible, TT vaccination should be offered to anyone engaged in debris clean-up and construction. For those who have not received TT in the past, or for whom past vaccination is uncertain, a second dose should be administered 4-8 weeks after the first. The first dose will not provide protection to those who have not previously been vaccinated, but will rather prime the body to produce anti-tetanus immunity with the second dose given at-least 4 weeks later.
+
+- If feasible, vaccination with TT-containing vaccine should be offered to all internally displaced people who have not received at least 3 previous doses.
+
+- Because tetanus risk is high in disaster areas, and because the immunization status of most persons will be unknown, it will be worthwhile to provide doses of TT-containing vaccine, even if only one dose can be assured.
+
+- Tetanus immunoglobulins may be required for managing those with deep wounds.
+
+In emergencies where prior tetanus toxoid immunization levels were low, special attention should be given to preventing maternal and neonatal tetanus, by immunizing women of childbearing age and by improving the hygienic conditions under which childbirths take place. Routine immunization of women and children should also be re-established as soon as possible.

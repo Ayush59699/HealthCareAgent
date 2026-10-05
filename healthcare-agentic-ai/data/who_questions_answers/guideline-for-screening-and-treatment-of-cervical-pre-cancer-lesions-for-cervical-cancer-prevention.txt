@@ -1,0 +1,49 @@
+WHO QUESTIONS AND ANSWERS
+Title: Guideline for screening and treatment of cervical pre-cancer lesions for cervical cancer prevention
+URL: https://www.who.int/news-room/questions-and-answers/item/guideline-for-screening-and-treatment-of-cervical-pre-cancer-lesions-for-cervical-cancer-prevention
+Retrieved: 2026-10-05T09:46:13.453101+00:00
+
+========================================
+
+WHO guideline for screening and treatment of cervical pre-cancer lesions for cervical cancer prevention, second edition
+
+What are the recommendations using the “screen and treat” approach if
+=====================================================================
+
+A. HPV as the primary screening test is positive, and when acetic acid is placed on the cervix to determine treatment eligibility no lesion is seen, but the transformation zone (TZ) is incompletely visualized? (Type 3 TZ)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+When transformation zone is not fully visible because it is endocervical (type 2 or 3 transformation zone), then the patient should be referred for colposcopy and further evaluation
+
+The following criteria make a person eligible for ablative treatment.
+
+- There is no suspicion of invasive cancer or glandular disease (i.e. adenocarcinoma or adenocarcinoma in situ, AIS).
+
+- The transformation zone is fully visible, the whole lesion is visible, and it does not extend into the endocervix.
+
+- The lesion is type 1 transformation zone.
+
+What to do when the patient is not eligible for ablation and colposcopy services are not available?
+
+Interventions may be constrained by feasibility, training, programme quality-assurance and resources. In the absence of certain infrastructure, such as the availability of colposcopes, large loop excision of the transformation zone (LLETZ) or of safe surgical settings, bridging strategies may be considered in carefully selected circumstances, to extend access to treatment rather than provide no treatment. For example, ablation may be an option for a carefully chosen, small type 2 transformation zone where the probe tip will achieve complete ablation of the squamocolumnar junction epithelium – that is, where it can reach the full extent, depth and upper limit of the transformation zone – and where adequate training for selection and follow-up is available.
+
+B. VIA is performed as the primary screening test, no lesion is seen, but the transformation zone (TZ) is incompletely visualized? (Type 3 TZ)
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+As above after a VIA positive screening test, eligibility for ablative treatment needs to be assessed. When transformation zone is not fully visible because it is endocervical (type 2 or 3 transformation zone), then the patient should be referred for colposcopy and further evaluation.
+
+Note above (question 1A) the criteria to make a person eligible for ablative treatment and also what to do when the patient is not eligible for ablation and colposcopy services are not available.
+
+What are the recommendations using the “screen-triage-treat” approach if A. HPV as the primary screening test is positive, the VIA triage test reveals no lesion, but the transformation zone is incompletely visualized? (Type 3 TZ)
+=====================================================================================================================================================================================================================================
+
+The same answer will apply as above. Whether it is as screening or as triage, when the transformation zone is not fully visible, then the patient should be referred for colposcopy and further evaluation.
+
+The same apply if the primary screening test is VIA instead of HPV, and the VIA test is indeterminant because of the Type 3 TZ.
+
+Note above (question 1A) the criteria to make a person eligible for ablative treatment and also what to do when the patient is not eligible for ablation and colposcopy services are not available.
+
+Would the answers to the above questions differ in WLHIV?
+=========================================================
+
+No – Based on evidence available at the moment

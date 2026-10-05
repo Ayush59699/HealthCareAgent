@@ -1,0 +1,70 @@
+WHO QUESTIONS AND ANSWERS
+Title: Radiation: Ultraviolet (UV) radiation
+URL: https://www.who.int/news-room/questions-and-answers/item/radiation-ultraviolet-(uv)
+Retrieved: 2026-10-05T09:49:05.128186+00:00
+
+========================================
+
+What is UV?
+===========
+
+Everyone is exposed to UV radiation from the sun and an increasing number of people are exposed to artificial sources used in industry, commerce and recreation. The sun is by far the strongest source of ultraviolet radiation in our environment. Solar emissions include visible light, heat and ultraviolet (UV) radiation. Just as visible light consists of different colours that become apparent in a rainbow, the UV radiation spectrum is divided into three regions called UVA, UVB and UVC. As sunlight passes through the atmosphere, all UVC and most UVB is absorbed by ozone, water vapour, oxygen and carbon dioxide. UVA is not filtered as significantly by the atmosphere.
+
+Is there a connection between ozone depletion and UV radiation?
+===============================================================
+
+Ozone is a particularly effective absorber of UV radiation. As the ozone layer gets thinner, the protective filter activity of the atmosphere is progressively reduced. Consequently, the people and the environment are exposed to higher levels of UV radiation, especially UVB.
+
+Ozone depletion is caused by human-made chemicals released into the atmosphere and will continue until the use of chlorine and bromine compounds is drastically reduced. International agreements, in particular the Montreal Protocol, are gradually succeeding in phasing out the production of ozone-depleting substances. However, the long life span of the chemicals already released will cause ozone depletion problems to persist for many years to come. A full recovery of the ozone level is not expected until 2050.
+
+The incidence of different types of skin cancer has been growing dramatically over the past decades. Some people claim that this is due to ozone depletion and enhanced levels of UV. However, most evidence now suggests that the major cause for the increased cancer rates is altered behaviour rather than ozone depletion. More outdoor activities and altered sunbathing habits often result in excessive UV exposure. Raised awareness and changes in life-style are urgently needed to alter ongoing trends.
+
+What is the difference between UVA, UVB and UVC?
+================================================
+
+The three types of UV radiation are classified according to their wavelength. They differ in their biological activity and the extent to which they can penetrate the skin. The shorter the wavelength, the more harmful the UV radiation. However, shorter wavelength UV radiation is less able to penetrate the skin.
+
+The UV region covers the wavelength range 100-400 nm and is divided into three bands:
+
+- UVA (315-400 nm)
+
+- UVB (280-315 nm)
+
+- UVC (100-280 nm).
+
+Short-wavelength UVC is the most damaging type of UV radiation. However, it is completely filtered by the atmosphere and does not reach the earth's surface.
+
+Medium-wavelength UVB is very biologically active but cannot penetrate beyond the superficial skin layers. It is responsible for delayed tanning and burning; in addition to these short-term effects it enhances skin ageing and significantly promotes the development of skin cancer. Most solar UVB is filtered by the atmosphere.
+
+The relatively long-wavelength UVA accounts for approximately 95 per cent of the UV radiation reaching the Earth's surface. It can penetrate into the deeper layers of the skin and is responsible for the immediate tanning effect. Furthermore, it also contributes to skin ageing and wrinkling. For a long time it was thought that UVA could not cause any lasting damage. Recent studies strongly suggest that it may also enhance the development of skin cancers.
+
+Which environmental factors affect a person's UV exposure?
+==========================================================
+
+- Time of year and time of day
+
+UV levels vary mainly with the height of the sun in the sky and in mid-latitudes are highest during the summer months during the 4-hour period around solar noon. During these times the sun's rays take the most direct path to earth. In contrast, during early morning or late afternoon hours the sun's rays pass at a greater angle through the atmosphere. Much more UV radiation is absorbed and less reaches the Earth.
+
+- Latitude
+
+UV levels are higher closer to the equator. Closer to the equator the sun's rays have a shorter distance to travel through the atmosphere and therefore less of the harmful UV radiation can be absorbed.
+
+- Altitude
+
+With increasing altitude less atmosphere is available to absorb UV radiation. With every 1000 m in altitude, UV levels increase by approximately 10 per cent.
+
+- Clouds and haze
+
+Be careful not to underestimate the amount of UV radiation passing through clouds.
+
+Many surfaces reflect UV radiation and add to the overall UV levels you experience. While grass, soil or water reflect less than 10 per cent of incident UV radiation, sand reflects about 15 per cent, and sea foam about 25 per cent. Fresh snow is a particularly good reflector and almost doubles a person's UV exposure. Recurring incidences of snow blindness or photokeratitis in skiers emphasize that UV protective measures must take ground reflection into account.
+
+UV levels are highest under cloudless skies, and cloud cover generally reduces a person's exposure. However, light or thin clouds have little effect and may even enhance UV levels because of scattering. Don't be fooled by an overcast day or a cool breeze! Even a long stay in open shade, for example between buildings, may give a sensitive person a sunburn on a day with high UV levels.
+
+- Ozone
+
+Ozone absorbs some of the UV radiation that would otherwise reach the Earth’s surface. Ozone levels vary over the year and even across the day.
+
+- Ground reflection
+
+UV radiation is reflected or scattered to varying extents by different surfaces, e.g. snow can reflect as much as 80% of UV radiation, dry beach sand about 15%, and sea foam about 25%.

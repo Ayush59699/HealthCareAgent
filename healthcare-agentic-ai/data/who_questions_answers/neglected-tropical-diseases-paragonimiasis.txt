@@ -1,0 +1,62 @@
+WHO QUESTIONS AND ANSWERS
+Title: Neglected tropical diseases: Paragonimiasis
+URL: https://www.who.int/news-room/questions-and-answers/item/neglected-tropical-diseases-paragonimiasis
+Retrieved: 2026-10-05T09:47:58.208005+00:00
+
+========================================
+
+Paragonimiasis, or lung fluke disease, is a foodborne trematode infection caused by a number of species of trematodes belonging to the genus Paragonimus.
+
+Where is paragonimiasis most commonly found?
+============================================
+
+Paragonimiasis is endemic in tropical and some subtropical regions of Asia (e.g., China, Philippines, Thailand), Africa (e.g., Nigeria, Ivory Coast, Cameroon), and America (e.g., USA, Mexico, Costa Rica, Panama, Ecuador) (1,2). It is prevalent in areas where people consume raw or undercooked freshwater crustaceans (e.g., crabs, crayfish).
+
+Why are certain cultural practices linked to paragonimiasis?
+============================================================
+
+In many endemic regions, traditional dishes like raw crab salad or marinated crayfish are popular. These practices increase the risk of ingesting Paragonimus larvae, which are not killed without adequate cooking.
+
+Is paragonimiasis a neglected tropical disease?
+===============================================
+
+Yes. Paragonimiasis is considered a neglected tropical disease (NTD) because it primarily affects marginalized, rural communities with limited access to healthcare and education about food safety.
+
+How do humans get infected with Paragonimus?
+============================================
+
+Humans become infected by eating raw or undercooked freshwater crustaceans (crabs, crayfish) containing Paragonimus larvae. The larvae migrate through the intestines and diaphragm to the lungs, where they mature into adult flukes.
+
+Can I get paragonimiasis from drinking water or swimming?
+=========================================================
+
+No, paragonimiasis is not spread by drinking contaminated water or swimming in freshwater. Infection happens only when people eat raw or undercooked freshwater crabs or crayfish that are infected with the parasite. Avoiding raw freshwater seafood is the key to preventing this disease.
+
+What socioeconomic factors fuel paragonimiasis transmission?
+============================================================
+
+Paragonimiasis transmission is influenced by several socioeconomic factors, including poverty, inadequate sanitation, and limited access to healthcare. Communities relying on freshwater sources for drinking and food preparation are at higher risk, as the parasite is transmitted through consumption of raw or undercooked freshwater crustaceans.
+
+Low levels of health education contribute to continued transmission, as people may be unaware of the risks associated with consuming contaminated food. In endemic areas, subsistence fishing and traditional dietary practices increase exposure to the parasite. Strengthening health education, improving sanitation, and expanding access to diagnostic and treatment services are critical to reducing the burden of paragonimiasis
+
+What are the symptoms of paragonimiasis?
+========================================
+
+Symptoms include chronic cough, chest pain, bloody sputum, and difficulty breathing, mimicking tuberculosis. In rare cases, the parasite migrates to the brain, causing headaches, seizures, or neurological damage
+
+Why is paragonimiasis often misdiagnosed as tuberculosis?
+=========================================================
+
+The symptoms of pulmonary paragonimiasis closely resemble those of tuberculosis (TB), leading to frequent misdiagnosis, particularly in regions where TB is prevalent. Both conditions can present with chronic cough, chest pain, and abnormal lung findings on imaging.
+
+Accurate diagnosis requires specific laboratory tests, such as sputum or stool examinations for parasite eggs or serological assays. In some co-endemic regions, such as the Philippines, integrated surveillance programs for both paragonimiasis and TB have been implemented to reduce misdiagnosis and improve disease management.
+
+What are the treatment options for paragonimiasis?
+==================================================
+
+The current first-line treatment for paragonimiasis is triclabendazole. Praziquantel may also be used as an alternative if triclabendazole is not available. Treatment is generally effective, but follow-up may be needed to ensure the infection is fully cleared.
+
+What challenges exist in controlling paragonimiasis?
+====================================================
+
+Limited awareness, lack of diagnostic tools, and cultural resistance to changing traditional food practices hinder control efforts. Improving sanitation and educating communities about safe food preparation are critical.

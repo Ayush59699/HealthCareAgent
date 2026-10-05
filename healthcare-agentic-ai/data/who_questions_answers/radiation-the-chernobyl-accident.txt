@@ -1,0 +1,213 @@
+WHO QUESTIONS AND ANSWERS
+Title: Radiation: The Chernobyl accident
+URL: https://www.who.int/news-room/questions-and-answers/item/radiation-the-chernobyl-accident
+Retrieved: 2026-10-05T09:49:01.522703+00:00
+
+========================================
+
+This page is no longer being updated. It remains live for reference purposes only.
+
+What happened?
+==============
+
+On 26 April 1986, an explosion and fires at the Chernobyl nuclear plant in Ukraine caused the largest uncontrolled radioactive release in the history of the civil nuclear industry. Over the next 10 days, large quantities of radioactive iodine and caesium were released into the air. Most of this material was deposited near the installation, but lighter material was carried by wind currents over Belarus, the Russian Federation and Ukraine and, to some extent, over parts of Europe.
+
+What were the main radionuclides to which people were exposed?
+==============================================================
+
+The main radionuclides to which individuals were exposed were iodine-131, caesium-134 and caesium137.
+
+Iodine-131 has a short radioactive half-life (eight days) and can be transferred to humans rapidly through the air and by consumption of contaminated milk and leafy vegetables. Iodine becomes localized in the thyroid gland. Because many infants and children consume relatively large quantities of milk and dairy products, and because of the size of their thyroid glands and the nature of their metabolism, exposure to radioactive iodine is usually higher for children than for adults.
+
+Caesium isotopes have longer half-lives (caesium-134 and caesium-137 have half-lives of 2 years and 30 years, respectively). There are thus longer-term exposures to these radionuclides through the ingestion pathway and through external exposure from their deposition on the ground.
+
+What levels of exposure did people experience?
+==============================================
+
+The average effective doses among 530,000 recovery operation workers was 120 millisieverts (mSv); among 115,000 evacuees, 30 mSv; among residents of contaminated areas, 9 mSv (during the first two decades after the accident); and among residents of other European countries, less than 1 mSv (in the first year after the accident). In more distant countries, doses of exposure decreased progressively in subsequent years. Since such doses are below the global average annual dose of 2.4 mSv from natural background radiation, the radiation exposures in countries distant from Chernobyl are considered to be of little radiological and public health significance.
+
+What were the impacts on health from Chernobyl?
+===============================================
+
+In 2006, WHO published its report summarizing the data from two decades of research on the health consequences of the Chernobyl accident. It included reviews of studies carried out on cancers, noncancer diseases, immune and genetic effects, and reproductive and children’s health, as well as evidence-based recommendations for national health authorities and for further research.
+
+In 2011, the United Nations Scientific Committee on the Effects of Atomic Radiation (UNSCEAR) published a report entitled "Health effects due to radiation from the Chernobyl accident." The findings were based on more than two decades of experimental and analytical studies of the health consequences of radiation exposure from the Chernobyl accident. The report is the most comprehensive evaluation to date of exposure levels and health effects from the Chernobyl accident.
+
+Radiation sickness
+------------------
+
+According to the UNSCEAR report, the Chernobyl accident caused a number of severe radiation effects almost immediately. Of 600 workers present on the site during the early morning of 26 April 1986, 134 received very high doses (0.8-16 Grey) and suffered from acute radiation sickness. Of those, 28 workers died in the first three months.
+
+Radiation-induced cataracts
+---------------------------
+
+Among those who survived radiation sickness, recovery took several years. Many of them developed radiation-induced cataracts in the first few years after the accident. Recent studies of the recovery operation workers indicate that opacities of the eye lens might result from radiation doses lower than previously expected (about 500 mSv).
+
+Cancers
+-------
+
+For the last two decades, attention has been focused on investigating the association between exposure to radionuclides released in the Chernobyl accident and late effects, in particular thyroid cancer. In the first few months after the accident, radiation dose exposures to the thyroid received were particularly high in children and adolescents living in Belarus, Ukraine and the most affected regions of the Russian Federation, and in those who drank milk with high levels of radioactive iodine. By 2005, more than 6,000 thyroid cancer cases had been diagnosed in this group. It is most likely that a large fraction of these thyroid cancers are attributable to radioiodine intake. Furthermore, it is expected that increases in thyroid cancer incidence due to the Chernobyl accident will continue for many more years, although long-term increases are difficult to quantify.
+
+Apart from the dramatic increase in thyroid cancer incidence among those exposed at a young age, there is some indication of increased leukaemia and cataract incidence among workers. Otherwise, there is no clearly demonstrated increase in the incidence of solid cancers or leukaemia due to radiation in the exposed populations. There also is no convincing proof so far of increases in other nonmalignant disorders that are related to ionizing radiation.
+
+Among 530,000 registered recovery operation workers who worked between 1986 and 1990, the average dose was 120 mSv (ranging from 20 to 500 mSv). That cohort is still potentially at risk of cancer and other diseases and their health continues to be closely followed.
+
+Among Russian recovery operation workers with higher average doses (above 200 mSv), evidence is emerging of some increase in the incidence of leukaemia. Based on other studies, the annual incidence of radiation-induced leukaemia would be expected to fall within a few decades after exposure.
+
+There is a tendency to attribute increases in rates of all cancers over time to the Chernobyl accident, but it should be noted that increases in cancer in the affected areas were also observed before the accident. Moreover, a general increase in mortality has been reported in recent decades in most areas of the former Soviet Union, and this must be taken into account when interpreting the results of the accident-related studies.
+
+Persistent psychological or mental health problems
+--------------------------------------------------
+
+Several international studies have reported that exposed populations, compared to controls, had anxiety symptom levels that were twice as high and were more likely to report multiple unexplained physical symptoms and subjective poor health. Given that rates of mental health problems increase after a disaster and may manifest years after the event, WHO recommends improving availability and access to normal community mental health services in disaster-affected areas.
+
+One of the objectives of the on-going UN inter-agency International Chernobyl Research and Information Network (ICRIN) project is to alleviate the stigma of psychological trauma in society, encourage self-reliance, and empower local communities to take control over their own lives. One of the ways to achieve these goals is to promote healthy lifestyles, including physical activity and healthy diet, and to explain the environmental, behavioural, and other risks for various chronic diseases, including cancer.
+
+Concerns related to fertility and birth defects
+-----------------------------------------------
+
+In the Chernobyl-affected regions, there is no evidence of decreased fertility among males or females in the general population. However, birth rates may be lower in contaminated areas because of a high rate of medical abortions.
+
+Since 1986, there has been a reported increase in congenital malformations in both contaminated and uncontaminated areas of Belarus which predated Chernobyl and may be the result of increased registration of such cases. Based on dose levels to which the majority of the population was exposed, there is unlikely to be a major effect on the number of stillbirths, adverse pregnancy outcomes, delivery complications, or the overall health of children, but monitoring remains important.
+
+Potential impact on health in other European countries
+------------------------------------------------------
+
+So far, there has been no clear evidence of any measurable increases in adverse health effects related to the Chernobyl radiation in countries outside of Belarus, the Russian Federation and Ukraine.
+
+What is the current health risk to people residing in contaminated areas?
+=========================================================================
+
+Currently, concentrations of radioactive caesium (Cs-137) in agricultural food products produced in areas affected by the Chernobyl fallout are generally below national and international standards for actions. In some limited areas with high radionuclide contamination (e.g. in parts of the Gomel and Mogilev regions in Belarus and the Bryansk region in the Russian Federation) or areas with organic poor soils (the Zhytomir and Rovno regions in Ukraine), milk may still be produced with activity concentrations of Cs-137 that exceed national standards for action (100 Becquerel per kilogram). In these areas, countermeasures and environmental remediation may still be warranted.
+
+What are some of the actions taken by the World Health Organization?
+====================================================================
+
+See WHO's Involvement in the Chernobyl Accident for more details on WHO involvement since 1986.
+
+1991
+----
+
+The governments of Belarus, the Russian Federation and Ukraine asked the UN to examine the health effects of the Chernobyl accident and to visit the areas in question. WHO secured US$20 million in extra-budgetary funding to create a project on the health effects of Chernobyl.
+
+1994
+----
+
+WHO's Regional Office for Europe initiated an international project on thyroid pathologies, which ran until September 2000. The project helped Belarus, the Russian Federation and Ukraine enhance the diagnosis, monitoring, and treatment of thyroid pathologies and improve the methods of identification of causes, nature, and estimated scope of radiation-induced thyroid cancer. Special priority was accorded to screening for thyroid cancer, establishment of an integrated database, medical examinations for iodine deficiency, design of testing systems for measuring thyroid gland hormones, capacity-building, including staff training.
+
+1995
+----
+
+A WHO conference in Geneva brought together a broad variety of scientists from all over the world and resulted in publication of a set of key papers in a special 1996 issue of the WHO Bulletin (a copy of the journal is available upon request).
+
+2002
+----
+
+The UN Strategy for Recovery gave all UN agencies and the international community a framework for rebuilding the most-affected areas of Belarus, the Russian Federation and Ukraine.
+
+2003
+----
+
+Within the UN Strategy for Recovery, representatives from the International Atomic Energy Agency (IAEA), the UN Food and Agriculture Organization (FAO), the UN Office for the Coordination of Humanitarian Affairs (OCHA), the UN Development Programme (UNDP), the UN Environment Programme (UNEP), UNSCEAR, WHO and the World Bank and Belarus, the Russian Federation and Ukraine established and launched the Chernobyl Forum.
+
+2006
+----
+
+The Chernobyl Forum released the most authoritative scientific findings of that time on the accident’s consequences for health and the environment. The health impact of the accident was summarized in the report developed by WHO — Health Effects of the Chernobyl Accident and Special Health Care Programmes.
+
+The WHO Expert Group "Health" (EGH) set criteria for inclusion in the report based on solid methodology and reliable estimates of exposure assessment. Consequently, reports published in peerreviewed literature, and available by the time of the Expert Group meetings, were included. National experts from Belarus, the Russian Federation, and Ukraine participated in each EGH meeting and shared the set criteria. The report was finalized at the end 2005 and published in spring 2006.
+
+The International Agency for Research on Cancer (IARC), an international cancer research institution established by WHO, published estimated projections of 25,000 potential excess cancers for Europe (Cardis et al. 2006) through 2065 that might be attributable to exposure to radiation from Chernobyl of which 16,000 cases could be fatal. 2007-2008 Following the UN inter-agency Chernobyl Forum in 2006, the UN launched its Action Plan for the third decade of Chernobyl until 2016. As part of the UN family, WHO has a mandate to implement this Action Plan according to UN General Assembly resolutions.
+
+2007-2008
+---------
+
+Following the UN inter-agency Chernobyl Forum in 2006, the UN launched its Action Plan for the third decade of Chernobyl until 2016. As part of the UN family, WHO has a mandate to implement this Action Plan according to UN General Assembly resolutions.
+
+2009-2011
+---------
+
+The International Chernobyl Research and Information Network (ICRIN) was launched by four United Nations agencies, as a part of the UN Action Plan implementation programme, to meet the information needs of affected communities in Belarus, the Russian Federation and Ukraine. This threeyear initiative is part of a larger effort to help local communities “return to normal” in the course of the decade that ends in 2016 and aims to translate the latest scientific information on the consequences of the accident into sound practical advice for residents of the affected territories. Activities planned under the ICRIN project include the dissemination of information, through education and training for teachers, medical professionals, community leaders, and the media; providing local residents with practical advice on health risks and healthy lifestyles; the creation of internet-equipped information centers in rural areas; and small-scale community infrastructure projects aimed at improving living conditions and promoting self-reliance.
+
+2010
+----
+
+IARC completed an EC-funded project on the development of a strategic research agenda (SRA) for Chernobyl studies (8), where a group of experts and advisors supports proposals for the long-term funding of a Chernobyl Health Effects Research Foundation (similar to the action taken to create the Radiation Effects Research Foundation some years after the atomic bomb exposures in Japan) together with a series of individual studies covering the main health consequences. These include a focus on thyroid cancer, breast cancer, inherited molecular-genetic alterations, various other cancers, cataracts, and other non-cancer diseases in nuclear plant workers and in the general, exposed population.
+
+2011
+----
+
+An UNSCEAR report (9) on Chernobyl recognized that while new research data has become available, major conclusions regarding the scale and nature of the health consequences of the 1986 Chernobyl accident were "essentially consistent with previous assessments".
+
+UNSCEAR reported more than 6,000 cases of thyroid cancer, of which 15 have been fatal, among people who were children or adolescents in Belarus, the four most affected regions in the Russian Federation, and Ukraine. A substantial proportion of cases were associated with radiation exposure. The report also reconfirmed that radiation doses to the public from the 1986 accident were relatively low and most residents "need not live in fear of serious health consequences".
+
+Ongoing
+-------
+
+Since the start of the ICRIN project in 2009, WHO has developed information materials and carried out trainings and workshops targeting primary health care workers, teachers, and mass-media workers of the most affected regions of Belarus, the Russian Federation and Ukraine. An ICRIN side event co-sponsored by WHO was featured in conjunction with the international conference held in Kiev, Ukraine on 20-21 April 2011. Four WHO Collaborating Centres in the Russia Federation and Ukraine are leading the health research project on Chernobyl-affected populations.
+
+What is WHO's relationship with the IAEA?
+=========================================
+
+WHO and the IAEA are both UN entities. WHO is the directing and coordinating authority for health within the United Nations system. It is responsible for providing leadership on global health matters, shaping the health research agenda, setting norms and standards, articulating evidence-based policy options, providing technical support to countries, and monitoring and assessing health trends.
+
+The IAEA is the UN system agency which works with its Member States and multiple partners worldwide to promote safe, secure and peaceful nuclear technologies. WHO collaborates with the IAEA on a number of areas including the medical use of radiation, radiation protection and the safety of the public and workers, and radio-nuclear emergency preparedness and response.
+
+Under the auspices of the UN Chernobyl Forum, WHO carried out its own independent health assessment of the accident. The IAEA assessed the environmental impact and UNDP the socioeconomic impact.
+
+A digest document including summaries of the three reports (WHO Health report, IAEA environmental report, and UNDP socio-economic impact report) entitled Chernobyl Legacy was then prepared jointly by three agencies to present a comprehensive picture of the event, and was endorsed by all participants of the Chernobyl Forum, including eight UN Agencies and the Governments of Belarus, the Russian Federation, and Ukraine.
+
+Mention has often been made of WHO's 1959 agreement with the IAEA. This is a standard agreement similar to agreements it has with other UN agencies as a means of setting out respective areas of work. This agreement has never once been used to stop or restrict WHO’s work.
+
+The agreement serves the purpose of promoting co-operation and consultation between WHO and IAEA. It was approved by the highest governing body of each Organization.
+
+The agreement between WHO and IAEA does not affect the impartial and independent exercise by WHO of its statutory responsibilities, nor does it subordinate one Organization to the other.
+
+The clause appearing in Article III dealing with the safeguarding of confidential information is a standard provision in many agreements of this kind (including WHO agreements with the UN, ILO, FAO, UNESCO, and UNIDO). On the one hand, it ensures each Organization will continue to meet its obligations to protect certain information it is duty bound to safeguard. In the case of information held by WHO, such a clause is relevant, for example, for the protection of clinical and other similar data on individuals. On the other hand, the provision makes clear that subject to such situations, each Organization "shall keep [the] other fully informed [of] all … work" of mutual interest. Thus, such provisions actually work to improve information flow as they limit the exceptions to the free-flow of information. WHO environmental health experts will continue the scientific collaboration with radiation and health experts at IAEA. This entails not only nuclear safety issues and assistance in radiation emergencies, but also the application of clinical techniques connected with such issues.
+
+WHO activities on nuclear matters are not in any way hampered by the WHO/IAEA agreement. Both Organizations are working tirelessly to assist countries and the global community to deal with this complex emergency.
+
+What have been the wider impacts of the Chernobyl accident?
+===========================================================
+
+In countries beyond those most directly affected, Chernobyl triggered questions concerning the safety of crops, milk, food, and water; the effects of radiation exposure on different population groups; and the kind of preventive measures that were to be put in place. In many countries, the accident prompted important political discussions regarding the use of nuclear energy and national energy policies.
+
+Chernobyl underscored the critical need for international coordination and cooperation related to environmental hazards. Chernobyl also prompted UN agencies to develop international agreements and arrangements for nuclear emergencies. In 1986, two international conventions were adopted by the IAEA’s General Conference: the Convention on Early Notification of a Nuclear Accident and the Convention on Assistance in the Case of Nuclear Accident or Radiological Emergency. WHO, which is a party to both conventions, set up the Radiation Emergency Medical Preparedness and Assistance Network - WHO REMPAN - in 1987. Today, the network includes more than 40 centres world-wide specialized in radiation emergency medicine, dosimetry, diagnosis and treatment of radiation injuries, public health interventions and long-term follow-up.
+
+What are other sources of information about Chernobyl?
+======================================================
+
+- WHO-IARC Future of Chernobyl research: the urgency for consolidated action (2020)
+
+- UNSCEAR White paper on thyroid cancer data evaluation (2018)
+
+- Mental health legacy of the Chernobyl disaster (2016)
+
+- Radiation effects and sources – UNEP (2016)
+
+- UNSCEAR Chernobyl report  (2011)
+
+- WHO-IARC Strategic Agenda for Research on Chernobyl – ARCH Project(2008)
+
+- Report of the UN Chernobyl Forum Expert Group “Health” – WHO (2006)
+
+- Report of the UN Chernobyl Forum Expert Group “Environment” – IAEA  (2005)
+
+- Chernobyl Legacy: UN Forum's digest report  (2006)
+
+- In Focus – Chernobyl (IAEA news center)
+
+References
+----------
+
+1. UNSCEAR Chernobyl reports: http://www.unscear.org/unscear/en/chernobyl.html
+
+2. Report of the UN Chernobyl Forum Expert Group “Health”, WHO, Geneva, 2006: http://whqlibdoc.who.int/publications/2006/9241594179_eng.pdf
+
+3. UNSCEAR Chernobyl report (2011): http://www.unis.unvienna.org/unis/en/pressrels/2011/unisinf398.html
+
+4. Launch of ICRIN project, April 2009
+
+5. Chernobyl Legacy: Forum's digest report: http://www.who.int/ionizing_radiation/chernobyl/chernobyl_digest_report_EN.pdf
+
+6. Additional information can be found at: : http://arch.iarc.fr/documents/ARCH_SRA.pdf.

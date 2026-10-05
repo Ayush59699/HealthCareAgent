@@ -1,0 +1,75 @@
+WHO QUESTIONS AND ANSWERS
+Title: WHO Mortality Database
+URL: https://www.who.int/news-room/questions-and-answers/item/who-mortality-database
+Retrieved: 2026-10-05T09:50:50.165999+00:00
+
+========================================
+
+Questions about the WHO Mortality Database and global cause of death statistics.
+
+Q. What are the sources of the cause-of-death statistics?
+=========================================================
+
+The cause-of-death statistics are from country civil registration systems. When a death occurs, this event is registered at the local civil registry with information on the cause of death. The information is then compiled by the national authority and submitted to WHO every year.
+
+Q. Are the deaths medically-certified?
+======================================
+
+WHO only publishes here the medically-certified deaths. Diagnoses on causes of death by lay people are not included.
+
+Q. If the data coverage is not complete, have the data been adjusted for under-coverage?
+========================================================================================
+
+The data presented are as submitted by the countries to WHO. No adjustment has been made to account for under-coverage. Information on the level of data coverage by country are available on same web site where you find this application.
+
+Q. What kind of corrections have been made to the data?
+=======================================================
+
+WHO verifies that the data submitted are coded with the official ICD codes. If non-official codes are used, they would be replaced with the most appropriate official codes.
+
+Q. What are the sources of population data?
+===========================================
+
+Some countries submit regularly their population data. However for those who do not submit such data, the population estimates from the United Nations Population Division have been used.
+
+Q. Which standard population have been used to calculate the age-standardized death rates?
+==========================================================================================
+
+WHO has used the world standard population. See under "Definitions" in the main menu for further information on it.
+
+Q. How are the number of deaths and population presented?
+=========================================================
+
+They are all shown as absolute numbers.
+
+Q. How are the age-standardized death rates (ASDR) presented?
+=============================================================
+
+They are all shown as ASDR per 100 000 of the standard population.
+
+Q. Why are some rates not presented although there are number of deaths?
+========================================================================
+
+Rates are not calculated for countries with a population < 90,000 in 2017 as for small countries any slight variation in numbers would affect to a large extent the rates. Also when coverage is too low, no rates are presented to avoid misinterpretation.
+
+Q. The list of countries does not seem to include all the countries in the world. What are the reasons?
+=======================================================================================================
+
+Simply because some countries do not report mortality data to WHO. However for some countries, the data they sent to WHO are not in standard ICD codes or do not have ICD codes, so they cannot be shown here. In many low-resourced countries, the cause-of-death information is difficult to obtain, mainly because the system for recording such information is not functioning or inexistent. In addition one of the big problems is the lack of medical certifiers to complete the death certificates.
+
+Q. Are the data for the countries listed mutually exclusive?
+============================================================
+
+The data for the countries are mutually exclusive. For e.g. Martinique, Guadeloupe are not included in France.
+
+Q. Why are some latest years of data missing?
+=============================================
+
+Countries usually submit data to WHO within 12-18 months after the closure of their records for the calendar year. Data checking, compilation and verification takes considerable time at the country level.
+
+Q. I would like to analyse causes of deaths other than those listed, how do I proceed?
+======================================================================================
+
+On the same web site where you have found this application, there is link to download the raw detailed mortality files for each individual country by ICD code, year, age and sex.
+
+The data are available for years starting 1950 to date. You should have some experience in handling big databases (over million records) as the files cannot be imported into Excel. You should use a database management or statistical software such as MS Access, Stata, SAS, SPSS or R.

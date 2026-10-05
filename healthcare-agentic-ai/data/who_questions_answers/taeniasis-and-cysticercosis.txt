@@ -1,0 +1,88 @@
+WHO QUESTIONS AND ANSWERS
+Title: Neglected tropical diseases: Taeniasis and cysticercosis
+URL: https://www.who.int/news-room/questions-and-answers/item/taeniasis-and-cysticercosis
+Retrieved: 2026-10-05T09:49:51.822733+00:00
+
+========================================
+
+Taenia solium taeniasis/cysticercosis infection is an important zoonosis of considerable (veterinary) public health concern that mainly affects poor communities. T. solium taeniasis/cysticercosis is also indicative of poor standards of sanitation and inappropriate pig husbandry practices. Neurocysticercosis is a disease induced by T. solium larvae penetrating human tissues, especially the nervous system. Neurocysticercosis burdens economies, societies and individuals because of the impact of epilepsy on wages, health costs and social stigmatization of sufferers.
+
+What are the differences between taeniasis and cysticercosis?
+=============================================================
+
+Taeniasis and cysticercosis are both caused by Taenia species, but they are distinct conditions:
+
+- There are different species of Taenia that can infect humans: T. solium, T. saginata, and T. asiatica. Only T. solium can cause taeniasis and cysticercosis in humans, while T. saginata and T. asiatica cause taeniasis but do not lead to cysticercosis.
+
+- Taeniasis occurs when a person consumes undercooked pork containing cysticerci (larval cysts), leading to an adult tapeworm infection in the intestines. Symptoms are often mild or absent, though some individuals experience digestive issues.
+
+- Cysticercosis occurs when a person ingests T. solium eggs, usually through the faecal-oral route due to poor hygiene practices such as improper handwashing after using the toilet or handling contaminated surfaces or ingesting contaminated food or water. The larvae hatch and form cysts in tissues, including muscles, skin, and the brain (neurocysticercosis), potentially causing severe neurological symptoms such as seizures.
+
+- Taeniasis is mainly an infection in the digestive tract, while cysticercosis is a systemic infection affecting various organs.
+
+Where do the diseases occur?
+============================
+
+Reliable, detailed epidemiological data on geographical distribution of T. solium taeniasis/cysticercosis in people and pigs is scarce, but can be estimated based on reported human and porcine cysticercosis cases and known risk factors like water and sanitation indicators, and data on pig production, population and geographic conditions.
+
+T. solium taeniasis/cysticercosis mainly affects the health and livelihoods of subsistence farming communities in developing countries of Africa, Asia and Latin America. It is common in areas where animal husbandry practices are such that pigs and cattle come into contact with human faeces. But imported taeniasis can also lead to cases in the population of countries where T. solium is not considered a public health problem.
+
+Why do cysticercosis symptoms sometimes appear years after infection?
+=====================================================================
+
+Cysticercosis symptoms can take years to appear because the larvae of Taenia solium can remain dormant in the body for a long time. Initially, the immune system may not react strongly to them. However, when the larvae begin to degenerate or die, they trigger an immune response that causes inflammation. This can lead to symptoms such as seizures, headaches, or fluid buildup in the brain. In some cases, even calcified cysts that previously caused no symptoms can later provoke inflammation, potentially resulting in epilepsy or other neurological problems.
+
+Why do some people with tapeworm infections have no symptoms while others develop serious complications like cysticercosis?
+===========================================================================================================================
+
+The difference lies in how a person becomes infected and which stage of the parasite is involved. Taeniasis is an intestinal infection caused by ingesting undercooked pork containing Taenia solium larvae (cysticerci). In most cases, taeniasis causes little to no symptoms.
+
+Cysticercosis, on the other hand, occurs when a person ingests T. solium eggs—often through contaminated food, water, or poor hygiene. Once inside the body, these eggs hatch into larvae, which can migrate to tissues such as muscles, skin, or the brain. When the larvae form cysts in the brain (neurocysticercosis), they can cause seizures and other neurological problems. The severity of cysticercosis depends on factors such as the number and location of cysts, the body's immune response, and whether the cysts are still growing, degenerating, or calcified over time.
+
+How does Taenia solium spread from person to person, and how can it be prevented?
+=================================================================================
+
+T. solium can spread directly between people. A person with an intestinal tapeworm releases T. solium eggs in their stool, which can contaminate food, water, or surfaces. If someone accidentally swallows these eggs, they can develop cysticercosis. Poor hygiene can also lead to self-infection if an infected person unknowingly ingests eggs from their own stool.
+
+To prevent the spread of T. solium:
+
+- Wash hands properly with soap and clean water, especially after using the toilet and before handling food.
+
+- Improve sanitation to prevent faecal contamination in the environment.
+
+- Avoid eating raw or undercooked pork to reduce the risk of getting a tapeworm infection.
+
+- Diagnose and treat tapeworm infections early to stop the spread of eggs to others.
+
+How do food preparation and cooking affect the risk of being infected with by Taenia solium?
+============================================================================================
+
+Good food preparation and cooking help prevent infections caused by Taenia solium, a parasite that can lead to both tapeworm infection and cysticercosis. People can get a tapeworm by eating raw or undercooked pork that has the parasite. Cooking pork well—until it reaches at least 80°C inside for at least 10 minutes or 70°C for at least 20 minutes—kills the parasite and makes the meat safe to eat (1).
+
+Cysticercosis happens when someone swallows Taenia solium eggs, usually through food or water that has been contaminated with human faeces. This can happen if hands are not washed properly or if raw vegetables are not cleaned well. Washing hands, cleaning cooking surfaces, and rinsing fruits and vegetables with clean water are simple ways to reduce this risk.
+
+----------------------------------
+
+References
+
+1. Møller KS, Ngowi H, Magnussen P, Magne J, Kabululu M, Johansen MV. The effect of temperature and time on the viability of Taenia solium metacestodes in pork. Veterinary Parasitology: Regional Studies and Reports. 2020 Jul 1;21:100436
+
+How do cultural and dietary practices contribute to taeniasis and cysticercosis transmission?
+=============================================================================================
+
+Cultural food preferences, such as consuming raw or undercooked pork (e.g., larb in Thailand, chicharrón crudo in Latin America), significantly contribute to taeniasis transmission. In some communities, pig farming is closely integrated into household environments, leading to higher exposure to contaminated faeces. Religious and traditional beliefs can also influence treatment-seeking behaviour; in certain areas, people prefer traditional remedies over medical treatment, delaying diagnosis and increasing transmission.
+
+What are the economic and social impacts of Taenia solium infections in endemic regions?
+========================================================================================
+
+Cysticercosis and neurocysticercosis can lead to long-term health issues, including epilepsy and disability, which reduce a person’s ability to work and earn a living. Families may face high medical costs for diagnosis and treatment, especially in areas with limited healthcare access. Infected pigs are often unfit for sale or consumption, leading to financial losses for farmers. Additionally, stigma around epilepsy and neurological disorders can affect social relationships and quality of life. Investing in prevention, early treatment, and public awareness can help reduce these burdens.
+
+What role do pigs play in the Taenia solium life cycle, and how can pig farming practices help control transmission?
+====================================================================================================================
+
+Pigs act as an intermediate host for T. solium, becoming infected when they consume human faeces or food contaminated with tapeworm eggs. Infected pigs develop cysts in their muscles, which can infect humans if the meat is undercooked. Improving pig farming practices—such as ensuring pigs are not in contact with human faeces by keeping pigs in enclosed areas, providing safe feed, and ensuring veterinary inspections—can significantly reduce transmission risks.
+
+Why is early detection and treatment of taeniasis important in preventing cysticercosis?
+========================================================================================
+
+Early diagnosis and treatment of taeniasis help stop the spread of T. solium eggs, reducing the risk of cysticercosis in both the infected person and their community. Since taeniasis often has no symptoms, infected individuals may unknowingly spread the parasite.

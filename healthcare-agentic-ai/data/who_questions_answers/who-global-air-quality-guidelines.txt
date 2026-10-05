@@ -1,0 +1,106 @@
+WHO QUESTIONS AND ANSWERS
+Title: WHO Global Air Quality Guidelines
+URL: https://www.who.int/news-room/questions-and-answers/item/who-global-air-quality-guidelines
+Retrieved: 2026-10-05T09:50:44.461416+00:00
+
+========================================
+
+The updated WHO Global Air Quality Guidelines (AQGs) provide recommendations on air quality guideline levels as well as interim targets for six key air pollutants. They also offer qualitative statements on good practices for the management of certain types of particulate matter (PM), for example, black carbon/elemental carbon, ultrafine particles, and particles originating from sand and dust storms, for which there is insufficient quantitative evidence to derive AQG levels.
+
+What are the WHO Global Air Quality Guidelines?
+===============================================
+
+The updated WHO Global Air Quality Guidelines (AQGs) provide recommendations on air quality guideline levels as well as interim targets for six key air pollutants. They also offer qualitative statements on good practices for the management of certain types of particulate matter (PM), for example, black carbon/elemental carbon, ultrafine particles, and particles originating from sand and dust storms, for which there is insufficient quantitative evidence to derive AQG levels.
+
+Based on the extensive scientific evidence currently available, the guidelines identify the levels of air quality necessary to protect public health worldwide. The AQGs also serve as a reference for assessing if, and by how much, the exposure of a population exceeds levels at which it might cause health concerns. They cover some of the most monitored pollutants critical for health, for which evidence on health effects from exposure has advanced the most in the past 15 years. The guidelines focus on so-called classical pollutants, particulate matter (PM₂.₅ and PM₁₀), ozone (O₃), nitrogen dioxide (NO₂), sulfur dioxide (SO₂) and carbon monoxide (CO). When action is taken to reduce these classical pollutants it also has an impact on other pollutants.
+
+Guideline levels for specified pollutants can be used as an evidence-informed reference to help decision-makers in setting legally binding standards and goals for air quality management at international, national and local levels. They are also a practical instrument with which to design effective measures to achieve pollutant emission and concentration reductions, and therefore, to protect human health. WHO periodically issues these health-based AQGs to assist governments and civil society in reducing human exposure to air pollution and its adverse effects.
+
+What is new in these guidelines?
+================================
+
+Since the last 2005 global update, there has been a marked increase in the quality and quantity of evidence that shows how air pollution affects different aspects of health. For that reason, and after a systematic review of the accumulated evidence, several of the updated AQG values are now lower than 15 years ago. There are also now clearer insights about sources of emissions and the contribution of air pollutants to the global burden of disease.
+
+Recommended 2021 AQG levels compared to 2005 air quality guidelines.
+--------------------------------------------------------------------
+
+µg = microgram ᵃ 99th percentile (i.e. 3–4 exceedance days per year). ᵇ Average of daily maximum 8-hour mean O₃ concentration in the six consecutive months with the highest six-month running-average O₃ concentration. Note: Annual and peak season is long-term exposure, while 24 hour and 8 hour is short-term exposure.
+
+Compared to previous WHO guidelines, the new AQGs:
+
+- use new methods for evidence synthesis and guideline development;
+
+- reinforce evidence on health effects;
+
+- provide higher certainty in the evidence of health effects occurring at lower levels than previously understood;
+
+- offer additional AQG levels, such as for peak season O₃ and 24-hour NO₂ and CO, as well as some new interim targets;
+
+- offer new good practice statements on the management of certain types of PM (i.e. black carbon/elemental carbon, ultrafine particles, and particles originating from sand and dust storms).
+
+What is air pollution and where are these pollutants found in daily life?
+=========================================================================
+
+Air pollution is the contamination of the air we breathe, indoors or outdoors, by any chemical, physical or biological agent that is potentially threatening to human and ecosystem health. The pollutants with the most robust evidence for public health concern include particulate matter (PM), ozone (O₃), nitrogen dioxide (NO₂) and sulfur dioxide (SO₂) and carbon monoxide (CO). The health risks associated with PM smaller than or equal to 2.5 microns (µm) in diameter (PM₂.₅) are of particular public health relevance. PM₂.₅ and PM₁₀ are capable of penetrating deep into the lungs and PM₂.₅ can even enter the bloodstream, primarily resulting in cardiovascular and respiratory impacts. In 2013, outdoor air pollution and PM were classified as carcinogenic by WHO’s International Agency for Research on Cancer (IARC).
+
+Air pollution originates from numerous sources of emission, both natural and anthropogenic (resulting from human activity). The main sources of anthropogenic air pollution can vary geographically, but include the energy sector, the transport sector, domestic cooking and heating, waste dump sites, and industrial activities and agriculture. The process of combustion is the greatest contributor to air pollution, in particular the inefficient combustion of fossil fuels and biomass to generate energy. In indoor environments, the use of solid fuels and kerosene in unvented heating and cooking stoves, tobacco combustion and combustion for other purposes, such as cultural or religious practices, are important as well.
+
+How were the recommended AQG levels determined?
+===============================================
+
+The development of WHO guidelines adheres to a rigorous process of reviewing and evaluating evidence, and involves several groups of experts with well-defined roles. A guideline development group defines the scope and key questions of the guidelines, and develops the recommendations, based on the distilled evidence provided by the systematic review team. In addition, an external review group provides valuable comments, while the WHO steering group, composed of WHO staff from all regions, oversees implementation of the project. For the AQGs, more than 500 papers were identified for systematic review and synthetized to get the most up-to-date evidence for establishing the new AQG levels.
+
+These guidelines do not include recommendations about any kind of multiple exposures. In everyday life, people are often exposed to a mixture of air pollutants at the same time. WHO acknowledges the need to develop comprehensive models to quantify the effects of multiple exposures on human health. However, as the main body of evidence on air quality and health still focuses on the impact of single air pollutants on health outcomes, the current guidelines provide recommendations for each air pollutant individually.
+
+Why are the AQGs so important for protecting health?
+====================================================
+
+The burden of disease associated with both ambient and household air pollution exposure is large and growing. This is partly due to increases in exposures in low- and middle-income countries, but in part also due to the rapidly increasing prevalence of noncommunicable diseases (NCDs) worldwide as a result of population ageing and lifestyle changes. Air pollution especially increases morbidity and mortality from the noncommunicable cardiovascular and respiratory diseases that are the major causes of global mortality; it also increases the disease burden from lower respiratory tract infections and increases preterm birth and other causes of death in children and infants, which remain a major cause of the disease burden in low- and middle-income countries.
+
+WHO estimates show that around 7 million premature deaths, mainly from noncommunicable diseases, are attributable to the joint effects of ambient and household air pollution. Global assessments of ambient air pollution alone suggest hundreds of millions of healthy years of life lost, with the greatest attributable disease burden seen in low and middle-income countries.
+
+Although air quality has improved gradually in high-income countries, pollutant concentrations still exceed the 2005 WHO AQGs for several pollutants in many areas. More than 90% of the global population in 2019 lived in areas where concentrations exceeded the 2005 WHO air quality guideline for long-term exposure to PM₂.₅. Air quality has generally deteriorated in most low- and middle-income countries, because of large-scale urbanization and economic development that has largely relied on the inefficient combustion of fossil fuels, like coal, as well as inefficient residential fuel use and industry. However, disparities in air pollution exposure are increasing worldwide, particularly as low- and middle-income countries are experiencing growing levels of air pollution.
+
+How is the burden of poor air quality distributed globally?
+===========================================================
+
+Exposure to air pollutants is heavily dependent on their ambient concentrations. For example, ambient PM₂.₅ concentrations vary substantially between and within regions of the world. Importantly, more than 90% of the global population in 2019 lived in areas where concentrations exceed the 2005 WHO AQG level of 10 µg/m³ – and with the 2021 AQG level being lower there will subsequently be an increase in the attributable health burden in all countries. In 2019, annual population-weighted PM₂.₅ concentrations were highest in the WHO South-East Asia Region and then in the Eastern Mediterranean Region. Elevated concentrations were also observed in some western African countries, largely due to the impact of Saharan dust. Windblown desert dust contributes to sometimes very high exposures to particles larger than 10 µm. This is a prominent issue in many arid areas in the Middle East, northern Africa, the Gobi Desert and elsewhere..
+
+Many of the countries with the lowest national PM₂.₅ exposure levels were either in the WHO Region of the Americas or the European Region. Trends in PM₂.₅ indicate a relatively stable population-weighted global mean concentration, which reflects both decreases in exposure in the European Region, the Americas and recently in some parts of the Western Pacific Region, and increases elsewhere.
+
+How can these guidelines be used?
+=================================
+
+The AQGs provide robust evidence-informed guidance to protect public health from air pollution. Whereas guidelines are not legally binding recommendations, they can be used as an evidence-informed reference tool to help decision-makers in setting legally binding standards and goals for air quality management at international, national and local level. Academic researchers and national and local authorities working in the broad field of air pollution may also find them useful for planning and impact assessments, and they may stimulate further research and monitoring. They can also be used as an advocacy tool for protecting public health from air pollution, for example by civil society and academic groups.
+
+What is the difference between AQG levels, interim targets and good practice statements?
+========================================================================================
+
+- The AQG levels provide evidence-informed quantitative recommendations, based on systematic review of the evidence of adverse health effects (including an indication of the shape of the concentration–response function) for PM₂.₅, PM₁₀, NO₂, O₃, SO₂ and CO, for relevant averaging times and in relation to critical health outcomes.
+
+- Interim targets serve to guide reduction efforts towards the ultimate and timely achievement of the AQG levels. Meeting the interim targets may have a notable benefit for health, especially in those regions where exposures far exceed interim targets.
+
+- Good practice statements help to manage certain types of particulate matter (i.e. black carbon/elemental carbon, ultrafine particles, and particles originating from sand and dust storms), when numerical AQG levels can not be established in the absence of clear quantitative evidence on independent health effects from these pollutants.
+
+How many lives could be saved or improved if countries achieve new AQG levels?
+==============================================================================
+
+Achieving the recommended AQG levels will deliver substantial health benefits globally. WHO has performed a rapid scenario analysis to assess the health gains attributable to improved annual ambient particulate matter concentrations, if the AQG levels were achieved. Around 80% of deaths attributed to PM₂.₅ exposure in the world could be avoided if countries attain the annual AQG level for PM₂.₅. Reaching the interim targets also offers substantial benefits for health. For example, attainment of interim target 4 for PM₂.₅ (the same level as the AQG from 2005), would result in a nearly 48% decrease in total deaths attributed to PM₂.₅ exposure. The highest impact would be observed in the South-East Asia and African regions (57% and 60% reduction respectively).
+
+Results clearly demonstrate a major reduction in the estimated burden of disease, even if other analyses may yield different estimates due to different assumptions made. The WHO scenario analysis showed that if the interim targets were achieved, the greatest benefit in terms of reduced burden of disease would be observed in countries with high PM₂.₅ concentrations and with large populations. Results are significantly different for high-income countries, as in most cases the PM₂.₅ ambient concentrations in these areas are already below the interim targets.
+
+Is there a link between air quality and COVID-19?
+=================================================
+
+Poor air quality is an important risk factor for both acute (e.g. pneumonia) and chronic respiratory and cardiovascular diseases (such as chronic obstructive pulmonary disease or stroke). People with underlying medical conditions are thought to be at a greater risk of developing severe disease from COVID-19 infection; thus, air pollution is most likely a contributing factor to the health burden caused by COVID-19.
+
+During the global COVID-19 pandemic, however, there has been an important, albeit short-term, reduction in concentrations of air pollutants across cities. This reduction was more prominent in the case of nitrogen oxides (NOₓ), a pollutant very much related to traffic, which was dramatically curtailed by lockdown measures. European data for some cities has shown a reduction of around 50%, and in some cases up to 70%, in NO₂ levels compared to pre-lockdown values.
+
+COVID-19 has been a tragedy but, at the same time, the response measures have shown how policies related to transport and the way people work, study and consume, can contribute to a better air quality, something that should be taken into consideration for the post-pandemic recovery policies that many countries are already working on.
+
+How does reducing air pollution also support climate action?
+============================================================
+
+Some air pollutants – particularly black carbon (a component of PM) and tropospheric (ground-level) ozone – are also short-lived climate pollutants, which are linked with both health effects and near-term warming of the planet. They persist in the atmosphere for as little as a few days or months and their reduction has co-benefits not just for health but also for the climate.
+
+Almost all efforts to improve air quality can enhance climate change mitigation, and climate change mitigation efforts can, in turn, improve air quality. Notably, reduction or phase-out of fossil and biomass fuel combustion will reduce greenhouse gas emissions as well as health relevant air pollutants. By promoting environmental sustainability hand in hand with public health protection, we can make large steps towards mitigating climate change and achieving the Sustainable Development Goals.

@@ -1,0 +1,127 @@
+WHO QUESTIONS AND ANSWERS
+Title: Global, regional and national burdens of non-melanoma skin cancer attributable to occupational exposure to solar ultraviolet radiation for 183 countries, 2000–2019
+URL: https://www.who.int/news-room/questions-and-answers/item/global--regional-and-national-burdens-of-non-melanoma-skin-cancer-attributable-to-occupational-exposure-to-solar-ultraviolet-radiation-for-183-countries--2000-2019
+Retrieved: 2026-10-05T09:46:03.689457+00:00
+
+========================================
+
+1. What is occupational exposure to solar ultraviolet radiation?
+================================================================
+
+This is exposure to ultraviolet radiation from sunlight during performing work duties outdoors.1 Ultraviolet radiation is part of the spectrum of electromagnetic radiation emitted by the sun. It can be divided into three bands of different wavelengths, namely: (i) ultraviolet A (UVA), 315–400 nm; (ii) ultraviolet B (UVB), 280–315 nm; and (iii) ultraviolet C (UVC), 100–280 nm.1
+
+2. Does occupational exposure to solar ultraviolet radiation cause non-melanoma skin cancer?
+============================================================================================
+
+The World Health Organization (WHO) International Agency for Research on Cancer has identified solar ultraviolet radiation as causing cancer of the skin in humans (Group 1 carcinogen).2,3 A WHO report of a WHO/ILO systematic review found “sufficient evidence for harmfulness” of occupational exposure to solar ultraviolet radiation for non-melanoma skin cancer.1
+
+3. What are the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury (WHO/ILO Joint Estimates)?
+===================================================================================================================
+
+These are the official estimates of the United Nations, produced by WHO and the International Labour Organization (ILO), of the burden of disease attributable to occupational risk factors.4,5 Occupational risk factors can include: exposure to long working hours, occupational exposure to poor air quality, or occupational exposure to solar ultraviolet radiation.4,5 Global, regional and national estimates are produced, broken down by sex and age group.
+
+4. What do these new estimates show?
+====================================
+
+In 2019, an estimated 18,960 deaths and 0.5 million disability-adjusted life years (DALY - the number of years lost due to ill-health, disability or early death) from non-melanoma skin cancer were attributable to occupational exposure to solar ultraviolet radiation.6 One in three skin cancer deaths were estimated to have been caused by exposure to ultraviolet radiation while working outdoors under the sun.
+
+WHO and ILO estimate that 1.6 billion workers around the world were occupationally exposed to solar ultraviolet radiation in 2019. This is almost one in three workers of working age (15 years or older).
+
+On average 0.3 deaths occurred per 100 000 working-age people (i.e., 15 years or older) and 8.0 DALYs per 100 000 in 2019.
+
+Occupational exposure to solar ultraviolet radiation is estimated to have decreased by almost one-third between 2000 (41.9%) and 2019 (28.4%). Yet there has been an 88% increase in non-melanoma skin cancer deaths and a 77% increase in non-melanoma skin cancer DALYs attributed to occupational ultraviolet radiation between 2000-2019. This large increase is mainly driven by an overall increase non-melanoma skin cancer burden.
+
+These new estimates of deaths and DALYs from occupational risk factors can be added to the previously estimated total work-related burden of disease.4,5 For 2016, this updates the burden to 1.9 million deaths and 90.1 million DALYs.
+
+5. What is a disability-adjusted life year (DALY)?
+==================================================
+
+The disability-adjusted life year (DALY) is a measure of overall disease burden, expressed as the number of years lost due to ill-health, disability or early death. DALYs combine years of life lost (YLL) due to premature mortality and years lived in disability/disease (YLD).
+
+6. Which regions are most impacted?
+===================================
+
+In both absolute and relative terms, the regional rates for deaths and DALYs are not judged to be substantially different from the global rates.
+
+- The Region of Africa, the Region of the Americas, and the Western Pacific Region had very slightly higher rates above the global rate: 0.5, 0.4, and 0.4 deaths per 100 000 working-age population, respectively, compared with 0.3 deaths on average globally.
+
+- Africa, the Americas, the Eastern Mediterranean and the Western Pacific had DALY rates higher than the global rate: 13.3, 11.2, 8.1, and 8.6 DALYs per 100 000 working-age population, respectively, compared with 8.0 DALYs on average globally.
+
+7. Are males more affected than females?
+========================================
+
+In relative terms, more males died from non-melanoma skin cancer from being exposed to solar ultraviolet radiation while working outdoors (0.4 deaths per 100 000 working-age population) than females (0.2 deaths per 100 000 working-age population). Compared with the DALY rate for both sexes (8.0 DALYs per 100 000 working-age population), males had a higher DALY rate at 10.6 DALYs per 100 000 working-age population. Females had a DALY rate of 5.4 DALYs per 100 000 working-age population.
+
+In absolute terms, the sex-specific rates for deaths and DALYs are not judged to be substantially higher than the global rates.
+
+8. Which age groups are most affected?
+======================================
+
+The death rates for people aged 55 years and over were higher than the rate for all age groups (0.3 deaths per 100 000 working-age population). From 55 years, the death rate increased reaching 8.2 deaths per 100 000 working-age population in the age group of ≥95 years. Similarly for the DALY rates, DALYs rates for people aged 50 years and over were higher than the rate of all age groups (8.0 per DALYs per 100 000 working-age population), reaching 41.9 DALYs per 100 000 working-age population in the age group of ≥95 years.
+
+Non-melanoma skin cancer can take years or even decades to develop and be diagnosed after exposure to solar ultraviolet radiation at the workplace occurs, so some of the work-related cancer burden in the older age groups will be due to occupational exposures much earlier in working life.
+
+9. How does occupational exposure to solar ultraviolet radiation cause non-melanoma skin cancer?
+================================================================================================
+
+Studies have shown that exposure to solar ultraviolet radiation, including in the work setting, can increase the risk of developing non-melanoma skin cancer through DNA damage and genetic mutations.2
+
+WHO and ILO, supported by individual experts, have identified various factors that can affect the link between exposure to ultraviolet radiation at work and non-melanoma skin cancer.1 These include age, sex, socioeconomic status, skin phototype, and exposure to other occupational risk factors, such as asbestos.1 Additionally, the impact of exposure to ultraviolet radiation at work may differ depending on region/country, industrial sector, occupation, and formality of the economy.1
+
+10. How much higher is the risk of non-melanoma skin cancer among people who have been occupationally exposed to solar ultraviolet radiation?
+=============================================================================================================================================
+
+A systematic review, carried out by WHO and ILO,1 found that the risk of acquiring non-melanoma skin cancer was 60% higher (relative risk 1.60, 95% confidence interval 1.21-2.11) among people occupationally exposed to solar ultraviolet radiation, compared with people not exposed to this occupational risk factor. This evidence was based on a meta-analysis of 20 studies of over 88 448 participants covering three WHO regions.
+
+There was no evidence for differences in risk between regions, sexes or the non-melanoma skin cancer subtypes of basal and squamous cell carcinoma.
+
+The body of evidence regarding an increased risk of non-melanoma skin cancer among people occupationally exposed to solar ultraviolet radiation was judged to be of “moderate quality of evidence”. Additionally, there was judged to be “sufficient evidence of harmfulness”. This is in line with the IARC Monograph 100D, which classified solar ultraviolet radiation as carcinogenic to humans (Group 1), with “sufficient evidence” for non-melanoma skin cancer.2,3
+
+11. How can work-related non-melanoma skin cancer be prevented?
+===============================================================
+
+Governments must protect outdoor workers from work-related non-melanoma skin cancer by reducing occupational exposure to solar ultraviolet radiation at hazardous levels.7-9 They can establish, implement and enforce policies and regulations that protect outdoor workers from occupational exposure to ultraviolet radiation. Such measures include bans of outdoor work during peak sun exposure times or providing shade.
+
+Workers could be provided with training and personal protective equipment for working outdoors, including broad brimmed hats, long-sleeved shirts and long trousers. In addition, actions can be taken to raise workers’ awareness of when occupational exposure to solar ultraviolet radiation occurs and that it causes skin cancer, and by providing services and programmes to detect early signs of skin cancer.
+
+12. How have these estimates been calculated?
+=============================================
+
+To estimate the number of deaths and DALYs due to non-melanoma skin cancer attributable to occupational exposure to solar ultraviolet radiation, it is necessary to know the population attributable fraction (PAF). A PAF quantifies the proportion of deaths or DALYs lost from a particular health outcome that is attributable to a specific risk factor, e.g., the proportion of deaths from stroke that can be attributed to exposure to long working hours.10
+
+The PAF for these estimates (i.e., the proportion of deaths from non-melanoma skin cancer that can be attributed to occupational exposure to solar ultraviolet radiation) was produced using two key data sources:
+
+i) the proportion of the population who is occupationally exposed to solar ultraviolet radiation, and
+
+ii) the risk ratio for non-melanoma skin cancer among persons occupationally exposed to solar ultraviolet radiation compared with persons who were occupationally unexposed to this risk factor.
+
+The exposed population was modelled using 166 million observations from 763 official Labour Force Surveys collected by governments in 96 countries between 1996 and 2021. The risk ratio for the effect of occupational exposure to solar ultraviolet radiation on non-melanoma skin cancer was sourced from the WHO/ILO systematic review and meta-analysis specifically conducted for this official estimation.1
+
+Additionally, the total numbers of deaths and of DALYs that are estimated to occur each year for the health outcome are needed, in this case the total numbers of deaths and of DALYs from non-melanoma skin cancer in 2000, 2010 and 2019. This is referred to as the “total disease envelope”.11 WHO produces these envelopes from mortality records collected by governments in countries.1
+
+References
+----------
+
+1. World Health Organization. The effect of occupational exposure to solar ultraviolet radiation on malignant skin melanoma and non-melanoma skin cancer: a systematic review and meta-analysis from the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury. Geneva: World Health Organization, 2021.
+
+2. International Agency for Research on Cancer. Radiation. IARC Monogr Eval Carcinog Risks Hum, 2012;100D:1–341. . Lyon: International Agency for Research on Cancer, 2012.
+
+3. International Agency for Research on Cancer. IARC monographs on the evaluation of carcinogenic risks to humans: Solar and Ultraviolet Radiation. Lyons: International Agency for Research on Cancer; 1992.
+
+4. World Health Organization, International Labour Organization. WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury, 2000-2016: Global Monitoring Report. Geneva: World Health Organization, 2021.
+
+5. World Health Organization, International Labour Organization. WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury, 2000-2016: Technical Report with Data Sources and Methods. Geneva: World Health Organization, 2021.
+
+6. Pega F, Momen N, Streicher K, et al. Global, regional and national burdens of non-melanoma skin cancer attributable to occupational exposure to solar ultraviolet radiation for 183 countries, 2000–2019: A systematic analysis from the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury. Environment International 2023: 108226.
+
+7. Vecchia P, Hietanen M, Stuck B, van Deventer E, Niu S, editors. Protecting Workers from Ultraviolet Radiation. Oberschleißheim, Germany: International Commission on Non-Ionizing Radiation Protection; 2007.
+
+8. World Health Organization. Ultraviolet radiation: Fact sheet. Geneva: World Health Organization; 2022.
+
+9. WHO, UNICEF, UNDP. Compendium of WHO and other UN guidance on health and environment, 2022 update. Geneva: World Health Organization; 2022 (WHO/HEP/ECH/EHD/22.01). Licence: CC BY-NC-SA 3.0 IGO: World Health Organization; 2022.
+
+10. Pega F, Nafradi B, Momen NC, et al. Global, regional, and national burdens of ischemic heart disease and stroke attributable to exposure to long working hours for 194 countries, 2000-2016: A systematic analysis from the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury. Environ Int 2021: 106595.
+
+11. World Health Organization. Global Health Estimates 2019. 2020. https://www.who.int/gho/mortality_burden_disease/en/2022.
+
+12. World Health Organization. WHO methods and data sources for global burden of disease estimates 2000-2019. Global Health Estimates Technical Paper WHO/DDI/DNA/GHE/2020.3. Geneva: Department of Data and Analytics Division of Data, Analytics and Delivery for Impact, World Health Organization, 2020.

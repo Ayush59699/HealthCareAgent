@@ -1,0 +1,41 @@
+WHO QUESTIONS AND ANSWERS
+Title: Influenza: How preparedness helps fight other infectious diseases
+URL: https://www.who.int/news-room/questions-and-answers/item/q-a-with-dr-ann-moen-how-influenza-preparedness-helps-fight-other-infectious-diseases
+Retrieved: 2026-10-05T09:48:44.955782+00:00
+
+========================================
+
+Provided by Dr Wenqing Zhang, Head of WHO’s Global Influenza Programme
+
+What lessons does influenza preparedness offer for tackling respiratory pathogens and other diseases?
+=====================================================================================================
+
+When you prepare for and respond to influenza (or flu) outbreaks, you are simultaneously learning and practicing responses to other respiratory events or emerging diseases. This is because influenza shares similar attributes to other respiratory diseases, such as COVID-19. Like influenza, many other respiratory viruses primarily affect the respiratory system, and symptoms are often indistinguishable. Moreover, respiratory pathogens often spread in similar ways.
+
+Preparing for a flu pandemic builds essential infrastructure and skills that can be applied to other diseases. For example, capacity building designed for influenza surveillance and outbreak response can be repurposed swiftly for other epidemic or pandemic prone diseases such as MERS, other coronaviruses or novel respiratory threats. You can practice your communications for responding to outbreaks and better understand the behavioural aspects of vaccine hesitancy. Influenza can also help you learn how to implement a vaccine programme and introduce new therapeutics.
+
+Influenza preparedness emphasizes the importance of international cooperation. Timely sharing data, resources, and expertise globally enhances the ability to respond to pandemics effectively.
+
+Can you give an example where an influenza-monitoring programme has been used for other diseases?
+=================================================================================================
+
+In Africa, in 2006, there were about five countries that had a surveillance programme to monitor influenza and process flu specimens. After many efforts to build capacities, there are now about 25 countries that routinely conduct flu surveillance. These influenza surveillance systems have been the primary capacity in countries, as demonstrated in emergencies: when the 2009 pandemic came, many of them were ready to diagnose the first cases through their newly established flu surveillance programmes and they were also at the forefront for testing SARS-CoV-2. Many countries are now integrating surveillance for SARS-CoV-2 and respiratory syncytial virus (RSV) into their influenza surveillance programmes.
+
+We also embarked on a global rapid response-training programme where we trained more than 100 countries, including many in Africa. Many of these countries were using the flu outbreak response teams to respond to respiratory and non-respiratory outbreaks such as measles, Rift Valley fever, Ebola, as well as during the recent SARS-CoV-2 pandemic.
+
+Is there a long-term plan to help the world prepare for influenza?
+==================================================================
+
+The WHO Global Influenza Programme (GIP) has been working on protecting the world from influenza for over 70 years through a global framework (the Global Influenza Surveillance and Response System (GISRS)) and by providing surveillance, preparedness and response efforts. The WHO Pandemic Influenza Preparedness (PIP) Framework seeks to improve and strengthen the sharing of influenza viruses with human pandemic potential and to increase the access of developing countries to vaccines and other pandemic related supplies. The WHO Preparedness and Resilience for Emerging Threats (PRET) initiative also supports disease pandemic preparedness through an innovative approach.
+
+The Global Influenza Strategy 2019–2030, which draws on the Sustainable Development Goals (SDGs) and efforts to strengthen health systems to achieve Universal Health Coverage (UHC), was adopted in the World Health Assembly in 2020. The Strategy calls for WHO Member States to develop seasonal influenza prevention and control measures. These efforts, in turn, will build greater preparedness for the next pandemic.
+
+The Strategy focuses on three priorities:
+
+- strengthening pandemic preparedness
+
+- expanding seasonal influenza prevention and control
+
+- and research and innovation.
+
+Research and innovation covers improved modelling and forecasting of influenza outbreaks, along with the development of new vaccines.

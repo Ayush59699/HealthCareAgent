@@ -1,0 +1,202 @@
+WHO QUESTIONS AND ANSWERS
+Title: Chagas disease (American trypanosomiasis)
+URL: https://www.who.int/news-room/questions-and-answers/item/chagas-disease
+Retrieved: 2026-10-05T09:43:28.727514+00:00
+
+========================================
+
+Chagas disease, also known as American trypanosomiasis, is a potentially life-threatening illness caused by the protozoan parasite Trypanosoma cruzi or T. cruzi.
+
+What is Chagas disease?
+=======================
+
+Chagas disease, also known as American trypanosomiasis, is an infectious disease caused by the protozoan parasite Trypanosoma cruzi (T. cruzi). This condition, however, results from a complex, multidimensional health problem typical of neglected tropical diseases, shaped by social and environmental determinants.
+
+Chagas disease is curable if treatment is initiated at an early stage. Without complete treatment and follow-up, it can lead to cardiac, digestive, and neurological manifestations, as well as potentially life-threatening complications.
+
+Once totally confined to the Region of the Americas, Chagas disease has spread to other continents over the past century due to enhanced means of transport and global population movement. It is now a worldwide public concern, with an estimated 8 million people infected globally. Most cases are found in continental Latin America, where infected triatomine bugs have been involved in vector-borne and foodborne (oral) transmission. Globally, congenital transmission (during pregnancy and childbirth) has become the most common route, although infection can also occur through blood/blood products’ transfusion, organ transplantation, and even laboratory accidents.
+
+It is estimated that over 10 000 people die every year from clinical manifestations of Chagas disease, while over 100 million people are at risk of infection.
+
+Chagas disease is named after Carlos Ribeiro Justiniano Chagas, a Brazilian physician and researcher who first diagnosed the infection in a person on 14 April 1909. He also described the disease, its causative parasite, its insect vectors, and key animal reservoirs. Today, 14 April is observed as World Chagas Disease Day.
+
+What is the vector of Chagas disease?
+=====================================
+
+The vector of Chagas disease is an insect belonging to the order Hemiptera, meaning that adults have wings and fly; family Reduviidae, and the subfamily Triatominae (what means that at all stages of their development feed on mammals’ blood); and they comprise around 15 different genera, most notably Triatoma, Panstrongylus, Rhodnius representing a wide diversity of sizes, forms, colours, and other ecological characteristics.
+
+In continental Latin America, Chagas disease has been transmitted mainly by contact with faeces or urine of several species of infected blood-sucking triatomine bugs. These bugs typically live in the cracks of walls or roofs of poorly constructed houses and surrounding structures such as chicken coops, pens and warehouses, in rural areas and peri-urban areas.
+
+Thiatomine bugs usually hide during the day and emerge at night to feed on humans’ or other animals’ blood, often when the host is asleep. They typically bite an exposed area of skin, such as the face, and then defecate or urinate close to the bite. The parasite enters the body when the person instinctively smears the bug’s dejections into the itching bite, into other skin breaks, or into the eyes or mouth. Other infected triatomine bug species may be found in areas surrounding houses and in wild environments, where transmission can also occur. Infection can also result from consuming food contaminated with T. cruzi, for example through contact with the dejections of infected triatomine bugs or common opossums. This kind of foodborne transmission typically leads to outbreaks.
+
+Distribution of vectors
+-----------------------
+
+The distribution of vectors and wild reservoirs of T. cruzi in the Americas extends from the United States of America to Argentina and Chile (between latitudes 46°N and 46°S).
+
+More than 150 species of triatomine bugs and over 100 species of mammals – mostly wild – maintain T. cruzi infection in nature. Opossums are considered among the most important reservoirs. Given this wide reservoir base, Chagas disease is not eradicable.
+
+Triatomine bugs have also been found outside the Americas, but none identified to date have been found to be infected with T. cruzi.
+
+The vector was first described in 1773 by the Swedish scientist Charles De Geer, through the observation of an insect captured in the old so-called "Indies" (assumed to refer to the East Indies, probably Indonesia). Subsequently, triatomine bug species capable of transmitting T. cruzi have been identified along maritime travel routes to parts of Africa, the Middle East, South-East Asia and the Western Pacific.
+
+Increasing global population mobility increased the possibility of establishing vector transmission to areas where Chagas disease was previously non-endemic, especially in Western Pacific, where the triatomine bugs occur naturally, and even infest houses in some countries, such as Vietnam or China.
+
+How is Chagas disease transmitted?
+==================================
+
+In the Region of the Americas, T. cruzi is mainly transmitted to humans through the infected faeces of the blood-sucking triatomine bug, which is the disease vector. This insect normally hides during the day and becomes active at night, when it feeds on human blood.
+
+In its search for a blood meal, the bug usually bites an exposed area of the skin (such as the face - hence its common English name, “kissing bug”).
+
+Right after its blood meal, it defecates close to the bite. The parasite, T.cruzi found in the faeces of the bug, is transmitted when the person rubs the area of the bite in an instinctive reaction to the itch (caused by the bite), thereby putting the faeces in contact with the bite.
+
+The parasite can also be transmitted when the parasite comes in contact with the mucous membrane of the eyes or mouth or through any other skin lesion.
+
+Transmission can occur through contaminated food infected with the vector’s faecal matter. This frequently generates oral outbreaks, especially in hot and humid climates.
+
+Other means of transmission involve transfusion of contaminated blood and from infected mothers to child during pregnancy or during delivery (congenital transmission). Less frequently, organ transplantation or laboratory accident can result in transmission.
+
+Outside the Region of the Americas, transmission does not occur through the faeces of the infected vector, but rather through non-vectorial routes.
+
+Cases of infection outside Latin America have been reported among travellers returning from endemic regions, adopted children, migrants and recipients of blood transfusion or organ transplants.
+
+Globalisation and increased international travel and trade between endemic and non-endemic countries make Chagas disease a growing concern at the global level.
+
+What are the symptoms of Chagas disease?
+========================================
+
+Chagas disease has two successive phases: an acute phase and a chronic phase.
+
+In both phases, most patients are asymptomatic or have non-specific symptoms. Without an early diagnosis and treatment, however, around one third progress to clinical manifestations of the disease, with cardiac, digestive, neurological or mixed forms, which can lead to life-threatening complications.
+
+Initial acute phase
+-------------------
+
+The initial acute phase lasts for about two months after infection. During this period, a high number of parasites circulate in the blood. Although symptoms are absent or mild in most cases, clinical manifestaions may include fever, headache, enlarged lymph glands, pallor, muscle pain, cough, difficulty breathing, liver enlargement, generalized body swelling, diarrhoea, heart inflammation (with chest pain and even heart failure) and, less frequently, meningoencephalitis (with seizures and even paralysis).
+
+In less than half of people bitten by a triatomine bug, characteristic first visible signs can be a skin lesion (chagoma) or a purplish swelling of the lids of one eye (Romaña sign).
+
+The acute phase can occur at any age but is frequently more severe in children under 5 years, in the elderly, in immunosuppressed individuals, and in people infected with a high number of parasites – typically through oral transmission via contaminated food. Meningoencephalitis is the most frequent manifestation in people suffering from AIDS.
+
+Chronic phase
+-------------
+
+The acute phase is followed by the chronic phase, during which parasites remain hidden mainly in the muscle of the heart and digestive system.
+
+Different clinical forms may be observed:
+
+- indeterminate form – the most frequent form, asymptomatic and without apparent signs of disease. It is typically found immediately after the acute phase and is life-long in most patients;
+
+- cardiac form – occurs in up to a third of patients. It affects the heart’s electrical conduction system causing arrhythmias, heart muscle disorder and dilation, heart failure, and secondary vascular embolisms;
+
+- digestive form – generally characterised by enlargement of the oesophagus and/or the colon. It is observed mainly south of the Amazon basin; and
+
+- mixed form – affecting the heart, digestive system, and autonomic nervous system. Together with the digestive form, it occurs in one tenth of patients.
+
+Depending on the degree of cardiac damage, the mortality rate in a period of 10 years may range from 9 to 85%. Patients usually die from complications – most commonly sudden death due to arrhythmias, followed by heart failure and vascular cerebral accident (stroke) – often in early adult life.
+
+How is Chagas disease diagnosed?
+================================
+
+During the acute phase, or during reactivation because of immunosuppression (which may result from older age, diseases such as AIDS or cancer, or treatments such as chemotherapy or radiotherapy), diagnosis is made by direct detection of the parasite circulating in the bloodstream. To this end, a blood wet smear or a blood concentration technique, such as microhaematocrit or the Strout technique, should be used.
+
+Stained preparations, such as malaria films, can detect the parasite when parasitaemia is high (as in the acute phase). In the Amazon Basin, microscopy technicians who diagnose malaria have been trained to detect filariasis and acute cases of Chagas disease, enabling them to identify possible foodborne outbreaks.
+
+During the chronic phase, when the parasite is hidden in target tissues, diagnosis relies on the detection of antibodies against T. cruzi using serological tests. Commonly used techniques include: enzyme-linked immunosorbent assay (ELISA), indirect haemagglutination assay, indirect immunofluorescence assay, western blot, and more recently, rapid diagnostic tests such as immunochromatography and chemiluminescence.
+
+Molecular biology tests, such as qualitative and quantitative polymerase chain reaction (PCR), detect specific DNA fragments of T. cruzi in blood and offer high sensitivity and specificity.
+
+For research purposes, parasitological tests such as haemoculture and xenodiagnosis (examining the faeces of uninfected triatomine bugs that have fed on a patient’s blood) may also be used.
+
+Finally, new diagnostic techniques based on digital image analysis using artificial intelligence tools integrated into a smartphone-computer application are being developed and already validated.
+
+What is the treatment against Chagas disease?
+=============================================
+
+Antiparasitic treatment is urgently indicated for anyone during the acute phase, including congenital cases and individuals in whom the infection has been reactivated due to immunosuppression. In these situations, treatment is almost 100% effective and the infection can be completely cured.
+
+Efficacy decreases as the duration of the infection lengthens. Infants are less likely to have adverse reactions from treatment, and this risk rises with age.
+
+Treatment is also indicated for patients during the early chronic phase, including for girls and women of childbearing age (before or after pregnancy and breastfeeding) to prevent congenital transmission.
+
+Adults – especially those with the indeterminate form of the disease – should be offered treatment, because antiparasitic therapy can also prevent or curb disease progression. In other cases, the potential benefits in preventing or delaying the development of Chagas disease should be weighed against the duration of treatment (up to two months) and the possibility of adverse reactions (reported in up to 40% in adults).
+
+Benznidazole and nifurtimox should not be given to pregnant women or to people with kidney or liver failure. Nifurtimox is also contraindicated for people with a background of neurological or psychiatric disorders.
+
+Nifurtimox is donated to WHO by Bayer for all age groups, and benznidazole by Insud Pharma/Chemo for paediatric age (<19 years). Both medicines are made available, mostly free of charge, to national health services in countries that request them.
+
+During the chronic phase, when cardiac, digestive or neurological manifestations may appear, life-lasting follow-up and specific medical treatment – and sometimes surgery – are usually required.
+
+More information on requesting antiparasitic medicines.
+
+How can Chagas disease be prevented?
+====================================
+
+There is currently no vaccine to prevent Chagas disease.
+
+The public health target of elimination as a public health problem by 2030 (WHO road map of neglected tropical diseases 2021–2030) focuses on preventing transmission to humans, early access to healthcare, and lifelong follow-up for infected individuals.
+
+The following prevention and control tools are useful depending on the geographical area affected:
+
+- development of information, education and communication materials and activities, adapted to the different local scenarios and actors – from communities to health professionals – based on a One Health approach;
+
+- vectorial surveillance and vector control, for instance spraying houses and surrounding areas with residual insecticides;
+
+- home improvements and household hygiene to prevent vector infestation, such as plastering walls and installing concrete floors and corrugated iron roofs;
+
+- good hygiene practices in food preparation, transportation, storage and consumption;
+
+- personal preventive measures, such as bednets;
+
+- screening of girls and women of childbearing age at risk of infection, as well as newborns and siblings of infected mothers. Diagnosis of an infected newborn can be made at birth by detecting parasites directly in the umbilical cord or venous blood, or at around 8 months of age by detecting antibodies against T. cruzi;
+
+- screening of blood donors;
+
+- testing of organ, tissue and cell donors and receivers; and
+
+- observance of the standard safety protocols (laboratory coats, gloves, face masks, caps and protective glasses) for laboratory accident prevention.
+
+In areas where malaria is also transmitted, a surveillance system for Chagas disease has recently been implemented. Malaria microscopy technicians have been trained to identify T. cruzi parasites in malaria films and to detect acute Chagas disease in individual cases. Through them, possible foodborne outbreaks and areas of active transmission can also be identified and controlled.
+
+Why are Chagas disease diagnosis indexes low?
+=============================================
+
+The present low diagnosis indexes are strongly related to psychosocial and environmental determinants, rather than biomedical challenges. Among others, the following well-documented factors contribute to this situation:
+
+Stigma
+------
+
+For a long time, Chagas disease was found almost exclusively in rural areas, plaguing regions of the countryside, usually characterized by poverty and social exclusion.
+
+To many people, Chagas disease symbolises far more than an illness: it is associated with poverty, rural life, and impoverished houses infested with triatomine bugs.
+
+Although migration and globalisation have changed the epidemiology of Chagas disease, the stigma persists. Today, most people with the infection live in cities, yet the social stigma associated to the “poor rural hut” remains strong.
+
+The consequences of stigma can be severe. Infection with T. cruzi can lead to social rejection. It can also result in work restrictions due to assumptions about poor health, reduced productivity, or even the risk of sudden death – creating fears of financial loss among employers.
+
+For these reasons many people are reluctant to seek screening and medical care, increasing the risk of complications and further spread of the disease.
+
+Emotional burden of Chagas disease
+----------------------------------
+
+Studies have shown that communities in endemic areas frequently lack a clear understanding of Chagas disease. Instead, people merge misconceptions, forging an overall confused and inaccurate concept of the disease, its origin and its consequences.
+
+For many, Chagas disease is not necessarily associated with its vector or its symptoms, but more with feelings of fear, despair, suffering and death.
+
+This emotional burden strongly affects health-seeking behaviour. People may adopt adaptive behaviours or avoidance strategies – such as refusing to get screened, thereby compromising both treatment and diagnosis.
+
+Chagas disease diagnosis in urban areas and non-endemic territories
+-------------------------------------------------------------------
+
+Urbanisation and globalisation have led to a rise in awareness about Chagas disease as an emerging issue in non-endemic territories.
+
+However, many health professionals still consider it a tropical disease restricted to rural Latin America. This misconception causes many misdiagnoses when patients present with cardiomyopathies or other clinical manifestations or complications of the disease.
+
+Similarly, people with T. cruzi infection living in non-endemic areas may not be aware of their condition, which can lead to further transmission – for example through blood or organs donation.
+
+Training health personnel to recognise the disease and facilitate early diagnosis and care can significantly help to mitigate transmission and improve outcomes.
+
+In some countries, regulatory practices require job applicants to undergo compulsory T. cruzi serology. Although the aim is to protect people with Chagas disease, this has instead resulted in discrimination, causing hindrance and stigmatization.
+
+Lack of knowledge or limited understanding of the disease – combined with persistent misconceptions – remains a major barrier to promoting health‑seeking behaviour. These factors contribute to delayed diagnosis, reduced access to treatment, and continued transmission.

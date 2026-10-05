@@ -1,0 +1,68 @@
+WHO QUESTIONS AND ANSWERS
+Title: Neglected tropical diseases: Fascioliasis
+URL: https://www.who.int/news-room/questions-and-answers/item/q-a-on-fascioliasis
+Retrieved: 2026-10-05T09:48:33.140139+00:00
+
+========================================
+
+Fascioliasis is caused by two species of parasitic flatworms or trematodes that mainly affect the liver. It belongs to the group of foodborne trematode infections and is a zoonosis, meaning an animal infection that may be transmitted to humans.
+
+Where is fascioliasis most commonly found?
+==========================================
+
+Animal fasciolosis (in animals there is a tendency to use the term fasciolosis instead of fascioliasis) is present in almost all countries, and it can be an important problem in livestock.
+
+However, human fascioliasis is only a problem in regions in which the disease is present in livestock, but additionally, the socioeconomic determinants necessary for human infection occur. Those are areas in which people eat aquatic or semi-aquatic plants, and livestock or human faeces contaminate water sources. It is associated with poor sanitation and inadequate food hygiene.
+
+Some of the areas that have reported the highest prevalences of human fascioliasis are found in the Plurinational State of Bolivia, Peru, and Egypt. Other areas that have reported problems are Ethiopia, Tanzania, South Africa, India, Laos, and China (1).
+
+It has been estimated that over 2.4 million people are affected worldwide (1).
+
+How does climate change affect fascioliasis transmission?
+=========================================================
+
+Warmer temperatures and increased rainfall can expand the habitats of the freshwater snail species that are the intermediate hosts, facilitating the spread of Fasciola. Flooding can also disseminate contaminated water to new areas, increasing infection risks.
+
+Is fascioliasis a neglected tropical disease?
+=============================================
+
+Yes. Fascioliasis is classified as a neglected tropical disease (NTD) due to its disproportionate impact on impoverished, rural communities with limited access to healthcare and clean water. It is one of the four most common foodborne trematode infections, alongside Opisthorchiasis, Paragonimiasis, and Clonorchiasis. Fascioliasis was first included in the WHO report on NTDs in 2010.
+
+How do humans get infected with Fasciola?
+=========================================
+
+Humans become infected by consuming raw plants that have been irrigated or contaminated with Fasciola larvae through exposure to unsafe water sources. Once ingested, the larvae migrate through the liver and bile ducts, causing tissue damage and inflammation.
+
+Can fascioliasis spread directly from person to person?
+=======================================================
+
+No. The parasite requires freshwater snails as intermediate hosts to complete its lifecycle. Humans and animals become infected only by ingesting contaminated water or plants.
+
+Why are rural communities at higher risk of fascioliasis?
+=========================================================
+
+Rural communities are at higher risk due to reliance on untreated water sources, such as rivers and ponds that can be contaminated with livestock or human faeces, for drinking and irrigation. Also, many rural communities traditionally eat raw plants that grow or are irrigated with those waters.
+
+Poor sanitation and hygiene are one of the determinants of health associated with fascioliasis.
+
+What are the symptoms of fascioliasis?
+======================================
+
+Early symptoms include fever, abdominal pain, and liver enlargement. Chronic infection can lead to bile duct obstruction, jaundice, and liver fibrosis. Some individuals may remain asymptomatic despite infection.
+
+Why is fascioliasis often misdiagnosed?
+=======================================
+
+Fascioliasis symptoms mimic those of other liver and bile duct diseases, such as hepatitis and cholangitis. Diagnostic tools, including stool examinations for parasite eggs and serological tests, are not widely available in many endemic regions, complicating diagnosis
+
+What are the treatment options for fascioliasis?
+================================================
+
+Triclabendazole is the first-line treatment, effective against both immature and adult flukes. In rare cases, surgery may be required to address complications such as bile duct obstruction.
+
+What socioeconomic factors fuel fascioliasis transmission?
+==========================================================
+
+Socioeconomic factors play a crucial role in the transmission of fascioliasis. Poverty, lack of access to clean water, and inadequate sanitation increase the risk of exposure to the parasite. Communities that traditionally eat raw plants that grow near or are irrigated with contaminated sources of water are at higher risk. Rural communities with limited healthcare access often struggle with early diagnosis and treatment, leading to prolonged infections and higher disease burden.
+
+Additionally, lower maternal education levels and reliance on livestock for income contribute to higher transmission rates. Children from low-income households are more frequently exposed to contaminated water sources and aquatic plants, increasing their risk of infection. Addressing these social determinants through improved sanitation, health education, and poverty reduction strategies is essential for controlling fascioliasis.

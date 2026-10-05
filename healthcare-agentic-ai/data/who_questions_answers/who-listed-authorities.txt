@@ -1,0 +1,102 @@
+WHO QUESTIONS AND ANSWERS
+Title: WHO Listed Authorities
+URL: https://www.who.int/news-room/questions-and-answers/item/who-listed-authorities
+Retrieved: 2026-10-05T09:50:48.761683+00:00
+
+========================================
+
+A new, transparent and evidence-based framework of WHO-listed authorities is being set up to identify the reference authorities that meet the relevant indicators and requirements of high performing regulatory authorities. It is important to bring clarity in terms of the transition from Stringent Regulatory Authorities (SRAs) to WHO-listed authorities (WLA) in the context of WHO’s regulatory system strengthening activities. The following questions and answers aim at addressing some of the most frequently asked questions. This page will be regularly updated as new questions arise or clarifications are needed. For additional information, please visit the WHO-Listed Authority (WLA) page.
+
+What is a WHO Listed Authority?
+===============================
+
+A WHO Listed Authority (WLA) is a regulatory authority (RA) or a regional regulatory system (RRS) that complies with all the relevant indicators and requirements specified by WHO for regulatory capability as defined by an established benchmarking and performance evaluation process. A regulatory authority provides the framework that supports the WHO recommended regulatory functions. This is the authority and affiliated institutions that are responsible for regulatory oversight of medical products in a given country or region and in charge of assuring the quality, safety and efficacy of medical products as well as ensuring the relevance and accuracy of product information.
+
+The WLA replaces the Stringent Regulatory Authority (SRA) definition. The WLA framework offers a modular approach as a regulatory authority that can be designated for a specific regulatory function or a specific type of products (see question 12 on the scope for the listing). They differ by the designation mechanism; the definition of an SRA, first published by the Global Fund in 2008, was based on membership in the International Conference (now Council) of Harmonization (ICH) as before October 2015. The WLA framework offers a modern, transparent and evidence-based framework to identify trusted authorities and giving the opportunity to new regulatory authorities to be designated as WLA. The WLA framework offers a modular approach as a regulatory authority can be designated for a specific regulatory function or a specific type of product (see question 7 on the scope for the listing).
+
+What criteria should be met for a regulatory authority to be eligible for the WLA evaluation process?
+=====================================================================================================
+
+National Regulatory Authorities (NRAs) or Regional Regulatory Authorities (RRAs) must at least have attained overall Maturity Level 3 (ML3) as established by the Global Benchmarking Tool or be included in the list of transitional WLAs (tWLA) to be eligible for consideration as a WLA. Additionally, the RA should apply for the evaluation process and demonstrate a high level of performance, by complying with all the requirements laid down in the performance evaluation process specifically developed for each of the regulatory functions for which listing is sought. The transitional arrangement is planned for 5 years, until the end of March 2027. Placement on the transitional list does not confer WLA status and does not alter requirements to be met for designation as a WLA.
+
+How can a regulatory authority become a WHO Listed Authority (WLA)?
+===================================================================
+
+To be designated as WLA, a regulatory authority should undergo i) a formal assessment with the WHO-Global Benchmarking Tool (GBT) to demonstrate adequate maturity (ML3 as entry point) and ii) a performance evaluation (PE) process that complements the results of benchmarking, confirming consistency of advanced performance against international standards and best practices. Some transitional arrangements are in place for previously designated stringent regulatory authorities and regulatory authorities which had been previously assessed by WHO.
+
+RAs that have reached a high-level regulatory capability and performance (WLA) may be used as a reference and to be relied on by other authorities, to avoid duplicating activities, foster better use of human and economic resources, increase oversight of the pharmaceutical products along the whole supply chain to ultimately enhance global access to high quality, efficacious and safe medicines and vaccines.
+
+What is the performance evaluation process and how does it differ from the Global Benchmarking Tool?
+====================================================================================================
+
+While the benchmarking process and tool provides a robust and structured approach to measure the existence and implementation of a legal framework, organizational structure, resources and processes to perform regulatory activities, the performance evaluation process provides a more detailed picture of how a regulatory system operates, its level of performance and ultimately its effectiveness and the quality of the scientific outputs.
+
+The performance evaluation (PE) process considers the nature and extent of evaluation required to provide confidence in the authority’s output and performance. While designed to document that a regulatory system consistently performs well (i.e. adheres to international standards and results in sound regulatory decisions), the PE will also consider all available information and evidence such as formal assessments performed by other internationally recognized bodies to avoid unnecessary duplication of evaluations.
+
+How long is the WLA Listing valid for?
+======================================
+
+A listing will initially be valid for a period of 5 years. A risk-based process will be used to renew the initial listing. Once renewed, the listing will no longer be subject to a validity period but to continuous monitoring based on risk management principles to ensure that requirements for the listing continue to be met. This includes the commitment to and compliance with regular reporting requirements by the WLA. In case of major changes in the regulatory system with potential impact on the listing decision or listing information, the re-evaluation of the regulatory agency will be conducted.
+
+What is the scope of the WHO Listed Authorities in terms of type of products and how it is determined?
+======================================================================================================
+
+The initial scope of the WLA designation is limited to medicines and vaccines, with an option to expand to other categories of products, in line with the expansion of the scope of the GBT (for example blood and derivatives, medical devices including in vitro diagnostics (IVD), advanced therapies etc.).
+
+The listing as WLA indicates the specific scope of products for which the regulatory authority is listed, for example vaccines and medicines including multisource (generics) and new medicines (new chemical entities), biotherapeutics and similar biotherapeutic products.
+
+The WLA framework is voluntary, and an NRA or RRS can apply for being listed for one or more product categories and/or for one or more regulatory functions.
+
+In the case of product categories – for example vaccines and medicines including multisource (generics) and new medicines (new chemical entities), biotherapeutics and similar biotherapeutic products – all regulatory functions will be assessed, as they form an inter-related framework for ensuring the proper regulatory oversight of products over their lifecycle.
+
+In the case of regulatory functions – for example registration and marketing authorization (MA), vigilance (VL), market surveillance and control (MC), licensing establishments (LI), regulatory inspection (RI), laboratory testing (LT), clinical trial oversight (CT) and national regulatory authority lot release (LR) – a modular approach for each regulatory function will be followed, as defined by the Operational guidance, to encourage stepwise investment and subsequent recognition in regulatory system strengthening.
+
+In both options, compliance with all GBT indicators specified for a ML3 regulatory system would be a pre-requisite for consideration as a WLA.
+
+Note: for additional information click here.
+
+What is a transitional WLA?
+===========================
+
+A transitional WLA (tWLA) is a Regulatory Authority (RA) previously included in the WHO Interim list of regulatory authorities (published by WHO from 2019 to 2022), which compiled all RAs already recognized by WHO that work at an acceptable level of regulatory performance before the introduction of the WLA concept.
+
+A transitional WLA is not a WLA, in that it still needs to undergo the performance evaluation process and demonstrate compliance with the requirements to be designated as a WLA.
+
+The transitional list will be valid until 31 March 2027. During this time, tWLAs are expected to apply for being subject to the performance evaluation (PE) to be able to transition either to the permanent WLA list or the list of RAs operating at ML3/4.
+
+How can the WLA concept help to improve the efficiency of regulatory systems?
+=============================================================================
+
+The principle of reliance is central to WHO’s approach to regulatory system strengthening and a cornerstone for effective, efficient and smart regulatory oversight of medical products. Relying on the work and decisions of WLAs by other regulatory authorities or procurement agencies reduce redundancy and waste of limited regulatory and financial resources thus contributing to improve the efficiency of regulatory systems. The WLA framework is ultimately promoting access to safe, effective, and quality medicines and vaccines.
+
+Is it necessary to achieve high-level performance in all regulatory functions to be listed as WLA?
+==================================================================================================
+
+No. A WLA must have attained ML3 through the WHO GBT assessment in all functions and should demonstrate compliance with all the additional performance evaluation requirements only for the function(s) and/or product category(ies) for which listing is sought (see question 6).
+
+Will a negative result in the performance evaluation process have an impact on the maturity level (ML) of the NRAs, and consequently on prequalified products?
+==============================================================================================================================================================
+
+No. A negative decision for WLA listing has no impact on the ML reached through GBT, and accordingly, no consequence is foreseen on prequalified medical products.
+
+If a product has been authorized by a regulatory authority before its designation as a WLA, can reliance be still applied?
+==========================================================================================================================
+
+The performance evaluation process that leads to the designation of a regulatory authority as a WLA aim to verify consistency of implementation of good regulatory practices over time, and this is generally achieved by assessing the regulatory performance up to three years before the WLA designation. However, the responsibility to rely on WLA’s regulatory decisions stands with the user and is specific for the intended use.
+
+How will the WLA list be used in the context of the prequalification process?
+=============================================================================
+
+The WHO prequalification team will use the WLA list to facilitate abridged assessment for prequalification and avoid duplication of efforts and repetition of assessment, where possible. The type of products and regulatory functions listed for the WLA will be taken into consideration for the relevant abridged assessment.
+
+Can the list of Stringent Regulatory Authorities still be used?
+===============================================================
+
+Until the full transition of SRAs to WLAs, stakeholders may want to refer to the list of Stringent Regulatory Authorities for regulatory reliance.
+
+How do benchmarking and maturity level and how WLA concept impact procurement of healthcare products?
+=====================================================================================================
+
+The Global Benchmarking Tool and the maturity levels concept have been developed for capacity-building purposes only. The decision to procure medical products from a manufacturer in a country with a regulatory authority that have attained a certain maturity level following the WHO’s benchmarking remain solely with the procurement agency who is independent, responsible and accountable for its decisions.
+
+WLAs are recognized by WHO as regulatory authorities operating at high level of performance and as such considered for reliance in the specific functions mentioned in the WLA designation. The ultimate responsibility and decision for use of tWLA and WLA lists resides with the users (for example, regulatory authorities, procurement agencies) and will depend on the specific context of its intended use.

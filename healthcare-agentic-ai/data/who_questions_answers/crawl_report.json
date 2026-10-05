@@ -1,0 +1,21 @@
+{
+  "crawl_timestamp": "2026-10-05T09:42:59.848116+00:00",
+  "total_urls_discovered": 326,
+  "successful_downloads": 320,
+  "failed_downloads": 1,
+  "duplicate_urls": 0,
+  "skipped_existing": 5,
+  "skipped_by_limit": 0,
+  "skipped_duplicate_urls": 5,
+  "output_directory": "C:\\Users\\Hp\\OneDrive\\Desktop\\HEALTHCARE AGENT\\TEST AGENTS\\mini-cc\\healthcare-agentic-ai\\data\\who_questions_answers",
+  "failed_urls": [
+    "https://www.who.int/news-room/questions-and-answers/item/human-metapneumovirus-(hmpv)-infection"
+  ],
+  "errors": [
+    {
+      "url": "https://www.who.int/news-room/questions-and-answers/item/human-metapneumovirus-(hmpv)-infection",
+      "error": "HTTPSConnectionPool(host='www.who.int', port=443): Read timed out. (read timeout=30.0)"
+    }
+  ],
+  "discovery_error": null
+}

@@ -1,0 +1,214 @@
+WHO QUESTIONS AND ANSWERS
+Title: Patient safety: Safe surgery saves lives
+URL: https://www.who.int/news-room/questions-and-answers/item/safe-surgery-saves-lives-frequently-asked-questions
+Retrieved: 2026-10-05T09:49:19.257591+00:00
+
+========================================
+
+This page is no longer being updated. It remains live for reference purposes only.
+
+What is the Checklist?
+======================
+
+The WHO Surgical Safety Checklist is a simple tool designed to improve the safety of surgical procedures by bringing together the whole operating team (surgeons, anaesthesia providers and nurses) to perform key safety checks during vital phases of perioperative care: prior to the induction of anesthesia, prior to skin incision and before the team leaves the operating room.
+
+Why is the Checklist important?
+===============================
+
+Surgery can be a life-saving or life-changing intervention in many conditions and the provision of surgical services is being increasingly recognized as a significant public health issue. A modeling study estimated that 234 million operations are carried out every year across the world. This translates to one operation for every 25 people and is more than the number of children born worldwide each year.
+
+An estimation of the global volume of surgery: a modelling strategy based on available data
+Lancet 2008
+
+However, despite the positive impact the provision of surgical services can have on a population’s health, surgery itself carries risk. Current estimates of morbidity and mortality following surgery indicate that over 7 million people worldwide will suffer complications following surgery. One million of these people will die as a result. Around half of these complications are potentially preventable, so using the Checklist to improve the safety of surgery will save many thousands of lives each year.
+
+How was the Checklist developed?
+================================
+
+In 2007, WHO Patient Safety launched the Second Global Patient Safety Challenge, Safe Surgery Saves Lives. This project’s goal was to improve the safety of patients undergoing surgical procedures around the world. The first step was to gather an international group of experts to develop a solution to the problem of unsafe surgery. Anaesthetists, operating theatre nurses, surgeons, safety experts, patients and other professionals came together and came up with the WHO Surgical Safety Checklist.
+
+All of the items included on the Checklist are supported by evidence that, if used reliably, can reduce complications from surgery. A summary of all the evidence is in WHO Guidelines for Safe Surgery which can be found here.
+
+We already do all the things on the Checklist. Why should we use it?
+====================================================================
+
+The Checklist helps ensure that important safety steps are reliably followed for each and every operation.
+
+Many of the checks included are already routine in some institutions, but we have found that in most hospitals there are opportunities for improvement in consistency. While most or all of the items on the WHO Checklist may already be done at your hospital, very few operating teams accomplish them all consistently, even in the most advanced settings.
+
+Does WHO have evidence that using the Checklist has any benefit?
+================================================================
+
+Between October 2007 and September 2008, the effect of the Checklist was studied in eight hospitals in eight cities (Toronto, Canada; New Delhi, India; Amman, Jordan; Auckland, New Zealand; Manila, The Philippines; Ifakara, Tanzania; London, UK; and Seattle, USA) representing a wide variety of health-care settings, economic circumstances and diverse patient populations. Data was prospectively collected on clinical processes and outcomes from 3733 patients before and 3955 patients after the Checklist was implemented. The results of the study were published in the New England Journal of Medicine in January 2009 and demonstrated dramatic improvements in both processes and outcomes.
+
+A surgical safety checklist to reduce morbidity and mortality in a global population
+New England Journal of Medicine 2009
+
+Use of the WHO Surgery Checklist reduced the rate of deaths and surgical complications by more than one-third across all eight pilot hospitals. The rate of major inpatient complications dropped from 11% to 7%, and the inpatient death rate following major operations fell from 1.5% to 0.8%.
+
+Have other studies supported the findings of the pilot study?
+=============================================================
+
+Since the landmark initial study, many smaller studies have been reported that support the findings of a reduction in complications and death while using the WHO Checklist. These studies were also carried out in a variety of settings.
+
+Most recently published is a cluster randomized control trial from Norway that compared 2212 control procedures with 2263 procedures using the Checklist. The complication rates decreased from 19.9% to 11.5%. Mean length of stay decreased by 0.8 days with Checklist utilization. In-hospital mortality decreased from 1.6% to 1.0%.
+
+- Haugen et al. Effect of the World Health Organization Checklist on Patient Outcomes: A Stepped Wedge Cluster Randomized Controlled Trial. Ann Surg; epub May 2014.
+
+In Liberia, Yuan et al found that introduction of the Checklist was associated with significant (p < 0.05)="" improvements="" in="" terms="" of="" overall="" surgical="" processes="" and="" surgical="">
+
+- Yuan CT et al. Incorporating the World Health Organization Surgical Safety Checklist into practice at two hospitals in Liberia. Jt Comm J Qual Patient Saf 2012; 38: 254–60.
+
+Askarian et al. found that surgical complications decreased from 22.9% to 10% when the Checklist was used in a hospital in Iran.
+
+- Askarian M, et al. Effect of surgical safety checklists on postoperative morbidity and mortality rates, Shiraz, Faghihy Hospital, a 1-year study. Qual Manag Health Care 2011; 20: 293–7.
+
+The Netherlands’ Surgical Patient Safety System found a signiﬁcant reduction in in-hospital mortality (1.5% to 0.8%) and in overall complications (27.3 to 16.7 per 100) after implementation of a comprehensive surgical checklist:
+
+- de Vries EN, et al. Effect of a comprehensive surgical safety system on patient outcomes. New England Journal of Medicine 2010; 363: 1928–37.
+
+Are there any benefits other than reduced complications and death following surgery?
+====================================================================================
+
+Improvements have been found from using the Checklist that are broader than just morbidity and mortality.
+
+- Cost savings. This paper used a modeling technique and estimated that the Checklist need only prevent five complications before having a positive financial impact, even when the costs of implementation were taken into account. The authors predict a cost saving within one year of using the Checklist.
+
+- Semel ME, et al. Adopting A Surgical Safety Checklist Could Save Money And Improve The Quality Of Care In U.S. Hospitals. Health Affairs 2010; 29: 1593–9.
+
+- Improved communication. Authors have reported better communication between members of the operating team following introduction of the Checklist, including better recognition of other team members and improved likelihood of staff speaking up when a problem is noticed.
+
+- Bohmer AB et al. The implementation of a perioperative checklist increases patients’ perioperative safety and staff satisfaction. Acta Anaesthesiol Scand 2012;56:332-8.
+
+- Kearns RJ, et al. The introduction of a surgical safety checklist in a tertiary referral obstetric centre. BMJ Qual Saf 2011;20:818–22.
+
+- Sewell M, et al. Use of the WHO surgical safety checklist in trauma and orthopaedic patients. International Orthopaedics (SICOT) 2010;35:897–901.
+
+- Improved safety culture in departments using the Checklist. Using the Checklist is associated with improved scores on a standardized questionnaire that evaluates culture and attitudes towards safety issues. Questions are included on the reporting of errors, ability to resolve disputes and supportive team work.
+
+- Kawano T, et al. Improvement of teamwork and safety climate following implementation of the WHO surgical safety checklist at a university hospital in Japan. J Anesth 2013. doi: 10.1007/s00540-013-1737-y.
+
+- Haynes AB, et al. Changes in safety attitude and relationship to decreased postoperative morbidity and mortality following implementation of a checklist-based surgical safety intervention. BMJ Qual Saf 2011;20:102–7.
+
+Is an easily accessible summary of the evidence available?
+==========================================================
+
+These two systematic reviews of the impact of the Checklist give a helpful summary of the evidence:
+
+- Bergs J, et al. Systematic review and meta-analysis of the effect of the World Health Organization surgical safety checklist on postoperative complications. BJS 2014;101:150–158
+
+- Treadwell JR, et al. Surgical checklists: a systematic review of impacts and implementation. BMJ Qual Saf 2014;23:299–318
+
+-
+
+- Kawano T, et al. Improvement of teamwork and safety climate following implementation of the WHO surgical safety checklist at a university hospital in Japan. J Anesth 2013. doi: 10.1007/s00540-013-1737-y.
+
+- Haynes AB, et al. Changes in safety attitude and relationship to decreased postoperative morbidity and mortality following implementation of a checklist-based surgical safety intervention. BMJ Qual Saf 2011;20:102–7.
+
+Hasn’t a recent study shown that the Checklist is not as effective as first thought?
+====================================================================================
+
+A study published in the New England Journal of Medicine in 2014 found no reduction in morbidity and mortality following use of the Checklist being made mandatory in the Canadian state of Ontario.
+
+This does not necessarily show that the Checklist does not work, though. The paper has many shortcomings, mainly that the authors did not know how often the Checklist was actually used and the period of the study was only three months, a very short time to expect to see a benefit.
+
+What we can learn from the study is that simply telling people to use the Checklist won’t work. Implementing the Checklist takes more effort and time than the study allowed.
+
+Why does the Checklist work?
+============================
+
+There are several theories as to why the Checklist has been able to produce the results it has. The original study suggests that it is multifactorial and that improvement could come from the Checklist, the formal pauses, the resultant push for uptake of technology, as well as improvements in teamwork and communication resulting from its use.
+
+One thing that is clear is that reductions in mortality and morbidity are greater when the Checklist is completed in full compared to when it is only partly completed. This suggests that the improvements seen are not due to the whole Checklist and not only one component.
+
+In the original pilot study, the reduction in mortality was not significant in high-income countries. Does the Checklist really apply to high-income countries?
+===============================================================================================================================================================
+
+Mortality was reduced with use of the Checklist in the hospitals situated in high-income countries, although the reductions were not statistically significant. However, it should be noted that the study was not powered to detect differences in mortality in each resource setting and complications were significantly reduced in all settings.
+
+Since the pilot study, many other studies in high-income settings have shown a reduction in both complications and deaths following surgery where the Checklist has been used.
+
+The Checklist definitely has benefits for surgical patients in high-income countries, therefore.
+
+Does the Checklist apply to all low- and middle-income countries?
+=================================================================
+
+Four low-income countries contributed to the original WHO study and reductions in complications and deaths were observed in all those settings. Since then, other studies have found similar benefits in a variety of low- and middle- income countries. Adapted appropriately, the Checklist can be an effective tool in these settings, especially when adopted as part of a wider push for improvement in the overall patient safety culture.
+
+WHO acknowledges that implementation of the Checklist in low- and middle-income settings will imply special considerations. Limited availability of resources may make certain items harder to follow, for example antibiotic prophylaxis and pulse oximeter use. Efforts should, and are, being made to make these important products more widely available. In the meantime, the Checklist should be used as completely as possible in all settings where surgery is carried out.
+
+What is the key to successful implementation of the Checklist?
+==============================================================
+
+Our understanding of what makes implementation of it successful is growing as worldwide experience increases. A few key factors have been identified, which include:
+
+- Local clinical champions of the Checklist who are influential in their hospital are very important in explaining and demonstrating the benefits of correct use of the Checklist.
+
+- Staff need to be fully engaged in bringing about local modifications to the Checklist and the implementation process.
+
+- Workshops and wider safety education alongside use of the Checklist are helpful.
+
+- Senior hospital leaders need to be seen to be committed to implementing the Checklist.
+
+- It must be recognized that successful implementation of the Checklist does take time.
+
+How can I successfully implement the Checklist in my hospital?
+==============================================================
+
+There are a number of resources on the WHO website to help you start using the Checklist in your hospital. These include the guidelines for safe surgery, pre-prepared presentations and briefings for colleagues, help with questions you are likely to be asked and a step-by-step guide to its practical implementation.
+
+Our surgical teams don’t want to use the WHO Surgical Safety Checklist unless they can change a few of the elements. Is it okay to make changes to the Checklist?
+=================================================================================================================================================================
+
+Yes, the Checklist was not intended to be comprehensive, and we encourage modiﬁcations for local use. We understand that the Checklist, while intended to be universally applicable, is not always a perfect ﬁt for all institutions. Modiﬁcations can be made to include items that are deemed essential in your specific setting.
+
+There are a number of resources on the WHO website to help you start using the Checklist in your hospital. These include the guidelines for safe surgery, pre-prepared presentations and briefings for colleagues, help with questions you are likely to be asked and a step-by-step guide to its practical implementation.
+
+However, there are two things to be aware of:
+
+- Be very cautious about removing items from the Checklist. All the steps included are there because there is strong evidence that they can prevent serious harm. If you are having difficulty completing a particular item, it is better to work to find solutions to this problem than to simply remove that item.
+
+- Avoid making the Checklist too comprehensive. The more items added to it, the more difﬁcult it will become to implement successfully.
+
+Please refer to the Checklist Adaptation Guide before making any changes, for recommendations on modifying the Checklist.
+
+My hospital is quite large, with many operating rooms. How can I implement a checklist in this environment?
+===========================================================================================================
+
+The key to successful implementation is to start small. Start with a single operating room on one day and see how it works. This will guide you to strategies for modifying the Checklist to ﬁt your needs, as well as identify potential barriers to its successful adaptation.
+
+Who should be in charge of running the Checklist?
+=================================================
+
+Although every member of the operating team – surgeons, anaesthetists, nurses, technicians and other operating room personnel – is involved in its execution, a single person should be responsible for leading the discussion of all components of the Checklist. This is essential for its success. This will often be a circulating nurse, but it can be any clinician or health-care professional participating in the operation. This individual should prevent the team from progressing to the next phase of the operation until each step has been satisfactorily addressed.
+
+My hospital is very busy. Won’t the Checklist just waste time and make our operating theatres less efficient?
+=============================================================================================================
+
+Running through the Checklist fully takes only a few minutes each time and a study has found no reduction in the number of cases performed when the Checklist is in use. In certain emergency situations using the Checklist might be difficult due to the urgency of the case but these instances will be rare.
+
+Using the Checklist can make processes work more smoothly, as it improves communication between team members. When the cost and inefficiency of surgical complications is taken into account, using the Checklist is likely to make a surgical department more efficient.
+
+My team often stays together for the whole day. Must we introduce ourselves before every surgery?
+=================================================================================================
+
+The most critical time for introductions is at the beginning of an operative day. There is no need to repeat introductions if they have already been made. However, if new members join a room, they should introduce themselves as should every member of the team present. Even if everyone knows each other, introductions are important as they serve to reinforce team communication.
+
+An important part of the introductions is to enable every member of the team to speak aloud when they introduce themselves. There is evidence that once an individual has spoken aloud once they will be more likely to speak up again if they have concerns later. This is particularly important for junior team members.
+
+Should we memorize the Checklist?
+=================================
+
+No. Checklists are created to avoid the pitfalls of memorization and omissions that occur when standardized processes are not clearly written and deﬁned. Reading from the Checklist for every case will help ensure that teams consistently follow critical safety steps and thereby minimize the most common avoidable risks endangering the lives and well-being of surgical patients.
+
+While there is enthusiasm amongst some clinicians for the Checklist, there are others who do not see the value of this initiative. Can we still use the Checklist?
+==================================================================================================================================================================
+
+Yes. Implementation should always begin with the most enthusiastic. The Checklist can be implemented by an individual clinician in cases in which he or she participates, a selected service or operating room suite at a hospital, before progressing to hospital-wide or even system-wide use of the Checklist.
+
+Focus energy on those areas and individuals who are receptive to the idea at ﬁrst, and as they become accustomed to the Checklist and its beneﬁts, they will help spread the word to their peers. Collecting local data on compliance with Checklist items and on outcomes from surgery can be a very powerful motivating tool. This need not be of publishable quality, but it is important to start data collection early and ensure it is accurate.
+
+I have additional questions not covered by the FAQ. Can I speak to someone?
+===========================================================================
+
+Please contact patientsafety@who.int.

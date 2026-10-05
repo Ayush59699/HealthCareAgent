@@ -1,0 +1,58 @@
+WHO QUESTIONS AND ANSWERS
+Title: Neglected tropical diseases: Clonorchiasis
+URL: https://www.who.int/news-room/questions-and-answers/item/neglected-tropical-diseases-clonorchiasis
+Retrieved: 2026-10-05T09:47:54.010690+00:00
+
+========================================
+
+Clonorchiasis, or Chinese liver fluke disease, is caused by infection with Clonorchis sinensis.
+
+What socioeconomic factors fuel clonorchiasis transmission?
+===========================================================
+
+Poverty, the tradition to eat raw or undercooked freshwater fish, and inadequate sanitation in rural areas drive high infection rates. Limited healthcare access delays diagnosis, perpetuating cycles of contamination through untreated human waste in water systems.
+
+How does climate change impact clonorchiasis spread?
+====================================================
+
+Warmer temperatures and flooding can expand habitats for snails and fish that carry the parasite, increasing the chances of infection. Climate change may also affect food availability, leading some communities to fish in contaminated areas where infected fish are more common. This raises the risk of people catching and eating fish that carry the parasite.
+
+Why is clonorchiasis underdiagnosed in non-endemic countries?
+=============================================================
+
+Migrants or travellers from endemic regions may carry asymptomatic infections. Doctors in non-endemic areas often lack awareness, and stool tests for parasite eggs are not routine unless specifically requested.
+
+Are pets or livestock at risk of spreading clonorchiasis?
+=========================================================
+
+Yes. Dogs, cats, and pigs can act as reservoir hosts, shedding parasite eggs in their feces, which might contaminate water. This sustains the lifecycle, emphasizing the need for veterinary action in endemic regions.
+
+Can cooking utensils contaminated with raw fish spread clonorchiasis?
+=====================================================================
+
+No. The parasite requires specific snail and fish hosts to complete its lifecycle. However, cross-contamination of utensils may pose risks for other foodborne illnesses, highlighting the need for kitchen hygiene.
+
+Why are some communities resistant to changing raw fish-eating practices?
+=========================================================================
+
+Traditional dishes like koi pla (Thailand) or sashimi (Japan) are an important part of local culture and identity, making change difficult. However, eating raw fish can lead to infections like clonorchiasis. To reduce the risk without disrespecting traditions, education campaigns can promote cooking fish thoroughly as a safer alternative. Cooking is a practical solution in many communities where freezing fish may not be possible.
+
+Can clonorchiasis increase vulnerability to other liver diseases?
+=================================================================
+
+Yes. Long-term clonorchiasis infection causes chronic inflammation and damage to the bile ducts, which can lead to serious liver problems. One of the most severe outcomes is cholangiocarcinoma, a deadly bile duct cancer. The parasite's presence in the bile ducts triggers continuous irritation and scarring, which over time increases the risk of cancer developing. People with chronic clonorchiasis are also more vulnerable to other liver diseases, such as hepatitis B or C, especially when combined with other factors like alcohol use.
+
+How does clonorchiasis affect children differently than adults?
+===============================================================
+
+Children often experience malnutrition and stunted growth due to chronic infection. Early exposure increases lifetime bile duct cancer risk, as damage accumulates over decades.
+
+What is the treatment for clonorchiasis?
+========================================
+
+Clonorchiasis is usually treated with a medicine called praziquantel, which kills the adult worms living in the bile ducts. Treatment can help stop the infection and reduce symptoms. However, it cannot undo the long-term damage to the liver and bile ducts caused by chronic infection. This is why preventing infection—by not eating raw or undercooked freshwater fish—is very important.
+
+How can clonorchiasis be prevented?
+===================================
+
+The best way to prevent clonorchiasis is to avoid eating raw or undercooked freshwater fish. Cooking fish thoroughly until it is fully cooked kills the parasites. Improved sanitation is essential to prevent contamination with human feces of water sources where fish live. Where possible, community-based approaches like fish farming in clean water and public education campaigns about the risks of eating raw fish also help reduce infection rates.

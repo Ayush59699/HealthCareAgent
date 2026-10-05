@@ -1,0 +1,108 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Ventilation and air conditioning
+URL: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-ventilation-and-air-conditioning
+Retrieved: 2026-10-05T09:44:54.307190+00:00
+
+========================================
+
+Updated 23 December 2021. This Q&A is designed to inform members of the public about ventilation at home, offices and school, as well as when travelling in airplanes.
+
+What is ventilation and how can it prevent COVID-19 from spreading?
+===================================================================
+
+Ventilation is the process of bringing fresh, outdoor air inside and letting indoor air outside in order to maintain or improve air quality.
+
+The risk of getting COVID-19 infection is increased in crowded and poorly ventilated settings. This is because the virus passes between people through infected respiratory particles in the form of droplets and aerosols. In poorly ventilated spaces infected aerosols can remain suspended in the air or travel farther than conversational distance. Improving indoor ventilation reduces the risk of the virus spreading indoors. For practical advice, please see our infographic.
+
+Download infographic
+
+Ventilation is not a standalone measure and it should be implemented as part of a comprehensive package of measures, such as physical distancing, avoiding crowds, wearing a mask, frequent hand cleaning, staying home if unwell, coughing or sneezing into a bent elbow, and vaccination. Each of these is important to protect you against COVID-19 infection. Find out more about how to stay safe on our  public advice page.
+
+How do I improve ventilation in my home or workplace?
+=====================================================
+
+When you are inside, open windows or doors whenever possible. For better ventilation, open windows/doors on opposite sides of a room to create a cross breeze. If creating a cross breeze is not possible, you can place a fan in front of an open window to increase air flow and push indoor air outside.
+
+If the temperature outside is extremely hot or cold, you can open windows for a few minutes every hour to bring in fresh air.
+
+Will an air conditioner provide good ventilation?
+=================================================
+
+The majority of wall or window unit air conditioning systems do not provide ventilation. They are designed to reduce the temperature and humidity of the air, and they do this by recirculating indoor air. Whenever using a wall or window unit air conditioning system, open windows for a few minutes every hour to bring in fresh air from the outside.
+
+Heating, ventilation and air-conditioning (HVAC) systems pull outside air inside. Make sure the settings on your HVAC system maximize the amount of fresh, outdoor air that is pulled into the system. HVAC systems should always be regularly inspected, maintained and cleaned according to the manufacturer’s recommendations.
+
+If you are riding in a vehicle that has air conditioning, make sure to use the setting that bring in fresh air.
+
+How can I improve heating and air conditioning systems at home?
+===============================================================
+
+Non-ducted heating and air conditioning units that recirculate air, such as fan-coil or split units, should be assessed, maintained and cleaned according to manufacturer recommendations. Assess the unit’s filter and consider replacing the existing filter with a MERV14/ISO ePM1 70-80% air filter or the highest compatible filter with the filter rack, in collaboration with an HVAC professional. The units and filters should be periodically cleaned and maintained according to manufacturer recommendations.
+
+More information is available here.
+
+Can fans be used safely inside?
+===============================
+
+Using a fan in an enclosed space can increase the spread of the virus that causes COVID-19. This is why it is important to open windows and doors whenever using a fan to replace indoor air without outdoor air.
+
+If using a pedestal fan, minimize as much as possible how much air blows from one person (or group of people) to another person (or group of people). You can place a fan in front of an open window to increase air flow and push indoor air outside.
+
+The use of ceiling fans can improve the circulation of air from outside and avoid pockets of stagnant air forming indoors. However, it is important to bring in air from the outside by opening windows when using a ceiling fan.
+
+How can I improve ventilation at home if someone is sick with the virus that causes COVID-19?
+=============================================================================================
+
+If someone is sick and being cared for at home, the following can be done to improve ventilation and reduce the risk of infection to other members of the household:
+
+- Whenever possible, the ill person should stay in a separate room. If this is not possible, then keep at least a 1-metre distance from them. The sick person and anyone else in the same room should wear a medical mask.
+
+- Provide good ventilation in the room of the ill person and shared spaces, and open windows whenever possible.
+
+- Create a cross breeze by opening windows or doors on opposite sides of the ill person’s room.
+
+- If possible, try to prevent the air from moving from the sick person’s room to the rest of the house.
+
+- If available, the ill person should stay in a separate room that has a private toilet with an air extractor or exhaust fan, which should run at a high speed.
+
+- As a supplement, you can use a stand-alone air cleaner with a MERV14/ISO ePM1 70-80% air filter. MERV14/F8 filter. These devices may improve air quality but are not a replacement for ventilation.
+
+Also see WHO’s Q&A on homecare .
+
+Is it safe for me to have visitors in my home if I have good ventilation?
+=========================================================================
+
+In the context of the COVID-19 pandemic, there is no “zero risk” when it comes to gathering with others, but there are many ways in which you can reduce the risk of infection and spread of the COVID-19 virus.
+
+In general, you are at risk of COVID-19 infection whenever you get together with people and risk reduction measures are not in place. If you meet with others who live outside of your household, WHO recommends to meet outdoors whenever possible. Outdoor venues are safer than indoor venues because there is more air flow and fresh air.
+
+If you have visitors in your home, always maintain a physical distance of at least 1 metre, wear a mask, and open windows to improve air flow. To enhance ventilation, create a cross breeze or place a fan in front of an open window facing the outside. For more details, see “How do I improve ventilation in my home or workplace?” above.
+
+Do portable air filters provide ventilation?
+============================================
+
+Air filters do not provide ventilation and do not replace other ventilation methods. However, they can help to reduce the concentration of the COVID-19 virus in the air, thus reducing the possibility of transmission. A MERV14/ISO ePM1 70-80% air filter can improve air quality when used in indoor settings.
+
+Does mosquito screening impact ventilation?
+===========================================
+
+Simple mosquito screening on doors and windows is important for protecting yourself against the diseases spread by mosquitoes and other insects. The use of such screens may reduce the natural ventilation rate and it is recommended where screens are used that more screened windows are opened to create cross ventilation.
+
+How can I improve ventilation in a car or vehicle?
+==================================================
+
+When riding in a car or vehicle open windows whenever possible, the more windows the better. If you are using air conditioning in the vehicle, use the setting that brings in fresh air.
+
+How can ventilation reduce the risk of contracting COVID-19 in airplanes?
+=========================================================================
+
+Most airplanes have cabin air filtration systems equipped with HEPA filters which can remove viruses and germs quickly, reducing risk exposure to any potential infectious virus or bacteria expelled by a cough or sneeze. Cabin air systems are designed to operate most efficiently by delivering approximately 50 percent outside air and 50 percent filtered, recirculated air. The air supply is essentially sterile and particle-free.
+
+However, adequate ventilation is just one of the preventive measures to reduce the risk of COVID-19 transmission. Other important measures include maintaining physical distance of at least 1 metre, wearing a mask, cleaning hands frequently, and sneezing/coughing into a bent elbow or tissue, and getting vaccinated when you can.
+
+What is WHO doing to address ventilation in the context of COVID-19?
+====================================================================
+
+Since January 2020, WHO has provided recommendation on ventilation in COVID-19 guidance. Early in the pandemic, WHO established the WHO Environment and Engineering Control Expert Advisory Panel (ECAP) for COVID-19 to review available scientific evidence and practices and update recommendations on environment and engineering controls. This multidisciplinary network brings together technical experts from various fields, such as infection control specialists, engineers, architects, aerobiologists and environmental experts.
+
+In June 2020, WHO contributed to guidance on ventilation and air-conditioning systems in the context of COVID-19, available here. WHO works closely with the World Meteorological Organization Joint Office for Climate and Health and the United States National Oceanic and Atmospheric Administration (NOAA) through the Global Health Information Network to develop and update this guidance. Throughout 2020 and 2021, WHO experts worked to enhance ventilation guidance in a number of technical guidance products for different settings including health facilities, homes, quarantine facilities, schools and businesses. In addition, in March 2021, WHO published a roadmap to improve ventilation in various settings.

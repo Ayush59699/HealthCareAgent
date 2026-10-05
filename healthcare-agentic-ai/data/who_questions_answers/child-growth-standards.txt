@@ -1,0 +1,75 @@
+WHO QUESTIONS AND ANSWERS
+Title: Child growth standards
+URL: https://www.who.int/news-room/questions-and-answers/item/child-growth-standards
+Retrieved: 2026-10-05T09:43:34.932576+00:00
+
+========================================
+
+Are the WHO 2006 child growth standards applicable to all children?
+===================================================================
+
+The WHO 2006 child growth standards (0–5 years) describe normal child growth from birth to 5 years of age under optimal environmental conditions including WHO recommendations for breastfeeding. They can be applied to all children everywhere, regardless of ethnicity, socioeconomic status and type of feeding.
+
+What growth references are recommended by WHO for children and adolescents older than 5 years?
+==============================================================================================
+
+The WHO 2007 growth reference charts (5–19 years) are based on a re-analysis of the National Center for Health Statistics (NCHS) data from 1977.
+
+This reference complements the WHO child growth standards for 0–60 months published in April 2006. They are used for global monitoring and can be used also for national monitoring.
+
+Please see the WHO Reference 2007 for boys and girls, 5–19 years.
+
+Why were the WHO Child Growth Standards developed?
+==================================================
+
+The National Center for Health Statistics (NCHS)/WHO growth reference were used beginning in the 1970s. It describes how children grow in a particular region and time. This reference was based on data from several samples of children from a single country and suffers from a number of technical and biological drawbacks that make it inadequate to monitor the rapid and changing rate of early childhood growth.
+
+In 1993, under the leadership of WHO, the United Nations undertook a comprehensive review of the uses and interpretation of child growth references. The review concluded that it was time to develop new standards that show how children should grow in all countries rather than merely describing how they grew at a particular time and place.
+
+Following this review, in 1994, the World Health Assembly (WHA) endorsed the development of a new set of tools to assess infant and young child growth. The Assembly stressed the need to move beyond past approaches and toward the more desirable goal of describing how all children should grow when their needs are met.
+
+In setting this ambitious goal, WHO and its principal partner, the United Nations University, in collaboration with a number of academic institutions worldwide, undertook the Multicentre Growth Reference Study (MGRS), a community-based, multi-country project to develop new growth standards for infants and young children.
+
+The study involved the recruitment of children who met a number of health criteria in 6 countries representing different regions of the world: Brazil, Ghana, India, Norway, Oman, and the United States of America. The 8440 children included in the study were raised in environments that minimized constraints to growth such as poor diets and infection. In addition, their mothers followed health practices such as breastfeeding their children and not smoking during and after pregnancy.
+
+How different are the WHO Child Growth Standards from the old (NCHS/WHO) growth references?
+===========================================================================================
+
+The WHO growth standards differ from any existing growth charts in a number of innovative ways. First, the MGRS was designed to provide data that describe how children should grow, by including in the study’s selection criteria specific health behaviours that are consistent with current health promotion recommendations (e.g., breastfeeding norms, standard pediatric care, non-smoking requirements).
+
+This approach is fundamentally different from that taken by the traditional descriptive references. By adopting a prescriptive approach, the protocol’s design went beyond an update of how children in presumably healthy populations grow at a specific time and place and explicitly recognize the need for standards (i.e., devices that enable value judgments by incorporating norms or targets in their construction). Arguably, the current obesity epidemic in many developed countries would have been detectable earlier if a prescriptive international standard had been available more than 30 years ago.
+
+Another key characteristic of the standards is that it makes breastfeeding the biological norm and establishes the breastfed infant as the normative growth model. The previous reference was based on the growth of artificially fed children.
+
+The pooled sample from the 6 participating countries will allow the development of a truly international standard (in contrast to the previous international reference based on children from a single country) and reiterate the fact that child populations grow similarly across the world’s major regions when their needs for health and care are met.
+
+These standards also include new innovative growth indicators beyond height and weight that are particularly useful for monitoring the increasing epidemic of childhood obesity, such as the skinfold thickness.
+
+The study’s longitudinal nature will also allow the development of growth velocity standards. Health-care providers will not have to wait until children cross an attained growth threshold to make the diagnosis of under-nutrition and overweight since velocity standards will enable the early identification of children in the process of becoming under- or over-nourished.
+
+Lastly, the development of accompanying windows of achievement for six key motor development milestones will provide a unique link between physical growth and motor development.
+
+Do the WHO Child Growth Standards change the old NCHS estimates of overweight and undernutrition in children?
+=============================================================================================================
+
+Yes, estimates changed because of differences in the pattern of growth between the new standards and the old reference, especially during infancy. The magnitude of the change in the estimates however varied by age, sex, growth indicator, and the underlying nutritional status in the population being evaluated.
+
+A notable effect is that stunting (low height for age) was greater throughout childhood when assessed using the new WHO standards compared to the previous international reference. There was a substantial increase in underweight rates during the first half of infancy (i.e., 0–6 months) and a decrease thereafter.
+
+For wasting (low weight for length/height), the main difference between the new standards and the old reference is during infancy (i.e., up to about 70 cm length) when wasting rates will be substantially higher using the new WHO standards. With respect to overweight, use of the new WHO standards will result in a greater prevalence that will vary by age, sex and nutritional status of the index population.
+
+What needs to be done so that all children grow well according to these standards?
+==================================================================================
+
+Breastfeeding should be supported, protected and promoted. For the first 6 months, mothers need to be informed and empowered to practice exclusive breastfeeding. Children should be provided safe, wholesome and nutritionally appropriate foods during the period of complementary feeding and after the second year when breastfeeding has ceased. Sound nutritional practices are important throughout childhood. Appropriate national guidelines should be developed to aid caregivers in choosing nutritious local foods incorrect combinations and amounts to feed their children in order to maintain optimal growth in later childhood (the aim being to avoid both nutritional deficiencies and excesses).
+
+Vaccinations and good health care should be available and accessible to all infants and young children. Families and their communities should do all they can to ensure that mothers have a good pregnancy.
+
+Nationally, full implementation of the objectives of the Global Strategy for Infant and Young Child Feeding (2002) would go a long way in creating supportive environments for mothers to breastfeed their children. The standards can help stimulate change that facilitates these improvements. Therefore, the very first step should be implementing the new standard in every country and ensuring that every child has his/her own chart against which his/her growth is assessed followed by an appropriate follow-up.
+
+Which cut-offs should we use for defining obesity risk in children?
+===================================================================
+
+Given that children (0–5 years) are still growing and the lack of evidence on the functional significance of cut-offs for the upper end of the BMI-for-age distribution, WHO opted for a conversative approach when defining obesity risk. Thus, for 0–5 years of age, children above +1SD are described as being "at risk of overweight", above +2SD as overweight, and above +3SD as obese. A further reason for this cautiousness is to avoid the risk of people placing young growing children on restrictive diets.
+
+The WHO classifications for overweight/obesity in younger children (0–5 years) are defined in the training course on child growth assessment (Module C: Interpreting growth indicators available here.

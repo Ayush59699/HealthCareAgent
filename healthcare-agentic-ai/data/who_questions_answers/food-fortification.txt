@@ -1,0 +1,55 @@
+WHO QUESTIONS AND ANSWERS
+Title: Food fortification
+URL: https://www.who.int/news-room/questions-and-answers/item/food-fortification
+Retrieved: 2026-10-05T09:45:51.428367+00:00
+
+========================================
+
+Why should food be fortified?
+=============================
+
+Fortification has been identified as one of the most cost-effective nutrition interventions available, particularly for low- and middle-income countries. Fortification of commonly used food vehicles provides an opportunity for increasing nutrient intake during infancy and for populations at risk of deficiencies without any side effects for the general population. It is a “win-win”.
+
+What are the health impacts of food fortification?
+==================================================
+
+Food fortification with multiple micronutrients may reduce anaemia, iron deficiency anaemia and micronutrient deficiencies (iron, vitamin A, vitamin B2 and vitamin B6) as well as some motor and cognitive outcomes. Micronutrients’ fortification may also improve child growth measures.
+
+Fortification of wheat flour with folic acid may reduce the risk of neural tube defects and may increase erythrocyte and serum/plasma folate concentrations. Fortification of wheat flour with iron may reduce anaemia in the general population.
+
+Staple foods may be fortified with vitamin D for the prevention and reduction of nutritional rickets.
+
+Fortification of foods with zinc may improve the serum zinc status.
+
+There are no reported side effects associated with single or micronutrients fortification.
+
+Basic principles about food fortification
+=========================================
+
+Fortification should be part of a comprehensive micronutrient deficiency control strategy that sets clear and achievable goals to assess progress across the lifespan of the program and ensures complementarity with other programs if needed.
+
+The most widely used vehicles for fortification are among the most commonly consumed foods, including oils and fats, milk, sugar, salt, rice, wheat, or maize flour. Some factors related to food fortification such as level of fortification; bioavailability of fortificants; and amount of fortified food consumed have a significant effect on health.
+
+The choice of vehicle for fortification requires information on the consumption pattern (or potential consumption pattern) in diverse population groups, and particularly the proportion of the food vehicle consumed that is fortifiable.
+
+Lessons learned about food fortification
+========================================
+
+Food fortification leads to rapid improvement in the micronutrient status of a population, and at a reasonable cost, especially if advantage is taken from existing technology and local distribution networks.
+
+In many cases, when multiple deficiencies coexists, food fortification with multiple micronutrients appears relatively mor beneficial and should be considered.
+
+Challenges such as choosing appropriate fortification vehicles, reaching target populations, avoiding overconsumption in nontarget groups, and monitoring nutritional status are relevant to all countries because they occur everywhere where there is an attempt to fortify foods to optimize intake and nutritional status.
+
+Continuous production and monitoring of quality fortified foods are essential.
+
+Implementing mandatory versus voluntary fortification
+=====================================================
+
+Mandatory and voluntary regulation in food fortification may provide different levels of certainty over time that a particular category of food will contain a pre-determined amount of a micronutrient. The higher the level of certainty provided, the more likely fortification delivers a sustained source of fortified food for consumption by the relevant population group, and, in turn, a public health benefit.
+
+Mandatory fortification occurs when governments legally oblige food producers to fortify particular foods or categories of foods with specified micronutrients. The decision about mandatory or voluntary fortification depends on many factors including (but not limited to) the population groups affected by the deficiency, populations at risk of receiving excessive amounts of a particular micronutrient, the number of big, centralized industries producing the fortified item, the cost of the process, ongoing fortification or other nutrition programmes in the country, the fortification scenario in neighboring countries, the political implications….) Globally, mandatory regulations are most often applied to the fortification of food with micronutrients such as iodine, iron, vitamin A, and increasingly folic acid, as proof of deficiency is more widely available. Of these, the iodization of salt is probably the most widely adopted form of mandatory mass fortification.
+
+In deciding the precise form of mandatory fortification regulation, governments are responsible for ensuring that the combination of the food vehicle and the fortificants will be both efficacious and effective for the target group, yet safe for target and non-target groups alike. Food vehicles range from basic commodities, such as various types of flour, sugar and salt which are available on the retail market for use by consumers as well as ingredients of processed foods, to processed foods that are fortified at the point of manufacture/use.
+
+Voluntary fortification occurs when a food manufacturer freely chooses to fortify particular foods in response to permission given in food law, or under special circumstances, is encouraged by government to do so. Voluntary fortification is usually motivated by industry and consumers seeking to obtain possible health benefits through an increase in micronutrient intakes. Occasionally, however, government provides the driving force. However, it is important that governments exercise an appropriate degree of control over voluntary fortification through food laws or other cooperative arrangements, such as industry codes of practice. The degree of control should at least be commensurate with the inherent level of risk. Regulatory controls of this nature should also ensure the safety of fortified foods for all consumers, as well as provide opportunities for industry to produce fortified foods that offer consumers nutritional and/or other health benefits. The potential benefits may be demonstrable or indicated as potential or plausible by generally accepted scientific data. It is very important to maintain a tight control and monitoring of ongoing fortification efforts, since mandatory and voluntary fortification of different food items is theoretically feasible simultaneously.

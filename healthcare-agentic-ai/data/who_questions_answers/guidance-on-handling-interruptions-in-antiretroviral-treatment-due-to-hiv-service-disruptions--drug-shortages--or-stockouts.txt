@@ -1,0 +1,73 @@
+WHO QUESTIONS AND ANSWERS
+Title: Guidance on handling interruptions in antiretroviral treatment due to HIV service disruptions, drug shortages, or stockouts
+URL: https://www.who.int/news-room/questions-and-answers/item/guidance-on-handling-interruptions-in-antiretroviral-treatment-due-to-hiv-service-disruptions--drug-shortages--or-stockouts
+Retrieved: 2026-10-05T09:46:12.064531+00:00
+
+========================================
+
+A key priority is preventing the interruption of current HIV treatment and prevention medicines. This Q&A outlines advice when this is not possible.
+
+Why is this update needed?
+==========================
+
+- People living with HIV are reporting disruptions to the services they need to stay healthy. These include diagnostic services required for monitoring their progress and services that provide antiretroviral treatment (ART).
+
+- Some of these challenges are related to suspensions and reductions in official development assistance (ODA). In some cases, governments are stepping in to reestablish services that were previously provided through other sources of funds. In some countries and locations, these adjustments may take time to be established. Communities of people living with HIV have and continue monitoring the extent of service disruptions and are offering advice and support to those affected.
+
+- Several networks have issued helpful guidance for individuals who may run out of antiretrovirals (ARVs) and other medications due to local or central drug stock ruptures and/or clinic closures. HIV programmes, nongovernmental organizations and community-based organizations are urgently working to maintain HIV essential services and to provide support and relevant local information during this period of uncertainty. It is important that all stakeholders work together to minimize the risk of HIV treatment interruptions, maintain the core clinical monitoring needs and ensure referrals to available services or providers for ongoing care.
+
+What are WHO’s recommended antiretroviral treatment regimens?
+=============================================================
+
+- WHO currently recommends a combination tablet containing all three components of a complete ART regimen be taken once daily. Most adults and adolescents are taking a combination of tenofovir, lamivudine and dolutegravir, also known as TLD. However, other similar drug regimens (e.g. tenofovir alafenamide, emtricitabine and bictegravir) can be also used in some programmes as the standard treatment.
+
+- Children’s ART regimens usually include abacavir, lamivudine and dolutegravir, which may be administered as multiple tablets or as a single fixed dose combination.
+
+- In some cases, adults, adolescents and children may be on alternate regimens containing other medicines such as lopinavir boosted by ritonavir, or darunavir boosted by ritonavir.
+
+What can you do if you face disruptions in your access to HIV medication?
+=========================================================================
+
+It is important to take ARVs daily according to the recommended schedule. However, if there is a shortage of ARV medications there are a few important things to remember:
+
+- If you are unable to obtain your usual medicines because your clinic is closed, ARVs may be available in another hospital or clinic. A first step is to check with your local network of people living with HIV, or community-based organizations, or check online information (internet websites, social media groups) to find out if there are other places where you can register and obtain your medications near your living area.
+
+- It is important to know which medicines make up your regimen to ensure you are given the same treatment that you were taking before. It can be helpful to keep an empty container with the description of the regimen composition as a reminder of the medications you have been taking.
+
+Can you share medicines with friends or family members?
+=======================================================
+
+- If someone you trust has medicines and offers to share it with you, this may be a temporary solution if they are taking the same regimen. It is not advised to share medicines with someone who is taking a different regimen.
+
+- If you have leftover pills from a previous regimen speak to a health-care worker before you substitute these for your latest regimen. If your new regimen contains a different class of drugs, then it may be preferable for you to simply stop taking all the HIV treatment medicines in the short term. There may also be issues related to the expiry date of your old regimen.
+
+Is it safe to skip some days to make my pills last longer?
+==========================================================
+
+- Extending the amount of medication you take by skipping days, cutting tablets, or only taking one ARV out of a multi-tablet regimen without speaking to your doctor is not recommended, as this may increase the risk of developing drug resistance.
+
+- There are a few preliminary studies demonstrating that treatment interruptions, or taking ARVs for 4 or 5 consecutive days each week and skipping pills on other days, may work when people have achieved HIV viral load suppression, are healthy, and can remember to take their medicines on the right schedule. It is not advisable to use this strategy to extend your supplies of medicine unless you are being supervised and advised by a health-care worker.
+
+What will happen if I stop taking ARVs?
+=======================================
+
+- If you are running low on medicines and are unable to obtain a treatment refill, it may be necessary to stop taking ART. Whether you are taking a regimen with one tablet, or a regimen with multiple tablets, it is strongly advised to stop all ARVs at the same time.
+
+- If you were previously doing well on treatment, stopping ART for a few weeks will not be immediately harmful. There will be no immediate effects or symptoms; however, the level of virus in your blood, or viral load, will begin to increase within the first few weeks off treatment. This also increases the risk of HIV transmission, so it will be important to use condoms if you are sexually active.
+
+- Longer treatment interruptions (months to years) will progressively weaken your immune system due to a decline of your CD4 cell count and can lead to the development of opportunistic infections and disease progression. There is a higher risk of disease progression for people who have previously been diagnosed with advanced HIV disease (AHD). Infants and young children often have rapid disease progression and face higher risk of illness or death after stopping ARVs.
+
+What should you do if you are pregnant or breastfeeding?
+========================================================
+
+- If you are pregnant or breastfeeding, stopping ARVs increases the risk of transmission of HIV to your child. It is important to restart medicines as soon as possible.
+
+- There are also medicines that can be given to your child to help protect him against infection. Speak with a health-care worker to find out where these medicines are available for your child.
+
+- If your infant has less than 6 months of age, it is only advisable to stop breastfeeding if you can access sufficient and safe infant formula to replace breastmilk. Use of animal milk (e.g. cow, goat, sheep) is not appropriate for infants with less than 6 months of age as they are unable to digest it. Speak with a health-care worker if you have questions about safely feeding your child.
+
+- In infants and young children, HIV disease progression is also more rapid. They may become immunosuppressed more quickly than observed in adults and adolescents, so it is critical to maintain access to paediatric ARV medicines for infants and younger children.
+
+Acknowledgement
+
+WHO would like to thank HIV i-Base for their work on HIV treatment literacy and advocacy and for inspiring this update.

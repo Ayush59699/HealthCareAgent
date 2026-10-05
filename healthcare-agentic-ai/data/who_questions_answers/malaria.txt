@@ -1,0 +1,110 @@
+WHO QUESTIONS AND ANSWERS
+Title: Malaria
+URL: https://www.who.int/news-room/questions-and-answers/item/malaria
+Retrieved: 2026-10-05T09:47:24.992651+00:00
+
+========================================
+
+Malaria is an acute febrile illness caused by Plasmodium parasites, which are spread to people through the bites of infected female Anopheles mosquitoes. It is preventable and curable.
+
+What is malaria and how is it transmitted?
+==========================================
+
+Malaria is a life-threatening disease primarily found in tropical countries. It is both preventable and curable. However, without prompt diagnosis and effective treatment, a case of uncomplicated malaria can progress to a severe form of the disease, which is often fatal without treatment.
+
+Malaria is not contagious and cannot spread from one person to another; the disease is transmitted through the bites of female Anopheles mosquitoes. Five species of parasites can cause malaria in humans and 2 of these species – Plasmodium falciparum and Plasmodium vivax – pose the greatest threat. There are over 400 different species of Anopheles mosquitoes and around 40, known as vector species, can transmit the disease.
+
+This risk of infection is higher in some areas than others depending on multiple factors, including the type of local mosquitoes. It may also vary according to the season, the risk being highest during the rainy season in tropical countries.
+
+Who is at risk of malaria?
+==========================
+
+Nearly half of the world’s population is at risk of malaria. In 2024, an estimated 282 million people contracted malaria in 80 countries. That same year, the disease claimed approximately 610 000 lives.
+
+Some people are more susceptible to developing severe malaria than others. Infants and children under 5 years of age, pregnant women and patients with HIV/AIDS are at particular risk. Other vulnerable groups include people entering areas with intense malaria transmission who have not acquired partial immunity from long exposure to the disease, or who are not taking chemopreventive therapies, such as migrants, mobile populations and travellers.
+
+Some people in areas where malaria is common will develop partial immunity. While it never provides complete protection, partial immunity reduces the risk that malaria infection will cause severe disease. For this reason, most malaria deaths in Africa occur in young children, whereas in areas with less transmission and low immunity, all age groups are at risk.
+
+What are the symptoms and how is it diagnosed?
+==============================================
+
+The first symptoms of malaria usually begin within 10–15 days after the bite from an infected mosquito. Fever, headache and chills are typically experienced, though these symptoms may be mild and difficult to recognize as malaria. In malaria endemic areas, people who have developed partial immunity may become infected but experience no symptoms (asymptomatic infections).
+
+WHO recommends prompt diagnosis for anyone with suspected malaria. If Plasmodium falciparum malaria is not treated within 24 hours, the infection can progress to severe illness and death. Severe malaria can cause multi-organ failure in adults, while children frequently suffer from severe anaemia, respiratory distress or cerebral malaria. Human malaria caused by other Plasmodium species can cause significant illness and occasionally life-threatening disease.
+
+Malaria can be diagnosed using tests that determine the presence of the parasites causing the disease. There are 2 main types of tests: microscopic examination of blood smears and rapid diagnostic tests. Diagnostic testing enables health providers to distinguish malarial from other causes of febrile illnesses, facilitating appropriate treatment.
+
+More information on malaria diagnostic testing
+
+What treatments are available for malaria?
+==========================================
+
+Malaria is a treatable disease. Artemisinin-based combination therapies (ACTs) are the most effective antimalarial medicines available today and the mainstay of recommended treatment for Plasmodium falciparum malaria, the deadliest malaria parasite globally.
+
+ACTs combine 2 active pharmaceuticals with different mechanisms of action, including derivates of artemisinin extracted from the plant Artemisia annua and a partner drug. The role of the artemisinin compound is to reduce the number of parasites during the first 3 days of treatment, while the role of the partner drug is to eliminate the remaining parasites.
+
+As no alternative to artemisinin derivatives is expected to enter the market for several years, the efficacy of ACTs must be preserved, which is why WHO recommends that treatment should only be administered if a person tests positive for malaria. WHO does not support the promotion or use of Artemisia plant material (whether teas, tablets or capsules) for the prevention or treatment of malaria.
+
+The emergence and spread of artemisinin partial resistance – defined as delayed clearance after treatment with a drug containing an artemisinin – and resistance to ACT partner drugs are significant threats to efforts aimed at reducing the global burden of malaria. In Africa, artemisinin partial resistance is now confirmed in Eritrea, Rwanda, Uganda and the United Republic of Tanzania and is suspected in Ethiopia, Sudan, Namibia and Zambia. Although studies generally show high efficacy of ACTs, concerns remain regarding both the quality and coverage of efficacy data. As part of the WHO strategy to respond to the threat of antimalarial drug resistance in Africa, WHO calls on malaria endemic countries and global malaria partners to strengthen the surveillance of antimalarial drug efficacy and resistance, and to ensure that the most effective treatments are selected for national treatment policy.
+
+More information about artemisinin resistance
+
+Where is malaria most prevalent?
+================================
+
+Malaria occurs primarily in tropical and subtropical countries. The vast majority of malaria cases and deaths are found in the WHO African Region, with nearly all cases caused by the Plasmodium falciparum parasite. This parasite is also dominant in other malaria hotspots, including the WHO regions of South-East Asia, Eastern Mediterranean and Western Pacific. In the WHO Region of the Americas, the Plasmodium vivax parasite is predominant.
+
+The threat of malaria is highest in sub-Saharan Africa, and 4 countries in that region accounted for over half of all malaria deaths worldwide in 2023: Nigeria (30.9%), the Democratic Republic of the Congo (11.3%), Niger (5.9%) and the United Republic of Tanzania (4.3%).
+
+Is it dangerous to travel to places where malaria is endemic?
+=============================================================
+
+People who have no partial immunity to malaria are at higher risk of contracting the disease. This includes travellers from non-endemic countries entering areas of high transmission as well as people in malaria-endemic countries living in areas where there is little or no transmission.
+
+As symptoms often do not present for 10 to 15 days after infection, travellers may return to their home country before exhibiting signs of the disease. Doctors in non-endemic areas may not recognize the symptoms, causing potentially fatal delays in diagnosis and treatment. In addition, effective antimalarial drugs may not be registered or available in all countries.
+
+Chemoprophylaxis can be used as a preventive therapy prior to travelling in endemic areas. When combined with the use of insecticide-treated nets and the repeated application of a topical repellent to prevent mosquito bites, it significantly lowers the risk of infection. If a person has taken chemoprophylaxis as a preventive measure, the same medicine should not be used for treatment if infection occurs.
+
+Travellers are encouraged to consult a doctor or their national disease control centre prior to departure to determine the appropriate preventive measures.
+
+Chapter on malaria in the WHO “International travel and health”
+
+How can malaria be prevented?
+=============================
+
+Malaria is a preventable disease.
+
+1. Vector control interventions. Vector control is the main approach to prevent malaria and reduce transmission. Two forms of vector control are effective for people living in malaria-endemic countries: insecticide-treated nets, which prevent bites while people sleep and which kill mosquitoes as they try to feed, and indoor residual spraying, which is the application of an insecticide to surfaces where mosquitoes tend to rest, such as internal walls, eaves and ceilings of houses and other domestic structures. For travellers, the use of an insecticide-treated net is the most practical vector control intervention. WHO maintains a list vector control products that have been assessed for their safety, effectiveness and quality.
+
+More information on vector control
+
+2. Chemopreventive therapies and chemoprophylaxis. Although designed to treat patients already infected with malaria, some antimalarial medicines can also be used to prevent the disease. Current WHO-recommended malaria chemopreventive therapies for people living in endemic areas include intermittent preventive treatment of malaria in pregnancy, perennial malaria chemoprevention, seasonal malaria chemoprevention, post-discharge malaria chemoprevention, and intermittent preventive treatment of malaria for school-aged children. Chemoprophylaxis drugs are also given to travellers before entering an area where malaria is endemic and can be highly effective when combined with insecticide-treated nets.
+
+More information on chemopreventive therapies
+
+Is there a vaccine against malaria?
+===================================
+
+In 2021, WHO recommended the RTS,S/AS01 (RTS,S) vaccine to prevent malaria among children living in regions with moderate-to-high P. falciparum malaria transmission. The vaccine has been shown to significantly reduce malaria, and deadly severe malaria, among young children. In October 2023, WHO recommended a second safe and effective malaria vaccine, R21/Matrix-M. Vaccines are now being rolled out in routine childhood immunization programmes across Africa. Malaria vaccines in Africa are expected to save tens of thousands of young lives every year. The highest impact will be achieved, however, when the vaccines are introduced alongside a mix of other WHO-recommended malaria interventions such as bed nets and chemoprophylaxis.
+
+More information on malaria vaccines
+
+Can malaria be eliminated?
+==========================
+
+The vision of WHO and the global malaria community is a world free of malaria. This vision will be achieved progressively by countries eliminating malaria from their territories and implementing effective measures to prevent re-establishment of transmission.
+
+Malaria-endemic countries are situated at different points along the road to elimination. The rate of progress depends on the strength of the national health system, the level of investment in malaria elimination strategies and other factors, including biological determinants, the environment and the social, demographic, political and economic realities of a particular country.
+
+Over the last 2 decades, significant progress has been achieved towards malaria elimination. According to the latest World malaria report, 25 countries had fewer than 10 cases of the disease in 2023, up from 4 countries in 2000.
+
+Countries that have achieved at least 3 consecutive years of zero indigenous cases of malaria (a case contracted locally with no evidence of importation from another endemic country) are eligible to apply for the WHO certification of malaria elimination. Since 2015, 14 countries have been certified by the WHO Director-General as malaria-free, including Maldives (2015), Sri Lanka (2016), Kyrgyzstan (2016), Paraguay (2018), Uzbekistan (2018), Argentina (2019), Algeria (2019), El Salvador (2021), China (2021), Azerbaijan (2023), Tajikistan (2023), Cabo Verde (2024), Egypt (2024) and Georgia (2025).
+
+List of countries certified as malaria-free
+
+What is the difference between malaria elimination and eradication?
+===================================================================
+
+Malaria elimination refers to the interruption of transmission in a given geographical area – typically a country. Malaria eradication refers to the complete interruption of malaria transmission globally, in all countries.
+
+More information on malaria eradication

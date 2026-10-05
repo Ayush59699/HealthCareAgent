@@ -1,0 +1,63 @@
+WHO QUESTIONS AND ANSWERS
+Title: WHO/UNICEF estimates of national immunization coverage
+URL: https://www.who.int/news-room/questions-and-answers/item/who-unicef-estimates-of-national-immunization-coverage
+Retrieved: 2026-10-05T09:50:56.037910+00:00
+
+========================================
+
+What is the WHO/UNICEF Estimates of National Immunization Coverage?
+===================================================================
+
+Based on country-reported data, the annual WHO and UNICEF estimates of national immunization coverage (WUENIC) provide the world’s largest dataset on immunization coverage trends for 16 vaccines/antigens/doses across 195 WHO and UNICEF Member States. For 2025, 188 countries reported immunization data and 185 coverage data, representing 95% of the global 2025 cohort; for non-reporting countries the 2024 WUENIC estimated coverage was used. The dataset provides a critical assessment of how well we are doing in reaching every child with life-saving vaccines, helping to spotlight where progress is lacking, including where reversals in immunization coverage have happened, and where there are areas of success.
+
+What is the methodology behind the WHO/UNICEF estimates of national immunization coverage?
+==========================================================================================
+
+Each year WHO and UNICEF generate estimates of national immunization coverage that are based on coverage data officially reported to the organizations by Member States as well as data reported in the published and grey literature, for example coverage surveys. Whenever possible we have consulted local experts – primarily national Expanded Programme on Immunization (EPI) managers and regional office staff – for additional information regarding the performance of specific immunization programmes. Based on the data available, consideration of potential biases, and contributions from local experts we have attempted to estimate the most likely level of immunization coverage. The methodology can be accessed here.
+
+How long have the WUENIC estimates been produced?
+=================================================
+
+The WHO/UNICEF estimates of national immunization coverage began to be produced in 1999 and initially and covered just five vaccines. In 2001, revisions were made to the methodology, the process was rolled out across countries and the first WUENIC estimates were published. Since then, the methodology has been improved, the estimates have been produced every year and vaccination coverage estimates are now made for 195 countries and 15 vaccines/antigens/doses.
+
+What vaccination data sources are used to create the WHO/UNICEF estimates of national immunization coverage estimates?
+======================================================================================================================
+
+There are various data sources:
+
+- Administrative coverage: Reported by national authorities through the WHO and UNICEF electronic Joint Reporting Form on immunization (eJRF) mechanism. This is based on aggregated data from administrative reports from health service providers on the number of children vaccinated during a given period (numerator data), usually a year, and reported target population data (denominator data).
+
+- Official coverage: Estimated coverage reported by national authorities through the eJRF that reflects their assessment of most likely coverage based on any combination of administrative coverage, survey-based estimates, or other data sources or adjustments. Approaches to determining official coverage may vary from country to country.
+
+- Survey coverage: Based on estimated population-based survey coverage (such as Vaccination Coverage Surveys, Demographic and Health and UNICEF’s Multiple Indicator Cluster Surveys), usually among children aged 12–23 months or 24–35 months. Inclusion of survey data is done after a review of the survey methods and results against a minimum set of quality and age-disaggregation criteria. The coverage data used is based on the combination of vaccination history from documented evidence, usually from vaccination cards, or recall from the caregiver following probing questions. Results from the survey are considered for the corresponding birth cohort according to the data collection period and the birth year of most children. For example, a survey conducted in October 2022 will be assigned to 2021 for the 12–23-month cohort.
+
+- Other sources: Use of other evaluations published in literature, contextual information, such as vaccine shortages, and health worker strikes, results from data quality analyses, and information from country experts with local knowledge.
+
+Do these estimates have limitations? If so, what are they?
+==========================================================
+
+Yes, the WUENIC estimates have limitations, mainly linked to the availability and quality of the underlying empirical data. For example:
+
+- The availability, quality and timeliness of empirical data informing the estimates directly influences their accuracy.
+
+- Administrative coverage is affected by the completeness and accuracy of the reporting of vaccinated children and the estimation of the target population. Recording and aggregation of children vaccinated may contain errors. The estimates of target population depend on the availability of recent quality censuses and, in some countries, the completeness and timeliness of birth registration.
+
+- Surveys can be affected by multiple biases. Notably, some areas of difficult access or vulnerable populations may not be included in surveys. Also, where documented evidence of vaccination is not available, survey may have to rely on caregiver recall of the vaccines received by their child, which is known to be less reliable than vaccines documented in home-based records (cards).
+
+Why are the WUENIC estimates of national immunization coverage estimates important?
+===================================================================================
+
+A historical representation of immunization coverage can help to assess trends in immunization program performance, to better establish the relationship between immunization service delivery and disease occurrence, and to provide a framework for setting future goals for immunization programmes. WUENIC facilitates having a critical assessment of how well we are doing in reaching every child with life-saving vaccines and meeting goals, such as those set by the Immunization Agenda 2030 (IA2030).
+
+By providing data on countries where immunization coverage has stagnated or regressed, WUENIC makes it easier for the immunization community to conduct further research and work together in addressing bottlenecks to reach universal coverage. In addition, examination of the factors contributing to increases in coverage in specific contexts can provide lessons for other countries as they scale up and improve their own immunization programmes.
+
+What are the estimates used for?
+================================
+
+The WHO/UNICEF estimates are used to monitor and compare the performance of immunization programs at the national, regional, and international levels in a standardized way. The WUENIC data provides information to countries in terms of coverage patterns and trends to help Ministries of Health continue to strengthen immunization service delivery outcomes and take corrective action where un or under-immunized communities persist.
+
+These estimates should be used alongside the accompanying text that provides additional information regarding each estimate.
+
+The dataset is instrumental to monitoring progress towards global frameworks such as the Sustainable Development Goals and the Immunization Agenda 2030 (IA2030). Since 2018, WUENIC has been used as the official source to monitor compliance with Sustainable Development Goal 3.b.1. These estimates are also used as an information resource by Gavi, the Vaccine Alliance and other agencies that support immunization in selected countries.
+
+Disclaimer: All reasonable precautions have been taken by the World Health Organization and United Nations Children’s Fund to verify the information contained in this publication. However, the published material is being distributed without warranty of any kind, either expressed or implied. The responsibility for the interpretation and use of the material lies with the reader. In no event shall the World Health Organization or United Nations Children’s Fund be liable for damages arising from its use.

@@ -1,0 +1,30 @@
+WHO QUESTIONS AND ANSWERS
+Title: In vitro diagnostics: Simple / rapid tests
+URL: https://www.who.int/news-room/questions-and-answers/item/simple-rapid-tests
+Retrieved: 2026-10-05T09:49:31.488761+00:00
+
+========================================
+
+Simple/Rapid tests are designed for use where a preliminary screening test result is required and are especially useful in resource-limited countries
+
+What is a Simple/Rapid test?
+============================
+
+Simple/Rapid tests are designed for use where a preliminary screening test result is required and are especially useful in resource-limited countries
+
+- High quality, easy-to-use tests for use in resource poor settings.
+
+- Tests based on agglutination, immuno-dot, immuno-chromatographic and/or immuno-filtration techniques.
+
+- Quick and easy to perform – 10 minutes to 2 hours – and require little or no additional equipment.
+
+- Are designed for use with individual or a limited number of samples, which make them more economical then ELISAs in low throughput laboratories.
+
+- Possibility to store at room temperature for extended period of time.
+
+- Same-day results provide timely treatment interventions.
+
+What is the difference between a ELISA and a Simple/Rapid test
+==============================================================
+
+ELISAs are highly sensitive and specific, and are able to detect HIV-1/ HIV-2 and variants. They require sophisticated equipment that must be regularly maintained, a constant electricity supply and skilled technicians. They are really not suitable for small laboratories, but for testing large numbers of samples per day, as well as in blood banks or for surveillance studies. The Simple/Rapid tests are better for emergency testing, and in smaller laboratories with low numbers of tests per day.

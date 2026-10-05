@@ -1,0 +1,97 @@
+WHO QUESTIONS AND ANSWERS
+Title: Food safety: Pesticide residue
+URL: https://www.who.int/news-room/questions-and-answers/item/food-safety-pesticide-residue
+Retrieved: 2026-10-05T09:45:56.054848+00:00
+
+========================================
+
+What are the health risks associated with pesticide residues in food?
+=====================================================================
+
+Pesticides are chemicals used in agriculture to protect crops against insects, fungi, weeds and other pests. In addition to their use in agriculture, pesticides are also used to protect public health in controlling the vectors of tropical diseases, such as mosquitoes.
+
+But pesticides are also potentially toxic to humans. They may induce adverse health effects including cancer, effects on reproduction, immune or nervous systems. Before they can be authorized for use, pesticides should be tested for all possible health effects and the results should be analysed by experts to assess any risks to humans.
+
+“Hazard” and “risk”: what is the difference?
+============================================
+
+Scientific studies of the potential health effects of hazardous chemicals, such as pesticides, allow them to be classified as carcinogenic (can cause cancer), neurotoxic (can cause damage to the brain), or teratogenic (can cause damage to a fetus). This process of classification, called “hazard identification,” is the first step of “risk assessment”. An example of hazard identification is the classification of substances according to their carcinogenicity to humans carried out by the International Agency for Research on Cancer (IARC), the specialized cancer agency of WHO.
+
+The same chemical can have different effects at different doses, which depends on how much of the chemical a person is exposed to. It can also depend on the route by which the exposure occurs, e.g. ingestion, inhalation or injection.
+
+Why does WHO have 2 distinct processes for “hazard identification” and “risk assessment”?
+=========================================================================================
+
+“Hazard identification”—in particular, the IARC classification of substances in terms of their carcinogenicity—is the first step of the “risk assessment” process. Classification of an agent as a carcinogenic hazard is an important indication that some level of exposure, for example from occupation, environment, food, etc., could result in an increased risk of cancer.
+
+Risk assessment for pesticide residues in food, as conducted by the Joint FAO/WHO Meeting on Pesticide Residues (JMPR), establishes a safe intake level after assessing the level of risk. Acceptable daily intakes (ADIs) are used by governments and international risk managers, such as the Codex Alimentarius Commission, to establish maximum residue limits (MRLs) for pesticides in food. MRLs are enforced by national authorities to ensure that the amount of pesticide residues consumers are exposed to through eating food over a lifetime will not have adverse health effects.
+
+IARC’s hazard identification can inform the JMPR’s risk assessment, and thus the two processes can be complementary. For example, IARC may identify new evidence from scientific studies on the carcinogenicity of a chemical and, when necessary, JMPR conducts an evaluation or a re-evaluation of the safety of that chemical as it is used in agriculture and occurs in food.
+
+Why was the meeting held in May 2016?
+=====================================
+
+The 9-13 May 2016 JMPR meeting was planned in mid-2015 following the classification by the WHO International Agency for Research on Cancer of the pesticides diazinon, glyphosate and malathion as "probably carcinogenic" from a hazard perspective (not risk). The call for data for this JMPR meeting was published in October 2015. JMPR’s role is to evaluate (and re-evaluate) evidence, including new studies, classifications and findings, related to pesticides and their residues in food. This is a routine process in line with standard assessment of the level of risk associated with potential hazards.
+
+While glyphosate has gained high public interest, from a public health perspective the re-evaluation of malathion was also of importance, since it has use in vector control (against mosquitoes that can transmit diseases like dengue, Zika and malaria). Therefore, the meeting was planned for the first possible date and the results disseminated as quickly as possible.
+
+How are JMPR experts selected? How many experts participate in a meeting?
+=========================================================================
+
+It is the Organizations' role and responsibility to seek out the best evidence and expertise to assess potential risks to public health. The JMPR’s members are leading experts in toxicology, pesticides and risk assessment who work in academia or national agencies. Experts are selected based on their technical ability and experience, ensuring the broadest possible international representation in terms of diversity, knowledge, experience and approaches in the areas of expertise to be covered at the expert meeting.
+
+WHO JMPR experts are selected from the group’s roster of experts following their expression of interest to an open call. Depending on the number of compounds and the range of expertise needed, approximately 15 to 35 experts participate in each JMPR meeting. All experts participate in JMPR in their own individual capacities and not as representatives of any government or organization.
+
+At the JMPR meeting of 9-13 May 2016, the experts elected two Co-Chairs and a rapporteur from among themselves. Prof. Alan Boobis and Dr Dugald MacLachlan served as Co-Chairs, Prof. Angelo Moretto as rapporteur, whose role was to facilitate revision of drafts of meeting documents taking account of meeting discussions. The recommendations issued at the conclusion of the meeting were unanimously agreed upon by the experts and adopted as final report of the meeting.
+
+Link to the full list of JMPR members who took part in the meeting of 9-13 May 2016.
+
+How does WHO handle issues of conflict of interest?
+===================================================
+
+All JMPR experts are specialists who work in academia or in national agencies. They contribute to JMPR in their own individual capacity, and not as representatives of their government or organization.
+
+WHO has a rigorous process in place to evaluate potential conflicts of interest. Each expert is required to fill in a Declaration-of-Interests form prior to his or her involvement in JMPR. WHO carefully checks declarations of interest submitted by experts. WHO excludes those experts who have done consultancy/work or have directly, and in their personal capacity, received research grants from industry in relation to compounds on the JMPR's agenda or having other forms of economic relations that may undermine their neutrality.
+
+In addition, experts who have been in charge of a dossier at national level are not put in charge of the same dossier for JMPR.
+
+As for all WHO expert meetings, this process has been applied to each of the WHO panel members who participated in the JMPR meeting held on 9-13 May 2016. No expert has previously been involved in the assessments of the three chemicals that JMPR reviewed in their professional capacities. In WHO’s view, no expert was deemed to have had a conflict of interest.
+
+Have some JMPR experts had relations with industry?
+===================================================
+
+WHO seeks the advice of the world’s foremost experts active in various disciplines. It is therefore not surprising that a JMPR member maintains or has had some kind of contact with industry. In order to manage conflicts of interest properly, it is necessary to understand the nature and extent of that contact and review it before the JMPR’s work begins, so that WHO can take decisions on whether the member in question will be biased in their positions.
+
+Some experts listed on WHO’s rosters have been involved in activities of the International Life Sciences Institute (ILSI), a non-profit scientific forum for scientists working in toxicology, food safety, risk assessment and other areas. ILSI receives grants from governments, industry and other sources. None of the experts involved in the JMPR lead or co-lead ILSI. Where some experts have participated in ILSI working groups dealing with development and improvement of chemical risk assessment methodology, or have an advisory role with ILSI, these functions are not remunerated and are directly due to their scientific excellence and international recognition.
+
+Does WHO publish Declarations of Interests submitted by experts?
+================================================================
+
+All WHO invited experts go through the public notice and comment process (i.e. publishing the biographies and names of experts on the WHO Web site and inviting public comments). This process, alongside WHO’s internal review, aims at maintaining transparency and ensuring that the experts are free from any potential or real conflict. WHO does not disclose to the public the Declarations of Interests form received from experts. They are confidential documents between each expert and WHO.
+
+Are the JMPR conclusions on diazinon, glyphosate and malathion published in May 2016 contradictory to the IARC hazard classification published in 2015?
+=======================================================================================================================================================
+
+No. JMPR, in its assessment, has taken the IARC review of these three compounds into account by taking their data and interpretations into consideration.
+
+The work by IARC and JMPR are different, yet complementary, and their respective functions can be seen as part of a continuum where potential hazards to public health are identified, and the level of risk associated with any such hazards is subsequently assessed.
+
+IARC reviews published studies to identify potential cancer hazards. It does not estimate the level of "risk" to the population associated with exposure to the hazard. In contrast, JMPR reviews both published and unpublished studies to assess the level of health risk to consumers associated with dietary exposure to pesticide residues in food.
+
+In the case of diazinon, glyphosate and malathion, IARC’s Monograph Volume 112 classified the three compounds as "probably carcinogenic" from the perspective of hazard. The IARC Monographs did not estimate the cancer risks of these compounds from specific exposure routes or levels of exposure.
+
+JMPR’s risk assessment found out that based on the weight-of-evidence approach these compounds are unlikely to cause cancer in people via dietary exposure. This means it is possible to establish safe exposure levels – acceptable daily intakes (ADI) – for consumers. In order to ensure people are not exposed to levels above acceptable daily intakes of these residues, maximum residue limits are set by governments for the combination of pesticides and relevant food commodities, often following the maximum residue limits recommended by the Codex Alimentarius Commission.
+
+IARC found the three compounds were probably carcinogenic also supported by their genotoxic potential, while JMPR found there was no genotoxicity. Why is there a difference?
+=============================================================================================================================================================================
+
+A chemical that is considered genotoxic is one that changes the genetic information in cells that can then lead to cancer.
+
+IARC’s Monograph, Volume 112, considered all available published studies on genotoxicity and some of which had different levels of relevance for humans and dietary exposures.
+
+JMPR, in evaluating the health risks associated with dietary exposure to the three compounds, from a large number of studies available, gave greater weighting to those most relevant to humans and to oral exposure, namely those that investigate the effects of oral exposures to these compounds on living ("in vivo") mammalian species. JMPR gave less weighting to studies on species far removed from humans, like caiman, and other than oral exposures. This review led to the conclusion that the compounds are unlikely to be genotoxic at anticipated dietary exposures.
+
+Do residues of glyphosate disrupt hormonal balance of adults and children who eat food containing the residues?
+===============================================================================================================
+
+Glyphosate was tested in a range of validated "in vivo" and "in vitro" assays for its potential to interact with the endocrine system. The studies considered by JMPR as adequate for the evaluation demonstrate no interaction with estrogen or androgen receptor pathways or thyroid pathways.

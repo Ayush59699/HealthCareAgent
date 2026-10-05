@@ -1,0 +1,58 @@
+WHO QUESTIONS AND ANSWERS
+Title: WHO Handbook for national quality policy and strategy
+URL: https://www.who.int/news-room/questions-and-answers/item/q-a-who-handbook-for-national-quality-policy-and-strategy
+Retrieved: 2026-10-05T09:48:43.614643+00:00
+
+========================================
+
+Why has the handbook been produced?
+===================================
+
+As countries begin national efforts to improve quality of care, many have recognized the benefits of developing a coherent plan that provides structure, guidance and direction on quality of care at all levels of the health system. A national policy and strategy for quality of care can help clarify the linkages with other national health policies, plans and priorities, can highlight the importance of quality-focused actions for achieving health priorities, and also help to define lines of accountability for provision of quality people-centred health services. This handbook proposes an approach for developing national quality policy and strategy (NQPS). The handbook is not a prescriptive guide, but rather a structured approach that helps ensure that the development and implementation of NQPS are as comprehensive and smooth as possible.
+
+Who is the handbook intended for?
+=================================
+
+This handbook is designed for governments and policy-makers (at the national, sub-national and health facility levels) who consider whether and how to develop an NQPS or those already in the process of developing one. It may also be helpful for technical advisers, donors and other stakeholders supporting governments in areas related to quality of care. While much of this handbook has been designed to support the development of NQPS in low- and middle-income countries, which may face particular challenges to improving quality of care, the processes outlined are relevant to any national or subnational authority preparing or reviewing their national efforts on quality of care.
+
+Why does the handbook focus on both policy and strategy?
+========================================================
+
+While terminology varies between different countries and organizations, the handbook proposes that there is value in countries developing both a policy and a strategy on quality of care. The policy is a statement of the vision, direction and rationale for the national effort to improve quality of care and may outline broad priorities to be addressed. It may be expressed in a number of different ways, for example as a separate policy document, a national statement, or as part of a broader national health policy document. Policy can be a useful tool for engaging stakeholders, building support for the national quality effort and establishing the structures and environment needed for success.
+
+The strategy aims to provide a clear explanation of how the policy will be put into practice, including detail on how each of the priorities will be met. The strategy provides a clear framework for organizing the action with the detail needed to drive implementation. Policy and strategy should, of course, be developed and applied in an integrated manner, taking account of country needs and context.
+
+How does this link to countries’ national health planning processes?
+====================================================================
+
+Each country will approach the development of NQPS differently, but the handbook stresses the critical importance of integration with existing health plans and priorities. Development of NQPS should build on and complement the national health planning process. Quality of care is a key consideration for achieving universal health coverage, and the success of NQPS requires action all the way across the health system. For more information on national health policy and planning, please see the WHO Health Systems Governance webpage.
+
+Is this a WHO guideline?
+========================
+
+No. This handbook outlines an approach towards the development of NQPS and has been co-developed with countries that have embarked on their own national quality of care efforts, as well as technical partners, and experts from across WHO. It has also been informed by a review of existing national policies and strategies.
+
+Does the handbook address disease and population specific quality initiatives, such as those for HIV and maternal and child health?
+===================================================================================================================================
+
+In many countries, existing disease or population specific programmes are already engaged in important work to improve the quality of care. The Network for Improving Quality of Care for Maternal, Newborn and Child Health is an example of a multi-country initiative to ensure that every pregnant woman, newborn and the child receives good quality care with equity and dignity. The existing initiatives in each country can be key assets to inform the development and implementation of NQPS. The handbook discusses options for meaningful integration of relevant technical programmes.
+
+Does the handbook propose suggested indicators for measuring quality of care?
+=============================================================================
+
+Measuring quality of care is difficult and complex. The handbook outlines a basic approach to strengthening information systems and selecting indicators to support NQPS and proposes carrying out a review of existing illustrative indicator lists as part of this process. The focus is on quality measurement that is achievable, of practical value to improve care, and context-specific. For a practical guide for measuring and monitoring quality of care to improve maternal, newborn, child and adolescent health services, please click here.
+
+Why does the handbook not describe quality improvement methods?
+===============================================================
+
+The handbook focuses on the process for developing national policy and strategy on quality of care, which is essential for providing direction and structure to national efforts to enhance quality of care. Quality improvement plays a critical role in improving processes across the health-care system, and dedicated training and reference materials are available from a number of specialist technical organizations on this aspect.
+
+How does the handbook relate to WHO’s work on patient safety and infection prevention and control?
+==================================================================================================
+
+Infection prevention and control (IPC) and patient safety are critical foundations for achieving quality care. While the handbook focuses specifically on the development of national policy and strategy, WHO has produced detailed technical resources to support assessment and interventions for IPC and patient safety, both of which may be key early action areas within a national effort to improve quality of care.
+
+How can I access and share global learning on quality of care?
+==============================================================
+
+The WHO Global Learning Laboratory for Quality of Care  is a global community of practice that aims to share the experiences, expertise, passion and wisdom of people across the world, representing multiple disciplines, on important issues relating to quality of care. The community of practice is hosted on the Integrated Health Services Hub. The aim of this community of practice is to facilitate global learning informed by local action and front-line experiences in the area of quality of care.

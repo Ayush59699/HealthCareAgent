@@ -1,0 +1,124 @@
+WHO QUESTIONS AND ANSWERS
+Title: Environmental health: Estimations of attributable burden of disease due to a risk factor
+URL: https://www.who.int/news-room/questions-and-answers/item/environmental-health-estimations-of-attributable-burden-of-disease-due-to-a-risk-factor
+Retrieved: 2026-10-05T09:45:45.923949+00:00
+
+========================================
+
+Why is the disease burden attributable to risk factors being estimated?
+=======================================================================
+
+For many health policy decisions regarding prevention and intervention, it is important to know which risk factors are most important for population health, so the available resources can be spent most efficiently to improve the health of entire populations. To this end, it is necessary to quantify the burden caused by diseases and injuries which can be attributed to known risk factors in a comprehensive and comparable way. This requires an integration of knowledge about the “dangerousness” of a risk factor (this is usually assessed as the relative risk for a specific disease-risk factor combination) and the “frequency and level of exposure” (how many people in a population are exposed to which quantities of the risk factor). Following the well-established method outlined below, disease burden from different risk factors such as lack of physical activity, smoking or air pollution can be calculated and compared and changes over time (for example after an intervention that reduced air pollution) can be assessed.
+
+What is meant by attributable disease burden?
+=============================================
+
+The attributable burden is the share of the burden of disease that can be estimated to occur due to exposure to a particular risk factor. The disease burden (for example deaths, years of life lost or years lived with disability) attributable to a risk factor is the disease burden that would not have occurred if people had not been exposed to the risk factor in the past. Given that the basis of the information is all rooted in the past (exactly like in case of deriving the life-expectancy), the notion that the burden had not occurred without the exposure is based on several assumptions. The concept of attributable disease burden or the attributable risk fraction is schematically shown in the figure below.
+
+What is the population attributable fraction?
+=============================================
+
+The attributable fraction is a standard concept of epidemiology. The population attributable fraction (PAF) is a useful measure as it quantifies the fraction of disease burden (for example years of life lost) attributable to a specific risk factor in a population in a way which is understandable and easy to communicate. The PAF signifies the proportion of ill health or deaths that could have potentially been prevented by removing the risk factor or by reducing it to an alternative level. It is used to calculate risk factor-attributable disease burden estimates. It provides a bridge between the size of a risk factor, as usually derived in epidemiological studies, and the prevalence of that risk factor in a given population. It provides a population perspective, relevant to policy making. The PAF can help guiding the choice of the most urgent interventions and policies particularly if one compares the PAF and the disease burden of various risk factors that are possibly amenable to prevention or intervention measures (1).
+
+How is the population attributable fraction calculated?
+=======================================================
+
+Two types of information are needed to estimate the population attributable fraction (PAF):
+
+1. the proportions of the population exposed to the risk factor (pi) for each level of exposure, and
+
+2. the relative risk (RR) associated with exposure, usually based on systematic reviews and meta-analyses including the results of all relevant epidemiological studies complying with certain criteria. The RR provides the ratio of the probabilities of an outcome, e.g. to get a certain disease or to die, in the exposed group compared to the unexposed group.
+
+A common form of the formula for estimating the PAF is the following. It can accommodate several exposure levels which a population can be exposed to (2):
+
+where pi is the proportion of the population exposed at exposure level i, pi' is the counterfactual exposure distribution and RRi is the relative risk at exposure level i. The counterfactual exposure distribution is the exposure level with no or very low exposure to the risk factor and therefore no or very low associated disease risk (i.e., RR of 1). The counterfactual is often set at the theoretical minimum risk exposure level (TMREL), which may or may not currently be attainable in practice.
+
+A simplified formula applicable to only two levels of exposure (exposed and unexposed) is the following (3)
+
+These formulas assume no confounding or effect modification. Only RRs from studies of high quality epidemiological should be used in such assessments.
+
+Further reading
+---------------
+
+WHO, 2004: Comparative Quantification of Health Risks
+
+WHO, 2024: Methods for estimating health impacts: Comparative Risk Assessment
+
+GBD 2019 Risk Factor Collaborators (2020) Global burden of 87 risk factors in 204 countries and territories, 1990-2019: a systematic analysis for the Global Burden of Disease Study 2019. Lancet. 2020 Oct 17;396(10258):1223-1249. doi: 10.1016/S0140-6736(20)30752-2. https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30752-2/fulltext
+
+How is the attributable burden of disease due to a risk factor calculated?
+==========================================================================
+
+Comparative risk assessment methods are the preferred methods used to estimate the burden of disease in a population attributable to a risk factor.
+
+The following inputs are used for estimating the attributable disease burden:
+
+- disease statistics for the population for the metric of interest (number of deaths, years of life lost [YLLs], years lived with disability [YLDs], or disability-adjusted life years [DALYs, the sum of YLLs and YLDs]),
+
+- the counterfactual level of risk factor exposure which usually corresponds to an exposure where a minimum risk is incurred,
+
+- the population attributable fraction (PAF), as described above, based on the distribution of the population into the various exposure levels for a risk factor, including the counterfactual exposure level, and the relative risk linking exposure and disease or other health outcomes.
+
+The attributable disease burden is then estimated by multiplying the total burden by the PAF for each relevant health outcome and by age and sex.
+
+Further reading
+
+WHO, 2009: Global health risks: Mortality and burden of disease attributable to selected major risks
+
+Ezzati et al. 2002: Selected major risk factors and global and regional burden of disease. https://www.sciencedirect.com/science/article/pii/S0140673602114036
+
+WHO, 2024: Methods for estimating health impacts: Comparative Risk Assessment
+
+Is this approach widely applied, accepted and tested?
+=====================================================
+
+The World Health Organization (WHO) has been estimating the global burden of disease attributable to a risk factor using the described approach since about two decades. Since then, a very high number of peer-reviewed scientific articles and reports using the same methods have been published. The underlying methods have been described extensively (e.g., (5,6)). Other organizations and institutes have also been using these methods, and the Institute for Health Metrics and Evaluation (IHME) has been publishing burden of disease figures from a large list of risk factors in collaboration with many scientists from all over the world (7). The methods used in burden of disease assessments are in continuous discussion and improvement involving numerous scientists globally. This ensures a high-quality methodology used to estimate burden of disease. All assumptions used in such assessments need to be made transparent.
+
+Further reading
+---------------
+
+Ezzati et al. 2002: Selected major risk factors and global and regional burden of disease. https://www.sciencedirect.com/science/article/pii/S0140673602114036
+
+GBD 2019 Risk Factor Collaborators (2020) Global burden of 87 risk factors in 204 countries and territories, 1990-2019: a systematic analysis for the Global Burden of Disease Study 2019. Lancet. 2020 Oct 17;396(10258):1223-1249. doi: 10.1016/S0140-6736(20)30752-2. https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30752-2/fulltext
+
+Burden of disease attributable to unsafe drinking-water, sanitation and hygiene: 2019 update. Geneva: World Health Organization; 2023
+
+What are the requirements for applying the population attributable fraction (PAF) and what are its limitations?
+===============================================================================================================
+
+Burden of disease estimates are approximate estimates. They however correspond to the state of the science including latest estimates on exposure and exposure-response relationships, provided that certain conditions apply. The following issues need to be carefully verified/considered and to be made transparent: (a) The causality of the respective exposure-disease pairs has been assessed and validated; (b) the combined relative risks from epidemiological studies need to be free from confounding and effect modification and should be applicable to the relevant population groups; (c) the exposure definition used in the relative risk and the exposure estimates need to correspond; and (d) the relative risk estimates used for estimating population attributable fractions (PAFs) generally need to stem from pooled analyses of the available evidence, such as from rigorously performed meta-analyses.
+
+Further reading
+---------------
+
+Ezzati et al. 2002: Selected major risk factors and global and regional burden of disease. https://www.sciencedirect.com/science/article/pii/S0140673602114036
+
+Why do results differ between different agencies?
+=================================================
+
+Many different agencies/researchers have conducted burden of disease calculations following the outlined approach. Exposure estimates may vary according to the assessment method used. Countries may have additional exposure data and a finer resolution compared to global assessments. Furthermore, epidemiological information is accruing with time, allowing estimates to improve in precision. All estimates should be fully documented in terms of assumptions made and data sources used. Estimates should refer to publicly available and easily accessible exposure estimates and exposure-response relationships should be based on published meta-analyses to ensure transparency of estimates and allow for comparison between studies.
+
+What do the population attributable fraction (PAF) and the estimated attributable disease burden NOT cover?
+===========================================================================================================
+
+The population attributable fractions (PAF) and attributable burden of disease assessments refer to whole populations and express the fraction of disease burden that could have been avoided if exposure were removed, but do not allow the designation of affected individuals. This means that it is not possible to determine who died earlier or contracted disease because of exposure to the risk factor at the individual level.
+
+The estimated attributable disease burden may not cover the true full disease burden that is caused by the risk factor. Reasons are that not all risk factor – disease links and not all exposures may have been quantified and therefore risk factor burden of disease assessments are often based on scarce evidence. Also the chosen definition of the counterfactual affects the size of the estimated attributable disease burden. The exposure-response relationship is often based on intervention studies, such as randomized controlled trials. which may underestimate the true exposure-response relationship for example in case of imperfect intervention implementation or compliance.
+
+Further reading
+
+Greenland and Robins, 1988: Conceptual problems in the definition and interpretation of attributable fractions. https://academic.oup.com/aje/article/128/6/1185/69852
+
+References
+
+1. Steenland K, Armstrong B. An overview of methods for calculating the burden of disease due to specific risk factors. Epidemiology. 2006;512–519.
+
+2. Vander Hoorn S, Ezzati M, Rodgers A, Lopez AD, Murray CJL. Chapter 25: Estimating attributable burden of disease from exposure and hazard data. In: Comparative Quantification of Health Risks [Internet]. Geneva: World Health Organization; 2004 [cited 2019 Feb 25]. p. 2129–40. Available from: https://iris.who.int/handle/10665/42770
+
+3. Last JM. A dictionary of epidemiology. 4. Oxford University Press; 2001.
+
+4. Murray CJ, Lopez AD. On the comparable quantification of health risks: lessons from the Global Burden of Disease Study. Epidemiol-Baltim. 1999;10(5):594–605.
+
+5. Ezzati M, Lopez AD, Rodgers A, Vander Hoorn S, Murray CJ, the Comparative Risk Assessment Collaborating Group. Selected major risk factors and global and regional burden of disease. Lancet. 2002;360(9343):1347–60.
+
+6. GBD 2019 Risk Factor Collaborators (2020) Global burden of 87 risk factors in 204 countries and territories, 1990-2019: a systematic analysis for the Global Burden of Disease Study 2019. Lancet. 2020 Oct 17;396(10258):1223-1249. doi: 10.1016/S0140-6736(20)30752-2. https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30752-2/fulltext

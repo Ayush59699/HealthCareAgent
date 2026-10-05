@@ -1,0 +1,112 @@
+WHO QUESTIONS AND ANSWERS
+Title: Medicines: WHO policy and approach towards building and strengthening regulatory capacity for medical products
+URL: https://www.who.int/news-room/questions-and-answers/item/q-a-rss
+Retrieved: 2026-10-05T09:48:38.013834+00:00
+
+========================================
+
+Effective regulatory systems are essential for strengthening health systems and contribute to better public health outcomes.
+
+What is the role of National Regulatory Authorities for implementing universal health coverage and achieving the United Nations Sustainable Development Goals 2030?
+===================================================================================================================================================================
+
+Effective regulatory systems are essential for strengthening health systems and contribute to better public health outcomes. Similarly, regulators are essential to include in the health workforce. Inefficient regulatory systems constitute a barrier to access safe, effective and quality medical products. Thus, effective regulatory systems are necessary for implementing universal health coverage, responding to the dual burden of infectious and noncommunicable diseases, and achieving the United Nations (UN) Sustainable Development Goal (SDG) 3, namely, SDG 3.8 which relates to ‘access to safe, effective, quality and affordable essential medicines and vaccines for all’.
+
+How do the World Health Organization Prequalification and the Regulatory System Strengthening programmes contribute to equitable access to safe, effective, quality and affordable medical products?
+====================================================================================================================================================================================================
+
+As an agency of the United Nations, the World Health Organization (WHO) plays a pivotal role in supporting countries to strengthen their regulatory systems for medical products and in promoting equitable access to safe, effective, quality and affordable medical products. The WHO Constitution affirms that ‘the enjoyment of the highest attainable standard of health is one of the fundamental rights of every human being’. Towards this end, the Constitution calls for the Organization to address the request by Member States to strengthening their health services. The WHO Prequalification Programme (PQP) is on mechanism to ensure that medical products purchased by UN and other procurement agencies are of assured quality. The WHO Regulatory Systems Strengthening (RSS) Programme supports Member States to develop and expand access to quality, safe and efficacious medical products.
+
+What are the objectives of the WHO Prequalification Programme?
+==============================================================
+
+WHO Prequalification programme, aims at ensuring that medical products meet global standards of quality, safety and efficacy; thereby, optimizing the use of health resources and improving health outcomes. The Prequalification process consists of a transparent, scientifically sound assessment that includes dossier review, consistency testing, performance evaluation, and site visit to manufacturers. These and other procurement criteria are used by the UN and other procurement agencies to make evidence-based decisions on purchasing assured quality medical product.
+
+What is the WHO mandate to strengthen regulatory systems in Member States?
+==========================================================================
+
+Several are the World Health Assembly (WHA) resolutions that mandate WHO to address the need to promote and monitor the quality, safety, efficacy and affordability of medical products. However, WHA67.20 specifically mandates WHO to assists Member States in strengthening their regulatory system via:
+
+- evaluating national regulatory systems;
+
+- applying WHO evaluation tools;
+
+- generating and analysing evidence of regulatory system performance;
+
+- facilitating the formulation and implementation of institutional development plans; and
+
+- providing technical support to national regulatory authorities and governments.
+
+What is the current link between the WHO Regulatory System Strengthening and the Prequalification Programmes?
+=============================================================================================================
+
+The WHO Regulatory System Strengthening programme aims at building regulatory capacity in Member States most in need. Currently, the WHO Prequalification (PQ) programme relies on acceptable minimum regulatory capacity (formerly called ‘functionality’) as one of the eligibility criteria for vaccine prequalification. At present, the WHO PQ of other product streams i.e. medicines, medical devices and diagnostics is de-linked as eligible criteria for the RSS programme.
+
+What is the WHO model to build regulatory capacity in Member States?
+====================================================================
+
+The WHO capacity building model of regulatory systems consists of five steps:
+
+1. Development and maintenance of a benchmarking tool for assessing NRAs;
+
+2. Benchmarking of the regulatory system;
+
+3. Formulation of Institutional Development Plans (IDP);
+
+4. Building capacity through technical support, training, and networking; and
+
+5. Continuous monitoring and documentation of programme outcomes and impact.
+
+The WHO National Regulatory Authority (NRA) Global benchmarking Tool (GBT) is a corner stone of the capacity building model to strengthen regulatory systems in implementation of WHA 67.20.
+
+What is the objective of WHO benchmarking?
+==========================================
+
+The objective is to strengthen regulatory systems in Member States to achieve minimum regulatory capacity for medical products that meets acceptable internationally recognized standards. The WHO Prequalification Programme for vaccines recognizes the minimum regulatory capacity as one of the eligibility criteria for prequalification. Concepts of cooperation, convergence, transparency, networking, and work-sharing are embedded the WHO benchmarking. Using the WHO Global benchmarking tool, regulatory strengths, areas for improvement with recommendations are identified in the form of Institutional Development Plans (IDP) for implementation by the Member State with technical support by WHO.
+
+What are the targeted medical products for WHO RSS programme?
+=============================================================
+
+They are medical products and health technologies that include medicines, vaccines, medical devices and diagnostics.
+
+What are the regulatory functions benchmarked by WHO to ensure an independent and competent regulatory oversight of medical products?
+=====================================================================================================================================
+
+WHO recommends a set of regulatory functions to be undertaken by National Regulatory Authorities (NRA) that support all medical products. These regulatory functions operate under the umbrella of a national regulatory system. Common regulatory functions include registration and marketing authorization, pharmacovigilance, market surveillance and control, licensing premises, regulatory inspection, laboratory access and testing, and clinical trials oversight. A unique function for vaccines and blood products is lot release. All functions can be assessed using the GBT and catered to relevant priorities and expectations of the Member State.
+
+How does the WHO benchmarking process work?
+===========================================
+
+The WHO benchmarking represents a continuous process that starts with a pre-visit which progresses towards self-benchmarking, formal benchmarking, and follow-up visits. In accordance with the benchmarking policy, benchmarking is not only used for initial fact finding, but also for monitoring progress in the regulatory systems through periodic follow ups. Activities complementing the WHO benchmarking includes pharmacovigilance field visits and GMP observed audits.
+
+What are the expected outcomes in WHO benchmarking?
+===================================================
+
+Benchmarking is not an objective in itself, rather, it is a means by which the status of the regulatory system is assessed and documented; strengths and gaps are highlighted; and most importantly, an institutional development plan (IDP) is formulated. As such, the benchmarking outcomes extend beyond the responses to assessment criteria supported by evidence, to encompass the IDP or roadmap to implement recommendations to strengthen the regulatory system.
+
+What is the expected impact of the Regulatory Systems Strengthening programme?
+==============================================================================
+
+The main expected impact is to raise and/or maintain the functionality of the regulatory systems up to a minimal/ optimal capacity level that meets WHO standards. Sustainability of impact is a goal for WHO in low and middle-income countries (LMICs). This may be achieved for certain regulatory areas by relying or recognizing advanced regulatory system that perform at higher maturity levels.
+
+Achievement of regulatory maturity level 3 by the national regulatory authority of a Member State in the area of vaccine regulation, allows domestic vaccine manufacturers to apply for WHO vaccine prequalification. This event alone will have an important impact on global access to affordable and assured quality vaccines.
+
+Is there guidance for performing WHO benchmarking?
+==================================================
+
+Guidance on organization, preparation, conduct and reporting of the benchmarking activities exists. The benchmarking manual outlines clear roles and responsibilities of WHO levels (Headquarters, Regional Offices, and Country Offices) as well as guidance on the use of the WHO Global Benchmarking Tool. The manual is complemented with other manuals for relevant benchmarking activities (e.g. self-benchmarking workshop, observed audit and vigilance field visits). The manual and factsheets provide clear and detail information to organizers, assessors and NRAs. Furthermore, the benchmarking guidance incorporates the WHO or other internationally recognized references and standards.
+
+How long does it take for a regulatory system to reach minimum capacity that meets internationally recognized standards?
+========================================================================================================================
+
+It depends on existing regulatory capacity, availability of resources and political commitment. Other factors include the scope of regulatory activities (i.e. medicines, vaccines), size of the market and organizational structure that affect timelines for improvements. For low resource regulatory systems, it may be a long process to reach a system which meets minimum capacity. Therefore, developing a medium to long term strategic plan aligned with national health and medicine policy is a critical step towards having a functional system.
+
+1 SDG 3: Ensure healthy lives and promote well-being for all at all ages, SDG 3.8 Achieve universal health coverage, including financial risk protection, access to quality essential health-care services and access to safe, effective, quality and affordable essential medicines and vaccines for all, Sustainable Development Goals, https://sustainabledevelopment.un.org/?menu=1300, accessed 9 Feb 2017
+
+2 Medical products include: diagnostics, medicines, vaccines and immunization-related equipment and devices for high burden diseases
+
+3 WHO Prequalification: https://extranet.who.int/pqweb/medicines
+
+4 World Health Assembly (WHA) Resolutions WHA45.17, WHA47.17, WHA52.19, WHA54.11, WHA59.24, WHA63.12, WHA65.19, and WHA67.20
+
+5 World Health Assembly (WHA) Resolution WHA67.20. http://apps.who.int/medicinedocs/en/d/Js21456zh/

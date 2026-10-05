@@ -1,0 +1,378 @@
+WHO QUESTIONS AND ANSWERS
+Title: Zika
+URL: https://www.who.int/news-room/questions-and-answers/item/zika
+Retrieved: 2026-10-05T09:51:05.975845+00:00
+
+========================================
+
+The rise in the spread of Zika virus in Brazil has been accompanied by an unprecedented rise in the number of children being born with unusually small heads—identified as microcephaly. In addition, several countries, including Brazil, reported a steep increase in Guillain-Barré syndrome—a neurological disorder that could lead to paralysis and death. Based on a systematic review of the literature up to 30 May 2016, WHO has concluded that Zika virus infection during pregnancy is a cause of congenital brain abnormalities, including microcephaly; and that Zika virus is a trigger of Guillain-Barré syndrome. Zika virus continues to spread geographically to areas where mosquitoes are present that can transmit the virus.
+
+How do people catch Zika virus?
+===============================
+
+Zika virus is primarily transmitted to people through the bite of an infected Aedes mosquito, which can also transmit chikungunya, dengue and yellow fever.
+
+Zika virus can also be transmitted through sex and has been detected in semen, blood, urine, amniotic fluids, saliva as well as body fluids found in the brain and spinal cord.
+
+Zika virus may present a risk to blood safety. People who have donated blood are encouraged to report to the blood transfusion service if they subsequently get symptoms of Zika virus infection, or if they are diagnosed with recent Zika virus infection within 14 days after blood donation.
+
+Fact sheet on Zika virus
+
+Maintaining a safe and adequate blood supply during Zika virus outbreaks
+
+What are the symptoms of Zika virus disease?
+============================================
+
+Zika virus usually causes mild illness. Symptoms most commonly include a slight fever or rash, appearing a few days after a person is bitten by an infected mosquito. Although many will not develop any symptoms at all, others may also suffer from conjunctivitis, muscle and joint pain, and feel tired. The symptoms usually last from 2 to 7 days.
+
+There is no known difference in the symptoms of infected pregnant and non-pregnant women.
+
+Interim case definition of Zika virus disease
+
+How is Zika virus disease diagnosed?
+====================================
+
+Diagnosis is based on symptoms and the person’s recent history (e.g. mosquito bites, or travel to an area where Zika virus occurs). Laboratory testing can confirm the presence of Zika virus in the blood. However, this diagnosis may not be reliable as the virus could cross-react with other viruses such as dengue, West Nile and yellow fever. The development of a reliable, rapid point-of-care diagnostic test is high priority for Zika-related research.
+
+Surveillance for Zika virus infection, microcephaly and Guillain-Barré syndrome
+Laboratory testing for Zika virus infection
+
+How is Zika virus disease treated?
+==================================
+
+The symptoms of Zika virus disease can be treated with common pain and fever medicines, rest and plenty of water. If symptoms worsen, people should seek medical advice.
+
+Why do we need a Zika virus country classification scheme?
+==========================================================
+
+Public health agencies like WHO classify countries to characterize the level of Zika virus transmission in a given time and the potential for its spread. This information enables countries to prepare and respond to the threat and adapt public health recommendations for residents and travellers.
+
+Why does the scheme only take into consideration the presence in a country of the Aedes aegypti mosquito and not of other mosquitoes?
+=====================================================================================================================================
+
+The Aedes aegypti mosquito is considered the main vector of Zika virus transmission because it sustains most Zika virus outbreaks. Zika virus may be imported by infected travellers into an area that may not have Zika virus transmission at that point of time. If those travellers are bitten by local Aedes aegypti mosquitoes the mosquitoes can transmit the virus to others, potentially setting off a cycle of transmission. Studies on the role of other species of mosquitoes in human transmission are inconclusive so far.
+
+What are the categories in the Zika virus country classification scheme?
+========================================================================
+
+Category 1: Area with new introduction of Zika virus since 2015 or area where the virus has been re-introduced, with ongoing transmission.
+
+Category 2: Area either with evidence of Zika virus circulation before 2015 or with transmission but the area does not satisfy the criteria for 1 or 3. Areas in category 2 may also experience an outbreak of Zika.
+
+Category 3: Area with interrupted transmission but with potential for future transmission.
+
+Category 4: Area with established Aedes aegypti mosquitoes but no known documented past or current transmission.
+
+What are the public health implications of this classification?
+===============================================================
+
+WHO strongly encourages all countries with Aedes aegypti mosquitoes, whether they ever had Zika virus transmission or not, to enhance early warning systems for Zika and related severe neurological complications. Zika virus infection is usually benign. However, studies have shown that Zika virus is a cause of congenital Zika virus syndrome, a condition occurring in newborns and infants who were exposed to Zika virus before birth. To prevent congenital Zika virus syndrome, it is important to monitor trends in Zika virus infection. WHO has issued a range of guidelines to help countries prepare and respond to outbreaks of Zika virus and related complications.
+
+Publications and technical guidance on Zika virus
+
+How was the Zika virus country classification scheme developed?
+===============================================================
+
+WHO, the US Centers for Disease Control and Prevention (CDC) and the European Centre for Disease Control and Prevention (ECDC) have collaboratively reviewed surveillance data from countries and defined levels of Zika virus transmission and risk based on current evidence. As a guidance development group, they have developed the interim guidance on Zika virus country classification scheme.
+
+Zika virus country classification scheme
+
+What is microcephaly?
+=====================
+
+Microcephaly is a condition where a baby’s head is smaller than those of other babies of the same age and sex. Microcephaly happens when there is either a problem in utero, causing the baby’s brain to stop growing properly, or after birth when the head stops growing properly. Children born with microcephaly often have developmental challenges as they grow older. In some cases, children with microcephaly develop entirely normally. Microcephaly can be caused by a variety of environmental and genetic factors such as Down syndrome; exposure to drugs, alcohol or other toxins in the womb; and rubella infection during pregnancy.
+
+Fact sheet on microcephaly
+Surveillance for Zika virus infection, microcephaly and Guillain-Barré syndrome
+Screening, assessment and management of neonates and infants with complications associated with Zika virus exposure in utero
+
+What is congenital Zika virus syndrome?
+=======================================
+
+In addition to congenital microcephaly, a range of manifestations has been reported among babies up to 4 weeks old where there has been exposure to Zika virus in utero. These include malformations of the head, involuntary movement, seizures, irritability, brainstem dysfunction such as swallowing problems, limb contractures, hearing and sight abnormalities and brain anomalies. Other outcomes associated with Zika virus infection in utero may involve miscarriages and stillbirths. Together, the spectrum of congenital abnormalities associated with Zika virus exposure of fetuses during pregnancy are known as “congenital Zika virus syndrome.”
+
+Not all children with congenital Zika virus syndrome present with microcephaly. On the other hand, failure to observe signs of congenital Zika virus syndrome, particularly when assessed in utero, does not necessarily mean that the fetus or newborn does not have abnormalities. For example, hearing abnormalities may not be assessed in utero but only after birth. Some signs such as seizures may develop only after birth.
+
+Screening, assessment and management of neonates and infants with complications associated with Zika virus exposure in utero
+
+What is Guillain-Barré syndrome?
+================================
+
+Guillain-Barré syndrome is a rare condition in which a person’s immune system attacks his or her nerves. People of all ages can be affected, but it is more common in adult men. Most people recover fully from even the most severe cases of Guillain-Barré syndrome. In 20%-30% of people with the condition, the chest muscles are affected, making it hard to breathe. Severe cases of Guillain-Barré syndrome are rare, but can result in near-total paralysis and/or death.
+
+Fact sheet on Guillain-Barré syndrome
+Identification and management of Guillain-Barré syndrome in the context of Zika virus
+Surveillance for Zika virus infection, microcephaly and Guillain-Barré syndrome
+
+What is the relationship between Zika and microcephaly and Guillain-Barré syndrome?
+===================================================================================
+
+Based on a newly published systematic review of current research, WHO has reaffirmed its position that Zika virus infection during pregnancy is a cause of congenital brain abnormalities, including microcephaly, and refined its position on the relationship between Zika virus infection and Guillain-Barré syndrome, stating that Zika virus infection is a trigger of Guillain-Barré syndrome.
+
+Zika causality statement
+
+What events led WHO to investigate a causal link between Zika virus and complications including microcephaly and Guillian-Barré syndrome?
+=========================================================================================================================================
+
+A Zika outbreak in Brazil, identified in early 2015, was followed by an unusual increase in microcephaly among newborns, as well as an increased number of cases of Guillain-Barré syndrome. Zika virus outbreaks rapidly affected other countries and territories in the Americas. The scientific community responded with urgency to the rapidly evolving situation and began building a knowledge base about the virus and its implications extremely quickly.
+
+In 2013-2014, Zika virus had caused an outbreak in French Polynesia with some 28 000 people infected with Zika, including cases of Guillain-Barré syndrome. The outbreaks in the Americas led to a reinvestigation of the 2013-14 outbreak in French Polynesia. Looking back, this outbreak appears to have been linked also to microcephaly.
+
+Research into the geographical spread of Zika virus and related complications continues.
+
+Are there other explanations for microcephaly and Guillain-Barré syndrome?
+==========================================================================
+
+Guillain-Barré syndrome and microcephaly are conditions with a number of underlying causes, triggers and neurological effects.
+
+Microcephaly can result, among others, from infections during pregnancy, exposure to toxic chemicals and genetic abnormalities.
+
+Guillain-Barré syndrome is often preceded by an infection. This could be a bacterial or viral infection. The syndrome may also be triggered by vaccine administration or surgery.
+
+Scientists do not exclude the possibility that other factors may combine with Zika virus infection to cause neurological disorders. A better understanding of Zika virus infection and its complications is one of the remaining research priorities.
+
+WHO Zika Virus Research Agenda
+R&D Blueprint and Zika
+
+Where does Zika virus occur?
+============================
+
+Local transmission of Zika virus by Aedes mosquitoes has been reported on the continents of Africa, the Americas, South-East Asia and the Western Pacific.
+
+There are 2 types of Aedes mosquito known to be capable of transmitting Zika virus. In most cases, Zika is spread through the Aedes aegypti mosquito in tropical and subtropical regions. The Aedes albopictus mosquito can also transmit the virus and can hibernate to survive regions with cooler temperatures. Both species breed and live near or inside human dwellings, preferring to bite humans over other animal hosts.
+
+A study, conducted by Fiocruz Pernambuco, detected the presence of Zika virus in Culex quinquefasciatus mosquitoes. Recent laboratory studies have shown that Culex species were unable to transmit Zika virus in an experimental setting. It is unlikely that they play a role in the current outbreak of Zika.
+
+Vector-borne diseases
+A review of Zika vectors - Aedes
+
+Can the Aedes mosquito travel from country to country and region to region?
+===========================================================================
+
+The Aedes mosquito is a weak flyer; it cannot fly more than 400 meters. However it may be possible for the mosquito to be transported from one place to another accidentally and introduce Zika virus to new areas.
+
+WHO Ad-hoc Advisory Group on aircraft disinsection for controlling the international spread of vector-borne diseases
+
+What role does mosquito surveillance play in addressing Zika virus?
+===================================================================
+
+Monitoring the numbers and the geographical distribution of mosquitoes over time (surveillance) helps to make timely decisions about how best to manage mosquito populations.
+
+Surveillance can serve to identify areas where a high-density infestation of mosquitoes has occurred or periods when mosquito populations increase. In areas where the mosquitoes are no longer present, mosquito surveillance is critical to detect new introductions rapidly before they become widespread and difficult to eliminate.
+
+Monitoring of the mosquito population’s susceptibility to insecticide should also be an integral part of any programme that uses insecticides which are substances to kill insects. Surveillance is a critical component of prevention and control programmes as it provides the information necessary for risk assessment, epidemic response and programme evaluation.
+
+Entomological surveillance for Aedes spp. in the context of Zika virus: Interim guidance for entomologists
+Monitoring and managing insecticide resistance in Aedes mosquito populations
+
+What role does mosquito control play in addressing Zika virus?
+==============================================================
+
+Mosquito control is an important component of the prevention and management of Zika virus and complications. WHO encourages affected countries and their partners to scale up the use of current mosquito control interventions as the most immediate line of defence. WHO recommends approaches that tackle all life stages of the Aedes mosquito, from the egg, to the larva/pupa to the adult.
+
+Current interventions include: targeted residual spraying of adult Aedes mosquitoes in and around houses; space spraying/indoor fogging where Aedes mosquitoes rest and bite and outside; elimination of Aedes mosquito larvae in standing water breeding sites and personal protection from mosquito bites. If current methods are implemented in an expedient, comprehensive and sustained way, with community participation, along with other measures, mosquito control can be effective. In addition, WHO encourages countries and their partners to judiciously test new control tools that could potentially be applied in the future.
+
+WHO's vector control recommendations targeting the Aedes species are also very efficient against other mosquito vectors. The range of methods for reducing mosquitos include spraying the inside walls of houses, indoor space spraying, larval control and eliminating breeding sites. Mosquito control is recommended along with personal protection steps such as the use of insect repellents, bed nets during the day and at night, window and door netting and wire mesh screens.
+
+Dispelling rumours around Zika and complications
+Protecting the health and safety of workers in emergency vector control of Aedes mosquitoes
+Vector control operations framework for Zika virus
+
+What can people do to protect themselves from mosquito bites?
+=============================================================
+
+The best protection from Zika virus and associated complications is preventing mosquito bites. This can be done by:
+
+• Wearing clothes (preferably light-coloured) that cover as much of the body as possible.
+
+• Using repellents that contain DEET (diethyltoluamide), IR 3535 ((3- [N-butyl-N-acetyl], aminopropionic acid ethyl-ester) or KBR3023 (also called Icaridin or Picaridin). These are applied to exposed skin or to clothing and should be used in strict accordance with the label instructions, especially regarding the duration of protection and timing of re-application. If repellents and sunscreen are used together, sunscreen should be applied first and the repellent thereafter. Using physical barriers such mesh screens or treated netting materials on doors and windows.
+
+• Sleeping under mosquito nets day and night.
+
+• Identifying and eliminating potential mosquito breeding sites, by emptying, cleaning or covering containers that can hold even small amounts of water, such as buckets, flower pots and tyres.
+
+• National programmes can target polluted water bodies and sewage wastes (septic tank outlets need to be covered) with water and sanitation interventions.
+
+How can pregnant women protect themselves from mosquito bites?
+==============================================================
+
+Women who are pregnant or planning to become pregnant and their sexual partners should take extra care to protect themselves from the bite of mosquitoes that transmit Zika. Pregnant women living in areas of Zika virus transmission should follow the same prevention guidelines as the general population (see question above).
+
+There is no evidence of health risks associated with the use of insect repellents that contain DEET (diethyltoluamide), or IR 3535, or icaridin by pregnant women as long as they are used in accordance with the instructions on the product label.
+
+Pregnant women living in areas with ongoing Zika virus transmission should attend their regular antenatal care visits in accordance with national standards and comply with the recommendations of their health-care providers. They should also start antenatal care visits early for diagnosis and appropriate care and follow-up if they develop any of the Zika symptoms or signs.
+
+What can people do to be protected from sexual transmission of Zika virus?
+==========================================================================
+
+In regions with active Zika virus transmission, health programmes should ensure that:
+
+- All people (male and female) with Zika virus infection and their sexual partners (particularly pregnant women) receive information about the risks of sexual transmission of Zika virus.
+
+- Men and women get counselling on safer sexual practices (including correct and consistent use of male or female condoms, non-penetrative sex, reducing the number of sexual partners, and postponing sexual debut) and be offered condoms.
+
+- Sexually active men and women should be correctly counselled and offered a full range of contraceptive methods to be able to make an informed choice about whether and when to become pregnant, in order to prevent possible adverse pregnancy and fetal outcomes.
+
+- Pregnant women practice safer sex or abstain from sexual activity for at least the whole duration of the pregnancy.
+
+- Pregnant women should be advised not to travel to areas of ongoing Zika virus outbreaks.
+
+In regions with NO active Zika virus transmission health programmes should ensure that:
+
+- Men and women returning from areas where transmission of Zika virus is known to occur should adopt safer sex practices or consider abstinence for at least 6 months upon return to prevent Zika virus infection through sexual transmission.
+
+- Couples or women planning a pregnancy, who are returning from areas where transmission of Zika virus is known to occur, are advised to wait at least 6 months before trying to conceive to ensure that possible Zika virus infection has cleared.
+
+- Sexual partners of pregnant women, returning from areas where transmission of Zika virus is known to occur, should be advised to practice safer sex or abstain from sexual activity for at least the whole duration of the pregnancy.
+
+Fact sheet: Family planning/Contraception
+UNFPA, WHO and UNAIDS Statement on condoms & prevention of HIV, other STIs and unintended pregnancy
+Prevention of potential sexual transmission of Zika virus, interim guidance
+
+What should women do if they have been exposed to unprotected sex but do not wish to become pregnant because of possible infection with Zika?
+=============================================================================================================================================
+
+All women and girls should have ready access to emergency contraception, including accurate information and counselling as well as affordable methods.
+
+Fact sheet: Emergency contraception
+
+Who might be targeted for vaccination against Zika?
+===================================================
+
+In emergencies, we focus on the prevention of the most devastating disease manifestation which, in the context of Zika, is congenital Zika virus syndrome. This is a condition occurring in newborns and infants who were exposed to Zika virus infection in utero. For this reason, the priority population to protect through vaccination is women of childbearing age. If resources permit, males of reproductive age would be a second target population.
+
+Zika vaccine target product profile
+
+What steps are required to ensure that a vaccine is safe and effective?
+=======================================================================
+
+A number of steps must take place to ensure that vaccines for any disease are safe and effective. The precise requirements depend on the national authority responsible for regulating the approval and licensing of vaccines, the severity of disease, the amount and distribution of disease and the target population. In the case of Zika, after a rigorous evaluation in pre-clinical studies, candidate Zika vaccines will be tested in small numbers of volunteers (Phase I and Phase II trials) to test the vaccine’s safety and its ability and the dosage needed to produce sufficient immune response while minimizing any side effects. Phase II and III trials need to demonstrate that the vaccine works to protect the target population.
+
+WHO consultation on regulatory considerations for Zika vaccine for emergency use
+
+What is the current status of Zika vaccine development?
+=======================================================
+
+WHO is tracking Zika vaccine candidates in the research and development pipeline. We look at databases of clinical trials being conducted and published studies and inquire with developers as to where they are in the process – from basic research to clinical evaluation to regulatory approval to production to commercialization. As of January 2017, about 40 Zika vaccine candidates are in the pipeline. Five of them are entering, or about to enter, Phase I trials in which the vaccine’s safety and ability to produce an immune response is being evaluated. Several other candidates are expected to move to Phase I trials in the coming months.
+
+Vaccine pipeline tracker
+
+How is WHO expediting Zika vaccine R&D?
+=======================================
+
+The Zika R&D activities are coordinated under WHO’s R&D Blueprint for Action to Prevent Epidemics. This is a strategic plan which allows the R&D community and regulators to fast-track the availability of effective diagnostic tests, vaccines and medicines that can be used to save lives for diseases for which few or no medical countermeasures exist. Zika is one of a number of priority diseases to benefit from the Blueprint.
+
+Blueprint
+List of priority diseases
+
+When might a Zika vaccine be available?
+=======================================
+
+Registration of first generation Zika vaccines may start in about 2-3 years. Many regulatory authorities have fast-track mechanisms for review and approval of urgently needed vaccines.
+
+What are the characteristics of an ideal Zika vaccine?
+======================================================
+
+WHO is helping to shape vaccine development through the creation of a target product profile for Zika vaccines for use in an emergency. The profile specifies the preferred and minimal product characteristics for such vaccines. For example, administration of a single dose of Zika vaccine is preferable, but up to 2 doses are acceptable. The vaccine should protect for at least one year in an emergency context, but protection for several years is preferable. The shelf life of a vaccine should be at least 12 months at less than 20°C.
+
+Target product profile
+
+What are the challenges in Zika vaccine R&D?
+============================================
+
+Developing a Zika vaccine is complex. For example, we still face many unknowns about Zika virus disease and its complications. Evaluating candidate vaccines in areas with low Zika virus transmission is not easy. We need to develop diagnostic tests which can differentiate Zika infection from other similar viral infections. Getting a safe and effective Zika vaccine to women of childbearing age could, however, be technically feasible based on experience with vaccine development for other similar viruses, such as yellow fever, Japanese encephalitis and tick-borne encephalitis.
+
+What happens once a vaccine is available?
+=========================================
+
+Once a vaccine is available, WHO’s leading advisory group on immunization, the Strategic Advisory Group of Experts (SAGE) on Immunization, performs a comprehensive review of the evidence and makes recommendations to the WHO Director-General for the optimal use of a vaccine for public health impact. WHO issues official recommendations based on the SAGE recommendations, which permit the prequalification and purchase by UN agencies.
+
+Can women transmit Zika virus to their fetuses during pregnancy or childbirth?
+==============================================================================
+
+Transmission of Zika virus from pregnant women to their fetuses has been documented.
+
+Although Zika virus infection in pregnancy is typically a mild disease, an unusual increase in cases of congenital microcephaly and other neurological complications in areas where outbreaks have occurred has significantly raised concern for pregnant women and their families, as well as among health providers and policy-makers. Pregnant women in general, including those who develop symptoms of Zika virus infection, should see their health-care provider for close monitoring of their pregnancy.
+
+Pregnancy management in the context of Zika virus infection
+
+What should women do if they wish to postpone pregnancy because they are worried about microcephaly?
+====================================================================================================
+
+Whether and when to become pregnant should be a personal decision, made on the basis of full information and access to affordable, quality health services.
+
+Women wanting to postpone pregnancy should have access to a comprehensive range of reversible, long- or short-acting contraceptive options. They should also be counselled on the dual protection against sexually transmitted infections provided by condoms.
+
+There are no known safety concerns regarding the use of any hormonal or barrier contraceptive methods for women or adolescent girls at risk of Zika virus, women diagnosed with Zika virus infection, or women and adolescents being treated for Zika virus infection.
+
+Pregnancy management in the context of Zika virus infection
+Ensuring human rights in the provision of contraceptive information and services - Guidance and recommendations
+
+Advice for health-care providers on medical eligibility for contraception
+
+How can women manage their pregnancy in the context of Zika virus and complications?
+====================================================================================
+
+Most women in Zika-affected areas will give birth to normal infants.
+
+Early ultrasound does not reliably predict fetal malformations. WHO recommends a repeat ultrasound of the fetus in the late second or early third trimester (preferably between 28 and 30 weeks) to identify fetal microcephaly and/or other brain abnormalities when they are easier to detect.
+
+Where feasible, screening of amniotic fluid for abnormalities and congenital infections, including Zika virus, is recommended, especially in cases where women test negative for Zika, but their ultrasounds indicate fetal brain abnormalities.
+
+Based on the prognosis of associated fetal brain abnormalities, the woman—and her partner if she wishes—should be offered non-directive counselling so that she, in consultation with her health-care provider, can make a fully informed choice about the next steps in the management of her pregnancy.
+
+Women carrying their pregnancy to term should receive appropriate care and support to manage anxiety, stress and the birth environment. Plans for care and management of the baby soon after birth should be discussed with the parents in consultation with a paediatrician or paediatric neurologist where available.
+
+Women who wish to discontinue the pregnancy should receive accurate information about their options to the full extent of the law, including harm reduction where the care desired is not readily available.
+
+Women, whatever their individual choices with respect to their pregnancies, must be treated with respect and dignity.
+
+Pregnancy management in the context of Zika virus infection
+
+Psychosocial support for pregnant women and for families with microcephaly and other neurological complications in the context of Zika virusSafe abortion: Technical & policy guidance for health systems. Legal and policy considerations - Key messages.
+
+Safe abortion: Technical & policy guidance for health systems. Legal and policy considerations - Key messages.
+
+Can mothers with Zika infection breastfeed their baby?
+======================================================
+
+WHO recommends exclusive breastfeeding for the first 6 months of life, also in the context of Zika virus. Zika virus has been detected in breast milk but there is currently no evidence that the virus is transmitted to babies through breastfeeding.
+
+Breastfeeding in the context of Zika virus
+
+What should people travelling to Zika-affected areas do?
+========================================================
+
+Travellers should stay informed about Zika virus and other mosquito-borne diseases such as chikungunya, dengue and yellow fever, and consult their local health or travel authorities if they are concerned.
+
+Pregnant women should be advised not to travel to areas of ongoing Zika virus outbreaks; pregnant women whose sexual partners live in or travel to areas with Zika virus transmission should ensure safer sexual practices or abstain from sex for the duration of their pregnancy.
+
+Information for travellers visiting Zika affected countries
+International travel and health
+
+What is WHO's response to Zika?
+===============================
+
+Zika virus and its complications such as microcephaly and Guillain-Barré syndrome represent a new type of public health threat with long-term consequences for families, communities and countries. WHO and partners support countries in preparing for and responding to Zika to the fullest extent possible. The main pillars of their work, as outlined in the Zika Strategic Response Plan, July 2016 to December 2017, are:
+
+• Detection - Develop, strengthen and implement integrated surveillance systems for Zika virus disease, its neurological complications and other diseases that are transmitted by Aedes mosquitoes. This helps to measure burden of disease to guide sound public health interventions.
+
+• Prevention - Prevent complications associated with Zika virus infection through mosquito control that prevents the Aedes mosquito from transmitting Zika virus, chikungunya, dengue and yellow fever to humans; communicate risks to people’s health and engage communities in prevention activities.
+
+• Care and support - Strengthen health and social systems to provide appropriate services and support to individuals, families and communities affected by Zika and related complications.
+
+• Research – 1) Generate data and evidence needed to strengthen public health and community guidance and interventions to prevent, detect and control Zika virus infection and to manage its complications. 2) Fast track and scale up the research, development and availability of Aedes mosquito control tools, diagnostic tests and vaccines.
+
+• Coordination – WHO coordinates the Zika response through close collaboration with more than 60 partners and facilitates information sharing among them and with countries.
+
+More on WHO's Strategic Response Plan
+Zika situation report (data on occurrence and/or spread of Zika virus, microcephaly and Guillain-Barré syndrome)
+Risk communication
+
+What does WHO recommend countries to do?
+========================================
+
+WHO is supporting countries in the areas of detection, prevention, care and support and R&D in line with the Zika Strategic Response Plan. Furthermore, WHO has issued technical guidance for policy-makers and health-care professionals in critical areas of preparedness and response. As listed under the respective questions above, recommendations range from how to provide psychosocial support to pregnant women and families affected by Zika and neurological complications, to how to diagnose Zika virus infection in laboratories to how to protect the health and safety of workers in emergency mosquito control.
+
+Zika Strategic Response Plan
+Publications, technical guidance on Zika virus

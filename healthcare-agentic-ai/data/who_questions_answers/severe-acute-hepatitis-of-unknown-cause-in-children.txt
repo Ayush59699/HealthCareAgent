@@ -1,0 +1,88 @@
+WHO QUESTIONS AND ANSWERS
+Title: Severe acute hepatitis of unknown cause in children
+URL: https://www.who.int/news-room/questions-and-answers/item/severe-acute-hepatitis-of-unknown-cause-in-children
+Retrieved: 2026-10-05T09:49:30.082077+00:00
+
+========================================
+
+What is acute hepatitis?
+========================
+
+Hepatitis is an inflammation of the liver. A sudden onset of hepatitis is called acute hepatitis. The most common causes of acute hepatitis are the viral hepatitis infections A and E, and less commonly hepatitis B and C. Certain medications and toxins can also cause acute hepatitis. Usually, it passes without any serious consequences or need for special care or treatment, but in rare cases may result in severe liver failure or death.
+
+What are the symptoms of acute hepatitis?
+=========================================
+
+Regardless of the cause, the symptoms of acute hepatitis include:
+
+- vomiting, diarrhoea or abdominal pain
+
+- jaundice (yellow discoloration of the eyes and skin)
+
+- pale stools.
+
+Is acute hepatitis life-threatening?
+====================================
+
+Typically, acute hepatitis passes without any serious immediate consequences. In some cases, acute hepatitis B or C infection may lead to chronic infection and cause scarring, loss of function, or cancer. Acute hepatitis is a more serious condition in adults than children. Adults show signs and symptoms of illness more often than children, and the severity of disease and fatal outcomes are higher in older age groups.
+
+The majority of young children do not experience any noticeable symptoms and few develop jaundice. It can pass quickly without need for special care or treatment, but it can occasionally lead to acute liver failure and even death. Practicing good hand hygiene can protect your child from infection with hepatitis A and E. If you are worried that your child has symptoms of acute hepatitis, contact a doctor for advice and to get your child the care they need.
+
+What do we know about the current reports of cases of acute hepatitis with unknown cause in children under the age of 10 in multiple countries?
+===============================================================================================================================================
+
+As of 20 May 2022, there have been at least 566 probable cases of acute hepatitis of unknown cause reported from 33 countries. The two countries reporting the most cases are the United Kingdom (197) and the United States of America (180). We know that seeing these cases in children is worrying for parents and caregivers. WHO is taking these cases very seriously and working with governments to find out what is causing them.
+
+At the moment these cases are still relatively rare. Cases of unexplained hepatitis in children do occur every year, but we are trying to find out if there have been more cases than usual this year or not. Some countries have reported that the numbers reported are higher than expected.
+
+What is causing these cases of hepatitis in children?
+=====================================================
+
+We don’t currently know what is causing these cases. Cases of unexplained hepatitis in children do occur every year, but we are trying to find out if there have been more cases than usual this year or not. Some countries have reported that the numbers reported are higher than expected. The cases we are currently seeing are presenting with more severe disease than is normally expected in children with acute hepatitis. Some of the children affected have developed liver failure requiring more intensive care and liver transplants, and some have died.
+
+We are investigating several different possible causes, both infectious and non-infectious. So far, none of the cases seem to have been caused by the common viruses that can cause acute hepatitis (hepatitis A, B, C or E). There doesn’t seem to be a particular place, food, medication, animal, bacteria or other illness in common between the cases. It is possible that there is a link to some viruses that cause cold and flu-like symptoms called adenoviruses. We are also investigating whether the cases of hepatitis could be linked to COVID-19. We are working to find out more.
+
+What should I do if I think that a child I care for has acute hepatitis?
+========================================================================
+
+If you think a child you care for has hepatitis, seek advice from a doctor immediately. They will help them get the care they need. Symptoms of hepatitis are severe or persistent vomiting, diarrhoea or abdominal pain that lasts longer than a few days, or the development of jaundice (yellow eyes and skin) and pale stools. There are many different causes of acute hepatitis, and some simple investigations will help establish the likely cause and what treatment they may need.
+
+What can I do to protect children from acute hepatitis?
+=======================================================
+
+Until we know more about what is causing these cases and how to prevent them, the best thing you can do is to take simple steps to protect you and children you care for from infectious diseases, including COVID-19:
+
+- clean your hands often using soap and water or an alcohol-based hand-gel, and supervise young children to do the same;
+
+- avoid crowded spaces and keep a safe distance from others;
+
+- ensure good ventilation when indoors;
+
+- wear a well-fitted mask covering your mouth and nose when recommended;
+
+- cover coughs and sneezes;
+
+- use safe water for drinking; and
+
+- stay home when unwell and seek medical attention if you are concerned.
+
+As we know more about what is causing these cases, WHO will update its recommendations.
+
+How much should I worry about a child I care for getting acute hepatitis?
+=========================================================================
+
+WHO is taking the reports of children getting acute hepatitis from an unknown cause very seriously. Acute hepatitis in children is usually not a serious disease. However, in the recently reported cases, many of the children have been hospitalised and some required intensive care support. We are doing everything we can to find the cause and determine how to protect children. While it is hard not to worry, at the moment these cases are still relatively rare. The risk is currently low.
+
+Until we know more, the best thing you can do to protect children is to practice good hygiene, including hand hygiene. WHO will continue to provide updates as soon as we know more.
+
+Are we seeing these cases of acute hepatitis because our children’s immune systems have been weakened by being in lockdown for so long?
+=======================================================================================================================================
+
+We do not yet know what is causing these cases of acute hepatitis in children. We are working with experts and partners to explore all possible explanations.
+
+It is possible that more contact between people and spending time in new environments could lead to more chances of being exposed to germs. In some countries, we know that the spread of some viruses (such as adenoviruses and rhinoviruses) decreased while public health measures were in place for COVID-19, such as physical distancing and mask wearing. Since these measures have been lifted, we have seen an increase in the detection of these infections.
+
+Does getting my child vaccinated against COVID-19 increase the risk of my child getting acute hepatitis?
+========================================================================================================
+
+Based on what we know at this point, theories that these cases of acute hepatitis could be linked to COVID-19 vaccines are not supported. The vast majority of children affected had not been vaccinated. For more information on getting your child vaccinated against COVID-19, see here.

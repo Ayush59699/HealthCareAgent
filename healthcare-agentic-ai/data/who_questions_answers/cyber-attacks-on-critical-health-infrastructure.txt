@@ -1,0 +1,46 @@
+WHO QUESTIONS AND ANSWERS
+Title: Cyber-attacks on critical health infrastructure
+URL: https://www.who.int/news-room/questions-and-answers/item/cyber-attacks-on-critical-health-infrastructure
+Retrieved: 2026-10-05T09:45:02.465090+00:00
+
+========================================
+
+What is a cyber-attack?
+=======================
+
+A cyber-attack is an attempt to deliberately harm a person(s) or organization by attacking their digital systems (e.g. computers) to steal, tamper with, disrupt access to, or destroy the data or applications they consider confidential and/or are dependent on. Cyber-attacks are more common when a person or organization has systems that are connected to the internet. Cyber attackers will often try to trick people into giving them access to these systems by sending them e-mails which contain attachments or links that seem legitimate but when clicked on lead to the attacker gaining access to the person’s computer and/or an organization’s network.
+
+Why is health care prone to cyber-attacks?
+==========================================
+
+The emergence of health care as a preferred target for cyber-attacks is relatively recent. Health care, including hospitals, clinics and health insurance, are increasingly undergoing digital transformation to the benefit of patients and cost-efficiency of their services. This is often happening without enough attention being paid to the new risks this brings to the table. The vast amount of critical digital information held by health services (e.g. within patient monitoring systems/electronic health records), coupled with inadequate security (lack of staff awareness and technical safeguards) makes them a prime target for cyber-criminals. For cyber-criminals, withholding access to these time-sensitive data and systems for a ransom is an easy money-making exercise. Cyber-criminals have recognized and learned to exploit this at scale for financial benefit over the past decade. During the COVID-19 pandemic, many healthcare organizations increased their use of digital systems and rapid access to patient data became critical, prompting cyber-criminals to target healthcare as they thought ransoms were more likely to be paid due to the critical nature of the data and systems they were locking access to.
+
+What is ransomware?
+===================
+
+Ransomware is a type of malicious software (malware) that infects digital systems and prevents end-users from accessing data and applications by encrypting key information. For access to be returned, the perpetrators extort a fee (a ransom) to be paid. Payments are generally requested in cryptocurrencies, which are more difficult for criminal justice authorities to trace.
+
+How does a cyber-attack affect patients?
+========================================
+
+Cyber-attack can have different effects. Cyber-attack can have a direct impact on patient safety and care delivery in a variety of ways. For example, when a healthcare organization is hit with a cyber-attack, the attackers may gain access to sensitive patient data, including personal information, medical histories and even financial information. In some extreme cases, cyber-attacks have even led to the shutdown of entire healthcare facilities, putting patients’ lives at risk. Ransomware attacks that lock access to critical healthcare IT systems often cause disruption that leads to cancelled outpatient appointments and elective surgical operations. In more serious attacks, emergency rooms have had to turn ambulances away or cancer centres have had to postpone treatment for their patients. More recently, there have been cyber-attack to steal mental health records where the attackers have ultimately published the confidential records online, demonstrating how cyber-attack can impact both the physical and mental well-being of the victims.
+
+Are there any other types of health critical infrastructure that are at risk?
+=============================================================================
+
+The healthcare supply chain involves more than just hospitals and health clinics. It includes biotechnology companies, logistics companies, vaccine manufacturers, academic research institutions, pharmaceutical companies, diagnostic laboratories, health IT suppliers, digital infrastructure vendors and medical device manufacturers. All these organizations are increasingly interconnected through digital technology and have been targeted by cyber-attacks.
+
+What is cybersecurity maturity?
+===============================
+
+Cybersecurity maturity is your organization’s level of readiness to defend itself and its digital assets against cyber-attack. During the COVID-19 pandemic, no continent was spared these types of attacks and the healthcare sector continues to be the top targeted sector even after the pandemic. The more mature your program, the better able you are to mitigate digital threats and keep business running as usual despite cyber threats and challenges. As the threat landscape intensifies and artificial intelligence is unleashed in full force, sophisticated cybersecurity maturity is now needed and necessary.
+
+How can we protect health critical infrastructure?
+==================================================
+
+It is important for Member States and the health sector to consider enhancing their cyber maturity in preparation for cyber-attack. This involves investing in people, processes and technology, including through cyber awareness training and development of incident response plans to be rehearsed by staff in anticipation of a cyber-attack. It is critical to increase communication and collaboration with law enforcement agencies (e.g. police, INTERPOL), governmental agencies (e.g. cyber security agency, public health institute, national agency for the safety of medicines and health products, nuclear safety agency), private sector and non-governmental organizations; these entities can provide alerts and warnings about ongoing cyber-attack.
+
+Is a cyber-attack on a hospital considered as an attack on a health care facility?
+==================================================================================
+
+A cyber-attack on a hospital is considered as an attack on a health care facility. WHO defines an attack as any act of verbal or physical violence, threat of violence or other psychological violence, or obstruction that interferes with the availability, access and delivery of curative and/or preventive health services. There are different types of attacks that are described in this infographic.

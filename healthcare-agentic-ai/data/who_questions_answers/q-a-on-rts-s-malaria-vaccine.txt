@@ -1,0 +1,103 @@
+WHO QUESTIONS AND ANSWERS
+Title: Malaria vaccines (RTS,S and R21)
+URL: https://www.who.int/news-room/questions-and-answers/item/q-a-on-rts-s-malaria-vaccine
+Retrieved: 2026-10-05T09:48:35.403854+00:00
+
+========================================
+
+What is the malaria situation and who is most at risk?
+======================================================
+
+Despite progress, malaria remains a serious global health challenge. There were an estimated 282 million malaria cases and 610 000 malaria deaths globally in 2024. The WHO African Region continues to shoulder the heaviest malaria burden, comprising 94% of malaria cases and 95% of malaria deaths globally.
+
+Children are particularly vulnerable; WHO estimates that about 438 000 African children died from malaria in 2024.
+
+There are positive trends in the scale-up of effective prevention tools, including the rollout of life-saving malaria vaccines for children in over 20 African countries.
+
+What is the WHO recommendation for the RTS,S and R21 malaria vaccines?
+======================================================================
+
+WHO recommends the use of malaria vaccines for the prevention of P. falciparum malaria in children living in malaria endemic areas, prioritizing areas of moderate and high transmission.
+
+- The malaria vaccine should be provided in a schedule of 4 doses to children from around 5 months of age. A 5th dose, given one year after dose 4, may be considered in areas of highly seasonal transmission or where malaria risk remains high during the third year of life or beyond.
+
+- In areas with highly seasonal malaria transmission or areas with perennial malaria transmission with seasonal peaks, countries may consider providing the vaccine using an age-based administration, seasonal administration, or a hybrid of these approaches.
+
+- Countries should prioritize vaccination in areas of moderate and high transmission but may also consider providing the vaccine in low transmission settings. Decisions on expanding to low transmission settings should be considered at a country level, based on the overall malaria control strategy, cost-effectiveness, affordability, and programmatic considerations.
+
+- Malaria vaccines should be provided as part of a comprehensive malaria control strategy.
+
+What do we know about the WHO-recommended malaria vaccines?
+===========================================================
+
+The RTS,S and R21 malaria vaccines act against P. falciparum, the deadliest malaria parasite globally and the most prevalent in Africa.
+
+Both malaria vaccines are safe and efficacious, and both are prequalified by WHO.
+
+In phase 3 clinical trials both vaccines reduced malaria cases by more than 50% during the first year after vaccination – the period when children are at high risk of illness and death. A fourth vaccine dose given in the second year of life prolonged protection. Both vaccines reduce malaria cases by about 75% when given seasonally in areas of highly seasonal transmission where seasonal malaria chemoprevention is provided.
+
+An independent evaluation of the pilot introductions of the first malaria vaccine, RTS,S, to more than 2 million children in Ghana, Kenya and Malawi through the Malaria Vaccine Implementation Programme, MVIP, between 2019–2023, demonstrated high public health impact:
+
+- a vaccine-attributable 13% drop in mortality among children age-eligible for vaccination;
+
+- substantial reduction in hospitalizations for severe malaria; and
+
+- improved access to at least one malaria prevention intervention (malaria vaccine or insecticide treated net), reaching more than 90% of children.
+
+Highest impact for malaria control is achieved when a combination of WHO-recommended preventive, diagnostic, and treatment strategies are used, tailored by the country to the local context.
+
+To date, more than 10 million children are targeted annually for malaria vaccination through immunization programmes across 25 countries in Africa, with support from WHO, Gavi, UNICEF and other international and country-level partners. Malaria vaccines increase access to malaria prevention and can save the lives of tens of thousands of children every year.
+
+How do the RTS,S and R21 malaria vaccines compare?
+==================================================
+
+Both the R21 and RTS,S vaccines are shown to be safe and effective in preventing malaria in children and are expected to have high public health impact.
+
+RTS,S has been shown in large pilot implementations to substantially reduce malaria illness and deaths in young children. Given the similarity of the two malaria vaccines, it is likely that R21 will also be highly impactful.
+
+The R21 and RTS,S malaria vaccines have not been tested in a head-to-head trial. There is no evidence to date showing that one vaccine performs better than the other.
+
+Both vaccines have been shown to reduce malaria cases by more than 50% during the first year after vaccination – this is the period when children are at highest risk of malaria illness and death. A fourth dose prolongs the protection. Both vaccines prevent around 75% of malaria episodes when given seasonally in areas of highly seasonal transmission where seasonal malaria chemoprevention is provided.
+
+Multiple modelling studies show cost-effectiveness of malaria vaccines according to standard measures. R21, which is currently less expensive than RTS,S, is estimated to have similar cost effectiveness to other malaria control interventions, and both malaria vaccines are estimated to be highly cost-effective when compared with other childhood vaccines. Costing studies show malaria vaccine introduction costs are similar to the costs of other new vaccines at introduction.
+
+Both malaria vaccines are prequalified by WHO, which ensures vaccine safety and quality.
+
+The choice of product to be used in a country should be based on programmatic characteristics, vaccine supply and vaccine affordability. Gavi-eligible countries can receive support for malaria vaccines while co-financing a portion of the cost. Many Gavi-supported countries will pay as little as US$ 0.20 per dose for either vaccine.
+
+What is the status of malaria vaccines roll-out?
+================================================
+
+Rollout of malaria vaccines has moved forward at a record pace for new vaccines over the last 2 years. Today, 25 countries in Africa are offering malaria vaccines as part of childhood immunization programmes and according to national malaria control plans. This includes 5 countries that have introduced nationally, and 19 countries that are offering vaccines at subnational levels with plans to reach more areas over time. Collectively, more than 10 million children per year are targeted for malaria vaccination across these countries.
+
+Demand for the malaria vaccines has been unprecedented. At least 30 countries in Africa planned to introduce the malaria vaccine into their childhood immunization programmes and as part of their national malaria control strategies. Countries now offering malaria vaccines include Benin, Burkina Faso, Burundi, Cameroon, Central African Republic, Chad, Côte d’Ivoire, Democratic Republic of the Congo, Ethiopia, Ghana, Guinea, Guinea-Bissau, Kenya, Liberia, Malawi, Mali, Mozambique, Niger, Nigeria, Sierra Leone, South Sudan, Sudan, Togo, Uganda and Zambia.
+
+With two malaria vaccines recommended and available, vaccine supply is sufficient to meet the high demand. However, most countries are currently implementing the malaria vaccine below their national target scale due to limited funding.
+
+WHO continues to work with Gavi, UNICEF and other international and country-level partners in support of wider malaria vaccine introduction.
+
+What does access to malaria vaccines mean for children at risk, and for malaria progress?
+=========================================================================================
+
+Children under five years of age bear the greatest burden of malaria, with WHO estimating that approximately 438 000 African children died from the disease in 2024. Tens of thousands of young lives could be saved every year with the wide implementation of these malaria vaccines. According to modelling estimates, malaria vaccines could prevent approximately half a million child deaths by 2035 if they were scaled up in moderate and high malaria transmission areas.
+
+Malaria vaccines can revitalize the fight against malaria and increase child survival.
+
+Highest impact to drive down child illness and deaths will be achieved when a mix of WHO-recommended malaria interventions is implemented, tailored to the local context.
+
+Although current vaccine supply can meet the high demand, funding constraints are preventing many countries from scaling up malaria vaccination to their national targets.
+
+What was the MVIP and how did it help to bring malaria vaccines forward?
+========================================================================
+
+The Malaria Vaccine Implementation Programme, MVIP, was designed to evaluate the public health use of the first malaria vaccine, RTS,S, to inform WHO recommendations for a malaria vaccine for children.
+
+From 2019 through 2023, more than 2 million children were reached with the malaria vaccine through childhood immunization programmes in Ghana, Kenya and Malawi. Vaccine implementation resulted in high public health impact: early childhood deaths were reduced by 13% among children age-eligible for vaccination; and hospitalizations for severe malaria dropped substantially.
+
+Based on data generated through the MVIP after 24 months of vaccination in the pilot countries, WHO recommended the first malaria vaccine, RTS,S, to prevent malaria in children in October 2021.
+
+All 3 countries have continued to provide malaria vaccination through childhood immunization programmes, and expanded vaccination areas, with Gavi support, after completion of the pilots.
+
+The success of the MVIP and lessons learned through the pilot programme informed considerations for the R21 vaccine and facilitated more efficient development of additional malaria vaccines. These efforts contributed to WHO’s recommendation for the second malaria vaccine, R21, in October 2023.
+
+The MVIP was coordinated by WHO and supported by in-country and international partners, including Ministries of Health in Ghana, Kenya and Malawi, PATH, UNICEF and GSK. Financing for the MVIP was provided by Gavi, the Vaccine Alliance; the Global Fund to Fight AIDS, Tuberculosis and Malaria; and Unitaid.

@@ -1,0 +1,99 @@
+WHO QUESTIONS AND ANSWERS
+Title: Coronavirus disease (COVID-19): Malaria and COVID-19
+URL: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-malaria-and-covid-19
+Retrieved: 2026-10-05T09:44:32.614823+00:00
+
+========================================
+
+This page is no longer being updated. It remains live for reference purposes only.
+
+How many malaria-affected countries have reported cases of COVID-19?
+====================================================================
+
+Malaria-endemic countries in all WHO have regions have reported cases of COVID-19. In the WHO African Region, which carries more than 90% of the global malaria burden, there have been more than 1 million confirmed cases of COVID-19 since the beginning of the pandemic. The latest situation reports on the COVID-19 pandemic are available on the WHO website.
+
+Should core malaria vector control interventions be maintained in view of the rapid global spread of COVID-19?
+==============================================================================================================
+
+As of March 2020, there have been reports of the suspension of insecticide-treated net (ITN) and indoor residual spraying (IRS) campaigns in several African countries due to concerns around exposure to COVID-19. Suspending such campaigns will leave many vulnerable populations at greater risk of malaria, particularly young children and pregnant women.
+
+WHO strongly encourages countries not to suspend the planning for – or implementation of – vector control activities, including ITN and IRS campaigns, while ensuring these services are delivered using best practices to protect health workers and communities from COVID-19 infection. Modifications of planned distribution strategies may be needed to minimize exposure to the coronavirus.
+
+WHO commends the leaders of Benin, Chad, the Central African Republic, the Democratic Republic of the Congo, Mali, Niger, Sierra Leone and Uganda for committing to move forward with ITN campaigns during the pandemic. Other countries are adapting their net distribution strategies to ensure households receive the nets as quickly and safely as possible.
+
+Together with partners, WHO has developed guidance to ensure that those suffering from malaria can safely receive the care they need in COVID-19 settings. Tailoring malaria interventions in the COVID-19 response includes guidance on the prevention of infection through vector control and chemoprevention, testing, treatment of cases, clinical services, supply chain and laboratory activities. The document is consistent with broader WHO guidance on how to maintain essential health services during the pandemic.
+
+Should WHO-recommended preventive therapies be maintained in sub-Saharan Africa?
+================================================================================
+
+Yes, delivery of intermittent preventive treatment in pregnancy (IPTp), seasonal malaria chemoprevention (SMC), and intermittent preventive treatment in infants (IPTi) should be maintained provided that best practices for protecting health workers – and other front-line workers – from COVID-19 are followed. Ensuring access to these and other core malaria prevention tools saves lives and is an important strategy for reducing the strain on health systems in the context of the COVID-19 response.
+
+Tailoring malaria interventions in the COVID-19 response, developed by WHO and partners, includes guidance on how to deliver preventive therapies for pregnant women and young children in ways that protect health workers and communities against potential COVID-19 transmission.
+
+Are there any changes to WHO guidance with respect to malaria diagnosis and treatment?
+======================================================================================
+
+WHO guidance remains the same. Countries should not scale back efforts to detect and treat malaria; doing so would seriously undermine the health and well-being of millions of people infected with a potentially life-threatening disease.
+
+As signs and symptoms of malaria and COVID-19 can overlap (such as a fever), public health messages will need to be adapted in malaria-endemic settings so that people who have a fever are encouraged to seek immediate treatment rather than stay at home; without prompt treatment, a mild case of malaria can rapidly progress to severe illness and death.
+
+What additional special measures may be needed in the context of COVID-19?
+==========================================================================
+
+In addition to routine approaches to malaria control, there may be a case for special measures in the context of the COVID-19 pandemic – such as a temporary return to presumptive malaria treatment, or the use of mass drug administration – which have proved useful in some previous emergencies.
+
+Presumptive malaria treatment refers to treatment of a suspected malaria case without the benefit of diagnostic confirmation (e.g. through a rapid diagnostic test). This approach is typically reserved for extreme circumstances, such as disease in settings where prompt diagnosis is no longer possible.
+
+Mass drug administration (MDA) is a WHO-recommended approach for rapidly reducing malaria mortality and morbidity during epidemics and in complex emergency settings. Through MDA, all individuals in a targeted population are given antimalarial medicines – often at repeated intervals – regardless of whether or not they show symptoms of the disease.
+
+Such special measures should only be adopted after careful consideration of 2 key aims: lowering malaria-related mortality and keeping health workers and communities safe. WHO is exploring concrete proposals for when and how to activate such measures; guidance will be published in due course.
+
+What are the key considerations for countries that are working to eliminate malaria or prevent re-establishment of transmission?
+================================================================================================================================
+
+All of the considerations described above apply to malaria-eliminating countries and those preventing re-establishment of the disease: efforts must be sustained to prevent, detect and treat malaria cases while preventing the spread of COVID-19 and ensuring the safety of those who deliver the services. Countries that are nearing malaria elimination must protect their important gains and avoid malaria resurgences. Countries that have eliminated malaria must remain vigilant for any imported cases of malaria that may be occurring to prevent reintroduction of the disease.
+
+Why is WHO particularly concerned about the spread of COVID-19 in malaria-affected areas?
+=========================================================================================
+
+Experience from previous disease outbreaks has shown the disruptive effect on health service delivery and the consequences for diseases such as malaria. The 2014-2016 Ebola outbreak in Guinea, Liberia and Sierra Leone, for example, undermined malaria control efforts and led to a massive increase in malaria-related illness and death in the 3 countries.
+
+A modelling analysis from WHO and partners, published on 23 April, found that the number of malaria deaths in sub-Saharan Africa could double this year alone if there are severe disruptions in access to insecticide-treated nets and antimalarial medicines due to COVID-19. These projections reinforce the critical importance of sustaining efforts to prevent, detect and treat malaria during the pandemic.
+
+In all regions, protective measures should be utilized to minimize the risk of COVID-19 transmission between patients, communities and health providers. WHO and partners have developed guidance on how to safely maintain malaria prevention and treatment services in COVID-19 settings.
+
+Have there been disruptions in the global supply of key malaria-related commodities as a result of the COVID-19 pandemic?
+=========================================================================================================================
+
+Yes. Since the early days of the pandemic, there have been reports of disruptions in the supply chains of essential malaria commodities – such as long-lasting insecticidal nets, rapid diagnostic tests and antimalarial medicines – resulting from lockdowns and from a suspension of the importation and exportation of goods in response to COVID-19. WHO and partners are working together to ensure the availability of key malaria control tools, particularly in countries with a high burden of the disease, and that efforts to limit the spread of COVID-19 do not compromise access to malaria prevention, diagnosis and treatment services.
+
+What is WHO’s position on the use of chloroquine and hydroxychloroquine in the context of the COVID-19 response?
+================================================================================================================
+
+WHO is actively following the ongoing clinical trials that are being conducted in response to COVID-19, including the more than 80 studies looking at the use of chloroquine and its derivative, hydroxychloroquine, for treatment and/or prevention.
+
+To date, 3 large randomized controlled trials, including the WHO Solidarity trial, have failed to show that the use of hydroxychloroquine among hospitalized patients infected with COVID-19 can prevent death or disease progression. Additionally, 3 trials of patients with mild or moderate disease failed to show a significant benefit in prevention of respiratory failure through the use of hydroxychloroquine. Thus, there is now growing evidence that hydroxychloroquine is not an effective treatment for COVID-19. This evidence will inform the next update of WHO guidance on therapeutics.
+
+Studies on the use of chloroquine or hydroxychloroquine to prevent individuals, particularly those at high risk such as health care workers, from contracting COVID-19 are ongoing. Currently, there is insufficient evidence to assess the protective efficacy of either of these medicines for the prevention of COVID-19 infection or disease.
+
+WHO cautions physicians against administering these unproven treatments to patients with COVID-19 outside the context of a clinical trial. Individuals are also advised against self-medicating with these drugs.
+
+For public health emergencies, WHO has a systematic and transparent process for research and development (R&D), including for clinical trials of drugs. The WHO R&D Blueprint for COVID-19, initiated on 7 January 2020, aims to fast-track the availability of effective tests, vaccines and medicines that can be used to save lives and avert large-scale crises.
+
+What is WHO’s position on the use of Artemisia plant material for the prevention or treatment of malaria and/or COVID-19?
+=========================================================================================================================
+
+The most widely used antimalarial treatments, artemisinin-based combination therapies (ACTs), are produced using the pure artemisinin compound extracted from the plant Artemisia annua. There have been reports that products or extracts (e.g. herbal teas or tablets) made from Artemisia plant material may have a preventive or curative effect on COVID-19.
+
+However, available in vitro data suggests that purified artemisinin compounds or A. annua plant product or extracts do not have an appreciable effect against COVID-19 at concentrations that could be safely achieved in humans. As such, current evidence does not support the use of artemisinins or A. annua products or extracts as an antiviral for COVID-19.
+
+WHO urges extreme caution over reports touting the efficacy of such products. As explained in a WHO position statement, there is no scientific evidence base to support the use of non-pharmaceutical forms of Artemisia for the prevention or treatment of malaria. There is also no evidence to suggest that COVID-19 can be prevented or treated with products made from Artemisia-based plant material.
+
+What is WHO doing to support malaria-affected countries in the context of COVID-19?
+===================================================================================
+
+The WHO Global Malaria Programme is leading a cross-partner effort to mitigate the negative impact of the coronavirus in malaria-affected countries and, where possible, contribute towards a successful COVID-19 response. The work is being carried out in close collaboration with colleagues based at WHO headquarters, regional offices and country level.
+
+In March 2020, before the pandemic had secured a strong footing in Africa, WHO sounded an urgent call for maintaining core malaria prevention and treatment services while protecting health workers and communities against COVID-19 transmission. The findings of a modelling analysis from WHO and partners, published in April, reinforced the WHO call for continuity of malaria services during then pandemic.
+
+In collaboration with partners, WHO developed technical guidance for countries on how to safely maintain malaria prevention and treatment in COVID-19 settings. Tailoring malaria interventions in the COVID-19 response is consistent with broader WHO guidance on how to maintain essential health services during the pandemic.

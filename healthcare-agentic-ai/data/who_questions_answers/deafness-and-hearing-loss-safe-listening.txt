@@ -1,0 +1,274 @@
+WHO QUESTIONS AND ANSWERS
+Title: Deafness and hearing loss: Safe listening
+URL: https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-safe-listening
+Retrieved: 2026-10-05T09:45:09.462548+00:00
+
+========================================
+
+How do loud sounds affect my ears?
+==================================
+
+Sensory cells within our ears help us to hear. Exposure to loud sounds over time causes fatigue of these sensory cells. The result is temporary hearing loss or tinnitus. A person enjoying a loud concert, for example, may afterwards experience muffled hearing or a ringing or buzzing in their ears (known as tinnitus). This often improves as the sensory cells recover. However, with regular exposure to loud or prolonged noise, the sensory cells and other structures can become permanently damaged, resulting in irreversible noise-induced hearing loss, tinnitus, or both. The hearing loss caused by exposure to loud sounds is called noise-induced hearing loss (NIHL).
+
+Noise-induced hearing loss can be immediate (such as when exposed to a sudden burst of loud sound); however, more often the loss is gradual, permanent, and frequently goes unnoticed or ignored until the effects become more obvious. Initially, you may only have trouble hearing some high-pitched sounds like bells or birdsong. As it progresses, NIHL can make it difficult to communicate with others, especially in loud places like restaurants and markets.
+
+How can I protect my hearing from loud sounds? What is safe listening?
+======================================================================
+
+The term safe listening simply refers to specific listening behaviours that do not put your hearing at risk.
+
+The volume of sounds, the duration of listening, and frequency of exposure to loud sounds all have an impact on hearing. The higher the level of sound and longer the duration, the greater the risk of hearing loss. For example, you can safely listen to a sound level of 80dB for up to 40 hours a week. If the sound level is 90dB, the safe listening time reduces to four hours per week. To protect your hearing:
+
+1. Keep the volume down. This can be done by setting your device’s volume level to no more than 60% of maximum. If you are using an app to monitor your sound level, it is best to stay below 80dB average.
+
+2. Use well-fitted, and noise cancelling headphones to reduce the need to raise volume in noisy situations.
+
+3. In noisy places, use ear protectors such as earplugs.
+
+4. Always stay away from sources of sound, such as loudspeakers, noisy machinery etc.
+
+5. Limit time spent engaged in noisy activities. Give your ears a break frequently from loud sounds. This helps the sensory cells inside the ears to recover.
+
+6. Monitor sound levels. This can be done by using apps. Choose devices with built-in safe listening features that allow you to monitor your exposure.
+
+7. Heed the warning signs of hearing loss. Contact a professional if you have persistent ringing in the ear (tinnitus) or have difficulties hearing high-pitched sounds or following conversations.
+
+How is loudness measured? What are some examples of different sound levels?
+===========================================================================
+
+The unit of measurement used to express the intensity of a sound is the decibel (dB). A whisper is around 30dB and normal conversation approximately 60dB. Some other common sounds, their approximate intensities (in dB) are given as examples below.
+
+Sound intensity in decibels | Example of type of sound at the specified intensity |
+
+10dB | Normal breathing |
+
+30dB | Soft whispering |
+
+40dB | Library |
+
+60dB | Normal conversation |
+
+80dB | Doorbell |
+
+85dB | Heavy traffic (inside car) |
+
+90dB | Shouted conversation |
+
+95dB | Motorcycle |
+
+100dB | Hair dryer |
+
+105dB | Car horn at 5 meters |
+
+110dB | Shouting in the ear |
+
+120dB | Standing near a siren |
+
+130dB | Jackhammer |
+
+140dB | Airplane taking off |
+
+150dB | Firecrackers |
+
+How long can I listen to music?
+===============================
+
+The duration of safe listening time decreases rapidly as the sound intensity increases. For example, if one listens at an average volume of 80dB (decibels), one can keep listening safely for up to 40 hours a week. However, if you choose to listen at a volume of 90dB, four hours per week is all you have for listening safely. The safe listening time per one week for different sound intensities are indicated below, along with examples of what sort of sound the decibel level refers to.
+
+You can check and monitor the decibel level in your environment or the decibel level of your music device with use of apps.
+
+Sound intensity in decibels | Time for safe listening per week (7 days) | Example of type of sound at the specified intensity |
+
+10dB | Unlimited | Normal breathing |
+
+30dB | Unlimited | Soft whispering |
+
+40dB | Unlimited | Library |
+
+60dB | Unlimited | Normal conversation |
+
+80dB | 40 hours | Doorbell |
+
+85dB | 12h 30 mins | Heavy traffic (inside car) |
+
+90dB | 4 hours | Shouted conversation |
+
+95dB | 1h 15 mins | Motorcycle |
+
+100dB | 20 mins | Hair dryer |
+
+105dB | 8 mins | Car horn at 5 meters |
+
+110dB | 2.5 mins | Shouting in the ear |
+
+120dB | 12 sec | Standing near a siren |
+
+130dB | <1 sec | Jackhammer |
+
+140dB | 0 sec | Airplane taking off |
+
+150dB | 0 sec | Firecrackers |
+
+How can I check and monitor sound levels?
+=========================================
+
+Most of us don’t know how high the volume is in decibels (dB) either around us or in our headphones. Many apps are available, and some smartphones have built-in features, that can be used to monitor the sound level in your environment or in your headphones, e.g., the NIOSH-SLM app. You can download this or other similar apps to monitor your sound level exposure.
+
+You should use these apps to practice safe listening.
+
+How do I know if a place is too loud and can hurt my ears?
+==========================================================
+
+You can use free apps to check the sound levels around you. Sound levels below 80dB are unlikely to cause hearing damage. As the intensity of sound increases, the possibility of damaging your ears also increases. Free apps such as the NIOSH-SLM App can be used to check external sound level.
+
+If you don’t have an app, check if you have to raise your voice to be heard by someone standing at an arm’s length from you. If yes, the sound volume is too high.
+
+Can one time exposure to loud sounds cause hearing loss for me?
+===============================================================
+
+Yes, even a one-time exposure to extremely loud sound can damage your inner ear cells and cause hearing loss.
+
+How can I use the apps to monitor my listening levels on the mobile phone?
+==========================================================================
+
+The health apps on your smartphone as well as other available apps allow you to track your in-ear sound exposure while listening to music. If you increase the volume above a certain threshold, such apps prompt a message to help you adhere to safe listening levels. These apps can be used every time you listen to music with your headphones. Examples of such apps include dBTrack and HearAngel.
+
+How can I tell if my hearing has been damaged?
+==============================================
+
+You could have hearing loss if you have:
+
+- Persistent ringing in the ears (tinnitus).
+
+- Difficulty in hearing high-pitched sounds (birds singing, doorbells, telephones, alarm clocks).
+
+- Difficulty understanding speech, especially over the telephone.
+
+- Difficulty following conversations in noisy environments, such as in restaurants, markets, or at social gatherings.
+
+If you think that you have any of these problems, you should get your hearing checked. WHO has developed the hearWHO app so you can check your hearing anytime you wish.
+
+What is tinnitus?
+=================
+
+Tinnitus is a ringing, buzzing, or other sound which does not come from an external source. Many people experience tinnitus after listening to loud music which disappears after a while. This is caused by sensory cell fatigue and is often transient. Sometimes, tinnitus can be persistent, especially after repeated exposure to loud music or other sounds.
+
+Persistent tinnitus can indicate that your hearing has been damaged. However, there are many other health conditions that could lead to or be associated with tinnitus. In case of persistent tinnitus it is important to seek medical advice.
+
+What should I do if I suspect I have hearing loss?
+==================================================
+
+If you have any warning signs of hearing loss, you should get your hearing checked. WHO has developed the hearWHO app so you can check your hearing anytime you wish. You can also have your hearing tested by consulting a hearing health professional.
+
+It is important to take preventive actions and limit exposure to loud sounds. This can limit risk of progression of hearing loss.
+
+I work virtually and often spend a lot of time listening over my headphones. Can this damage my hearing?
+========================================================================================================
+
+Listening at loud volumes for extended periods of time may increase the risk of hearing damage. To reduce your risk, you can
+
+- Keep the volume at a level below 60% of the maximum.
+
+- Use an app that monitors your sound levels and hearing loss risk.
+
+- Use noise-cancelling and well-fitted earphones/headphones.
+
+- Take breaks between calls, preferably in a quiet environment to allow your ears to rest.
+
+- Limit exposure to noise during your off-hours.
+
+You should check your hearing every year to self-monitor your hearing levels.
+
+I work in a noisy place. How can I protect my hearing?
+======================================================
+
+Noisy working environments can be a risk to hearing. To protect your hearing:
+
+- Wear hearing protectors such as earplugs or earmuffs.
+
+- If possible, move your workstation away from noise sources.
+
+- Take your breaks (lunch, coffee etc.) in places where the noise level is low.
+
+- Avoid noisy pastimes that can add to your risk of hearing loss.
+
+- Discuss with your employer about how the risk of hearing loss can be reduced.
+
+Get your hearing checked every year.
+
+I enjoy listening to music over my headphones. How can I avoid hearing loss?
+============================================================================
+
+To keep enjoying your music safely:
+
+- Keep the volume below 60% of maximum on your device.
+
+- Use well-fitted and noise-cancelling headphones. This can reduce the need to raise volume, especially when you are in noisy settings such as travelling on a public transport, or in a cafeteria.
+
+- Download and use apps that can limit volume and monitor your risk. Find such apps on the App store and Google Play store.
+
+- Prefer devices (such as smartphones and headphones) that come with pre-fitted safe listening features, like sound exposure monitoring and volume limiting.
+
+- Reduce the amount of time you spend listening to loud sounds.
+
+I often go to clubs/discos/loud games/concerts. How can I protect my ears?
+==========================================================================
+
+When you are in a noisy environment, make sure you:
+
+- stay away from loudspeakers/amplifiers – the intensity of sound reduces as you move away from sound sources;
+
+- wear earplugs regularly and properly as these can significantly reduce the intensity of sound reaching your ears; and
+
+- rest your ears in a quiet space for 10 minutes after every hour.
+
+I like to play video games. How can I protect my ears?
+======================================================
+
+To protect your hearing when playing video games.
+
+- Keep the volume below 60% of maximum on your devices.
+
+- Prefer built-in or external speakers to ear/headphones, where possible. If using ear/headphones, choose well-fitted and noise-cancelling ones.
+
+- Use the health app on your smartphone or download and use apps that can limit volume and monitor your risk.
+
+- Prefer devices (such as smartphones and headphones) that come with pre-fitted safe listening apps.
+
+- Avoid playing loud games continuously for long periods. Take a break for ten minutes every hour or play a silent game briefly.
+
+- For technical information check the WHO Global standard for safe listening video gameplay and esports.
+
+You should also check your hearing every year to self-monitor.
+
+My child has online classes all day. Is this dangerous for their hearing?
+=========================================================================
+
+During and after the COVID-19 pandemic many children have transitioned to online learning, using a computer or other device from their home for many hours a day. While this isn’t necessarily dangerous for your child’s hearing, following safe listening practices can reduce the risk of your child developing hearing loss.
+
+You can:
+
+- encourage the use of built-in or external speakers for listening; avoid headphones where possible;
+
+- where headphones are used, prefer those with safe listening features like parental loudness control. Prefer noise-cancelling and well-fitted headphones;
+
+- teach your child to keep the volume below 60% of maximum on the device;
+
+- when they don’t have classes, encourage them to take breaks away from the computer or device, in a quiet space to allow their ears to rest; and
+
+- limit exposure to noisy places before and after classes.
+
+What is the correct way of using earplugs and other hearing protectors?
+=======================================================================
+
+The most common earplugs are made from foam, or a similar material, and can be purchased cheaply from a pharmacy, drug store, supermarket, or similar. To correctly insert these earplugs:
+
+- Roll the earplug between your thumb and forefinger to compress it.
+
+- Using your other hand, pull your ear up and back. This will increase the opening of the ear canal.
+
+- Insert the earplug into the ear canal, to a comfortable depth, and hold it in place with your finger until it expands and is in place securely.
+
+Correctly inserted earplugs can reduce the level of sound exposure considerably, decreasing your risk of hearing damage.
+
+Other hearing protectors are available including ear muffs which cover the entire outer ear, and custom-made hearing protectors.
