@@ -1,0 +1,127 @@
+WHO FACT SHEET
+Title: Osteoarthritis
+URL: https://www.who.int/news-room/fact-sheets/detail/osteoarthritis
+Retrieved: 2026-10-05T09:33:58.805973+00:00
+
+========================================
+
+Key facts
+=========
+
+- In 2019, about 528 million people worldwide were living with osteoarthritis; an increase of 113% since 1990 (1).
+
+- About 73% of people living with osteoarthritis are older than 55 years, and 60% are female (1).
+
+- With a prevalence of 365 million, the knee is the most frequently affected joint, followed by the hip and the hand (2).
+
+- 344 million people living with osteoarthritis experience severity levels (moderate or severe) that could benefit from rehabilitation (3).
+
+- With ageing populations and increasing rates of obesity and injury, the prevalence of osteoarthritis is expected to continue to increase globally.
+
+- Osteoarthritis is not an evitable consequence of ageing.
+
+Overview
+========
+
+Osteoarthritis is a degenerative joint condition. It causes pain, swelling and stiffness, affecting a person’s ability to move freely.
+
+Osteoarthritis affects the entire joint, including the tissues around it. It is most common in the knees, hips, spine and hands.
+
+Many factors can contribute to developing osteoarthritis. Some include a history of joint injury or overuse, older age and being overweight. It affects women more than men.
+
+Exercise and healthy eating to build strong muscles and keep a healthy weight can reduce symptoms. Surgery to replace joints is used in severe cases to reduce pain and regain mobility.
+
+Once pain and loss of movement function become chronic, people with osteoarthritis often experience restrictions in participating in meaningful activities, decreased well-being, and psychological distress.
+
+Scope of the problem
+====================
+
+Osteoarthritis is one of the significant contributors to years lived with disability among the musculoskeletal conditions. As osteoarthritis is more prevalent in older people (about 70% are older than 55), global prevalence is expected to increase with the ageing of populations. The typical onset is in the late 40s to mid-50s, although osteoarthritis may also affect younger people, including athletes and people who sustain joint injury or trauma. About 60% of people living with osteoarthritis are women.
+
+Signs and symptoms
+==================
+
+Symptoms of osteoarthritis include pain, swelling, stiffness and trouble moving the affected joint.
+
+As a consequence of reduced movement, muscles often lose strength and people become less able to perform physical activities.
+
+Osteoarthritis can affect any joint but is most common in the knees, hips, spine and small joints in the hands. Muscles and tissue around the joint are often affected.
+
+Symptoms can develop slowly or start quickly after an injury or strain. Osteoarthritis is chronic and often progressive, so changes happen gradually over time.
+
+In severe cases, it can make the joint unusable and cause long-term pain. Some people feel pain even when resting.
+
+Being less physically active can lead to other conditions, including cardiovascular diseases, obesity and diabetes.
+
+Osteoarthritis can greatly reduce the quality of life. It makes movement painful and difficult, which can stop people from participating in home, work or social activities. This can lead to mental health impacts, trouble sleeping and problems in relationships.
+
+Cause and risk factors
+======================
+
+Several risk factors are known to increase the risk of developing osteoarthritis:
+
+- injury to the joint, e.g. fractures, strains, repeated stress in sport or at work;
+
+- pre-existing joint diseases, such as rheumatoid arthritis or gout;
+
+- specific metabolic diseases, such as diabetes;
+
+- obesity – specifically for hip and knee osteoarthritis – as characterized by metabolic abnormalities, systemic inflammation, and contributing to excessive load on the joints;
+
+- genetics;
+
+- sociodemographic factors (age, female sex).
+
+Prevention and control
+======================
+
+Several key prevention strategies have been proposed to prevent osteoarthritis and control the disease progression. In particular, reducing overuse of joints (e.g. related to workload), and promoting healthy lifestyles (e.g. regular physical activity, maintaining a normal body weight) play an important role.
+
+Treatment and management
+========================
+
+Management of osteoarthritis often involves different health workers, who contribute to a rehabilitative strategy tailored to a person’s needs and preferences.
+
+Being diagnosed early and following a treatment plan is the best way to slow the disease and optimize function.
+
+Exercise can strengthen the affected muscles and help mobility. Other therapeutic approaches can help the joint to move properly and allow people to continue their daily activities.
+
+Braces and other assistive technologies can help people to stay independent when movement becomes more difficult.
+
+Medicines like non-steroidal anti-inflammatory drugs (NSAIDs) may be prescribed to control pain.
+
+Joint replacement surgery can reduce pain, restore movement and improve quality of life for most people with severely affected joints. These surgeries are most commonly performed at the hip and knee.
+
+It is important to stay at a healthy weight. Education and counselling are important to help people manage their symptoms and work-related tasks.
+
+Most guidelines suggest that opioid analgesics, glucosamine and visco-supplementation therapies are not effective for osteoarthritis and there is insufficient evidence to suggest stem cell therapy is beneficial.
+
+Self-care
+=========
+
+Self-care is an important part of managing osteoarthritis. Education and support can help people learn to cope with the physical and mental effects of osteoarthritis. People with osteoarthritis should speak to a health worker to build a tailored care plan.
+
+Staying active and maintaining a healthy weight can help reduce symptoms and the risk of their progression.
+
+WHO response
+============
+
+WHO is taking action to extend access to care for people with osteoarthritis in different ways:
+
+WHO Rehabilitation 2030 Initiative:
+
+The Package of Interventions for Rehabilitation provides information on essential interventions for rehabilitation (including assistive products), and human and material resources for 20 health conditions, including osteoarthritis.
+
+UN Decade of Healthy Ageing:
+
+WHO recommends a reorientation of health and care systems to promote healthy ageing and address the diverse needs of older persons.
+
+The Integrated Care for Older People (ICOPE) approach promotes the person-centred assessment of the older person to guide the design of personalized, health and social care, including long-term care interventions. Specific recommendations are provided to prevent the loss of locomotor and psychological capacity because of pain.
+
+References
+
+1. GBD 2019: Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019. https://vizhub.healthdata.org/gbd-results/.
+
+2. Long H, Liu Q, Yin H, Diao N, Zhang Y, Lin J et al. Prevalence trends of site-specific osteoarthritis from 1990 to 2019: Findings from the global burden of disease study 2019. Arthritis Rheumatol 2022; 74(7): 1172-1183.
+
+3. Cieza A, Causey K, Kamenow K, Wulf Hansen S, Chatterji S, Vos T. Global estimates of the need for rehabilitation based on the Global Burden of Disease study 2019: a systematic analysis for the Global Burden of Disease Study 2019. Lancet. 2020 Dec 19; 396(10267): 2006–2017.

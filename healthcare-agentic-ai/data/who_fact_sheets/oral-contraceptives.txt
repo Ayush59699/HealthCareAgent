@@ -1,0 +1,64 @@
+WHO FACT SHEET
+Title: Oral contraceptives
+URL: https://www.who.int/news-room/fact-sheets/detail/oral-contraceptives
+Retrieved: 2026-10-05T09:33:54.893904+00:00
+
+========================================
+
+Key facts
+
+- Combined oral contraceptives (COCs), often called “the pill,” contain low doses of two hormones: estrogen and progestin.
+
+- Progestin-only pills (POPs), also called the “mini-pill,” contain just one hormone – a progestin – and no estrogen.
+
+- Fertility returns quickly after stopping either the pill or the mini-pill; there is no delay.
+
+- Neither the pill nor the mini-pill protect against sexually transmitted infections (STIs), including HIV; condom use is recommended if there is risk.
+
+- Most women can safely use oral contraceptives, including adolescents, women over 40, women living with HIV, and women regardless of whether they have had children. Eligibility may vary depending on individual health conditions, so it is important for each woman to be assessed by a health-care provider to ensure the method is safe and appropriate for her.
+
+- Oral contraceptives are not only one of the most effective ways to prevent unintended and high-risk pregnancies, but also a major public health achievement recognized for improving women’s health, reducing maternal deaths, and supporting education and economic opportunities.
+
+Overview
+
+Oral contraceptives are pills taken daily to prevent pregnancy. There are two main types: combined oral contraceptives (COCs), which contain both estrogen and progestin, and progestin-only pills (POPs), also known as the “mini-pill.”
+
+Both methods are controlled by the woman and are easy to start and stop without medical procedures. The pill must be taken every day and on time to be effective. The mini-pill also requires strict daily use at the same time each day because delays of more than a few hours can reduce effectiveness. The pill mainly works by preventing the release of eggs from the ovaries (ovulation). The mini-pill works mainly by thickening cervical mucus to block sperm, but it also disrupts ovulation.
+
+Effectiveness
+=============
+
+With typical use, only 4 to 7 pregnancies occur in 100 women(1) using the pill per year; with correct use, only 1 pregnancy occurs per 100 users. The mini-pill is as effective as the pill when taken correctly, although missing pills or taking them late increases the chance of pregnancy.
+
+Health benefits and risks
+=========================
+
+The pill offers several non-contraceptive benefits. It can help reduce cancer of the uterus and ovary, anaemia, menstrual cramps, menstrual bleeding problems, ovulation pain, and symptoms of polycystic ovarian syndrome and endometriosis. The pill should be started 6 weeks after birth if partially breastfeeding, or after 6 months if fully breastfeeding.
+
+The mini-pill can be safely used during breastfeeding and does not affect milk supply. It also reduces the risk of ectopic pregnancy and can be started immediately after childbirth.
+
+Oral contraceptive pills show a complex association with cancer risk. They help protect against ovarian and endometrial cancers, reducing the chance of these cancers the longer they are used. At the same time, women who use oral contraceptive pills have a higher risk of cervical cancer compared to those who do not(2). For breast cancer, most women face no increased risk, but women with inherited BRCA1 or BRCA2 gene mutations may have a higher risk, especially with long-term use.
+
+Overall, oral contraceptive pills protect against some cancers but raise the risk of others, underscoring the importance of personalized contraceptive counselling that takes into account family and medical history.
+
+Other risks with oral contraceptive pills are very rare but may include blood clots, stroke, and heart attack. The mini-pill does not carry these estrogen-related risks, making them suitable for women who cannot use methods containing estrogen.
+
+Side effects
+============
+
+Some women using the pill experience changes in bleeding (lighter, irregular, or absent), headaches, dizziness, nausea, mood changes or breast tenderness. Acne can improve or worsen but usually improves. Mini-pill users may experience irregular bleeding, prolonged bleeding, or no monthly bleeding. These side effects are not harmful and often improve over time.
+
+Oral contraceptives do not cause infertility, do not change women’s sexual behavior, and do not cause birth defects. There is no need for a “rest” from taking the pill. Oral contraceptive pills can be used safely for many years, including by adolescents, when taken under the guidance and advice of a physician.
+
+WHO response
+============
+
+WHO developed the global guidance app on the use of contraceptives, based on its Medical eligibility criteria for contraceptive use. This app guides family planning providers in recommending safe and effective contraception methods for women with medical conditions or medically- relevant characteristics. Further, WHO developed a family planning handbook, which offers technical information to help health-care providers deliver family planning methods appropriately and effectively.
+
+These resources help ensure safe use, informed choice, and broad access without unnecessary barriers. WHO also supports integration of contraceptive services into broader sexual and reproductive health care, ensuring that all people can access the method that best suits their needs.
+
+References
+
+1. Teal S, Edelman A. Contraception Selection, Effectiveness, and Adverse Effects: A Review. JAMA. 2021;326(24):2507–2518. doi:10.1001/jama.2021.21392
+
+2. Jahanfar S, Mortazavi J, Lapidow A, Cu C, Al Abosy J, Morris K, Becerra-Mateus JC, Steinfeldt M, Maurer O, Bohang J, Andrenacci P, Badawy M and Ali M (2024) Assessing the impact of contraceptive use on reproductive cancer risk among women of reproductive age—a systematic review. Front. Glob. Womens Health 5:1487820. doi: 10.3389/fgwh.2024.1487820

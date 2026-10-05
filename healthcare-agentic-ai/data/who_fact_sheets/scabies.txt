@@ -1,0 +1,142 @@
+WHO FACT SHEET
+Title: Scabies
+URL: https://www.who.int/news-room/fact-sheets/detail/scabies
+Retrieved: 2026-10-05T09:34:40.333633+00:00
+
+========================================
+
+Key facts
+=========
+
+- Human scabies is a parasitic infestation caused by Sarcoptes scabiei var hominis
+
+- At least 200 million people worldwide suffer from scabies at any one time
+
+- An estimated 5–50% of children in resource-poor areas are affected by scabies.
+
+- Scabies occurs worldwide but is most common in hot, tropical countries and in areas of high population density.
+
+Overview
+========
+
+Scabies is a parasitic infestation caused by tiny mites that burrow into the skin and lay eggs, causing intense itching and a rash.
+
+Scabies can lead to skin sores and serious complications like septicaemia (a bloodstream infection), heart disease and kidney problems. It is treated using creams or oral medications.
+
+Scabies is contagious and spreads through skin-to-skin contact. It occurs worldwide but is most common in low-income tropical areas. Children and older people in resource-poor areas are at higher risk.
+
+Scope of the problem
+====================
+
+Scabies is one of the commonest dermatological conditions, accounting for a substantial proportion of skin disease in developing countries. Globally, it is estimated to affect more than 200 million people at any time and more than 400 million people cumulatively every year.
+
+Scabies is found in every country but is particularly common in many resource-poor tropical settings, particularly in children and older people. Prevalence among children in these settings may vary from 5% up to 50%. Recurrent infestations are common. The sheer burden of scabies infestation and its complications imposes a major cost on health care systems. Cases are sporadic in high-income countries, yet outbreaks in health institutions and vulnerable communities contribute to significant economic cost in national health services.
+
+Several studies have shown that outbreaks of scabies are a major risk factor for kidney disease in the form of acute post-streptococcal glomerulonephritis. A growing body of evidence also implicates impetigo caused by Streptococcus pyogenes in the pathogenesis of rheumatic fever and rheumatic heart disease.
+
+Symptoms
+========
+
+Symptoms of scabies usually begin 4–6 weeks after infestation. Sometimes there are visible signs before symptoms begin.
+
+Symptoms of scabies include:
+
+- severe itch, often worse at night;
+
+- itchy lines (linear burrows) and bumps (papules) on the fingers, wrists, arms, legs and belt area;
+
+- enflamed bumps on male genitalia and female breasts; and
+
+- larger rash in infants and small children, including on the palms, soles of the feet, ankles and scalp.
+
+Most individuals are infected with 10–15 mites.
+
+People with suppressed immune systems, including people living with HIV, may develop crusted (Norwegian) scabies. This severe infection can have thousands or millions or mites and causes dry, scaley areas on the skin. It often does not cause itch. Crusted scabies spreads very easily and can cause secondary infections. It is life threatening.
+
+Scabies mites burrow into the top layer of skin, where the adult female lays eggs. The eggs hatch in 3–4 days and develop into adult mites in 1–2 weeks. After 4–6 weeks the patient develops an allergic reaction to the presence of mite proteins and faeces in the scabies burrow, causing intense itch and rash.
+
+Mite effects on immunity, as well as the direct effects of scratching, can lead to inoculation of the skin with bacteria, leading to the development of impetigo (skin sores), especially in the tropics. Impetigo may become complicated by deeper skin infection such as abscesses or serious invasive disease, including septicaemia. In tropical settings, scabies-associated skin infection is a common risk factor for kidney disease and possibly rheumatic heart disease. Evidence of acute renal damage can be found in up to 10% of children with scabies infestation in resource-poor settings and, in many, this persists for years following infection contributing to permanent kidney damage.
+
+Prevention
+==========
+
+Treating scabies as soon as possible is the best way to prevent outbreaks. The mites that cause scabies usually die after 2–3 days away from human skin.
+
+Prevent scabies from spreading with these steps:
+
+- avoid skin-to-skin contact with an infested person, especially if they have an itchy rash;
+
+- treat all members of the household if someone has scabies to prevent the mites from spreading to others;
+
+- wash and dry bedding and clothing that has been in contact with the infested person, using hot water and drying in direct sunlight, a hot dryer cycle or dry cleaning;
+
+- seal items that can’t be washed in a plastic bag for a week to help eliminate the mites; and
+
+- clean and vacuum or sweep rooms after an infested person has been treated, especially for people with crusted scabies.
+
+Transmission
+============
+
+Scabies is transmitted person-to-person through close skin contact (e.g. living in the same residence) with an infested individual. The risk of transmission increases with the level of infestation, with highest risk due to contact with individuals with crusted scabies. Transmission due to contact with infested personal items (e.g., clothes and bed linens) is unlikely with common scabies but may be important for individuals with crusted scabies. As there is an asymptomatic period of infestation, transmission may occur before the initially infested person develops symptoms.
+
+Diagnosis
+=========
+
+Diagnosis of scabies is based on clinical recognition of the typical features of infestation. The diagnosis of scabies can be supported by visual imaging techniques such as dermatoscopy or microscopy of skin scrapings from burrows, but this is generally not necessary, especially in highly endemic areas. Patients typically present with severe itch, linear burrows and papules around the finger webs, wrists, upper and lower limbs, and belt area. Infants and small children may have a more widespread rash, including involvement of the palms, soles of the feet, ankles, and sometimes the scalp. Inflammatory scabies nodules may be seen, particularly on the penis and scrotum of adult males and around the breasts of females. Because of the delay between initial infection and development of symptoms, scabies lesions may be seen in close contacts that have not yet developed itch.
+
+Treatment
+=========
+
+Scabies can be treated with topical creams or oral medication in more severe cases. Itchiness often gets worse for 1–2 weeks after treatment starts.
+
+Topical treatments that are applied to the whole body include:
+
+- 5% permethrin cream
+
+- 0.5% malathion in aqueous base
+
+- 10–25% benzyl benzoate emulsion
+
+- 5–10% sulphur ointment.
+
+Ivermectin taken orally is also highly effective, but it should not be taken by pregnant women or children who weigh less than 15 kg.
+
+Treatments do not kill the parasite’s eggs, and treatment should be repeated to kill newly hatched mites. People do not experience symptoms in the early stages of infestation. To reduce spread, all people in the household should be treated, even if they do not have symptoms.
+
+Other treatments may be needed to treat the complications of scabies. Antiseptics or antibiotics are used to treat bacterial skin infections or impetigo.
+
+Patients with crusted scabies are highly infectious and a source of reinfection to the rest of the community. Patients with crusted scabies need intense treatment with both topical and oral medications.
+
+Disease control
+===============
+
+Population control of scabies and its complications has been identified by a number of countries as a public health priority, and several studies have shown that mass drug administration (MDA) strategies have the potential to substantially reduce prevalence of scabies, with concomitant reductions in impetigo. In 2019 WHO convened an informal consultation of global experts to review available data and develop recommendations on strategies for global and country level control. The experts agreed that there is convincing evidence that MDA can be highly effective in places where the prevalence is 10% or greater, but the evidence for its effectiveness in places with lower prevalence is less clear. The current recommendation is that two doses of ivermectin (dose 200µg/kg) should be administered and a topical agent such as permethrin 5% cream should be given when ivermectin is contraindicated or not available. There is ongoing research to determine if one dose of treatment is sufficient for MDA, however currently the evidence is inconclusive. Further research is required to define the strategies to be used when the prevalence is low, either at baseline or when achieved by MDA.
+
+Outbreaks of scabies can occur in either closed, institutional settings (such as hospitals, boarding schools or long-term care facilities) or open community settings. Refugee or internally displaced person camps are at particularly high risk due to overcrowding which increases skin to skin contact. Outbreaks can be extended and difficult to control. The general principles include surveillance in high-risk settings, early confirmation of an outbreak, and involvement of public health experts.
+
+The WHO informal consultation on a Framework for Scabies Control Meeting Report outlines the key operational research that is still required to develop guidelines for control and surveillance strategy for all contexts.
+
+Large scale scabies MDAs are ongoing in PNG, Vanuatu, Fiji and Solomon Islands.
+
+WHO response
+============
+
+In 2017, scabies and other ectoparasites were included as Neglected Tropical Diseases (NTDs) by the WHO, in response to requests from Member States and the recommendations of the WHO Strategic and Technical Advisory Group for NTDs.
+
+WHO 2030 global targets for scabies include:
+
+- countries to incorporate scabies management in the universal health coverage package of care; and
+
+- countries to conduct MDA intervention in endemic areas (areas where prevalence is 10% or greater).
+
+WHO works with Member States and partners to develop control strategies and scabies outbreak response plans. WHO recommends that control strategies for scabies should be part of an integrated skin NTDs approach adapted to the diseases present in a particular country in order to facilitate rapid, cost-effective uptake of the strategy. Ivermectin is now included on the WHO essential medicines list for scabies and a number of suppliers have been WHO prequalified.
+
+References:
+
+1. WHO informal consultation on a framework for scabies control, meeting report, WHO Regional Office for the Western Pacific, Manila, Philippines, 19–21 February 2019. https://www.who.int/publications/i/item/9789240008069
+
+2. The global burden of scabies: a cross-sectional analysis from the Global Burden of Disease Study 2015. Karimkhani C, Colombara DV, Drucker AM, Norton SA, Hay R, Engelman D, et al. The global burden of scabies: a cross-sectional analysis from the Global Burden of Disease Study 2015.Lancet Infect Dis. 2017;17:1247–54. https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(17)30483-8/fulltext
+
+3. Tsoi SK, Lake SJ, Thean LJ, Matthews A, Sokana O, Kama M, Amaral S, Romani L, Whitfeld M, Francis JR, Vaz Nery S, Marks M, Kaldor JM, Steer AC, Engelman D. Estimation of scabies prevalence using simplified criteria and mapping procedures in three Pacific and southeast Asian countries. BMC Public Health. 2021 Nov 10;21(1):2060. https://pubmed.ncbi.nlm.nih.gov/34758806/
+
+4. Romani L, Whitfeld MJ, Koroivueta J, Kama M, Wand H, Tikoduadua L, et al. Mass Drug Administration for Scabies Control in a Population with Endemic Disease. The New England journal of medicine. 2015;373(24):2305-13. https://www.nejm.org/doi/full/10.1056/nejmoa1500987

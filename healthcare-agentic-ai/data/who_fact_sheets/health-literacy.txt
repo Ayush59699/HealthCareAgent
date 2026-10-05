@@ -1,0 +1,93 @@
+WHO FACT SHEET
+Title: Health literacy
+URL: https://www.who.int/news-room/fact-sheets/detail/health-literacy
+Retrieved: 2026-10-05T09:32:23.122949+00:00
+
+========================================
+
+Key facts
+=========
+
+- Health literacy represents the personal knowledge and competencies that accumulate through daily activities, social interactions and across generations.
+
+- Health literacy is mediated by the organizational structures and availability of resources that enable people to access, understand, appraise and use information and services in ways that promote and maintain good health and well-being for themselves and those around them – often described as organizational health literacy.
+
+- In the United States of America, for example, health literacy is a stronger predictor of an individual’s health status than income, employment status, education level and racial or ethnic group (1).
+
+- Even in economically advanced countries in Europe, many children, adolescents and adults have limited health literacy skills (2).
+
+- According to surveys in the WHO European Region, population health literacy follows a social gradient and can further reinforce existing inequalities (2).
+
+- Health literacy is a determinant of health.
+
+Overview
+========
+
+Health literacy means being able to access, understand, appraise and use information and services in ways that promote and maintain good health and well-being.
+
+Health literacy means more than being able to access web sites, read pamphlets and follow prescribed health-seeking behaviours. It includes the ability to think critically about, as well as the ability to interact and express personal and societal needs for promoting health.
+
+WHO defines health literacy as “representing the personal knowledge and competencies that accumulate through daily activities, social interactions and across generations. Personal knowledge and competencies are mediated by the organizational structures and availability of resources that enable people to access, understand, appraise, and use information and services in ways that promote and maintain good health and well-being for themselves and those around them.”
+
+Why is it important to improve health literacy?
+===============================================
+
+Health literacy requires inclusive and equitable access to quality education and life-long learning. Health literacy is shaped by a wide range of societal factors and is, therefore, not the sole responsibility of individuals to develop and maintain. All information providers, including government, civil society and health services should enable access to trustworthy information in a form that is understandable and actionable for all people. These social resources for health literacy include regulation of the information environment and media (oral, print, broadcast and digital) in which people obtain access to and use health information.
+
+By improving people’s access to understandable and trustworthy health information and their capacity to use it effectively, health literacy is critical to both empowering people to make decisions about personal health, and in enabling their engagement in collective health promotion action to address the determinants of health.
+
+Social benefits to high health literacy rates
+=============================================
+
+Improving health literacy in populations provides the foundation on which citizens are enabled to:
+
+- play an active role in improving their own health
+
+- engage successfully with community action for health
+
+- hold governments accountable for addressing health and health equity.
+
+Meeting the health literacy needs of the most disadvantaged and marginalized societies can accelerate progress in reducing inequities in health and beyond. Efforts to raise health literacy will be crucial in achieving 2030 Agenda for Sustainable Development. It is critical to transforming health systems to provide quality, people-centred, and equitable care.
+
+Health literacy and existing inequalities
+=========================================
+
+Health literacy is associated with age, gender, educational attainment, income and occupation, poverty, racial/ethnic minority status, literacy and language skills, health insurance coverage, and self-reported health. Differences exist within and across population groups and settings. These differences, fuelled by disparities, can impact whether people can easily develop and use health literacy, and whether they have access to quality and trustworthy information and services. It is important to consider these disparities when developing health policies and allocating resources. Even people who read well and are comfortable using numbers can face health literacy issues when:
+
+- they aren’t familiar with medical terms or how their bodies work;
+
+- they must interpret statistics and evaluate risks and benefits that affect their health and safety;
+
+- they are diagnosed with a serious illness and are scared and confused;
+
+- they are under stress and have to make important health decisions;
+
+- they have health conditions that require complicated self-care; or
+
+- they are voting on an issue affecting the community’s health and relying on unfamiliar technical information, which can further exacerbate gender and health equity issues.
+
+This makes health literacy an important determinant of health and health behaviour. At the same time, new determinants of health have emerged and threaten to widen the inequity gap. Among these are, for example, the digital determinants of health and the commercial determinants of health.
+
+Improving health literacy
+=========================
+
+Strategies and interventions are recommended that increase both organizational and personal health literacy.
+
+- Organizational health literacy can be promoted by improving training and organizational processes including strengthening communication, informed decision-making, and access to culturally and linguistically appropriate health information and services.
+
+- Professional health literacy is an essential part of an organization’s responsiveness towards patients' health literacy and communication needs. It can be addressed through regular training of healthcare and education professionals.
+
+- Personal health literacy may be strengthened by accurate, timely and appropriate health and science information as well as by the implementation of a health promoting educational curricula from an early age at home, in kindergartens, at schools through university level and as part of adult education.
+
+- Assessing health literacy in populations and communities can guide policy development and intervention design to strengthen health literacy development in timely and relevant ways depending on needs.
+
+WHO response
+============
+
+WHO promotes and improves health literacy by providing technical support and guidance to Members States to ensure effective management and promotion of health literacy at personal, organizational and systemic levels. To achieve this, WHO supports Members States to improve their reporting systems to accurately assess the extent of limited health literacy, including adapting global measurement instruments, and provides training for capacity building to promote health literacy. Reporting systems enable the creation of population data, and this evidence can be used to inform decisions at all levels, including for individuals, populations, capacity building of professionals, and systems. It also allows the collection of evidence on changes and enables responses to changing needs and circumstances. These efforts ensure that health literacy initiatives are robust, comprehensive, and tailored to meet the needs of populations worldwide. As a result, individuals and communities can make more informed decisions, organizations can better support individual and community health needs, and health care systems are strengthened, ultimately fostering better health outcomes and equity.
+
+References
+
+1. Weiss Health literacy and patient safety: help patients understand. Manual for clinicians: Health literacy and patient safety: Help patients understand (hhvna.com)
+
+2. Health literacy in Europe: comparative results of the European health literacy survey (HLS-EU) - PMC (nih.gov)

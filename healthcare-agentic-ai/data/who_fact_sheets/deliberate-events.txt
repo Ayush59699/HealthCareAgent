@@ -1,0 +1,56 @@
+WHO FACT SHEET
+Title: Deliberate events
+URL: https://www.who.int/news-room/fact-sheets/detail/deliberate-events
+Retrieved: 2026-10-05T09:31:34.908998+00:00
+
+========================================
+
+Key facts
+=========
+
+- Deliberate events (DEs) are malicious acts with the intention to cause harm. The scope includes traditional chemical, biological and radio-nuclear agents and emerging threats such as cyber-attacks and dis-information campaigns.
+
+- DEs may be announced or occur covertly with uncertainty or ambiguity as to the cause or whether the cause was deliberate.
+
+- The scale of consequence of DEs could vary widely – from DEs aimed at individuals or small groups of people with minor or major impacts to DEs that cause mass casualties and cascading consequences of potentially public health emergencies of international concern.
+
+- Addressing DEs involves both health and security dimensions. When a DE is suspected, response efforts will have to balance medical, public health, epidemiological and humanitarian response efforts with criminal and forensic investigations involving national and/or international authorities across multiple agencies, requiring coordination across a range of actors, resources and capacities.
+
+- The Biological Weapons Convention (BWC) prohibits the development, production, acquisition, transfer, stockpiling and use of biological and toxin weapons.
+
+Overview
+========
+
+Deliberate events (DEs) are malicious acts with the intention to cause harm to the target. Traditionally, DEs involve the release or use of hazardous substances such as chemicals, biological agents, toxins or radio-nuclear materials (CBRN), while emerging threats include disinformation, misuse of digital, cyber means (for example, cyber-attacks disrupting critical health infrastructures) and other new technologies. DEs can occur on a small scale, for example poisoning an individual, or a large scale, such as the release of CBRN material to kill, make sick, or injure large populations, initiate larger scale epidemics, or severely damage the environment. A disinformation campaign may accompany DEs to create fear, panic, distrust, discrimination and psychological trauma.
+
+Risks and impacts
+=================
+
+DEs involve both health and security dimensions. In conflict or war, key health infrastructure or CBRN facilities can be deliberately damaged, contaminated or destroyed with widespread consequences. Geopolitical shifts and conflicts create new circumstances for DEs. In addition to these traditional agents, emerging threats include disinformation and the misuse of cyber and technology means, with direct or indirect consequences on human health (fear, mistrust, major psychological impacts, delay in access to care, etc.). Scientific advances and access to technological and digital tools have increased the potential risks of high-consequence DEs. Atomic science is known as a typical example of a so-called double-edged sword; something that has or can have both favourable and unfavourable consequences. For example, nuclear power can be used for sustainable and large-scale energy production or nuclear weapons of mass destruction. This is also true for health and life science research, which is sometimes known as dual-use research of concern (DURC). For example, while understanding key characteristics of microorganisms will help prevention and control of infectious diseases, application of gene editing and reconstruction science can lead to a new and disastrous pathogen. The public health, economic and national security consequences from DEs have made it necessary for governments to seek to prevent such use, to have the means of detecting such events and to prepare for and be ready to respond to them. These efforts should be developed as an integral part of existing national emergency and public health plans.
+
+Uncertainty about exposure to a deliberately released agent is likely to increase fear, anxiety and panic amongst the general public. Preparedness, training and education, risk communication and debriefing aimed at mitigating psychological consequences are important to consider for ensuring the mental health of front-line workers and affected populations.
+
+WHO response
+============
+
+During an evolving situation of suspected or confirmed DE, WHO works within its mandate to coordinate the international public health response and provide its support to the affected and at-risk Member States upon request.
+
+WHO does not have a mandate to lead nor to participate in investigations in response to a potential DE. However WHO may collaborate with and support other entities or mechanisms, such as the United Nations Secretary-General’s Mechanism for Investigation of Alleged Use of Chemical and Biological Weapons (UNSGM), which is mandated to carry out prompt investigations in response to allegations of the possible use of chemical and bacteriological (biological) and toxin weapons.
+
+WHO’s response to DE includes:
+
+- working with international or national organizations and laboratories to characterize the nature, scope, and impact of the DE;
+
+- offering targeted training to public health and front-line responders;
+
+- facilitating the identification and acquisition of necessary response materials and providing medical countermeasures in certain circumstances;
+
+- developing context-specific guidance and training material to the substance in question; and
+
+- guiding and coordinating national, regional and global responses with specific partners.
+
+Depending on the scale and nature of the DE, WHO could also request additional international expert support through the Global Outbreak and Response Network (GOARN), WHO Collaborating Centres, the UN Humanitarian Emergency Cluster system, Standby Partners and other networks as needed.
+
+WHO proposes to strengthen preparedness for DEs as an integral part of existing national emergency and public health plans. WHO promotes an all-hazard approach and the core capacity development of Member States for prevention and response to events of concern and public health emergencies regardless of natural, accidental or deliberate nature. Specifically as preparedness and readiness considering DE, it is essential to ensure awareness among the national stakeholders about potential risks, and to establish communication particularly between the health and the security sectors, known as Health-Security Interface.
+
+Furthermore, WHO works on strengthening inter-agency preparedness for and response to biorisk. Together with the United Nations Office for Disarmament Affairs (UNODA), WHO co-leads the UN Biorisk Working Group (UN-BRWG), which brings together 30 member organizations seeking to harmonize and coordinate policy, normative and technical expertise to increase the international community's capacity to address biorisks effectively.

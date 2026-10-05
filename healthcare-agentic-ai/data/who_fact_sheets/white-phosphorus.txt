@@ -1,0 +1,85 @@
+WHO FACT SHEET
+Title: White phosphorus
+URL: https://www.who.int/news-room/fact-sheets/detail/white-phosphorus
+Retrieved: 2026-10-05T09:35:26.511860+00:00
+
+========================================
+
+Key facts
+
+- White phosphorus is a chemical waxy solid substance typically appearing yellowish or colourless, and some have described its odour as resembling garlic.
+
+- It ignites instantly upon contact with oxygen. It is often used by militaries to illuminate battlefields, to generate a smokescreen and as an incendiary.
+
+- Once ignited, white phosphorus is very difficult to extinguish. It sticks to surfaces like skin and clothing.
+
+- White phosphorus is harmful to humans by all routes of exposure. The smoke from burning phosphorus is also harmful to the eyes and respiratory tract due to the presence of phosphoric acids and phosphine.
+
+- White phosphorus can cause deep and severe burns, penetrating even through bone. After exposure, the priority is to stop the burning process. Caution must be exercised to avoid secondary exposure of medical personnel from victims suffering from white phosphorus burns. White phosphorus can re-ignite during or after initial treatment due to the contact with oxygen. Use clean water/medically prepared saline throughout the process.
+
+Overview
+========
+
+White (sometimes called yellow) phosphorus is a white to yellow waxy solid with a garlic like odour. It ignites spontaneously in air at temperatures above 30 °C and continues to burn until it is fully oxidized or until deprived of oxygen. Burning phosphorus produces dense, white, irritating smoke containing mixed phosphorus oxides.
+
+White phosphorus is used for military purposes in grenades and artillery shells to produce illumination, to generate a smokescreen and as an incendiary. Its major industrial uses are in the production of phosphoric acid, phosphates and other compounds. Phosphates are used to manufacture a range of products including fertilizers and detergents. Phosphorus has been used as a rodenticide and in fireworks.
+
+Effects of exposure
+===================
+
+White phosphorus is harmful to humans by all routes of exposure. It can be absorbed in toxic amounts following ingestion or dermal/mucosal exposure. The smoke from burning phosphorus is harmful to the eyes and respiratory tract as phosphorus oxides dissolve in moisture to form phosphoric acids. Systemic effects may be delayed for up to 24 hours after exposure. In severe cases of exposure, delayed systemic effects can include cardiovascular effects and collapse, as well as renal and hepatic damage and depressed consciousness and coma. Death may occur from shock, hepatic or renal failure, central nervous system or myocardial damage.
+
+- Dermal
+
+Exposure to white phosphorus can cause severe deep burns. The burns are extremely painful and result from a combination of thermal and chemical injuries. The affected areas of exposed skin may appear yellowish and may show necrotic, full-thickness burns surrounded by sloughed tissue.
+
+White phosphorus is highly soluble in lipids; therefore, it can penetrate underlying tissues resulting in deep burns that are slow to heal.
+
+Caution should be exercised for spontaneous reignition of white phosphorus particles remaining in the damaged tissue and smoke emanating from the wound.
+
+White phosphorus particles that have penetrated the skin, for example on shrapnel, may start to burn when the wound is opened and exposed to air. Yellowish grey or white smoke from burning phosphorus may be seen emanating from wounds. Smokes are irritating and can have garlic smell.
+
+White phosphorus may be absorbed from the burned surface and cause systemic toxicity, particularly ECG changes, as described above.
+
+- Eyes
+
+White phosphorus particles may cause corneal burns and perforation. Exposure to the smoke from burning phosphorus may cause ocular irritation, blepharospasm, photophobia, lacrimation and conjunctivitis.
+
+- Inhalation
+
+The smoke from burning phosphorus may cause irritation of the upper respiratory tract, coughing, headache and delayed-onset lung oedema.
+
+Management of exposure
+======================
+
+After exposure, the priority is to stop the burning process. The care providers should be aware of the risk and should have immediate access to clean water or medically prepared saline water prior to starting the treatment. Use the following guidance when providing care to a person who has been exposed to white phosphorous:
+
+- Care should be taken not to expose others when removing phosphorus particles. Since white phosphorus can spontaneously ignite, care should be taken to prevent exposure to all sources of ignition such as naked flames, electrical equipment, and the smoking of tobacco products.
+
+- Remove the patient from exposure, then carefully remove the patient’s clothes and personal effects. Bear in mind that contaminated clothing can ignite or reignite; therefore, contaminated items should be placed in a water-filled closable container that is clearly labelled as a hazard. Rinse and irrigate the skin with cool water and keep exposed areas wet to stop ignition, e.g. by covering with wet cloths, during transportation to the treatment unit.
+
+- Exposed skin and wounds should be continuously irrigated (flushed) with cool saline or water, or immersed in water, while phosphorus particles are being removed. Irrigation of affected areas can stop combustion, lower the temperature of burnt areas, and dilute any phosphoric acid that may have formed in the wound. It is important to use cool rather than warm water. In warm water the phosphorus may more easily reach the autoignition temperature; moreover, the phosphorus may melt, making it more difficult to see. Care should be taken to avoid contamination to unexposed skin.
+
+- Remove fragments of molten white phosphorus only with forceps, never with the hands, even if protected with surgical gloves.
+
+- Removed phosphorus should be submerged in cold water to prevent ignition. Embedded white phosphorus particles may be difficult to see but can be visualized using ultraviolet light.
+
+- Further management depends on the severity of the burns and should be guided by a burn specialist.
+
+- If the eyes have been exposed to white phosphorus or smoke from white phosphorus use, first irrigate the eye with plenty of water or 0.9% saline for 10–15 minutes (remove contact lenses if this can be done easily). Use of a topical local anaesthetic will reduce blepharospasm and assist irrigation; however, irrigation should not be delayed if the anaesthetic is not immediately available. If there are particles of phosphorus in the eye evert the eyelids and remove the particles while continuing to irrigate. Place removed particles under water in a container. Give a full eye examination and refer urgently to an ophthalmologist if there is evidence of injury.
+
+International treaties and agreements
+=====================================
+
+White phosphorus is not a chemical weapon under the Chemical Weapons Convention (CWC), as it acts as an incendiary agent and not through its “chemical action on life processes” (Article II.2 of the CWC).
+
+The use of white phosphorus may violate Protocol III (on the use of incendiary weapons) of the Convention on Certain Conventional Weapons (CCCW) in one specific instance: if it is used, on purpose, as an incendiary weapon directly against humans in a civilian setting. Other uses of white phosphorus, such as illuminating a battlefield, are not prohibited. To establish an illegal use under the CCCW, an investigation into the intent behind the use of white phosphorus would be needed, which exceeds the mandate of WHO.
+
+WHO response
+============
+
+At the request of the affected Member State, WHO provides assistance including the mobilization of international teams for on-site assistance (IHR 2005 Art.13.3).
+
+WHO staff may be in a position to establish the fact that victims carry burn wounds, but never to identify or confirm the causative agent of these burns – i.e. white phosphorus or any other incendiary chemical. This will be possible only by the medical staff directly treating the victim or by a relevant local authority.
+
+Investigation into a potential illegal use of white phosphorous is not part of the WHO mandate and requires involvement of appropriate national or international authorities.

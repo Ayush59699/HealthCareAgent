@@ -1,0 +1,72 @@
+WHO FACT SHEET
+Title: Trans fat
+URL: https://www.who.int/news-room/fact-sheets/detail/trans-fat
+Retrieved: 2026-10-05T09:35:10.144365+00:00
+
+========================================
+
+Key facts
+=========
+
+- Trans fat, or trans-fatty acids (TFA), are unsaturated fatty acids that come from either industrial or natural sources.
+
+- More than 278 000 deaths each year globally can be attributed to intake of industrially produced trans fat.
+
+- Trans fat clogs arteries, increasing the risk of heart attacks and deaths.
+
+- Industrially produced trans fat can be found in margarine, vegetable shortening, Vanaspati ghee, fried foods, and baked goods such as crackers, biscuits and pies. Baked and fried street and restaurant foods often contain industrially produced trans fat. Trans fat can also be found naturally in meat and dairy foods from ruminant animals (e.g. cows, sheep, goats). Both industrially produced and naturally occurring trans fat are equally harmful.
+
+- Industrially produced trans fat can be eliminated and replaced with healthier fats or oils without changing cost, taste or availability of food.
+
+- WHO’s recommendation for adults is to limit consumption of trans fat to less than 1% of total energy intake, which is less than 2.2 g per day for a 2000-calorie diet.
+
+Overview
+========
+
+Cardiovascular diseases are the leading cause of mortality in the world. Major risk factors are unhealthy diets, physical inactivity, tobacco and alcohol use. Among other dietary factors, high intake of trans fat increases the risk of death from any cause by 34%, coronary heart disease deaths by 28%, and coronary heart disease by 21%. Trans fat has no known health benefits.
+
+Trans fat is produced industrially by the partial hydrogenation of any liquid oils, in most cases vegetable oils, but also occurs naturally in meat and dairy products from ruminant animals. For a healthy diet, the recommended intake of trans-fats is less than 1% of total energy. Industrially produced trans fats are not part of a healthy diet and should be avoided.
+
+Governments have a central role in creating healthy food environments that enable people to adopt and maintain healthy dietary practices and must encourage reformulation of food products to reduce trans fat, with the goal of eliminating industrially produced trans fat. WHO developed a REPLACE action package that supports governments to design and implement a policy to eliminate industrially produced trans fat from their food supply.
+
+About trans fats
+================
+
+Use of trans fats increased dramatically in recent years because they tend to be cheaper than healthier fats and have several chemical and physical characteristics, such as being solid at room temperature, that make them suitable for a variety of processed food products.
+
+Industrially produced trans fats are formed in an industrial process that adds hydrogen to vegetable oil, converting the liquid into a solid and resulting in partially hydrogenated oil (PHO). On average, trans fat concentrations in PHO are 25–45%. Naturally occurring trans fats come from ruminants (such as cows and sheep), are found in meat and dairy foods, and are equally harmful as industrially produced trans fat.
+
+Frying oil at high temperatures leads to modest increases in trans fat concentrations. However, this amount of trans fat generated is low (up to 2–3 %) when compared with the amount of trans fat in PHO.
+
+What governments do
+===================
+
+Replacing trans fat with healthier oils and fats in food supply is a low-cost solution for governments to save the lives of their citizens. Experiences in several countries demonstrate that industrially produced trans fat can be replaced by healthier oils. Costs of implementing best practice interventions (i.e. regulatory limits on trans fat) are well under the commonly accepted thresholds of cost-effectiveness. Thus, WHO recommends trans fat elimination as a cost-effective intervention for low- and middle-income countries. Governments can eliminate the cause of 7% of cardiovascular disease globally with a low-cost investment.
+
+Experiences in several countries demonstrate that mandatory approaches are much more effective than voluntary approaches to reducing trans fat in the food supply and in the population.
+
+WHO recommends the following two best-practice alternatives:
+
+1) mandatory national limit of 2 grams of industrially produced trans fat per 100 grams of total fat in all foods; and
+
+2) mandatory national ban on the production or use of partially hydrogenated oils (a major source of trans fat) as an ingredient in all foods.
+
+PHO in foods can be replaced by oils rich in polyunsaturated fatty acids (PUFA), followed by oils rich in monounsaturated fatty-acids (MUFA). Oils rich in PUFA include those from safflower, corn, sunflower, soybean, fatty fishes, walnuts and seeds; oils rich in MUFA include canola, olive, peanut, and oils from nuts and avocados. The choices of fats and oils used in many countries will be influenced by availability, cost of alternatives and the oil industry’s capacity to innovate.
+
+How to reduce trans fat intake
+==============================
+
+Although the primary responsibility to protect citizens from the harmful effects of industrially produced trans fat rests with governments, there are actions that individuals can take too to reduce trans fact intake: intake:
+
+- avoid PHO found in fried and baked foods (if it is labelled on the food product)
+
+- reduce amount of meat and dairy foods from ruminant animals (e.g. cows, sheep, goats).
+
+WHO response
+============
+
+WHO spearheads efforts to eliminate industrially produced trans fat globally and supports country actions. Almost half of the world's population is currently covered by best-practice policies for TFA elimination, which means complete elimination of a dietary risk factor for heart disease.
+
+The REPLACE action package, a roadmap for countries developed by WHO to help accelerate actions, offers six practical steps for the promotion of use and consumption of healthier fats and oils, and the elimination of industrially produced trans fats, to be achieved through regulatory actions, while establishing solid monitoring systems and creating awareness among policy-makers, producers, suppliers and the public. It is supported by a Global protocol for measuring fatty acid profiles of foods, with emphasis on monitoring trans-fatty acids originating from partially hydrogenated oils, developed to strengthen laboratory capacities.
+
+WHO monitors countries' progress and has developed the Country Score Card to track performance, with WHO’s trans fat elimination validation programme formally recognizing countries that have eliminated industrially produced trans fat from their national food supplies.

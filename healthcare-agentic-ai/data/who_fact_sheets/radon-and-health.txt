@@ -1,0 +1,122 @@
+WHO FACT SHEET
+Title: Radon
+URL: https://www.who.int/news-room/fact-sheets/detail/radon-and-health
+Retrieved: 2026-10-05T09:34:23.005672+00:00
+
+========================================
+
+Key facts
+=========
+
+- Radon is a naturally occurring radioactive gas which may be found in high concentrations in indoor environments, such as homes and workplaces.
+
+- Radon is one of the leading causes of lung cancer.
+
+- Radon is estimated to cause between 3% to 14% of all lung cancers in a country, depending on the national average radon level and smoking prevalence.
+
+- Lung cancer risk is higher for smokers due to synergistic effects of radon and cigarette smoking.
+
+- Well-tested, durable and cost-efficient methods exist for preventing radon entry into new buildings and reducing radon in existing buildings.
+
+- Radon concentration indoors can easily be measured with a small passive detector.
+
+Overview
+========
+
+Radon is a radioactive gas that has no smell, colour or taste. Radon is produced from the natural radioactive decay of uranium, which is found in all rocks and soils. Radon can also be found in water.
+
+Radon escapes from the ground into the air, where it decays and produces further radioactive particles. As we breathe, these particles are deposited on the cells lining the airways, where they can damage DNA and potentially cause lung cancer.
+
+Outdoors, radon quickly dilutes to very low concentrations and is generally not a problem. The average outdoor radon level (1) varies from 5 Bq/m3 to 15 Bq/m3. However, radon concentrations are higher indoors and in areas with minimal ventilation, with highest levels found in places like mines, caves and water treatment facilities. In buildings such as homes, schools, offices, radon levels can vary substantially from 10 Bq/m3 to more than 10 000 Bq/m3. Given the properties of radon, occupants of such buildings could unknowingly be living or working in very high radon levels.
+
+Health effects of radon
+=======================
+
+Radon is a major cause of lung cancer. It is estimated that radon causes between 3% to 14% of all lung cancers in a country, depending on the national average radon level and the smoking prevalence.
+
+An increased rate of lung cancer was first seen in uranium miners exposed to very high concentrations of radon. In addition, studies in Europe, North America and China have confirmed that even low concentrations of radon – such as those commonly found in residential settings – also pose health risks and contribute to the occurrence of lung cancers worldwide.
+
+The risk of lung cancer increases by about 16% per 100 Bq/m3 increase in long time average radon concentration. The dose-response relation is assumed to be linear – i.e. the risk of lung cancer increases proportionally with increasing radon exposure.
+
+Radon is much more likely to cause lung cancer in people who smoke. In fact, smokers are estimated to be 25 times more at risk from radon than non-smokers. No other cancer risks or other health effects have been established to date, although inhaled radon can deliver radiation to other organs, but at a much lower level than to the lungs.
+
+Radon in buildings
+==================
+
+For most people, the greatest exposure to radon occurs in the home where people spend much of their time, though indoor workplaces may also be a source of exposure. The concentration of radon in buildings depends on:
+
+- the local geology, for example the uranium content and permeability of the underlying rocks and soils;
+
+- the routes available for the passage of radon from the soil into the building;
+
+- the radon exhalation from building materials; and
+
+- the rate of exchange between indoor and outdoor air, which depends on the construction of the building, the ventilation habits of the occupants, and the air-tightness of the building.
+
+Radon enters buildings through cracks in the floors or at floor-wall junctions, gaps around pipes or cables, small pores in hollow-block walls, cavity walls, or sumps or drains. Radon levels are usually higher in basements, cellars and living spaces in contact with the ground. However, considerable radon concentration can also be found above the ground floor.
+
+Radon concentrations vary considerably between adjacent buildings, as well as within a building from day to day and from hour to hour. Because of these fluctuations, it is preferable to estimate the annual mean concentration of radon in indoor air by measurements for at least 3 months. Residential radon levels can be measured in an inexpensive and simple manner by means of small passive detectors. Measurements need to be based on national protocols to ensure consistency as well as reliability for decision-making. Short-term radon tests, done in compliance with national protocols, can be valuable when making decisions during time-sensitive situations, such as home sales or to test the effectiveness of radon mitigation work.
+
+Reducing radon in indoor settings
+=================================
+
+Well-tested, durable and cost-efficient methods exist for preventing radon in new buildings and reducing radon in existing dwellings. Radon prevention should be considered when new structures are built, particularly in radon-prone areas. In many countries of Europe, and in the United States of America and China, the inclusion of protective measures in new buildings are included in building codes.
+
+Some common ways of reducing radon levels in existing buildings include:
+
+- increasing under-floor ventilation;
+
+- installing a radon sump system in the basement or under a solid floor;
+
+- avoiding the passage of radon from the basement into living spaces;
+
+- sealing floors and walls; and
+
+- improving the ventilation of the building, especially in the context of energy conservation.
+
+Passive systems of mitigation can reduce indoor radon levels by more than 50%. When radon ventilation fans are added radon, levels can be reduced even further.
+
+Radon in drinking water
+=======================
+
+In many countries, drinking water is obtained from groundwater sources such as springs, wells and boreholes. These sources of water normally have higher concentrations of radon than surface water from reservoirs, rivers or lakes.
+
+To date, epidemiological studies have not confirmed an association between consumption of drinking-water containing radon and an increased risk of stomach cancer. Radon dissolved in drinking-water is released into indoor air. Normally, a higher radon dose is received from inhaling radon compared with ingestion.
+
+The WHO guidelines for drinking water quality (2) (2011) recommend that screening levels for radon in drinking-water be set based on the national reference level for radon in air. In circumstances where high radon concentrations might be expected in drinking-water, it is prudent to measure radon concentrations. Straightforward and effective techniques exist to reduce the concentration of radon in drinking-water supplies by aeration or using granular activated carbon filters. Further guidance is available in Management of radioactivity in drinking-water (3) (2018).
+
+WHO response
+============
+
+Indoor radon is a preventable risk factor that can be handled through effective national policies and regulations. The WHO handbook on indoor radon: A public health perspective (4) provides policy options for reducing health risks from residential radon exposure through:
+
+- providing information on levels of radon indoors and the associated health risks;
+
+- implementing a national radon programme aimed at reducing both the overall population risk and the individual risk for people living with high radon concentrations;
+
+- establishing a national annual average residential radon concentration reference level of 100 Bq/m3, but if this level cannot be reached under the prevailing country-specific conditions, the reference level should not exceed 300 Bq/m3;
+
+- developing radon measurement protocols to help ensure quality and consistency in radon testing;
+
+- implementing radon prevention in building codes to reduce radon levels in buildings under construction, and radon programmes to ensure that the levels are below national reference levels;
+
+- promoting education for building professionals and providing financial support to remove radon from existing buildings; and
+
+- considering the inclusion of radon as a risk factor in national strategies related to cancer control, tobacco control, indoor air quality and energy conservation.
+
+These recommendations are consistent with the International Basic Safety Standards (5) (2014), co-sponsored by WHO and other international organizations. WHO promotes the implementation of these radon standards, which ultimately support the 2030 Agenda for Sustainable Development Goals (SDG), and Target 3.4 on noncommunicable diseases. To help monitor national radon policies and regulations around the world, WHO has assembled a radon database (6) as part of the WHO Global Health Observatory.
+
+References
+----------
+
+1. Radioactivity is measured in units called Becquerels (Bq). One Becquerel corresponds to the transformation (disintegration) of one atomic nucleus per second. Radon concentration in air is measured by the number of transformations per second in a cubic meter of air (Bq/m3).
+
+2. Guidelines for drinking-water quality, 4th edition, Geneva, WHO (2011)
+
+3. Management of radioactivity in drinking-water, Geneva, WHO (2018)
+
+4. WHO Handbook on Indoor Radon: A Public Health Perspective, Geneva, WHO (2009)
+
+5. Radiation Protection and Safety of Radiation Sources: International Basic Safety Standards, Vienna, IAEA (2014)
+
+6. WHO Global Health Observatory: Radon database on national policies and regulations

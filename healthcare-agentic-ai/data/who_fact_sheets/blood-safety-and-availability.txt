@@ -1,0 +1,130 @@
+WHO FACT SHEET
+Title: Blood safety and availability
+URL: https://www.who.int/news-room/fact-sheets/detail/blood-safety-and-availability
+Retrieved: 2026-10-05T09:30:48.052846+00:00
+
+========================================
+
+Key facts
+=========
+
+- Of the 120.4 million blood donations collected globally, 36% of these are collected in high-income countries, home to 15% of the world’s population.
+
+- Based on samples of 1000 people, the blood donation rate is 28.9 donations in high-income countries, 18.2 donations in upper-middle-income countries, 8.5 donations in lower-middle-income countries and 4.5 donations in low-income countries.
+
+- An increase of 10.7 million blood donations from voluntary unpaid donors has been reported from 2013 to 2023. In total, 80 countries collect over 90% of their blood supply from voluntary unpaid blood donors; however, 59 countries collect more than 50% of their blood supply from family/replacement or paid donors.
+
+- Only 49 of 168 reporting countries produce plasma-derived medicinal products (PDMP) through the fractionation of plasma collected in the reporting countries. A total of 119 countries reported that all PDMP are imported, or no PDMP were used during the reporting period.
+
+- The volume of plasma for fractionation per 1000 population varied considerably between the 36 reporting countries, ranging from 0.3 to 55.4 litres, with a median of 5.4 litres.
+
+National blood policy and organization
+======================================
+
+Blood transfusion saves lives and improves health, but many patients requiring transfusion do not have timely access to safe blood. Providing safe and adequate blood should be an integral part of every country’s national health-care policy and infrastructure.
+
+WHO recommends that all activities related to blood collection, testing, processing, storage and distribution be coordinated at the national level through effective organization and integrated blood supply networks. The national blood system should be governed by national blood policy and legislative framework to promote uniform implementation of standards and consistency in the quality and safety of blood and blood products.
+
+In 2023, 79% of reporting countries, or 133 out of 168, had a national blood policy. Overall, 71% of reporting countries, or 120 out of 168, have specific legislation covering the safety and quality of blood transfusion.
+
+Blood supply
+============
+
+About 120.4 million blood donations are collected worldwide. 36% of these are collected in high-income countries, home to 15% of the world’s population.
+
+There is a marked difference in the level of access to blood between low- and high-income countries. The whole blood donation rate is an indicator for the general availability of blood in a country. The median blood donation rate in high-income countries is 28.9 donations per 1000 people. This compares with 18.2 donations per 1000 people in upper-middle-income countries, 8.5 donations per 1000 people in lower-middle-income countries, and 4.5 donations per 1000 people in low-income countries.
+
+55 countries report collecting fewer than 10 donations per 1000 people. Of these, 36 countries are in the WHO African Region, four in the WHO Region of the Americas, three in the WHO Eastern Mediterranean region, thee in the WHO European Region, six in the WHO South-Eastern Asia Region, and three in the WHO Western Pacific Region. All are low- or middle-income countries.
+
+Blood donors
+============
+
+Age and gender of blood donors
+------------------------------
+
+Data about the gender profile of blood donors show that globally 29% of blood donations are given by women, although this ranges widely from 0.6% to 81%.
+
+The age profile of blood donors shows that, proportionally, more young people donate blood in low- and middle-income countries than in high-income countries. Demographic information of blood donors is important for formulating and monitoring recruitment strategies.
+
+Types of blood donors
+---------------------
+
+There are 3 types of blood donors:
+
+- voluntary unpaid
+
+- family/replacement
+
+- paid.
+
+An adequate and reliable supply of safe blood can be assured by a stable base of regular, voluntary, unpaid blood donors. These donors are also the safest group of donors as the prevalence of bloodborne infections is lowest among this group. World Health Assembly resolution WHA63.12 urges all Member States to develop national blood systems based on voluntary unpaid donations and to work towards the goal of self-sufficiency.
+
+Data reported to WHO shows significant increases of voluntary unpaid blood donations in low- and middle-income countries:
+
+- an increase of 11.6 million blood donations from voluntary unpaid donors from 2013 to 2023 has been reported by 132 countries;
+
+- 80 countries collect more than 90% of their blood supply from voluntary unpaid blood donations. This includes 70 countries with 100% (or more than 99%) of their blood supply from voluntary unpaid blood donors; and
+
+- in 59 countries, more than 50% of the blood supply is still dependent on family/replacement and paid blood donors.
+
+Blood screening
+===============
+
+WHO recommends that all blood donations should be screened for infections prior to use. Screening for HIV, hepatitis B, hepatitis C, and syphilis should be mandatory. Blood screening should be performed according to quality system requirements. Of reporting countries, 10 are not able to screen all donated blood for one or more of the above infections.
+
+Globally 63% of the blood screening laboratories participated in external quality assessment schemes for the testing of transfusion transmissible infections. The percentages were 92%, 66%, 48% and 68% for high-, upper-middle, lower-middle and low-income countries, respectively. The prevalence of transfusion-transmissible infections in blood donations in high-income countries is considerably lower than in low- and middle-income countries.
+
+Blood processing
+================
+
+Blood collected in an anticoagulant can be stored and transfused to a patient in an unmodified state. This is known as ‘whole blood’ transfusion. However, blood can be used more effectively if it is processed into components, such as red cell concentrates, platelet concentrates, plasma and cryoprecipitate. In this way, it can meet the needs of more than one patient.
+
+The capacity to provide patients with the different blood components they require is still limited in low-income countries: 52% of the blood collected in low-income countries is separated into components, 81% in lower-middle-income countries, 94% in upper-middle-income countries, and 98% in high-income countries.
+
+Supply of plasma-derived medicinal products (PDMP)
+==================================================
+
+World Health Assembly resolution WHA63.12 urges Member States to establish, implement and support nationally coordinated, efficiently managed and sustainable blood and plasma programmes, according to the availability of resources, with the aim of achieving self-sufficiency. It is the responsibility of individual governments to ensure sufficient and equitable supply of plasma-derived medicinal products, namely immunoglobulins and coagulation factors, which are needed to prevent and treat a variety of serious conditions that occur worldwide.
+
+Only 49 of 168 reporting countries produce plasma-derived medicinal products (PDMP) through the fractionation of plasma collected in the reporting country. A total of 119 countries reported that all PDMP are imported, or no PDMP was used during the reporting period.
+
+Around 21.5 million litres of plasma from 36 reporting countries were fractionated for the production of PDMP during the year. This includes around 27% of plasma recovered from the whole blood donations. The volume of plasma for fractionation (and processing for PDMPs) per 1000 population varied considerably between the reporting countries, ranging from 0.3 to 55.4 litres, with a median of 5.4 litres.
+
+Clinical use of blood
+=====================
+
+Unnecessary transfusions and unsafe transfusion practices expose patients to the risk of serious adverse transfusion reactions and transfusion-transmissible infections. Unnecessary transfusions also reduce the availability of blood products for patients who are in need.
+
+WHO recommends the development of systems, such as hospital transfusion committees and haemovigilance, to monitor and improve the safety of transfusion processes. In this regard:
+
+- 129 countries have national guidelines on the appropriate clinical use of blood: 34 countries in the African region (76% of reporting countries in the region), 20 in the Americas (65%), 15 in the Eastern Mediterranean (88%), 34 in Europe (81%), 9 in the South East Asia (82%), and 17in the Western Pacific (77%);
+
+- transfusion committees are present in 40% of the hospitals performing transfusions: 43% in hospitals in high-income countries, 37% in upper-middle-income countries, 46% in lower-middle-income countries and 37% in low-income countries;
+
+- systems for reporting adverse transfusion events are present in 68% of the hospitals performing transfusions: 88% in hospitals in high-income countries, 41% in upper-middle-income countries, 62% in lower-middle-income countries and 39% in low-income countries; and
+
+- 88 countries (representing 52% of the 168 responding countries) reported having a haemovigilance system.
+
+Blood transfusions
+==================
+
+In high-income countries, transfusion is most commonly used for supportive care in cardiovascular surgery, transplant surgery, massive trauma, and therapy for solid and haematological malignancies. In low- and middle-income countries it is used more often to manage pregnancy-related complications and severe childhood anaemia.
+
+WHO response
+============
+
+The risk of transmission of serious infections, including HIV and hepatitis, through unsafe blood and chronic blood shortages brought global attention to the importance of blood safety and availability. With the goal of ensuring universal access to safe blood and blood products, WHO has been at the forefront to improve blood safety and availability, and recommends the following integrated strategy for blood safety and availability:
+
+- Establishment of a national blood system with well-organized and coordinated blood transfusion services, effective evidence-based and ethical national blood policies, and legislation and regulation, that can provide sufficient and timely supplies of safe blood and blood products to meet the transfusion needs of all patients.
+
+- Collection of blood, plasma and other blood components from low-risk, regular, voluntary unpaid donors through the strengthening of donation systems, and effective donor management, including care and counselling.
+
+- Quality-assured screening of all donated blood for transfusion-transmissible infections, including HIV, hepatitis B, hepatitis C and syphilis, confirmatory testing of the results of all donors screen-reactive for infection markers, blood grouping and compatibility testing, and systems for processing blood into blood products (blood components for transfusion and plasma derived-medicinal products), as appropriate, to meet health care needs.
+
+- Rational use of blood and blood products to reduce unnecessary transfusions and minimize the risks associated with transfusion, the use of alternatives to transfusion where possible, and safe and good clinical transfusion practices, including patient blood management.
+
+- Step-wise implementation of effective quality systems, including quality management, standards, good manufacturing practices, documentation, training of all staff, and quality assessment.
+
+WHO supports countries in developing national blood systems to ensure timely access to safe and sufficient supplies of blood and blood products and good transfusion practices to meet patient needs. WHO provides policy guidance and technical assistance to countries for ensuring universal access to safe blood and blood products and work towards self-sufficiency in safe blood and blood products based on voluntary unpaid blood donation to achieve universal health coverage.
+
+*Data source: This fact sheet is based on data obtained through the WHO Global Database on Blood Safety from 153 countries for the year 2023. To give a more complete overview of the global situation, data for the year 2020 have been used for two countries and data for the year 2018 have been used for 13 countries, where current data are not available. Overall, responses received from 168 countries cover 97% of the world’s population.

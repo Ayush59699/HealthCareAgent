@@ -1,0 +1,93 @@
+WHO FACT SHEET
+Title: Musculoskeletal health
+URL: https://www.who.int/news-room/fact-sheets/detail/musculoskeletal-conditions
+Retrieved: 2026-10-05T09:33:33.858691+00:00
+
+========================================
+
+Key facts
+=========
+
+- Approximately 1.71 billion people have musculoskeletal conditions worldwide.
+
+- Musculoskeletal conditions are the leading contributor to disability worldwide, with low back pain being the single leading cause of disability in 160 countries.
+
+- Musculoskeletal conditions significantly limit mobility and dexterity, leading to early retirement from work, lower levels of well-being and reduced ability to participate in society.
+
+- Because of population growth and ageing, the number of people living with musculoskeletal conditions and associated functional limitations, is rapidly increasing.
+
+- WHO is responding to the burden attributed to musculoskeletal conditions across a number of programmatic areas.
+
+Scope
+=====
+
+Musculoskeletal health refers to the performance of the locomotor system, comprising intact muscles, bones, joints and adjacent connective tissues. Musculoskeletal impairments comprise more than 150 different diseases/conditions that affect the system and are characterized by impairments in the muscles, bones, joints and adjacent connective tissues leading to temporary or lifelong limitations in functioning and participation. Musculoskeletal conditions are typically characterized by pain (often persistent) and limitations in mobility and dexterity, reducing people’s ability to work and participate in society. Pain experienced in musculoskeletal structures is the most common form of non-cancer pain.
+
+Musculoskeletal conditions are relevant across the life-course – from childhood to older age. They range from those conditions that arise suddenly and are short-lived (such as fractures, sprains and strains, associated with pain and limitations in functioning) though to long-term conditions such as chronic primary low back pain and osteoarthritis.
+
+Musculoskeletal conditions include conditions that affect:
+
+- joints, such as osteoarthritis, rheumatoid arthritis, psoriatic arthritis, gout, spondyloarthritis;
+
+- bones, such as osteoporosis, osteopenia and associated fragility fractures, traumatic fractures;
+
+- muscles, such as sarcopenia;
+
+- multiple body areas or systems, such as regional (e.g. back and neck pain) and widespread (e.g. fibromyalgia) pain conditions, inflammatory diseases such as connective tissue diseases and vasculitis that have musculoskeletal manifestations, for example systemic lupus erythematosus, or amputation as a result of disease or trauma.
+
+Musculoskeletal conditions are also the highest contributor to the global need for rehabilitation. They are among the largest contributors to the need for rehabilitation services among children and account for approximately two-thirds of all adults in need of rehabilitation (1). Musculoskeletal conditions often co-exist with other noncommunicable diseases and increase the risk of developing other noncommunicable diseases, such as cardiovascular disease (2). People with musculoskeletal conditions are also at higher risk to develop mental health issues.
+
+Magnitude
+=========
+
+A recent analysis of Global Burden of Disease (GBD) 2019 data showed that approximately 1.71 billion people globally live with musculoskeletal conditions, including low back pain, neck pain, fractures, other injuries, osteoarthritis, amputation and rheumatoid arthritis (1). While the prevalence of musculoskeletal conditions varies by age and diagnosis, people of all ages everywhere around the world are affected. High-income countries are the most affected in terms of number of people – 441 million – followed by countries in the WHO Western Pacific Region with 427 million and South-East Asia Region with 369 million. Musculoskeletal conditions are also the biggest contributor to years lived with disability (YLDs) worldwide with approximately 149 million YLDs, accounting for 17% of all YLDs worldwide.
+
+Low back pain is the main contributor to the overall burden of musculoskeletal conditions (570 million prevalent cases worldwide, responsible for 7.4% of global YLDs). Other contributors to the overall burden of musculoskeletal conditions include fractures with 440 million people globally (26 million YLDs), osteoarthritis (528 million people; 19 million YLDs), neck pain (222 million people; 22 million YLDs), amputations (180 million people; 5.5 million YLDs), rheumatoid arthritis (18 million people; 2.4 million YLDs), gout (54 million people; 1.7 million YLDs) other musculoskeletal conditions (453 million people; 38 million YLDs) [data from IHME Viz Hub and WHO Rehabilitation Needs Estimator].
+
+While the prevalence of musculoskeletal conditions increases with age, younger people are also affected, often during their peak income-earning years. For example, childhood auto-immune inflammatory conditions such as juvenile arthritis affect children’s development, while low back pain is the main reason for a premature exit from the workforce. The societal impact of early retirement in terms of direct health-care costs and indirect costs (i.e., work absenteeism or productivity loss) is enormous. Projections show that the number of people with low back pain will increase in the future, and even more rapidly in low-income and middle-income countries (3).
+
+Health estimates
+================
+
+The WHO Rehabilitation Need Estimator tool provides a unique opportunity to search for country, regional or global prevalence and YLD data on musculoskeletal conditions that can benefit from rehabilitation, based on GBD 2019 data. Similarly, the GBD Compare Tool also provides health estimates for musculoskeletal and other conditions. Variation in aggregated health estimates between the tools may be explained by differences in which specific musculoskeletal conditions and subgroups of those are included.
+
+The WHO Ageing Data Portal brings together data on available global indicators relevant to monitoring the health and well-being of people aged 60 years and over. Through maps, charts and tables, the portal offers tailored options for visualization and analysis of the data. The portal provides prevalence data for low back pain in older people.
+
+WHO response
+============
+
+Rehabilitation 2030
+
+WHO launched the Rehabilitation 2030 initiative in 2017 to draw attention to the profound unmet need for rehabilitation worldwide, and to highlight the importance of strengthening rehabilitation in health systems. The initiative marks a new strategic approach for the global rehabilitation community by emphasizing that:
+
+- Rehabilitation is an essential health service and crucial for achieving universal health coverage.
+
+- Rehabilitation should be available for all the population, through all stages of the life course and along the continuum of care. This includes all people with musculoskeletal conditions.
+
+- Efforts to strengthen rehabilitation should be directed towards supporting health systems as a whole and integrating rehabilitation into all levels of health care.
+
+The Rehabilitation 2030 initiative was launched to support countries to respond to existing rehabilitation needs, including of people with musculoskeletal conditions, as well as the forecasted increase arising from health and demographic trends. Rehabilitation is often not a political priority in countries and thus continues to be under-resourced. As a result, the rehabilitation needs of individuals continues to go unmet, leading to an exacerbation of their condition, lifelong consequences and inequities in health outcomes. Further information about the Rehabilitation 2030 initiative can be found here.
+
+WHO is also developing a Package of Interventions for Rehabilitation including the following musculoskeletal conditions: low back pain, osteoarthritis, rheumatoid arthritis, sarcopenia, fractures in the extremities, and amputation. Each package will contain a list of essential interventions for rehabilitation and the resources required to deliver them safely and effectively. These interventions will be relevant for people at all stages of life, along the continuum of care, across all service delivery platforms, and across all world regions, with a specific focus on low- and middle-resource contexts.
+
+The main target users of the Package of Interventions for Rehabilitation are Ministries of Health that can use this resource to plan and budget the integration of rehabilitation in their national health services. Other target users that may benefit from the Package of Interventions for Rehabilitation include researchers to identify rehabilitation research gaps; academics to develop curricula for the training of rehabilitation professionals; and service providers to plan and implement specific interventions in their rehabilitation programmes.
+
+More about the Package of Interventions for Rehabilitation of musculoskeletal conditions can be foundhere.
+
+Integrated Care for Older People (ICOPE)
+
+Integrated care for older people (ICOPE) reflects a continuum of care that helps to reorient health and social services towards a more person-centred and coordinated model of care to optimize older people’s intrinsic capacity (physical and mental capacities) and functional ability. Locomotor (musculoskeletal) capacity is a key component of intrinsic capacity. Delivery of integrated care and primary health services responsive to older people is one of the action areas of UN Decade of Healthy Ageing (2021–2030). WHO has developed tools to support countries for implementation of the ICOPE approach that include:
+
+1. guidelines on community-level interventions to manage declines in intrinsic capacity, including evidence to improve mobility;
+
+2. ICOPE handbook: including specific pathways for mobility loss/impaired locomotor capacity; and
+
+3. ICOPE implementation framework: guidance for systems and services.
+
+WHO is currently developing evidence-based clinical guidelines for non-surgical management of chronic primary low back pain for adults. The recommendations to manage chronic primary low back pain will be integrated into ICOPE handbook.
+
+1. Cieza, A., Causey, K., Kamenov, K., Hanson, S. W., Chatterji, S., & Vos, T. (2021). Global estimates of the need for rehabilitation based on the Global Burden of Disease study 2019: a systematic analysis for the Global Burden of Disease Study 2019. The Lancet, 396(10267), 2006–2017.
+
+2. Williams A, Kamper SJ, Wiggers JH, O'Brien KM, Lee H, Wolfenden L, Yoong SL, Robson E, McAuley JH, Hartvigsen J, Williams CM. Musculoskeletal conditions may increase the risk of chronic disease: a systematic review and meta-analysis of cohort studies. BMC Medicine 2018;16:167
+
+3. Hartvigsen J, Hancock MJ, Kongsted A, et al. What low back pain is and why we need to pay attention. Lancet 2018; 391: 2356–67.

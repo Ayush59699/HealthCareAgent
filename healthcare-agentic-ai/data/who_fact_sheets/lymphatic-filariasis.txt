@@ -1,0 +1,120 @@
+WHO FACT SHEET
+Title: Lymphatic filariasis
+URL: https://www.who.int/news-room/fact-sheets/detail/lymphatic-filariasis
+Retrieved: 2026-10-05T09:33:08.672973+00:00
+
+========================================
+
+Key facts
+=========
+
+- Lymphatic filariasis impairs the lymphatic system and can lead to the abnormal enlargement of body parts, causing pain, severe disability and social stigma.
+
+- Over 657 million people in 39 countries worldwide remain threatened by lymphatic filariasis and require preventive chemotherapy to stop the spread of this parasitic infection.
+
+- Lymphatic filariasis can be eliminated by stopping the spread of infection through preventive chemotherapy with safe medicine combinations repeated annually. More than 9.7 billion cumulative treatments have been delivered to stop the spread of infection since 2000.
+
+- As of 2018, 51 million people were infected – a 74% decline since the start of WHO’s Global Programme to Eliminate Lymphatic Filariasis in 2000.
+
+- Due to successful implementation of WHO strategies, 871 million people no longer require preventive chemotherapy.
+
+- An essential, recommended package of care can alleviate suffering and prevent further disability among people living with disease caused by lymphatic filariasis.
+
+Overview
+========
+
+Lymphatic filariasis (LF), commonly known as elephantiasis, is a neglected tropical disease. Infection occurs when filarial parasites are transmitted to humans through mosquitoes. Infection is usually acquired in childhood and causes hidden damage to the lymphatic system.
+
+The painful and profoundly disfiguring visible manifestations of the disease – lymphoedema, elephantiasis and scrotal swelling – occur later in life and can lead to permanent disability. People affected by LF are not only physically disabled, but suffer mental, social and financial losses contributing to stigma and poverty.
+
+In 2023, 657 million people in 39 countries were living in areas that require preventive chemotherapy to stop the spread of infection.
+
+The global baseline estimate of people affected by lymphatic filariasis was 25 million men with hydrocele and over 15 million people with lymphoedema. At least 36 million people remain with these chronic disease manifestations. Eliminating lymphatic filariasis can prevent unnecessary suffering and contribute to the reduction of poverty.
+
+Cause and transmission
+======================
+
+Lymphatic filariasis is caused by infection with parasites classified as nematodes (roundworms) of the family Filariodidea. There are 3 types of these thread-like filarial worms:
+
+- Wuchereria bancrofti, which is responsible for 90% of the cases
+
+- Brugia malayi, which causes most of the remainder of the cases
+
+- Brugia timori, which also causes the disease.
+
+Adult worms nest in the lymphatic vessels and disrupt the normal function of the lymphatic system. The worms can live for approximately 6–8 years and, during their life time, produce millions of microfilariae (immature larvae) that circulate in the blood.
+
+Mosquitoes are infected with microfilariae by ingesting blood when biting an infected host. Microfilariae mature into infective larvae within the mosquito. When infected mosquitoes bite people, mature parasite larvae are deposited on the skin, from where they can enter the body. The larvae then migrate to the lymphatic vessels where they develop into adult worms, thus continuing a cycle of transmission.
+
+Lymphatic filariasis is transmitted by different types of mosquitoes, for example by the Culex mosquito, widespread across urban and semi-urban areas, Anopheles, mainly found in rural areas, and Aedes, mainly in endemic islands in the Pacific.
+
+Symptoms
+========
+
+Lymphatic filariasis infection involves asymptomatic, acute and chronic conditions. The majority of infections are asymptomatic, showing no external signs of infection while contributing to the transmission of the parasite. These asymptomatic infections still cause damage to the lymphatic system and the kidneys and alter the body's immune system.
+
+When lymphatic filariasis develops into chronic conditions it leads to lymphoedema (tissue swelling) or elephantiasis (skin/tissue thickening) of limbs and hydrocele (scrotal swelling). Involvement of breasts and genital organs is common. Such body deformities often lead to social stigma and sub-optimal mental health, loss of income-earning opportunities and increased medical expenses for patients and their caretakers. The socioeconomic burdens of isolation and poverty are immense.
+
+Acute episodes of local inflammation involving skin, lymph nodes and lymphatic vessels often accompany chronic lymphoedema or elephantiasis. Some of these episodes are caused by the body's immune response to the parasite. Most are the result of secondary bacterial skin infection where normal defenses have been partially lost due to underlying lymphatic damage. These acute attacks are debilitating, may last for weeks and are the primary cause of lost wages among people suffering with lymphatic filariasis.
+
+Treatment
+=========
+
+Elimination of lymphatic filariasis is possible by stopping the spread of the infection through preventive chemotherapy. The WHO recommended preventive chemotherapy strategy for lymphatic filariasis elimination is mass drug administration (MDA). MDA involves administering an annual dose of medicines to the entire at-risk population. The medicines used have a limited effect on adult parasites but effectively reduce the density of microfilariae in the bloodstream and prevent the spread of parasites to mosquitoes.
+
+The MDA regimen recommended depends on the co-endemicity of lymphatic filariasis with other filarial diseases. WHO recommends the following MDA regimens:
+
+- albendazole (400 mg) alone twice per year for areas co-endemic with loiasis;
+
+- ivermectin (200 mcg/kg) with albendazole (400 mg) in countries with onchocerciasis;
+
+diethylcarbamazine citrate (DEC) (6 mg/kg) and albendazole (400 mg) in countries without onchocerciasis; and
+
+- ivermectin (200 mcg/kg) together with diethylcarbamazine citrate (DEC) (6 mg/kg) and albendazole (400 mg) in countries without onchocerciasis and where other programmatic conditions are met.
+
+The impact of MDA depends on the efficacy of the regimen and the coverage (proportion of total population ingesting the medicines). MDA with the 2-medicine regimens have interrupted the transmission cycle when conducted annually for at least 4–6 years with effective coverage of the total population at risk. Salt fortified with DEC has also been used in a few unique settings to interrupt the transmission cycle.
+
+At the start of GPELF, 81 countries were considered endemic for lymphatic filariasis. Further epidemiological data reviewed since, indicate that preventive chemotherapy was not required in 10 countries. From 2000 to 2023, 9.7 billion cumulative treatments were delivered to more than 943 million people at least once in 71 countries, considerably reducing transmission in many places. The population requiring MDA has declined by 58.6% (871 million) where infection prevalence has been reduced below elimination thresholds. The overall economic benefit of the programme during 2000–2007 is conservatively estimated at US$ 24 billion. Treatments until 2015 are estimated to have averted at least US$ 100.5 billion of economic loss expected to have occurred over the lifetime of cohorts who have benefited from treatment.
+
+Twenty-one countries and territories (Bangladesh, Brazil, Cambodia, the Cook Islands, Egypt, Kiribati, Lao People’s Democratic Republic, Maldives, Malawi, Marshall Islands, Niue, Palau, Sri Lanka, Thailand, Timor-Leste, Togo, Tonga, Vanuatu, Viet Nam, Wallis and Futuna, and Yemen) are now acknowledged as achieving elimination of lymphatic filariasis as a public health problem. By 2023, 14 countries had successfully implemented recommended strategies, stopped large-scale treatment and are under surveillance to demonstrate that elimination has been achieved. Preventive chemotherapy is still required in 39 countries and within 6 of these countries MDA has not yet been delivered to all endemic areas as of the end of 2023.
+
+Morbidity management
+====================
+
+Morbidity management and disability prevention are vital for improving public health and are essential services that should be provided by the health care system to ensure sustainability. Surgery can alleviate most cases of hydrocele. Clinical severity and progression of the disease, including acute inflammatory episodes, can be reduced and prevented with simple measures of hygiene, skin care, exercises and elevation of affected limbs. People with lymphoedema must have access to continuing care throughout their lives, both to manage the disease and to prevent progression to more advanced stages.
+
+The GPELF aims to provide access to an essential package of care for every person with associated chronic manifestations of lymphatic filariasis in all areas where the disease is present, thus alleviating suffering and promoting improvement in their quality of life.
+
+Goals toward the elimination of lymphatic filariasis will be achieved if affected people have access to the following essential package of care:
+
+- treatment for episodes of adenolymphangitis (ADL);
+
+- guidance in applying simple measures to manage lymphoedema to prevent progression of disease and debilitating, inflammatory episodes of ADL;
+
+- surgery for hydrocele; and
+
+- treatment for infection.
+
+Vector control
+==============
+
+Mosquito control is a supplemental strategy supported by WHO. It is used to reduce transmission of lymphatic filariasis and other mosquito-borne infections. Depending on the parasite-vector species, measures such as insecticide-treated nets, indoor residual spraying or personal protection measures may help protect people from infection. The use of insecticide-treated nets in areas where Anopheles is the primary vector for filariasis enhances the impact on transmission during and after MDA. Historically, vector control has in select settings contributed to the elimination of lymphatic filariasis in the absence of large-scale preventive chemotherapy.
+
+WHO response
+============
+
+World Health Assembly resolution WHA50.29 encourages Member States to eliminate lymphatic filariasis as a public health problem. In response, WHO launched its Global Programme to Eliminate Lymphatic Filariasis (GPELF) in 2000.
+
+WHO’s strategy is based on 2 key components:
+
+- stopping the spread of infection through large-scale annual treatment of all eligible people in an area or region where infection is present; and
+
+- alleviating the suffering caused by lymphatic filariasis through provision of the recommended essential package of care.
+
+In 2020, GPELF set the following goals for the new NTD Road Map (2021–2030):
+
+- 58 (80%) endemic countries have met the criteria for validation of elimination of lymphatic filariasis as a public health problem, with both sustained infection rates below target thresholds for at least 4 years after stopping MDA and providing the essential package of care in all areas with known patients;
+
+- 72 (100%) endemic countries implement post-MDA or post-validation surveillance; and
+
+- reduction to 0 of the total population requiring MDA.

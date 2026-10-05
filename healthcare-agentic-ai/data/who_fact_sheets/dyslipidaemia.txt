@@ -1,0 +1,72 @@
+WHO FACT SHEET
+Title: Dyslipidaemia
+URL: https://www.who.int/news-room/fact-sheets/detail/dyslipidaemia
+Retrieved: 2026-10-05T09:31:49.833207+00:00
+
+========================================
+
+Key facts
+=========
+
+- Dyslipidaemia is an abnormal amount of fats, or lipids, in the blood, typically raised total or LDL ("bad") cholesterol, raised triglycerides, or low HDL ("good") cholesterol, and is one of the principal modifiable risk factors for cardiovascular disease.
+
+- An estimated 39% of adults worldwide have raised total cholesterol, with only a small difference between women (40%) and men (37%). Prevalence remains highest in high-income countries of Europe and the Americas but is now rising fastest in low- and middle-income countries.
+
+- In 2023, elevated LDL cholesterol was responsible for an estimated 3.6 million deaths and 90.7 million disability-adjusted life years (DALYs) worldwide, chiefly through its contribution to ischaemic heart disease and ischaemic stroke.
+
+- Familial hypercholesterolaemia, an inherited form of severely raised cholesterol present from birth, affects an estimated 1 in 250 to 1 in 300 people globally, yet most people with the condition remain undiagnosed until after a first heart attack.
+
+- Dyslipidaemia usually causes no symptoms of its own. It is identified through a blood lipid test, which makes testing in primary care essential for early diagnosis.
+
+- Lipid levels can often be improved substantially through a healthier diet, regular physical activity and smoking cessation, and, where indicated, lipid-lowering medicines such as statins. These are among the most cost-effective interventions available for preventing heart attack and stroke.
+
+Overview
+========
+
+Dyslipidaemia refers to an imbalance in the fats carried in the bloodstream. The main measurements are total cholesterol, low-density lipoprotein cholesterol (LDL-C), high-density lipoprotein cholesterol (HDL-C) and triglycerides. LDL cholesterol is the form most directly implicated in disease: it is deposited in artery walls and drives the build-up of atherosclerotic plaque that eventually causes heart attack, stroke and peripheral arterial disease. HDL cholesterol, by contrast, helps remove excess cholesterol from the bloodstream, and low levels are themselves associated with higher cardiovascular risk.
+
+Most dyslipidaemia is described as primary, arising from a combination of diet, lifestyle and inherited susceptibility that varies from person to person. A smaller proportion is secondary, meaning it results from an underlying condition such as diabetes, an underactive thyroid, chronic kidney disease or liver disease, or from certain medicines; treating the underlying cause often improves the lipid pattern as well.
+
+A distinct and important subset is familial hypercholesterolaemia, an inherited condition present from birth that causes markedly raised LDL cholesterol and a correspondingly high risk of premature heart disease if untreated. Because it is genetic, it tends to run in families and can often be identified in relatives once one person is diagnosed, through a process known as cascade testing.
+
+Symptoms
+========
+
+Dyslipidaemia is, for almost everyone who has it, entirely silent. It produces no pain, no discomfort and no warning signs, and in most cases the first indication that anything is wrong is a routine blood test or, in the worst case, a heart attack or stroke.
+
+Very high or long-standing cholesterol levels, particularly in familial hypercholesterolaemia, can occasionally produce visible signs: small yellowish deposits of fat under the skin around the eyelids, known as xanthelasma; fatty deposits in tendons, particularly at the back of the ankle or the knuckles; or a pale ring around the edge of the cornea, known as corneal arcus, which is notable mainly when it appears in someone under 45 years of age. These signs are the exception rather than the rule, which is why testing is the basis for detection.
+
+Causes and risk factors
+=======================
+
+Diet plays a central role: a diet high in saturated and trans fats, refined carbohydrates and excess calories tends to raise LDL cholesterol and triglycerides, while physical inactivity and obesity compound the effect. Alcohol use raises triglycerides, and tobacco use lowers protective HDL cholesterol in addition to its other harms to the cardiovascular system.
+
+Genetics contributes substantially to how any individual's lipid levels respond to diet and lifestyle, and in familial hypercholesterolaemia a single gene variant is enough to cause markedly raised cholesterol regardless of how healthily a person lives. Secondary causes, including diabetes, hypothyroidism, chronic kidney and liver disease, and certain medicines, should be considered and treated where present. Risk also rises with age, and lipid patterns commonly shift after the menopause in women.
+
+Diagnosis
+=========
+
+Dyslipidaemia is diagnosed through a blood lipid profile measuring total cholesterol, LDL-C, HDL-C and triglycerides; current guidance increasingly permits this test to be done without fasting beforehand, which makes diagnosis considerably more practical. Results are interpreted not against a single universal cut-off but in the context of a person's overall cardiovascular risk, taking into account factors such as blood pressure, diabetes, smoking status and age, since the same LDL-C level may warrant a different response in a low-risk young adult than in someone who already has diabetes or established heart disease.
+
+A careful family history is an important part of assessment, particularly to identify familial hypercholesterolaemia: markedly raised cholesterol in a person, or a history of heart attack at a young age in a close relative, should prompt consideration of the inherited form and testing of family members if it is confirmed.
+
+Treatment
+=========
+
+Lifestyle change is the foundation of treatment for almost everyone with dyslipidaemia. Reducing saturated and trans-fat, increasing fruit, vegetables, whole grains and fibre, achieving and maintaining a healthy weight, exercising regularly, limiting alcohol and stopping smoking can meaningfully lower LDL cholesterol and triglycerides and raise HDL cholesterol, sometimes without any need for medicine at all.
+
+When lifestyle change alone is not enough to reach a desired treatment target level, or when a person's overall cardiovascular risk is high, medicines are added. Statins are the first-line treatment in almost all guidelines and have been included on the WHO Model List of Essential Medicines since 2007, reflecting strong evidence that they reduce heart attack, stroke and death. Where statins alone are insufficient or not tolerated, additional or alternative drugs can be used. People with familial hypercholesterolaemia often require earlier and more intensive treatment, alongside cascade testing of their relatives.
+
+Prevention
+==========
+
+At the population level, reducing the amount of industrially produced trans-fat and saturated fat in the food supply, supporting clearer nutrition labelling and making healthy food more available and affordable all help shift average cholesterol levels downward.
+
+At the individual level, the same measures that treat dyslipidaemia also prevent it: a healthy diet, regular physical activity, avoiding tobacco, moderating alcohol and, for people with a family history of early heart disease or very high cholesterol, seeking testing rather than waiting for symptoms that are unlikely to appear.
+
+WHO response
+============
+
+The World Health Organization addresses dyslipidaemia principally as one of the intermediate risk factors for cardiovascular disease within its broader noncommunicable disease agenda, rather than through a stand-alone programme. The REPLACE package, launched by WHO to eliminate industrially produced trans-fat from the global food supply, targets one of the main dietary drivers of unhealthy cholesterol levels at a population scale. The forthcoming WHO dyslipidaemia clinical guidelines will serve as a tool to help countries and healthcare professionals improve the prevention, diagnosis, and management of dyslipidaemia.
+
+Statins have been included on the WHO Global Hearts InitiativeModel List of Essential Medicines since 2007, and are included WHO’s cost-effective recommendations for drug therapy to control CVD risk and for secondary prevention after a heart attack. The Global HEARTS Initiative's risk-based cardiovascular disease management module, and the related Package of essential noncommunicable disease interventions, direct primary care workers to assess lipid levels where laboratory facilities exist as part of overall cardiovascular risk rather than in isolation, and to prioritize treatment accordingly. Under the Global action plan for the prevention and control of noncommunicable diseases 2013–2020, Member States committed to ensuring that at least 50% of eligible people receive drug therapy, including lipid-lowering treatment, to prevent heart attack and stroke by 2025. WHO has recognized familial hypercholesterolaemia as a public health priority since 1998 and continues to support improved detection and earlier treatment of the condition. Population cholesterol levels are tracked through the WHO Global Health Observatory and national STEPS surveys, which feed into global monitoring of cardiovascular risk factors.

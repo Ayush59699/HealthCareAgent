@@ -1,0 +1,114 @@
+WHO FACT SHEET
+Title: Lung cancer
+URL: https://www.who.int/news-room/fact-sheets/detail/lung-cancer
+Retrieved: 2026-10-05T09:33:07.477837+00:00
+
+========================================
+
+Key facts
+=========
+
+- Lung cancer is the leading cause of cancer cases and deaths worldwide with an estimated 2.5 million new cases and 1.8 million deaths in 2022.
+
+- More than 1.3 million cases in men and nearly 500 000 lung cancer cases in women are preventable, with the majority attributable to tobacco smoking (60–70%), followed by air pollution and occupational exposure.
+
+- Lung cancer is often diagnosed at advanced stages when treatment options are limited.
+
+- Screening high risk individuals has the potential to allow early detection and to dramatically improve survival rates.
+
+- Primary prevention (such as tobacco control measures and reducing exposure to environmental risk factors) can reduce the incidence of lung cancer and save lives.
+
+Overview
+========
+
+Lung cancer is a serious disease and remains a major public health challenge worldwide due to its high incidence and mortality. In 2022, lung cancer was the leading cause of cancer death, with an estimated 2.5 million cases and 1.8 million deaths.
+
+Lung cancer occurs when abnormal cells grow uncontrollably in the lungs. Treatments depend on the person’s medical history and the stage of the disease.
+
+The two main types of lung cancer are non-small cell lung cancer (NSCLC), which accounts for around 85% of cases, and small cell lung cancer (SCLC), which is less common but typically more aggressive.
+
+Risk factors
+============
+
+Smoking tobacco (including cigarettes, cigars, and pipes) is the primary risk factor for lung cancer. Other important risk factors include:
+
+- exposure to secondhand tobacco smoke
+
+- outdoor and household air pollution
+
+- occupational exposures such as asbestos, silica, and diesel exhaust
+
+- radon exposure
+
+- certain chronic lung diseases and genetic susceptibility.
+
+Prevention
+==========
+
+Not smoking tobacco is the best way to prevent lung cancer. Other risk factors to avoid include:
+
+- secondhand smoke
+
+- air pollution
+
+- workplace hazards like chemicals and asbestos.
+
+Primary prevention aims to prevent the initial occurrence of a disease through risk reduction and promoting healthy behaviour. In public health, these preventive measures include smoking cessation, promoting smoke-free environments, implementing tobacco control policies, addressing occupational hazards, and reducing air pollution levels.
+
+Symptoms
+========
+
+Common symptoms of lung cancer include:
+
+- cough that does not go away
+
+- chest pain
+
+- shortness of breath
+
+- coughing up blood (haemoptysis)
+
+- fatigue
+
+- weight loss with no known cause
+
+- lung infections that keep coming back.
+
+Early symptoms may be mild or dismissed as common respiratory issues, leading to delayed diagnosis.
+
+Early detection
+===============
+
+Early diagnosis programmes can reduce delays in receiving care after symptom onset. In settings with well-resourced health systems, screening can be considered for defined high-risk individuals, particularly current or former heavy smokers, and has been shown to reduce lung cancer mortality when implemented with appropriate quality assurance and follow-up care.
+
+Diagnostic methods for lung cancer include physical examination, imaging (such as chest X-rays, computed tomography scans, and magnetic resonance imaging), examination of the lung using bronchoscopy, taking a sample of tissue for histopathology examination, and molecular testing to identify specific genetic mutations or biomarkers to guide the best treatment option.
+
+Treatment
+=========
+
+Treatment depends on cancer type, stage, molecular profile, and the individual’s health status. Options include:
+
+- surgery
+
+- radiotherapy (radiation)
+
+- chemotherapy
+
+- targeted therapy
+
+- immunotherapy.
+
+Multidisciplinary care is essential to optimize outcomes. Supportive and palliative care play a critical role in symptom management, pain relief, and improving quality of life for patients and families at all stages of disease.
+
+Early-stage disease: the primary treatment for early-stage lung cancer (i.e. tumour limited to the lung, with no metastatic dissemination to distant organs or lymph nodes) is surgical removal of the tumour through procedures such as lobectomy, segmentectomy, or wedge resection. Neoadjuvant therapy can help reduce tumour size, making it more manageable for surgical removal. Adjuvant treatment is often recommended after surgery to reduce the risk of cancer recurrence. In cases where surgery is not feasible, radiation therapy may be used as the primary treatment. Targeted therapy and immunotherapy may also be considered based on specific tumour characteristics. Individualized treatment plans should be discussed with health-care professionals.
+
+Advanced disease: the treatment for metastatic stage lung cancer, where the cancer has spread to distant organs or lymph nodes, is based on various factors, including the individual's overall health, the extent and location of metastases, histology, genetic profile, and individual preferences. The primary goal is to prolong survival, alleviate symptoms, and improve quality of life. Systemic therapies, such as chemotherapy, targeted therapy, and immunotherapy, play a crucial role in the treatment of metastatic lung cancer.
+
+Clinical trials: Clinical trials offer opportunities to access novel treatments or experimental therapies. Participation in clinical trials helps advance medical knowledge and potentially offers new treatment options.
+
+WHO response
+============
+
+WHO addresses lung cancer through a comprehensive approach focused on prevention, early detection, treatment, and care as part of an integrated approach to cancer control and lung health. In 2017, the World Health Assembly passed the Resolution: Cancer prevention and control in the context of an integrated approach (WHA70.12) that urges governments and WHO to accelerate action to achieve the targets specified in the Global Action Plan for the prevention and control of NCDs 2013-2020 and the 2030 UN Agenda for Sustainable Development to reduce premature mortality from cancer. The World Health Assembly further prioritized lung cancer through the 2025 Resolution on Promoting and prioritizing an integrated lung health approach.
+
+Priority actions include supporting implementation of the WHO Framework Convention on Tobacco Control, reducing exposure to environmental and occupational carcinogens, strengthening early detection and screening programmes, and improving equitable access to quality cancer treatment and essential medicines. WHO works with Member States and partners to reduce lung cancer mortality and advance progress toward universal health coverage.

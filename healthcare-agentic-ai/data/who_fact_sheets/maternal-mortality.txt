@@ -1,0 +1,125 @@
+WHO FACT SHEET
+Title: Maternal mortality
+URL: https://www.who.int/news-room/fact-sheets/detail/maternal-mortality
+Retrieved: 2026-10-05T09:33:13.472779+00:00
+
+========================================
+
+Key facts
+=========
+
+- Every day in 2023, over 700 women died from preventable causes related to pregnancy and childbirth.
+
+- A maternal death occurred almost every 2 minutes in 2023.
+
+- Between 2000 and 2023, the maternal mortality ratio (MMR, number of maternal deaths per 100 000 live births) dropped by about 40% worldwide.
+
+- Just over 90% of all maternal deaths occurred in low- and lower-middle-income countries in 2023.
+
+- Care by skilled health professionals before, during and after childbirth can save the lives of women and newborns.
+
+Overview
+========
+
+Maternal mortality is unacceptably high. About 260 000 women died during and following pregnancy and childbirth in 2023. Approximately 92% of all maternal deaths occurred in low- and lower-middle-income countries in 2023, and most could have been prevented.
+
+Sustainable Development Goal (SDG) regions and sub-regions are used here. Sub-Saharan Africa and southern Asia accounted for around 87% (225 000) of the estimated global maternal deaths in 2023. Sub-Saharan Africa alone accounted for around 70% of maternal deaths (182 000), while southern Asia accounted for around 17% (43 000).
+
+At the same time, between 2000 and 2023, eastern Europe and southern Asia achieved the greatest overall reduction in maternal mortality ratio (MMR): a decline of 75% (from an MMR of 38 to 9) and 71% (from an MMR of 405 down to 117), respectively. Despite its very high MMR in 2023, sub-Saharan Africa also achieved a substantial reduction in MMR of 40% between 2000 and 2023.
+
+The greatest reduction in lifetime risk of maternal death during this period occurred in the region of central and southern Asia, with an 83% fall in risk from 1 in 71 in 2000 to 1 in 410 in 2023. In five regions, the lifetime risk of maternal mortality reduced by more than half: sub-Saharan Africa, northern Africa and western Asia, Australia and New Zealand, eastern and south-eastern Asia, and Oceania (excluding Australia and New Zealand).
+
+Where do maternal deaths occur?
+===============================
+
+The high number of maternal deaths in some areas of the world reflects inequalities in access to quality health services and highlights the gap between rich and poor. The MMR in low-income countries in 2023 was 346 per 100 000 live births versus 10 per 100 000 live births in high income countries.
+
+In 2023, 37 countries were classified as being in conflict or institutional/social fragility (1), accounting for 61% of global maternal deaths despite representing only 25% of global live births. The MMR is significantly higher in conflict-affected areas (504 deaths per 100 000 live births) compared to fragile settings (368) and non-conflict nor fragile settings (99).
+
+Women in low-income countries have a higher lifetime risk of death of maternal death. A woman’s lifetime risk of maternal death is the probability that a 15-year-old woman will eventually die from a maternal cause. In high income countries, this is 1 in 7933, versus 1 in 66 in low-income countries.
+
+Why do women die?
+=================
+
+Women die as a result of complications during and following pregnancy and childbirth. Most of these complications develop during pregnancy and most are preventable or treatable. Other complications may exist before pregnancy but are worsened during pregnancy, especially if not managed as part of the woman’s care. The major complications that account for around 75% of all maternal deaths are (1):
+
+- severe bleeding (mostly bleeding after childbirth)
+
+- infections (usually after childbirth)
+
+- high blood pressure during pregnancy (pre-eclampsia and eclampsia)
+
+- complications from delivery
+
+- unsafe abortion.
+
+How can women’s lives be saved?
+===============================
+
+To avoid maternal deaths, it is vital to prevent unintended pregnancies. All women, including adolescents, need access to contraception, safe abortion services to the full extent of the law, and quality post-abortion care.
+
+Most maternal deaths are preventable, as the health-care solutions to prevent or manage complications are well known. All women need access to high quality care in pregnancy, and during and after childbirth. Maternal health and newborn health are closely linked. It is particularly important that all births are attended by skilled health professionals, as timely management and treatment can make the difference between life and death for the women as well as for the newborns.
+
+- Severe bleeding after birth can kill a healthy woman within hours if she is unattended. Injecting oxytocics immediately after childbirth effectively reduces the risk of bleeding.
+
+- Infection after childbirth can be eliminated if good hygiene is practised and if early signs of infection are recognized and treated in a timely manner.
+
+- Pre-eclampsia should be detected and appropriately managed before the onset of convulsions (eclampsia) and other life-threatening complications. Administering drugs such as magnesium sulfate for pre-eclampsia can lower a woman’s risk of developing eclampsia.
+
+Why do women not get the care they need?
+========================================
+
+Poor women in remote areas are the least likely to receive adequate health care (3). This is especially true for SDG regions with relatively low numbers of skilled health care providers, such as sub-Saharan Africa and southern Asia.
+
+The latest available data suggest that in most high-income and upper-middle-income countries, approximately 99% of all births benefit from the presence of a trained midwife, doctor or nurse. However, only 73% in low income and 84% in lower-middle-income countries are assisted by such skilled health personnel (3).
+
+Factors that prevent women from receiving or seeking care during pregnancy and childbirth are:
+
+- health system failures that translate to (i) poor quality of care, including disrespect, mistreatment and abuse, (ii); insufficient numbers of and inadequately trained health-care providers, (iii); shortages of essential medical supplies; and (iv) the poor accountability of health systems;.
+
+- social determinants, including income, access to education, race and ethnicity, that put some sub-populations at greater risk;
+
+- harmful gender norms and/or inequalities that result in a low prioritization of the rights of women and girls, including their right to safe, quality and affordable sexual and reproductive health services; and
+
+- external factors contributing to instability and health system fragility, such as climate and humanitarian crises.
+
+To improve maternal health, barriers that limit access to quality maternal health services must be identified and addressed at both health system and societal levels.
+
+What was the impact of COVID-19 pandemic on maternal mortality?
+===============================================================
+
+The MMR rose in 2021 (from 282 000 maternal deaths in 2020 to 322 000 maternal deaths in 2021). It is possible that the COVID-19 pandemic contributed to this via two mechanisms: (i) indirect obstetric deaths – where the woman had SARS-CoV-2 infection and died as a result of the interaction between COVID-19 and her pregnant state; and/or (ii) direct obstetric deaths – where disruptions to health services hindered access to and/or quality of care resulting in pregnancy complications that ended in mortality, when they may otherwise have been prevented or managed successfully (4). The data show that this interruption to the downward trajectory of global MMR was short-lived. In 2022, the global MMR and number of maternal deaths were lower than they had been in the three years immediately prior to the COVID-19 pandemic.
+
+The Sustainable Development Goals and maternal mortality
+========================================================
+
+In the context of the Sustainable Development Goals (SDG), countries have united behind the target to accelerate the decline of maternal mortality by 2030. SDG 3 includes an ambitious target: “reducing the global MMR to less than 70 per 100 000 births, with no country having a maternal mortality rate of more than twice the global average”.
+
+The global MMR in 2023 was 197 per 100 000 live births; achieving a global MMR below 70 by the year 2030 will require an annual rate of reduction of almost 15%, a rate that has rarely been achieved at the national level. However, scientific and medical knowledge are available to prevent most maternal deaths. As 2030 approaches, the end of the SDG era, now is the time to intensify coordinated efforts, and to mobilize and reinvigorate global, regional, national and community-level commitments to end preventable maternal mortality.
+
+WHO response
+============
+
+Improving maternal health is one of WHO’s key priorities. WHO works to contribute to the reduction of maternal mortality by increasing research evidence, providing evidence-based clinical and programmatic guidance, setting global standards and providing technical support to Member States on developing and implementing effective policy and programmes.
+
+As defined in the Strategies toward ending preventable maternal mortality (EPMM) and Ending preventable maternal mortality: a renewed focus for improving maternal and newborn health and well-being, WHO is working with partners in supporting countries towards:
+
+- addressing inequalities in access to and quality of reproductive, maternal and newborn health care services;
+
+- ensuring universal health coverage for comprehensive reproductive, maternal and newborn health care;
+
+- addressing all causes of maternal mortality, reproductive and maternal morbidities, and related disabilities;
+
+- strengthening health systems to collect high quality data in order to respond to the needs and priorities of women and girls; and
+
+- ensuring accountability in order to improve quality of care and equity.
+
+References
+
+1. Cresswell JA, Alexander M, Chong MYC et al. Global and regional causes of maternal deaths 2009-20: a WHO systematic analysis. Lancet Glob Health. 2025 Mar 7:S2214-109X(24)00560-6. doi: 10.1016/S2214-109X(24)00560-6.
+
+2. Samuel O, Zewotir T, North D. Decomposing the urban–rural inequalities in the utilisation of maternal health care services: evidence from 27 selected countries in sub-Saharan Africa. Reprod Health 18, 216 (2021).
+
+3. World Health Organization (WHO), United Nations Children’s Fund (UNICEF). UNICEF/WHO joint database on SDG 3.1.2 Skilled Attendance at Birth. In: Delivery care [website]. New York: UNICEF; 2024 https://data.unicef.org/topic/maternal-health/delivery-care/
+
+4. Calvert C, John J, Nzvere FP, Cresswell JA, Fawcus S, Fottrell E et al. Maternal mortality in the COVID-19 pandemic: findings from a rapid systematic review. Glob Health Action. 2021;14(Suppl 1) (https://doi.org/10.1080/16549716.2021.1974677).

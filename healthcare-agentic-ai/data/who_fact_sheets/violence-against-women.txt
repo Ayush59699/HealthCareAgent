@@ -1,0 +1,161 @@
+WHO FACT SHEET
+Title: Violence against women
+URL: https://www.who.int/news-room/fact-sheets/detail/violence-against-women
+Retrieved: 2026-10-05T09:35:23.861819+00:00
+
+========================================
+
+Key facts
+=========
+
+- Violence against women – particularly intimate partner violence (IPV) and sexual violence – is a major public health and gender equality problem and a violation of women's human rights.
+
+- Estimates published by WHO in 2023 indicate that globally about 1 in 3 (31.6%) of women worldwide (840 million women and girls) have been subjected to either physical and/or sexual IPV or non-partner sexual violence in their lifetime.
+
+- Worldwide, a quarter (25.8%) of women aged 15-49 years and 24.7% aged 15 years and older who have been in a relationship have been subjected to physical and/or sexual violence from any current or former husband or male intimate partner at least once in their lives.
+
+- Adolescent girls are at particularly high risk of violence, with more than one in five ever-married or -partnered girls aged 15–19 having already experienced physical and/or sexual violence from an intimate partner.
+
+Overview
+========
+
+The United Nations defines violence against women as "any act of gender-based violence that results in, or is likely to result in, physical, sexual, or mental harm or suffering to women, including threats of such acts, coercion or arbitrary deprivation of liberty, whether occurring in public or in private life" (1).
+
+Intimate partner violence (IVP) refers to behaviour by an intimate partner or ex-partner that causes physical, sexual or psychological harm, including physical aggression, sexual coercion, psychological abuse and controlling behaviours (2).
+
+Sexual violence is "any sexual act, attempt to obtain a sexual act, or other act directed against a person’s sexuality using coercion, by any person regardless of their relationship to the victim, in any setting. It includes rape, defined as the physically forced or otherwise coerced penetration of the vulva or anus with a penis, other body part or object, attempted rape, unwanted sexual touching and other non-contact forms" (2).
+
+Scope of the problem
+====================
+
+The 2023 violence against women estimates, conducted by WHO on behalf of the UN Interagency Working group on Violence against Women Estimation and Data, found that worldwide, nearly 1 in 3 (32%) women have been subjected to physical and/or sexual violence by an intimate partner or non-partner sexual violence or both (3). Globally 8% of women above 15 years old (263 million) were estimated to have been subjected to sexual violence by someone other than a partner at least once in their lifetime (since age 15).
+
+The actual prevalence is likely to be much higher than the reported given that violence against women is particularly stigmatized. Several challenges and gaps also remain in the measurement of this form of violence (3).
+
+In the last 20 years, the average annual decline of IPV has been only 0.2% and the 1 in 3 figure has remained stagnant, highlighting the very little progress made globally and making it very unlikely that the sustainable development goal target 5.2 on elimination of violence against women and girls will be achieved by 2030.
+
+There are wide variations between regions and countries. The highest prevalence of IPV is experienced by women in Oceania (37%), Sub-Saharan Africa (32%) and Southern Asia (31%) (3).
+
+Intersecting forms of discrimination and inequalities place some women and girls at higher risk of violence than others. This includes adolescent girls, older women, women with disabilities, transgender women and sex workers among others. For example, violence starts early in adolescence, with more than one in five ever-partnered girls aged 15–19 years having already experienced physical and/or sexual violence from an intimate partner.
+
+Women with disabilities face heightened risks due to discrimination and dependence on caregivers and are more likely to experience multiple and specific forms of violence, including abuse by partners and those responsible for their care (4).
+
+A systematic review found that lifetime prevalence of physical and sexual violence against trans women is 41% and 30%, respectively (5), while among sex workers (mostly women), lifetime exposure to any violence ranges from 41% to 65% (6).
+
+Humanitarian settings including conflicts also increase risks of violence against women and girls. One estimate shows sexual violence against refugee women to be 20% and in several conflict settings women and girls are deliberately targeted for rape (7).
+
+Factors associated with intimate partner violence and sexual violence against women
+===================================================================================
+
+Gender inequality is a root cause of violence against women and girls. Intimate partner and sexual violence result from the interaction of factors at individual, family, community and societal levels, which can increase or reduce the likelihood of both perpetration and experiencing violence.
+
+At the individual and relationship level, risk factors for both intimate partner and sexual violence include (8):
+
+- lower levels of education;
+
+- a history of experience of child abuse;
+
+- witnessing violence in the family;
+
+- mental health conditions;
+
+- harmful use of alcohol (perpetration and experience);
+
+- attitudes justifying violence as normal and sense of entitlement;
+
+- men’s controlling behaviours in intimate relationships/high levels of inequality in power; and
+
+- men's multiple sexual relationships.
+
+At the community and societal levels the factors associated with high levels of violence against women prevalence include (8):
+
+- harmful gender norms that uphold male privilege and entitlement and limit women’s autonomy and stigmatize women;
+
+- high levels of poverty and unemployment;
+
+- high prevalence of child marriage;
+
+- high rates of violence and crime in the community;
+
+- availability of drugs, alcohol and weapons;
+
+- discriminatory laws on property ownership, inheritance, marriage, divorce and child custody;
+
+- absence or lack of enforcement of laws addressing violence against women; and
+
+- gender discrimination in public and private institutions (health, justice, religious, police, education).
+
+Health consequences
+===================
+
+IPV and sexual violence cause serious short- and long-term physical, mental, sexual and reproductive health problems for women. They also affect their children’s health and well-being. According to the global burden of disease estimates published in 2025, IPV is the fourth leading cause of poor health among women in terms of disability adjusted life years (9).
+
+Violence against women is shown to (3):
+
+- have fatal outcomes like homicide. In 2023, on average 140 women and girls were killed every day by their partner or other family members globally;
+
+- lead to physical injuries or complaints, such as headaches, pain syndromes (back pain, abdominal pain, chronic pelvic pain), gastrointestinal disorders, limited mobility, and poor overall health;
+
+- lead to unintended pregnancies, induced abortions (often in unsafe conditions), gynecological problems, and sexually transmitted infections, including HIV;
+
+- increase the likelihood of miscarriage, stillbirth, pre-term delivery and low birth weight babies in pregnant women subjected to IPV;
+
+- lead to depression, post-traumatic stress and anxiety disorders, sleep difficulties, alcohol use disorders, and suicide attempts; and
+
+- lead to increased smoking, substance use, and risky sexual behaviours.
+
+Impact on children
+==================
+
+Children who grow up in families where there is violence may suffer a range of behavioural and emotional disturbances. These can also be associated with perpetrating or experiencing violence later in life. IPV has also been associated with higher rates of infant and child mortality and morbidity (through, for example, diarrheal disease or malnutrition and lower immunization rates) (10).
+
+Social and economic costs
+=========================
+
+The social and economic costs of intimate partner and sexual violence are enormous and have ripple effects throughout society. Women may suffer isolation, inability to work, loss of wages, lack of participation in regular activities and limited ability to care for themselves and their children. In some countries data show that violence against women costs between 1 and 6% of GDP because of costs related to provision of police, justice, social protection and health services (11).
+
+Role of the health sector
+=========================
+
+While preventing and responding to violence against women requires a multi-sectoral approach, the health sector has an important role to play. The health sector can:
+
+- establish policies, protocols and training standards to guide responses to violence;
+
+- provide comprehensive services, particularly sexual and reproductive health and mental health care, and train health workers to provide survivor-care through pre-service and in-service training manner;
+
+- generate evidence on what works through interventions research and on the magnitude of the problem by carrying out population-based surveys and through indicators incorporated in surveillance and health information systems;
+
+- support coordination and referrals between health and, justice, social services, and child protection services; and
+
+- advocate to make violence against women unacceptable and promote gender equality norms.
+
+WHO response
+============
+
+WHO’s work on violence against women is led by the UNDP/UNFPA/UNICEF/WHO/World Bank Special Programme of Research, Development and Research Training in Human Reproduction (HRP). WHO’s (which includes HRP’s) response to address violence against women prioritizes: generating data on the prevalence and health impacts; conducting research to identify promising health sector interventions; setting standards on the health sector response, including guidelines and implementation tools; supporting Ministries of Health to provide quality, survivor-centred services including sexual and reproductive and mental health services; and strengthening evidence on prevention.
+
+To achieve lasting change, it is important to enact and enforce legislation and develop and implement policies that promote gender equality; allocate resources to prevention and response of violence against women and girls; and invest in women’s rights organizations.
+
+References
+
+(1) United Nations. Declaration on the elimination of violence against women. New York: UN, 1993.
+
+(2) World Health Organization. Global status report on violence prevention 2014. Geneva, 2014.
+
+(3) Violence against women prevalence estimates, 2023: global, regional and national prevalence estimates for intimate partner violence against women and non-partner sexual violence against women. Geneva: World Health Organization; 2025.
+
+(4) García-Cuéllar MM, Pastor-Moreno G, Ruiz-Pérez I, Henares-Montiel J. The prevalence of intimate partner violence against women with disabilities: a systematic review of the literature. Disabil Rehabil. 2023 Jan;45(1):1-8. doi: 10.1080/09638288.2022.2025927. Epub 2022 Jan 17. PMID: 35038281.
+
+(5) McLellan C, Yeh PT, Kennedy CE, et al. Global Burden of Violence Against Transgender and Gender-Diverse Adults: A Systematic Review and Meta-Analysis. JAMA Netw Open. 2026;9(1):e2552953. doi:10.1001/jamanetworkopen.2025.52953.
+
+(6) Deering KN, Amin A, Shoveller J, Nesbitt A, Garcia-Moreno C, Duff P, Argento E, Shannon K. A systematic review of the correlates of violence against sex workers. Am J Public Health. 2014 May;104(5):e42-54. doi: 10.2105/AJPH.2014.301909. Epub 2014 Mar 13. PMID: 24625169; PMCID: PMC3987574.
+
+(7) Klugman, J. (2022). The gender dimensions of forced displacement: a synthesis of new research. Reliefweb. Available at: https://reliefweb.int/report/world/gender-dimensions-forced-displacement-synthesis-new-research.
+
+(8) RESPECT women: preventing violence against women, second edition. Geneva: World Health Organization; 2025. Licence: CC BY-NC-SA 3.0 IGO.
+
+(9) Flor L, Spencer C, Cagney J et al. Disease burden attributable to intimate partner violence against females and sexual violence against children in 204 countries and territories, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023, The Lancet, 2025; 407, 31-52.
+
+(10) Jewkes R, Machisa M. Maternal intimate partner violence and child health outcomes. The Lancet Global Health, 2024; 12, e1740-e1741.
+
+(11) Measuring the economic costs of violence against women and girls | Commonwealth

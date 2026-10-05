@@ -1,0 +1,116 @@
+WHO FACT SHEET
+Title: Substandard and falsified medical products
+URL: https://www.who.int/news-room/fact-sheets/detail/substandard-and-falsified-medical-products
+Retrieved: 2026-10-05T09:34:58.575675+00:00
+
+========================================
+
+Key facts
+=========
+
+- Substandard and falsified medical products affect people all around the world.
+
+- At least 1 in 10 medicines in low- and middle-income countries are substandard or falsified.
+
+- Countries spend an estimated US$ 30.5 billion per year on substandard and falsified medical products.
+
+- Substandard and falsified medical products are often sold online or in informal markets.
+
+Overview
+========
+
+Substandard products are those that do not meet quality standards and specifications, often due to poor manufacturing practices or inadequate quality control. Falsified medical products deliberately misrepresent their identity, composition or source. These products are often created and distributed with the intent to deceive consumers for financial gain.
+
+Substandard and falsified medical products pose significant threats to public health globally. They can be ineffective at treating the illness, as they may contain incorrect ingredients or incorrect dosages. They can even be directly harmful to patients if they contain contaminants or toxic substances. They may be indirectly harmful through increased risk of antimicrobial resistance.
+
+Both substandard and falsified medical products put patients’ health at risk, undermine the effectiveness of health systems, and erode trust in health and care providers. Sometimes, certain problems with health affect some countries more than others. These problems can happen in places where everyone does not have access to healthcare. When that happens, people might buy medical products from places that are not permitted to sell them. Even in wealthy countries, the global trade and transportation of medicines pose significant risks. These risks stem from how medicines are manufactured and distributed across the world. To mitigate this, coordinated efforts are needed; governments, healthcare professionals and manufacturers must collaborate to enforce regulations and educate the public on safety measures.
+
+Scope of the problem
+====================
+
+Substandard and falsified medical products are a significant global health problem, impacting millions of people and compromising health systems worldwide. These products can be found in all countries, impacting all types of medical products, including life-saving treatments like vaccines, antibiotics and cancer therapies. In 2017, the World Health Organization estimated that 1 in 10 medicines in low- and middle-income countries failed quality control tests, suggesting the product is substandard or falsified. This can lead to serious health risks, treatment failures and even death.
+
+The economic burden is also substantial, with billions of dollars lost annually due to ineffective treatments, increased healthcare costs and loss of productivity. For patients, the consequences are dire: relying on ineffective or harmful products can exacerbate illnesses, lead to prolonged suffering and contribute to drug resistance, making diseases harder to treat.
+
+The issue of substandard and falsified medical products is pervasive and challenging to address due to sophisticated falsification techniques that are difficult to detect and insufficient national resources to respond effectively. This problem significantly undermines health systems, erodes trust in healthcare, and results in financial losses for both patients and legitimate industries.
+
+Increasingly sophisticated networks manufacture these products, exploiting the demand for affordable medical treatments. The rise in online sales through unauthorized sites has further exacerbated the issue, allowing falsified products to reach consumers more easily. Tackling this problem necessitates robust legal frameworks, regional and international cooperation, heightened public awareness and stronger enforcement measures. These steps are crucial to safeguarding the integrity of health systems and ensuring the availability of safe and effective medical products for prevention, treatment and care.
+
+Global cooperation, robust regulations, legal frameworks and public awareness are essential to tackle the issue and ensure that all people have access to safe and effective medical products.
+
+Who is at risk?
+===============
+
+Everyone is at risk of encountering substandard and falsified medical products, including
+
+- vulnerable populations
+
+- countries lacking social protection
+
+- countries with weaker health systems
+
+- individuals buying medical products from unauthorized sources (including online)
+
+- countries with a disrupted supply chain
+
+- countries with an increased demand of specific medical products.
+
+Impact
+======
+
+Substandard and falsified (SF) medical products severely impact public health, leading to severe and often fatal consequences. Patients may unknowingly consume medications that contain toxic substances or incorrect dosages, resulting in poisoning, treatment failure, and exacerbation of diseases. These products can accelerate the spread of drug-resistant infections, making once-treatable conditions deadly. The economic toll may also be serious as families deplete their savings on ineffective treatments, and health systems waste precious resources. Trust in healthcare providers and systems erodes, leaving communities vulnerable and fearful. The global reach of this issue means no region is spared, with both developed and developing countries grappling with the devastating impacts.
+
+Challenges
+==========
+
+Addressing substandard and falsified medical products is challenging due to limited resources and infrastructure in many regions, especially in low- and middle-income countries. Falsifiers are using sophisticated methods that make detection difficult. The rise of online purchases and informal markets makes it hard to monitor and control the distribution of these products. Additionally, the vast number of medical products in circulation worldwide makes comprehensive regulation and monitoring a significant challenge.
+
+Key drivers include:
+
+1. weak regulatory systems: insufficient regulatory oversight, lack of enforcement, punitive actions to deter offenders and inadequate inspection mechanisms;
+
+2. supply chain complexity: long and complex supply chains with multiple intermediaries increase the risk of product tampering and substitution;
+
+3. lack of access to affordable medicines: elevated prices and limited access to authentic medicines compel consumers to seek more affordable alternatives, often from unregulated and potentially unsafe sources (informal markets, online);
+
+4. consumer awareness and education: lack of awareness among consumers about the risks of substandard and falsified medical products and how to identify them; and
+
+5. corruption: within regulatory bodies, law enforcement, and the supply chain, corruption can facilitate the production and distribution of SF products.
+
+Addressing the issue of substandard and falsified medical products is a complex and multifaceted challenge requiring coordinated global efforts, significant investments in regulatory and enforcement capabilities, and sustained commitment from all stakeholders involved.
+
+Prevention, detection and response
+==================================
+
+Preventing, detecting and responding to substandard and falsified medical products require robust regulatory systems which enforce the highest possible quality standards for medical products.
+
+- Prevent the manufacture, sale and consumption of substandard and falsified medical products.
+
+- Implement systems to detect any substandard and falsified medical products already in the supply chain.
+
+- Respond quickly and proportionately to any incident detected, in ways that safeguard patients and the supply chain, take appropriate action whilst not causing unnecessary shortages.
+
+Governments must ensure that regulations and legal frameworks keep pace with technological developments and the regulatory standards are upheld and enforced in a consistent and transparent manner.
+
+Collaboration, reliance and information sharing between countries should be supported by governments to ensure both risks and best practices are shared.
+
+Technological solutions, for example handheld spectrometer devices, mobile apps, blockchain, track-and-trace systems and laboratory methods – when combined with robust regulatory frameworks and international cooperation – significantly enhance the detection and prevention of SF medical product.
+
+Public awareness campaigns are crucial to educate people about the risks of buying medical products from unauthorized sources.
+
+It is crucial to support local healthcare providers and ensure they have access to safe, affordable medical products. This involves strengthening healthcare infrastructure, providing training and resources and implementing policies that guarantee the availability of genuine, cost-effective medicines for all communities.
+
+WHO response
+============
+
+WHO addresses the issue of substandard and falsified medical products through coordinated political and technical responses.
+
+Political response: Member State mechanism
+
+The Member State mechanism was established to facilitate global collaboration among WHO Member States. It aims to promote and reinforce national and international efforts to prevent, detect and respond to substandard and falsified medical products. This mechanism allows member states to share information, experiences and best practices, ensuring a unified and effective global response. It also supports the development of regulatory frameworks, capacity building and the promotion of legal measures to combat these threats to public health.
+
+Technical response: Global Surveillance and Monitoring System
+
+The WHO Global Surveillance and Monitoring System (GSMS) is a comprehensive initiative launched in 2013 to enhance the detection, reporting and response to substandard and falsified medical products. By providing national regulatory authorities with a robust information portal, the GSMS facilitates the sharing of data on suspect products, enabling timely alerts and coordinated actions across borders. This system is vital to improve the accuracy and speed of identifying these products, supporting evidence-based policymaking, and strengthening regulatory capacities globally. Its collaborative approach ensures that health systems are better equipped to protect public health and maintain the integrity of medical supplies.
+
+Together, the Member State mechanism and GSMS provide a comprehensive framework for addressing the complex challenge of substandard and falsified medical products, enhancing global public health safety.

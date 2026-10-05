@@ -1,0 +1,87 @@
+WHO FACT SHEET
+Title: Free health care policies
+URL: https://www.who.int/news-room/fact-sheets/detail/free-health-care-policies
+Retrieved: 2026-10-05T09:32:12.367591+00:00
+
+========================================
+
+Key facts
+=========
+
+- Sufficient financial resources for the government to finance the exempted services are crucial for FHC policies to contribute towards universal health coverage.
+
+- Free health care (FHC) policies have gained popularity over the past 10 years, mostly in western Africa.
+
+- FHC policies remove formal user fees at the point of service. They can apply to everyone for all health services, or to a selection of specific population groups or services
+
+- While FHC policies may trigger an increase in the use of services, evidence on improved financial protection is mixed.
+
+- Without proper targeting and monitoring, better-off population groups will benefit from FHC policies more than vulnerable population groups.
+
+Overview
+========
+
+Free health care policies – or politiques de gratuité – are about removing formal user fees. The removal of fees may apply to all health services, to the primary care level, to selected population groups, to selected services for everyone, or to selected services for specific population groups characterized by medical or economic vulnerability.
+
+Evidence about the impact of FHC policies in terms of financial protection and health service utilization is mixed. If well-designed and implemented, FHC policies can expand coverage in countries with few resources and can therefore be part of a strategy and a catalyst to move towards universal health coverage (UHC).
+
+What is a free health care policy?
+==================================
+
+Free health care policies aim to reduce the financial barriers that people may experience when trying to access health services. They eliminate formal user fees at the point of service.
+
+Examples of services under a free health care policy include:
+
+- antenatal care
+
+- assisted deliveries
+
+- caesarean sections
+
+- health services for children below a defined age (often 5 years)
+
+- health services for elderly people above a certain age (often 65 years).
+
+These services are chosen to protect population groups deemed to be especially vulnerable, particularly low-income groups.
+
+Defined geographical areas or easy-to-observe socio-demographic criteria such as age, sex or pregnancy are used to determine whether a person is eligible for free health services at the point of use. This is in contrast to relying on income or another means of assessment to determine whether an individual is entitled to exemption from user fees.
+
+With limited budget resources to fund FHC as a way to make progress towards UHC, there are inevitable trade-offs, which lead to decisions about prioritizing particular services or population groups over others.
+
+Impact
+======
+
+When introducing a FHC policy, a government explicitly intends to make progress towards UHC in two ways:
+
+- increasing service utilization for specific services, in line with people’s health needs
+
+- improving financial protection.
+
+FHC policies also aim to enhance the quality of the health services guaranteed through this policy. Transparency and accountability are important aspects, as eligible people need to know if the policy applies to them.
+
+While FHC policies may trigger an increase in the use of services, evidence on improved financial protection is mixed. People may still have to make direct payments for other services they need.
+
+Moreover, if not properly anticipated and backed by increased supplies and medicines, FHC may have negative unintended consequences, such as patients having to pay for this scarce supply informally or in the private sector. Also, if user fees previously retained at the facility level are abolished, their effect as a direct incentive for health workers disappears, possibly leading to demotivated staff.
+
+Overall, the impacts of FHC policies have so far been mixed, especially for poor people, who may not benefit at all, or benefit to a lesser extent compared with better-off people. There are differences across and within countries, but overall, public funding tends to benefit better-off populations. Various aspects on the supply and demand sides may cause this trend in public funding. On the supply side, availability of health services is better in wealthier areas. On the demand-side, barriers can be financial and non-financial, such as limited geographical access to facilities or cultural and language barriers.
+
+Finally, setting up separate funding and remuneration mechanisms for FHC policies (when not linked with other health financing mechanisms) may contribute to fragmenting the health financing system. When there are several FHC policies in place for a variety of services, they may create disincentives to enrol in health insurance schemes with more comprehensive benefit packages.
+
+WHO response
+============
+
+Preparatory and complementary measures are needed for free health care policies to be successful.
+
+- Sufficient financial resources need to be provided to the facility level to compensate for both the loss of revenue at the provider level and the desired increase in use of services.
+
+- Provider payment methods and effective allocation channels must be in place before a FHC policy comes into effect. This is also critical to incentivize health workers.
+
+- Diagnosing and addressing the factors that prevent the poor from using priority health services are all critical to ensuring FHC policies benefit the most vulnerable.
+
+- Health services must be made available to the most distant and vulnerable population groups. A related measure is to increase the autonomy of health service providers.
+
+- Policy makers need to look for synergies and ensure that FHC policies lead towards a coherent health financing architecture.
+
+FHC policies for specific services or population groups may not benefit the poor as much as a targeted fee exemption based on income assessment or means testing, but in practice a FHC policy may be more feasible to implement.
+
+Provided they are well-designed and implemented and part of a wider strategic vision, FHC policies can effective instrument for broader reforms aimed at achieving UHC.

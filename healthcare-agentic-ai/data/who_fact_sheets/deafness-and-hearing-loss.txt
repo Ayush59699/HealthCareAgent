@@ -1,0 +1,210 @@
+WHO FACT SHEET
+Title: Deafness and hearing loss
+URL: https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss
+Retrieved: 2026-10-05T09:31:33.430000+00:00
+
+========================================
+
+Key facts
+=========
+
+- By 2050, nearly 2.5 billion people are projected to have some degree of hearing loss, and more than 700 million will require hearing rehabilitation.
+
+- Around 95.1 million children aged 5-19 years live with hearing loss worldwide.
+
+- Unaddressed hearing loss poses an annual global cost of almost US$ 1 trillion.
+
+- Over 1 billion young adults are at risk of permanent, avoidable hearing loss due to unsafe listening practices.
+
+- An annual additional investment of less than US$ 1.40 per person is needed to scale up ear and hearing care services globally.
+
+- Over a 10-year period, this promises a return of nearly US$ 16 for every US dollar invested.
+
+Overview
+========
+
+Over 5% of the world’s population – or 430 million people – require rehabilitation to address their disabling hearing loss (including 34 million children). It is estimated that by 2050 over 700 million people – or 1 in every 10 people – will have disabling hearing loss.
+
+Disabling hearing loss refers to hearing loss greater than 35 decibels (dB) in the better hearing ear. Nearly 80% of people with disabling hearing loss live in low- and middle-income countries. The prevalence of hearing loss increases with age, among those older than 60 years, over 25% are affected by disabling hearing loss.
+
+Hearing loss and deafness
+=========================
+
+A person who is not able to hear as well as someone with normal hearing – hearing thresholds of 20 dB or better in both ears – is said to have hearing loss. Hearing loss may be mild, moderate, moderately severe, severe or profound. It can affect one ear or both ears and leads to difficulty in hearing conversational speech or loud sounds.
+
+Hard of hearing refers to people with hearing loss ranging from mild to severe. People who are hard of hearing usually communicate through spoken language and can benefit from hearing aids, cochlear implants, and other assistive devices as well as captioning.
+
+Deaf people mostly have profound hearing loss, which implies very little or no hearing. They can benefit from cochlear implants. Some of them use sign language for communication.
+
+Causes of hearing loss and deafness
+===================================
+
+Although these factors can be encountered at different periods across the life span, individuals are most susceptible to their effects during critical periods in life.
+
+Prenatal period
+---------------
+
+- genetic factors including hereditary and non-hereditary hearing loss
+
+- intrauterine infections – such as rubella and cytomegalovirus infection.
+
+Perinatal period
+----------------
+
+- birth asphyxia (a lack of oxygen at the time of birth)
+
+- hyperbilirubinemia (severe jaundice in the neonatal period)
+
+- low-birth weight
+
+- other perinatal morbidities and their management.
+
+Childhood and adolescence
+-------------------------
+
+- chronic ear infections (chronic suppurative otitis media)
+
+- collection of fluid in the ear (chronic nonsuppurative otitis media)
+
+- meningitis and other infections.
+
+Adulthood and older age
+-----------------------
+
+- chronic diseases
+
+- smoking
+
+- otosclerosis
+
+- age-related sensorineural hearing loss
+
+- sudden sensorineural hearing loss.
+
+Factors across the life span
+----------------------------
+
+- cerumen impaction (impacted ear wax)
+
+- trauma to the ear or head
+
+- loud noise/loud sounds exposure
+
+- ototoxic medicines
+
+- work related ototoxic chemicals
+
+- nutritional deficiencies
+
+- viral infections and other ear conditions
+
+- delayed onset or progressive genetic hearing loss.
+
+The impact of unaddressed hearing loss
+======================================
+
+When unaddressed, hearing loss impacts many aspects of life at individual level:
+
+- limitations in communication and speech
+
+- adversely affected cognition
+
+- social isolation, loneliness and stigma
+
+- impact on society and economy
+
+- effects on years lived with disability (YDLs) and disability adjusted life years (DALYs)
+
+- limitations in access to education and employment
+
+- increased risk of developing dementia and accelerated cognitive decline when hearing loss remains unaddressed.
+
+Prevention
+==========
+
+Many of the causes that lead to hearing loss can be avoided through public health strategies and clinical interventions implemented across the life course.
+
+Prevention of hearing loss is essential throughout the life course, from prenatal and perinatal periods to older age. In children, nearly 60% of hearing loss is due to avoidable causes that can be prevented through implementation of public health measures. Likewise, most common causes of hearing loss in adults, such as exposure to loud sounds and ototoxic medicines, are preventable.
+
+Effective strategies for reducing hearing loss at different stages of the life course include:
+
+- immunization
+
+- good maternal and childcare practices
+
+- genetic counselling
+
+- identification and management of common ear conditions
+
+- occupational hearing conservation programmes for noise and chemical exposure
+
+- safe listening strategies for the reduction of exposure to loud sounds in recreational settings
+
+- rational use of medicines to prevent ototoxic hearing loss.
+
+Identification and management
+=============================
+
+Early identification of hearing loss and ear diseases is key to effective management.
+
+This requires systematic screening for detection of hearing loss and related ear diseases in those who are most at risk. This includes:
+
+- newborn babies and infants
+
+- pre-school and school-age children
+
+- people exposed to noise or chemicals at work
+
+- people receiving ototoxic medicines
+
+- older adults.
+
+Hearing assessment and ear examination can be conducted in clinical and community settings. Tools such as the hearWHO app, WHOears app and other technology-based solutions make it possible to screen for ear diseases and hearing loss with limited training and resources.
+
+Once hearing loss is identified, it is essential that it is addressed as early as possible and in an appropriate manner, to mitigate any adverse impact.
+
+Rehabilitation for hearing loss
+===============================
+
+Rehabilitation helps people with hearing loss to function at their optimum, which means they can be as independent as possible in everyday activities. Specifically, rehabilitation helps them to participate in education, work, recreation and meaningful roles, for example in their families or communities, throughout their lives. Interventions for rehabilitation for people with hearing loss include:
+
+- the provision of, and training in the use of, hearing technologies (e.g. hearing aids, cochlear implants, bone conduction implants and middle ear implants);
+
+- speech and language therapy to enhance perceptive skills and develop communication and linguistic abilities;
+
+- training in the use of sign language and other means of sensory substitution (e.g. speech reading, use of print on palm, Tadoma, signed communication);
+
+- the provision of hearing assistive technology, and services (e.g. frequency modulation and loop systems, alerting devices, telecommunication devices, captioning services and sign language interpretation); and
+
+- counselling, training and support to enhance engagement in education, work and community life.
+
+WHO response
+============
+
+WHO’s work on ear and hearing care is to promote integrated people-centred ear and hearing care (IPC-EHC).
+
+WHO’s work is guided by the recommendations of the WHO World report on hearing (2021), the World Health Assembly resolution on prevention of deafness and hearing loss and the World Health Assembly on sensory impairment resolution.
+
+WHO’s work includes:
+
+- guiding, assisting and supporting Member States to increase awareness of ear and hearing care issues;
+
+- facilitating data generation and dissemination of ear and hearing care-related data and information, such as through the World report on hearing;
+
+- providing technical resources and guidance to facilitate planning and health systems capacity building for ear and hearing care;
+
+- providing guidance on prevention of hearing loss;
+
+- promoting early identification of hearing loss through hearing screening across the life course, vision and hearing screening handbook and TAP modules;
+
+- providing guidance to strengthen rehabilitation for people with hearing loss through the Package of ear and hearing care interventions;
+
+- supporting health workforce training in ear and hearing care through the Primary ear and hearing care training resources, and TAP modules;
+
+- promoting safe listening to reduce the risk of recreational noise-induced hearing loss through the WHO Make Listening Safe initiative;
+
+- observing and promoting World Hearing Day as an annual advocacy event;
+
+- building partnerships to develop strong hearing care programmes, including initiatives for including affordable and accessible ear and hearing care services and hearing aids in service delivery approaches suitable for low-and middle- income countries and cochlear implants; and
+
+- advocating for ear and hearing care through the World Hearing Forum.

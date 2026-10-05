@@ -1,0 +1,136 @@
+WHO FACT SHEET
+Title: Low back pain
+URL: https://www.who.int/news-room/fact-sheets/detail/low-back-pain
+Retrieved: 2026-10-05T09:33:06.301210+00:00
+
+========================================
+
+Key facts
+=========
+
+- In 2020, low back pain (LBP) affected 619 million people globally and it is estimated that the number of cases will increase to 843 million cases by 2050, driven largely by population expansion and ageing (1).
+
+- LBP is the single leading cause of disability worldwide and the condition for which the greatest number of people may benefit from rehabilitation.
+
+- LBP can be experienced at any age, and most people experience LBP at least once in their life.
+
+- Prevalence increases with age up to 80 years, while the highest number of LBP cases occurs at the age of 50–55 years. LBP is more prevalent in women (2).
+
+- Non-specific LBP is the most common presentation of LBP (about 90% of cases).
+
+Overview
+========
+
+Low back pain (LBP) describes pain between the lower edge of the ribs and the buttock. It can last for a short time (acute), a little longer (sub-acute) or a long time (chronic). It can affect anyone.
+
+LBP makes it hard to move and can affect quality of life and mental well-being. It can limit work activities and engagement with family and friends.
+
+LBP can be specific or non-specific. Specific LBP is pain that is caused by a certain disease or structural problem in the spine, or when the pain radiates from another part of the body.
+
+Non-specific LBP is when it isn’t possible to identify a specific disease or structural reason to explain the pain. LBP is non-specific in about 90% of cases.
+
+In all types and at all stages of LBP, rehabilitation is essential to reassure people and help them make sense of their pain, help them return to activities they enjoy and identify strategies to support recovery and improve function. Specialized care pathways may be needed for specific LBP.
+
+An estimated 619 million people live with LBP and it is the leading cause of disability worldwide. LBP is a major public health issue. LBP is often associated with loss of work productivity and thus produces huge economic burden on individuals and on societies.
+
+Scope of the problem
+====================
+
+Low back pain (LBP) has the highest prevalence globally among musculoskeletal conditions and is the leading cause of disability worldwide. It is the condition where the greatest number of people may benefit from rehabilitation.
+
+People at any age can experience LBP, including children and adolescents. Most people experience LBP at some point in their lives. The peak in the number of cases occurs at 50–55 years, and women experience LBP more frequently than men. The prevalence and disability impact of LBP are greatest among older people aged 80–85 years. Recurrent LBP episodes are more common with ageing.
+
+Chronic LBP is a major cause of work loss and participation restriction and reduced quality of life around the world. Considering the high prevalence, LBP contributes to a huge economic burden on societies. It should be considered a global public health problem that requires an appropriate response.
+
+Signs and symptoms
+==================
+
+Low back pain can be a dull ache or sharp pain. It can also cause pain to radiate into other areas of the body, especially the legs.
+
+LBP can restrict a person’s movement, which can affect their work, school and community engagement. It can also cause problems with sleep, low mood and distress.
+
+LPB can be acute (lasting under 6 weeks), sub-acute (6–12 weeks) or chronic (over 12 weeks).
+
+In most cases of acute LBP, symptoms go away on their own and most people will recover well. However, for some people the symptoms will continue and turn into chronic pain.
+
+People with LBP may also experience spine-related leg pain (sometimes called sciatica or radicular pain). This is often described as a dull sensation or a sharp, electric shock feeling. Numbness or tingling and weakness in some muscles may be experienced with the leg pain.
+
+When associated with LBP, radicular signs and symptoms are often due to involvement of a spinal nerve root. Some people may experience radicular symptoms without LBP, when a nerve is compressed or injured distal to the spinal column.
+
+All these experiences affect well-being and quality of life and often lead to loss of work and retirement wealth, particularly in those who experience chronic symptoms.
+
+Cause and risk factors
+======================
+
+LBP may be classified as specific or non-specific. Non-specific means that the experience of pain cannot be confidently accounted for by another diagnosis such as an underlying disease, pathology or tissue damage. It is non-specific in about 90% of cases. Risk factors for non-specific LBP include low physical activity levels, smoking, obesity and high physical stress at work.
+
+Specific LBP can be explained by an underlying disease (e.g., cancer), tissue damage (e.g., fracture), or may be referred from other organs (e.g., from kidney or aortic aneurysm).
+
+Treatment and management
+========================
+
+Treatment for LBP depends on the nature of the pain and whether it is non-specific or specific.
+
+For specific LBP, treatments focus on treating the underlying condition causing the pain.
+
+Treatments for non-specific LBP include:
+
+- physical therapies to improve muscle strength and ability to move and resume physical activity and exercise
+
+- psychological and social support to help people manage their pain and return to doing activities they enjoy
+
+- reducing strain during physical work
+
+- lifestyle changes including more physical activity, healthy diet and good sleep habits.
+
+Medicines can be used to reduce the symptoms of LBP and should ideally be combined with other treatments. Painkillers should not be the first-line treatment for LBP. Older people and those with other medical conditions should speak to a healthcare provider before using medicines.
+
+With the onset of any LBP, a comprehensive clinical assessment comprising a careful physical examination and a psychosocial assessment is essential to tailor care while considering a person’s values, preferences and care priorities.
+
+The longer a person experiences LBP, the more likely that limitations in functioning will manifest. In these contexts, adopting a biopsychosocial approach to assessment and care planning becomes increasingly important. Rehabilitation includes sets of interventions that aim to achieve and maintain independence in daily living and optimal participation in meaningful activities, such as work and community life and to achieve well-being. Interventions for rehabilitation in LBP include non-pharmacologic and pharmacologic options, whereas non-pharmacological interventions have in most cases a high priority.
+
+Self-care
+=========
+
+Self-care is an important part of managing LBP and returning to meaningful life activities.
+
+There are several ways to reduce symptoms and help prevent further episodes of non-specific low back pain:
+
+- being physically active
+
+- optimizing mental well-being
+
+- maintaining a healthy body weight
+
+- not smoking tobacco
+
+- getting good sleep
+
+- being engaged in social and work activities
+
+- making ergonomic adjustments in the workplace.
+
+Education and support can help people with low back pain to develop strategies to self-manage and cope with the symptoms. This helps to reduce the impact of the disease and improve well-being.
+
+WHO response
+============
+
+WHO is taking action to extend access to care for people with low back pain in different ways:
+
+WHO Rehabilitation 2030 Initiative:
+
+The Package of Interventions for Rehabilitation provides information on essential interventions for rehabilitation (including assistive products), and human and material resources for 20 health conditions, including low back pain.
+
+UN Decade of Healthy Ageing:
+
+WHO recommends a reorientation of health and care systems to promote healthy ageing and address the diverse needs of older persons.
+
+The Integrated Care for Older People (ICOPE) approach promotes the person-centred assessment of the older person to guide the design of personalized, health and social care, including long-term care interventions. Specific recommendations are provided to prevent the loss of locomotor and psychological capacity because of pain.
+
+The WHO Guideline on management of chronic primary low back pain in adults (under development) will provide evidence-based recommendations about non-surgical care in primary and community care settings.
+
+References
+
+1. GBD 2021 Low Back Pain Collaborators. Global, regional, and national burden of low back pain, 1990-2020, its attributable risk factors, and projections to 2050: a systematic analysis of the Global Burden of Disease Study 2021. Lancet Rheumatol 2023: 5: e316-29.
+
+2. GBD 2019: Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019. https://vizhub.healthdata.org/gbd-results/.

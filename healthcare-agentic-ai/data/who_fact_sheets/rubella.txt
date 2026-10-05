@@ -1,0 +1,69 @@
+WHO FACT SHEET
+Title: Rubella
+URL: https://www.who.int/news-room/fact-sheets/detail/rubella
+Retrieved: 2026-10-05T09:34:35.591245+00:00
+
+========================================
+
+Key facts
+=========
+
+- Rubella is a contagious viral infection transmitted by airborne droplets that occurs most often in children and young adults.
+
+- Rubella is the leading vaccine-preventable cause of birth defects, accounting for an estimated 100 000 infants born with congenital rubella syndrome (CRS) each year worldwide.
+
+- Rubella virus infection during pregnancy may result in miscarriage, fetal death or CRS. The most severe damage occurs early in pregnancy, especially in the first trimester.
+
+- Even though a safe and cost-effective vaccine is available, in 2022, there were an estimated 17 865 cases of rubella in 78 countries.
+
+Overview
+========
+
+Rubella is a highly contagious disease caused by a virus. It spreads easily when an infected person coughs or sneezes. Most children and adults who get rubella have a mild fever and rash.
+
+When a woman is infected with the rubella virus early in pregnancy, she has a 90% chance of passing the virus on to her fetus. Rubella in pregnancy, especially during the first trimester, can result in miscarriage, fetal death, stillbirth, or infants with congenital malformations, known as congenital rubella syndrome (CRS).
+
+Being vaccinated is the best way to prevent getting sick with rubella or spreading it to other people. The vaccine is safe and helps your body fight off the virus.
+
+There were an estimated 17 865 cases of rubella in 78 countries in 2022, despite the availability of a safe and cost-effective vaccine.
+
+The Measles & Rubella Partnership (M&RP) has been helping deliver measles and rubella vaccines since 2000 to children worldwide, contributing to saving an estimated 59 million lives and substantially reducing birth defects due to congenital rubella infections.
+
+Symptoms
+========
+
+In children, the disease is usually mild, with symptoms including a rash, low fever (<39°C), nausea and mild conjunctivitis. The rash, which occurs in 50–80% of cases, lasts 1–3 days and usually starts on the face and neck before progressing down the body. Swollen lymph glands behind the ears and in the neck are the most characteristic clinical feature. Infected adults, more commonly women, may develop arthritis and painful joints that usually last from 3–10 days.
+
+Once a person is infected, the virus spreads throughout the body in about 5–7 days. Symptoms usually appear 2 to 3 weeks after exposure. The most infectious period is usually 1–5 days after the appearance of the rash.
+
+When a woman is infected with the rubella virus early in pregnancy, she has a 90% chance of passing the virus on to her fetus. This can cause the death of the fetus, or it may cause CRS. Infants with CRS may excrete the virus for a year or more.
+
+Congenital rubella syndrome
+===========================
+
+Children with CRS can suffer hearing impairments, eye and congenital heart defects and developmental delay – many of which require costly interventions and other expensive care.
+
+The highest risk of CRS is in countries where women of childbearing age do not have immunity to the disease (either through vaccination or from having had rubella). Before the introduction of the vaccine, up to 4 babies in every 1000 live births were born with CRS.
+
+Vaccination
+===========
+
+The rubella vaccine is a live attenuated strain, and a single dose gives more than 95% long-lasting immunity, which is similar to that induced by natural infection.
+
+Rubella vaccines are available either in monovalent formulation (a vaccine directed at only one pathogen) or more commonly in combinations with other vaccines such as with vaccines against measles (MR), measles and mumps (MMR), or measles, mumps and varicella (MMRV).
+
+Adverse reactions following vaccination are generally mild. They may include pain and redness at the injection site, low-grade fever, rash and muscle aches.
+
+WHO response
+============
+
+WHO recommends that all countries that have not yet introduced rubella vaccine should consider doing so using existing, well-established measles immunization programmes. To date, all six WHO regions have adopted rubella and CRS elimination goals. In 2015, the WHO Region of the Americas became the first in the world to be declared free of endemic transmission of rubella.
+
+The number of countries using rubella vaccines in their national programme continues to steadily increase. As of January 2025, 179 out of 194 countries had introduced rubella containing vaccines and global coverage was estimated at 73%. Reported rubella cases declined 97%, from 670 894 cases in 102 countries in 2000 to 17 865 cases in 78 countries in 2022. CRS rates are highest in the WHO African and South-East Asian Regions where vaccination coverage is lowest.
+
+By the end of 2030
+------------------
+
+The Measles & Rubella Partnership (M&RP) has been helping deliver measles and rubella vaccines since 2000 to children worldwide, contributing to saving an estimated 59 million lives and substantially reducing birth defects due to congenital rubella infections. Despite this progress, measles continues to be one of the leading vaccine preventable killer of children globally. Under the umbrella of Immunization Agenda 2030 (IA2030) and guided by the Measles and Rubella Strategic Framework 2030 (MRSF), M&RP’s current mission includes addressing decline in national vaccination coverage and accelerating progress towards creating a world free of measles and rubella. The partnership consists of American Red Cross; The Gates Foundation; Gavi, the Vaccine Alliance; U.S. Centers for Disease Control and Prevention, United Nations Foundation, UNICEF and WHO.
+
+M&RP is part of IA2030, an ambitious global strategy to maximize the lifesaving impact of vaccines – one of the most successful and cost-effective public health interventions of all time. IA2030 aims to avert over 50 million deaths by 2030 through access to essential vaccines and help build healthcare systems that can withstand the impact of pandemics and deliver rapid vaccination response.

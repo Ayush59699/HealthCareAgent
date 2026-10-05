@@ -1,0 +1,102 @@
+WHO FACT SHEET
+Title: Trichomoniasis
+URL: https://www.who.int/news-room/fact-sheets/detail/trichomoniasis
+Retrieved: 2026-10-05T09:35:11.410998+00:00
+
+========================================
+
+Key facts
+=========
+
+- Trichomoniasis is a common sexually transmitted infection (STI) among women of reproductive age, caused by the protozoan Trichomonas vaginalis.
+
+- It is treatable and curable.
+
+- In 2020 there were approximately 156 million new cases of T. vaginalis infection among people aged 15–49 years old.
+
+- In females, trichomoniasis is a common cause of vaginal discharge and is associated with poor birth outcomes and increased risk of pelvic inflammatory disease.
+
+- Infection with T. vaginalis is also associated with increased risk of HIV acquisition.
+
+Overview
+========
+
+Trichomonas vaginalis is a preventable and curable sexually transmitted protozoan that infects the urogenital tract.
+
+More than 50% of women with Trichomonas vaginalis infection have vaginal discharge and about 10% of men have urethritis or urethral discharge.
+
+Correct and consistent use of condoms during sex can prevent trichomoniasis.
+
+Scope of the problem
+====================
+
+Trichomonas vaginalis is the most common non-viral STI. There were an estimated 156 million new cases of T. vaginalis infection among people aged 15–49 years old in 2020 globally in 2020 (73.7 million in females, 82.6 million in males).
+
+Approximately one third of new infections in this age group occur in the WHO African Region, followed by the Region of the Americas.
+
+Transmission
+============
+
+Sexually active people can get trichomoniasis by having sex without a condom with a partner who has trichomoniasis.
+
+Symptoms
+========
+
+Trichomoniasis infection in women may be symptomatic or asymptomatic. Vaginal discharge is the main symptom that women may present, and can be accompanied by itch, pain when urinating and pain during intercourse. In men, most infections are asymptomatic but some experience penile discharge or pain when urinating.
+
+Symptomatic women can have vaginal discharge, which may appear purulent. Other symptoms include a red and sore vagina. The person with the infection can also feel pain during intercourse and urination. In women, when T. vaginalis is present, discharge can be observed in the vagina during a speculum examination by a health provider.
+
+Men are often asymptomatic, but some experience urethral discharge/urethritis, or penile irritation.
+
+Prevention
+==========
+
+Trichomoniasis is a preventable condition.
+
+The most effective method to prevent sexual transmission of trichomoniasis and various other STIs is by consistently and correctly using condoms.
+
+People diagnosed with trichomoniasis should inform their sexual partners to prevent further transmission. If that is not possible, they should request support from the health provider to notify their sexual partners.
+
+Diagnosis
+=========
+
+Healthcare providers will discuss the patient’s medical and sexual history and conduct a genital examination, including speculum examination and palpation, to enable them to have important clues to clinical diagnosis. Diagnostic options include smear microscopy and antigen or molecular testing. The latter include nucleic acid amplification tests (NAAT), considered in some settings as a gold standard for diagnosing T. vaginalis. These can be performed in the lab. Vaginal or endocervical specimens are the preferred specimen type for diagnostic testing.
+
+In many primary healthcare settings where diagnostic capacity for detecting T. vaginalis is not available, a syndromic approach for case management is recommended.
+
+In the presence of T. vaginalis (or vaginal discharge), tests for other sexually transmitted infections (such as HIV and syphilis) are recommended, together with notification of sexual partner(s).
+
+Treatment
+=========
+
+Trichomoniasis is treatable and curable.
+
+It is best treated with the antibiotics metronidazole or tinidazole. Although resistance is uncommon, treatment failure occurs in a small proportion of cases. Several second-line regimens are available and should be initiated by the healthcare professionals.
+
+Women who present with vaginal discharge, and who are managed based on the syndromic approach are treated for bacterial vaginosis (BV), candidiasis and trichomoniasis. Metronidazole is indicated for both BV and trichomonas, while topical or oral antifungals are indicated for candidiasis.
+
+Recommendations for the treatment of Trichomonas vaginalis, Mycoplasma genitalium, Candida albicans, bacterial vaginosis and human papillomavirus (‎anogenital warts)‎
+
+Possible complications
+======================
+
+Perinatal outcomes
+------------------
+
+Untreated T. vaginalis is linked to adverse birth outcomes, including low birth weight, preterm delivery and premature rupture of membranes. Although uncommon, perinatal transmission of T. vaginalis can occur, leading to vaginal and respiratory infections in newborns.
+
+HIV transmission
+----------------
+
+T. vaginalis infections are linked to a 1.5 times increased risk of HIV acquisition.
+
+WHO response
+============
+
+The WHO Global health sector strategies on HIV, viral hepatitis and STIs 2022–2030 aims for a 50% reduction in new cases of trichomoniasis by 2030. WHO collaborates with countries and partners to enhance people-centred STI case management methods, promote suitable treatment recommendations, and implement effective testing and partner services strategies.
+
+WHO also supports the development of accessible and affordable high-quality diagnostics and treatment options, as well as advancements in vaccine development. Additionally, WHO focuses on improving country and global-level monitoring of new infections.
+
+Although antimicrobial resistance in T. vaginalis is not widespread, WHO closely monitors patterns of potential antimicrobial resistance of this pathogen to inform treatment recommendations and national policies.
+
+In 2024, WHO published Recommendations for the treatment of Trichomonas vaginalis, Mycoplasma genitalium, Candida albicans, bacterial vaginosis and human papillomavirus (‎anogenital warts)‎ to provide evidence-informed clinical and practical recommendations on case management of Trichomonas vaginalis.

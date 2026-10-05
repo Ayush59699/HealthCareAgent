@@ -1,0 +1,112 @@
+WHO FACT SHEET
+Title: Hepatitis E
+URL: https://www.who.int/news-room/fact-sheets/detail/hepatitis-e
+Retrieved: 2026-10-05T09:32:31.911924+00:00
+
+========================================
+
+Key facts
+=========
+
+- Hepatitis E is an inflammation of the liver caused by infection with the hepatitis E virus (HEV).
+
+- An estimated 20 million people are infected with HEV globally every year, of which 3.3 million are symptomatic. Approximately 4431 people died of HEV in 2023.
+
+- The virus is transmitted via the fecal-oral route, principally via contaminated water.
+
+- Hepatitis E is found worldwide, but the disease is most common in sub-Saharan Africa and east and south Asia. Nearly 50% of outbreaks occur in camp settings such as refugee camps or internally displaced person camps.
+
+- A vaccine to prevent hepatitis E virus infection is licensed in China and other countries and has been used as an outbreak response measure.
+
+Overview
+========
+
+Hepatitis E is inflammation of the liver caused by the hepatitis E virus (HEV). The virus is shed in the stools of infected people and enters the human body through the oral route. It is transmitted mainly through contaminated drinking water. The infection is usually self-limiting and resolves within 2–6 weeks. A serious disease known as fulminant hepatitis (acute liver failure) occasionally develops, which can be fatal.
+
+Transmission
+============
+
+Hepatitis E infection is found worldwide and is common in low- and middle-income countries with limited access to essential water, sanitation, hygiene and health services. Infection can occur as outbreaks or as sporadic cases. HEV has four major genotypes that cause human disease (genotypes 1, 2, 3 and 4). The genotypes have distinct routes of transmission and geographical distributions. HEV genotypes 1 and 2 primarily infect humans, whereas genotypes 3 and 4 mainly infect non-human mammals and cause occasional zoonotic disease in humans. The transmission of genotypes 3 and 4 is mainly zoonotic, through consumption of uncooked or undercooked meat, with the environment also a likely source of infection.
+
+Genotype 1 and 2, the most prevalent HEV genotypes in Africa and parts of Asia, are mainly faecal-orally transmitted. In particular contamination of drinking water often leads to large-scale outbreaks, affecting several hundred to several thousand people. Some of these outbreaks have occurred in areas of conflict and humanitarian emergencies such as war zones and camps for refugees or internally displaced populations, where sanitation and safe water supply pose special challenges.
+
+Symptoms
+========
+
+The incubation period following exposure to HEV ranges from 2 to 10 weeks, with an average of 5 to 6 weeks. The infected persons excretes the virus beginning from a few days before to 3–4 weeks after onset of the disease.
+
+In areas with high disease endemicity, symptomatic infection is most common in young adults aged 15–40 years. In these areas, although infection does occur in children, it often goes undiagnosed because they typically have no symptoms or only a mild illness without jaundice.
+
+Typical signs and symptoms of hepatitis include:
+
+- an initial phase of mild fever, reduced appetite (anorexia), nausea and vomiting lasting for a few days;
+
+- abdominal pain, itching, skin rash or joint pain;
+
+- jaundice (yellow colour of the skin), dark urine and pale stools; and
+
+- a slightly enlarged, tender liver (hepatomegaly).
+
+These symptoms may be indistinguishable from those experienced during other forms of hepatitis or other infectious diseases in endemic areas, such as leptospirosis, dengue, yellow fever and malaria. The symptoms typically last 1–6 weeks.
+
+Although hepatitis E is commonly considered as an acute, self-limited disease, in rare cases acute hepatitis E can be severe and result in fulminant hepatitis (acute liver failure). These patients are at risk of death. Pregnant women with hepatitis E, particularly those in the second or third trimester, are at increased risk of acute liver failure, fetal loss and mortality. Up to 20–25% of pregnant women can die if they get hepatitis E in third trimester.
+
+Rarely, cases of chronic hepatitis E infection have as well been reported in immunosuppressed people, particularly organ transplant recipients on immunosuppressive drugs.
+
+Diagnosis
+=========
+
+Cases of hepatitis E are not clinically distinguishable from other types of acute viral hepatitis or potentially other infectious disease that cause jaundice. However, diagnosis can often be strongly suspected in appropriate epidemiologic settings, for example when several cases occur in localities in known disease-endemic areas, in settings with risk of water contamination when the disease is more severe in pregnant women or if hepatitis A has been excluded.
+
+Definitive diagnosis of hepatitis E infection is usually based on the detection of specific anti-HEV immunoglobulin M (IgM) antibodies to the virus in a person’s blood. Rapid tests are available for field use. Other laboratory findings include elevated serum concentrations of bilirubin, alanine aminotransferase (ALT), and aspartate aminotransferase (AST).
+
+Additional tests include reverse transcriptase polymerase chain reaction (RT-PCR) to detect the hepatitis E virus RNA in blood and stool. This assay requires specialized laboratory facilities. This test is particularly needed in areas where hepatitis E is infrequent and in uncommon cases with chronic HEV infection.
+
+Treatment
+=========
+
+There is no specific antiviral treatment capable of altering the course of acute hepatitis E. As the disease is usually self-limiting, hospitalization is generally not required. It is important to avoid unnecessary medications that can adversely affect liver function, for example acetaminophen (paracetamol).
+
+Hospitalization is required for people with fulminant hepatitis and should also be considered for symptomatic pregnant women.
+
+Prevention
+==========
+
+Prevention is the most effective approach against the infection. It is particularly important to guarantee that exposed pregnant women have access to appropriate information and prevention measures. At the population level, transmission of HEV and hepatitis E infection can be reduced by:
+
+- maintaining quality standards for public water supplies
+
+- establishing proper disposal systems for human faeces.
+
+On an individual level, infection risk can be reduced by:
+
+- maintaining hygienic practices
+
+- avoiding consumption of water and ice of unknown purity.
+
+HEV prevention and disease control therefore primarily rely on water, sanitation, and hygiene (WASH) measures which are often inadequately implemented in settings which would benefit most.
+
+Additionally, the development of the only currently available Hepatitis E vaccine, known as HEV 239 vaccine (Hecolin®), marks an opportunity to protect vulnerable populations and curb disease outbreaks.
+
+The vaccine has been licensed for use in healthy adults aged ≥16 years in China since 2011 via intramuscular injection using a 3-dose schedule (0, 1 and 6 months). The product is supplied in a pre-filled syringe with an approved shelf life of at least 36 months. In a large, phase III clinical trial in China, it exhibited a high efficacy rate and exhibited a good safety profile, notably in adults aged ≥16 year
+
+In March 2022, a significant milestone in the field of hepatitis E vaccination was achieved on the African continent. In response to the hepatitis E outbreak in Bentiu, South Sudan, Médecins Sans Frontières supported the South Sudan Ministry of Health to implement a hepatitis E vaccination campaign. Three vaccination rounds were conducted, immunizing more than 24 000 people per round, including pregnant women. This was the first ever use of the vaccine to mitigate the consequences of an outbreak, as recommended by WHO in its 2015 Hepatitis E vaccine position paper.
+
+A second campaign was put in place in 2023 to respond to an outbreak in Fangak County, Jonglei State, South Sudan.
+
+WHO response
+============
+
+Hepatitis E vaccine was approved as the fifth vaccine under the International Coordinating Group (ICG) mechanism. WHO is currently working with experts and global partners to make vaccines available as an outbreak response intervention.
+
+In addition, WHO issued the technical report Waterborne outbreaks of hepatitis E: recognition, investigation and control in 2014. The manual gives information about the epidemiology, clinical manifestations and diagnosis of hepatitis E. It also provides guidance for public health authorities on how to respond to outbreaks of hepatitis E infection.
+
+WHO has a key role in global outbreak response and rapid detection and verification of health emergencies. WHO’s global surveillance system picks up public health threats 24 hours a day, 365 days a year. Hepatitis E outbreaks are regularly notified to WHO and the organization provides a coordinate 3-level response in support of its members states, if necessary. In 2024, WHO has played a central role in the coordination and response to HEV outbreaks in Chad, South Sudan and Central African Republic, among others.
+
+Global health sector strategies on, respectively, HIV, viral hepatitis, and sexually transmitted infections for the period 2022–2030 (GHSS) guide the health sector in implementing strategically focused responses to achieve the goals of ending AIDS, viral hepatitis (especially chronic hepatitis B and C) and sexually transmitted infections by 2030.
+
+WHO organizes annual World Hepatitis Day campaigns on 28 July to increase awareness and understanding of viral hepatitis.
+
+References
+
+1. Institute for Health Metrics and Evaluation (IHME), Acute hepatitis E—Level 4 cause, https://www.healthdata.org/research-analysis/diseases-injuries-risks/factsheets/2021-acute-hepatitis-e-level-4-disease

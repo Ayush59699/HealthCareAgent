@@ -1,0 +1,54 @@
+WHO FACT SHEET
+Title: Primary health care
+URL: https://www.who.int/news-room/fact-sheets/detail/primary-health-care
+Retrieved: 2026-10-05T09:34:18.944218+00:00
+
+========================================
+
+Key facts
+=========
+
+- Over 1.6 billion people worldwide were at risk of being pushed into poverty or further impoverished due to out-of-pocket health spending of 10% or more of their household budget in 2022.
+
+- Scaling up primary health care (PHC) interventions across low and middle-income countries could save 60 million lives and increase average life expectancy by 3.7 years by 2030.
+
+- An estimated 75% of the projected health gains from the Sustainable Development Goals could be achieved through PHC.
+
+- Achieving the targets for PHC requires an additional investment of around US$ 200 to US$ 328 billion a year for a more comprehensive package of health services.
+
+Overview
+========
+
+The concept of PHC has been repeatedly reinterpreted and redefined in the years since 1978, leading to confusion about the term and its practice. A clear and simple definition has been developed to facilitate the coordination of future PHC efforts at the global, national and local levels and to guide their implementation: "PHC is a whole-of-society approach to health that aims at ensuring the highest possible level of health and well-being and their equitable distribution by focusing on people’s needs and as early as possible along the continuum from health promotion and disease prevention to treatment, rehabilitation and palliative care, and as close as feasible to people’s everyday environment."
+
+PHC entails three inter-related and synergistic components, including: comprehensive integrated health services that embrace primary care as well as public health goods and functions as central pieces; multi-sectoral policies and actions to address the upstream and wider determinants of health; and engaging and empowering individuals, families and communities for increased social participation and enhanced self-care and self-reliance in health.
+
+PHC is rooted in a commitment to social justice, equity, solidarity and participation. It is based on the recognition that the enjoyment of the highest attainable standard of health is one of the fundamental rights of every human being without distinction.
+
+For universal health coverage (UHC) to be truly universal, a shift is needed from health systems designed around diseases and institutions towards health systems designed for people, with people. PHC requires governments at all levels to underscore the importance of action beyond the health sector in order to pursue a whole-of government approach to health, including health-in-all-policies, a strong focus on equity and interventions that encompass the entire life-course.
+
+PHC addresses the broader determinants of health and focuses on the comprehensive and interrelated aspects of physical, mental and social health and well-being. It provides whole-person care for health needs throughout the lifespan, not just for a set of specific diseases. Primary health care ensures people receive quality comprehensive care – ranging from promotion and prevention to treatment, rehabilitation and palliative care – as close as feasible to people’s everyday environment.
+
+Why is primary health care important?
+=====================================
+
+Member States have committed to primary health care renewal and implementation as the cornerstone of a sustainable health system for UHC, health related Sustainable Development Goals (SDGs) and health security. PHC provides the programmatic engine for UHC, the health-related SDGs and health security. This commitment has been codified and reiterated in the Declaration of Astana, the accompanying World Health Assembly Resolution 72/2, Global Monitoring Reports on UHC, and the United Nations General Assembly high-level declarations on UHC. UHC, the health-related SDGs and health security goals are ambitious but achievable. Progress must be urgently accelerated, and PHC provides the means to do so.
+
+PHC is the most inclusive, equitable, cost-effective and efficient approach to enhance people’s physical and mental health, as well as social well-being. Evidence of wide-ranging impact of investment in PHC continues to grow around the world, particularly in times of crisis such as the COVID-19 pandemic.
+
+Across the world, investments in PHC improve equity and access, health-care performance, accountability of health systems, and health outcomes. While some of these factors are directly related to the health system and access to health services, the evidence is clear that a broad range of factors beyond health services play a critical role in shaping health and well-being. These include social protection, food systems, education and environmental factors, among others.
+
+PHC is also critical to make health systems more resilient to situations of crisis, more proactive in detecting early signs of epidemics and more prepared to act early in response to surges in demand for services. Although the evidence is still evolving there is widespread recognition that PHC is the so-called front door of the health system and provides the foundation for the strengthening of the essential public health functions to confront public health crises such as COVID-19.
+
+WHO response
+============
+
+WHO is helping countries to reorient their health systems towards PHC as a key means towards achieving UHC, SDG3 and health security. Health systems should be fit for people, fit for context and fit for purpose. Health system strengthening involves strengthening of health governance and financing; the health workforce; gender, equity and rights; information systems; quality and patient safety; maternal, newborn, child and adolescent health through to healthy ageing; sexual and reproductive health; medicines and medical supplies; emergency preparedness, response and recovery; work on communicable and non-communicable diseases, among others.
+
+WHO has identified three strategic areas of work to strengthen PHC worldwide.
+
+1. Providing a one-stop mechanism for PHC implementation support to Member States, tailored to country context and priorities. This includes putting into action the Operational Framework for PHC and capitalizing on investment opportunities from the COVID-19 response, building back better PHC-based health systems during recovery efforts. This core function is driven by and builds on existing work and experiences from countries and regions from across the world.
+
+2. Producing PHC-oriented evidence and innovation, with a sharper focus on people left behind. This work is based on existing implementation evidence, best practice guidance and implementation solutions, expertise from successful countries, and literature published to drive innovative solutions. Key deliverables include monitoring and measurement guidance to assess PHC progress in countries and, subsequently, a global report on PHC progress, as well as an innovative capacity building effort as part of the WHO Academy.
+
+3. Promoting PHC renewal through policy leadership, advocacy and strategic partnerships with governments, non-governmental organizations, civil society organizations, development partners, UN sister agencies, donors and other stakeholders at global, regional and country levels. Among other initiatives, this workstream will establish an external Strategic Advisory Group on PHC to advise the WHO on PHC renewal worldwide, it will create a PHC award for recognizing PHC excellence globally, and it will promote new PHC partnerships and collaborative networks incorporating new stakeholders such as young health leaders, parliamentarians and civil society at large.

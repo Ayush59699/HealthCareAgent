@@ -1,0 +1,85 @@
+WHO FACT SHEET
+Title: Guillain–Barré syndrome
+URL: https://www.who.int/news-room/fact-sheets/detail/guillain-barr%C3%A9-syndrome
+Retrieved: 2026-10-05T09:32:17.180917+00:00
+
+========================================
+
+Key facts
+=========
+
+- Guillain-Barré syndrome is a rare condition in which a person’s immune system attacks the peripheral nerves.
+
+- People of all ages can be affected, but it is more common in adults and in males.
+
+- Most people recover fully from even the most severe cases of Guillain-Barré syndrome.
+
+- Severe cases of Guillain-Barré syndrome are rare but can result in near-total paralysis and problems breathing.
+
+- Guillain-Barré syndrome is potentially life-threatening. People with Guillain-Barré syndrome should be treated and monitored as quickly as possible; some may need intensive care. Treatment includes supportive care and some immunological therapies.
+
+Overview
+========
+
+In Guillain-Barré syndrome (GBS), the body's immune system attacks part of the peripheral nervous system. The syndrome can affect the nerves that control muscle movement as well as those that transmit pain, temperature and touch sensations. This can result in muscle weakness, loss of sensation in the legs and/or arms, and problems swallowing or breathing.
+
+It is a rare condition, and while it is more common in adults and in males, people of all ages can be affected.
+
+Symptoms
+========
+
+Symptoms typically last a few weeks, with most individuals recovering without long-term, severe neurological complications.
+
+The first symptoms of GBS include weakness or tingling sensations. They usually start in the legs and can spread to the arms and face.
+
+For some people, these symptoms can lead to paralysis of the legs, arms, or muscles in the face. In approximately one third of people, the chest muscles are affected, making it hard to breathe.
+
+The ability to speak and swallow may become affected in severe cases of GBS. These cases are considered life-threatening, and affected individuals should be treated in intensive-care units.
+
+Most people recover fully from even the most severe cases of GBS, although some continue to experience weakness.
+
+Even in the best of settings, a small number of GBS patients die from complications, which can include paralysis of the muscles that control breathing, blood infection, lung clots, or cardiac arrest.
+
+Causes
+======
+
+GBS is rare. The cause of it is not fully understood, but most cases follow an infection with a virus or bacteria. This leads the immune system to attack the body itself. Infection with the bacteria Campylobacter jejuni, which causes gastroenteritis (including symptoms of nausea, vomiting and diarrhoea), is one of the most common risk factors for GBS. People can also develop GBS after having the flu or other viral infections including cytomegalovirus, Epstein-Barr virus, and the Zika virus.
+
+In rare instances, vaccinations may increase the risk of people getting GBS, but the chance of this occurring is extremely low. Studies show that people are much more likely to get GBS from infections such as the flu than from the vaccine given to prevent the infection, in this case the flu vaccine. Occasionally, surgery can trigger GBS.
+
+Diagnosis
+=========
+
+Diagnosis is based on symptoms and findings on neurological examination including diminished or loss of deep-tendon reflexes. A lumbar puncture or electromyography (EMG) may be done for supportive information, though should not delay treatment. Other tests, such as blood tests, to identify the underlying trigger are not required to make the diagnosis of GBS and should not delay treatment. Anyone who is considered to possibly have GBS should be closely monitored for respiratory difficulty and be admitted to a monitored setting such as intensive care.
+
+Treatment and care
+==================
+
+The following are recommendations for treatment and care of people with Guillain-Barré syndrome:
+
+- GBS is potentially life-threatening. People with GBS should be hospitalized so that they can be monitored closely.
+
+- Supportive care includes monitoring of breathing, heartbeat and blood pressure. In cases where a person's ability to breathe is impaired, he or she is usually put on a ventilator. All GBS patients should be monitored for complications, which can include abnormal heart beat, infections, blood clots, and high or low blood pressure.
+
+- There is no known cure for GBS, but treatments can help improve symptoms of GBS and shorten its duration.
+
+- Given the autoimmune nature of the disease, its acute phase is typically treated with immunotherapy, such as plasma exchange to remove antibodies from the blood or intravenous immunoglobulin (IVIG).
+
+- It is most often beneficial when initiated 7 to 14 days after symptoms appear.
+
+- In cases where muscle weakness persists after the acute phase of the illness, patients may require rehabilitation services to strengthen their muscles and restore movement.
+
+WHO response
+============
+
+WHO is supporting countries to manage GBS by:
+
+- enhancing surveillance of causative agents such as campylobacter jejuni or Zika virus;
+
+- providing guidelines for the assessment and management of GBS;
+
+- supporting countries to implement guidelines and strengthen health systems to improve the management of GBS cases; and
+
+- defining the research agenda for GBS.
+
+WHO’s Intersectoral global action plan on epilepsy and other neurological disorders 2022-2031 aims to address the challenges and gaps in providing care and services for people with neurological conditions such as GBS and ensure a comprehensive, coordinated response across sectors.

@@ -1,0 +1,88 @@
+WHO FACT SHEET
+Title: Immunization coverage
+URL: https://www.who.int/news-room/fact-sheets/detail/immunization-coverage
+Retrieved: 2026-10-05T09:32:45.226952+00:00
+
+========================================
+
+Key facts
+=========
+
+- Globally in 2025, there were 13.5 million children missing out on any vaccination – so-called zero-dose children.
+
+- Coverage of a third dose of vaccine protecting against diphtheria, tetanus, and pertussis (DTP3) was 85% in 2025.
+
+- The proportion of children receiving a first dose of measles vaccine was 84% in 2025.
+
+- Global coverage for the first dose of HPV vaccine in girls was 33% in 2025.
+
+- Coverage of yellow fever vaccine in the countries at risk of it is 53%, well below the recommended 80%.
+
+Overview
+========
+
+While immunization is one of the most successful public health interventions, coverage has held steady since 2024, but data highlight a troubling trajectory in progress toward key targets of the global Immunization Agenda 2030 (IA2030).
+
+During 2025, about 85% of infants worldwide (110 million) received 3 doses of diphtheria-tetanus-pertussis (DTP3) vaccine, protecting them against infectious diseases that can cause serious illness and disability or be fatal. However, these global figures hide significant disparity among countries of different income strata, with low-income countries lagging behind.
+
+Measles, because of its high transmissibility, acts as an early warning system, quickly exposing immunity gaps in the population. Still, nearly 21 million children missed their routine first dose of measles, far from the 2019 level of 19 million.
+
+Global immunization coverage 2025
+=================================
+
+A summary of global vaccination coverage in 2025 follows.
+
+Haemophilus influenzae type b (Hib) causes meningitis and pneumonia. The Hib vaccine had been introduced in 193 Member States by the end of 2025. Global coverage with 3 doses of Hib vaccine is estimated at 78%. There is great variation between regions. The WHO South-East Asia Region is estimated to have 94% coverage, while it is only 45% in the WHO Western Pacific Region.
+
+Hepatitis B is a viral infection that attacks the liver. Hepatitis B vaccine for infants had been introduced nationwide in 190 Member States by the end of 2025. Global coverage with 3 doses of hepatitis B vaccine is estimated at 84%. In addition, 119 Member States introduced 1 dose of hepatitis B vaccine to newborns within the first 24 hours of life. Global coverage is 43% and is as high as 77% in the WHO Western Pacific Region, while it is estimated at only 11% in the WHO African Region.
+
+Human papillomavirus (HPV) is the most common viral infection affecting the reproductive tract and can cause cervical cancer in women, other types of cancer, and genital warts in both men and women. The HPV vaccine was provided through national immunization programmes and services in 162 countries in 2025, including new introductions in 15 countries. By end 2025, 93 countries used a 1-dose schedule, and globally more than 85% of girls aged 9–14 years vaccinated that year were on a single dose schedule.
+
+Global coverage with the first dose of HPV vaccine among girls is now estimated at 33%. While still far from the 90% target by 2030, this represents a substantial increase from 17% coverage in 2019. The smaller increase in global coverage since last year was a result of new introductions and programme scale-up in several large countries, but this increase was offset by reductions in performance in some large countries.
+
+Malaria is a life-threatening disease caused by parasites transmitted to people through the bites of infected anopheline mosquitoes. It remains one of the leading causes of death among children in sub-Saharan Africa. The Malaria Vaccine Implementation Programme (MVIP), coordinated by WHO and conducted in Ghana, Kenya and Malawi from 2019 to 2023 demonstrated high public impact with a vaccine-attributable 13% reduction in all-cause mortality among children age-eligible for vaccination and substantial reduction in hospitalizations for severe malaria. Since 2024, malaria vaccines have been further introduced in national immunization schedules and scaled-up across Africa as part of integrated malaria control activities. Twenty-five countries in Africa have introduced malaria vaccines at national or subnational level.
+
+Measles is a highly contagious disease caused by a virus, which usually results in a high fever and rash, and can lead to blindness, encephalitis or death. By the end of 2025, 84% of children had received 1 dose of measles-containing vaccine by their second birthday, and 77% of children received 2 doses of measles vaccine. By the end of 2025, 192 Member States had included a second dose of measles vaccine in their national immunization schedules.
+
+Bacterial meningitis is an often-deadly infection which also leaves 1 in 5 individuals with long-term devastating sequelae after the acute phase. Before MenAfriVac introduction in 2010, meningococcus serogroup A (NmA) caused 80% of meningitis epidemics in the African meningitis belt. By end 2025, 24 of 26 countries in the belt conducted preventive campaigns, and 15 introduced MenAfriVac in their routine immunization programme, reaching more than 400 million people. In 2025, coverage is estimated at 61% in countries using MenAfriVac in routine immunization programmes (15 countries) and 30% overall in the 26 countries. No case of NmA meningitis has been confirmed in the belt since 2017. A gradual switch to a new pentavalent meningococcal ACWYX conjugate vaccine starting in 2025 will pave the way to make the meningitis belt history.
+
+Mumps is a highly contagious virus that causes painful swelling at the side of the face under the ears (the parotid glands), fever, headache and muscle aches. It can lead to viral meningitis. Mumps vaccine had been introduced nationwide in 124 Member States by the end of 2025.
+
+Pneumococcal diseases include pneumonia, meningitis and febrile bacteraemia, as well as otitis media, sinusitis and bronchitis. Pneumococcal vaccine had been introduced in 169 Member States by the end of 2025 and global last dose coverage was estimated at 71%. There is great variation between regions. The WHO South-East Asia Region is estimated to have 92% coverage, while it is only 34% in the WHO Western Pacific Region.
+
+Polio is a highly infectious viral disease that can cause irreversible paralysis. In 2025, the coverage of infants receiving their first dose of inactivated polio vaccine (IPV) is estimated at 86%, while 74% of infants around the world received 2 or more doses of IPV. Targeted for global eradication, wild poliovirus remains endemic only in Afghanistan and Pakistan. Until poliovirus transmission is interrupted in these countries, all countries remain at risk of poliovirus importation, particularly those with weak health systems, low immunization coverage, and travel or trade links to affected areas.
+
+Rotaviruses are the most common cause of severe diarrhoeal disease in young children throughout the world. Rotavirus vaccine was introduced in 136 countries by the end of 2025. Global coverage was estimated at 61%.
+
+Rubella is a viral disease which is usually mild in children, but infection during early pregnancy may cause fetal death or congenital rubella syndrome, which can lead to defects of the brain, heart, eyes and ears. Rubella vaccine was introduced in 179 Member States by the end of 2025, including one at the subnational level, and global coverage was estimated at 73%.
+
+Tetanus is caused by a bacterium which grows in the absence of oxygen, for example in dirty wounds or the umbilical cord if it is not kept clean. The spores of C. tetani are present in the environment irrespective of geographical location. It produces a toxin which can cause serious complications or death. Maternal and neonatal tetanus persist as public health problems in 8 countries, Afghanistan, Angola, Central African Republic, Nigeria, Pakistan, Papua New Guinea, Somalia, and Yemen.
+
+Yellow fever is an acute viral haemorrhagic disease transmitted by infected mosquitoes. As of 2025, yellow fever vaccine had been introduced in routine infant immunization programmes in 38 of the 40 countries and territories at risk for yellow fever in Africa and the Americas. In these 40 countries and territories, coverage is estimated at 53%.
+
+Key challenges
+==============
+
+In 2025, 13.5 million infants did not receive an initial dose of DTP vaccine, pointing to a lack of access to immunization and other health services, and an additional 6 million are partially vaccinated. Of the nearly 20 million un- and under-vaccinated children, around 53% live in 10 countries: Afghanistan, Angola, the Democratic Republic of the Congo, Ethiopia, India, Indonesia, Nigeria, Pakistan, the Philippines and Yemen.
+
+Monitoring data at subnational levels is critical to helping countries prioritize and tailor vaccination strategies and operational plans to address immunization gaps and reach every person with life-saving vaccines.
+
+WHO response
+============
+
+WHO is working with countries and partners to improve global vaccination coverage, including through these initiatives adopted by the World Health Assembly in August 2020.
+
+Immunization Agenda 2030
+------------------------
+
+IA2030 sets an ambitious, overarching global vision and strategy for vaccines and immunization for the decade 2021–2030. It was co-created with thousands of contributions from countries and organizations around the world. It draws on lessons from the past decade and acknowledges continuing and new challenges posed by infectious diseases (e.g. Ebola, COVID-19).
+
+The strategy has been designed to respond to the interests of every country and intends to inspire and align the activities of community, national, regional and global stakeholders towards achieving a world where everyone, everywhere fully benefits from vaccines for good health and well-being. IA2030 is operationalized through regional and national strategies and mechanisms to ensure ownership and accountability and a monitoring and evaluation framework to guide country implementation.
+
+- Immunization Agenda 2030: A Global Strategy to Leave No One Behind
+
+- Implementing the Immunization Agenda 2030: A Framework for Action
+
+- The global strategy towards eliminating cervical cancer as a public health problem
+
+In 2020, the World Health Assembly adopted the global strategy to eliminate cervical cancer as a public health problem. The strategy’s first pillar calls for HPV vaccine introduction in all countries and sets a target of 90% coverage. Achieving the 2030 targets will require substantial investment to support introduction in low- and middle-income countries, along with programme improvements to reach 90% coverage in all settings.

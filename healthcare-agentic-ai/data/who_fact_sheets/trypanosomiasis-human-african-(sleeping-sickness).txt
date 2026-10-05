@@ -1,0 +1,155 @@
+WHO FACT SHEET
+Title: Trypanosomiasis, human African (sleeping sickness)
+URL: https://www.who.int/news-room/fact-sheets/detail/trypanosomiasis-human-african-(sleeping-sickness)
+Retrieved: 2026-10-05T09:35:12.592315+00:00
+
+========================================
+
+Key facts
+=========
+
+- Human African trypanosomiasis (HAT) is caused by protozoan parasites transmitted by infected tsetse flies. It is endemic in sub-Saharan Africa. Without treatment, HAT is generally fatal.
+
+- Most exposed people live in rural areas and depend on agriculture, fishing, animal husbandry or hunting.
+
+- HAT takes 2 forms, depending on the subspecies of the infecting parasite: Trypanosoma brucei gambiense (92% of reported cases) and Trypanosoma brucei rhodesiense (8%).
+
+- Sustained control efforts have reduced the number of new cases by 97% in the last 20 years.
+
+- Diagnosis and treatment are complex and require specific skills.
+
+Overview
+========
+
+Human African trypanosomiasis, also known as sleeping sickness, is a vector-borne parasitic disease. It is caused by protozoans of the genus Trypanosoma, transmitted to humans by bites of tsetse flies (glossina) which have acquired the parasites from infected humans or animals.
+
+Tsetse flies inhabit sub-Saharan Africa and only certain species transmit the disease. Rural populations which depend on agriculture, fishing, animal husbandry or hunting are the most exposed. In many regions where tsetse flies are found, HAT is not. The disease has a focal distribution ranging from single villages to entire regions, and the incidence can vary from one village to the next.
+
+Forms of human African trypanosomiasis
+======================================
+
+HAT takes 2 forms, depending on the parasite subspecies:
+
+- Trypanosoma brucei gambiense, found in 24 countries of west and central Africa, currently accounts for 92% of reported cases and causes a chronic illness. A person can be infected for months or even years without major signs or symptoms. When evident symptoms emerge, often the disease is advanced with the central nervous system already affected.
+
+- Trypanosoma brucei rhodesiense, found in 13 countries of eastern and southern Africa accounts for 8% of reported cases and causes an acute disease. First signs and symptoms emerge a few weeks or months after infection. The disease develops rapidly with multi-organ invasion, including the brain.
+
+American trypanosomiasis, or Chagas disease, occurs mainly in Latin America. It is caused by a different Trypanosoma subgenus, transmitted by another vector and the disease characteristics are very different from HAT.
+
+Animal trypanosomiasis
+======================
+
+Other trypanosomes cause disease in wild and domestic animals. In African cattle, it is called Nagana. Trypanosomiasis in domestic animals is a major obstacle to rural economic development.
+
+Domestic and wild animals are the main reservoir of human-pathogenic T. b. rhodesiense. Animals can also be infected with T. b. gambiense and possibly act as a reservoir to a lesser extent not precisely known.
+
+Disease burden and distribution
+===============================
+
+HAT threatens mainly populations of remote rural areas with limited health services, which complicates its diagnosis and treatment. These populations are also affected by war, displacement and poverty, factors favoring transmission.
+
+Several epidemics occurred over the last century:
+
+- between 1896 and 1906, mostly in Uganda and the Congo Basin
+
+- in the 1920’s in several countries
+
+- between 1970 and the late 1990s.
+
+The 1920 epidemic was controlled via mobile teams that screened millions of people. By the mid-1960s HAT was under control with below 5000 annual cases continent-wide. As surveillance relaxed, a resurgence ensued, reaching epidemic proportions in several regions by 1970. In 1998 almost 40 000 cases were reported, amidst an estimated 300 000 undetected and untreated cases. The prevalence reached 50% in several villages in Angola, the Democratic Republic of the Congo (DRC), and South Sudan. HAT was the first or second greatest cause of mortality in those communities.
+
+The efforts of WHO, national control programmes, bilateral cooperation and nongovernmental organizations during the 1990s and early 2000s reversed the curve, and the WHO Neglected Tropical Diseases Roadmap targeted for 2020 its elimination as a public health problem, and for 2030 the interruption of transmission (zero case).
+
+After continued control efforts, HAT occurrence reached a historic low under 2000 cases in 2017 and under 1000 cases in 2018, remaining below that threshold as of 2022. The population at risk estimated for the period 2016–2020 was 55 million people, with only 3 million at moderate-high risk.
+
+HAT incidence strongly differs by country and by region. Taking the last 5 years:
+
+- The DRC reported 61% of the cases (mean 522 cases/year).
+
+- Angola, Central African Republic, Chad, Congo, Gabon, Guinea, Malawi and South Sudan declared 10–100 cases, while Cameroon, Côte d'Ivoire, Equatorial Guinea, Uganda, Tanzania, Ethiopia and Zambia declared 1–10 cases.
+
+- Burkina Faso, Ghana, Kenya, Nigeria and Zimbabwe, reported sporadic cases in the last decade.
+
+- Benin, Botswana, Burundi, Eswatini, Gambia, Guinea Bissau, Liberia, Mali, Mozambique, Namibia, Niger, Rwanda, Senegal, Sierra Leone and Togo have not reported cases for over a decade. HAT transmission seems to have stopped in some of these countries but this was not fully assessed yet.
+
+Infection and symptoms
+======================
+
+HAT is mostly transmitted through tsetse flies. Other possible transmission ways are:
+
+- mother-to-child: trypanosomes can cross the placenta and infect the fetus;
+
+- mechanical transmission by other blood-sucking insects is possible, although its epidemiological impact is likely marginal;
+
+- accidental infection in laboratories via pricks with contaminated needles; and
+
+- transmission through sexual contact has been reported once.
+
+Initially the trypanosomes multiply in subcutaneous tissue, blood and lymph. This is called haemo-lymphatic or first stage, which entails bouts of fever, headache, enlarged lymph nodes, joint pains and itching.
+
+Later the parasites cross the blood-brain barrier into the central nervous system causing the meningo-encephalitic or second stage. Generally this is when more obvious signs and symptoms of HAT appear: behaviour changes, confusion, sensory disturbances and poor coordination. Sleep cycle disturbance, which gives the disease its name, is a prominent feature. Without treatment, HAT is usually fatal although rare cases of self-cure have been reported.
+
+Diagnosis
+=========
+
+Diagnosis involves 3 steps:
+
+- screening for potential infection using serological tests (only available for T. b.gambiense) and clinical examination;
+
+- confirmation by observing microscopically the parasite in body fluids; and
+
+- staging the disease progression via clinical examination and analysis of cerebrospinal fluid obtained by lumbar puncture, if needed.
+
+Early diagnosis is important to avoid progressing to the neurological stage with more complex and risky treatment.
+
+The long, relatively asymptomatic first stage of gambiense-HAT is one of the reasons why active screening of exposed populations is done, to detect cases at an early stage and remove them as reservoir. Exhaustive screening requires a major investment in human and material resources. In Africa such resources are often scarce, particularly in remote areas. Hence, some infected individuals may die before they can ever be diagnosed and treated.
+
+Treatment
+=========
+
+The treatment choice depends on the disease form and the disease stage. The earlier the disease is treated, the better the prospect of cure. The assessment of treatment outcome requires follow up for up to 24 months with clinical assessment and laboratory exams including sometimes of cerebrospinal fluid, because parasites may remain viable and reproduce the disease many months after treatment.
+
+Treatment in the second stage requires drugs that cross the blood–brain barrier.
+
+All anti-trypanosomals are donated to WHO by the manufacturers and distributed for free to endemic countries. New WHO treatment guidelines for gambiense-HAT were issued in 2019. Six drugs are used:
+
+In gambiense-HAT
+
+- Pentamidine, intramuscular: in first stage, generally well tolerated by patients.
+
+- Eflornithine, intravenous: much safer than melarsoprol, only effective in gambiense-HAT. It is generally co-administered with nifurtimox (Nifurtimox-eflornithine combination therapy, NECT) but can be used also as monotherapy. The administration is complex.
+
+- Nifurtimox, oral: in second stage, only as a component of NECT, which is a shorter treatment with four-times fewer eflornithine infusions, safer and more effective than eflornithine alone. WHO supplies NECT free of charge to endemic countries in a kit containing all the material needed for its administration.
+
+- Fexinidazole, oral: in first stage and non-severe second stage. To ensure efficacy, intake after a solid meal and under supervision of trained medical staff is required.
+
+In rhodesiense-HAT
+
+- Suramin, intravenous: in first stage. May provoke adverse effects including nephrotoxicity and allergic reactions.
+
+- Melarsoprol, intravenous: in second stage. An arsenic derivate, it has many adverse effects, the most dramatic being the reactive encephalopathy which is 3–10% fatal.
+
+WHO response
+============
+
+A range of activities of the WHO HAT surveillance and control program are enabled since 2001 by public–private partnerships with the Sanofi Foundation and Bayer HealthCare.
+
+WHO supplies all anti-trypanosome medicines worldwide gratis thanks to donations from Sanofi and Bayer, and collaboration with MSF-Logistics for conditioning and shipment.
+
+A WHO biobank is available to researchers for the development of new and affordable diagnostic tools. Hosted in the Institut Pasteur of Paris, it contains samples from gambiense-HAT and rhodesiense-HAT patients and from uninfected controls.
+
+The WHO Atlas of HAT, jointly implemented with FAO, compiles epidemiological data geolocated at village level.
+
+The WHO Network for HAT Elimination coordinates efforts from all stakeholders including national HAT programmes, international and non-governmental organizations, academia and donors. Network subgroups deal with the diagnostic, therapeutic, antivectorial, sociocultural, programatic and scientific aspects of HAT.
+
+WHO collaborates with FAO, IAEA and the African Union within the Program Against African Trypanosomiasis (PAAT).
+
+WHO provides support to national programs in order to:
+
+- strengthen, coordinate and sustain HAT control activities
+
+- ensure access to diagnosis and the best treatment available
+
+- train staff at different levels
+
+- ensure appropriate HAT surveillance and response.

@@ -1,0 +1,154 @@
+WHO FACT SHEET
+Title: Vector-borne diseases
+URL: https://www.who.int/news-room/fact-sheets/detail/vector-borne-diseases
+Retrieved: 2026-10-05T09:35:21.480986+00:00
+
+========================================
+
+Key facts
+=========
+
+- Vector-borne diseases account for more than 17% of all infectious diseases, causing more than 700 000 deaths annually. They can be caused by either parasites, bacteria or viruses.
+
+- Malaria is a parasitic infection transmitted by Anopheline mosquitoes. It causes an estimated 249 million cases globally, and results in more than 608 000 deaths every year. Most of the deaths occur in children under the age of 5 years.
+
+- Dengue is the most prevalent viral infection transmitted by Aedes mosquitoes. More than 3.9 billion people in over 132 countries are at risk of contracting dengue, with an estimated 96 million symptomatic cases and an estimated 40 000 deaths every year.
+
+- Other viral diseases transmitted by vectors include chikungunya fever, Zika virus fever, yellow fever, West Nile fever, Japanese encephalitis (all transmitted by mosquitoes), tick-borne encephalitis (transmitted by ticks) and Oropouche fever (transmitted by Culicoides flies)
+
+- Many of vector-borne diseases are preventable through protective measures and community mobilization.
+
+Overview
+========
+
+Vectors are living organisms that can transmit infectious pathogens between humans, or from animals to humans. Many of these vectors are bloodsucking insects which ingest disease-producing microorganisms during a blood meal from an infected host (human or animal) and later transmit it into a new host, after the pathogen has replicated. Often, once a vector becomes infectious, they are capable of transmitting the pathogen for the rest of their life during each subsequent bite/blood meal.
+
+Vector-borne diseases
+=====================
+
+Vector-borne diseases are human illnesses caused by parasites, viruses and bacteria that are transmitted by vectors. Every year there are more than 700 000 deaths from diseases such as malaria, dengue, schistosomiasis, human African trypanosomiasis, leishmaniasis, Chagas disease, yellow fever, Japanese encephalitis and onchocerciasis.
+
+The burden of these diseases is highest in tropical and subtropical areas, and they disproportionately affect the poorest populations. Since 2014, major outbreaks of dengue, malaria, chikungunya, yellow fever and Zika have afflicted populations, claimed lives, and overwhelmed health systems in many countries. Other diseases such as chikungunya, leishmaniasis and lymphatic filariasis cause chronic suffering, life-long morbidity, disability and occasional stigmatization.
+
+Distribution of vector-borne diseases is determined by a complex set of demographic, environmental and social factors. Global travel and trade, unplanned urbanization, climate change and silent spread and adaptation of the vectors have all contributed to the spread of vector-borne diseases.
+
+Climate change substantially affects pathogens (parasites, viruses and bacteria), vectors, and reservoir hosts, with implications for the transmission of many vector-borne diseases. Several vectors have expanded their latitude and altitude ranges, and the length of the season during which they are active is increasing. These trends are expected to continue as the climate continues to get warmer.
+
+List of vector-borne diseases, according to their vector
+========================================================
+
+The following table is a non-exhaustive list of vector-borne disease, ordered according to the vector by which it is transmitted. The list also illustrates the type of pathogen that causes the disease in humans.
+
+Vector | Disease caused | Type of pathogen |
+
+Mosquito | Aedes | Chikungunya
+
+Dengue
+
+Lymphatic filariasis
+
+Rift Valley fever
+
+Yellow Fever
+
+Zika | Virus
+
+Virus
+
+Parasite
+
+Virus
+
+Virus
+
+Virus |
+
+Anopheles | Lymphatic filariasis
+
+Malaria
+
+O'nyong'nyong virus | Parasite
+
+Parasite
+
+Virus |
+
+Culex | Japanese encephalitis
+
+Lymphatic filariasis
+
+West Nile fever | Virus
+
+Parasite
+
+Virus |
+
+Aquatic snails | Schistosomiasis (bilharziasis) | Parasite |
+
+Culicoides flies | Oropouche fever | Virus |
+
+Blackflies | Onchocerciasis  (river blindness) | Parasite |
+
+Fleas | Plague (transmitted from rats to humans)
+
+Tungiasis | Bacteria
+
+Ectoparasite |
+
+Lice | Typhus
+
+Louse-borne relapsing fever | Bacteria
+
+Bacteria |
+
+Sandflies | Leishmaniasis
+
+Sandfly  fever (phlebotomus fever) | Parasite
+
+Virus |
+
+Ticks | Crimean-Congo haemorrhagic fever
+
+Lyme disease
+
+Relapsing fever (borreliosis)
+
+Rickettsial  diseases (eg: spotted fever and Q fever)
+
+Tick-borne encephalitis
+
+Tularaemia | Virus
+
+Bacteria
+
+Bacteria
+
+Bacteria
+
+Virus
+
+Bacteria |
+
+Triatome bugs | Chagas disease (American trypanosomiasis) | Parasite |
+
+Tsetse flies | Sleeping sickness (African trypanosomiasis) | Parasite |
+
+WHO response
+
+The Global Vector Control Response (GVCR) 2017–2030 was approved by the World Health Assembly in 2017. It provides strategic guidance to countries and development partners for urgently strengthening vector control as a fundamental approach to preventing disease and responding to outbreaks. To achieve this, a re-alignment of vector control programmes is required, supported by increased technical capacity, improved infrastructure, strengthened monitoring and surveillance systems, and greater community mobilization. Ultimately, this will support the implementation of a comprehensive approach to vector control that will enable the achievement of disease-specific national and global goals and contribute to the achievement of the Sustainable Development Goals and universal health coverage.
+
+WHO Secretariat provides strategic, normative, and technical guidance to countries and development partners to strengthen vector control as a fundamental approach based on GVCR to prevent disease and respond to outbreaks. Specifically, WHO responds to vector-borne diseases by:
+
+- providing evidence-based guidance for controlling vectors and protecting people against infection;
+
+- providing technical support to countries so that they can effectively manage cases and outbreaks;
+
+- supporting countries to improve their reporting systems and capture the true burden of the disease;
+
+- providing training (capacity building) on clinical management, diagnosis and vector control with support from some of its collaborating centres; and
+
+- supporting the development and evaluation of new tools, technologies and approaches for vector-borne diseases, including vector control and disease management technologies.
+
+A crucial element in reducing the burden of vector-borne diseases is behavioural change. WHO works with partners to provide education and improve public awareness, so that people know how to protect themselves and their communities from mosquitoes, ticks, bugs, flies and other vectors.
+
+Access to water and sanitation is a very important factor in disease control and elimination. WHO works together with many different government sectors to improve water storage, sanitation, thereby helping to control these diseases at the community level.

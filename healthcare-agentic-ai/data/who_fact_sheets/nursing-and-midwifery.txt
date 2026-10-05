@@ -1,0 +1,104 @@
+WHO FACT SHEET
+Title: Nursing and midwifery
+URL: https://www.who.int/news-room/fact-sheets/detail/nursing-and-midwifery
+Retrieved: 2026-10-05T09:33:47.412600+00:00
+
+========================================
+
+Key facts
+=========
+
+- There were an estimated 29.8 million nurses worldwide in 2023, up from 27.9 million in 2018. Nurses are the largest occupational group in the health workforce.
+
+- The global nursing shortage fell from 6.2 million in 2020 to 5.8 million in 2023. If current trends continue, the shortage is projected to fall to 4.1 million by 2030, with about 70% concentrated in the WHO African and Eastern Mediterranean Regions.
+
+- Around 78% of the world’s nurses work in countries that account for only 49% of the world’s population. High-income countries have 17% of the world’s population but 46% of its nurses.
+
+- Approximately 85% of nurses are women, and one in seven nurses is working in a country other than where they were born. In high-income countries, 23% of nurses are foreign-born.
+
+- In 2023, 62% of countries reported advanced practice nursing roles, up from 53% in 2020. Only 42% of responding countries reported provisions to support nurses’ mental health.
+
+- There are an estimated 2.2 million midwives worldwide, with a global shortage of around 900 000 midwives.
+
+Overview
+========
+
+Nurses and midwives are central to health systems and the health and well-being of people and communities. They provide care throughout the life course in hospitals, health centres, communities, homes and other settings. In some communities, they may be the only health professionals available.
+
+Nurses provide health promotion, disease prevention, treatment, rehabilitation and palliative care. Midwives provide skilled, person-centred care during pregnancy, childbirth and the postnatal period, as well as care for newborns and support for families. Both professions are central to primary health care and responses to emergencies and other health threats.
+
+The global nursing and midwifery workforce is growing, but progress is uneven. Many countries continue to face shortages, unequal distribution, international migration of nurses, and difficult working conditions for midwives and nurses. Countries need to strengthen education, employment, regulation, working conditions and leadership so that nurses and midwives can contribute fully to stronger health systems and improved population health.
+
+Jobs and employment
+===================
+
+The number of nurses worldwide increased from 27.9 million in 2018 to 29.8 million in 2023. The global nursing shortage decreased from 6.2 million in 2020 to 5.8 million in 2023. If current trends continue, the nursing workforce is projected to reach about 36 million by 2030, while the shortage is projected to fall to 4.1 million.
+
+These global figures hide major inequalities. Almost 80% of nurses work in countries that account for about half of the world’s population. Nurse density in high-income countries is more than 10 times higher than in low-income countries, and density in the WHO European Region is around five times higher than in the African Region and the Eastern Mediterranean Region. By 2030, around 70% of the projected nursing shortage is expected to be in African Region and the Eastern Mediterranean Region.
+
+The age of the nursing workforce also varies. Globally, 33% of nurses are under 35 years old, while 19% are aged 55 years or older. In 20 countries, mostly high-income countries and many in Europe, the number of nurses expected to retire within 10 years is greater than the number of early-career nurses. This may increase shortages and reduce the number of experienced nurses available to support and mentor newer nurses.
+
+International migration is another important part of the nursing workforce. Heavy reliance on internationally recruited nurses by high income countries can weaken countries that already face shortages and shift the benefits of investments in education from countries with fewer resources to countries with greater resources.
+
+Education
+=========
+
+Expanding high-quality nursing and midwifery education is essential to increasing the health workforce. Education and employment need to grow together, with enough students, educators, clinical training sites and jobs for graduates.
+
+Low-income countries have relatively high numbers of nursing graduates compared with their existing nursing workforce. However, the number of graduates relative to population remains lower in low- and middle-income countries than in high-income countries. Rapid population growth can offset increases in graduates, while some countries also face challenges in recruiting and employing graduates.
+
+Education, regulation and employment systems need to be aligned so that midwives can provide quality care and work to their full scope of practice within interdisciplinary teams. WHO guidance on midwifery models of care emphasizes education and continuing professional development alongside supportive health systems and clear professional and regulatory frameworks.
+
+Faculty shortages, limited clinical training sites and infrastructure constraints can restrict education capacity. Digital learning and technologies, including artificial intelligence, may help expand education, but need to be introduced equitably and supported by appropriately prepared educators and adequate clinical learning. Education programmes should be planned with health services, regulators and employers and reflect population health needs.
+
+Service delivery
+================
+
+Nurses and midwives need supportive working environments, appropriate regulation and opportunities to contribute effectively to health services.
+
+Advanced practice nursing is expanding. In 2023, 62% of countries reported advanced practice nursing roles, compared with 53% in 2020. These roles can help expand access to care, particularly where other health professionals are in short supply. Clear definitions, education, regulation and scopes of practice are needed to develop these roles safely and effectively.
+
+Midwifery models of care can also improve access, quality and continuity of care. These models place midwives at the centre of care across pregnancy, childbirth and the postnatal period, while ensuring timely consultation and referral to obstetricians, paediatricians and other specialists when complications arise.
+
+Working conditions are important for retaining nurses and midwives and maintaining quality of care. Although most countries have measures covering minimum wages, social protection and health worker safety, gaps remain. Only 42% of responding countries reported provisions to support nurses’ mental health, and 59% reported protections against attacks.
+
+Pay also varies substantially. Median entry-level nursing wages in high-income countries are about twice those in upper-middle-income countries and three times those in low-income countries. Data from 31 countries identified a 7% gender pay gap in nursing. These differences can affect recruitment, retention and international migration.
+
+An estimated 2.2 million midwives work worldwide, with a global shortage of around 900 000. Strengthening midwifery education, employment, leadership, regulation and working conditions is important for improving access to sexual, reproductive, maternal and newborn health services.
+
+Leadership
+==========
+
+Nursing and midwifery leadership is important for health workforce planning, policy development and health service delivery.
+
+In 2023, 82% of responding countries reported having a Government Chief Nursing Officer or equivalent senior nursing position. However, these positions do not always have sufficient authority or resources to influence workforce planning and health policy.
+
+Leadership development is also uneven. While 66% of responding countries reported nursing leadership development programmes, this fell to only 25% of low-income countries. Strong nursing and midwifery leadership can help countries use workforce data, plan education and employment, improve working conditions and ensure that nursing and midwifery perspectives inform health policy.
+
+Policy priorities through 2030
+==============================
+
+The State of the world’s nursing 2025 provided new evidence for global and national decision-making. In May 2025, the Seventy-eighth World Health Assembly extended the Global strategic directions for nursing and midwifery (SDNM) until 2030.
+
+In addition to the 12 policy priorities for nurses and midwives in the extended SDNM, SoWN 2025 also identified five emerging policy priorities:
+
+- advanced practice nursing: develop roles that expand access to high-quality health services;
+
+- gender equality: address gender-related inequalities, including unequal pay and barriers to participation and leadership;
+
+- digital health and technology: prepare nurses to use digital technologies and respond to opportunities and challenges from artificial intelligence;
+
+- climate and health: support nurses to contribute to climate-related health action and more sustainable health services; and
+
+- nurses in situations of war and conflict: provide tailored support for education, employment and working conditions in fragile, conflict-affected and vulnerable settings, with particular attention to physical and psychosocial safety.
+
+WHO response
+============
+
+As articulated in the SDNM, WHO encourages countries to use workforce data and health labour market approaches to plan the number, distribution and employment of nurses and midwives needed to meet population health needs. This includes strengthening education, creating and sustainably financing jobs, improving working conditions, supporting retention, strengthening regulation and leadership, and managing international migration.
+
+In alignment with the SDNM, WHO also supports countries to strengthen midwifery education and consider midwife-led models of care and improve access to essential maternal and newborn health services. The 2025 Implementation guidance on transitioning to midwifery models of care can assist countries in maximizing the contributions of midwives in health systems. It highlights political commitment, governance, partnerships and sustainable financing, alongside service delivery, community engagement, interprofessional collaboration, midwifery leadership, education, regulation and supportive health system environments.
+
+International recruitment should be managed in line with the WHO Global code of practice on the international recruitment of health personnel, which was amended by the World Health Assembly in 2026. The amended Code strengthens the global framework for ethical international recruitment and cooperation between source and destination countries.
+
+This global agenda for nursing and midwifery provides an evidence-based policy framework for addressing workforce inequities and supporting progress towards universal health coverage and other health goals.

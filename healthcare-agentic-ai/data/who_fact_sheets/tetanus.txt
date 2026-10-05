@@ -1,0 +1,116 @@
+WHO FACT SHEET
+Title: Tetanus
+URL: https://www.who.int/news-room/fact-sheets/detail/tetanus
+Retrieved: 2026-10-05T09:35:04.857029+00:00
+
+========================================
+
+Key facts
+=========
+
+- Tetanus is acquired through infection of a cut or wound with the spores of the bacterium Clostridium tetani, and most cases occur within 14 days of infection.
+
+- Tetanus cannot be transmitted from person to person.
+
+- Tetanus can be prevented through vaccination with tetanus-toxoid-containing vaccines (TTCV).
+
+- People who recover from tetanus do not develop natural immunity and therefore remain at risk of reinfection. As a result, they should be vaccinated with a TTCV.
+
+- The majority of reported tetanus cases are birth-associated among newborn babies and mothers who have not been sufficiently vaccinated with TTCV.
+
+- In 2021, just over 7700 newborns died from neonatal tetanus, a 84% reduction since 2000, largely due to scaled-up immunization with TTCV.
+
+- In 2025, 85% of infants worldwide were vaccinated with 3 doses of diphtheria-tetanus-pertussis (DTP) containing vaccine.
+
+Overview
+========
+
+Tetanus is an acute infectious disease caused by spores of the bacterium Clostridium tetani. The spores are found everywhere in the environment, particularly in soil, ash, intestinal tracts/feces of animals and humans, and on skin surfaces and rusty tools like nails, needles, barbed wire, etc. Being very resistant to heat and most antiseptics, the spores can survive for years.
+
+Anyone can get tetanus, but the disease is particularly common and serious in newborn babies and pregnant women who have not been sufficiently immunized with tetanus-toxoid-containing vaccines (TTCV). Tetanus during pregnancy or within 6 weeks of the end of pregnancy is called maternal tetanus, and tetanus within the first 28 days of life is called neonatal tetanus.
+
+The disease remains an important public health problem in many parts of the world, but especially in low-income countries or in districts where immunization coverage is low, and unclean birth practices are common. Neonatal tetanus occurs when nonsterile instruments are used to cut the umbilical cord or when contaminated material is used to cover the umbilical stump. Deliveries carried out by people with unclean hands or on a contaminated surface are also risk factors.
+
+In 2021, just over 7700 newborns died from neonatal tetanus, a 84% reduction from 2000, when an estimated 46 898 newborn babies died of tetanus within their first month of life. However, there is increased risk of tetanus in adolescent and adult males who undergo circumcision due to waning immunity and limited opportunity for receiving booster doses in males in many countries.
+
+Symptoms and diagnosis
+======================
+
+The incubation period of tetanus varies between 3 and 21 days after infection. Most cases occur within 14 days.
+
+Symptoms can include:
+
+- jaw cramping or the inability to open the mouth
+
+- muscle spasms often in the back, abdomen and extremities
+
+- sudden painful muscle spasms often triggered by sudden noises
+
+- trouble swallowing
+
+- seizures
+
+- headache
+
+- fever and sweating
+
+- changes in blood pressure or fast heart rate.
+
+In neonatal tetanus, symptoms include muscle spasms, which are often preceded by the newborn’s inability to suck or breastfeed, and excessive crying.
+
+Tetanus is diagnosed on the basis of clinical features and does not require laboratory confirmation. The WHO definition of a confirmed neonatal tetanus case is an illness occurring in an infant who has the normal ability to suck and cry in the first 2 days of life, but who loses this ability between days 3 and 28 of life and becomes rigid or has spasms.
+
+The WHO definition of non-neonatal tetanus requires at least one of the following signs: a sustained spasm of the facial muscles in which the person appears to be grinning, or painful muscular contractions. Although this definition requires a history of injury or wound, tetanus may also occur in patients who are unable to recall a specific wound or injury.
+
+Treatment
+=========
+
+Tetanus is a medical emergency requiring:
+
+- care in the hospital
+
+- immediate treatment with medicine called human tetanus immune globulin (TIG)
+
+- aggressive wound care
+
+- drugs to control muscle spasms
+
+- antibiotics
+
+- tetanus vaccination.
+
+People who recover from tetanus do not have natural immunity and can be infected again, and therefore need to be immunized.
+
+Prevention
+==========
+
+Tetanus can be prevented through vaccination with TTCV, which are included in routine immunization programmes globally and administered in many countries during antenatal care contacts.
+
+To be protected throughout life, WHO recommends that an individual receives 6 doses (3 primary doses plus 3 booster doses) of TTCV. The 3-dose primary series should begin as early as 6 weeks of age, with subsequent doses given with a minimum interval of 4 weeks between doses. The 3 booster doses should preferably be given during the second year of life (12–23 months), at 4–7 years of age, and at 9–15 years of age. Ideally, there should be at least 4 years between booster doses.
+
+There are many kinds of vaccines used to protect against tetanus, all of which are combined with vaccines for other diseases:
+
+- diphtheria and tetanus (DT) vaccines
+
+- diphtheria, tetanus, and pertussis (whooping cough) (DTaP) vaccines
+
+- tetanus and diphtheria (Td) vaccines
+
+- tetanus, diphtheria, and pertussis (Tdap) vaccines.
+
+Neonatal tetanus can be prevented by immunizing women of reproductive age with TTCV, either during pregnancy or outside of pregnancy. Additionally, robust medical practices can also prevent tetanus disease including clean delivery and cord care during childbirth, and proper wound care for surgical and dental procedures.
+
+In countries where national immunization programmes have maintained high TTCV coverage for several decades, tetanus incidence rates are very low.
+
+WHO Response
+============
+
+The global neonatal tetanus elimination goal was launched at the World Health Assembly in 1989 to reduce neonatal tetanus as a public health problem (defined as less than one case of neonatal tetanus per 1000 live births in every district) in all countries.
+
+The Maternal and Neonatal Tetanus Elimination (MNTE) Initiative was launched by UNICEF, WHO and the United Nations Population Fund (UNFPA) in 1999, revitalizing the goal of MNTE as a public health problem.
+
+As of July 2026, 8 countries remain that have yet to achieve MNTE.
+
+Once MNTE has been achieved, maintaining elimination will require continued strengthening of routine immunization activities for both pregnant women and children, maintaining and increasing access to clean deliveries, reliable neonatal tetanus surveillance, and introduction and/or strengthening of school-based immunization, where feasible.
+
+To sustain MNTE and protect all persons from tetanus, WHO recommends that 6 doses of TTCV be given to all persons from childhood to adolescence.

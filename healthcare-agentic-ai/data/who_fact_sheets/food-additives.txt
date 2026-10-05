@@ -1,0 +1,80 @@
+WHO FACT SHEET
+Title: Food additives
+URL: https://www.who.int/news-room/fact-sheets/detail/food-additives
+Retrieved: 2026-10-05T09:32:07.212264+00:00
+
+========================================
+
+Key facts
+=========
+
+- Food additives are substances primarily added to processed foods, or other foods produced on an industrial scale, for technical purposes, e.g. to improve safety, increase the amount of time a food can be stored, or modify sensory properties of food.
+
+- Food additives are substances not normally consumed as a food by themselves and not normally used as typical ingredients in foods. Most minimally processed and unprocessed foods do not contain food additives.
+
+- Food additives are assessed for potential harmful effects on human health before they are approved for use.
+
+- Authoritative bodies at the national, regional and international levels are responsible for evaluating the safety of food additives.
+
+- The Joint FAO/WHO Expert Committee on Food Additives (JECFA) is the international body responsible for evaluating the safety of food additives for use in foods that are traded internationally.
+
+Overview
+========
+
+Many different food additives have been developed over time to meet the needs of large-scale food processing. Additives are added to ensure processed food remains safe and in good condition throughout its journey from factories or industrial kitchens, to warehouses and shops, and finally to consumers. Additives are also used to modify the sensory properties of foods including taste, smell, texture and appearance.
+
+Food additives can be derived from plants, animals or minerals, or they can be chemically synthesized. There are several thousand food additives used, all of which are designed to do a specific job. Food additives can be grouped into 3 broad categories based on their function.
+
+Flavouring agents
+=================
+
+Flavouring agents are chemicals that impart flavours or fragrances and are added to food to modify its aroma or taste. They are the most common type of additive used in foods, with hundreds of varieties used in a wide variety of foods, from confectionery and soft drinks to cereal, cake and yoghurt. Flavouring agents can be extracted from naturally occurring sources (e.g. plant or animal sources) or chemically synthesized. Flavours extracted directly from naturally occurring sources are often referred to as natural flavours. Such flavours can also be chemically synthesized and are sometimes referred to as nature made or nature identical to indicate that although the flavour molecule itself is naturally occurring it hasn’t been extracted from its source, but synthesized to be identical. Artificial flavouring agents are chemicals that do not exist in nature but are synthesized to imitate natural flavours or elicit other taste sensations. Culinary ingredients, including spices, nuts and dried fruits or vegetables, can also modify aroma or taste, but are generally not considered flavouring agents.
+
+Enzyme preparations
+===================
+
+Enzyme preparations are a type of additive that may or may not end up in the final food product. Enzymes are naturally occurring proteins that boost biochemical reactions by breaking down larger molecules into their smaller building blocks. They can be obtained by extraction from plants or animal products or from micro-organisms such as bacteria and are used as alternatives to chemical-based technology. They are mainly used in baking (to improve the dough), for manufacturing fruit juices (to increase yields), in wine making and brewing (to improve fermentation), as well as in cheese manufacturing (to improve curd formation).
+
+Other additives
+===============
+
+Other food additives are used for a variety of reasons, such as preservation, colouring and sweetening. They are added when food is prepared, packaged, transported, or stored, and they eventually become a component of the food.
+
+Preservatives can slow decomposition caused by mould, air, bacteria or yeast. In addition to maintaining the quality of the food, preservatives help control contamination that can cause foodborne illness, including life-threatening botulism.
+
+Colouring is added to food to replace colours lost during processing or other production, or to make food appear more attractive.
+
+Non-sugar sweeteners are often used as an alternative to sugar because they contribute fewer or no calories when added to food. WHO has issued a recommendation against the use of non-sugar sweeteners in general, based on evidence that they don’t seem to benefit long term weight loss or maintenance and may increase risk of noncommunicable diseases.
+
+Safety assessments
+==================
+
+Food additives are assessed for potential harmful effects on human health before they are approved for use. Authoritative bodies at the national, regional and international levels are responsible for evaluating the safety of food additives. The Joint FAO/WHO Expert Committee on Food Additives (JECFA) is the international body responsible for evaluating the safety of food additives for use in foods that are traded internationally.
+
+WHO response
+============
+
+Evaluating the health risk of food additives
+--------------------------------------------
+
+WHO, in cooperation with the Food and Agriculture Organization of the United Nations (FAO), is responsible for assessing the risks to human health from food additives. Risk assessments of food additives are conducted by an independent, international expert scientific group – the Joint FAO/WHO Expert Committee on Food Additives (JECFA).
+
+Only food additives that have undergone a JECFA safety assessment and are found not to present an appreciable health risk to consumers can be used internationally. This applies whether food additives come from natural sources or they are synthetic. National authorities, either based on the JECFA assessment or a national assessment, can then authorize the use of food additives at specified levels for specific foods.
+
+JECFA evaluations are based on scientific reviews of all available biochemical, toxicological, and other relevant data on a given additive – mandatory tests in animals, research studies and observations in humans are considered. The toxicological tests required by JECFA include acute, short-term and long-term studies that determine how the food additive is absorbed, distributed and excreted, and possible harmful effects of the additive or its by-products at certain exposure levels.
+
+The starting point for determining whether a food additive can be used without having harmful effects is to establish the acceptable daily intake (ADI). The ADI is an estimate of the amount of an additive in food or drinking water that can be safely consumed daily over a lifetime without adverse health effects.
+
+International standards for the safe use of food additives
+----------------------------------------------------------
+
+The safety assessments completed by JECFA are used by the joint intergovernmental food standard-setting body of FAO and WHO, the Codex Alimentarius Commission, to establish levels for maximum use of additives in food and drinks. Codex standards are the reference for national standards for consumer protection, and for the international trade in food, so that consumers everywhere can be confident that the food they eat meets the agreed standards for safety and quality, no matter where it was produced.
+
+Once a food additive has been found to be safe for use by JECFA and maximum use levels have been established in the Codex General Standard for Food Additives, national food regulations need to be implemented permitting the actual use of a food additive.
+
+How do I know which additives are in my food?
+---------------------------------------------
+
+The Codex Alimentarius Commission also establishes standards and guidelines on food labelling. These standards are implemented in most countries, and food manufacturers are obliged to indicate which additives are in their products. In the European Union, for example, there is legislation governing labelling of food additives according to a set of pre-defined E-numbers. People who have allergies or sensitivities to certain food additives should check labels carefully.
+
+WHO encourages national authorities to monitor and ensure that food additives in food and drinks produced in their countries comply with permitted uses, conditions and legislation. National authorities should oversee the food business, which carries the primary responsibility for ensuring that the use of a food additive is safe and complies with legislation.

@@ -1,0 +1,93 @@
+WHO FACT SHEET
+Title: One Health
+URL: https://www.who.int/news-room/fact-sheets/detail/one-health
+Retrieved: 2026-10-05T09:33:52.528539+00:00
+
+========================================
+
+Key facts
+=========
+
+- The health of humans, animals, and ecosystems are closely interlinked. Changes in these relationships can increase the risk of new human and animal diseases developing and spreading.
+
+- The close links between human, animal, plant and environmental health demand close collaboration, communication and coordination between the relevant sectors.
+
+- One Health is an approach to optimize the health of humans, animals, plants and ecosystems by integrating these fields, rather than keeping them separate.
+
+- More than 60% of emerging infectious diseases that are reported globally come from animals, both wild and domestic.
+
+- Human activities and stressed ecosystems have created new opportunities for diseases to emerge and spread.
+
+- These stressors include animal trade, agriculture, livestock farming, urbanization, extractive industries, climate change, habitat fragmentation and encroachment into wild areas.
+
+Overview
+========
+
+One Health is an integrated, unifying approach to balance and optimize the health of people, animals, plants and ecosystems. It uses the close, interdependent links between these fields to create new surveillance and disease control methods.
+
+For example, the way land is used can impact the number of malaria cases. Weather patterns and human-built water controls can affect diseases like dengue. Trade in live, wild animals can increase the likelihood of infectious diseases jumping over to people (called disease spillover).
+
+The COVID-19 pandemic put a spotlight on the need for a global framework for improved surveillance and a more holistic, integrated system. Gaps in One Health knowledge, prevention and integrated approaches were seen as key drivers of the pandemic. By addressing the linkages between human, animal, plant and environmental health, One Health is seen as a transformative approach to improved global health.
+
+One Health applies to a range of issues, including:
+
+- antimicrobial resistance (AMR), which happens when germs like bacteria and parasites develop the ability to defeat the drugs designed to kill them and continue growing and spreading;
+
+- zoonotic diseases, which are infectious diseases that are caused by germs that spread between animals and people, such as Ebola, avian influenza and rabies;
+
+- vector-borne diseases, which affect people who get bitten by a vector (mosquitoes, ticks, lice and fleas) and include dengue fever, West Nile virus, Lyme disease and malaria;
+
+- food safety and foodborne diseases, such as norovirus, salmonella and listeria, caused by contamination of food and that can occur at any stage of the food production, delivery and consumption chain; and
+
+- environmental concerns, such as water pollution, air pollution and climate change.
+
+Since 2003, the world has faced major health threats, social and economic losses due to disease outbreaks, pandemics, as well as immense losses from food and water safety hazards. All are One Health-related health threats.
+
+Collaboration across sectors and disciplines through a One Health approach is essential to address the complex health challenges facing our world. To prevent, detect and respond to emerging health threats, all relevant sectors must collaborate in an integrated manner to achieve together what no sector can achieve alone.
+
+According to the World Bank, prevention guided by One Health principles is estimated to cost approximately US$ 10.3–11.5 billion per year. This is a relatively modest investment compared with the health, social and economic costs of pandemics and other major health threats.
+
+Long-term commitments to One Health make systems more effective, resilient and sustainable. Over time, a One Health approach can improve prevention, reduce fragmentation, and support more efficient use of limited resources, saving lives and money.
+
+Scope of the problem
+====================
+
+Health threats emerging at the human-animal-plant-environment interface are becoming more frequent, more complex and more disruptive. They affect not only health, but also food systems, livelihoods, trade, biodiversity and economic stability. Stronger prevention, earlier detection and more integrated surveillance are therefore essential.
+
+The emergence of the SARS-CoV-2 virus that caused COVID-19 underlined the need to strengthen the One Health approach, with a greater emphasis on connections to animal health and the environment. Neglecting environmental protection carries a substantial cost. Prevention is among the most cost-effective investments a country can make.
+
+We now have an unprecedented opportunity to strengthen collaboration and policies across these areas and reduce the risk of future pandemics and epidemics while also addressing the ongoing burden of endemic and noncommunicable diseases.
+
+Surveillance that monitors risks and helps identify patterns across all One Health areas is needed. In addition, new research should integrate the impact of these different fields, particularly on the drivers that lead to crises.
+
+Challenges
+==========
+
+To implement One Health, major structural changes are required to integrate the human, animal and environmental health fields and support multisectoral communication, collaboration, coordination, and capacity strengthening.
+
+Critical gaps in One Health implementation include:
+
+- databases and resources to support information sharing and action in line with a One Health approach;
+
+- identification and showcasing of best practice examples for One Health implementation;
+
+- mapping of existing initiatives and capacities for One Health research and building the next generation of a One Health workforce;
+
+- a model for an integrated One Health surveillance system;
+
+- mechanisms for routine and emergency coordination between relevant stakeholders;
+
+- a more complete understanding of the drivers of spillover of zoonotic diseases (transmitted between animals and humans). This includes animal trade, agriculture, livestock farming, urbanization and habitat fragmentation;
+
+- a standardized approach for assessing risks of spillover of pathogens between different animal populations and humans, and emergence of zoonotic diseases, including those arising in food systems; and
+
+- methods for identifying and reducing spillover risks and spread of zoonotic diseases in ways that minimize trade-offs and maximize co-benefits with other health and sustainable development objectives.
+
+WHO response
+============
+
+WHO is integrating One Health across its units and offices, providing strategic policy advice and supporting training at the local, national and regional levels. The overall goal is stronger programmes that are led and owned by countries.
+
+WHO is also a member of the One Health Quadripartite partnership, along with the Food and Agriculture Organization of the United Nations, the World Organisation for Animal Health and the United Nations Environment Programme. Together, they have developed the One Health Joint Plan of Action and its implementation guide, which includes a set of activities that the four organizations can undertake jointly, including working with political leaders to establish the needed infrastructure and funding.
+
+The One Health High-Level Expert Panel (OHHLEP), for which WHO serves as the Secretariat, functions as an independent science–policy advisory mechanism to the Quadripartite. Its added value lies in connecting evidence to strategic orientation and helping ensure that One Health remains grounded in credible and multidisciplinary expertise.

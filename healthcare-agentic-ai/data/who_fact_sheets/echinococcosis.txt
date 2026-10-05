@@ -1,0 +1,186 @@
+WHO FACT SHEET
+Title: Echinococcosis
+URL: https://www.who.int/news-room/fact-sheets/detail/echinococcosis
+Retrieved: 2026-10-05T09:31:53.697258+00:00
+
+========================================
+
+Key facts
+=========
+
+- Human echinococcosis is a parasitic disease caused by tapeworms of the genus Echinococcus.
+
+- The two most important forms in humans are cystic echinococcosis (hydatidosis) and alveolar echinococcosis.
+
+- Humans are infected through ingestion of parasite eggs in contaminated food, water or soil, or after direct contact with animal hosts.
+
+- Echinococcosis is often expensive and complicated to treat and may require extensive surgery and/or prolonged drug therapy.
+
+- Prevention programmes focus on deworming of dogs, which are the definitive hosts. In the case of cystic echinococcosis preventive measures also include, deworming dogs, slaughterhouse hygiene, and public education.
+
+- More than 1 million people are affected with echinococcosis at any one time.
+
+Human echinococcosis is a zoonotic disease (a disease that is transmitted to humans from animals) that is caused by parasites, namely tapeworms of the genus Echinococcus. Echinococcosis occurs in 4 forms:
+
+- cystic echinococcosis, also known as hydatid disease or hydatidosis, caused by infection with a species complex centred on Echinococcus granulosus;
+
+- alveolar echinococcosis, caused by infection with E. multilocularis;
+
+- two forms of neotropical echinococcosis: polycystic caused by infection with E. vogeli; and
+
+- unicystic caused by E. oligarthrus.
+
+The two most important forms, which are of medical and public health relevance in humans, are cystic echinococcosis (CE) and alveolar echinococcosis (AE).
+
+Transmission
+============
+
+A number of herbivorous and omnivorous animals act as intermediate hosts of Echinococcus. They become infected by ingesting the parasite eggs in contaminated food and water, and the parasite then develops into larval stages in the viscera.
+
+Carnivores act as definitive hosts for the parasite, and harbour the mature tapeworm in their intestine. The definitive hosts are infected through the consumption of viscera of intermediate hosts that contain the parasite larvae.
+
+Humans act as so-called accidental intermediate hosts in the sense that they acquire infection in the same way as other intermediate hosts, but are not involved in transmitting the infection to the definitive host.
+
+Several distinct genotypes of E. granulosus are recognised, some having distinct intermediate host preferences. Some genotypes are considered species distinct from E. granulosus. Not all genotypes cause infections in humans. The genotype causing the great majority of cystic echinococcosis infections in humans is principally maintained in a dog–sheep–dog cycle, yet several other domestic animals may also be involved, including goats, swine, cattle, camels and yaks.
+
+Alveolar echinococcosis usually occurs in a wildlife cycle between foxes or other carnivores with small mammals (mostly rodents) acting as intermediate hosts. Domesticated dogs and cats can also act as definitive hosts.
+
+Signs and symptoms
+==================
+
+Cystic echinococcosis / hydatid disease
+---------------------------------------
+
+Human infection with E. granulosus leads to the development of one or more hydatid cysts located most often in the liver and lungs, and less frequently in the bones, kidneys, spleen, muscles and central nervous system.
+
+The asymptomatic incubation period of the disease can last many years until hydatid cysts grow to an extent that triggers clinical signs, however approximately half of all patients that receive medical treatment for infection do so within a few years of their initial infection with the parasite.
+
+Abdominal pain, nausea and vomiting are commonly seen when hydatids occur in the liver. If the lung is affected, clinical signs include chronic cough, chest pain and shortness of breath. Other signs depend on the location of the hydatid cysts and the pressure exerted on the surrounding tissues. Non-specific signs include anorexia, weight loss and weakness.
+
+Alveolar echinococcosis
+-----------------------
+
+Alveolar echinococcosis is characterized by an asymptomatic incubation period of 5–15 years and the slow development of a primary tumour-like lesion which is usually located in the liver. Clinical signs include weight loss, abdominal pain, general malaise and signs of hepatic failure.
+
+Larval metastases may spread either to organs adjacent to the liver (for example, the spleen) or distant locations (such as the lungs, or the brain) following dissemination of the parasite via the blood and lymphatic system. If left untreated, alveolar echinococcosis is progressive and fatal.
+
+Distribution
+============
+
+Cystic echinococcosis is globally distributed and found in every continent except Antarctica. Alveolar echinococcosis is confined to the northern hemisphere, in particular to regions of China, the Russian Federation and countries in continental Europe and North America.
+
+In endemic regions, human incidence rates for cystic echinococcosis can reach more than 50 per 100 000 person-years, and prevalence levels as high as 5%–10% may occur in parts of Argentina, Peru, East Africa, Central Asia and China. In livestock, the prevalence of cystic echinococcosis found in slaughterhouses in hyperendemic areas of South America varies from 20%–95% of slaughtered animals.
+
+The highest prevalence is found in rural areas where older animals are slaughtered. Depending on the infected species involved, livestock production losses attributable to cystic echinococcosis result from liver condemnation and may also involve reduction in carcass weight, decrease in hide value, decrease of milk production, and reduced fertility.
+
+Diagnosis
+=========
+
+Ultrasonography imaging is the technique of choice for the diagnosis of both cystic echinococcosis and alveolar echinococcosis in humans. This technique is usually complemented or validated by computed tomography (CT) and/or magnetic resonance imaging (MRI) scans.
+
+Cysts can be incidentally discovered by radiography. Specific antibodies are detected by different serological tests and can support the diagnosis.
+Early detection of E. granulosus and E. multilocularis infections, especially in low-resource settings, is still needed to aid in the selection of clinical treatment options.
+
+Treatment
+=========
+
+Both cystic echinococcosis and alveolar echinococcosis are often expensive and complicated to treat, sometimes requiring extensive surgery and/or prolonged drug therapy. There are 4 options for the treatment of cystic echinococcosis:
+
+- percutaneous treatment of the hydatid cysts with the PAIR (Puncture, Aspiration, Injection, Re-aspiration) technique;
+
+- surgery
+
+- anti-infective drug treatment
+
+- “watch and wait”.
+
+The choice must primarily be based on the ultrasound images of the cyst, following a stage-specific approach, and also on the medical infrastructure and human resources available.
+
+For alveolar echinococcosis, early diagnosis and radical (tumour-like) surgery followed by anti-infective prophylaxis with albendazole remain the key elements. If the lesion is confined, radical surgery can be curative. Unfortunately in many patients the disease is diagnosed at an advanced stage. As a result, if palliative surgery is carried out without complete and effective anti-infective treatment, frequent relapses will occur.
+
+Health and economic burden
+==========================
+
+Both cystic echinococcosis and alveolar echinococcosis represent a substantial disease burden. Worldwide, there may be in excess of 1 million people living with these diseases at any one time. Many of these people will be experiencing severe clinical syndromes which are life-threatening if left untreated. Even with treatment, people often face reduced quality of life.
+
+For cystic echinococcosis, there is an average of 2.2% post-operative death rate for surgical patients and about 6.5% of cases relapse after an intervention, thereby requiring prolonged recovery time.
+
+The 2015 WHO Foodborne Disease Burden Epidemiology Reference Group (FERG) estimated echinococcosis to be the cause of 19 300 deaths and around 871 000 disability-adjusted life-years (DALYs) (1) globally each year.
+
+Annual costs associated with cystic echinococcosis are estimated to be US$ 3 billion for treating cases and losses to the livestock industry.
+
+Surveillance, prevention and control
+====================================
+
+Robust surveillance data is fundamental in order to show burden of disease and to evaluate progress and success of control programmes. However, as for other neglected diseases which are focused in underserved populations and remote areas, data is especially scarce and will need more attention if control programmes are to be implemented and measured.
+
+Cystic echinococcosis / hydatid disease
+---------------------------------------
+
+Surveillance for cystic echinococcosis in animals is difficult because the infection is asymptomatic in livestock and dogs. Surveillance is also not recognized or prioritized by communities or local veterinary services.
+
+Cystic echinococcosis is a preventable disease as it involves domestic animal species as definitive and intermediate hosts. Periodic deworming of dogs with praziquantel (at least 4 times per year), improved hygiene in the slaughtering of livestock (including the proper destruction of infected offal), and public education campaigns have been found to lower and, in high-income countries, prevent transmission and alleviate the burden of human disease.
+
+Vaccination of sheep with an E. granulosus recombinant antigen (EG95) offers encouraging prospects for prevention and control. The vaccine is currently being produced commercially and is registered in China and Argentina. Trials in Argentina demonstrated the added value of vaccinating sheep, and in China the vaccine is being used extensively.
+
+A programme combining vaccination of lambs, deworming of dogs and culling of older sheep could lead to elimination of cystic echinococcosis disease in humans in less than 10 years.
+
+Alveolar echinococcosis
+-----------------------
+
+Prevention and control of alveolar echinococcosis is more complex as the cycle involves wild animal species as both definitive and intermediate hosts. Regular deworming of domestic carnivores that have access to wild rodents should help to reduce the risk of infection in humans.
+
+Deworming of wild and stray definitive hosts with anthelminthic baits resulted in significant reductions in alveolar echinococcosis prevalence in European and Japanese studies. Culling of foxes and unowned free-roaming dogs appears to be highly inefficient. The sustainability and cost–benefit effectiveness of such campaigns are controversial.
+
+WHO and country response
+========================
+
+Strengthening echinococcosis prevention and control
+---------------------------------------------------
+
+Informal Working Groups on Echinococcosis were founded in 1985 under the auspices of the WHO. For 10 years, under the leadership of Professor J. Eckert (University of Zurich, Switzerland), the groups organised meetings of specialists and promoted international scientific exchange and co-operation in the field of echinococcosis research. In 1995, the WHO modified the structure of the groups and transformed them into a single group, the WHO Informal Working Group on Echinococcosis (WHO-IWGE). The mission of the WHO-IWGE is to strengthen prevention and control of echinococcosis through effective collaboration with strategic partners and relevant sectors. The current Chair of the WHO-IWGE is Professor Thomas Junghanss (Heidelberg University, Germany), and Co-Chair is Professor Okan Akhan (Hacettepe University, Turkey).
+
+The WHO-IWGE developed in 1995 a standardized classification of cystic echinococcosis (CE) that could be applied in all settings. In 2009, the consensus for diagnosis and treatment of CE and alveolar echinococcosis (AE) reached by the WHO-IWGE was published (Brunetti et al., 2010), providing updated guidelines for diagnosis and treatment.
+
+The WHO-IWGE is in the process of reviewing the diagnosis and associated clinical management of echinococcosis and elaborating technical manuals with practical applicability. Several workings groups have been created to cover the different aspects of the diseases and are working on creating those documents. The group is also working to promote the collection and mapping of epidemiological data.
+
+Building capacity to enhance early diagnosis and clinical management of CE
+--------------------------------------------------------------------------
+
+WHO has been asked by the endemic countries to provide support on early diagnosis and clinical management of cystic echinococcosis. WHO supports capacity building through training courses targeting medical and paramedical personnel, focused on the clinical management of cystic echinococcosis in rural areas of affected countries. This is an integral component to support universal health coverage.
+
+Morocco undertook a project aimed at decentralizing diagnostic and therapeutic techniques and promoting the PAIR (puncture, aspiration, injection, re-aspiration) strategy in rural and hyperendemic areas.
+
+Mongolia has recognized the importance of echinococcosis as a public-health problem and, at the request of the Ministry of Health, WHO in 2013 conducted an initial situation analysis. The analysis focused on implementing early diagnosis and building a basic surveillance system covering humans and animals to understand the actual burden of the disease.
+
+A cross-sectional study conducted in Bulgaria, Romania and Turkey in 2014-2015, found that the true burden of CE is poorly understood and that many cases remain asymptomatic, with no appropriate medical diagnosis and treatment. The study assessed the prevalence of the disease among rural populations in the three countries.
+
+In the Americas, a cystic echinococcosis control manual was produced by the Pan American Health Organization / WHO Regional Office for the Americas (OPS) and Panaftosa in 2017. It has been published in Spanish.
+
+Working with veterinary and food safety authorities to support the development of echinococcosis control programmes
+-------------------------------------------------------------------------------------------------------------------
+
+The transmission cycle of cystic echinococcosis (CE) involves dogs, and intermediate hosts, commonly sheep. In order to break the transmission cycle, control measures need to consider those animals. Control measures in dogs and sheep, as part of a One-Health approach include the deworming of dogs with praziquantel at least 4 times per year and the vaccination of lambs with EG95 vaccine.
+
+Under the umbrella of One Health, WHO and its partner, the World Organization for Animal Health (OIE) are supporting the development of echinococcosis control programs including animal interventions. Joint meetings are being held regularly and technical support is provided to promote control, for example in the Central Asia and South Caucasus countries.
+
+WHO assists countries to develop and implement pilot projects leading to the validation of effective cystic echinococcosis control strategies. Working with the veterinary and food safety authorities as well as with other sectors is essential to attain the long-term outcomes of reducing the burden of disease and safeguarding the food value chain.
+
+WHO is supporting individual countries to develop their CE control program such as in Mongolia. In 2018, a multidisciplinary stakeholder meeting was convened in Ulaanbaatar to start developing the National Action Plan for control of echinococcosis. No significant investment for echinococcosis has been made, and therefore programmatic steps have been progressing slowly but WHO continues to bring the stakeholders together and further actions have been agreed in 2019. WHO has also facilitated the validation of diagnostic tests used for echinococcosis in dogs that is important for surveillance, and create a baseline in Bayankhongor province of Mongolia.
+
+China is integrating echinococcosis prevention, control and treatment in their economic and development plans to raise attention to the vast problem in the country, especially the Tibetan plateau, as well as in the Central Asian Republics.
+
+WHO is promoting One-Health approaches, such as the one developed by Dr Larrieu in the Argentinian Patagonia which involves community health workers, dog deworming and sheep vaccination.
+
+Improving data on CE
+--------------------
+
+Surveillance data is key to understand the disease epidemiological situation and taking action in the risk areas, and for setting up priorities. Data is also necessary to monitor the progress of interventions and evaluate the outcomes of control actions.
+
+Indicators are specific variables that assist with the data analysis and provide tools for health authorities and people involved in disease control. WHO has defined a new set of indicators at country and global level for CE and is developing reporting systems to guide and assist the countries on data collection and reporting.
+
+At global level, the indicators are 1- Number of endemic countries for CE, and 2- Number of countries with intensified control in hyper endemic areas. A hyperendemic area has been defined as an area with an annual incidence of 5 human cases/100,000 people.
+
+At country level there are epidemiological indicators and control progress indicators. The epidemiological indicators include a combination of passive and active surveillance. The control indicators include impact and outcome indicators.
+
+(1) One DALY (disability-adjusted life year) can be thought of as one lost year of “healthy” life. The sum of these DALYs across the population, or the burden of disease, can be thought of as a measurement of the gap between current health status and an ideal health situation where the entire population lives to an advanced age free of disease and disability.

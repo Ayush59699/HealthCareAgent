@@ -1,0 +1,83 @@
+WHO FACT SHEET
+Title: Civil registration and vital statistics
+URL: https://www.who.int/news-room/fact-sheets/detail/civil-registration-and-vital-statistics
+Retrieved: 2026-10-05T09:31:19.584681+00:00
+
+========================================
+
+Key facts
+=========
+
+- It is estimated that 36 million babies born each year are not registered, as only about 50% of countries have the capacity to register at least 90% of births.
+
+- Registered births ranged from 98% in the WHO European Region, 96% in the Region of the Americas, 91% in Western Pacific Region, 78% in South-East Asia Region, 69% in the Eastern Mediterranean Region and only 44% in African Region.
+
+- Nearly 40% of the world’s deaths are not registered, and only 8% of reported deaths in low-income countries have documented causes.
+
+- The latest global assessment of health data capacity in countries (SCORE assessment) in 164 countries found that the percentage of registered deaths ranged from 98% in the WHO European Region, 91% in the Region of the Americas, 82% in the Western Pacific Region, 61% in South-East Asia Region, 55% in Eastern Mediterranean Region and 10% in African Region (1).
+
+- It is estimated that 14.9 million extra deaths were associated with the COVID-19 pandemic, and 84 of 197 (43%) countries did not have mortality data to contribute to the estimation.
+
+Overview
+========
+
+Countries use civil registration to record vital events such as birth, marriage, divorce, adoption, death and cause of death. Information on births and deaths by location, age, sex and cause is the cornerstone of public health and social development planning.
+
+The main source of vital statistics is civil registration. “Civil registration is defined as the continuous, permanent, compulsory and universal recording of the occurrence and characteristics of vital events pertaining to the population, as provided through decree or regulation in accordance with the legal requirements in each country”(2). The availability of detailed vital statistics for a country or area illustrates national capacity in the compilation of these statistics from civil registration systems (3).
+
+Birth registration provides a basis for social inclusion and individual legal identity, which is a human right. Registering births, deaths and causes of death allows countries to identify their most pressing health and social issues such as fertility rates or resolution of criminal cases.
+
+Barriers and challenges
+=======================
+
+Civil registration and vital statistic (CRVS) systems are complex, but advances in computerization are removing barriers, facilitating registration procedures and enabling data exchange and production. An integrated CRVS system analyses and uses these data to allocate resources appropriately, develop policies and make decisions that will influence the path towards the Sustainable Development Goal (SDG) targets.
+
+Many barriers still prevent people from registering births and deaths, including when countries do not have the necessary laws or infrastructure to register all births and deaths. Censuses and surveys can be used to estimate population numbers, but these are not designed to capture information on all causes of death. Some countries have set up sample registration systems that can generate nationally representative mortality data.
+
+In the absence of medical certification of causes of death, the WHO standard verbal autopsy questionnaires can be used to generate population-level cause-of-death statistics.
+
+The COVID-19 pandemic highlighted the important use of mortality data. The analysis of excess mortality, which is the extra number of deaths compared to what would be expected in normal times, revealed the true impact of the pandemic. Excess mortality includes deaths resulting directly from COVID-19 and those indirectly related to it, for example when over-stretched healthcare systems struggle to provide care to patients during the pandemic. From January 2020 to December 2021, around 14.9 million extra deaths happened because of the pandemic.
+
+WHO response
+============
+
+Advocating
+----------
+
+The CRVS system is considered as the most reliable source of statistics on births, migration, life expectancy, deaths and causes of death.
+
+WHO is working with partners to prioritize CRVS strengthening at global, regional and country levels. The WHO CRVS Strategic Implementation Plan 2021–2025 is based on four strategic objectives to accelerate CRVS system strengthening in Member States through more effective engagement and leadership by the health sector. Moreover, by virtue of its reach and proximity to the population it serves, the health sector is ideally placed to support the registration of births and deaths where laws permit. WHO, in collaboration with UNICEF, has published guidance on the health sector contributions towards improving the civil registration of births and deaths in low-income countries.
+
+Setting norms and standards
+---------------------------
+
+WHO sets the norms and standards for the generation of cause-of-death statistics to ensure comparability across countries. For more than a century, the International Classification of Diseases (ICD) has been the basis for comparable statistics on causes of mortality and morbidity between places and over time. Originating in the 19th century, the latest version, ICD-11, was adopted by the 72nd World Health Assembly in 2019 and came into effect on 1 January 2022.
+
+Supporting countries
+--------------------
+
+Strengthening CRVS systems requires collaboration with partners to align investment and avoid duplication of efforts. The Health Data Collaborative has set up a CRVS technical group to support coordinated country-level engagement. The three levels of WHO (headquarters, regional and country offices) coordinate technical support to countries. WHO also supports regional initiatives led by development partners to promote CRVS in the global agenda.
+
+Monitoring global health
+------------------------
+
+In order to monitor and improve global health, WHO has set up the WHO Mortality Database since 1950 with the aim to gather information about deaths and causes of death. With data from more than 120 countries’ CRVS systems, the WHO Mortality Database is the premier data source for international comparative epidemiological studies of mortality by cause. It has underpinned global policies to improve population health such as reduction in tobacco smoking, prevention of mortality from road traffic accidents and noncommunicable diseases.
+
+By monitoring the global availability and quality of cause-of-death data, WHO can identify gaps in systems, resources and support that need to be prioritized to improve health situations.
+
+Understanding country health information systems
+------------------------------------------------
+
+Information on births, deaths and causes of deaths is an integral part of a country’s health information system. Health professionals use the information to plan for health services and monitor the effectiveness of their interventions. In this regard, the SCORE for Health Data Technical Package was developed by WHO and partners to assist Member States in strengthening country data systems and capacity to monitor progress towards the health-related SDGs, universal health care, and other national and subnational health priorities and targets.
+
+The SCORE for Health Data Technical Package converges comprehensive strategies and interventions for strengthening country health information systems. Launched in August 2020, the report is a concrete starting point to improve the availability of timely, reliable and comparable health data to track progress towards the Triple Billion targets and health-related Sustainable Development Goals.
+
+The C in SCORE stands for Count, which is to count births, deaths and causes of deaths, including the full birth and death registration and certification and report on causes of death. The SCORE assessment has enabled countries to look at the maturity of their CRVS systems, identify gaps and moved CRVS to the top of their priorities.
+
+References
+
+1. SCORE for Health Data Technical Package, Global report on health data systems and capacity, 2020.
+
+2. Principles and Recommendations for a Vital Statistics System, Revision 3, Sales No.E.13.XVII.10, United Nations, New York, 2014.
+
+3. Population and Vital Statistics Report, Statistical Papers Series A, Vol. LXXIV January 2022.

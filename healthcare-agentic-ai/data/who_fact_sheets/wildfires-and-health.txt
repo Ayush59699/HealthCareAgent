@@ -1,0 +1,149 @@
+WHO FACT SHEET
+Title: Wildfires
+URL: https://www.who.int/news-room/fact-sheets/detail/wildfires-and-health
+Retrieved: 2026-10-05T09:35:28.109437+00:00
+
+========================================
+
+Key facts
+=========
+
+- Wildfires are increasing globally in both frequency and severity due to climate change.
+
+- Wildfire events are increasingly threatening lives and ecosystems, through the destruction of forests and homes of their inhabitants, and through their impacts, particularly smoke pollution, which can extend across regions and even national borders.
+
+- Wildfire smoke represents a severe burden on human health worldwide due to drastic and sudden deterioration of air quality.
+
+- In addition to direct deaths and disabilities from fire activity, emergency department visits and hospital admissions for respiratory outcomes related to wildfire smoke exposure represent a burden for health systems.
+
+- The public health sector has a key role to play in the multi-sectoral response, both for prevention and interventions after wildfire episodes. This includes early warning systems, effective risk communication, preparedness and advocacy for low-carbon and low-emission societies.
+
+Overview
+========
+
+Wildfires are uncontrolled fires that occur in nature and can be caused by humans and intensified by adverse weather conditions. As wildfire-prone areas expand, wildfires can also affect the built environment, which includes roads, houses, power lines and other infrastructure. An estimated 80–95% of global wildfires are ignited by human activities (e.g., downed or arcing power lines, campfires, equipment use, etc.) rather than natural ignition (e.g. lightning). While wildfires have always existed and, in some cases, are natural events with benefits for nature and biodiversity, they can generate considerable damage to forests and built environments, as well as threaten lives and ecosystems.
+
+Climate change and wildfires
+============================
+
+Wildfires are increasing in both frequency and severity globally. Recent notable examples are from 2018 and 2025 in California, 2019–2020 in Australia, 2019 in Siberia, 2023 in Canada, 2024 in Chile, and 2026 in western Europe and North America. These have burned millions of hectares and destroyed infrastructure and thousands of homes.
+
+Extreme wildfires are projected to become up to 50% more frequent by the end of the century (FAO, IPCC). Climate change is both narrowing the window of safe burn periods, and increasing the unpredictability of fire and weather behaviour, which elevates the risk of escaped burns. As a result, prescribed burning efforts to control wildfire risk should adapt to a changing climate, for example integrating traditional knowledge from Indigenous practitioners of cultural burning, as well as technological solutions.
+
+Wildfires and air pollution
+===========================
+
+Wildfires can significantly increase air pollution levels. Wildfire smoke is a major source of toxic gaseous and particle air pollutants, as well as greenhouse gases. While particles from wildfire smoke can vary in size, approximately 90% of total particle mass emitted from wildfires consists of particulate matter (PM) with a diameter equal to or smaller than 2.5 micrometres (PM2.5) (1). Smoke produced from wildfires can be composed of a complex mixture of different compounds, including:
+
+- particulate matter (PM), both PM10 and PM2.5, but also ultrafine particles (UFP) that are particles smaller than 0.1 micrometres in diameter;
+
+- common gaseous pollutants (e.g., ozone, nitrogen dioxide, sulphur dioxide);
+
+- hazardous air pollutants (e.g., polycyclic aromatic hydrocarbons (PAHs);
+
+- greenhouse gases (GHGs) (e.g., carbon dioxide, methane, nitrous oxides);
+
+- toxic metals (e.g., lead); and
+
+- microplastics.
+
+In addition, wildfire smoke may travel thousands of kilometres, impacting air quality and human health in areas far away from the wildfire zone.
+
+Health impacts of wildfire smoke exposure
+=========================================
+
+The health impacts of wildfire smoke depend on many factors, such as the composition of PM, the fuel source, and the chemical composition. When wildfires burn manufactured structures and materials, additional chemicals are added to the smoke, with ash containing higher levels of toxic trace metals, asbestos and PAHs.
+
+In addition to provoking and increasing the risk of injuries, burns and death of people exposed to wildfires, some adverse health impacts that have been observed as a result of particle pollution exposure from wildfire smoke include in the short term:
+
+- mild symptoms such as headaches, as well as eye and respiratory tract irritation;
+
+- more serious symptoms such as dizziness, wheezing or chest pains;
+
+- respiratory-related health effects, including asthma attacks and shortness of breath;
+
+- cardiovascular-related health effects such as heart palpitations or hospital admissions in older populations (65 years of age and over); and
+
+- acute mortality and premature deaths attributable to short-term exposure in affected regions.
+
+Long-term health effects of wildfire smoke exposure are under investigation because of the suspicion that they can be exacerbated by wildfires, such as different types of cancer. Many studies also show a consistent link between exposure to wildfire smoke and increased risk of all-cause mortality (2), while the evidence for cardiovascular and respiratory mortality is mixed and less conclusive. In addition, populations that have been directly impacted by fire experience mental health concerns and psychological stress that are attributable to the trauma associated with evacuation, loss of property, loss of livelihood and other effects.
+
+Populations at risks of wildfire smoke
+======================================
+
+Children and older adults are particularly vulnerable to the health effects of wildfire smoke, and pregnant women can suffer an elevated risk of adverse birth outcomes (e.g., low birth weight or pre-term birth). Children are considered sensitive to the adverse health effects of air pollution, including wildfire smoke, because their lungs, heart, cognition, behaviours and immune systems are still developing. Several factors lead to increased exposure in children compared with adults: children inhale more air (and therefore more pollutant) per unit of body weight; tend to spend more time outside; and engage in more vigorous activity – all of which can contribute to adverse effects on developing lungs.
+
+Older adults are considered sensitive to the adverse health effects of wildfire smoke due to a gradual decline in physiological processes and a relatively higher prevalence of lung and heart diseases. Individuals with an existing illness or chronic health conditions (e.g., lung or heart diseases) may also experience worsening symptoms due to exposure to wildfire smoke.
+
+Other factors that may make adults more vulnerable to the health impacts of wildfire smoke include socioeconomic status, education status, housing conditions, employment setting (e.g., outdoor workers), access to health care, amongst others.
+
+Some groups are at greater risk to the health effects of wildfire smoke due to an increased likelihood of exposure, such as those that live in areas in closer proximity to wildfires, and wildland firefighters.
+
+Protecting health from exposure to wildfire smoke
+=================================================
+
+During heavy smoke conditions, it is important for individuals to reduce exposure to particle pollution from wildfire by:
+
+- consulting guidance from local and relevant authorities
+
+- reducing activities outdoors
+
+- protecting indoor air from wildfire smoke
+
+- seeking cleaner air spaces
+
+- being aware of potential symptoms of wildfire smoke exposure and seeking medical attention if necessary.
+
+Health agencies and professionals can contribute through:
+
+- ensuring public health decisions use information from multi-hazard (e.g., fire, smoke pollution, heat) platforms that are informed by trusted forecasting and exposure assessment tools and sources that feed into early warning systems;
+
+- supporting policies and measures to reduce the risk for communities, such as building regulations and design that ensure fire-resistant built environments and infrastructure, applying evidence-based principles to manage fuel loads to create buffers, minimizing anthropogenic ignitions, reducing biomass/fuel availability, and equipping communities with information and tools for preparedness;
+
+- supporting wildfire recovery, including reforestation activities that are not only an effective natural carbon sequestration method, but also have many co-benefits for health, biodiversity, air and water filtration, and protection from further environmental degradation; and
+
+- promoting a One Health approach that considers the full range of causes and consequences associated with wildfires, and aims to sustainably promote the health of people, animals and ecosystems in a synergistic manner.
+
+UN system response
+==================
+
+In 2023, the Food and Agriculture Organization (FAO) and the United Nations Environment Programme (UNEP) launched a Global Fire Management Hub (3) to accelerate the capacities to implement integrated fire management at regional, national and community levels. The hub supports countries in developing integrated fire management and focuses on knowledge and data sharing, capacity building, fire risk assessment and early warning, wildfire-resilient communities and policy support.
+
+The World Meteorological Organization (WMO) Global Atmosphere Watch (GAW) Programme (4) has taken the lead with international partners to develop and implement the Vegetation Fire and Smoke Pollution Warning Advisory and Assessment System (VFSP-WAS). The VFSP-WAS is an international network of research, national operational centres and users organized through regional nodes assisted by regional centres.
+
+WHO response
+============
+
+WHO works with Member States to build resilient, low-carbon and proactive health systems that can anticipate needs and challenges during emergencies and are more able to reduce risks and respond effectively when needed.
+
+As the health cluster lead for global emergencies, WHO works with partners in preparing, preventing, detecting, responding and recovering from emergencies and disasters, including those with environmental causes. These activities include:
+
+- putting in place early warning systems and issuing health and air quality advisories;
+
+- developing national policies, recommendations and national emergency response plans;
+
+- calling for regional and international approaches to wildfire prevention and management;
+
+- strengthening human resources for disaster management;
+
+- containing the release of hazardous materials;
+
+- assessing health needs of the community, and damage to infrastructure;
+
+- restoring primary care services, such as immunization, child and maternal health, and mental health;
+
+- establishing and managing stocks of relief supplies and equipment;
+
+- collecting, analysing and disseminating information related to emergencies and disasters that are likely to occur in the region; and
+
+- calling for emergency funding to support health action.
+
+References
+
+1. Health Canada. Guidance for Cleaner Air Spaces during Wildfire Smoke Events. Ottawa (ON): Health Canada; 2020 Sep. Available from: https://www.canada.ca/content/dam/hc-sc/documents/services/publications/healthy-living/guidance-cleaner-air-spaces-during-wildfire-smoke-events/guidance-cleaner-air-spaces-during-wildfire-smoke-events.pdf
+
+2. Health Canada. Human health effects of wildfire smoke. Ottawa (ON): Health Canada; 2024 May. Available from: https://publications.gc.ca/collections/collection_2024/sc-hc/H144-123-2024-eng.pdf
+
+3. Food and Agriculture Organization of the United Nations. About the Fire Hub. Rome: FAO. Available from: https://www.fao.org/partnerships/fire-hub/about/en
+
+4. World Meteorological Organization. Global Atmosphere Watch (GAW) Programme. Geneva: World Meteorological Organization. Available from: https://wmo.int/all-activities/research/global-atmosphere-watch-gaw-programme

@@ -1,0 +1,117 @@
+WHO FACT SHEET
+Title: Group B Streptococcus (GBS)
+URL: https://www.who.int/news-room/fact-sheets/detail/group-b-streptococcus-(gbs)
+Retrieved: 2026-10-05T09:32:15.917499+00:00
+
+========================================
+
+Key facts
+=========
+
+- Group B Streptococcus (GBS) is a common bacterium that is usually harmless in adults but can contribute to life-threatening infections in infants, including sepsis, pneumonia and meningitis.
+
+- Globally, GBS causes more than 500 000 premature births, and roughly 150 000 stillbirths and infant deaths each year (1).
+
+- In many settings, around 10–30% of pregnant women carry GBS in their gastrointestinal or genital tracts. Among babies born to mothers who carry GBS and do not receive antibiotics during labour, up to about 5 in 10 will come into contact with the bacteria, and roughly 1–2 in 100 of these babies will go on to develop a serious early-onset GBS infection in the first days of life (2).
+
+- Universal or risk-based screening for GBS during pregnancy, as well as preventive antibiotics during labour, can reduce the risk of early-onset GBS disease in newborns. However, antibiotic treatment does not prevent stillbirths, preterm births, or GBS infections after the first week of life.
+
+- Vaccines designed to be given during pregnancy to protect infants from GBS are currently in development.
+
+Overview
+========
+
+Streptococcus agalactiae, commonly known as Group B Streptococcus (GBS), is a type of bacteria commonly carried in the human gut or vagina. Each year, GBS infection affects an estimated 390 000 infants, and is the leading cause worldwide of acute bacterial meningitis in newborns.
+
+GBS can cause a range of infections in both newborns and adults. In newborns, GBS is a leading cause of serious illnesses such as sepsis (a bloodstream infection), pneumonia (lung infection), and meningitis (infection of the membranes around the brain and spinal cord). In adults, especially those who are older or have certain health conditions, GBS can cause urinary tract infections, skin and soft tissue infections, bloodstream infections, and, less commonly, pneumonia or meningitis.
+
+Because GBS infections can be severe, it is important to recognize symptoms early and start treatment promptly in both babies and adults.
+
+Who is at risk?
+===============
+
+Certain groups are at increased risk of GBS infection.
+
+Babies up to 3 months old are most at risk of GBS infection, particularly if they are born premature, before 37 weeks. Infants are also at risk of serious infection if they are born to mothers who carry GBS, have had a previous baby with GBS, fever during labour or an infection in the womb. Infection in infants may result in death or long-term disabilities.
+
+Pregnant women with GBS may develop complications such as chorioamnionitis (an infection of the placenta and amniotic fluid) or, in some cases, sepsis after childbirth. However, the greatest risk is usually to the baby. If a woman’s water breaks more than 18 hours before birth, the chance of GBS infection for the baby increases by four times, as the bacteria can enter the womb. About 30% of stillbirths caused by GBS happen in pregnancies that seemed healthy, highlighting the urgent need for better ways to predict and prevent this infection in all pregnancies.
+
+Adults aged 65 and older, and those with serious conditions, such as diabetes, cancer or a weakened immune system, are also more likely to develop severe GBS illness.
+
+Transmission
+============
+
+GBS is part of the natural microbiome for many people, meaning it naturally develops in the body, rather than being transmitted from person to person. While GBS is not considered a sexually transmitted infection, it can be shared through close, more intimate forms of contact. However, it is not spread easily through everyday casual contact.
+
+GBS is most often passed from mother to baby during childbirth. The bacteria can live in the vagina or rectum of pregnant women, often without causing any symptoms. Babies can also acquire GBS from the environment or from caregivers after birth, especially in health-care settings.
+
+Signs and symptoms
+==================
+
+Not everyone who carries GBS will experience symptoms. GBS symptoms vary depending on the person's age and the part of the body where the infection occurs.
+
+In infants, GBS can present in two forms. Early-onset disease occurs within the first week after birth and can cause sepsis, pneumonia or meningitis. Late-onset disease happens from 7 to 89 days after birth, and can cause similar illnesses, but more commonly meningitis. Signs of GBS may include fever, poor feeding, lethargy, irritability, difficulty breathing and bluish or pale skin. Signs of meningitis can also include seizures or a bulging soft spot on the baby’s head.
+
+GBS can cause meningitis, an inflammation of the membranes surrounding the brain and spinal cord, in both newborns and adults. Although meningitis is less common in adults than other serious GBS infections, it still carries a significant risk of death or long-term disability in both groups.
+
+In adults, GBS can also lead to severe illness with symptoms such as fever, confusion, and neck stiffness – potential signs of meningitis – or low blood pressure, rapid breathing, and organ failure. GBS can also cause infections in the urinary tract, lungs, skin and soft tissue, and in the bones or joints, particularly in older adults or those with underlying health conditions.
+
+Prevention
+==========
+
+Testing
+-------
+
+According to the WHO 2024 guideline, pregnant women should be offered universal antenatal screening for Group B Streptococcus around 35–37 weeks’ gestation. WHO also recommends a risk-based alternative in settings where universal screening is not feasible. Those who test positive should receive intravenous antibiotics, such as penicillin or ampicillin, at least four hours before delivery to prevent passing GBS to their baby. This approach reduces the risk of newborn early-onset disease risk by about 80% (3).
+
+In both newborns and adults with GBS infections, blood cultures are used to confirm serious blood infections, while lumbar puncture can confirm a brain infection by detecting the bacteria in brain fluid. Rapid PCR tests are also available and can detect GBS DNA in brain fluid more quickly than cultures, allowing for faster treatment decisions.
+
+Infection control
+-----------------
+
+Good hygiene practices at home and in hospitals can reduce the risk of late-onset GBS disease. Key measures include handwashing and clean-delivery practices (that is, ensuring a sterile environment during childbirth by using clean hands, tools, and surfaces) as outlined in the WHO Safe Childbirth Checklist.
+
+Vaccination
+-----------
+
+Vaccines for use in pregnancy are in development. These vaccines aim to generate protective maternal antibodies that cross the placenta and protect newborns during the first months of life. Modelling suggests they could prevent more than 50% of infant GBS cases and may also reduce the risk of preterm birth and stillbirth. While exact timelines are still uncertain, WHO anticipates that the first maternal GBS vaccines may become available by 2030.
+
+Treatment
+=========
+
+Antibiotics
+-----------
+
+Babies with GBS infections are treated with antibiotics administered through a vein. Penicillin or ampicillin is typically used first, often in combination with gentamicin. Alternative antibiotics are given to those with allergies. Treatment usually lasts between 10 and 21 days, depending on the severity of the infection and how well the baby responds to therapy.
+
+Supportive care
+---------------
+
+In severe cases of GBS infection, babies may require intensive supportive care. This can include intravenous fluids, oxygen therapy or mechanical ventilation, management of seizures or brain swelling, and nutritional support for sick newborns.
+
+Long-term follow up
+-------------------
+
+Babies who survive a GBS infection often need ongoing care. This can include hearing tests, checks on growth and development, and physical treatment. Physical treatment usually means physical therapy, but it may also include occupational or speech therapy, depending on the child’s specific needs.
+
+Complications and sequelae
+--------------------------
+
+Some babies who survive a serious GBS infection can have long-term health problems. About 20–30% of babies who survive GBS meningitis may have lasting problems such as hearing loss, seizures, or delays in learning to move, speak, or think. Some may also develop cerebral palsy, which affects movement and muscle control. Babies who survive GBS sepsis can also sometimes have developmental problems, though this is less common than after meningitis. Most babies recover fully, but some, especially after severe infection, may need ongoing follow-up care.
+
+WHO response
+============
+
+In 2020, Member States committed to implementing the Defeating meningitis by 2030 global road map. The roadmap focuses on eliminating the main causes of acute bacterial meningitis – including GBS, including through prevention, treatment and further research.
+
+WHO supports countries in tracking antibiotic resistance and studying the different GBS strains found around the world, which is essential for developing vaccines that work everywhere. WHO is preparing guidance to help countries decide whether and how to introduce GBS vaccines when they are developed and is developing tools to support researchers in testing and comparing vaccines in development.
+
+WHO provides recommendations on screening of pregnant women and provision of intrapartum antibiotic prophylaxis to prevent early-onset GBS disease; guidance on safe childbirth practices and improved antenatal/intrapartum care; and diagnostic and treatment guidelines for GBS disease and meningitis in newborns.
+
+References
+
+1) Gonçalves BP, Procter SR, Paul P, Chandna J, Lewin A, Seedat F, et al. Group B streptococcus infection during pregnancy and infancy: estimates of regional and global burden. Lancet Glob Health. 2022;10(6):e807–19. doi:10.1016/S2214-109X (22)00093-6. https://pubmed.ncbi.nlm.nih.gov/35490693/
+
+2) American College of Obstetricians and Gynecologists. Prevention of group B streptococcal early-onset disease in newborns: ACOG Committee Opinion, Number 797. Obstet Gynecol. 2020 ;135(2): e51–e72. doi:10.1097/AOG.0000000000003668. https://pubmed.ncbi.nlm.nih.gov/6355318/
+
+3) Boyer KM, Gadzala CA, Kelly PD, Gotoff SP. Selective intrapartum chemoprophylaxis of neonatal group B streptococcal early-onset disease. III. Interruption of mother-to-infant transmission. J Infect Dis. 1983;148(5):810–816. Boyer KM, Gotoff SP. Prevention of early-onset neonatal group B streptococcal disease with selective intrapartum chemoprophylaxis. N Engl J Med. 1986;314(26):1665–1669. https://pubmed.ncbi.nlm.nih.gov/3520321/

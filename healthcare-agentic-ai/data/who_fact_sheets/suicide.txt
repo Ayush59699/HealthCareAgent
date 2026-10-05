@@ -1,0 +1,78 @@
+WHO FACT SHEET
+Title: Suicide
+URL: https://www.who.int/news-room/fact-sheets/detail/suicide
+Retrieved: 2026-10-05T09:35:00.948175+00:00
+
+========================================
+
+Key facts
+=========
+
+- More than 720 000 people die due to suicide every year.
+
+- Suicide is the third leading cause of death among 15–29-year-olds.
+
+- Seventy-three per cent of global suicides occur in low- and middle-income countries.
+
+- The reasons for suicide are multi-faceted, influenced by social, cultural, biological, psychological, and environmental factors present across the life-course.
+
+- For every suicide there are many more people who attempt suicide. A prior suicide attempt is an important risk factor for suicide in the general population.
+
+Overview
+========
+
+Every year 727 000 people take their own life and there are many more people who make suicide attempts. Every suicide is a tragedy that affects families, communities and entire countries and has long-lasting effects on the people left behind. Suicide occurs throughout the lifespan and was the third leading cause of death among 15–29-year-olds globally in 2021.
+
+Suicide does not just occur in high-income countries but is a global phenomenon in all regions of the world. In fact, close to three quarters (73%) of global suicides occurred in low- and middle-income countries in 2021.
+
+Suicide is a serious public health problem that requires a public health response. With timely, evidence-based and often low-cost interventions, suicides can be prevented. For national responses to be effective, a comprehensive multisectoral suicide prevention strategy is needed.
+
+Who is at risk?
+===============
+
+The link between suicide and mental disorders (in particular, depression and alcohol use disorders) and a previous suicide attempt is well established in high-income countries. However, many suicides happen impulsively in moments of crisis with a breakdown in the ability to deal with life stresses, such as financial problems, relationship disputes, or chronic pain and illness.
+
+In addition, experiencing conflict, disaster, violence, abuse or loss and a sense of isolation are strongly associated with suicidal behaviour. Suicide rates are also high among vulnerable groups who experience discrimination, such as refugees and migrants; indigenous peoples; lesbian, gay, bisexual, transgender, intersex (LGBTI) persons; and prisoners.
+
+Prevention and control
+======================
+
+There are several measures that can be taken at population, sub-population and individual levels to prevent suicide and self-harm. LIVE LIFE, WHO’s initiative for suicide prevention, recommends the following key effective evidence-based interventions:
+
+- limit access to the means of suicide (e.g. pesticides, firearms, certain medications);
+
+- interact with the media for responsible reporting of suicide;
+
+- foster socio-emotional life skills in adolescents; and
+
+- early identify, assess, manage and follow up anyone who is affected by suicidal behaviours.
+
+These need to go hand-in-hand with the following foundational pillars: situation analysis, multisectoral collaboration, awareness raising, capacity building, financing, surveillance and monitoring and evaluation.
+
+Suicide prevention efforts require coordination and collaboration among multiple sectors of society, including the health sector and other sectors such as education, labour, agriculture, business, justice, law, defence, politics and the media. These efforts must be comprehensive and integrated given the multifaceted nature of suicide.
+
+Challenges and obstacles
+========================
+
+Stigma and taboo
+----------------
+
+Stigma, particularly surrounding mental disorders and suicide, means many people thinking of taking their own life or who have attempted suicide are not seeking help and are therefore not getting the help they need. The prevention of suicide has not been adequately addressed due to a lack of awareness of suicide as a major public health problem and the taboo in many societies to openly discuss it. To date, only a few countries have included suicide prevention among their health priorities and only 38 countries report having a national suicide prevention strategy.
+
+Raising community awareness and breaking down the taboo is important for countries to make progress in preventing suicide.
+
+Data quality
+------------
+
+Globally, the availability and quality of data on suicide and self-harm is poor. Only some 80 WHO Member States have good-quality vital registration data that can be used directly to estimate suicide rates. This problem of poor-quality mortality data is not unique to suicide, but given the stigma surrounding suicide – and the illegality of suicidal behaviour in some countries – it is likely that under-reporting and misclassification are greater problems for suicide than for most other causes of death.
+
+Improved surveillance and monitoring of suicide and self-harm are required for effective suicide prevention strategies. Cross-national differences in the patterns of suicide, and changes in the rates, characteristics and methods of suicide, highlight the need for each country to improve the comprehensiveness, quality and timeliness of their suicide-related data. This includes vital registration of suicide, hospital-based registries of self-harm and nationally representative surveys collecting information about self-reported self-harm.
+
+WHO response
+============
+
+The urgency to act to prevent suicides has been recognized and prioritized at the highest levels. The reduction of the suicide rate is an indicator in the UN Sustainable Development Goals (the only indicator for mental health), WHO’s General Programme of Work and WHO’s Comprehensive Mental Health Action Plan 2013–2030.
+
+The first WHO world suicide report, Preventing suicide: a global imperative, published in 2014, aimed to increase the awareness of the public health significance of suicide and suicide attempts and to make suicide prevention a high priority on the global public health agenda. It also aimed to encourage and support countries to develop or strengthen comprehensive national suicide prevention strategies through a multisectoral public health approach.
+
+In 2021, WHO launched LIVE LIFE: an implementation guide for suicide prevention in countries. Accompanying resources to support the implementation of the four key LIVE LIFE interventions have also been published including the 2024 brochure on Preventing suicide by phasing out highly hazardous pesticides to support limiting access to means, Preventing suicide: a resource for media professionals, update 2023 to encourage responsible reporting of suicide, and the Helping Adolescents Thrive toolkit to foster socio-emotional life-skills among young people. At the health sector level, suicide/self-harm is one of the priority conditions in the WHO Mental Health Gap Action Programme (mhGAP), which provides evidence-based technical guidance to scale up service provision and care in countries for mental, neurological and substance use disorders. The mhGAP Intervention Guide (‎mhGAP-IG)‎ includes a specific module for suicide and self-harm to support early identification, assessment, management and follow-up. Through the LIVE LIFE initiative, governments are encouraged and supported to implement a suite of evidence-based interventions and foundational pillars for suicide prevention.

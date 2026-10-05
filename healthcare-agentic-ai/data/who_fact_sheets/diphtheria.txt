@@ -1,0 +1,85 @@
+WHO FACT SHEET
+Title: Diphtheria
+URL: https://www.who.int/news-room/fact-sheets/detail/diphtheria
+Retrieved: 2026-10-05T09:31:43.601552+00:00
+
+========================================
+
+Key facts
+=========
+
+- Diphtheria is a disease caused by a bacterium that affects the upper respiratory tract and, less often, the skin. It also produces a toxin that damages the heart and the nerves.
+
+- Diphtheria is a vaccine preventable disease, but multiple doses and booster doses are needed to produce and sustain immunity.
+
+- Those who are not immunized or under-immunized are at risk of the disease.
+
+- For unvaccinated individuals, without proper treatment, diphtheria can be fatal in around 30% of cases, with young children at higher risk of dying (1).
+
+- Recent diphtheria outbreaks stress the importance of sustaining high levels of vaccination coverage in communities across the life course.
+
+- In 2025, an estimated 85% of infants (110 million) worldwide received the recommended 3 doses of diphtheria-containing vaccine, leaving 15% (nearly 20 million) with no or incomplete coverage. There is wide coverage variation between and within countries.
+
+- Furthermore, only 83 countries have all three WHO-recommended diphtheria toxoid-containing booster doses in their national immunization programmes, and 42 countries have no boosters at all.
+
+Overview
+========
+
+Diphtheria is a contagious disease that is caused by toxin producing bacteria. It can spread from person to person when an infected person coughs or sneezes. Some people may not develop disease manifestations but can still transmit the bacteria to others. Others will develop mild disease, although severe disease, complications and death can also occur.
+
+The diphtheria toxin causes damage to the respiratory tract and can spread throughout the body. Common symptoms include fever, sore throat and swelling of the neck glands.
+
+Being vaccinated is the best way to prevent getting sick with diphtheria or spreading it to other people. The vaccine is safe and helps your body fight off the infection.
+
+Before the introduction of diphtheria vaccine and widespread vaccination in the 1930s, cases occurred throughout the world.
+
+Recently, as a result of under vaccination, outbreaks have been occurring with increasing frequency despite the availability of a safe and effective vaccine.
+
+No WHO region is completely free from diphtheria, and areas with low immunization coverage with the diphtheria toxoid-containing vaccine allow the bacteria to circulate, increasing the likelihood of outbreaks and putting all unvaccinated and under-vaccinated individuals at risk.
+
+Immunization and surveillance programmes should be strengthened within primary health care, and efforts should be made to reach all children with 3 primary doses of the diphtheria-containing vaccine during infancy, plus 3 boosters in childhood and adolescence. Countries should also implement robust surveillance systems to identify and confirm cases and close immunity gaps rapidly.
+
+Signs and symptoms
+==================
+
+Symptoms of diphtheria usually begin 2–5 days after exposure to the bacteria. Typical symptoms of the infection include a sore throat, fever, swollen neck glands and weakness. Within 2–3 days from infection, the dead tissue in the respiratory tract forms a thick, grey coating that can cover tissues in the nose, tonsils and throat, making it hard to breathe and swallow.
+
+Most severe disease and deaths from diphtheria occur as a result of the diphtheria toxin and its effects. Complications can include inflammation of the heart and nerves. For unvaccinated individuals without adequate treatment, diphtheria can be fatal in around 30% of cases, which children younger than 5 years of age at greater risk of dying.
+
+Who is at risk?
+===============
+
+Any non-immune person (not vaccinated or under vaccinated) is at risk of illness from diphtheria.
+
+Diphtheria has seen resurgences any time population immunization coverage becomes low. Damaged health infrastructure and health services in countries experiencing or recovering from a natural disaster or conflict interrupt routine immunization. Overcrowding and poor hygiene increases the risk of infection.
+
+Treatment
+=========
+
+The risk of complications or death decrease considerably if appropriate treatment is provided early in the course of illness. For this reason, if diphtheria is suspected, testing to confirm the disease should be done promptly and treatment should be started as soon as possible.
+
+Cases of diphtheria are usually treated with diphtheria antitoxin as well as antibiotics. Diphtheria specific antitoxin neutralizes circulation toxin in the blood. Detailed instructions for giving antitoxin can be found in the WHO treatment guidelines. Antibiotics stop bacterial replication and thereby toxin production, speed up getting rid of the bacteria and prevents transmission to others. However, many current strains of diphtheria have exhibited resistance to some commonly used antimicrobial drugs. Anyone that has had diphtheria should also receive vaccine after the acute phase of the illness is over.
+
+Individuals who have been in contact with cases of diphtheria should be treated with antibiotics prophylactically to prevent illness. Their immunization status of all contacts should also be checked. If they are not fully vaccinated, they should also be offered vaccine.
+
+Prevention
+==========
+
+Community-wide vaccination with high coverage as a part of routine immunization services embedded in primary health care is the most effective way to prevent diphtheria. All children should be vaccinated against diphtheria with a full primary series and 3 additional booster doses for long term protection. The vaccine is safe and effective.
+
+The diphtheria vaccine is given most often combined with vaccines for diseases such as tetanus, pertussis, Hemophilus influenzae, hepatitis B and inactivated polio.
+
+In 2025, 85% of children received all 3 doses of the primary series of diphtheria vaccine. However, there are substantial variations in coverage levels between and within countries. Furthermore, only 83 countries have all three WHO-recommended diphtheria toxoid-containing booster doses in their national immunization programmes, and 42 countries have no boosters at all.
+
+Under vaccination in successive cohorts of children can lead to cases and outbreaks of diphtheria.
+
+WHO response
+============
+
+The Essential Programme on Immunization began in 1974. Combination diphtheria vaccines were introduced as part of this programme since its inception and have prevented >90% cases of disease between 1980–2000. WHO continues to work with member states to promote vaccination to sustain vaccine coverage and prevent disease in communities.
+
+In recent years, there have been outbreaks of diphtheria due to inadequate vaccine coverage. To control these outbreaks, WHO has worked with member states in outbreak response and in strengthening routine immunization programmes to improve and sustain immunization coverage to prevent diphtheria infections and deaths.
+
+References
+
+1. Truelove SA, Keegan LT, Moss WJ, Chaisson LH, Macher E, Azman AS, Lessler J. Clinical and Epidemiological Aspects of Diphtheria: A Systematic Review and Pooled Analysis. Clin Infect Dis. 2020 Jun 24;71(1):89-97. doi: 10.1093/cid/ciz808. PMID: 31425581; PMCID: PMC7312233. https://pubmed.ncbi.nlm.nih.gov/31425581/

@@ -1,0 +1,154 @@
+WHO FACT SHEET
+Title: Pre-eclampsia
+URL: https://www.who.int/news-room/fact-sheets/detail/pre-eclampsia
+Retrieved: 2026-10-05T09:34:14.535097+00:00
+
+========================================
+
+Key Facts
+=========
+
+- Pre-eclampsia is a hypertensive disorder that affects 3-8% of women who give birth worldwide (1).
+
+- Pre-eclampsia can progress to eclampsia which involves seizures and can be life-threatening.
+
+- Pre-eclampsia and eclampsia contribute significantly to maternal and perinatal morbidity and mortality.
+
+- Hypertensive disorders are responsible for around 16% of maternal deaths globally, in 2023 this was the equivalent to around 42 000 deaths (2, 3).
+
+- In women with pre-eclampsia magnesium sulfate injections can be given to reduce the risk of eclampsia by more than half. Despite the availability of magnesium sulfate, its use is still limited in many low-resource settings.
+
+Overview
+========
+
+Pre-eclampsia is a high blood pressure disorder that typically develops after 20 weeks into pregnancy. It can present serious risks to both mother and baby. Early detection and management are crucial to prevent progression to eclampsia, which involves seizures. Both conditions can be life-threatening.
+
+Diagnosis
+=========
+
+Pre-eclampsia is diagnosed based on the onset of hypertension (blood pressure ≥140/90 mm Hg) proteinuria (protein in the urine) (≥0.3 g/24 hours) after 20 weeks of gestation. Severe pre-eclampsia may include symptoms such as severe headaches, visual disturbances and upper abdominal pain.
+
+Risk factors
+============
+
+Several factors can increase the risk of developing pre-eclampsia during pregnancy. Understanding these risk factors is essential for proactive monitoring and management. Having a risk factor doesn't always mean pre-eclampsia will occur, but closer medical supervision beyond routine screening is recommended.
+
+Several factors can increase the risk of developing pre-eclampsia, including:
+
+- first-time pregnancies
+
+- multiple pregnancies (twins, triplets, etc.)
+
+- obesity
+
+- pre-existing conditions such as hypertension, diabetes, or kidney disease
+
+- family history of pre-eclampsia.
+
+Symptoms
+========
+
+Symptoms of pre-eclampsia can vary significantly among individuals. While some may experience a range of noticeable symptoms, others may remain asymptomatic. It is important to be aware of potential indicators and seek medical attention if any concerns arise during pregnancy or after childbirth.
+
+Common symptoms of pre-eclampsia include:
+
+- persistent high blood pressure
+
+- proteinuria
+
+- severe headaches
+
+- visual disturbances (e.g., blurred vision, seeing spots)
+
+- upper abdominal pain
+
+- nausea and vomiting (after the first trimester)
+
+- swelling in the hands and face.
+
+Complications
+=============
+
+Pre-eclampsia, if left untreated, can lead to serious complications for both mother and baby. These complications can range from short-term issues to long-term health problems. Prompt medical intervention is crucial to minimize these risks.
+
+Complications can be severe and include:
+
+- eclampsia (seizures)
+
+- HELLP syndrome (hemolysis, elevated liver enzymes, low platelet count)
+
+- organ damage (kidneys, liver, brain)
+
+- placental abruption
+
+- preterm birth
+
+- fetal growth restriction
+
+- maternal and fetal death.
+
+Treatment and management
+========================
+
+The primary treatment for pre-eclampsia is the administration of magnesium sulfate to prevent seizures.
+
+The treatment and management of pre-eclampsia depend on the severity of the condition and the gestational age of the pregnancy. The goal is to prevent complications.
+
+Other management strategies include:
+
+- antihypertensive medications to control blood pressure
+
+- corticosteroids to accelerate fetal lung maturity if preterm delivery is anticipated
+
+- close monitoring of maternal and fetal health.
+
+Prevention
+==========
+
+While there's no guaranteed way to prevent pre-eclampsia, certain strategies can help lower the risk. Early and consistent prenatal care is essential for monitoring and managing potential risk factors.
+
+Preventive measures focus on regular prenatal care to monitor for early signs of pre-eclampsia. Recommendations include:
+
+- regular blood pressure checks
+
+- urine tests for protein
+
+- monitoring for symptoms such as headaches and visual disturbances
+
+- lifestyle considerations, such as maintaining a healthy weight and activity (when permitted)
+
+- managing pre-existing conditions, especially pre-existing high blood pressure.
+
+Additional prevention measures include:
+
+- low dose of aspirin by 20 weeks or when antenatal care begins
+
+- calcium supplementation during pregnancy in settings with low dietary intake
+
+- treatment of pre-existing high blood pressure with antihypertensive medications.
+
+WHO response
+============
+
+The World Health Organization (WHO) has developed guidelines to improve health during pregnancy. This includes prevention and treatment of pre-eclampsia and eclampsia and continuously reviewing evidence to see if revisions in the recommendations are needed so that improvements in care can be effected. These guidelines aim to reduce maternal and perinatal morbidity and mortality by promoting evidence-based clinical practices. Key WHO recommendations include:
+
+- calcium supplementation during pregnancy in areas with low dietary calcium intake
+
+- low-dose aspirin during pregnancy for women at high risk of pre-eclampsia
+
+- use of magnesium sulfate for the prevention of eclampsia
+
+- training healthcare providers in the early detection and management of pre-eclampsia
+
+- strengthening health systems to ensure timely and effective care for pregnant women.
+
+By implementing these guidelines, WHO aims to address the profound inequities in maternal and perinatal health globally and achieve the health targets of the Sustainable Development Goals (SDGs).
+
+References
+----------
+
+1. Edgardo Abalos, Cristina Cuesta, Ana L. Grosso, Doris Chou, Lale Say. Global and regional estimates of preeclampsia and eclampsia: a systematic review. European Journal of Obstetrics & Gynecology and Reproductive Biology. 2013. Volume 170, pp 1-7.
+
+2. Cresswell JA, et al. Global and regional causes of maternal deaths 2009–20: a WHO systematic analysis. Lancet Glob Health. 2025;13(4):e626–e634. doi:10.1016/S2214-109X(24)00560-6.
+
+3. Trends in maternal mortality estimates 2000 to 2023: estimates by WHO, UNICEF, UNFPA, World Bank Group and UNDESA/Population Division. Geneva: World Health Organization; 2025.

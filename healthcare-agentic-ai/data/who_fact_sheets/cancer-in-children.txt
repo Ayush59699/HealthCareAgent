@@ -1,0 +1,106 @@
+WHO FACT SHEET
+Title: Childhood cancer
+URL: https://www.who.int/news-room/fact-sheets/detail/cancer-in-children
+Retrieved: 2026-10-05T09:30:58.871355+00:00
+
+========================================
+
+Key facts
+=========
+
+- Each year, an estimated 400 000 children and adolescents of 0–19 years old develop cancer (1).
+
+- The most common types of cancer affecting children include leukemias, brain tumours and solid tumours such as neuroblastoma and Wilms tumour; lymphomas, bone cancer and thyroid cancer are more common during adolescence.
+
+- In high-income countries, where comprehensive services are generally accessible, more than 80% of children with cancer are cured. In most low- and middle-income countries (LMICs), less than 30% are cured (2).
+
+- Avoidable deaths from childhood cancers in LMICs result from lack of diagnosis, misdiagnosis or delayed diagnosis, obstacles to accessing care, abandonment of treatment, death from toxicity and relapse (2).
+
+- Only 29% of low-income countries report that cancer medicines are generally available to their populations compared to 96% of high-income countries.
+
+Overview
+========
+
+Cancer is a leading cause of death for children and adolescents. The likelihood of surviving a diagnosis of childhood cancer depends on the country in which the child lives; in high-income countries, more than 80% of children with cancer are cured, but in many LMICs less than 30% are cured (2).
+
+Although childhood cancer cannot generally be prevented or identified through screening, most types of childhood cancer can be cured with generic medicines and other forms of treatment, including surgery and radiotherapy.
+
+The reasons for lower survival rates in LMICs include delay in diagnosis, an inability to obtain an accurate diagnosis, inaccessible therapy, abandonment of treatment, death from toxicity (side effects) and avoidable relapse. Improving access to childhood cancer care, including to essential medicines and technologies, is highly cost-effective, feasible and can improve survival in all income settings.
+
+Childhood cancer data systems are needed to drive continuous improvements in the quality of care, and to inform policy decisions.
+
+Causes
+======
+
+Cancer occurs in people of all ages and can affect any part of the body. It begins with genetic change in single cells, that can then grow into a mass (or tumour), invade other parts of the body and cause harm and death if left untreated. Unlike cancer in adults, most childhood cancers do not have a known cause. Many studies have sought to identify the causes of childhood cancer, but very few cancers in children are caused by environmental or lifestyle factors. Cancer prevention efforts in children should focus on behaviours that will prevent the child from developing preventable cancer as an adult.
+
+Some chronic infections, such as HIV, Epstein-Barr virus and malaria, are risk factors for childhood cancer. They are particularly relevant in LMICs. Other infections can increase a child’s risk of developing cancer as an adult, so it is important to be vaccinated (against hepatitis B to help prevent liver cancer and against human papillomavirus to help prevent cervical cancer) and to other pursue other methods such as early detection and treatment of chronic infections that can lead to cancer.
+
+Current data suggest that approximately 10% of all children with cancer have a predisposition because of genetic factors (3). Further research is needed to identify factors impacting cancer development in children.
+
+Improving outcomes of childhood cancer
+======================================
+
+Because it is generally not possible to prevent cancer in children, the most effective strategy to reduce the burden of cancer in children and improve outcomes is to focus on a prompt, correct diagnosis followed by effective, evidence-based therapy with tailored supportive care.
+
+Early diagnosis
+---------------
+
+When identified early, cancer is more likely to respond to effective treatment and result in a greater probability of survival, less suffering, and often less expensive and less intensive treatment. Significant improvements can be made in the lives of children with cancer by detecting cancer early and avoiding delays in care. A correct diagnosis is essential to treat children with cancer because each cancer requires a specific treatment regimen that may include surgery, radiotherapy, and chemotherapy.
+
+Early diagnosis consists of 3 components:
+
+- awareness of symptoms by families and primary care providers;
+
+- accurate and timely clinical evaluation, diagnosis, and staging (determining the extent to which a cancer has spread); and
+
+- access to prompt treatment.
+
+Early diagnosis is relevant in all settings and improves survival for many cancers. Programmes to promote early and correct diagnosis have been successfully implemented in countries of all income levels, often through the collaborative efforts of governments, civil society and nongovernmental organizations, with vital roles played by parent groups. Childhood cancer is associated with a range of warning symptoms, such as fever, severe and persistent headaches, bone pain and weight loss, that can be detected by families and by trained primary health-care providers.
+
+Screening is generally not helpful for childhood cancers. In some select cases, it can be considered in high-risk populations. For example, some eye cancers in children can be caused by a mutation that is inherited, so if that mutation or disease is identified in the family of a child with retinoblastoma, genetic counselling can be offered and siblings monitored with regular eye examinations early in life. Genetic causes of childhood cancers are relevant in only a small proportion children with cancer. There is no high-quality evidence to support population-based screening programmes in children.
+
+Treatment
+---------
+
+A correct diagnosis is essential to prescribe appropriate therapy for the type and extent of the disease. Standard therapies include chemotherapy, surgery and/or radiotherapy. Children also need special attention to their continued physical and cognitive growth and nutritional status, which requires a dedicated, multi-disciplinary team. Access to effective diagnosis, essential medicines, pathology, blood products, radiation therapy, technology and psychosocial and supportive care are variable and inequitable around the world.
+
+However, cure is possible for more than 80% of children with cancer when childhood cancer services are accessible. Pharmacological treatment, for example, includes inexpensive generic medications included on the WHO List of essential medicines for children. Children who complete treatment require ongoing care to monitor for cancer recurrence and to manage any possible long-term impact of treatment.
+
+Palliative care
+---------------
+
+Palliative care relieves symptoms caused by cancer and improves the quality of life of patients and their families. Not all children with cancer can be cured, but relief of suffering is possible for everyone. Paediatric palliative care is considered a core component of comprehensive care, starting when the disease is diagnosed and continuing throughout treatment and care, regardless of whether a child receives treatment with curative intent.
+
+Palliative care programmes can be delivered through community and home-based care, providing pain relief and psychosocial support to patients and their families. Adequate access to oral morphine and other pain medicines should be provided for the treatment of moderate to severe cancer pain, which affects more than 80% of cancer patients in the terminal phase.
+
+WHO response
+============
+
+In 2018, WHO launched, with the support of St. Jude Children’s Research Hospital, the Global Initiative for Childhood Cancer (Global Initiative), to provide leadership and technical assistance to governments to support them in building and sustaining high-quality childhood cancer programmes. The goal is to achieve at least 60% survival for all children with cancer by 2030. This represents an approximate doubling of the current cure rate and will save an additional 1 million lives over the next decade.
+
+The CureAll framework and its accompanying technical package have been developed to support implementation of the Initiative. The package helps governments and other stakeholders assess current capacity, set priorities, generate investment cases, develop evidence-based standards of care and monitor progress. An information-sharing portal has been created to facilitate sharing of expertise between countries and partners.
+
+The Global Initiative is part of the response to the World Health Assembly resolution Cancer Prevention and Control through an Integrated Approach (WHA70.12), focused on the reduction of premature mortality from NCDs and the achievement of universal health coverage.
+
+In December 2021, WHO and St Jude Children’s Research Hospital launched the Global Platform for Access to Childhood Cancer Medicines (Global Platform), the first of its kind, to provide an uninterrupted supply of quality-assured childhood cancer medicines with end-to-end support from selecting to dispensing medicines according to best possible care standards. The Global Platform synergizes with the Global Initiative, with activities implemented through this new effort expected to contribute substantially to the achievement of the initiative’s goals.
+
+WHO and the International Agency for Research on Cancer (IARC) collaborate with the International Atomic Energy Agency (IAEA) and other UN organizations and partners, to:
+
+- increase political commitment for childhood cancer control;
+
+- support governments to develop high-quality cancer centres and regional satellites to ensure early and accurate diagnosis and effective treatment;
+
+- develop standards and tools to guide the planning and implementation of interventions for early diagnosis, treatment and palliative and survivorship care,
+
+- improve access to essential medicines and technologies; and
+
+- support governments to safeguard families of children with cancer from financial harm and social isolation as a result of cancer care.
+
+References
+
+1. Steliarova-Foucher E, Colombet M, Ries LAG, et al. International incidence of childhood cancer, 2001-10: a population-based registry study. Lancet Oncol. 2017;18(6):719-731.
+
+2. Lam CG, Howard SC, Bouffet E, Pritchard-Jones K. Science and health for all children with cancer. Science. 2019 Mar 15;363(6432):1182-1186. doi: 10.1126/science.aaw4892. PMID: 30872518.
+
+3. Zhang J, Walsh MF, Wu G, Edmonson MN, Gruber TA, et al. Germline Mutations in Predisposition Genes in Pediatric Cancer. N Engl J Med. 2015 Dec 10;373(24):2336-2346.

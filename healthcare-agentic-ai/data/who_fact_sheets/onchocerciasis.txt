@@ -1,0 +1,100 @@
+WHO FACT SHEET
+Title: Onchocerciasis
+URL: https://www.who.int/news-room/fact-sheets/detail/onchocerciasis
+Retrieved: 2026-10-05T09:33:51.344044+00:00
+
+========================================
+
+Key facts
+=========
+
+- Onchocerciasis, commonly known as “river blindness”, is caused by the parasitic worm Onchocerca volvulus.
+
+- The parasite is spread and transmitted to humans by the repeated bites of infected blackflies that breed in rapidly flowing rivers.
+
+- Symptoms include severe itching, disfiguring skin conditions, and visual impairment, including permanent blindness.
+
+- The disease primarily affects rural populations in sub-Saharan Africa, and Yemen, with smaller endemic areas foci found in parts of Latin America.
+
+- Population-based treatment with ivermectin (also known as mass drug administration or MDA) is the current core strategy to eliminate onchocerciasis, with a minimum requirement of 80% therapeutic coverage. Ivermectin is donated by Merck under the brand name of Mectizan®.
+
+Overview
+========
+
+Onchocerciasis is transmitted to humans through the bite of an infected blackfly of the genus Simulium, which breeds in fast-flowing rivers and streams. The blackfly vector ingests microfilariae (immature worms) when it bites an infected person. Inside the fly, the microfilariae develop into infective larvae that are then transmitted to another human during subsequent bites. Once inside the human host, the larvae mature into adult worms, forming nodules under the skin. As they continue to mate and produce microfilariae, communities must be treated for a minimum of 10 to15 years to eliminate transmission, corresponding to the lifespan of the adult O. volvulus.
+
+Scope of the problem
+====================
+
+More than 99% of infected people live in Africa and Yemen; the remaining 1% live on the border between Brazil and Venezuela (Bolivarian Republic of). In 2024 at least 252.3 million people required preventive treatment against onchocerciasis. By the end of 2024, 25.5 million people were living in areas no longer requiring ivermectin treatment, with Nigeria accounting for more than 16.6 million of these. In 2024, 26 countries reported using treatment against onchocerciasis, reaching 171.6 million people worldwide.
+
+The Global Burden of Disease Study estimated in 2017 that 14.6 million of the infected people already had skin disease and 1.15 million had vision loss.
+
+Five countries have been verified by WHO as free of onchocerciasis after successfully implementing elimination activities for decades: four in the region of the Americas: Colombia (2013), Ecuador (2014), Mexico (2015) and Guatemala (2016), and one in Africa: Niger (2025)
+
+In 2022, Senegal has stopped treatment and is now under post-treatment surveillance. Equatorial Guinea, Ethiopia, Mali, Nigeria, Sudan, Tanzania, Togo, Uganda, and Venezuela (Bolivarian Republic of) have stopped MDA in at least one focus.
+
+These milestones provide proof of concept that progress against neglected tropical diseases (NTDs) is possible across the entire African continent.
+
+Detailed information on 2024 annual statistics can be accessed in the Weekly Epidemiological Record, 10 October 2025.
+
+Clinical signs and symptoms
+===========================
+
+Onchocerciasis is an eye and skin disease. Symptoms are caused by the microfilariae, which move around the human body in the subcutaneous tissue and induce intense inflammatory responses when they die. Infected people may show symptoms such as severe itching and various skin changes. Infected people may also develop eye lesions which can lead to visual impairment and permanent blindness. In most cases, nodules under the skin form around the adult worms. Early exposure to O. volvulus infection is associated with epilepsy in children.
+
+Prevention, control and elimination programmes
+==============================================
+
+Between 1974 and 2002, onchocerciasis was brought under control in west Africa through the work of the Onchocerciasis Control Programme (OCP), using mainly the spraying of insecticides against blackfly larvae (vector control) by helicopters and airplanes. This was later supplemented by large-scale distribution of ivermectin since 1989.
+
+The African Programme for Onchocerciasis Control (APOC) was launched in 1995 with the objective of controlling onchocerciasis in the remaining endemic countries in Africa and closed at the end of 2015 after beginning the transition to onchocerciasis elimination. Its main strategy was the establishment of sustainable community-directed treatment with ivermectin (CDTI) and vector control with environmentally-safe methods where appropriate.
+
+Building on the successes of OCP and APOC, the Expanded Special Project for Elimination of Neglected Tropical Diseases (ESPEN 2016-present) was launched by the WHO Regional Office for Africa to provide national NTD programmes with technical and fundraising support to help accelerate elimination of river blindness in African countries.
+
+National Onchocerciasis Elimination Committees (NOECs) have been established in 25 countries in Africa to develop and implement new strategies. The Global Onchocerciasis Network for Elimination (GONE) was launched in January 2023 by WHO, its Member States and partners whose goal is to support countries to accelerate progress towards the achievement of the road map targets for onchocerciasis elimination.
+
+The Onchocerciasis Elimination Program for the Americas (OEPA 1992–present) was launched in 1992 with the goal of eliminating morbidity and interrupting transmission of river blindness in six endemic countries in the Americas: Brazil, Colombia, Ecuador, Guatemala, Mexico and Venezuela. OEPA is a partnership consisting of the six endemic countries, the Pan American Health Organization (PAHO), the private sector (MSD), donor countries, and nongovernmental development organizations (NGDOs).
+
+Treatment
+=========
+
+WHO recommends treating onchocerciasis with ivermectin at least once yearly for 10 to 15 years. Where O. volvulus co-exists with Loa loa, treatment strategies may need to be adjusted. Loa loa is a parasitic filarial worm that is endemic in Angola, Equatorial Guinea, Gabon, Cameroon, Central African Republic, Chad, Congo, the Democratic Republic of the Congo, Nigeria, and South Sudan. Treatment of individuals with high levels of L. loa in the blood can sometimes result in severe adverse events. Affected countries, should follow the Mectizan Expert Committee (MEC)/APOC recommendations for the prevention and management of severe adverse events.
+
+Research priorities
+===================
+
+To achieve the elimination for onchocerciasis, an ambitious research agenda will be needed to support programme progress. Specific research needs include:
+
+- optimizing strategies to reach marginalized and migratory populations
+
+- validating mapping and safe intervention strategies in settings where onchocerciasis and loiasis are con-endemic
+
+- refining stopping thresholds for MDA
+
+- developing robust diagnostic tools to support programme decision-making
+
+- demonstrating the programmatic utility of vector control measures
+
+- testing new therapeutic regimens
+
+- optimizing survey design through the use of new geostatistical tools
+
+- optimizing the use of satellite imagery and geospatial tools for breeding site detection
+
+- developing an appropriate response to OV signals found during surveillance
+
+- developing post-verification strategies
+
+- exploring opportunities to integrate surveillance.
+
+WHO response
+============
+
+WHO provides administrative, technical and operational research support to regions where onchocerciasis is transmitted.
+
+The WHO Road map for neglected tropical diseases (NTDs) 2021–2030 identified onchocerciasis as one of the diseases targeted for elimination. The Road map set ambitious targets to be reached by 2030, which are to eliminate the need for MDA of ivermectin in at least 1 focus in 34 countries, in more than 50% of the population in at least 16 countries, and in the entire endemic population in at least 12 countries.
+
+The Onchocerciasis Technical Advisory Subgroup (OTS) setup by WHO in 2017 is providing guidance and oversight for operational research to identify endemic areas that require MDA. The NTD Diagnostic Technical Advisory Group identified development of new diagnostic tools for onchocerciasis as a specific priority.
+
+With the shift from control to elimination, large areas in Africa require mapping to assess whether transmission is active and treatment required. A sampling strategy named “onchocerciasis elimination mapping” has been developed to help countries conduct those assessments and start treatment where needed.

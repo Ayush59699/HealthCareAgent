@@ -1,0 +1,109 @@
+WHO FACT SHEET
+Title: Malnutrition
+URL: https://www.who.int/news-room/fact-sheets/detail/malnutrition
+Retrieved: 2026-10-05T09:33:11.067309+00:00
+
+========================================
+
+Key facts
+=========
+
+- Malnutrition, in all its forms, includes undernutrition (wasting, stunting, underweight), inadequate vitamins or minerals, overweight, obesity, and resulting diet-related noncommunicable diseases.
+
+- In 2022, 2.5 billion adults were overweight, including 890 million who were living with obesity, while 390 million were underweight.
+
+- Globally in 2022, 149 million children under 5 were estimated to be stunted (too short for age), 45 million were estimated to be wasted (too thin for height), and 37 million were overweight or living with obesity.
+
+- Nearly half of deaths among children under 5 years of age are linked to undernutrition. These mostly occur in low- and middle-income countries.
+
+- The developmental, economic, social and medical impacts of the global burden of malnutrition are serious and lasting, for individuals and their families, for communities and for countries.
+
+Overview
+========
+
+Malnutrition refers to deficiencies, excesses, or imbalances in a person’s intake of energy and/or nutrients. The term malnutrition addresses 3 broad groups of conditions:
+
+- undernutrition, which includes wasting (low weight-for-height), stunting (low height-for-age) and underweight (low weight-for-age);
+
+- micronutrient-related malnutrition, which includes micronutrient deficiencies (a lack of important vitamins and minerals) or micronutrient excess; and
+
+- overweight, obesity and diet-related noncommunicable diseases (such as heart disease, stroke, diabetes and some cancers).
+
+Various forms of malnutrition
+=============================
+
+Undernutrition
+--------------
+
+There are 4 broad sub-forms of undernutrition: wasting, stunting, underweight, and deficiencies in vitamins and minerals. Undernutrition makes children in particular much more vulnerable to disease and death.
+
+Low weight-for-height is known as wasting. It usually indicates recent and severe weight loss because a person has not had enough food to eat and/or they have had an infectious disease, such as diarrhoea, which has caused them to lose weight. A young child who is moderately or severely wasted has an increased risk of death, but treatment is possible.
+
+Low height-for-age is known as stunting. It is the result of chronic or recurrent undernutrition, usually associated with poor socioeconomic conditions, poor maternal health and nutrition, frequent illness, and/or inappropriate infant and young child feeding and care in early life. Stunting holds children back from reaching their physical and cognitive potential.
+
+Children with low weight-for-age are known as underweight. A child who is underweight may be stunted, wasted or both.
+
+Micronutrient-related malnutrition
+==================================
+
+Inadequacies in intake of vitamins and minerals often referred to as micronutrients, can also be grouped together. Micronutrients enable the body to produce enzymes, hormones and other substances that are essential for proper growth and development.
+
+Iodine, vitamin A, and iron are the most important in global public health terms; their deficiency represents a major threat to the health and development of populations worldwide, particularly children and pregnant women in low-income countries.
+
+Overweight and obesity
+----------------------
+
+Overweight and obesity is when a person is too heavy for his or her height. Abnormal or excessive fat accumulation can impair health.
+
+Body mass index (BMI) is an index of weight-for-height commonly used to classify overweight and obesity. It is defined as a person’s weight in kilograms divided by the square of his/her height in meters (kg/m²). In adults, overweight is defined as a BMI of 25 or more, whereas obesity is a BMI of 30 or more. Among children and adolescents, BMI thresholds for overweight and obesity vary by age.
+
+Overweight and obesity result from an imbalance between energy consumed (too much) and energy expended (too little). Globally, people are consuming foods and drinks that are more energy-dense (high in sugars and fats) and engaging in less physical activity.
+
+Diet-related noncommunicable diseases
+-------------------------------------
+
+Diet-related noncommunicable diseases (NCDs) include cardiovascular diseases (such as heart attacks and stroke, and often linked with high blood pressure), certain cancers, and diabetes. Unhealthy diets and poor nutrition are among the top risk factors for these diseases globally.
+
+Scope of the problem
+====================
+
+In 2022, approximately 390 million adults aged 18 years and older worldwide were underweight, while 2.5 billion were overweight, including 890 million who were living with obesity. Among children and adolescents aged 5-19 years, 390 million were overweight, including 160 million who were living with obesity. Another 190 million were living with thinness (BMI-for-age more than two standard deviations below the reference median).
+
+In 2022, an estimated 149 million children under the age of 5 years were suffering from stunting, while 37 million were living with overweight or obesity.
+
+Nearly half of deaths among children under 5 years of age are linked to undernutrition. These mostly occur in low- and middle-income countries.
+
+Who is at risk?
+===============
+
+Every country in the world is affected by one or more forms of malnutrition. Combating malnutrition in all its forms is one of the greatest global health challenges.
+
+Women, infants, children, and adolescents are at particular risk of malnutrition. Optimizing nutrition early in life –including the 1000 days from conception to a child’s second birthday – ensures the best possible start in life, with long-term benefits.
+
+Poverty amplifies the risk of, and risks from, malnutrition. People who are poor are more likely to be affected by different forms of malnutrition. Also, malnutrition increases health care costs, reduces productivity, and slows economic growth, which can perpetuate a cycle of poverty and ill-health.
+
+The United Nations Decade of Action on Nutrition
+================================================
+
+On 1 April 2016, the United Nations (UN) General Assembly proclaimed 2016–2025 the United Nations Decade of Action on Nutrition. The Decade is an unprecedented opportunity for addressing all forms of malnutrition. It sets a concrete timeline for implementation of the commitments made at the Second International Conference on Nutrition (ICN2) to meet a set of global nutrition targets and diet-related NCD targets by 2025, as well as relevant targets in the Agenda for Sustainable Development by 2030 – in particular, Sustainable Development Goal (SDG) 2 (end hunger, achieve food security and improved nutrition and promote sustainable agriculture) and SDG 3 (ensure healthy lives and promote wellbeing for all at all ages).
+
+Led by WHO and the Food and Agriculture Organization of the United Nations (FAO), the UN Decade of Action on Nutrition calls for policy action across 6 key areas:
+
+- creating sustainable, resilient food systems for healthy diets;
+
+- providing social protection and nutrition-related education for all;
+
+- aligning health systems to nutrition needs, and providing universal coverage of essential nutrition interventions;
+
+- ensuring that trade and investment policies improve nutrition;
+
+- building safe and supportive environments for nutrition at all ages; and
+
+- strengthening and promoting nutrition governance and accountability, everywhere.
+
+WHO response
+============
+
+WHO aims for a world free of all forms of malnutrition, where all people achieve health and wellbeing. According to the 2016–2025 nutrition strategy, WHO works with Member States and partners towards universal access to effective nutrition interventions and to healthy diets from sustainable and resilient food systems. WHO uses its convening power to help set, align and advocate for priorities and policies that move nutrition forward globally; develops evidence-informed guidance based on robust scientific and ethical frameworks; supports the adoption of guidance and implementation of effective nutrition actions; and monitors and evaluates policy and programme implementation and nutrition outcomes.
+
+This work is framed by the Comprehensive implementation plan on maternal, infant, and young child nutrition, adopted by Member States through a World Health Assembly resolution in 2012. Actions to end malnutrition are also vital for achieving the diet-related targets of the Global action plan for the prevention and control of noncommunicable diseases 2013–2020, the Global strategy for women’s, children’s, and adolescent’s health 2016–2030, and the 2030 Agenda for sustainable development.

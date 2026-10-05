@@ -1,0 +1,166 @@
+WHO FACT SHEET
+Title: Syphilis
+URL: https://www.who.int/news-room/fact-sheets/detail/syphilis
+Retrieved: 2026-10-05T09:35:02.137973+00:00
+
+========================================
+
+Key facts
+=========
+
+- Most infections are asymptomatic or unrecognized.
+
+- WHO estimates that 8 million adults between 15 and 49 years old acquired syphilis in 2022.
+
+- Syphilis in pregnancy, when not treated, treated late or treated with the incorrect antibiotic, results in 50−80% of cases with adverse birth outcomes.
+
+- Key populations such as gay men and other men who have sex with men are disproportionately affected.
+
+Overview
+========
+
+Syphilis is a preventable and curable bacterial sexually transmitted infection (STI). If untreated, it can cause serious health issues.
+
+Many people with syphilis do not have symptoms or do not notice them.
+
+Syphilis is transmitted during oral, vaginal and anal sex, in pregnancy and through blood transfusion. Syphilis in pregnancy may lead to stillbirth, newborn death and babies born with syphilis (congenital syphilis).
+
+Correct and consistent use of condoms during sex can prevent syphilis.
+
+Rapid tests can provide results in a few minutes, which allows treatment initiation on the same clinic visit.
+
+Symptoms
+========
+
+Many people with syphilis do not notice any symptoms. They can also go unnoticed by healthcare providers. Untreated, syphilis lasts many years. Syphilis has several stages.
+
+Primary syphilis (first stage):
+
+- usually lasts around 21 days
+
+- a round, painless, usually hard sore (chancre) appears on the genitals, anus or elsewhere
+
+- the chancre may not be noticed and will heal in 3–10 days
+
+- progresses to the second stage if untreated.
+
+Syphilis can be transmitted through chancres if they are not properly covered by a condom during sexual contact.
+
+Secondary syphilis:
+
+- includes a non-itchy rash, usually on the palms and soles of the feet
+
+- white or grey lesions appear in warm and moist areas, such as the labia or anus, at the site of the chancre (given their infectious nature, it is essential to avoid direct contact with these lesions; condom use is a key measure to reduce partner transmission)
+
+- symptoms will go away without treatment.
+
+Latent syphilis:
+
+- often has no symptoms
+
+- progresses to the third and final stage of syphilis (tertiary) after years if untreated
+
+- tertiary syphilis can lead to brain and cardiovascular diseases, among other conditions.
+
+Babies born with syphilis can experience:
+
+- rashes
+
+- inflammation in the organs
+
+- anaemia
+
+- bone and joint problems
+
+- neurological conditions including blindness, deafness, meningitis
+
+- developmental delays
+
+- seizures.
+
+Some of these symptoms may only be noticed later in life.
+
+Prevention
+==========
+
+Syphilis is a preventable disease.
+
+Using condoms consistently and correctly is the best way to prevent syphilis and many other STIs. Syphilis can also spread through contact with other areas of the body not covered by a condom, including genitals, anus and mouth.
+
+People at higher risk of infection should be tested at least once a year.
+
+Pregnant women should be tested for syphilis at the first prenatal care visit and treated right away if the test result is positive. Congenital syphilis can only be prevented by diagnosing and treating the mother with penicillin.
+
+People diagnosed with syphilis should notify their sexual partners to prevent new infections.
+
+Diagnosis
+=========
+
+Syphilis diagnosis is based on the person’s clinical and sexual history, physical examination, laboratory testing and sometimes radiology, as symptoms are not common or noticeable.
+
+Syphilis is caused by the bacterium Treponema pallidum. Laboratory tests for syphilis include direct detection of T. pallidum through a microscope or indirect methods such as blood tests. Rapid tests are also available and can provide results in minutes, facilitating immediate treatment initiation.
+
+Identifying asymptomatic infection through laboratory or rapid tests and providing adequate treatment of positive cases will prevent further transmission and complications, as well as adverse pregnancy outcomes, including congenital syphilis.
+
+Congenital syphilis
+-------------------
+
+There are currently no diagnostic tests for congenital syphilis. All live or stillborn infants of women with syphilis should be examined for evidence of congenital syphilis. For live-born infants, clinical examination, radiology (if available) and laboratory tests at birth and follow up tests will help to define treatment.
+
+Treatment
+=========
+
+Syphilis is treatable and curable. People who suspect they may have syphilis should speak to their health-care provider.
+
+The early stage of syphilis is treated with a benzathine penicillin (BPG) injection. BPG is the first line treatment for syphilis and the only WHO-recommended treatment for pregnant women with syphilis. As second line treatment, doctors may also use doxycycline, ceftriaxone or azithromycin, which are antibiotic medicines.
+
+BPG is also used to treat later stages of syphilis, but more doses are required. Doses are usually given once per week for three weeks, including when it is not possible to identify the stage of infection.
+
+BPG is the only medicine that can prevent syphilis from being passed from a mother to baby. Babies born with syphilis (congenital syphilis), or babies whose mother had untreated syphilis, need to be treated right away to avoid serious health problems.
+
+Transmission
+============
+
+Syphilis is transmitted during oral, anal or vaginal sex through contact with infectious lesions, and also during pregnancy through the placenta. Transmission typically occurs during early stages of the disease, i.e., up to 2 years after infection.
+
+Possible complications
+======================
+
+Syphilis and HIV infection
+--------------------------
+
+Syphilis increases the risk of acquiring HIV infection by approximately two-fold, as well as of other STIs, such as gonorrhoea, chlamydia, genital herpes, among others.
+
+Severe disease
+--------------
+
+Without treatment, the tertiary phase of syphilis may lead to several complications decades after infection. At this stage, syphilis can affect multiple organs and systems, including brain, nerves, eyes, liver, heart, blood vessels, bones and joints. Tertiary syphilis can also cause death.
+
+Neurosyphilis, ocular syphilis and otosyphilis
+----------------------------------------------
+
+Neurosyphilis, ocular syphilis and otosyphilis can occur at any stage of the disease.
+
+Neurosyphilis can cause strong headache, serious muscular problems and mental health issues, including dementia.
+
+Ocular syphilis can cause pain in the eye, blurry vision, sensitivity to light or blindness.
+
+Otosyphilis affects the person’s hearing and/or balance.
+
+Congenital syphilis
+-------------------
+
+Untreated syphilis in pregnancy may lead to severe negative consequences, such as stillbirth, neonatal death, prematurity, low birth weight and life-long health problems to the infected infant.
+
+Mother-to-child transmission of syphilis
+
+WHO response
+============
+
+WHO has a global initiative for the elimination of congenital syphilis in association with the elimination of mother-to-child transmission of HIV and viral hepatitis B.
+
+WHO has also developed treatment guidelines for syphilis and another guideline for testing of syphilis in pregnancy. These include the recommendation for the use of the dual HIV/syphilis test which is affordable, effective and cost-effective in some settings and context.
+
+Additionally, WHO supports country adoption of ethical, voluntary and evidence-based strategies to notify sexual partners of people diagnosed with syphilis, HIV and other STIs.
+
+WHO also facilitates country access to quality diagnostic tests and is working toward preventing global shortages of penicillin.

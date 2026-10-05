@@ -1,0 +1,89 @@
+WHO FACT SHEET
+Title: Biodiversity
+URL: https://www.who.int/news-room/fact-sheets/detail/biodiversity
+Retrieved: 2026-10-05T09:30:42.062781+00:00
+
+========================================
+
+Key facts
+=========
+
+- More than 75% of global food crops rely on pollinators, contributing US$ 235–577 billion annually to global agricultural output.
+
+- Over 50% of modern medicines are derived from natural sources, including antibiotics from fungi and painkillers from plant compounds.
+
+- Forests store 80% of terrestrial biodiversity, absorbing approximately 2.6 billion tonnes of carbon dioxide annually, helping mitigate climate change.
+
+- Invasive alien species contribute to 60% of species extinctions, causing US$ 423 billion in global economic damage each year.
+
+- Healthy ecosystems provide 75% of global freshwater resources, with wetlands playing a key role in water purification. However, since 1970, 35% of wetlands have been lost.
+
+- Indigenous Peoples, representing an estimated 6% of the global population, are crucial stakeholders and rights holders in the conservation and sustainable management of biodiversity. They manage over 38 million square kilometres of land globally, which includes nearly 40% of all protected areas.
+
+Overview
+========
+
+Biodiversity, the variability among living organisms from all sources, underpins all life on Earth. This includes diversity within species, between species and across ecosystems, representing the genetic makeup of plants, animals, microorganisms and the complexity of ecosystems.
+
+Healthy communities are sustained by well-functioning ecosystems, which provide critical services such as clean air, fresh water, natural medicines and food security. These ecosystems also regulate diseases and help stabilize the climate. For example, forests absorb over 2.6 billion tonnes of CO2 annually, contributing to climate regulation and reducing the incidence of diseases linked to pollution. However, biodiversity loss is accelerating at an unprecedented rate, with approximately 1 million species at risk of extinction, threatening these vital services and exacerbating public health risks globally.
+
+Impact
+======
+
+People depend on biodiversity in many ways. Human health relies on ecosystem resources, products and services (such as fresh water, food and fuel sources; the regulation of crop pests and diseases; and the regulation of air, water and soil quality) which are needed for good health and productive livelihoods. Biodiversity loss can have significant direct health impacts if ecosystem services no longer meet societal needs. Changes in ecosystems can affect livelihoods, income, local migration and may even cause or increase political conflict.
+
+Significant medical and pharmacological discoveries are made through greater understanding of the Earth's biodiversity. Biological diversity of microorganisms, flora and fauna provides extensive benefits for biological, health, and pharmacological sciences. It is also the source of traditional and complementary medicines.
+
+Biodiversity loss also has profound economic consequences, particularly in sectors like agriculture, fisheries and healthcare. It is estimated that the global economic impact of biodiversity loss amounts to US$ 10 trillion annually, including healthcare costs from increased disease transmission and agricultural losses from pollinator declines. For example, the decline in bee populations, which are responsible for pollinating crops worth over US$ 235 billion annually, threatens global food security and nutrition.
+
+Threats to biodiversity and health
+==================================
+
+Biodiversity loss is occurring at an alarming rate, with recent estimates showing that species extinctions are currently 10 to 100 times higher than the natural baseline. This is largely due to human activities like deforestation, habitat fragmentation, and climate change. This loss threatens essential ecosystem services, including pollination, soil fertility, and water purification, with direct consequences for human health. For example, the degradation of wetlands, which filter freshwater, has led to a 35% decline in global wetland coverage since 1970, increasing waterborne diseases and reducing water availability for over 2 billion people.
+
+Biodiversity loss and ecosystem degradation are becoming major health concerns. When ecosystems are disrupted, services like clean air, water, and food can be affected. Additionally, we lose valuable natural resources – like plants and animals – that may hold untapped benefits for health and medicine.
+
+Sustainable, healthy food systems
+=================================
+
+Biodiversity serves as the foundation of healthy sustainable food systems. It directly influences the availability and nutritional value of food, as a diverse range of plant and animal species, ecosystems, and genetic resources contributes to healthier, more resilient food production. Access to enough nutritious and varied food is a fundamental determinant of health.
+
+Nutrition and biodiversity are interconnected at various levels, from ecosystems that provide food to the genetic diversity within species. This diversity affects the nutritional composition of food, including micronutrient availability. Healthy diets with adequate nutrient intake depend on high biodiversity.
+
+Biodiversity offers a genetic pool for developing resilient and sustainable food crops, livestock and marine species. It plays a crucial role in breeding varieties resistant to pests, diseases and climate extremes. Utilizing this genetic potential enhances agricultural productivity and resilience, reducing dependence on chemical inputs and promoting sustainable practices. This not only improves food quality but also supports community health and well-being.
+
+Biodiversity supports key ecosystem services like soil fertility, natural pest control, pollination and water regulation. Preserving biodiversity in agricultural landscapes promotes sustainable food systems capable of producing nutritious food with minimal environmental impact.
+
+However, intensified food production practices affects global nutrition and health. Biodiversity degradation occurs through activities such as excessive use of irrigation, fertilizers and pesticides. Habitat simplification (the selective removal of species, such as in monoculture) and species loss increases vulnerabilities, highlighting the need for biodiversity-friendly practices to support food security and public health.
+
+Health research and traditional medicine
+========================================
+
+Traditional medicine continues to play a crucial role in healthcare, particularly in primary healthcare settings. It is estimated that 60% of the world's population utilizes traditional medicines. Among the various modalities of traditional medicine, the use of medicinal plants stands out as the most prevalent worldwide. Medicinal plants are obtained through wild collection and cultivation, providing communities and Indigenous Peoples with natural products that serve medicinal, cultural and even nutritional purposes.
+
+Infectious diseases
+===================
+
+Human activities disrupt biodiversity and ecosystems, affecting their structure and functions. Deforestation, land-use change, habitat loss and fragmentation, population growth, climate change, pollution, invasive alien species, migration, trade and other drivers all play a role in disease patterns. These disturbances alter organism abundance, population dynamics and ecological interactions, ultimately impacting infectious diseases. Increased contact between wildlife, livestock and people lead to increased risk of disease transmission.
+
+Biodiversity plays a crucial role in disease regulation by maintaining balanced ecosystems where no single species dominates. This balance helps limit the spread of zoonotic diseases (infectious diseases that jump from animals to humans). Recent studies estimate that over 75% of emerging infectious diseases, such as Ebola or Nipah virus, are zoonotic and often arise in areas where ecosystems and habitats have been disrupted by deforestation or land-use change. By maintaining biodiversity, ecosystems can buffer humans from risks of exposure to disease reservoirs.
+
+Climate change
+==============
+
+Climate is an integral part of ecosystem functioning and human health is impacted directly and indirectly by climatic condition changes in terrestrial, aquatic and marine ecosystems.
+
+Biodiversity is influenced by climate variability and change, and extreme weather events (e.g. drought, flooding) that directly influence ecosystem health, productivity and availability of ecosystem goods and services for human use. Marine biodiversity is affected by ocean acidification related to levels of carbon in the atmosphere. Longer term changes in climate affect the viability and health of ecosystems, influencing shifts in the distribution of plants, pathogens, animals and even human settlements. In addressing these challenges, there is growing recognition of the potential of ecosystem-based approaches, also known as nature-based solutions, to mitigate and adapt to the impacts of climate change on biodiversity and human health.
+
+Ecosystems such as forests and wetlands act as natural carbon sinks, absorbing CO2 and regulating global temperatures. The destruction of these ecosystems accelerates climate change, leading to increased heatwaves, floods, and other climate-related health risks, including heat-stress, malnutrition, and the spread of vector-borne diseases like malaria and dengue.
+
+WHO response
+============
+
+WHO develops biodiversity-informed public health plans, global evidence summaries on biodiversity and health, assists countries in assessing health vulnerabilities from biodiversity loss and monitors biodiversity-informed health policies to ensure human rights, equity, and Health for All are upheld.
+
+The WHO Global Centre for Traditional Medicine supports traditional knowledge systems within a rights-based framework that promotes sustainable health practices.
+
+WHO advocates for strengthening health systems to be climate- and biodiversity-resilient by integrating biodiversity into public health policies through approaches like One Health, addressing infectious and noncommunicable diseases, food safety, security, and Antimicrobial Resistance (AMR), through a whole-of-government, whole-of-society approach based on equity.
+
+WHO fosters cross-sectoral collaboration by providing training, guidance, and support for biodiversity-informed health policies. The Expert Working Group on Biodiversity, Climate Change, One Health, and Nature-based Solutions develops evidence-based strategies addressing biodiversity loss and its health impacts. Further collaboration is achieved with the Nature for Health (N4H) initiative, which tackles biodiversity loss and climate change to prevent pandemic risks at their source, by promoting policies and capacity development aligned with the Kunming-Montreal Global Biodiversity Framework.

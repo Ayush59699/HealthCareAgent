@@ -1,0 +1,63 @@
+WHO FACT SHEET
+Title: Kidney disease
+URL: https://www.who.int/news-room/fact-sheets/detail/kidney-disease
+Retrieved: 2026-10-05T09:32:56.920474+00:00
+
+========================================
+
+- Kidney disease includes acute kidney injury (AKI) and chronic kidney disease (CKD).
+
+- Simple blood (serum creatinine) and urine tests (for albuminuria) used in primary health care can detect CKD.
+
+- An estimated 674 million people have chronic kidney disease worldwide; most reside in low- and middle-income countries.
+
+- The most severe form of CKD is kidney failure, which requires dialysis or kidney transplantation to sustain life.
+
+- The global burden of acute kidney injury (AKI) is unknown.
+
+Overview
+========
+
+Kidney disease occurs when the kidneys can no longer remove waste and excess fluid from the bloodstream normally. Acute kidney injury (AKI) has an abrupt onset and is often reversible with timely intervention. In contrast, chronic kidney disease (CKD) progresses gradually and is frequently irreversible, with severity ranging from mild dysfunction to kidney failure. People with kidney failure typically require dialysis or kidney transplantation to survive.
+
+Kidney disease causes substantial morbidity, disability, and premature mortality, in part because it causes and is caused by cardiovascular disease. The burden of kidney disease is rising in parallel with diabetes, hypertension and population ageing. Global inequities in access to testing, essential medications, health- care workers and kidney replacement therapies are a key global challenge and contribute to millions of preventable deaths each year.
+
+Symptoms
+========
+
+Kidney disease is often asymptomatic until late stages, which is why regular testing is important for people at risk. In advanced or severe kidney disease, symptoms may include fatigue, breathlessness, generalized itchiness, leg swelling, muscle cramps, nausea or vomiting.
+
+Chronic kidney disease (CKD)
+============================
+
+CKD has a wide range of causes, including diabetes, hypertension, cardiovascular disease, glomerulonephritis (inflammation of the kidney's filtering units), some genetic conditions, certain drugs and toxins and infections. In low- and middle-income countries (LMICs), a substantial proportion of people with CKD do not have a known exposure to known risk factors.
+
+CKD is diagnosed by using serum creatinine results to estimate glomerular filtration rate (eGFR); low eGFR suggests the presence of kidney disease. Two values of eGFR <60 ml/min/1.73m2 obtained at least 90 days apart indicate that CKD is present. Persistently elevated urinary albumin excretion (“albuminuria”) is identified by urinary albumin-creatinine ratio (ACR) of >3 mg/mmol (30 mg/g) and also indicates the presence of CKD.
+
+The risk of developing CKD can be reduced by a healthy lifestyle, including regular physical activity, maintaining a healthy body weight and refraining from tobacco use. In people with diabetes, hypertension and cardiovascular disease, good control of blood pressure, blood glucose and blood lipids, alongside these lifestyle measures, can further help to reduce the risk of developing CKD.
+
+Integrating kidney health into primary care is essential for early diagnosis and timely treatment. Routine testing (“case-finding”) with eGFR and albuminuria can be arranged in primary care for people with hypertension, diabetes and cardiovascular disease, aiming to diagnose and treat kidney disease at an early stage.
+
+The management of CKD focuses on slowing progression, reducing cardiovascular risk, and preventing complications of advanced kidney disease.
+
+For treatment of kidney failure, kidney replacement therapy (dialysis or kidney transplantation) may be required.
+
+Where transplantation or dialysis is unavailable, unaffordable, or not desired by the individual, conservative kidney management provides supportive care focused on symptom control and quality of life.
+
+Acute kidney injury (AKI)
+=========================
+
+AKI represents a deterioration of kidney function over hours to days and can be reversible with timely care. Although AKI and CKD differ in onset and reversibility, they are closely connected: AKI can lead to CKD, and CKD increases the risk of AKI. Even a single episode of AKI raises the risk of CKD and death.
+
+Common causes of AKI include sepsis, major surgery, trauma, complications of pregnancy, nephrotoxic medications and volume depletion.
+
+AKI is diagnosed by rising serum creatinine levels above baseline (pre-illness) values, and/or abnormally low levels of urine output.
+
+AKI can be prevented by avoiding and treating dehydration, infections and pregnancy-related complications.
+
+Management of AKI focuses on treating the cause and correcting fluid/electrolyte disturbances and providing temporary dialysis when needed.
+
+WHO response
+============
+
+In May 2025, the World Health Assembly agreed a Resolution on reducing the burden of noncommunicable diseases through the promotion of kidney health and strengthening the prevention and control of kidney disease. The Resolution calls for promoting kidney health across the life course, improving early detection and management of kidney disease – especially in people with diabetes and hypertension – and ensuring equitable access to essential medicines and services.

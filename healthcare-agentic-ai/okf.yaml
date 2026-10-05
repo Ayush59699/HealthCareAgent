@@ -148,3 +148,18 @@ check2_multi_case_evaluation:
   recommendation: RETRIEVAL INVESTIGATION NEEDED
   verification: Before 575 project tests (one skip), 56 upstream passed; after 580 project tests (one skip), 56 upstream passed. Offline replay verifies 45 source events, seven diagnostic/critic/safety versions and ten final decisions. Of 242 inventoried files, 241 unchanged; only project OKF changed.
   limitations: Purposive sample; usefulness not independently measured; failed raw responses not persisted by production; integrity inventory excludes AMG Chroma SQLite bookkeeping. No production changes or additional recovery cloud calls.
+
+who_fact_sheet_collection:
+  request: ../prompts/whoinc.txt
+  script: scripts/crawl_who_fact_sheets.py
+  dependencies: requirements-who.txt
+  documentation: docs/who-fact-sheets.md
+  tests: tests/test_who_fact_sheets.py
+  output: data/who_fact_sheets/
+  validation: docs/who-fact-sheets-validation.json
+  scope: Independent sequential requests/BeautifulSoup collection only; no models, vectors, search or healthcare runtime integration.
+  discovery: Actual WHO A-Z index links only; normalized, deduplicated and topic-sorted; urls.json retains full discovery even with --limit.
+  extraction: Whole article wording and sections, including legacy sibling Key facts in WHO Body column; title metadata, lists, tables, references; no summarization or truncation.
+  safety: One page at a time; delay/timeouts; scoped redirects; per-page failure isolation; cached-file skips unless --force; atomic writes; header-only index rebuilding.
+  verification: 20 offline tests passed; 244 live URLs discovered, five sample pages downloaded, zero failed; rerun skipped all five with unchanged hashes/index. Full crawl not performed.
+  production_changes: None; AMG, Patient RAG, retrieval, diagnostic, grounding, critic, safety, orchestration and existing corpora/indexes unchanged.

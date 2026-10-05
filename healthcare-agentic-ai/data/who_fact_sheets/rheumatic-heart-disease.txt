@@ -1,0 +1,106 @@
+WHO FACT SHEET
+Title: Rheumatic heart disease
+URL: https://www.who.int/news-room/fact-sheets/detail/rheumatic-heart-disease
+Retrieved: 2026-10-05T09:34:29.153901+00:00
+
+========================================
+
+Key facts
+=========
+
+- Rheumatic heart disease is the most commonly acquired heart disease in people under age 25.
+
+- Rheumatic heart disease affects an estimated 55 million people worldwide and claims approximately 360 000 lives each year – the large majority in low- or middle-income countries.
+
+- The disease results from damage to heart valves caused by one or several episodes of rheumatic fever, an autoimmune inflammatory reaction to throat infection caused by group A streptococci (streptococcal pharyngitis or strep throat).
+
+- It most commonly occurs in childhood and can lead to death or life-long disability.
+
+- Rheumatic heart disease can be prevented by preventing streptococcal infections through addressing poverty and improving living and housing standards, or prompt treatment of streptococcal infections with antibiotics when they do occur.
+
+Overview
+========
+
+Rheumatic heart disease is a serious yet preventable public health problem. The disease starts as a sore throat and/or skin infections caused by a bacterium called Streptococcus pyogenes (group A streptococcus) which can pass easily from person to person in the same way as other upper respiratory tract infections. Strep infections are most common in childhood.
+
+In some people, this streptococcal infection causes the immune system to react against the tissues of the body including inflaming and scarring the heart valves. This is referred to as rheumatic fever. Rheumatic heart disease results from the inflammation and scarring of heart valves caused by rheumatic fever.
+
+Risk factors
+============
+
+Rheumatic fever mostly affects children and adolescents in low- and middle-income countries and in marginalized communities, including Indigenous populations, especially where poverty is widespread and access to health services is limited. People who live in overcrowded and poor living conditions are at greatest risk of developing the disease.
+
+Where rheumatic fever and rheumatic heart disease are endemic, rheumatic heart disease is the principal heart disease seen in pregnant women, causing significant maternal and perinatal morbidity and mortality. Pregnant women with rheumatic heart disease are at risk of adverse outcomes, including heart arrythmias and heart failure due to increased blood volume putting more pressure on the heart valves. It is not uncommon for women to be unaware that they have rheumatic heart disease until pregnancy.
+
+Despite it being eradicated in many parts of the world, the disease remains prevalent in sub-Saharan Africa, the Middle East, central and south Asia, the south Pacific, and among immigrants and older adults in high-income countries, especially Indigenous peoples.
+
+Signs and symptoms
+==================
+
+Rheumatic fever symptoms can include:
+
+- fever
+
+- painful joints especially knees ankles, elbows and wrists
+
+- pain that moves between different joints
+
+- fatigue
+
+- jerky uncontrollable body movements called chorea
+
+- painless nodules under the skin near joints and/or a rash consisting of pink rings with a clear centre (both rare)
+
+- heart murmur.
+
+Symptoms of heart valve damage that is associated with rheumatic heart disease may include:
+
+- chest pain or discomfort
+
+- shortness of breath
+
+- swelling of the stomach, hands or feet
+
+- fatigue
+
+- rapid or irregular heartbeat.
+
+Treatment
+=========
+
+There is no cure for rheumatic heart disease and the damage to the heart valves is permanent. Patients with severe rheumatic heart disease will often require surgery to replace or repair the damaged valve or valves. Depending on the severity of disease, medication may also be needed to treat symptoms of heart failure or heart rhythm abnormalities. Medications which thin the blood to reduce the risk of blood clots may also be needed. In the case of serious disease surgery may be required to repair or replace the heart valves. This is often not available in low-income settings, or when it is available the costs may be too high if not covered as part of national health plans, putting families under increased financial strain.
+
+Prevention
+==========
+
+Since rheumatic heart disease results from rheumatic fever, an important strategy is to prevent rheumatic fever from occurring. Treatment of strep throat with appropriate antibiotics will prevent rheumatic fever.
+
+Once a patient has been identified as having had rheumatic fever, it is important to prevent additional streptococcal infections as this could cause a further episode of rheumatic fever and additional damage to the heart valves. The strategy to prevent additional streptococcal infection is to treat the patient with antibiotics over a long period of time. The antibiotic treatment that is most effective in preventing further infection is benzathine penicillin G, which is given by intramuscular injection every 3–4 weeks over many years.
+
+For countries where rheumatic heart disease is endemic, the main strategies for prevention, control and elimination include
+
+- improving standards of living;
+
+- expanding access to screening and appropriate care for people with suspected or confirmed streptococcal infections and RF/RHD and treatment of RHD complications with medications;
+
+- ensuring a consistent supply of quality-assured antibiotics for primary and secondary prevention; and
+
+- planning, developing and implementing feasible programmes for prevention and control of rheumatic heart disease, supported by adequate monitoring and surveillance, as an integrated component of national health systems responses.
+
+Challenges
+==========
+
+Rheumatic heart disease can be prevented by effective management of streptococcal sore throat; however, treatment at this early stage is often not achieved. Families may not have the time or money to access a health-care facility, or may not seek care due to low awareness of the potential risk of untreated strep throat. Health-care workers may also not have the necessary knowledge to appropriately diagnose and manage strep throat. If left untreated, rheumatic fever may then ensue.
+
+Currently a large proportion of those suffering rheumatic heart disease are not diagnosed or are diagnosed at a late stage when damage to the heart is very severe. Rheumatic heart disease remains the leading cause of maternal cardiac complications in pregnancy. In many rheumatic heart disease-endemic countries there is little or no access to life-saving heart valve surgery. Measures to halt the progression to severe rheumatic heart disease require long-term treatments and a well-functioning health system to deliver this service. Additionally, because treatment is long-term, it can be costly and challenging for patients to regularly visit a health-care facility, and some patients may avoid the injections due to discomfort or fear of adverse events.
+
+A steady supply of benzathine penicillin G is an essential prerequisite for treatment of sore throat and to prevent recurrent infection. However, the antibiotic is prone to global shortages. High manufacturing costs and low purchase prices have pushed some manufacturers out of the market while demand for the drug is rising. When the medication is not available on the shelf, necessary long-term treatment regimens are disrupted.
+
+Investing in the secure supply of quality assured benzathine penicillin G will prevent the recurrence of global shortages and contribute to global efforts to increase access to quality-assured, safe, effective and affordable essential medicines as part of universal health coverage.
+
+WHO response
+============
+
+In 2018, the World Health Assembly adopted resolution WHA 71.14 calling for WHO to launch a coordinated global response to rheumatic heart disease and rheumatic fever. Following on this resolution, in 2024, the Organization published WHO guidelines on the prevention and diagnosis of rheumatic fever and rheumatic heart disease. In addition, WHO regional offices working with Member States have developed work plans to put these interventions in place to prevent rheumatic heart disease and care for people already living with it as part of WHO Package of Essential Non-Communicable Disease Interventions (WHO PEN) or PEN-PLUS in the WHO African Region.
+
+Ensuring a steady, quality supply of benzathine penicillin is also a key priority in the WHO’s Thirteenth General Programme of Work, specifically the strategic priority on universal health coverage and access to medicines, vaccines and health products. Additionally, the WHO Road map for access to medicines, vaccines and other health products 2019-2023 and the WHO Benzathine Penicillin Technical Working Group are working to address global supply and demand issues for benzathine penicillin and ensure a quality-assured, safe and effective product is available on the shelves when needed.

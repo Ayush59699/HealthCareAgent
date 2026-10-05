@@ -1,0 +1,88 @@
+WHO FACT SHEET
+Title: Japanese encephalitis
+URL: https://www.who.int/news-room/fact-sheets/detail/japanese-encephalitis
+Retrieved: 2026-10-05T09:32:55.748793+00:00
+
+========================================
+
+Key facts
+=========
+
+- Japanese encephalitis virus (JEV) is a flavivirus related to dengue, yellow fever and West Nile viruses, and is spread by mosquitoes (especially Culex tritaeniorhynchus).
+
+- JEV is the main cause of viral encephalitis in many countries of Asia with an estimated 100 000 clinical cases every year (1).
+
+- Although symptomatic Japanese encephalitis (JE) is rare, the case-fatality rate among those with encephalitis can be as high as 30%. Permanent neurologic, cognitive and behavioural sequelae occur in 30–50% of those with encephalitis.
+
+- The majority of cases occur in children below 15 years of age.
+
+- Twenty-four countries in the WHO South-East Asia and Western Pacific Regions have endemic JEV transmission, exposing more than 3 billion people to risks of infection.
+
+- There is no cure for the disease. Treatment is focused on relieving severe clinical signs and supporting the patient to overcome the infection.
+
+- Safe and effective vaccines are available to prevent JE. WHO recommends that JE vaccination be integrated into national immunization schedules in all areas where JE disease is recognized as a public health issue.
+
+Overview
+========
+
+Japanese encephalitis virus (JEV) is an important cause of viral encephalitis in Asia. It is a mosquito-borne flavivirus and belongs to the same genus as dengue, Zika, yellow fever and West Nile viruses. The first case of Japanese encephalitis viral disease (JE) was documented in 1871 in Japan. The annual incidence of clinical disease varies both across and within endemic countries, ranging from 10 per 100 000 population or higher during outbreaks. A literature review and modelling study estimates about 100 000 clinical cases (95% CI: 61 720–157 522) of JE globally each year, with approximately 25 000 deaths (95% CI: 14 550–46 031). JE primarily affects children. Most adults in endemic countries have natural immunity after childhood infection, but individuals of any age may be affected.
+
+Signs and symptoms
+==================
+
+Most JEV infections are mild (fever and headache) or without apparent symptoms, but approximately 1 in 250 infections results in severe clinical illness. The incubation period is 4–14 days. In children, gastrointestinal pain and vomiting may be the dominant initial symptoms. Severe disease is characterized by rapid onset of high fever, headache, neck stiffness, disorientation, coma, seizures, spastic paralysis and ultimately death. The case fatality rate can be as high as 30% among those with disease symptoms. Of those who survive, 20–30% suffer permanent cognitive, behavioural or neurological sequelae such as seizures, hearing or vision loss, speech, language, memory, and communication problems or weakness of the limbs.
+
+Transmission
+============
+
+Twenty-four countries in the WHO South-East Asia and Western Pacific Regions have JEV transmission risk, which includes more than 3 billion people. JEV is transmitted to humans through bites from infected mosquitoes of the Culex species (mainly Culex tritaeniorhynchus). Humans, once infected, do not develop sufficient viraemia to infect feeding mosquitoes. The virus exists in a transmission cycle between mosquitoes, pigs and/or water birds (enzootic cycle). The disease is predominantly found in rural and periurban settings, where humans live in closer proximity to these vertebrate hosts, in particular domestic pigs. In most temperate areas of Asia, JEV is transmitted mainly during the warm season, when large epidemics can occur. In the tropics and subtropics, transmission can occur year-round but often intensifies during the rainy season and pre-harvest period in rice-cultivating regions.
+
+Diagnosis
+=========
+
+Individuals who live in or have travelled to a JE-endemic area and experience encephalitis are considered a suspected JE case. Initial diagnosis of JE can be made by clinical examination followed by a lumbar puncture. A laboratory test is required to confirm JEV infection and to rule out other causes of encephalitis. WHO recommends testing for JEV-specific IgM antibody in a single sample of cerebrospinal fluid (CSF) or serum, using an IgM-capture ELISA. If tested negative, a convalescent sample may be tested. Testing of CSF sample is preferred to reduce false-positivity rates from previous infection or vaccination.
+
+Surveillance of the disease is mostly syndromic for acute encephalitis syndrome. Confirmatory laboratory testing is often conducted in dedicated sentinel sites, and efforts are undertaken to expand laboratory-based surveillance. Case-based surveillance is established in countries that effectively control JE through vaccination.
+
+Treatment
+=========
+
+Encephalitis is a medical emergency and requires urgent medical attention. There is no antiviral treatment for patients with JE. Treatment is supportive and includes stabilization and relief of symptoms.
+
+Those who have lived through encephalitis often have health-care needs requiring long-term treatment and care including rehabilitation. The ongoing psychosocial impacts of disability from encephalitis can have medical, educational, social and human rights-based implications. Despite the high burden of sequelae on people with encephalitis, their families and the community, access to both services and support for these conditions is often insufficient, especially in low- and middle-income countries. Individuals and families with members disabled by encephalitis should be encouraged to seek services and guidance from local and national Organizations of Disabled People (ODPs) and other disability focused organizations, which can provide vital advice about legal rights, economic opportunities and social engagement to ensure people disabled by encephalitis are able to live full and rewarding lives.
+
+Prevention and control
+======================
+
+Progress has been made in Asia with the implementation of JE vaccination programmes, with most endemic countries having country-wide or targeted programmes in place. A decline in incidence of the disease has been reported in recent years, which is likely due in part to vaccination. Gavi supports JE catch-up campaigns and co-finances the vaccine for routine immunization in eligible countries.
+
+Safe and effective JE vaccines are available to prevent disease. WHO recommends having strong JE prevention and control activities, including JE immunization in all regions where the disease is a recognized public health priority, along with strengthening surveillance and reporting mechanisms. Even if the number of JE-confirmed cases is low, vaccination should be considered where there is a suitable environment for JE virus transmission. Introduction of the vaccine should be done in conjunction with a one-time catch-up campaign.
+
+There are three main types of JE vaccines currently in use: several inactivated Vero cell-derived vaccines, a live attenuated vaccine, and a live recombinant (chimeric) vaccine. One inactivated vaccine and the two live vaccines are WHO prequalified.
+
+The risk to travellers to Japanese encephalitis-endemic areas is normally low, but travellers should take precautions to avoid mosquito bites. Personal preventive measures include the use of mosquito repellents, long-sleeved clothes, coils and vaporizers. Travellers spending extensive time in JE endemic areas are recommended to get vaccinated before travel.
+
+In endemic areas, there is little evidence to support a reduction in JE disease burden from interventions other than the vaccination of humans. Thus, vaccination of humans should be prioritized over vaccination of pigs and mosquito control measures. However, the spread of JEV in new areas has been correlated with agricultural development and intensive rice cultivation supported by irrigation programmes.
+
+WHO response
+============
+
+WHO responds to Japanese encephalitis in the following way:
+
+- supports countries in the confirmation of outbreaks through its collaborating network of laboratories;
+
+- develops surveillance standards and case definitions for reporting;
+
+- provides guidance on clinical management of disease and long-term care;
+
+- supports vector control efforts in conjunction with the Global Vector Control Response;
+
+- develops guidance on the optimal use of vaccines through the publication of vaccine position papers;
+
+- prequalifies vaccines as a service to UNICEF and Gavi.
+
+- WHO is implementing the Intersectoral global action plan on epilepsy and other neurological disorders in consultation with Member States to address many challenges and gaps in providing care and services for people with epilepsy and other neurological disorders such as JE that exist worldwide.
+
+References
+
+1. Quan et al., https://elifesciences.org/articles/51027

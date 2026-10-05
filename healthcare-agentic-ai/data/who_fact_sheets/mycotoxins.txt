@@ -1,0 +1,76 @@
+WHO FACT SHEET
+Title: Mycotoxins
+URL: https://www.who.int/news-room/fact-sheets/detail/mycotoxins
+Retrieved: 2026-10-05T09:33:36.917536+00:00
+
+========================================
+
+Key facts
+=========
+
+- Mycotoxins are naturally occurring toxins produced by certain moulds (fungi) and can be found in food.
+
+- The moulds grow on a variety of different crops and foodstuffs including cereals, nuts, spices, dried fruits, apples and coffee beans, often under warm and humid conditions.
+
+- Mycotoxins can cause a variety of adverse health effects and pose a serious health threat to both humans and livestock.
+
+- The adverse health effects of mycotoxins range from acute poisoning to long-term effects such as immune deficiency and cancer.
+
+- A scientific expert committee jointly convened by WHO and the Food and Agriculture Organization of the United Nations (FAO) – called JECFA – is the international body responsible for evaluating the health risk from natural toxins including mycotoxins.
+
+- International standards and codes of practice to limit exposure to mycotoxins from certain foods are established by the Codex Alimentarius Commission based on JECFA assessments.
+
+Overview
+========
+
+Mycotoxins are toxic compounds that are naturally produced by certain types of moulds (fungi). Moulds that can produce mycotoxins grow on numerous foodstuffs such as cereals, dried fruits, nuts and spices. Mould growth can occur either before harvest or after harvest, during storage, on/in the food itself often under warm, damp and humid conditions. Most mycotoxins are chemically stable and survive food processing.
+
+Several hundred different mycotoxins have been identified, but the most commonly observed mycotoxins that present a concern to human health and livestock include aflatoxins, ochratoxin A, patulin, fumonisins, zearalenone and nivalenol/deoxynivalenol. Mycotoxins appear in the food chain as a result of mould infection of crops both before and after harvest. Exposure to mycotoxins can happen either directly by eating infected food or indirectly from animals that are fed contaminated feed, in particular from milk.
+
+Mycotoxins commonly found in food
+=================================
+
+The effects of some food-borne mycotoxins are acute with symptoms of severe illness appearing quickly after consumption of food products contaminated with mycotoxins. Other mycotoxins occurring in food have been linked to long-term effects on health, including the induction of cancers and immune deficiency. Of the several hundred mycotoxins identified so far, about a dozen have gained the most attention due to their severe effects on human health and their occurrences in food.
+
+Aflatoxins are amongst the most poisonous mycotoxins and are produced by certain moulds (Aspergillus flavus and Aspergillus parasiticus) which grow in soil, decaying vegetation, hay, and grains. Crops that are frequently affected by Aspergillus spp. include cereals (corn, sorghum, wheat and rice), oilseeds (soybean, peanut, sunflower and cotton seeds), spices (chili peppers, black pepper, coriander, turmeric and ginger) and tree nuts (pistachio, almond, walnut, coconut and Brazil nut). The toxins can also be found in the milk of animals that are fed contaminated feed, in the form of aflatoxin M1. Large doses of aflatoxins can lead to acute poisoning (aflatoxicosis) and can be life threatening, usually through damage to the liver. Aflatoxins have also been shown to be genotoxic, meaning they can damage DNA and cause cancer in animal species. There is also evidence that they can cause liver cancer in humans.
+
+Ochratoxin A is produced by several species of Aspergillus and Penicillium and is a common food-contaminating mycotoxin. Contamination of food commodities, such as cereals and cereal products, coffee beans, dry vine fruits, wine and grape juice, spices and liquorice, occurs worldwide. Ochratoxin A is formed during the storage of crops and is known to cause a number of toxic effects in animal species. The most sensitive and notable effect is kidney damage, but the toxin may also have effects on fetal development and on the immune system. Contrary to the clear evidence of kidney toxicity and kidney cancer due to ochratoxin A exposure in animals, this association in humans is unclear, however effects on kidney have been demonstrated.
+
+Patulin is a mycotoxin produced by a variety of moulds, particularly Aspergillus, Penicillium and Byssochlamys. Often found in rotting apples and apple products, patulin can also occur in various mouldy fruits, grains and other foods. Major human dietary sources of patulin are apples and apple juice made from affected fruit. The acute symptoms in animals include liver, spleen and kidney damage and toxicity to the immune system. For humans, nausea, gastrointestinal disturbances and vomiting have been reported. Patulin is considered to be genotoxic however a carcinogenic potential has not been demonstrated yet.
+
+Fusarium fungi are common to the soil and produce a range of different toxins, including trichothecenes such as deoxynivalenol (DON), nivalenol (NIV) and T-2 and HT-2 toxins, as well as zearalenone (ZEN) and fumonisins. The formation of the moulds and toxins occur on a variety of different cereal crops. Different fusarium toxins are associated with certain types of cereal. For example, both DON and ZEN are often associated with wheat, T-2 and HT-2 toxins with oats, and fumonisins with maize (corn). Trichothecenes can be acutely toxic to humans, causing rapid irritation to the skin or intestinal mucosa and lead to diarrhoea. Reported chronic effects in animals include suppression of the immune system. ZEN has been shown to have hormonal, estrogenic effects and can cause infertility at high intake levels, particularly in pigs. Fumonisins have been related to oesophageal cancer in humans, and to liver and kidney toxicity in animals.
+
+Reducing risk
+=============
+
+It is important to note that mould that produces mycotoxins can grow on a variety of different crops and foodstuff and can penetrate deep into food and do not just grow on the surface. Mould usually does not grow in properly dried and stored foods, so efficient drying of commodities and maintenance of the dry state, or proper storage, is an effective measure against mould growth and the production of mycotoxins.
+
+To minimize the health risk from mycotoxins, people are advised to:
+
+- inspect whole grains (especially corn, sorghum, wheat, rice), dried figs and nuts such as peanuts, pistachio, almond, walnut, coconut, Brazil nuts and hazelnuts which are all regularly contaminated with aflatoxins for evidence of mould, and discard any that look mouldy, discoloured, or shrivelled;
+
+- avoid damage to grains before and during drying, and in storage, as damaged grain is more prone to invasion of moulds and therefore mycotoxin contamination;
+
+- buy grains and nuts as fresh as possible;
+
+- make sure that foods are stored properly – kept free of insects, dry, and not too warm;
+
+- not keep foods for extended periods of time before being used; and
+
+- ensure a diverse diet – this not only helps to reduce mycotoxins exposure, but also improves nutrition.
+
+WHO response
+============
+
+WHO, in collaboration with FAO, is responsible for assessing the risks to humans of mycotoxins – through contamination in food – and for recommending adequate protection.
+
+Risk assessments of mycotoxins in food done by the Joint FAO/WHO Expert Committee on Food Additives (JECFA) are used by governments and by the Codex Alimentarius Commission (the intergovernmental standards-setting body for food) to establish maximum levels in food or provide other risk management advice to control or prevent contamination. Codex standards are the international reference for national food supplies and for trade in food, so that people everywhere can be confident that the food they buy meets the agreed standards for safety and quality, no matter where it was produced.
+
+JECFA set the tolerable intake level for many mycotoxins
+--------------------------------------------------------
+
+JECFA or ad hoc FAO/WHO scientific expert groups consist of independent, international experts who conduct scientific reviews of all available studies and other relevant data on specific mycotoxins. The outcome of such health risk assessments can either be a maximum tolerable intake (exposure) level, or other guidance to indicate the level of health concern (such as the Margin of Exposure), including advice on risk management measures to prevent and control contamination, and on the analytical methods and monitoring and control activities.
+
+These tolerable daily intakes are used by governments and international risk managers, such as the Codex Alimentarius Commission, to establish maximum levels for mycotoxins in food. The maximum levels for mycotoxins in food are very low due to their severe toxicity. For example, the maximum levels for aflatoxins set by the Codex in various nuts, grains, dried figs and milk are in the range of 0.5 to 15 µg/kg (a µg is one billionth of a kilogram). The Codex maximum limit for patulin in apple juice is 50 µg/L.
+
+Exposure to mycotoxins needs to be kept as low as possible to protect the people. Mycotoxins not only pose a risk to both human and animal health, but also impact food security and nutrition by reducing people’s access to healthy food. WHO encourages national authorities to monitor and ensure that levels of mycotoxins in foodstuff on their market are as low as possible and comply with the both national and international maximum levels, conditions and legislation.

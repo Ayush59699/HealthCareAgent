@@ -1,0 +1,81 @@
+WHO FACT SHEET
+Title: Podoconiosis (non-filarial lymphoedema)
+URL: https://www.who.int/news-room/fact-sheets/detail/podoconiosis-(non-filarial-lymphoedema)
+Retrieved: 2026-10-05T09:34:08.619623+00:00
+
+========================================
+
+Key facts
+=========
+
+- Podoconiosis affects an estimated 4 million people across 17 countries worldwide.
+
+- Podoconiosis affects people of all ages and genders, but women and girls are disproportionately impacted.
+
+- Podoconiosis causes avoidable disability through swollen, deformed feet and lower legs and painful acute attacks that render patients bedbound for 3–5 days each episode.
+
+- Prevention is through avoiding contact with irritant soil by wearing footwear, covering house floors and paving roads.
+
+- Treatment is low-cost and simple, benefitting the poorest patients the most.
+
+Overview
+========
+
+Podoconiosis is a non-infectious geochemical leg swelling (lymphoedema) caused by long-term exposure of bare feet to irritant soils. It is responsible for an estimated 4 million cases of lymphoedema in highland tropical and sub-tropical areas of 17 countries in Africa, Central and South America and South and South-East Asia.
+
+Podoconiosis affects poor, remote, subsistence farming communities and, by affecting livelihoods, it traps these communities in poverty. Women and girls are both more likely to contract podoconiosis and more likely to suffer from its social and economic consequences.
+
+Interventions include prevention of contact with the soil through consistent wearing of shoes from an early age and daily foot washing. Treatment using a holistic lymphoedema management package has been demonstrated to decrease swelling, disability and incidence of acute attacks, improve quality of life, and can be readily mainstreamed into government community health services.
+
+Scope of the problem
+====================
+
+Globally, there is evidence of podoconiosis in 17 countries (12 in Africa, 3 in Latin America and 2 in Asia). Tropical African countries bear the highest disease burden with about 1.5 million people living with podoconiosis in Ethiopia, a further 40 000 in Cameroon, 9000 in Kenya and 7000 in Rwanda.
+
+Who is at risk?
+===============
+
+Podoconiosis is common among remote rural communities, in particular those dependent on subsistence farming and lacking access to footwear or water to wash the feet. The average age at first noticing leg swelling is 25 years, and the disease is common up to the sixth decade. The disease is more common in women: a recent meta-analysis concluded that the likelihood of podoconiosis among women was 1.15 times greater than among men.
+
+Signs and symptoms
+==================
+
+The early symptoms of podoconiosis include a burning sensation and itching on the back of the feet. Skin thickening is accompanied by papillomatous growths around the sides of the feet and the heel. Reversible foot and lower leg oedema (swelling) later becomes fixed and gradually progresses up the leg. Swelling is bilateral but often asymmetrical and the swelling is mostly limited to below the knees. Nodules and maceration between toes are common.
+
+Causes
+======
+
+Podoconiosis is a condition that is jointly influenced by genetic and environmental factors. No biological agent has been identified. There is an association between podoconiosis and areas of the genome often involved in T-cell mediated inflammatory responses, and an exaggerated helper T-cell response has been demonstrated in the lymph nodes of affected people. Although ecological evidence over several decades has linked red clay soils to podoconiosis, the exact causative agent within the soil remains unknown. Studies have suggested a role for smectite clays or certain elements including zirconium, aluminium and beryllium.
+
+Treatment and care
+==================
+
+Treatment of podoconiosis is currently based on lymphoedema management (foot hygiene, compression, exercises and elevation), psychosocial and mental health support, and use of shoes to reduce exposure to irritant soil. Surgical removal of large nodules can be achieved with satisfactory healing rates, allowing patients to use custom designed shoes. The effectiveness and cost-effectiveness of a holistic physical and mental health care package for people with lymphoedema caused by lymphatic filariasis, leprosy or podoconiosis (mainstreamed into routine primary health care services in Ethiopia) has been demonstrated. Expert patients (patients who have been trained to successfully manage their condition and assist others in doing so) can be trained to guide treatment for uncomplicated lymphoedema.
+
+Prevention and control
+======================
+
+The key strategies for podoconiosis control are prevention of contact with irritant soil (primary prevention) and lymphoedema morbidity management (secondary and tertiary prevention). Evidence from the past 5 years suggests that podoconiosis is amenable to public health interventions such as footwear and hygiene-based morbidity management, which reduce acute clinical episodes. Controlling podoconiosis is achievable given the absence of a biological agent or vector also needing control, the relatively small global scale of the problem, and the safe means of podoconiosis prevention and control.
+
+Challenges
+==========
+
+The main challenge faced in podoconiosis control is lack of awareness that the condition exists and that it is different from lymphatic filariasis and other main causes of lymphoedema in the tropics, requiring different prevention and control strategies. Treatment is most effective when the disease is diagnosed early. Podoconiosis takes longer to identify than it should through lack of diagnostic tools that can be used in the community. There is also a lack of understanding of the exact environmental trigger. Finally, communities affected have little voice at regional or national level, and attention needs to be drawn to the structural inequities that contribute to the persistence of this preventable condition.
+
+Global impact
+=============
+
+Until recently, podoconiosis was assumed to lead to illness rather than deaths. However, the death rate among people with podoconiosis is greater than that of a comparison cohort in a similar setting, with an overall standardized mortality rate of 6. Podoconiosis also has severe social and economic consequences. Patients lose 45% of their economically productive time because of morbidity associated with the disease. In Ethiopia alone, it is estimated that podoconiosis causes 172 073 disability-adjusted life-years (DALYs) to be lost annually. Most of these DALYs are due to chronic lymphoedema, and only 2.6% are attributable to ADLA episodes. Podoconiosis is considered the most stigmatizing health problem in endemic areas. Patients have almost 7 times the risk of lower-than-average quality of life scores and 11 times the likelihood of depression than healthy neighbours.
+
+WHO response
+============
+
+Podoconiosis management and public health control measures can be integrated within the strategic framework for skin-related neglected tropical diseases, and the wider agenda of poverty reduction and Universal Health Coverage.
+
+Reducing the suffering of people affected by podoconiosis will rely on 2 of the public health strategies already recommended by WHO for NTDs:
+
+- Innovative and Intensified Disease Management (IDM). There are many similarities between Morbidity Management and Disability Prevention (MMDP) for podoconiosis and for filarial lymphoedema and leprosy. The effectiveness and cost-effectiveness of integrated care across these three NTDs has been demonstrated.
+
+- Water, sanitation and hygiene (WASH). Access to clean water is essential for prevention of podoconiosis and for MMDP. This requirement is shared with several other NTDs including soil-transmitted helminthiases, schistosomiasis, trachoma and lymphatic filariasis.
+
+Synergies in prevention include promotion of footwear (as for snakebite, soil-transmitted helminth infections, Buruli ulcer, mycetoma and tungiasis) and covering of house floors (as for tungiasis). The inclusion podoconiosis in the skin NTD framework will enhance surveillance and visibility.

@@ -1,0 +1,96 @@
+WHO FACT SHEET
+Title: Multi-drug resistant gonorrhoea
+URL: https://www.who.int/news-room/fact-sheets/detail/multi-drug-resistant-gonorrhoea
+Retrieved: 2026-10-05T09:33:31.232810+00:00
+
+========================================
+
+Key facts
+=========
+
+- Antimicrobial resistance in gonorrhoea has increased rapidly in recent years and has reduced the options for treatment.
+
+- Eighty-two million new cases of gonorrhoea occurred in 2020.
+
+- Most gonorrhoea cases in 2020 were in the WHO African Region and the Western Pacific Region.
+
+- Most people affected are aged 15–49 years.
+
+Overview
+========
+
+Gonorrhoea is a sexually transmitted infection (STI) that remains a major public health concern. WHO estimates that in 2020, there were 82.4 million [47.7 million-130.4 million] new cases infected among adolescents and adults aged 15–49 years worldwide, with a global incident rate of 19 (11–29) per 1000 women and 23 (10–43) per 1000 men. Most cases were in the WHO African Region and the Western Pacific Region.
+
+Antimicrobial resistance (AMR) in Neisseria gonorrhoeae (N. gonorrhoeae) appeared soon after the antimicrobial medicines started to be used. This has continued to expand over the past 80 years, affecting medicines such as tetracyclines, macrolides (including azithromycin), sulphonamides and trimethoprim combinations and, more recently, quinolones. In many countries, ciprofloxacin resistance is exceedingly high, azithromycin resistance is increasing and resistance or decreased susceptibility to cefixime and ceftriaxone continue to emerge.
+
+The extensively drug-resistant gonorrhoea with high-level resistance to the current recommended treatment for gonorrhoea (ceftriaxone) but also including resistance to penicillin, sulphonamides, tetracycline, fluoroquinolones and macrolides (including azithromycin) are called gonorrhoea superbugs or super gonorrhoea.
+
+History
+=======
+
+The first reported treatment failure with cefixime was in Japan. In the past decade, confirmed failure to cure gonorrhoea with ceftriaxone alone or combined with azithromycin or doxycyline was reported in Australia, France, Japan, Slovenia, Sweden and the United Kingdom of Great Britain and Northern Ireland. In 2016, the first global failure to cure pharyngeal gonorrhoea with dual therapy (ceftriaxone 500 mg plus azithromycin 1 gram) was confirmed in the United Kingdom. An international spreading ceftriaxone-resistant gonococcal strain has been reported in Denmark, France, Japan and the United Kingdom. In 2018, the first global gonococcal strain with ceftriaxone resistance and high azithromycin resistance causing pharyngeal gonorrhoea was reported in the United Kingdom. There are increasing numbers of treatment failure cases being reported from Austria, the United Kingdom, and other countries.
+
+All confirmed treatment failures except one recent case in the United Kingdom have been pharyngeal infections affecting the throat. The majority of infections in the pharynx are asymptomatic. Antimicrobial drugs don’t penetrate the tissue well in that area, and the pharynx is also home to naturally occurring related bacteria of the Neisseria species that can contribute to drug resistance. Most data on this issue come from higher income countries; however, the majority of cases of gonorrhoea are in less resourced countries and areas.
+
+This suggests that reports of treatment failures and drug resistance in wealthier areas are only the tip of the global health burden. Surveillance data on antibiotic resistance and treatment failures from poorer countries are exceedingly scarce and need to be improved. Gonococcal resistance to ceftriaxone, the last remaining option for empiric first-line gonorrhoea treatment, is a major public health concern. Strains across the gonococcal species phylogeny have shown their capacity to develop ceftriaxone resistance. WHO’s Enhanced Gonococcal Antimicrobial Surveillance Programme (EGASP), found high levels of ceftriaxone resistance, mainly due to the spread of particularly resistant strains. This emphasizes the importance of gonococcal surveillance.
+
+Causes
+======
+
+Resistance to so many treatment options, including penicillins, sulphonamides, tetracyclines, quinolones and macrolides (including azithromycin), as well as so-called last line options like cephalosporins, make N. gonorrhoeae a multidrug resistant organism.
+
+This resistance is caused by a number of factors, including unrestricted access to antimicrobials, inappropriate selection and overuse of antibiotics, and poor quality antibiotics. Further, genetic mutations within the organism have contributed to increased drug resistance in N. gonorrhoeae. Infections outside of the genital area – namely in the throat and rectum – particularly affect key populations such men who have sex with men. This may also play an important role in the development of resistant strains as N. gonorrhoeae interact and exchange genetic material with other organisms in these parts of the body.
+
+Implications
+============
+
+Gonococcal infections have critical implications to reproductive, maternal and newborn health including:
+
+- a five-fold increase of HIV transmission
+
+- infertility, with its cultural and social implications
+
+- inflammation, leading to acute and chronic lower abdominal pain in women
+
+- ectopic pregnancy and maternal death
+
+- first trimester abortion
+
+- severe neonatal eye infections that may lead to blindness.
+
+The financial costs of these complications are very high for both individuals and health care systems. Antimicrobial resistance increases this burden by prolonging the infection in more people and increasing the number of people with long-term complications of gonococcal infections.
+
+The emergence of different forms of resistance in N. gonorrhoeae is often followed by a rapid spread of the disease. This is not a problem only of the low- and middle-income countries, and recent treatment failures have also been seen in higher-income countries. Since it can be difficult to find complete information from areas with limited resources for surveillance, the antimicrobial resistance is expected to be much higher than what is currently seen due to silent spreading.
+
+WHO response
+============
+
+Fighting multidrug-resistant N. gonorrhoeae requires 2 approaches: broad control of drug resistance and control of gonorrhoea. Both should be approached in the wider contexts of global control of antimicrobial resistance.
+
+WHO is implementing the Global Action Plan to Control the Spread and Impact of Antimicrobial Resistance in N. gonorrhoeae to facilitate effective actions against the spread of multi-drug resistant N. gonorrhoeae. This Plan is part of the greater STI surveillance plan to help early detection of emerging resistant strains, combined with a public health response to prevent and treat gonococcal infections and reduce the impact of gonorrhoea on sexual and reproductive health.
+
+The Global Health Sector Strategy on HIV, Hepatitis and STIs (2022–2030) has set targets to reduce the number of new cases of gonorrhoea among people 15–49 years old from 82.3 million per year in 2020 to 8.23 million per year in 2030, thus reducing the year incidence by 90% by 2030. Recognizing that this reduction may be difficult to achieve with available interventions, and given increasing antimicrobial resistance, the strategy has emphasized the need to develop effective gonococcal vaccines. No currently licensed gonococcal vaccines exist. However, interest in gonococcal vaccine development has been reinvigorated not only by the marked increases in gonococcal antimicrobial resistance, but also by mounting scientific evidence suggesting gonococcal vaccines are biologically feasible.
+
+The key WHO actions are:
+
+- effective prevention and control of gonococcal infections, using prevention messages and interventions and appropriate treatment regimens;
+
+- establish effective drug regulations;
+
+- strengthen surveillance systems for antimicrobial resistance, especially in countries with a high burden of gonococcal infections and to expand more countries (>70% by 2030 compared to 36% in 2020) reporting antimicrobial resistance in N. gonorrhoeae to the WHO Gonococcal Antimicrobial Surveillance Programme;
+
+- strengthen the Gonococcal Antimicrobial Surveillance Programme by establishing a network of laboratories to coordinate gonococcal antimicrobial resistance surveillance linked to the Global Antimicrobial Resistance and Use Surveillance System;
+
+- establish regional networks of laboratories that can perform gonococcal culture, with good quality control mechanisms;
+
+- ensure appropriate and quality STI case management and where feasible same-day testing and treatment;
+
+- monitor treatment failures by developing a standard set of protocols for monitoring;
+
+- support research to find low-cost tests to identify N. gonorrhoeae, which would allow effective screening in priority populations defined by individual countries including men who have sex with men, sex workers and other priority populations;
+
+- support research to develop methods for detecting antimicrobial resistance; and
+
+- research into alternative treatments for gonococcal infections.
+
+WHO will continue to work with Member States and partners to understand and reduce antimicrobial resistance through better control of antibiotic medications and actions to prevent the spread of gonorrhoea.

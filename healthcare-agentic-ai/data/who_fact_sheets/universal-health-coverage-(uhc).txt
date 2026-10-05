@@ -1,0 +1,48 @@
+WHO FACT SHEET
+Title: Universal health coverage (UHC)
+URL: https://www.who.int/news-room/fact-sheets/detail/universal-health-coverage-(uhc)
+Retrieved: 2026-10-05T09:35:19.069395+00:00
+
+========================================
+
+Key facts
+
+- At the current pace, the world is not on track to achieve universal health coverage (UHC), despite earlier gains in expanding health service access and reducing financial hardship since 2000. Progress has slowed since 2015.
+
+- The UHC service coverage index increased from 54 to 71 between 2000 and 2023. However, for the period of 2015-2023, progress dropped to one-third of the annualized rate compared to pre-2015 gains.
+
+- The proportion of the population not covered by essential health services decreased by about 20% between 2000 and 2023, indicating that in 2023, about 4.6 billion people were not fully covered.
+
+- In 2022, 2.1 billion people faced financial hardship, including 1.6 billion people living in poverty or pushed deeper into it due to out-of-pocket health expenses. This equates to 26% of the population, a drop from 34% in 2000.
+
+- All WHO regions saw progress in service coverage, while half (Africa, South-East Asia, and the Western Pacific) also reduced financial hardship since 2015.
+
+Overview
+========
+
+Universal health coverage (UHC) means that all people have access to the full range of quality health services they need, when and where they need them, without financial hardship. It covers the full continuum of essential health services, from health promotion to prevention, treatment, rehabilitation and palliative care across the life course.
+
+Achieving UHC is one of the targets the nations of the world set when they adopted the 2030 Sustainable Development Goals (SDGs) in 2015. At the United Nations General Assembly High Level Meeting on UHC in 2019, countries reaffirmed that health is a precondition for and an outcome and indicator of the social, economic and environmental dimensions of sustainable development. In 2025, the United Nations Statistical Commission approved proposals for revisions of the SDG UHC indicators, as part of a comprehensive review of all SDG indicators. The revised global UHC monitoring framework uses the following two indicators: SDG indicator 3.8.1: UHC service coverage index and SDG indicator 3.8.2 : proportion of the population facing financial hardship in health.
+
+Progress towards UHC
+====================
+
+Globally the strongest gains were made in both UHC indicators between 2000 to 2015. The annualized rate of improvement in the service coverage index was 1.5%, but after 2015 that slowed to 0.5%. Financial hardship was also reducing more quickly – about 0.37 percentage points, versus about 0.28 in the period that followed. At the current trajectory, the world will not achieve UHC by 2030; the global service coverage index is projected to be 74 out of 100, and 24% of the population will continue to face financial hardship.
+
+Global progress in service coverage index has been driven primarily by infectious disease control, accounting for 52% of the increase in the service coverage index since 2000. In contrast, reproductive, maternal, newborn, and child health services stagnated in recent years at 72 index points; while care for noncommunicable diseases has lagged, reaching 61 index points in 2023. Disparities in service coverage between countries have narrowed, and the number of countries categorized as having low or very low coverage fell from 55 to just 8 from 2000 between 2023.
+
+Between 2000 and 2022, impoverishing out-of-pocket (OOP) health spending declined mainly because fewer people were further impoverished by health payments (falling from 26.6% to 18.6%), while the share pushed into poverty remained largely unchanged at 1.9–2.8%. However, poverty reduction occurred faster than reductions in impoverishing OOP spending, resulting in a growing concentration of people pushed into or further into poverty by health costs among those already poor.
+
+Inequalities continue to be a fundamental challenge for UHC. Even where there is national progress on UHC, the aggregate data mask inequalities within countries and continue to limit equitable access to care, particularly along economic, educational, and geographic lines.
+
+Across a subset of European countries in 2019, the unmet need for health care showed clear within-country inequalities. Median levels were higher among the poorest 20% than the richest 30% (32% vs 22%), among people with severe disability compared with no disability (42% vs 21%), and among rural compared with urban residents (27% vs 23%).
+
+In 2022, 3 out of 4 people among the poorest segment of the populations faced financial hardship from health costs, compared with fewer than 1 in 25 among the richest.
+
+Financial hardship from health spending also varies by age, household composition, and place of residence – rural populations experience a median hardship rate 14% higher than urban populations, and people in multigenerational households, especially those with adults over 60, face greater financial strain.
+
+The trends and gaps described point to the need for stronger policies that reduce out-of-pocket spending – especially for the poor and for those on medicines, that expand essential NCD and primary health-care services, that strengthen publicly-funded prepaid coverage, and that adopt multisectoral approaches to address broader determinants of health.
+
+Detailed data is provided in the WHO Global Health Observatory Data Repository for UHC
+
+WHO publishes global reports on UHC every two years.

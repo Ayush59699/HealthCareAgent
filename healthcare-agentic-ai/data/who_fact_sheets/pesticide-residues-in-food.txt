@@ -1,0 +1,87 @@
+WHO FACT SHEET
+Title: Pesticide residues in food
+URL: https://www.who.int/news-room/fact-sheets/detail/pesticide-residues-in-food
+Retrieved: 2026-10-05T09:34:03.565305+00:00
+
+========================================
+
+Key facts
+=========
+
+- Some of the older, less costly pesticides can remain for years in soil and water. Many of these chemicals have been banned from agricultural use in developed countries, but they are still used in many developing countries.
+
+- Pesticides play a significant role in food production. They protect or increase yields and may increase the number of times each year a crop can be grown on the same land. This is particularly important in countries that face food shortages.
+
+- To protect food consumers from the adverse effects of pesticides WHO reviews evidence and develops internationally-accepted maximum residue limits.
+
+- Pesticides are used to protect crops against insects, weeds, fungi and other pests.
+
+- Pesticides are potentially toxic to humans and can have both acute and chronic health effects, depending on the quantity and ways in which a person is exposed.
+
+- People who face the greatest health risks from exposure to pesticides are those who come into contact with them at work, in their home or garden.
+
+Overview
+========
+
+There are more than 1000 pesticides used around the world to ensure food is not damaged or destroyed by pests. Each pesticide has different properties and toxicological effects.
+
+Many of the older, less costly (off-patent) pesticides, such as dichlorodiphenyltrichloroethane (DDT) and lindane, can remain for years in soil and water. These chemicals have been banned by countries which signed the 2001 Stockholm Convention, an international treaty that aims to eliminate or restrict the production and use of persistent organic pollutants.
+
+The toxicity of a pesticide depends on its function and other factors. For example, insecticides tend to be more toxic to humans than herbicides. The same chemical can have different effects at different doses, that is, the amount of chemical to which a person is exposed. Toxicity can also depend on the route by which the exposure occurs, such as by swallowing, inhaling or direct contact with the skin.
+
+None of the pesticides currently authorized for use on food in international trade are genotoxic (damaging to DNA, which can cause mutations or cancer). Adverse effects from these pesticides occur only above a certain safe level of exposure. When people come into contact with large quantities of pesticide, the result may be acute poisoning or long-term health effects that may include cancer and adverse effects on reproduction.
+
+Scope of the problem
+====================
+
+Pesticides are among the leading causes of death by self-poisoning, particularly in low- and middle-income countries.
+
+Since pesticides are intrinsically toxic and deliberately spread in the environment, their production, distribution and use call for strict regulation and control. Regular monitoring of residues in food and the environment is also required.
+
+WHO has two objectives in relation to pesticides:
+
+- to ban the pesticides that are most toxic to humans, as well as pesticides that remain for the longest time in the environment;
+
+- to protect public health by setting maximum limits for pesticide residues in food and water.
+
+Who is at risk?
+===============
+
+The population most at risk are those who are directly exposed to pesticides. This includes agricultural workers who apply pesticides and anyone else in the immediate area during, and shortly after, pesticides are spread.
+
+The general population – those not in the area where pesticides are used – is exposed to significantly lower levels of pesticide residues through food and water.
+
+Prevention and control
+======================
+
+Nobody should be exposed to unsafe amounts of pesticide.
+
+People spreading pesticide on crops, in homes or in gardens should be adequately protected. People not directly involved in the spreading of pesticides should stay away from the area while spreading takes place, and for some time afterwards.
+
+Food that is sold or donated (such as food aid) should equally comply with pesticide regulations, in particular with maximum residue limits. People who use pesticides when growing their own food should follow instructions for use and protect themselves by wearing gloves and face masks as necessary.
+
+Consumers can further limit their intake of pesticide residues by peeling or washing fruit and vegetables, which also reduces other foodborne hazards such as harmful bacteria.
+
+Global impact
+=============
+
+The United Nations Population Division estimates that by the year 2050 there will be 9.7 billion people on Earth – around 30% more people than in 2017. Nearly all of this population growth will occur in developing countries.
+
+The Food and Agriculture Organization of the United Nations (FAO) estimates that in developing countries, 80% of the increase in food production needed to keep pace with population growth, is projected to come from either increases in yields and/or the number of times each year crops can be grown on the same land. Only 20% of extra food production is expected to result from an expansion of farming land.
+
+Pesticides can prevent large crop losses and will therefore continue to play a role in agriculture. However, the effects of exposure to pesticides on humans and the environment are a continuing concern.
+
+The use of pesticides to produce food, both to feed local populations and for export, should comply with good agricultural practices regardless of the economic status of a country. Farmers should limit the amount of pesticide used to the minimum necessary to protect their crops.
+
+It is also possible, under certain circumstances, to produce food without the use of pesticides.
+
+WHO response
+============
+
+WHO, in collaboration with FAO, is responsible for assessing the risks to humans from pesticides, whether through direct exposure or residues in food, and for recommending adequate protection measures.
+
+Risk assessments for pesticide residues in food are conducted by an independent, international expert scientific group, the Joint FAO/WHO Meeting on Pesticide Residues (JMPR). These assessments are based on all data submitted for national registrations of pesticides worldwide, as well as all scientific studies published in peer-reviewed journals. After assessing the level of risk, JMPR establishes limits for safe intake to ensure that the amount of pesticide residue to which people are exposed through eating food over their lifetime will not result in adverse health effects.
+
+These acceptable daily intakes are used by governments and international risk managers, such as the Codex Alimentarius Commission (the intergovernmental body that sets food standards), to establish maximum residue limits (MRLs) for pesticides in food. Codex standards are the reference for international trade in food, meaning that consumers everywhere can be confident that the food they buy meets the agreed standards for safety and quality, no matter where it has been produced. Currently there are Codex standards for more than 100 different pesticides.
+
+WHO and FAO have jointly developed the International Code of Conduct on Pesticide Management. The most recent edition of this voluntary framework was published in 2014. It guides government regulators, the private sector, civil society and other stakeholders on best practices in managing pesticides throughout their lifecycle, from production to disposal.

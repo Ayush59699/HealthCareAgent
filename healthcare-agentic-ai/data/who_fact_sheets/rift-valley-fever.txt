@@ -1,0 +1,147 @@
+WHO FACT SHEET
+Title: Rift Valley fever
+URL: https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever
+Retrieved: 2026-10-05T09:34:32.061623+00:00
+
+========================================
+
+Key facts
+=========
+
+- Rift Valley fever (RVF) is a viral zoonosis that primarily affects animals but can also infect humans.
+
+- Most human infections result from contact with the blood or organs of infected animals.
+
+- Human infections have also resulted from the bites of infected mosquitoes.
+
+- To date, no human-to-human transmission of RVF virus has been documented.
+
+- The incubation period (the interval from infection to onset of symptoms) for RVF varies from 2 to 6 days.
+
+- Outbreaks in animals can be prevented by a sustained programme of animal vaccination.
+
+Overview
+========
+
+Rift Valley fever is a viral zoonosis that primarily affects animals but can also infect humans. Infection can cause severe disease in both animals and humans. The disease results in significant economic losses due to death and abortion among RVF-infected livestock.
+
+RVF virus is a member of the Phlebovirus genus. The virus was first identified in 1931 during an investigation into an epidemic among sheep in the Rift Valley of Kenya.
+
+Since then, outbreaks have been reported in sub-Saharan Africa. In 1977 an explosive outbreak was reported in Egypt, where the RVF virus was introduced via infected livestock trade along the Nile irrigation system. In 1997–98, a major outbreak occurred in Kenya, Somalia and Tanzania following El Niño event and extensive flooding. Following infected livestock trade from the horn of Africa, RVF spread in September 2000 to Saudi Arabia and Yemen, marking the first reported occurrence of the disease outside the African continent and raising concerns that it could extend to other parts of Asia and Europe.
+
+Vectors and host animals
+========================
+
+Ecology and mosquito vectors
+----------------------------
+
+Several species of mosquito are able to act as vectors for transmission of the RVF virus. The dominant vector species varies between different regions, and different species can play different roles in sustaining the transmission of the virus.
+
+Among animals, the RVF virus is spread primarily by the bite of infected mosquitoes, mainly the Aedes species, which can acquire the virus from feeding on infected animals. The female mosquito is also capable of transmitting the virus directly to her offspring via eggs leading to new generations of infected mosquitoes hatching from eggs.
+
+RVF virus in host animals
+-------------------------
+
+RVF virus is able to infect many species of animals causing severe disease in domesticated animals including cattle, sheep, camels and goats. Sheep and goats appear to be more susceptible than cattle or camels. An outbreak of RVF in animals frequently manifests itself as a wave of unexplained abortions among livestock and may signal the start of an epidemic.
+
+The analysis of major RVF outbreaks show two ecologically distinct situations :
+
+- Primary foci areas. RVF virus persists through transmission between vectors and hosts and maintains through vertical transmission in Aedes mosquitoes.
+
+- Spread to secondary foci. During major outbreak at primary foci, the disease can spread through livestock movement or passive mosquitoes dispersal. The transmission can then amplify in naïve ruminants via local competent mosquitoes like Culex, Mansonia and Anopheles that act as mechanical vectors. Irrigation schemes, where populations of mosquitoes are abundant during long periods of the year, are highly favourable places for secondary disease transmission.
+
+Transmission in humans
+======================
+
+Most human infections result from direct or indirect contact with the blood or organs of infected animals. The virus can be transmitted to humans through the handling of animal tissue during slaughtering or butchering, assisting with animal births, conducting veterinary procedures, or from the disposal of carcasses or fetuses. Certain occupational groups such as herders, farmers, slaughterhouse workers and veterinarians are therefore at higher risk of infection. There is some evidence that humans may become infected with RVF by ingesting the unpasteurized or uncooked milk of infected animals.
+
+Human infections have also resulted from the bites of infected mosquitoes, most commonly the Aedes and Culex mosquitoes. The transmission of RVF virus by blood-feeding flies is also possible.
+
+To date, no human-to-human transmission of RVF has been documented, and no transmission of RVF to health care workers has been reported when standard infection control precautions have been implemented. .
+
+Symptoms in humans
+==================
+
+The incubation period (the interval from infection to onset of symptoms) for RVF varies from 2 to 6 days.
+
+Most infections in human will lead to no symptoms or mild form of the disease characterized by a feverish syndrome with sudden onset of flu-like fever, muscle and joint pain and headache. Some patients develop neck stiffness, sensitivity to light, loss of appetite and vomiting. In these patients the disease, in its early stages, may be mistaken for meningitis.
+
+The symptoms of RVF usually last from 4 to 7 days, after which time the immune response becomes detectable with the appearance of antibodies and the virus disappears from the blood.
+
+A small percentage of patients develop a much more severe form of the disease. This usually appears as one or more of the three following syndromes:
+
+- Ocular (eye) form (0.5–2% of patients): symptoms associated with the mild form of the disease are accompanied by retinal lesions. The lesions in the eyes usually appear 1 to 3 weeks after the first symptoms. Patients report blurred or decreased vision. The disease may resolve itself within 10 to 12 weeks. However, when the lesions occur in the macula, 50% of patients will experience a permanent loss of vision.
+
+- Meningoencephalitis form (less than 1% of patients): The onset of the meningoencephalitis form usually occurs 1 to 4 weeks after the first symptoms of RVF appear. Clinical features include intense headache, loss of memory, hallucinations, confusion, disorientation, vertigo, convulsions, lethargy and coma. Neurological complications can appear two months or more later. While death rate in these patients is low, residual neurological deficit, which may be severe, is common.
+
+- Haemorrhagic fever form (less than 1% of patients): The symptoms of this form appear 2–4 days after the onset of illness, and begin with evidence of severe liver impairment. Subsequently signs of haemorrhage then appear such as vomiting blood, passing blood in the faeces, a purpuric rash or ecchymose, bleeding from the nose or gums, menorrhagia and bleeding from venepuncture sites. The case fatality ratio in these patients is high at approximately 50%. Death usually occurs 3 to 6 days after the onset of symptoms..
+
+Diagnosis
+=========
+
+It can be difficult to clinically distinguish RVF from other infectious diseases such as malaria, typhoid fever, shigellosis, yellow fever and other viral haemorrhagic fevers, especially early in the course of the disease.
+
+Confirmation that symptoms are caused by RVF virus infection are made using the following diagnostic methods:
+
+- reverse transcriptase polymerase chain reaction (RT-PCR) assay
+
+- IgG and IgM antibody enzyme-linked immunosorbent assay (ELISA)
+
+- virus isolation by cell culture.
+
+Samples collected from patients are an extreme biohazard risk. Laboratory testing on non-inactivated samples should be conducted under maximum biological containment conditions. All non-inactivated biological specimens should be packaged using the triple packaging system when transported nationally and internationally.
+
+Treatment and vaccines
+======================
+
+As most human cases of RVF are relatively mild and of short duration, no specific treatment is required for these patients. For the more severe cases, the predominant treatment is early intensive supportive care including fluid management and treatment of specific symptoms.
+
+An inactivated vaccine has been developed for human use. However, this vaccine is not licensed and is not commercially available. It has been used experimentally to protect veterinary and laboratory personnel at high risk of exposure to RVF. Other candidate vaccines are under investigation.
+
+Prevention and control
+======================
+
+Controlling RVF in animals
+--------------------------
+
+Outbreaks of RVF in animals can be prevented by a sustained programme of preventive animal vaccination. Both modified live attenuated virus and inactivated virus vaccines have been developed for veterinary use.
+
+Animal immunization must be implemented prior to an outbreak if an epizootic is to be prevented. Once an outbreak has occurred, animal vaccination should NOT be implemented because there is a high risk of intensifying the outbreak through the use of multi-dose vials and the re-use of needles and syringes.
+
+Restricting or banning the movement of livestock may be effective in slowing the expansion of the virus from infected to uninfected areas.
+
+As outbreaks of RVF in animals precede human cases, the establishment of an active animal health surveillance system to detect new cases is essential in providing early warning for veterinary and human public health authorities.
+
+Public health education and risk reduction
+------------------------------------------
+
+Raising awareness of the risk factors of RVF infection as well as the protective measures individuals can take to prevent mosquito bites is the only way to reduce human infection.
+
+Public health messages for risk reduction should focus on:
+
+- reducing the risk of animal-to-human transmission as a result of unsafe animal husbandry and slaughtering practices. Practicing hand hygiene, wearing gloves and other appropriate individual protective equipment when handling sick animals or their tissues or when slaughtering animals;
+
+- reducing the risk of animal-to-human transmission arising from the unsafe consumption of fresh blood, raw milk or animal tissue. In the epizootic regions, all animal products (blood, meat, and milk) should be thoroughly cooked before eating;
+
+- the importance of personal and community protection against mosquito bites through the use of impregnated mosquito nets, personal insect repellent if available, light-coloured clothing (long-sleeved shirts and trousers) and by avoiding outdoor activity at peak biting times of the vector species;
+
+- vector control using larviciding measures at mosquito breeding sites if they can be clearly identified and are limited in size and extent. During periods of flooding the number and extent of breeding sites is usually too high for larviciding measures to be feasible.
+
+Infection control in health care settings
+-----------------------------------------
+
+Although no human-to-human transmission of RVF has been demonstrated, there is still a theoretical risk of transmission of the virus from infected patients to healthcare workers through contact with infected blood or tissues. Healthcare and laboratory workers caring for patients with suspected or confirmed RVF should implement standard precautions when handling specimens from patients.
+
+RVF forecasting and climatic models
+-----------------------------------
+
+Forecasting can predict climatic conditions that are frequently associated with an increased risk of outbreaks, and may improve disease control. In Africa, Saudi Arabia and Yemen RVF outbreaks are closely associated with periods of above-average rainfall; in East Africa they are closely associated with the heavy rainfall that occurs during the warm phase of the El Niño–Southern Oscillation phenomenon.
+
+Forecasting models and early warning systems for RVF using satellite images and weather/climate forecasting data can be used to trigger detection of animal cases at an early stage of an outbreak, enabling authorities to implement measures to avert epidemics.
+
+WHO response
+============
+
+WHO is working with partners to support RVF surveillance, diagnostic capacity, patient care and outbreak response activities in at-risk countries.
+
+WHO coordinates with the Food and Agriculture Organization of the United Nations (FAO) and the World Organization of Animal Health (WOAH) to improve anticipation of outbreaks in humans and implement activities at the animal-human-ecosystem interface.

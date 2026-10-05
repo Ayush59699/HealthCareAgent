@@ -1,0 +1,114 @@
+WHO FACT SHEET
+Title: ICD-11
+URL: https://www.who.int/news-room/fact-sheets/detail/icd-11
+Retrieved: 2026-10-05T09:32:43.811153+00:00
+
+========================================
+
+Key facts
+=========
+
+- The global standard for health data, clinical documentation and statistical aggregation.
+
+- Multiple uses, including primary care
+
+- Thoroughly and scientifically updated, and designed for use in a digital world.
+
+- State-of-the-art technology reduces the costs of training and implementation.
+
+- Multilingual design facilitates global use while the proposal platform allows stakeholder participation in keeping ICD–11 up-to-date.
+
+- Countries have already commenced preparing for implementation of ICD–11, with both English and Spanish versions online.
+
+What is ICD–11?
+===============
+
+ICD–11 is the international standard for systematic recording, reporting, analysis, interpretation and comparison of mortality and morbidity data. This 11th revision is the result of an unprecedented collaboration with clinicians, statisticians, classification and IT experts from around the world, making it useable by these groups, as well as by coders.
+
+ICD–11 allows countries to count and identify their most pressing health issues by using an up-to-date and clinically relevant classification system. Health conditions and accidents are assigned ICD–11 codes, resulting in data that can be used by governments to design effective public health policies, and measure their impact, or used for clinical recording.
+
+For the first time, ICD is fully electronic, currently providing access to 17 000 diagnostic categories, with over 100 000 medical diagnostic index terms. The index-based search algorithm interprets more than 1.6 million terms. ICD–11 is easy to install and use online or offline, using free 'container' software.
+
+Improvements in ICD–11
+======================
+
+ICD–11 is a vast improvement on previous revisions. It reflects critical advances in science and medicine, aligning classification with the latest knowledge of disease treatment and prevention. There is more meaningful clinical content than ICD–10.
+
+A significant feature of ICD–11 is the improved ease and accuracy of coding requiring less user training than ever before, together with the availability of online and offline functioning. ICD–11 is digital health ready, for use in multiple IT-environments, with a new API. It is presented together with a suite of web services, including multilingual support and in-built user guidance.
+
+A proposal platform allows all interested parties to suggest changes or additions to ICD–11 and to viewed and discussed transparently. The ICD–11 translation tool ensures internationally consistent translations and the addition of locally used terms.
+
+New core chapters include 'Diseases of the immune system’, 'Sleep-wake disorders’, and 'Conditions related to sexual health’. New supplementary chapters and sections permit the assessment of functioning, and the optional recording of traditional medicine diagnoses.
+
+All concepts for recording and reporting in primary care are included.
+
+Overall coding improvements in ICD–11 allow more precise and more detailed data recording and collection. However, newly available clinical precision is possible. Examples include:
+
+- Codes for antimicrobial resistance, in line with GLASS[1]
+
+- Codes for full documentation of patient safety, in line with the WHO patient safety framework
+
+- Necessary detail for cancer registration is fully embedded in ICD–11
+
+- Specific coding for clinical stages of HIV
+
+- More clinically relevant coding for complications of diabetes.
+
+- Codes for common skin cancers basalioma, and melanoma subtypes. Classification of heart valve diseases and pulmonary hypertension, now matching current diagnostic and treatment capacity.
+
+- Coding for traffic accidents and causes of injuries is now consistent with current international practice for data documentation and analysis.
+
+The creation of extension codes allows flexible addition of detail relevant for clinical documentation, and device or substance safety. Extension codes provide for the recording of medicaments with WHO INN[2] and WHO Medical Device nomenclature, as well as documenting the severity of conditions, anatomy or histopathology.
+
+Why WHO is interested in countries moving to ICD‑11
+===================================================
+
+Meaningful data for prevention, resourcing or evaluation are best produced with a standardised classification that is based on the latest medical and scientific knowledge.
+
+ICD–10 is scientifically and technologically outdated; it is missing content for several de-facto uses of ICD, like primary care or clinical decisions.
+
+ICD–11 is a flexible system which eliminates the need for local variants and allows to document all kind of clinical detail. In such a way, and in combination with the simplified coding, it can be integrated seamlessly in the routine of clinical documentation.
+
+ICD–11 lowers the costs for using ICD because correct use requires less training and less time for coding, and as such allows the implementation of standard reporting in places where it has not been possible to use ICD before. It is free for use in all countries, as a package with user guides and tools, providing inexpensive coding of patient encounters in the clinical setting.
+
+There are other applications for ICD–11
+=======================================
+
+ICD–11 is flexible in the level of detail captured, it can be adapted to the primary care setting, for surveillance of rare conditions, to generate adverse event reporting inpatient quality and safety management, and to the use of casemix for reimbursement and resource allocation is possible.
+
+Alternative applications include using ICD–11 as a multilingual dictionary, or as a terminology server for studies, surveys and other areas of recording of health information.
+
+WHO response
+============
+
+In response to Member State needs for moving to ICD–11, WHO is providing technical assistance to help countries develop their national implementation plans and to strengthen their health and surveillance systems. WHO has already undertaken training workshops in several WHO Regions. Early adopters start implementation, providing valuable information to other countries for that process. Technical support by WHO includes instructions on the use of the translation platform and integration of the ICD–11 coding tooling in a local information system.
+
+The ICD–11 implementation package includes all information, tools, training materials, mapping tables and more in support to use of ICD.
+
+The ICD–11 Proposal platform and translation tool is open to all interested parties and facilitates the ongoing update process, and the translation tool allows translations by the clinical community who uses ICD.
+
+General aspects of implementation
+=================================
+
+The time and amount necessary for the implementation of ICD-11 largely will depend on two factors:
+
+1. Whether a previous version has been in use
+
+2. Level of penetration of ICD use in the national information infrastructure
+
+As as an estimate, a Member State newly introducing ICD-11 in a simple information system may need 1-2 years. Member States with a highly sophisticated information system where earlier versions of ICD are already in use calculate 4-5 years time necessary for the implementation of a new version of ICD.
+
+In the cause of death coding, ICD-11 facilitates the transition from ICD-10, and the ICD Startup Mortality List (SMoL).
+
+WHO Family of Classifications
+=============================
+
+ICD is part of the WHO Family of International Health Related Classifications (WHOFIC).
+
+ICD, the International Classification for Health Interventions (ICHI) and the International Classification for Functioning, Disability and Health (ICF) are the core classifications that are complemented by Classifications for Nursing, Primary Care or Medicaments (ATC/DDD).
+
+Primary care has been incorporated in ICD-11, and the Medicaments, as well as cancer histopathology (ICD-O), have been embedded in ICD-11
+
+[1] The Global Antimicrobial Resistance Surveillance System (GLASS)
+
+[2] WHO International Nonproprietary Names (INN) facilitate the identification of pharmaceutical substances or active pharmaceutical ingredients. Each INN is a unique name that is globally recognised and is public property. A nonproprietary name is also known as a generic name.

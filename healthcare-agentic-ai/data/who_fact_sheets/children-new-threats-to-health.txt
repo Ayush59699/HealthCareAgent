@@ -1,0 +1,70 @@
+WHO FACT SHEET
+Title: Child mortality (under 5 years)
+URL: https://www.who.int/news-room/fact-sheets/detail/children-new-threats-to-health
+Retrieved: 2026-10-05T09:31:10.208692+00:00
+
+========================================
+
+Key facts
+=========
+
+- In 2024, an estimated 4.9 million children under the age of 5 years died worldwide, equivalent to one death every 6 seconds.
+
+- Neonatal deaths (the first 28 days of life) accounted for 2.3 million deaths, representing 47% of all under‑five deaths.
+
+- The global under‑five mortality rate (U5MR) declined to 37.4 deaths per 1000 live births in 2024, less than half its level in 2000.
+
+- Progress in reducing under‑five mortality has slowed markedly since 2015, with stagnation in the total number of under‑five deaths between 2022 and 2024.
+
+- Sub‑Saharan Africa and Southern Asia together accounted for more than 80% of all under‑five deaths in 2024, despite representing less than 60% of global live births.
+
+- Children born in sub‑Saharan Africa remain at the highest risk, with a U5MR of 71.6 deaths per 1000 live births, nearly 14 times higher than in Europe and Northern America.
+
+- The leading causes of under‑five death are preterm birth complications, intrapartum‑related events (birth asphyxia/trauma), pneumonia, diarrhoea and malaria, all of which are largely preventable or treatable.
+
+Overview
+========
+
+Substantial progress has been made in reducing child mortality over the past three decades. Since 1990, the global under‑five mortality rate has declined by approximately 60%, reflecting expanded access to immunization, improved nutrition, better management of childhood illnesses and wider availability of skilled health personnel at birth.
+
+However, most progress occurred prior to 2015. Between 2015 and 2024, the annual rate of reduction in under‑five mortality fell by more than half compared with 2000–2015. The total number of under‑five deaths has stagnated in recent years, remaining at roughly 4.8–4.9 million annually since 2022. This trend is particularly concerning given the large number of deaths due to preventable causes.
+
+Nearly half of all under‑five deaths now occur in the neonatal period, reflecting slower declines in neonatal mortality compared with mortality among children aged 1–59 months. Prematurity, intrapartum events (birth asphyxia/trauma), lower respiratory infections (pneumonia) and sepsis were the most common causes of mortality among neonates – accounting for almost 8 in 10 neonatal deaths. Preventing newborn deaths requires quality antenatal, intrapartum and postnatal care, including access to skilled health personnel at birth and essential newborn care.
+
+Child survival prospects remain deeply unequal. In 2024, more than four in five under-five deaths worldwide occurred in sub-Saharan Africa (2.8 million, 58 per cent of under-five deaths) and Southern Asia (1.2 million, 25 per cent of under-five deaths), underscoring the geographic concentration of the global child mortality burden. Fragile and conflict‑affected settings and low‑income countries face particularly high risks, driven by weak health systems, limited access to essential services, poverty and population growth.
+
+If current trends continue, more than 27 million children are projected to die before reaching their fifth birthday between 2025 and 2030, most from preventable causes.
+
+Who is most at risk?
+====================
+
+There are fewer countries with extremely high under-five mortality, but they are primarily located in sub-Saharan Africa. In 2024, only three countries – Niger, Nigeria and Somalia – had U5MRs above 100 deaths per 1000 live births, down from 41 countries in 2000.
+
+Newborns in settings without access to quality care at birth. The vast majority of newborn deaths take place in low and middle-income countries.
+
+Children living in fragile and conflict-affected settings (FCS) face substantially higher mortality rates. In 2024, children in FCS countries faced a U5MR nearly three times higher than children in non-FCS countries.
+
+Children from the poorest households, rural areas, and those born to mothers with limited education. Under-five mortality was approximately 1.5 times higher in rural than urban areas, and higher risks were associated with young maternal age, shorter birth intervals, and high birth order.
+
+What can be done?
+=================
+
+Ending preventable child deaths requires:
+
+- strengthening health systems, particularly maternal, newborn and child health services;
+
+- ensuring skilled health personnel at birth and quality newborn care;
+
+- expanding prevention and treatment of pneumonia, diarrhoea and malaria;
+
+- improving nutrition, water and sanitation; and
+
+- protecting child health investments, especially in high‑burden and fragile settings.
+
+Families should be advised to:
+
+- seek prompt medical care if necessary (danger signs include feeding problems, or if a newborn or young child has reduced activity, difficulty breathing, a fever, fits or convulsions, or feels cold);
+
+- register all births; and
+
+- bring babies for timely vaccination according to national schedules.

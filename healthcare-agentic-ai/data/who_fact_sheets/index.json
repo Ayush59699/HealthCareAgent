@@ -1,0 +1,1466 @@
+[
+  {
+    "topic": "abortion",
+    "title": "Abortion",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/abortion",
+    "file": "abortion.txt"
+  },
+  {
+    "topic": "abuse-of-older-people",
+    "title": "Abuse of older people",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/abuse-of-older-people",
+    "file": "abuse-of-older-people.txt"
+  },
+  {
+    "topic": "adolescent-mental-health",
+    "title": "Mental health of adolescents",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health",
+    "file": "adolescent-mental-health.txt"
+  },
+  {
+    "topic": "adolescent-pregnancy",
+    "title": "Adolescent pregnancy",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/adolescent-pregnancy",
+    "file": "adolescent-pregnancy.txt"
+  },
+  {
+    "topic": "adolescents-health-risks-and-solutions",
+    "title": "Adolescent and young adult health",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/adolescents-health-risks-and-solutions",
+    "file": "adolescents-health-risks-and-solutions.txt"
+  },
+  {
+    "topic": "ageing-and-health",
+    "title": "Ageing and health",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/ageing-and-health",
+    "file": "ageing-and-health.txt"
+  },
+  {
+    "topic": "alcohol",
+    "title": "Alcohol",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/alcohol",
+    "file": "alcohol.txt"
+  },
+  {
+    "topic": "ambient-(outdoor)-air-quality-and-health",
+    "title": "Ambient (outdoor) air pollution",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health",
+    "file": "ambient-(outdoor)-air-quality-and-health.txt"
+  },
+  {
+    "topic": "anaemia",
+    "title": "Anaemia",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/anaemia",
+    "file": "anaemia.txt"
+  },
+  {
+    "topic": "animal-bites",
+    "title": "Animal bites",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/animal-bites",
+    "file": "animal-bites.txt"
+  },
+  {
+    "topic": "antimicrobial-resistance",
+    "title": "Antimicrobial resistance",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+    "file": "antimicrobial-resistance.txt"
+  },
+  {
+    "topic": "anxiety-disorders",
+    "title": "Anxiety disorders",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders",
+    "file": "anxiety-disorders.txt"
+  },
+  {
+    "topic": "arsenic",
+    "title": "Arsenic",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/arsenic",
+    "file": "arsenic.txt"
+  },
+  {
+    "topic": "asbestos",
+    "title": "Asbestos",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/asbestos",
+    "file": "asbestos.txt"
+  },
+  {
+    "topic": "assistive-technology",
+    "title": "Assistive technology",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/assistive-technology",
+    "file": "assistive-technology.txt"
+  },
+  {
+    "topic": "asthma",
+    "title": "Asthma",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/asthma",
+    "file": "asthma.txt"
+  },
+  {
+    "topic": "autism-spectrum-disorders",
+    "title": "Autism",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/autism-spectrum-disorders",
+    "file": "autism-spectrum-disorders.txt"
+  },
+  {
+    "topic": "bacterial-vaginosis",
+    "title": "Bacterial vaginosis",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/bacterial-vaginosis",
+    "file": "bacterial-vaginosis.txt"
+  },
+  {
+    "topic": "biodiversity",
+    "title": "Biodiversity",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/biodiversity",
+    "file": "biodiversity.txt"
+  },
+  {
+    "topic": "bipolar-disorder",
+    "title": "Bipolar disorder",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/bipolar-disorder",
+    "file": "bipolar-disorder.txt"
+  },
+  {
+    "topic": "birth-defects",
+    "title": "Congenital disorders",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/birth-defects",
+    "file": "birth-defects.txt"
+  },
+  {
+    "topic": "blindness-and-visual-impairment",
+    "title": "Blindness and vision impairment",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment",
+    "file": "blindness-and-visual-impairment.txt"
+  },
+  {
+    "topic": "blood-safety-and-availability",
+    "title": "Blood safety and availability",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/blood-safety-and-availability",
+    "file": "blood-safety-and-availability.txt"
+  },
+  {
+    "topic": "botulism",
+    "title": "Botulism",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/botulism",
+    "file": "botulism.txt"
+  },
+  {
+    "topic": "breast-cancer",
+    "title": "Breast cancer",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/breast-cancer",
+    "file": "breast-cancer.txt"
+  },
+  {
+    "topic": "brucellosis",
+    "title": "Brucellosis",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/brucellosis",
+    "file": "brucellosis.txt"
+  },
+  {
+    "topic": "burns",
+    "title": "Burns",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/burns",
+    "file": "burns.txt"
+  },
+  {
+    "topic": "buruli-ulcer-(mycobacterium-ulcerans-infection)",
+    "title": "Buruli ulcer (Mycobacterium ulcerans infection)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/buruli-ulcer-(mycobacterium-ulcerans-infection)",
+    "file": "buruli-ulcer-(mycobacterium-ulcerans-infection).txt"
+  },
+  {
+    "topic": "campylobacter",
+    "title": "Campylobacter",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/campylobacter",
+    "file": "campylobacter.txt"
+  },
+  {
+    "topic": "cancer",
+    "title": "Cancer",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/cancer",
+    "file": "cancer.txt"
+  },
+  {
+    "topic": "cancer-in-children",
+    "title": "Childhood cancer",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/cancer-in-children",
+    "file": "cancer-in-children.txt"
+  },
+  {
+    "topic": "candidiasis-(yeast-infection)",
+    "title": "Candidiasis (yeast infection)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/candidiasis-(yeast-infection)",
+    "file": "candidiasis-(yeast-infection).txt"
+  },
+  {
+    "topic": "cardiovascular-diseases-(cvds)",
+    "title": "Cardiovascular diseases (CVDs)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)",
+    "file": "cardiovascular-diseases-(cvds).txt"
+  },
+  {
+    "topic": "cervical-cancer",
+    "title": "Cervical cancer",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/cervical-cancer",
+    "file": "cervical-cancer.txt"
+  },
+  {
+    "topic": "chagas-disease-(american-trypanosomiasis)",
+    "title": "Chagas disease (also known as American trypanosomiasis)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/chagas-disease-(american-trypanosomiasis)",
+    "file": "chagas-disease-(american-trypanosomiasis).txt"
+  },
+  {
+    "topic": "chikungunya",
+    "title": "Chikungunya",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/chikungunya",
+    "file": "chikungunya.txt"
+  },
+  {
+    "topic": "child-maltreatment",
+    "title": "Child maltreatment",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/child-maltreatment",
+    "file": "child-maltreatment.txt"
+  },
+  {
+    "topic": "child-mortality-under-5-years",
+    "title": "Child mortality (under 5 years)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/child-mortality-under-5-years",
+    "file": "child-mortality-under-5-years.txt"
+  },
+  {
+    "topic": "children-new-threats-to-health",
+    "title": "Child mortality (under 5 years)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/children-new-threats-to-health",
+    "file": "children-new-threats-to-health.txt"
+  },
+  {
+    "topic": "children-reducing-mortality",
+    "title": "Child mortality (under 5 years)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/children-reducing-mortality",
+    "file": "children-reducing-mortality.txt"
+  },
+  {
+    "topic": "chlamydia",
+    "title": "Chlamydia",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/chlamydia",
+    "file": "chlamydia.txt"
+  },
+  {
+    "topic": "cholera",
+    "title": "Cholera",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/cholera",
+    "file": "cholera.txt"
+  },
+  {
+    "topic": "chromoblastomycosis",
+    "title": "Chromoblastomycosis",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/chromoblastomycosis",
+    "file": "chromoblastomycosis.txt"
+  },
+  {
+    "topic": "chronic-obstructive-pulmonary-disease-(copd)",
+    "title": "Chronic obstructive pulmonary disease (COPD)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)",
+    "file": "chronic-obstructive-pulmonary-disease-(copd).txt"
+  },
+  {
+    "topic": "civil-registration-and-vital-statistics",
+    "title": "Civil registration and vital statistics",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/civil-registration-and-vital-statistics",
+    "file": "civil-registration-and-vital-statistics.txt"
+  },
+  {
+    "topic": "climate-change-and-health",
+    "title": "Climate change",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/climate-change-and-health",
+    "file": "climate-change-and-health.txt"
+  },
+  {
+    "topic": "climate-change-heat-and-health",
+    "title": "Heat and health",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health",
+    "file": "climate-change-heat-and-health.txt"
+  },
+  {
+    "topic": "colorectal-cancer",
+    "title": "Colorectal cancer",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/colorectal-cancer",
+    "file": "colorectal-cancer.txt"
+  },
+  {
+    "topic": "commercial-determinants-of-health",
+    "title": "Commercial determinants of health",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/commercial-determinants-of-health",
+    "file": "commercial-determinants-of-health.txt"
+  },
+  {
+    "topic": "community-based-health-insurance-CBHI",
+    "title": "Community-based health insurance",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/community-based-health-insurance-CBHI",
+    "file": "community-based-health-insurance-CBHI.txt"
+  },
+  {
+    "topic": "comprehensive-sexuality-education",
+    "title": "Comprehensive sexuality education",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/comprehensive-sexuality-education",
+    "file": "comprehensive-sexuality-education.txt"
+  },
+  {
+    "topic": "condoms",
+    "title": "Condoms",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/condoms",
+    "file": "condoms.txt"
+  },
+  {
+    "topic": "coronavirus-disease-(covid-19)",
+    "title": "Coronavirus disease (COVID-19)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/coronavirus-disease-(covid-19)",
+    "file": "coronavirus-disease-(covid-19).txt"
+  },
+  {
+    "topic": "corporal-punishment-and-health",
+    "title": "Corporal punishment of children and health",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/corporal-punishment-and-health",
+    "file": "corporal-punishment-and-health.txt"
+  },
+  {
+    "topic": "crimean-congo-haemorrhagic-fever",
+    "title": "Crimean-Congo haemorrhagic fever",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/crimean-congo-haemorrhagic-fever",
+    "file": "crimean-congo-haemorrhagic-fever.txt"
+  },
+  {
+    "topic": "deafness-and-hearing-loss",
+    "title": "Deafness and hearing loss",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss",
+    "file": "deafness-and-hearing-loss.txt"
+  },
+  {
+    "topic": "deliberate-events",
+    "title": "Deliberate events",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/deliberate-events",
+    "file": "deliberate-events.txt"
+  },
+  {
+    "topic": "dementia",
+    "title": "Dementia",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/dementia",
+    "file": "dementia.txt"
+  },
+  {
+    "topic": "dengue-and-severe-dengue",
+    "title": "Dengue",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "file": "dengue-and-severe-dengue.txt"
+  },
+  {
+    "topic": "depression",
+    "title": "Depressive disorder (depression)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/depression",
+    "file": "depression.txt"
+  },
+  {
+    "topic": "diabetes",
+    "title": "Diabetes",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "file": "diabetes.txt"
+  },
+  {
+    "topic": "diarrhoeal-disease",
+    "title": "Diarrhoeal disease",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
+    "file": "diarrhoeal-disease.txt"
+  },
+  {
+    "topic": "dioxins-and-their-effects-on-human-health",
+    "title": "Dioxins",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/dioxins-and-their-effects-on-human-health",
+    "file": "dioxins-and-their-effects-on-human-health.txt"
+  },
+  {
+    "topic": "diphtheria",
+    "title": "Diphtheria",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diphtheria",
+    "file": "diphtheria.txt"
+  },
+  {
+    "topic": "disability-and-health",
+    "title": "Disability",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/disability-and-health",
+    "file": "disability-and-health.txt"
+  },
+  {
+    "topic": "dracunculiasis-(guinea-worm-disease)",
+    "title": "Dracunculiasis (Guinea-worm disease)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/dracunculiasis-(guinea-worm-disease)",
+    "file": "dracunculiasis-(guinea-worm-disease).txt"
+  },
+  {
+    "topic": "drinking-water",
+    "title": "Drinking-water",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/drinking-water",
+    "file": "drinking-water.txt"
+  },
+  {
+    "topic": "drowning",
+    "title": "Drowning",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/drowning",
+    "file": "drowning.txt"
+  },
+  {
+    "topic": "dyslipidaemia",
+    "title": "Dyslipidaemia",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/dyslipidaemia",
+    "file": "dyslipidaemia.txt"
+  },
+  {
+    "topic": "e-coli",
+    "title": "E. coli",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/e-coli",
+    "file": "e-coli.txt"
+  },
+  {
+    "topic": "ebola-disease",
+    "title": "Ebola disease",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/ebola-disease",
+    "file": "ebola-disease.txt"
+  },
+  {
+    "topic": "echinococcosis",
+    "title": "Echinococcosis",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/echinococcosis",
+    "file": "echinococcosis.txt"
+  },
+  {
+    "topic": "el-nino-southern-oscillation-(enso)",
+    "title": "El Niño Southern Oscillation (ENSO)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/el-nino-southern-oscillation-(enso)",
+    "file": "el-nino-southern-oscillation-(enso).txt"
+  },
+  {
+    "topic": "electricity-in-health-care-facilities",
+    "title": "Electricity in health-care facilities",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/electricity-in-health-care-facilities",
+    "file": "electricity-in-health-care-facilities.txt"
+  },
+  {
+    "topic": "electronic-waste-(e-waste)",
+    "title": "Electronic waste (e-waste)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/electronic-waste-(e-waste)",
+    "file": "electronic-waste-(e-waste).txt"
+  },
+  {
+    "topic": "emergency-contraception",
+    "title": "Emergency contraception",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/emergency-contraception",
+    "file": "emergency-contraception.txt"
+  },
+  {
+    "topic": "endometriosis",
+    "title": "Endometriosis",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/endometriosis",
+    "file": "endometriosis.txt"
+  },
+  {
+    "topic": "epilepsy",
+    "title": "Epilepsy",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/epilepsy",
+    "file": "epilepsy.txt"
+  },
+  {
+    "topic": "essential-medicines",
+    "title": "Essential medicines",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/essential-medicines",
+    "file": "essential-medicines.txt"
+  },
+  {
+    "topic": "falls",
+    "title": "Falls",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/falls",
+    "file": "falls.txt"
+  },
+  {
+    "topic": "family-planning-contraception",
+    "title": "Family planning/contraception methods",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/family-planning-contraception",
+    "file": "family-planning-contraception.txt"
+  },
+  {
+    "topic": "female-genital-mutilation",
+    "title": "Female genital mutilation",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/female-genital-mutilation",
+    "file": "female-genital-mutilation.txt"
+  },
+  {
+    "topic": "food-additives",
+    "title": "Food additives",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/food-additives",
+    "file": "food-additives.txt"
+  },
+  {
+    "topic": "food-safety",
+    "title": "Food safety",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/food-safety",
+    "file": "food-safety.txt"
+  },
+  {
+    "topic": "foodborne-trematode-infections",
+    "title": "Foodborne trematode infections",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/foodborne-trematode-infections",
+    "file": "foodborne-trematode-infections.txt"
+  },
+  {
+    "topic": "fragility-fractures",
+    "title": "Fragility fractures",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/fragility-fractures",
+    "file": "fragility-fractures.txt"
+  },
+  {
+    "topic": "free-health-care-policies",
+    "title": "Free health care policies",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/free-health-care-policies",
+    "file": "free-health-care-policies.txt"
+  },
+  {
+    "topic": "gambling",
+    "title": "Gambling",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/gambling",
+    "file": "gambling.txt"
+  },
+  {
+    "topic": "gonorrhoea-(neisseria-gonorrhoeae-infection)",
+    "title": "Gonorrhoea (Neisseria gonorrhoeae infection)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/gonorrhoea-(neisseria-gonorrhoeae-infection)",
+    "file": "gonorrhoea-(neisseria-gonorrhoeae-infection).txt"
+  },
+  {
+    "topic": "group-b-streptococcus-(gbs)",
+    "title": "Group B Streptococcus (GBS)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/group-b-streptococcus-(gbs)",
+    "file": "group-b-streptococcus-(gbs).txt"
+  },
+  {
+    "topic": "guillain-barré-syndrome",
+    "title": "Guillain–Barré syndrome",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/guillain-barr%C3%A9-syndrome",
+    "file": "guillain-barré-syndrome.txt"
+  },
+  {
+    "topic": "hantavirus",
+    "title": "Hantavirus",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/hantavirus",
+    "file": "hantavirus.txt"
+  },
+  {
+    "topic": "headache-disorders",
+    "title": "Migraine and other headache disorders",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/headache-disorders",
+    "file": "headache-disorders.txt"
+  },
+  {
+    "topic": "health-care-waste",
+    "title": "Health-care waste",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/health-care-waste",
+    "file": "health-care-waste.txt"
+  },
+  {
+    "topic": "health-literacy",
+    "title": "Health literacy",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/health-literacy",
+    "file": "health-literacy.txt"
+  },
+  {
+    "topic": "healthy-diet",
+    "title": "Healthy diet",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+    "file": "healthy-diet.txt"
+  },
+  {
+    "topic": "heart-attack",
+    "title": "Heart attack",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/heart-attack",
+    "file": "heart-attack.txt"
+  },
+  {
+    "topic": "hepatitis-a",
+    "title": "Hepatitis A",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-a",
+    "file": "hepatitis-a.txt"
+  },
+  {
+    "topic": "hepatitis-b",
+    "title": "Hepatitis B",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-b",
+    "file": "hepatitis-b.txt"
+  },
+  {
+    "topic": "hepatitis-c",
+    "title": "Hepatitis C",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-c",
+    "file": "hepatitis-c.txt"
+  },
+  {
+    "topic": "hepatitis-d",
+    "title": "Hepatitis D",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-d",
+    "file": "hepatitis-d.txt"
+  },
+  {
+    "topic": "hepatitis-e",
+    "title": "Hepatitis E",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-e",
+    "file": "hepatitis-e.txt"
+  },
+  {
+    "topic": "herpes-simplex-virus",
+    "title": "Herpes simplex virus",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/herpes-simplex-virus",
+    "file": "herpes-simplex-virus.txt"
+  },
+  {
+    "topic": "hiv-aids",
+    "title": "HIV and AIDS",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/hiv-aids",
+    "file": "hiv-aids.txt"
+  },
+  {
+    "topic": "hiv-drug-resistance",
+    "title": "HIV drug resistance",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/hiv-drug-resistance",
+    "file": "hiv-drug-resistance.txt"
+  },
+  {
+    "topic": "household-air-pollution-and-health",
+    "title": "Household air pollution",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/household-air-pollution-and-health",
+    "file": "household-air-pollution-and-health.txt"
+  },
+  {
+    "topic": "human-papilloma-virus-and-cancer",
+    "title": "Human papillomavirus and cancer",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/human-papilloma-virus-and-cancer",
+    "file": "human-papilloma-virus-and-cancer.txt"
+  },
+  {
+    "topic": "human-rights-and-health",
+    "title": "Human rights",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/human-rights-and-health",
+    "file": "human-rights-and-health.txt"
+  },
+  {
+    "topic": "human-t-lymphotropic-virus-type-1",
+    "title": "Human T-lymphotropic virus-1",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/human-t-lymphotropic-virus-type-1",
+    "file": "human-t-lymphotropic-virus-type-1.txt"
+  },
+  {
+    "topic": "hypertension",
+    "title": "Hypertension",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/hypertension",
+    "file": "hypertension.txt"
+  },
+  {
+    "topic": "icd-11",
+    "title": "ICD-11",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/icd-11",
+    "file": "icd-11.txt"
+  },
+  {
+    "topic": "immunization-coverage",
+    "title": "Immunization coverage",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/immunization-coverage",
+    "file": "immunization-coverage.txt"
+  },
+  {
+    "topic": "infant-and-young-child-feeding",
+    "title": "Infant and young child feeding",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding",
+    "file": "infant-and-young-child-feeding.txt"
+  },
+  {
+    "topic": "infertility",
+    "title": "Infertility",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/infertility",
+    "file": "infertility.txt"
+  },
+  {
+    "topic": "influenza-(avian-and-other-zoonotic)",
+    "title": "Influenza (avian and other zoonotic)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(avian-and-other-zoonotic)",
+    "file": "influenza-(avian-and-other-zoonotic).txt"
+  },
+  {
+    "topic": "influenza-(seasonal)",
+    "title": "Influenza (seasonal)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+    "file": "influenza-(seasonal).txt"
+  },
+  {
+    "topic": "injuries-and-violence",
+    "title": "Injuries and violence",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/injuries-and-violence",
+    "file": "injuries-and-violence.txt"
+  },
+  {
+    "topic": "intrauterine-devices",
+    "title": "Intrauterine devices (IUDs)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/intrauterine-devices",
+    "file": "intrauterine-devices.txt"
+  },
+  {
+    "topic": "ionizing-radiation-and-health-effects",
+    "title": "Ionizing radiation and health effects",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/ionizing-radiation-and-health-effects",
+    "file": "ionizing-radiation-and-health-effects.txt"
+  },
+  {
+    "topic": "japanese-encephalitis",
+    "title": "Japanese encephalitis",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/japanese-encephalitis",
+    "file": "japanese-encephalitis.txt"
+  },
+  {
+    "topic": "kidney-disease",
+    "title": "Kidney disease",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/kidney-disease",
+    "file": "kidney-disease.txt"
+  },
+  {
+    "topic": "lassa-fever",
+    "title": "Lassa fever",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/lassa-fever",
+    "file": "lassa-fever.txt"
+  },
+  {
+    "topic": "lead-poisoning-and-health",
+    "title": "Lead poisoning",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/lead-poisoning-and-health",
+    "file": "lead-poisoning-and-health.txt"
+  },
+  {
+    "topic": "legionellosis",
+    "title": "Legionellosis",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/legionellosis",
+    "file": "legionellosis.txt"
+  },
+  {
+    "topic": "leishmaniasis",
+    "title": "Leishmaniasis",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/leishmaniasis",
+    "file": "leishmaniasis.txt"
+  },
+  {
+    "topic": "leprosy",
+    "title": "Leprosy",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/leprosy",
+    "file": "leprosy.txt"
+  },
+  {
+    "topic": "listeriosis",
+    "title": "Listeriosis",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/listeriosis",
+    "file": "listeriosis.txt"
+  },
+  {
+    "topic": "low-back-pain",
+    "title": "Low back pain",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/low-back-pain",
+    "file": "low-back-pain.txt"
+  },
+  {
+    "topic": "lung-cancer",
+    "title": "Lung cancer",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/lung-cancer",
+    "file": "lung-cancer.txt"
+  },
+  {
+    "topic": "lymphatic-filariasis",
+    "title": "Lymphatic filariasis",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/lymphatic-filariasis",
+    "file": "lymphatic-filariasis.txt"
+  },
+  {
+    "topic": "malaria",
+    "title": "Malaria",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/malaria",
+    "file": "malaria.txt"
+  },
+  {
+    "topic": "malnutrition",
+    "title": "Malnutrition",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/malnutrition",
+    "file": "malnutrition.txt"
+  },
+  {
+    "topic": "marburg-virus-disease",
+    "title": "Marburg virus disease",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/marburg-virus-disease",
+    "file": "marburg-virus-disease.txt"
+  },
+  {
+    "topic": "maternal-mortality",
+    "title": "Maternal mortality",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/maternal-mortality",
+    "file": "maternal-mortality.txt"
+  },
+  {
+    "topic": "measles",
+    "title": "Measles",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/measles",
+    "file": "measles.txt"
+  },
+  {
+    "topic": "meningitis",
+    "title": "Meningitis",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/meningitis",
+    "file": "meningitis.txt"
+  },
+  {
+    "topic": "menopause",
+    "title": "Menopause",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/menopause",
+    "file": "menopause.txt"
+  },
+  {
+    "topic": "menstrual-health",
+    "title": "Menstrual health",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/menstrual-health",
+    "file": "menstrual-health.txt"
+  },
+  {
+    "topic": "mental-disorders",
+    "title": "Mental disorders",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/mental-disorders",
+    "file": "mental-disorders.txt"
+  },
+  {
+    "topic": "mental-health-at-work",
+    "title": "Mental health at work",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work",
+    "file": "mental-health-at-work.txt"
+  },
+  {
+    "topic": "mental-health-in-emergencies",
+    "title": "Mental health in emergencies",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-in-emergencies",
+    "file": "mental-health-in-emergencies.txt"
+  },
+  {
+    "topic": "mental-health-of-older-adults",
+    "title": "Mental health of older adults",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults",
+    "file": "mental-health-of-older-adults.txt"
+  },
+  {
+    "topic": "mental-health-strengthening-our-response",
+    "title": "Mental health",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response",
+    "file": "mental-health-strengthening-our-response.txt"
+  },
+  {
+    "topic": "mercury-and-health",
+    "title": "Mercury",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/mercury-and-health",
+    "file": "mercury-and-health.txt"
+  },
+  {
+    "topic": "middle-east-respiratory-syndrome-coronavirus-(mers-cov)",
+    "title": "Middle East respiratory syndrome coronavirus (MERS-CoV)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/middle-east-respiratory-syndrome-coronavirus-(mers-cov)",
+    "file": "middle-east-respiratory-syndrome-coronavirus-(mers-cov).txt"
+  },
+  {
+    "topic": "millennium-development-goals-(mdgs)",
+    "title": "Millennium Development Goals (MDGs)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/millennium-development-goals-(mdgs)",
+    "file": "millennium-development-goals-(mdgs).txt"
+  },
+  {
+    "topic": "mpox",
+    "title": "Mpox",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/mpox",
+    "file": "mpox.txt"
+  },
+  {
+    "topic": "multi-drug-resistant-gonorrhoea",
+    "title": "Multi-drug resistant gonorrhoea",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/multi-drug-resistant-gonorrhoea",
+    "file": "multi-drug-resistant-gonorrhoea.txt"
+  },
+  {
+    "topic": "multiple-sclerosis",
+    "title": "Multiple sclerosis",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/multiple-sclerosis",
+    "file": "multiple-sclerosis.txt"
+  },
+  {
+    "topic": "musculoskeletal-conditions",
+    "title": "Musculoskeletal health",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/musculoskeletal-conditions",
+    "file": "musculoskeletal-conditions.txt"
+  },
+  {
+    "topic": "mycetoma",
+    "title": "Mycetoma",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/mycetoma",
+    "file": "mycetoma.txt"
+  },
+  {
+    "topic": "mycotoxins",
+    "title": "Mycotoxins",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/mycotoxins",
+    "file": "mycotoxins.txt"
+  },
+  {
+    "topic": "natural-toxins-in-food",
+    "title": "Natural toxins in food",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/natural-toxins-in-food",
+    "file": "natural-toxins-in-food.txt"
+  },
+  {
+    "topic": "newborn-mortality",
+    "title": "Newborn mortality",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/newborn-mortality",
+    "file": "newborn-mortality.txt"
+  },
+  {
+    "topic": "newborns-reducing-mortality",
+    "title": "Newborn mortality",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/newborns-reducing-mortality",
+    "file": "newborns-reducing-mortality.txt"
+  },
+  {
+    "topic": "nipah-virus",
+    "title": "Nipah virus",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/nipah-virus",
+    "file": "nipah-virus.txt"
+  },
+  {
+    "topic": "noma",
+    "title": "Noma",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/noma",
+    "file": "noma.txt"
+  },
+  {
+    "topic": "noncommunicable-diseases",
+    "title": "Noncommunicable diseases",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases",
+    "file": "noncommunicable-diseases.txt"
+  },
+  {
+    "topic": "nursing-and-midwifery",
+    "title": "Nursing and midwifery",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/nursing-and-midwifery",
+    "file": "nursing-and-midwifery.txt"
+  },
+  {
+    "topic": "obesity-and-overweight",
+    "title": "Obesity and overweight",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+    "file": "obesity-and-overweight.txt"
+  },
+  {
+    "topic": "older-children-and-young-adolescent-mortality-(5-to-14-years)",
+    "title": "Older children and young adolescent mortality (5 to 14 years)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/older-children-and-young-adolescent-mortality-(5-to-14-years)",
+    "file": "older-children-and-young-adolescent-mortality-(5-to-14-years).txt"
+  },
+  {
+    "topic": "onchocerciasis",
+    "title": "Onchocerciasis",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/onchocerciasis",
+    "file": "onchocerciasis.txt"
+  },
+  {
+    "topic": "one-health",
+    "title": "One Health",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/one-health",
+    "file": "one-health.txt"
+  },
+  {
+    "topic": "opioid-overdose",
+    "title": "Opioid overdose",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/opioid-overdose",
+    "file": "opioid-overdose.txt"
+  },
+  {
+    "topic": "oral-contraceptives",
+    "title": "Oral contraceptives",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/oral-contraceptives",
+    "file": "oral-contraceptives.txt"
+  },
+  {
+    "topic": "oral-health",
+    "title": "Oral health",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/oral-health",
+    "file": "oral-health.txt"
+  },
+  {
+    "topic": "oropouche-virus-disease",
+    "title": "Oropouche virus disease",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/oropouche-virus-disease",
+    "file": "oropouche-virus-disease.txt"
+  },
+  {
+    "topic": "osteoarthritis",
+    "title": "Osteoarthritis",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/osteoarthritis",
+    "file": "osteoarthritis.txt"
+  },
+  {
+    "topic": "palliative-care",
+    "title": "Palliative care",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/palliative-care",
+    "file": "palliative-care.txt"
+  },
+  {
+    "topic": "parkinson-disease",
+    "title": "Parkinson disease",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/parkinson-disease",
+    "file": "parkinson-disease.txt"
+  },
+  {
+    "topic": "patient-safety",
+    "title": "Patient safety",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/patient-safety",
+    "file": "patient-safety.txt"
+  },
+  {
+    "topic": "pesticide-residues-in-food",
+    "title": "Pesticide residues in food",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/pesticide-residues-in-food",
+    "file": "pesticide-residues-in-food.txt"
+  },
+  {
+    "topic": "physical-activity",
+    "title": "Physical activity",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+    "file": "physical-activity.txt"
+  },
+  {
+    "topic": "plague",
+    "title": "Plague",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/plague",
+    "file": "plague.txt"
+  },
+  {
+    "topic": "pneumonia",
+    "title": "Pneumonia in children",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/pneumonia",
+    "file": "pneumonia.txt"
+  },
+  {
+    "topic": "podoconiosis-(non-filarial-lymphoedema)",
+    "title": "Podoconiosis (non-filarial lymphoedema)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/podoconiosis-(non-filarial-lymphoedema)",
+    "file": "podoconiosis-(non-filarial-lymphoedema).txt"
+  },
+  {
+    "topic": "poliomyelitis",
+    "title": "Poliomyelitis",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/poliomyelitis",
+    "file": "poliomyelitis.txt"
+  },
+  {
+    "topic": "polycystic-ovary-syndrome",
+    "title": "Polycystic ovary syndrome",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome",
+    "file": "polycystic-ovary-syndrome.txt"
+  },
+  {
+    "topic": "post-covid-19-condition-(long-covid)",
+    "title": "Post COVID-19 condition (long COVID)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/post-covid-19-condition-(long-covid)",
+    "file": "post-covid-19-condition-(long-covid).txt"
+  },
+  {
+    "topic": "post-traumatic-stress-disorder",
+    "title": "Post-traumatic stress disorder",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/post-traumatic-stress-disorder",
+    "file": "post-traumatic-stress-disorder.txt"
+  },
+  {
+    "topic": "pre-eclampsia",
+    "title": "Pre-eclampsia",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/pre-eclampsia",
+    "file": "pre-eclampsia.txt"
+  },
+  {
+    "topic": "prequalification-of-medicines-by-who",
+    "title": "Prequalification of health products",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/prequalification-of-medicines-by-who",
+    "file": "prequalification-of-medicines-by-who.txt"
+  },
+  {
+    "topic": "preterm-birth",
+    "title": "Preterm birth",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/preterm-birth",
+    "file": "preterm-birth.txt"
+  },
+  {
+    "topic": "primary-health-care",
+    "title": "Primary health care",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/primary-health-care",
+    "file": "primary-health-care.txt"
+  },
+  {
+    "topic": "quality-health-services",
+    "title": "Quality health services",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/quality-health-services",
+    "file": "quality-health-services.txt"
+  },
+  {
+    "topic": "rabies",
+    "title": "Rabies",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/rabies",
+    "file": "rabies.txt"
+  },
+  {
+    "topic": "radon-and-health",
+    "title": "Radon",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/radon-and-health",
+    "file": "radon-and-health.txt"
+  },
+  {
+    "topic": "refugee-and-migrant-health",
+    "title": "Refugee and migrant health",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/refugee-and-migrant-health",
+    "file": "refugee-and-migrant-health.txt"
+  },
+  {
+    "topic": "refugee-and-migrant-mental-health",
+    "title": "Refugee and migrant mental health",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/refugee-and-migrant-mental-health",
+    "file": "refugee-and-migrant-mental-health.txt"
+  },
+  {
+    "topic": "rehabilitation",
+    "title": "Rehabilitation",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/rehabilitation",
+    "file": "rehabilitation.txt"
+  },
+  {
+    "topic": "respiratory-syncytial-virus-(rsv)",
+    "title": "Respiratory syncytial virus (RSV)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/respiratory-syncytial-virus-(rsv)",
+    "file": "respiratory-syncytial-virus-(rsv).txt"
+  },
+  {
+    "topic": "rheumatic-heart-disease",
+    "title": "Rheumatic heart disease",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/rheumatic-heart-disease",
+    "file": "rheumatic-heart-disease.txt"
+  },
+  {
+    "topic": "rheumatoid-arthritis",
+    "title": "Rheumatoid arthritis",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/rheumatoid-arthritis",
+    "file": "rheumatoid-arthritis.txt"
+  },
+  {
+    "topic": "rift-valley-fever",
+    "title": "Rift Valley fever",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever",
+    "file": "rift-valley-fever.txt"
+  },
+  {
+    "topic": "ringworm-(tinea)",
+    "title": "Ringworm (tinea)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/ringworm-(tinea)",
+    "file": "ringworm-(tinea).txt"
+  },
+  {
+    "topic": "road-traffic-injuries",
+    "title": "Road traffic injuries",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries",
+    "file": "road-traffic-injuries.txt"
+  },
+  {
+    "topic": "rubella",
+    "title": "Rubella",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/rubella",
+    "file": "rubella.txt"
+  },
+  {
+    "topic": "salmonella-(non-typhoidal)",
+    "title": "Salmonella (non-typhoidal)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/salmonella-(non-typhoidal)",
+    "file": "salmonella-(non-typhoidal).txt"
+  },
+  {
+    "topic": "sand-and-dust-storms",
+    "title": "Sand and dust storms",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/sand-and-dust-storms",
+    "file": "sand-and-dust-storms.txt"
+  },
+  {
+    "topic": "sanitation",
+    "title": "Sanitation",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/sanitation",
+    "file": "sanitation.txt"
+  },
+  {
+    "topic": "scabies",
+    "title": "Scabies",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/scabies",
+    "file": "scabies.txt"
+  },
+  {
+    "topic": "schistosomiasis",
+    "title": "Schistosomiasis",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/schistosomiasis",
+    "file": "schistosomiasis.txt"
+  },
+  {
+    "topic": "schizophrenia",
+    "title": "Schizophrenia",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/schizophrenia",
+    "file": "schizophrenia.txt"
+  },
+  {
+    "topic": "self-care-health-interventions",
+    "title": "Self-care for health and well-being",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/self-care-health-interventions",
+    "file": "self-care-health-interventions.txt"
+  },
+  {
+    "topic": "sepsis",
+    "title": "Sepsis",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/sepsis",
+    "file": "sepsis.txt"
+  },
+  {
+    "topic": "sexually-transmitted-infections-(stis)",
+    "title": "Sexually transmitted infections (STIs)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/sexually-transmitted-infections-(stis)",
+    "file": "sexually-transmitted-infections-(stis).txt"
+  },
+  {
+    "topic": "shingles-(herpes-zoster)",
+    "title": "Shingles (herpes zoster)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/shingles-(herpes-zoster)",
+    "file": "shingles-(herpes-zoster).txt"
+  },
+  {
+    "topic": "sickle-cell-disease",
+    "title": "Sickle-cell disease",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/sickle-cell-disease",
+    "file": "sickle-cell-disease.txt"
+  },
+  {
+    "topic": "snakebite-envenoming",
+    "title": "Snakebite envenoming",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/snakebite-envenoming",
+    "file": "snakebite-envenoming.txt"
+  },
+  {
+    "topic": "social-determinants-of-health",
+    "title": "Social determinants of health",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/social-determinants-of-health",
+    "file": "social-determinants-of-health.txt"
+  },
+  {
+    "topic": "sodium-reduction",
+    "title": "Sodium reduction",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/sodium-reduction",
+    "file": "sodium-reduction.txt"
+  },
+  {
+    "topic": "soil-transmitted-helminth-infections",
+    "title": "Soil-transmitted helminth infections",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/soil-transmitted-helminth-infections",
+    "file": "soil-transmitted-helminth-infections.txt"
+  },
+  {
+    "topic": "spinal-cord-injury",
+    "title": "Spinal cord injury",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/spinal-cord-injury",
+    "file": "spinal-cord-injury.txt"
+  },
+  {
+    "topic": "sporotrichosis",
+    "title": "Sporotrichosis",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/sporotrichosis",
+    "file": "sporotrichosis.txt"
+  },
+  {
+    "topic": "stroke",
+    "title": "Stroke",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/stroke",
+    "file": "stroke.txt"
+  },
+  {
+    "topic": "substandard-and-falsified-medical-products",
+    "title": "Substandard and falsified medical products",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/substandard-and-falsified-medical-products",
+    "file": "substandard-and-falsified-medical-products.txt"
+  },
+  {
+    "topic": "sugars-and-dental-caries",
+    "title": "Sugars and dental caries",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/sugars-and-dental-caries",
+    "file": "sugars-and-dental-caries.txt"
+  },
+  {
+    "topic": "suicide",
+    "title": "Suicide",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/suicide",
+    "file": "suicide.txt"
+  },
+  {
+    "topic": "syphilis",
+    "title": "Syphilis",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/syphilis",
+    "file": "syphilis.txt"
+  },
+  {
+    "topic": "taeniasis-cysticercosis",
+    "title": "Taeniasis/cysticercosis",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/taeniasis-cysticercosis",
+    "file": "taeniasis-cysticercosis.txt"
+  },
+  {
+    "topic": "tetanus",
+    "title": "Tetanus",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/tetanus",
+    "file": "tetanus.txt"
+  },
+  {
+    "topic": "the-top-10-causes-of-death",
+    "title": "The top 10 causes of death",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death",
+    "file": "the-top-10-causes-of-death.txt"
+  },
+  {
+    "topic": "tobacco",
+    "title": "Tobacco and nicotine",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/tobacco",
+    "file": "tobacco.txt"
+  },
+  {
+    "topic": "trachoma",
+    "title": "Trachoma",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/trachoma",
+    "file": "trachoma.txt"
+  },
+  {
+    "topic": "trans-fat",
+    "title": "Trans fat",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/trans-fat",
+    "file": "trans-fat.txt"
+  },
+  {
+    "topic": "trichomoniasis",
+    "title": "Trichomoniasis",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/trichomoniasis",
+    "file": "trichomoniasis.txt"
+  },
+  {
+    "topic": "trypanosomiasis-human-african-(sleeping-sickness)",
+    "title": "Trypanosomiasis, human African (sleeping sickness)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/trypanosomiasis-human-african-(sleeping-sickness)",
+    "file": "trypanosomiasis-human-african-(sleeping-sickness).txt"
+  },
+  {
+    "topic": "tuberculosis",
+    "title": "Tuberculosis",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/tuberculosis",
+    "file": "tuberculosis.txt"
+  },
+  {
+    "topic": "tungiasis",
+    "title": "Tungiasis",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/tungiasis",
+    "file": "tungiasis.txt"
+  },
+  {
+    "topic": "typhoid",
+    "title": "Typhoid",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/typhoid",
+    "file": "typhoid.txt"
+  },
+  {
+    "topic": "ultraviolet-radiation",
+    "title": "Ultraviolet radiation",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/ultraviolet-radiation",
+    "file": "ultraviolet-radiation.txt"
+  },
+  {
+    "topic": "universal-health-coverage-(uhc)",
+    "title": "Universal health coverage (UHC)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/universal-health-coverage-(uhc)",
+    "file": "universal-health-coverage-(uhc).txt"
+  },
+  {
+    "topic": "urban-health",
+    "title": "Urban health",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/urban-health",
+    "file": "urban-health.txt"
+  },
+  {
+    "topic": "vector-borne-diseases",
+    "title": "Vector-borne diseases",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/vector-borne-diseases",
+    "file": "vector-borne-diseases.txt"
+  },
+  {
+    "topic": "violence-against-children",
+    "title": "Violence against children",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/violence-against-children",
+    "file": "violence-against-children.txt"
+  },
+  {
+    "topic": "violence-against-women",
+    "title": "Violence against women",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/violence-against-women",
+    "file": "violence-against-women.txt"
+  },
+  {
+    "topic": "west-nile-virus",
+    "title": "West Nile virus",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/west-nile-virus",
+    "file": "west-nile-virus.txt"
+  },
+  {
+    "topic": "white-phosphorus",
+    "title": "White phosphorus",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/white-phosphorus",
+    "file": "white-phosphorus.txt"
+  },
+  {
+    "topic": "wildfires-and-health",
+    "title": "Wildfires",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/wildfires-and-health",
+    "file": "wildfires-and-health.txt"
+  },
+  {
+    "topic": "yaws",
+    "title": "Yaws",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/yaws",
+    "file": "yaws.txt"
+  },
+  {
+    "topic": "yellow-fever",
+    "title": "Yellow fever",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/yellow-fever",
+    "file": "yellow-fever.txt"
+  },
+  {
+    "topic": "youth-violence",
+    "title": "Youth violence",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/youth-violence",
+    "file": "youth-violence.txt"
+  },
+  {
+    "topic": "zika-virus",
+    "title": "Zika virus",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/zika-virus",
+    "file": "zika-virus.txt"
+  },
+  {
+    "topic": "zoonoses",
+    "title": "Zoonoses",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/zoonoses",
+    "file": "zoonoses.txt"
+  }
+]

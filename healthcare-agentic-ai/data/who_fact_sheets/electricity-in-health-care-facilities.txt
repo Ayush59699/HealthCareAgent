@@ -1,0 +1,97 @@
+WHO FACT SHEET
+Title: Electricity in health-care facilities
+URL: https://www.who.int/news-room/fact-sheets/detail/electricity-in-health-care-facilities
+Retrieved: 2026-10-05T09:31:56.379725+00:00
+
+========================================
+
+Key facts
+=========
+
+- Close to 1 billion people in low- and lower-middle-income countries are estimated to be served by health-care facilities without reliable electricity or with no electricity access at all.
+
+- Electricity is needed to power critical and life saving medical devices as well as the most basic services such as lighting, communications and clean water supply. Electricity is crucial for the availability and reliability of essential health services, as well as for bettering health, with outcomes such as safe childbirth, vaccination, diagnostic capacity and emergency response.
+
+- In low- and lower-middle-income countries of South Asia and sub-Saharan Africa, approximately 12% and 15% of health-care facilities, respectively, have no access to electricity.
+
+- In sub-Saharan Africa, only half of hospitals have reliable electricity access.
+
+- The energy access challenge is higher for health-care facilities in remote and rural areas.
+
+Overview
+========
+
+Electricity is needed to power the most basic services in health-care facilities, from lighting and communications to clean water supply. Reliable power is also crucial for the medical equipment necessary to safely manage childbirth or to ensure immunization as well as for undertaking most of the routine and emergency procedures. Reliable energy provision – particularly electricity – is a major enabler of universal health coverage. A number of clean and cost-effective energy solutions, such as based on solar photovoltaic systems, are available and rapidly deployable to electrify health-care facilities sustainably and increase their climate resiliency.
+
+Yet, as highlighted in the report Energizing health: accelerating electricity access in health-care facilities, close to 1 billion people in low- and lower-middle-income countries are estimated to be served by health-care facilities without reliable electricity access or with no electricity access at all. In low- and lower-middle-income countries of South Asia and sub-Saharan Africa, approximately 12% and 15% of health-care facilities, respectively, have no access to electricity whatsoever. There is a sharp urban–rural divide: urban health-care facilities often report more access to electricity and more reliable electricity than rural facilities in the same country.
+
+Support, financing and investments need to be scaled up rapidly to accelerate health-care facility electrification. Other key actions include monitoring energy access in health-care facilities more systematically; providing the necessary resources to design and implement clean energy plans, tailored to the needs of the health sector; developing policy and finance schemes to unlock the potential of sustainable energy solutions, and to address the health sector needs.
+
+Global access status
+====================
+
+Based on 27 low- and lower-middle-income countries that have national survey data on electrification status of health-care facilities for any year between 2015 and 2022, the following representative findings are found:
+
+- Access to any electricity: at least 12% of health-care facilities in South Asia, and 15% of facilities in sub-Saharan Africa lack any access to electricity whatsoever. Health-care facilities in the Latin America and the Caribbean region fare somewhat better, reporting 8% of facilities with no electricity access.
+
+- Access to reliable electricity: In the sub-Saharan Africa region, only 40% of facilities have reliable electricity, and in the Latin America and the Caribbean region, an average of 72% of facilities have reliable electricity. Health-care facilities in sub-Saharan Africa experience a high level of energy insecurity with only half of hospitals there having access to reliable electricity.
+
+Hospitals tend to fare better than non-hospitals, such as primary health centres, in access to any electricity supply or reliable electricity supply. There is also an urban–rural divide: urban health-care facilities often report more access to any electricity and more reliable electricity access than rural facilities in the same country.
+
+A closer look at other indicators that provide more detailed information on health-care facility electricity supply in subsets of countries show that generators are often not operational and that facilities are often underserved, with energy supply being insufficient to cover all the needs of the facility.
+
+Opportunities and benefits
+==========================
+
+Today, several solutions exist to electrify health-care facilities that were not available, or were too expensive, just a few years ago. For example, decentralized sustainable energy solutions based on solar photovoltaics and on batteries for storage are not only cost-effective and clean but rapidly deployable on site, without the need to wait for the arrival of the central grid.
+
+Decentralized renewable energy systems dramatically increase climate resilience of health-care facilities, making them independent from the diesel supply needed for generators while reducing carbon and other polluting emissions.
+
+Technical solutions and enabling delivery models exist and have been demonstrated to be successful. It is essential to scale up investments and accelerate action to ensure reliable electricity to all health centers, including in remote and rural areas.
+
+The World Bank estimates that US$ 4.9 billion is urgently needed to bring health-care facilities in 63 low- and middle-income countries up to a minimal or intermediate level of electrification to ensure that all the essential health services are covered.
+
+Health is a human right and a public good. Significant policy changes and increased support are necessary to ensure that all health-care facilities have reliable electricity supply to address health inequities, achieve the 2030 Agenda for Sustainable Development including universal health coverage, and mitigate climate change.
+
+WHO response
+============
+
+WHO supports countries ensure a reliable supply of electricity for health-care facilities by providing the knowledge and tools to a) understand the energy access situation and the energy needs of health-care facilities in their country, b) build the institutional capacity to identify the most suitable energy solutions to meet their needs, c) build an enabling framework to accelerate health-care facility electrification, and d) support high-level advocacy, coordination and mobilization of adequate resources for impact on the ground.
+
+Data gathering, analysis and harmonization
+------------------------------------------
+
+Establishing baselines and measuring progress is an essential step to identify gaps and priority needs for the allocation of limited resources. Building on the WHO health-care facility electrification database,  WHO collects and analyzes data regarding the energy status of health infrastructure to measure progress on access to electricity as well as on access to reliable electricity, among other indicators.
+
+Knowledge creation
+------------------
+
+WHO gathers lessons and good practices on electrification of health-care facilities. It identifies and consolidates key insights on successful and innovative policies, regulations, financing instruments, delivery models and support measures with countries as well as to identify priority actions to accelerate health-care facility electrification. Guidance and support to countries are provided via direct technical assistance as well as through the dissemination of reports and best practices, like those included in the Energizing health: accelerating electricity access in health-care facilities report.
+
+Technical support and capacity building for country action
+----------------------------------------------------------
+
+WHO provides direct technical support to countries, through regional and country offices, on techno-economic analyses for electrification of health-care facilities through decentralized renewable energies.
+
+This activity includes support for:
+
+- energy needs assessments
+
+- evaluation of different technical options
+
+- assessment of economic and environmental benefits
+
+- identification of the most suitable electrification and design approach
+
+- preparation of technical documentation
+
+- guidance on operation and maintenance.
+
+WHO is working with UNICEF, GAVI, Selco Foundation and other partners to support countries on electrification of health-care facilities through decentralized solar systems.
+
+WHO also provides technical support to strengthen professional capacity of health workers at different levels, from central governments to local health centers. This activity aims to increase the ability of the local health sector to design, implement and maintain health-care facility electrification programmes. WHO also works with local stakeholders to strengthen the capacity of health-care facility staff to properly use the facility energy systems and undertake the basic maintenance.
+
+Building the enabling environment
+---------------------------------
+
+WHO facilitates multisector cooperation and coordinated action among health and energy stakeholders to maximize impact and leverage on synergies on the ground. In this framework, WHO serves as Secretariat of the Health and Energy Platform of Action (HEPA), facilitates the activities of the High-Level Coalition on Health and Energy convened by the WHO Director-General, and plays a crucial role in multi-stakeholder platforms relevant for health and energy, such as the climate change conferences of parties (COPs), UN Energy, and SDG 7 progress tracking.

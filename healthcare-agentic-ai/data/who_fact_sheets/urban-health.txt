@@ -1,0 +1,52 @@
+WHO FACT SHEET
+Title: Urban health
+URL: https://www.who.int/news-room/fact-sheets/detail/urban-health
+Retrieved: 2026-10-05T09:35:20.255074+00:00
+
+========================================
+
+Key facts
+=========
+
+- Over 55% of the world’s population live in urban areas and this is set to rise to 68% by 2050.
+
+- Almost 40% of urban dwellers have no access to safely managed sanitation services and many lack access to adequate drinking water.
+
+- An estimated 91% of people in urban areas breathe polluted air.
+
+- Poorly designed urban transport systems create a range of threats including road traffic injuries, air and noise pollution and barriers to safe physical activity – all leading to higher levels of noncommunicable disease and injuries.
+
+- Continued urbanization is expected to lead to cities becoming epicentres of disease transmission, including vector-borne diseases.
+
+Overview
+========
+
+The rising noncommunicable disease burden, the persistent threat of infectious disease outbreaks and an increased risk of violence and injuries are key public health concerns in urban areas. This triple threat includes:
+
+Noncommunicable diseases like heart disease, asthma, cancer and diabetes are made worse by unhealthy living and working conditions, inadequate green space, pollution such as noise, water and soil contamination, urban heat islands and a lack of space for walking, cycling and active living. Diabetes is linked to obesity and physical inactivity in cities lacking good transit and walking/cycling infrastructure. Urbanization is also linked to high rates of depression, anxiety and mental ill health.
+
+Injuries (including road traffic injury) and interpersonal violence particularly affect children, young adults, older people and the most marginalized groups as a result of poor working and living conditions and a lack of safe transport and infrastructure.
+
+Infectious diseases like COVID-19, tuberculosis, dengue and diarrhoea thrive in poor and overcrowded environments and are closely related to unhealthy housing and poor sanitation and waste management. Poor urban waste management fuels transmission of diseases such as the Zika and Ebola viruses.
+
+Health inequities in urban areas
+================================
+
+While urbanization can bring health and economic benefits, rapid and unplanned urbanization can have many negative social and environmental health impacts, which hit the poorest and most vulnerable the hardest. Health inequities are perhaps most stark in urban areas, sometimes varying from street to street. Migrants and other disadvantaged groups tend to be clustered in the most deprived and environmentally degraded neighbourhoods with the fewest mobility, work and educational opportunities, the poorest access to health services and below average health outcomes.
+
+Urban health and climate change
+===============================
+
+Cities consume over two-thirds of the world’s energy and are responsible for over 60% of greenhouse gas emissions. Urban populations are among the most vulnerable to climate change: inland cities may experience temperatures 3–5ºC higher than surrounding rural areas due to the so-called heat island effect of large concrete expanses and lack of green cover.
+
+Urban health and COVID-19
+=========================
+
+The COVID-19 pandemic showed that cities often bear the brunt of emergencies. Citizens frequently have high exposure to the virus and have no space or the means to protect themselves. Overcrowding and lack of clean sanitation services increase the risk of contagion, limit residents’ ability to adhere to public health measures and increase the likelihood of interpersonal violence. Around the globe, COVID-19 spread quickly in areas with other existing health inequities, such as the unfair and preventable differences in people’s health, well-being and access to quality health services. COVID-19 cases and deaths in deprived areas were double those of more advantaged areas.
+
+WHO response
+============
+
+Urban health is a growing priority for WHO and the scale of the challenges to urban health means that approaches to deal with them must be strategic, multisectoral and coordinated. WHO addresses urban health in multiple cross-cutting ways, focusing on better air quality, water and sanitation and other environmental determinants; healthy urban planning; healthier and smoke-free environments; safe and healthy mobility; prevention of violence and injuries; healthy food systems and diets; environmental management of vector-borne diseases; emergency preparedness and responses in urban settings. Addressing risks and needs of specific population groups, such as children and older people and migrants, is also a priority. The interlinked nature of urban health challenges means that action in one sector can have benefits for many other sectors.
+
+To help Member States address the above priorities, WHO supports the strengthening of the evidence base to allow policy-makers to make informed decisions when addressing health risks. It provides tools and guidance on what works and supports monitoring of key health-related indicators. WHO leads and engages in partnership activities fostering city-to-city exchanges and helps develop institutional and policy frameworks for good urban governance for health and well-being in cities.

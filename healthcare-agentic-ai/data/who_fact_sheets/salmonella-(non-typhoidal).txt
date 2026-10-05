@@ -1,0 +1,159 @@
+WHO FACT SHEET
+Title: Salmonella (non-typhoidal)
+URL: https://www.who.int/news-room/fact-sheets/detail/salmonella-(non-typhoidal)
+Retrieved: 2026-10-05T09:34:36.783905+00:00
+
+========================================
+
+Key facts
+=========
+
+- Salmonella is 1 of 4 key global causes of diarrhoeal diseases.
+
+- Most cases of salmonellosis are mild; however, sometimes it can be life-threatening. The severity of the disease depends on host factors and the serotype of Salmonella.
+
+- Antimicrobial resistance is a global public health concern and Salmonella is one of the microorganisms in which some resistant serotypes have emerged, affecting the food chain.
+
+- Basic food hygiene practices, such as "cook thoroughly", are recommended as a preventive measure against salmonellosis.
+
+The burden of foodborne diseases is substantial: every year almost 1 in 10 people fall ill and 33 million of healthy life years are lost. Foodborne diseases can be severe, especially for young children. Diarrhoeal diseases are the most common illnesses resulting from unsafe food, 550 million people falling ill each year, including 220 million children under the age of 5 years. Salmonella is 1 of the 4 key global causes of diarrhoeal diseases.
+
+Salmonella is a gram negative rods genus belonging to the Enterobacteriaceae family. Within 2 species, Salmonella bongori and Salmonella enterica, over 2500 different serotypes or serovars have been identified to date. Salmonella is a ubiquitous and hardy bacteria that can survive several weeks in a dry environment and several months in water.
+
+While all serotypes can cause disease in humans, a few are host-specific and can reside in only one or a few animal species: for example, Salmonella enterica serotype Dublin in cattle and Salmonella enterica serotype Choleraesuis in pigs. When these particular serotypes cause disease in humans, it is often invasive and can be life-threatening. Most serotypes, however, are present in a wide range of hosts. Typically, such serotypes cause gastroenteritis, which is often uncomplicated and does not need treatment, but disease can be severe in the young, the elderly, and patients with weakened immunity. This group features Salmonella enterica serotype Enteritidis and Salmonella enterica serotype Typhimurium, the two most important serotypes of Salmonella transmitted from animals to humans in most parts of the world.
+
+The disease
+===========
+
+Salmonellosis is a disease caused by the bacteria Salmonella. It is usually characterized by acute onset of fever, abdominal pain, diarrhoea, nausea and sometimes vomiting.
+
+The onset of disease symptoms occurs 6–72 hours (usually 12–36 hours) after ingestion of Salmonella, and illness lasts 2–7 days.
+
+Symptoms of salmonellosis are relatively mild and patients will make a recovery without specific treatment in most cases. However, in some cases, particularly in children and elderly patients, the associated dehydration can become severe and life-threatening.
+
+Although large Salmonella outbreaks usually attract media attention, 60–80% of all salmonellosis cases are not recognized as part of a known outbreak and are classified as sporadic cases, or are not diagnosed as such at all.
+
+Sources and transmission
+========================
+
+- Salmonella bacteria are widely distributed in domestic and wild animals. They are prevalent in food animals such as poultry, pigs, and cattle; and in pets, including cats, dogs, birds, and reptiles such as turtles.
+
+- Salmonella can pass through the entire food chain from animal feed, primary production, and all the way to households or food-service establishments and institutions.
+
+- Salmonellosis in humans is generally contracted through the consumption of contaminated food of animal origin (mainly eggs, meat, poultry, and milk), although other foods, including green vegetables contaminated by manure, have been implicated in its transmission.
+
+- Person-to-person transmission can also occur through the faecal-oral route.
+
+- Human cases also occur where individuals have contact with infected animals, including pets. These infected animals often do not show signs of disease.
+
+Treatment
+=========
+
+Treatment in severe cases is electrolyte replacement (to provide electrolytes, such as sodium, potassium and chloride ions, lost through vomiting and diarrhoea) and rehydration.
+
+Routine antimicrobial therapy is not recommended for mild or moderate cases in healthy individuals. This is because antimicrobials may not completely eliminate the bacteria and may select for resistant strains, which subsequently can lead to the drug becoming ineffective. However, health risk groups such as infants, the elderly, and immunocompromised patients may need to receive antimicrobial therapy. Antimicrobials are also administered if the infection spreads from the intestine to other body parts. Because of the global increase of antimicrobial resistance, treatment guidelines should be reviewed on a regular basis taking into account the resistance pattern of the bacteria based on the local surveillance system.
+
+Prevention methods
+==================
+
+Prevention requires control measures at all stages of the food chain, from agricultural production, to processing, manufacturing and preparation of foods in both commercial establishments and at home.
+
+Preventive measures for Salmonella in the home are similar to those used against other foodborne bacterial diseases (see recommendations for food handlers below).
+
+The contact between infants/young children and pet animals that may be carrying Salmonella (such as cats, dogs, and turtles) needs careful supervision.
+
+National and regional surveillance systems on foodborne diseases are important means to know and follow the situation of these diseases and also to detect and respond to salmonellosis and other enteric infections in early stages, and thus to prevent them from further spreading.
+
+Recommendations for the public and travellers
+=============================================
+
+The following recommendations will help ensure safety while travelling:
+
+- Ensure food is properly cooked and still hot when served.
+
+- Avoid raw milk and products made from raw milk. Drink only pasteurized or boiled milk.
+
+- Avoid ice unless it is made from safe water.
+
+- When the safety of drinking water is questionable, boil it or if this is not possible, disinfect it with a reliable, slow-release disinfectant agent (usually available at pharmacies).
+
+- Wash hands thoroughly and frequently using soap, in particular after contact with pets or farm animals, or after having been to the toilet.
+
+- Wash fruits and vegetables carefully, particularly if they are eaten raw. If possible, vegetables and fruits should be peeled.
+
+- A guide on safe food for travellers
+
+Recommendations for food handlers
+=================================
+
+WHO provides the following guidance for people handling food:
+
+- Both professional and domestic food handlers should be vigilant while preparing food and should observe hygienic rules of food preparation.
+
+- Professional food handlers who suffer from fever, diarrhoea, vomiting or visible infected skin lesions should report to their employer immediately.
+
+- The WHO Five keys to safer food serve as the basis for educational programmes to train food handlers and educate consumers. They are especially important in preventing food poisoning. The five keys to Safer Food are:
+
+- keep clean
+
+- separate raw and cooked
+
+- cook thoroughly
+
+- keep food at safe temperatures
+
+- use safe water and raw materials.
+
+- Five keys to safer food
+
+Recommendations for producers of fruits, vegetables and fish
+============================================================
+
+The WHO Five keys to growing safer fruits and vegetables: promoting health by decreasing microbial contamination and the Five keys to safer aquaculture products to protect public health provide rural workers, including small farmers who grow fresh fruits and vegetables and fish for themselves, their families and for sale in local market with key practices to prevent microbial contamination.
+
+The Five keys to growing safer fruits and vegetables are:
+
+- Practice good personal hygiene.
+
+- Protect fields from animal faecal contamination.
+
+- Use treated faecal waste.
+
+- Evaluate and manage risks from irrigation water.
+
+- Keep harvest and storage equipment clean and dry.
+
+- Five keys to growing safer fruits and vegetables
+
+The Five keys to safer aquaculture products to protect public health are:
+
+- Practice good personal hygiene.
+
+- Clean the pond site.
+
+- Manage water quality.
+
+- Keep fish healthy.
+
+- Use clean harvest equipment and containers.
+
+- Five keys to safer aquaculture products to protect public health
+
+WHO response
+============
+
+In partnership with other stakeholders, WHO is strongly advocating the importance of food safety as an essential element in ensuring access to safe and nutritious diets. WHO is providing policies and recommendations that cover the entire food chain from production to consumption, making use of different types of expertise across different sectors.
+
+WHO is working towards the strengthening of food safety systems in an increasingly globalized world. Setting international food safety standards, enhancing disease surveillance, educating consumers and training food handlers in safe food handling are amongst the most critical interventions in the prevention of foodborne illnesses.
+
+WHO is strengthening the capacities of national and regional laboratories in the surveillance of foodborne pathogens, such as Campylobacter and Salmonella.
+
+WHO is also promoting the integrated surveillance of antimicrobial resistance of pathogens in the food chain, collecting samples from humans, food and animals and analysing data across the sectors.
+
+WHO, jointly with FAO, is assisting Member States by coordinating international efforts for early detection and response to foodborne disease outbreaks through the network of national authorities in Member States.
+
+- International Network of Food Safety Authorities (INFOSAN)
+
+WHO also provides scientific assessments as basis for international food standards, guidelines and recommendations developed by the FAO/WHO Codex Alimentarius Commission to prevent foodborne diseases.
+
+- Codex Alimentarius Commission

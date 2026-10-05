@@ -1,0 +1,101 @@
+WHO FACT SHEET
+Title: Mental health of older adults
+URL: https://www.who.int/news-room/fact-sheets/detail/mental-health-of-older-adults
+Retrieved: 2026-10-05T09:33:23.583623+00:00
+
+========================================
+
+Key facts
+=========
+
+- By 2030, one in six people in the world will be aged 60 years or over.
+
+- Loneliness and social isolation are key risk factors for mental health conditions in later life.
+
+- One in six older adults experiences abuse, often by their own carers.
+
+- Approximately 15% of adults aged 70 and over live with a mental disorder.
+
+- Mental disorders among those aged 70 years or older account for 6.8% of the total years lived with disability for this age group.
+
+Overview
+========
+
+The world’s population is ageing fast. In 2023, 1.1 billion people in the world were aged 60 years or over. That figure is projected to nearly double to 2.1 billion by 2050, representing around one in five people globally. By the late 2060s, the number of persons aged 60 years and over will reach 2.5 billion and surpass the number of under-18-year-olds in the world. The number of people aged 80 years or older is expected to more than triple between 2023 and 2060 to reach 545 million (1).
+
+Older adults contribute to society as family and community members, and many are volunteers and workers. While most have good health, many are at risk of developing mental health conditions such as depression and anxiety disorders. Many may also experience reduced mobility, chronic pain, frailty, dementia or other health problems for which they require some form of long-term care. As people age, they are more likely to experience several conditions at the same time.
+
+Prevalence
+==========
+
+In 2023, an estimated 14.75% of adults aged 70 and over lived with a mental disorder; most commonly anxiety or depression (2). Mental disorders account for 6.8% of the total years lived with disability among older adults aged 70 years or more (3). Globally, around a sixth of deaths from suicide (16.6%) are among people aged 70 or over (3).
+
+Mental health conditions among older people are often underrecognized and undertreated, and the stigma surrounding these conditions can make people reluctant to seek help.
+
+Risk factors
+============
+
+At older ages, mental health is shaped not only by physical and social environments but also by the cumulative impacts of earlier life experiences and specific stressors related to ageing, including bereavement, reduced income or sense of purpose at retirement, and decline in intrinsic capacity and functional ability. Despite their many contributions to society, older adults are often subject to ageism, which can seriously affect mental health.
+
+Social isolation and loneliness, which affect about a quarter of older people, are key risk factors for mental health conditions in later life (4). Abuse – including physical, verbal, psychological, sexual and financial abuse, as well as neglect – affects one in six older adults and is often perpetrated by their own carers (5). Abuse has serious consequences and can lead to depression and anxiety.
+
+Many older adults also take on caring responsibilities for spouses with chronic health conditions, such as dementia, which can be overwhelming and affect their own mental health.
+
+Some older adults are at greater risk of depression and anxiety because of harsh living conditions, poor physical health or lack of access to quality support and services. This includes those in humanitarian settings and those living with chronic illnesses (such as heart disease, cancer or stroke), neurological conditions (such as dementia), or substance use problems.
+
+Promotion and prevention
+========================
+
+Mental health promotion and prevention for older adults focus on supporting healthy ageing – creating physical and social environments that support well-being and enable people to do what is important to them, despite declining capacity.
+
+Key strategies include:
+
+- reducing financial insecurity and income inequality;
+
+- ensuring safe and accessible housing, public buildings and transport;
+
+- providing social support for older adults and their carers;
+
+- supporting healthy behaviours, especially balanced diet, physical activity, no tobacco use and reduced alcohol use; and
+
+- targeting health and social programmes at vulnerable groups, such as those living alone, in remote areas or with chronic health conditions.
+
+Social connection is particularly important to reduce risk factors such as isolation and loneliness. Meaningful social activities can significantly improve mental health, life satisfaction and quality of life; they can also reduce depressive symptoms. Example interventions include befriending initiatives, community and support groups, social skills training, creative arts groups, leisure and education services and volunteering programmes (4).
+
+Protection from ageism and abuse is also critical. Key interventions include anti-discrimination policies and laws, educational interventions and intergenerational activities. Carer interventions – including respite care, advice, education, financial support and psychological interventions – can help carers maintain healthy caring relationships and reduce the risk of abuse.
+
+Treatment and care
+==================
+
+Prompt recognition and treatment of mental health conditions (and associated neurological and substance use conditions) in older adults is essential. This should follow standards for integrated care, which is community-based and addresses both long-term care needs and declines in intrinsic capacity, as well as the education, training and support of carers. A mix of mental health interventions is usually recommended, alongside other supports for health, personal care and social needs.
+
+Dementia is a common concern. It affects people’s mental health (e.g. by sparking symptoms of psychosis and depression) and requires access to quality mental health care.
+
+Responding to abuse is also critical. Promising interventions include mandatory reporting requirements, self-help groups, helplines and emergency shelters, psychological programmes for abusers, training of health-care providers and other carer support.
+
+WHO response
+============
+
+WHO works with partners to support governments address the mental health needs of older adults.
+
+The Decade of Healthy Ageing (2021–2030) is a global WHO-led collaboration to improve the lives of older people, their families and their communities.
+
+The Comprehensive mental health action plan 2013–2030, endorsed by WHO Member States, supports improved mental health and mental health care for all populations, including older adults.
+
+Mental Health Gap Action Programme (mhGAP) provides evidence-based clinical protocols for assessing, managing and following priority mental, neurological and substance use conditions in non-specialized settings, including depression and dementia. The mhGAP intervention guide 2.0 includes clinical tips for working with older adults.
+
+During the COVID-19 pandemic, WHO and partners in the Inter-Agency-Standing Committee (IASC) developed the Living with the times toolkit of illustrated posters to help older adults maintain good mental health.
+
+Other WHO activities include the development of scalable psychological interventions for depression and anxiety, research and guidance on reducing social isolation and loneliness, and cost–effective solutions to prevent abuse of older adults.
+
+References
+
+(1) World Population Prospects 2024. New York: United Nations Department of Economic and Social Affairs, Population Division; 2024 (https://population.un.org/wpp/downloads, accessed 25 June 2026).
+
+(2) 2021 Global Burden of Disease (GBD) [online database]. Seattle: Institute for Health Metrics and Evaluation; 2026 (https://vizhub.healthdata.org/gbd-results/, accessed 25 June 2026).
+
+(3) YLD estimates, 2000–2021. In: Global Health Estimates [online database]. Geneva: World Health Organization; 2026 (https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates/global-health-estimates-leading-causes-of-dalys, accessed 25 June 2026).
+
+(4) From loneliness to social connection: charting a path to healthier societies. Report of the WHO Commission on Social Connection. Geneva: World Health Organization; 2025 (https://iris.who.int/handle/10665/381746).
+
+(5) Yon YY, Mikton CR, Gassoumis ZD, Wilber KH. Elder abuse prevalence in community settings: a systematic review and meta-analysis. Lancet Glob Health. 2017;5(2):e147–e156 (https://www.doi.org/10.1016/S2214-109X(17)30006-2).

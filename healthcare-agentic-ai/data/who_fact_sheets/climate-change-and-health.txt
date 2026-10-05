@@ -1,0 +1,78 @@
+WHO FACT SHEET
+Title: Climate change
+URL: https://www.who.int/news-room/fact-sheets/detail/climate-change-and-health
+Retrieved: 2026-10-05T09:31:20.784632+00:00
+
+========================================
+
+Key facts
+=========
+
+- Climate change is directly contributing to humanitarian emergencies from heatwaves, wildfires, floods, tropical storms and hurricanes and they are increasing in scale, frequency and intensity.
+
+- Research shows that 3.6 billion people already live in areas highly susceptible to climate change. Between 2030 and 2050, climate change is expected to cause approximately 250 000 additional deaths per year, from undernutrition, malaria, diarrhoea and heat stress alone.
+
+- The direct damage costs to health (excluding costs in health-determining sectors such as agriculture and water and sanitation) is estimated to be between US$ 2–4 billion per year by 2030.
+
+- Areas with weak health infrastructure – mostly in developing countries – will be the least able to cope without assistance to prepare and respond.
+
+- Reducing emissions of greenhouse gases through better transport, food and energy use choices can result in very large gains for health, particularly through reduced air pollution.
+
+Overview
+========
+
+Climate change presents a fundamental threat to human health. It affects the physical environment as well as all aspects of both natural and human systems – including social and economic conditions and the functioning of health systems. It is therefore a threat multiplier, undermining and potentially reversing decades of health progress. As climatic conditions change, more frequent and intensifying weather and climate events are observed, including storms, extreme heat, floods, droughts and wildfires. These weather and climate hazards affect health both directly and indirectly, increasing the risk of deaths, noncommunicable diseases, the emergence and spread of infectious diseases, and health emergencies.
+
+Climate change is also having an impact on our health workforce and infrastructure, reducing capacity to provide universal health coverage (UHC). More fundamentally, climate shocks and growing stresses such as changing temperature and precipitation patterns, drought, floods and rising sea levels degrade the environmental and social determinants of physical and mental health. All aspects of health are affected by climate change, from clean air, water and soil to food systems and livelihoods. Further delay in tackling climate change will increase health risks, undermine decades of improvements in global health, and contravene our collective commitments to ensure the human right to health for all.
+
+Climate change impacts on health
+================================
+
+The Intergovernmental Panel on Climate Change's (IPCC) Sixth Assessment Report (AR6) concluded that climate risks are appearing faster and will become more severe sooner than previously expected, and it will be harder to adapt with increased global heating.
+
+It further reveals that 3.6 billion people already live in areas highly susceptible to climate change. Despite contributing minimally to global emissions, low-income countries and small island developing states (SIDS) endure the harshest health impacts. In vulnerable regions, the death rate from extreme weather events in the last decade was 15 times higher than in less vulnerable ones.
+
+Climate change is impacting health in a myriad of ways, including by leading to death and illness from increasingly frequent extreme weather events, such as heatwaves, storms and floods, the disruption of food systems, increases in zoonoses and food-, water- and vector-borne diseases, and mental health issues. Furthermore, climate change is undermining many of the social determinants for good health, such as livelihoods, equality and access to health care and social support structures. These climate-sensitive health risks are disproportionately felt by the most vulnerable and disadvantaged, including women, children, ethnic minorities, poor communities, migrants or displaced persons, older populations, and those with underlying health conditions.
+
+Figure: An overview of climate-sensitive health risks, their exposure pathways and vulnerability factors. Climate change impacts health both directly and indirectly, and is strongly mediated by environmental, social and public health determinants.
+
+Although it is unequivocal that climate change affects human health, it remains challenging to accurately estimate the scale and impact of many climate-sensitive health risks. However, scientific advances progressively allow us to attribute an increase in morbidity and mortality to global warming, and more accurately determine the risks and scale of these health threats.
+
+WHO data indicates 2 billion people lack safe drinking water and 600 million suffer from foodborne illnesses annually, with children under 5 bearing 30% of foodborne fatalities. Climate stressors heighten waterborne and foodborne disease risks. In 2020, 770 million faced hunger, predominantly in Africa and Asia. Climate change affects food availability, quality and diversity, exacerbating food and nutrition crises.
+
+Temperature and precipitation changes enhance the spread of vector-borne diseases. Without preventive actions, deaths from such diseases, currently over 700 000 annually, may rise. Climate change induces both immediate mental health issues, like anxiety and post-traumatic stress, and long-term disorders due to factors like displacement and disrupted social cohesion.
+
+Recent research attributes 37% of heat-related deaths to human-induced climate change. Heat-related deaths among those over 65 have risen by 70% in two decades. In 2020, 98 million more experienced food insecurity compared to the 1981–2010 average. The WHO conservatively projects 250 000 additional yearly deaths by the 2030s due to climate change impacts on diseases like malaria and coastal flooding. However, modelling challenges persist, especially around capturing risks like drought and migration pressures.
+
+The climate crisis threatens to undo the last 50 years of progress in development, global health and poverty reduction, and to further widen existing health inequalities between and within populations. It severely jeopardizes the realization of UHC in various ways, including by compounding the existing burden of disease and by exacerbating existing barriers to accessing health services, often at the times when they are most needed. Over 930 million people – around 12% of the world’s population – spend at least 10% of their household budget to pay for health care. With the poorest people largely uninsured, health shocks and stresses already currently push around 100 million people into poverty every year, with the impacts of climate change worsening this trend.
+
+Climate change and equity
+=========================
+
+In the short- to medium-term, the health impacts of climate change will be determined mainly by the vulnerability of populations, their resilience to the current rate of climate change and the extent and pace of adaptation. In the longer-term, the effects will increasingly depend on the extent to which transformational action is taken now to reduce emissions and avoid the breaching of dangerous temperature thresholds and potential irreversible tipping points.
+
+While no one is safe from these risks, the people whose health is being harmed first and worst by the climate crisis are the people who contribute least to its causes, and who are least able to protect themselves and their families against it: people in low-income and disadvantaged countries and communities.
+
+Addressing climate change's health burden underscores the equity imperative: those most responsible for emissions should bear the highest mitigation and adaptation costs, emphasizing health equity and vulnerable group prioritization.
+
+Need for urgent action
+======================
+
+To avert catastrophic health impacts and prevent millions of climate change-related deaths, the world must limit temperature rise to 1.5°C. Past emissions have already made a certain level of global temperature rise and other changes to the climate inevitable. Global heating of even 1.5°C is not considered safe, however; every additional tenth of a degree of warming will take a serious toll on people’s lives and health.
+
+WHO response
+============
+
+WHO’s response to these challenges centres around 3 main objectives:
+
+- Promote actions that both reduce carbon emissions and improve health: supporting a rapid and equitable transition to a clean energy economy; ensuring that health is central to climate change mitigation policy; accelerating mitigation actions that bring the greatest health gains; and mobilizing the strength of the health community to drive policy change and build public support.
+
+- Build better, more climate-resilient and environmentally sustainable health systems: ensuring core services, environmental sustainability and climate resilience as central components of UHC and primary health care (PHC); supporting health systems to leapfrog to cheaper, more reliable and cleaner solutions, while decarbonizing high-emitting health systems; and mainstreaming climate resilience and environmental sustainability into health service investments, including the capacity of the health workforce.
+
+- Protect health from the wide range of impacts of climate change: assessing health vulnerabilities and developing health plans; integrating climate risk and implementing climate-informed surveillance and response systems for key risks, such as extreme heat and infectious disease; supporting resilience and adaptation in health-determining sectors such as water and food; and closing the financing gap for health adaptation and resilience.
+
+Leadership and Raising Awareness: WHO leads in emphasizing climate change's health implications, aiming to centralize health in climate policies, including through the UNFCCC. Partnering with major health agencies, health professionals and civil society, WHO strives to embed climate change in health priorities like UHC and target carbon neutrality by 2030.
+
+Evidence and Monitoring: WHO, with its network of global experts, contributes global evidence summaries, provides assistance to nations in their assessments, and monitors progress. The emphasis is on deploying effective policies and enhancing access to knowledge and data.
+
+Capacity Building and Country Support: Through WHO offices, support is given to ministries of health, focusing on collaboration across sectors, updated guidance, hands-on training, and support for project preparation and execution as well as for securing climate and health funding. WHO leads the Alliance for Transformative Action on Climate and Health (ATACH), bringing together a range of health and development partners, to support countries in achieving their commitments to climate-resilient and low carbon health systems.

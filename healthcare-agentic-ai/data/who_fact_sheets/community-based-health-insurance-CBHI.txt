@@ -1,0 +1,77 @@
+WHO FACT SHEET
+Title: Community-based health insurance
+URL: https://www.who.int/news-room/fact-sheets/detail/community-based-health-insurance-CBHI
+Retrieved: 2026-10-05T09:31:25.641359+00:00
+
+========================================
+
+Key Facts
+
+- Community-based health insurance (CBHI) schemes are usually voluntary and characterized by community members pooling funds to offset the cost of healthcare.
+
+- Despite much hope in these systems, evidence suggests the impact of CBHI on financial protection and access to needed health care are moderate for those enrolled.
+
+- Most CBHI schemes have low participation levels and the poorest people usually remain excluded.
+
+- Theory and practice show that CBHIs play only a limited role in helping countries move towards universal health care (UHC).
+
+- They can have other positive impacts however, such as community development and local accountability of health care providers.
+
+Overview
+========
+
+CBHI is a form of micro health insurance, which is an overarching term for health insurance targeted to low-income people. The specific feature of CBHIs is the community involvement in driving its setup and in its management.
+
+Small, voluntary CBHI schemes are generally characterized by the following institutional design features.
+
+- Pooling of health risks and of funds occurs within a community or a group of people who share common characteristics, such as geographical location or occupation.
+
+- Membership premiums are often a flat rate and independent of individual health risks.
+
+- Entitlements to benefits are linked to contributions in most cases.
+
+- Affiliation is voluntary.
+
+- The scheme operates on a non-profit basis.
+
+Challenges
+==========
+
+Both theory and evidence suggest that the traditional CBHI model – relying only on voluntary, small-scale schemes with little or no subsidization of poor and vulnerable groups – can play only a limited role in helping countries move towards universal health coverage(UHC). CBHIs cannot be expected to provide a major source of funding or coverage, and hence can at best provide only a complementary role as part of a national health financing strategy toward UHC. This is partly because people with few health needs tend not to join on a voluntary basis, and there is usually little or no subsidization for poor and other vulnerable groups.
+
+Health service utilization rates of members, however, generally increase after enrollment.
+
+Policy options
+==============
+
+Although CBHIs in the traditional model are one way to organize community initiatives, they cannot be expected to provide a major source of funding or coverage. Financial protection arrangements based on mandatory or automatic coverage funded from general government revenue that subsidizes those unable to pay have shown more potential to reach UHC goals than voluntary, contribution-financed schemes. Some countries with CBHI schemes have taken action and transformed their CBHI model towards a national scheme.
+
+For countries with established small-scale voluntary CBHI schemes, the government could capitalize on the positive results of improved local governance capacity and public acceptance of prepaid insurance contributions. Here, an option is to integrate or merge existing schemes into a single national pool with decentralized arms or closely interconnected pools beyond the community level. These can provide similar benefit packages and act – with national support – as strategic purchasers of health services, while maintaining local accountability. This could also promote quality gains and efficiency while guaranteeing higher levels of re-distributive capacity and financial protection.
+
+In countries where there is no government engagement in CBHI development, governments may focus from the start on developing a national system geared towards universality and envisage to cover the whole population rather than diverting resources and efforts to establishing CBHIs as an interim solution with limited impact on progressing towards UHC.
+
+WHO response
+
+WHO supports Member States to develop health financing strategies that aim at reducing fragmentation and better pooling to enhance the potential for re-distributive capacity with the aim to progress towards Universal Health Coverage.
+
+The following institutional design features can be considered critical for a move away from small CBHI schemes towards a national health financing system for UHC:
+
+- Mandatory coverage to the population;
+
+- General government revenues to subsidize coverage of vulnerable and poor people;
+
+- Larger/more diverse pool (for example, by increasing the number of enrolled people, pooling beyond local pools, or a single national pool); and
+
+- A strong and explicit role (including incentives) of local government authorities in enrollment.
+
+One key approach to reforming CBHIs is to increase the re-distributive capacity of the system. For such a reform to realize its potential, however, it must be set within an overall vision of health financing that aligns pooling with the other health financing functions.
+
+Related Links
+
+Community based health insurance: how can it contribute to progress towards UHC?
+
+Voluntary health insurance: potentials and limits to moving towards universal health coverage
+
+WHO global health expenditure database
+
+Health financing country diagnostic: a foundation for national strategy development

@@ -1,0 +1,103 @@
+{
+  "sample_crawl": {
+    "crawl_timestamp": "2026-10-05T09:27:10.088887+00:00",
+    "total_urls_discovered": 244,
+    "successful_downloads": 5,
+    "failed_downloads": 0,
+    "duplicate_urls": 0,
+    "skipped_existing": 0,
+    "skipped_by_limit": 239,
+    "skipped_duplicate_urls": 239,
+    "output_directory": "C:\\Users\\Hp\\OneDrive\\Desktop\\HEALTHCARE AGENT\\TEST AGENTS\\mini-cc\\healthcare-agentic-ai\\data\\who_fact_sheets",
+    "failed_urls": [],
+    "errors": [],
+    "discovery_error": null
+  },
+  "rerun": {
+    "crawl_timestamp": "2026-10-05T09:27:37.370490+00:00",
+    "total_urls_discovered": 244,
+    "successful_downloads": 0,
+    "failed_downloads": 0,
+    "duplicate_urls": 0,
+    "skipped_existing": 5,
+    "skipped_by_limit": 239,
+    "skipped_duplicate_urls": 244,
+    "output_directory": "C:\\Users\\Hp\\OneDrive\\Desktop\\HEALTHCARE AGENT\\TEST AGENTS\\mini-cc\\healthcare-agentic-ai\\data\\who_fact_sheets",
+    "failed_urls": [],
+    "errors": [],
+    "discovery_error": null
+  },
+  "file_checks": [
+    {
+      "file": "abortion.txt",
+      "bytes": 13461,
+      "headings": [
+        "Key facts",
+        "Overview",
+        "Scope of the problem",
+        "Consequences of inaccessible quality abortion care",
+        "Expanding quality abortion care",
+        "WHO response"
+      ],
+      "sha256": "f737c26df6e31fd2fcba32dc96ab065f144723dcec6ad8ff461ec26e06209c54"
+    },
+    {
+      "file": "abuse-of-older-people.txt",
+      "bytes": 7555,
+      "headings": [
+        "Key facts",
+        "Scope of the problem",
+        "Consequences",
+        "Risk factors",
+        "Prevention",
+        "WHO response"
+      ],
+      "sha256": "e7c03c0dadf81f6764abf015483c3f91671e46596cf2737918832ab9f6d109b7"
+    },
+    {
+      "file": "adolescent-mental-health.txt",
+      "bytes": 10631,
+      "headings": [
+        "Key facts",
+        "Introduction",
+        "Mental health determinants",
+        "Emotional disorders",
+        "Behavioural disorders",
+        "Eating disorders",
+        "Psychosis",
+        "Suicide and self-harm",
+        "Risk-taking behaviours",
+        "Promotion and prevention",
+        "Early detection and treatment",
+        "WHO response"
+      ],
+      "sha256": "936047d3929b8f08c210f0ce387ed375c2b96c5b45cf3874d4cd2bf6e6db4bea"
+    },
+    {
+      "file": "adolescent-pregnancy.txt",
+      "bytes": 10834,
+      "headings": [
+        "Key facts",
+        "Overview",
+        "Scope of the problem",
+        "Context in which adolescent pregnancies occur",
+        "WHO response"
+      ],
+      "sha256": "44d6755412c0f17a3c030eb1c3a0c94fb8b727de3e6eb3f6b973c5b96cb5a242"
+    },
+    {
+      "file": "adolescents-health-risks-and-solutions.txt",
+      "bytes": 13890,
+      "headings": [
+        "Key facts",
+        "Overview",
+        "Main health issues",
+        "Rights of adolescents",
+        "WHO response"
+      ],
+      "sha256": "56f51a2e2417d551d669ad0ffd1f4e298a6fd3b9788b12958573ed4381e2d8ea"
+    }
+  ],
+  "tests_passed": 20,
+  "full_catalogue_downloaded": false
+}

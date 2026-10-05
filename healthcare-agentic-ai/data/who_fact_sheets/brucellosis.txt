@@ -1,0 +1,58 @@
+WHO FACT SHEET
+Title: Brucellosis
+URL: https://www.who.int/news-room/fact-sheets/detail/brucellosis
+Retrieved: 2026-10-05T09:30:51.903960+00:00
+
+========================================
+
+Key facts
+=========
+
+- Brucellosis is found globally and is a reportable disease in most countries
+
+- The disease causes flu-like symptoms, including fever, weakness, malaise and weight loss
+
+- Person-to-person transmission is rare
+
+- Brucellosis is a bacterial disease caused by various Brucella species, which mainly infect cattle, swine, goats, sheep and dogs
+
+Brucellosis is a bacterial disease caused by various Brucella species, which mainly infect cattle, swine, goats, sheep and dogs. Humans generally acquire the disease through direct contact with infected animals, by eating or drinking contaminated animal products or by inhaling airborne agents. Most cases are caused by ingesting unpasteurized milk or cheese from infected goats or sheep.
+
+Brucellosis is one of the most widespread zoonoses transmitted by animals and in endemic areas, human brucellosis has serious public health consequences. Expansion of animal industries and urbanization, and the lack of hygienic measures in animal husbandry and in food handling, partly account for brucellosis remaining a public health hazard.
+
+Who is at risk?
+===============
+
+Brucellosis is found globally and is a reportable disease in most countries. It affects people of all ages and both sexes. In the general population, most cases are caused by the consumption of raw milk or its derivatives such as fresh cheese. Most of these cases are from sheep and goat products.
+
+The disease is also considered an occupational hazard for people who work in the livestock sector. People who work with animals and are in contact with blood, placenta, foetuses and uterine secretions have an increased risk of contracting the disease. This method of transmission primarily affects farmers, butchers, hunters, veterinarians and laboratory personnel.
+
+Worldwide, Brucella melitensis is the most prevalent species causing human brucellosis, owing in part to difficulties in immunizing free-ranging goats and sheep.
+
+Human-to-human transmission is very rare.
+
+Prevention and control
+======================
+
+Prevention of brucellosis is based on surveillance and the prevention of risk factors. The most effective prevention strategy is the elimination of infection in animals. Vaccination of cattle, goats and sheep is recommended in enzootic areas with high prevalence rates. Serological or other testing and culling can also be effective in areas with low prevalence. In countries where eradication in animals through vaccination or elimination of infected animals is not feasible, prevention of human infection is primarily based on raising awareness, food-safety measures, occupational hygiene and laboratory safety.
+
+Pasteurization of milk for direct consumption and for creating derivatives such as cheese is an important step to preventing transmission from animals to humans. Education campaigns about avoiding unpasteurized milk products can be effective, as well as policies on its sale.
+
+In agricultural work and meat-processing, protective barriers and correct handling and disposal of afterbirths, animal carcasses and internal organs is an important prevention strategy.
+
+Treatment and care
+==================
+
+Brucellosis typically causes flu-like symptoms, including fever, weakness, malaise and weight loss. However, the disease may present in many atypical forms. In many patients the symptoms are mild and, therefore, the diagnosis may not be considered. The incubation period of the disease can be highly variable, ranging from 1 week to 2 months, but usually 2–4 weeks.
+
+Treatment options include doxycycline 100 mg twice a day for 45 days, plus streptomycin 1 g daily for 15 days. The main alternative therapy is doxycycline at 100 mg, twice a day for 45 days, plus rifampicin at 15mg/kg/day (600-900mg) for 45 days. Experience suggests that streptomycin may be substituted with gentamicin 5mg/kg/daily for 7–10 days, but no study directly comparing the two regimes is currently available. The optimal treatment for pregnant women, neonates and children under 8 is not yet determined; for children, options include trimethoprim/sulfamethoxazole (co-trimoxazole) combined with an aminoglycoside (streptomycin, gentamycin) or rifampicin.
+
+WHO response
+============
+
+WHO provides technical advice to member states through provision of standards, information and guidance for the management of brucellosis in humans and animals. The Organization works to support the coordination and sharing of information between the public health and animal health sectors. In collaboration with the Food and Agricultural Organization of the United Nations (FAO), the World Organisation for Animal Health (OIE) and the Mediterranean Zoonoses Control Programme (MZCP), WHO supports countries in the prevention and management of the disease through the Global Early Warning System for Major Animal Diseases (GLEWS).
+
+- Brucellosis in humans and animals
+Food and Agriculture Organization of the United Nations, World Health Organization & World Organisation for Animal Health
+
+- WHO Recommended strategies for the prevention and control of communicable diseases

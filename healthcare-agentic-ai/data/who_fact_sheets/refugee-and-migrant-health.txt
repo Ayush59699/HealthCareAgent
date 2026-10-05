@@ -1,0 +1,107 @@
+WHO FACT SHEET
+Title: Refugee and migrant health
+URL: https://www.who.int/news-room/fact-sheets/detail/refugee-and-migrant-health
+Retrieved: 2026-10-05T09:34:24.184755+00:00
+
+========================================
+
+Key facts
+=========
+
+- About 1 in 8 people (or more than a billion) are on the move globally.
+
+- Of this total, an estimated 304 million are international migrants (2024), double the number in 1990 (154 million). This includes approximately 170 million migrant workers and 7 million international students.
+
+- It is estimated that 117.3 million people are forcibly displaced, including 73.5 million internally displaced persons (IDPs), 36.4 million refugees, and 8.4 million asylum seekers. Among them, 49 million are children, and 2.3 million were born into refugee life.
+
+- Human mobility is expected to continue growing, driven by poverty, insecurity, limited access to basic services, conflict, environmental degradation and disasters. Health systems must be equipped to respond to these evolving needs.
+
+- Displacement and migration can have both positive and negative health impacts. Refugees and migrants' social and economic contributions, such as remittances, can improve access to services in countries of origin, while restrictive environments in transit and destination countries may pose health risks.
+
+- Refugees and migrants often experience poorer health outcomes due to language and cultural barriers, institutional discrimination and restrictive policies that limit access to or use of health services.
+
+Overview
+========
+
+More people are on the move now than ever before, and displacement and migration continue to rise. Yet many refugees and migrants face poorer health outcomes than the host populations. Many face constraints in accessing health care. Addressing their health needs is, therefore, a global health priority and integral to the principle of the right to health for all. Refugees and migrants have specific physical and mental health needs that are influenced by their experiences in their country of origin, conditions during their journeys, and the policies and environments in destination countries.
+
+Climate change, in addition to conflicts and disasters, is transforming patterns of displacement and migration and amplifying risks to health and well-being. Displaced and migrant populations are often among those most affected, yet they often remain excluded from national health and climate adaptation strategies.
+
+Definitions and data
+====================
+
+There is no universally accepted definition of a migrant, however, the United Nations Department of Economic and Social Affairs defines an international migrant as “any person who changes his or her country of usual residence,” regardless of legal status, duration of stay or reasons for moving(1, 2).
+
+Under international law and the UNHCR's mandate, refugees are people outside their country of origin who need international protection because they fear persecution or a serious threat to their life, physical integrity or freedom in their country of origin as a result of persecution, armed conflict, violence or serious public disorder(3).
+
+Asylum seekers are individuals who seek international protection. In countries where asylum cases are judged on a case-by-case basis using specific eligibility criteria, asylum seekers are people whose claim has not been finally decided on by the country in which they have submitted it. Not every asylum seeker will ultimately be recognized as a refugee, but every recognized refugee is initially an asylum seeker(3).
+
+Migrants may face limitations in accessing health care due to their migratory status, but international law recognizes the right to the highest attainable standard of health, consistent with the 2030 Agenda for Sustainable Development, particularly SDG 3 (Ensure healthy lives and promote well-being for all at all ages)(4). Although governed by different legal frameworks, refugees and migrants share the same universal human rights and fundamental freedoms as everyone else(4).
+
+Overall, over 1 billion people (1 in 8) are on the move worldwide.
+
+As of 2024, there were an estimated 304 million international migrants worldwide; this is almost double the number of international migrants in 1990 (154 million)(5). In 2022 there were an estimated 167.7 million migrant workers, including many essential health workers, and 6.9 million international students(6).
+
+As of mid-2025, the number of forcibly displaced people reached 117 million, up from 83 million in 2020. This includes 36.8 million refugees, with 8.4 million asylum seekers; notably, low- and middle-income countries host 71% of the world’s refugees and others in need of international protection(7).
+
+Migration and displacement also occur within country borders. Latest available estimates – from 2005 – estimated the number of internal migrants at 763 million(8). In 2024, there were approximately 83.4 million internally displaced persons (IDPs) worldwide(9).
+
+Data on displacement and migration remains constrained due to divergent definitions, varying methodologies and the exclusion of irregular migrants and those working in informal sectors from official statistics.
+
+Common health issues
+====================
+
+Refugees and migrants have specific health needs that reflect their experiences before, during and after displacement and migration. These needs may not always align with the services available in host communities, underscoring the importance of inclusive, equitable and people-centred health systems.
+
+Many people leave their homes as a result of conflict, environmental degradation, disasters or economic hardship. Their health needs are shaped by conditions during all phases of their journey. Evidence presented in the first World report on the health of refugees and migrants shows that refugees and migrants do not increase the risk of communicable disease transmission in host countries; instead, health risks arise from conditions experienced during displacement, including limited access to clean water, sanitation, food, shelter and essential health services. These structural and environmental factors drive vulnerability to illness and disease.
+
+These conditions can increase risks of infectious diseases (e.g. measles, food- and waterborne illnesses), accidental injuries, hypothermia, burns, and other health consequences linked to hazardous travel and unmet basic needs. Refugees and migrants may also face heightened exposure to gender-based violence, with serious physical and mental health impacts.
+
+Refugees and migrants may experience problems commonly associated with extreme stress, such as anxiety, sleep disturbances, fatigue, or irritability. Some individuals may develop depression, anxiety disorders or post-traumatic stress disorder (PTSD), linked to their experiences of conflict, loss, violence, or prolonged uncertainty.
+
+Although refugees and migrants share many health determinants with host populations, displacement and migration introduce additional structural and environmental barriers. Strengthening equitable access to health services and addressing social, economic and environmental determinants of health are essential to building sustainable, inclusive and effective support for refugee and migrant communities, while fostering the overall resilience of host societies.
+
+Barriers to access to health services
+=====================================
+
+Many refugees and migrants, especially those in vulnerable or irregular situations, experience poorer health outcomes due to substandard living conditions and unfavorable social, economic and environmental determinants.
+
+They may face xenophobia, discrimination, and obstacles in accessing health and social services. Migrants in irregular situations may be excluded from national programmes for health promotion, disease prevention, treatment, and care, including financial protection schemes. This results in high out-of-pocket costs, language barriers, and inadequate cultural or linguistic support.
+
+Women and girls may face challenges accessing gender-based violence prevention and response services. Unaccompanied and separated children are at heightened risk of exploitation, abuse and neglect. People with disabilities may encounter additional accessibility and attitudinal barriers. Ensuring inclusive, accessible, and participatory approaches is essential to upholding their rights, health, and safety.
+
+In humanitarian settings, insecurity, infrastructure damage and disruptions to supply chains create further obstacles to accessing health care. These challenges affect both displaced populations and host communities.
+
+WHO response
+============
+
+WHO affirms that all people, including refugees and migrants, have the right to health and should be able to access people-centred, high-quality services without financial hardship. This requires integrating refugee and migrant health into national and local policies, financing, planning, implementation, monitoring and evaluation.
+
+While parallel health structures may sometimes be necessary in emergencies, these must remain temporary. WHO supports sustainable inclusion of refugees and migrants within national systems and services.
+
+Guided by the WHO global action plan on promoting the health of refugees and migrants, 2019–2030, WHO, through its Special Initiative on Health and Migration, works with Member States, and partners to advance health equity and the protection of health-related rights for refugees and migrants. WHO leads global advocacy, sets evidence-based norms and standards, strengthens data and research, and promotes coordinated, multisectoral approaches that address the specific health needs of refugees and migrants.
+
+WHO also supports multilateral collaboration through active engagement in the United Nations Network on Migration, working with UN agencies and international stakeholders to improve policy coherence and collective action. At country level, WHO works to strengthen health systems to deliver integrated, culturally-sensitive and high-quality services for host communities, refugees and migrants alike.
+
+Ensuring refugees and migrants have timely, affordable and dignified access to health care is essential to achieving health for all.
+
+References
+----------
+
+1. Glossary on migration. Geneva: International Organization for Migration; 2019 (https://publications.iom.int/system/files/pdf/iml_34_glossary.pdf). Licence: CC BY-NC-ND 3.0 IGO.
+
+2. UNHCR master glossary of terms [online database]. Geneva: United Nations High Commissioner for Refugees; 2021 (https://www.unhcr.org/glossary/).
+
+3. 2016 UNGA Summit for Refugees and Migrants (NY Declaration). In: Seventy-first General Assembly, 19 September 2016: resolution 71/1: New York declaration for refugees and migrants. New York, NY: United Nations; 2016 (https://docs.un.org/en/a/res/71/1). Licence: CC BY-4.0.
+
+4. International migrant stock 2024: key facts and figures. New York, NY: United Nations Department of Economic and Social Affairs; 2024 (UNDESA/POP/2024/DC/NO.13; https://www.un.org/development/desa/pd/content/international-migrant-stock). Licence: CC BY-4.0.
+
+5. ILO global estimates on international migrant workers, fourth edition. Geneva: International Labour Organization; 2024 (ILO global estimates on international migrants in the labour force | International Labour Organization https://www.ilo.org/publications/major-publications/ilo-global-estimates-international-migrants-labour-force).
+
+6. A quick look at global mobility trends [infographic]. Project Atlas; 2024 (https://www.iie.org/wp-content/uploads/2024/11/Project-Atlas_Infographic_2024-1.pdf).
+
+7. Mid-year trends [website]. United Nations High Commissioner for Refugees; 2026 (https://www.unhcr.org/uk/publications/mid-year-trends). Licence: CC BY-4.0.
+
+8. Human Development Report 2009: overcoming barriers: human mobility and development. New York, NY: United Nations Development Programme; 2009 (https://hdr.undp.org/content/human-development-report-2009). Licence: CC BY-4.0.
+
+9. 2025 Global Report on Internal Displacement (GRID). Geneva: Internal Displacement Monitoring Centre; 2025 (https://www.internal-displacement.org/global-report/grid2025/).

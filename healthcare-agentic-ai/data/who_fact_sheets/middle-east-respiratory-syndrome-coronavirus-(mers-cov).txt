@@ -1,0 +1,90 @@
+WHO FACT SHEET
+Title: Middle East respiratory syndrome coronavirus (MERS-CoV)
+URL: https://www.who.int/news-room/fact-sheets/detail/middle-east-respiratory-syndrome-coronavirus-(mers-cov)
+Retrieved: 2026-10-05T09:33:27.420539+00:00
+
+========================================
+
+Key facts
+=========
+
+- Middle East respiratory syndrome (MERS) is a viral respiratory disease caused by a coronavirus (MERS-CoV) that was first identified in Saudi Arabia and Jordan in 2012.
+
+- Coronaviruses are a large family of viruses that can cause diseases ranging from the common cold to Severe acute respiratory syndrome (SARS) and Coronavirus disease-2019 (COVID-19).
+
+- Typical MERS symptoms include fever, cough and shortness of breath, commonly leading to pneumonia.
+
+- About 70% of new or emerging pathogens are of animal origin, including MERS-CoV which can be transmitted between dromedary camels and people; onwards person-to-person transmission can lead to outbreaks in hospitals and households.
+
+- Over 2600 laboratory-confirmed cases of human infection with MERS-CoV have been reported to WHO; the majority (84%) were reported from the Arabian Peninsula.
+
+- Approximately 37% of MERS cases reported to WHO have died, but this likely is an overestimation as surveillance systems may miss mild or asymptomatic MERS cases.
+
+- There is currently no specific treatment or vaccine licensed for MERS.
+
+Overview
+========
+
+Middle East respiratory syndrome (MERS) is one of three high-impact zoonotic coronavirus diseases with pandemic potential that has emerged in recent years. The other two are SARS and COVID-19. Coronaviruses can cause diseases ranging from the common cold to severe respiratory symptoms and even death.
+
+MERS coronavirus (MERS-CoV) was first identified in Saudi Arabia and Jordan in 2012. Since then, 27 Member States from all WHO regions have reported cases of MERS-CoV infection to the WHO under the International Health Regulations (IHR, 2005), with 84% of all human cases reported by Saudi Arabia.
+
+MERS-CoV is a zoonotic virus and dromedary camels are the primary reservoir. Infected dromedaries do not get sick, therefore diagnosis in animals relies on laboratory testing.
+
+Since 2020 case reports have been sporadic, concentrated in the Arabian Peninsula and particularly in Saudi Arabia. Person-to-person transmission has been significantly reduced due to enhancements in surveillance, respiratory patient triage, and infection prevention and control.
+
+There is currently no specific treatment or vaccine licensed for MERS. This, combined with the high case fatality ratio of 37% recorded for reported cases, makes MERS-CoV a WHO priority pathogen for research and development.
+
+Geographic distribution
+=======================
+
+Since its first identification in 2012, 27 Member States from all WHO regions have reported cases of MERS-CoV infection to WHO under the International Health Regulations (IHR, 2005): Algeria, Austria, Bahrain, China, Egypt, France, Germany, Greece, the Islamic Republic of Iran, Italy, Jordan, Kuwait, Lebanon, Malaysia, the Netherlands, Oman, Philippines, Qatar, Republic of Korea, Kingdom of Saudi Arabia, Thailand, Tunisia, Türkiye, the United Arab Emirates, the United Kingdom of Great Britain and Northern Ireland, the United States of America, and Yemen.
+
+MERS-CoV appears to be circulating widely in dromedary camel populations throughout the Middle East and Africa regions and has also been detected in a few countries in South and Central Asia. Recent sero-prevalence studies in humans with occupational exposure to dromedary camels indicate that there is also zoonotic transmission occurring in Member States outside the Arabian Peninsula.
+
+More than 84% of all human cases have been reported by Saudi Arabia, as a result of direct or indirect contact with infected dromedary camels or with infected individuals in health-care facilities. Cases identified outside the Middle East are usually individuals who appear to have been infected in the Middle East and travel to areas outside the region.
+
+To date, a limited number of outbreaks have occurred outside the Middle East. The biggest was reported in May 2015, involving a hospital in the Republic of Korea. The index case in that outbreak had travel history to the Middle East and spread the virus further to both health-care workers and patients. As a result, 38 patients died, 186 people were infected, and Koreans experienced a national crisis. This is just one example of the devastating impact when MERS-CoV is introduced into the health-care system of a country that is not prepared to quickly identify, test, and control MERS.
+
+Transmission
+============
+
+Around 70% of new or emerging diseases are of animal origin, including MERS-CoV which is transmitted between dromedary camels and people. Human infection occurs from direct contact with dromedaries and possibly indirectly through the handling or consumption of camel-related raw products or secretions (e.g. milk and urine).
+
+Human-to-human transmission is possible and occurs predominantly among close contacts (family and household members) and in health-care settings (health-care workers and among patients). The largest outbreaks occurred in health-care facilities in the Republic of Korea, Saudi Arabia, and the United Arab Emirates.. Outside the health-care setting, human-to-human transmission has been limited and no sustained human-to-human transmission has been documented anywhere in the world.
+
+In health-care facilities, transmission of MERS-CoV has been documented from patients to health-care workers and among patients within the same room, often before MERS-CoV was diagnosed and the patient was appropriately isolated, and health-care workers followed the correct precautions. However, it is not always possible to identify patients with MERS‐CoV early or without specific laboratory testing because symptoms and other clinical features are very similar to other respiratory diseases.
+
+There have been clusters of cases and larger outbreaks reported in health-care facilities, especially when infection prevention and control practices are inadequate. Effective infection prevention and control measures are critical to prevent the spread of MERS-CoV and it is crucial for health-care facilities caring for patients with suspected or confirmed MERS-CoV infection to take the necessary precautions to minimize the risk of transmission from an infected patient to other patients, health-care workers, or visitors. Health and care workers should be educated and trained in infection prevention and control, sensitized for MERS case definitions, and should retain their skills and keep updated on new information in this area.
+
+Symptoms
+========
+
+The clinical spectrum of MERS-CoV infection ranges from not exhibiting any detectable symptoms (asymptomatic), to mild respiratory symptoms, to severe acute respiratory disease and even death. A typical presentation of MERS consists of fever, cough and shortness of breath, often developing into pneumonia. Gastrointestinal symptoms, including diarrhoea, have also been reported. Severe illness can cause respiratory and organ failure, often requiring mechanical ventilation or support in an intensive care unit.
+
+Older people (>65), people with weakened immune systems, and those with chronic diseases such as renal disease, cancer, chronic lung disease, hypertension, cardiovascular disease and diabetes, appear to be at greater risk of developing severe or fatal disease.
+
+Treatment and prevention
+========================
+
+Currently, there are no licensed vaccines or therapeutics for MERS-CoV and treatment of patients is supportive, targeted to the clinical condition. However, several MERS-CoV-specific vaccines and treatments are under development, with concrete plans for Phase II clinical trials for some of them.
+
+As a general precaution, individuals visiting farms, markets or other areas where animals are kept or displayed should practice good hygiene, such as washing hands before and after contact with animals and their products and avoiding contact with sick animals. The handling and consumption of raw or undercooked animal products, including milk and meat, carries a risk of infection from a variety of pathogens that can cause disease in humans. Animal products that are processed appropriately through cooking or pasteurization should be safe for consumption but should also be handled with care to avoid cross-contamination with uncooked foods. Camel meat and camel milk are nutritious products that can be consumed after pasteurization, cooking, or other heat treatments.
+
+Individuals at greater risk of developing severe disease should avoid contact with dromedary camels, handling or drinking raw camel milk or camel urine, or eating meat that has not been properly cooked.
+
+Travel
+======
+
+WHO does not recommend the application of any travel or trade restrictions or entry screening related to MERS-CoV.
+
+WHO is consistently monitoring the global, regional and national MERS-CoV epidemiologic situation and regularly updates risk assessments and technical guidance, including guidance and advice regarding travel to mass gatherings in countries reporting MERS cases, such as Hajj and Umrah. Travelers returning from gatherings in countries reporting MERS-CoV cases are advised to seek medical advice if they develop any symptoms of acute respiratory illness within two weeks of their return, and to disclose their recent travel history to health-care providers.
+
+WHO response
+============
+
+WHO is collaborating with public health, animal health experts, and international partners to better understand and respond to MERS-CoV. Efforts include improving surveillance for MERS-CoV and other respiratory pathogens in humans and animals, enhancing outbreak response through a One Health approach and prioritizing research to gather scientific evidence for informed decision-making and develop therapeutics and vaccines. WHO is also working with FAO, WOAH, and national governments to develop strategies to prevent zoonotic transmission, including vaccines for humans and camels.
+
+Global coordination involves tracking epidemiological trends, conducting risk assessments, supporting field investigations, offering technical guidance and training, and guiding efforts to enhance infection prevention and control, clinical management and treatment approaches.
+
+WHO urges Member States to maintain strong severe acute respiratory infection (SARI) surveillance, including MERS-CoV in areas where the virus is known to be circulating in dromedary camels, to review unusual pneumonia cases, and to apply appropriate infection prevention and control measures in health-care settings. Countries with travelers or migrant workers returning from the Middle East should test symptomatic individuals for MERS-CoV. As per the IHR (2005), all confirmed and probable MERS-CoV cases must be reported to WHO, including details on exposure, testing, and clinical course.

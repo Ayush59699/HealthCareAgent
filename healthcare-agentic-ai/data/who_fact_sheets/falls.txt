@@ -1,0 +1,116 @@
+WHO FACT SHEET
+Title: Falls
+URL: https://www.who.int/news-room/fact-sheets/detail/falls
+Retrieved: 2026-10-05T09:32:03.549497+00:00
+
+========================================
+
+Key facts
+=========
+
+- Falls are the second leading cause of unintentional injury deaths worldwide.
+
+- Each year an estimated 684 000 individuals die from falls globally of which over 80% are in low- and middle-income countries.
+
+- Adults older than 60 years of age suffer the greatest number of fatal falls.
+
+- 37.3 million falls that are severe enough to require medical attention occur each year.
+
+- Prevention strategies should emphasize education, training, creating safer environments, prioritizing fall-related research and establishing effective policies to reduce risk.
+
+A fall is defined as an event which results in a person coming to rest inadvertently on the ground or floor or other lower level. Fall-related injuries may be fatal or non-fatal(1) though most are non-fatal. For example, of children in the People's Republic of China, for every death due to a fall, there are 4 cases of permanent disability, 13 cases requiring hospitalization for more than 10 days, 24 cases requiring hospitalization for 1–9 days and 690 cases seeking medical care or missing work/school.
+
+The problem
+===========
+
+Globally, falls are a major public health problem. An estimated 684 000 fatal falls occur each year, making it the second leading cause of unintentional injury death, after road traffic injuries. Over 80% of fall-related fatalities occur in low- and middle-income countries, with regions of the Western Pacific and South East Asia accounting for 60% of these deaths. In all regions of the world, death rates are highest among adults over the age of 60 years.
+
+Though not fatal, approximately 37.3 million falls severe enough to require medical attention occur each year. Globally, falls are responsible for over 38 million DALYs (disability-adjusted life years) lost each year(2), and result in more years lived with disability than transport injury, drowning, burns and poisoning combined.
+
+While nearly 40% of the total DALYs lost due to falls worldwide occurs in children, this measurement may not accurately reflect the impact of fall-related disabilities for older individuals who have fewer life years to lose. In addition, those individuals who fall and suffer a disability, particularly older people, are at a major risk for subsequent long-term care and institutionalization.
+
+The financial costs from fall-related injuries are substantial. For people aged 65 years or older, the average health system cost per fall injury in the Republic of Finland and Australia are US$ 3611 and US$ 1049 respectively. Evidence from Canada suggests the implementation of effective prevention strategies with a subsequent 20% reduction in the incidence of falls among children under 10 years of age could create a net savings of over US$ 120 million each year.
+
+Who is at risk?
+===============
+
+While all people who fall are at risk of injury, the age, gender and health of the individual can affect the type and severity of injury.
+
+Age
+---
+
+Age is one of the key risk factors for falls. Older people have the highest risk of death or serious injury arising from a fall and the risk increases with age. For example, in the United States of America, 20–30% of older people who fall suffer moderate to severe injuries such as bruises, hip fractures, or head trauma. This risk level may be in part due to physical, sensory, and cognitive changes associated with ageing, in combination with environments that are not adapted for an ageing population.
+
+Another high risk group is children. Childhood falls occur largely as a result of their evolving developmental stages, innate curiosity in their surroundings, and increasing levels of independence that coincide with more challenging behaviours commonly referred to as ‘risk taking’. While inadequate adult supervision is a commonly cited risk factor, the circumstances are often complex, interacting with poverty, sole parenthood, and particularly hazardous environments.
+
+Gender
+------
+
+Across all age groups and regions, both genders are at risk of falls. In some countries, it has been noted that males are more likely to die from a fall, while females suffer more non-fatal falls. Older women and younger children are especially prone to falls and increased injury severity. Worldwide, males consistently sustain higher death rates and DALYs lost. Possible explanations of the greater burden seen among males may include higher levels of risk-taking behaviours and hazards within occupations.
+
+Other risk factors include:
+
+- occupations at elevated heights or other hazardous working conditions;
+
+- alcohol or substance use;
+
+- socioeconomic factors including poverty, overcrowded housing, sole parenthood, young maternal age;
+
+- underlying medical conditions, such as neurological, cardiac or other disabling conditions;
+
+- side effects of medication, physical inactivity and loss of balance, particularly among older people;
+
+- poor mobility, cognition, and vision, particularly among those living in an institution, such as a nursing home or chronic care facility;
+
+- unsafe environments, particularly for those with poor balance and limited vision.
+
+Prevention
+==========
+
+A range of interventions exist to prevent falls across the life-course. These include, but are not limited to, the following:
+
+For children and adolescents
+
+- Parenting programmes for low-income and marginalized families
+
+- Providing parents with information about child fall risks and supporting them to reduce these risks around the home
+
+For workers
+
+- Enforcement of more stringent workplace safety regulations in high risk occupations such as the construction industry
+
+- Multicomponent workplace safety programmes
+
+For older people
+
+- Gait, balance and functional training
+
+- Tai Chi
+
+- Home assessment and modifications
+
+- Reduction or withdrawal of psychotropic drugs
+
+- Multifactorial interventions (individual fall-risk assessments followed by tailored interventions and referrals to address identified risks)
+
+- Vitamin D supplements for those who are Vitamin D deficient
+
+In addition to the interventions mentioned above there are others that are considered prudent to implement despite the fact that they may never have a body of research to support them. This is because the nature of the intervention is such that they are unlikely to be the subject of high-quality research studies either due to difficulties in performing the required research, or because the interventions seem so basic or fundamental that research is not deemed necessary. Examples of such interventions include:
+
+- Fence off, or otherwise restrict access to dangerous areas
+
+- Promote policies and playground standards requiring soft play surfaces and restricted fall heights
+
+- Functioning occupational health and safety systems
+
+- Harnesses, restraint systems, fall arrest systems and safe scaffolding for those working at heights
+
+- Requiring landlords to make necessary modifications to homes and the enforcement of building standards
+
+- Improved accessibility of neighbourhoods and public spaces e.g. pavements
+
+- Ensure adequate staff-to-resident ratios in residential care facilities
+
+(1)Within the WHO Global Health Estimates, fall-related deaths and non-fatal injuries exclude falls due to assault and self-harm; falls from animals, burning buildings, transport vehicles; and falls into fire, water and machinery.
+
+(2)The disability-adjusted life year (DALY) extends the concept of potential years of life lost due to premature death to include equivalent years of “healthy” life lost by virtue of being in states of poor health or disability.

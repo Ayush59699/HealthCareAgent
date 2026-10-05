@@ -1,0 +1,92 @@
+WHO FACT SHEET
+Title: Refugee and migrant mental health
+URL: https://www.who.int/news-room/fact-sheets/detail/refugee-and-migrant-mental-health
+Retrieved: 2026-10-05T09:34:25.576109+00:00
+
+========================================
+
+Key facts
+=========
+
+- In 2024, there were 123.2 million forcibly displaced people globally, including 73.5 million internally displaced people, 36.8 million refugees, 8.4 million asylum-seekers, and 5.9 million others needing international protection (1).
+
+- Low- and middle-income countries host 71% of the world’s refugees and others needing international protection (1).
+
+- Refugees and migrants exposed to adversity are more likely than host populations to experience mental health conditions such as depression, anxiety, post-traumatic stress disorder (PTSD), suicide and psychoses.
+
+- Many refugees and migrants struggle to access mental health services and face disruptions in continuity of care.
+
+- Refugees and migrants contribute positively to society and there are many evidence-based strategies to support them in reaching their full potential.
+
+Overview
+
+Today more people than ever live in a country other than the one where they were born. While many people migrate out of choice, others migrate out of necessity. Some may be forcibly displaced from their homes as they flee persecution, conflict, violence or disaster. Others facing adversity may also have little option but to move, for example to escape inhuman treatment, avoid economic hardship, access social rights or reunite with families.
+
+Refugees and migrants exposed to adversity have diverse mental health needs, shaped by experiences in their country of origin, their migration journey, their host country’s entry and integration policies, and living and working conditions. In some contexts, they may be at greater risk of experiencing mental health conditions than their host population. Refugees and migrants face significant barriers that hamper inclusion in society and limit the accessibility and acceptability of mental health services. Addressing these typically requires targeted, multi-disciplinary action, including culturally sensitive and integrated mental health care, social support, legal assistance and community engagement.
+
+Stressors facing refugees and migrants
+======================================
+
+The experience of migration is a key determinant of refugee and migrant mental health. Each stage of the migration journey presents unique stressors that can increase the risk of developing mental health conditions.
+
+- Pre-migration: lack of livelihoods and opportunities for education and development, exposure to armed conflict, violence, natural disasters, poverty and/or persecution.
+
+- Migration travel and transit: exposure to challenging and life-threatening conditions including violence, detention and lack of access to services to cover basic needs.
+
+- Post-migration: barriers that hamper access to mental health care and other services, poor living conditions, separation from family members and support networks, potentially uncertain legal status, and in some cases detention in immigration centres.
+
+- Integration and settlement: poor living or working conditions, unemployment, assimilation difficulties, threats to cultural, religious, and gender identities, challenges with obtaining entitlements or navigating policies, racism and exclusion, tensions with host populations, social isolation and possible deportation.
+
+Risks and protective factors
+============================
+
+In all contexts, and at all stages of the migration journey, refugee and migrant mental health is influenced by diverse individual, family, community and structural factors that can be grouped into five areas.
+
+- Community support. Being part of a community with a shared background, and attending school for children, is associated with better mental health.
+
+- Basic needs and security. Insecure income, work, housing, legal status and access to food can contribute to poor mental health.
+
+- Stigma. Experiences of racism and discrimination may prevent or delay help seeking and are associated with adverse mental health outcomes.
+
+- Adversity and trauma. Exposure to potentially traumatic events such as conflict, abuse, violence and extended detention is associated with mental health conditions such as depression and PTSD.
+
+- Access to services. Language barriers, lack of awareness and confidentiality concerns often prevent refugees and migrants from accessing mental health care.
+
+Prevalence of mental health conditions
+======================================
+
+Many refugees and migrants experience distress, such as feelings of anxiety, sadness, hopelessness, difficulty sleeping, fatigue, irritability, anger and physical pains. For most people, these reactions improve over time. Others will go on to develop mental health conditions.
+
+Studies show that mental health conditions such as depression, anxiety, PTSD and suicide are more prevalent among refugees and migrants than host populations. In several countries, the incidence of psychoses is also higher among migrants, linked to cumulative social disadvantages throughout the migration journey.
+
+Policy considerations to benefit refugee and migrant mental health
+==================================================================
+
+- Promote community support and social inclusion. Encourage refugees and migrants to participate in society through community forums and peer-mentorship programmes. Avoid separating families and children.
+
+- Address social determinants. Ensure equal access to basic needs, such as food, housing, legal support, safety, education and employment. Involve multiple sectors (e.g. law enforcement, social services) to integrate mental health support and ensure referral and access to services.
+
+- Integrate mental health into general health care. Train general health workers to assess and treat people with mental health conditions. Also train other professionals (e.g. migration officers, social workers, teachers) to recognize, support and refer those needing mental health care. Adapt interventions to account for language and culture.
+
+- Offer flexible mental health services. Give people choices regarding the location, provider and treatment approach of their mental health care. Clearly communicate entitlements and service access options (e.g. through community outreach, schools, faith groups).
+
+- Protect human rights. Safeguard the human rights of all refugees and migrants regardless of legal status. Protect them from discrimination and violence, especially at-risk groups such as unaccompanied minors, people with disabilities and those who identify as LGBTIQ+.
+
+- Strengthen community capacity. Engage with refugee and migrant groups, provide information about mental health services, and offer community-based referrals. Improve continuity of care by ensuring communication among service providers and providing portable health information.
+
+WHO response
+============
+
+WHO uses its three strategic approaches to support Member States in including refugees and migrants in national health systems and ensuring their access to mental health services as part of their journey towards universal health coverage.
+
+Leadership and advocacy. WHO’s Global Action Plan (2019–2023) is designed to promote the health of refugees and migrants through concerted international action and cooperation. The updated Comprehensive Mental Health Action Plan (2013–2030) focuses specifically on promoting mental well-being, and reducing the impact of mental health conditions. It emphasizes the need to address disparities in access to care and improve support for at-risk groups, including refugees and migrants.
+
+Through the Global Compact on Refugees Multistakeholder pledge, WHO is committed to integrating mental health and psychosocial support in humanitarian, development and peace-building programmes. WHO also co-chairs the Inter-Agency Standing Committee Reference Group on Mental Health and Psychosocial Support in Emergency Settings, helping to ensure coordinated mental health responses in emergencies.
+
+Norms, standards and data. WHO’s 2023 Global Evidence Review on Health and Migration (GEHM) focused on the mental health needs of refugees and migrants, identifying major risks and protective factors and making key research and policy recommendations. With partners, WHO has also published a range of practical tools and guidelines to meet the mental health needs of people affected by emergencies, including refugees and migrants. These are used by most large international humanitarian organizations active in mental health.
+
+Country support. Working with partners such as the International Organization for Migration (IOM) and The UN Refugee Agency (UNHCR), WHO supports mental health in diverse countries and territories hosting large numbers of refugees and migrants, including Chad, Colombia, Ethiopia, Jordan, Lebanon, Sudan, Türkiye and Uganda.
+
+References
+
+1. Refugee data finder. Geneva: UNHCR – The UN Refugee Agency; 2024 (https://www.unhcr.org/refugee-statistics).

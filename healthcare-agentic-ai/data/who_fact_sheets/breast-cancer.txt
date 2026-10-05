@@ -1,0 +1,131 @@
+WHO FACT SHEET
+Title: Breast cancer
+URL: https://www.who.int/news-room/fact-sheets/detail/breast-cancer
+Retrieved: 2026-10-05T09:30:50.713046+00:00
+
+========================================
+
+Key facts
+=========
+
+- Breast cancer caused an estimated 694 000 deaths globally in 2024 and was the most common cancer in women in 164 countries out of 186 in the same year.
+
+- Approximately 80% of breast cancers occur in women with no specific risk factors other than sex and age.
+
+- Approximately 0.5–1% of breast cancers occur in men.
+
+- Effective interventions for early and timely diagnosis linked to comprehensive treatment, rehabilitation and palliative care are essential to reduce the burden of breast cancer and to achieve and maintain optimal functioning and well-being.
+
+Overview
+========
+
+Breast cancer is a disease in which abnormal cells in the breast grow out of control and form tumours. If left unchecked, the tumours can spread throughout the body and become fatal.
+
+Breast cancer cells begin inside the milk ducts and/or the milk-producing lobules of the breast. The earliest form (in situ) is not life-threatening and can be detected in early stages. Cancer cells can spread into nearby breast tissue (invasion). This creates tumours that cause lumps or thickening.
+
+Invasive cancers can spread to nearby lymph nodes or other organs (metastasize). Metastasis can be life-threatening and fatal. Treatment is based on the person, the type of cancer and its spread. Treatment combines surgery, radiation therapy and medications.
+
+Scope of the problem
+====================
+
+In 2024, there were an estimated 2.4 million women diagnosed with breast cancer and 694 000 deaths globally (1). Breast cancer occurs in every country of the world in women at any age after puberty but with increasing rates in later life.
+
+Global estimates reveal striking inequities in the breast cancer burden according to human development. For instance, in countries with a very high Human Development Index (HDI), 1 in 12 women will be diagnosed with breast cancer in their lifetime and 1 in 71 women die of it.
+
+In contrast, in countries with a low HDI, 1 in 27 women will be diagnosed with breast cancer in their lifetime and 1 in 48 women die from it.
+
+Who is at risk?
+===============
+
+Female gender is the strongest breast cancer risk factor. Approximately 99% of breast cancers occur in women and 0.5–1% of breast cancers occur in men.
+
+Certain factors increase the risk of breast cancer including increasing age, obesity, harmful use of alcohol, family history of breast cancer, history of radiation exposure, reproductive history (such as age that menstrual periods began and age at first pregnancy), tobacco use and postmenopausal hormone therapy. Approximately 80% of breast cancers develop in women who have no modifiable breast cancer risk factor other than gender (female) and age (over 40 years).
+
+Family history of breast cancer increases the risk of breast cancer, but most women diagnosed with breast cancer do not have a known family history of the disease. However, absence of a known family history does not necessarily mean that a woman is at low risk.
+
+Certain inherited high penetrance gene mutations greatly increase breast cancer risk, the most dominant being mutations in the genes BRCA1, BRCA2 and PALB-2. Women found to have mutations in these major genes or at high risk may consider risk reduction strategies such as chemoprevention and/or surgical removal of both breasts.
+
+Symptoms
+
+Breast cancer can have combinations of symptoms, especially when it is more advanced. Symptoms of breast cancer can include:
+
+- a breast lump or thickening, often without pain
+
+- change in size, shape or appearance of the breast
+
+- dimpling, redness, pitting or other changes in the skin
+
+- change in nipple appearance or the skin surrounding the nipple (areola)
+
+- abnormal or bloody fluid from the nipple.
+
+People with an abnormal breast lump should seek medical care, even if the lump does not hurt.
+
+Most breast lumps are not cancer. Breast lumps that are cancerous are more likely to be successfully treated when they are small and have not spread to nearby lymph nodes.
+
+Breast cancers may spread to other areas of the body and trigger other symptoms. Often, the most common first detectable site of spread is to the lymph nodes under the arm although it is possible to have cancer-bearing lymph nodes that cannot be felt.
+
+Over time, cancerous cells may spread to other organs including the lungs, liver, brain and bones. Once they reach these sites, new cancer-related symptoms such as bone pain or headaches may appear.
+
+Management of breast cancer
+===========================
+
+Mortality is reduced when breast cancer cases are detected and treated early. There are two components of early detection:
+
+- early diagnosis: being aware of signs and symptoms of breast cancer and the importance of seeking medical advice for abnormal findings, timely clinical evaluation and diagnosis and referral for treatment services; and
+
+- screening: the application of mammography in an apparently healthy population, usually women 50-69 years of age, to identify pre-clinical lesions before recognizable signs or symptoms appear.
+
+Treatment for breast cancer depends on the subtype of cancer and how much it has spread outside of the breast to lymph nodes (stages II or III) or to other parts of the body (stage IV) and may be combined to minimize the chances of the cancer coming back (recurrence). These include:
+
+- surgery to remove the breast tumour;
+
+- radiation therapy to reduce recurrence risk in the breast and surrounding tissues; and
+
+- medications to kill cancer cells and prevent spread, including hormonal therapies, chemotherapy or targeted biological therapies.
+
+Treatments for breast cancer are more effective and are better tolerated when started early and taken to completion. The effectiveness of breast cancer therapies depends on completing the full course of treatment. Partial treatment is less likely to lead to a positive outcome.
+
+Surgery may remove just the cancerous tissue (called a lumpectomy) or the whole breast (mastectomy). Lymph nodes are removed at the time of cancer surgery for invasive cancers. Complete removal of the lymph node bed under the arm (complete axillary dissection) was thought to be necessary in the past to prevent the spread of cancer. A smaller lymph node procedure called “sentinel node biopsy” is now preferred as it has fewer complications.
+
+Radiation therapy treats residual microscopic cancers left behind in the breast tissue and/or lymph nodes and minimizes the chances of cancer recurring on the chest wall.
+
+Advanced cancers can erode through the skin to cause open sores (ulceration) but are not necessarily painful. Women with breast wounds that do not heal should seek medical care to have a biopsy performed.
+
+Medicines to treat breast cancers are selected based on the biological properties of the cancer as determined by special tests. The great majority of medicines used for breast cancer are already on the WHO Essential Medicines List (EML).
+
+Medical treatments for breast cancers, which may be given before (“neoadjuvant”) or after (“adjuvant”) surgery, are based on the biological subtyping of the cancers. Certain subtypes of breast cancer, such as triple negative (those that do not express estrogen receptor (ER), progesterone receptor (PR) or HER-2 receptor), are more aggressive than others.
+
+Cancers that express the estrogen receptor (ER) and/or progesterone receptor (PR) are likely to respond to endocrine (hormone) therapies such as tamoxifen or aromatase inhibitors. These medicines are taken orally for years and reduce the chance of recurrence of these “hormone-positive” cancers by nearly half. Endocrine therapies can cause symptoms of menopause but are generally well tolerated.
+
+Cancers that do not express ER or PR are “hormone receptor negative” and need to be treated with chemotherapy unless the cancer is very small. The chemotherapy regimens available today are very effective in reducing the chances of cancer spread or recurrence and are generally given as outpatient therapy, not requiring hospital admission in the absence of complications.
+
+Breast cancers that independently overexpress a molecule called the HER-2/neu oncogene (HER-2 positive) are amenable to treatment with targeted biological agents such as trastuzumab. When targeted biological therapies are given, they are combined with chemotherapy to make them effective at killing cancer cells.
+
+Radiotherapy plays a very important role in treating breast cancer. With early-stage breast cancers, radiation can prevent a woman having to undergo a mastectomy. With later stage cancers, radiotherapy can reduce cancer recurrence risk even when a mastectomy has been performed.
+
+Early access to a multidisciplinary team that includes oncologists, radiologists, pathologists, dieticians/nutritionists, physical therapists, social workers, mental health, palliative care and rehabilitation teams both during and after completion of treatment helps improve outcomes. It also helps patients maintain or restore their functioning, independence and participation in meaningful life roles and community activities more quickly than might otherwise be the case.
+
+Prehabilitation, including lifestyle-based interventions (exercise, diet and nutritional supplementation and psychological support) between diagnosis and treatment has proven effective in minimizing complications related to the treatment.
+
+Since the whole continuum of care is often complex, patient navigation helps streamline care pathways, improving health outcomes and patient satisfaction, and guiding individuals – especially in resource-limited or fragmented systems – through the cancer care continuum to ensure timely diagnosis and treatment completion. Benefits include increased screening rates, reduced hospital readmissions, better treatment understanding, and improved quality of life.
+
+Global impact
+
+Age-standardized breast cancer mortality in high-income countries dropped by 40% between the 1980s and 2020. Countries that have succeeded in reducing breast cancer mortality have been able to achieve an annual breast cancer mortality reduction of 2–4% per year.
+
+The strategies for improving breast cancer outcomes depend on fundamental health system strengthening to deliver the treatments that are already known to work. These are also important for the management of other cancers and other noncommunicable diseases (NCDs).
+
+The establishment of reliable referral pathways from primary care facilities to secondary hospitals to dedicated cancer centres is the same approach as is required for the management of cervical cancer, lung cancer, colorectal cancer and prostate cancer. To that end, breast cancer is a so-called index disease whereby pathways are created that can be followed for the management of other cancers.
+
+WHO response
+============
+
+By providing public health education to improve awareness among women of the signs and symptoms of breast cancer and, together with their families, understand the importance of early detection and treatment, more women would consult medical practitioners when breast cancer is first suspected, have access to clinical evaluation and diagnosis and get referral for timely treatment before any cancer present is advanced. This is possible even in the absence of mammographic screening that is impractical in many countries at the present time.
+
+In 2021, the World Health Organization established the Global Breast Cancer Initiative (GBCI), to bring together stakeholders from around the world and across sectors with the shared goal of reducing global breast cancer mortality by 2.5% per year, thereby averting 2.5 million breast cancer deaths globally by 2040. The three pillars of action are: health promotion for early detection; timely diagnosis; and comprehensive breast cancer management.
+
+References
+----------
+
+1. Ferlay J EM, Lam F, Laversanne M, Colombet M, Mery L et al. Global Cancer Observatory: Cancer Today [website]. International Agency for Research on Cancer; 2026 (https://gco.iarc.fr/today)

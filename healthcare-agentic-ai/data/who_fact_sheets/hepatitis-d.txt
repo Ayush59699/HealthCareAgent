@@ -1,0 +1,83 @@
+WHO FACT SHEET
+Title: Hepatitis D
+URL: https://www.who.int/news-room/fact-sheets/detail/hepatitis-d
+Retrieved: 2026-10-05T09:32:30.687071+00:00
+
+========================================
+
+Key facts
+=========
+
+- Hepatitis D virus (HDV) is a virus that requires hepatitis B virus (HBV) for its replication. Chronic HDV occurs only in people living with HBV.
+
+- HDV affects globally nearly 5% (an estimated 12 million) of people who have a chronic infection with HBV.
+
+- Populations that are more likely to have HBV and HDV co-infection include indigenous populations, recipients of haemodialysis and people who inject drugs.
+
+- Chronic HDV infection is considered the most severe form of chronic viral hepatitis due to more rapid progression towards liver-related death and hepatocellular carcinoma.
+
+- HDV has recently been classified as carcinogenic to humans, just like hepatitis B and C.
+
+- Hepatitis D infection can be prevented by hepatitis B immunization.
+
+- Novel treatment options with better safety profiles and outcomes are emerging and have been approved in Europe.
+
+Overview
+========
+
+Hepatitis D is an inflammation of the liver caused by the hepatitis D virus (HDV), which requires hepatitis B virus (HBV) for its replication. Hepatitis D infection cannot occur in the absence of HBV. HDV–HBV co-infection is considered the most severe form of chronic viral hepatitis due to more rapid progression towards hepatocellular carcinoma and liver-related death. Vaccination against hepatitis B can prevent HDV infection. HDV has recently been classified as carcinogenic to humans (class I) by the IARC Monographs Programme, just like hepatitis B and C.
+
+Geographical distribution
+=========================
+
+In a study published in the Journal of Hepatology in 2020 (1), conducted in collaboration with WHO, it was estimated that hepatitis D virus (HDV) affects nearly 5% of people globally who have a chronic infection with hepatitis B virus (HBV) and that HDV co-infection could explain about 1 in 5 cases of liver disease and liver cancer in people with HBV infection. The study has identified several geographical hotspots of high prevalence of HDV infection including Mongolia, the Republic of Moldova, and countries in western and central Africa.
+
+Transmission
+============
+
+HDV is blood borne and transmitted in the same way as HBV. Transmission may occur through contact with infected human blood or other bodily fluids. It may also be transmitted through sexual intercourse, or rarely from a mother to her child before or around birth (vertical transmission). HDV can also spread within families in endemic areas.
+
+Chronic HBV carriers are at risk of infection with HDV. People who are not immune to HBV (either by natural disease or immunization with the hepatitis B vaccine) are at risk of infection with HBV, which puts them at risk of HDV infection.
+
+Those who are more likely to have HBV and HDV co-infection include indigenous people, people who inject drugs and people with hepatitis C virus or HIV infection. The risk of HDV infection also appears to be potentially higher in recipients of haemodialysis, men who have sex with men and commercial sex workers.
+
+Vaccination against HBV can prevent HDV coinfection and hence expansion of childhood HBV immunization programmes has resulted in a decline in hepatitis D incidence worldwide.
+
+Symptoms
+========
+
+Simultaneous infection with HBV and HDV can lead to mild-to-severe hepatitis with signs and symptoms of indistinguishable from those of other types of acute viral hepatitis infections. These features typically appear 3–7 weeks after initial infection and include fever, fatigue, loss of appetite, nausea, vomiting, dark urine, pale-coloured stools, jaundice (yellow eyes) and even fulminant hepatitis. However, recovery is usually complete, development of fulminant hepatitis is infrequent, and progression to chronic hepatitis D is rare (less than 5% of acute hepatitis).
+
+In a superinfection, HDV can infect a person already chronically infected with HBV. The superinfection of HDV on chronic hepatitis B accelerates progression to a more severe disease in all ages and in 70‒90% of persons. HDV superinfection markedly accelerates progression to cirrhosis when compared with HBV mono-infected persons. Patients with HDV induced cirrhosis are at an increased risk of hepatocellular carcinoma (HCC); however, the mechanism in which HDV causes more severe hepatitis and a faster progression of fibrosis than HBV alone remains unclear.
+
+Diagnosis
+=========
+
+Diagnosing chronic HDV requires serology to demonstrate exposure (past or current infection) and molecular methods to demonstrate the presence of HDV RNA and active infection.
+
+However, HDV diagnostics are not widely available – especially in low- and middle-income countries – and there is only little standardization for HDV RNA assays, which are essential to detect active, viremic infection and for monitoring response to antiviral therapy.
+
+Treatment
+=========
+
+Until recently, pegylated interferon α (PEG-IFNα) had been the only treatment option for chronic HDV. However, its use has been limited by poor treatment outcomes, side-effects and contraindications. Only about 20–30% of those treated with PEG-IFNα achieve complete virological response under treatment, and relapse is frequent.
+
+The HDV treatment landscape is now rapidly evolving, with some novel agents showing favourable results. In 2023, Bulevirtide, an entry inhibitor that is given once daily through subcutaneous injection, received approval for treatment of chronic HDV by the European Medicines Agency (EMA) among adults with compensated liver disease. Several multi-centre studies continue to evaluate best treatment dosage, treatment duration and possible combination with PEG-IFNα.
+
+Nucleoside analogues used for hepatitis B treatment have shown no direct benefit in controlling HDV although they are generally used for managing the chronic HBV infection.
+
+Prevention
+==========
+
+Prevention services of hepatitis D should focus on reducing HBV transmission through hepatitis B immunization, including timely birth dose, additional antiviral prophylaxis for eligible pregnant women, blood safety, safe injection practices in health-care settings and harm reduction services with clean needles and syringes. Hepatitis B immunization does not provide protection against HDV for those already infected with HBV.
+
+WHO response
+============
+
+Global health sector strategies on, respectively, HIV, viral hepatitis, and sexually transmitted infections for the period 2022–2030 (GHSS) guide the health sector in implementing strategically focused responses to achieve the goals of ending AIDS, viral hepatitis (especially chronic hepatitis B and C) and sexually transmitted infections by 2030.
+
+The GHSS recommends shared and disease-specific country approaches supported by actions through WHO and partners. They consider the epidemiological, technological and contextual shifts of previous years, foster learnings across the disease areas, and create opportunities to leverage innovations and new knowledge for effective responses to the diseases. They call to scale up prevention, testing and treatment of viral hepatitis with a focus to reach populations and communities most affected and at risk for each disease, as well as addressing gaps and inequities. They promote synergies under a universal health coverage and primary health care framework and contribute to achieving the goals of the 2030 Agenda for Sustainable Development.
+
+Additionally, WHO released updated Guidelines for the prevention, diagnosis, care and treatment for people with chronic hepatitis B infection in 2024. These guidelines now include formal recommendations for testing and confirmatory diagnosis of HDV. WHO is working as well to include the key HDV tests into its essential diagnostics list and is working with partners and member states to highlight the importance of a public health response to HDV.
+
+WHO organizes annual World Hepatitis Day campaigns on 28 July to increase awareness and understanding of viral hepatitis.

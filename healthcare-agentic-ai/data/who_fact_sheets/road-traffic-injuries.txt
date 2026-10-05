@@ -1,0 +1,129 @@
+WHO FACT SHEET
+Title: Road traffic injuries
+URL: https://www.who.int/news-room/fact-sheets/detail/road-traffic-injuries
+Retrieved: 2026-10-05T09:34:34.422638+00:00
+
+========================================
+
+Key facts
+
+- Approximately 1.16 million people die each year as a result of road traffic crashes.
+
+- Road traffic injuries are the leading cause of death for children and young adults aged 5–29 years.
+
+- 92% of the world's fatalities on the roads occur in low- and middle-income countries, even though these countries have around 60% of the world's vehicles.
+
+- More than half of all road traffic deaths are among vulnerable road users, including pedestrians, cyclists and motorcyclists.
+
+- Road traffic crashes cost most countries 3% of their gross domestic product.
+
+- The United Nations General Assembly has set an ambitious target of halving the global number of deaths and injuries from road traffic crashes by 2030 (A/RES/74/299).
+
+Overview
+========
+
+Every year the lives of approximately 1.16 million people are cut short as a result of a road traffic crash. Between 20 and 50 million more people suffer non-fatal injuries, with many incurring a disability.
+
+Road traffic injuries cause considerable economic losses to individuals, their families, and to nations as a whole. These losses arise from the cost of treatment as well as lost productivity for those killed or disabled by their injuries, and for family members who need to take time off work or school to care for the injured. Road traffic crashes cost most countries 3% of their gross domestic product.
+
+Who is at risk?
+===============
+
+Socioeconomic status
+--------------------
+
+More than 90% of road traffic deaths occur in low- and middle-income countries. Road traffic death rates are highest in the WHO African Region and lowest in the European Region. Even within high-income countries, people from lower socioeconomic backgrounds are more likely to be involved in road traffic crashes.
+
+Age
+---
+
+Road traffic injuries are the leading cause of death for children and young adults aged 5–29 years. Two thirds of road traffic fatalities occur among people of working age (18–59 years),
+
+Sex
+---
+
+Males are typically 3 times more likely to be killed in road crashes than females.
+
+Risk factors
+============
+
+The safe system approach: accommodating human error
+---------------------------------------------------
+
+Transport systems should be responsive to the needs of users and forgiving of human error. The safe system approach to road safety aims to ensure a safe transport system for all road users. This approach takes into account people’s vulnerability to serious injuries and recognizes that the system should be designed to accommodate human error. The cornerstones of this approach are safe roads and roadsides, safe speeds, safe vehicles, and safe road users, all of which must be addressed in order to eliminate fatal crashes and reduce serious injuries.
+
+Speeding
+--------
+
+- An increase in average speed is directly related both to the likelihood of a crash occurring and to the severity of the consequences of the crash. For example, every 1% increase in mean speed produces a 4% increase in the fatal crash risk and a 3% increase in the serious crash risk.
+
+- The risk of death for pedestrians hit by car fronts rises rapidly (4.5 times from 50 km/h to 65 km/h).
+
+- In car-to-car side impacts the fatality risk for car occupants is 85% at 65 km/h.
+
+Driving under the influence of alcohol and other psychoactive substances
+------------------------------------------------------------------------
+
+- Driving under the influence of alcohol and any psychoactive substance or drug increases the risk of a crash that results in death or serious injuries.
+
+- In the case of drink-driving, the risk of a road traffic crash starts at low levels of blood alcohol concentration (BAC) and increases significantly when the driver's BAC is ≥ 0.04 g/dl.
+
+- In the case of drug-driving, the risk of incurring a road traffic crash is increased to differing degrees depending on the psychoactive drug used. For example, the risk of a fatal crash occurring among those who have used amphetamines is about 5 times the risk of someone who hasn't.
+
+Non-use of motorcycle helmets, seat-belts and child restraints
+--------------------------------------------------------------
+
+- Correct helmet use can reduce the risk of death in a crash by more than 6 times and the risk of brain injury by up to 74%.
+
+- Wearing a seat-belt can reduce the risk of death among vehicle occupants by up to 50%.
+
+- The use of child restraints can lead to a 71% reduction in deaths among infants.
+
+Distracted driving
+------------------
+
+There are many types of distractions that can lead to impaired driving. The distraction caused by mobile phones is a growing concern for road safety.
+
+- Drivers using mobile phones are approximately 4 times more likely to be involved in a crash than drivers not using a mobile phone. Using a phone while driving slows reaction times (notably braking reaction time, but also reaction to traffic signals), and makes it difficult to keep in the correct lane, and to keep the correct following distances.
+
+- Hands-free phones are not much safer than hand-held phone sets. Texting considerably increases the risk of a crash.
+
+Unsafe road infrastructure
+--------------------------
+
+The design of roads can have a considerable impact on their safety. Ideally, roads should be designed keeping in mind the safety of all road users. This would mean making sure that there are adequate facilities for pedestrians, cyclists and motorcyclists. Measures such as footpaths, cycling lanes, safe crossing points and other traffic calming measures can be critical to reducing the risk of injury among these road users.
+
+Unsafe vehicles
+---------------
+
+Safe vehicles play a critical role in averting crashes and reducing the likelihood of serious injury. There are a number of UN regulations on vehicle safety that, if applied to countries’ manufacturing and production standards, would potentially save many lives. These include requiring vehicle manufacturers to meet front and side impact regulations, to include electronic stability control (to prevent over-steering) and to ensure airbags and seat-belts are fitted in all vehicles. Without these basic standards the risk of traffic injuries – both to those in the vehicle and those out of it – is considerably increased.
+
+Inadequate post-crash care
+--------------------------
+
+Delays in detecting and providing care for those involved in a road traffic crash increase the severity of injuries. Care of injuries after a crash has occurred is extremely time-sensitive: delays of minutes can make the difference between life and death. Improving post-crash care requires ensuring access to timely prehospital care, and improving the quality of both prehospital and hospital care, such as through specialist training programmes.
+
+Inadequate law enforcement of traffic laws
+------------------------------------------
+
+If traffic laws on drink-driving, seat-belt wearing, speed limits, helmets and child restraints are not enforced, they cannot bring about the expected reduction in road traffic fatalities and injuries related to specific behaviours. Thus, if traffic laws are not enforced or are perceived as not being enforced, it is likely they will not be complied with and therefore will have very little chance of influencing behaviour.
+
+Effective enforcement includes establishing, regularly updating, and enforcing laws at the national, municipal, and local levels that address the above mentioned risk factors. It includes also the definition of appropriate penalties.
+
+Prevention
+==========
+
+Road traffic injuries can be prevented. Governments must take action to address road safety in a holistic manner. This requires involvement from multiple sectors such as transport, police, health and education, as well as the private sector and civil society organizations. It requires actions that address the safety of roads, vehicles and all road users.
+
+Effective interventions include designing safer infrastructure and incorporating road safety features into land-use and transport planning, improving the safety features of vehicles; enhancing post-crash care for victims of road traffic crashes; setting and enforcing laws relating to key risks, and raising public awareness.
+
+WHO response
+============
+
+WHO works with Member States and partners across sectors to support road safety evaluation, implementation and planning. As the lead agency for road safety in the United Nations, WHO plays a key role in guiding global efforts by advocating for road safety at the highest levels, compiling and sharing good practices and raising awareness of road safety.
+
+WHO serves as the secretariat for the United Nations Decade of Action for Road Safety 2021–2030, which aims to reduce road traffic deaths and injuries by at least 50% by 2030. This includes convening a global network of heads of national road safety agencies, producing global status reports to track progress, and providing technical assistance.
+
+WHO works with a range of partners to provide technical support to countries. For example, WHO works with the Bloomberg Initiative for Global Road Safety (BIGRS) to reduce fatalities and injuries from road traffic crashes in a range of low- and middle-income countries.
+
+WHO chairs the UN Road Safety Collaboration mechanism and organizes and hosts, with key partners, high profile advocacy events such as UN road safety weeks and the annual World Day of Remembrance for Road Traffic Victims.

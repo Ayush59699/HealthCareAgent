@@ -1,0 +1,151 @@
+WHO FACT SHEET
+Title: Gonorrhoea (Neisseria gonorrhoeae infection)
+URL: https://www.who.int/news-room/fact-sheets/detail/gonorrhoea-(neisseria-gonorrhoeae-infection)
+Retrieved: 2026-10-05T09:32:14.728308+00:00
+
+========================================
+
+Key facts
+=========
+
+- Gonorrhoea is a preventable and curable sexually transmitted infection caused by the bacterium Neisseria gonorrhoeae, which is primarily transmitted through vaginal, oral or anal sex.
+
+- In 2020 there were an estimated 82.4 million new infections among adults globally.
+
+- Most women with gonorrhoea do not have symptoms, and when they do, vaginal discharge is common, while most men present with discharge from their penis.
+
+- If left untreated, gonorrhoea can lead to infertility in both men and women and other sexual and reproductive health complications. It also increases the risk of HIV infection.
+
+- Antimicrobial resistance to gonorrhoea is a serious and growing problem, rendering many classes of antibiotics as ineffective with the risk of becoming untreatable.
+
+Overview
+========
+
+Gonorrhoea is a common sexually transmitted infection caused by a bacteria. It usually spreads through vaginal, oral or anal sex. Gonorrhoea is treatable and curable with antibiotics.
+
+Most cases of gonorrhoea can be prevented with regular and correct condom use.
+
+Gonorrhoea causes different symptoms in women and men. Women often feel no symptoms, but untreated infection can lead to infertility and problems during pregnancy.
+
+Common symptoms in men include pain or burning when urinating, discharge from the penis and sometimes pain in the testes.
+
+Gonorrhoea can be passed from a pregnant mother to her baby.
+
+Gonococcal infection increases the risk of getting and spreading HIV.
+
+Scope of the problem
+====================
+
+In 2020, WHO estimated 82.4 million new infections with N. gonorrhoeae among adults aged 15 to 49 years. Prevalence of gonorrhoea is highest among priority populations such as men who have sex with men, sex workers, transgender women and adolescents and young people in high burden countries.
+
+Gonorrhoea is treatable and can be cured with some antibiotics. However, the emergence of N. gonorrhoeae resistant to antibiotics are making treatment of gonorrhoea more and more challenging, with the risk of becoming untreatable. Rational use of antibiotics and the development of new ones are critical to decrease this eminent threat.
+
+Signs and symptoms
+==================
+
+Gonorrhoea can cause symptoms in the genitals, anus or throat. Men and women may experience different symptoms. Symptoms usually begin 1–14 days after sexual contact with an infected person.
+
+In men, common symptoms include:
+
+- a white, yellow or greenish discharge from the penis
+
+- pain or burn when urinating
+
+- painful or swollen testes.
+
+Most women with gonorrhoea do not have symptoms or do not notice them. If they occur, they can include:
+
+- vaginal discharge
+
+- pain or burning when urinating
+
+- vaginal bleeding between periods or during sexual intercourse.
+
+Anal infection in women and men can cause:
+
+- discharge
+
+- bleeding
+
+- itchiness
+
+- soreness
+
+- painful bowel movements.
+
+Throat infections often have no symptoms. If symptoms occur, they can include redness, pain and sore throat.
+
+Infants born to mothers with gonorrhoea may develop an eye infection. This causes redness, pain, soreness, ulcers and tearing. This is preventable with eye medications for newborns.
+
+Possible complications
+======================
+
+Untreated N. gonorrhoeae infections can lead to complications and sequelae in women, such as pelvic inflammatory disease (PID), ectopic pregnancy, and infertility.
+
+Complications in men are scrotal swelling, urethral stricture and infertility.
+
+Neonatal conjunctivitis (eye infection) if untreated may lead to blindness.
+
+In rare cases, disseminated gonococcal infection can occur and it is manifested as fever and infection in multiple organs of the body such as skin, heart, joints and meninges.
+
+Infection with gonorrhoea can cause stigma and affect personal relationships. These effects are important but often not quantifiable.
+
+Diagnosis
+=========
+
+Molecular tests are the gold standard for diagnosing N. gonorrhoeae which can be performed in the laboratory or at the point of care. Rapid diagnostic tests are currently under development.
+
+Gram stain microscopy is used in some laboratories. However, this method is less sensitive in women with vaginal/cervical discharge as well as for throat and anal infections.
+
+In many primary health care settings where diagnostic capacity for detecting N. gonorrhoeae through molecular tests is not available, a syndromic approach for case management is recommended.
+
+Sexual history taking and risk assessment are crucial in evaluating a service user before diagnosis. Clinical examination, speculum examination (in women) and palpation can provide important clues to clinical diagnosis.
+
+Urine samples (preferred for men) are commonly used for diagnosing gonorrhoea through molecular tests or gram stain microscopy, but swabs (preferred for women) from genital and other sites (anus, throat, conjunctiva) can be used depending on the location of symptoms, sexual practices and medical history.
+
+Because the majority of cases are without symptoms, screening strategies for populations at increased risk of gonorrhoea to prevent the spread of infection and the development of complications is recommended. Testing is usually coupled with tests for other sexually transmitted infections (such as HIV, syphilis and chlamydia).
+
+Antimicrobial sensitivity testing (also known as drug susceptibility testing) for N. gonorrhoeae is done in cases of clinical treatment failure to check if the pathogen is resistant to medications. WHO recommends that countries monitor their patterns of antimicrobial resistance to inform treatment recommendations.
+
+Treatment
+=========
+
+People with gonorrhoea should be treated as soon as possible.
+
+Gonorrhoea is treated with antibiotics called cephalosporins. These include:
+
+- ceftriaxone, usually given by injection and is the preferred treatment
+
+- cefixime, typically administered orally, alongside a test of cure or in combination with a high dose of azithromycin, only when ceftriaxone is not feasible.
+
+People should wait 7 days after taking the medicine before having sex. They should notify their sexual partner(s) to get tested or treated.
+
+Treatments can fail due to:
+
+- not taking medications as directed
+
+- reinfection
+
+- the bacterium becoming resistant to the drug
+
+- having another untreated infection with similar symptoms.
+
+People with gonorrhoea should continue treatment until the infection is cured.
+
+Prevention
+==========
+
+Most cases of gonorrhoea can be prevented with consistent and correct condom use in every sexual encounter.
+
+People with gonorrhoea should notify current and recent sexual partner(s) to help prevent the spread of the disease.
+
+Antibiotic eye ointment is recommended for newborns to prevent gonococcal eye infection.
+
+There are no specific vaccines for the prevention of gonorrhoea. However, studies are showing promising results with the use of a meningococcal type B vaccine (4CMenB) that seems to offer cross-protection against gonorrhoea. WHO is monitoring vaccine trials results.
+
+WHO response
+============
+
+WHO has recognized gonorrhoea as a significant public health problem and has set ambitious targets to reduce the global burden through prevention, diagnosis, and treatment strategies. The Global Health Sector Strategies on HIV, viral hepatitis and STIs 2022–2030 aims to reduce the incidence of N. gonorrhoeae infection by 90% by 2030, compared to 2020 baseline. WHO is working with countries and partners to improve people-centred case management approaches, ensure appropriate treatment recommendations and effective testing and partner services strategies, support the development of new easy to use and affordable diagnostics and treatment, vaccine development and improve surveillance.
+
+WHO also works with countries and partners to improve antimicrobial resistance stewardship through the Enhanced Gonorrhoea Antimicrobial Surveillance Program (EGASP), which includes the implementation and use of better surveillance systems to detect antimicrobial resistance in N. gonorrhoeae and to inform locally appropriate treatment.

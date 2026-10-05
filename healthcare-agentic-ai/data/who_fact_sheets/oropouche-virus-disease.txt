@@ -1,0 +1,114 @@
+WHO FACT SHEET
+Title: Oropouche virus disease
+URL: https://www.who.int/news-room/fact-sheets/detail/oropouche-virus-disease
+Retrieved: 2026-10-05T09:33:57.601108+00:00
+
+========================================
+
+Key facts
+=========
+
+- Oropouche virus disease (also known as Oropouche fever) is a febrile illness, from which patients typically recover quickly, that is caused by the Oropouche virus, which is spread to humans through the bites of infected biting midges, and possibly of some mosquitoes.
+
+- The Oropouche virus is present mostly in South America and the Caribbean, but since December 2023 more cases were reported, totalling over 10 000 cases in 2024, including from areas in the region where it was not previously detected.
+
+- Symptoms of Oropouche virus disease are similar to those that occur in other diseases, such as dengue and chikungunya, and the cause of infection is often misdiagnosed.
+
+- In 2024 concerns arose about possible complications of Oropouche virus infection including two deaths in previously healthy infected adults, and of possible negative outcomes of infection during pregnancy with associated fetal death, miscarriage, and microcephaly in newborns, that requires further investigation and research.
+
+- No specific treatments or vaccines are available for Oropouche virus disease, and patients should receive supportive care.
+
+- Infections can be prevented mainly through vector control and personal protective measures against insect bites, including use of meshed bed nets, chemical insecticides, protective clothing, and insect repellents is recommended.
+
+Overview
+========
+
+Oropouche virus disease is caused by the Oropouche virus (OROV) that can cause fever, headache, joint pain, muscle pain, chills, nausea, vomiting and rash. Most people recover on their own, but the disease can cause severe symptoms in some patients.
+
+OROV is a segmented single-stranded RNA virus belonging to the family Peribunyaviridae, genus Orthobunyavirus, which was first identified in 1955 in Vega de Oropouche, Trinidad and Tobago (1).
+
+The virus is transmitted to people through the bite of an infected insect, usually biting midges but also possibly by mosquitoes. It is thus referred to as an arthropod-borne virus (arbovirus). Prior to late 2023, reported cases of Oropouche virus disease were limited to South America, mostly near the Amazon rainforest, and the Caribbean. However, since December 2023, cases have been detected in other areas and have become more severe. In 2024, outbreaks have been documented outbreaks in nonendemic areas, two fatal cases with confirmed infection, and the possibility of mothers transmitting the disease to their babies while pregnant.
+
+Distribution and outbreaks
+==========================
+
+Oropouche virus disease was the second most common arboviral disease in South America (after dengue) before the emergence of chikungunya and Zika viruses in 2013 and 2015.
+
+Prior to late 2023, Oropouche virus disease was reported in Brazil, Bolivia, Colombia, Ecuador, Haiti, Panama, Peru, Trinidad and Tobago, French Guiana and Venezuela; most cases were reported near the Amazon rainforest area. However, since December 2023, there has been an increase in the number of cases reported, including in areas where transmission had not been previously documented.
+
+In 2024, locally transmitted Oropouche virus disease was reported in seven countries in Latin America and the Caribbean: Brazil, Bolivia, Colombia, Cuba, Guyana, Peru and the Dominican Republic (2–5). Additionally, Oropouche virus disease cases were reported among travellers returning from countries with local transmission to the United States, Canada, Spain, Italy and Germany (6,7).
+
+Transmission
+============
+
+The Oropouche virus is primarily transmitted to humans through the bite of Culicoides paraensis midges. Culex quinquefasciatus, Coquillettidia venezuelensis and Aedes serratus mosquitoes can also act as possible vectors (8). The virus is believed to circulate in both a sylvatic cycle in forested areas, and in an urban epidemic cycle between insects and people. In the sylvatic cycle, non-human primates, sloths and perhaps birds serve as vertebrate hosts, although a definitive arthropod vector has not been identified.
+
+Further studies are underway to better understand the insect vectors and transmission cycles in the current outbreaks.
+
+Previously, there had been no confirmed reports of human-to-human transmission. However, there were reports in Brazil in 2024 of possible fetal infection with Oropouche virus, transmitted from mothers infected during pregnancy.
+
+Symptoms
+========
+
+The incubation period (the time from the bite of an infected insect to first symptoms) of the Oropouche virus is typically 3 to 10 days. Symptoms of disease include fever, headache, joint pain (arthralgia), muscle pain (myalgia), chills, nausea, vomiting and rash.
+
+Most cases recover completely within 7 days after the onset of symptoms. However, recovery can take weeks in some patients, and severe complications like aseptic meningitis may occasionally occur. Though deaths from OROV infection were not previously described, in 2024 there were two reports of deaths in previously healthy young adults with Oropouche virus infection.
+
+Diagnosis
+=========
+
+Given the similar clinical presentation to other arboviruses like dengue and chikungunya, Oropouche virus disease is often unrecognized or misdiagnosed.
+
+Diagnosis of Oropouche virus disease is made by reverse transcription polymerase chain reaction (RT-PCR) and real-time RT-PCR (9). Serologic assays can be used to aid diagnosis; however, they should be conducted by highly trained personnel and in laboratories equipped with appropriate containment facilities. There are no available commercial diagnostic or rapid tests based on antigens or immunoassays (e.g. ELISA, immunochromatography) available.
+
+Treatment
+=========
+
+There is no specific treatment available for Oropouche virus disease. Treatment is primarily supportive and focuses on relieving symptoms.
+
+Complications
+=============
+
+The understanding of complications from Oropouche virus disease is limited. Occasionally, aseptic meningitis may occur.
+
+Recently, there were reports from Brazil describing five cases of possible Oropouche virus transmission during pregnancy (four stillbirth and one spontaneous miscarriage) as well as four cases of newborns with microcephaly detected via retrospective investigations. Despite the detection of viral RNA by reverse transcription polymerase chain reaction (RT-PCR) testing of fetal tissues, it cannot be concluded that OROV infection was the cause of fetal deaths, and investigations are still ongoing.
+
+Prevention and control
+======================
+
+There is no vaccine available to prevent Oropouche virus disease. Vector control and personal protective measures are key in reducing the spread of the virus.
+
+Standard bed nets are less effective against the biting midge, as these insects are small and can pass through the netting. In contrast, fine mesh bed nets and chemical insecticides used as residual spray on internal and external walls of infested premises have been shown to be effective.
+
+Personal protective measures, such as wearing protective clothing and using insect repellents containing DEET, IR3535 or icaridin, are recommended to minimize the risk of infection.
+
+WHO response
+============
+
+The Pan American Health Organization (PAHO) – the World Health Organization Regional Office for the Americas – in collaboration with WHO Member States, is actively monitoring the epidemiological situation of Oropouche virus disease.
+
+PAHO conducted a rapid risk assessment (RRA) which indicated a high regional risk due to the increasing number of cases, their expansion into new areas, recently reported fatal cases, and the possible risk of vertical transmission (10). WHO Member States have been alerted by PAHO and have been provided recommendation to in terms of diagnosis and clinical management, laboratory diagnosis and surveillance, and prevention and control of Oropouche virus disease.
+
+Learn more about the PAHO response.
+
+References
+
+1. Wesselmann KM, Postigo-Hidalgo I, Pezzi L, de Oliveira-Filho EF, Fischer C, de Lamballerie X, et al. Emergence of Oropouche fever in Latin America: a narrative review. The Lancet Infectious Diseases. 2024 Jul 1;24(7):e439–52. https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(23)00740-5/abstract
+
+2. Pan American Health Organization/World Health Organization. Epidemiological Update Oropouche in the Americas Region - 15 October 2024. Washington, D.C.: PAHO/WHO; 2024.
+
+3. Pan American Health Organization/World Health Organization.  Epidemiological Update Oropouche in the Americas Region - 6 September 2024. Washington, D.C.: PAHO/WHO; 2024.
+
+4. Pan American Health Organization/World Health Organization. Epidemiological Alert: Oropouche in the Region of the Americas, 1 August 2024. Washington, D.C.: PAHO/WHO; 2024.
+
+5. Pan American Health Organization/World Health Organization. Epidemiological Alert: Oropouche in the Region of the Americas, 2 February 2024. Washington, D.C.: PAHO/WHO; 2024.
+
+6. Morrison A, White JL, Hughes HR, Guagliardo SJ, Velez JO, Fitzpatrick KA, et al. Oropouche Virus Disease Among U.S. Travelers – United States, 2024. MMWR Morb Mortal Wkly Rep [Internet]. 2024 Aug 27 [cited 2024 Aug 30];73(35). http://www.cdc.gov/mmwr/volumes/73/wr/mm7335e1.htm?s_cid=mm7335e1_w
+
+7. European Centre for Disease Prevention and Control. Threat assessment brief: Oropouche virus disease cases imported to the European Union. Stockholm: ECDC; 2024. https://www.ecdc.europa.eu/en/publications-data/threat-assessment-brief-oropouche-virus-disease-cases-imported-european-union
+
+8. de Mendonça SF, Rocha MN, Ferreira FV, Leite THJF, Amadou SCG, Sucupira PHF, Marques JT, Ferreira AGA, Moreira LA. Evaluation of Aedes aegypti, Aedes albopictus, and Culex quinquefasciatus Mosquitoes Competence to Oropouche virus Infection. Viruses. 2021; 13(5):755. https://doi.org/10.3390/v13050755
+
+9. Pan American Health Organization/World Health Organization. Guidelines for the Detection and Surveillance of Emerging arboviruses in the Context of the Circulation of Other Arboviruses. Washington, D.C.: PAHO/WHO; 2024. Accessible at https://www.paho.org/en/documents/guidelines-detection-and-surveillance-emerging-arboviruses-context-circulation-other
+
+10. Pan American Health Organization/World Health Organization. Public Health Risk Assessment related to Oropouche Virus (OROV) in the Region of the Americas. Washington, D.C.: PAHO/WHO; 2024. https://www.paho.org/en/documents/public-health-risk-assessment-related-oropouche-virus-orov-region-americas-3-august-2024

@@ -1,0 +1,81 @@
+WHO FACT SHEET
+Title: Sanitation
+URL: https://www.who.int/news-room/fact-sheets/detail/sanitation
+Retrieved: 2026-10-05T09:34:39.140717+00:00
+
+========================================
+
+Key facts
+=========
+
+- In 2022, 57% of the global population (4.6 billion people) used a safely managed sanitation service.
+
+- Over 1.5 billion people still do not have basic sanitation services, such as private toilets or latrines.
+
+- Of these, 419 million still defecate in the open, for example in street gutters, behind bushes or into open bodies of water.
+
+- In 2020, 44% of the household wastewater generated globally was discharged without safe treatment (1).
+
+- At least 10% of the world’s population is thought to consume food irrigated by wastewater.
+
+- Poor sanitation reduces human well-being, social and economic development due to impacts such as anxiety, risk of sexual assault, and lost opportunities for education and work.
+
+- Poor sanitation is linked to transmission of diarrhoeal diseases such as cholera and dysentery, as well as typhoid, intestinal worm infections and polio. It exacerbates stunting and contributes to the spread of antimicrobial resistance.
+
+Overview
+========
+
+According to the latest WASH-related burden of disease estimates, 1.4 million people die each year as a result of inadequate drinking-water, sanitation and hygiene. The vast majority of these deaths are in low- and middle-income countries. Unsafe sanitation accounts for 564 000 of these deaths, largely from diarrhoeal disease, and it is a major factor in several neglected tropical diseases, including intestinal worms, schistosomiasis and trachoma. Poor sanitation also contributes to malnutrition.
+
+In 2022, 57% of the global population (4.6 billion people) used a safely managed sanitation service; 33% (2.7 billion people) used private sanitation facilities connected to sewers from which wastewater was treated; 21% (1.7 billion people) used toilets or latrines where excreta were safely disposed of in situ; and 88% of the world’s population (7.2 billion people) used at least a basic sanitation service (2).
+
+Diarrhoea remains a major killer but is largely preventable. Better water, sanitation, and hygiene could prevent the deaths among children aged under 5 years, 395 000 in the year 2019.
+
+Open defecation perpetuates a vicious cycle of disease and poverty. The countries where open defection is most widespread have the highest number of deaths of children aged under 5 years as well as the highest levels of malnutrition and poverty, and big disparities of wealth.
+
+Benefits of improving sanitation
+================================
+
+Benefits of improved sanitation extend well beyond reducing the risk of diarrhoea. These include:
+
+- reducing the spread of intestinal worms, schistosomiasis and trachoma, which are neglected tropical diseases that cause suffering for millions;
+
+- reducing the severity and impact of malnutrition;
+
+- promoting dignity and boosting safety, particularly among women and girls;
+
+- promoting school attendance: girls’ school attendance is particularly boosted by the provision of separate sanitary facilities;
+
+- reducing the spread of antimicrobial resistance;
+
+- potential safe recovery of water, nutrients and renewable energy from wastewater and sludge; and
+
+- potential to increase overall community resilience to climate shocks, for example through safe use of wastewater for irrigation to mitigate water scarcity.
+
+A WHO study in 2012 calculated that for every US$ 1.00 invested in sanitation, there was a return of US$ 5.50 in lower health costs, more productivity and fewer premature deaths.
+
+Challenges
+==========
+
+In 2013, the UN Deputy Secretary-General issued a call to action on sanitation that included the elimination of open defecation by 2025. The world is on track to eliminate open defecation by 2030, if not by 2025, but historical rates of progress would need to double for the world to achieve universal coverage with basic sanitation services by 2030. To achieve universal safely managed services, rates would need to increase five-fold.
+
+The situation in urban areas, particularly in dense, low income and informal areas, is a growing challenge as sewerage is precarious or non-existent, space for toilets is at a premium, poorly designed and managed pits and septic tanks contaminate open drains and groundwater and services for faecal sludge removal are unavailable or unaffordable. Inequalities are compounded when sewage discharged into storm drains and waterways pollutes poorer low-lowing areas of cities. The effects of climate change – floods, water scarcity and droughts, and sea level rise – is setting back progress for the billions of people without safely managed services and threatens to undermine existing services if they are not made more resilient.
+
+Wastewater and sludge are increasingly seen as a valuable resource in the circular economy that can provide reliable water and nutrients for food production and recovered energy in various forms. In fact, use of wastewater and sludge is already commonplace, but much is used unsafely without adequate treatment, controls on use or regulatory oversight. Safe use that prevents transmission of excreta-related disease is vital to reduce harms and maximize beneficial use of wastewater and sludge.
+
+In 2019 UN-Water launched the SDG6 global acceleration framework (GAF). On World Toilet Day 2020, WHO and UNICEF launched the State of the world’s sanitation report laying out the scale of the challenge in terms of health impact, sanitation coverage, progress, policy and investment and also laying out an acceleration agenda for sanitation under the GAF.
+
+WHO response
+============
+
+In 2010, the UN General Assembly recognized access to safe and clean drinking water and sanitation as a human right and called for international efforts to help countries to provide safe, clean, accessible and affordable drinking-water and sanitation. Sustainable Development Goal target 6.2 calls for adequate and equitable sanitation for all and target 6.3 calls for halving the proportion of untreated wastewater and substantially increasing recycling and safe reuse.
+
+As the international authority on public health, WHO leads global efforts to prevent transmission of diseases, advising governments on health-based regulation and service delivery. On sanitation, WHO monitors global burden of disease (SDG 3.9) and the level of sanitation access and wastewater treatment (SDG 6.2, 6.3) and analyses what helps and hinders progress (SDG 6a, 6b and GLAAS). Such monitoring gives Member States and donors global data to help decide how to invest in providing toilets and ensuring safe management of wastewater and excreta.
+
+WHO works with partners on promoting effective risk assessment and management practices for sanitation in communities and health facilities based on evidence and tools including WHO guidelines on sanitation and health, safe use of wastewater, recreational water quality and promotion of sanitation safety planning and sanitary inspections, and through communities of practice such as RegNet and the sanitation workers initiative. WHO also supports collaboration between WASH and health programmes where sanitation is critical for disease prevention and risk reduction including neglected tropical diseases, cholera, polio and antimicrobial resistance, and environmental surveillance of pathogens. Aspects of climate resilience are incorporated in all WHO sanitation guidance documents.
+
+References
+
+1. UN Habitat and WHO, 2021. Progress on wastewater treatment – Global status and acceleration needs for SDG indicator 6.3.1. United Nations Human Settlements Programme (UN-Habitat) and World Health Organization (WHO), Geneva.
+
+2. Progress on household drinking water, sanitation and hygiene 2000–2022: special focus on gender. New York: United Nations Children’s Fund (UNICEF) and World Health Organization (WHO), 2023. https://washdata.org/reports/jmp-2023-wash-households

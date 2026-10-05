@@ -1,0 +1,107 @@
+WHO FACT SHEET
+Title: Respiratory syncytial virus (RSV)
+URL: https://www.who.int/news-room/fact-sheets/detail/respiratory-syncytial-virus-(rsv)
+Retrieved: 2026-10-05T09:34:27.982854+00:00
+
+========================================
+
+Key Facts
+
+- Respiratory syncytial virus (RSV) is one of the most common causes of acute lower respiratory infections in children globally, as well as causing substantial burden of severe respiratory disease among elderly persons.
+
+- Each year RSV causes over 3.6 million hospitalizations and about 100 000 deaths in children under 5 years of age. Most paediatric RSV deaths (97%) occur in low- and middle-income countries where there is limited access to supportive medical care.
+
+- There are three licensed immunization products for prevention of RSV disease in young infants: two long-acting monoclonal antibodies administered to infants soon after birth and a maternal vaccine given to pregnant women and persons in the latter part of pregnancy.
+
+- Three vaccines are licensed to prevent severe RSV disease in elderly persons and adults with certain underlying illnesses, like lung and heart disease.
+
+Overview
+========
+
+Respiratory syncytial virus (RSV) is an RNA virus that belongs to the Pneumoviridae family along with the human metapneumovirus and consists in two genotypes (A and B) (1). RSV is specific and pathogenic for humans and infects cells along the human respiratory tract, from the nose to the lungs. RSV causes a wide spectrum of respiratory disease, from mild upper respiratory tract infections (in most cases) to life threatening lower respiratory tract infections (2). Infants, especially those under six months of age, are at highest risk of severe RSV disease and death. RSV can also cause severe disease among elderly people and those with underlying illnesses. Until recently, there was no vaccine available to protect infants and elderly people from RSV disease. In the last few years, several vaccines and a long-acting monoclonal antibody have been licensed and are starting to be used to prevent severe RSV disease in these high-risk populations.
+
+Scope of the problem
+====================
+
+Each year, RSV causes an estimated 3.6 million RSV-associated hospitalizations and approximately 100 000 RSV-attributable deaths in children under 5 years of age worldwide (3). Approximately half of RSV deaths among children occur in infants under the age of 6 months. Most paediatric RSV deaths (97%) occur in low- and middle-income countries where there is limited access to supportive medical care (3). The global estimates of adult RSV disease are not known; in the United States of America, it has been estimated that RSV results in up to 160 000 hospitalizations and 10 000 deaths among adults over 65 years of age. The hospitalization rate for adults infected with RSV is higher among individuals with underlying conditions like asthma, chronic obstructive pulmonary disease, or congestive heart failure (4).
+
+Most countries demonstrate RSV seasonality, with most annual RSV infections occurring over a several month period (5). In temperate climates, RSV causes seasonal epidemics, tending to occur in late fall and winter, with an average duration of elevated viral circulation of five months. Although not as sharply defined, most sub-tropical and tropical countries also experience consistent months of high RSV circulation during each year but with no clear seasonality patterns (5, 6).
+
+Transmission
+============
+
+RSV is transmitted via infectious respiratory particles through the air from an infected person to another one. The virus is also thought to be transmitted by direct contact with infected persons or through support contaminated with the virus. Almost all babies are infected by RSV by their second birthday. Most have mild illness, but some can get very sick. Older children and adults are often re-infected with RSV, but usually have mild illness, except for elderly persons and those with significant underlying illnesses who can have severe illness and even die.
+
+Symptoms
+========
+
+The first symptoms of RSV usually present between day 4–7 after exposure to the virus (2).
+
+Signs and symptoms of upper respiratory illness include:
+
+- runny nose
+
+- sore throat
+
+- headache
+
+- fatigue
+
+- fever.
+
+It is to be noted that although most children may present with fever during RSV infection, a certain proportion of young children may not.
+
+Signs and symptoms consistent with lower respiratory tract infection include:
+
+- cough
+
+- shortness of breath
+
+- fast breathing
+
+- bronchospasm
+
+- wheezing.
+
+Severe lung disease can result in low oxygen levels in the body, respiratory muscle fatigue and can sometimes result in death. RSV-LRTI in early life may lead to long-term respiratory consequences, including repeat hospitalizations for respiratory illness during infancy, recurrent wheeze and/or asthma, and impaired lung health beyond infancy (2).
+
+RSV infection in elderly adults can exacerbate chronic underlying illnesses, such as lung and heart disease (4).
+
+Treatment and prevention
+========================
+
+There is no specific treatment for RSV. Management of severe RSV disease involves supportive care, such as nasal suction of secretions, intravenous fluids for hydration, and most importantly supplemental oxygen to help breathing (2).
+
+Several immunization products are currently available to prevent severe RSV disease in infants and elderly adults (7). To protect infants, there is a vaccine given to pregnant women and persons late in pregnancy (WHO recommends third trimester vaccination, defined from 28 weeks gestational age in most settings). Maternal immunization allows transfer of antibodies against RSV through the placenta to the unborn baby, who is then protected for approximately 6 months after birth.
+
+Another immunization product to protect babies is a long-acting monoclonal antibody that targets the RSV virus. It is given as an intramuscular injection to protect against severe RSV lower respiratory tract infection lung disease during RSV infection. This product can be administered to all neonates and infants entering their first RSV season. In addition, countries could consider administering monoclonal antibody to young children (up to 24 months) with high risk of severe RSV disease (e.g. chronic lung disease, congenital heart disease, immunocompromised) entering their second RSV season.
+
+Challenges
+==========
+
+Currently, the cost of these products is high, and they are not affordable to most low- and middle-income countries. Also, there is under-recognition of RSV as a cause of severe lung disease in these countries, who face many other health priorities. Therefore, there is a delay in introducing these potential life-saving interventions for RSV prevention into the countries where they are most needed.
+
+WHO response
+============
+
+In 2015, the WHO Global Influenza Programme launched the global RSV surveillance project using the existing WHO influenza platform Global Influenza Surveillance and Response System (GISRS). This project aims to enhance recognition of RSV among infants and young children, focusing on severe disease requiring hospitalization, expanding virologic monitoring to differentiate virus types, and generating a better understanding of the seasonality, age groups at risk and disease burden among young children, particularly in low- and middle-income countries in all WHO regions.
+
+Considering the worldwide impact of RSV disease, the Strategic Group of Experts on Immunization and WHO, advised that every country should adopt measures to prevent severe RSV in infants. When deciding to use maternal vaccination and/or monoclonal antibodies, factors such as cost, funding, supply, expected coverage and the practicality of integrating these measures into the current health-care system should be taken into account. WHO is working with partners to make these products available in low- and middle-income countries. In the future WHO will issue recommendations on vaccines to prevent severe RSV disease in elderly adults.
+
+WHO is working with partners, including Gavi, the Vaccine Alliance, to make these products available in low- and middle-income countries. The RSV maternal vaccine programme is expected to begin implementation during Gavi’s 2026–2030 strategic period, contingent on the availability of funding. The Region of the Americas, through the PAHO Revolving Fund for Access to Vaccines, is also working to provide countries in the Region affordable access to the RSV maternal vaccine through a pooled procurement mechanism. In the future WHO will issue recommendations on vaccines to prevent severe RSV disease in elderly adults.
+
+References
+
+1. Rima B, Collins P, Easton A, Fouchier R, Kurath G, et al. ICTV Virus Taxonomy Profile: Pneumoviridae. J Gen Virol. 2017 Dec;98(12):2912-2913.
+
+2. Kaler J, Hussain A, Patel K, Hernandez T, Ray S. Respiratory Syncytial Virus: A Comprehensive Review of Transmission, Pathophysiology, and Manifestation. Cureus. 2023 Mar 18;15(3):e36342. doi: 10.7759/cureus.36342.
+
+3. Li Y, Wang X, Blau DM, Caballero MT, Feikin DR, Gill CJ, et al. Global, regional, and national disease burden estimates of acute lower respiratory infections due to respiratory syncytial virus in children younger than 5 years in 2019: a systematic analysis. Lancet. 2022 May 28;399(10340):2047-2064.
+
+4. Landi SN, Garofalo DC, Reimbaeva M, Scott AM, Jiang L, et al. Hospitalization Following Outpatient Diagnosis of Respiratory Syncytial Virus in Adults. JAMA Netw Open. 2024 Nov 4;7(11):e2446010.
+
+5. Li Y, Reeves RM, Wang X, Bassat Q, Brooks WA, et al. Global patterns in monthly activity of influenza virus, respiratory syncytial virus, parainfluenza virus, and metapneumovirus: a systematic analysis. Lancet Glob Health. 2019 Aug;7(8):e1031-e1045.
+
+6. Li Y, Hodgson D, Wang X, Atkins KE, Feikin DR, Nair H. Respiratory syncytial virus seasonality and prevention strategy planning for passive immunisation of infants in low-income and middle-income countries: a modelling study. Lancet Infect Dis. 2021 Sep;21(9):1303-1312.
+
+7. Feikin DR, Karron RA, Saha SK, Sparrow E, Srikantiah P, et al. The full value of immunisation against respiratory syncytial virus for infants younger than 1 year: effects beyond prevention of acute respiratory illness. Lancet Infect Dis. 2024 May;24(5):e318-e327.

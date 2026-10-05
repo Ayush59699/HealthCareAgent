@@ -1,0 +1,75 @@
+WHO FACT SHEET
+Title: Sporotrichosis
+URL: https://www.who.int/news-room/fact-sheets/detail/sporotrichosis
+Retrieved: 2026-10-05T09:34:56.178313+00:00
+
+========================================
+
+Key facts
+=========
+
+- Sporotrichosis is an infection under the skin caused by different species of the fungus Sporothrix.
+
+- Infections occur sporadically in tropical and subtropical countries. There are areas where it is hyperendemic, causing between 25 to 100 cases per 100 000 persons.
+
+- One species, Sporothrix brasiliensis, causes zoonotic infections that spread via cats. In areas affected by this species in South America, mainly Brazil, more than 11 000 human cases have been reported in the past 10 years.
+
+- Although this is principally an infection of the skin and subcutis, sporotrichosis can spread and in rare cases cause meningitis, arthritis and respiratory infection. In some patients, skin lesions can be very extensive, particularly in people living with HIV.
+
+- Sporotrichosis is diagnosed by microscopy, histopathology or culture. Molecular diagnostic tools are in development but not widely available.
+
+- Sporotrichosis can be treated easily and effectively.
+
+Overview
+========
+
+Sporotrichosis is usually a sporadically occurring infection seen in tropical and subtropical climates. It is caused by a number of different fungi of the genus Sporothrix, including S. schenckii, S. globose, S. mexicana and S. brasiliensis. The fungi exist naturally on plant materials. They infect people through breaks in the skin and invade deeper parts of the skin layer. S. brasiliensis infects cats and other mammals and can spread from them to humans. This has resulted in a large and progressive outbreak spreading within Brazil and several adjacent countries in South America. Sporotrichosis leads to painful and unsightly skin lesions as well as social stigma. Outbreaks of sporotrichosis has also been reported in China associated with flooding. There are localized areas of hyperendemicity in Guatemala, Mexico, Peru and South Africa. In South Africa, sporotrichosis has been associated with an outbreak of infection in miners following contact with contaminated wooden pit props. Sporotrichosis can be treated successfully with antifungal drugs such as itraconazole and terbinafine.
+
+Scope of the problem
+====================
+
+Sporotrichosis is a subcutaneous fungal infection seen in tropical and subtropical climates although sporadic cases can occur in more temperate climates. The largest number of cases are found in Central and South America (particularly Brazil), Southern USA, Africa, China and South-East Asia. Clusters of cases are found in some areas. These have been associated with contaminated wood, e.g. material used in mines, or with flooding, but often the reason for outbreaks in one area is unknown.
+
+Who is at risk?
+===============
+
+Sporotrichosis affects otherwise healthy individuals, often those working in agriculture or with plants or plant materials, such as packing straw or thatching. It also affects individuals exposed to the fungus during leisure outdoor activities associated with skin abrasions. Contact with domestic or feral cats, particularly among veterinarians and others looking after cats, may also lead to infection in some regions.
+
+Signs and symptoms
+==================
+
+Sporotrichosis most commonly presents with nodules and plaques on exposed skin sites such as the face, legs or arms. These may be restricted to one site (fixed pattern). Alternatively, the nodules may be arranged in lines along the course of lymphatic vessels (lymphocutaneous pattern), known as sporotrichoid spread. This form is typical of sporotrichosis but a similar clinical pattern can occur with other neglected tropical diseases such as cutaneous leishmaniasis. Both nodules and plaques can ulcerate. Sporotrichosis can also affect the mucous membranes such as the mouth and other sites including the eyes.
+
+When people get sick from cat-related infections, they might develop additional skin rashes because their immune system reacts to the germs. This reaction can cause things like red patches on the skin, known as erythema multiforme. In some cases, there can be a more widespread rash with three or more lesions appearing on different parts of the skin. Rarely, deep forms of sporotrichosis can occur that can lead to arthritis, respiratory infection and even meningitis.
+
+Transmission
+============
+
+There are two ways to acquire cutaneous sporotrichosis, both of which occur by traumatic inoculation of the fungi through the skin. The classic clinical presentation is transmitted through plant debris and the second (zoonotic form) is caused by animal transmission. Scratches from cats are a common source of the latter but inoculation through a wound site or broken skin can also occur. Transmission via contact with exudate (oozing fluid) from infected cats has also been reported. The zoonotic disease is a source of public health concern because of the continuing and spreading outbreak in South America.
+
+Treatment
+=========
+
+The infection responds to treatment with oral itraconazole or terbinafine. Saturated solutions of potassium iodide taken by mouth have also been used but require dispensing pharmacy skills to make up the medicine. Intravenous amphotericin B can be used for the rare systemic forms of sporotrichosis.
+
+Prevention and control
+======================
+
+There are no recognized preventive measures apart from early identification and treatment of infected cats. The use of gloves, protective clothing and shoes when handling roses, hay and sphagnum moss have the potential to reduce infections.
+
+Challenges
+==========
+
+Diagnosis depends on demonstrating the characteristic fungal cells either in scrapings or curettings from lesions or biopsy material. In many cases there are few visible organisms in lesions and here culture or molecular diagnosis are more helpful in confirming the diagnosis. All involve the deployment of laboratory diagnostic skills and appropriate training of laboratory staff.
+
+The cost of medicines purchased by patients in resource poor settings is also a challenge for successful completion of treatment. Providing months of treatment to cats is often too expensive for patients to help control zoonotic spread.
+
+Global impact
+=============
+
+Sporotrichosis is a disabling disease that reduces social interaction. Infections caused by cat-acquired S. brasiliensis infections often require longer courses of treatment, e.g. 3–4 months. Control of this variant also requires collaboration between medical and veterinary teams. The association with some outbreaks of sporotrichosis with weather events leading to flooding suggest that occurrence of this mycosis may be affected by climate change.
+
+WHO response
+============
+
+Sporotrichosis is listed by WHO as a neglected tropical disease (NTD) and forms part of the evolving programme for Skin NTDs. Key work involves developing detailed prevalence data through mapping, the search for new rapid diagnostic assays available at point of care and the search for new medicines. Sporotrichosis is also included in WHO training material dedicated to skin NTDs, in the form of an online course (in progress), a training manual and a mobile app. Control of the outbreak of cat-associated sporotrichosis in South America is a public health priority.

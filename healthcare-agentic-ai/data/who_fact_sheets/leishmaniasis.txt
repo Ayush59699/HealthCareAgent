@@ -1,0 +1,137 @@
+WHO FACT SHEET
+Title: Leishmaniasis
+URL: https://www.who.int/news-room/fact-sheets/detail/leishmaniasis
+Retrieved: 2026-10-05T09:33:02.169093+00:00
+
+========================================
+
+Key facts
+=========
+
+- There are 3 main forms of leishmaniases: visceral (the most serious form because it is almost always fatal without treatment), cutaneous (the most common, usually causing skin ulcers), and mucocutaneous (affecting mouth, nose and throat).
+
+- Leishmaniasis is caused by protozoan parasites which are transmitted by the bite of infected female phlebotomine sandflies.
+
+- The disease affects some of the world’s poorest people and is associated with malnutrition, population displacement, poor housing, a weak immune system and lack of financial resources.
+
+- An estimated 700 000 to 1 million new cases occur annually.
+
+- Only a small fraction of those infected by parasites causing leishmaniasis will eventually develop the disease.
+
+Overview
+========
+
+Leishmaniasis is caused by a protozoa parasite from over 20 Leishmania species. Over 90 sandfly species are known to transmit Leishmania parasites. There are 3 main forms of the disease:
+
+- Visceral leishmaniasis (VL), also known as kala-azar, is fatal if left untreated in over 95% of cases. It is characterized by irregular bouts of fever, weight loss, enlargement of the spleen and liver, and anaemia. Most cases occur in Brazil, east Africa and India. An estimated 50 000 to 90 000 new cases of VL occur worldwide annually, with only 25–45% reported to WHO. It has outbreak and mortality potential.
+
+- Cutaneous leishmaniasis (CL) is the most common form and causes skin lesions, mainly ulcers, on exposed parts of the body. These can leave life-long scars and cause serious disability or stigma. About 95% of CL cases occur in the Americas, the Mediterranean basin, the Middle East and central Asia. It is estimated that 600 000 to 1 million new cases occur worldwide annually but only around 200 000 are reported to WHO.
+
+- Mucocutaneous leishmaniasis leads to partial or total destruction of mucous membranes of the nose, mouth and throat. Over 90% of mucocutaneous leishmaniasis cases occur in Bolivia (the Plurinational State of), Brazil, Ethiopia and Peru.
+
+Transmission
+============
+
+Leishmania parasites are transmitted through the bites of infected female phlebotomine sandflies, which feed on blood to produce eggs. Some 70 animal species, including humans, can be the source of Leishmania parasites.
+
+WHO regional specificities
+==========================
+
+WHO African Region
+------------------
+
+Cutaneous Leishmaniasis is highly endemic in Algeria whereas in west Africa the epidemiological information is scarce. In east Africa all forms are endemic with outbreaks of visceral leishmaniasis occurring frequently.
+
+WHO Region of the Americas
+--------------------------
+
+Cutaneous leishmaniasis is the main form and the epidemiology is complex, with several animals being the source of the parasite, and numerous types of sandflies and multiple Leishmania species in the same geographical area. Brazil is the main country endemic for VL in that region.
+
+WHO Eastern Mediterranean Region
+--------------------------------
+
+This region accounts for 80% of the cutaneous leishmaniasis cases reported worldwide. Visceral leishmaniasis is highly endemic in Iraq, Somalia, Sudan and Yemen.
+
+WHO European Region
+-------------------
+
+Cutaneous and visceral leishmaniasis are endemic. Imported cases are common, coming mainly from Africa and the Americas.
+
+WHO South-East Asia Region
+--------------------------
+
+Visceral leishmaniasis is the main form of the disease, which is also endemic for cutaneous leishmaniasis.
+
+Post-kala-azar dermal leishmaniasis (PKDL)
+==========================================
+
+Post-kala-azar dermal leishmaniasis (PKDL) is usually a sequel of visceral leishmaniasis that appears as macular, papular or nodular rash usually on face, upper arms and trunk. It occurs in east Africa (mainly in Sudan) and on the Indian subcontinent, where 5–10% of patients with kala-azar are reported to develop the condition. Although uncommon, it has also been reported from Brazil and also in HIV coinfected VL cases caused by L. infantum. It usually appears 6 months to 1 or more years after kala-azar has apparently been cured but can occur earlier. People with PKDL are considered a potential source of Leishmania infection.
+
+Leishmania-HIV co-infection
+===========================
+
+People living with HIV and who are infected with leishmaniasis have high chances of developing the full-blown disease, high relapse and mortality rates. Antiretroviral treatment reduces the development of the disease, delays relapses and increases the survival. As of 2021, Leishmania-HIV coinfection has been reported from 45 countries. High coinfection rates are reported from Brazil, Ethiopia and the state of Bihar ( India). In 2022, WHO published new treatment recommendations for Leishmania-HIV coinfected patients in east Africa and South-East Asia.
+
+Major risk factors
+==================
+
+Socioeconomic conditions
+------------------------
+
+Poverty increases the risk for leishmaniasis. Poor housing and domestic sanitary conditions (lack of waste management or open sewerage) may increase sandfly breeding and resting sites, as well as their access to humans. Sandflies are attracted to crowded housing because it is easier to bite people and feed on their blood. Human behaviour, such as sleeping outside or on the ground, may increase risk.
+
+Malnutrition
+------------
+
+Diets lacking protein-energy, iron, vitamin A and zinc increase the risk that an infection will progress to a full-blown disease.
+
+Population mobility
+-------------------
+
+Epidemics of leishmaniasis often occur when many people who are not immune move into areas where the transmission is high.
+
+Environmental and climate changes
+---------------------------------
+
+The incidence of leishmaniasis can be affected by changes in urbanization, deforestation or the human incursion into forested areas.
+
+Climate change is affecting the spread of leishmaniasis though changes in temperature and rainfall, which affect the size and geographic distribution of sandfly populations. Drought, famine and flood also cause migration of people into areas where the transmission of the parasite is high.
+
+Diagnosis and treatment
+=======================
+
+People suspected of suffering from visceral leishmaniasis should seek medical care immediately. In visceral leishmaniasis, diagnosis is made by combining clinical signs with parasitological or serological tests (such as rapid diagnostic tests). In cutaneous and mucocutaneous leishmaniasis serological tests have limited value and clinical manifestation with parasitological tests confirms the diagnosis.
+
+The treatment of leishmaniasis depends on several factors including type of disease, concomitant pathologies, parasite species and geographic location. Leishmaniasis is a treatable and curable disease, which requires an immunocompetent system because medicines will not get rid of the parasite from the body, thus the risk of relapse if immunosuppression occurs. All patients diagnosed with visceral leishmaniasis require prompt and complete treatment. Detailed information on the treatment is available in the WHO technical report series 949, Control of leishmaniasis and the latest guidelines published on HIV-VL in east Africa and South-East Asia and the guideline for the treatment of leishmaniasis in the Americas.
+
+Prevention and control
+======================
+
+Preventing and controlling the spread of leishmaniasis is complex and requires many tools. Key strategies include:
+
+- Early diagnosis and effective prompt treatment reduce the prevalence of the disease and prevents disabilities and death. It helps to reduce transmission and to monitor the spread and burden of disease. There are highly effective and safe anti-leishmanial medicines particularly for visceral leishmaniasis, although they can be difficult to use. Access to medicines has significantly improved thanks to a WHO-negotiated price scheme and a medicine donation programme through WHO.
+
+- Vector control helps to reduce or interrupt transmission of disease by decreasing the number of sandflies. Control methods include insecticide spray, use of insecticide-treated nets, environmental management and personal protection.
+
+- Effective disease surveillance is important to promptly monitor and act during epidemics and situations with high case fatality rates under treatment.
+
+- Control of animal reservoir hosts is complex and should be tailored to the local situation.
+
+- Social mobilization and strengthening partnerships – mobilization and education of the community with effective behavioural change interventions must always be locally adapted. Partnership and collaboration with various stakeholders and other vector-borne disease control programmes is critical.
+
+WHO response
+============
+
+WHO's work on leishmaniasis control involves:
+
+- supporting national leishmaniasis control programmes technically and financially to update guidelines, ensure access to quality-assured medicines, design disease control plans, surveillance systems, and epidemic preparedness and response systems;
+
+- monitoring disease trends and assessing the impact of control activities through the web-based global surveillance system which will allow for raising awareness and advocacy on the global burden of leishmaniasis and promoting equitable access to health services;
+
+- developing evidence-based policy strategies and standards for leishmaniasis prevention and control, including capacity building such as online courses at Neglected Tropical Diseases (openwho.org);
+
+- strengthening collaboration and coordination among partners and stakeholders;
+
+- promoting research including safe, effective and affordable medicines, as well as diagnostic tools and vaccines; and
+
+- supporting the South-East Asia Region, the only one with an initiative for the elimination of visceral leishmaniasis as a public health problem through 2022–2026, defined as less than one case per 10 000 inhabitants at the district level in Nepal and subdistrict level in Bangladesh and India. As per NTD road map 2023 milestone, only one country has been validated for elimination as public health problem. The region launched Regional strategic framework for accelerating and sustaining elimination of kala-azar in the South-East Asia Region 2022–2026.

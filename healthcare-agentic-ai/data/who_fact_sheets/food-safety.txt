@@ -1,0 +1,124 @@
+WHO FACT SHEET
+Title: Food safety
+URL: https://www.who.int/news-room/fact-sheets/detail/food-safety
+Retrieved: 2026-10-05T09:32:08.399388+00:00
+
+========================================
+
+Key facts
+=========
+
+- Food safety, nutrition and food security are inextricably linked.
+
+- An estimated 866 million – almost 1 in 9 people in the world – fall ill after eating contaminated food and 1.52 million die every year.
+
+- US$ 310 billion is lost each year in productivity and medical expenses resulting from unsafe food worldwide.
+
+- Children under 5 years of age experience 29% of the health burden due to unsafe food, with 143 000 deaths in 2021.
+
+- Foodborne diseases impede socioeconomic development by straining health-care systems and harming national economies, tourism, and trade.
+
+- Food safety is a shared responsibility among different national authorities and requires a multisectoral, one health approach.
+
+Overview
+========
+
+Access to sufficient amounts of safe and nutritious food is key to sustaining life and promoting good health. Unsafe food contaminated with harmful bacteria, viruses, parasites or chemical substances can cause more than 200 different diseases, ranging from diarrhoea to cancers. Unsafe food results in a vicious cycle of disease and malnutrition, particularly affecting infants, young children, older people and the sick. Good collaboration between governments, food producers and consumers is needed to help make food safer and food systems stronger.
+
+Major foodborne illnesses and causes
+====================================
+
+Foodborne illnesses are usually infectious or toxic in nature and caused by bacteria, viruses, parasites or chemical substances entering the body through contaminated food. Chemical contamination can lead to acute poisoning or long-term diseases, such as cancer. Many foodborne diseases may lead to long-lasting disability and death. Some examples of food hazards are listed below.
+
+Bacteria
+--------
+
+Campylobacter, enterotoxigenic Escherichia coli (ETEC), Shigella and Shiga toxin-producing E. coli (STEC) are some of the most common causes of foodborne diseases that affect millions of people annually, sometimes with severe and fatal outcomes. Symptoms can include fever, headache, nausea, vomiting, abdominal pain and diarrhoea. Foods more involved in outbreaks of Campylobacter are mainly caused by raw or undercooked poultry, raw milk, and ruminants’ meat. ETEC are often associated with the consumption of raw fruits and vegetables. Shigella cases are linked with the consumption of contaminated fresh produce, cold ready-to-eat salads, and unpasteurized dairy products. STEC is associated with the consumption of raw and undercooked meats, dairy products made from unpasteurized milk, raw leafy greens, and unpasteurized juices, for example.
+
+Listeria infections can lead to miscarriage in pregnant women or the death of newborn babies. Although disease occurrence is relatively low, Listeria’s severe and sometimes fatal health consequences, particularly among infants, children and older people make it one of the most serious foodborne infections. Listeria is found in unpasteurized dairy products and various ready-to-eat foods and can grow at refrigeration temperatures.
+
+Vibrio cholerae can infect people through contaminated water or food. Symptoms may include abdominal pain, vomiting and profuse watery diarrhoea, which quickly lead to severe dehydration and possibly death. Raw vegetables and various types of raw or undercooked seafood have been implicated in cholera outbreaks.
+
+Antimicrobials, such as antibiotics, are essential to treat infections caused by bacteria, including foodborne pathogens. However, their overuse and misuse in veterinary and human medicine have been linked to the emergence and spread of resistant bacteria, rendering the treatment of infectious diseases ineffective in animals and humans.
+
+Viruses
+-------
+
+Some viruses can be transmitted by food consumption. Norovirus is a common cause of foodborne infections that is characterized by nausea, explosive vomiting, watery diarrhoea and abdominal pain. Hepatitis A virus can also be transmitted by food and typically spreads through raw or undercooked seafood or contaminated raw fresh or frozen produce such as berries. Hepatitis E virus is unique among the foodborne viruses in that it is a zoonotic pathogen with many asymptomatic animal reservoirs, notably swine. Undercooked pig products are the main foods contaminated by hepatitis E virus.
+
+Parasites
+---------
+
+Foodborne parasitic diseases are often neglected despite their significant impact on public health, including the potential for severe and sometimes fatal outcomes. Certain parasites are transmitted to humans exclusively through food, while for others, food represents a major pathway of infection.
+
+Many of these infections are characterized by long incubation periods, which may extend for years or even decades before symptoms become apparent. For example, Taenia solium causes cysticercosis, a condition that often leads to epilepsy. Fish-borne trematodes can result in abdominopelvic disorders and the bile duct cancer. This risk for bile duct cancer is also directly associated with infections with Opisthorchis viverrini and Clonorchis sinensis. Toxoplasmosis, an infection with the Toxoplasma gondii parasite, during pregnancy can lead to serious congenital outcomes in the fetus. In addition, Trypanosoma cruzi, the causative agent of Chagas disease, may also be transmitted through contaminated food often resulting in more severe symptoms than from vector-borne Chagas disease.
+
+Prions
+------
+
+Prions, infectious agents composed of protein, are unique in that they are associated with specific forms of neurodegenerative disease. Bovine spongiform encephalopathy (BSE, or so-called mad cow disease) is a prion disease in cattle, associated with the variant Creutzfeldt-Jakob disease (vCJD) in humans. Consuming meat products containing specified risk material, such as brain tissue, is the most likely route of transmission of the prion agent to humans.
+
+Chemical hazards
+----------------
+
+Of most concern for health are environmental pollutants and naturally occurring toxins.
+
+Metals in food such as arsenic lead, mercury and cadmium can cause noncommunicable diseases. Contamination of food by metal in food occurs through several pathways, including natural occurrence and pollution of water and soil, as well as through improper food processing and preparation. In 2021, dietary exposure to arsenic and lead alone resulted in one million cardiovascular deaths, and 124 000 deaths due to cancer. Dietary exposure to methylmercury increases the risk of intellectual disability in children.
+
+Inorganic arsenic causes a large burden of disease, including ischemic heart disease, and several forms of cancer (mainly lung and bladder cancer, and, to a much lesser extent, cases of skin cancer. Lead also causes a great burden of several types of cardiovascular diseases, and intellectual disability in children. The sources of lead exposure are varied, spanning from spices’ adulteration with lead chromate to preserve a certain colour, to the leaching of lead from recycled aluminium cookware, including staples (such as cereals or tubers) grown in contaminated soil. Methylmercury, mainly from the consumption of seafood, especially predatory fish, is responsible for a large burden of intellectual disability in pre-school children. Cadmium has been linked to chronic kidney diseases and osteoporosis. Crops such as cocoa beans grown on volcanic soil tend to have a higher uptake of cadmium.
+
+Other chemical hazards in food can include radioactive materials emitting ionizing radiation that can be discharged into the environment from industries, disused medical devices, and from civil or military nuclear operations, food allergens, residues of drugs, and other contaminants unintentionally incorporated in the food during the production operations, such as heating processes.
+
+Naturally occurring toxins include mycotoxins (toxins secreted by moulds), marine biotoxins, and cyanogenic glycosides from cassava. Staple foods like maize, peanuts and edible oils can contain high levels of mycotoxins, such as aflatoxins, fumonisins and ochratoxin A. Long-term exposure to aflatoxin B1, a genotoxic mycotoxin, causes liver cancer, especially in individuals already exposed to hepatitis B virus. In addition, evidence converges towards a contribution of aflatoxins to child growth impairment, a well-established chronic malnutrition indicator.
+
+Persistent organic pollutants (POPs) are compounds that accumulate in the environment and human body. Known examples are dioxins and polychlorinated biphenyls (PCBs), which are unwanted by-products of industrial processes and waste incineration. They are found worldwide in the environment and accumulate in animal food chains. Dioxins are highly toxic and can cause reproductive and developmental problems, damage the immune system, interfere with hormones and cause cancer. Efforts in reducing the sources of dioxin seem to pay off, as the global burden of male infertility due to dioxin dramatically decreased from 2000 to 2021.
+
+The burden of foodborne diseases
+================================
+
+Estimating the burden of foodborne disease is difficult due to the multiple sources of different hazards. Most diseases are not under public health surveillance and has often been underestimated due to underreporting and difficulty in establishing causal relationships between food contamination and resulting illness or death.
+
+WHO estimates of the global burden of foodborne diseases 2000–2021, published in 2026, present the latest estimates of disease burden caused by 42 key food hazards (bacteria, viruses, parasites, chemicals) at national, regional and global levels. They highlighted that more than 866 million cases of foodborne illnesses and 1.52 million deaths occurred in 2021. The burden of foodborne diseases falls disproportionately on certain groups, on children under 5 years of age, with the highest burden in low- and middle-income countries.
+
+The total economic burden and productivity loss associated with foodborne diseases was estimated at US$ 310 billion in 2021.
+
+The evolving world and food safety
+----------------------------------
+
+Climate change is expected to have considerable impacts on food safety and will likely increase the risks from existing and emerging foodborne diseases through increases in extreme weather events, increases in air and water temperatures, and changes in precipitation frequency and intensity.
+
+Local incidents can quickly evolve into international emergencies due to the speed and range of product distribution. These challenges put greater responsibility on food producers and handlers to ensure food safety.
+
+A public health priority – from production to consumption
+---------------------------------------------------------
+
+Governments should prioritize food safety through development of evidence-based policies and risk-based, flexible regulatory frameworks and the establishment and implementation of effective food safety systems. Food handlers and consumers need to understand how to safely handle food and practice the WHO Five keys to safer food at home, or when selling at restaurants or at local markets. Food producers can safely grow fruits and vegetables using the WHO Five keys to growing safer fruits and vegetables.
+
+Food safety is a shared responsibility among different national authorities and requires a multisectoral, One Health approach, to be addressed in all the steps of the food chain.
+
+WHO response
+============
+
+WHO aims to strengthen national food control systems and surveillance to facilitate global prevention, detection and response to public health threats associated with unsafe food. To do this, WHO supports Member States by:
+
+- help Member States strengthen their national food control systems and reduce the burden of foodborne diseases;
+
+- providing independent scientific risk assessments on microbiological and chemical hazards that form the basis for international food standards, guidelines, and recommendations, known as the Codex Alimentarius;
+
+- modernizing risk assessment methodologies to address current and new challenges to food safety hazards and new food products;
+
+- assessing the performance of national food control systems throughout the entire food chain, identifying priority areas for further development, and measuring and evaluating progress over time through the FAO/WHO food control system assessment tool;
+
+- assessing the safety of new technologies used in food production, such as genetic modification, cultivated cell-based food products, and nanotechnology;
+
+- helping implement adequate infrastructure to manage food safety risks and respond to food safety emergencies through the International Food Safety Authorities Network (INFOSAN);
+
+- promoting safe food handling through systematic disease prevention and awareness programmes, and through the WHO Five keys to safer food message and training materials;
+
+- advocating for food safety as an important component of health security and for integrating food safety into national policies and programmes in line with the International Health Regulations (IHR 2005);
+
+- strengthening surveillance of and response to foodborne diseases globally by supporting countries to improve their current foodborne disease surveillance and response activities (including through the use of Whole Genome Sequencing (WGS)) and integrate them into existing national surveillance and response systems required by the IHR 2005; and
+
+- monitoring regularly the global burden of foodborne diseases at national, regional and international levels, and supporting countries to estimate the national burden of foodborne diseases or utilize existing burden estimates to inform food safety policies.
+
+WHO works closely with the Food and Agriculture Organization (FAO), the World Organization for Animal Health (WOAH), the UN Environment Programme (UNEP) and other international organizations to ensure food safety along the entire food chain from production to consumption, in line with the One health joint plan of action (‎2022‒2026)‎: working together for the health of humans, animals, plants and the environment.

@@ -1,0 +1,105 @@
+WHO FACT SHEET
+Title: Abuse of older people
+URL: https://www.who.int/news-room/fact-sheets/detail/abuse-of-older-people
+Retrieved: 2026-10-05T09:27:13.792889+00:00
+
+========================================
+
+Key facts
+=========
+
+- Around 1 in 6 people 60 years and older experienced some form of abuse in community settings during the past year.
+
+- Rates of abuse of older people are high in institutions such as nursing homes and long-term care facilities, with 2 in 3 staff reporting that they have committed abuse in the past year.
+
+- Rates of abuse of older people have increased during the COVID-19 pandemic.
+
+- Abuse of older people can lead to serious physical injuries and long-term psychological consequences.
+
+- Abuse of older people is predicted to increase as many countries are experiencing rapidly ageing populations.
+
+- The global population of people aged 60 years and older will more than double, from 900 million in 2015 to about 2 billion in 2050.
+
+Overview
+
+The abuse of older people, also known as elder abuse, is a single or repeated act, or lack of appropriate action, occurring within any relationship where there is an expectation of trust, which causes harm or distress to an older person. This type of violence constitutes a violation of human rights and includes physical, sexual, psychological and emotional abuse; financial and material abuse; abandonment; neglect; and serious loss of dignity and respect.
+
+Scope of the problem
+====================
+
+Abuse of older people is an important public health problem. A 2017 review of 52 studies in 28 countries from diverse regions estimated that over the past year 1 in 6 people (15.7%) aged 60 years and older were subjected to some form of abuse (1). Although rigorous data are limited, the review provides prevalence estimates of the proportion of older people affected by different types of abuse (see Table 1).
+
+Data on the extent of the problem in institutions such as hospitals, nursing homes and other long-term care facilities are scarce. However, a review of recent studies on abuse of older people in institutional settings (2) indicates that 64.2% of staff reported perpetrating some form of abuse in the past year.
+
+Table 1: Systematic reviews and meta-analyses
+
+| Abuse of older people in community settings (1) | Abuse of older people in institutional settings (2) |
+
+Type of abuse | Reported by older adults | Reported by older adults and their proxies | Reported by staff |
+
+Overall prevalence | 15.7% | Not enough data | 64.2% or 2 in 3 staff |
+
+Psychological abuse: | 11.6% | 33.4% | 32.5% |
+
+Physical abuse: | 2.6% | 14.1% | 9.3% |
+
+Financial abuse: | 6.8% | 13.8% | Not enough data |
+
+Neglect: | 4.2% | 11.6% | 12.0% |
+
+Sexual abuse: | 0.9% | 1.9% | 0.7% |
+
+Emerging evidence indicates that the prevalence of abuse of older people in both the community and in institutions have increased during the COVID-19 pandemic. A US study, for instance, suggests that rates in the community may have increased by as much as 84% (3).
+
+- Abuse of older people in community settings
+
+- Abuse of older people in institutional settings
+
+Globally, the number of cases of elder abuse is projected to increase as many countries have rapidly ageing populations. Even if the proportion of victims of abuse of older people remains constant, the global number of victims will increase rapidly due to population ageing, growing to some 320 million victims by 2050, as the global population of people aged 60 years and more increases to 2 billion by 2050.
+
+Consequences
+============
+
+Abuse of older people can have serious physical and mental health, financial, and social consequences, including, for instance, physical injuries, premature mortality, depression, cognitive decline, financial devastation and placement in nursing homes. For older people, the consequences of abuse can be especially serious and recovery may take longer (4).
+
+Risk factors
+============
+
+Individual level characteristics which increase the risk of becoming a victim of abuse include functional dependence/disability, poor physical health, cognitive impairment, poor mental health and low income. Individual level characteristics which increase the risk of becoming a perpetrator of abuse include mental illness, substance abuse and dependency – often financial – of the abuser on the victim. At the relationship level, the type of relationship (e.g., spouse/partner or child/parent) and marital status may be associated with an elevated risk of abuse, but these factors vary by country and region. Community- and societal-level factors linked to elder abuse may include ageism against older people and certain cultural norms (e.g., normalization of violence). Social support and living alone reduce the likelihood of elder abuse (5).
+
+Prevention
+==========
+
+Many strategies have been tried to prevent and respond to abuse of older people, but evidence for the effectiveness of most of these interventions is limited at present. Strategies considered most promising include caregiver interventions, which provide services to relieve the burden of caregiving; money management programmes for older adults vulnerable to financial exploitation; helplines and emergency shelters; and multi-disciplinary teams, as the responses required often cut across many systems, including criminal justice, health care, mental health care, adults protective services and long-term care (5).
+
+In some countries, the health sector has taken a leading role in raising public concern about abuse of older people, while in others the social welfare sector has taken the lead. Globally, too little is known about elder abuse and how to prevent it, particularly in developing countries.
+
+WHO response
+============
+
+On 15 June 2022, World Elder Abuse Awareness Day, WHO and partners published “Tackling abuse of older people: five priorities for the UN Decade of Healthy Ageing (2021–2030)”. These five priorities, arrived at through wide consultation, are:
+
+- Combat ageism as it is a major reason why the abuse of older people receives so little attention.
+
+- Generate more and better data to raise awareness of the problem.
+
+- Develop and scale up cost–effective solutions to stop abuse of older people.
+
+- Make an investment case focusing on how addressing the problem is money well spent.
+
+- Raise funds as more resources are needed to tackle the problem.
+
+(1) Elder abuse prevalence in community settings: a systematic review and meta-analysis.
+Yon Y, Mikton CR, Gassoumis ZD, Wilber KH. Lancet Glob Health. 2017 Feb;5(2):e147-e156.
+https://www.ncbi.nlm.nih.gov/pubmed/28104184
+
+(2) The prevalence of elder abuse in institutional settings: a systematic review and meta-analysis. Yon Y, Ramiro-Gonzalez M, Mikton C, Huber M, Sethi D. European Journal of Public Health 2018.
+https://www.ncbi.nlm.nih.gov/pubmed/29878101
+
+(3) High prevalence of elder abuse during the COVID-19 pandemic: risk and resilience factors. Chang ES, Levy BR. The American Journal of Geriatric Psychiatry. 2021. https://pubmed.ncbi.nlm.nih.gov/33518464/
+
+(4) The mortality of elder mistreatment.
+Lachs MS, Williams CS, O'Brien S, Pillemer KA, Charlson ME. JAMA. 1998 Aug 5;280(5):428-32.
+https://www.ncbi.nlm.nih.gov/pubmed/9701077
+
+(5) Elder Abuse: Global Situation, Risk Factors, and Prevention Strategies. Pillmer K, Burnes D, Riffin C, Lachs M. The Gerontologist. 2016; 56(2); 194-205. https://pubmed.ncbi.nlm.nih.gov/26994260/

@@ -1,0 +1,100 @@
+WHO FACT SHEET
+Title: Listeriosis
+URL: https://www.who.int/news-room/fact-sheets/detail/listeriosis
+Retrieved: 2026-10-05T09:33:04.764494+00:00
+
+========================================
+
+Key facts
+=========
+
+- Listeriosis is a serious, but preventable and treatable disease.
+
+- Pregnant women, the elderly or individuals with a weakened immune system, such as people with immuno-compromised status due to HIV, leukaemia, cancer, kidney transplant and steroid therapy, are at greatest risk of severe listeriosis and should avoid high risk foods.
+
+- High risk foods include deli meat and ready-to-eat meat products (such as cooked, cured and/or fermented meats and sausages), soft cheeses and cold smoked fishery products.
+
+- Listeria monocytogenes are widely distributed in nature. They can be found in soil, water, vegetation and the faeces of some animals and can contaminate foods.
+
+- Listeriosis is an infectious disease caused by the bacterium Listeria monocytogenes.
+
+Foodborne listeriosis is one of the most serious and severe foodborne diseases. It is caused by the bacteria Listeria monocytogenes. It is a relatively rare disease with 0.1 to 10 cases per 1 million people per year depending on the countries and regions of the world. Although the number of cases of listeriosis is small, the high rate of death associated with this infection makes it a significant public health concern.
+
+Unlike many other common foodborne diseases causing bacteria, L. monocytogenescan survive and multiply at low temperatures usually found in refrigerators. Eating contaminated food with high numbers of L. monocytogenes is the main route of infection. Infection can also be transmitted between humans, notably from pregnant women to unborn babies.
+
+L. monocytogenes are ubiquitous in nature and found in soil, water and animal digestive tracts. Vegetables may be contaminated through soil or the use of manure as fertilizer. Ready-to-eat food can also become contaminated during processing and the bacteria can multiply to dangerous levels during distribution and storage.
+
+Food most often associated with listeriosis include:
+
+- foods with a long shelf-life under refrigeration (L. monocytogenes can grow to significant numbers in food at refrigeration temperatures when given sufficient time); and
+
+- foods that are consumed without further treatment, such as cooking, which would otherwise kill L. monocytogenes.
+
+In past outbreaks, foods involved included ready-to-eat meat products, such as frankfurters, meat spread (paté), smoked salmon and fermented raw meat sausages, as well as dairy products (including soft cheeses, unpasteurized milk and ice cream) and prepared salads (including coleslaw and bean sprouts) as well as fresh vegetables and fruits.
+
+The disease
+===========
+
+Listeriosis is a series of diseases caused by the bacteria L. monocytogenes, outbreaks of which occur in all countries. There are two main types of listeriosis: a non-invasive form and an invasive form.
+
+Noninvasive listeriosis (febrile listerial gastroenteritis) is a mild form of the disease affecting mainly otherwise healthy people. Symptoms include diarrhoea, fever, headache and myalgia (muscle pain). The incubation period is short (a few days). Outbreaks of this disease have generally involved the ingestion of foods containing high doses of L. monocytogenes.
+
+Invasive listeriosis is a more severe form of the disease and affects certain high risk groups of the population. These include pregnant women, patients undergoing treatment for cancer, HIV and organ transplants, elderly people and infants. This form of disease is characterized by severe symptoms and a high mortality rate (20–30%). The symptoms include fever, myalgia (muscle pain), septicemia, meningitis. The incubation period is usually one to two weeks but can vary between a few days and up to 90 days.
+
+The initial diagnosis of listeriosis is made based on clinical symptoms and detection of the bacteria in a smear from blood, cerebrospinal fluid (CSF), meconium of newborns (or the fetus in abortion cases), as well as from faeces, vomitus, foods or animal feed. Various detection methods, including polymerase chain reaction (PCR), are available for diagnosis of listeriosis in humans. During pregnancy, blood and placenta cultures are the most reliable ways to discover if symptoms are due to listeriosis.
+
+Pregnant women are about 20 times more likely to contract listeriosis than other healthy adults. It can result in miscarriage or stillbirth. Newborn may also have low birth weight, septicaemia and meningitis. People with HIV are at least 300 times more likely to get ill than those with a normally functioning immune system.
+
+Due to the long incubation period, it is challenging to identify the food which was the actual source of the infection.
+
+Treatment
+=========
+
+Listeriosis can be treated if diagnosed early. Antibiotics are used to treat severe symptoms such as meningitis. When infection occurs during pregnancy, prompt administration of antibiotics prevents infection of the fetus or newborn.
+
+Control methods
+===============
+
+The control of L. monocytogenes is required at all stages in the food chain and an integrated approach is needed to prevent the multiplication of this bacteria in the final food product. The challenges for controlling L. monocytogenes are considerable given its ubiquitous nature, high resistance to common preservative methods, such as the use of salt, smoke or acidic condition in the food, and its ability to survive and grow at refrigeration temperatures (around 5 °C). All sectors of the food chain should Implement Good Hygienic Practices (GHP) and Good Manufacturing Practices (GMP) as well as implement a food safety management system based on the principles of Hazard Analysis Critical Control Points (HACCP).
+
+- Guidelines on the application of general principles of food hygiene to the control of Listeria monocytogenes in ready-to-eat foods (CXG 61-2007)
+
+Food manufacturers should also test against microbiological criteria, as appropriate, when validating and verifying the correct functioning of their HACCP based procedures and other hygiene control measures. In addition, producers manufacturing food associated with risks of Listeria must conduct environmental monitoring to identify and eliminate niche environments, including areas that favor the establishment and proliferation of L. monocytogenes.
+
+Modern technologies using genetic fingerprint – Whole Genome Sequencing (WGS) – allow for more rapid identification of the food source of listeriosis outbreaks by linking L. monocytogens isolated from patients with those isolated from foods.
+
+Prevention
+==========
+
+L. monocytogenes in food are killed by pasteurization and cooking.
+
+In general, guidance on the prevention of listeriosis is similar to guidance used to help prevent other foodborne illnesses. This includes practicing safe food handling and following the WHO Five Keys to Safer Food:
+
+1. Keep clean
+
+2. Separate raw and cooked
+
+3. Cook thoroughly
+
+4. Keep food at safe temperatures
+
+5. Use safe water and raw materials.
+
+- Poster: Five Keys to Safer Food
+
+Persons in high risk groups should:
+
+- Avoid consuming dairy products made of unpasteurized milk; deli meats and ready-to-eat meat products such as sausages, hams, patés and meat spreads, as well as cold-smoked seafood (such as smoked salmon);
+
+- Read and carefully follow the shelf life period and storage temperatures indicated on the product label.
+
+It is important to respect the shelf-life and storage temperature written on labels of ready-to-eat foods to ensure that bacteria potentially present in these foods does not multiply to dangerously high numbers. Cooking before eating is another very effective way to kill the bacteria.
+
+WHO response
+============
+
+WHO promotes the strengthening of food safety systems, good manufacturing practices and educating retailers and consumers on appropriate food handling and avoiding contamination. Educating consumers, especially those in high risk groups, and training of food handlers in safe food handling are among the most critical means to prevent foodborne illnesses including listeriosis.
+
+WHO and FAO have published an international quantitative risk assessment of Listeria in ready-to-eat foods This has formed the scientific basis for the Codex Alimentarius Commission Guidelines on the Application of General Principles of Food Hygiene to the Control of Listeria Monocytogenes in Foods. This guidance includes microbiological criteria (i.e. maximum limits for the presence of L. monocytogenes in foods)
+
+WHO’s main tool to assist Member States in surveillance, coordination and response to outbreaks is the International Network of Food Safety Authorities (INFOSAN) which links national authorities in Member States in charge of managing food safety events. This network is managed jointly by WHO and FAO.

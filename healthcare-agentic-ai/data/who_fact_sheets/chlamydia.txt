@@ -1,0 +1,129 @@
+WHO FACT SHEET
+Title: Chlamydia
+URL: https://www.who.int/news-room/fact-sheets/detail/chlamydia
+Retrieved: 2026-10-05T09:31:13.631467+00:00
+
+========================================
+
+Key facts
+=========
+
+- Chlamydia is a preventable and curable sexually transmitted infection (STI) caused by the bacterium Chlamydia trachomatis, which is primarily transmitted through vaginal, oral and anal sex.
+
+- In 2020 there were an estimated 128.5 million new chlamydia infections among adults (15–49 years old) globally.
+
+- Chlamydia infection is often asymptomatic; however, when symptoms do occur, they may include unusual urethral and vaginal discharge.
+
+- If left untreated, chlamydia infection can lead to serious health problems including pelvic inflammatory disease and infertility in women. Chlamydial infection also increases the risk of HIV infection and has been associated with adverse pregnancy outcomes.
+
+Overview
+========
+
+Chlamydia is a common sexually transmitted infection that can occur in both men and women. It is caused by a bacterium called Chlamydia trachomatis. It is easily treated and cured with antibiotics.
+
+Chlamydia is unlikely to lead to any long-term problems if treated early. However, without treatment, chlamydia can cause serious problems and may facilitate the transmission and acquisition of HIV and other STIs. If not treated, chlamydia can cause serious problems, including pelvic inflammatory disease and an increased risk of infertility and ectopic pregnancy. In pregnant women, it can cause the baby to be born early (prematurity) or with low birth weight.
+
+Correct and consistent use of condoms during sex is the most effective way to prevent chlamydia.
+
+Scope of the problem
+====================
+
+In 2020, an estimated 128.5 million new infections with Chlamydia trachomatis occurred worldwide among adults aged 15 to 49 years. The global prevalence among people aged 15–49 years was estimated to be 4.0% for women and 2.5% for men in 2020. Chlamydial infection is more common in young people. Lymphogranuloma venereum (LGV), caused by particular strains of Chlamydia trachomatis, is relatively rare, but there has been a resurgence in some countries, especially among gay men and other men who have sex with men. Another strain of the Chlamydia cause trachoma but transmitted by contact with discharge from the eye and nose, particularly among young children.
+
+Signs and symptoms
+==================
+
+Many people with chlamydia have no symptoms or only mild symptoms. If symptoms occur, they may not appear until up to three weeks after having sex with someone who has chlamydia.
+
+Common symptoms in men include:
+
+- burning when urinating
+
+- discharge from the penis
+
+- pain in the testicles.
+
+In women, common symptoms include:
+
+- a change in vaginal discharge
+
+- bleeding between menstrual periods or after sex
+
+- pain or discomfort in the lower abdomen
+
+- burning sensation when urinating.
+
+- itch.
+
+Anal infection in women and men can cause anorectal:
+
+- pain
+
+- discharge
+
+- bleeding.
+
+Oral infection is most often without symptoms.
+
+Infants born to mothers with chlamydia may experience eye infections or pneumonia. These can be treated with antibiotic medications for newborns.
+
+The LGV type of chlamydia can cause severe inflammation and can lead to genital ulcer, lymph node enlargement, or inflammation of the anorectal area with discharge, abdominal cramps, diarrhoea, constipation, fever or pain while passing stools.
+
+Possible complications
+======================
+
+Chlamydia can cause serious problems if left untreated, particularly among women. Women may develop pelvic inflammatory disease (PID), can experience abdominal and pelvic pain, and in later stages develop infertility and ectopic pregnancy (a pregnancy that occurs outside the womb).
+
+Men may develop a painful infection in their testicles (epididymitis, epididymo-orchitis). In rare cases, this can lead to infertility.
+
+Additionally, chlamydia may cause arthritis symptoms, such as swollen joints (arthritis) and inflammation of the eyes.
+
+Infection with chlamydia can cause stigma and affect personal relationships. These effects are important but often not quantifiable.
+
+Neonatal infection can cause conjunctivitis (eye infection) and pneumonia. It can also cause preterm deliveries and low birth weight.
+
+LGV can be an invasive, systemic infection and, if it is not treated early, can lead to chronic oozing lesions around anorectal region, strictures or reactive joint pain and swelling.
+
+Diagnosis
+=========
+
+Healthcare providers will discuss the patient’s medical and sexual history and conduct a genital examination, including speculum examination and palpation, to enable them have important clues to clinical diagnosis. The most commonly used diagnostic test is nucleic acid amplification tests (NAAT), considered as the gold standard for diagnosing C. trachomatis. These can be performed in the lab or at the point of care using molecular tests.
+
+Urine samples are commonly used for diagnosing chlamydia but are less sensitive than swab-collected samples from genital (vaginal or urethral), anal and oropharyngeal sites. The collection of samples from different anatomic sites depends on sexual practices and medical history. Self-collection of samples is recommended as the tests results are similar than those collected by a health provider.
+
+Because the majority of cases are without symptoms, regular testing for individuals at increased risk of chlamydial infection, such as female sex workers, is recommended to prevent the development of complications and the spread of infection.
+
+In many primary health care settings where diagnostic capacity for detecting C. trachomatis is not available, a syndromic approach for case management is recommended.
+
+In the presence chlamydia (or vaginal/urethral/anal discharge), tests for other sexually transmitted infections (such as HIV, syphilis and gonorrhoea) are recommended together with notification of sexual partner(s).
+
+For LGV diagnosis a specific molecular test needs to be performed.
+
+Treatment
+=========
+
+Chlamydia is treatable and curable.
+
+Uncomplicated chlamydia is treated with antibiotic tablets including doxycycline or azithromycin.
+
+Repeated infections can occur if sexual partners are not treated, and if individuals have sex without condoms with someone who has the infection.
+
+Newborns with chlamydial eye infection (conjunctivitis) are treated with azithromycin.
+
+People should wait 7 days after taking the medicine before having sex or, if not possible, use condoms correctly. They should notify their sexual partner(s) to get tested and treated, if necessary.
+
+WHO guidelines for the treatment of Chlamydia trachomatis
+
+Prevention
+==========
+
+Consistent and correct use of condoms when having vaginal and anal sex is the only way to prevent chlamydial infection.
+
+If you are pregnant, getting tested for chlamydia and receiving prompt treatment if you test positive can prevent transmission to the baby.
+
+There are no vaccines for the prevention of chlamydial infection.
+
+WHO response
+============
+
+The WHO has recognized chlamydia as an important public health problem along with other sexually transmitted infections and has set ambitious targets to reduce their global burden through prevention, diagnosis, and treatment strategies. The Global health sector strategies on HIV, viral hepatitis and STIs 2022–2030 aims for a 50% reduction in new cases of chlamydia by 2030. WHO is working with countries and partners to improve people-centred case management, ensure appropriate treatment, to scale up access to effective testing and partner services, to support the development of quality affordable diagnostics treatment and vaccines, and to improve country and global level monitoring of new infections.

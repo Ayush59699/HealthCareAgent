@@ -1,0 +1,110 @@
+WHO FACT SHEET
+Title: Assistive technology
+URL: https://www.who.int/news-room/fact-sheets/detail/assistive-technology
+Retrieved: 2026-10-05T09:30:37.144874+00:00
+
+========================================
+
+Key facts
+=========
+
+- Assistive products can range from physical products such as wheelchairs, glasses, prosthetic limbs, white canes, and hearing aids to digital solutions such as speech recognition or time management software and captioning.
+
+- Most people who use assistive technology use more than one product, making integrated services important.
+
+- Globally, more than 2.5 billion people need one or more assistive products.
+
+- With an ageing global population and a rise in noncommunicable diseases, an estimated 3.5 billion people will need assistive technology by 2050.
+
+- In many countries, most people who need assistive technology do not have access to it.
+
+Overview
+========
+
+Assistive technology is an umbrella term for assistive products and their related systems and services.
+
+Assistive products help maintain or improve an individual’s functioning related to cognition, communication, hearing, mobility, self-care and vision, thus enabling their health, well-being, inclusion and participation.
+
+Improving access to assistive technology can contribute to the achievement of the Sustainable Development Goals and to ensuring that no one is left behind. This is through enabling the inclusion and participation of assistive technology users in their family, community and all areas of society, including the political, economic and social spheres.
+
+Who can benefit from assistive technology?
+==========================================
+
+Most people will need assistive technology at some point in their lives, especially as they age. While some may require assistive technology temporarily, such as after an accident or illness, others may require it for a longer period or throughout their lifespan.
+
+Assistive technology is most needed by:
+
+- older people
+
+- children and adults with disabilities
+
+- people with long term health conditions such as diabetes, stroke and dementia.
+
+Benefits of assistive technology
+================================
+
+Assistive technology can help people in all aspects of their lives, including in education, employment, fitness, leisure and other everyday activities such as self-care, cooking and reading.
+
+Assistive technology can positively impact a person, their family and friends, and has broader socioeconomic benefits. For example:
+
+- early provision of hearing aids for young children supports their development of language and communication skills, limiting negative impacts on their education, future employment and community participation;
+
+- provision of appropriate wheelchairs facilitates mobility, improving individuals’ access to education and employment while reducing healthcare costs due to a reduction in secondary complications such as pressure sores and contractures;
+
+- therapeutic footwear for diabetes reduces the incidence of foot ulcers, preventing amputations and the associated impact on individuals and burden on health-care systems; and
+
+- timely provision of assistive technology for older people can improve their independence and safety as well as enable them to live at home for as long as possible.
+
+Unmet global need
+=================
+
+The WHO and UNICEF Global report on assistive technology (2022) demonstrates considerable inequity in access to assistive technology. As few as 3% of people in some low-income countries were reported to have access to the assistive products they need, in comparison to 90% in some high-income countries.
+
+Examples of the unmet global need for specific assistive technology include:
+
+- mobility: of the 80 million people who need a wheelchair, only 5­–35% have access to one, depending on the country in which they live; and
+
+- hearing: globally, 1.5 billion people have hearing loss, yet hearing aid production currently meets less than 10% of the global demand. Unaddressed hearing loss across the globe leads to an annual cost of US$ 980 billion.
+
+Barriers impacting access to assistive technology include low awareness, high costs, limited physical access, inadequate product range, procurement challenges, workforce capacity gaps, inadequate policy, insufficient funding, assistive technology sector fragmentation and sociodemographic obstacles.
+
+Assistive technology within universal health coverage
+=====================================================
+
+The 2030 Agenda for Sustainable Development places good health and well-being at the centre of a new development vision. It emphasizes universal health coverage (UHC) to ensure sustainable development for all so that everyone can access the health services needed without financial hardship.
+
+Addressing the unmet need for assistive products is crucial for achieving Sustainable Development Goals, providing UHC, and implementing the Convention on the Rights of Persons with Disabilities.
+
+‘Leaving no one behind’ means ensuring people with disabilities, the older population, those affected by chronic diseases and everyone who needs assistive technology are included in society and able to live healthy and dignified lives.
+
+What needs to be done?
+======================
+
+The WHO and UNICEF Global report on assistive technology (2022) offers recommendations specifically intended to steer governments and other stakeholders towards achieving universal access to assistive technology. These 10 priority recommendations underline the ongoing efforts required to enhance access to assistive technology for all in need.
+
+1. Improve access to assistive technology within all development sectors.
+
+2. Ensure safe, effective and affordable assistive products.
+
+3. Enhance workforce capacity.
+
+4. Involve users and families in the entire assistive technology access pathway.
+
+5. Raise public awareness and combat stigma regarding assistive technology.
+
+6. Invest in data-driven policy.
+
+7. Foster research and innovation.
+
+8. Develop enabling environments that benefit everyone involved in assistive technology.
+
+9. Include assistive technology in humanitarian responses.
+
+10. Strengthen international cooperation on assistive technology.
+
+WHO response
+============
+
+WHO is taking measures to address the global disparity in access to assistive technology, developing normative guidance and providing technical support to Member States to support them in implementing the 2018 World Health Assembly Resolution on Improving Access to Assistive Technology (WHA71.8). WHO uses the WHO-GATE 5P framework as a strategy for strengthening access to assistive technology in any context. This strategy places people at the centre and focuses equal attention on policy, products, provision and personnel as interconnected elements that must be aligned to ensure equitable access.
+
+WHO and UNICEF published the Global Report on Assistive Technology in 2022, which provides the most comprehensive global evidence on assistive technology. WHO has developed a range of guidance, tools and resources in collaboration with other partners to support countries to strengthen their assistive technology provision systems. WHO is also the Secretariat for the Global Cooperation on Assistive Technology (GATE) Initiative, which brings together diverse stakeholders who share the vision of a world where assistive technology is universally accessible to everyone, everywhere.

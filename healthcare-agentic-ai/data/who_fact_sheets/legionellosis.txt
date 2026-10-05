@@ -1,0 +1,101 @@
+WHO FACT SHEET
+Title: Legionellosis
+URL: https://www.who.int/news-room/fact-sheets/detail/legionellosis
+Retrieved: 2026-10-05T09:33:00.977598+00:00
+
+========================================
+
+Key facts
+=========
+
+- The bacterium L. pneumophila was first identified in 1977, as the cause of an outbreak of severe pneumonia in a convention centre in the USA in 1976.
+
+- The most common form of transmission of Legionella is inhalation of contaminated aerosols produced in conjunction with water sprays, jets or mists of contaminated water sources. Infection can also occur by aspiration of contaminated water or ice, particularly in susceptible hospital patients.
+
+- Legionnaires’ disease has an incubation period of 2 to 10 days (but up to 16 days has been recorded in some outbreaks).
+
+- Treatments exist, but there is currently no vaccine available for Legionnaires' disease.
+
+- Death occurs through progressive pneumonia with respiratory failure and/or shock and multi-organ failure.
+
+- Untreated Legionnaires’ disease usually worsens during the first week.
+
+- Of the reported cases, 75–80% are over 50 years and 60–70% are male.
+
+Overview
+========
+
+Legionellosis varies in severity from a mild febrile illness to a serious and sometimes fatal form of pneumonia and is caused by exposure to the Legionella bacteria species found in contaminated water and potting mixes.
+
+Cases of legionellosis are often categorized as being community, travel or hospital acquired based on the type of exposure.
+
+Worldwide, waterborne Legionella pneumophila is the most common cause of cases including outbreaks. Legionella pneumophila and related species are commonly found in lakes, rivers, creeks, hot springs and other bodies of water. Other species including L. longbeachae can be found in potting mixes.
+
+The bacterium L. pneumophila was first identified in 1977 as the cause of an outbreak of severe pneumonia in a convention centre in the USA in 1976. It has since been associated with outbreaks linked to poorly maintained artificial water systems.
+
+The infective dose is unknown but can be assumed to be low for susceptible people, as illnesses have occurred after short exposures and 3 or more kilometres from the source of outbreaks. The likelihood of illness depends on the concentrations of Legionella in the water source, the production and dissemination of aerosols, host factors such as age and pre-existing health conditions and the virulence of the particular strain of Legionella. Most infections do not cause illness.
+
+The cause
+=========
+
+The causative agents are Legionella bacteria from water or potting mix. The most common cause of illness is the freshwater species L. pneumophila, which is found in natural aquatic environments worldwide. However, artificial water systems which provide environments conducive to the growth and dissemination of Legionella represent the most likely sources of disease.
+
+The bacteria live and grow in water systems at temperatures of 20 to 50 degrees Celsius (optimal 35 degrees Celsius). Legionella can survive and grow as parasites within free-living protozoa and within biofilms which develop in water systems. They can cause infections by infecting human cells using a similar mechanism to that used to infect protozoa.
+
+Transmission
+============
+
+The most common form of transmission of Legionella is inhalation of contaminated aerosols from contaminated water. Sources of aerosols that have been linked with transmission of Legionella include air conditioning cooling towers, hot and cold water systems, humidifiers and whirlpool spas. Infection can also occur by aspiration of contaminated water or ice, particularly in susceptible hospital patients, and by exposure of babies during water births. To date, there has been no reported direct human-to-human transmission.
+
+Extent of the disease
+=====================
+
+Legionnaires’ disease is believed to occur worldwide.
+
+The identified incidence of Legionnaires’ disease varies widely according to the level of surveillance and reporting. Since many countries lack appropriate methods of diagnosing the infection or sufficient surveillance systems, the rate of occurrence is unknown. In Europe, Australia and the USA there are about 10–15 cases detected per million population per year.
+
+Of the reported cases, 75–80% are over 50 years and 60–70% are male. Other risk factors for community-acquired and travel-associated legionellosis include smoking, a history of heavy drinking, pulmonary-related illness, immuno-suppression, and chronic respiratory or renal illnesses.
+
+Risk factors for hospital-acquired pneumonia are recent surgery, intubation (the process of placing a tube in the trachea), mechanical ventilation, aspiration, presence of nasogastric tubes, and the use of respiratory therapy equipment. The most susceptible hosts are immuno-compromised patients, including organ transplant recipients and cancer patients and those receiving corticosteroid treatment.
+
+Delay in diagnosis and administration of appropriate antibiotic treatment, increasing age and presence of co-existing diseases are predictors of death from Legionnaires’ disease.
+
+Symptoms
+========
+
+Legionellosis is a generic term describing the pneumonic and non-pneumonic forms of infection with Legionella.
+
+The non-pneumonic form (Pontiac disease) is an acute, self-limiting influenza-like illness usually lasting 2–5 days. The incubation period is from a few and up to 48 hours. The main symptoms are fever, chills, headache, malaise and muscle pain (myalgia). No deaths are associated with this type of infection.
+
+Legionnaires’ disease, the pneumonic form, has an incubation period of 2 to 10 days (but up to 16 days has been recorded in some outbreaks). Initially, symptoms are fever, loss of appetite, headache, malaise and lethargy. Some patients may also have muscle pain, diarrhoea and confusion. There is also usually an initial mild cough, but as many as 50% of patients can present phlegm. Blood-streaked phlegm or hemoptysis occurs in about one-third of the patients. The severity of disease ranges from a mild cough to a rapidly fatal pneumonia. Death occurs through progressive pneumonia with respiratory failure and/or shock and multi-organ failure.
+
+Untreated Legionnaires’ disease usually worsens during the first week. In common with other risk factors causing severe pneumonia, the most frequent complications of legionellosis are respiratory failure, shock and acute kidney and multi-organ failure. Recovery always requires antibiotic treatment, and is usually complete, after several weeks or months. In rare occasions, severe progressive pneumonia or ineffective treatment for pneumonia can result in brain sequelae.
+
+The death rate as a result of Legionnaires’ disease depends on the severity of the disease, the appropriateness of initial anti-microbial treatment, the setting where Legionella was acquired, and host factors (for example, the disease is usually more serious in patients with immuno-suppression). The death rate may be as high as 40–80% in untreated immuno-suppressed patients and can be reduced to 5–30% through appropriate case management and depending on the severity of the clinical signs and symptoms. Overall the death rate is usually within the range of 5–10%.
+
+Response
+========
+
+Treatments exist, but there is no vaccine currently available for Legionnaires’ disease.
+
+The nonpneumonic form of infection is self-limiting and does not require medical interventions, including antibiotic treatment. Patients with Legionnaires’ disease always require antibiotic treatment following diagnosis.
+
+The public health threat posed by legionellosis can be addressed by implementing water safety plans by authorities responsible for building safety or water system safety. These plans must be specific to the building or water system and should result in the introduction and regular monitoring of control measures against identified risks including Legionella. Although it is not always possible to eradicate the source of infection, it is possible to reduce the risks substantially.
+
+Prevention of Legionnaires’ disease depends on applying control measures to minimize the growth of Legionella and dissemination of aerosols. These measures include good maintenance of devices, including regular cleaning and disinfection and applying other physical (temperature) or chemical measures (biocide) to minimize growth. Some examples are:
+
+- the regular maintenance, cleaning and disinfection of cooling towers together with frequent or continuous addition of biocides;
+
+- installation of drift eliminators to reduce dissemination of aerosols from cooling towers;
+
+- maintaining an adequate level of a biocide such as chlorine in a spa pool along with a complete drain and clean of the whole system at least weekly;
+
+- keeping hot and cold water systems clean and either keeping the hot water above 50 °C (which requires water leaving the heating unit to be at or above 60 °C) and the cold below 25 °C and ideally below 20 °C or alternatively treating them with a suitable biocide to limit growth, particularly in hospitals and other health care settings, and aged-care facilities; and
+
+- reducing stagnation by flushing unused taps in buildings on a weekly basis.
+
+Applying such controls will greatly reduce the risk of Legionella contamination and prevent the occurrence of sporadic cases and outbreaks. Extra precautions may be required for water and ice provided to highly susceptible patients in hospitals including those at risk of aspiration (for example, ice machines can be a source of Legionella and should not be used by highly susceptible patients).
+
+Control and prevention measures must be accompanied by proper vigilance on the part of general practitioners and community health services for the detection of cases.
+
+WHO makes available technical resources to support the management and control of legionellosis and advises Member States when specific queries are raised.

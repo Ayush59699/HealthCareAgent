@@ -1,0 +1,155 @@
+WHO FACT SHEET
+Title: Patient safety
+URL: https://www.who.int/news-room/fact-sheets/detail/patient-safety
+Retrieved: 2026-10-05T09:34:02.370045+00:00
+
+========================================
+
+Key facts
+=========
+
+- Around 1 in every 10 patients is harmed in health care and more than 3 million deaths occur annually due to unsafe care. In low-to-middle income countries, as many as 4 in 100 people die from unsafe care (1).
+
+- Above 50% of harm (1 in every 20 patients) is preventable; half of this harm is attributed to medications (2,3).
+
+- Some estimates suggest that as many as 4 in 10 patients are harmed in primary and ambulatory settings, while up to 80% (23.6–85%) of this harm can be avoided (4).
+
+- Common adverse events that may result in avoidable patient harm are medication errors, unsafe surgical procedures, health care-associated infections, diagnostic errors, patient falls, pressure ulcers, patient misidentification, unsafe blood transfusion and venous thromboembolism.
+
+- Patient harm potentially reduces global economic growth by 0.7% a year. On a global scale, the indirect cost of harm amounts to trillions of US dollars each year (1).
+
+- Investment in reducing patient harm can lead to significant financial savings, and more importantly better patient outcomes (5). An example of a good return on investment is patient engagement, which, if done well, can reduce the burden of harm by up to 15% (4).
+
+Overview
+
+“First, do no harm” is the most fundamental principle of any health care service. No one should be harmed in health care; however, there is compelling evidence of a huge burden of avoidable patient harm globally across the developed and developing health care systems. This has major human, moral, ethical and financial implications.
+
+Patient safety is defined as “the absence of preventable harm to a patient and reduction of risk of unnecessary harm associated with health care to an acceptable minimum." Within the broader health system context, it is “a framework of organized activities that creates cultures, processes, procedures, behaviours, technologies and environments in health care that consistently and sustainably lower risks, reduce the occurrence of avoidable harm, make error less likely and reduce impact of harm when it does occur."
+
+Common sources of patient harm
+==============================
+
+Medication errors. Medication-related harm affects 1 out of every 30 patients in health care, with more than a quarter of this harm regarded as severe or life threatening. Half of the avoidable harm in health care is related to medications (3).
+
+Surgical errors. Over 300 million surgical procedures are performed each year worldwide (6). Despite awareness of adverse effects, surgical errors continue to occur at a high rate; 10% of preventable patient harm in health care was reported in surgical settings (2), with most of the resultant adverse events occurring pre- and post-surgery (7).
+
+Health care-associated infections. With a global rate of 0.14% (increasing by 0.06% each year), health care-associated infections result in extended duration of hospital stays, long-standing disability, increased antimicrobial resistance, additional financial burden on patients, families and health systems, and avoidable deaths (8).
+
+Sepsis. Sepsis is a serious condition that happens when the body’s immune system has an extreme response to an infection. The body’s reaction causes damage to its own tissues and organs. Of all sepsis cases managed in hospitals, 23.6% were found to be health care associated, and approximately 24.4% of affected patients lost their lives as a result (9).
+
+Diagnostic errors. These occur in 5–20% of physician–patient encounters (10,11). According to doctor reviews, harmful diagnostic errors were found in a minimum of 0.7% of adult admissions (12). Most people will suffer a diagnostic error in their lifetime (13).
+
+Patient falls. Patient falls are the most frequent adverse events in hospitals (14). Their rate of occurrence ranges from 3 to 5 per 1000 bed-days, and more than one third of these incidents result in injury (15), thereby reducing clinical outcomes and increasing the financial burden on systems (16).
+
+Venous thromboembolism. More simply known as blood clots, venous thromboembolism is a highly burdensome and preventable cause of patient harm, which contributes to one third of the complications attributed to hospitalization (17).
+
+Pressure ulcers. Pressure ulcers are injuries to the skin or soft tissue. They develop from pressure to particular parts of the body over an extended period. If not promptly managed, they can have fatal complications. Pressure ulcers affect more than 1 in 10 adult patients admitted to hospitals (18) and, despite being highly preventable, they have a significant impact on the mental and physical health of individuals, and their quality of life.
+
+Unsafe transfusion practices. Unnecessary transfusions and unsafe transfusion practices expose patients to the risk of serious adverse transfusion reactions and transfusion-transmissible infections. Data on adverse transfusion reactions from a group of 62 countries show an average incidence of 12.2 serious reactions per 100 000 distributed blood components.
+
+Patient misidentification. Failure to correctly identify patients can be a root cause of many problems and has serious effects on health care provision. It can lead to catastrophic adverse effects, such as wrong-site surgery. A report of the Joint Commission published in 2018 identified 409 sentinel events of patient identification out of 3326 incidents (12.3%) between 2014 and 2017 (19).
+
+Unsafe injection practices. Each year, 16 billion injections are administered worldwide, and unsafe injection practices place patients and health and care workers at risk of infectious and non-infectious adverse events. Using mathematical modelling, a study estimated that, in a period of 10 years (2000–2010), 1.67 million hepatitis B virus infections, between 157 592 and 315 120 hepatitis C virus infections, and between 16 939 and 33 877 HIV infections were associated with unsafe injections (20).
+
+Factors leading to patient harm
+===============================
+
+Patient harm in health care due to safety breaks is pervasive, problematic and can occur in all settings and at all levels of health care provision. There are multiple and interrelated factors that can lead to patient harm, and more than one factor is usually involved in any single patient safety incident:
+
+- system and organizational factors: the complexity of medical interventions, inadequate processes and procedures, disruptions in workflow and care coordination, resource constraints, inadequate staffing and competency development;
+
+- technological factors: issues related to health information systems, such as problems with electronic health records or medication administration systems, and misuse of technology;
+
+- human factors and behaviour: communication breakdown among health care workers, within health care teams, and with patients and their families, ineffective teamwork, fatigue, burnout, and cognitive bias;
+
+- patient-related factors: limited health literacy, lack of engagement and non-adherence to treatment; and
+
+- external factors: absence of policies, inconsistent regulations, economic and financial pressures, and challenges related to natural environment.
+
+System approach to patient safety
+=================================
+
+Most of the mistakes that lead to harm do not occur as a result of the practices of one or a group of health and care workers but are rather due to system or process failures that lead these health and care workers to make mistakes.
+
+Understanding the underlying causes of errors in medical care thus requires shifting from the traditional blaming approach to a more system-based thinking. In this, errors are attributed to poorly designed system structures and processes, and the human nature of all those working in health care facilities under a considerable amount of stress in complex and quickly changing environments is recognized. This is done without overlooking negligence or misbehaviour from those providing care that leads to substandard medical management.
+
+A safe health system is one that adopts all necessary measures to avoid and reduce harm through organized activities, including:
+
+- ensuring leadership commitment to safety and creation of a culture whereby safety is prioritized;
+
+- ensuring a safe working environment and the safety of procedures and clinical processes;
+
+- building competencies of health and care workers and improving teamwork and communication;
+
+- engaging patients and families in policy development, research and shared decision-making; and
+
+- establishing systems for patient safety incident reporting for learning and continuous improvement.
+
+Investing in patient safety positively impacts health outcomes, reduces costs related to patient harm, improves system efficiency, and helps in reassuring communities and restoring their trust in health care systems (4,5).
+
+WHO response
+============
+
+Global action on patient safety
+-------------------------------
+
+Recognizing patient safety as a global health priority, and as an essential component of strengthening health systems for moving towards universal health coverage, the Seventy-second World Health Assembly adopted resolution WHA72.6 on “Global action on patient safety” in May 2019.
+
+The resolution requested the Director-General to emphasize patient safety as a key strategic priority in WHO’s work across the universal health coverage agenda, endorsed the establishment of World Patient Safety Day to be observed annually on 17 September, and requested WHO’s Director-General to develop a global patient safety action plan with the involvement of WHO Member States, partners and other relevant stakeholders.
+
+Global Patient Safety Action Plan 2021–2030
+-------------------------------------------
+
+The Global Patient Safety Action Plan 2021–2030 provides a framework for action for key stakeholders to join efforts and implement patient safety initiatives in a comprehensive manner. The goal is “to achieve the maximum possible reduction in avoidable harm due to unsafe health care globally”, envisioning “a world in which no one is harmed in health care, and every patient receives safe and respectful care, every time, everywhere”.
+
+World Patient Safety Day
+------------------------
+
+Since 2019, World Patient Safety Day has been celebrated across the world annually on 17 September, calling for global solidarity and concerted action by all countries and international partners to improve patient safety. The global campaign, with its dedicated annual theme, is aimed at enhancing public awareness and global understanding of patient safety and mobilizing action by stakeholders to eliminate avoidable harm in health care and thereby improve patient safety.
+
+WHO Flagship initiative “A Decade of Patient Safety 2021–2030”
+--------------------------------------------------------------
+
+WHO has launched the Patient Safety Flagship as a transformative initiative to guide and support strategic action on patient safety at the global, regional and national levels. Its core work involves supporting the implementation of the Global Patient Safety Action Plan 2021–2030.
+
+References
+
+1. Slawomirski L, Klazinga N. The economics of patient safety: from analysis to action. Paris: Organisation for Economic Co-operation and Development; 2020 (http://www.oecd.org/health/health-systems/Economics-of-Patient-Safety-October-2020.pdf, accessed 6 September 2023).
+
+2. Panagioti M, Khan K, Keers RN, Abuzour A, Phipps D, Kontopantelis E et al. Prevalence, severity, and nature of preventable patient harm across medical care settings: systematic review and meta-analysis. BMJ. 2019;366:l4185. doi:10.1136/bmj.l4185.
+
+3. Hodkinson A, Tyler N, Ashcroft DM, Keers RN, Khan K, Phipps D et al. Preventable medication harm across health care settings: a systematic review and meta-analysis. BMC Med. 2020;18(1):1–3.
+
+4. Slawomirski L, Auraaen A, Klazinga N. The economics of patient safety in primary and ambulatory care: flying blind. OECD Health Working Papers No. 106. Paris: Organisation for Economic Co-operation and Development; 2018 (https://doi.org/10.1787/baf425ad-en, accessed 6 September 2023).
+
+5. Slawomirski L, Auraaen A, Klazinga N. The economics of patient safety: strengthening a value-based approach to reducing patient harm at national level. OECD Health Working Papers No. 96. Paris: Organisation for Economic Co operation and Development; 2017 (https://doi.org/10.1787/5a9858cd-en, accessed 6 September 2023).
+
+6. Meara, John G., Andrew JM Leather, Lars Hagander, Blake C. Alkire, Nivaldo Alonso, Emmanuel A. Ameh, et al. Global Surgery 2030: evidence and solutions for achieving health, welfare, and economic development. The lancet. 2015; 386: 569-624
+
+7. Rodziewicz TL, Houseman B, Hipskind JE. Medical error reduction and prevention. Treasure Island, FL: StatPearls Publishing; 2023.
+
+8. Raoofi S, Kan FP, Rafiei S, Hosseinipalangi Z, Mejareh ZN, Khani S et al. Global prevalence of nosocomial infection: a systematic review and meta-analysis. PLoS One. 2023;18(1):e0274248.
+
+9. Markwart R, Saito H, Harder T, Tomczyk S, Cassini A, Fleischmann-Struzek C et al. Epidemiology and burden of sepsis acquired in hospitals and intensive care units: a systematic review and meta-analysis. Intensive Care Med. 2020;46(8):1536–51. doi:10.1007/s00134-020-06106-2.
+
+10. National Academies of Sciences, Engineering, and Medicine. Improving diagnosis in health care. Washington (DC): National Academies Press; 2015 (https://doi.org/10.7326/M15-2256, accessed 6 September 2023).
+
+11. Bergl PA, Nanchal RS, Singh H. Diagnostic error in the critically ill: defining the problem and exploring next steps to advance intensive care unit safety. Ann Am Thorac Soc. 2018;15(8):903–7.
+
+12. Gunderson CG, Bilan VP, Holleck JL, Nickerson P, Cherry BM, Chui P et al. Prevalence of harmful diagnostic errors in hospitalised adults: a systematic review and meta-analysis. BMJ Qual Saf. 2020;29(12):1008–18.
+
+13. Singh H, Meyer AN, Thomas EJ. The frequency of diagnostic errors in outpatient care: estimations from three large observational studies involving US adult populations. BMJ Qual Saf. 2014;23(9):727–31.
+
+14. LeLaurin JH, Shorr RI. Preventing falls in hospitalized patients: state of the science. Clin Geriatr Med. 2019;35(2):273–83.
+
+15. Agency for Healthcare Research and Quality. Falls. PSNet; 2019. (https://psnet.ahrq.gov/primer/falls, accessed 11 September 2023).
+
+16. Dykes PC, Curtin-Bowen M, Lipsitz S, Franz C, Adelman J, Adkison L et al. Cost of inpatient falls and cost-benefit analysis of implementation of an evidence-based fall prevention program. JAMA Health Forum. 2023;4(1):e225125. doi:10.1001/jamahealthforum.2022.5125.
+
+17. Raskob GE, Angchaisuksiri P, Blanco AN, Buller H, Gallus A, Hunt BJ et al. Thrombosis: a major contributor to global disease burden. Arterioscler Thromb Vasc Biol. 2014;34(11):2363–71. doi:10.1161/ATVBAHA.114.304488.
+
+18. Li Z, Lin F, Thalib L, Chaboyer W. Global prevalence and incidence of pressure injuries in hospitalised adult patients: A systematic review and meta-analysis. International journal of nursing studies. 2020 May 1;105:103546.
+
+19. De Rezende HA, Melleiro MM, Shimoda GT. Interventions to reduce patient identification errors in the hospital setting: a systematic review protocol. JBI Evidence Synthesis. 2019;17(1):37–42.
+
+20. Pèpin J, Chakra CN, Pèpin E, Nault V, Valiquette L. Evolution of the global burden of viral infections from unsafe medical injections, 2000–2010. PLoS One. 2014;9(6):e99677.

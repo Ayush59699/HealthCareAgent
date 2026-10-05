@@ -1,0 +1,125 @@
+WHO FACT SHEET
+Title: Gambling
+URL: https://www.who.int/news-room/fact-sheets/detail/gambling
+Retrieved: 2026-10-05T09:32:13.551530+00:00
+
+========================================
+
+Key facts
+=========
+
+- Standardized global estimation of gambling harms has been limited, but estimates suggest that 1.2% of the world’s adult population has a gambling disorder. Harm from gambling by others is also widespread.
+
+- Industry analysts estimate global gambling revenue will reach US$ 700 billion by 2028 (1). Smartphone use in low- and middle-income countries will drive much of this growth.
+
+- People gambling at harmful levels generate around 60% of losses (gambling revenue) (2).
+
+- Gambling can threaten health, leading to increased incidence of mental illness and suicide. It can drive poverty by diverting household spending from essential goods and services.
+
+- Gambling harms also include relationship breakdown, family violence, financial distress, stigma, income-generating crimes (theft, fraud), neglect of children, and erosion of civil institutions via corruption and corporate political activity. Gambling is also a common way to launder money obtained through illegal activities.
+
+- The rapid normalization of gambling is occurring through commercialization and digitization. Sponsorship and marketing are also key factors in rapid global growth.
+
+Overview
+========
+
+Gambling is risking money (or another item of value) on an event of uncertain outcome, with the possibility of gaining an increased return. Betting, slot machines, casino games, lotteries and bingo are all forms of gambling. Electronic gambling machines (EGMs) and casino games are often associated with the most risk of harm. These are available both in physical venues and online. The legal status of gambling varies within and between countries, although many jurisdictions have now legalized gambling. As it is available online, it is accessible almost anywhere, at any time, even in places where gambling is prohibited.>
+
+Gambling can lead to serious harms to health. These include financial stress, relationship breakdown, family violence, mental illness and suicide. The legacy of gambling harm can endure throughout one’s life and transmit intergenerationally. Population-wide interventions can help prevent and reduce harm. These include ending advertising and promotions, providing centralized account registration to require those who gamble to set binding loss limits, and restrictions relating to access and availability (opening hours, density). Strict regulation and enforcement are also required to ensure compliance with existing laws.
+
+Scope of the problem
+====================
+
+Gambling is now legally available in many countries. It has been normalized through new commercial associations with sport and cultural activities that are now heavily promoted. Around 5.5% of women and 11.9% of men globally experience some level of harm from gambling (3). A Swedish study estimated that those with a gambling disorder were 15 times more likely to die by suicide than the general population (4). In Victoria Australia, at least 4.2% of suicides were found to be gambling-related (5).
+
+For every person who gambles at high-risk levels, an average of six others (usually non-gamblers) are affected (6). This number is likely much higher in kinship cultures, including among Indigenous peoples. Gambling may also divert normal consumption expenditure from other businesses.
+
+Industry self-regulation is a common feature of gambling regulation. However, there are many examples of the failure of this approach. There is often little transparency about the way many gambling products function. EGMs can mislead users with design features that encourage extended use. Existing health promotion messages are often inadequate and can use so-called dark nudges, which encourage the consumption of harmful products (for example, by exploiting gamblers' cognitive biases) and may enhance normalization. Alongside strong regulation of gambling products and their availability, clear warning messages about harms associated with use are likely to be more effective than messages suggestions to simply stop when gambling is no longer fun, for instance.
+
+There is no global agreement on the regulation of online gambling. Unlicensed providers regularly offer unregulated gambling products, and there is an urgent need for the regulation of online gambling.
+
+Who is at risk?
+===============
+
+People experiencing significant life events including separation, retirement, injury or the death of a loved one may be at increased risk. Social stressors such as poverty, discrimination or other disadvantage also increase risks. Heavy promotion of gambling online and through sport also poses risks of normalizing gambling for children and young people.
+
+Signs and symptoms
+==================
+
+Gambling disorder is described alongside substance use disorders in both the Diagnostic and Statistical Manual of Mental Disorders, fifth edition (DSM 5), and the International Classification of Diseases, eleventh revision (ICD 11). The ICD-11 describes three diagnostic requirements:
+
+1) impaired control over gambling;
+
+2) increasing priority given to gambling, taking precedence over other life interests and daily activities; and
+
+3) continuation of gambling despite negative consequences.
+
+Gambling harm also occurs well below clinical thresholds. Signs of harm include the diversion of money from essential household spending. This can lead to food insecurity, housing problems and difficulties accessing healthcare and education.
+
+Transmission
+============
+
+Easy accessibility of gambling products increases the risk of uptake. Opportunities to gamble are often disproportionately located in areas of higher disadvantage. High-intensity products including EGMs, high-speed wagering platforms, and casino games, including online versions, are readily accessible almost anywhere.
+
+The commercialization of gambling in many countries – which also drives normalization – is increasing the incidence of gambling harm. Sponsorship or other association with popular sporting leagues, and the colocation of gambling products in social settings, are key mechanisms. Aggressive promotion of gambling in popular and social media also increases gambling activity.
+
+Prevention and control
+======================
+
+Universal, population-wide public health approaches are required to prevent gambling harm. These include:
+
+- ending gambling advertising, promotion and sponsorship of sports and other cultural activities;
+
+- reducing stigma and shame experienced by those harmed by gambling;
+
+- universal account registration with binding pre-commitment and effective self-exclusion tools;
+
+- product safety measures including universal loss limits, maximum bet sizes and required breaks in gambling sessions;
+
+- effective regulation of gambling providers, including well-resourced enforcement activities;
+
+- addressing gambling industry corporate political activity and influence on research; and
+
+- counter-messaging that conveys warnings about harms associated with gambling products.
+
+Treatment
+=========
+
+A range of therapies exist for those with gambling disorder. Currently, the most effective are long-term cognitive behavioural therapy or motivational interviewing. Self-help, pharmacological interventions and mutual support have less evidence of efficacy, although the latter are among the most used interventions. Some evidence supports internet-based therapies, although attrition is a significant issue.
+
+Treatment for gambling disorder has a low rate of uptake, with an estimated 0.14% of the population seeking formal and informal help for current problems. Stigma and shame often prevent people from seeking help. The preferred regulatory approach of the gambling industry – so-called responsible gambling – adds to this burden by effectively blaming those who experience harm. Responsible gambling interventions are typically ineffective, particularly where the uptake of measures is optional.
+
+Those seeking to better control or cease gambling should be provided with tools to support them. These include universal pre-commitment (requiring people to set binding limits of time and money spent gambling) and self-exclusion (allowing people to ban themselves from gambling providers). Universal (also known as mandatory) systems are most effective. Voluntary systems have poor uptake and are non-enforceable. Prevention is the most cost-effective strategy for minimizing gambling-related harm.
+
+Challenges
+==========
+
+In countries where gambling has been legalized, governments typically receive substantial taxation revenues. This can create some dependence, creating disincentives to reduce harm. Perceived economic benefits of gambling markets may have precedence over poorly understood effects on health and well-being.
+
+Gambling industry groups typically strongly oppose high-impact regulations and other measures that affect their commercial interests. Corporate political activity is widespread and effective in protecting the interests of these businesses. The research sector has also been influenced by industry using funding and other support. Limiting the capacity of vested interests to influence the research agenda and public policies are among the key public health objectives.
+
+Global impact
+=============
+
+Gambling harm increases as gambling markets expand, challenging the health and well-being of populations. Unlicensed, illegal or offshore gambling poses significant regulatory challenges for all governments. Responding effectively requires intergovernmental cooperation to share data, protect consumers from unregulated practices and allow governments to capture lawful taxation revenue. Without effective protections, gambling may undermine progress toward the achievement of the Sustainable Development Goals (SDGs), particularly 3, 10 and 16.
+
+WHO response
+============
+
+WHO recognizes negative effects of gambling on health. Multisectoral action to reduce gambling harm is required to reduce the potential for gambling to impede progress on SDGs. WHO acknowledges the need for Member States to closely monitor and effectively regulate gambling operations, products and activities. This should include reducing stigma and shame related to gambling, ending advertising and promotion, and a focus on other upstream efforts to prevent and reduce gambling harm.
+
+WHO is coordinating a group of global experts to build capacity to address public health implications of gambling. Initial efforts include leading the development of new diagnostic instruments for gambling disorder to better reflect populations outside North America and facilitating an expert consensus on diagnostic boundaries. WHO recognizes that some jurisdictions have developed effective gambling regulatory systems. Efforts to document and distribute these lessons are underway, particularly to support low- and middle-income countries where commercial gambling activity is rapidly increasing.
+
+References
+
+1. H2 Gambling Capital. Global Gambling Industry Generates $536bn in 2023 with H2 Expecting 7% Growth Expected in 2024. https://h2gc.com/news/general/global-gambling-industry-generates-536bn-in-2023-with-7-growth-expected-in-2024
+
+2. Gambling Research Exchange Ontario (GREO) 2019a. Proportion of revenue from problem gambling. GREO, Guelph. https://www.greo.ca/Modules/EvidenceCentre/files/GREO%20(2019)%20Evidence%20brief%20Proportion%20of%20revenue%20from%20problem%20gambling.pdf
+
+3. Wardle, Heather et al. The Lancet Public Health Commission on gambling. The Lancet Public Health, Volume 9, Issue 11, e950 - e994. DOI: 10.1016/S2468-2667(24)00167-1
+
+4. Karlsson A, Håkansson A. Gambling disorder, increased mortality, suicidality, and associated comorbidity: a longitudinal nationwide register study. J Behav Addict 2018; 7: 1091–99.
+
+5. Rintoul, A, Dwyer J, Millar C, Bugeja L, Nguyen H. Gambling-related suicide in Victoria, Australia: a population-based cross-sectional study. The Lancet Regional Health – Western Pacific, 2023.
+
+6. Goodwin BC, Browne M, Rockloff M, Rose J. A typical problem gambler affects six others. Int Gambl Stud 2017; 17: 276–89.

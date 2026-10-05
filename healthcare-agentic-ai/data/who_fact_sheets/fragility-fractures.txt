@@ -1,0 +1,171 @@
+WHO FACT SHEET
+Title: Fragility fractures
+URL: https://www.who.int/news-room/fact-sheets/detail/fragility-fractures
+Retrieved: 2026-10-05T09:32:11.121160+00:00
+
+========================================
+
+Key facts
+=========
+
+- In 2019, there were 178 million new fractures globally, an increase of 33.4% of the absolute number of new fractures since 1990, partly driven by population growth and ageing.
+
+- The same year, there were 455 million prevalent cases of acute or long-term symptoms of a fracture, an increase of 70.1% of the absolute prevalence since 1990.
+
+- Globally in 2019, fractures accounted for 25.8 million years lived with disability (YLDs), an increase of 65.3% of the absolute YLDs since 1990.
+
+- Fractures are more likely to occur in older people, especially older women.
+
+- Most fractures in older people are due to bone fragility (fragility fractures) and result from mechanical forces quantified as equivalent to a fall from standing height or less (known as low energy trauma).
+
+- Owing to the global population growth and ageing, the annual incidence of total fractures worldwide is expected to continue to increase, driven by fragility fractures. However, an individual’s risk of fragility fracture can be predicted, and these fractures are preventable using effective interventions.
+
+Overview
+========
+
+Bone fractures are partial or complete breaks in a bone, which may spontaneously occur (due to diseases such as osteoporosis and associated chronic conditions) or result from a fall or a trauma (due to road traffic accidents, sports, etc.). Fractures are a global public health concern and are associated with significant morbidity, mortality and healthcare costs.
+
+Due to worldwide population growth and ageing, the number of people sustaining a fracture each year has been increasing. Currently, there are no global estimates on fragility fractures, and available data include all fractures combined. According to data from the Global Burden of Disease Study, the absolute incidence, prevalence and years lived with disability for fractures have significantly increased from 1990 to 2019, with highest age-specific incidence rates in the oldest age groups (1) in which most fractures are due to bone fragility (fragility fractures). These substantial increases have been associated with increased healthcare costs globally.
+
+In the largest five countries of the European Union plus Sweden, the annual costs of fragility fractures are expected to increase by 27% by 2030 (2). The same trend is reported in other parts of the world. Therefore, preventing fragility fractures through early assessment of risk factors and treatment of osteoporosis is essential for good health and well-being for all adults, and particularly so for older people.
+
+Types of fragility fractures
+============================
+
+Fragility fractures result from low-energy trauma (a mechanical force that would not ordinarily cause a fracture), such as a fall from standing height or less. These fractures are the main clinical consequence of osteoporosis, although they may occur in postmenopausal women even in the absence of osteoporosis.
+
+The most common sites of fragility fractures are the:
+
+- spine
+
+- hip
+
+- distal forearm (wrist)
+
+- proximal humerus (upper arm).
+
+Other fragility fracture sites include the pelvis, ribs, and proximal tibia. Hip and vertebral (spine) fractures are considered the most serious fragility fractures.
+
+Risk factors
+============
+
+Risk factors are lifestyle, genetic, social or environmental factors that increase an individual’s risk or propensity of developing a disease or sustaining a health-related problem and are generally categorized into modifiable and non-modifiable factors. Modifiable risk factors can be changed by modifying one’s lifestyle or environment, so that the probability of occurrence of a disease or a health condition may be reduced.
+
+Modifiable risk factors for fragility fractures include:
+
+- smoking
+
+- alcohol consumption
+
+- sedentary behaviour/physical inactivity
+
+- low body weight
+
+- nutrient-poor diet
+
+- vitamin D and calcium deficiency
+
+- eating disorders (for example anorexia nervosa and bulimia)
+
+- malabsorption
+
+- medications (including glucocorticoids, antidepressants, anticonvulsants, androgen deprivation therapy, etc.)
+
+- falls.
+
+Non-modifiable risk factors include:
+
+- older age
+
+- sex (women have a higher risk)
+
+- ethnicity (Caucasian people have a higher risk)
+
+- history of prior fractures
+
+- history of parental fractures
+
+- menopause.
+
+Although non-modifiable risk factors cannot be altered by lifestyle or environmental changes, knowledge of these factors is fundamental for health workers and patients for optimal prevention strategies. In fact, as with many age-related conditions, fragility fractures can result from multiple causes and risk factors.
+
+Osteoporosis and low bone mineral density
+-----------------------------------------
+
+Osteoporosis is a disease characterized by low bone density and microarchitectural deterioration of bone tissue with a consequent increase in bone fragility and susceptibility to fracture. Aside from the factors listed above, osteoporosis itself is a risk factor for fracture the same way hypertension is for stroke, for example.
+
+Can an individual’s risk of fragility fracture be predicted?
+============================================================
+
+Many tools have been developed to predict the probability of a fracture, most of which use combinations of clinical risk factors (for example, age, sex, history of previous fractures), with or without bone mineral density (BMD) measurement. These tools are used to calculate the individuals’ risk of fracture over a certain number of years (for example, five or ten years), which supports the clinical decision-making process. However, there is no global consensus on which fracture risk assessment tools have the best prediction performance.
+
+WHO is currently assessing all available fracture risk prediction tools to determine which tools could be recommended for use globally.
+
+Strategies for primary prevention
+=================================
+
+Primary prevention refers to actions, strategies or interventions for preventing or avoiding the initial occurrence of diseases or health conditions. These include actions to identify risk factors in individuals or populations, and actions to mitigate or eliminate these risk factors.
+
+Primary prevention strategies for fragility fractures mainly aim at promoting or maintaining bone density and strength. These include:
+
+- improvement of diet and nutrition
+
+- regular exercise and physical activity
+
+- smoking cessation
+
+- limitation of alcohol consumption
+
+- treatment of osteoporosis
+
+- prevention of falls.
+
+Whereas there is some consensus on basic principles for primary prevention of fragility fractures (for example, nutrition/healthy diet, physical activity), controversies still exist over the effectiveness of some specific interventions, as well as treatment duration.
+
+WHO has initiated a reassessment of the effectiveness and safety of key interventions for fracture prevention in adults, based on systematic reviews of available evidence.
+
+Treatment and management
+========================
+
+Early detection of fragility fractures and treatment (secondary prevention) is fundamental, as delayed treatment may lead to complications and compromise optimal treatment outcomes. In fact, although they are common in postmenopausal women and older men, most vertebral fractures are undiagnosed.
+
+Management of clinical fragility fractures and of complications secondary to fractures is also key. Treatment of fragility fractures can be surgical or non-surgical, with orthopaedic surgeons playing a central role.
+
+Prevention of refracture (usually called secondary fracture prevention) is also essential, and counts as tertiary prevention strategies, which include effective rehabilitation and improvement of quality of life.
+
+Timely rehabilitation provided by a skilled rehabilitation workforce following treatment is crucial to support people to recover from the fracture and related functioning loss. Ensuring access to assistive products (e.g. walking aids, orthoses) and providing associated training is a crucial component of rehabilitation.
+
+Comorbidities
+=============
+
+Comorbidities are diseases or conditions that coexist with a specific disease or condition of interest. Besides well-established risk factors for fragility fractures, several concomitant conditions have been reported, including diabetes, hypertension, cardiovascular diseases, kidney disease, liver disease, depression, dementia and HIV infection.
+
+The presence of comorbidities has been reported as increasing the risk of negative post-fracture health outcomes (for example infections or stroke) and impairing functional outcomes after fracture surgery.
+
+It is therefore important to identify comorbidities in people at risk of fragility fractures or in those who sustained a fragility fracture to take adequate co-management strategies to prevent potential surgery-related complications, improve treatment outcome, and ensure good post-fracture prognosis.
+
+WHO response
+============
+
+WHO Rehabilitation 2030 Initiative
+----------------------------------
+
+WHO’s definition of universal health coverage includes rehabilitation as an essential health service, and as such, rehabilitation is a critical part of care for people with fragility fractures. The WHO Package of interventions for rehabilitation provides information on essential interventions, and human and material resources for 20 health conditions, including fractures.
+
+The UN Decade of Healthy Ageing
+-------------------------------
+
+The United Nations Decade of Healthy Ageing (2021–2030) is a global collaboration to improve the lives of older people, their families, and the communities in which they live, with implementation led by WHO in collaboration with other UN agencies. In the framework of the decade’s areas for action, the WHO Integrated Care for Older People (ICOPE) approach provides specific recommendations to prevent, slow or reverse declines in intrinsic capacity of older people, including recommendations for those at risk of falls.
+
+WHO Bone Health and Ageing Initiative
+-------------------------------------
+
+In 2023, as part of the UN Decade of Healthy Ageing, WHO launched a new Bone Health and Ageing initiative. This initiative is led by the WHO Department of Maternal, Newborn, Child and Adolescent Health and Ageing. The primary goals of the initiative are to develop a strategic roadmap for optimizing bone health to promote healthy ageing and to advocate for a public health strategy to prevent fractures among older people.
+
+To follow the progress of the WHO Bone Health and Ageing initiative, please subscribe here to the newsletter.
+
+References
+
+1. GBD 2019 Fracture Collaborators. Global, regional, and national burden of bone fractures in 204 countries and territories, 1990-2019: a systematic analysis from the Global Burden of Disease Study 2019. Lancet Healthy Longev. 2021;2(9):e580-e92. Epub 2021/11/02. doi: 10.1016/S2666-7568(21)00172-0. PubMed PMID: 34723233.
+
+2. Borgstrom F, Karlsson L, Ortsater G, Norton N, Halbout P, Cooper C, et al. Fragility fractures in Europe: burden, management and opportunities. Arch Osteoporos. 2020;15(1):59. Epub 2020/04/20. doi: 10.1007/s11657-020-0706-y. PubMed PMID: 32306163; PubMed Central PMCID: PMCPMC7166207.

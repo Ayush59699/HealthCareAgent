@@ -1,0 +1,99 @@
+WHO FACT SHEET
+Title: Influenza (avian and other zoonotic)
+URL: https://www.who.int/news-room/fact-sheets/detail/influenza-(avian-and-other-zoonotic)
+Retrieved: 2026-10-05T09:32:48.830335+00:00
+
+========================================
+
+Key facts
+=========
+
+- Humans can be infected with avian, swine and other influenza viruses.
+
+- Direct contact with infected animals (e.g. during handling, culling, slaughtering, or processing) or indirect contact (e.g. through environments contaminated by infected animals) poses a risk of human infection.
+
+- Exposure to animal influenza viruses can result in human infection and illness, with symptoms ranging from mild, flu-like illness or eye inflammation to severe acute respiratory disease and, in some cases, death. In some cases, asymptomatic infections have been reported.
+
+- Currently circulating zoonotic influenza viruses have not demonstrated sustained human-to-human transmission.
+
+- Influenza A viruses have a natural reservoir in wild aquatic birds, making eradication impossible. Consequently, zoonotic influenza infections are unlikely to be eliminated, and pandemic threats persist. To minimize public health risks, it is essential to implement high-quality disease surveillance in animals, humans, and at the human-animal interface, rapid and effective response to outbreaks in animals, prompt and thorough investigation of every human infection, and risk-based pandemic planning.
+
+Overview
+========
+
+There are 4 types of influenza viruses: A, B, C and D. Influenza A and B viruses circulate among humans and cause seasonal epidemics, although only type A viruses are known to have the potential to cause global pandemics based on current understanding. Wild aquatic birds are the primary natural reservoir for most subtypes of influenza A viruses. An influenza pandemic can start if a novel influenza A virus appears that people have little or no immunity to, and it spreads continuously between people.
+
+Influenza type A viruses are classified into subtypes according to the combinations of the proteins on the surface of the virus. When animal influenza viruses infect their host species, they are named according to the primary host – as avian influenza viruses, swine influenza viruses, equine influenza viruses, canine influenza viruses, etc. Avian influenza outbreaks in poultry can have immediate and severe consequences for the agricultural sector.
+
+Influenza C viruses are detected less frequently in humans and usually cause mild infection, and thus do not represent a major public health concern.
+
+Influenza D viruses primary affect cattle, although the virus does appear to have a broader host range. Influenza D viruses have some properties that suggest the potential to infect humans, but further studies are required to interpret current serologic and virologic data at the human-animal interface.
+
+Animal influenza viruses are distinct from human influenza viruses and do not easily transmit to and among humans.
+
+Pandemic potential
+==================
+
+There will be influenza pandemics in the future, but when and with which virus, as well as where and how they will spread, is difficult to predict. They can have significant health, economic and social consequences. An influenza pandemic arises when an influenza virus emerges with the ability to cause sustained human-to-human transmission, and the human population has little to no immunity against the virus.
+
+Whether currently circulating avian, swine and other influenza viruses will result in a future pandemic is unknown. However, the diversity of zoonotic influenza viruses that have caused human infections necessitates strengthened surveillance in both animal and human populations, thorough investigation of every zoonotic infection and pandemic preparedness planning.
+
+Signs and symptoms in humans
+============================
+
+Human infections with avian influenza viruses can cause illness ranging from mild, flu-like symptoms or eye inflammation (conjunctivitis) to severe, acute respiratory disease and death. Gastrointestinal and neurological symptoms have been reported infrequently. Disease severity depends upon many factors, including the virus causing the infection, the nature of exposure, clinical management, laboratory testing, and the characteristics of the infected individual. The reported case fatality rate for human infection with A(H5) and A(H7N9) viruses to date has been higher than that of seasonal influenza. The classification of low or high pathogenicity of avian influenza viruses (LPAI or HPAI) relates to disease presentation in chickens and is not related to disease in humans.
+
+Human infections with swine influenza viruses have generally been mild, with symptoms similar to those of human seasonal influenza – although in some cases, the patients needed hospitalization.
+
+Epidemiology of human infections
+================================
+
+Human infections with avian and other zoonotic influenza viruses, though rare, have been reported sporadically. Direct or indirect contact with infected animals represent the primary risk for human infection. Current zoonotic influenza viruses have not demonstrated sustained human-to-human transmission.
+
+For avian influenza viruses, the primary risk factor for human infection appears to be exposure to live or dead infected animals or contaminated environments, such as live bird markets. Handling carcasses of infected poultry, and preparing infected poultry for consumption, especially in household settings, are also risk factors. There have been reports of workers on animal farms contracting the virus after being exposed to infected animals and contaminated environments, especially during activities like culling or de-population. There is no evidence to suggest that A(H5), A(H7N9) or other avian influenza viruses can be transmitted to humans through properly prepared and cooked poultry or eggs.
+
+In 1997, human infections with A(H5N1), A/Goose/Guangdong/1/1996 (Gs/Gd/96) lineage, viruses were reported during an outbreak in poultry in the Hong Kong special Administrative Region, China. Since 2003, these viruses have spread in bird populations from Asia to Europe and Africa, and to the Americas in 2021, and have caused recurrent epizootics in poultry populations in many countries. A(H5N1) viruses have caused hundreds of millions of poultry infections, outbreaks in wild birds, and have spread to some mammals (marine mammals, dairy cattle, and other wild and domestic animals). There have been hundreds of human cases, and many deaths, among people exposed to infected animals or contaminated environments. To date, A(H5N1) and other A(H5) avian influenza viruses have been found in birds or mammals on every continent except Oceania. Human cases have been reported from countries in Africa, Asia, the Americas and Europe, as well as in Oceania, where the case involved a person with a history of travel to another continent.
+
+In 2013, human infections with A(H7N9) viruses were reported for the first time in China. The virus spread in the poultry population across the country and resulted in over 1500 reported human cases and many human deaths from 2013 to 2019. No further human cases have been reported to WHO since 2019.
+
+In 2024, A(H5N1) viruses spread to dairy cattle in the United States of America and caused outbreaks. Some dairy farm workers who had direct contact with the infected cows were also infected.
+
+Other avian influenza viruses have resulted in sporadic human infections. Since 1999, avian influenza A(H9N2) viruses have infected humans following exposure to infected birds but without further human-to-human spread. Human infections with A(H9N2) viruses continue to be detected as these avian influenza viruses are endemic in many poultry populations around the world. Since 2014, sporadic human infections with avian influenza A(H5N6) viruses have been reported – Mostly from China. Influenza A(H3N8), A(H5N2), A(H5N8), A(H6N1), A(H7N2), A(H7N3), A(H7N4), A(H7N7) and A(H10) viruses have also been associated with human infections.
+
+For swine influenza viruses, risk factors for human infection include close proximity to infected pigs or visiting locations where pigs are exhibited. Sporadic human infections with swine influenza viruses of the A(H1) and A(H3) subtypes have been detected.
+
+Diagnosis
+=========
+
+Laboratory tests are required to diagnose human infection and testing should be done at a laboratory capable of safely processing and confirming zoonotic infections.
+
+Specialized reference laboratories take samples collected from suspected human cases to identify and analyse the virus. This process, done with speed and accuracy, is crucial for guiding a proper response.
+
+Treatment
+=========
+
+If a person is suspected of having zoonotic influenza, the health authorities should be notified and appropriate clinical management should be provided, including testing, triage, clinical assessment for disease severity classification, assessment of risk factors for severe disease, and isolation and treatment (for example, with antivirals and supportive care). Patients with influenza should be managed properly to prevent severe illness and death.
+
+Prevention
+==========
+
+Influenza viruses are unlikely to be eradicated and zoonotic infections will continue to occur. To minimize public health risk, quality surveillance in both animal and human populations, prompt and thorough investigation of every human infection and risk-based pandemic planning are essential. Public health and animal health authorities should work together and share information during investigations of human cases of zoonotic influenza.
+
+The public should strictly avoid contact with sick or dead animals, including wild birds, and should report dead animals or request their removal by contacting local wildlife or veterinary authorities.
+
+The public should minimize contact with animals in areas known to be affected by animal influenza viruses, including farms and settings where live animals may be sold or slaughtered, and avoid contact with any surfaces that appear to be contaminated with animal faeces.
+
+Everyone should clean their hands thoroughly and often, preferably washing their hands with soap and running water (especially if there is visible soiling of hands) or using alcohol hand rubs. This is especially important before and after contact with animals and their environments.
+
+Everyone should practice good food safety habits: properly handle, store and cook eggs, meat and other animal products, keep surfaces clean and wash hands, and only slaughter healthy animals for human consumption (animals that have unexpectedly died should not be consumed and should be disposed of appropriately in accordance with national regulations).
+
+Travelers to countries and people living in countries with known outbreaks of avian influenza should, if possible, avoid poultry farms, contact with animals in live poultry markets, entering areas where poultry may be slaughtered, and contact with any surfaces that appear to be contaminated with faeces from poultry or other animals. Travelers returning from affected regions should report to local health services if they have respiratory symptoms and suspect zoonotic influenza virus infection.
+
+WHO response
+============
+
+WHO continuously monitors avian and other zoonotic influenza viruses closely through its Global Influenza Surveillance and Response System (GISRS). WHO, in collaboration with the World Organisation for Animal Health (WOAH) and the Food and Agriculture Organization of the United Nations (FAO), conducts virus and disease surveillance at the human-animal interface, assesses the associated risks and coordinates response to zoonotic influenza outbreaks and other threats to public health.
+
+Twice a year, WHO consults with experts from WHO collaborating centres, Essential Regulatory Laboratories and other partners to review data generated by GISRS and animal health partners on influenza viruses with pandemic potential and assesses the need for additional candidate vaccine viruses for pandemic preparedness purposes.
+
+Based on risk assessments, WHO provides guidance, develops and adjusts virus and disease surveillance, preparedness and response strategies to seasonal, zoonotic and pandemic influenza, and communicates timely risk assessment outcomes and intervention recommendations with Member States to enhance preparedness and response nationally and globally. The WHO Pandemic Influenza Preparedness Framework is to improve pandemic influenza preparedness and response, and strengthen the protection against the pandemic influenza by improving and strengthening the WHO GISRS.

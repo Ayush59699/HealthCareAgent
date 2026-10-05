@@ -1,0 +1,96 @@
+WHO FACT SHEET
+Title: Drinking-water
+URL: https://www.who.int/news-room/fact-sheets/detail/drinking-water
+Retrieved: 2026-10-05T09:31:47.455104+00:00
+
+========================================
+
+Key facts
+=========
+
+- In 2021, over 2 billion people live in water-stressed countries, which is expected to be exacerbated in some regions as result of climate change and population growth (1).
+
+- In 2022, globally, at least 1.7 billion people use a drinking water source contaminated with faeces. Microbial contamination of drinking-water as a result of contamination with faeces poses the greatest risk to drinking-water safety.
+
+- Safe and sufficient water facilitates the practice of hygiene, which is a key measure to prevent not only diarrhoeal diseases, but acute respiratory infections and numerous neglected tropical diseases.
+
+- Microbiologically contaminated drinking water can transmit diseases such as diarrhoea, cholera, dysentery, typhoid and polio and is estimated to cause approximately 505 000 diarrhoeal deaths each year.
+
+- In 2022, 73% of the global population (6 billion people) used a safely managed drinking-water service – that is, one located on premises, available when needed, and free from contamination.
+
+Overview
+
+Safe and readily available water is important for public health, whether it is used for drinking, domestic use, food production or recreational purposes. Improved water supply and sanitation, and better management of water resources, can boost countries’ economic growth and can contribute greatly to poverty reduction.
+
+In 2010, the UN General Assembly explicitly recognized the human right to water and sanitation. Everyone has the right to sufficient, continuous, safe, acceptable, physically accessible and affordable water for personal and domestic use.
+
+Drinking-water services
+=======================
+
+Sustainable Development Goal target 6.1 calls for universal and equitable access to safe and affordable drinking water. The target is tracked with the indicator of “safely managed drinking water services” – drinking water from an improved water source that is located on premises, available when needed, and free from faecal and priority chemical contamination.
+
+In 2022, 6 billion people used safely managed drinking-water services – that is, they used improved water sources located on premises, available when needed, and free from contamination. The remaining 2.2 billion people without safely managed services in 2022 included:
+
+- 1.5 billion people with basic services, meaning an improved water source located within a round trip of 30 minutes;
+
+- 292 million people with limited services, or an improved water source requiring more than 30 minutes to collect water;
+
+- 296 million people taking water from unprotected wells and springs; and
+
+- 115 million people collecting untreated surface water from lakes, ponds, rivers and streams.
+
+Sharp geographic, sociocultural and economic inequalities persist, not only between rural and urban areas but also in towns and cities where people living in low-income, informal or illegal settlements usually have less access to improved sources of drinking-water than other residents.
+
+Water and health
+================
+
+Contaminated water and poor sanitation are linked to transmission of diseases such as cholera, diarrhoea, dysentery, hepatitis A, typhoid and polio. Absent, inadequate, or inappropriately managed water and sanitation services expose individuals to preventable health risks. This is particularly the case in health care facilities where both patients and staff are placed at additional risk of infection and disease when water, sanitation and hygiene services are lacking.
+
+Out of every 100 patients in acute-care hospitals, 7 patients in high-income countries (HICs) and 15 patients in low- and middle-income countries (LMICs) will acquire at least one health care-associated infection during their hospital stay.
+
+Inadequate management of urban, industrial and agricultural wastewater means the drinking-water of hundreds of millions of people is dangerously contaminated or chemically polluted. Natural presence of chemicals, particularly in groundwater, can also be of health significance, including arsenic and fluoride, while other chemicals, such as lead, may be elevated in drinking-water as a result of leaching from water supply components in contact with drinking-water.
+
+Some 1 million people are estimated to die each year from diarrhoea as a result of unsafe drinking-water, sanitation and hand hygiene. Yet diarrhoea is largely preventable, and the deaths of 395 000 children aged under 5 years could be avoided each year if these risk factors were addressed. Where water is not readily available, people may decide handwashing is not a priority, thereby adding to the likelihood of diarrhoea and other diseases.
+
+Diarrhoea is the most widely known disease linked to contaminated food and water but there are other hazards. In 2021, over 251.4 million people required preventative treatment for schistosomiasis – an acute and chronic disease caused by parasitic worms contracted through exposure to infested water.
+
+In many parts of the world, insects that live or breed in water carry and transmit diseases such as dengue fever. Some of these insects, known as vectors, breed in clean, rather than dirty water, and household drinking water containers can serve as breeding grounds. The simple intervention of covering water storage containers can reduce vector breeding and may also reduce faecal contamination of water at the household level.
+
+Economic and social effects
+===========================
+
+When water comes from improved and more accessible sources, people spend less time and effort physically collecting it, meaning they can be productive in other ways. This can also result in greater personal safety and reducing musculoskeletal disorders by reducing the need to make long or risky journeys to collect and carry water. Better water sources also mean less expenditure on health, as people are less likely to fall ill and incur medical costs and are better able to remain economically productive.
+
+With children particularly at risk from water-related diseases, access to improved sources of water can result in better health, and therefore better school attendance, with positive longer-term consequences for their lives.
+
+Challenges
+==========
+
+Historical rates of progress would need to double for the world to achieve universal coverage with basic drinking water services by 2030. To achieve universal safely managed services will require a 6-fold increase. Climate change, increasing water scarcity, population growth, demographic changes and urbanization already pose challenges for water supply systems. Over 2 billion people live in water-stressed countries, which is expected to be exacerbated in some regions as result of climate change and population growth. Re-use of wastewater to recover water, nutrients or energy is becoming an important strategy. Use of wastewater and sludge is widespread globally; however, much is used informally and/or without sufficient treatment and other controls to ensure that human and environmental health is protected. If done appropriately safe use of wastewater and sludge can yield multiple benefits, including increased food production, increased resilience to water and nutrient scarcity and greater circularity in the economy.
+
+Options for water sources used for drinking-water and irrigation will continue to evolve, with an increasing reliance on groundwater and alternative sources, including wastewater. Climate change will lead to greater fluctuations in harvested rainwater. Management of all water resources will need to be improved to ensure provision and quality.
+
+WHO's response
+==============
+
+As the international authority on public health and water quality, WHO leads global efforts to prevent water-related disease, advising governments on the development of health-based targets and regulations.
+
+WHO produces a series of water quality guidelines, including on drinking-water, safe use of wastewater, and recreational water quality. The water quality guidelines are based on managing risks, and since 2004 the Guidelines for drinking-water quality promote the Framework for safe drinking-water. The Framework recommends establishment of health-based targets, the development and implementation of water safety plans by water suppliers to most effectively identify and manage risks from catchment to consumer, and independent surveillance to ensure that water safety plans are effective and health-based targets are being met.
+
+The drinking-water guidelines are supported by background publications that provide the technical basis for the Guidelines recommendations. WHO also supports countries to implement the drinking-water quality guidelines through the development of practical guidance materials and provision of direct country support. This includes the development of locally relevant drinking-water quality regulations aligned to the principles in the Guidelines, the development, implementation and auditing of water safety plans and strengthening of surveillance practices.
+
+- Guidelines for drinking-water quality
+
+- Water Safety Plan resources
+
+- Developing drinking-water quality regulations and standards
+
+- Supporting publications to the Guidelines for drinking-water quality
+
+Since 2014, WHO has been testing household water treatment products against WHO health-based performance criteria through the WHO International Scheme to Evaluate Household Water Treatment Technologies. The aim of the scheme is to ensure that products protect users from the pathogens that cause diarrhoeal disease and to strengthen policy, regulatory and monitoring mechanisms at the national level to support appropriate targeting and consistent and correct use of such products.
+
+WHO works closely with UNICEF in a number of areas concerning water and health, including on water, sanitation, and hygiene in health care facilities. In 2015 the two agencies jointly developed WASH FIT (Water and Sanitation for Health Facility Improvement Tool), an adaptation of the water safety plan approach. WASH FIT aims to guide small, primary health care facilities in low- and middle-income settings through a continuous cycle of improvement through assessments, prioritization of risk, and definition of specific, targeted actions. A 2023 report describes practical steps that countries can take to improve water, sanitation and hygiene in health care facilities.
+
+References
+
+1. UN-Water. Summary progress update 2021: SDG 6 – water and sanitation for all. https://www.unwater.org/sites/default/files/app/uploads/2021/12/SDG-6-Summary-Progress-Update-2021_Version-July-2021a.pdf

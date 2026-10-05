@@ -1,0 +1,215 @@
+WHO FACT SHEET
+Title: Burns
+URL: https://www.who.int/news-room/fact-sheets/detail/burns
+Retrieved: 2026-10-05T09:30:53.134917+00:00
+
+========================================
+
+Key facts
+=========
+
+- An estimated 180 000 deaths every year are caused by burns. The vast majority occur in low- and middle-income countries.
+
+- Non-fatal burn injuries are a leading cause of morbidity.
+
+- Burns occur mainly in the home and workplace.
+
+- Burns are preventable.
+
+Overview
+========
+
+A burn is an injury to the skin or other organic tissue primarily caused by heat or due to radiation, radioactivity, electricity, friction or contact with chemicals.
+
+Thermal (heat) burns occur when some or all the cells in the skin or other tissues are destroyed by:
+
+- hot liquids (scalds)
+
+- hot solids (contact burns)
+
+- flames (flame burns).
+
+The problem
+===========
+
+Burns are a global public health problem, accounting for an estimated 180 000 deaths annually. The majority of these occur in low- and middle-income countries and almost two thirds occur in the WHO African and South-East Asia Regions.
+
+In many high-income countries, burn death rates have been decreasing, and the rate of child deaths from burns is currently over 7 times higher in low- and middle-income countries than in high-income countries.
+
+Non-fatal burns are a leading cause of morbidity, including prolonged hospitalization, disfigurement and disability, often with resulting stigma and rejection.
+
+- Burns are among the leading causes of disability-adjusted life-years (DALYs) lost in low- and middle-income countries.
+
+- Hospitalization for burns varies by country and is influenced by health service payment programmes, but among countries studied hospitalization trends are going towards shorter stays and an increased proportion of burns being treated in specialized burn centres (1).
+
+Some country data
+=================
+
+- In India, over 1 million people are moderately or severely burnt every year.
+
+- Nearly 173 000 Bangladeshi children are moderately or severely burnt every year.
+
+- In Bangladesh, Colombia, Egypt and Pakistan, 17% of children with burns have a temporary disability and 18% have a permanent disability.
+
+- Burns are the second most common injury in rural Nepal, accounting for 5% of disabilities.
+
+- In 2008, over 410 000 burn injuries occurred in the United States of America, with approximately 40 000 requiring hospitalization.
+
+Economic impact
+===============
+
+Direct care costs for burns vary widely but tend towards being generally expensive with a 2014 systematic review finding a mean total healthcare cost per burn patient of US$ 88 218 (range US$ 704–717 306).
+
+In South Africa an estimated US$ 26 million is spent annually for care of burns from kerosene (paraffin) cookstove incidents. Indirect costs such as lost wages, prolonged care for deformities and emotional trauma, and commitment of family resources, also contribute to the socioeconomic impact.
+
+Who is at risk?
+===============
+
+Gender
+------
+
+Females have slightly higher rates of death from burns compared to males according to the most recent data. This contrasts with the usual injury pattern, where rates of injury for the various injury mechanisms tend to be higher in males than females.
+
+The higher risk for females is associated with open fire cooking, or inherently unsafe cookstoves, which can ignite loose clothing. Open flames used for heating and lighting also pose risks, and self-directed or interpersonal violence are also factors (although understudied).
+
+Age
+---
+
+Along with adult women, children are particularly vulnerable to burns. Burns are the fifth most common cause of non-fatal childhood injuries. While a major risk is improper adult supervision, a considerable number of burn injuries in children result from child maltreatment.
+
+Regional factors
+----------------
+
+There are important regional differences in burn rates.
+
+- Children under 5 years of age in the WHO African Region have over 2 times the incidence of burn deaths than children under 5 years of age worldwide.
+
+- Boys under 5 years of age living in low- and middle-income countries of the WHO Eastern Mediterranean Region are almost 2 times as likely to die from burns as boys living in the WHO European Region.
+
+- The incidence of burn injuries requiring medical care is nearly 20 times higher in the WHO Western Pacific Region than in the WHO Region of the Americas.
+
+Socioeconomic factors
+---------------------
+
+People living in low- and middle-income countries are at higher risk for burns than people living in high-income countries. Within all countries however, burn risk correlates with socioeconomic status.
+
+Other risk factors
+------------------
+
+There are a number of other risk factors for burns, including:
+
+- occupations that increase exposure to fire;
+
+- poverty, overcrowding and lack of proper safety measures;
+
+- placement of young girls in household roles such as cooking and care of small children;
+
+- underlying medical conditions, including epilepsy, peripheral neuropathy, and physical and cognitive disabilities;
+
+- alcohol abuse and smoking;
+
+- easy access to chemicals used for assault (such as in acid violence attacks);
+
+- use of kerosene (paraffin) as a fuel source for non-electric domestic appliances; and
+
+- inadequate safety measures for liquefied petroleum gas and electricity.
+
+In which settings do burns occur?
+=================================
+
+Burns occur mainly in the home and workplace. Community surveys in Bangladesh and Ethiopia show that 80–90% of burns occur at home. Children and women are usually burned in domestic kitchens, from upset receptacles containing hot liquids or flames, or from cookstove explosions. Men are most likely to be burned in the workplace due to fire, scalds, chemical and electrical burns.
+
+Prevention
+==========
+
+Burns are preventable. High-income countries have made considerable progress in lowering rates of burn deaths, through a combination of prevention strategies and improvements in the care of people affected by burns. Most of these advances in prevention and care have been incompletely applied in low- and middle-income countries. Increased efforts to do so would likely lead to significant reductions in rates of burn-related death and disability.
+
+Prevention strategies should address the hazards for specific burn injuries, education for vulnerable populations and training of communities in first aid. An effective burn prevention plan should be multisectoral and include broad efforts to:
+
+- improve awareness
+
+- develop and enforce effective policy
+
+- describe burden and identify risk factors
+
+- set research priorities with promotion of promising interventions
+
+- provide burn prevention programmes
+
+- strengthen burn care
+
+- strengthen capacities to carry out all the above.
+
+The document A WHO plan for burn prevention and care discusses these 7 components in detail.
+
+In addition, there are several specific recommendations for individuals, communities and public health officials to reduce burn risk.
+
+- Enclose fires and limit the height of open flames in domestic environments.
+
+- Promote safer cookstoves and less hazardous fuels and educate regarding loose clothing.
+
+- Apply safety regulations to housing designs and materials and encourage home inspections.
+
+- Improve the design of cookstoves, particularly with regard to stability and prevention of access by children.
+
+- Lower the temperature in hot water taps.
+
+- Promote fire safety education and the use of smoke detectors, fire sprinklers and fire-escape systems in homes.
+
+- Promote the introduction of and compliance with industrial safety regulations, and the use of fire-retardant fabrics for children’s sleepwear.
+
+- Avoid smoking in bed and encourage the use of child-resistant lighters.
+
+- Promote legislation mandating the production of fire-safe cigarettes.
+
+- Improve treatment of epilepsy, particularly in developing countries.
+
+- Encourage further development of burn-care systems, including the training of health-care providers in the appropriate triage and management of people with burns.
+
+- Support the development and distribution of fire-retardant aprons to be used while cooking around an open flame or kerosene stove.
+
+First aid
+=========
+
+Basic guidance on first aid for burns is provided below.
+
+What to do
+----------
+
+- Stop the burning process by removing clothing and irrigating the burns.
+
+- Extinguish flames by allowing the patient to roll on the ground, or by applying a blanket, or by using water or other fire-extinguishing liquids.
+
+- Use cool running water to reduce the temperature of the burn.
+
+- In chemical burns, remove or dilute the chemical agent by irrigating with large volumes of water.
+
+- Wrap the patient in a clean cloth or sheet and transport to the nearest appropriate facility for medical care.
+
+What not to do
+--------------
+
+- Do not start first aid before ensuring your own safety (switch off electrical current, wear gloves for chemicals etc.)
+
+- Do not apply paste, oil, haldi (turmeric) or raw cotton to the burn.
+
+- Do not apply ice because it deepens the injury.
+
+- Avoid prolonged cooling with water because it will lead to hypothermia.
+
+- Do not open blisters until topical antimicrobials can be applied, such as by a health-care provider.
+
+- Do not apply any material directly to the wound as it might become infected.
+
+- Avoid application of topical medication until the patient has been placed under appropriate medical care.
+
+WHO response
+============
+
+WHO is promoting interventions that have been shown to be successful in reducing the incidence of burns.
+
+The Organization is also supporting the development and use of a global burn registry for globally harmonized data collection on burns and increased collaboration between global and national networks to increase the number of effective programmes for burn prevention.
+
+References
+
+1. Recent Trends in Burn Epidemiology Worldwide: A Systematic Review. Burns. 2017 Mar; 43(2): 249–257.

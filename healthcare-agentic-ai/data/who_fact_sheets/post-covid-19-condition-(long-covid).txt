@@ -1,0 +1,123 @@
+WHO FACT SHEET
+Title: Post COVID-19 condition (long COVID)
+URL: https://www.who.int/news-room/fact-sheets/detail/post-covid-19-condition-(long-covid)
+Retrieved: 2026-10-05T09:34:12.167649+00:00
+
+========================================
+
+Key facts
+=========
+
+- Most patients with COVID-19 recover fully, but some develop post COVID-19 condition with medium- to long-term effects on one or more body systems.
+
+- Approximately 6 in every 100 people who have COVID-19 develop post COVID-19 condition.
+
+- While data are limited, the chance of developing post COVID-19 condition appears to be lower now than earlier in the pandemic. However, the virus is still circulating widely, and every new infection is associated with a risk.
+
+- Fatigue, breathlessness, muscle or joint pain, and impaired sleep are common symptoms of post-COVID-19 condition.
+
+- WHO is working to develop clinical practice guidelines for management of post COVID-19 condition.
+
+- Health-care providers can guide patients on self-management of symptoms and offer medication for symptom relief or referral for rehabilitation services as needed.
+
+Overview
+========
+
+COVID-19 can lead to serious long-term effects, known as post COVID-19 condition (PCC). It is also commonly referred to as long COVID. Post COVID-19 condition is characterized by a range of symptoms which usually start within 3 months of the initial COVID-19 illness and last at least 2 months. PCC can affect a person’s ability to perform daily activities such as work or household chores and restrict social participation.
+
+Scope of the problem
+====================
+
+Millions of people have been affected with post COVID-19 condition since the beginning of the pandemic (1). Global estimates indicate that 6 in 100 people with COVID-19 develop post COVID-19 condition. Estimates largely come from people who suffered COVID-19 early in the pandemic (in the first two years), and there is a very large variation in estimates (2).
+
+More recent research shows the chances of developing post COVID-19 condition have reduced, but these data are limited and mostly from high-income countries (3). However, the SARS-CoV-2 virus, the virus that causes COVID-19 is widely circulating and post COVID-19 condition remains a substantial threat and ongoing challenge to global public health.
+
+Risk factors
+============
+
+Anyone who was infected with SARS-CoV-2 can develop post COVID-19 condition. Some people have higher risk. These include women, older adults, smokers, those who are overweight or obese or have pre-existing chronic health problems. Repeated infections and severe COVID-19 needing hospitalization or ICU admission also increase the risk (4). We see higher numbers of post COVID-19 condition sufferers among people with disabilities, and where health disparity and access to health care is a problem (5).
+
+Research is ongoing to better understand what causes post COVID-19 condition. Almost any organ can be affected, including the heart and blood vessels, lungs, nervous system, gut and endocrine (hormone) system. In those with post COVID-19 condition, researchers have found evidence of persistence of SARS-CoV2 virus in the body, of altered immune responses and autoimmunity, and of formation of microscopic blood clots (micro-thrombosis), among other problems (6).
+
+Symptoms
+========
+
+Over 200 different symptoms have been reported by people with post COVID-19 condition. Common symptoms include:
+
+- fatigue
+
+- aches and pains in muscles or joints
+
+- feeling breathless
+
+- headaches
+
+- difficulty in thinking or concentrating
+
+- alterations in taste.
+
+Impaired sleep, depression and anxiety also occur (5). These symptoms might persist from their initial illness or develop after their recovery. Symptoms can be mild to severely debilitating, and affect someone’s capacity to work, perform their daily activities or do exercise.
+
+With increasing understanding of post COVID-19 condition, some clinical patterns have become clearer. There are symptoms which tend to occur together, for example dizziness, palpitations, light-headedness on standing, and exercise intolerance (related to postural orthostatic tachycardia syndrome), symptoms of post exertional malaise, or myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) (7).
+
+Other medical conditions can occur more often than usual after having COVID-19. These include kidney impairment, heart disease, stroke, diabetes and mental health disorders, among other conditions (8).
+
+Impact
+======
+
+Post COVID-19 condition can affect the ability to work and may lead to loss of productivity, and a reduction in income and quality of life. Ongoing medical needs of people with the condition may stretch existing health systems.
+
+Recovery
+========
+
+Symptoms of post COVID-19 condition generally improve over time, typically 4–9 months. Approximately 15 in 100 people still have symptoms at 12 months as per global estimates from 2022 (2).
+
+Treatments
+==========
+
+The individual needs of patients with post COVID-19 condition vary. At the present time, there remains limited research on treatments and a lack of large studies to understand the most effective treatments. However, doctors and their patients may make individualized treatment decisions based on knowledge from similar medical conditions. Health-care providers may offer medications for symptomatic relief as needed. Additionally, newly diagnosed medical problems occurring after COVID-19 frequently have well-established treatments, for example kidney disease or stroke. Many symptoms and functional impairment can be managed effectively by rehabilitation, and with careful communication between primary care practitioners and medical specialists.
+
+Self-care
+=========
+
+Education about the importance of quality rest and sleep and skills training on energy conservation techniques can help patients manage their symptoms better. Health-care providers can discuss with patients about self-management strategies to respond promptly to a flare-up or relapse, such as identifying possible triggers, temporarily reducing activity levels, monitoring symptoms over time, and not returning to usual activity levels until the flare-up has resolved. Use of assistive devices and environmental modifications at work and home may be needed in some instances.
+
+Prevention
+==========
+
+People can be reinfected with SARS-CoV-2 multiple times. Each time, they have a risk of developing post COVID-19 condition. Therefore, risk reduction with preventive measures such as the use of masks, personal hygiene and ventilation in high-risk situations continues to be important. Receiving two doses of vaccination appears to reduce the likelihood chance of developing post COVID-19 condition (9).
+
+WHO response
+============
+
+WHO first started work on post COVID-19 condition in the first wave of the global COVID-19 pandemic in 2020 when reports began to emerge that some patients had persistent symptoms weeks or months following SARS-CoV-2 infection. To better understand this phenomenon, WHO met with patient advocates, researchers, health-care providers and public health professionals and by September 2020, established emergency international classification of disease (ICD) codes for post COVID-19 condition.
+
+Since then, WHO has developed a clinical case definition of post COVID-19 condition to recognize the condition and its impact on people’s lives. This definition was developed by patients, researchers and clinical experts, representing all WHO regions, with the understanding that the definition may change as new evidence emerges and our understanding of the consequences of COVID-19 evolves.
+
+A separate clinical case definition for post COVID-19 condition in children and adolescents is also available.
+
+WHO has been organizing webinars on post COVID-19 condition since February 2021 to expand understanding of the condition and its impact on patients’ lives, and foster research and collaboration. A global webinar series on the medical management of post COVID-19 condition is organized each month and has been running since 2023.
+
+A WHO Guideline Development Group consisting of global experts, frontline providers and affected individuals is presently at work on guidelines on diagnosis, treatment and rehabilitation in post COVID-19 condition.
+
+We advocate for governments and funders to support research on post COVID-19 condition in the interest of improved understanding of this condition around the world, not just in high-income countries, and design optimal clinical care for patients. National authorities are encouraged to plan and budget for multidisciplinary post COVID-19 condition programmes and to ensure equitable access to relevant therapies.
+
+References
+
+1. Al-Aly, Z., Davis, H., McCorkell, L. et al. Long COVID science, research and policy. Nat Med 30, 2148–2164 (2024). https://doi.org/10.1038/s41591-024-03173-6
+
+2. Vos, T. et al. Estimated Global Proportions of Individuals With Persistent Fatigue, Cognitive, and Respiratory Symptom Clusters Following Symptomatic COVID-19 in 2020 and 2021. JAMA 328, 1604–1615 (2022).
+
+3. Ford ND, Slaughter D, Edwards D, et al. Long COVID and Significant Activity Limitation Among Adults, by Age — United States, June 1–13, 2022, to June 7–19, 2023. MMWR Morb Mortal Wkly Rep 2023;72:866–870. DOI: http://dx.doi.org/10.15585/mmwr.mm7232a3.
+
+4. Tsampasian, V. et al. Risk factors associated with Post-COVID-19 Condition: A Systematic Review and Meta-analysis. JAMA Intern Med 183, (2023).
+
+5. Jean P. Hall, Noelle K. Kurth, Lisa McCorkell, and Kelsey S. Goddard, 2024: Long COVID Among People With Preexisting Disabilities. American Journal of Public Health 114, 1261_1264, https://doi.org/10.2105/AJPH.2024.307794
+
+6. Peluso MJ, Deeks SG. Mechanisms of long COVID and the path toward therapeutics. Cell. 2024;187(20):5500-5529. doi:10.1016/j.cell.2024.07.054
+
+7. The persistence of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) after SARS-CoV-2 infection: A systematic review and meta-analysis. Dehlia, Ankush et al. Journal of Infection, Volume 0, Issue 0, 106297
+
+8. Bowe, B., Xie, Y. & Al-Aly, Z. Postacute sequelae of COVID-19 at 2 years. Nat Med 29, 2347–2357 (2023). https://doi.org/10.1038/s41591-023-02521-2
+
+9. Byambasuren O, Stehlik P, Clark J, et al. Effect of covid-19 vaccination on long covid: systematic review​. BMJ Medicine 2023;2:e000385. doi: 10.1136/bmjmed-2022-000385​

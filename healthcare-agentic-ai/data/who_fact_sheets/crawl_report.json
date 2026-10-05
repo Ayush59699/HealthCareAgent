@@ -1,0 +1,14 @@
+{
+  "crawl_timestamp": "2026-10-05T09:30:23.043077+00:00",
+  "total_urls_discovered": 244,
+  "successful_downloads": 239,
+  "failed_downloads": 0,
+  "duplicate_urls": 0,
+  "skipped_existing": 5,
+  "skipped_by_limit": 0,
+  "skipped_duplicate_urls": 5,
+  "output_directory": "C:\\Users\\Hp\\OneDrive\\Desktop\\HEALTHCARE AGENT\\TEST AGENTS\\mini-cc\\healthcare-agentic-ai\\data\\who_fact_sheets",
+  "failed_urls": [],
+  "errors": [],
+  "discovery_error": null
+}

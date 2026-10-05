@@ -1,0 +1,8 @@
+### Full crawl
+From `healthcare-agentic-ai`:
+
+python -m pip install -r requirements-who.txt
+python scripts/crawl_who_fact_sheets.py
+
+
+Use `--force` to refresh existing files or `--limit 10` for a smaller run.

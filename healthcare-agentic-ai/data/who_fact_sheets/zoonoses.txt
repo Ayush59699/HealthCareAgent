@@ -1,0 +1,40 @@
+WHO FACT SHEET
+Title: Zoonoses
+URL: https://www.who.int/news-room/fact-sheets/detail/zoonoses
+Retrieved: 2026-10-05T09:35:34.588849+00:00
+
+========================================
+
+Key facts
+=========
+
+- A zoonosis is any disease or infection that is naturally transmissible from vertebrate animals to humans
+
+- There are over 200 known types of zoonoses
+
+- Zoonoses comprise a large percentage of new and existing diseases in humans
+
+- Some zoonoses, such as rabies, are 100% preventable through vaccination and other methods
+
+A zoonosis is an infectious disease that has jumped from a non-human animal to humans. Zoonotic pathogens may be bacterial, viral or parasitic, or may involve unconventional agents and can spread to humans through direct contact or through food, water or the environment. They represent a major public health problem around the world due to our close relationship with animals in agriculture, as companions and in the natural environment. Zoonoses can also cause disruptions in the production and trade of animal products for food and other uses.
+
+Zoonoses comprise a large percentage of all newly identified infectious diseases as well as many existing ones. Some diseases, such as HIV, begin as a zoonosis but later mutate into human-only strains. Other zoonoses can cause recurring disease outbreaks, such as Ebola virus disease and salmonellosis. Still others, such as the novel coronavirus that causes COVID-19, have the potential to cause global pandemics.
+
+Prevention and control
+======================
+
+Prevention methods for zoonotic diseases differ for each pathogen; however, several practices are recognized as effective in reducing risk at the community and personal levels. Safe and appropriate guidelines for animal care in the agricultural sector help to reduce the potential for foodborne zoonotic disease outbreaks through foods such as meat, eggs, dairy or even some vegetables. Standards for clean drinking water and waste removal, as well as protections for surface water in the natural environment, are also important and effective. Education campaigns to promote handwashing after contact with animals and other behavioural adjustments can reduce community spread of zoonotic diseases when they occur.
+
+Antimicrobial resistance is a complicating factor in the control and prevention of zoonoses. The use of antibiotics in animals raised for food is widespread and increases the potential for drug-resistant strains of zoonotic pathogens capable of spreading quickly in animal and human populations.
+
+Who is at risk?
+===============
+
+Zoonotic pathogens can spread to humans through any contact point with domestic, agricultural or wild animals. Markets selling the meat or by-products of wild animals are particularly high risk due to the large number of new or undocumented pathogens known to exist in some wild animal populations. Agricultural workers in areas with a high use of antibiotics for farm animals may be at increased risk of pathogens resistant to current antimicrobial drugs. People living adjacent to wilderness areas or in semi-urban areas with higher numbers of wild animals are at risk of disease from animals such as rats, foxes or raccoons. Urbanization and the destruction of natural habitats increase the risk of zoonotic diseases by increasing contact between humans and wild animals.
+
+WHO Response
+============
+
+WHO works with national governments, academia, non-governmental and philanthropic organizations, and regional and international partners to prevent and manage zoonotic threats and their public health, social and economic impacts. These efforts include fostering cross-sectoral collaboration at the human-animal-environment interface among the different relevant sectors at regional, national and international levels. WHO also works to develop capacity and promote practical, evidence-based and cost-effective tools and mechanisms for zoonoses prevention, surveillance and detection through reporting, epidemiological and laboratory investigation, risk assessment and control, and assisting countries in their implementation.
+
+As part of the One Health approach, the World Health Organization collaborates with the Food and Agriculture Organization of the United Nations (FAO) and the World Organisation for Animal Health (OIE) on the Global Early Warning System for Major Animal Diseases (GLEWS). This joint system builds on the added value of combining and coordinating alert mechanisms of the three agencies to assist in early warning, prevention and control of animal disease threats, including zoonoses, through data sharing and risk assessment.

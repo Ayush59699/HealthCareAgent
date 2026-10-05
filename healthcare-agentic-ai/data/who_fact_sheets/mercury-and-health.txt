@@ -1,0 +1,120 @@
+WHO FACT SHEET
+Title: Mercury
+URL: https://www.who.int/news-room/fact-sheets/detail/mercury-and-health
+Retrieved: 2026-10-05T09:33:25.968845+00:00
+
+========================================
+
+Key facts
+=========
+
+- Mercury is a naturally occurring element that is found in air, water and soil.
+
+- Exposure to mercury – even small amounts – may cause serious health problems, and is a threat to the development of the child in utero and early in life.
+
+- Mercury may have toxic effects on the nervous, digestive and immune systems, and on lungs, kidneys, skin and eyes.
+
+- Mercury is considered by WHO as one of the top ten chemicals of major public health concern.
+
+- People are mainly exposed to methylmercury, an organic compound, when they eat fish and shellfish that contain the compound.
+
+- Methylmercury is very different to ethylmercury. Ethylmercury is contained in thiomersal as a preservative in some vaccines and does not pose a health risk.
+
+Overview
+========
+
+Mercury occurs naturally in the earth's crust. It is released into the environment from volcanic activity, weathering of rocks and as a result of human activity. Human activity is the main cause of mercury releases, particularly coal-fired power stations, residential coal burning for heating and cooking, industrial processes, waste incinerators and as a result of mining for mercury, gold and other metals.
+
+Once in the environment, mercury can be transformed by bacteria into methylmercury. Methylmercury then bioaccumulates (bioaccumulation occurs when an organism contains higher concentrations of the substance than do the surroundings) in fish and shellfish. For example, large predatory fish are more likely to have high levels of mercury as a result of eating many smaller fish.
+
+Who is at risk?
+===============
+
+Mercury is toxic to human health, posing a particular threat to the development of the child in utero and early in life.
+
+All humans are exposed to some level of mercury. Human exposure occurs mainly through inhalation of elemental mercury vapours during industrial processes and through consumption of contaminated fish and shellfish.
+
+It has been estimated that among selected subsistence fishing populations, between 1.5/1000 and 17/1000 children showed cognitive impacts caused by the consumption of fish containing mercury (1).
+
+Signs and symptoms
+==================
+
+Mercury is toxic to human health, posing a particular threat to the development of the child in utero and early in life. Mercury exists in various forms: elemental (or metallic); inorganic (e.g. mercuric chloride); and organic (e.g. methyl- and ethylmercury), which all have different toxic effects, including on the nervous, digestive and immune systems, and on lungs, kidneys, skin and eyes.
+
+The health impacts of mercury are numerous including kidney and nervous system damage and skin problems. Exposure of the fetus to methylmercury poses danger to the unborn child.
+
+The inorganic salts of mercury are corrosive to the skin, eyes and gastrointestinal tract, and may induce kidney toxicity if ingested.
+
+Neurological and behavioural disorders may be observed after inhalation, ingestion or dermal exposure of different mercury compounds. Symptoms include tremors, insomnia, memory loss, neuromuscular effects, headaches and cognitive and motor dysfunction. Mild, subclinical signs of central nervous system toxicity can be seen in workers exposed to an elemental mercury level in the air of 20 μg/m3 or more for several years. Kidney effects have been reported, ranging from increased protein in the urine to kidney failure.
+
+Prevention and control
+======================
+
+Interventions to prevent environmental releases and human exposure include:
+
+Eliminate mercury mining, and use of mercury in gold extraction and other industrial processes
+----------------------------------------------------------------------------------------------
+
+Mercury is an element that cannot be destroyed; therefore, mercury already in use can be recycled for other essential uses, with no further need for mercury mining. Mercury use in artisanal and small-scale gold mining is particularly hazardous, and health effects on vulnerable populations are significant. Non-mercury (non-cyanide) gold-extraction techniques need to be promoted and implemented, and where mercury is still used safer work practices need to be employed to prevent exposure.
+
+Promote the use of clean energy sources that do not burn coal
+-------------------------------------------------------------
+
+Burning coal for power and heat is a major source of mercury. Coal contains mercury and other hazardous air pollutants that are emitted when it is burned in coal-fired power plants, industrial boilers and household stoves.
+
+Switching to non-mercury thermometers and sphygmomanometers in health care
+--------------------------------------------------------------------------
+
+Mercury has been traditionally used in medical devices, especially thermometers and blood-pressure measurement devices. These represent a hazard in terms of both breakage and long-term disposal. Human exposure occurs mainly through inhalation of elemental mercury vapours. The exposure is entirely preventable with safe and effective mercury-free alternatives.
+
+Implementing safe handling, use and disposal of mercury-containing products and waste
+-------------------------------------------------------------------------------------
+
+Mercury is contained in many products, including:
+
+- batteries
+
+- measuring devices, such as thermometers and barometers
+
+- electric switches and relays in equipment
+
+- lamps (including some types of light bulbs)
+
+- dental amalgam (for dental fillings)
+
+- skin-lightening products and other cosmetics
+
+- pharmaceuticals.
+
+Dental amalgam, a common filling material for treating dental caries, has been used for over 175 years. One of the global targets of the WHO Global oral health action plan 2023–2030 is that, by 2030, 90% of countries have implemented measures to phase down the use of dental amalgam as stipulated in the Minamata Convention on Mercury or have phased it out.
+
+Skin lightening or skin bleaching is a dangerous practice often associated with the risk of exposure to mercury salts to inhibit melanin production. Mercury-containing skin lightening products are hazardous to health and have been banned in many countries. However, even in countries where tight controls exist, such products may be found being advertised and available to consumers via the Internet and other means.
+
+Mercury use in vaccines and pharmaceuticals
+===========================================
+
+Mercury, such as thiomersal (ethylmercury), is used in very small amounts as a preservative in some vaccines and pharmaceuticals. Compared to methylmercury, ethylmercury is very different. Ethylmercury is broken down by the body quickly and does not accumulate. WHO has closely monitored scientific evidence relating to the use of thiomersal as a vaccine preservative for more than 20 years and has consistently reached the same conclusion: there is no evidence that the amount of thiomersal used in vaccines poses a health risk.
+
+Political agreement
+===================
+
+The continued release of mercury into the environment from human activity, the presence of mercury in the food chain, and the demonstrated adverse effects on humans led to the adoption of the Minamata Convention on Mercury in 2013. The Convention obliges Government Parties to take a range of actions, including addressing mercury emissions to air and the phasing out of certain mercury-containing products.
+
+An amendment to the Minamata Convention in 2023 prohibits the manufacture, import or export of certain mercury-added products after 2025. The products list includes batteries, switches and relays, fluorescent lamps, non-electronic measuring devices, cosmetics, etc.
+
+WHO response
+============
+
+The World Health Assembly Resolution 67.11 (2014) on the Public health impacts of exposure to mercury and mercury compounds: the role of WHO and ministries of public health in the implementation of the Minamata Convention requests the Director-General to facilitate WHO’s efforts to provide advice and technical support to Member States to support the implementation of the Minamata Convention on Mercury in all health aspects related to mercury.
+
+WHO publishes evidence about the health impacts of the different forms of mercury, guidance on identifying populations at risk from mercury exposure, and tools to reduce mercury exposure.
+
+WHO is committed to raising awareness and understanding of the dangers of mercury exposure to vulnerable populations, such as pregnant women and infants, including online training for health care professionals.
+
+WHO leads projects to promote the sound management and disposal of health-care waste, eliminate use of mercury in skin-lightening products, phase down the use of dental amalgam and is facilitating the development of an affordable, validated, non-mercury-containing medical devices.
+
+WHO is cooperating with the secretariat of the Minamata Convention to develop arrangements for the effectiveness evaluation of the Convention. This is expected to include consideration of human biomonitoring data.
+
+References
+
+1. Cohen J, Bellinger DC, Shaywitz B: A quantitative analysis of prenatal methyl mercury exposure and cognitive development. Am J Prev Med. 2005, 29: 353-65. 10.1016/j.amepre.2005.06.007.

@@ -1,0 +1,93 @@
+WHO FACT SHEET
+Title: Injuries and violence
+URL: https://www.who.int/news-room/fact-sheets/detail/injuries-and-violence
+Retrieved: 2026-10-05T09:32:51.212713+00:00
+
+========================================
+
+Key facts
+=========
+
+- Injuries – both unintentional and violence-related – take the lives of 4.4 million people around the world each year and constitute nearly 8% of all deaths.
+
+- For people age 5-29 years, 3 of the top 5 causes of death are injury-related, namely road traffic injuries, homicide and suicide.
+
+- Injuries and violence are responsible for an estimated 10% of all years lived with disability.
+
+- Injuries and violence place a massive burden on national economies, costing countries billions of US dollars each year in health care, lost productivity and law enforcement.
+
+- Preventing injuries and violence will facilitate achievement of several Sustainable Development Goal (SDG) targets.
+
+Overview
+========
+
+Injuries result from road traffic crashes, falls, drowning, burns, poisoning and acts of violence against oneself or others, among other causes.
+
+Of the 4.4 million injury-related deaths, unintentional injuries take the lives of 3.16 million people every year and violence-related injuries kill 1.25 million people every year. Roughly 1 in 3 of these deaths result from road traffic crashes, 1 in 6 from suicide, 1 in 10 from homicide and 1 in 61 from war and conflict.
+
+For people age 5-29 years, 3 of the top 5 causes of death are injury-related, namely road traffic injuries, homicide and suicide. Drowning is the sixth leading cause of death for children age 5-14 years. Falls account for over 684,000 deaths each year and are a growing and under-recognized public health issue.
+
+Tens of millions more people suffer non-fatal injuries each year which lead to emergency department and acute care visits, hospitalizations or treatment by general practitioners and often result in temporary or permanent disability and the need for long-term physical and mental health care and rehabilitation. For example, there has been a significant rise in road traffic injuries in the African region since 2000, with an almost 50% increase in healthy life-years lost.
+
+Impact
+======
+
+Beyond death and injury, exposure to any form of trauma, particularly in childhood, can increase the risk of mental illness and suicide; smoking, alcohol and substance abuse; chronic diseases like heart disease, diabetes and cancer; and social problems such as poverty, crime and violence. For these reasons, preventing injuries and violence, including by breaking intergenerational cycles of violence, goes beyond avoiding the physical injury to contributing to substantial health, social and economic gains.
+
+Injuries and violence are a significant cause of death and burden of disease in all countries; however, they are not evenly distributed across or within countries – some people are more vulnerable than others depending on the conditions in which they are born, grow, work, live and age. For instance, in general, being young, male and of low socioeconomic status all increase the risk of injury and of being a victim or perpetrator of serious physical violence. The risk of fall-related injuries increases with age.
+
+Twice as many males than females are killed each year as a result of injuries and violence. Worldwide, about three quarters of deaths from road traffic injuries, four fifths of deaths from homicide, and two thirds of deaths from war are among men. In many low- and middle-income countries, however, women and girls are more likely to be burned than men and boys, in large part due to exposure to unsafe cooking arrangements and energy poverty. Across all ages, the three leading causes of death from injuries for males are road traffic injuries, homicide and suicide, while for females they are road traffic injuries, falls and suicide.
+
+Poverty also increases the risk of injury and violence. About 90% of injury-related deaths occur in low- and middle-income countries. Across the world, injury death rates are higher in low-income countries than in high-income countries. Even within countries, people from poorer economic backgrounds have higher rates of fatal and non-fatal injuries than people from wealthier economic backgrounds. This holds true even in high-income countries.
+
+The uneven distribution of injuries that makes them more prevalent among the less advantaged is related to several risk factors. These include living, working, travelling and going to school in more precarious conditions, less focus on prevention efforts in underprivileged communities, and poorer access to quality emergency trauma care and rehabilitation services. These issues are explained in more detail below.
+
+Risk factors and determinants
+=============================
+
+Risk factors and determinants common to all types of injuries include alcohol or substance use; inadequate adult supervision of children; and broad societal determinants of health such as poverty; economic and gender inequality; unemployment; a lack of safety in the built environment, including unsafe housing, schools, roads and workplaces; inadequate product safety standards and regulations; easy access to alcohol, drugs, firearms, knives and pesticides; weak social safety nets; frail criminal justice systems; and inadequate institutional policies to address injuries in a consistent and effective manner, in part due to the availability of sufficient resources. In settings where emergency trauma care services are weak or there is inequitable access to services, the consequences of injuries and violence can be exacerbated.
+
+Prevention
+==========
+
+Injuries and violence are predictable and there is compelling scientific evidence for what works to prevent injuries and violence and to treat their consequences in various settings. This evidence has been collated into technical documents that can serve as a guide to support decisions for scaling up injury and violence prevention efforts – see:
+
+- Save LIVES: a road safety technical package
+
+- Preventing drowning: an implementation guide
+
+- Violence prevention: the evidence
+
+- INSPIRE: seven strategies for preventing violence against children
+
+- RESPECT women: preventing violence against women
+
+- LIVE LIFE: suicide prevention implementation package
+
+- SAFER: a world free from alcohol related harms
+
+Analysis of the costs and benefits for several selected injury and violence prevention measures shows that they offer significant value for money, making investment in such measures of great societal benefit. For example, with regard to child injury prevention, a study found that every US$ 1 invested in smoke detectors saves US$ 65, in child restraints and bicycle helmets saves US$ 29, and in-home visitation saves US$ 6 in medical costs, loss productivity and property loss. In Bangladesh, teaching school-age children swimming and rescue skills returned US$ 3000 per death averted. The social benefits of injuries prevented through home modification to prevent falls have been estimated to be at least six times the cost of intervention. It is estimated that in Europe and North America, a 10% reduction in adverse childhood experiences could equate to annual savings of 3 million Disability Adjusted Life Years or US$ 105 billion.
+
+Post-injury care
+================
+
+For all injuries and violence, providing quality emergency care for victims can prevent fatalities, reduce the amount of short-term and long-term disability, and help those affected to cope physically, emotionally, financially and legally with the impact of the injury or violence on their lives. As such, improving the organization, planning and access to trauma care systems, including telecommunications, transport to hospital, prehospital and hospital-based care, are important strategies to minimize fatalities and disabilities from injury and violence. Providing rehabilitation for people with disabilities, ensuring they have access to assistive products such as wheelchairs, and removing barriers to social and economic participation are key strategies to ensure that people who experience disability as the result of an injury or violence may continue a full and enjoyable life.
+
+WHO response
+============
+
+WHO supports efforts to address injuries and violence in many ways, including by:
+
+- developing and disseminating guidance for countries on evidence-based policy and practice including those listed above;
+
+- providing technical support to countries through programmes such as the Bloomberg Initiative for Global Road Safety and the Global Partnership to End Violence against Children;
+
+- documenting and disseminating successful injury prevention approaches, policies and programmes across countries;
+
+- monitoring progress towards achieving the Sustainable Development Goal targets linked to injury, violence prevention, mental health and substance use – namely targets 3.4, 3.5, 3.6, 5.2, 5.3, 16.1 and 16.2 – through global status reports on road safety and violence prevention, and on alcohol and health, and world reports on preventing suicide;
+
+- through informal networks chaired by WHO such as the UN Road Safety Collaboration and the Violence Prevention Alliance, and others towards which WHO contributes like the Global Partnership to End Violence against Children, coordinating global efforts across the UN system including decades of action, ministerial conferences and weeks and days dedicated to injury-related topics to improve road safety and end violence;
+
+- clarifying the role of Ministries of Health as part of multi-sectoral injury-prevention efforts, as reflected in Preventing injuries and violence: a guide for ministries of health, including its role in collecting data; developing national policies and plans; building capacities; facilitating prevention measures; providing services for victims, including emergency trauma care; promulgating legislation on key risks; and training journalists to improve reporting on these issues with a focus on solutions and by co-hosting biannual global meetings and regional meetings of Ministry of Health focal points for violence and injury prevention; and
+
+- co-hosting and serving on the International Organizing Committee for the series of biannual World Conferences on Injury Prevention and Safety Promotion, the 14th edition of which will take place in Adelaide, Australia, in 2022.

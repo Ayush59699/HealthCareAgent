@@ -1,0 +1,3 @@
+# Standalone crawler only: no healthcare runtime or model dependencies.
+requests>=2.31,<3
+beautifulsoup4>=4.12,<5

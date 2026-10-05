@@ -1,0 +1,118 @@
+WHO FACT SHEET
+Title: Snakebite envenoming
+URL: https://www.who.int/news-room/fact-sheets/detail/snakebite-envenoming
+Retrieved: 2026-10-05T09:34:50.043054+00:00
+
+========================================
+
+Key facts
+=========
+
+- An estimated 5.4 million people worldwide are bitten by snakes each year, with 1.8 to 2.7 million cases of envenomings.
+
+- Around 81 410 to 137 880 people die each year because of snake bites, and around three times as many amputations and other permanent disabilities are caused by snakebites annually.
+
+- Bites by venomous snakes can cause paralysis that may prevent breathing, bleeding disorders that can lead to a fatal haemorrhage, irreversible kidney failure and tissue damage that can cause permanent disability and limb amputation.
+
+- Agricultural workers and children are the most affected. Children often suffer more severe effects than adults, due to their smaller body mass.
+
+Overview
+========
+
+Snake bite is a neglected public health issue in many tropical and subtropical countries. Most of these occur in Africa, Asia and Latin America. In Asia, up to 2 million people are envenomed by snakes each year, while in Africa there are an estimated 435 000 to 580 000 snake bites annually that need treatment. Envenoming affects women, children and farmers in poor rural communities in low- and middle-income countries. The highest burden occurs in countries where health systems are weakest and medical resources sparse.
+
+Bites by venomous snakes can cause acute medical emergencies involving severe paralysis that may prevent breathing, cause bleeding disorders that can lead to fatal haemorrhage, cause irreversible kidney failure and severe local tissue destruction that can cause permanent disability and limb amputation. Children may suffer more severe effects and can experience the effects more quickly than adults due to their smaller body mass.
+
+In contrast to many other serious health conditions, highly effective treatment exists. Most deaths and serious consequences of snake bites are entirely preventable by making safe and effective antivenoms more widely available and accessible. High-quality snake antivenoms are the most effective treatment to prevent or reverse most of the venomous effects of snake bites.
+
+They are included in the WHO List of essential medicines and should be part of any primary health care package where snake bites occur.
+
+Challenges producing antivenoms
+===============================
+
+A significant challenge in manufacturing antivenoms is the preparation of the correct immunogens (snake venoms). At present very few countries have capacity to produce snake venoms of adequate quality for antivenom manufacture, and many manufacturers rely on common commercial sources. These may not properly reflect the geographical variation that occurs in the venoms of some widespread species. In addition, lack of regulatory capacity for the control of antivenoms in countries with significant snake bite problems results in an inability to assess the quality and appropriateness of the antivenoms.
+
+A combination of factors has led to the present crisis. Poor data on the number and type of snake bites have led to difficulty in estimating needs, and deficient distribution policies have further contributed to manufacturers reducing or stopping production or increasing the prices of antivenoms. Weak regulation and the marketing of inappropriate or poor quality antivenoms has also resulted in a loss of confidence in some of the available antivenoms by clinicians, health managers and patients, which has further eroded demand.
+
+Weak health systems and lack of data
+====================================
+
+A combination of strategic and risk-based placement of antivenoms, suitable healthcare staff training, availability of affordable, safe and effective antivenoms and equipment, along with the promotion of responsible health-seeking behaviours, can lead better outcomes for snakebite patients and a considerable reduction in the impact of snakebite-related morbidity and mortality. However, the combination of poor geographical access to and inadequate health services in remote communities hinders the chance of receiving appropriate treatment.
+
+Health systems in many countries where snake bites are common often lack the infrastructure and resources to collect robust statistical data on the problem. Assessing the true impact is further complicated by the fact that cases reported to health ministries by clinics and hospitals are often only a small proportion of the actual burden because many victims never reach primary care facilities and are therefore unreported. This is contributed to by socio-economic and cultural factors that influence treatment-seeking behaviour with many victims opting for traditional practices rather than hospital care.
+
+Under-reporting of snake bite incidence and mortality is common. In Nepal, for example, where 90% of the population lives in rural areas, the Ministry of Health reported 480 snake bites resulting in 22 deaths for the year 2000 yet figures for the same year collected in a community-based study of one region (eastern Nepal) detailed 4078 bites and 396 deaths (1). Likewise, a very large community level study of snakebite deaths in India gave a direct estimate of 45 900 (99% CI: 40 900–50 900) deaths in 2005, which is over 30 times higher than the Government of India’s official figure (2). Revised estimates based on verbal autopsies and other data now suggest that as many as 1.2 million Indians died from snakebite envenoming between 2000–2019 (average of 58 000/year) (3). A comparison of hospital-registered deaths in one district of Sri Lanka to data from the Registrar-General’s office on deaths demonstrated that 62.5% of deaths from snakebite envenoming were not reported in hospital data (4).
+
+In situations where data on snakebite envenoming are poor, it is difficult to accurately determine the need for antivenoms. This leads to under-estimation of antivenom needs by national health authorities driving down demand for manufacturers to produce antivenom products, and for some, their departure from the market. The weaknesses in some regulatory systems that leads to licensing of ineffective or incorrect products is sometimes coupled to poor procurement practices and inefficient distribution strategies, further hindering access to antivenoms and creating shortages of safe, affordable and effective products.
+
+Low production of antivenoms
+============================
+
+Given low demand, several manufacturers have ceased production, and the price of some antivenom products have dramatically increased in the last 20 years, making treatment unaffordable for the majority of those who need it. Rising prices also further suppress demand, to the extent that antivenom availability has declined significantly or even disappeared in some areas. The entry into some markets of inappropriate, untested, or even fake antivenom products has also undermined confidence in antivenom therapy generally.
+
+Many believe that unless strong and decisive action is taken quickly, antivenom supply failure is imminent in Africa and in some countries in Asia.
+
+WHO response
+============
+
+WHO has taken steps to raise the awareness of health authorities and policy makers on this issue. In December 2015 a programme to evaluate the potential safety and effectiveness of current antivenom products intended for use in sub-Saharan Africa was launched by WHO. This process has subsequently been extended to WHO South-East Asia and to the Eastern Mediterranean Regions. The results of this detailed technical and laboratory assessment provide regulators and procurement agencies with informed guidance on which antivenoms best suit their needs. Following a request by several UN member states, WHO formally listed snakebite envenoming as a highest priority neglected tropical disease in June 2017.
+
+A Snakebite Envenoming Working Group established that same year was tasked with informing the development of a strategic WHO road map on snakebites. This strategy focuses on a 50% reduction in mortality and disability caused by snakebite envenoming by 2030. This aim will be achieved through four key objectives:
+
+- empower and engage communities
+
+- ensure safe, effective treatment
+
+- strengthen health systems
+
+- increase partnerships, coordination and resources.
+
+A primer on the WHO response was published in the journal PLoS Neglected Tropical Diseases in February 2019 (5).
+
+WHO is working closely with a range of partners to ensure the successful implementation of the road map. The strategy focuses on activities in countries and regions where snakebite envenoming occurs, supported by technical units from WHO. A number of large capacity building projects have already been launched. Particular attention is being focused on the development of a community engagement toolkit (6), specific interventions to improve access to WHO-recommended antivenoms (7), strengthen regulation and control of antivenom products and inform rational evidence-based design (link), improved data collection and analysis (link), estimate snake distribution and the risk of snakebite incidence among vulnerable populations using high-resolution geospatial models (8), and integration of snakebite envenoming into the national health plans of affected countries.
+
+WHO urges regulators, producers, researchers, clinicians, national and regional health authorities, and international and community organizations to work together to improve the availability of reliable epidemiological data on snake bites, the regulatory control of antivenoms and their distribution policies.
+
+Two tools to help guide the development of appropriate antivenoms and their strategic placement have been launched:
+
+- Target product profiles for snakebite treatments
+
+- Guidelines for the production, control, and regulation of snake antivenoms immunoglobulins
+
+- Public benefit target product profiles for snake antivenom in sub-Saharan Africa
+
+- Snakebite Information and Data Platform (SIDP)
+
+- List of anti-venom product assessment outcomes
+
+These tools will assist:
+
+- public health officials in determining what antivenoms are needed in their country and in drafting relevant national public health policies;
+
+- national regulators in prioritizing antivenoms for registration and assessing safety, quality, and efficacy of antivenoms to meet national public health needs;
+
+- procurement agencies in selecting appropriate antivenoms for national treatment needs;
+
+- antivenom manufacturers in developing plans for production and sale of appropriate antivenoms;
+
+- clinicians and health care professionals in treating snakebites; and
+
+- general population in knowing and being able to identify which venomous snakes live in their area.
+
+References
+
+1. Sharma SK. Snake bites and dog bites in Nepal: community based studies on snake bites and dog bites. Department of Medicine, B P Koirala Institute of Health Sciences, presentation made at the WHO first Consultative Meeting on Rabies and Envenomings, Geneva, 10 January 2007.
+
+2. Mohapatra B, Warrell DA, Suraweera W, Bhatia P, Dhingra N, Jotkar RM, Rodriguez PS, Mishra K, Whitaker R, Jha P. Snakebite Mortality in India: A Nationally Representative Mortality Survey. PLOS Negl Trop Dis. 2011. 5(4): e1018
+
+3. Suraweera W, Warrell D, Whitaker R, Menon G, Rodrigues R, Sze HF, et al. Trends in snakebite deaths in India from 2000 to 2019 in a nationally representative study. Elife. 2020. 9: e54076.
+
+4. Fox S, Rathuwithana AC, Kasturiratne A, Lalloo DG, de Silva HJ. Underestimation of snakebite mortality by hospital statistics in the Monaragala District of Sri Lanka. Trans R Soc Trop Med Hyg. 2006. 100(7): 693–695.
+
+5. Williams DJ, Faiz MA, Abela-Ridder B, Ainsworth S, Bulfone TC, Nickerson AD, et al. Strategy for a globally coordinated response to a priority neglected tropical disease: Snakebite envenoming. PLoS Negl Trop Dis. 2019. 13(2): e0007059.
+
+6. Moos B, Williams D, Bolon I, Mupfasoni D, Abela-Ridder B, de Castaneda RR. A scoping review of current practices on community engagement in rural East Africa: Recommendations for snakebite envenoming. Toxicon: X. 2021 Sep 1;11:100073.
+
+7. Potet J, Beran D, Ray N, Alcoba G, Habib AG, Iliyasu G, Waldmann B, Ralph R, Faiz MA, Monteiro WM, Sachett JD. Access to antivenoms in the developing world: A multidisciplinary analysis. Toxicon: X. 2021 Nov 1;12:100086.
+
+8. Pintor AF, Ray N, Longbottom J, Bravo-Vega CA, Yousefi M, Murray KA, Ediriweera DS, Diggle PJ. Addressing the global snakebite crisis with geo-spatial analyses–Recent advances and future direction. Toxicon: X. 2021 Sep 1;11:100076.

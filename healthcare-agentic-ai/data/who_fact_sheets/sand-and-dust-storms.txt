@@ -1,0 +1,84 @@
+WHO FACT SHEET
+Title: Sand and dust storms
+URL: https://www.who.int/news-room/fact-sheets/detail/sand-and-dust-storms
+Retrieved: 2026-10-05T09:34:37.955542+00:00
+
+========================================
+
+Key facts
+=========
+
+- Sand and dust storm episodes contribute directly to air pollution by increasing particulate matter concentrations. In some regions dust is a main source of air pollution from particulate matter.
+
+- An estimated 25% of dust emissions originates from human activities, including deforestation, land degradation, unsustainable land management, climate change and water mismanagement (1).
+
+- Globally, 330 million people are exposed daily to particles transported by wind, sometimes for thousands of kilometres from source areas (2).
+
+- Climate change contributes to desertification, which in turn may increase the frequency and spread of sand and dust storms. Recently, the WHO Eastern Mediterranean Region and other areas have observed a surge in frequency, duration and intensity of sand and dust storms.
+
+Overview
+========
+
+Sand and dust storms (SDS) are common meteorological hazards in arid and semi-arid regions that generate large amounts of airborne mineral dust particles.
+
+Sand and dust storms present a formidable, widespread threat to health and hinder the achievement of sustainable development in its economic, social and environmental dimensions. Originating from the land, these particles of various size and composition get lifted in the air, creating storms. This is especially the case in dry regions, where vegetation is sparse or absent, such as deserts and agricultural land impacted by drought. Their wide impact goes beyond human health and air quality, as it also impacts agriculture, environment, industry, transport and water quality.
+
+There is a wealth of scientific evidence on associations between desert dust and sand storms and adverse short term health effects, yet there is a need for more research on the health impacts of SDS, including harmonized protocol to assess exposure, more studies in dust-emitting areas as well as long term health effects.
+
+Health impacts
+==============
+
+Sand and dust storms episodes contribute directly to air pollution by increasing particulate matter concentrations. In some regions dust is a main source of air pollution from particulate matter. These dust episodes constitute a growing environmental and public health concern, mainly for respiratory and cardiovascular diseases. They impact many areas of the world, whether nearby or thousands of kilometres from deserts or dust emission sources, due to their effect on air quality.
+
+The health community often uses the term “desert dust” when considering the health impacts of mineral dust in the air, but not all mineral dust in the air comes from deserts. For example, there are significant threats to health when mineral soil is lifted from ploughed or bare fields, which can occur in temperate or even humid climates.
+
+How to address the health effects of SDS
+========================================
+
+Airborne dust is not restricted to geographical boundaries and so requires regional cooperation across nations to address the problem. Being a global phenomenon that affects specific areas, it is a challenge for the health sector because of the difficulty in characterizing the exposure and the limited evidence on its long-term health effects. There is also a gap between health evidence in dust emitting regions and receptor regions, as desert dust events often involve long-range transport over great distances (>1000 km). Most of the health studies related to SDS events occur in high-income countries in receptor regions.
+
+Currently, the response from governments is based on the knowledge of short terms health effects, limited early warning systems and the provision of information to vulnerable groups in real time, as well as the impact of emergency visits.
+
+Sand and dust storms are also an important transboundary issue. Although staying close to the ground, mineral dust can travel considerable distances when lifted kilometres high into the atmosphere. Examples include dust from the Sahara frequently reaching the Caribbean and dust from inner northwest Asia often reaching the Korean Peninsula and Japan.
+
+Going forward there is a need for strengthened collaboration between medical and environmental scientists to explore better exposure assessment, dust size fraction and specific chemical composition. The health sector should also address the gaps in knowledge and response on the health impacts of desert dust in the longer term and continue strengthening collaboration with appropriate government entities to provide a timely and effective public health response. Furthermore, collaborative and multi-country research – for both short- and long-term health impacts of SDS as well as the synergistic effects of both exposure to heat and particulate matter – is critical to protecting public health.
+
+Starting in 2023, the International Day of Combating Sand and Dust Storms will be observed every year on 12 July.
+
+WHO Response
+============
+
+Developing normative guidance for policy makers
+-----------------------------------------------
+
+WHO plays a crucial role in developing normative guidance and recommendations to address the health impacts of sand and dust storms. WHO recognizes that exposure to aeolian mineral dust can have detrimental effects on human health and aims to provide evidence-based guidelines for protecting populations from these hazards. Sand and dust storms’ effects on health have been discussed in the 2021 WHO air quality guideline, and elements of guidance is provided in the form of a good practice statement.
+
+Synthesize evidence to inform policy
+------------------------------------
+
+WHO is engaged in advancing the current knowledge on sand and dust storms and their linkages to public health through the commission of a research group whose expertise feeds into the Air Quality Guidelines or other technical reports.
+
+Convening interdisciplinary expert groups on desert dust and health
+-------------------------------------------------------------------
+
+In 2021, WHO establish the first WHO expert group focusing on air pollution and health, the Global Air pollution and Health - Technical Advisory Group (GAPH-TAG). One of its sub-groups, the Expert Working Group on Desert Dust and Health, is working to synthesize evidence on the short- and long-term health impacts of desert dust, provide guidance on harmonized exposure assessment of desert dust and monitoring of health effects, evaluate the implementation of the current good practice statements as provided in the WHO AQG, and strengthen future normative recommendations.
+
+Building institutional capacity through training and education
+--------------------------------------------------------------
+
+WHO is responding by building the capacity of the health sector to effectively engage in health, working across sectors to support cities, regions and countries to produce contextual, meaningful and actionable information on the health, economic and climate impacts of urban and rural environments.
+
+Promoting cross-sectoral and interagency collaboration
+------------------------------------------------------
+
+WHO collaborates closely with international organizations such as the World Meteorological Organization through its Sand and Dust Storm Warning Advisory and Assessment System (SDS-WAS) initiative and leads the working group on health of the United Nations Coalition to Combat Sand and Dust Storms (SDS) to integrate health arguments and tools in action plans and provide a timely response to health threats.
+
+The Coalition aims, among other goals, to promote and coordinate a collaborative UN-system response to SDS on local, regional and global scales, ensuring unified and coherent actions are taken. This coalition formed in 2018 and was an important milestone in international collaboration and acknowledgement of the need for better coordination among international, multilaterals and intergovernmental entities.
+
+More information on the UN Coalition to combat sand and dust storms is available here.
+
+References
+
+1. World Meteorological Organization. Sand and dust storms. https://wmo.int/topics/sand-and-dust-storms
+
+2. World Meteorological Organization. New sand and dust forecast website launched. 2022. https://wmo.int/media/news/new-sand-and-dust-forecast-website-launched

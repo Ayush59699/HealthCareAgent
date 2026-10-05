@@ -1,0 +1,84 @@
+WHO FACT SHEET
+Title: Chromoblastomycosis
+URL: https://www.who.int/news-room/fact-sheets/detail/chromoblastomycosis
+Retrieved: 2026-10-05T09:31:16.270825+00:00
+
+========================================
+
+Key Facts
+=========
+
+- Chromoblastomycosis is an infection under the skin caused by fungi.
+
+- It occurs sporadically in tropical and subtropical climates, and its global incidence is unknown.
+
+- The infection can be disfiguring, causing wart-like lesions of the skin which spread slowly to adjacent areas. It causes disfigurement and disability, and in rare cases skin cancer.
+
+- Chromoblastomycosis is diagnosed with laboratory tools such as microscopy and culture. More accurate molecular diagnostic methods are in development.
+
+- Safe and effective antifungal medicines are available for treatment.
+
+Overview
+========
+
+Chromoblastomycosis is a sporadically occurring infection seen in tropical and subtropical climates caused by a number of different pigmented fungi, the most common of which are Fonsecaea pedrosoi, Fonsecaea monophora and Cladophialophora carrionii. Other fungi can also cause chromoblastomycosis.
+
+Chromoblastomycosis can cause disability due to limb enlargement, which may lead to inability to work and considerable social stigma. Rarely, the fungi that cause chromoblastomycosis can infect other organs, such as the brain, or lead to skin cancer.
+
+Who is at risk?
+
+Chromoblastomycosis affects normal healthy people and is mainly seen in adults. Agricultural workers are the most common occupational group to be infected.
+
+Signs and symptoms
+==================
+
+Chromoblastomycosis presents with wart-like lesions on exposed areas of the skin such as the legs or forearms. These can exceed 10 centimetres in diameter.
+
+Patches of skin may also appear flattened (plaque-like) and show central scarring or atrophy, but they are not itchy or painful. Pain and itching can appear in moderate or severe disease. Small dark spots can be seen on the surface of lesions and represent clusters of the pigmented fungal cells – an important diagnostic clue.
+
+Large lesions cause severe limb swelling and discomfort, limiting movement. In longstanding cases, secondary bacterial infections are common and the smell from affected limbs may be unpleasant, which may also lead to social exclusion. There is a risk of development of squamous cell carcinoma of the skin in longstanding untreated lesions.
+
+Although the infection usually remains in one body region, local spread through the lymphatics, and very rarely blood stream dissemination to the central nervous system, can occur.
+
+Transmission
+============
+
+This infection occurs when fungi from the natural environment invade deeper parts of an individual’s skin after their skin is damaged by a superficial abrasion or a penetrating injury. An infected person cannot directly transmit the infection to other people. Intermediate vectors, such as mosquitoes, do not transmit chromoblastomycosis.
+
+Treatment
+=========
+
+Chromoblastomycosis can be treated with oral itraconazole or terbinafine. Voriconazole, intravenous amphotericin B and oral flucytosine have also been used.
+
+Other methods of treatment include local application of heat, cryotherapy and photodynamic therapy. Surgical reductions have been used but should be given following initial chemotherapy to avoid local recurrence.
+
+Early treatment is key, providing the best results after about 3–6 months. Patients with large or extensive chromoblastomycosis and limb swelling often require over a year of treatment and there may be residual lymphoedema in such cases.
+
+There is no evidence that different fungal species respond differently to the antifungal medicines recommended for treatment.
+
+Challenges
+==========
+
+The earliest lesions of chromoblastomycosis are small, raised lumps or nodules on the skin surface with no specific visible diagnostic features. Therefore, diagnosis depends on demonstrating the characteristic thick-walled, single or multicellular clusters of pigmented fungal cells, known as muriform or sclerotic bodies, either in scrapings from lesions or in histopathology of biopsy material.
+
+Clusters of these cells can be found in the dark spots seen on the surface of the skin lesions and these provide the best sites for taking a skin scraping with a scalpel blade or for a biopsy.
+
+Culture or molecular diagnosis is helpful in confirming the diagnosis but decisions on treatment can be made without identification of the organism. All laboratory diagnostic methods require specialized skills and training, and there is currently insufficient diagnostic expertise in many endemic areas.
+
+The cost of effective antifungal medicines in endemic countries is a major challenge that can limit successful completion of treatment as patients often cannot afford them.
+
+Global impact
+=============
+
+The largest number of cases of chromoblastomycosis has occurred in Central America and northern South America, Africa, China and the West Pacific. Brazil, Costa Rica, Dominican Republic, Madagascar and Venezuela (Bolivarian Republic of) have reported the most cases. The global incidence of chromoblastomycosis is unknown.
+
+WHO response
+============
+
+Chromoblastomycosis is recognized as a neglected tropical disease (NTD) and is included in the NTD road map 2021−2030 to increase surveillance and visibility of the disease.
+
+In 2022, WHO published the skin NTD framework to promote integration across different skin diseases and support the evolving Programme for Skin NTDs.
+
+One of the key challenges of chromoblastomycosis is the lack of information on its global prevalence as cases are not currently reported. Skin NTD programmes are expected to provide more data on incidence of the infection.
+
+The 2021−2030 roadmap promotes early identification of affected individuals. This can be achieved through training of health care workers aimed at improving awareness and disease recognition. Capacity strengthening on skin NTDs is key. Chromoblastomycosis is included in several WHO technical resources such as the Skin NTD training manual and mobile app as well as a dedicated online course available on the OpenWHO platform: Chromoblastomycosis: training for national and district-level health workers.

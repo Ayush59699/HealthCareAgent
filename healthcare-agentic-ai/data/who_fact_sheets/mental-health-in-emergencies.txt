@@ -1,0 +1,115 @@
+WHO FACT SHEET
+Title: Mental health in emergencies
+URL: https://www.who.int/news-room/fact-sheets/detail/mental-health-in-emergencies
+Retrieved: 2026-10-05T09:33:22.395030+00:00
+
+========================================
+
+Key facts
+=========
+
+- Almost all people affected by emergencies experience psychological distress, which typically improves over time.
+
+- One in five people (22%) who have experienced war or conflict in the previous 10 years has depression, anxiety, post-traumatic stress disorder, bipolar disorder or schizophrenia.
+
+- Emergencies significantly disrupt mental health services and reduce the availability of quality care.
+
+- People with severe mental health conditions are especially vulnerable during emergencies and need access to mental health care and other basic needs.
+
+Overview
+========
+
+Every year, millions of people are affected by emergencies such as armed conflicts and natural disasters. These crises disrupt families, livelihoods and essential services, and significantly impact mental health. Nearly all those affected experience psychological distress. A minority go on to develop mental health conditions such as depression or post-traumatic stress disorder.
+
+Emergencies can worsen mental health conditions and social issues such as poverty and discrimination. They can also contribute to new problems, such as family separation and harmful substance use.
+
+International guidelines recommend various activities for providing mental health and psychosocial support (MHPSS) during emergencies, ranging from community self-help and communications to psychological first aid and clinical mental health care. Preparedness and integration with disaster risk reduction are essential to mitigate impacts. Countries can also use emergencies as opportunities to invest in mental health, leveraging the increased aid and attention they receive to develop better care systems for the long term.
+
+Problems
+========
+
+Social problems
+
+- pre-existing including poverty and discrimination against marginalized groups;
+
+- emergency-induced including family separation, lack of safety, loss of livelihoods, disrupted social networks, low trust and reduced resources; and
+
+- humanitarian response-induced including overcrowding, lack of privacy and undermining of community support.
+
+Mental health problems
+
+- pre-existing including mental health conditions such as depression, schizophrenia or harmful use of alcohol and other substances;
+
+- emergency-induced including grief, acute stress reactions, harmful use of substances, depression, anxiety and post-traumatic stress disorder; and
+
+- humanitarian response-induced including anxiety from a lack of information about how to get food or access basic services.
+
+Problems obtaining mental health services
+
+- pre-existing including limited access to quality, affordable mental health care;
+
+- emergency-induced including damage to facilities, staff shortages, disrupted medicine supply chains, and surges in demand that overwhelm existing infrastructure; and
+
+- humanitarian response-induced including lack of coordination and insufficient training for emergency responders.
+
+Prevalence
+==========
+
+Most people affected by emergencies experience feelings of anxiety, sadness, hopelessness, sleep issues, fatigue, irritability, anger or aches. This psychological distress usually improves over time, but some people go on to develop a mental health condition. An estimated 22% may have depression, anxiety, post-traumatic stress disorder, bipolar disorder or schizophrenia (1).
+
+An estimated 13% of conflict-affected populations have mild forms of depression, anxiety and post-traumatic stress disorder, while moderate or severe mental disorders affect 9%.
+
+In conflict-affected settings, depression increases with age and is more common in women. People with severe conditions are especially vulnerable during and after emergencies and need access to basic needs and clinical care.
+
+Recommended actions
+===================
+
+International guidelines on MHPSS recommend several actions to effectively prepare and respond to emergencies (2).
+
+- Include MHPSS in all-sectoral emergency preparedness plans, including hazard and vulnerability assessments, capacity building plans, coordination mechanisms and contingency plans.
+
+- Establish a cross-sectoral MHPSS Technical Working Group to coordinate activities in line with global guidelines.
+
+- Strengthen community self-help and social supports, ensuring the involvement of vulnerable groups, including people with mental health conditions.
+
+- Orient frontline workers in psychological first aid to provide emotional and practical support to people experiencing acute distress.
+
+- Share key messages and service information to encourage positive coping and help-seeking.
+
+- Offer clinical mental health care for priority conditions at general health facilities, using trained and supervised staff and evidence-based protocols such as the mhGAP Humanitarian Intervention Guide (mhGAP-HIG).
+
+- Provide evidence-based psychological interventions for people impaired by prolonged distress. These should be provided by specialists or trained and supervised community workers.
+
+- Protect and promote the rights of people with severe mental health conditions, including those living in institutions such as psychiatric hospitals, social care homes and rehabilitation clinics for substance use.
+
+- Establish referral networks between mental health specialists, general health care providers, community supports and other relevant services (e.g. schools, social services and emergency relief services).
+
+Building back better
+====================
+
+Mental health is crucial to the social and economic recovery of individuals, communities and countries after emergencies. And despite the adversity they create, emergencies also offer opportunities to build better mental health systems – by leveraging the surge of aid and focused attention for long-term service development. Many countries have done just this, even in challenging circumstances.
+
+- Syrian Arab Republic: despite ongoing conflict, mental health and psychosocial support services have expanded beyond hospital-based care and are now offered in primary and secondary health and social care facilities in more than 12 cities.
+
+- Sri Lanka: the 2004 tsunami dramatically increased interest in mental health and mobilized resources for emergency mental health care. This facilitated broader national reform, supported by WHO, to address staff shortages and decentralize care. Today, every district in the country has mental health services infrastructure, compared with a third before the tsunami.
+
+- Philippines: After Typhoon Haiyan in 2013, WHO and partners supported a major scale up of government mental health services in affected areas, training more than 1300 community workers and health-care providers across every general health facility in the assessment management of mental health conditions.
+
+WHO response
+============
+
+WHO works globally to ensure that mental health emergency preparedness and response is both coordinated and effective, and that after emergencies, all efforts are made to strengthen mental health services for the long term.
+
+WHO leads in providing technical advice on mental health in emergencies, operating in a range of countries and territories such as Afghanistan, Chad, the occupied Palestinian territory and Yemen. In 2024, WHO and partners supported the Ukrainian MHPSS operational roadmap, coordinating more than 250 actors and national authorities to significantly scale up mental health services.
+
+In 2024, the World Health Assembly approved a resolution to strengthen MHPSS in all stages of emergencies and provide integrated, quality mental health services which are accessible to all. It urges Member States to implement the WHO Comprehensive Mental Health Action Plan 2013–2030, and make long-term investments in community-based services and cross-sectoral coordination.
+
+WHO co-chairs the IASC MHPSS Reference Group, supporting organizations and technical working groups in more than 55 countries. Through this group, WHO also collaborates with the Standby Partners Network to rapidly deploy technical experts during significant and complex emergencies.
+
+WHO works with diverse partners to develop tools and resources, including the MHPSS Minimum Services Package, which are widely used to improve the scale and quality of emergency mental health responses. WHO also builds capacities for MHPSS preparedness and disaster risk management, including by hosting global workshops that include first of their kind, full-scale multisectoral field-based simulation exercises.
+
+References
+
+1. Charlson F, van Ommeren M, Flaxman A, Cornett J, Whiteford H, Saxena S. New WHO prevalence estimates of mental disorders in conflict settings: a systematic review and meta-analysis. Lancet. 2019;394(10194):240–48. (https://doi.org/10.1016/S0140-6736(19)30934-1)
+
+2. Mental Health and Psychosocial Support Minimum Services Package (MHPSS MSP). (https://www.mhpssmsp.org/en)

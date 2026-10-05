@@ -1,0 +1,125 @@
+WHO FACT SHEET
+Title: Rheumatoid arthritis
+URL: https://www.who.int/news-room/fact-sheets/detail/rheumatoid-arthritis
+Retrieved: 2026-10-05T09:34:30.548587+00:00
+
+========================================
+
+Key facts
+=========
+
+- In 2019, 18 million people worldwide were living with rheumatoid arthritis (1).
+
+- About 70% of people living with rheumatoid arthritis are women, and 55% are older than 55 years (1).
+
+- 13 million people with rheumatoid arthritis experience severity levels (moderate or severe) that could benefit from rehabilitation (2).
+
+- While rheumatoid arthritis is a systemic autoimmune disease that affects multiple body systems, the joints of hands, wrists, feet, ankles, knees, shoulders and elbows are most often affected (3).
+
+Overview
+========
+
+Rheumatoid arthritis (RA) is a chronic disease that causes inflammation around the body and commonly presents with pain in the joints.
+
+Untreated, RA can cause severe damage to the joints and their surrounding tissue. It can lead to heart, lung or nervous system problems.
+
+Common symptoms include chronic pain, stiffness, tenderness, heat and swelling in the joints. RA can make it hard to move and perform daily activities.
+
+The causes of rheumatoid arthritis are unknown. Risk factors include smoking, obesity and exposure to air pollution. Women and older people have a higher risk of developing RA.
+
+If diagnosed timely, symptoms and disease progression can be controlled with pharmacological treatment, and optimal functioning can be maintained through rehabilitation (including the use of assistive products). In cases with severe joint damage, surgical procedures, including joint replacement, may help to restore movement or manage pain, and maintain physical function.
+
+Scope of the problem
+====================
+
+The typical onset of the disease occurs in adults in their sixties. Women are two-to-three times more often affected than men. The prevalence of rheumatoid arthritis is higher in industrialized countries, which may be explained by demographics (higher average age), exposures to environmental toxins and lifestyle risk factors, and under-diagnosis in low-and-middle-income countries.
+
+Signs and symptoms
+==================
+
+Rheumatoid arthritis causes inflammation and pain in one or more joints. It can happen in most joints, but it’s most common in the small joints of the hands, wrists and feet.
+
+RA is chronic and may worsen over time without treatment. It can lead to severe damage to the joint and surrounding tissue. It can also affect the heart, lung and nervous systems.
+
+Early signs and symptoms:
+
+- pain
+
+- stiffness
+
+- tenderness
+
+- swelling or redness in one or more joints, usually in a symmetrical pattern (e.g., both hands or both feet).
+
+The symptoms can worsen over time and spread to more joints including the knees, elbows or shoulders. RA can make it hard to perform daily activities like writing, holding objects with the hands, walking and climbing stairs.
+
+People with RA often feel fatigue and general malaise (e.g., fever, poor sleep quality, loss of appetite) and may experience depressive symptoms.
+
+Pain and difficulty moving can lead to problems with sexual function and intimate relationships. Trouble moving easily can cause lower physical fitness and lead to loss of independence, inability to work, reduced well-being and mental health problems.
+
+Causes and risk factors
+=======================
+
+The specific causes for the disease are still unknown, but several modifiable lifestyle-associated (smoking, obesity) and non-modifiable (genetics, female gender, age) risk factors have been identified.
+
+Prevention and control
+======================
+
+Several key prevention strategies have been proposed to prevent rheumatoid arthritis and control the disease progression. In particular, reducing exposure to inhaled silica, dusts and occupational risks, and lifestyle related behaviours (e.g., prevention of/stop smoking, healthy nutrition, physical activity, maintaining a normal body weight, maintaining good dental hygiene) play an important role. Some evidence also suggests breastfeeding may be protective to the mother (4).
+
+Treatment and management
+========================
+
+Rheumatoid arthritis is not curable. Management of rheumatoid arthritis often involves different health workers, who contribute to a rehabilitative strategy tailored to a person’s needs and preferences.
+
+Early diagnosis and management can reduce symptoms, slow the disease and prevent disability. In some cases, the disease can go into remission.
+
+Therapeutic approaches help to improve and maintain joint mobility and muscle strength, to reduce and cope with pain, and to increase exercise capacity and the ability to perform daily activities.
+
+Assistive technologies (e.g., orthosis, assistive products for self-care) help people to protect their joints and to perform meaningful activities independently.
+
+Medicines to reduce inflammation, pain and swelling may include:
+
+- non-steroidal anti-inflammatory drugs (NSAIDs)
+
+- glucocorticoids
+
+- disease-modifying antirheumatic drugs (DMARDs)
+
+- biological agents.
+
+In severe cases, orthopaedic surgery can reduce pain and restore movement. Rehabilitation is essential to achieve the best outcomes following surgery.
+
+It is important to keep a healthy lifestyle. Education and counselling are important to help people manage their symptoms and work-related tasks.
+
+Self-care
+=========
+
+Rheumatoid arthritis is a chronic condition that impacts many aspects of life. Lifestyle changes are often needed for individuals and their families.
+
+Education and support help people with rheumatoid arthritis to develop strategies to cope with the disease. It is important to maintain a healthy lifestyle with regular physical activity and a nutritious diet.
+
+WHO response
+============
+
+WHO is taking action to extend access to care in rheumatoid arthritis in different ways:
+
+WHO Rehabilitation 2030 Initiative:
+
+The Package of Interventions for Rehabilitation provides information on essential interventions for rehabilitation (including assistive products), and human and material resources for 20 health conditions, including rheumatoid arthritis.
+
+UN Decade of Healthy Ageing:
+
+WHO recommends a reorientation of health and care systems to promote healthy ageing and address the diverse needs of older persons.
+
+The Integrated Care for Older People (ICOPE) approach promotes the person-centred assessment of the older person to guide the design of personalized, health and social care, including long-term care interventions. Specific recommendations are provided to prevent the loss of locomotor and psychological capacity because of pain.
+
+References
+
+(1) GBD 2019: Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019. https://vizhub.healthdata.org/gbd-results/.
+
+(2) Cieza A, Causey K, Kamenow K, Wulf Hansen S, Chatterji S, Vos T. Global estimates of the need for rehabilitation based on the Global Burden of Disease study 2019: a systematic analysis for the Global Burden of Disease Study 2019. Lancet. 2020 Dec 19; 396(10267): 2006–17.
+
+(3) Long H, Liu Q, Yin H, Diao N, Zhang Y, Lin J et al. Prevalence trends of site-specific osteoarthritis from 1990 to 2019: Findings from the global burden of disease study 2019. Arthritis Rheumatol 2022; 74(7): 1172-83.
+
+(4) Koller-Smith L, Mehdi AM, March L, Tooth L, Mishra GD, Thomas R. Rheumatoid arthritis is a preventable disease: 11 ways to reduce your patients' risk. Internal Medicine Journal 2022;52:711–6.

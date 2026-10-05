@@ -1,0 +1,74 @@
+WHO FACT SHEET
+Title: Preterm birth
+URL: https://www.who.int/news-room/fact-sheets/detail/preterm-birth
+Retrieved: 2026-10-05T09:34:17.543450+00:00
+
+========================================
+
+Key facts
+=========
+
+- An estimated 13.4 million babies were born preterm in 2020 (before 37 completed weeks of gestation) (1).
+
+- Preterm birth complications are the leading cause of death among children under 5 years of age, responsible for approximately 900 000 deaths in 2019 (2).
+
+- Three-quarters of these deaths could be prevented with current, cost-effective interventions.
+
+- Across countries, the rate of preterm birth ranges from 4–16% of babies born in 2020.
+
+Overview
+========
+
+Preterm is defined as babies born alive before 37 weeks of pregnancy are completed. There are sub-categories of preterm birth, based on gestational age:
+
+- extremely preterm (less than 28 weeks)
+
+- very preterm (28 to less than 32 weeks)
+
+- moderate to late preterm (32 to 37 weeks).
+
+Babies may be born preterm because of spontaneous preterm labour or because there is a medical indication to plan an induction of labour or caesarean birth early.
+
+An estimated 13.4 million babies were born too early in 2020. That is more than 1 in 10 babies. Approximately 900 000 children die in 2019 of complications of preterm birth (1). Many survivors face a lifetime of disability, including learning disabilities and visual and hearing problems.
+
+Globally, prematurity is the leading cause of death in children under the age of 5 years. Inequalities in survival rates around the world are stark. In low-income settings, half of the babies born at or below 32 weeks (2 months early) die due to a lack of feasible, cost-effective care such as warmth, breastfeeding support and basic care for infections and breathing difficulties. In high-income countries, almost all these babies survive. Suboptimal use of technology in middle-income settings is causing an increased burden of disability among preterm babies who survive the neonatal period.
+
+Why does preterm birth happen?
+==============================
+
+Preterm birth occurs for a variety of reasons. Most preterm births happen spontaneously, but some are due to medical reasons such as infections, or other pregnancy complications that require early induction of labour or caesarean birth.
+
+More research is needed to determine the causes and mechanisms of preterm birth. Causes include multiple pregnancies, infections and chronic conditions such as diabetes and high blood pressure; however, often no cause is identified. There could also be a genetic influence.
+
+Where and when does preterm birth happen?
+=========================================
+
+The majority of preterm births occur in southern Asia and sub-Saharan Africa, but preterm birth is truly a global problem. There is a dramatic difference in survival of premature babies depending on where they are born. For example, more than 90% of extremely preterm babies (less than 28 weeks) born in low-income countries die within the first few days of life, yet less than 10% of extremely preterm babies die in high-income settings.
+
+The solution
+============
+
+Preventing deaths and complications from preterm birth starts with a healthy pregnancy. WHO’s antenatal care guidelines include key interventions to help prevent preterm birth, such as counselling on healthy diet, optimal nutrition, and tobacco and substance use; fetal measurements including use of early ultrasound to help determine gestational age and detect multiple pregnancies; and a minimum of 8 contacts with health professionals throughout pregnancy – starting before 12 weeks – to identify and manage risk factors such as infections.
+
+If a woman experiences preterm labour or is at risk of preterm childbirth, treatments are available to help protect the preterm baby from future neurological impairment as well as difficulties with breathing and infection. These include antenatal steroids and tocolytic treatments to delay labour and antibiotics for preterm prolabour rupture of membranes (PPROM).
+
+In 2022, WHO also published new recommendations on the care of the preterm infant. These reflect new evidence that simple interventions such as kangaroo mother care immediately after birth, early initiation of breastfeeding, use of continuous positive airway pressure (CPAP) and medicines such as caffeine for breathing problems can substantially reduce mortality in preterm and low birthweight babies.
+
+WHO guidance stresses the need to ensure the mother and family take the pivotal role in their baby’s care. Mothers and newborns should remain together from birth and not be separated unless the baby is critically ill. The recommendations further call for improvements in family support including education and counselling, peer support and home visits by trained health-care providers.
+
+WHO response
+============
+
+WHO is committed to reducing the health problems and lives lost as a result of preterm birth, including working with Member States and partners to implement Every newborn: an action plan to end preventable deaths, adopted in May 2014 in the framework of the UN Secretary-General’s Global strategy for women’s and children’s health; and strengthening the availability and quality of data on preterm births.
+
+WHO regularly updates clinical guidelines for the management of pregnancy and mothers with preterm labour or at risk of preterm birth, and guidelines on the care of preterm and low birth weight babies.
+
+WHO also supports countries to implement WHO's guidelines, aimed at reducing the risk of negative pregnancy outcomes, including preterm births, and ensuring a positive pregnancy and postnatal experience for all women and their infants. This includes developing and updating tools to improve health-care providers’ skills, knowledge and behaviours, and assess the quality of care provided to mothers at risk of preterm delivery and preterm babies.
+
+WHO also undertakes research to improve care for women and preterm newborns in low- and middle-income countries, including the WHO ACTION Trials (Antenatal Corticosteroids for Improving Outcomes in preterm Newborns); the nutritional management of growth faltering in early infancy trial; and an implementation research trial to scale-up immediate kangaroo mother care (KMC). WHO works with partners around the world to conduct research into the causes of preterm birth and provides updated analyses of global preterm birth levels and trends every 3 to 5 years.
+
+References
+
+1. Ohuma E, Moller A-B, Bradley E, et al. National, regional, and worldwide estimates of preterm birth in 2020, with trends from 2010: a systematic analysis. Lancet. 2023;402(10409):1261-1271. doi:10.1016/S0140-6736(23)00878-4.
+
+2. Perin J, Mulick A, Yeung D, et al. Global, regional, and national causes of under-5 mortality in 2000-19: an updated systematic analysis with implications for the Sustainable Development Goals. Lancet Child Adolesc Health 2022; 6(2): 106-15.

@@ -1,0 +1,102 @@
+WHO FACT SHEET
+Title: Social determinants of health
+URL: https://www.who.int/news-room/fact-sheets/detail/social-determinants-of-health
+Retrieved: 2026-10-05T09:34:51.227089+00:00
+
+========================================
+
+Key facts
+=========
+
+- Widening health inequities undermine health and well-being across countries and cut lives short. Between countries, the difference in life expectancy gap is as wide as 33 years. Within countries, where data are available, health gaps between social groups are often growing.
+
+- People with higher educational attainment have better health and life spans than their less educated peers at a population level (1,2).
+
+- By eliminating wealth-related inequality within low- and middle-income countries, every year the lives of 1.8 million children could be saved.
+
+- Increasing investments by just 0.1% of GDP in each of social protection, labour market and housing and community policies could markedly improve health for 150 000 people in a country of 40 million within four years.
+
+- Health inequities will not be overcome unless economic inequality, structural discrimination, conflict and climate disruption are addressed.
+
+Overview
+========
+
+The social determinants of health are the conditions in which people are born, grow, work, live and age, and the wider forces that shape the conditions of daily life. Most of our health is determined by these non-medical root causes of ill health, which include quality education, access to nutritious food, and decent housing and working conditions.
+
+Wider forces include economic policies and systems, development agendas, social norms, social policies and political systems. Social determinants of health matter because addressing them not only helps prevents illness but also promotes healthy lives and equity.
+
+Health follows a social gradient whereby the more deprived the area in which people live, the lower their income, the fewer their years of education, the worse their health and the fewer healthy years they can expect to live.
+
+Governance processes need to ensure that policies and systems are developed and implemented to ensure everyone can realize the conditions needed for a healthy and decent life.
+
+Non-medical aspects of health
+=============================
+
+Social injustice continues to kill on a grand scale, in both high- and low-income countries, as the world fails to tackle the non-medical root causes of ill health. Social determinants of health equity outweigh genetic influences or health-care access in influencing health outcomes.
+
+- Within countries, life expectancy varies by decades, depending on which area you live in and the social group to which you belong. Where data are available, within country health inequities are often growing.
+
+- The social gradient in health means that health outcomes are closely linked with degrees of social disadvantage.
+
+- Indigenous populations have lower life expectancy than non-Indigenous populations in rich and poor countries alike.
+
+- Children born in low income countries are 13 times more likely to die before the age of 5 than in high-income countries.
+
+- For every 100 000 babies delivered, 197 mothers died of childbirth (as of 2023).
+
+Health inequities
+=================
+
+Health inequities stem from how society allocates resources and opportunities, reinforced by political choices and leadership.
+
+- Income inequality within countries has almost doubled over the past two decades, and is now even greater than the significant inequality observed between countries (3), acting as a major driver of health inequity (4). In 201 countries, the top 10% of individuals earn on average 15 times more that the bottom 50% (3).
+
+- Weak taxation systems result in inadequate resources for universal public services, depriving 3.8 billion people worldwide of social protection coverage, such as child and paid sick leave benefits, which improve health (5).
+
+- Structural discrimination, such as intersecting racism and gender inequality, results in 2.4 billion women of working age lacking equal economic opportunities (6), impacting the health of them and their families.
+
+- The debt burden of the world’s poorest countries pulls them further away from being able to fund essential investments in social determinants of health equity. The total value of interest payments made by the world’s 75 poorest countries has quadrupled over the past decade (7).
+
+- Climate change has direct health impacts and damages the social determinants of health and livelihoods unequally. People with the lowest incomes more often depend on resources provided by nature. In low income countries, girls and women often have responsibility for water and fuel collection, and are required to travel further to obtain resources (8).
+
+- Forced displacement driven by conflict, climate change and food insecurity affect the poorest and most marginalized. Between 2008 and 2024, the number of forcibly displaced people has tripled to 122 million (9). In host countries, migrants often face service inequalities, discrimination and the loss of family support systems which negatively impact on physical and mental health.
+
+Health equity benefits all
+==========================
+
+WHO calls for collective action from national and local governments and leaders within health, academia, research, civil society and the private sector to take forward the World Report on Social Determinants of Health Equity action areas:
+
+- address economic inequality and invest in social infrastructure and universal public services;
+
+- overcome structural discrimination and the determinants and impacts of conflicts, emergencies and forced migration, such as by ensuring displaced people can access health and social services;
+
+- manage the challenges and opportunities posed by the mega-trends of climate change and the digital transformation to promote health equity co-benefits; and
+
+- promote governance arrangements that devolve money, power and resources to local government, empower community engagement and civil society, and prioritize action on the social determinants of health equity in cross-government policy platforms and strategies.
+
+WHO response
+============
+
+The WHO is committed to supporting countries in developing and implementing key policies that address SDH to reduce health inequities. WHO has developed an updated World Report and launched the Operational Framework for Monitoring SDHE. With partners, WHO has also established the Special Initiative for Action of Social Determinants of Health for Advancing Health Equity, with the aim of deepening work to integrate health equity into social and economic policies in regions and countries.
+
+WHO has launched the Global Knowledge Network for Health Equity to connect and share knowledge on best practices among practitioners and country officials, as well as launching updated guidance for implementing Health-in-All-Policies approaches and a WHO Academy online training course.
+
+References
+
+1. Wu Y-T, Daskalopoulou C, Muniz Terrera G, Sanchez Niubo A, Rodríguez-Artalejo F, Ayuso-Mateos JL et al. Education and wealth inequalities in healthy ageing in eight harmonised cohorts in the ATHLOS consortium: a population-based study. Lancet Public Health 2020;5:e386–e394.
+
+2. Moreno-Agostino D, Daskalopoulou C, Wu Y-T, Koukounari A, Haro JM, Tyrovolas S et al. The impact of physical activity on healthy ageing trajectories: evidence from eight cohort studies. Int J Behav Nutr Phys Act 2020;17:92.
+
+3. Chancel L, Piketty T, Saez E, Zucman G, Duflo E, Banerjee AV, editors. World Inequality Report 2022. Cambridge, Massachusetts; London, England, The Belknap Press of Harvard University Press, 2022.
+
+4. Pickett KE, Wilkinson RG. Income inequality and health: a causal review. Social science & medicine. 2015 Mar 1;128:316-26.
+
+5. International Labour Office. World Social Protection Report 2024-26: Universal social protection for climate action and a just transition, 1st ed. Geneva, International Labour Office, 2024.
+
+6. Nearly 2.4 Billion Women Globally Don’t Have Same Economic Rights as Men. https://www.worldbank.org/en/news/press-release/2022/03/01/nearly-2-4-billion-women-globally-don-t-have-same-economic-rights-as-men.
+
+7. World Bank. 2024. International Debt Report 2024. Washington, DC: World Bank. doi:10.1596/978-1-4648-2148-6. License: Creative Commons Attribution CC BY 3.0 IGO.
+
+8. UN Women. Explainer: How gender inequality and climate change are interconnected. 2022. https://www.unwomen.org/ en/news-stories/explainer/2022/02/explainer-how-gender-inequality-and-climate-change-are-interconnected.
+
+9. UNHCR. Figures at a glance. https://www.unhcr.org/about-unhcr/who-we-are/figures-glance.

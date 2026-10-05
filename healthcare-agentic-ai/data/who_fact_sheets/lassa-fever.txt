@@ -1,0 +1,124 @@
+WHO FACT SHEET
+Title: Lassa fever
+URL: https://www.who.int/news-room/fact-sheets/detail/lassa-fever
+Retrieved: 2026-10-05T09:32:58.297653+00:00
+
+========================================
+
+Key facts
+=========
+
+- Lassa fever is an acute viral illness that is caused by Lassa virus.
+
+- Lassa fever is known to be endemic in Benin, Ghana, Guinea, Liberia, Mali, Nigeria and Sierra Leone, but probably exists in other west African countries as well.
+
+- The Lassa virus is primarily transmitted to humans via contact with food or household items contaminated with rodent urine or faeces.
+
+- Person-to-person transmission can also occur, particularly in health care settings lacking adequate infection prevention and control measures.
+
+- The overall case fatality rate is 1% but observed case fatality rate among patients hospitalized with severe diseases of Lassa fever is 15% and above.
+
+- Early intensive supportive care with rehydration and symptomatic treatment improves chances of survival.
+
+Overview
+========
+
+Lassa fever is an acute viral illness caused by Lassa virus that was first identified in 1969 in Nigeria. The virus belongs to the virus family Arenaviridae.
+
+Lassa fever is a zoonotic disease, meaning that humans become infected from contact with infected animals. The animal reservoir, or host, of Lassa virus is a rodent of the genus Mastomys, commonly known as the multimammate rat. Mastomys rats infected with Lassa virus do not become ill, but they can shed the virus in their urine and faeces.
+
+About 80% of people who become infected with Lassa virus have no or mild symptoms. One in 5 infections result in severe disease, where the virus affects several organs such as the liver, spleen and kidneys.
+
+Because the clinical course of the disease is very variable, detection of the disease in affected patients has been difficult. When presence of the disease is confirmed in a community, early detection and prompt isolation and care of patients, good infection prevention and control practices in healthcare settings, and promoting community hygiene and rodent prevention, can prevent further spread of the disease.
+
+Transmission
+============
+
+Humans primarily become infected with Lassa virus either through exposure to food or household items that are contaminated with urine or faeces of infected Mastomys rat, or directly via contact with infected rats.
+
+Mastomys rats are ubiquitous to west Africa. They can be found living in and around homes, colonizing areas where food is stored and are able to live in fields or cleared forest. While Mastomys rats serve as the main reservoir, Lassa virus has been also isolated from other rodent species, suggesting their potential role as additional source of infection.
+
+Although to a much less extent, Lassa virus may also spread between humans through direct contact with blood, urine, faeces or other bodily secretions of a person infected with Lassa fever. Person-to-person transmission may occur primarily in health-care settings, where the virus may also be spread by contaminated medical equipment, such as re-used needles.
+
+Health workers are at risk if caring for Lassa fever patients in the absence of appropriate infection prevention and control practices.
+
+Lassa virus may persist in the semen of some males who recovered from the disease for up to few months. However, to date no transmission via exposure to infected semen had ever been documented.
+
+There is no epidemiological evidence supporting airborne spread between humans.
+
+Symptoms
+========
+
+The incubation period of Lassa fever ranges from 2–21 days.
+
+When it is symptomatic, the onset of the disease is usually gradual, starting with fever, general weakness headache and malaise. After a few days, sore throat, muscle pain, chest pain, nausea, vomiting, diarrhoea, cough and abdominal pain may follow. As the disease progresses, in severe cases facial swelling, fluid in the lung cavity, bleeding from the mouth, nose, vagina or gastrointestinal tract and low blood pressure may develop. Shock, seizures, tremor, disorientation, and coma may be seen in the later stages. Among hospitalized patients, approximately 15% die of Lassa fever disease. In fatal cases, death usually occurs within 14 days of symptom onset.
+
+During pregnancy, Lassa fever can cause high maternal and foetal mortality, especially late in pregnancy. In the third trimester, fetal death and maternal death rates can exceed 80% and 30% respectively.
+
+Recovery can take a long time (prolonged convalescence) and sometimes leads to other conditions (sequelae). Sudden hearing loss has been reported with varying incidence and up to 25% of recovered patients, both during acute disease and after recovery. In most circumstances hearing loss is reported to be permanent. Other sequelae including neurological signs, visual impairment, joint pain, transient hair loss and psychological disorders have been reported to a lesser extent. Therefore, patients who have recovered from Lassa fever should receive care for sequelae they may experience.
+
+Diagnosis
+=========
+
+It can be difficult to clinically distinguish Lassa fever from other infectious diseases such as malaria, typhoid fever, shigellosis, yellow fever and other viral haemorrhagic fevers, especially early in the course of the disease.
+
+Confirmation that symptoms are caused by Lassa virus infection are made using the following diagnostic methods:
+
+- reverse transcriptase polymerase chain reaction (RT-PCR) assay
+
+- antibody enzyme-linked immunosorbent assay (ELISA)
+
+- antigen detection tests
+
+- virus isolation by cell culture.
+
+Samples collected from patients are an extreme biohazard risk; laboratory testing on non-inactivated samples should be conducted under maximum biological containment conditions. All non-inactivated biological specimens should be packaged using the triple packaging system when transported nationally and internationally.
+
+Treatment
+=========
+
+Early intensive supportive care including fluid management and treatment of specific symptoms, can improve survival chance.
+
+There is currently no antiviral drug approved for Lassa fever. The antiviral drug ribavirin has been given as treatment for Lassa fever; however, there is currently considerable uncertainties about its efficacy on the outcome of patients with Lassa fever, as well as on its optimal dosing regimens. Whenever possible, patients should be enrolled into a randomized clinical trial with ribavirin or other investigational therapeutics to assess clinical outcomes and safety.
+
+Other candidate treatment options are at several stages of development and evaluation.
+
+There is currently no licensed vaccine for Lassa fever, but several potential candidate vaccines are in development.
+
+Prevention and control
+======================
+
+Reducing the risk of rodent-to-human transmission
+-------------------------------------------------
+
+Prevention of Lassa fever relies on limiting contact with rodent population. Promoting good community hygiene to discourage rodents from entering homes and adapting the following measures may help:
+
+- storage of grain and food in rodent-proof containers
+
+- maintaining a clean household including disposal of garbage far from home
+
+- safe preparation of food (e.g. by thoroughly cooking).
+
+Because Mastomys are so abundant in endemic areas, it is not possible to completely eliminate them from the environment.
+
+Reducing the risk of transmission in healthcare settings
+--------------------------------------------------------
+
+In healthcare settings, staff should always apply standard infection prevention and control precautions when caring for patients, regardless of their presumed diagnosis. These include basic hand hygiene, respiratory hygiene, use of personal protective equipment, and safe injection practices. Healthcare workers caring for patients with suspected or confirmed Lassa fever should apply extra infection control measures to prevent contact with the patient’s blood and body fluids and contaminated surfaces or materials such as clothing and bedding. Laboratory workers are also at risk. Samples taken from humans and animals for investigation of Lassa virus infection should be handled by trained staff and processed in suitably equipped laboratories under maximum biological containment conditions.
+
+Early disease recognition can improve survival chance and limit risk of transmission
+------------------------------------------------------------------------------------
+
+In endemic areas, especially during the epidemic season, health workers should have a higher level of suspicion for Lassa fever in patients presenting with suggestive symptoms. Family members should always be careful to avoid contact with blood and body fluids while caring for sick persons. Patients suspected or confirmed for Lassa fever should be referred to a designated treatment center for early care.
+
+Lassa fever in travellers returning from endemic areas
+------------------------------------------------------
+
+On rare occasions, travellers returning from endemic areas were confirmed for Lassa fever. Although malaria, typhoid fever and many other tropical infections are much more common, the diagnosis of Lassa fever should be considered in febrile patients returning from west Africa, especially if they have had exposures in areas where Lassa fever is known to be endemic. Healthcare workers seeing a patient suspected to have Lassa fever should immediately contact local and national experts for advice and to arrange for laboratory testing.
+
+WHO response
+============
+
+WHO works closely with Lassa fever endemic countries and partners to support the preparedness and response to Lassa fever by supporting surveillance activities, clinical management, laboratory services, infection prevention and control measures, logistics, training and community engagement.
+
+Generation of further knowledge including for diagnostics and therapeutics, and exchange of expertise across countries and partners, is critical to contribute to the management of Lassa fever, in particular reducing associated mortality and limiting human-to-human transmission in healthcare facilities.

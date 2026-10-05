@@ -1,0 +1,101 @@
+WHO FACT SHEET
+Title: Noncommunicable diseases
+URL: https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases
+Retrieved: 2026-10-05T09:33:46.227094+00:00
+
+========================================
+
+Key facts
+
+- Noncommunicable diseases (NCDs) killed at least 43 million people in 2021, equivalent to 75% of non-pandemic-related deaths globally.
+
+- In 2021, 18 million people died from an NCD before age 70 years; 82% of these premature deaths occur in low- and middle-income countries.
+
+- Of all NCD deaths, 73% are in low- and middle-income countries.
+
+- Cardiovascular diseases account for most NCD deaths, or at least 19 million deaths in 2021, followed by cancers (10 million), chronic respiratory diseases (4 million), and diabetes (over 2 million including kidney disease deaths caused by diabetes).
+
+- These four groups of diseases account for 80% of all premature NCD deaths.
+
+- Tobacco use, physical inactivity, the harmful use of alcohol, unhealthy diets and air pollution all increase the risk of dying from an NCD.
+
+- Detection, screening and treatment of NCDs, as well as palliative care, are key components of the response to NCDs.
+
+Overview
+========
+
+Noncommunicable diseases (NCDs), also known as chronic diseases, tend to be of long duration and are the result of a combination of genetic, physiological, environmental and behavioural factors.
+
+The main types of NCDs are cardiovascular diseases (such as heart attacks and stroke), cancers, chronic respiratory diseases (such as chronic obstructive pulmonary disease and asthma) and diabetes.
+
+NCDs disproportionately affect people in low- and middle-income countries, where nearly three quarters of global NCD deaths (32 million) occur.
+
+People at risk
+==============
+
+People of all age groups, regions and countries are affected by NCDs. These conditions are often associated with older age groups, but about 18 million NCD deaths occur before the age of 70 years. NCDs cause more deaths in this age group than all other causes of death combined. Of these premature deaths, 82% are estimated to occur in low- and middle-income countries. Children, adults and the elderly are all vulnerable to the risk factors contributing to NCDs, whether from unhealthy diets, physical inactivity, exposure to tobacco smoke, or the harmful use of alcohol or air pollution.
+
+Unhealthy diets and a lack of physical activity may show up in people as raised blood pressure, increased blood glucose, elevated blood lipids and obesity. These are called metabolic risk factors and can lead to cardiovascular disease, the leading NCD in terms of premature deaths.
+
+Risk factors
+============
+
+Behavioural risk factors
+------------------------
+
+Behavioural risk factors increase the risk of NCDS, including:
+
+- tobacco use (including the effects of exposure to second-hand smoke);
+
+- unhealthy diets, including excess salt, sugar, and fats;
+
+- harmful use of alcohol; and
+
+- insufficient physical activity.
+
+The social, commercial, and physical environment are key drivers of these behaviours.
+
+Metabolic risk factors
+----------------------
+
+Behavioural risk factors contribute to four key metabolic changes that increase the risk of NCDs:
+
+- raised blood pressure (including hypertension);
+
+- overweight/obesity;
+
+- high blood glucose levels (including diabetes); and
+
+- abnormal blood lipids (including high cholesterol).
+
+In terms of attributable deaths, the leading metabolic risk factor globally is elevated blood pressure (to which 25% of global NCD deaths are attributed) (1), followed by raised blood glucose and overweight and obesity.
+
+Environmental risk factors
+--------------------------
+
+Several environmental risk factors contribute to NCDs. Air pollution – indoor and outdoor – is the largest of these, accounting for 6.7 million deaths globally, of which about 5.6 million are due to NCDs, including stroke, ischaemic heart disease, chronic obstructive pulmonary disease, and lung cancer.
+
+Socioeconomic impact
+====================
+
+NCDs threaten progress towards the 2030 Agenda for Sustainable Development, which includes a target of reducing the probability of death from any of the four main NCDs between ages 30 and 70 years by one third by 2030.
+
+Poverty is closely linked with NCDs. The rapid rise in NCDs is predicted to impede poverty reduction initiatives in low-income countries, particularly by increasing household costs associated with health care. Vulnerable and socially disadvantaged people get sicker and die sooner than people of higher socio-economic positions, especially because they may have limited access to health services. To reduce these inequities, governments must invest in health systems that respond to users’ expectations and needs.
+
+Prevention and control
+======================
+
+An important way to control NCDs is to focus on reducing the risk factors associated with these diseases. Low-cost solutions exist for governments and other stakeholders to reduce the common modifiable risk factors. Monitoring progress and trends of NCDs and their risk is important for guiding policy and priorities.
+
+To lessen the impact of NCDs on individuals and society, a comprehensive approach is needed requiring all sectors, including health, finance, transport, education, agriculture, planning and others, to collaborate to reduce the risks associated with NCDs, and to promote interventions to prevent and control them.
+
+Investing in better management of NCDs is critical. Management of NCDs includes detecting, screening and treating these diseases, and providing access to palliative care for people in need. High impact essential NCD interventions can be delivered through a primary health care approach to strengthen early detection and timely treatment. Evidence shows such interventions are excellent economic investments because, if provided early to patients, they can reduce the need for more expensive treatment. Countries with inadequate health care coverage are unlikely to provide universal access to essential NCD interventions. NCD management interventions are essential for achieving the SDG target on NCDs.
+
+WHO response
+============
+
+The 2030 Agenda for Sustainable Development recognizes NCDs as a major challenge for sustainable development. As part of the Agenda, heads of state and government committed to develop ambitious national responses, by 2030, to reduce by one third premature mortality from NCDs through prevention and treatment (SDG target 3.4). WHO plays a key leadership role in the coordination and promotion of the global fight against NCDs and the achievement of the Sustainable Development Goals target 3.4.
+
+In 2019, the World Health Assembly extended the WHO Global action plan for the prevention and control of NCDs 2013–2020 to 2030 and called for the development of an Implementation Roadmap 2023 to 2030 to accelerate progress on preventing and controlling NCDs. The Roadmap supports actions to achieve a set of nine global targets with the greatest impact towards prevention and management of NCDs.
+
+(1) Global Burden of Disease Collaborative Network, Global Burden of Disease Study 2021 (GBD 2021) Results (2024, Institute for Health Metrics and Evaluation – IHME) https://vizhub.healthdata.org/gbd-results/

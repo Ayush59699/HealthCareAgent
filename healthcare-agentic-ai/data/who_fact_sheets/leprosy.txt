@@ -1,0 +1,68 @@
+WHO FACT SHEET
+Title: Leprosy
+URL: https://www.who.int/news-room/fact-sheets/detail/leprosy
+Retrieved: 2026-10-05T09:33:03.359854+00:00
+
+========================================
+
+Key facts
+=========
+
+- Leprosy is a chronic infectious disease caused by a type of bacteria, Mycobacterium leprae.
+
+- The disease predominantly affects the skin and peripheral nerves. Left untreated, the disease may cause progressive and permanent disabilities.
+
+- The bacteria are transmitted via droplets from the nose and mouth during close and frequent contact with untreated cases.
+
+- Leprosy is curable with multidrug therapy (MDT).
+
+- Leprosy is reported from all the six WHO regions; the majority of annual new case detections are from South-East Asia Region.
+
+Overview
+========
+
+Leprosy, also known as Hansen disease, is a chronic infectious disease caused mainly by a type of bacteria called Mycobacterium leprae. The disease affects the skin, the peripheral nerves, the mucosa of the upper respiratory tract and the eyes. Apart from the physical deformity, persons affected by leprosy also face stigmatization and discrimination. However, leprosy is curable and treatment in the early stages can prevent disability.
+
+Scope of the problem
+====================
+
+Leprosy is a neglected tropical disease (NTD) which still occurs in more than 120 countries, with around 200 000 new cases reported every year. Elimination of leprosy as a public health problem (defined as prevalence of less than 1 per 10 000 population as per World Health Assembly resolution 44.9) was achieved globally in the year 2000 and in most countries by the year 2010.
+
+The reduction in the number of new cases has been gradual. As per data of 2024, Brazil, India and Indonesia continue to report more than 10 000 new cases, while 12 other countries (Bangladesh, Democratic Republic of the Congo, Ethiopia, Madagascar, Mozambique, Myanmar, Nepal, Nigeria, Philippines, Somalia, Sri Lanka and the United Republic of Tanzania) each reported 1000–10 000 new cases. Fifty-five countries reported 0 cases and 117 reported fewer than 1000 new cases.
+
+Transmission
+============
+
+The disease is believed to be transmitted through droplets from the nose and mouth of an untreated case of leprosy, containing the causative agent, following prolonged, close contact. The disease does not spread through casual contact (like shaking hands or hugging, sharing meals or sitting next to each other). The patient stops transmitting the disease upon initiation of treatment.
+
+Diagnosis
+=========
+
+The diagnosis of leprosy is done clinically. Laboratory-based services may be required in cases that are difficult to diagnose.
+
+The disease manifests commonly through skin lesion and peripheral nerve involvement. Leprosy is diagnosed by finding at least one of the following cardinal signs: (i) definite loss of sensation in a pale (hypopigmented) or reddish skin patch; (ii) thickened or enlarged peripheral nerve, with loss of sensation and/or weakness of the muscles supplied by that nerve; (iii) microscopic detection of bacilli in a slit-skin smear.
+
+Based on the above, cases of leprosy are classified into two types for treatment purposes: a paucibacillary (PB) case and multibacillary (MB) case.
+
+PB case: a case of leprosy with 1–5 skin lesions, without demonstrated presence of bacilli in a skin smear.
+
+MB case: a case of leprosy with more than five skin lesions; or with nerve involvement (pure neuritis, or any number of skin lesions and neuritis); or with the demonstrated presence of bacilli in a slit-skin smear, irrespective of the number of skin lesions.
+
+Treatment
+=========
+
+Leprosy is a curable disease. The currently recommended treatment regimen consists of three medicines (dapsone, rifampicin and clofazimine) and is referred to as multi-drug therapy (MDT). The same regimen with a duration of 6 months for PB and 12 months for MB cases has been recommended by WHO. MDT kills the pathogen and cures the patient. Early diagnosis and prompt treatment can help to prevent disabilities. WHO has been providing MDT free of cost. Free MDT was initially funded by The Nippon Foundation (TNF) and has been donated by Novartis since 2000.
+
+Prevention
+==========
+
+Case detection and treatment with MDT alone have proven insufficient to interrupt transmission. WHO recommends contact screening (household, neighbourhood, and social contacts), accompanied by the administration of a single dose of rifampicin as post-exposure prophylaxis (SDR-PEP).
+
+WHO response
+============
+
+WHO provides technical support to countries and territories on leprosy prevention and control. Every year, WHO collates epidemiological data on leprosy from countries and territories and publishes a consolidated report in English and French in the Weekly Epidemiological Record.
+
+After detailed consultations with countries, experts, partners and persons affected by leprosy, WHO released the Towards zero leprosy: global leprosy (Hansen’s disease) strategy 2021–2030 aligned to the Neglected tropical diseases road map 2021–2030. The Strategy envisions zero leprosy: zero infection and disease, zero disability, zero stigma and discrimination. The four strategic pillars of the Strategy include: implementing integrated, country-owned zero leprosy roadmaps in all endemic countries; scaling up leprosy prevention alongside integrated active case detection; managing leprosy and its complications and prevent new disability; and combatting stigma and ensuring human rights are respected. The Strategy also recognizes the need for investment in research and includes a set of key research priorities.
+
+WHO has developed e-learning modules that aim to enhance knowledge and skills of health workers at all levels on topics related to diagnosis, treatment of leprosy and management of disabilities. These can be accessed through the WHO Academy in English, Bahasa, French, Portuguese and Spanish.

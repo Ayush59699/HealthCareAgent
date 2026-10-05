@@ -1,0 +1,87 @@
+WHO FACT SHEET
+Title: Asbestos
+URL: https://www.who.int/news-room/fact-sheets/detail/asbestos
+Retrieved: 2026-10-05T09:30:35.957554+00:00
+
+========================================
+
+Key facts
+=========
+
+- All forms of asbestos, including chrysotile, are carcinogenic to humans.
+
+- Systematic review evidence indicates that a substantial proportion of manual workers in the construction industry globally are exposed to asbestos.
+
+- Globally, more than 200 000 deaths are estimated to be caused by occupational exposure to asbestos – more than 70% of all deaths from work-related cancers.
+
+- The use of asbestos has been prohibited in more than 50 WHO Member States.
+
+Overview
+========
+
+Asbestos is a group of mineral fibres with widespread current and historical commercial uses, but which can cause deaths and serious ill-health in workers and other people who are exposed to these fibres (more than 200 000 deaths globally every year, along with a substantial burden of ill health).
+
+All forms of asbestos have been assessed by WHO as causing several types of cancer, and asbestos also causes chronic respiratory diseases. Because of its use in building materials, anyone engaging in construction, maintenance and demolition of buildings where asbestos has been used is potentially at risk, even many years or decades after the asbestos was put in place.
+
+Asbestos-related diseases can be prevented, and the most efficient way to prevent them is to stop the use of all forms of asbestos to prevent exposure, as more than 50 WHO Member States have already done through legal measures, and to use low hazard materials instead. Preventing asbestos exposure also means protecting workers during maintenance work where asbestos is already in place, and during asbestos removal.
+
+Why is asbestos a problem?
+==========================
+
+Asbestos is a group of naturally occurring mineral fibres. It has widespread current or historical commercial uses because of its material properties (strong, heat resistant). There are six main forms of asbestos, and the main form in current use is chrysotile (white asbestos).
+
+All six main forms of asbestos have been assessed by WHO as being carcinogenic to humans. Exposure to asbestos, including chrysotile, causes cancer of the lung, larynx and ovaries, and mesothelioma (a cancer of the pleural and peritoneal linings). There is also clear scientific evidence that asbestos causes chronic respiratory diseases such as asbestosis (fibrosis of the lungs), and other adverse effects on the lungs.
+
+Due to the widespread uses of asbestos, and therefore high numbers of people potentially exposed to this material, asbestos has been estimated to cause deaths and ill health in large numbers of people every year.
+
+Impact
+======
+
+According to WHO and the International Labour Organization (latest WHO/ILO Joint Estimates), exposure to asbestos at work causes more than 200 000 deaths globally every year (based on estimates for 2016). This represents over 70% of deaths from work-related cancers. In addition to this estimate of mortality, exposure to asbestos is also estimated to cause a substantial burden of ill health (loss of nearly 4 million disability-adjusted life years – a standardized measure of ill-health). A substantial level of deaths and ill health are also attributed to exposure to asbestos outside the workplace. It has also been shown that co-exposure to tobacco smoke and asbestos fibres substantially increases the risk for lung cancer – and the heavier the smoking, the greater the risk.
+
+Who is at risk?
+===============
+
+A systematic review from the WHO/ILO Joint Estimates reported that studies to date suggest that a substantial proportion of manual workers in the construction industry globally are exposed to asbestos (1), however the available evidence was judged to be of “low quality of evidence” and further studies are needed on this. There is also exposure during the mining and processing of asbestos, and in the production and use of asbestos-containing products including brake shoes, brake pads and clutches for vehicles, and in particular building materials such as roof tiles made with asbestos cement. Anyone trimming or fitting asbestos-containing products is potentially at risk.
+
+Exposure to asbestos fibres also occurs where asbestos-containing products have become degraded, such as during building maintenance and demolition and the disposal of building waste. Damage to buildings because of natural disasters is a particular concern if asbestos-containing building materials have been used. Anyone engaging in construction, maintenance and demolition of buildings where asbestos has been used is potentially at risk, even many years or decades after the asbestos was put in place.
+
+Prevention and control
+======================
+
+Asbestos-related diseases can be prevented, and the most efficient way to prevent them is to stop the use of all forms of asbestos to prevent exposure. More than 50 WHO Member States have legislated to prohibit the use of asbestos. Decisions to take legislative action have considered a range of costs and benefits, including the costs of providing healthcare and the loss of workforce productivity, in addition to conventional economic and trade considerations. Preventing asbestos exposure also means protecting workers during maintenance work where asbestos is in place, and during asbestos removal.
+
+Challenges
+==========
+
+Because of earlier widespread use in buildings in many countries, workers will need to be protected from exposure during building maintenance or asbestos removal for many years to come. Due to the long period which exists between exposure and the development of asbestos-related diseases (long latency period), deaths and ill-health caused by asbestos will continue for many years after a country has banned all uses of this material, and for various reasons some countries are still using asbestos. Awareness-raising efforts, disease surveillance and training of medical staff, labour inspectors and occupational health professionals will need to be maintained over the long term.
+
+Asbestos substitute materials
+=============================
+
+Several alternatives and substitutes for the uses of asbestos have been identified, and human health evaluations of substitute materials have been published. Many fibre substitutes for chrysotile asbestos assessed by WHO pose a relatively low hazard to human health, though the carcinogenic hazard of some fibre substitutes was found to be high. However, there are many non-fibre low hazard materials that can substitute for chrysotile asbestos in various uses, such as conventional building materials.
+
+WHO response
+============
+
+The World Health Assembly Resolution 58.22 on cancer prevention urges Member States to pay special attention to cancers for which avoidable exposure is a factor, including exposure to chemicals at the workplace and in the environment.
+
+Eliminating asbestos-related diseases is particularly targeted at countries still using chrysotile asbestos, in addition to assistance in relation to exposures arising from historical use of all forms of asbestos.
+
+WHO, in collaboration with the International Labour Organization and other intergovernmental organizations and civil society, works with countries towards elimination of asbestos-related diseases by:
+
+- recognizing that the most efficient way to eliminate asbestos-related diseases is to stop the use of all types of asbestos;
+
+- providing information about solutions for replacing asbestos with safer substitutes and developing economic and technological mechanisms to stimulate its replacement;
+
+- taking measures to prevent exposure to asbestos in place and during asbestos removal (abatement);
+
+- improving early diagnosis, treatment, and rehabilitation services for asbestos-related diseases;
+
+- establishing registries of people with past and/or current exposures to asbestos and organizing medical surveillance of exposed workers; and
+
+- providing information on the hazards associated with asbestos-containing materials and products, and by raising awareness that waste containing asbestos should be treated as hazardous waste.
+
+References
+
+1. Schlünssen, Vivi et al (2023). The prevalences and levels of occupational exposure to dusts and/or fibres (silica, asbestos and coal): A systematic review and meta-analysis from the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury. https://doi.org/10.1016/j.envint.2023.107980
