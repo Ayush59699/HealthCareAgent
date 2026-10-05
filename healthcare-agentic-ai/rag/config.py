@@ -2,6 +2,8 @@
 import os
 from pathlib import Path
 
+OKF_ENABLED = True
+
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 SPLIT_FILES = {split: f"release_{split}_patients.zip" for split in ("train", "validate", "test")}
 REQUIRED_FILES = ("release_evidences.json", "release_conditions.json", *SPLIT_FILES.values())

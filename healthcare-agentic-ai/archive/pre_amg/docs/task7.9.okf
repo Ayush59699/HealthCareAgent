@@ -1,0 +1,17 @@
+okf_version: "0.2"
+project: "Healthcare Agentic AI System"
+scope: "Task 7.9 isolated frozen-score selector diagnostic; historical manifests unchanged."
+modules:
+  - id: "task79_selection_analysis"
+    path: "healthcare-agentic-ai/rag/experimental_medical/task79_selection_analysis.py"
+    summary: "Replays authenticated original pure choose_final/tokenizer without retrieval/model imports. Saved-audit lookup views use Task 7.8's validated parent_id=chunk_id invariant. Checks exact selected IDs/order/roles and every legacy selector event. One counterfactual replaces final cap 5 with infinity; history-priority quota 1, role order, gate, ranks, doc cap 2 and Jaccard >=0.8 unchanged. Tracks actual budget-first reasons, hidden nonbudget checks, blocking IDs, additional survivors and posthoc existing A/B/C joins."
+  - id: "task79_runner"
+    path: "healthcare-agentic-ai/scripts/experiment_task79_selection.py"
+    summary: "Memory-bounded, one case at a time. All six saved MiniLM/MedCPT case controls must pass before the single counterfactual. Authenticates saved Task 7.8/7.8.1 artifacts and protected source, not external patient/corpus/benchmark data. No new scoring or labels."
+  - id: "task79_tests"
+    path: "healthcare-agentic-ai/tests/test_task79_selection_analysis.py"
+    summary: "17 focused synthetic tests: exact replay/fail-closed controls, actual reason accounting, final-budget-only behavior, parent/doc/Jaccard rules, masking, required passage behaviors, old-review join and no mutation."
+docs_and_experiments:
+  - id: "task79_selection_result"
+    path: "healthcare-agentic-ai/docs/task7.9-selection-analysis.md"
+    summary: "COMPLETED. All six saved MiniLM/MedCPT selections and every legacy selector event reproduced exactly before ONE final-budget-only counterfactual. MiniLM: 17 eligible/7 selected/10 omitted; 9 final-budget-first plus 1 doc-cap-first, 5 additional recoveries, 5 doc-cap rejects remain. MedCPT: 67 eligible/15 selected/52 omitted; all 52 budget-first, 48 actual recoveries, 4 doc-cap rejects remain (3 pediatric asthma sections, 1 Fatigue causes). All 13 omitted A-rated newly-positive pairs recover (22 A total; 9 originally selected); B 26 additional/1 doc-cap loss, all 7 C additionally selected. Panic raw 1.050864/current rank6 recovers; Flu rank4 and Fainting rank1 retained. Pediatric asthma symptoms remain document-cap rejected behind treatment/evaluation; definition and Older Adult Mental Health remain ineligible. No new judgments, scores, thresholds or production changes. 17 focused tests and independent read-only result checks pass; 227 protected files unchanged. Analysis peak system 11.667 GB / outer tree RSS 0.061 GB; unchanged guards. Full IDs/order/additions and eligible-candidate ledger in outputs/task7.9/selection-analysis/selection-ledger.md; complete machine traces in per-case analysis files. No next experiment. One recommendation: separately authorized budget-preserving allocation/within-document ordering review using frozen traces."

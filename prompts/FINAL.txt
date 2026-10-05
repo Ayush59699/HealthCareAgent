@@ -1,0 +1,717 @@
+You are working on my local VS Code project:
+
+healthcare-agentic-ai
+
+OBJECTIVE
+
+Now complete the working agentic healthcare system using the architecture we have already established.
+
+The goal is to move from the current partially completed pipeline to a complete, executable, testable Human–AI Collaborative Decision-Making in Healthcare with Agentic AI system.
+
+The system should be a real working implementation, not just placeholder classes or documentation.
+
+CURRENT ARCHITECTURE
+
+The intended pipeline is:
+
+DDXPlus Patient Case
+        ↓
+Patient Agent
+        ↓
+Patient Case RAG
+        ↓
+AMG Medical Evidence RAG
+        ↓
+Diagnostic Agent
+        ↓
+Grounding / Evidence Verification
+        ↓
+Clinical Critic Agent
+        ↓
+Safety Layer
+        ↓
+Final Decision / Human Review
+
+Keep this separation.
+
+Important distinction
+
+Patient Case RAG provides information from the patient case.
+
+AMG Medical RAG provides external medical evidence.
+
+Diagnostic Agent reasons over the patient information and available evidence.
+
+Grounding verifies that important medical claims are supported.
+
+Clinical Critic independently critiques the proposed reasoning/diagnostic output.
+
+Safety determines whether the result can be released or requires blocking/human review.
+
+The system must NOT simply become a single LLM prompt that performs everything.
+
+VERY IMPORTANT: FREEZE RETRIEVAL
+
+Do NOT start another retrieval optimization experiment during this task.
+
+The current AMG RAG is considered:
+
+FUNCTIONAL BUT IMPERFECT.
+
+It successfully retrieves medical evidence, preserves provenance, and integrates with the downstream system.
+
+Known limitation:
+
+It can retrieve irrelevant evidence or miss relevant evidence because the heterogeneous patient case is represented as one retrieval query.
+
+We already investigated:
+
+hybrid retrieval
+query construction
+query compression
+baseline-preserving compression
+candidate depth
+gates
+aliases
+embedding behavior
+retrieval ranks
+
+The latest New4 experiment was NOT promoted.
+
+Therefore:
+
+Do NOT change:
+embedding model
+vector database
+distance metric
+top-k
+retrieval gate
+AMG corpus
+AMG indexing
+query compression
+alias rules
+retrieval ranking
+reranking
+candidate generation
+
+Do NOT implement multi-query decomposition yet.
+
+That can be a later research experiment after the complete agentic system exists.
+
+DO NOT CHANGE THE RESEARCH DIRECTION
+
+Do NOT:
+
+introduce benchmark/relevance labels
+modify DDXPlus diagnosis labels
+use hidden DDXPlus labels for runtime reasoning
+inject ground-truth diagnoses
+create artificial diagnostic answers
+add medical data
+train a model
+retrain embeddings
+rebuild the AMG database
+replace AMG with another RAG system
+replace the agents with one giant LLM call
+remove grounding
+remove clinical criticism
+weaken safety blocking
+bypass human review
+remove provenance
+
+The runtime must remain label-free.
+
+DDXPlus cases must be loaded with:
+
+include_labels=False
+
+where applicable.
+
+FIRST: AUDIT THE CURRENT SYSTEM
+
+Before changing code:
+
+Inspect the complete current repository.
+Understand what the cleanup task removed/retained.
+Identify the actual current execution path.
+Identify which agents are already implemented.
+Identify which agents are incomplete.
+Identify placeholders/TODOs.
+Identify duplicate/legacy implementations.
+Identify existing tests.
+Identify the current Phase 6 orchestration.
+Identify current input/output contracts.
+
+Do NOT rewrite working components.
+
+Reuse existing implementations wherever possible.
+
+REQUIRED AGENTIC COMPONENTS
+1. PATIENT AGENT
+
+Implement/finish the Patient Agent.
+
+Responsibilities:
+
+receive a DDXPlus case
+parse/normalize patient information
+preserve clinically meaningful facts
+preserve:
+symptoms
+signs
+history
+medications
+temporal information
+qualifiers
+negations
+unknown values
+numeric values
+produce structured patient context
+
+It must NOT infer a diagnosis.
+
+It must NOT use hidden diagnosis labels.
+
+It must NOT invent patient facts.
+
+2. PATIENT CASE RAG
+
+Complete the Patient Case RAG.
+
+Responsibilities:
+
+retrieve relevant information from the patient case/context
+provide patient-specific evidence to downstream agents
+preserve source references
+distinguish patient evidence from medical knowledge
+
+Do not mix the patient database with AMG medical knowledge.
+
+The downstream diagnostic agent should be able to distinguish:
+
+PATIENT EVIDENCE
+vs
+MEDICAL EVIDENCE
+3. AMG MEDICAL EVIDENCE RAG
+
+Keep the current AMG implementation.
+
+Use:
+
+rag/amg/
+vendor/amg/
+
+and the existing AMG integration.
+
+The AMG layer should return evidence objects containing, where available:
+
+evidence ID
+source ID
+title
+section
+text
+URL/source
+provenance
+retrieval metadata
+
+Do not redesign retrieval.
+
+If AMG returns no accepted evidence, the system must preserve the existing abstention/uncertainty behavior.
+
+Do NOT force irrelevant medical passages into the diagnostic reasoning.
+
+4. DIAGNOSTIC AGENT
+
+Complete the Diagnostic Agent.
+
+This is one of the most important components.
+
+It should receive:
+
+Patient Context
++
+Patient Case Evidence
++
+AMG Medical Evidence
+
+and produce a structured diagnostic reasoning proposal.
+
+It should:
+
+identify clinically plausible possibilities
+explain reasoning
+distinguish observed facts from inference
+use medical evidence when appropriate
+identify uncertainty
+avoid unsupported certainty
+cite evidence IDs when making evidence-dependent claims
+
+The agent must NOT pretend that retrieved evidence supports a claim when it does not.
+
+If evidence is insufficient or contradictory, it should explicitly express uncertainty.
+
+Use the existing structured output contracts where available.
+
+Do not invent a new incompatible schema unless necessary.
+
+5. GROUNDING AGENT / SERVICE
+
+Complete the grounding layer.
+
+Its responsibility is to verify that important claims in the diagnostic output are grounded in available evidence.
+
+It should distinguish:
+
+Patient-grounded claims
+
+Supported by patient evidence.
+
+Medical-grounded claims
+
+Supported by AMG medical evidence.
+
+Unsupported claims
+
+Claims for which sufficient evidence is unavailable.
+
+Do not allow the grounding layer to silently fabricate support.
+
+Preserve:
+
+evidence IDs
+provenance
+claim/evidence relationships
+snapshots/fingerprints where already implemented
+
+Use the existing grounding architecture rather than replacing it.
+
+6. CLINICAL CRITIC AGENT
+
+Complete the Clinical Critic.
+
+This must be an independent reasoning stage.
+
+Input:
+
+Patient context
+Diagnostic proposal
+Patient evidence
+AMG medical evidence
+Grounding information
+
+Responsibilities:
+
+identify unsupported claims
+identify contradictions
+identify missing important evidence
+identify unsafe reasoning
+identify overconfident conclusions
+challenge diagnostic reasoning
+determine whether the proposed reasoning is sufficiently supported
+
+The critic should NOT simply repeat the diagnostic agent.
+
+It should actively evaluate the proposal.
+
+Maintain structured critic output.
+
+7. SAFETY LAYER
+
+Complete/integrate the safety layer.
+
+Safety must remain the final gate before release.
+
+It should consider:
+
+critic safety flags
+grounding failures
+missing critical medical references
+contradictions
+unsupported high-confidence claims
+insufficient evidence
+other existing safety conditions
+
+Possible outcomes should remain compatible with the existing system, such as:
+
+ALLOW
+HUMAN_REVIEW
+BLOCK
+
+Do not weaken existing safety behavior merely to make more cases pass.
+
+If the current system intentionally blocks a case, preserve that behavior unless there is a concrete implementation bug.
+
+8. HUMAN–AI COLLABORATION
+
+The project is specifically about:
+
+Human–AI Collaborative Decision-Making
+
+Therefore the final system should clearly expose when human review is required.
+
+The system should produce a structured final decision such as:
+
+status:
+  ALLOW / HUMAN_REVIEW / BLOCK
+
+diagnostic_proposal:
+  ...
+
+supporting_patient_evidence:
+  ...
+
+supporting_medical_evidence:
+  ...
+
+critic_findings:
+  ...
+
+safety_findings:
+  ...
+
+uncertainty:
+  ...
+
+human_review_required:
+  true/false
+
+Do NOT create a fake human approval.
+
+Human review should be represented as a genuine system state where the AI cannot safely finalize the result.
+
+9. ORCHESTRATION
+
+Complete the orchestration so that the complete pipeline can run sequentially.
+
+Conceptually:
+
+load_case()
+    ↓
+PatientAgent
+    ↓
+PatientCaseRAG
+    ↓
+AMGRAG
+    ↓
+DiagnosticAgent
+    ↓
+Grounding
+    ↓
+ClinicalCritic
+    ↓
+Safety
+    ↓
+FinalDecision
+
+The orchestration must:
+
+pass structured objects between stages
+preserve provenance
+preserve evidence snapshots
+preserve errors/abstentions
+avoid unnecessary repeated model calls
+avoid duplicate retrieval
+avoid hidden state
+make each stage inspectable
+
+Do not turn the entire pipeline into an opaque function.
+
+10. FAILURE / ABSTENTION BEHAVIOR
+
+The system must fail safely.
+
+Examples:
+
+No patient evidence
+
+Do not invent patient facts.
+
+No AMG evidence
+
+Do not pretend medical evidence exists.
+
+Diagnostic uncertainty
+
+Preserve uncertainty.
+
+Grounding failure
+
+Send to critic/safety as appropriate.
+
+Critic finds serious safety issue
+
+Do not release the diagnostic output.
+
+Safety BLOCK
+
+Return a structured blocked result.
+
+HUMAN_REVIEW
+
+Return the case for human review instead of pretending the AI has resolved it.
+
+11. STRUCTURED OUTPUT
+
+Every major stage should have a clear structured contract.
+
+Avoid passing arbitrary strings between agents where possible.
+
+Use typed/dataclass/Pydantic-style contracts if the project already uses them.
+
+At minimum, make the following inspectable:
+
+PatientState
+PatientEvidence
+MedicalEvidence
+DiagnosticProposal
+GroundingResult
+CriticResult
+SafetyResult
+FinalDecision
+
+Do not create duplicate versions of these models if equivalent contracts already exist.
+
+12. CLOUD MODEL USAGE
+
+Use the project's existing cloud LLM configuration.
+
+Do NOT introduce another model.
+
+Do NOT download local models.
+
+Do NOT add Ollama.
+
+Do NOT add unnecessary embedding/reranking models.
+
+Keep model calls minimal and sequential.
+
+13. MEMORY SAFETY
+
+My machine has:
+
+16 GB RAM
+
+Be extremely conservative.
+
+Do NOT:
+
+load multiple large models
+run agents in parallel unnecessarily
+duplicate vector stores
+duplicate large datasets
+load the entire corpus into RAM
+run large benchmark sweeps
+rebuild indexes
+
+Prefer sequential execution.
+
+Reuse existing model/vector-store instances.
+
+14. TESTING
+
+Do not just make the code run.
+
+Add/fix tests for each agentic stage.
+
+At minimum test:
+
+Patient Agent
+structured extraction
+qualifiers
+negation
+no invented facts
+no diagnosis labels
+Patient RAG
+patient evidence retrieval
+provenance
+empty-result behavior
+AMG
+evidence retrieval
+provenance
+empty evidence behavior
+Diagnostic Agent
+structured output
+uncertainty
+evidence references
+unsupported claims not falsely cited
+Grounding
+supported claim
+unsupported claim
+missing evidence
+provenance mismatch
+Clinical Critic
+detects unsupported reasoning
+detects contradictions
+produces structured findings
+Safety
+ALLOW
+HUMAN_REVIEW
+BLOCK
+safety flags
+Orchestration
+
+Test the complete pipeline.
+
+15. END-TO-END TEST
+
+After implementation, run a real local end-to-end case.
+
+Use a DDXPlus case with:
+
+include_labels=False
+
+Verify:
+
+DDXPlus
+  ↓
+Patient Agent
+  ↓
+Patient RAG
+  ↓
+AMG
+  ↓
+Diagnostic Agent
+  ↓
+Grounding
+  ↓
+Clinical Critic
+  ↓
+Safety
+  ↓
+Final Decision
+
+Then run the existing Phase 6/live workflow if its existing configuration permits it.
+
+Do not change production configuration just to force the test to pass.
+
+16. PRESERVE THE CURRENT AMG RESULT
+
+The fact that AMG sometimes retrieves imperfect evidence is a known research limitation, not an implementation failure.
+
+For example:
+
+Relevant evidence may be missed.
+Irrelevant evidence may occasionally be retrieved.
+
+The downstream agents must handle this appropriately.
+
+Do NOT solve this by:
+
+forcing evidence
+inserting diagnoses
+changing retrieval thresholds
+changing top-k
+adding benchmark labels
+hardcoding medical topics
+17. RESEARCH INTEGRITY
+
+This implementation must remain scientifically defensible.
+
+Do not claim:
+
+diagnostic accuracy that has not been evaluated
+clinical safety that has not been evaluated
+retrieval correctness merely because the pipeline ran
+human-AI improvement without an actual study
+medical validity from DDXPlus labels
+
+The system can be described as:
+
+a working research prototype for human–AI collaborative clinical decision support with agentic reasoning, evidence retrieval, grounding, criticism, and safety gating.
+
+18. DO NOT OVERENGINEER
+
+Do not add unnecessary:
+
+microservices
+message queues
+databases
+agent frameworks
+orchestration frameworks
+containers
+web servers
+authentication
+UI
+
+unless the existing project already requires them.
+
+The goal is a clean, executable research prototype.
+
+19. REQUIRED FINAL VALIDATION
+
+After implementation report:
+
+Architecture
+
+Show the actual implemented pipeline.
+
+Agents
+
+For each:
+
+Agent
+Status
+Input
+Output
+Implemented where
+Tests
+
+Report:
+
+Existing tests before changes
+Existing tests after changes
+New tests
+Passed
+Failed
+Skipped
+End-to-end
+
+Report:
+
+Patient Agent: PASS/FAIL
+Patient RAG: PASS/FAIL
+AMG RAG: PASS/FAIL
+Diagnostic Agent: PASS/FAIL
+Grounding: PASS/FAIL
+Clinical Critic: PASS/FAIL
+Safety: PASS/FAIL
+Final Decision: PASS/FAIL
+Production changes
+
+List every production file modified.
+
+Retrieval
+
+Explicitly state:
+
+AMG retrieval strategy changed: NO
+AMG retrieval parameters changed: NO
+New retrieval experiment performed: NO
+
+unless an unavoidable implementation issue required otherwise.
+
+Final assessment
+
+Classify the system as:
+
+COMPLETE AND RUNNABLE
+PARTIALLY COMPLETE
+BLOCKED
+
+and explain any remaining blockers.
+
+MOST IMPORTANT RULE
+
+Do not stop after creating classes/interfaces.
+
+The objective is to make the actual end-to-end agentic workflow execute successfully.
+
+At the same time:
+
+Do not sacrifice safety, provenance, grounding, or scientific integrity just to make the demo pass.
+
+Implement the missing pieces using the project's existing architecture and contracts wherever possible.
+
+After the system is complete, stop.
+
+Do not begin another retrieval optimization experiment.

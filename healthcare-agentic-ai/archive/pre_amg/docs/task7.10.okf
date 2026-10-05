@@ -1,0 +1,21 @@
+okf_version: "0.2"
+project: "Healthcare Agentic AI System"
+scope: "Task 7.10 isolated control preflight; no historical manifests changed."
+modules:
+  - id: "task710_control_preflight"
+    path: "healthcare-agentic-ai/scripts/experiment_task710_selection.py"
+    summary: "Preflight only, NOT a set selector. Memory-bounded saved-artifact authentication and exact six-control replay against Task 7.8 audits and Task 7.9 saved controls, chronological/final IDs/order, roles, document/provenance metadata, every rejection event and final count. New exclusive output directory; no models, retrieval or labels."
+    key_symbols: ["authenticate", "exact_control", "main"]
+  - id: "task710_preflight_tests"
+    path: "healthcare-agentic-ai/tests/test_task710_selection.py"
+    summary: "12 focused tests passed: exact controls, all-six gating, fail-closed tampering/missing candidates, original five/document/Jaccard limits, deterministic replay and no mutation. No prototype tests claimed."
+docs_and_experiments:
+  - id: "task710_stopped_feature_definition"
+    path: "healthcare-agentic-ai/docs/task7.10-set-selection.md"
+    summary: "PARTIAL IMPLEMENTATION / STOPPED before prototype. All six Task 7.9 controls exactly reproduced first; 258 protected paths unchanged. Frozen coverage is word-set matching; population metadata is title/section age only. No defensible complete semantic correspondence/context feature definition established; obeyed prompt's feature-support stop rather than substituting lexical proxies, disease rules, new models or A/B/C labels. No selector, objective, sweep or outcome measured; no improvement claim. Preflight peak system 12.342 GB / outer RSS 0.060 GB; tests 12.104 GB / 0.034 GB. Guards unchanged. Production and historical artifacts untouched. No next task."
+    artifacts:
+      - "healthcare-agentic-ai/outputs/task7.10/control-preflight/report.json"
+      - "healthcare-agentic-ai/outputs/task7.10/set-selection/control-ledger.md"
+      - "healthcare-agentic-ai/outputs/task7.10/set-selection/closeout.json"
+      - "healthcare-agentic-ai/outputs/task7.10/focused-tests-launch.log"
+      - "healthcare-agentic-ai/outputs/task710-control-launch.log"

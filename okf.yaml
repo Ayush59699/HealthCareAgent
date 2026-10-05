@@ -1,0 +1,163 @@
+okf_version: '0.2'
+project: Healthcare Agentic AI - AMG integration
+root: healthcare-agentic-ai
+summary: 'Label-free DDXPlus -> Patient Agent -> separate Patient Case RAG + supplied AMG MedlinePlus evidence -> Diagnostic -> Grounding -> Critic -> Safety. Research only.'
+entrypoints:
+  - path: healthcare-agentic-ai/scripts/run_phase6.py
+    command: 'python scripts/run_phase6.py --queries 1'
+    purpose: 'Supported sequential batch runtime. Uses application.workflow and AMG only; writes versioned states and report.'
+  - path: healthcare-agentic-ai/scripts/demo.py
+    command: 'python scripts/demo.py --validate-only'
+    purpose: 'Local no-LLM probe; omit flag for live demo. Same composition as batch.'
+  - path: healthcare-agentic-ai/scripts/verify_amg_run.py
+    purpose: 'Offline saved-run validation: native source text/metadata, grounding, diagnostic snapshot and exact safety-input fingerprint.'
+modules:
+  - path: healthcare-agentic-ai/application/workflow.py
+    symbols: [create_workflow]
+    summary: 'Single supported composition root. Injects AMGEvidenceService into Phase6Orchestrator; no-evidence means abstention.'
+  - path: healthcare-agentic-ai/application/resources.py
+    symbols: [prepare_runtime]
+    summary: 'Existing patient index, CPU and 2 GB available-memory preflight. Not a hard memory cap.'
+  - path: healthcare-agentic-ai/rag/amg/backend.py
+    symbols: [AMGMedicalEvidence, load_upstream]
+    summary: 'Thin adapter calls unchanged vendor medlineplus_lab.Retriever.search. Reuses hash-pinned snapshots and cached MiniLM; validates returned chunks against source artifact hashes; bounded literal query, no synthesis/web.'
+  - path: healthcare-agentic-ai/rag/amg/provenance.py
+    symbols: [validate_amg_hit, BACKEND]
+    summary: 'Native AMG IDs/metadata/spans/checksums; distance/acceptance contract. No fabricated legacy UUIDs. Similarity = negative squared L2, not confidence.'
+  - path: healthcare-agentic-ai/rag/amg/service.py
+    symbols: [AMGEvidenceService]
+    summary: 'Patient/case retrieval stays separate. Retrieve once, accepted AMG passages only into immutable EvidenceSnapshot; rejected hits remain audit-only.'
+  - path: healthcare-agentic-ai/rag/agents/grounding.py
+    symbols: [evidence_from_hits, validate_references, context, state_from_patient]
+    summary: 'AMG source-specific validation plus existing legacy contracts; deterministic patient state only for local probes.'
+  - path: healthcare-agentic-ai/orchestration/phase6/orchestrator.py
+    symbols: [Phase6Orchestrator]
+    summary: 'Preserved workflow, revision and safety tickets. Accepts injected evidence_service and require_medical_evidence. Historical enhanced flag only for compatibility.'
+  - path: healthcare-agentic-ai/orchestration/phase6/diagnostic.py
+    summary: 'Existing exact patient-reference inventory and inference-disclosure contracts reused; retrieval is not diagnosis.'
+  - path: healthcare-agentic-ai/rag/patient_rag.py
+    summary: 'Unchanged label-free training-case BGE/Qdrant retrieval; distinct vector space from MiniLM/Chroma.'
+  - path: healthcare-agentic-ai/safety/
+    summary: 'Existing deterministic/semantic validation, abstention and output restriction unchanged. Critic safety flags can deterministically BLOCK without semantic call.'
+  - path: healthcare-agentic-ai/demo/terminal.py
+    summary: 'Supported CLI uses AMG; transparent progress delegate and native distance/URL audit. Legacy presentation helpers retained for regressions.'
+data:
+  - path: healthcare-agentic-ai/vendor/amg/
+    summary: 'Former NEW RAG/AMG-RAG. Original source/datasets/snapshots moved, not copied/reindexed. Nested okf.yaml indexes upstream history. Unrelated nested codeagent archived.'
+  - path: healthcare-agentic-ai/vendor/amg/knowledge/medlineplus_lab/
+    summary: 'Existing 1017-topic / 2289-chunk published store. Historical medlineplus_en_experimental name and 1.10 gate unchanged. Local gitignored asset.'
+  - path: healthcare-agentic-ai/data/qdrant/patient_cases/
+    summary: 'Existing 1000 training-case index. Local gitignored asset; do not change embedding signature.'
+verification:
+  tests: 'python -m unittest discover -s tests -t . (from healthcare-agentic-ai)'
+  new_tests: healthcare-agentic-ai/tests/test_amg_integration.py
+  fixtures: healthcare-agentic-ai/tests/amg_helpers.py
+  current_report: healthcare-agentic-ai/docs/final-system-validation.md
+  live_artifacts: healthcare-agentic-ai/outputs/amg-live/
+  live_result: 'Real ddxplus:validate:1 completed in 39.2s, three cloud requests, five AMG passages. BLOCK, no technical failure; not a successful clinical diagnosis. Grounding/critic/safety provenance independently verified.'
+archive:
+  path: healthcare-agentic-ai/archive/pre_amg/
+  manifest: healthcare-agentic-ai/archive/pre_amg/okf.yaml
+  summary: 'Previous docs, output artifacts, original README and terminal-tool copy. Legacy medical code/experimental scripts remain compatibility-only for existing tests; no supported runtime imports old retrievers.'
+invariants:
+  - 'No benchmark labels used or modified; no new benchmark, retriever or production retrieval tuning. Isolated new2 diagnostic probes are documented separately.'
+  - 'Do not change vendor medlineplus_lab.py casually: snapshot pins its exact bytes.'
+  - 'No model download or index build during runtime; missing/corrupt stores fail closed.'
+  - 'No-evidence abstention, structural grounding, critic and safety remain mandatory.'
+  - 'Workspace .env and vendor .env are secret; integrated runtime uses only existing workspace GPT_SOL settings.'
+  - 'One model per existing vector space, sequential cases, no graph expansion or cross-encoder.'
+
+case_quality_review:
+  request: prompts/new1.txt
+  report: healthcare-agentic-ai/docs/amg-evidence-quality-diagnosis.md
+  findings: >-
+    Saved case has five nonspecific passages, zero diagnostic medical citations and four disclosed patient-only hypotheses.
+    Four missing_medical_reference findings are deterministic Safety HUMAN_REVIEW, not Critic findings; three critic safety flags cause BLOCK.
+    Provenance verified. Query is 254/256 tokens versus 339 for all unique facts; anticoagulant, kidney-failure and underweight context omitted.
+    Relevant anemia/GI-bleeding/blood-thinner source chunks exist but were not returned. No new search or counterfactual result claimed.
+  verification: 48 targeted tests passed; cached tokenizer replay and source inspection only; 166 protected code/run files unchanged during audit.
+  runtime_changes: None; no retrieval, threshold, prompt, safety, store or label changes.
+
+retrieval_root_cause_review:
+  request: prompts/new2.txt
+  report: healthcare-agentic-ai/docs/amg-retrieval-root-cause.md
+  artifacts: healthcare-agentic-ai/outputs/new2/
+  findings: >-
+    Saved query/AMG top five reproduced exactly on a disposable Chroma copy; exhaustive 2289-vector ranks agree.
+    Anemia rank 21 at 1.052496 (inside gate but outside top five); Blood Thinners bleeding chunk rank 258 at 1.346185;
+    GI Bleeding rank 290 at 1.364999; Kidney Failure rank 1780 at 1.836119.
+    Removing pain questions improves Anemia, but shorter queries activate false all-to-ALL expansion.
+    Isolated black-stool fact ranks GI Bleeding third but fails 1.10 gate; isolated anemia/kidney facts rank their topics first.
+    Anticoagulant alias expansion retrieves Blood Thinners. No embedding/normalization or saved-top-five HNSW mismatch.
+  verification: 506 project tests OK (one opt-in cloud skip), 56 upstream tests OK; 256 protected files unchanged after analysis and tests.
+  scope: Existing stored vectors, cached CPU model, six literal-fact diagnostic probes; no cloud calls, production edits, label edits, index rebuild or threshold tuning.
+  next_direction: Compact role-aware label-free query construction plus ordinary-word/acronym disambiguation, subject to authorization and revalidation; not implemented.
+
+controlled_query_experiment:
+  request: prompts/new3.txt
+  report: healthcare-agentic-ai/docs/amg-controlled-query-evaluation.md
+  artifacts: healthcare-agentic-ai/outputs/new3/
+  adapter: healthcare-agentic-ai/rag/amg/query_adapter.py
+  alias_guard: healthcare-agentic-ai/rag/amg/alias_safety.py
+  evaluation: healthcare-agentic-ai/scripts/evaluate_amg_query_adapter.py
+  tests: healthcare-agentic-ai/tests/test_amg_query_adapter.py
+  decision: Experimental only; production query and resolver unchanged.
+  representation: Deterministic question-scaffolding removal, identical-question answer grouping, role-balanced whole-fact packing with original-reference coverage audit; 256-token limit.
+  alias_scope: Narrow opt-in ordinary all versus uppercase ALL guard, including exact-lookup bypass and longest-phrase checks; vendor bytes unchanged.
+  saved_case: 254 to 251 tokens; 19 to 23 of 24 clinical facts plus demographics; Anemia rank 21 to 2, but black-stool fact newly omitted and GI Bleeding rank 290 to 305.
+  regressions: Consecutive validate rows 2-6 reveal lost palpitations, narrower accepted evidence, and incidental sex-to-Sexual-Health expansion; no clinical improvement claimed.
+  verification: 23 focused tests, 529 project tests OK (one cloud skip), 56 upstream tests OK; 256 prior protected files unchanged.
+
+baseline_preserving_compression_experiment:
+  request: prompts/new4.txt
+  report: healthcare-agentic-ai/docs/amg-baseline-preserving-compression.md
+  artifacts: healthcare-agentic-ai/outputs/new4/
+  adapter: healthcare-agentic-ai/rag/amg/baseline_compression.py
+  evaluation: healthcare-agentic-ai/scripts/evaluate_amg_baseline_compression.py
+  tests: healthcare-agentic-ai/tests/test_amg_query_adapter.py
+  decision: DO NOT PROMOTE; production query and resolver unchanged.
+  strategy: Exact production baseline validation; mandatory full baseline compression first; omitted antecedents then other clinical facts in source order; no evictions, headers or demographic metadata. Original new3 syntactic compressor and isolated all guard reused unchanged.
+  correctness: Zero of 102 baseline clinical facts lost across the same six cases; 19 previously omitted facts added; 121 of 128 total facts retained. No clinical inference or label use.
+  saved_case: Mandatory baseline compresses 254 to 183 tokens; all 24 clinical facts fit in 251 tokens, including black stools. Anemia rank 21 to 1 at 0.734436; GI Bleeding rank 290 to 152, Blood Thinners warnings 258 to 53, Kidney Failure 1780 to 421, latter three still outside gate and top five.
+  regressions: Validation case 5 retains all facts but accepted evidence falls 5 to 0 at unchanged 1.10; other cases show mixed distance/topic shifts. No structural or demographic alias contamination in tested candidate queries; not clinical improvement.
+  verification: 41 focused tests OK (18 new plus 23 prior); 547 project tests OK (one cloud skip); 56 upstream tests OK. All 351 pre-existing protected files unchanged, including previous experiment artifacts. One fixed candidate, no post-result tuning or promotion.
+
+cleanup_review:
+  request: prompts/clean
+  report: healthcare-agentic-ai/docs/cleanup.md
+  exact_deletions: healthcare-agentic-ai/docs/cleanup-deletions.md
+  audit: healthcare-agentic-ai/outputs/cleanup/
+  scope: Conservative cleanup only; no production source, tests, prompts, dependencies, retrieval or architecture changes.
+  removed: Empty root dump plus 162 source-backed bytecode files in 19 empty cache directories; 1858572 bytes.
+  retained: All legacy regression code, New3/New4 experiments and negative results, upstream source/history, models, stores, datasets, environments; uncertain root astra2.txt and gpt-5.6-sol.txt retained.
+  verification: Before and after 547 project tests (546 passed, one cloud skip) and 56 upstream tests passed. CLI help/sample-discovery startup passed; offline retrieval/grounding/safety/orchestration coverage, no production-store/model startup or cloud calls.
+  integrity: All 214 pre-existing scanned Python source files unchanged; only two current OKF manifests updated among 961 hashed pre-existing files.
+  status: CLEANUP COMPLETE — PRODUCTION UNCHANGED
+
+
+final_system_completion:
+  request: prompts/FINAL.txt
+  status: COMPLETE AND RUNNABLE research prototype; not clinical validation
+  audit: healthcare-agentic-ai/docs/final-system-audit.md
+  report: healthcare-agentic-ai/docs/final-system-validation.md
+  grounding_report: healthcare-agentic-ai/orchestration/phase6/grounding.py
+  final_decision: healthcare-agentic-ai/application/decision.py
+  tests: healthcare-agentic-ai/tests/test_final_decision.py
+  artifacts: healthcare-agentic-ai/outputs/final-validation/
+  summary: Existing agents reused; typed claim/reference grounding report supplied to independent Critic; final ALLOW/HUMAN_REVIEW/BLOCK handoff revalidates patient/evidence/safety/routing and withholds non-ALLOW proposals. Human review is genuinely pending, never approved or scheduled automatically.
+  verification: 547 baseline tests; 575 after (574 passed, one skipped); 28 new tests passed; 56 upstream passed. Real ddxplus:validate:1 completed in 45.94s with three calls, five passages, BLOCK and pending review; native sources, safety fingerprint and final decision verified.
+  retrieval_changes: None; strategy/parameters/query/aliases/stores unchanged; no experiments; New4 not promoted.
+  scientific_boundary: Citation presence is not entailment; no clinical accuracy/safety or human-AI effectiveness claimed.
+
+manual_testing_guide: healthcare-agentic-ai/RUN.txt
+
+check1_block_audit:
+  request: prompts/check1.txt
+  report: healthcare-agentic-ai/docs/check1-block-cause.md
+  exact_trace: healthcare-agentic-ai/docs/check1-block-trace.md
+  artifacts: healthcare-agentic-ai/outputs/check1/
+  scope: Requested manual-test directory absent from workspace; explicit fallback outputs/final-validation/live only. Actual manual run remains unaudited.
+  findings: Five accepted AMG passages, zero diagnostic medical citations; 19 unsupported_by_medical_evidence statuses, zero reference_present_not_verified. Three Critic safety flags deterministically BLOCK; four missing-reference findings independently require HUMAN_REVIEW. No citation loss or routing mismatch observed.
+  classification: A/B evidence insufficiency confirmed; D possible overbroad Critic flags (especially warning against unused clot passage), not a proven clinically unjustified block. No immediate production change justified.
+  verification: Native sources, grounding, safety identity, summary and final decision verified offline; 575 tests run (574 passed, one skipped); 224 protected pre-existing files unchanged.
+  production_changes: None; no prompts, retrieval, safety-policy, labels, stores or configuration changes; no cloud call or new retrieval.

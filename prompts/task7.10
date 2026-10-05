@@ -1,0 +1,511 @@
+Task 7.10 — Isolated Five-Slot Set-Based Selection Prototype
+
+OBJECTIVE
+
+Test whether a complementary, set-based selection strategy can allocate the existing five evidence slots more effectively than the current sequential selector.
+
+This is an isolated experimental prototype only.
+
+The experiment MUST NOT change production behavior.
+
+The experiment MUST NOT increase the final evidence limit.
+
+The experiment MUST NOT replace or modify the reranker.
+
+The experiment MUST NOT modify retrieval, RRF, candidate generation, eligibility, thresholds, evidence text, provenance, or downstream agents.
+
+The only experimental change is HOW ALREADY-ELIGIBLE frozen candidates compete for the existing five evidence slots.
+
+==================================================
+
+FROZEN INPUTS
+==================================================
+
+Use ONLY the saved Task 7.9 selection-analysis artifacts and the frozen Task 7.8/7.8.1 results.
+
+Use the same depth-50 cases:
+
+validate:1
+validate:2
+validate:3
+
+Use the already-saved candidate IDs, query text, source text, provenance, roles, reranker scores, eligibility decisions, ranking information, and selector traces.
+
+Do NOT:
+
+rerun MiniLM
+rerun MedCPT
+load another reranker
+query Qdrant
+rebuild BM25
+regenerate embeddings
+regenerate RRF
+regenerate candidate pools
+modify evidence text
+modify queries
+modify eligibility
+read hidden DDXPlus labels
+read benchmark labels
+
+If the saved Task 7.9 artifacts are insufficient to reconstruct the required inputs exactly, STOP and report what is missing.
+
+Before implementing the prototype, reproduce the existing Task 7.9 control selector exactly.
+
+The control must match the saved selection for all six saved selections/conditions where applicable.
+
+Verify:
+
+selected evidence IDs
+selected order
+roles
+document IDs
+rejection events
+final evidence count
+
+If exact control reproduction fails, STOP.
+
+Do not proceed using an approximate reconstruction.
+
+Implement ONE isolated set-based selector prototype.
+
+The prototype must preserve:
+
+maximum final evidence count = 5
+existing eligibility gate
+existing candidate pool
+existing reranker scores
+existing evidence/provenance
+existing document constraints
+existing redundancy constraint
+existing contextual constraints where already represented
+existing two-pass/document constraints unless the experiment explicitly records a diagnostic alternative
+
+The prototype changes only the selection strategy.
+
+Do NOT invent disease-specific rules.
+
+Do NOT add title-specific boosts.
+
+Do NOT add asthma/panic/flu rules.
+
+Do NOT tune directly to the three patient cases.
+
+The experimental selector should select a complementary set rather than simply taking the highest-ranked individual passages.
+
+For each eligible candidate, represent generic auditable features derived from the frozen query/source data.
+
+Required dimensions:
+
+A. DIRECT RELEVANCE
+
+Prefer evidence that meaningfully addresses the observed findings or explicitly recorded history.
+
+Do not reward simple shared words without meaningful correspondence.
+
+B. NEW COVERAGE
+
+Prefer candidates that add useful information not already represented by the currently selected set.
+
+This must be measured as incremental/marginal coverage.
+
+C. SECTION USEFULNESS
+
+Prefer sections whose content is appropriate to the information need represented by the originating query.
+
+Do not universally prefer "symptoms".
+
+Do not universally prefer "treatment".
+
+Section usefulness must remain generic and query-dependent.
+
+D. CONTEXT COMPATIBILITY
+
+Avoid rewarding passages that depend on:
+
+an unestablished exposure
+an unestablished subtype
+an incompatible population
+an adult-only context when inappropriate
+circumstances not supported by the frozen patient observations
+
+Do not infer a diagnosis.
+
+E. SELF-CONTAINEDNESS
+
+Prefer coherent passages that can be understood independently.
+
+Do not reward fragmentary continuation chunks merely because they contain matching words.
+
+Do NOT tune arbitrary numerical weights against the three cases.
+
+Use a transparent deterministic feature representation.
+
+If a scalar objective is required, use a clearly documented generic formulation in which:
+
+direct relevance contributes positively
+new coverage contributes positively
+section usefulness contributes positively
+context compatibility contributes positively
+self-containedness contributes positively
+redundancy contributes negatively
+contextual mismatch contributes negatively
+
+Existing reranker score may be included as ONE input feature.
+
+Do NOT assume scores from different originating queries are directly comparable.
+
+Document the exact normalization/comparison method used.
+
+If the available frozen data does not support a defensible implementation of one of these dimensions, do not invent a proxy silently. Report the limitation and stop that part of the analysis.
+
+Use a deterministic greedy marginal-gain procedure for the prototype:
+
+Start with an empty selected set.
+Consider all eligible candidates.
+For each candidate, calculate its incremental usefulness relative to the current selected set.
+Reject candidates that violate existing hard constraints.
+Select the candidate with the highest documented marginal contribution.
+Repeat until:
+five candidates are selected, or
+no eligible candidate can be added.
+
+At every selection step record:
+
+candidate ID
+current selected IDs
+direct relevance contribution
+new-coverage contribution
+section usefulness
+context compatibility
+self-containedness
+redundancy penalty
+contextual mismatch penalty
+reranker contribution, if used
+total marginal score
+constraints checked
+candidates rejected at that step
+reason for rejection
+
+Tie-breaking MUST be deterministic and documented.
+
+Preserve the existing two-per-document maximum.
+
+Do NOT automatically select the first two highest-ranked passages from a document.
+
+Instead, allow the set-based procedure to compare the marginal contribution of eligible passages from the same document.
+
+A document may contribute up to two passages only when those passages satisfy the existing constraints and provide complementary value.
+
+Do not remove the document cap.
+
+Do not increase it.
+
+Preserve the existing Jaccard redundancy rule and threshold.
+
+Do not weaken the threshold.
+
+Do not remove the rule.
+
+When a candidate is rejected because of redundancy, record:
+
+candidate ID
+selected passage causing the redundancy conflict
+measured overlap
+rejection reason
+
+Do NOT use the old irreversible schedule:
+
+history first → current findings → history backfill
+
+for the experimental selector.
+
+Instead, current and historical/background evidence should compete jointly within the final five-slot set.
+
+If a history/background representation is required as a hard constraint by the existing architecture, preserve that requirement as a final-set constraint rather than selecting the first history winner irreversibly.
+
+Do not invent a new role priority.
+
+Record role composition of the final set.
+
+Inspect the following using the saved Task 7.8/7.9 traces.
+
+A. PANIC DISORDER
+
+The useful Panic Disorder evidence became eligible under MedCPT but was excluded by the existing selector.
+
+Determine whether the set-based prototype selects it while maintaining the five-slot limit.
+
+Record:
+
+whether selected
+which passage it replaces, if any
+why the prototype considers it complementary
+whether any existing constraint prevents selection
+
+Do not call this a diagnosis.
+
+B. FLU
+
+Verify that the Flu evidence remains selected.
+
+If it changes, explain exactly why.
+
+C. FAINTING
+
+Verify whether the existing selected Fainting evidence remains selected.
+
+Any change must be explicitly traced.
+
+D. ASTHMA
+
+Inspect:
+
+asthma symptoms
+asthma definition
+asthma diagnostic/evaluation/background passages
+
+Determine which are:
+
+eligible
+selected by control
+selected by prototype
+displaced
+rejected by constraints
+
+E. OLDER ADULT MENTAL HEALTH
+
+Inspect whether the prototype continues to select or reject it and why.
+
+Do not make a clinical correctness judgment.
+
+Use ONLY the already completed Task 7.8.1 A/B/C classifications.
+
+Do not create new relevance labels.
+
+For the 70 eligibility-change pairs:
+
+Report for each class:
+
+A = clearly useful
+B = ambiguous
+C = weak
+
+how many are:
+
+selected by control
+selected by prototype
+eligible but unselected by prototype
+rejected by hard constraint
+
+The purpose is diagnostic comparison only.
+
+Do not optimize the prototype to maximize A-rated examples.
+
+The seven previously C-rated newly-positive pairs are an important negative-control set.
+
+Report:
+
+how many the prototype selects
+which constraints reject them
+why they do or do not enter the final five
+
+Do NOT modify the prototype specifically to reject these seven cases.
+
+For every case produce:
+
+CONTROL:
+
+final IDs
+final order
+roles
+documents
+
+PROTOTYPE:
+
+final IDs
+final order
+roles
+documents
+
+DIFF:
+
+retained passages
+removed passages
+newly selected passages
+selection reason
+displacement reason
+constraint reason
+
+Also report:
+
+overlap count between control and prototype
+newly selected eligible candidates
+eligible candidates still excluded
+candidates rejected by each hard constraint
+
+Do NOT define success as simply selecting more evidence.
+
+Do NOT define success as selecting all A-rated passages.
+
+The prototype is informative only if it demonstrates a more complementary allocation within the same five-slot budget while preserving useful existing selections and avoiding indiscriminate admission of weak candidates.
+
+Specifically inspect:
+
+whether Panic Disorder can be recovered within five slots;
+whether Flu remains selected;
+whether Fainting remains selected;
+whether useful asthma evidence is preserved;
+whether the seven C-rated examples are selectively excluded;
+whether the selector remains auditable and deterministic.
+
+Do NOT claim clinical accuracy.
+
+There are only three frozen cases.
+
+Do NOT tune weights, thresholds, or feature formulas until the desired outcome is achieved.
+
+If a design choice appears uncertain, document it rather than iteratively tuning it.
+
+One prototype only.
+
+No second prototype.
+
+No parameter sweep.
+
+No optimization against A/B/C labels.
+
+Use:
+
+scripts/run_memory_bounded.py
+
+Keep all existing memory guards unchanged.
+
+Requirements:
+
+one case at a time
+no parallel workers
+no model downloads
+no model loading
+no embedding generation
+no Qdrant access
+no corpus loading
+no reranking
+no BM25 rebuild
+
+Use only saved artifacts.
+
+Stop immediately if the existing memory guard triggers.
+
+Do not bypass or weaken any memory protection.
+
+Do not modify:
+
+production retrieval
+production selector
+rerankers
+Task 7.4
+Task 7.5
+Task 7.6
+Task 7.7
+Task 7.8
+Task 7.8.1
+Task 7.9
+historical manifests
+rag/config.py
+downstream diagnostic/critic/safety/grounding/explanation code
+
+Create only isolated Task 7.10 files if needed.
+
+Suggested:
+
+rag/experimental_medical/task710_set_selection.py
+scripts/experiment_task710_selection.py
+tests/test_task710_selection.py
+docs/task7.10-set-selection.md
+
+Outputs:
+
+outputs/task7.10/set-selection/
+
+Never overwrite earlier artifacts.
+
+Add deterministic focused tests for:
+
+exact Task 7.9 control reproduction
+five-slot maximum
+existing eligibility preservation
+existing document cap
+existing Jaccard redundancy rule
+deterministic tie-breaking
+marginal coverage accounting
+Panic Disorder analysis
+Flu preservation
+Fainting preservation
+asthma evidence comparison
+Older Adult Mental Health comparison
+Task 7.8.1 A/B/C cross-reference
+C-rated negative-control accounting
+no mutation of frozen inputs
+
+Run only focused Task 7.10 tests.
+
+STOP immediately if:
+
+Task 7.9 control cannot be reproduced exactly
+required saved artifacts are missing
+the selector cannot be reconstructed from frozen data
+a new model is required
+reranking is required
+retrieval is required
+benchmark labels appear
+hidden DDXPlus labels appear
+production code must change
+protected-file mismatch occurs
+memory guard triggers
+implementation requires arbitrary disease-specific rules
+implementation requires tuning against the three cases
+
+Do not work around any stop condition.
+
+Report:
+
+Whether Task 7.9 control reproduced exactly.
+Exact prototype definition.
+Exact five-slot constraint.
+Number of candidates considered.
+Control final evidence for each case.
+Prototype final evidence for each case.
+Panic Disorder result.
+Flu result.
+Fainting result.
+Asthma result.
+Older Adult Mental Health result.
+A/B/C cross-check.
+C-rated negative-control result.
+Number of newly selected eligible candidates.
+Number of useful candidates still excluded.
+Constraint/rejection breakdown.
+Whether the prototype demonstrates a selection-stage improvement.
+Peak memory.
+Tests passed.
+Protected-file verification.
+
+Do not claim clinical accuracy, diagnostic correctness, or generalization.
+
+Do not promote the prototype to production.
+
+After completing Task 7.10, STOP.
+
+Do not automatically implement Task 7.11.
+
+Do not test another selector.
+
+Do not test another reranker.
+
+Do not change the evidence budget.
+
+Do not change eligibility thresholds.
+
+Do not modify production behavior.
+
+End with exactly ONE engineering recommendation based only on the Task 7.10 evidence.

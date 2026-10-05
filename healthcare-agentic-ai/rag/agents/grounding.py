@@ -50,7 +50,13 @@ def evidence_from_hits(hits: list[dict], source_type: str) -> list[RetrievedEvid
             payload = validate_document(payload)
             source_id, title = 'case:' + payload['patient_id'], None
         elif source_type == 'medical_knowledge':
-            payload = validate_chunk(payload)
+            if payload.get('backend') == 'amg-medlineplus-v1':
+                from rag.amg.provenance import validate_amg_hit
+                payload = validate_amg_hit(payload)
+                if hit['score'] != -payload['retrieval']['distance']:
+                    raise ValueError('AMG score/distance mismatch')
+            else:
+                payload = validate_chunk(payload)
             source_id, title = 'medical:' + payload['chunk_id'], payload['title']
         else:
             raise ValueError('Unknown evidence source')
@@ -90,7 +96,8 @@ def claims(diagnosis: DiagnosticResult):
 
 
 def validate_references(output: DiagnosticResult | ClinicalCritique, state: PatientState,
-                        cases: list[RetrievedEvidence], medical: list[RetrievedEvidence]) -> None:
+                        cases: list[RetrievedEvidence], medical: list[RetrievedEvidence], *,
+                        allow_patient_inference: bool = False) -> None:
     case_ids, medical_ids = {e.source_id for e in cases}, {e.source_id for e in medical}
     allowed = set(facts(state)) | case_ids | medical_ids
     items = list(claims(output)) if isinstance(output, DiagnosticResult) else output.supported_points
@@ -102,16 +109,31 @@ def validate_references(output: DiagnosticResult | ClinicalCritique, state: Pati
         used = {ref for claim in items for ref in claim.evidence_refs}
         if set(output.patient_case_evidence) != used & case_ids or set(output.medical_knowledge_evidence) != used & medical_ids:
             raise ValueError('Evidence inventories must match claim references')
-        # Novel hypotheses are allowed only as explicit model inference grounded in
-        # medical material, never presented as observed diagnoses or case outcomes.
+        # Every claim must reference actual supplied material. The explicit Phase 6
+        # option below adds patient-only inference disclosure checks; default
+        # Phase 4/5 callers still require a nonempty medical collection.
         for claim in items:
             if not set(claim.evidence_refs) & allowed:
                 raise ValueError('Ungrounded claim')
-        if (output.primary_hypothesis is not None or output.differential_diagnoses) and not medical:
+        if (output.primary_hypothesis is not None or output.differential_diagnoses) and not medical and not allow_patient_inference:
             raise ValueError('Abstain when no medical knowledge was retrieved')
+    if allow_patient_inference:
+        from orchestration.phase6.diagnostic import validate_inference_contract
+        validate_inference_contract(output, state, medical)
     # Prevent fabricated literal URLs/DOIs in prose. Semantic hallucination still
     # requires critic/human review, not a word-overlap pseudo-metric.
     supplied = str([e.model_dump() for e in cases + medical])
     for url in re.findall(r'https?://[^\s"<>]+', output.model_dump_json()):
         if url.rstrip('.,;)\\') not in supplied:
             raise ValueError('Unretrieved URL')
+
+
+def state_from_patient(patient, patient_id):
+    """Exact deterministic copy for local-only probes; not a substitute live agent."""
+    supplied = patient_input(patient, patient_id)
+    state = PatientState(patient_id=patient_id, age=supplied['age'], sex=supplied['sex'],
+        symptoms=supplied['symptoms'], antecedents=supplied['antecedents'],
+        presenting_evidence=supplied['initial_evidence'], relevant_findings=[],
+        missing_information=supplied['allowed_missing_information'], uncertainty_notes=supplied['allowed_uncertainty_notes'])
+    validate_patient(state, supplied)
+    return state

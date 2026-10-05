@@ -1,15 +1,398 @@
-Before starting Phase 3, perform a cleanup and verification pass on the current healthcare-agentic-ai project.
+You are working on my local project:
 
-1. Inspect docs/validation.md and completely clean the corrupted/duplicated/garbled sections.
-2. Preserve all valid Phase 2 results, metrics, commands, limitations, and conclusions exactly; do not invent new results.
-3. Check README.md and docs/architecture.md for consistency with the actual implemented Phase 2 code.
-4. Remove obsolete temporary files/scripts and obvious artifacts if they are no longer needed.
-5. Run the existing test suite and confirm it still passes.
-6. Do not modify the Patient Case RAG implementation unless a clear documentation-related inconsistency requires it.
-7. At the end, report:
-   - files changed
-   - tests/results
-   - any remaining issues
-   - confirmation that Phase 2 is clean and ready for Phase 3.
+'mini-cc`
 
-Do NOT start Phase 3 yet.
+## OBJECTIVE
+
+Clean the project by identifying and removing **only genuinely unnecessary files, obsolete experiments, temporary artifacts, duplicate code, and abandoned prototypes**.
+
+This is a **cleanup task only**.
+
+Do NOT implement new features, modify the agentic architecture, improve RAG, change retrieval, or redesign anything.
+
+---
+
+## CRITICAL SAFETY RULE
+
+The current production/integrated system is working and MUST remain functionally unchanged.
+
+Before deleting anything:
+
+1. Inspect the repository structure.
+2. Identify the active production/import paths.
+3. Identify files referenced by:
+
+   * Python imports
+   * scripts
+   * configuration files
+   * `okf.yaml`
+   * tests
+   * documentation that represents the current architecture
+   * shell/batch commands
+   * orchestration
+4. Trace dependencies before deleting files.
+5. Do NOT delete something merely because it looks old.
+
+When uncertain whether a file is required, **KEEP IT**.
+
+---
+
+## CURRENT IMPORTANT SYSTEM COMPONENTS
+
+Treat these as protected unless you discover a concrete, verified reason otherwise:
+
+### Active application
+
+* `application/`
+* `application/workflow.py`
+
+### Active AMG integration
+
+* `rag/amg/`
+* `rag/amg/backend.py`
+* `rag/amg/service.py`
+* `rag/amg/provenance.py`
+* AMG-related contracts/adapters currently used by the application
+
+### Patient RAG
+
+* `rag/patient_rag.py`
+
+### Agents / orchestration
+
+* `rag/agents/`
+* `orchestration/phase6/`
+* `scripts/run_phase6.py`
+
+### Grounding / safety
+
+* `rag/agents/grounding.py`
+* `safety/`
+
+### AMG vendor integration
+
+* `vendor/amg/`
+
+Do not remove upstream/vendor files unless they are clearly unused AND independently verified to be unnecessary.
+
+### Important configuration
+
+* `okf.yaml`
+* project dependency/configuration files
+* environment/config files required to run the system
+
+### Tests
+
+Do not mass-delete tests.
+
+Keep tests that validate:
+
+* AMG integration
+* Patient RAG
+* grounding
+* safety
+* orchestration
+* active application behavior
+* provenance
+* retrieval
+* agent behavior
+
+---
+
+## EXPERIMENTAL WORK
+
+There have been several controlled AMG retrieval experiments, including:
+
+* Task 7.4
+* New3
+* New4
+* baseline-compression experiments
+* retrieval diagnostics
+* query-compression experiments
+* root-cause investigations
+
+These experiments are **not production defaults**.
+
+However, do NOT automatically delete them.
+
+First determine whether they are:
+
+1. required by the active system,
+2. useful historical research artifacts,
+3. temporary/debug files,
+4. obsolete duplicate implementations.
+
+For genuine temporary artifacts, remove them.
+
+For important research documentation/results, preferably keep them under an appropriate `docs/` or `research/` location if that can be done safely without changing functionality.
+
+Do not modify production code merely to reorganize research artifacts.
+
+---
+
+## OUTPUTS / GENERATED ARTIFACTS
+
+Inspect directories such as:
+
+* `outputs/`
+* temporary experiment directories
+* logs
+* caches
+* generated JSON files
+* generated reports
+* debug dumps
+* temporary copied databases
+* temporary model/index files
+
+Classify each before deleting.
+
+Delete only artifacts that are clearly:
+
+* temporary,
+* reproducible,
+* not referenced,
+* not required for provenance,
+* not needed for the current research record.
+
+Do NOT delete important evaluation reports or evidence needed to explain previous experiments.
+
+---
+
+## CACHE / BUILD FILES
+
+It is generally safe to remove clearly disposable artifacts such as:
+
+* `__pycache__/`
+* `.pyc`
+* temporary logs
+* temporary copied databases
+* temporary experiment workspaces
+
+But verify before deleting anything that may be required for the application.
+
+Do not delete:
+
+* `.venv/`
+* model files
+* Chroma/Qdrant data
+* embeddings
+* indexes
+* datasets
+
+unless you have verified that they are safely reproducible and not required by the current project.
+
+---
+
+## DUPLICATE CODE
+
+Look for:
+
+* duplicate versions of the same module
+* abandoned prototype implementations
+* old RAG implementations no longer imported
+* duplicate agent implementations
+* obsolete scripts
+* temporary migration scripts
+* old test harnesses
+
+Do not delete a duplicate solely because the filename looks old.
+
+Verify imports/references first.
+
+If an old implementation is intentionally retained for regression compatibility, KEEP IT.
+
+---
+
+## DOCUMENTATION
+
+Preserve useful documentation explaining:
+
+* current architecture
+* AMG integration
+* retrieval investigations
+* safety behavior
+* grounding
+* experiment conclusions
+* known limitations
+
+Do not delete research documentation simply because the experiment was not promoted.
+
+For example, the conclusion that **New4 should NOT be promoted** is useful research history.
+
+---
+
+## REQUIRED PROCESS
+
+### STEP 1 — Inventory
+
+Create a categorized inventory:
+
+```text
+KEEP — active production
+KEEP — tests
+KEEP — research/history
+KEEP — vendor/upstream
+REVIEW — uncertain
+DELETE — clearly unnecessary
+```
+
+For every proposed deletion, provide:
+
+```text
+PATH
+REASON
+REFERENCES CHECKED
+WHY IT IS SAFE TO DELETE
+```
+
+### STEP 2 — Dependency verification
+
+Before deleting any source file, search the entire repository for references to it.
+
+Check:
+
+* imports
+* `from ... import ...`
+* subprocess/script calls
+* configuration references
+* test references
+* YAML references
+* documentation commands that are still part of the supported workflow
+
+If a reference exists and its importance is unclear, KEEP the file.
+
+### STEP 3 — Cleanup
+
+Only after the inventory and dependency checks:
+
+* delete clearly unnecessary files
+* remove disposable caches/temp artifacts
+* consolidate only when completely safe
+* do not redesign code
+
+### STEP 4 — Validate
+
+After cleanup run the existing project test suite.
+
+At minimum verify:
+
+1. imports still work
+2. application starts
+3. AMG retrieval still works
+4. Patient RAG still works
+5. grounding still works
+6. safety still works
+7. Phase 6 orchestration still works
+8. existing tests still pass
+
+Do NOT modify tests just to make them pass.
+
+---
+
+## ABSOLUTE RESTRICTIONS
+
+Do NOT:
+
+* change retrieval behavior
+* change the AMG backend
+* change embeddings
+* change top-k
+* change gates
+* change prompts
+* change agents
+* change safety logic
+* change grounding logic
+* change Patient RAG behavior
+* add benchmark labels
+* add diagnosis labels to runtime reasoning
+* change DDXPlus label handling
+* add new medical data
+* retrain models
+* rebuild the medical vector database
+* download models
+* make cloud API calls
+* perform another retrieval experiment
+* promote New3/New4
+* implement the next agentic-system phase
+
+This task is ONLY cleanup.
+
+---
+
+## MEMORY SAFETY
+
+I have a 16 GB RAM machine.
+
+Be conservative.
+
+Do not load large datasets, models, vector stores, or multiple services just to perform cleanup.
+
+Prefer:
+
+* static inspection
+* repository search
+* import/reference analysis
+* lightweight tests
+
+Avoid unnecessary parallel processes.
+
+---
+
+## FINAL REPORT
+
+At the end, report:
+
+### 1. Files deleted
+
+Exact paths.
+
+### 2. Files retained
+
+Especially important experimental/research files that were intentionally preserved.
+
+### 3. Files marked uncertain
+
+Anything you deliberately did not delete because its role was unclear.
+
+### 4. Production files changed
+
+Expected result: **none**.
+
+If any production file was modified, explain exactly why.
+
+### 5. Tests
+
+Report:
+
+```text
+Before cleanup: X tests
+After cleanup: Y tests
+Passed: X
+Failed: X
+Skipped: X
+```
+
+### 6. System verification
+
+Report whether these still work:
+
+```text
+AMG retrieval: PASS/FAIL
+Patient RAG: PASS/FAIL
+Grounding: PASS/FAIL
+Safety: PASS/FAIL
+Phase 6 orchestration: PASS/FAIL
+Application startup: PASS/FAIL
+```
+
+### 7. Final status
+
+Clearly state one of:
+
+`CLEANUP COMPLETE — PRODUCTION UNCHANGED`
+
+or
+
+`CLEANUP STOPPED — UNCERTAIN FILES WERE PRESERVED`
+
+Do not proceed to any new feature implementation after cleanup.

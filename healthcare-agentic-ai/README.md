@@ -1,212 +1,100 @@
-# Healthcare RAG — Phases 1–5
+# Healthcare Agentic AI — human–AI decision-support research prototype
 
-Research-only retrieval infrastructure using **synthetic DDXPlus patients**.
-No clinical validity, diagnostic correctness, or safety for clinical use is claimed.
+Research prototype for **synthetic DDXPlus cases**, not clinical advice or a clinically validated diagnostic system.
 
-## Implemented
-
-- Streaming DDXPlus ZIP/CSV parser and label-free `PatientRepresentation`.
-- Training-only ingestion, local `BAAI/bge-small-en-v1.5` embeddings (CPU default),
-  normalized vectors and persistent local Qdrant with cosine distance.
-- Patient-case semantic retrieval using validation features as queries.
-- Strict payload allowlist: `patient_id`, `split`, `text`, `source`.
-- Deterministic UUID point IDs and idempotent upserts.
-- Embedding manifest checks (model, dimension, normalization, context length,
-  representation version and prompt), full payload/vector audits, source-text
-  reconstruction, held-out insertion rejection, persistence checks and unit tests.
-
-**Phase 3 implemented:** separate medical-knowledge XML/PDF/text ingestion, license/provenance checks, BGE embeddings and the `medical_knowledge` Qdrant collection. The actual development corpus contains 5 documents / 87 chunks (MedlinePlus and PMC); the WHO adapter is review-gated with zero WHO documents indexed. See [Phase 3 sources, commands and validation](docs/medical_knowledge.md).
-
-**Phase 4 implemented:** GPT-5.6-Sol through the OpenAI/Azure-compatible
-Responses API, isolated Patient Agent -> dual existing RAG -> Diagnostic Agent ->
-Clinical Critic, strict structured outputs, provenance guards and post-inference
-evaluation. See [setup and limits](docs/phase4.md) and
-[historical migration validation](docs/phase4-validation.md). The
-[abstention-contract follow-up](docs/abstention-contract.md) completed one real
-end-to-end case with a valid abstention under unchanged grounding checks. The
-Clinical Critic executed and requested substantive revisions; technical completion
-does not mean clinical endorsement or diagnostic correctness.
-
-**Phase 5 implemented:** a separate stateful, deterministic Orchestrator reuses the
-Phase 4 agents with frozen evidence, mandatory grounding gates, versioned critiques,
-at most two clinical revisions and explicit abstention/blocked/failure outcomes.
-See [architecture and usage](docs/phase5.md) and [validation](docs/phase5-validation.md).
-The Phase 4 runner remains unchanged as the sequential baseline.
-
-**Not implemented:** comprehensive clinical guidelines coverage, broader cloud
-validation, human-in-the-loop feedback or feedback memory. No autonomous prescribing, treatment execution or
-patient-facing advice.
-
-## Environment and commands
-
-Python 3.10+; the existing workspace `.venv` can be reused. Dependencies are declared
-in `requirements.txt`: sentence-transformers (including PyTorch) and qdrant-client.
-No LangChain, LangGraph, cloud embeddings, GPU or Docker is required.
-Phases 1-3 and offline tests do not require an LLM or API key. Real Phases 4-5
-require dedicated GPT_SOL credentials and the OpenAI SDK. RAG, Qdrant,
-DDXPlus and embeddings remain local; generation prompt context goes to the cloud.
-The current parent workspace uses **uv** (its venv does not bundle pip): from that
-workspace use `uv pip install -r healthcare-agentic-ai/requirements.txt` if needed,
-and `uv pip check` to verify compatibility. The pip command below is for pip-based
-environments.
-
-From `healthcare-agentic-ai/`, using your environment's Python:
+## Current architecture
 
 ```text
-python -m pip install -r requirements.txt
-python -m unittest discover -s tests -v
-python scripts/prepare_ddxplus.py --inspect
-python scripts/build_patient_index.py --limit 1000 --allow-download --report outputs/phase2/index-first.json
-python scripts/test_patient_rag.py --queries 10 --top-k 5 --report outputs/phase2/retrieval.json
-python scripts/audit_patient_index.py --expected-count 1000 --report outputs/phase2/audit.json
-python scripts/build_patient_index.py --limit 1000 --report outputs/phase2/index-second.json
+Label-free DDXPlus case
+  -> Patient Agent (exact validated facts)
+  -> Patient Case RAG (existing BGE / Qdrant training cases)
+  -> AMG MedlinePlus evidence (existing MiniLM / Chroma snapshot)
+  -> immutable, provenance-checked evidence snapshot
+  -> Diagnostic Agent -> Grounding -> Clinical Critic -> Safety
+  -> bounded revision / final research output / abstention / block / human review
+  -> typed FinalDecision (ALLOW / HUMAN_REVIEW / BLOCK)
 ```
 
-On Windows, the existing parent environment's executable is
-`..\.venv\Scripts\python.exe`; on POSIX it is `../.venv/bin/python`.
-From the parent workspace, tests can also run as:
-`python -m unittest discover -s healthcare-agentic-ai/tests -t healthcare-agentic-ai -v`.
-Scripts insert the project import path themselves and can run from either directory.
-From the parent workspace, prefix script paths with `healthcare-agentic-ai/`.
-Explicit relative paths such as `--report` and `--storage-path` are resolved from
-your current working directory, unlike the project-anchored defaults.
+**AMG retrieves evidence; it does not diagnose.** The active backend is the supplied AMG `medlineplus_lab.Retriever`, with its existing alias lookup, complete-unit passages and 1.10 squared-L2 gate unchanged. Its historical `experimental` collection name is retained to avoid reindexing or falsifying snapshot identity. The graph/answer demo, web searches and answer synthesis are **not** part of this application. The original plain AMG demo store was not the improved MedlinePlus dataset implementation.
 
-To run all checks sequentially and retain logs plus machine-readable reports:
-`python scripts/validate_phase2.py --allow-download`.
-The validator upserts without resetting the collection and audits exactly `--limit`
-records (default 1,000); a collection containing additional records will fail that
-count check. Use a separate `QDRANT_PATH` for an independent bounded run rather
-than deleting an index you need. The default output directory is
-`outputs/phase2-validation` under the project; reruns overwrite its reports/logs.
-Use `--output-dir outputs/phase2-validation-rerun` to preserve earlier evidence.
+## Layout
 
-The first embedding download is opt-in; later runs use cached local files.
-If Hugging Face Xet stalls, retry with `HF_HUB_DISABLE_XET=1` (PowerShell:
-`$env:HF_HUB_DISABLE_XET = "1"`). This changes download transport, not the model.
-A missing model fails clearly, with no substitute embedding implementation.
-Run one process at a time against a local Qdrant directory (exclusive lock).
-Omitting `--limit` streams the full training split in batches, but embedded Qdrant
-keeps vectors in memory: full-corpus capacity has not been validated. Start bounded.
-`--reset` explicitly deletes the selected collection; a mismatched manifest is
-rejected before reset, so use a new collection/path for a changed embedding setup.
+| Path | Responsibility |
+|---|---|
+| `application/` | Workflow composition, CPU/index preflight and final decision/review handoff |
+| `rag/amg/` | Thin AMG adapter, native provenance contract, evidence service |
+| `rag/patient_*`, `rag/embeddings.py`, `rag/vector_store.py` | Separate existing Patient Case RAG |
+| `rag/agents/`, `rag/llm/` | Patient/diagnostic/critic contracts and structured provider |
+| `orchestration/phase6/`, `safety/` | Versioned workflow, grounding, bounded revision, safety |
+| `vendor/amg/` | Supplied AMG source, datasets, snapshot stores, tests and research reports (formerly `NEW RAG/AMG-RAG`) |
+| `scripts/run_phase6.py`, `scripts/demo.py` | Supported batch/interactive entrypoints |
+| `scripts/verify_amg_run.py` | Offline source/grounding/safety-input verification of saved runs |
+| `tests/` | Existing regressions and new AMG boundary/integration tests |
+| `docs/` | Current architecture and merge verification |
+| `archive/pre_amg/` | Previous docs/output artifacts/OKF index and original README; preserved uncommitted research |
+| `outputs/` | New local validation and run artifacts (gitignored) |
 
-## Data and configuration
+The old medical Qdrant retriever, focused/hybrid/reranking experiments and Phase 4/5 code remain **compatibility/research code only** for existing regression tests. Neither supported entrypoint constructs them. Historical commands and archived integrity manifests are not the active application. No original dataset, index, credential or benchmark label was deleted or rewritten.
 
-Required original files are `release_evidences.json`, `release_conditions.json`,
-and `release_{train,validate,test}_patients.zip`. ZIPs contain extensionless CSVs;
-`.csv` members are supported too. No full extraction or dataset copy is necessary.
+## Run (Windows terminal, from this directory)
 
-Dataset path precedence: `--data-dir`, `DDXPLUS_DATA_DIR`, project `data/ddxplus`
-when metadata exists there, otherwise parent workspace `data/ddxplus`.
-Default Qdrant storage: `healthcare-agentic-ai/data/qdrant/patient_cases`;
-collection: `ddxplus_patient_cases`. These defaults are anchored to the project.
+Use the parent workspace environment, which already contains the cached BGE and MiniLM models:
 
-Environment overrides: `EMBEDDING_MODEL`, `EMBEDDING_DEVICE` (default `cpu`),
-`EMBEDDING_BATCH_SIZE`, `QDRANT_PATH`, `QDRANT_COLLECTION`.
-CLI `--storage-path` overrides Qdrant storage; indexing `--batch-size` defaults to 16.
-
-## Research data boundary
-
-Only TRAIN records are indexed. Validation/test are query/evaluation inputs only.
-`PATHOLOGY` and `DIFFERENTIAL_DIAGNOSIS` are never read to build features or stored
-in vector payloads. Never serialize a whole label-containing `PatientRecord`
-with `dataclasses.asdict()` for embeddings. Evaluation labels are separate and
-opt-in (`include_labels=True`); Phase 4 diagnosis-label metrics are computed only
-by the separate post-inference evaluator.
-
-The audit checks every stored field, split, vector dimension and deterministic ID,
-and compares payloads to regenerated label-free TRAIN source features. Disease
-words can legitimately occur in antecedent questions; leakage protection relies
-on feature/label separation, not deleting medical words. Arbitrary raw text passed
-to the low-level retrieval API must already be label-free.
-
-Patient text preserves original decoded questions/answers, demographics and initial
-findings. Unlisted findings are not assumed absent. Unknown codes or malformed
-rows fail closed. Texts exceeding the model context are **truncated for embedding**;
-counts are logged/reported and original full text remains in Qdrant. No invented
-medical summary compensates for truncation.
-
-Scores are **cosine retrieval similarity scores**, not diagnostic probabilities or
-clinical confidence. Working retrieval does not establish retrieval quality.
-Recall/MRR or diagnosis-label agreement need a separate, leakage-safe offline
-protocol; cross-split feature duplication also needs study before quality claims.
-
-## Python API
-
-```python
-from rag.patient_parser import DDXPlusParser
-from rag.patient_rag import PatientCaseRAG
-
-query = next(DDXPlusParser().iter_patients('validate', limit=1)).patient
-with PatientCaseRAG() as rag:
-    hits = rag.retrieve(query, top_k=5)
-    for hit in hits:
-        print(hit['patient_id'], hit['score'], hit['source'], hit['text'])
+```bat
+..\.venv\Scripts\python.exe -m pip install -r requirements.txt
+..\.venv\Scripts\python.exe scripts\demo.py --list-samples
+..\.venv\Scripts\python.exe scripts\demo.py --validate-only
+..\.venv\Scripts\python.exe scripts\demo.py --sample 1 --architecture
+..\.venv\Scripts\python.exe scripts\run_phase6.py --queries 1
 ```
 
-See [validation](docs/validation.md) for actual execution results and artifacts,
-and [architecture](docs/architecture.md) for the reference review and future plans.
-Phase 3 is retrieval-only and separate from patient cases. See
-[medical knowledge documentation](docs/medical_knowledge.md) for exact sources,
-licensing, reproduction commands and actual validation evidence.
+If pip is unavailable in a uv-created environment, use `uv pip install -r requirements.txt --python ..\.venv\Scripts\python.exe`. On other platforms, use the Python interpreter for the environment containing these requirements.
 
-## Phase 4 quick start
+- **No automatic indexing, downloads, fallback retriever or API calls during local validation.** Missing/stale/corrupt AMG snapshots fail closed.
+- Existing stores: `data/qdrant/patient_cases/`, `vendor/amg/knowledge/medlineplus/`, and `vendor/amg/knowledge/medlineplus_lab/`. They are local assets, not committed to Git. Preserve the whole vendor tree when moving the project.
+- Dataset default: this project's `data/ddxplus/`, then workspace `../data/ddxplus/`. Alternatively pass `--data-dir vendor/amg/examples` to use the supplied AMG DDXPlus copies. Labels are not loaded at runtime.
+- Generation uses the **existing workspace `../.env` GPT_SOL configuration**. The vendor `.env` is not read by this integration. No credentials were changed or copied into source.
+- Live generation sends synthetic patient facts and retrieved evidence to the configured cloud deployment. No web-search service is used.
+- `--top-k` and `--medical-top-k` are independent (1–20). The old `--medical-storage-path` option is deliberately removed: the medical backend opens AMG's hash-pinned published snapshots, not the obsolete Qdrant store.
+- Two different cached embedding models are necessary for the existing, different vector spaces: one BGE for patient cases and one MiniLM for AMG. Each loads once per batch and cases run sequentially; no cross-encoder or graph expansion. A 2 GB available-memory startup check is a conservative preflight, **not** a hard process memory limit.
 
-With prebuilt local patient/medical indexes, cached BGE embeddings and dedicated
-`GPT_SOL_API_KEY` / `GPT_SOL_ENDPOINT` settings in the parent workspace `.env`:
+If starting without the local assets, explicitly build the patient index with `scripts/build_patient_index.py` and follow `vendor/amg/README.md` for explicit MedlinePlus ingestion/lab build. Model caching/builds are opt-in setup work, never automatic application behavior.
 
-```text
-python scripts/run_phase4.py --queries 1 --top-k 1
-python -m unittest tests.test_phase4 tests.test_openai_provider tests.test_phase4_recovery -v
+## Verification
+
+```bat
+..\.venv\Scripts\python.exe -m unittest discover -s tests -t .
+..\.venv\Scripts\python.exe scripts\verify_amg_run.py outputs\amg-live\sample_case_001.json
 ```
 
-Generation uses only `gpt-5.6-sol` via the Responses API. No coding-agent tools
-or alternate generation backend are exposed. Defaults: one validation case,
-retrieval top-k 1 for both RAGs, timeout 300 seconds, output cap 8192, and request
-byte cap 100000. These are application limits, not a claimed model context size.
-The deployment rejects `temperature`: the requested experiment value remains 0,
-but the API parameter is omitted and reports mark effective sampling as
-`deployment_default`, **not deterministic temperature 0**.
+AMG's full standalone suite also tests optional graph/LangChain demos. Run it from `vendor/amg` in an environment with `vendor/amg/requirements.txt` installed. Those optional graph dependencies are **not required by the integrated application**.
 
-Default output is a fresh `outputs/phase4/<timestamp>/` directory. See
-[configuration, privacy and opt-in integration test](docs/phase4.md).
-The runner only queries existing indexes; it never modifies training cases.
-Retrieval similarity is not diagnostic probability; critic self-assessment is not
-calibrated clinical confidence. Phase 4 does not establish clinical effectiveness
-or safety. Phase 5 adds research orchestration, not clinical approval.
+See [merge verification](docs/amg-merge.md) for actual commands/results and limitations. The real first validation case completed as **BLOCK** with no technical failure, not as a successful diagnosis. A safety block is an intended terminal workflow result, not evidence of clinical effectiveness.
 
 
-## Phase 5 quick start
+## Final decisions and pending human review
 
-```text
-python scripts/run_phase5.py --queries 1 --top-k 1 --max-requests 14 --max-seconds 600
-python -m unittest discover -s tests -t . -p "test_orchestration*.py" -v
+The completed workflow is validated in [FINAL implementation results](docs/final-system-validation.md);
+see also the [pre-change audit](docs/final-system-audit.md). The latest real run completed
+all stages and correctly returned **BLOCK**, with no technical failure and no released diagnosis.
+
+Batch execution writes `final_decision_001.json` alongside `sample_case_001.json` and the
+run report. The final artifact contains status, cited evidence, deterministic grounding,
+critic/safety findings, uncertainty and an explicit review state. **BLOCK/HUMAN_REVIEW
+withhold the diagnostic proposal**; the separate local workflow audit retains it for
+human inspection, not clinical release. Review remains `pending`; no approval or scheduling
+is simulated. `ALLOW` only means eligible research output after all existing gates.
+
+The Critic now receives a typed claim/reference grounding report. Citation presence is
+never labeled proof of medical support. Patient-case retrieval supplies analogous training
+cases; the current patient's exact facts are a separate inventory. Retrieval and safety
+policies remain unchanged; no New3/New4 experiment was promoted.
+
+```bat
+..\.venv\Scripts\python.exe -B scripts\run_phase6.py --queries 1 --output-dir outputs\my-new-run
+..\.venv\Scripts\python.exe -B scripts\verify_amg_run.py outputs\my-new-run\sample_case_001.json --final-decision outputs\my-new-run\final_decision_001.json
 ```
 
-This separate runner reads label-free validation features and queries existing
-indexes once per case. Output goes to a fresh `outputs/phase5/<timestamp>/`.
-Inspect terminal `status` and `outcome`: exit zero includes valid abstention,
-unresolved and safety-blocked research runs, not only accepted-with-limitations
-results. No HITL or clinical-effectiveness claim is implemented.
-
-
-## Phase 6: isolated output-safety validation
-
-Phase 6 adds a dedicated Safety Validator after the validated Clinical Critic and
-before routing, without changing the Phase 5 runner, contracts, prompts or tests.
-It uses the same frozen evidence and provider, with application-owned CONTINUE /
-HUMAN_REVIEW / BLOCK decisions and fail-closed safety checks on each new version.
-CONTINUE is not clinical clearance. HUMAN_REVIEW is a terminal withheld-output
-marker only: no human review is scheduled or implemented.
-
-```text
-python scripts/run_phase6.py --queries 1 --top-k 1
-python -m unittest discover -s tests -t . -p test_phase6*.py -v
-python -m unittest discover -s tests -t . -p test_safety*.py -v
-```
-
-The runner writes fresh versioned artifacts under `outputs/phase6/`. Exit zero
-includes withheld research outcomes; inspect status, outcome and safety coverage.
-The original Phase 4/5 commands and behavior remain unchanged. No Graph RAG, HITL,
-GUI, prescribing, tool execution or new diagnostic agent is added.
-See [architecture and limits](docs/phase6.md) and [validation](docs/phase6-validation.md).
+Use a new output directory. The second command checks native source provenance, exact
+safety input and the recomputed final handoff without a model or API call. Existing local
+assets/configuration are sufficient; no rebuild or installation was needed for this task.

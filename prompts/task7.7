@@ -1,0 +1,611 @@
+Task 7.7 — Prefix-Only Role Control Experiment
+
+Continue from the completed Task 7.6 implementation.
+
+Objective
+
+Run one narrowly controlled, label-free experiment to determine whether a short role prefix alone changes the local cross-encoder's behavior.
+
+Task 7.6 changed several parts of the reranker input simultaneously:
+
+added role wording
+converted the original query into a sentence
+added a generic question
+replaced some original query boilerplate
+
+Task 7.7 must isolate only the role-prefix effect.
+
+The experiment must use the same frozen depth-50 candidate pools from Task 7.5/7.6.
+
+Do NOT redesign retrieval.
+
+1. Frozen baseline
+
+Use exactly the existing Task 7.5/7.6 frozen depth-50 pools:
+
+validate:1
+validate:2
+validate:3
+
+Expected candidate pools:
+
+validate:1 → 593 fused chunks
+validate:2 → 416 fused chunks
+validate:3 → 425 fused chunks
+
+Process one case at a time.
+
+Do not perform fresh Qdrant retrieval, BM25 retrieval, query generation, RRF generation, candidate expansion, or index access beyond what is necessary to verify the frozen artifacts.
+
+The candidate IDs, source payloads, supporting-query assignments, dense/BM25 ranks, RRF ranks/scores, and candidate ordering must remain identical to the frozen checkpoint.
+
+2. Do NOT use benchmark labels
+
+This experiment is strictly label-free.
+
+Do NOT read, inspect, import, infer, or use:
+
+DDXPlus pathology labels
+DDXPlus differential-diagnosis labels
+hidden answer keys
+relevance labels
+the old 92-proposal benchmark
+human relevance judgments
+benchmark-derived tuning information
+
+Use only the observed patient findings already present in the frozen Task 7.5/7.6 records.
+
+The parser must continue using:
+
+DDXPlusParser(..., include_labels=False)
+
+If any hidden label or benchmark artifact is required to proceed, STOP and report it instead of using it.
+
+3. Exactly one experimental change
+
+Keep the original reranker query verbatim.
+
+Only prepend a short role marker.
+
+Current-finding format
+
+Original query:
+
+sweating; shortness of breath; palpitations; numbness and tingling
+
+Experimental query:
+
+Current findings: sweating; shortness of breath; palpitations; numbness and tingling
+
+The text after Current findings: must be byte-for-byte identical to the original query.
+
+Do NOT:
+
+rewrite concepts
+reorder concepts
+add synonyms
+remove concepts
+convert semicolons to commas
+add a question
+add explanatory prose
+add patient interpretation
+add diagnosis names
+add demographic information unless it was already part of the original query
+change capitalization of the original query
+change punctuation inside the original query
+Historical/background format
+
+Original example:
+
+child asthma symptoms and clinical information
+
+Experimental:
+
+Historical/background: child asthma symptoms and clinical information
+
+Again, the entire original query must remain exactly unchanged after the prefix.
+
+Use only these two fixed prefixes:
+
+Current findings:
+Historical/background:
+
+Do not create additional prefixes.
+
+Do not tune the prefixes.
+
+Do not test alternative wording.
+
+Do not test multiple punctuation variants.
+
+Do not add a trailing question.
+
+This is specifically a prefix-only control experiment.
+
+4. Candidate/pair assignment must remain frozen
+
+For every candidate-role pair:
+
+retain the exact candidate
+retain the exact evidence text
+retain the exact supporting query
+retain the exact query role
+retain dense rank
+retain BM25 rank
+retain RRF rank
+retain RRF score
+retain candidate ordering
+
+Only the reranker query string changes.
+
+Do NOT select a different supporting query because it scores better under the prefix.
+
+Do NOT create new candidate/query pairs.
+
+Do NOT search for a more favorable query.
+
+5. Reranker must remain unchanged
+
+Use exactly the existing local model:
+
+cross-encoder/ms-marco-MiniLM-L-6-v2
+
+Pinned revision:
+
+233902d25c440f23af6f7d6e94d2946bac0bee0a
+
+Keep:
+
+CPU execution
+batch size = 2
+two PyTorch/BLAS threads
+cached weights only
+maximum pair length = 512
+existing score extraction
+existing ranking formula
+existing selection logic
+
+Do NOT:
+
+download another model
+change the reranker
+fine-tune the reranker
+change batch size
+add workers
+change model precision
+change tokenization
+change max length
+normalize logits
+calibrate logits
+add score offsets
+change thresholds
+
+The only neural-input difference is the fixed role prefix.
+
+6. Positive-logit eligibility remains unchanged
+
+This is critical.
+
+Keep the existing rule:
+
+raw role logit > 0
+
+A candidate with a zero or negative raw role logit remains ineligible.
+
+Do NOT:
+
+lower the threshold
+remove the threshold
+replace the threshold with cosine similarity
+replace it with keyword overlap
+create a fallback
+convert negative scores into positive scores
+add a minimum cosine score
+add a manual relevance override
+
+The experiment must determine whether the prefix itself changes eligibility.
+
+7. Everything downstream remains frozen
+
+Do not change:
+
+concept coverage
+demographic features
+RRF contribution
+diversity rules
+document limits
+history allocation
+source diversity
+near-duplicate handling
+final evidence limit
+FrozenEvidence
+EvidenceSnapshot
+SHA-256 fingerprints
+provenance validation
+grounding
+citation validation
+Clinical Critic
+Safety Validator
+abstention
+Diagnostic Agent
+Explanation Agent
+production/demo defaults
+
+Do not run the downstream clinical agents.
+
+This is a retrieval/reranker-input experiment only.
+
+8. Baseline control
+
+For each case, first freshly score the original query format using the same local model.
+
+Verify that the freshly scored original input reproduces the Task 7.6/Task 7.5 frozen baseline within the existing numerical tolerance.
+
+Use the same tolerance already established in Task 7.6.
+
+Record:
+
+maximum absolute logit drift
+eligibility changes
+final evidence IDs
+evidence snapshot hash
+
+If baseline reproduction fails, STOP before running the experimental prefix.
+
+Do not silently continue with a changed baseline.
+
+9. Experimental scoring
+
+After baseline verification:
+
+Load one frozen case.
+Reconstruct/verify its label-free PatientState.
+Verify candidate/source hashes.
+Verify the original query strings.
+Build prefix-only queries.
+Verify that each experimental query satisfies:
+experimental_query == fixed_prefix + original_query
+Verify that original_query itself is byte-for-byte unchanged.
+Token-check all pairs before scoring.
+Refuse any pair exceeding 512 tokens.
+Score sequentially with batch size 2.
+Recompute only the neural-score-dependent fields.
+Run the unchanged selector.
+Generate the unchanged evidence snapshot.
+Audit selected and rejected candidates.
+Release temporary objects before moving to the next case.
+
+Do not run cases in parallel.
+
+10. Important measurements
+
+The primary question is NOT whether the final evidence list changes.
+
+The primary measurement is:
+
+original raw logit
+        ↓
+prefix raw logit
+        ↓
+score delta
+        ↓
+eligibility transition
+        ↓
+ranking transition
+        ↓
+final selection
+
+For each candidate-role pair record:
+
+candidate ID
+title
+section
+source
+evidence text hash
+original query
+prefixed query
+query role
+supporting fact IDs
+dense rank
+BM25 rank
+RRF rank
+RRF score
+original raw logit
+prefix raw logit
+logit delta
+original eligibility
+prefix eligibility
+original reranker rank
+prefix reranker rank
+original removal reason
+prefix removal reason
+final selection status
+11. Specifically inspect previously important candidates
+
+Make sure the audit explicitly reports these passages if they are present in the frozen pools:
+
+Case 1
+Anemia — basic definition
+Chronic Kidney Disease — basic information
+Fainting
+Case 2
+Asthma in Children — symptoms
+Asthma in Children — What is asthma?
+Asthma in Children — How is asthma in children diagnosed?
+Panic Disorder — symptoms
+Depression — symptoms
+Anxiety — symptoms
+Teen Depression — symptoms
+Case 3
+Flu — symptoms
+Older Adult Mental Health
+
+Do not treat retrieval of any disease-specific passage as evidence that the patient has that disease.
+
+The purpose is only to inspect medical-background retrieval.
+
+12. Required comparison
+
+Produce a table like:
+
+Case	Input	Positive current/history	Eligibility transitions	Final evidence	Time	Peak RAM
+1	Original	...	...	...	...	...
+1	Prefix-only	...	...	...	...	...
+2	Original	...	...	...	...	...
+2	Prefix-only	...	...	...	...	...
+3	Original	...	...	...	...	...
+3	Prefix-only	...	...	...	...	...
+
+Also provide a transition summary:
+
+nonpositive → positive
+positive → nonpositive
+positive → positive
+nonpositive → nonpositive
+
+for both current and historical roles
+
+The most important number is:
+
+nonpositive → positive
+
+If this remains zero, say so explicitly.
+
+13. Separate score changes from useful retrieval changes
+
+Do NOT interpret:
+
+higher logit
+
+as automatically meaning:
+
+better medical evidence
+
+Do NOT interpret:
+
+nonempty final evidence
+
+as success.
+
+Do NOT interpret:
+
+empty final evidence
+
+as a failure of the safety system.
+
+Inspect whether the prefix changes the eligibility of the previously observed useful candidates.
+
+14. Memory safety
+
+The user's machine has 16 GB RAM and a practical ceiling of 15 GB.
+
+Continue using:
+
+scripts/run_memory_bounded.py
+
+Keep the existing outer stop at 14 GB.
+
+Keep the existing synchronous safety check at 13.5 GB if Task 7.6 established that mechanism.
+
+Requirements:
+
+one case at a time
+sequential scoring
+batch size 2
+two threads
+no workers
+no parallel experiments
+no model downloads
+no corpus loading
+no reindexing
+no embedding generation
+
+Log:
+
+peak sampled system memory
+process-tree RSS
+current case
+current phase
+scoring progress
+
+If memory approaches the stop threshold, STOP and write the phase/memory report.
+
+15. File integrity
+
+Before starting, hash the protected files/artifacts used by Task 7.5 and Task 7.6.
+
+After completion, verify them again.
+
+The following must remain unchanged:
+
+Qdrant/index files
+BGE embeddings
+BM25
+RRF
+chunking
+medical corpus
+Task 7.5 implementation
+Task 7.6 implementation
+evidence contracts
+grounding
+citation validation
+diagnostic agent
+clinical critic
+safety validator
+production defaults
+benchmark artifacts
+
+If a protected file changes unexpectedly, STOP and report it.
+
+16. Tests
+
+Add focused deterministic tests for:
+
+Exact original-query preservation.
+Exact fixed-prefix construction.
+No concept rewriting.
+No concept reordering.
+No demographic additions.
+Frozen candidate IDs.
+Frozen supporting-query assignment.
+Frozen evidence text.
+Token-budget enforcement.
+Baseline reproduction.
+Positive-logit rule unchanged.
+Score-only experimental change.
+Snapshot/provenance preservation.
+Memory-stop behavior.
+Protected-file integrity.
+
+Then run the relevant regression suite.
+
+Use the existing memory-bounded runner.
+
+Do not run the benchmark modules.
+
+Do not run cloud/integration tests unless they are already required by an existing deterministic contract; no cloud calls should be made for this experiment.
+
+17. Artifacts
+
+Create a new output directory only.
+
+Do NOT overwrite Task 7.4, Task 7.5, or Task 7.6 artifacts.
+
+Suggested:
+
+outputs/task7.7/prefix-role-control/
+
+Produce at minimum:
+
+configuration.json
+comparison.json
+comparison.md
+frozen-files-before.json
+frozen-files-after.json
+
+validate-1/
+validate-2/
+validate-3/
+
+For each case include:
+
+baseline.json
+prefix_only.json
+pair-comparison.json
+summary.json
+
+The pair comparison must contain enough information to trace every eligibility transition.
+
+18. Implementation requirements
+
+Keep the implementation isolated under the experimental retrieval area.
+
+Suggested files:
+
+rag/experimental_medical/reranker_prefix_control.py
+scripts/experiment_reranker_prefix_control.py
+tests/test_reranker_prefix_control.py
+docs/task7.7-prefix-role-control.md
+
+Do not modify production retrieval behavior.
+
+Do not modify the Task 7.4 or Task 7.5 implementation.
+
+Do not modify Task 7.6 behavior.
+
+The experiment must be opt-in and offline.
+
+19. Interpretation
+
+At the end, classify the result using evidence from the experiment.
+
+Possible outcomes:
+
+Outcome A — Prefix helps
+
+If previously useful/current candidates move from:
+
+nonpositive → positive
+
+without changing candidate pools or evidence contracts, report that the prefix itself appears to affect eligibility.
+
+Do NOT promote it automatically.
+
+Outcome B — Prefix changes scores but does not recover eligibility
+
+If scores move but no previously useful current candidate becomes eligible, conclude that the prefix alone does not solve the demonstrated bottleneck.
+
+Do not tune the threshold.
+
+Outcome C — Prefix harms previously recovered evidence
+
+If previously selected useful evidence becomes ineligible or substantially degraded, report that clearly.
+
+Do not compensate with another arbitrary prefix.
+
+Outcome D — Essentially no meaningful score change
+
+If the prefix has negligible effect, record that the role marker itself has little influence under this model/input configuration.
+
+20. Strict stopping condition
+
+After completing Task 7.7:
+
+STOP.
+
+Do not automatically implement the next experiment.
+
+Do not test another prefix.
+
+Do not test another reranker.
+
+Do not change the positive-logit threshold.
+
+Do not increase candidate depth.
+
+Do not modify chunking.
+
+Do not expand the corpus.
+
+Do not modify production retrieval.
+
+Do not run the diagnostic/safety pipeline.
+
+Return the complete Task 7.7 report.
+
+The report must end with:
+
+What changed.
+What remained frozen.
+Whether any nonpositive → positive transitions occurred.
+Whether previously useful candidates became eligible.
+Whether pediatric asthma background was preserved.
+Whether case-3 acute-symptom evidence was recovered.
+Peak memory.
+Tests passed.
+Protected files unchanged.
+Exactly one recommendation for what should be investigated next, without implementing it.
+
+The recommendation must be based strictly on the observed Task 7.7 results.
+
+Do not claim clinical accuracy, diagnostic correctness, reduced BLOCK rate, or generalization from these three cases.

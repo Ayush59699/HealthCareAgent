@@ -1,0 +1,605 @@
+RESULTS OF PREVIOUS RUN:
+ uv run python healthcare-agentic-ai/scripts/demo.py
+============================================================
+        AGENTIC HEALTHCARE DECISION SUPPORT DEMO
+============================================================
+Research Prototype
+Synthetic DDXPlus patient | GPT-5.6-Sol | Qdrant RAG
+============================================================
+Research only; not clinical advice or clinical validation.
+HUMAN_REVIEW withholds output; no human review is scheduled.
+
+[1] USE SAMPLE PATIENT (default)
+[2] ENTER PATIENT MANUALLY
+[D] Toggle detailed mode
+[Q] Quit
+Mode [1]: 1
+[1] Sample ddxplus:validate:1: age 55, sex F, 17 findings
+[2] Sample ddxplus:validate:2: age 10, sex F, 19 findings
+[3] Sample ddxplus:validate:3: age 68, sex F, 27 findings
+Sample [1], [B] Back, [Q] Quit: 2
+
+------------------------------------------------------------
+SYNTHETIC RESEARCH CASE — NOT A REAL PATIENT
+------------------------------------------------------------
+Validation case: ddxplus:validate:2
+Age: 10
+Sex: F
+Symptoms / clinical evidence: 19
+  - Have you had significantly increased sweating? = Yes
+  - Do you have pain somewhere, related to your reason for consulting? = Yes
+  - Characterize your pain: = a cramp
+  - Do you feel pain somewhere? = side of the chest(R)
+  - Do you feel pain somewhere? = flank(L)
+  - Do you feel pain somewhere? = hypochondrium(R)
+  ... 13 additional items omitted
+Relevant history: 7
+  - Do you feel anxious? = Yes
+  - Do any members of your immediate family have a psychiatric illness? = Yes
+  - Have you ever been diagnosed with depression? = Yes
+  - Do you suffer from chronic anxiety? = Yes
+  - Do you have asthma or have you ever had to use a bronchodilator in the past? = Yes
+  - Have you ever had a head trauma? = Yes
+  ... 1 additional items omitted
+Unlisted findings are unknown, not assumed absent. Dataset labels are not loaded.
+
+→ Opening existing indexes and cached embedding models (no rebuild/download)...
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 1762.99it/s]
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 1645.60it/s]
+Indexed training cases / medical chunks: 1000 / 3332
+→ Live GPT run: synthetic patient and retrieved evidence will be sent to the configured cloud deployment.
+Live call notifications are provisional; accepted outputs/gates appear in the audited walkthrough.
+
+------------------------------------------------------------
+[1] PATIENT AGENT
+------------------------------------------------------------
+Diagnostic version: None
+→ Calling [1] PATIENT AGENT...
+✓ Call returned; application validation is still required.
+
+------------------------------------------------------------
+[2] PATIENT CASE RAG
+------------------------------------------------------------
+Top-k: 1
+Query (label-free; excerpt): Patient: Age: 10 Sex: Female Symptoms / clinical evidence: - Have you had significantly increased sweating? = Yes - Do you have pain somewhere, related to your reason for consulting? = Yes - Characterize your pain: = a cramp - Do you feel pain somewhere? = side of the chest(R) - Do you feel pain somewhere? = flank(L) - Do you feel pain somewhere? = hypochond ... [excerpt]
+→ Retrieval started
+Retrieved hits (pending snapshot validation): 1
+
+------------------------------------------------------------
+[3] MEDICAL KNOWLEDGE RAG
+------------------------------------------------------------
+Top-k: 5
+Query (label-free; excerpt): pediatric female detachment; sweating; cramp; chest pain; flank; hypochondrium; breast; shortness of breath; choking; fear of dying; palpitations; numbness tingling history: anxiety; family psychiatric illness; depression; asthma clinical information red flags
+→ Retrieval started
+Retrieved hits (pending snapshot validation): 5
+
+------------------------------------------------------------
+[4] DIAGNOSTIC AGENT
+------------------------------------------------------------
+Diagnostic version: 1
+→ Calling [4] DIAGNOSTIC AGENT...
+✓ Call returned; application validation is still required.
+
+------------------------------------------------------------
+[6] CLINICAL CRITIC
+------------------------------------------------------------
+Diagnostic version: 1
+→ Calling [6] CLINICAL CRITIC...
+✓ Call returned; application validation is still required.
+
+------------------------------------------------------------
+AUDITED WALKTHROUGH — committed results, not a live event stream
+------------------------------------------------------------
+Only accepted structured output is shown. Rejected output and hidden reasoning are omitted.
+⚠ OUTPUT WITHHELD by workflow; hypotheses below are review material, not a released result.
+
+------------------------------------------------------------
+[1] PATIENT AGENT
+------------------------------------------------------------
+INPUT: label-free DDXPlus patient representation
+PROCESS: Patient Agent constructed PatientState; exact-copy validation passed.
+OUTPUT: accepted structured PatientState
+patient_id: ddxplus:validate:2
+age: 10
+sex: F
+presenting_evidence: 1
+  - Do you feel like you are detached from your own body or your surroundings? = Yes
+symptoms: 19
+  - Have you had significantly increased sweating? = Yes
+  - Do you have pain somewhere, related to your reason for consulting? = Yes
+  - Characterize your pain: = a cramp
+  - Do you feel pain somewhere? = side of the chest(R)
+  - Do you feel pain somewhere? = flank(L)
+  - Do you feel pain somewhere? = hypochondrium(R)
+  ... 13 additional items omitted
+antecedents: 7
+  - Do you feel anxious? = Yes
+  - Do any members of your immediate family have a psychiatric illness? = Yes
+  - Have you ever been diagnosed with depression? = Yes
+  - Do you suffer from chronic anxiety? = Yes
+  - Do you have asthma or have you ever had to use a bronchodilator in the past? = Yes
+  - Have you ever had a head trauma? = Yes
+  ... 1 additional items omitted
+relevant_findings: 0
+missing_information: 0
+uncertainty_notes: 1
+  - Unlisted findings are unknown, not assumed absent.
+
+------------------------------------------------------------
+FOCUSED MEDICAL RETRIEVAL AUDIT
+------------------------------------------------------------
+Query: pediatric female detachment; sweating; cramp; chest pain; flank; hypochondrium; breast; shortness of breath; choking; fear of dying; palpitations; numbness tingling history: anxiety; family psychiatric illness; depression; asthma clinical information red flags
+Candidate top-k: 5
+Retrieval status: candidate_evidence_retained
+Candidate chunk: afbf0d1a-e66b-5496-a7c9-d68437640c94
+Title: Gastroenteritis
+Similarity (not probability): 0.7171
+Disposition: DISCARD: insufficient_concept_overlap
+Candidate chunk: 198af62a-531a-56a4-af8f-17f0f600700c
+Title: Heat Illness
+Similarity (not probability): 0.7166
+Disposition: DISCARD: insufficient_concept_overlap
+Candidate chunk: 2c804e1f-2a3e-5e60-a147-99bab21e2909
+Title: Heart Attack
+Similarity (not probability): 0.7158
+Disposition: DISCARD: insufficient_concept_overlap
+Candidate chunk: ab272626-6a5b-5c57-a447-7be1847efd0a
+Title: Depression
+Similarity (not probability): 0.7138
+Disposition: RETAIN: topic_title_overlap
+Candidate chunk: 4fa2f16e-8f86-5d41-b7ec-a66a36b68493
+Title: Meningococcal Disease
+Similarity (not probability): 0.7122
+Disposition: DISCARD: insufficient_concept_overlap
+Retained topics are candidate context, not proof of clinical support.
+
+------------------------------------------------------------
+[2] PATIENT CASE RAG
+------------------------------------------------------------
+Candidate top-k: 1
+Retained: 1
+1. ID: case:ddxplus:train:514
+   Similarity (not disease probability): 0.9787
+   Source type: patient_case
+   Source: release_train_patients.zip!release_train_patients#row=514
+   Evidence excerpt: Patient: Age: 47 Sex: Male Symptoms / clinical evidence: - Have you had significantly increased sweating? = Yes - Do you have pain somewhere, related to your reason for consulting? = Yes - Characterize your pain: = a cramp - Do you feel pain somewhere? = lower chest - Do you feel pain somewhere? = side of the chest(L) - Do you feel pain somewhere? = flank(R) ... [excerpt]
+
+------------------------------------------------------------
+[3] MEDICAL KNOWLEDGE RAG — external sources
+------------------------------------------------------------
+Candidate top-k: 5
+Retained: 1
+1. ID: medical:ab272626-6a5b-5c57-a447-7be1847efd0a
+   Similarity (not disease probability): 0.7138
+   Source type: medical_knowledge
+   Source: medlineplus
+   Title: Depression
+   Evidence excerpt: much, or not enough Feeling very tired Feeling hopeless, irritable, anxious, or guilty Having aches and pains, headaches, cramps, or digestive problems Having thoughts of death or suicide Changing moods or behaviors Increasing use of alcohol or drugs Isolating from family and friends
+✓ Snapshot provenance validated: patient cases are training cases only.
+✓ Patient-case payload contract excludes pathology/differential labels.
+Medical knowledge is a separate evidence collection, not patient-case outcomes.
+The frozen patient-case and medical evidence above was supplied separately to the agents.
+
+------------------------------------------------------------
+[4] DIAGNOSTIC AGENT — committed version 1
+------------------------------------------------------------
+Status: STRUCTURED HYPOTHESES (research only)
+Patient-case evidence refs: 0
+Medical-knowledge evidence refs: 0
+Primary hypothesis: Panic attack or acute panic-like episode
+Rationale evidence refs: 10
+  - patient:symptoms:0
+  - patient:symptoms:10
+  - patient:symptoms:11
+  - patient:symptoms:12
+  - patient:symptoms:13
+  - patient:symptoms:14
+  ... 4 additional items omitted
+Supporting evidence refs: 3
+  - patient:antecedents:0
+  - patient:antecedents:3
+  - patient:symptoms:10
+Contradicting evidence refs: 0
+Differential hypothesis: Acute hyperventilation syndrome
+Rationale evidence refs: 2
+  - patient:symptoms:11
+  - patient:symptoms:15
+Supporting evidence refs: 4
+  - patient:symptoms:12
+  - patient:symptoms:13
+  - patient:symptoms:14
+  - patient:symptoms:16
+Contradicting evidence refs: 0
+Differential hypothesis: Asthma exacerbation
+Rationale evidence refs: 3
+  - patient:symptoms:11
+  - patient:symptoms:12
+  - patient:antecedents:4
+Supporting evidence refs: 0
+Contradicting evidence refs: 0
+Differential hypothesis: Undifferentiated acute cardiopulmonary or chest-wall cause of chest-region pain and dyspnea
+Rationale evidence refs: 5
+  - patient:symptoms:3
+  - patient:symptoms:5
+  - patient:symptoms:7
+  - patient:symptoms:11
+  - patient:symptoms:14
+Supporting evidence refs: 7
+  - patient:symptoms:10
+  - patient:symptoms:2
+  - patient:symptoms:4
+  - patient:symptoms:5
+  - patient:symptoms:6
+  - patient:symptoms:8
+  ... 1 additional items omitted
+Contradicting evidence refs: 0
+Missing information / abstention context: 7
+  - Episode duration, recurrence, precipitating trigger, and whether symptoms peaked together.
+  - Vital signs and objective cardiopulmonary examination findings, including respiratory rate, oxygenation, wheezing, and work of breathing.
+  - Whether bronchodilator use occurred and whether it changed the symptoms.
+  - Electrocardiographic or other objective evaluation relevant to palpitations and acute chest-region pain.
+  - Clarification of the numeric pain-onset and localization scales.
+  - Current mood symptoms and whether the reported depression is active.
+  ... 1 additional items omitted
+Uncertainty / limitations: 5
+  - No supplied medical-knowledge evidence specifically supports panic attack, hyperventilation syndrome, asthma exacerbation, or another acute cardiopulmonary diagnosis.   
+  - The retrieved depression material is not sufficiently specific to explain this acute symptom cluster and was not used as structured diagnostic evidence.
+  - The analogous patient case has no supplied diagnosis or outcome and cannot establish the diagnosis in this patient.
+  - Panic-like symptoms can overlap with respiratory, cardiac, neurologic, metabolic, and pain-related conditions; objective findings are unavailable.
+  - Unlisted findings are unknown rather than absent, and the patients age requires caution when generalizing symptom patterns.
+Unsupported claims: 6
+  - A panic attack is not confirmed.
+  - Hyperventilation syndrome is not confirmed.
+  - An asthma exacerbation is not confirmed.
+  - No specific cardiopulmonary or chest-wall cause is established.
+  - The antecedent history of depression does not establish that current depression caused the episode.
+  - The retrieved analogous case does not provide a diagnosis or outcome for this patient.
+
+------------------------------------------------------------
+[5] GROUNDING VALIDATION
+------------------------------------------------------------
+Diagnostic version: 1
+Grounding result: PASS
+✓ Patient-fact, patient-case and medical references checked against frozen inventories.
+✓ Referenced IDs exist; diagnostic evidence inventories match claim references.
+Reference existence does not establish clinical entailment or correctness.
+
+------------------------------------------------------------
+[6] CLINICAL CRITIC
+------------------------------------------------------------
+Diagnostic version reviewed: 1
+Status: revision_required
+safety_flags: 3
+  - The patient is 10 years old and reports significant dyspnea, choking, chest-region pain, palpitations, and fear of dying; emphasizing panic as the leading diagnosis without objective data risks premature psychiatric attribution.
+  - The absence of documented contradictory findings does not favor panic, hyperventilation, or asthma because unlisted findings are explicitly unknown.
+  - Similarity of the retrieved adult case must not be treated as diagnostic probability or pediatric applicability.
+unsupported_points: 5
+  - The phrase "most strongly suggests" ranks panic above competing causes without condition-specific medical evidence, objective findings, or a validated probability estimate.
+  - The episode is repeatedly characterized as acute, abrupt, or rapidly appearing even though the numeric onset response of 8 has no supplied scale interpretation and episode duration is unknown.
+  - No supplied evidence confirms hyperventilation or shows that hyperventilation caused the paresthesias.
+  - No current wheezing, airflow limitation, objective respiratory findings, or response to bronchodilator supports asthma exacerbation beyond history and nonspecific respiratory symptoms.
+  - The label "diffuse tingling" is broader than the specifically reported bilateral limb and perioral distribution, although a separate nonspecific tingling response is also present.
+contradictions: 5
+  - The output acknowledges that the numeric pain-onset response is undefined but nevertheless uses it to call the onset rapid, abrupt, and acute.
+  - Many evidence references are shifted by one symptom index and therefore do not entail the associated statements. For example, patient:symptoms:10 is pain localization precision rather than onset speed; patient:symptoms:11 is onset speed rather than dyspnea; patient:symptoms:15 is palpitations rather than bilateral/perioral tingling.        
+  - The hyperventilation rationale cites patient:symptoms:11 and patient:symptoms:15 for breathing difficulty and tingling, but the corresponding facts are patient:symptoms:12 and patient:symptoms:16.
+  - The asthma rationale cites patient:symptoms:11 and patient:symptoms:12 for dyspnea and choking, whereas the corresponding facts are patient:symptoms:12 and patient:symptoms:13.
+  - The cardiopulmonary rationale cites patient:symptoms:11 and patient:symptoms:14 as dyspnea and palpitations, but those keys represent onset speed and fear of dying; dyspnea and palpitations are patient:symptoms:12 and patient:symptoms:15.
+recommended_revisions: 6
+  - Correct all symptom references: onset speed is patient:symptoms:11, dyspnea is patient:symptoms:12, choking is patient:symptoms:13, fear of dying is patient:symptoms:14, palpitations is patient:symptoms:15, bilateral/perioral tingling is patient:symptoms:16, and detachment is patient:symptoms:17.
+  - Replace claims of abrupt, rapid, or acute onset with a neutral description of the recorded onset score unless the scale is supplied.
+  - Reframe the primary conclusion as an unconfirmed panic-like symptom cluster rather than asserting that panic is the strongest diagnosis.
+  - State explicitly that the available evidence cannot rank psychiatric, respiratory, cardiac, neurologic, metabolic, and other pain-related explanations reliably.
+  - Preserve the broad differential and uncertainty language, while making the pediatric chest-pain and respiratory-symptom safety concern more prominent.
+  - Continue excluding the depression retrieval and analogous case from diagnostic support unless evidence with specific diagnostic entailment is supplied.
+missing_evidence: 6
+  - A defined interpretation of the numeric onset and localization scales.
+  - Episode duration, temporal sequence, recurrence, trigger, and whether symptoms reached a concurrent peak.
+  - Vital signs, oxygenation, respiratory examination, wheezing, work of breathing, and cardiovascular examination.
+  - Objective evidence distinguishing panic-like symptoms from asthma, hyperventilation, cardiac, pulmonary, neurologic, metabolic, or pain-related causes.
+  - Condition-specific medical-knowledge evidence for panic attacks, hyperventilation syndrome, asthma exacerbation, or pediatric presentations.
+  - A diagnosis or outcome from the retrieved analogous patient case.
+hallucination_flags: 2
+  - No fabricated external source is apparent, but multiple patient evidence keys are incorrectly mapped to symptom meanings, creating false citation entailment.
+  - The diagnostic ranking and characterization of onset as abrupt appear to be model inferences rather than facts established by the cited evidence.
+Revision requested by critic: True
+
+------------------------------------------------------------
+[7] SAFETY VALIDATOR — PHASE 6
+------------------------------------------------------------
+Diagnostic version: 1
+Critic reviewed diagnostic version: 1
+Evidence snapshot ID: 34275bd3a1db2eb46476c96bf899be6de422b4fa55e2d47db23dec09ed61c960
+Deterministic checks recorded by Phase 6: 5
+  - patient_and_evidence_integrity
+  - diagnostic_and_critic_grounding
+  - version_and_input_identity
+  - critic_safety_flags
+  - hypothesis_medical_references
+Semantic review: skipped_critic_block
+Safety findings: 7
+  critic_safety_flags [BLOCK]: A validated Clinical Critic safety flag prohibits continuation.
+  Evidence refs: 0
+  critic_safety_flags [BLOCK]: A validated Clinical Critic safety flag prohibits continuation.
+  Evidence refs: 0
+  critic_safety_flags [BLOCK]: A validated Clinical Critic safety flag prohibits continuation.
+  Evidence refs: 0
+  missing_medical_reference [HUMAN_REVIEW]: A non-abstaining hypothesis has no structured medical-evidence reference; correctness is not inferred.
+  Evidence refs: 0
+  missing_medical_reference [HUMAN_REVIEW]: A non-abstaining hypothesis has no structured medical-evidence reference; correctness is not inferred.
+  Evidence refs: 0
+  missing_medical_reference [HUMAN_REVIEW]: A non-abstaining hypothesis has no structured medical-evidence reference; correctness is not inferred.
+  Evidence refs: 0
+  missing_medical_reference [HUMAN_REVIEW]: A non-abstaining hypothesis has no structured medical-evidence reference; correctness is not inferred.
+  Evidence refs: 0
+Structured decision reasons: 2
+  - critic_safety_flags
+  - missing_medical_reference
+Final Safety Decision for this version: BLOCK
+No issue identified is a model assessment, not proof of clinical safety.
+
+============================================================
+                    FINAL SYSTEM RESULT
+============================================================
+Patient: Synthetic DDXPlus case ddxplus:validate:2
+Diagnostic status: Hypotheses recorded
+Clinical critic: revision_required
+Safety decision: BLOCK
+Safety coverage: assessed
+Workflow status: blocked
+Workflow outcome: safety_blocked
+Evidence retrieved — patient cases: 1
+Evidence retrieved — medical knowledge: 1
+Evidence cited by latest diagnosis — patient cases: 0
+Evidence cited by latest diagnosis — medical knowledge: 0
+Revisions: 0
+LLM requests: 3
+Provider repairs: 0
+Execution time: 63.77 seconds (workflow only)
+✗ BLOCKED
+============================================================
+
+Research only; not clinical advice or clinical validation.
+HUMAN_REVIEW withholds output; no human review is scheduled.
+
+RECOMMENDATIONS:
+This run tells us something important: the corpus expansion worked, but the next bottleneck is now clearly retrieval + evidence-reference correctness.
+
+Current status
+Medical corpus:       3,332 chunks  ✓
+Medical retrieval:    5 candidates ✓
+Grounding:             PASS          ✓
+Diagnostic:            hypotheses    ✓
+Clinical Critic:       revision_required
+Safety Validator:      BLOCK
+
+The biggest issue is visible here:
+
+Medical RAG retained Depression, but the Diagnostic Agent cited zero medical evidence.
+
+So the model correctly recognized that the retrieved Depression passage wasn't strong enough, and didn't cite it. That's actually safer than forcing an irrelevant citation.
+
+The more serious issue is the patient evidence-index mapping.
+
+The key problem
+
+The Clinical Critic found multiple incorrect references:
+
+patient:symptoms:11 → actually onset speed
+patient:symptoms:12 → dyspnea
+patient:symptoms:13 → choking
+patient:symptoms:14 → fear of dying
+patient:symptoms:15 → palpitations
+patient:symptoms:16 → tingling
+patient:symptoms:17 → detachment
+
+But the Diagnostic Agent apparently used them incorrectly.
+
+For example:
+
+Hyperventilation rationale
+→ patient:symptoms:11
+→ patient:symptoms:15
+
+when it should apparently have used:
+
+→ patient:symptoms:12  # dyspnea
+→ patient:symptoms:16  # tingling
+
+And:
+
+Asthma rationale
+→ symptoms:11
+→ symptoms:12
+
+when the relevant references are:
+
+→ symptoms:12  # dyspnea
+→ symptoms:13  # choking
+
+This is more important to fix than increasing the RAG from 3,332 to 10,000 chunks right now.
+
+Why this matters for your research
+
+Your system currently validates:
+
+"Does the referenced ID exist?"
+
+but the critic has discovered that:
+
+"Does the referenced ID actually support the statement?"
+
+is a harder problem.
+
+Your grounding layer currently says:
+
+Reference exists
+        ↓
+Grounding PASS
+
+But the critic is detecting:
+
+Reference exists
+        ↓
+Wrong patient fact attached to that reference
+        ↓
+False citation entailment
+
+That's a very valuable finding.
+
+What I recommend next
+1. Fix the Diagnostic Agent's evidence mapping
+
+Don't loosen the critic.
+
+Don't change Phase 6.
+
+Instead, make the Diagnostic Agent much more disciplined about evidence references.
+
+It should receive something like:
+
+PATIENT EVIDENCE INVENTORY
+
+patient:symptoms:10
+Meaning: pain localization precision
+Value: ...
+
+patient:symptoms:11
+Meaning: pain onset speed
+Value: ...
+
+patient:symptoms:12
+Meaning: shortness of breath
+Value: Yes
+
+patient:symptoms:13
+Meaning: choking sensation
+Value: Yes
+
+patient:symptoms:14
+Meaning: fear of dying
+Value: Yes
+
+patient:symptoms:15
+Meaning: palpitations
+Value: Yes
+
+patient:symptoms:16
+Meaning: bilateral/perioral tingling
+Value: Yes
+
+patient:symptoms:17
+Meaning: detachment
+Value: Yes
+
+Then require:
+
+Never infer the meaning of an evidence ID from its numeric index. Copy the exact ID and meaning from the supplied inventory.
+
+This should eliminate the index-shifting problem.
+
+2. Add deterministic reference-entailment validation
+
+This is even better.
+
+Before the Clinical Critic runs:
+
+Diagnostic Agent
+       ↓
+Grounding
+       ↓
+Reference semantic validation
+       ↓
+Clinical Critic
+
+For every claim:
+
+Claim:
+"patient has dyspnea"
+
+References:
+patient:symptoms:11
+
+the validator checks:
+
+symptoms:11 = onset speed
+              ↓
+      ❌ mismatch
+
+and rejects/repairs the diagnostic output before it reaches the critic.
+
+That gives you a stronger architecture:
+
+                 DIAGNOSTIC AGENT
+                        │
+                        ▼
+              ┌───────────────────┐
+              │ Grounding Check   │
+              └─────────┬─────────┘
+                        ▼
+              ┌───────────────────┐
+              │ Evidence-Claim    │
+              │ Entailment Check  │
+              └─────────┬─────────┘
+                        ▼
+                 CLINICAL CRITIC
+                        │
+                        ▼
+                SAFETY VALIDATOR
+3. Improve the Medical RAG separately
+
+Your new corpus is good enough to start evaluating retrieval.
+
+The current result:
+
+Gastroenteritis 0.7171
+Heat Illness     0.7166
+Heart Attack     0.7158
+Depression       0.7138  ← retained
+Meningococcal    0.7122
+
+shows that BGE-small's semantic ranking isn't giving you the medical concepts you really want in the top 5.
+
+So next we should test:
+
+top_k = 5
+top_k = 10
+top_k = 20
+top_k = 50
+
+without changing the actual diagnostic workflow.
+
+That will tell us whether relevant documents exist lower in the ranking.
+
+The order I'd use from here
+Phase A — fix evidence references
+Diagnostic evidence IDs
+        ↓
+exact fact mapping
+        ↓
+semantic entailment validation
+Phase B — evaluate retrieval
+3,332 chunks
+       ↓
+top-5 / 10 / 20 / 50
+       ↓
+inspect relevant medical topics
+Phase C — improve retrieval
+
+If relevant documents appear at rank 20–50:
+
+BGE top-50
+     ↓
+medical concept filtering
+     ↓
+reranker
+     ↓
+top-5
+
+If relevant documents don't appear even in top-50, then we improve the query formulation/embedding strategy.
+
+Phase D — only then consider expanding beyond 3,332
+
+I would not add PMC thousands of documents yet.
+
+You've already proven that corpus size can be increased from 87 → 3,332. Now we need to prove that the retrieval system can actually exploit those 3,332 chunks

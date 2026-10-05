@@ -1,0 +1,1153 @@
+{
+  "schema_version": "medical-relevance-proposals-v1",
+  "benchmark_id": "ddxplus-validate-2-medical-relevance-v1",
+  "source_file": "evaluation/medical_relevance.json",
+  "source_file_sha256": "173cb7199f9403e299208ecd7a6ff06a47b54d451a04383bf78c852171032cfc",
+  "judgment_type": "model_assisted_proposed_relevance",
+  "human_review_status": "pending_independent_human_review",
+  "reviewed": false,
+  "purpose": "Research benchmark review aid only. NOT clinical advice and NOT a clinical diagnosis. These are model-assisted proposals, not human-review judgments or final benchmark labels.",
+  "relevance_definition": "Does this medical passage provide useful medical information for interpreting one or more of the patient's observed findings or differential categories?",
+  "patient_state": {
+    "patient_id": "ddxplus:validate:2",
+    "age": 10,
+    "sex": "F",
+    "presenting_evidence": [
+      "Do you feel like you are detached from your own body or your surroundings? = Yes"
+    ],
+    "symptoms": [
+      "Have you had significantly increased sweating? = Yes",
+      "Do you have pain somewhere, related to your reason for consulting? = Yes",
+      "Characterize your pain: = a cramp",
+      "Do you feel pain somewhere? = side of the chest(R)",
+      "Do you feel pain somewhere? = flank(L)",
+      "Do you feel pain somewhere? = hypochondrium(R)",
+      "Do you feel pain somewhere? = hypochondrium(L)",
+      "Do you feel pain somewhere? = breast(R)",
+      "How intense is the pain? = 6",
+      "Does the pain radiate to another location? = nowhere",
+      "How precisely is the pain located? = 7",
+      "How fast did the pain appear? = 8",
+      "Are you experiencing shortness of breath or difficulty breathing in a significant way? = Yes",
+      "Do you feel like you are (or were) choking or suffocating? = Yes",
+      "Do you feel like you are dying or were you afraid that you were about do die? = Yes",
+      "Do you feel your heart is beating fast (racing), irregularly (missing a beat) or do you feel palpitations? = Yes",
+      "Have you recently had numbness, loss of sensation or tingling, in both arms and legs and around your mouth? = Yes",
+      "Do you feel like you are detached from your own body or your surroundings? = Yes",
+      "Do you currently, or did you ever, have numbness, loss of sensitivity or tingling anywhere on your body? = Yes"
+    ],
+    "antecedents": [
+      "Do you feel anxious? = Yes",
+      "Do any members of your immediate family have a psychiatric illness? = Yes",
+      "Have you ever been diagnosed with depression? = Yes",
+      "Do you suffer from chronic anxiety? = Yes",
+      "Do you have asthma or have you ever had to use a bronchodilator in the past? = Yes",
+      "Have you ever had a head trauma? = Yes",
+      "Have you traveled out of the country in the last 4 weeks? = No"
+    ],
+    "relevant_findings": [],
+    "missing_information": [],
+    "uncertainty_notes": [
+      "Unlisted findings are unknown, not assumed absent."
+    ]
+  },
+  "methodology": {
+    "evidence_used": [
+      "Label-free patient_state supplied in the benchmark",
+      "Entire text field of each individual candidate passage"
+    ],
+    "evidence_excluded": [
+      "DDXPlus final diagnosis",
+      "Retrieval rank",
+      "BGE cosine similarity",
+      "Lexical rank",
+      "Candidate title as evidence",
+      "Pooling topic or system membership"
+    ],
+    "review_method": "Each judgment was authored individually from the patient findings and the complete supplied passage text. The review display exposed only an identification ordinal, chunk ID and text, not titles or retrieval metadata. Ordinals identify records and are not retrieval ranks. The serializer attaches judgments to IDs; it does not infer relevance from scores or keywords.",
+    "passage_scope": "Full passage means the entire supplied text field. Some stored passages begin or end mid-sentence. Missing context was not reconstructed from titles, adjacent candidates, source pages or external material.",
+    "missing_findings_policy": "Unlisted findings remain unknown, not negative. Age, sex and observed anatomy inform applicability but do not alone establish or exclude a diagnosis. Clinical plausibility is distinct from passage relevance.",
+    "confidence_meaning": "Confidence in the proposed relevance label, NOT confidence that the patient has a condition or should receive treatment.",
+    "label_rubric": {
+      "relevant": "Direct, substantive information for interpreting a recorded finding or a coherent differential category, including symptom patterns, mechanisms or diagnostic distinctions. It need not explain every finding or describe a likely diagnosis.",
+      "partially_relevant": "Some useful but limited information: indirect risk/management context, an isolated nonspecific symptom comparison, or applicability contingent on missing clinical/developmental context.",
+      "not_relevant": "No substantive interpretive connection in the supplied text; merely generic word overlap, a different anatomical/contextual pattern, or an unsupported life-stage-specific setting is insufficient.",
+      "uncertain": "The available passage is too ambiguous or context-deficient to choose a relevance label confidently. This is not a synonym for diagnostic uncertainty."
+    },
+    "clinical_limits": "No diagnosis is selected. Panic attacks are not equated with panic disorder; fear of dying is not equated with suicidal intent; detachment is not equated with psychosis. Passage relevance does not endorse every clinical assertion or justify applying adult treatments to a child."
+  },
+  "candidates": [
+    {
+      "chunk_id": "02831ea8-2625-5518-87b0-855aebd2235e",
+      "passage_sha256": "ad4a37956450d6b77567485eb55f6b9882bea0b65525ac11f2e569d678a328e2",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "The passage describes familial susceptibility and stress as possible contributors to panic disorder. This is background for the observed anxiety, fear of dying, palpitations and family psychiatric history, but unspecified psychiatric illness in relatives does not establish familial panic disorder and the passage does not explain the current symptoms.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "038699b9-dc86-5e12-be0c-b413e3aaea98",
+      "passage_sha256": "7bdd0b8b15520771fffa945434f8f2de5d64568318b75460370a3eebe2c7bdba",
+      "proposed_relevance": "relevant",
+      "reasoning": "The acute-porphyria discussion explicitly combines chest or abdominal pain, cramping, numbness or tingling, and mental changes, making it useful for a neurologic/metabolic differential of the observed pain and paresthesias. Its hours-to-days evolution and associated gastrointestinal features provide comparison points; they are not established in this patient, and this is not a proposal that the patient has porphyria.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": true,
+      "medical_interpretation_notes": "A rare neurovisceral disorder overlaps several findings, but episode duration, triggers and objective testing are unknown; relevance is distinct from diagnostic likelihood."
+    },
+    {
+      "chunk_id": "0463c267-1066-58c1-8f38-2be3b83e74ae",
+      "passage_sha256": "4eb02da1516f06486be66992f136edf0b817056e37922d58874b22da1cd6a379",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "The passage identifies chest pain in pulmonary TB and describes a prolonged cough and constitutional symptoms that would help characterize an infectious respiratory alternative. Only chest pain directly overlaps; the recorded sweating is not specifically nocturnal, and cough duration, fever and weight loss are unknown.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "091e945b-9959-5ba6-a340-52f1a9a7abdc",
+      "passage_sha256": "28c8760102d00875a18ddac99348923e3ebd5755948e9a61e3a0d0c7a01445eb",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "Limb numbness or tingling, pain, anxiety and depression overlap with the observations and history. However, the passage centers on chronic widespread pain, fatigue and sleep disturbance, which have not been established, so it offers only a limited comparison rather than an explanation of the breathing and fear symptoms.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "0be3b274-83b9-5388-9052-e6f1ea5c691d",
+      "passage_sha256": "cb400dad79a552c286b683777f3ff7c48f879bcbe478aa85a2085129f0968ce2",
+      "proposed_relevance": "not_relevant",
+      "reasoning": "This passage mainly lists fatigue, fever, bleeding, weight loss and night sweats. None of those specific findings is documented; increased sweating alone cannot be equated with night sweats. The passage supplies no substantive connection to the recorded chest/upper-abdominal pain, palpitations, dyspnea or paresthesias.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "10426618-94dc-597e-85bf-36f733c4a0cd",
+      "passage_sha256": "f42ae24dfc5f262bb4ab277dd5faa035147bb2342355e2343de6425ed292b918",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "Psychotherapy, medication and lifestyle approaches provide background about an anxiety-related differential suggested by the observed fear, chronic anxiety and autonomic symptoms. The passage is about management rather than symptom interpretation or differentiation and does not establish an indication for any treatment in this child.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "10632734-8cbf-5bfc-8ef7-4df95552969f",
+      "passage_sha256": "182c82f2f289de13ae12a73650fdb9a71197aa4e17ea08096e8cfd9de74e8dca",
+      "proposed_relevance": "relevant",
+      "reasoning": "The passage describes chest tightness, shortness of breath and potentially sudden worsening in asthma. These directly inform interpretation of significant breathing difficulty and chest discomfort in a patient with an asthma/bronchodilator history, while not accounting for every neurologic or emotional finding.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "1221c8b1-1f77-5da7-9fa1-87e89f28d916",
+      "passage_sha256": "8a12d1908194b61b91d088dba0fc47b5674d5b46f974ab0976c0353d6296004a",
+      "proposed_relevance": "not_relevant",
+      "reasoning": "The passage makes prolonged disabling fatigue, post-exertional worsening and sleep problems central to ME/CFS; these are not recorded. Generic pain and night sweats are too nonspecific to connect this passage meaningfully to the reported symptom pattern without assuming a chronic fatigue syndrome or a nocturnal sweating pattern.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "14150db3-ef7b-50df-a72c-602fbc19ad4f",
+      "passage_sha256": "f14cbf089e7efb51b084218c00397f582ce23bddba1d12a69cc5af2c58cf365e",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "The passage explicitly includes breast pain and describes local breast and nipple changes that could help characterize the recorded right-breast pain. It does not establish malignancy, and its cancer-specific context has limited applicability to a 10-year-old without recorded breast examination findings.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": true,
+      "medical_interpretation_notes": "Local breast pain is a real overlap, but cancer-specific framing has very limited pediatric applicability and no local examination is supplied."
+    },
+    {
+      "chunk_id": "15aebb38-be4c-5e63-83b7-6667367c6cb9",
+      "passage_sha256": "76793f1a0845fad440661341457f26c8465c8554995b3a92525349811e371516",
+      "proposed_relevance": "not_relevant",
+      "reasoning": "Although it explains that peripheral nerves carry sensation, the actual clinical discussion concerns progressive foot deformities and limb weakness, not episodic generalized or perioral tingling. No deformity, progressive weakness or relevant inherited neuropathy history is supplied, so the generic nerve reference does not meaningfully interpret the observations.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "177b755e-067b-5991-b67b-2beb99e8ccb2",
+      "passage_sha256": "319ede1307322d9e70bc3f3bae3592cf79a49f4b7dfb95c5b52e9b30d6f3f847",
+      "proposed_relevance": "relevant",
+      "reasoning": "Fast or irregular heartbeats, chest discomfort, shortness of breath and sweating are explicitly described together as possible arrhythmia symptoms. This closely matches several observed findings and supports a cardiac-rhythm differential without demonstrating that an arrhythmia is present.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "198af62a-531a-56a4-af8f-17f0f600700c",
+      "passage_sha256": "51051dfe93c3506ae68131d32ec495c252a6f5f0b9104140edf0193994ac53c8",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "Despite starting mid-sentence, the passage explicitly connects heat illness with heavy sweating, rapid breathing, a fast pulse and muscle or abdominal cramps. These overlap with the observations, but heat exposure, exertion and dehydration are unknown, making its usefulness conditional.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "1b8b0fb4-f510-57bf-b664-3d9b984d6826",
+      "passage_sha256": "787c7143544e9f47c4a85f92021bc233dc79ce223333a8110d254c557d2d5023",
+      "proposed_relevance": "relevant",
+      "reasoning": "The passage links clots in the lungs with dyspnea, breathing-related pain and increased heart rate, and describes chest pain with sweating and dyspnea for cardiac involvement. This is useful information for a cardiopulmonary differential of the observed chest pain, palpitations and breathing difficulty; it does not supply evidence that this child has a clot.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "1bdacc9b-3025-5941-9ecd-55fc7858edb0",
+      "passage_sha256": "219bad5fecdca726a0e34b25ffba90f430011b44e5060cc4f2cfc3ddb2797d90",
+      "proposed_relevance": "not_relevant",
+      "reasoning": "The clinical focus is lower-abdominal, especially left-lower-abdominal, pain with bowel changes or fever. The documented pain is in the chest, breast, flank and hypochondria, not the lower abdomen. The word cramping alone provides little useful interpretation of that distribution or the associated respiratory and sensory symptoms.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "1d8e23e3-a321-5f70-b47d-37ff401b9a1b",
+      "passage_sha256": "d378633b7d238ea05e7401cd7e1f78a07a7f2f98034eaaab0a5fc0031749ff40",
+      "proposed_relevance": "not_relevant",
+      "reasoning": "This is general advice about common infant illnesses and when caregivers should seek help. It neither describes the observed findings nor supplies a relevant differential for this 10-year-old.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "21cc511f-2980-5496-a531-b9d1f60bbc0d",
+      "passage_sha256": "05458f1badd39b648e2a5da0db59b30161e5d35e7d8f15721935db4bfb7bbaf7",
+      "proposed_relevance": "not_relevant",
+      "reasoning": "The passage concerns joint pain, swelling, stiffness, limping and inflammatory manifestations of juvenile arthritis. The patient's pain is not described as joint-centered and no corresponding joint or inflammatory findings are recorded; childhood age alone is not a substantive relevance link.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "2af489a6-0e40-53d6-b4c3-0602e7eba118",
+      "passage_sha256": "d2d8d575309de2989ff672f0b982e807e7da2209f8626e9272cde9440ed28089",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "Shortness of breath is explicitly included among AML manifestations, giving a limited hematologic comparison for one observed symptom. The passage's accompanying fever, bleeding, fatigue and bone/joint pain are not established, and it does not explain the more distinctive combined sensory, cardiac and fear symptoms.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "2c804e1f-2a3e-5e60-a147-99bab21e2909",
+      "passage_sha256": "01955f128236a1fbea47f585e56add3559118f5d747b1940ba97f3b8f0c2d58e",
+      "proposed_relevance": "uncertain",
+      "reasoning": "This fragment explicitly mentions palpitations and cold sweating, which overlap with the findings, but it does not name the condition or explain the clinical setting. Without importing a title or adjacent passage, it is unclear whether it offers useful differential information rather than an unattributed symptom list.",
+      "confidence": "low",
+      "reviewed": false,
+      "medical_interpretation_difficult": true,
+      "medical_interpretation_notes": "The symptom-bearing fragment omits its condition; identifying it from a title or another candidate would defeat passage-only review."
+    },
+    {
+      "chunk_id": "2f71f19a-c9ed-5856-a388-14f532ca71b6",
+      "passage_sha256": "f8a56ee316d7df1da6b6322ebf81f6b60f506cc7f04b80c161a8dc4f1662eec4",
+      "proposed_relevance": "relevant",
+      "reasoning": "Nervousness and a rapid or irregular heartbeat provide a direct endocrine comparison for the patient's anxiety and palpitations. The passage also describes thyroid enlargement as a possible contributor to breathing or swallowing trouble; no goiter or other thyroid-specific sign is documented, so these are discriminating questions rather than diagnostic evidence.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "2fbf87ea-2c76-50d0-b97f-4024eacd1ab3",
+      "passage_sha256": "65fd5075b2a67afa67efd3a2de638ac713f3ddaa2561fffc5c7a23f514559de8",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "Breast tenderness, anxiety and depression overlap with the recorded breast pain and psychiatric history. The usefulness of this PMS symptom discussion depends on menstrual development and cyclic timing, neither of which is provided for this 10-year-old; it does not explain the full acute cardiopulmonary/sensory pattern.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": true,
+      "medical_interpretation_notes": "Menstrual development and cyclic timing are unknown; PMS cannot be presumed or categorically excluded from age alone."
+    },
+    {
+      "chunk_id": "30f0143f-4f36-5471-9fd7-bce57d3ed1b3",
+      "passage_sha256": "688b556592ab86ad948b3532d4efaf2bf8c0252685e1a3c9b1f78b96a3a26f6a",
+      "proposed_relevance": "uncertain",
+      "reasoning": "The fragment contains asthma, depression and pain, all present in the history, but does not identify the condition being discussed or even preserve the relation of those initial terms to the list. A risk-factor or medication relationship cannot safely be reconstructed from this text, so relevance cannot be determined confidently.",
+      "confidence": "low",
+      "reviewed": false,
+      "medical_interpretation_difficult": true,
+      "medical_interpretation_notes": "The fragment loses both its topic and the relationship of asthma/depression/pain to the remaining list."
+    },
+    {
+      "chunk_id": "346c5001-9afa-54b5-aa2d-e2bb6681e799",
+      "passage_sha256": "33f75ddf14b6ee32a4500a8baeb82e26b8321b6924a0061f621d30a72a0144d1",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "The passage discusses evaluating mental illness in children through behavior, history and family context, which is useful background for a child with anxiety, prior depression and familial psychiatric illness. Most behavioral warning signs are not documented, and repeated thoughts of death should not be equated with the patient's fear of dying during an episode.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": true,
+      "medical_interpretation_notes": "Fear of dying during an episode is not equivalent to repeated thoughts of death or self-harm in a child mental-health warning list."
+    },
+    {
+      "chunk_id": "39d51780-d727-5895-8231-a1cf04c46f95",
+      "passage_sha256": "680b523f7d6b1428801d651c75c6fc07288f10d6f17875595ab36cb42d3bcbda",
+      "proposed_relevance": "not_relevant",
+      "reasoning": "The passage concerns starvation-related complications of anorexia nervosa, including slowed pulse/breathing, cold intolerance and organ injury. There is no recorded restrictive eating, weight-loss or malnutrition context. Mentioning comorbid anxiety or depression alone does not make this explanation of eating-disorder complications useful for the current findings.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "3b3d7cab-7175-5537-b044-67fba3c17259",
+      "passage_sha256": "ae518ee5306153c762992f39465fb5ddbb6ea3dc5a9393fb98cf1b0e4a2a00df",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "The surviving text is explicitly about a child's asthma and the importance of persistent severe symptoms despite relief medicines. That gives limited management/severity context for the asthma history and breathing difficulty, but no treatment response or failed rescue therapy is documented and the fragment offers little differential information.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "3ca61f7f-5c0d-59cf-8ed3-bae57470e837",
+      "passage_sha256": "4a100df375d25e218d58a9768ef6435f010db59fcfb775722936baa5354fd6fe",
+      "proposed_relevance": "relevant",
+      "reasoning": "The passage explicitly connects anxiety disorders with pounding or rapid heartbeat, unexplained pain and shortness of breath, alongside difficult-to-control anxious thoughts. These directly inform the combination of chronic anxiety, palpitations, pain and dyspnea, without establishing that anxiety is the sole cause.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "3cd34cc2-1fa2-5ddc-8b24-8e206119fa04",
+      "passage_sha256": "4cc474fcd661c77c29911208ff4df6b81f9b42fea21f5e1ee5f774878a1d82bf",
+      "proposed_relevance": "not_relevant",
+      "reasoning": "This passage emphasizes masses, eye changes, bone pain and weakness, with abdominal swelling and breathing trouble specifically discussed in babies. None of those defining tumor-related findings is recorded, and the infant-specific respiratory overlap is not a useful explanation of this 10-year-old's symptom pattern.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "3d401cef-def7-5be4-8d91-c81dc37be215",
+      "passage_sha256": "5b8d3ceb19c8f3fbc5ee5c3d461e0d484e75069c5802cee235fdeae826a3f579",
+      "proposed_relevance": "not_relevant",
+      "reasoning": "The passage describes prolonged fever, rash, swollen extremities, mucosal changes and conjunctivitis. None is recorded, and it does not discuss the patient's pain, dyspnea, palpitations or sensory experiences. A pediatric disease name alone would not establish relevance.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "4081c3f4-8a43-553e-9ada-b91c853cfb32",
+      "passage_sha256": "9c0d8b07afc42d288d66c91afda6671a75e2739e976a24642d05d9ec7a85c7d0",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "The passage explains pediatric asthma treatment in terms of opening airways, reducing inflammation and recognizing failed symptom relief. This is useful background for the asthma/bronchodilator history and respiratory complaints, but it is predominantly management information rather than evidence distinguishing the cause of this episode.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "4afdc8a3-e816-57dd-aabb-f9d243987da2",
+      "passage_sha256": "85c4f7cfb684366c20d04177d3fc9cfc9bcbdf6317be6699cfc8850590586546",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "Fast or difficult breathing is an explicit manifestation of congenital heart disease and gives a limited structural cardiac comparison for dyspnea in a child. Cyanosis, murmur, poor perfusion and feeding-related fatigue are not documented; the passage's statement about lack of pain should not be treated as a universal rule excluding cardiac causes of this patient's chest pain.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": true,
+      "medical_interpretation_notes": "The absolute statement that congenital heart defects do not cause pain needs clinical caution; its dyspnea content remains of limited differential use."
+    },
+    {
+      "chunk_id": "4bcfbb4d-9b1e-570f-9a77-b86f12cc02d3",
+      "passage_sha256": "6fa454cc1259033d3420bfb36564fdae2e88114687eb6fb510c5aca6cbe62682",
+      "proposed_relevance": "not_relevant",
+      "reasoning": "The passage focuses on lower-abdominal/pelvic pain, vaginal symptoms, urinary pain and STI context, none of which is recorded. The patient's upper-abdominal/flank and chest pain should not be silently recast as pelvic pain, and sexual exposure cannot be inferred.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "4fa2f16e-8f86-5d41-b7ec-a66a36b68493",
+      "passage_sha256": "c271a6306e054d31a3394fee473b8da78ae080506395c6db58143a7e4126626c",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "The fragment explicitly names meningococcal disease and includes chest or abdominal pain and rapid breathing, providing a limited severe-infection comparison. Fever, rash, vomiting, cold extremities and other systemic signs are unknown, and rapid breathing has not been measured; the passage does not establish that this infectious pattern is present.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "534fa256-b2fc-5594-a8bd-e3326224127a",
+      "passage_sha256": "5d5946c4175899e879171f1cf9284224b34a00be868c360964b6da945d3842e1",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "Chest and upper-abdominal discomfort with shortness of breath overlap with the observed findings, so the passage provides cardiac symptom comparison. However, it is framed around coronary disease and heart attacks in women rather than pediatric assessment, and its sex-specific adult patterns cannot simply be transferred to a 10-year-old girl.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": true,
+      "medical_interpretation_notes": "Adult sex-specific ischemic symptom descriptions have uncertain transferability to a preadolescent girl."
+    },
+    {
+      "chunk_id": "553fb5f7-0eaa-58b7-983d-8aa2174ac374",
+      "passage_sha256": "8b3c081f1e74cc1649e90d7ee6875a55d86b1301f1be4fa954e620ac82026f7c",
+      "proposed_relevance": "not_relevant",
+      "reasoning": "The text concerns sadness and impaired infant care after childbirth. There is no pregnancy, childbirth or caregiving context in the patient findings, and a history of depression alone does not connect this postpartum-specific passage to the current episode.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "58a8e084-1882-557e-8aec-6fb5719992bb",
+      "passage_sha256": "a51e1cc73a1861a369a179c1430744060762a0a3c012385b0cc58908075d5a36",
+      "proposed_relevance": "relevant",
+      "reasoning": "The passage describes sudden intense fear, fear of death, racing heart, sweating, breathing difficulty, choking, chest pain and stomach pain together. This is a strong content match to multiple observations. Repeated attacks and persistent anticipatory worry are not established, so relevance to panic-like symptoms is not a diagnosis of panic disorder.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "5e5c0617-d136-5bdd-a41f-f02edd17403d",
+      "passage_sha256": "49078628402c428f817f1f93add27e0a143d01afbb317a7ba45e9cc936ef1526",
+      "proposed_relevance": "relevant",
+      "reasoning": "Palpitations, shortness of breath, anxiety and chest pain are explicitly listed as possible manifestations of mitral valve prolapse. This makes the passage useful for a structural cardiac differential of the observed symptoms, while not demonstrating that the patient has a valve abnormality.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "62f37f8c-4548-59fb-937c-6664715c0f10",
+      "passage_sha256": "abee5da3e7c02b133930e720682a0747f2c2335e9d4cd3858da8c4d0ad344021",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "The passage identifies heart attacks and describes chest pressure, stomach pain and shortness of breath, including variable onset and intensity. These offer a limited comparison for the current pain and dyspnea, but the fragment does not address pediatric applicability and cannot establish an ischemic cause in this child.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "693ea7c9-fd2a-5e22-945f-bd9c7c97ef6b",
+      "passage_sha256": "dfc68dd4fe16d2655d4af1fddcb90ed3d036e71d95a59c9d8abea0a0af89f81e",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "The intact portion explains chest pain from coronary-artery spasm and its possible occurrence during sleep, which is a limited cardiac comparison for chest pain. Sleep timing is unknown, the initial postmenopausal statement has a missing subject, and that fragment must not be applied to this child or assumed to describe variant angina.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": true,
+      "medical_interpretation_notes": "A postmenopausal statement has no preserved subject and must be separated from the intact variant-angina explanation."
+    },
+    {
+      "chunk_id": "6a35be9a-42ab-5eba-8d1f-63cce708795e",
+      "passage_sha256": "794d234f0fd38182739215551b90191aa5bd9f69b7562a3ce986bdbc73e29f9a",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "Childhood onset and environmental, allergic and familial risk factors provide background for the recorded asthma history. Most specific exposures and family asthma history are unknown; this risk-factor passage does not directly explain the current dyspnea or distinguish an active asthma episode from other causes.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "6c1ab54d-8296-5b9b-b542-369b64565015",
+      "passage_sha256": "b2df397fc80cad2d90b3440f946dfeba04732d8f951062795e33d7dd5dcd2492",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "The passage includes stomach tenderness or pain and describes its association with prolonged watery diarrhea and possible dehydration. This gives a limited gastrointestinal comparison for the upper-abdominal pain, but diarrhea, fever, tenderness and fluid loss are not recorded, so it has little explanatory value for the broader presentation.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "6d26b866-f904-5fa8-b24a-c28e28a58274",
+      "passage_sha256": "ba4cd72c8e87b9ec02418968c98d7391c91fdef513fc9ca970bc4b2451220ba1",
+      "proposed_relevance": "not_relevant",
+      "reasoning": "The symptoms and crisis information are specifically framed around postpartum depression and caring for a baby. No childbirth or postpartum context is supplied. Anxiety/depression history and fear of dying do not establish postpartum illness or suicidal thoughts.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "72fa5e8b-af32-55b0-a830-9bb092ca9b3c",
+      "passage_sha256": "3d5ba608fb415bc0eec03ca27ac9ce79f41d45837c95645afa287032f9c57530",
+      "proposed_relevance": "relevant",
+      "reasoning": "The passage explains that childhood asthma can resemble other conditions and describes history, examination and lung-function assessment. This is directly useful for interpreting respiratory complaints in a child with an asthma/bronchodilator history rather than automatically attributing all symptoms to anxiety or assuming asthma is confirmed.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "73521ab3-c2df-5d05-adcf-7e327b934d85",
+      "passage_sha256": "4b55ef06566a293b3de709f48026ff2ec54fc38e27bb736dab7a3bd336400123",
+      "proposed_relevance": "relevant",
+      "reasoning": "The passage explains how allergic, nonallergic and exercise exposures can provoke or worsen asthma. This supplies an interpretive framework for episodic breathing difficulty in a patient with asthma history, while leaving all specific triggers unconfirmed; the occupational example has little pediatric applicability.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "76cb8951-ff4a-5827-ad51-dd69ef332cee",
+      "passage_sha256": "5552b3d223c50b91fa6b86461c58b1695e2f800adb196e56e1367eb688c67a45",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "The text explains quick-relief airway opening, longer-term inflammation control and severe symptoms despite treatment. These are useful background for the asthma/bronchodilator history and breathing complaints, but the focus is management and there is no documented medication use or response in the current episode.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "76fbcc71-565f-50f1-b1c3-193a935b7371",
+      "passage_sha256": "c85c4d72b6a034d076080b0b2b5768510019f1008aac6274aac146992db90a2d",
+      "proposed_relevance": "relevant",
+      "reasoning": "The passage directly describes dyspnea, chest pain and increased heart rate in pulmonary embolism. It offers a meaningful cardiopulmonary alternative for the observed findings and identifies potentially discriminating features such as pleuritic worsening, hemoptysis or fainting, which are unknown rather than presumed absent.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "7711d0fa-1b36-5c16-b1ce-f77ab647a478",
+      "passage_sha256": "06fd5a7a99195e069fa01e911f16658c4f8defe2d68ed9302f4bfd651aba0d37",
+      "proposed_relevance": "not_relevant",
+      "reasoning": "Sweating and anxiety are discussed specifically as consequences of the menopausal transition and changing ovarian hormones. This is not an applicable interpretive context for the provided 10-year-old patient, and no ovarian failure or comparable hormonal history is supplied.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "7745c91d-6ae8-5137-85a6-df42528aa91f",
+      "passage_sha256": "3ba89e3604815920fb4c761cab5ffdd2bae904b250b11c2d2ec0ec084f1d562b",
+      "proposed_relevance": "not_relevant",
+      "reasoning": "The passage centers on abnormal vaginal bleeding, pelvic pain or mass, discharge and urinary symptoms. These are not recorded, and upper-abdominal/flank cramping is not interchangeable with pelvic pain. It offers no meaningful connection to the respiratory, cardiac or sensory findings.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "7767017c-fd10-5a17-91f4-d12a6370b0d5",
+      "passage_sha256": "e84f3f8671b9328e0626b8ff68dae47e72b0de0d215cec39ed8cec2f3c6f5d71",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "The passage gives demographic and trauma/stress-related background for a panic-related differential suggested by the fear and autonomic symptoms. Typical onset is later than this patient's age, and the recorded head trauma must not be assumed to establish the psychological-trauma exposure discussed here.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": true,
+      "medical_interpretation_notes": "Recorded head trauma is not interchangeable with psychological trauma, and the passage describes a later usual age of onset."
+    },
+    {
+      "chunk_id": "77cf9c04-c634-575e-81bb-3f8f711c6f45",
+      "passage_sha256": "ff009430e0496fe1d28134e416158815cca9d9b4194d6a5c6d550ee47caed480",
+      "proposed_relevance": "not_relevant",
+      "reasoning": "This fragment only advises follow-up testing and treatment for an unnamed condition in a baby. It provides neither usable disease-specific information nor an explanation of any recorded finding in this older child.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "7f4a6aae-57a0-5480-9fa4-8820b2e76a29",
+      "passage_sha256": "914a3ccc5e1cb29c43e1d1edc27c8fbcc84728d325a2edc7e3db3fdbae57dff0",
+      "proposed_relevance": "not_relevant",
+      "reasoning": "The passage describes vulvar skin changes, itching, genital pain and abnormal bleeding. No vulvar or urinary complaint is recorded; generic use of the word pain is not a substantive connection to the documented chest, breast, flank or upper-abdominal pain.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "81b21366-e0cb-5300-ade5-13e0c3e7c33b",
+      "passage_sha256": "948386e75d71d9c3c42e23e17c1d437a0a38d594a30cb2cbf45309de0360728d",
+      "proposed_relevance": "not_relevant",
+      "reasoning": "The fragment describes one-sided neurologic deficits, meal-related mesenteric ischemic pain and erectile dysfunction as a vascular risk clue. The reported paresthesias involve both arms and legs and the perioral region, not a documented unilateral deficit, and post-meal pain is unknown. These adult vascular examples do not meaningfully characterize the supplied findings.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "831a8efb-e442-5d96-8ddd-033063bfc4b4",
+      "passage_sha256": "3eee7c6e30091c627deefafb1f514130cd05e8f41ef84df406428d53a3876874",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "The passage names panic disorder and mentions avoidance, quality-of-life effects and possible association with depression. This is indirect background for the anxiety and depression history, but it does not describe the current physical symptoms. Its reassurance about panic disorder cannot establish that this patient's chest pain or breathing difficulty is benign.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "83c518cf-fe61-59bd-a952-2b7961071313",
+      "passage_sha256": "11df0f0e96e1bb29c2959aa2b871e6609b9118eadfde5498e937ccde9508956e",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "Shortness of breath, stomach pain and pain/fullness below the ribs overlap with the dyspnea and hypochondrial pain. The passage provides a limited hematologic comparison, but fever, bleeding, lymph-node enlargement, fatigue and recurrent infections are not established, and ordinary sweating is not necessarily night sweats.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "8bf19141-28e2-52ac-a948-1c5b646c2759",
+      "passage_sha256": "343a56161181cc71513a1ebfbc554384f6e6e939d4aff058f504432be69c9fb2",
+      "proposed_relevance": "relevant",
+      "reasoning": "The passage combines chest or upper-abdominal discomfort, shortness of breath, palpitations and cold sweating, making it useful for interpreting a cardiac symptom category represented by several observations. The described ischemic context is unusual at age 10 and the pain location is not a complete match; relevance does not imply a likely heart attack or validate adult risk assumptions.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": true,
+      "medical_interpretation_notes": "The symptom cluster overlaps strongly, but ischemic heart attack is an unusual pediatric explanation; confidence concerns relevance, not diagnosis."
+    },
+    {
+      "chunk_id": "8d3b0e86-a4e9-52b2-aac3-f464d82536e6",
+      "passage_sha256": "03e45144f61c1915f9c3639510955a69958d5de12d0f5809e902ea15af0612d8",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "The surviving text explicitly concerns treatment of PMS-related breast tenderness and emotional symptoms, which overlap with breast pain, anxiety and depression. It offers only management background, contingent on an unestablished menstrual/cyclic context, and does not justify hormonal or other treatment in this child.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": true,
+      "medical_interpretation_notes": "PMS treatment discussion is both management-only and conditional on unestablished menstrual/cyclic context."
+    },
+    {
+      "chunk_id": "91f2a8f0-f316-5c90-8d94-73f21579d805",
+      "passage_sha256": "5d2a2a6f1e312f80d07602b57b5ef3ab286165782c52f7d1bcf21bca87ee0084",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "The passage explicitly links lung disease with anxiety or depression and discusses psychosocial support. This is limited context for coexisting asthma and psychiatric history, not evidence that one caused the other or an explanation of the acute pain, palpitations and paresthesias.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "9218536a-a168-5067-8bcd-c46275353714",
+      "passage_sha256": "dbb546df63882f2ed00f30c8bab9b44f7323d95c1d6b78306edd329464a78c1a",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "Assessment of childhood mental health using symptoms, medical history and family history is pertinent background for this child's anxiety, prior depression and familial psychiatric illness. The fragment's repeated thoughts of death and injury language should not be conflated with fear of imminent death during the reported episode.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": true,
+      "medical_interpretation_notes": "A fragment about thoughts of death and injury must not be mapped to suicidal intent from the reported fear of dying."
+    },
+    {
+      "chunk_id": "92ebd8da-30d6-5bed-aaa4-482ad6804acc",
+      "passage_sha256": "16e15239ef6975cb362b1247113a50da530d17f53a4d63d3f1708828e7a5cbb5",
+      "proposed_relevance": "relevant",
+      "reasoning": "The passage links sensory nerve problems with tingling/numbness, motor involvement with cramps, and autonomic involvement with abnormal heart rate and sweating. It provides a useful neurologic framework for several observed findings, but the observations do not prove nerve damage or establish a particular neuropathy.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "963ee5e9-6fea-5cf1-afdc-df7ef2560204",
+      "passage_sha256": "c4544c2ea104f888b87e64ddbf2d175bffb3b32e0c7ca34d98c0997faf15dd14",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "The fragment contains limited context about severe asthma and persistent symptoms, which relates to the asthma history and breathing difficulty. Most of it concerns bronchial thermoplasty explicitly for adults, not this child, and the missing opening prevents reconstructing the preceding emergency-care condition.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": true,
+      "medical_interpretation_notes": "The passage is truncated and mainly describes an adult-only asthma procedure, limiting its pediatric usefulness."
+    },
+    {
+      "chunk_id": "990b4be4-8a79-5357-b0b9-abdca86647d0",
+      "passage_sha256": "5b4d30d3a3a16d9b75108c2d4c60cc8e993fb07c0e62a50cce22a478c9d4c737",
+      "proposed_relevance": "not_relevant",
+      "reasoning": "The passage explains painful skin nodules, draining abscesses, recurrent lesions and scarring. None is recorded. Depression and anxiety are described as consequences of dealing with that skin disease, not a general explanation of this patient's psychiatric and cardiopulmonary findings.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "9cba8661-2749-5a7a-8155-b123a82a121b",
+      "passage_sha256": "2df5ed6c27a96a1b1c18806243a8db6e19fb17c3568b75f12a4ef6d4eb1a7024",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "Abdominal pain is an explicit symptom and the passage gives associated pressure, swelling, early satiety and urinary/GI findings that could characterize an abdominal differential. These additional features are unknown, the pain pattern is only a limited match, and the ovarian-cancer context requires particular caution in a 10-year-old.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": true,
+      "medical_interpretation_notes": "Isolated abdominal pain overlaps, but ovarian-cancer interpretation is highly age- and examination-dependent."
+    },
+    {
+      "chunk_id": "9d4a774f-9e67-5ad6-9868-663acab9b05d",
+      "passage_sha256": "412dcc6de1cef5109f36f0bc9bdd63a270922f6ec5816614c2eefe8cb3bfebfc",
+      "proposed_relevance": "relevant",
+      "reasoning": "This child-specific passage explains how allergen exposure, irritants, infection and exercise can precipitate asthma symptoms. It directly informs interpretation of breathing difficulty given the asthma/bronchodilator history; no listed trigger is assumed to have occurred.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "9da28175-590a-52bf-acf1-a43d1e0f2f99",
+      "passage_sha256": "072cfcd6ce34c7ed590746bcda100c94f055a7ac356e3fab9f508139597ec483",
+      "proposed_relevance": "relevant",
+      "reasoning": "The passage describes pediatric asthma with chest tightness, shortness of breath or gasping, variable frequency and potentially sudden severe attacks. This directly matches the patient's age, respiratory distress and asthma history, while not accounting for all sensory or emotional findings.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "a780ed9f-7047-5424-927a-7460814e476a",
+      "passage_sha256": "5100aef4dc9ffc38679646afe2e7c6e2cca4d53cb6d54cd184df2f7b8310acfa",
+      "proposed_relevance": "not_relevant",
+      "reasoning": "The fragment lists difficulty sleeping flat, nausea, appetite loss, neck-vein swelling and urinary frequency without identifying its disease. None of those specific findings is recorded; general breathing difficulty cannot be assumed to mean positional sleep difficulty, so the available text has no clear interpretive link.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "ab272626-6a5b-5c57-a447-7be1847efd0a",
+      "passage_sha256": "7145359356113e12f6acc266c51e9216c963737e10f6c4dd886dd2a76267fbe6",
+      "proposed_relevance": "uncertain",
+      "reasoning": "Anxiety, aches and cramps overlap with the findings and could be useful psychiatric context, but this fragment does not identify its condition or preserve the beginning of its symptom list. It also refers to death or suicide, which is not equivalent to the patient's fear of dying. Missing context makes a firm relevance judgment difficult.",
+      "confidence": "low",
+      "reviewed": false,
+      "medical_interpretation_difficult": true,
+      "medical_interpretation_notes": "The condition is unnamed, and anxiety/cramps overlap while suicide-related language risks a misleading interpretation."
+    },
+    {
+      "chunk_id": "ab5c1cb6-2012-5b10-b4dd-cb4818d362a9",
+      "passage_sha256": "8e7124da7c4ab527364d54eea56c005c9d17ce2fff757c5d99bd9f21b8cc2409",
+      "proposed_relevance": "uncertain",
+      "reasoning": "The fragment includes severe abdominal pain and tenderness alongside vomiting and bleeding warning signs, but never names the condition or situation to which the warnings apply. The patient has upper-abdominal pain, yet tenderness and the other signs are unknown; the missing disease context prevents judging whether the overlap is meaningfully useful.",
+      "confidence": "low",
+      "reviewed": false,
+      "medical_interpretation_difficult": true,
+      "medical_interpretation_notes": "An unnamed emergency-warning context cannot be inferred from abdominal pain alone."
+    },
+    {
+      "chunk_id": "af149c15-5718-5ca4-9f68-62914ce69039",
+      "passage_sha256": "56fe071d094f7c39c4c5350c76145a3dd9ce8186080e0065fb523768fc79d0da",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "Abdominal pain and breast tenderness overlap with observed findings, and the passage identifies bleeding, pelvic/shoulder pain and faintness as additional pregnancy-related features. This is only conditionally useful: menstrual development, pregnancy possibility and reproductive context are unknown at age 10, and none should be inferred from age or sex alone.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": true,
+      "medical_interpretation_notes": "Pregnancy-related differential content is conditional on unknown reproductive history and development; neither pregnancy nor impossibility is inferred."
+    },
+    {
+      "chunk_id": "afbf0d1a-e66b-5496-a7c9-d68437640c94",
+      "passage_sha256": "3498c227399b3ce2393244907c5549fbb3db380c341d13a03a2c5c886d8584b4",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "The passage includes abdominal pain in a set of diarrhea/dehydration warning signs and distinguishes pediatric concerns. This provides limited gastrointestinal context for the cramps, but diarrhea, vomiting, fever and dehydration are not recorded, so it does not characterize the overall episode.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "b1193978-a8b0-507e-8616-547347be35e6",
+      "passage_sha256": "5fc9b1482eacbe3e75d0b415828e3401730d94211d988f72699afa14e5de6419",
+      "proposed_relevance": "relevant",
+      "reasoning": "Shortness of breath, chest pain and palpitations are explicitly described together, with a warning that pulmonary-hypertension symptoms resemble other conditions. This makes the passage useful for a cardiopulmonary differential, not evidence of pulmonary hypertension in this patient.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "b6c83f1c-f3a2-52de-aa6a-41eb814dbf79",
+      "passage_sha256": "cb1d25479322590c2be52710ec8619332641fda946563e3dc81c3dd8cd2c3997",
+      "proposed_relevance": "relevant",
+      "reasoning": "The passage explains sudden intense fear and pounding heartbeat during panic attacks and, importantly, distinguishes isolated attacks from panic disorder with repeated attacks and subsequent worry or avoidance. That distinction is directly useful for the observed fear and autonomic symptoms because recurrence and sustained behavioral changes are not provided.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "b748bd5a-530a-5998-bc3f-881319f72027",
+      "passage_sha256": "2b5eff28336c11c7a5656e75f840859fc1edf4f3a449e32a2c0fc62bc08be5d7",
+      "proposed_relevance": "not_relevant",
+      "reasoning": "The passage concerns prenatal opioid exposure, neonatal withdrawal and transitions from prescription opioid misuse to heroin. There is no supplied substance-exposure, pregnancy or neonatal context, and no relevant interpretation of the observed symptoms is given.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "b82d53fc-13e4-5a45-82ed-663c911304b5",
+      "passage_sha256": "17396f86bd5f023037b4eb10223ab8e6a642c763bb63b307e35525221df93200",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "Childhood onset, school impact and possible hospitalization provide general context for the patient's asthma history at age 10. The passage does not describe respiratory symptoms, triggers or distinguishing findings, so its value for interpreting this particular episode is limited.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "bb6ddda2-ff89-5c93-b400-1fa33efce687",
+      "passage_sha256": "b8dc54c861b053b9ba2ce6fccbfb11a69e3dc2899140c6a5e0ce32665193cc94",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "Abdominal cramps are explicitly discussed in association with diarrhea, infection and dehydration, which gives a limited gastrointestinal comparison for the reported cramping. Diarrhea or fluid loss is not recorded, and the passage does not explain the chest, sensory or fear symptoms.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "c4e0833d-84ae-5830-8848-bc3dd9cdaff8",
+      "passage_sha256": "15d4df833625ffb22aa28741c47706d8b4a7308407a983f78979ed4ec08e7e4a",
+      "proposed_relevance": "relevant",
+      "reasoning": "The passage identifies racing heart, chest pain and shortness of breath as possible symptoms preceding cardiac arrest, giving a meaningful serious-cardiac comparison for several observations. Actual arrest involves loss of consciousness and cessation of heartbeat, neither of which is established; relevance must not be read as a prediction of arrest.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": true,
+      "medical_interpretation_notes": "Prodromal symptom overlap does not establish current cardiac arrest or predict impending collapse."
+    },
+    {
+      "chunk_id": "c6be0fe7-daa6-5ab8-bcce-23205dc8a76f",
+      "passage_sha256": "28bae3edb4ac909147f2c994e3e1bfcb287fb768a73bce3cd24719478fcf2c13",
+      "proposed_relevance": "relevant",
+      "reasoning": "Chest pain and shortness of breath overlap directly, and the passage supplies accompanying fever, murmur and skin findings that can help distinguish an infectious cardiac category. Those associated features are unknown, and unqualified increased sweating is not proof of night sweats; the text supports comparison rather than an endocarditis diagnosis.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "c6c80e91-fe4e-5e8e-bcaa-97981d8c5394",
+      "passage_sha256": "55f1d367a6e2acab0043478d8adb372af81d25402dd498909e17bbc64f8c75f1",
+      "proposed_relevance": "relevant",
+      "reasoning": "The passage explains airway inflammation and narrowing as the mechanism for chest tightness and worsening asthma symptoms. This is directly useful for understanding chest discomfort and respiratory difficulty in the context of the patient's asthma/bronchodilator history.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "c8474a93-5486-5066-af19-25df5e3d246f",
+      "passage_sha256": "febb8ee431c51596585907effafc56cc878fb6d3cdd3f3048bc24413dc1de716",
+      "proposed_relevance": "relevant",
+      "reasoning": "The passage explains that evaluating suspected panic disorder includes checking physical causes with examination, thyroid testing and heart assessment. This is directly useful when intense fear and anxiety coexist with palpitations, chest pain and dyspnea, and discourages assuming a psychiatric cause from the symptom cluster alone.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "cacb3894-7cab-589a-824c-cf7abca2b4b6",
+      "passage_sha256": "88518d530886db9988dec47edf00c7a212f9ba6bd76ceb09462080e1009d83eb",
+      "proposed_relevance": "relevant",
+      "reasoning": "The passage explicitly includes painful or tender breasts and local signs such as lumps, discharge and skin changes. It provides useful information for interpreting the independently recorded right-breast pain, even though no local examination findings are supplied and it does not explain the whole episode.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "cb0e6ef6-19f7-5515-b366-857516e9620b",
+      "passage_sha256": "fc556cd484920d298f9ca70bf3ff16638f4f035ccfec79ff3049a8de0dee43af",
+      "proposed_relevance": "uncertain",
+      "reasoning": "The opening mentions chest pain and shortness of breath but omits the condition to which they belong. The subsequent TSS discussion is identifiable, yet its fever, hypotension, GI symptoms, rash and confusion are not documented; detachment is not synonymous with confusion. The relevant-looking opening cannot safely be attributed to TSS or another disease.",
+      "confidence": "low",
+      "reviewed": false,
+      "medical_interpretation_difficult": true,
+      "medical_interpretation_notes": "The condition attached to chest pain/dyspnea is missing; the subsequent TSS paragraph must not be used to fill that gap."
+    },
+    {
+      "chunk_id": "ce21184b-190d-5e2f-aa03-14612cb7477f",
+      "passage_sha256": "8eff62f7897f4c44c44e94aeb0a29aa80a48dca93c242a7f2dcc498f345d8a48",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "The passage explicitly includes stress, anxiety and depression among heart-disease risk considerations, giving indirect context for the psychiatric history and cardiac symptoms. It is a general risk discussion, not an explanation of this episode, and its reproductive/metabolic adult framing limits transfer to a 10-year-old.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "d1c9e558-ca3b-53ea-b09e-5e05ef7671b0",
+      "passage_sha256": "15032602f1c1bef6b61027b3e74bffb626896225f56076169aa605e644da9c8f",
+      "proposed_relevance": "relevant",
+      "reasoning": "The passage provides a broad differential for chest pain spanning cardiac, panic-related, digestive, musculoskeletal and pulmonary causes. It also specifically identifies sweating or shortness of breath accompanying chest pain as important features, directly matching the observed combination without selecting a diagnosis.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "d2e1db2a-60c9-5eba-b24d-3ad2183a8f3d",
+      "passage_sha256": "ebe0db94e50e145bddbe40b57bc2f2a87439ac445c4807a7b8ec089d8209a730",
+      "proposed_relevance": "relevant",
+      "reasoning": "The passage connects valve disease with dyspnea, chest pain and arrhythmia, which correspond to the patient's respiratory, pain and palpitation findings. Activity-related pain, swelling and progressive symptoms remain unknown; the text is useful for a structural cardiac comparison rather than proof of valve disease.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "d3173238-6590-50ab-acab-670c4f02b86c",
+      "passage_sha256": "20cecdd4e7940687fc0fe3eb45cdccea345a85d22243b571070340c2e47ce28e",
+      "proposed_relevance": "not_relevant",
+      "reasoning": "The symptom list centers on fatigue, fever/night sweats, bleeding, petechiae and weight/appetite loss. None is specifically documented, and increased sweating alone does not establish night sweats. Pediatric framing does not compensate for the absence of substantive content about the recorded pain, dyspnea or sensory pattern.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "d5f29d05-b8b9-5c64-a18b-86913bc08804",
+      "passage_sha256": "6f2ce9df8570ce456922023112f8dacb2481e2d695796abd33899cdbad3d934d",
+      "proposed_relevance": "not_relevant",
+      "reasoning": "The passage describes a developmental/genetic syndrome involving hypotonia, excessive hunger, obesity, short stature and learning or sex-development abnormalities. None is recorded, and the text supplies no interpretation of the current fear, chest symptoms or paresthesias.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "d7ec5dc7-4b3b-5eb1-bd31-38e04fbf07ff",
+      "passage_sha256": "294146552bcf5a59d131124e0d322be6b3d11f8bcd698a01f91541c12da4e52b",
+      "proposed_relevance": "not_relevant",
+      "reasoning": "The fragment concerns ME/CFS-associated digestive issues, sensitivities, night sweats and fluctuating symptoms. No chronic fatigue syndrome pattern or specific listed feature is recorded; generic symptom fluctuation and sweating cannot establish a useful match to the supplied observations.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "db5fe0bb-6475-5e72-927d-d49b5bece4e4",
+      "passage_sha256": "bb2eb81bdf986ac48bdc6160679696cd2612101d8a1e8c97cf2178e10bc72fd7",
+      "proposed_relevance": "not_relevant",
+      "reasoning": "This passage discusses perinatal depression, infant bonding and postpartum psychosis, with crisis resources. No pregnancy or postpartum context is supplied, and the patient's detachment and fear of dying should not be interpreted as hallucinations, psychosis or suicidal intent on the basis of this text.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "e1b5acd7-cbbd-5861-b57d-4746194ca0ad",
+      "passage_sha256": "3dc6eff3fbc5e561eed41c460ab7ba47fbf35a715be0a1f415e5a9c1a2d39e67",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "The explanation of nerve compression causing arm/hand tingling and numbness is useful for a limited focal-neurologic comparison. The patient instead reports bilateral limb and perioral symptoms, with no documented shoulder/neck pain or arm vascular changes, and the passage describes a usual onset older than this patient.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": true,
+      "medical_interpretation_notes": "Focal upper-limb nerve compression is a limited match to bilateral limb and perioral paresthesias, with an additional age mismatch."
+    },
+    {
+      "chunk_id": "e7b041fd-76dc-5ebf-8302-a2687b0fc5d3",
+      "passage_sha256": "17bc79b21999e71a8c497e7d940d5c04dc08409ab1f90f44cdad436227586ebc",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "Pain or fullness below the ribs directly overlaps with the recorded hypochondrial pain and provides a limited hematologic/abdominal comparison. Other listed findings are unknown, sweating is not necessarily drenching night sweats, and CLL has especially limited pediatric applicability; the passage does not support attributing the symptoms to leukemia.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": true,
+      "medical_interpretation_notes": "Below-rib pain overlaps, but CLL has especially limited applicability in a child and nonspecific sweating is not drenching night sweats."
+    },
+    {
+      "chunk_id": "e859d1ae-f9ba-582f-8c05-d4e01e1e1294",
+      "passage_sha256": "e6902805c321ff27a98c1ceea2b77b4cc4490438b91e527d15dcd42d1760ca1f",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "The passage includes abdominal pain and depression/anxiety and specifically discusses digestive manifestations in children. This provides a limited gastrointestinal comparison, but chronic bowel changes, growth concerns and malabsorption features are unknown, and the acute respiratory/palpitation pattern is not explained.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "f75b1529-602a-59f7-84c6-ad4982014249",
+      "passage_sha256": "e5528a3c08130c12481532f28274c8cf25f4fea1a276ce3a4cda69a39aab457e",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "This passage gives child-specific risk-factor context for asthma, a recorded antecedent. Smoke exposure, allergies, family asthma history and early respiratory infections are not supplied, and the epidemiologic discussion does not distinguish causes of the current respiratory symptoms.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "f8da5cff-193e-5a8e-991a-fe46e53364e8",
+      "passage_sha256": "0f93e0c092766460e52e731a3f2a4098e84c5089ae9c75532b0044800265d1c9",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "Chest discomfort and shortness of breath, including exertional or stress-related patterns, provide some cardiac symptom comparison. The passage specifically concerns progressive coronary plaque disease, which has limited applicability to a 10-year-old without a supporting history, and the patient's pain is nonradiating with activity/rest relationships unknown.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "fb9cd89f-828e-5b1d-9e64-b784e71648eb",
+      "passage_sha256": "7ad942c5e62018cc621973522235d7bd1a50108e9fad80469b0fdbccf7bad19c",
+      "proposed_relevance": "relevant",
+      "reasoning": "The passage describes objective airway assessment with spirometry, peak flow, airway reactivity and inflammatory/allergy testing. It provides useful diagnostic context for dyspnea and chest discomfort in someone with an asthma/bronchodilator history, without treating any test as already performed or positive.",
+      "confidence": "high",
+      "reviewed": false,
+      "medical_interpretation_difficult": false,
+      "medical_interpretation_notes": null
+    },
+    {
+      "chunk_id": "fe9616b9-5de2-5d50-817f-02b56c2da92a",
+      "passage_sha256": "577f5b05702bb990491084658b8a837c9c75b326dd6245c61499270c54fe73bf",
+      "proposed_relevance": "partially_relevant",
+      "reasoning": "The passage distinguishes manic, depressive and mixed mood episodes, offering limited psychiatric differential context for the prior depression and family psychiatric history. No manic syndrome or sustained mood-episode pattern is supplied, and fear of imminent death must not be equated with depressive suicidal thinking or used to infer bipolar disorder.",
+      "confidence": "medium",
+      "reviewed": false,
+      "medical_interpretation_difficult": true,
+      "medical_interpretation_notes": "Prior depression and family psychiatric history do not establish bipolarity; fear of dying is not evidence of suicidal thoughts."
+    }
+  ],
+  "summary": {
+    "total_candidates": 92,
+    "proposed_label_counts": {
+      "relevant": 25,
+      "partially_relevant": 38,
+      "not_relevant": 24,
+      "uncertain": 5
+    },
+    "uncertain_count": 5,
+    "uncertain_candidates": [
+      {
+        "chunk_id": "2c804e1f-2a3e-5e60-a147-99bab21e2909",
+        "reason": "This fragment explicitly mentions palpitations and cold sweating, which overlap with the findings, but it does not name the condition or explain the clinical setting. Without importing a title or adjacent passage, it is unclear whether it offers useful differential information rather than an unattributed symptom list."
+      },
+      {
+        "chunk_id": "30f0143f-4f36-5471-9fd7-bce57d3ed1b3",
+        "reason": "The fragment contains asthma, depression and pain, all present in the history, but does not identify the condition being discussed or even preserve the relation of those initial terms to the list. A risk-factor or medication relationship cannot safely be reconstructed from this text, so relevance cannot be determined confidently."
+      },
+      {
+        "chunk_id": "ab272626-6a5b-5c57-a447-7be1847efd0a",
+        "reason": "Anxiety, aches and cramps overlap with the findings and could be useful psychiatric context, but this fragment does not identify its condition or preserve the beginning of its symptom list. It also refers to death or suicide, which is not equivalent to the patient's fear of dying. Missing context makes a firm relevance judgment difficult."
+      },
+      {
+        "chunk_id": "ab5c1cb6-2012-5b10-b4dd-cb4818d362a9",
+        "reason": "The fragment includes severe abdominal pain and tenderness alongside vomiting and bleeding warning signs, but never names the condition or situation to which the warnings apply. The patient has upper-abdominal pain, yet tenderness and the other signs are unknown; the missing disease context prevents judging whether the overlap is meaningfully useful."
+      },
+      {
+        "chunk_id": "cb0e6ef6-19f7-5515-b366-857516e9620b",
+        "reason": "The opening mentions chest pain and shortness of breath but omits the condition to which they belong. The subsequent TSS discussion is identifiable, yet its fever, hypotension, GI symptoms, rash and confusion are not documented; detachment is not synonymous with confusion. The relevant-looking opening cannot safely be attributed to TSS or another disease."
+      }
+    ],
+    "medical_interpretation_difficult_count": 23,
+    "medical_interpretation_difficult_candidates": [
+      {
+        "chunk_id": "038699b9-dc86-5e12-be0c-b413e3aaea98",
+        "proposed_relevance": "relevant",
+        "issue": "A rare neurovisceral disorder overlaps several findings, but episode duration, triggers and objective testing are unknown; relevance is distinct from diagnostic likelihood."
+      },
+      {
+        "chunk_id": "14150db3-ef7b-50df-a72c-602fbc19ad4f",
+        "proposed_relevance": "partially_relevant",
+        "issue": "Local breast pain is a real overlap, but cancer-specific framing has very limited pediatric applicability and no local examination is supplied."
+      },
+      {
+        "chunk_id": "2c804e1f-2a3e-5e60-a147-99bab21e2909",
+        "proposed_relevance": "uncertain",
+        "issue": "The symptom-bearing fragment omits its condition; identifying it from a title or another candidate would defeat passage-only review."
+      },
+      {
+        "chunk_id": "2fbf87ea-2c76-50d0-b97f-4024eacd1ab3",
+        "proposed_relevance": "partially_relevant",
+        "issue": "Menstrual development and cyclic timing are unknown; PMS cannot be presumed or categorically excluded from age alone."
+      },
+      {
+        "chunk_id": "30f0143f-4f36-5471-9fd7-bce57d3ed1b3",
+        "proposed_relevance": "uncertain",
+        "issue": "The fragment loses both its topic and the relationship of asthma/depression/pain to the remaining list."
+      },
+      {
+        "chunk_id": "346c5001-9afa-54b5-aa2d-e2bb6681e799",
+        "proposed_relevance": "partially_relevant",
+        "issue": "Fear of dying during an episode is not equivalent to repeated thoughts of death or self-harm in a child mental-health warning list."
+      },
+      {
+        "chunk_id": "4afdc8a3-e816-57dd-aabb-f9d243987da2",
+        "proposed_relevance": "partially_relevant",
+        "issue": "The absolute statement that congenital heart defects do not cause pain needs clinical caution; its dyspnea content remains of limited differential use."
+      },
+      {
+        "chunk_id": "534fa256-b2fc-5594-a8bd-e3326224127a",
+        "proposed_relevance": "partially_relevant",
+        "issue": "Adult sex-specific ischemic symptom descriptions have uncertain transferability to a preadolescent girl."
+      },
+      {
+        "chunk_id": "693ea7c9-fd2a-5e22-945f-bd9c7c97ef6b",
+        "proposed_relevance": "partially_relevant",
+        "issue": "A postmenopausal statement has no preserved subject and must be separated from the intact variant-angina explanation."
+      },
+      {
+        "chunk_id": "7767017c-fd10-5a17-91f4-d12a6370b0d5",
+        "proposed_relevance": "partially_relevant",
+        "issue": "Recorded head trauma is not interchangeable with psychological trauma, and the passage describes a later usual age of onset."
+      },
+      {
+        "chunk_id": "8bf19141-28e2-52ac-a948-1c5b646c2759",
+        "proposed_relevance": "relevant",
+        "issue": "The symptom cluster overlaps strongly, but ischemic heart attack is an unusual pediatric explanation; confidence concerns relevance, not diagnosis."
+      },
+      {
+        "chunk_id": "8d3b0e86-a4e9-52b2-aac3-f464d82536e6",
+        "proposed_relevance": "partially_relevant",
+        "issue": "PMS treatment discussion is both management-only and conditional on unestablished menstrual/cyclic context."
+      },
+      {
+        "chunk_id": "9218536a-a168-5067-8bcd-c46275353714",
+        "proposed_relevance": "partially_relevant",
+        "issue": "A fragment about thoughts of death and injury must not be mapped to suicidal intent from the reported fear of dying."
+      },
+      {
+        "chunk_id": "963ee5e9-6fea-5cf1-afdc-df7ef2560204",
+        "proposed_relevance": "partially_relevant",
+        "issue": "The passage is truncated and mainly describes an adult-only asthma procedure, limiting its pediatric usefulness."
+      },
+      {
+        "chunk_id": "9cba8661-2749-5a7a-8155-b123a82a121b",
+        "proposed_relevance": "partially_relevant",
+        "issue": "Isolated abdominal pain overlaps, but ovarian-cancer interpretation is highly age- and examination-dependent."
+      },
+      {
+        "chunk_id": "ab272626-6a5b-5c57-a447-7be1847efd0a",
+        "proposed_relevance": "uncertain",
+        "issue": "The condition is unnamed, and anxiety/cramps overlap while suicide-related language risks a misleading interpretation."
+      },
+      {
+        "chunk_id": "ab5c1cb6-2012-5b10-b4dd-cb4818d362a9",
+        "proposed_relevance": "uncertain",
+        "issue": "An unnamed emergency-warning context cannot be inferred from abdominal pain alone."
+      },
+      {
+        "chunk_id": "af149c15-5718-5ca4-9f68-62914ce69039",
+        "proposed_relevance": "partially_relevant",
+        "issue": "Pregnancy-related differential content is conditional on unknown reproductive history and development; neither pregnancy nor impossibility is inferred."
+      },
+      {
+        "chunk_id": "c4e0833d-84ae-5830-8848-bc3dd9cdaff8",
+        "proposed_relevance": "relevant",
+        "issue": "Prodromal symptom overlap does not establish current cardiac arrest or predict impending collapse."
+      },
+      {
+        "chunk_id": "cb0e6ef6-19f7-5515-b366-857516e9620b",
+        "proposed_relevance": "uncertain",
+        "issue": "The condition attached to chest pain/dyspnea is missing; the subsequent TSS paragraph must not be used to fill that gap."
+      },
+      {
+        "chunk_id": "e1b5acd7-cbbd-5861-b57d-4746194ca0ad",
+        "proposed_relevance": "partially_relevant",
+        "issue": "Focal upper-limb nerve compression is a limited match to bilateral limb and perioral paresthesias, with an additional age mismatch."
+      },
+      {
+        "chunk_id": "e7b041fd-76dc-5ebf-8302-a2687b0fc5d3",
+        "proposed_relevance": "partially_relevant",
+        "issue": "Below-rib pain overlaps, but CLL has especially limited applicability in a child and nonspecific sweating is not drenching night sweats."
+      },
+      {
+        "chunk_id": "fe9616b9-5de2-5d50-817f-02b56c2da92a",
+        "proposed_relevance": "partially_relevant",
+        "issue": "Prior depression and family psychiatric history do not establish bipolarity; fear of dying is not evidence of suicidal thoughts."
+      }
+    ],
+    "interpretive_overview": "Strong direct content includes panic/anxiety symptom interpretation, asthma mechanisms/symptoms/assessment, cardiac and pulmonary symptom alternatives, neuropathic sensory/autonomic patterns, and local breast-pain assessment. Limited matches include treatment/risk background and nonspecific abdominal or systemic symptom lists. Uncertain cases lack the context needed to attribute overlapping symptoms. Difficult cases chiefly involve pediatric applicability, reproductive assumptions, focal versus diffuse sensory patterns, rare disease overlap, fragmented passages and psychiatric terminology.",
+    "review_status": "All 92 entries remain unreviewed model-assisted proposals. Independent human review is required before treating any as reviewed benchmark judgments."
+  }
+}

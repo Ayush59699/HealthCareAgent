@@ -21,9 +21,17 @@ def load_documents(manifest_path):
         if provenance['raw_sha256'] != entry['sha256']:
             raise ValueError('Manifest raw hash mismatch')
         if entry['source'] == 'medlineplus':
-            parsed = list(parse_medlineplus(path, provenance, entry['titles']))
-            if {d.title for d in parsed} != set(entry['titles']):
-                raise ValueError('Selected MedlinePlus topics missing')
+            if entry.get('selection') == 'all-english-summaries':
+                if entry.get('source_version') != '2026-09-22' or provenance['download_url'] != 'https://medlineplus.gov/xml/mplus_topics_2026-09-22.xml':
+                    raise ValueError('Full corpus requires the exact pinned MedlinePlus source')
+                stats = {}
+                parsed = list(parse_medlineplus(path, provenance, stats=stats))
+                if stats != entry['parse_stats']:
+                    raise ValueError('MedlinePlus record accounting differs from manifest')
+            else:
+                parsed = list(parse_medlineplus(path, provenance, entry['titles']))
+                if {d.title for d in parsed} != set(entry['titles']):
+                    raise ValueError('Selected MedlinePlus topics missing')
         elif entry['source'] == 'pmc':
             parsed = [parse_pmc(path, provenance)]
             if parsed[0].pmcid != entry['pmcid']:
@@ -41,7 +49,17 @@ def load_documents(manifest_path):
 
 def prepare_corpus(manifest_path, max_words=180, overlap=30):
     documents = load_documents(manifest_path)
-    chunks = [c for d in documents for c in chunk_document(d, max_words, overlap)]
+    # The XML repeats some introductory definitions across different topics.
+    # Keep the first source passage in deterministic document-ID order; normalized
+    # documents retain all originals, while duplicate text is embedded only once.
+    chunks, seen_texts = [], set()
+    for document in documents:
+        for chunk in chunk_document(document, max_words, overlap):
+            if chunk.text not in seen_texts:
+                chunks.append(chunk)
+                seen_texts.add(chunk.text)
+    if {c.document_id for c in chunks} != {d.document_id for d in documents}:
+        raise ValueError('Deduplication would remove all indexed content from a source document')
     if not chunks:
         raise ValueError('No licensed documents to index')
     serialized = ''.join(json.dumps(asdict(c), sort_keys=True, ensure_ascii=False) + '\n' for c in chunks)

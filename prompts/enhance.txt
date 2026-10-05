@@ -1,0 +1,394 @@
+TASK: Fix Medical RAG Retrieval + Diagnostic Abstention Behavior
+
+You are working on the existing healthcare-agentic-ai research prototype.
+
+GOAL:
+Improve the current Phase 6 demo problem where the Medical Knowledge RAG retrieves irrelevant evidence (e.g. a BK polyomavirus transplant paper for a pediatric chest-pain/palpitations symptom cluster), causing the Diagnostic Agent to abstain too aggressively.
+
+IMPORTANT:
+This is a targeted improvement. Do NOT redesign the architecture.
+
+DO NOT:
+- Remove or weaken Phase 5 safety/grounding rules.
+- Remove or weaken Phase 6 Safety Validator.
+- Expose DDXPlus PATHOLOGY or DIFFERENTIAL_DIAGNOSIS labels during inference.
+- Add autonomous prescribing.
+- Add new clinical agents.
+- Add HITL yet.
+- Replace the existing GPT-5.6-Sol provider.
+- Replace Qdrant/BGE unless technically necessary.
+- Modify the existing Phase 5 workflow behavior unnecessarily.
+- Claim clinical validity.
+
+==================================================
+1. FIRST: INSPECT THE EXISTING IMPLEMENTATION
+==================================================
+
+Before editing anything, inspect:
+
+- Medical RAG query construction
+- Medical RAG retriever
+- Medical RAG top-k configuration
+- Medical RAG similarity/relevance handling
+- Diagnostic Agent prompt/contract
+- Grounding validator
+- Phase 5 orchestration
+- Phase 6 Safety Validator
+- Existing tests
+- Current demo output
+
+Identify the smallest safe set of files that need modification.
+
+Preserve all existing architectural invariants.
+
+==================================================
+2. FIX MEDICAL RAG QUERY GENERATION
+==================================================
+
+Current behavior appears to send an overly broad/full patient narrative into Medical Knowledge RAG.
+
+Change this so the medical retrieval query is a concise clinical-information retrieval query derived from the PatientState.
+
+The query should prioritize:
+
+- chief/current symptoms
+- important associated symptoms
+- relevant antecedents/history
+- clinically meaningful symptom combinations
+- age/sex when useful
+- important red-flag context
+
+Do NOT include:
+- DDXPlus pathology labels
+- differential diagnosis labels
+- hidden evaluation labels
+- retrieval metadata
+- patient identifiers
+- unnecessary narrative text
+
+Example for a case containing chest pain + dyspnea + palpitations + sweating:
+
+Instead of searching with the entire patient narrative, produce focused retrieval concepts such as:
+
+"pediatric chest pain dyspnea palpitations sweating differential causes red flags"
+
+Potentially use multiple focused queries if the current architecture supports it, for example:
+
+1. symptom cluster query
+2. relevant history/context query
+3. safety/red-flag query
+
+Do not hard-code the example above. Generate queries programmatically from PatientState.
+
+==================================================
+3. CHANGE MEDICAL RAG RETRIEVAL FROM TOP-K=1
+==================================================
+
+Change the relevant Phase 6/demo medical retrieval path from top_k=1 to approximately top_k=5.
+
+Then add relevance filtering.
+
+IMPORTANT:
+Do NOT simply pass all 5 results to the Diagnostic Agent.
+
+For each retrieved medical chunk:
+
+- preserve its similarity score
+- apply a clearly defined relevance rule
+- discard obviously irrelevant evidence
+- retain the strongest clinically relevant evidence
+- preserve source/title/chunk identity
+- keep deterministic behavior
+
+Do not interpret embedding similarity as diagnostic probability.
+
+If all retrieved chunks are below the relevance threshold, the system should explicitly mark medical retrieval as insufficient/irrelevant rather than pretending evidence exists.
+
+Choose the threshold based on the existing retrieval implementation and tests. Do not invent a threshold without inspecting score distributions. If a fixed threshold is inappropriate, implement a conservative relative/absolute relevance policy.
+
+Document the rationale.
+
+==================================================
+4. OPTIONAL RERANKING
+==================================================
+
+If the existing architecture can support lightweight reranking without introducing a major new dependency, evaluate whether reranking is useful.
+
+Prefer the smallest reliable implementation.
+
+Do NOT introduce a large new model or external service just for reranking.
+
+If reranking is not justified, use the existing BGE scores plus deterministic relevance filtering.
+
+==================================================
+5. MODIFY THE DIAGNOSTIC AGENT CONTRACT
+==================================================
+
+The current behavior is too conservative when Medical RAG is weak.
+
+Change the Diagnostic Agent rules to:
+
+CASE A — Strong relevant evidence:
+- produce a cautious differential
+- cite supporting evidence
+- distinguish evidence from inference
+- express uncertainty
+
+CASE B — Patient information is clinically meaningful but Medical RAG is weak/irrelevant:
+- the agent MAY produce a cautious, explicitly uncertain differential based on patient facts and clinical reasoning
+- hypotheses must NOT be presented as confirmed diagnoses
+- every hypothesis must clearly indicate uncertainty
+- identify what information is missing
+- distinguish patient facts from model inference
+- do not use irrelevant RAG evidence as support
+- do not fabricate medical evidence
+
+CASE C — Patient information is genuinely insufficient:
+- abstain
+- explain why
+- list the critical missing information
+
+The key change is:
+
+WEAK/IRRELEVANT RAG ≠ AUTOMATIC ABSTENTION
+
+But:
+
+INSUFFICIENT PATIENT INFORMATION = ABSTENTION
+
+The Diagnostic Agent must never invent evidence merely to avoid abstaining.
+
+==================================================
+6. GROUNDING REQUIREMENTS MUST REMAIN STRICT
+==================================================
+
+Preserve the existing grounding contract.
+
+If the agent makes a claim based only on patient facts, it must NOT falsely place that claim into the medical RAG evidence inventory.
+
+If a hypothesis is inferential and not directly supported by retrieved medical evidence:
+
+- label it as inference/uncertain hypothesis
+- do not cite irrelevant medical chunks
+- do not manufacture evidence references
+
+If medical evidence is used, every reference must correspond to an actually retrieved chunk.
+
+Keep the existing fail-closed behavior.
+
+==================================================
+7. PRESERVE DDXPLUS EVALUATION INTEGRITY
+==================================================
+
+Absolutely do NOT expose:
+
+- PATHOLOGY
+- DIFFERENTIAL_DIAGNOSIS
+- hidden test labels
+- answer keys
+
+to the Diagnostic Agent, Critic, Safety Validator, or retrieval query generator.
+
+The model must continue operating without access to the ground-truth diagnosis.
+
+==================================================
+8. KEEP PHASE 6 SAFETY VALIDATION UNCHANGED IN PRINCIPLE
+==================================================
+
+Do NOT bypass the Safety Validator.
+
+The new flow must remain:
+
+Patient
+→ Patient Agent
+→ Patient Case RAG
+→ Medical Knowledge RAG
+→ Diagnostic Agent
+→ Grounding
+→ Clinical Critic
+→ Safety Validator
+→ deterministic routing
+
+The Diagnostic Agent being allowed to produce a cautious differential does NOT mean the result is automatically accepted.
+
+Safety Validator must continue checking:
+
+- unsupported clinical claims
+- unsupported certainty
+- contradictions
+- dangerous recommendations
+- treatment/prescribing claims
+- unsafe delay/avoid-care
+- source misrepresentation
+- patient-fact hallucination
+- similarity-as-probability errors
+- patient analogy presented as diagnosis
+- ambiguity
+- prompt injection
+- missing critical information
+
+If unsafe, the result must still be BLOCKED or routed to HUMAN_REVIEW according to the existing Phase 6 policy.
+
+==================================================
+9. TEST THE SPECIFIC FAILURE CASE
+==================================================
+
+Use the existing validation case that previously demonstrated the problem:
+
+ddxplus:validate:2
+
+Previously observed behavior:
+
+- Patient Case RAG:
+  relevant-looking symptom analogue
+  similarity ≈ 0.9787
+
+- Medical RAG:
+  top-1 similarity ≈ 0.6704
+  retrieved:
+  "Pre-transplant immune factors may be associated with BK polyomavirus reactivation in kidney transplant recipients"
+
+This was clearly irrelevant to the patient's symptom cluster.
+
+After the fix, verify:
+
+1. Medical query is clinically focused.
+2. top-k > 1 is actually used.
+3. irrelevant chunks can be filtered.
+4. the BK polyomavirus article is not treated as supporting evidence.
+5. Diagnostic Agent does not cite irrelevant medical evidence.
+6. Diagnostic Agent can produce a cautious differential when patient information supports one.
+7. Diagnostic Agent still abstains when information is genuinely insufficient.
+8. Grounding still passes/fails correctly.
+9. Clinical Critic still operates.
+10. Safety Validator still operates.
+11. Unsafe output is still blocked.
+12. DDXPlus labels remain hidden.
+
+==================================================
+10. ADD REGRESSION TESTS
+==================================================
+
+Add tests for at least:
+
+A. focused medical query generation
+
+B. top-k retrieval > 1
+
+C. irrelevant medical result filtering
+
+D. no medical evidence available
+
+E. weak medical evidence + sufficient patient facts
+   → cautious differential allowed
+
+F. insufficient patient facts
+   → abstention
+
+G. irrelevant RAG evidence must never be cited
+
+H. DDXPlus labels remain unavailable to inference components
+
+I. grounding invariants remain intact
+
+J. Phase 5 behavior remains unchanged
+
+K. Phase 6 safety behavior remains unchanged
+
+L. every diagnostic version receives a corresponding safety assessment
+
+Use deterministic fixtures where possible.
+
+==================================================
+11. RUN VALIDATION
+==================================================
+
+Run:
+
+- targeted new tests
+- Phase 4 regression tests
+- Phase 5 regression tests
+- Phase 6 regression tests
+- full test suite
+- syntax checks
+- demo CLI checks
+
+Then run the real demo using GPT-5.6-Sol and the existing Qdrant indexes.
+
+Use the same validation case:
+
+ddxplus:validate:2
+
+Compare before/after:
+
+- medical retrieval query
+- top-k results
+- similarity scores
+- relevance filtering
+- Diagnostic Agent result
+- evidence references
+- Clinical Critic result
+- Safety Validator result
+- final workflow outcome
+- request count
+- latency
+
+==================================================
+12. DO NOT GAME THE RESULT
+==================================================
+
+Do NOT modify the system simply to make validate:2 produce a diagnosis.
+
+The objective is better retrieval and a scientifically defensible abstention policy.
+
+If the correct behavior after the changes is still abstention because critical information is missing, that is acceptable.
+
+If a cautious differential is produced, it must remain explicitly uncertain and safety-validated.
+
+Do not use the DDXPlus hidden answer to influence runtime behavior.
+
+==================================================
+13. DOCUMENT THE CHANGE
+==================================================
+
+Add/update documentation explaining:
+
+- why full-patient-narrative retrieval was insufficient
+- how focused clinical retrieval queries are generated
+- how top-k retrieval and relevance filtering work
+- what happens when medical evidence is weak
+- distinction between patient-fact reasoning and RAG-supported claims
+- why weak RAG no longer automatically forces abstention
+- why safety validation remains mandatory
+- limitations of synthetic DDXPlus evaluation
+
+Clearly state:
+
+"This improves retrieval and reasoning behavior in the research prototype; it does not establish clinical validity."
+
+==================================================
+14. FINAL REPORT
+==================================================
+
+At the end, report:
+
+1. Files changed
+2. Files intentionally left unchanged
+3. Medical RAG query strategy
+4. top-k value
+5. relevance-filtering strategy
+6. Diagnostic Agent contract changes
+7. Grounding changes, if any
+8. Phase 5 preservation checks
+9. Phase 6 preservation checks
+10. Tests passed/failed/skipped
+11. Before vs after behavior for ddxplus:validate:2
+12. Whether Medical RAG still retrieves irrelevant evidence
+13. Whether Diagnostic Agent still abstains
+14. Whether Safety Validator still blocks unsafe outputs
+15. Any remaining limitations
+
+Do not claim clinical correctness or diagnostic accuracy from this test.
+
+IMPORTANT:
+Before implementation, inspect the repository and produce a concise implementation plan with exact files to modify. Then implement it. Do not make unrelated architectural changes.

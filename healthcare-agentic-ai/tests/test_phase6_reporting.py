@@ -20,12 +20,21 @@ class Phase6ReportingTests(unittest.TestCase):
     def invoke(self, output, llm=None, queries=1):
         fixture = setup(llm)
         _, case, provider, patients, medical = fixture
-        patients.vector_store.count.return_value = medical.store.count.return_value = 1
+        # The enhanced CLI filters the old fever/asthma mismatch. These reporting
+        # tests need an explicitly matching synthetic symptom, not a filter bypass.
+        from dataclasses import replace
+        from rag.models import PatientRepresentation, Evidence
+        case = replace(case, patient=PatientRepresentation(45, 'F',
+            (Evidence('E_1', 'Asthma with wheezing?', 'Yes', False),), ()))
+        from tests.amg_helpers import configure_medical, configure_provider
+        configure_medical(medical)
+        configure_provider(provider)
+        patients.vector_store.count.return_value = 1
         parser = Mock()
         parser.iter_patients.return_value = [case]
-        with patch.multiple(runner, load_generation_env=Mock(), DDXPlusParser=Mock(return_value=parser),
+        with patch.multiple(runner, prepare_runtime=Mock(), load_generation_env=Mock(), DDXPlusParser=Mock(return_value=parser),
                 PatientCaseRAG=Mock(return_value=self.manager(patients)),
-                MedicalKnowledgeRetriever=Mock(return_value=self.manager(medical)),
+                AMGMedicalEvidence=Mock(return_value=self.manager(medical)),
                 OpenAIProvider=Mock(return_value=self.manager(provider))), redirect_stdout(io.StringIO()):
             status = runner.main(['--output-dir', str(output), '--queries', str(queries)])
         parser.iter_patients.assert_called_once_with('validate', limit=queries, include_labels=False)
@@ -37,6 +46,14 @@ class Phase6ReportingTests(unittest.TestCase):
             self.assertEqual(self.invoke(output), 0)
             report = json.loads((output / 'phase6_run_report.json').read_text())
             self.assertEqual(report['schema_version'], 'phase6-report-v1')
+            from orchestration.phase6.diagnostic import PROMPT_VERSION
+            from orchestration.phase6.reference_entailment import VERSION
+            self.assertEqual(report['diagnostic_prompt_version'], PROMPT_VERSION)
+            self.assertEqual(report['patient_reference_check_version'], VERSION)
+            audit = report['cases'][0]['reference_consistency_audits'][0]
+            self.assertEqual(audit['diagnostic_version'], 1)
+            self.assertEqual(audit['audit']['status'], 'unassessed')
+
             case = report['cases'][0]
             self.assertTrue(case['eligible_research_output'])
             self.assertFalse(case['clinical_approval'])

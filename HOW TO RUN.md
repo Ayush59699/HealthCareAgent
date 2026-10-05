@@ -1,3 +1,5 @@
+> **Healthcare application update:** The previous dual-medical-RAG instructions below are historical. Use [the current healthcare README](healthcare-agentic-ai/README.md) for the merged AMG workflow, local validation, and live commands.
+
 # Healthcare Agentic AI & Mini-CC Execution Guide
 
 This document provides complete, step-by-step instructions and commands to set up, test, index, and run the **Healthcare Agentic AI** pipeline (Phases 1–5) and the **Mini Terminal Coding Agent** (`codeagent.py`).

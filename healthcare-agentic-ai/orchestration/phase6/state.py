@@ -34,6 +34,7 @@ class Phase6WorkflowState(StrictModel):
     original_patient: PatientRepresentation
     patient_state: PatientState | None = None
     evidence: EvidenceSnapshot | None = None
+    medical_retrieval: dict | None = None  # Audit only; rejected candidates never enter agent contexts.
     diagnostics: tuple[DiagnosticVersion, ...] = ()
     critiques: tuple[CriticVersion, ...] = ()
     current_stage: Stage = 'INITIAL'

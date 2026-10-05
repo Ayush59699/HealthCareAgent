@@ -54,12 +54,27 @@ def safe_observations(observations):
 
 class Phase6Orchestrator:
     def __init__(self, llm: StructuredLLM, patient_rag, medical_rag, *, top_k=1,
-                 policy: WorkflowPolicy | None = None, clock=time.perf_counter):
+                 policy: WorkflowPolicy | None = None, clock=time.perf_counter,
+                 enhanced_medical=False, medical_top_k=5, evidence_service=None,
+                  require_medical_evidence=False):
         self.patient = PatientAgent(llm)
         self.diagnostic = DiagnosticAgent(llm)
         self.critic = ClinicalCritic(llm)
         self.safety = SafetyValidator(llm)
         self.evidence = EvidenceService(patient_rag, medical_rag, top_k=top_k)
+        # Evidence composition is injected by application.workflow. The old flag
+        # remains only for historical regression callers, not application selection.
+        self.enhanced_medical = enhanced_medical or evidence_service is not None
+        self.require_medical_evidence = require_medical_evidence
+        if evidence_service is not None:
+            self.evidence = evidence_service
+        elif enhanced_medical:
+            from rag.focused_medical import FocusedEvidenceService
+            self.evidence = FocusedEvidenceService(patient_rag, medical_rag, top_k=top_k, medical_top_k=medical_top_k)
+        if self.enhanced_medical:
+            from .diagnostic import Phase6DiagnosticAgent, Phase6ClinicalCritic
+            self.diagnostic = Phase6DiagnosticAgent(llm)
+            self.critic = Phase6ClinicalCritic(llm)
         self.policy = policy or WorkflowPolicy()
         self.policy = WorkflowPolicy.model_validate(self.policy.model_dump())
         self.clock = clock
@@ -185,7 +200,8 @@ class Phase6Orchestrator:
             try:
                 cases, medical = state.evidence.agent_evidence()
                 context(state.patient_state, cases, medical)
-                validate_references(output, state.patient_state, cases, medical)
+                validate_references(output, state.patient_state, cases, medical,
+                                    allow_patient_inference=self.enhanced_medical)
             except (ValueError, TypeError):
                 validation(True, False, 'grounding_failure')
                 raise WorkflowStop('grounding_failure') from None
@@ -216,14 +232,15 @@ class Phase6Orchestrator:
             budget()
             event('evidence_started', 'retrieve_once', stage='EVIDENCE')
             try:
-                snapshot = timed('EVIDENCE', lambda: self.evidence.retrieve(copy.deepcopy(patient)))
+                snapshot = timed('EVIDENCE', lambda: self.evidence.retrieve(copy.deepcopy(patient), state.patient_state.model_copy(deep=True))
+                                 if self.enhanced_medical else self.evidence.retrieve(copy.deepcopy(patient)))
                 snapshot = EvidenceSnapshot.model_validate(snapshot.model_dump())
             except Exception:
                 raise WorkflowStop('invalid_evidence_or_retrieval_failure') from None
-            commit(evidence=snapshot)
+            commit(evidence=snapshot, medical_retrieval=copy.deepcopy(self.evidence.audit) if self.enhanced_medical else None)
             event('evidence_retrieved', 'provenance_validated', valid=True)
             budget()
-            if not snapshot.medical_knowledge:
+            if not snapshot.medical_knowledge and (self.require_medical_evidence or not self.enhanced_medical):
                 commit(safety_skip_reason='no_medical_evidence')
                 finish('ABSTENTION', 'insufficient_evidence', 'no_medical_evidence')
                 return WorkflowState.model_validate({**state.model_dump(), 'original_patient': state.original_patient}).model_copy(deep=True)
@@ -262,7 +279,7 @@ class Phase6Orchestrator:
                 commit(diagnostics=state.diagnostics + (DiagnosticVersion(ticket=diagnostic_ticket,
                     version=version, fingerprint=digest, result=diagnosis),))
                 event('grounding_passed', 'diagnosis_committed', valid=True, version=version)
-                if digest in prior_hashes:
+                if digest in prior_hashes and not self.enhanced_medical:
                     commit(safety_skip_reason='unchanged_diagnostic' if digest == prior_hashes[-1] else 'repeated_diagnostic')
                     finish('UNRESOLVED', 'unresolved_critic',
                            'unchanged_diagnostic' if digest == prior_hashes[-1] else 'repeated_diagnostic')
@@ -339,6 +356,9 @@ class Phase6Orchestrator:
                 require_current(safety_identity, fresh_identity)
                 decision = route(fresh_input, state.safety_assessments[-1], fresh_identity, revision, self.policy.max_revisions)
                 budget()
+                if self.enhanced_medical and digest in prior_hashes and decision.next_stage == 'DIAGNOSTIC_REVISION':
+                    finish('UNRESOLVED', 'unresolved_critic', 'repeated_diagnostic')
+                    break
                 if decision.next_stage != 'DIAGNOSTIC_REVISION':
                     finish(decision.next_stage, decision.outcome, decision.reason)
                     break

@@ -1,0 +1,21 @@
+The read-only investigation confirms that the rag/config.py mismatch is fully explained by the intentional, user-requested addition of:
+
+OKF_ENABLED = True
+
+The historical Task 7.5/7.6 manifests must remain unchanged as historical records.
+
+Authorize reconciliation for Task 7.7 only as follows:
+
+Treat the current rag/config.py as the authorized project state.
+Do NOT restore or modify rag/config.py.
+Do NOT modify, overwrite, or regenerate the historical Task 7.5/7.6 manifests.
+Record the known intentional mismatch as an explicit protected-file exception for this Task 7.7 run, with the evidence from Task 7.7.1.
+Preserve all other protected-file hashes as strict requirements.
+Re-run the complete protected-file integrity check.
+If every other protected path matches and the only exception is the documented rag/config.py OKF_ENABLED = True addition, proceed with the previously specified Task 7.7 Prefix-Only Role Control Experiment exactly unchanged.
+Do not alter the experiment, memory limits, reranker, frozen pools, queries, eligibility threshold, downstream pipeline, or production defaults.
+Do not create a new experiment or change Task 7.7 specifications.
+
+Before scoring, report that the single authorized exception is rag/config.py and explain why it is authorized.
+
+Then proceed sequentially with the original Task 7.7 procedure. Stop immediately if any additional protected-file mismatch appears.

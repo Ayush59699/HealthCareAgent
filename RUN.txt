@@ -1,0 +1,180 @@
+HEALTHCARE AGENTIC AI — MANUAL TESTING GUIDE
+
+PowerShell • VS Code terminal • Research prototype only
+
+Do not use outputs as medical advice. Do not modify retrieval, rebuild indexes, download models, or expose .env.
+
+1. Enter Project & Configure Session
+
+If needed:
+
+cd .\healthcare-agentic-ai
+
+Check Python:
+
+..\.venv\Scripts\python.exe --version
+
+Set conservative session options once:
+
+$env:PYTHONDONTWRITEBYTECODE = "1"
+$env:HF_HUB_OFFLINE = "1"
+$env:TRANSFORMERS_OFFLINE = "1"
+$env:HF_HUB_DISABLE_TELEMETRY = "1"
+$env:ANONYMIZED_TELEMETRY = "False"
+$env:RUN_GPT_INTEGRATION = "0"
+
+Use one command/process at a time and close memory-heavy applications.
+
+2. Run Offline Tests
+
+Full test suite:
+
+..\.venv\Scripts\python.exe -B -m unittest discover -s tests -t .
+
+Expected from the validated version:
+
+575 tests — 574 passed, 1 skipped, 0 failed
+
+Focused final-decision tests:
+
+..\.venv\Scripts\python.exe -B -m unittest tests.test_final_decision
+
+Expected: 28 tests passed
+
+3. Check Samples
+
+..\.venv\Scripts\python.exe -B scripts\demo.py --list-samples
+
+Expected: first three label-free validation samples.
+
+4. Check Local Retrieval
+
+..\.venv\Scripts\python.exe -B scripts\demo.py --validate-only
+
+Expected:
+
+LOCAL VALIDATION COMPLETED
+LLM requests: 0
+
+This checks local stores/models only—not cloud credentials or clinical correctness.
+
+5. Run One Live End-to-End Test
+
+This uses the configured cloud LLM and may incur API charges.
+
+$run = "outputs\manual-test-$(Get-Date -Format 'yyyyMMdd-HHmmss-fff')"
+
+..\.venv\Scripts\python.exe -B scripts\run_phase6.py --queries 1 --output-dir $run
+
+Pipeline:
+
+DDXPlus (labels excluded)
+ → Patient Agent
+ → Patient Case RAG
+ → AMG Medical Evidence
+ → Diagnostic Agent
+ → Grounding
+ → Clinical Critic
+ → Safety
+ → Final Decision / Human Review
+
+Check exit code:
+
+$LASTEXITCODE
+
+0 = technical completion.
+ALLOW, HUMAN_REVIEW, BLOCK, or abstention can all be valid results.
+
+Expected files:
+
+sample_case_001.json
+final_decision_001.json
+phase6_run_report.json
+
+Do not rerun just to obtain ALLOW.
+
+6. Inspect & Verify the Run
+
+View final decision:
+
+Get-Content "$run\final_decision_001.json"
+
+Compact summary:
+
+$decision = Get-Content "$run\final_decision_001.json" -Raw | ConvertFrom-Json
+$decision | Select-Object status, workflow_status, proposal_withheld, human_review_required, review_state, safety_coverage
+
+Verify without another cloud/model call:
+
+..\.venv\Scripts\python.exe -B scripts\verify_amg_run.py "$run\sample_case_001.json" --final-decision "$run\final_decision_001.json"
+
+Expected for a complete evidence-bearing run:
+
+final_decision_verified: true
+clinical_success_claimed: false
+
+This verifies provenance/integrity, not clinical correctness.
+
+7. Understand the Results
+
+final_decision_001.json
+
+Contains:
+
+status: ALLOW / HUMAN_REVIEW / BLOCK
+
+diagnostic proposal
+
+patient / analogous / medical evidence
+
+grounding
+
+critic findings
+
+safety findings
+
+uncertainty
+
+human-review state
+
+BLOCK/HUMAN_REVIEW → diagnostic proposal must be withheld.
+
+sample_case_001.json
+
+Full local audit record: retrieved evidence, diagnostic versions, critic findings, validations, errors, timings, and safety fingerprints.
+
+phase6_run_report.json
+
+Technical run summary and safety disposition.
+
+Important:
+
+ALLOW = research output passed system gates, not medical clearance.
+
+BLOCK = result must not be released.
+
+HUMAN_REVIEW = AI cannot finalize the case.
+
+No medical evidence → abstention, not invented evidence.
+
+Patient-case retrieval provides analogies, not current-patient observations.
+
+A citation existing does not prove medical support.
+
+Do not weaken safety or tune retrieval to force ALLOW.
+
+8. Verify the Previously Validated Run
+
+No cloud calls:
+
+..\.venv\Scripts\python.exe -B scripts\verify_amg_run.py outputs\final-validation\live\sample_case_001.json --final-decision outputs\final-validation\live\final_decision_001.json
+
+Previously validated result:
+
+Patient case: 1
+AMG passages: 5
+Cloud calls: 3
+Technical failure: No
+Safety: BLOCK
+Final decision: BLOCK
+Human review: pending

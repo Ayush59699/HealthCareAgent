@@ -5,6 +5,8 @@
 > [phase4-validation.md](phase4-validation.md). Earlier stop/status statements below
 > describe the repository at the time of that phase.
 
+**Corpus update:** the full 2026-09-22 English MedlinePlus summary expansion is documented in [medlineplus-expansion.md](medlineplus-expansion.md). Counts and commands below describe the original bounded Phase 3 corpus, not the expanded index.
+
 Retrieval only. No generative LLM, agents, orchestration or diagnostic decision
 system. The Phase 2 patient modules, tests, collection and index are unchanged.
 Only the existing embedding implementation is reused, with a separate medical

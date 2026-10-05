@@ -1,0 +1,15 @@
+okf_version: "0.2"
+project: "Healthcare Agentic AI System"
+scope: "New read-only Task 7.8.1 review index; existing OKF and experiment manifests unchanged."
+docs_and_experiments:
+  - id: "task_7_8_1_source_text_review"
+    path: "healthcare-agentic-ai/docs/task7.8.1-source-text-relevance-review.md"
+    summary: "COMPLETED single-AI source-text review using only saved Task 7.8 artifacts, not a new experiment or clinician adjudication. Reviewed all 60 eligibility gains (A22/B31/C7), all 10 losses (A7/B2/C1), plus 47 stable controls: 117 distinct case-chunk-role pairs (A37/B50/C30). All specified Flu/Panic/Fainting/asthma/Older Adult Mental Health pairs and all 21 unique selected role pairs covered. Flu recovery A and substantive; Panic recovery A but rank-6 passage-budget displacement. Asthma history losses substantive: symptom passage remains eligible but displaced, definition and other background rejected. Lost Older Adult Mental Health is B, limited age/smoking overlap: query reports smoking, not increased smoking or psychiatric symptoms. Seven C gains include CPR, iron-overload continuation, TMD evaluation, vascular anatomy, prediabetes skin signs, rehabilitation and veterinary advice; none selected. No diagnoses, hidden/benchmark labels, new scores, model invocation, production/threshold changes or further experiment proposed. All 64 existing Task 7.8 artifact files SHA-256 unchanged."
+    artifacts: "healthcare-agentic-ai/outputs/task7.8.1/"
+    key_artifacts:
+      - "judgments.tsv: explicit per-pair qualitative class, evidence-use axis and source-text rationale"
+      - "reviewed-pairs.json and review-ledger.md: full query/source/provenance/selection trace for all 117 pairs"
+      - "selected-evidence-review.json: all selected roles; MedCPT 9 direct findings, 2 partial findings, 2 background, 2 management"
+      - "review-summary.json: separated flip/stable/selected denominators and A/B/C counts"
+      - "review-validation.json and task78-input-hashes-before/after.json: coverage, exact source hashes and unchanged saved artifacts"
+    limitations: "Single reviewer, prior findings visible, no inter-rater or clinical validation; A denotes textual usefulness, not diagnosis or calibrated relevance."

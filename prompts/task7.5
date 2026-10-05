@@ -1,0 +1,145 @@
+## Task 7.5 — Label-Free Ranking Ablation
+
+Continue from the completed Task 7.4 implementation.
+
+The goal is to investigate the remaining **ranking/final-selection problem** identified in Task 7.4. Do NOT redesign the retrieval architecture.
+
+### Objective
+
+Determine why useful medical candidates can be recovered into the hybrid candidate pool but are sometimes not selected as final evidence.
+
+Use only the existing label-free validation cases and existing medical corpus.
+
+### Freeze the following
+
+* candidate depth = 50
+* existing BGE embeddings
+* existing Qdrant medical collection
+* existing BM25 implementation
+* existing RRF implementation
+* existing provenance/evidence validation
+* existing FrozenEvidence / EvidenceSnapshot contracts
+* existing grounding
+* existing Diagnostic Agent
+* existing Clinical Critic
+* existing Safety Validator
+* existing abstention behavior
+* existing medical corpus
+* existing chunking/indexes
+
+Do NOT:
+
+* use benchmark labels
+* inspect or use hidden DDXPlus diagnoses
+* add disease-specific rules
+* add asthma/panic-specific boosts
+* expand the corpus
+* rebuild the production medical index
+* modify downstream agents
+* weaken safety gates
+* change production defaults
+* run cloud inference
+* run multiple experiments concurrently
+
+Keep the hybrid path explicitly opt-in.
+
+### Ablations
+
+Compare the current ranking behavior against a small number of controlled alternatives:
+
+1. Current Task 7.4 ranking.
+2. Stronger weighting for current symptom/finding queries.
+3. Explicit distinction between current findings and historical/background findings.
+4. Small demographic/population mismatch penalty.
+5. Reduced redundant history selection.
+
+Do not invent arbitrary medical rules. Any feature must be derived from observed patient facts, query roles, provenance, or generic retrieval metadata.
+
+### Important constraint
+
+Do not assume that a nonempty final result is successful.
+
+For every selected passage record:
+
+* title
+* section
+* source
+* chunk ID
+* originating query
+* query role
+* dense rank
+* BM25 rank
+* RRF score
+* reranker score
+* concept coverage
+* demographic/population features
+* final selection reason
+* selection/removal stage
+
+For rejected useful-looking candidates, record the same information where available and explain which stage removed them.
+
+### Validation cases
+
+Reuse the existing three label-free validation cases from Task 7.4.
+
+Do not introduce hidden diagnosis information.
+
+For the previously failing pediatric case, specifically verify whether basic respiratory/asthma information remains recoverable, but do not treat retrieval of asthma information as evidence that the patient has asthma or an asthma exacerbation.
+
+### Memory safety
+
+Keep the existing memory watchdog.
+
+Run one case at a time.
+
+Run ablations sequentially.
+
+Do not increase candidate depth beyond 50.
+
+Do not increase batch sizes.
+
+Do not add workers.
+
+Do not download additional large models unless absolutely necessary.
+
+If system memory approaches the configured safety limit, stop the experiment and report the phase and memory usage.
+
+### Output
+
+Produce a comparison table:
+
+| Case | Ranking variant | Final evidence | Useful candidate missed? | Main selection issue | Time | Peak RAM |
+| ---- | --------------- | -------------- | ------------------------ | -------------------- | ---: | -------: |
+
+Also produce a stage-level explanation for each case:
+
+```text
+Observed findings
+→ query variants
+→ candidate pool
+→ RRF
+→ reranker
+→ final selection
+```
+
+Identify whether the remaining failure is primarily:
+
+* query construction
+* candidate generation
+* RRF
+* reranker
+* role weighting
+* demographic mismatch
+* redundancy/diversity selection
+* chunk/context
+* corpus coverage
+
+### Success criterion
+
+The experiment succeeds if it clearly identifies which ranking mechanism causes the observed failures and provides evidence for a narrowly scoped improvement.
+
+Do NOT promote any variant to production automatically.
+
+Do NOT modify the existing demo default.
+
+At the end, recommend exactly ONE next engineering change, based only on the observed ablation results.

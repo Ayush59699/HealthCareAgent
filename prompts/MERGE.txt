@@ -1,0 +1,111 @@
+## Task: Redesign the Healthcare Agentic AI Project Around AMG RAG
+
+Understand the existing healthcare-agentic-ai project first, especially:
+
+* the current agentic architecture and agent responsibilities
+* the existing Patient/EHR Agent
+* Patient Case RAG
+* Diagnostic Agent
+* grounding/evidence handling
+* Clinical Critic
+* Safety layer
+* orchestration
+* the previous medical RAG implementation
+* the newly implemented and tested AMG RAG
+
+Then redesign the project so that **AMG RAG becomes the active Medical Knowledge / Medical Evidence layer**.
+
+### Main goal
+
+Replace the old medical RAG with the tested AMG RAG and integrate it properly into the agentic workflow.
+
+A good target architecture is roughly:
+
+`DDXPlus Patient Case`
+→ `Patient Agent`
+→ `Patient Case RAG`
+→ `AMG Medical Evidence`
+→ `Diagnostic Agent`
+→ `Grounding`
+→ `Clinical Critic`
+→ `Safety`
+→ `Orchestrator / Final Output`
+
+You can change this structure if the existing code suggests a better architecture.
+
+### Important requirements
+
+1. **Understand before changing**
+
+   * Inspect the existing agentic project and AMG RAG implementation.
+   * Understand how their current interfaces and data flow work.
+
+2. **Use AMG RAG as the medical RAG**
+
+   * The old Medical RAG should no longer be the active medical-evidence path.
+   * AMG RAG should provide the medical evidence/context used by the downstream agents.
+   * Do not create another retrieval system or start a new RAG experiment.
+
+3. **Redesign rather than blindly patch**
+
+   * Clean up the architecture where necessary.
+   * Reuse existing agents/code when they are still useful.
+   * Rewrite components when their old design conflicts with the new architecture.
+   * Keep responsibilities separated: retrieval/evidence should not become the Diagnostic Agent itself.
+
+4. **Keep Patient Case RAG separate**
+
+   * Patient Case RAG is for similar patient cases.
+   * AMG RAG is for medical knowledge/evidence.
+   * Do not unnecessarily merge the two.
+
+5. **Preserve important safety behavior**
+
+   * Keep evidence provenance/IDs intact.
+   * Keep grounding.
+   * Keep Clinical Critic.
+   * Keep Safety/abstention behavior.
+   * Do not allow AMG RAG's synthesis to automatically become the diagnosis.
+
+6. **Do not use benchmark/relevance labels**
+
+   * Do not modify the existing benchmark labels.
+   * Do not use hidden diagnosis labels for runtime reasoning or retrieval tuning.
+   * Do not spend time creating a new benchmark.
+
+7. **Memory safety**
+
+   * This runs on a 16 GB RAM laptop.
+   * Avoid loading duplicate models/corpora unnecessarily.
+   * Avoid uncontrolled parallelism or large in-memory graph expansion.
+   * Reuse already-loaded resources where practical.
+
+### Verification
+
+After the redesign:
+
+* run the relevant existing tests
+* run at least one real end-to-end patient case through the new architecture
+* verify that AMG RAG is actually being called
+* verify that the old Medical RAG is no longer being used in the active path
+* verify that evidence/provenance reaches the Diagnostic Agent and downstream grounding/critic/safety stages
+* fix reasonable integration problems you encounter
+
+Do not spend time on unrelated improvements.
+
+At the end, report briefly:
+
+1. what architecture you changed
+2. which old components were removed/replaced
+3. how AMG RAG is connected
+4. what tests passed
+5. whether the real end-to-end case worked
+6. any remaining problems
+
+### Implementation decisions after source inspection
+
+* The tested dataset retriever is medlineplus_lab.Retriever in the supplied AMG folder. The graph/answer entrypoint still uses the small demo collection. Integrate the former unchanged as evidence-only rather than treating graph synthesis as diagnosis.
+* Canonical location is now healthcare-agentic-ai/vendor/amg (formerly NEW RAG/AMG-RAG). Existing snapshots and native IDs remain intact; no reindexing or retrieval experiment.
+* Both supported entrypoints use application.workflow.create_workflow and rag/amg. Preserve the Phase 6 workflow/grounding/critic/safety mechanics; abstain if AMG accepts no evidence.
+* Archive old docs and output artifacts instead of destroying extensive uncommitted research. Legacy medical code remains compatibility-only for regression tests, not the supported runtime.
+* Full implementation/verification report: healthcare-agentic-ai/docs/amg-merge.md.

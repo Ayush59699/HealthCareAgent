@@ -1,0 +1,123 @@
+## Task: Implement and Test a Controlled AMG Query Representation
+
+The previous investigation established the measured root cause of the AMG retrieval problem.
+
+Do NOT redesign the agent architecture.
+
+Do NOT change the embedding model, corpus, Chroma index, distance metric, 1.10 gate, Safety, Grounding, Clinical Critic, benchmark labels, or downstream diagnostic behavior.
+
+The problem to address is the **query representation** sent to AMG.
+
+### Current problem
+
+The current AMG query is a concatenation of raw DDXPlus questions.
+
+For the saved case:
+
+* 254/256 tokens were used.
+* About 47% of the query was pain-related question boilerplate.
+* Five important history facts were omitted.
+* Anemia ranked 21 despite passing the gate.
+* Removing the pain questions moved Anemia to rank 1.
+* Kidney Failure ranked 1 when queried using its original patient fact.
+* Prior Anemia ranked 1 using its original patient fact.
+* Black-stool wording ranked GI Bleeding 3rd but still failed the existing 1.10 gate.
+* `"all"` can incorrectly activate Acute Lymphocytic Leukemia when the shorter query allows the alias expansion to fit.
+
+### Goal
+
+Implement a **small, deterministic, role-aware query adapter** between the complete patient facts and AMG.
+
+The adapter should:
+
+1. Reduce repetitive DDXPlus question wording.
+2. Preserve the actual patient information/answers.
+3. Preserve important roles such as:
+
+   * presenting findings
+   * symptoms
+   * history/antecedents
+   * medications
+   * other relevant patient context
+4. Fit more clinically meaningful facts into AMG's existing 256-token window.
+5. Avoid making diagnostic conclusions.
+6. Keep the existing AMG embedding model and retrieval behavior unchanged.
+
+The complete patient record must still remain available to downstream agents. This adapter is only for the medical-evidence retrieval query.
+
+### Alias safety
+
+Before enabling the new query representation, address the demonstrated ordinary-word/acronym problem:
+
+`"all"` → `Acute Lymphocytic Leukemia`
+
+Do this narrowly and safely.
+
+The resolver should not interpret an ordinary word such as `"all"` as a medical acronym merely because it appears inside a normal patient sentence.
+
+Do not broadly rewrite the alias system.
+
+Add a regression test for this exact failure.
+
+### Important constraint
+
+Do NOT hardcode:
+
+* anemia
+* gastrointestinal bleeding
+* blood thinners
+* kidney failure
+* or any diagnosis/topic specifically for this patient.
+
+The new representation must work generically for other DDXPlus cases.
+
+Do not use an LLM to generate the retrieval query.
+
+### Evaluation
+
+Before changing production behavior, preserve the existing saved baseline.
+
+Run the new adapter against the same saved case and compare:
+
+* query token count
+* included/omitted patient facts
+* top-5 AMG results
+* Anemia rank/distance
+* Blood Thinners rank/distance
+* GI Bleeding rank/distance
+* Kidney Failure rank/distance
+* false `"all"` → leukemia behavior
+
+Keep the existing AMG model, store, top-k and 1.10 gate unchanged.
+
+Then run the existing project tests plus focused tests for the new adapter.
+
+If the new query representation improves the saved case, also test it against several other existing cases to make sure it does not simply optimize for this one case.
+
+### Safety
+
+Do not:
+
+* modify benchmark/relevance labels
+* introduce diagnosis labels
+* inject medical topics into retrieval
+* relax the distance gate
+* increase production top-k
+* bypass Safety/Grounding/Critic
+* change Diagnostic Agent prompts just to make the result pass
+* claim clinical improvement from retrieval metrics alone
+
+### Final report
+
+Report:
+
+1. What the new query representation does.
+2. How many tokens the new representation uses.
+3. Which facts are preserved versus omitted.
+4. Before/after retrieval results.
+5. Whether the `"all"` alias problem is fixed.
+6. Tests passed.
+7. Any regressions.
+8. Whether the change should become the new production default.
+
+If the new adapter does not clearly improve retrieval without regressions, leave the production path unchanged and report the result.

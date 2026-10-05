@@ -1,0 +1,459 @@
+TASK: Expand the Medical Knowledge RAG using the official MedlinePlus XML topic dataset
+
+PROJECT:
+healthcare-agentic-ai
+
+OBJECTIVE:
+Replace the current tiny MedlinePlus medical corpus (currently 3 MedlinePlus documents / 17 chunks, 5 total medical documents / 87 chunks including PMC) with the full official MedlinePlus English health-topic XML dataset.
+
+OFFICIAL SOURCE:
+https://medlineplus.gov/xml/mplus_topics_2026-09-22.xml
+
+IMPORTANT:
+This is a corpus-ingestion expansion task.
+
+Do NOT change:
+- Phase 4 architecture
+- Phase 5 architecture
+- Phase 6 safety policy
+- Diagnostic Agent safety behavior
+- Clinical Critic behavior
+- Safety Validator rules
+- DDXPlus parser
+- Patient Case RAG
+- BGE model
+- existing provider configuration
+- GPT-5.6-Sol configuration
+- patient-case labels/provenance protections
+
+The purpose is ONLY to expand and improve the Medical Knowledge RAG corpus.
+
+============================================================
+1. INSPECT THE EXISTING MEDICAL RAG
+============================================================
+
+Before modifying anything:
+
+Inspect the existing implementation and determine:
+
+- current medical ingestion scripts
+- XML/API parsers
+- document model
+- chunking implementation
+- embedding implementation
+- Qdrant collection configuration
+- metadata schema
+- existing MedlinePlus ingestion
+- existing PMC ingestion
+- medical retriever
+- focused_medical.py
+- medical RAG tests
+- current Qdrant collection name/path
+- current index fingerprint mechanism
+
+Do not duplicate existing functionality unnecessarily.
+
+Reuse existing embedding/chunking/Qdrant infrastructure wherever possible.
+
+============================================================
+2. DOWNLOAD THE OFFICIAL XML PROGRAMMATICALLY
+============================================================
+
+Add a reproducible ingestion script, for example:
+
+scripts/ingest_medlineplus.py
+
+It must download:
+
+https://medlineplus.gov/xml/mplus_topics_2026-09-22.xml
+
+Do NOT require the user to manually download the XML.
+
+Use a normal HTTP client already compatible with the project.
+
+Requirements:
+
+- reasonable timeout
+- clear error message on HTTP/download failure
+- verify successful HTTP response
+- write the downloaded XML to a deterministic local raw-data location such as:
+
+data/medical/raw/medlineplus/mplus_topics_2026-09-22.xml
+
+Do not commit the raw XML to source control.
+
+If the file already exists and its checksum matches the downloaded file, support reuse without downloading unnecessarily.
+
+Record:
+- source URL
+- retrieval date/time
+- file size
+- SHA-256
+- dataset filename/version
+
+Do not silently use a different MedlinePlus source.
+
+============================================================
+3. PARSE THE XML
+============================================================
+
+Inspect the actual XML schema before implementing the parser.
+
+Parse ALL valid English health-topic records available in this file.
+
+Do not hard-code a small list of topics.
+
+For each topic, preserve useful source metadata such as:
+
+- topic identifier
+- title
+- URL
+- language if available
+- source/update metadata if available
+- associated health information
+- other useful structured fields present in the XML
+
+Extract actual medical content rather than indexing XML markup.
+
+Do not embed:
+- XML tags
+- navigation markup
+- irrelevant formatting
+- duplicate boilerplate
+- empty fields
+
+Preserve meaningful section boundaries where the XML provides them.
+
+Do not invent missing medical information.
+
+============================================================
+4. DOCUMENT NORMALIZATION
+============================================================
+
+Create normalized medical documents with a schema similar to:
+
+{
+    "source": "medlineplus",
+    "document_id": "...",
+    "title": "...",
+    "url": "...",
+    "language": "en",
+    "source_version": "2026-09-22",
+    "text": "...",
+    "metadata": {...}
+}
+
+Use deterministic document IDs.
+
+The same XML input must produce the same document IDs.
+
+Do not include patient diagnosis labels or DDXPlus labels.
+
+============================================================
+5. CHUNKING
+============================================================
+
+Use the project's existing chunking strategy if appropriate.
+
+Do NOT merely split every existing document into extremely tiny pieces just to inflate the chunk count.
+
+Chunks must represent meaningful medical passages.
+
+Prefer section-aware chunking where possible.
+
+Each chunk must preserve:
+
+- deterministic chunk ID
+- parent document ID
+- source
+- title
+- URL
+- section if available
+- source version
+- chunk text
+
+Avoid duplicate or near-empty chunks.
+
+Make chunking deterministic.
+
+Document the chunking parameters.
+
+============================================================
+6. EMBEDDINGS
+============================================================
+
+Reuse the existing:
+
+BAAI/bge-small-en-v1.5
+
+Do NOT introduce another embedding model.
+
+Maintain the existing embedding dimensionality and distance metric.
+
+Do not download a new model if the existing cached model is available.
+
+Track:
+
+- embedding model
+- embedding dimension
+- chunk count
+- embedding failures
+- truncation count
+
+Fail closed if embedding generation silently loses documents.
+
+============================================================
+7. QDRANT INDEX
+============================================================
+
+Do NOT blindly append the new MedlinePlus corpus to the existing collection.
+
+Build a reproducible medical index.
+
+Preferred behavior:
+
+1. Preserve the existing PMC source ingestion capability.
+2. Rebuild the medical collection from:
+   - full MedlinePlus XML corpus
+   - existing authorized PMC corpus
+3. Replace the previous 87-chunk index with the expanded index.
+
+Ensure that deterministic IDs prevent duplicates.
+
+Keep patient-case Qdrant collection completely separate.
+
+DO NOT modify the patient-case collection.
+
+============================================================
+8. PROVENANCE AND LICENSING
+============================================================
+
+Every MedlinePlus chunk must retain enough metadata to reconstruct its origin.
+
+At minimum:
+
+source = "medlineplus"
+document_id
+chunk_id
+title
+url
+source_version
+language
+
+If the existing schema supports license/provenance metadata, preserve it.
+
+Do not claim licensing information that is not explicitly supported by the source.
+
+============================================================
+9. RETRIEVAL COMPATIBILITY
+============================================================
+
+The existing medical retriever must continue working.
+
+The current Phase 6 focused retrieval behavior must remain compatible.
+
+For example, the current query:
+
+pediatric female detachment; sweating; cramp; chest pain; flank; hypochondrium; breast; shortness of breath; choking; fear of dying; palpitations; numbness tingling history: anxiety; family psychiatric illness; depression; asthma clinical information red flags
+
+should be able to retrieve relevant medical topics from the expanded corpus.
+
+Do not weaken the existing concept-overlap filtering merely to increase recall.
+
+Do not remove safety filtering.
+
+============================================================
+10. MEDICAL RAG AUDIT
+============================================================
+
+Add/update an audit script such as:
+
+scripts/audit_medical_index.py
+
+It must report:
+
+- total documents
+- total chunks
+- MedlinePlus documents
+- MedlinePlus chunks
+- PMC documents
+- PMC chunks
+- embedding dimension
+- distance metric
+- source counts
+- duplicate IDs
+- duplicate documents
+- empty chunks
+- malformed metadata
+- missing provenance
+- embedding failures
+- truncations
+- index fingerprint
+
+The audit must fail if integrity requirements are violated.
+
+============================================================
+11. RETRIEVAL TESTS
+============================================================
+
+Expand the existing medical RAG tests.
+
+At minimum test queries around:
+
+- asthma
+- diabetes
+- hypertension
+- anxiety
+- depression
+- chest pain
+- shortness of breath
+- palpitations
+- migraine
+- pneumonia
+
+Verify that the retrieved topics are medically/topicually relevant.
+
+Do NOT assert that retrieval proves diagnosis.
+
+Similarity must continue to be described as retrieval similarity, NOT disease probability.
+
+============================================================
+12. VALIDATE THE EXISTING VALIDATE:2 CASE
+============================================================
+
+After rebuilding the index, run the existing Phase 6 demo on:
+
+ddxplus:validate:2
+
+Use:
+
+medical_top_k=5
+
+Compare:
+
+BEFORE:
+87 medical chunks
+
+AFTER:
+expanded medical corpus
+
+Record:
+
+- medical corpus size
+- top-k candidates
+- retained candidates
+- discarded candidates
+- retrieved titles
+- similarity scores
+- Diagnostic Agent status
+- Clinical Critic status
+- Safety Validator decision
+- workflow outcome
+- LLM request count
+- execution time
+
+Do NOT force the case to continue.
+
+If Safety Validator blocks it, preserve the block.
+
+The goal is better evidence retrieval, NOT making the demo produce a "successful" diagnosis.
+
+============================================================
+13. REGRESSION PROTECTION
+============================================================
+
+Run:
+
+- all existing tests
+- medical RAG tests
+- Phase 4 regression tests
+- Phase 5 regression tests
+- Phase 6 regression tests
+- demo tests
+
+The existing Phase 4/5/6 behavior must remain intact.
+
+If any protected test fails, investigate rather than weakening the test.
+
+============================================================
+14. DOCUMENTATION
+============================================================
+
+Add documentation describing:
+
+- MedlinePlus XML source
+- exact dataset URL
+- retrieval date
+- parsing method
+- document count
+- chunk count
+- chunking strategy
+- embedding model
+- Qdrant configuration
+- provenance fields
+- reproducibility procedure
+- audit command
+- demo validation command
+
+Clearly distinguish:
+
+"more medical knowledge"
+
+from:
+
+"clinical validation".
+
+Do not claim that a larger RAG corpus makes the system clinically validated.
+
+============================================================
+15. COMMANDS
+============================================================
+
+Make the workflow simple.
+
+Prefer commands such as:
+
+uv run python healthcare-agentic-ai/scripts/ingest_medlineplus.py
+
+uv run python healthcare-agentic-ai/scripts/audit_medical_index.py
+
+uv run python healthcare-agentic-ai/scripts/test_medical_rag.py
+
+uv run python healthcare-agentic-ai/scripts/demo.py --sample 2 --medical-top-k 5 --detailed --architecture
+
+Adapt the exact paths to the existing project if equivalent scripts already exist.
+
+============================================================
+FINAL REPORT
+============================================================
+
+At the end report:
+
+1. Files added
+2. Files modified
+3. Files deliberately untouched
+4. MedlinePlus source URL
+5. XML SHA-256
+6. Number of MedlinePlus documents parsed
+7. Number of MedlinePlus chunks generated
+8. Total medical documents
+9. Total medical chunks
+10. Embedding model
+11. Embedding dimension
+12. Qdrant collection
+13. Duplicate count
+14. Empty/malformed chunk count
+15. Truncation count
+16. Audit result
+17. Medical RAG retrieval test result
+18. Full regression test result
+19. validate:2 before/after comparison
+20. Any limitations
+
+IMPORTANT SAFETY/RESEARCH CONSTRAINT:
+
+Do not alter Phase 6 merely to make the final demo say CONTINUE.
+
+A larger corpus should improve evidence retrieval, but the system must remain capable of BLOCK and HUMAN_REVIEW.
+
+This is a research prototype using synthetic DDXPlus data and must not be represented as a clinically validated diagnostic system.

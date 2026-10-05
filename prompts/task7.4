@@ -1,0 +1,998 @@
+# TASK: REDESIGN AND VALIDATE THE EXISTING MEDICAL RAG RETRIEVAL LAYER
+
+I have reviewed the current RAG architecture.
+
+This is NOT a generic vector RAG. The existing system is a safety-critical dual-store architecture with:
+
+* separate `ddxplus_patient_cases` and `medical_knowledge` Qdrant collections
+* strict label isolation
+* local `BAAI/bge-small-en-v1.5` embeddings
+* 384-dimensional normalized embeddings
+* trusted medical sources only
+* focused medical retrieval
+* immutable evidence snapshots
+* SHA-256 evidence integrity
+* grounding/citation validation
+* mandatory abstention when medical evidence is unavailable
+
+The architecture itself should be preserved.
+
+---
+
+# PRIMARY OBJECTIVE
+
+Improve the **medical knowledge retrieval layer only** so that clinically useful medical knowledge is retrieved reliably from the existing corpus.
+
+The immediate failure we need to solve is:
+
+```text
+Patient findings
+      ↓
+One dense query
+      ↓
+Top-5 medical candidates
+      ↓
+Hard concept-overlap filter
+      ↓
+Very little or no medical evidence
+      ↓
+Diagnostic agent lacks supporting medical knowledge
+      ↓
+Clinical critic flags unsupported reasoning
+      ↓
+Safety validator blocks
+```
+
+The goal is NOT to weaken the safety validator.
+
+The goal is to make sure that relevant medical evidence reaches the safety/grounding layer in the first place.
+
+---
+
+# CRITICAL HARDWARE CONSTRAINT — READ THIS FIRST
+
+The development machine has **16 GB system RAM**.
+
+The laptop has already experienced a system-level memory-overuse problem during previous RAG experimentation.
+
+Therefore, **memory safety is a hard engineering requirement for this task.**
+
+DO NOT implement the entire proposed retrieval architecture as one large memory-heavy operation.
+
+Do NOT simultaneously:
+
+* load the complete medical corpus into RAM
+* rebuild the Qdrant index
+* generate embeddings for the entire corpus
+* construct a full in-memory BM25 index
+* retrieve Top-100 candidates for multiple queries
+* run a cross-encoder over all candidates
+* execute multiple patient cases
+* run the complete regression suite
+
+in the same process or at the same time.
+
+The retrieval redesign MUST be implemented incrementally.
+
+The existing Qdrant medical index should be reused whenever possible.
+
+---
+
+# MEMORY-SAFETY RULES
+
+Use these conservative defaults initially:
+
+```text
+max_queries_per_case = 4
+dense_candidate_k = 20
+bm25_candidate_k = 20
+reranker_candidate_k = 20
+final_evidence_k = 5
+```
+
+Do NOT start with Top-100.
+
+Do NOT increase candidate counts until the smaller configuration has been tested successfully.
+
+Process one patient case at a time.
+
+Process retrieval queries sequentially rather than concurrently.
+
+Do not create unnecessary copies of candidate lists, embeddings, documents, or corpus text.
+
+Release temporary objects after each retrieval stage where practical.
+
+Do not keep dense candidates, BM25 candidates, reranker tensors, and full corpus representations in memory simultaneously unless strictly necessary.
+
+If a component requires substantial additional RAM, measure or estimate its memory requirements before enabling it.
+
+If memory usage becomes unsafe, STOP the experiment rather than continuing automatically.
+
+---
+
+# MANDATORY STAGED IMPLEMENTATION
+
+Do NOT implement all retrieval improvements simultaneously.
+
+Use this order:
+
+```text
+PHASE 1
+Existing Qdrant
++
+multi-query dense retrieval
+        ↓
+validate
+
+PHASE 2
+Existing Qdrant
++
+multi-query dense retrieval
++
+BM25
+        ↓
+validate
+
+PHASE 3
+Dense + BM25
++
+RRF
+        ↓
+validate
+
+PHASE 4
+RRF candidates
++
+reranking
+        ↓
+validate
+
+PHASE 5
+Only if necessary:
+chunking/index improvements
+```
+
+Complete and validate one phase before moving to the next.
+
+Do not automatically proceed through all phases if an earlier phase already solves the retrieval problem.
+
+---
+
+# 1. COMPLETELY PAUSE BENCHMARK LABELING
+
+For this development phase, benchmark labeling is OUT OF SCOPE.
+
+Do NOT:
+
+* modify the 92 relevance proposals
+* apply the seven proposed label changes
+* create new relevance labels
+* perform human relevance labeling
+* optimize retrieval against the 92-case benchmark
+* calculate benchmark relevance metrics
+* use benchmark labels to tune retrieval
+* make benchmark labeling a dependency
+* mark benchmark records as reviewed
+
+The benchmark files may remain in the repository as archived research artifacts.
+
+Do not delete them unnecessarily.
+
+But they must have ZERO influence on the current retrieval implementation.
+
+The retrieval system must remain label-free.
+
+Do not use:
+
+* `PATHOLOGY`
+* `DIFFERENTIAL_DIAGNOSIS`
+* hidden DDXPlus diagnosis labels
+* benchmark relevance labels
+
+for query generation, retrieval, filtering, reranking, or tuning.
+
+---
+
+# 2. PRESERVE THE EXISTING SAFETY ARCHITECTURE
+
+DO NOT redesign or weaken:
+
+* `patient_parser.py`
+* patient/medical collection separation
+* label isolation
+* embedding signature validation
+* trusted medical-source validation
+* `FrozenEvidence`
+* evidence snapshots
+* SHA-256 integrity checks
+* citation validation
+* grounding
+* clinical critic safety logic
+* safety validator
+* mandatory abstention
+
+These components are not the problem.
+
+The retrieval experiment must feed evidence into the existing safety architecture.
+
+DO NOT make the safety gate more permissive simply to reduce the number of BLOCK results.
+
+A BLOCK is acceptable if the system genuinely lacks evidence.
+
+The objective is to reduce unnecessary BLOCKs by improving evidence retrieval.
+
+---
+
+# 3. FOCUS ON `rag/focused_medical.py`
+
+The main component to investigate is:
+
+```text
+rag/focused_medical.py
+```
+
+particularly:
+
+```text
+FocusedEvidenceService
+query_plan()
+filter_candidates()
+```
+
+The current architecture is:
+
+```text
+Patient State
+    ↓
+query_plan()
+    ↓
+single dense query
+    ↓
+MedicalKnowledgeRetriever
+    ↓
+top_k = 5
+    ↓
+filter_candidates()
+    ↓
+final medical evidence
+```
+
+Do NOT simply increase `top_k` from 5 to 20 and call the problem solved.
+
+The architecture needs a proper candidate-generation and reranking stage.
+
+However, because of the 16 GB RAM constraint, implement this incrementally.
+
+---
+
+# 4. PHASE 1 — MULTI-QUERY DENSE RETRIEVAL
+
+Start with ONLY the existing Qdrant medical index and dense retrieval.
+
+Do NOT add BM25 yet.
+
+Do NOT add a cross-encoder yet.
+
+Do NOT rebuild the medical index.
+
+Do NOT re-embed the corpus.
+
+Generate a small number of short clinical retrieval queries from the existing `query_plan()` concepts.
+
+Maximum:
+
+```text
+4 queries per patient case
+```
+
+Process queries sequentially.
+
+For each query:
+
+```text
+query
+ ↓
+BGE-small-en-v1.5
+ ↓
+existing Qdrant medical_knowledge
+ ↓
+Top-20 candidates
+```
+
+Deduplicate candidates after retrieval.
+
+Then inspect whether useful medical evidence is recovered.
+
+Only after Phase 1 is stable should additional retrieval components be introduced.
+
+---
+
+# 5. MULTI-QUERY RETRIEVAL
+
+Do not create one enormous query containing every patient finding.
+
+The current `query_plan()` already extracts:
+
+* symptom concepts
+* history concepts
+* demographic category
+* red-flag concepts
+
+Use these concepts to construct several short retrieval queries.
+
+For example, conceptually:
+
+```text
+Query A:
+respiratory symptoms + asthma history
+
+Query B:
+chest symptoms + sweating + autonomic symptoms
+
+Query C:
+anxiety + sweating + chest symptoms
+
+Query D:
+pediatric respiratory presentation
+```
+
+These are examples of query structure only.
+
+DO NOT hard-code asthma, anxiety, panic, or any particular disease.
+
+Queries must be generated from the observed patient evidence.
+
+Most importantly:
+
+DO NOT insert the hidden DDXPlus diagnosis into the query.
+
+---
+
+# 6. DENSE RETRIEVAL
+
+Continue using the existing BGE embedding infrastructure initially.
+
+Do not replace the embedding model yet.
+
+For Phase 1 use:
+
+```text
+candidate_k = 20
+```
+
+Do NOT begin with 50 or 100.
+
+The existing Qdrant index should be queried directly.
+
+Do not materialize the entire medical collection into Python memory.
+
+Do not load all medical chunks just to perform dense retrieval.
+
+---
+
+# 7. REMOVE THE CURRENT HARD PRE-RERANK FILTER
+
+The existing:
+
+```text
+filter_candidates()
+```
+
+currently retains candidates based on:
+
+1. title overlap with symptom/history concepts
+
+OR
+
+2. at least two symptom concepts appearing in the candidate text.
+
+Candidates failing both are rejected.
+
+Do NOT allow this rule to eliminate candidates before broader ranking.
+
+It is too aggressive as a candidate-generation gate.
+
+Instead, concept overlap should become a ranking feature.
+
+For example:
+
+```text
+semantic relevance
++
+lexical relevance
++
+concept overlap
++
+history relevance
++
+demographic relevance
++
+source quality
+```
+
+should contribute to final ranking.
+
+Concept overlap should NOT be a binary:
+
+```text
+pass / reject
+```
+
+gate at the early stage.
+
+During Phase 1, if `filter_candidates()` must remain temporarily present for compatibility, modify it carefully so that diagnostic/safety behavior is not broken, but do not use it to prematurely discard potentially useful retrieval candidates.
+
+---
+
+# 8. PHASE 2 — ADD BM25 ONLY AFTER PHASE 1 IS STABLE
+
+Only after Phase 1 has been tested successfully should BM25 be introduced.
+
+Do NOT immediately load the entire corpus into an oversized in-memory BM25 structure.
+
+First inspect how the current medical corpus/index is represented.
+
+Prefer an implementation that:
+
+* avoids unnecessary corpus duplication
+* processes data efficiently
+* does not create multiple copies of the same text
+* limits candidate output to Top-20
+* does not retain unnecessary intermediate data
+
+If building a persistent BM25 index is appropriate, build it as a separate one-time indexing step rather than rebuilding it every time the application starts.
+
+Do not rebuild it during every demo execution.
+
+---
+
+# 9. PHASE 3 — COMBINE DENSE + BM25
+
+Once both retrieval paths are stable:
+
+```text
+Dense Top-20
+      +
+BM25 Top-20
+      ↓
+RRF
+      ↓
+Deduplication
+```
+
+Keep only the required candidate information.
+
+Do not retain unnecessary full-corpus structures after indexing.
+
+Do not create redundant copies of the same candidate text.
+
+---
+
+# 10. PHASE 4 — RERANKING
+
+Only introduce a reranker if the previous phases demonstrate that reranking is necessary.
+
+Use:
+
+```text
+Top-20 candidates
+      ↓
+local reranker
+      ↓
+Top-5
+```
+
+NOT:
+
+```text
+Top-100
+      ↓
+cross-encoder
+      ↓
+Top-5
+```
+
+Start with one query/case at a time.
+
+Do not batch many cases.
+
+Do not run concurrent reranking.
+
+Prefer a lightweight local reranker appropriate for a 16 GB RAM CPU-first environment.
+
+Before installing or loading a reranker, inspect:
+
+* model size
+* RAM requirement
+* whether it runs CPU-only
+* expected inference cost
+
+If the reranker is likely to cause excessive memory pressure, STOP and report that before implementing it.
+
+Do not silently install a large model.
+
+---
+
+# 11. IMPROVE MEDICAL CHUNK CONTEXT
+
+Inspect:
+
+```text
+rag/medical_ingestion/chunker.py
+```
+
+and the indexing pipeline.
+
+The current corpus uses:
+
+* section-aware chunking for MedlinePlus
+* 180-word / 30-word sliding windows for PMC/WHO
+
+Preserve the existing provenance.
+
+Evaluate whether chunks lose clinical meaning because:
+
+* a sentence is split
+* section context is missing
+* a heading is separated from the text
+* a continuation chunk does not contain the topic/title
+* relevant information is distributed across adjacent chunks
+
+Where appropriate, create an experimental context-preserving chunk representation.
+
+IMPORTANT:
+
+Do NOT automatically rebuild the entire production medical index.
+
+First determine whether chunking is actually responsible for the retrieval failure.
+
+If re-indexing is necessary:
+
+1. stop the running application
+2. estimate memory requirements
+3. process documents in bounded batches
+4. release each batch after indexing
+5. do not keep all embeddings in RAM
+6. write/upsert incrementally
+7. use a separate experimental collection
+8. preserve the production collection
+
+Never hold the entire corpus and all generated embeddings in memory simultaneously.
+
+---
+
+# 12. SEPARATE RETRIEVAL TEXT FROM EVIDENCE TEXT
+
+The text used for retrieval may contain contextual information such as:
+
+```text
+title
+section heading
+document topic
+chunk text
+```
+
+But the actual evidence passed to downstream agents must remain faithful to the source.
+
+Do not fabricate or rewrite medical evidence merely to improve embedding quality.
+
+Maintain:
+
+```text
+retrieval_text
+```
+
+separately from:
+
+```text
+evidence_text
+```
+
+while preserving:
+
+* source ID
+* title
+* section
+* original text
+* source
+* provenance
+* metadata
+* similarity/ranking information
+
+---
+
+# 13. FINAL EVIDENCE SELECTION
+
+After ranking, select a small final set.
+
+Target:
+
+```text
+3–5 useful passages
+```
+
+Do NOT force exactly five if only two passages are genuinely useful.
+
+Do NOT fill the final evidence set with weak or redundant passages merely to reach five.
+
+Prefer complementary evidence.
+
+---
+
+# 14. THE SYSTEM MUST NOT DIAGNOSE FROM RETRIEVAL
+
+This distinction must remain explicit.
+
+Retrieving:
+
+```text
+Asthma information
+```
+
+does NOT mean:
+
+```text
+Patient has asthma.
+```
+
+Retrieving:
+
+```text
+Panic attack information
+```
+
+does NOT mean:
+
+```text
+Patient has a panic attack.
+```
+
+Retrieval only provides medical knowledge that the downstream diagnostic agent may use as evidence.
+
+The diagnostic agent remains responsible for uncertainty and hypothesis generation.
+
+---
+
+# 15. TEST THE CURRENT FAILURE CASE
+
+Use the previously failing patient case as a regression case.
+
+The purpose is to verify whether the improved retrieval pipeline can retrieve useful medical information related to observed findings such as:
+
+* asthma/bronchodilator history
+* respiratory/chest-related findings if present
+* sweating
+* anxiety
+* relevant pediatric context
+
+The expected result is NOT:
+
+```text
+Diagnosis = asthma
+```
+
+The expected result is:
+
+```text
+Medical evidence about asthma/respiratory conditions
+is successfully retrieved when supported by the observed findings.
+```
+
+If asthma information is retrieved, verify that it contains useful basic clinical information.
+
+If it is not retrieved, determine WHY:
+
+```text
+1. Not present in candidate pool
+2. Present but ranked too low
+3. Present but eliminated by filtering
+4. Chunk lacks context
+5. Corpus genuinely lacks appropriate information
+```
+
+---
+
+# 16. MEMORY-SAFE LOGGING
+
+For every test case, log only the information necessary for diagnosis of retrieval behavior.
+
+Log:
+
+```text
+Patient concepts
+Generated queries
+
+Dense candidate count
+BM25 candidate count
+Fused candidate count
+
+Top candidates before reranking
+Reranker scores
+
+Candidates removed by deduplication
+Candidates removed by final selection
+
+Final evidence:
+- source ID
+- title
+- section
+- score
+- retrieval method
+
+Total latency
+```
+
+Do NOT dump the entire medical corpus into logs.
+
+Do NOT print huge embedding arrays.
+
+Do NOT serialize all candidate vectors.
+
+Do NOT retain large debug objects after the experiment.
+
+Where possible, write concise diagnostic logs to disk and release in-memory objects.
+
+---
+
+# 17. RESOURCE MONITORING IS REQUIRED
+
+Before and after each retrieval phase, record:
+
+```text
+RAM usage
+CPU usage
+retrieval latency
+number of queries
+candidate count
+```
+
+At minimum, record process memory before retrieval and peak/after retrieval where practical.
+
+Use this to identify which component causes memory growth.
+
+If available RAM becomes critically low:
+
+```text
+STOP
+```
+
+Do not continue automatically.
+
+Do not start the next phase.
+
+Report:
+
+```text
+which phase was running
+approximate memory usage
+which model/index was loaded
+what operation caused the increase
+```
+
+---
+
+# 18. DO NOT USE COSINE THRESHOLD AS THE SOLUTION
+
+Do not solve this by simply doing:
+
+```text
+if similarity > X:
+    keep
+else:
+    reject
+```
+
+Dense similarity alone is not sufficient for clinical relevance.
+
+Likewise, do not replace it with:
+
+```text
+if keyword overlap:
+    keep
+```
+
+Use multiple signals.
+
+---
+
+# 19. DO NOT EXPAND THE MEDICAL CORPUS YET
+
+Do not immediately add thousands of new medical documents.
+
+First determine whether the current corpus can already retrieve useful information with:
+
+* better query decomposition
+* broader candidate generation
+* BM25
+* dense retrieval
+* rank fusion
+* reranking
+* improved chunk context
+
+Only after this experiment should we determine whether there is a genuine corpus coverage problem.
+
+---
+
+# 20. DO NOT MODIFY DOWNSTREAM AGENTS
+
+Do not change:
+
+* Diagnostic Agent
+* Clinical Critic
+* Safety Validator
+* Explanation Agent
+* grounding rules
+* citation requirements
+* abstention requirements
+
+The retrieval experiment must be isolated.
+
+This lets us determine whether the BLOCKs are caused by retrieval failure or by downstream reasoning/safety logic.
+
+---
+
+# 21. EVALUATION WITHOUT BENCHMARK LABELING
+
+Since benchmark labeling is completely paused, evaluate retrieval using:
+
+### A. Qualitative retrieval inspection
+
+For representative cases, inspect:
+
+```text
+patient findings
+→ retrieved medical passages
+→ whether passages are clinically useful
+→ whether important observed concepts are represented
+```
+
+### B. Retrieval diagnostics
+
+Measure:
+
+```text
+candidate pool size
+filter loss
+reranking movement
+final evidence count
+duplicate rate
+latency
+memory usage
+```
+
+### C. Failure analysis
+
+Classify failures as:
+
+```text
+candidate-generation failure
+filtering failure
+ranking failure
+chunking failure
+corpus coverage failure
+memory/resource failure
+```
+
+Do not manufacture relevance labels merely to calculate a benchmark score.
+
+---
+
+# 22. KEEP THE ARCHITECTURE RESEARCH-GRADE
+
+The resulting architecture should remain:
+
+```text
+                  PATIENT STATE
+                       │
+                       ▼
+              ┌──────────────────┐
+              │ Concept Extraction│
+              └────────┬─────────┘
+                       │
+                  Multi-Query Plan
+                       │
+              ┌────────┴─────────┐
+              ▼                  ▼
+       Dense Retrieval        BM25
+              │                  │
+              └────────┬─────────┘
+                       ▼
+                  RRF Fusion
+                       │
+                  Deduplication
+                       │
+                       ▼
+                   Reranking
+                       │
+                       ▼
+              Diversity Selection
+                       │
+                       ▼
+                Final Evidence
+                       │
+                       ▼
+              Evidence Snapshot
+                       │
+                       ▼
+               Grounding Audit
+                       │
+              ┌────────┴────────┐
+              ▼                 ▼
+        Diagnostic Agent    Clinical Critic
+              │                 │
+              └────────┬────────┘
+                       ▼
+                Safety Validator
+```
+
+But implement the components progressively rather than loading everything simultaneously.
+
+---
+
+# 23. REQUIRED OUTPUT FROM THIS TASK
+
+After EACH PHASE, report:
+
+1. Phase completed.
+2. Files inspected.
+3. Files changed.
+4. Baseline retrieval behavior.
+5. New retrieval behavior.
+6. Example retrieved passages.
+7. Whether the previous asthma-related retrieval failure improves.
+8. Candidate-pool statistics.
+9. Retrieval latency.
+10. RAM usage / peak memory observed.
+11. CPU usage where available.
+12. Remaining failure cases.
+13. Whether the next phase is justified.
+
+Do NOT proceed automatically to the next phase if the current phase causes excessive memory usage.
+
+Do NOT report benchmark-labeling progress.
+
+Do NOT modify the benchmark labels.
+
+Do NOT make benchmark labeling a blocker.
+
+---
+
+# 24. STOP CONDITIONS
+
+Immediately stop implementation/testing and report back if:
+
+* system RAM approaches unsafe levels
+* the machine becomes unresponsive
+* a model causes unexpected memory growth
+* the entire corpus is being loaded into RAM
+* an index rebuild becomes necessary unexpectedly
+* a large reranker model is required
+* the implementation requires changing downstream safety logic
+* hidden diagnosis labels would be needed
+* benchmark labels would be needed
+
+Do not work around these conditions silently.
+
+---
+
+# FINAL RULE
+
+For this phase:
+
+**RETRIEVAL FIRST + MEMORY SAFETY FIRST.**
+
+Do not make architectural changes outside the retrieval layer without asking first.
+
+Do not weaken safety to reduce BLOCK results.
+
+Do not use hidden diagnoses or benchmark labels.
+
+Do not add medical data before establishing whether the existing corpus can be retrieved effectively.
+
+Do not rebuild the existing medical index unless there is a demonstrated technical reason.
+
+Do not implement all retrieval improvements simultaneously.
+
+The immediate goal is:
+
+> **Make the existing medical knowledge RAG reliably retrieve useful, provenance-preserving medical evidence from observed patient findings, while keeping the existing diagnostic, grounding, critic, and safety architecture unchanged and keeping the workload safe for a 16 GB RAM development machine.**

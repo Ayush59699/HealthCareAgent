@@ -1,0 +1,67 @@
+okf_version: "0.2"
+project: "Healthcare Agentic AI System"
+description: "Open Knowledge Format v0.2 index for token-efficient agent navigation and feature mapping."
+
+modules:
+  - id: "rag_config"
+    path: "healthcare-agentic-ai/rag/config.py"
+    summary: "Configuration settings, paths, model deployments, and environment setup for RAG pipeline. OKF_ENABLED is a module-level flag enabled by default (True)."
+    key_symbols:
+      - "OKF_ENABLED"
+      - "RAGConfig"
+      - "get_embeddings_model()"
+
+  - id: "focused_medical_rag"
+    path: "healthcare-agentic-ai/rag/focused_medical.py"
+    summary: "Focused medical document search and reranking engine."
+    key_symbols:
+      - "FocusedMedicalRetriever"
+      - "search_and_rerank(query, top_k)"
+
+  - id: "patient_parser"
+    path: "healthcare-agentic-ai/rag/patient_parser.py"
+    summary: "Parses patient EHR data, timeline records, and clinical observations."
+    key_symbols:
+      - "parse_patient_record(file_path)"
+      - "extract_clinical_notes(patient_data)"
+
+  - id: "medical_vector_store"
+    path: "healthcare-agentic-ai/rag/medical_vector_store.py"
+    summary: "Vector database indexing and embedding retrieval for clinical guidelines."
+    key_symbols:
+      - "MedicalVectorStore"
+      - "similarity_search(query_vector, k)"
+
+  - id: "orchestration"
+    path: "healthcare-agentic-ai/orchestration/"
+    summary: "Multi-agent pipeline orchestration for clinical decision support and safety verification."
+
+docs_and_experiments:
+  - id: "task_7_6_reranker_experiment"
+    path: "healthcare-agentic-ai/archive/pre_amg/docs/task7.6-reranker-input-experiment.md"
+    summary: "Experiment notes on role-explicit reranker inputs. (Negative result: do not promote)."
+
+  - id: "task_7_7_prefix_role_control"
+    path: "healthcare-agentic-ai/archive/pre_amg/docs/task7.7-prefix-role-control.md"
+    summary: "Original blocked attempt preserved: runner refused startup at 12.68 GB used (1.5 GB reserve, 14 GB stop). Original artifacts in healthcare-agentic-ai/archive/pre_amg/outputs/task7.7/prefix-role-control/. See resume entry for current status."
+
+  - id: "task_7_7_prefix_role_control_resume"
+    path: "healthcare-agentic-ai/archive/pre_amg/docs/task7.7-prefix-role-control-resume.md"
+    summary: "Resume passed unchanged memory startup but stopped on historical integrity: 125/126 protected paths match six Task 7.5/7.6 manifests; rag/config.py mismatches. No files changed during preflight, no models/scoring/tests. System peak 9.645 GB, outer child-tree RSS 0.037 GB. Original blocked artifacts preserved. New artifacts and isolated integrity_preflight.py helper: healthcare-agentic-ai/archive/pre_amg/outputs/task7.7/prefix-role-control-resume-20261003T1705203433917Z/. Investigate mismatch before authorized resumption; no guards or baselines relaxed."
+
+  - id: "task_7_7_authorized_prefix_control"
+    path: "healthcare-agentic-ai/archive/pre_amg/docs/task7.7-prefix-role-control-authorized.md"
+    summary: "COMPLETED Task 7.7 under the sole Task 7.7.1 byte-pinned config exception; historical manifests and old blocked runs unchanged. Three baselines pass 1e-4 tolerance (exact Task 7.6 scores). 2868 frozen role pairs: zero nonpositive-to-positive, 12 historical positive-to-nonpositive transitions. Outcome C with B no-recovery finding; asthma symptoms retained, case-3 Flu remains ineligible. 18 focused / 149 combined tests pass; 284 protected paths and all pair artifacts verified. Experiment peak system 10.265 GB / outer tree RSS 0.671 GB; post-run validation peak 10.324 GB. Isolated prefix_integrity.py, reranker_prefix_control.py, scripts/experiment_reranker_prefix_control.py; no production changes or next experiment. Full artifacts: healthcare-agentic-ai/archive/pre_amg/outputs/task7.7/prefix-role-control-authorized-20261003/."
+
+  - id: "task_7_8_reranker_suitability"
+    path: "healthcare-agentic-ai/archive/pre_amg/docs/task7.8-reranker-suitability.md"
+    summary: "IMPLEMENTED; one guarded launch STOPPED at model-memory preflight, not a scored negative result. Sole alternative ncbi/MedCPT-Cross-Encoder revision 71caf65d4927987813984f54c284405a13fcca49: 109.483M parameters, 438 MB weights, conservative incremental peak 2.126 GB did not fit unchanged 13.5 GB guard. No weights downloaded, no models loaded, no frozen pairs scored; suitability/transitions unmeasured. 284 Task 7.7 closeout paths strictly matched (no historical exception extended), 333-path preflight freeze. 15 new / 60 combined deterministic tests passed. Peak system 12.408 GB / outer tree RSS 0.132 GB. No retry or next experiment; production unchanged. Artifacts: healthcare-agentic-ai/archive/pre_amg/outputs/task7.8/controlled-medcpt/ and guarded-launch.log. Original attempt only; see task_7_8_authorized_retry for completed current result."
+    implementation:
+      - "healthcare-agentic-ai/rag/experimental_medical/reranker_suitability.py: metadata/size/headroom checks, pinned local scalar CPU inference, unchanged pair scoring and complete transition comparisons"
+      - "healthcare-agentic-ai/rag/experimental_medical/suitability_audit.py: requested passage groups and rejection/selection distinctions"
+      - "healthcare-agentic-ai/scripts/experiment_reranker_suitability.py: opt-in sequential runner; all three baselines must pass before experimental scoring"
+      - "healthcare-agentic-ai/tests/test_reranker_suitability.py: 15 synthetic tests; no real models or labels"
+
+  - id: "task_7_8_authorized_retry"
+    path: "healthcare-agentic-ai/archive/pre_amg/docs/task7.8-reranker-suitability-retry.md"
+    summary: "COMPLETED user-authorized retry of SAME experiment; original blocked artifacts preserved. Fixed recorded MedCPT revision 71caf65d4927987813984f54c284405a13fcca49, scalar CPU/batch-2/2-thread inference. All 3 baselines exact vs Task 7.6/7.7. 2868 pairs per model: 60 nonpositive-to-positive (49 current/11 history), 10 positive-to-nonpositive (all history). Panic eligible but rank-6 budget loss; Flu newly selected; anemia definition history eligible but displaced by selected continuation; case-1 kidney 40 pairs still rejected. Fainting retained; pediatric asthma symptoms still positive but displaced, definition and Older Adult Mental Health now ineligible. Mixed result: scoring/gate bottleneck for specific pairs, not sole bottleneck or safe drop-in improvement; no promotion or clinical claims. 60 tests (15 Task 7.8), independent read-only validation of all 2868 pairs and 333 protected files passed. Experiment peak system 11.034 GB / outer tree RSS 0.986 GB; unchanged guards. No next experiment. Full artifacts outputs/task7.8/controlled-medcpt-retry1/, retry1-launch.log, retry1-exit.json and retry1-validation.log. Next step: independent source-text review of saved pairs without new scoring or hidden labels."

@@ -1,0 +1,70 @@
+Task 7.8 — Controlled Reranker Suitability Experiment
+
+Run exactly one isolated experiment to determine whether the pinned `cross-encoder/ms-marco-MiniLM-L-6-v2` is unsuitable for multi-finding medical query–passage relevance.
+
+Use the frozen Task 7.5/7.7 depth-50 candidate pools for validate cases 1, 2, and 3.
+
+Control:
+* `cross-encoder/ms-marco-MiniLM-L-6-v2`
+* revision `233902d25c440f23af6f7d6e94d2946bac0bee0a`
+* existing CPU/batch-2/2-thread configuration
+* existing positive-logit eligibility rule
+
+Experimental condition:
+* Select ONE suitable lightweight local medical/biomedical reranker.
+* Do not change any other retrieval or selection component.
+* Before running, inspect the model's approximate memory requirements and stop if it violates the existing memory budget.
+* Do not download large models or proceed with an unsafe model.
+
+For both control and experimental reranker:
+
+* Score the exact same frozen query–passage pairs.
+* Preserve the original queries verbatim.
+* Do not add role prefixes or rewrite queries.
+* Preserve candidate IDs, evidence text, provenance, and ordering metadata.
+* Do not change thresholds.
+* Do not add fallback eligibility.
+* Do not use benchmark labels or hidden DDXPlus labels.
+
+Required analysis:
+
+1. Reproduce the current reranker scores first.
+2. Compare experimental scores against control on every frozen candidate-role pair.
+3. Report nonpositive → positive transitions.
+4. Report positive → nonpositive transitions.
+5. Specifically inspect:
+
+   * Panic Disorder
+   * Flu
+   * anemia
+   * CKD/kidney-related passages
+   * asthma symptoms
+   * asthma definition
+   * Fainting
+   * Older Adult Mental Health
+6. Separate:
+
+   * candidate exists but reranker rejects it
+   * candidate becomes eligible but loses during selection
+   * candidate remains selected
+7. Report whether the alternative reranker improves eligibility for the relevant frozen candidates without introducing obvious degradation to the existing positive controls.
+
+Memory safety:
+
+* Use `scripts/run_memory_bounded.py`.
+* One case at a time.
+* CPU only.
+* Batch size 2.
+* Two threads.
+* No parallel workers.
+* No reindexing.
+* No embedding generation.
+* No full-corpus loading.
+* Stop at the existing memory guard.
+* Do not bypass any guard.
+
+Do not modify production retrieval defaults or downstream agents.
+
+Do not run another experiment after Task 7.8. Stop and report the findings and exactly one recommended next step.
+
+The purpose is ONLY to determine whether reranker suitability is the demonstrated bottleneck. Do not claim clinical accuracy or diagnostic correctness.

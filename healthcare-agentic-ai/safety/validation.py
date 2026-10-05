@@ -12,7 +12,12 @@ def validate_input(value: SafetyInput) -> SafetyInput:
     for items in (value.patient_cases, value.medical_knowledge):
         if len({item.source_id for item in items}) != len(items):
             raise ValueError('Duplicate safety evidence')
-    validate_references(value.diagnostic, value.patient_state, value.patient_cases, value.medical_knowledge)
+    # Phase 6 may review explicitly disclosed patient-only inference with no RAG.
+    # Its existing missing_medical_reference rule still mandates HUMAN_REVIEW.
+    patient_only = not value.medical_knowledge and bool(
+        value.diagnostic.primary_hypothesis or value.diagnostic.differential_diagnoses)
+    validate_references(value.diagnostic, value.patient_state, value.patient_cases, value.medical_knowledge,
+                        allow_patient_inference=patient_only)
     validate_references(value.critique, value.patient_state, value.patient_cases, value.medical_knowledge)
     return value
 

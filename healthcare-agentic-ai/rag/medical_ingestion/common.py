@@ -48,9 +48,11 @@ def xml_root(path):
     return root
 
 
-def download(url, destination, allowed_hosts, max_bytes=80_000_000):
+def download(url, destination, allowed_hosts, max_bytes=80_000_000, *, exact_url=False):
     """Only HTTPS official endpoints, bounded bytes/time; never HTML scraping."""
     def check(value):
+        if exact_url and value != url:
+            raise ValueError('Pinned source URL changed; refusing a different dataset')
         p = urlparse(value)
         if p.scheme != 'https' or p.hostname not in allowed_hosts or p.username or p.password:
             raise ValueError('Download URL must use an approved official HTTPS host')
@@ -61,6 +63,10 @@ def download(url, destination, allowed_hosts, max_bytes=80_000_000):
         metadata = json.loads(sidecar.read_text(encoding='utf8'))
         if metadata['download_url'] != url or metadata['raw_sha256'] != hashlib.sha256(destination.read_bytes()).hexdigest():
             raise ValueError('Cached raw file provenance mismatch')
+        if metadata.get('file_size_bytes', str(destination.stat().st_size)) != str(destination.stat().st_size):
+            raise ValueError('Cached raw file size mismatch')
+        metadata.update(file_size_bytes=str(destination.stat().st_size), dataset_filename=destination.name)
+        sidecar.write_text(json.dumps(metadata, indent=2), encoding='utf8')
         return metadata
     class OfficialRedirect(__import__('urllib.request', fromlist=['HTTPRedirectHandler']).HTTPRedirectHandler):
         def redirect_request(self, req, fp, code, msg, headers, newurl):
@@ -68,15 +74,26 @@ def download(url, destination, allowed_hosts, max_bytes=80_000_000):
             return super().redirect_request(req, fp, code, msg, headers, newurl)
     from urllib.request import build_opener
     request = Request(url, headers={'User-Agent': 'MedicalKnowledgeResearch/0.1 (bounded retrieval-only corpus)'})
-    with build_opener(OfficialRedirect()).open(request, timeout=90) as response:
-        check(response.url)
-        data = response.read(max_bytes + 1)
-        if len(data) > max_bytes:
-            raise ValueError('Download exceeds size limit')
+    try:
+        with build_opener(OfficialRedirect()).open(request, timeout=90) as response:
+            check(response.url)
+            if response.status != 200:
+                raise ValueError(f'Expected HTTP 200, received {response.status}')
+            data = response.read(max_bytes + 1)
+            if not data or len(data) > max_bytes:
+                raise ValueError('Download is empty or exceeds size limit')
+            declared = response.headers.get('Content-Length')
+            if declared is not None and int(declared) != len(data):
+                raise ValueError('Incomplete HTTP download: Content-Length mismatch')
+    except Exception as exc:
+        raise RuntimeError(f'Official download failed for {url}: {exc}. No alternate source was used.') from exc
     destination.parent.mkdir(parents=True, exist_ok=True)
     metadata = {'download_url': url, 'retrieved_at': datetime.now(timezone.utc).isoformat(),
-                'raw_path': str(destination.resolve()), 'raw_sha256': hashlib.sha256(data).hexdigest()}
-    destination.write_bytes(data)
+                'raw_path': str(destination.resolve()), 'raw_sha256': hashlib.sha256(data).hexdigest(),
+                'file_size_bytes': str(len(data)), 'dataset_filename': destination.name}
+    temporary = destination.with_suffix(destination.suffix + '.part')
+    temporary.write_bytes(data)
+    temporary.replace(destination)
     sidecar.write_text(json.dumps(metadata, indent=2), encoding='utf8')
     return metadata
 

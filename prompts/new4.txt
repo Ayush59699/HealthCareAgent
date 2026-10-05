@@ -1,0 +1,376 @@
+Task — Implement and Evaluate a Baseline-Preserving AMG Query Compression
+
+We have completed the previous controlled experiment (prompts/new3.txt).
+
+Its result was DO NOT PROMOTE.
+
+The previous candidate improved fact coverage and Anemia retrieval, but it:
+
+newly omitted the black-stool finding;
+worsened GI Bleeding retrieval;
+lost a previously included palpitations finding on another case;
+reduced accepted evidence on another case;
+introduced structural alias contamination such as sex → Sexual Health;
+therefore must remain experimental.
+Goal
+
+Run ONE new, narrowly controlled experiment:
+
+Determine whether we can compress the existing production AMG query without losing any facts that the current production query already embeds, while using the freed token budget to include previously omitted patient facts.
+
+Call this baseline-preserving compression.
+
+Do NOT attempt to solve every AMG problem in this task.
+
+1. Production must remain unchanged
+
+Do NOT modify the production retrieval path.
+
+Do NOT change:
+
+embedding model;
+embedding revision;
+Chroma collection;
+corpus;
+stored vectors;
+distance metric;
+top-k = 5;
+distance gate = 1.10;
+AMG vendor source;
+PatientState;
+Patient Case RAG;
+Diagnostic Agent;
+Grounding;
+Clinical Critic;
+Safety;
+orchestration;
+benchmark/relevance labels;
+DDXPlus diagnosis labels;
+clinical prompts.
+
+Do not promote the candidate automatically.
+
+If the experiment fails, leave production exactly as it was.
+
+2. Core rule: preserve the baseline embedded information
+
+Start from the exact production query generated for each patient.
+
+Determine the complete set of patient facts that are actually represented in that baseline query.
+
+The new representation MUST NOT omit any baseline-included clinical fact merely because of role balancing.
+
+For the saved case specifically, the candidate MUST preserve:
+
+pallor;
+all pain-related facts;
+dizziness;
+near-fainting;
+fatigue;
+activity limitation;
+non-restful sleep;
+black stools;
+poor diet;
+prior anemia.
+
+The important requirement is:
+
+No baseline-included clinical fact may be sacrificed merely to increase the number of total facts.
+
+This is the main difference from new3.
+
+3. Compression strategy
+
+Use only deterministic text compression.
+
+Allowed:
+
+removing repetitive interrogative scaffolding;
+converting structured question/answer syntax into compact literal statements;
+removing redundant repeated wording;
+grouping answers belonging to the EXACT SAME original question;
+compact deterministic formatting.
+
+Example:
+
+Do you feel slightly dizzy or lightheaded? = Yes
+
+may become:
+
+dizzy/lightheaded = Yes
+
+But do not infer:
+
+anemia
+
+or:
+
+possible GI bleeding
+
+or any diagnosis.
+
+Preserve qualifiers such as:
+
+recently;
+ever;
+family history;
+timing;
+negation;
+unknown;
+answer values.
+
+Do not paraphrase medical meaning using a clinical dictionary or LLM.
+
+4. Use remaining budget for omitted facts
+
+After preserving every baseline-included fact, calculate remaining token capacity.
+
+Only then add previously omitted facts.
+
+Priority must NOT be based on diagnosis or medical assumptions.
+
+Use deterministic order such as:
+
+previously omitted patient history/antecedent facts;
+previously omitted medication facts;
+previously omitted contextual facts.
+
+But if adding an omitted fact would cause ANY baseline-included clinical fact to disappear, do not add it.
+
+The baseline information has priority.
+
+5. Do NOT put structural metadata into the medical query
+
+Do NOT emit literal structural headings such as:
+
+Presenting:
+Symptoms:
+History:
+Medications:
+Context:
+
+unless the experiment proves that they cannot interact with AMG aliases.
+
+For this experiment, the safest default is:
+
+Do not add role/header words to the embedded text.
+
+Keep role information in the internal audit structure only.
+
+This is specifically because new3 demonstrated:
+
+sex → Sexual Health
+
+and potentially:
+
+Medications → medical alias
+
+We do not want structural metadata influencing the medical embedding.
+
+6. Alias handling
+
+Do NOT broaden the previous all fix.
+
+Do NOT rewrite the vendor alias system.
+
+Do NOT add medical aliases.
+
+Do NOT create topic-specific aliases.
+
+For this experiment:
+
+retain the existing experimental ordinary-all guard only if it is already isolated from production;
+do not introduce additional alias behavior;
+record any alias expansions produced by the candidate;
+especially report structural/context contamination such as sex → Sexual Health.
+
+The purpose of this task is query compression, not alias-system redesign.
+
+7. Evaluation
+
+Use the SAME saved case from outputs/amg-live.
+
+Then use the SAME consecutive validation cases previously used:
+
+validate:2 through validate:6.
+
+Do not select cases after looking at results.
+
+Do not use benchmark labels.
+
+Do not use DDXPlus diagnosis labels.
+
+Do not create relevance labels.
+
+This remains a qualitative retrieval experiment.
+
+8. For every case report
+
+Compare:
+
+Query
+baseline token count;
+candidate token count;
+baseline embedded token count;
+candidate embedded token count;
+baseline character count;
+candidate character count.
+Information preservation
+
+Report:
+
+baseline clinical facts included;
+candidate clinical facts included;
+baseline facts lost;
+newly added facts;
+candidate facts omitted.
+
+The most important metric is:
+
+Number of baseline-included clinical facts lost.
+
+A good candidate should be:
+
+0 lost baseline clinical facts.
+
+Retrieval
+
+Report:
+
+baseline top 5;
+candidate top 5;
+accepted hits before/after;
+requested-topic global ranks/distances for the same topics previously tracked.
+
+For the saved case continue tracking:
+
+Anemia;
+Blood Thinners;
+GI Bleeding;
+Kidney Failure.
+
+Do not inject those topics into the query.
+
+Alias diagnostics
+
+Report:
+
+aliases resolved;
+source-title expansions;
+ordinary-word expansions;
+structural/context expansions;
+whether sex, age, section-like terms, etc. trigger medical aliases.
+9. Success criteria
+
+Do NOT define success as simply "more facts."
+
+A candidate is potentially better only if:
+
+Required
+Zero baseline clinical facts lost across the evaluated cases.
+No production files are changed.
+No diagnosis labels or benchmark labels are used.
+No clinical inference is introduced.
+No new unsafe alias behavior is introduced.
+Existing AMG top-k and gate remain unchanged.
+Strong positive signal
+
+If the candidate also:
+
+reduces token usage;
+includes previously omitted facts;
+improves Anemia retrieval;
+improves Blood Thinners/Kidney Failure retrieval;
+improves or preserves GI Bleeding retrieval;
+preserves or improves accepted evidence across validation cases.
+Failure
+
+If the candidate loses any baseline clinical fact, especially a symptom/finding such as:
+
+black stools;
+palpitations;
+chest pain;
+vomiting blood;
+respiratory symptoms;
+
+record the regression and do NOT promote.
+
+Do not compensate by changing top-k or threshold.
+
+10. Tests
+
+Add focused tests for:
+
+baseline fact preservation;
+zero-loss invariant;
+deterministic output;
+exact answer preservation;
+negation preservation;
+qualifiers;
+duplicate-question handling;
+token budget;
+character budget;
+state immutability;
+no structural headers in embedded query;
+alias diagnostics.
+
+Run:
+
+python -m unittest tests.test_amg_query_adapter -v
+python -m unittest discover -s tests -t .
+
+Also run the existing upstream AMG tests.
+
+11. Integrity requirements
+
+Preserve the same protected-file/integrity methodology used in new3.
+
+Do not overwrite:
+
+outputs/amg-live;
+outputs/new2;
+previous new3 artifacts.
+
+Create a new experiment directory:
+
+outputs/new4/
+
+Save:
+
+comparison results;
+baseline/candidate queries;
+fact inventories;
+retrieval results;
+alias diagnostics;
+test output;
+integrity hashes;
+final evaluation report.
+
+Do not modify existing experiment artifacts.
+
+12. Final decision
+
+At the end, give exactly one of:
+
+PROMOTE
+
+Only if the candidate demonstrates consistent improvement without losing baseline clinical information or introducing alias contamination.
+
+DO NOT PROMOTE
+
+If there is any meaningful regression or inconsistent retrieval behavior.
+
+INCONCLUSIVE
+
+If the experiment does not provide enough evidence.
+
+Do not make production changes merely because the candidate improves the saved case.
+
+The final report must clearly distinguish:
+
+implementation correctness;
+retrieval improvement;
+regression;
+production status.
+
+No production promotion is allowed automatically.

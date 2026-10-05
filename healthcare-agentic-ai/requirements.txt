@@ -1,6 +1,6 @@
 # SentenceTransformer supplies local normalized embeddings; brings torch,
 # transformers, numpy and supporting packages transitively. CPU-first.
-sentence-transformers>=3.4,<6
+sentence-transformers>=3.4,<7
 # Persistent embedded Qdrant vector storage/search; no Docker or GPU needed.
 qdrant-client>=1.12,<2
 # Phase 1 and tests otherwise use the Python standard library (unittest).
@@ -14,3 +14,9 @@ pydantic>=2.10,<3
 
 # Cloud generation via the Azure/OpenAI-compatible Responses API.
 openai>=3.12,<4
+
+# Task 7.4 local experiment memory watchdog (decimal 15 GB machine ceiling).
+psutil>=5.9,<8
+
+# AMG published Chroma snapshots (same reader version used upstream).
+chromadb==1.5.9

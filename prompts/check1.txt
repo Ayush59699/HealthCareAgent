@@ -1,0 +1,64 @@
+The system is still returning BLOCK on the live label-free end-to-end test.
+
+DO NOT change retrieval, embeddings, Qdrant, top-k, distance metric, gates, corpus, ranking, AMG, safety policy, or add benchmark labels.
+
+DO NOT try to force ALLOW.
+
+We need to determine exactly why the current case is being blocked.
+
+Use the latest saved run under the manual-test output directory and trace the actual data flow:
+
+Retrieved AMG evidence
+→ DiagnosticResult claims
+→ claim/evidence references
+→ GroundingResult
+→ ClinicalCritique
+→ SafetyAssessment
+→ FinalDecision
+
+Inspect:
+
+final_decision_001.json
+sample_case_001.json
+phase6_run_report.json
+
+Report the exact:
+
+diagnostic claims produced
+AMG passages retrieved
+medical evidence actually cited by each claim
+grounding status for each claim
+unsupported_by_medical_evidence findings
+reference_present_not_verified findings
+critic safety flags
+critic missing-evidence findings
+contradictions, if any
+final safety findings
+exact rule/path that converted the case to BLOCK
+
+Then determine which category best explains the BLOCK:
+
+A. genuinely insufficient evidence
+B. diagnostic claim is unsupported
+C. grounding/reference linkage problem
+D. critic false-positive or overblocking
+E. safety-routing problem
+F. other implementation problem
+
+Do not modify production code yet.
+
+If the evidence-to-claim linkage is the problem, show one concrete example:
+
+CLAIM → cited evidence → grounding result → critic finding → safety finding → BLOCK
+
+Also compare the actual retrieved passage text with the diagnostic claim, but do not make a clinical correctness claim beyond what the system's evidence supports.
+
+The goal is diagnosis of the BLOCK cause, not making the system return ALLOW.
+
+Finish with:
+
+ROOT CAUSE:
+EVIDENCE:
+PRODUCTION CHANGE NEEDED: YES/NO
+IF YES: smallest safe change
+RETRIEVAL CHANGE NEEDED: YES/NO

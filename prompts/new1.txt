@@ -1,0 +1,44 @@
+## Task: Diagnose the AMG Evidence Quality Problem
+
+The AMG integration is now complete and the full architecture is working.
+
+Do NOT redesign the architecture again and do NOT create a new RAG.
+
+Use the existing real end-to-end run:
+
+`outputs/amg-live/sample_case_001.json`
+
+Trace the case through:
+
+`Patient facts → AMG query → retrieved AMG passages → Diagnostic Agent output → evidence IDs/provenance → Grounding → Clinical Critic`
+
+The goal is to determine why the live case was blocked.
+
+Specifically identify:
+
+1. What medical claims/hypotheses the Diagnostic Agent produced.
+2. Which AMG passages were retrieved for those claims.
+3. Which claims are actually supported by those passages.
+4. Which claims were flagged by the Clinical Critic as missing medical references.
+5. Whether the problem is primarily:
+
+   * retrieval quality,
+   * insufficient AMG evidence,
+   * evidence/provenance mapping,
+   * Diagnostic Agent reasoning,
+   * or Critic expectations.
+6. Check whether the 256-token AMG query limitation materially affected this case.
+
+Do not change the retrieval algorithm yet.
+
+Do not modify benchmark/relevance labels.
+
+Do not tune thresholds yet.
+
+Do not bypass or weaken Grounding, Clinical Critic, or Safety.
+
+If you find a clear implementation bug, fix it and rerun the affected tests. Otherwise, leave the code unchanged and produce a concise diagnostic report explaining the actual bottleneck.
+
+The important output is a clear answer to:
+
+**"Why did AMG provide five passages but the Diagnostic Agent still produce claims that the Critic could not medically support?"**

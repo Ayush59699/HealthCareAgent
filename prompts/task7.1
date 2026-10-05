@@ -1,0 +1,116 @@
+TASK 7A — REVIEWED MEDICAL RETRIEVAL BENCHMARK
+
+We have now run the retrieval evaluator for DDXPlus validation case 2.
+
+Observed result:
+
+Current focused query:
+top-5:  Panic absent, Asthma absent
+top-10: Panic absent, Asthma absent
+top-20: Panic absent, Asthma absent
+top-50: Asthma in Children rank 26, Panic absent
+
+Symptom-only query:
+top-5/10/20/50: Panic, Asthma, Hyperventilation title matches absent.
+
+Experimental lexical reranking can move Asthma in Children into its
+top-5, but this is only a heuristic and has not demonstrated clinical
+relevance.
+
+DO NOT modify production retrieval.
+
+Goal:
+Create a small independently reviewed medical-retrieval benchmark so
+we can determine whether the issue is retrieval ranking or query/corpus
+representation.
+
+Requirements:
+
+1. Create a reviewable JSON dataset:
+   evaluation/medical_relevance.json
+
+2. Start with DDXPlus validation case 2 only.
+
+3. Include the actual retrieved candidate chunks from:
+   - current BGE top-50
+   - symptom-only top-50
+   - experimental lexical top-5
+   - explicitly requested corpus topics:
+     Panic Disorder
+     Asthma
+     Asthma in Children
+   if those chunks exist in the index.
+
+4. For every candidate store:
+   - chunk_id
+   - title
+   - source
+   - full chunk text
+   - original BGE rank if retrieved
+   - cosine similarity if available
+   - lexical-reranker rank if available
+
+5. Add a manually editable field:
+
+   relevance:
+     "relevant"
+     "partially_relevant"
+     "not_relevant"
+     "uncertain"
+
+6. Define relevance only as:
+   "Does this medical passage provide useful medical information
+    for interpreting one or more of the patient's observed findings
+    or differential categories?"
+
+7. Do NOT use the DDXPlus diagnosis label to assign relevance.
+
+8. Do NOT automatically assign relevance using title overlap,
+   cosine score, lexical score, or diagnosis labels.
+
+9. Add optional reviewer_notes.
+
+10. Create:
+    scripts/summarize_medical_relevance.py
+
+    It should calculate, after manual review:
+
+    - number of relevant chunks
+    - number partially relevant
+    - Recall@5
+    - Recall@10
+    - Recall@20
+    - Recall@50
+    - MRR
+    separately for:
+      current query
+      symptom-only query
+      lexical reranker
+
+11. If no manually reviewed relevance exists, do not calculate
+    clinical/relevance metrics.
+
+12. Do not change:
+    - Qdrant
+    - BGE model
+    - medical corpus
+    - live top-k=5
+    - focused retrieval
+    - Diagnostic Agent
+    - Clinical Critic
+    - Safety Validator
+
+13. No cloud/API calls.
+
+14. Add unit tests for the benchmark and metric calculations.
+
+15. Document the methodology in:
+    docs/task7a-reviewed-retrieval-benchmark.md
+
+The final output must clearly distinguish:
+- raw retrieval ranking
+- manual relevance judgment
+- derived retrieval metrics
+- clinical/diagnostic conclusions
+
+Do not claim diagnostic accuracy or clinical validity.

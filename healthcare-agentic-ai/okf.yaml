@@ -1,0 +1,134 @@
+okf_version: '0.2'
+project: Healthcare Agentic AI - AMG
+workspace_manifest: ../okf.yaml
+summary: 'Current application: label-free Patient Agent -> Patient Case RAG -> supplied AMG MedlinePlus retrieval -> Diagnostic -> Grounding -> Critic -> Safety.'
+active:
+  composition: application/workflow.py
+  resource_preflight: application/resources.py
+  medical_backend: rag/amg/backend.py
+  evidence_service: rag/amg/service.py
+  native_provenance: rag/amg/provenance.py
+  grounding: rag/agents/grounding.py
+  grounding_report: orchestration/phase6/grounding.py
+  final_decision: application/decision.py
+  workflow_engine: orchestration/phase6/orchestrator.py
+  patient_retrieval: rag/patient_rag.py
+  safety: safety/
+  batch: scripts/run_phase6.py
+  demo: demo/terminal.py
+  saved_run_verification: scripts/verify_amg_run.py
+  tests: tests/test_amg_integration.py
+upstream:
+  location: vendor/amg/
+  index: vendor/amg/okf.yaml
+  retriever: vendor/amg/medlineplus_lab.py
+  constraint: 'Implementation is byte-pinned by published snapshots. Calls unchanged search; no answer synthesis/web/graph.'
+documentation:
+  architecture: docs/architecture.md
+  verification: docs/final-system-validation.md
+  pre_change_audit: docs/final-system-audit.md
+  historical_index: archive/pre_amg/okf.yaml
+verification:
+  project_suite: '575 tests, 574 passed, zero failed, one opt-in cloud test skipped; includes 28 new final-decision/grounding/handoff tests.'
+  standalone_upstream_suite: '56 offline tests, OK in system Python environment with upstream dependencies.'
+  real_case: 'FINAL task ddxplus:validate:1: 45.94s, five AMG passages, three cloud calls, no technical failure; BLOCK, pending human review, no released proposal. Source/safety/final handoff verified.'
+  artifacts: outputs/final-validation/live/
+constraints:
+  - 'Research only; relevance/citation existence is not clinical entailment or diagnosis correctness.'
+  - 'No labels, new benchmarks, new retrievers, model downloads or index builds during runtime.'
+  - 'Legacy medical modules are compatibility-only; supported entrypoints use application.workflow.'
+  - 'Existing workspace .env remains secret; vendor .env is not used by this integration.'
+
+case_quality_review:
+  request: ../prompts/new1.txt
+  report: docs/amg-evidence-quality-diagnosis.md
+  findings: >-
+    Saved case has five nonspecific passages, zero diagnostic medical citations and four disclosed patient-only hypotheses.
+    Four missing_medical_reference findings are deterministic Safety HUMAN_REVIEW, not Critic findings; three critic safety flags cause BLOCK.
+    Provenance verified. Query is 254/256 tokens versus 339 for all unique facts; anticoagulant, kidney-failure and underweight context omitted.
+    Relevant anemia/GI-bleeding/blood-thinner source chunks exist but were not returned. No new search or counterfactual result claimed.
+  verification: 48 targeted tests passed; cached tokenizer replay and source inspection only; 166 protected code/run files unchanged during audit.
+  runtime_changes: None; no retrieval, threshold, prompt, safety, store or label changes.
+
+retrieval_root_cause_review:
+  request: ../prompts/new2.txt
+  report: docs/amg-retrieval-root-cause.md
+  artifacts: outputs/new2/
+  findings: >-
+    Saved query/AMG top five reproduced exactly on a disposable Chroma copy; exhaustive 2289-vector ranks agree.
+    Anemia rank 21 at 1.052496 (inside gate but outside top five); Blood Thinners bleeding chunk rank 258 at 1.346185;
+    GI Bleeding rank 290 at 1.364999; Kidney Failure rank 1780 at 1.836119.
+    Removing pain questions improves Anemia, but shorter queries activate false all-to-ALL expansion.
+    Isolated black-stool fact ranks GI Bleeding third but fails 1.10 gate; isolated anemia/kidney facts rank their topics first.
+    Anticoagulant alias expansion retrieves Blood Thinners. No embedding/normalization or saved-top-five HNSW mismatch.
+  verification: 506 project tests OK (one opt-in cloud skip), 56 upstream tests OK; 256 protected files unchanged after analysis and tests.
+  scope: Existing stored vectors, cached CPU model, six literal-fact diagnostic probes; no cloud calls, production edits, label edits, index rebuild or threshold tuning.
+  next_direction: Compact role-aware label-free query construction plus ordinary-word/acronym disambiguation, subject to authorization and revalidation; not implemented.
+
+controlled_query_experiment:
+  request: ../prompts/new3.txt
+  report: docs/amg-controlled-query-evaluation.md
+  artifacts: outputs/new3/
+  adapter: rag/amg/query_adapter.py
+  alias_guard: rag/amg/alias_safety.py
+  evaluation: scripts/evaluate_amg_query_adapter.py
+  tests: tests/test_amg_query_adapter.py
+  decision: Experimental only; production query and resolver unchanged.
+  representation: Deterministic question-scaffolding removal, identical-question answer grouping, role-balanced whole-fact packing with original-reference coverage audit; 256-token limit.
+  alias_scope: Narrow opt-in ordinary all versus uppercase ALL guard, including exact-lookup bypass and longest-phrase checks; vendor bytes unchanged.
+  saved_case: 254 to 251 tokens; 19 to 23 of 24 clinical facts plus demographics; Anemia rank 21 to 2, but black-stool fact newly omitted and GI Bleeding rank 290 to 305.
+  regressions: Consecutive validate rows 2-6 reveal lost palpitations, narrower accepted evidence, and incidental sex-to-Sexual-Health expansion; no clinical improvement claimed.
+  verification: 23 focused tests, 529 project tests OK (one cloud skip), 56 upstream tests OK; 256 prior protected files unchanged.
+
+baseline_preserving_compression_experiment:
+  request: ../prompts/new4.txt
+  report: docs/amg-baseline-preserving-compression.md
+  artifacts: outputs/new4/
+  adapter: rag/amg/baseline_compression.py
+  evaluation: scripts/evaluate_amg_baseline_compression.py
+  tests: tests/test_amg_query_adapter.py
+  decision: DO NOT PROMOTE; production query and resolver unchanged.
+  strategy: Exact production baseline validation; mandatory full baseline compression first; omitted antecedents then other clinical facts in source order; no evictions, headers or demographic metadata. Original new3 syntactic compressor and isolated all guard reused unchanged.
+  correctness: Zero of 102 baseline clinical facts lost across the same six cases; 19 previously omitted facts added; 121 of 128 total facts retained. No clinical inference or label use.
+  saved_case: Mandatory baseline compresses 254 to 183 tokens; all 24 clinical facts fit in 251 tokens, including black stools. Anemia rank 21 to 1 at 0.734436; GI Bleeding rank 290 to 152, Blood Thinners warnings 258 to 53, Kidney Failure 1780 to 421, latter three still outside gate and top five.
+  regressions: Validation case 5 retains all facts but accepted evidence falls 5 to 0 at unchanged 1.10; other cases show mixed distance/topic shifts. No structural or demographic alias contamination in tested candidate queries; not clinical improvement.
+  verification: 41 focused tests OK (18 new plus 23 prior); 547 project tests OK (one cloud skip); 56 upstream tests OK. All 351 pre-existing protected files unchanged, including previous experiment artifacts. One fixed candidate, no post-result tuning or promotion.
+
+cleanup_review:
+  request: ../prompts/clean
+  report: docs/cleanup.md
+  exact_deletions: docs/cleanup-deletions.md
+  audit: outputs/cleanup/
+  removed: Workspace empty dump and 162 source-backed bytecode files; 19 empty cache directories.
+  retained: Production, compatibility code/tests, all research including New3/New4 negative results, upstream source and protected local assets; uncertain workspace notes preserved.
+  verification: Before/after 547 project tests (546 passed, one cloud skip), 56 upstream tests passed; offline contract tests and CLI startup only, no production-store query/model startup or cloud call.
+  integrity: Production source/tests unchanged; documentation and current OKF indexes only.
+  status: CLEANUP COMPLETE — PRODUCTION UNCHANGED
+
+
+final_system_completion:
+  request: ../prompts/FINAL.txt
+  status: COMPLETE AND RUNNABLE research prototype; not clinical validation
+  audit: docs/final-system-audit.md
+  report: docs/final-system-validation.md
+  tests: tests/test_final_decision.py
+  artifacts: outputs/final-validation/
+  new_contracts: [GroundingResult, FinalDecision]
+  critic: Existing isolated call now receives explicit deterministic grounding report; phase6-critic-grounding-v1.
+  final_handoff: Rechecks original facts, evidence and safety/routing; ALLOW only for FINAL. Other outcomes withhold proposal and require pending human review. No approval or override API.
+  review_audit: Full Phase6WorkflowState remains separate local reviewer material; final artifact binds its fingerprint.
+  verification: 547 baseline tests; 575 after (574 passed, one skipped); 28 new tests passed; 56 upstream passed. Real supported Phase6 run BLOCK verified offline against native sources and recomputed final artifact.
+  retrieval_changes: None; strategy/parameters/query/aliases/stores unchanged; no experiments; New4 not promoted.
+
+manual_testing_guide: RUN.txt
+
+check1_block_audit:
+  request: ../prompts/check1.txt
+  report: docs/check1-block-cause.md
+  exact_trace: docs/check1-block-trace.md
+  artifacts: outputs/check1/
+  scope: Requested manual-test directory absent from workspace; explicit fallback outputs/final-validation/live only. Actual manual run remains unaudited.
+  findings: Five accepted AMG passages, zero diagnostic medical citations; 19 unsupported_by_medical_evidence statuses, zero reference_present_not_verified. Three Critic safety flags deterministically BLOCK; four missing-reference findings independently require HUMAN_REVIEW. No citation loss or routing mismatch observed.
+  classification: A/B evidence insufficiency confirmed; D possible overbroad Critic flags (especially warning against unused clot passage), not a proven clinically unjustified block. No immediate production change justified.
+  verification: Native sources, grounding, safety identity, summary and final decision verified offline; 575 tests run (574 passed, one skipped); 224 protected pre-existing files unchanged.
+  production_changes: None; no prompts, retrieval, safety-policy, labels, stores or configuration changes; no cloud call or new retrieval.

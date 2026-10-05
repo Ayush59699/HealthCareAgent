@@ -1,0 +1,117 @@
+## Task: Investigate Why AMG Retrieves the Wrong Medical Evidence
+
+The previous audit established that the agentic architecture and evidence pipeline are working correctly.
+
+Do NOT redesign the agent architecture.
+
+Do NOT change production retrieval, thresholds, prompts, Safety, Grounding, benchmark labels, or stored data yet.
+
+We now need to understand the retrieval problem before making any changes.
+
+### Known result
+
+The real case contained clinically relevant facts including:
+
+* black stools
+* pallor
+* fatigue
+* dizziness/near-fainting
+* prior anemia
+* anticoagulant use
+* kidney failure
+* poor diet
+
+The AMG corpus contains relevant topics such as:
+
+* Anemia
+* Gastrointestinal Bleeding
+* Blood Thinners
+* Kidney Failure
+
+But the saved AMG retrieval returned:
+
+* Blood Clots
+* ME/CFS
+* Fibromyalgia
+* Chronic Myeloid Leukemia
+* Pain
+
+### Investigate
+
+Using the existing saved run and existing AMG implementation, determine why the relevant topics ranked poorly.
+
+Specifically inspect:
+
+1. **Query representation**
+
+   * What exact text is sent to AMG?
+   * Which patient facts contribute the most tokens?
+   * How are symptoms, history and medical concepts represented?
+   * Is the query dominated by repeated/general pain information?
+
+2. **Embedding similarity**
+
+   * Inspect the existing embeddings/similarity behavior for the saved query against the relevant topics:
+
+     * Anemia
+     * Gastrointestinal Bleeding
+     * Blood Thinners
+     * Kidney Failure
+   * Compare them with the five retrieved topics.
+   * Use existing stored embeddings/data where possible.
+   * Do not rebuild the index.
+
+3. **AMG's entity/alias processing**
+
+   * Determine whether concepts such as anemia, black stools, blood thinners and kidney failure are actually recognized.
+   * Determine whether recognized concepts influence retrieval or are only metadata.
+   * Investigate the previously observed `"all" → Acute Lymphocytic Leukemia` ambiguity, but do not change the alias rules yet.
+
+4. **Retrieval stages**
+   Determine whether the failure happens because of:
+
+   * query construction,
+   * entity extraction,
+   * alias resolution,
+   * embedding similarity,
+   * distance gating,
+   * candidate selection,
+   * or final ranking.
+
+5. **Do not assume the answer**
+   The previous audit established that relevant documents exist, but it did NOT establish exactly why they rank below the returned documents.
+
+### Verification rules
+
+This is an investigation only.
+
+Do not:
+
+* change retrieval code
+* change thresholds
+* add a reranker
+* increase top-k as a production fix
+* modify benchmark labels
+* inject the known relevant passages into the result
+* make new LLM/cloud calls unless absolutely necessary for understanding an existing behavior
+* claim that a hypothetical improved query works unless you actually test it
+
+You may write a diagnostic report and small temporary/read-only analysis code if needed.
+
+### Final report
+
+Clearly identify:
+
+**A. Root cause**
+What specifically causes the relevant AMG topics to rank poorly?
+
+**B. Contributing factors**
+For example query truncation, repeated pain facts, alias behavior, embedding mismatch, etc.
+
+**C. What is NOT the cause**
+Explicitly rule out provenance, evidence mapping, Safety, Grounding, and other issues already verified.
+
+**D. Recommended fix direction**
+Give the smallest sensible next architectural/retrieval change, but do not implement it yet.
+
+Run the relevant tests after the investigation and confirm that production code remains unchanged.

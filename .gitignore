@@ -8,3 +8,17 @@ wheels/
 .venv
 *.zip
 .env
+astra2.txt
+
+# Local medical downloads, staged builds and rollback snapshots (not source).
+data/medical_knowledge/raw/
+data/medical_knowledge/processed/
+data/medical_knowledge/qdrant*/
+data/medical_knowledge/.medlineplus-*
+
+# Isolated task-7.3 medical retrieval experiments (rebuildable local indexes).
+data/medical_knowledge/experimental-task73*/
+data/medical_knowledge/.task73-*/
+
+# Isolated task-7.4 context representation; production indexes are not replaced.
+data/medical_knowledge/experimental-task74*/

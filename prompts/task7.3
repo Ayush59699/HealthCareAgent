@@ -1,0 +1,363 @@
+For the current development phase, **completely pause the medical relevance benchmark-labeling/audit work.**
+
+The project should NOT spend time creating, modifying, auditing, applying, or evaluating the 92-case relevance labels at this stage.
+
+## 1. Remove benchmark labeling from the current workflow
+
+Treat the following as **out of scope for now**:
+
+* medical relevance labeling
+* Astra relevance audits
+* changing `relevant / partially_relevant / not_relevant / uncertain`
+* applying the 7 proposed label changes
+* human review of the 92 proposals
+* benchmark relevance metrics
+* optimizing retrieval against the 92 labeled proposals
+* creating derived audited benchmark files
+
+Do not continue the benchmark-labeling task in the development pipeline.
+
+Do not delete source files unless necessary. They can remain archived for a later research/evaluation phase, but they should have **no role in the current retrieval-development loop**.
+
+Do not mark anything as human-reviewed.
+
+---
+
+## 2. Change the immediate project objective
+
+The current objective is:
+
+> **Build a retrieval system that can reliably retrieve useful medical knowledge from the existing corpus for a label-free patient presentation.**
+
+The system should be able to retrieve useful background medical information even when there is no known diagnosis.
+
+For example, if a patient has:
+
+```text
+History:
+- asthma / previous bronchodilator use
+
+Current observations:
+- shortness of breath
+- choking sensation
+- chest symptoms
+```
+
+the medical RAG should be capable of retrieving basic asthma/respiratory information.
+
+This does NOT mean diagnosing the patient with asthma.
+
+The distinction must remain:
+
+```text
+Retrieval:
+"Here is relevant medical knowledge about asthma."
+
+NOT:
+
+Diagnosis:
+"The patient has an asthma exacerbation."
+```
+
+---
+
+## 3. Do not use diagnosis labels to improve retrieval
+
+Retrieval must remain label-free.
+
+Do NOT use:
+
+* DDXPlus final diagnosis
+* hidden diagnosis labels
+* ground-truth disease
+* benchmark relevance labels
+* manually assigned relevance labels
+
+to construct retrieval queries or tune retrieval behavior.
+
+Use only the observed patient information available to the system.
+
+---
+
+## 4. Focus entirely on retrieval
+
+Investigate and improve:
+
+### Query construction
+
+Move away from one giant patient query.
+
+Experiment with multiple clinically meaningful clusters derived from the observed findings.
+
+For example:
+
+```text
+breathing difficulty + choking + chest symptoms
+
+palpitations + sweating + tingling + fear
+
+abdominal/flank pain + cramping
+```
+
+These are examples only.
+
+Do not hard-code these disease-specific examples into production.
+
+The system should generate appropriate clusters from the patient's observed findings.
+
+---
+
+### Candidate generation
+
+Test deeper candidate pools:
+
+```text
+Top-50
+Top-100
+```
+
+rather than immediately retrieving only five passages.
+
+The final evidence limit can remain small.
+
+Conceptually:
+
+```text
+Patient
+ ↓
+Multiple retrieval queries
+ ↓
+Dense retrieval + BM25
+ ↓
+Top 50–100 candidates
+ ↓
+RRF / deduplication
+ ↓
+Reranking
+ ↓
+Up to 5 useful passages
+```
+
+---
+
+### Hybrid retrieval
+
+Experiment with:
+
+```text
+Dense retrieval
++
+BM25 / lexical retrieval
+```
+
+and combine their candidate pools using an appropriate rank-fusion method such as RRF.
+
+---
+
+### Reranking
+
+Evaluate a reranker on the broad candidate pool **before the final evidence limit**.
+
+Do not use arbitrary cosine thresholds as substitutes for relevance.
+
+Do not allow the current lexical filter to eliminate potentially useful candidates before reranking.
+
+---
+
+### Passage construction
+
+Fix the current chunking/context problems.
+
+Preserve:
+
+* topic
+* section heading
+* complete sentences
+* paragraph/list context
+* source provenance
+
+where appropriate.
+
+Do not silently change the source evidence.
+
+Create a separate experimental index rather than destroying the existing index.
+
+---
+
+## 5. Diagnose where retrieval fails
+
+For every experiment, determine which of these is happening:
+
+```text
+A. Relevant document never enters candidate pool
+       ↓
+   Candidate-generation problem
+
+B. Relevant document enters candidate pool
+   but gets filtered out
+       ↓
+   Filtering problem
+
+C. Relevant document survives
+   but ranks poorly
+       ↓
+   Reranking problem
+
+D. Relevant document is retrieved
+   but its chunk lacks context
+       ↓
+   Chunking problem
+
+E. No appropriate document exists
+       ↓
+   Genuine corpus gap
+```
+
+This distinction is more important than simply reporting that retrieval "failed."
+
+---
+
+## 6. Use real examples to inspect quality
+
+Do not rely solely on automated metrics.
+
+For representative patient cases, show:
+
+```text
+Patient findings
+
+Baseline retrieved documents
+
+Experimental retrieved documents
+
+Documents recovered by the new method
+
+Documents incorrectly retrieved
+
+Final passages delivered to the agent
+```
+
+For the current asthma-related failure, specifically verify whether the existing **Asthma in Children** material can be surfaced through the improved retrieval pipeline.
+
+Also verify that relevant panic/respiratory/cardiopulmonary material can be surfaced when supported by the observed symptoms.
+
+Do not treat successful retrieval as proof of diagnosis.
+
+---
+
+## 7. Keep downstream agents unchanged
+
+For this phase, do NOT redesign:
+
+* Patient Agent
+* Diagnostic Agent
+* Clinical Critic
+* Safety Validator
+* grounding validation
+* safety gates
+
+The purpose is to isolate retrieval as the variable.
+
+If the downstream system blocks because it lacks evidence, that is acceptable during the experiment.
+
+The goal is to determine whether better retrieval supplies the missing evidence.
+
+---
+
+## 8. Do not add more medical data yet
+
+First determine how much of the existing corpus can be recovered through better:
+
+* query construction
+* candidate generation
+* lexical retrieval
+* dense retrieval
+* rank fusion
+* reranking
+* chunking
+
+Only after this experiment should we decide whether the corpus itself needs expansion.
+
+---
+
+## 9. Do not train or fine-tune the LLM yet
+
+Do not:
+
+* fine-tune the LLM
+* implement continual learning
+* train a medical classifier
+* train the diagnostic agent
+
+The immediate problem is retrieval, not model training.
+
+---
+
+## 10. Production safety must remain strict
+
+Improving retrieval must NOT mean loosening safety.
+
+The system should still distinguish:
+
+```text
+Medical knowledge retrieved
+        ≠
+Diagnosis established
+```
+
+and:
+
+```text
+Patient symptom compatible with condition
+        ≠
+Condition confirmed
+```
+
+Keep the existing grounding and safety protections intact.
+
+---
+
+## 11. Deliverable
+
+At the end of this phase, provide:
+
+1. The current retrieval architecture.
+2. The confirmed retrieval failure modes.
+3. The experimental retrieval architecture.
+4. The files/code changed.
+5. Baseline vs experimental retrieval examples.
+6. Relevant documents successfully recovered.
+7. Remaining retrieval failures.
+8. Chunking/context improvements.
+9. Latency impact.
+10. Recommendation for the next step.
+
+Do NOT provide benchmark-labeling recommendations.
+
+Do NOT create new relevance labels.
+
+Do NOT ask for human relevance review.
+
+Do NOT make the 92-case benchmark a dependency for this phase.
+
+---
+
+# Final priority
+
+The development order is now strictly:
+
+```text
+1. FIX RETRIEVAL
+       ↓
+2. VERIFY RETRIEVAL QUALITATIVELY
+       ↓
+3. VERIFY IT GENERALIZES ACROSS CASES
+       ↓
+4. CONNECT/VERIFY DOWNSTREAM AGENTS
+       ↓
+5. ONLY LATER DESIGN A FORMAL EVALUATION BENCHMARK
+```
+
+The existing 92-case benchmark work is **paused, not deleted**.
+
+

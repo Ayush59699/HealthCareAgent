@@ -1,0 +1,48 @@
+Review the 92 candidates in:
+
+healthcare-agentic-ai/evaluation/medical_relevance.json
+
+Goal:
+Produce MODEL-ASSISTED PROPOSED RELEVANCE JUDGMENTS for the medical retrieval benchmark.
+
+For every candidate, examine:
+1. The label-free patient findings provided in the benchmark.
+2. The full medical passage text.
+
+Assign exactly one proposed label:
+- relevant
+- partially_relevant
+- not_relevant
+- uncertain
+
+Definition:
+"Does this medical passage provide useful medical information for interpreting one or more of the patient's observed findings or differential categories?"
+
+Rules:
+- Do NOT use the DDXPlus final diagnosis as evidence.
+- Do NOT use retrieval rank.
+- Do NOT use BGE cosine similarity.
+- Do NOT use lexical rank.
+- Do NOT judge relevance from the title alone.
+- Base the judgment on the actual passage content and the observed patient findings.
+- Do not modify production retrieval, agents, prompts, safety logic, or indexes.
+- Do not set reviewed=true.
+- Do not claim these are human-review judgments.
+- Preserve the original JSON unchanged.
+
+Create a separate file:
+
+evaluation/medical_relevance_astra_proposals.json
+
+For every candidate include:
+- candidate/chunk ID
+- proposed_relevance
+- reasoning
+- confidence: high / medium / low
+
+Also provide a final summary:
+- count of each proposed label
+- candidates marked uncertain
+- candidates where medical interpretation was difficult
+
+This is a research benchmark review aid, NOT clinical advice and NOT a clinical diagnosis.

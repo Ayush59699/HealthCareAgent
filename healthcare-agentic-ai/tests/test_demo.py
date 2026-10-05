@@ -156,14 +156,16 @@ class DemoTests(unittest.TestCase):
         medical.__enter__ = Mock(return_value=medical)
         medical.__exit__ = Mock(return_value=False)
         patients.vector_store.count.return_value = 1
-        medical.store.count.return_value = 1
+        from tests.amg_helpers import configure_medical
+        configure_medical(medical)
         with patch('demo.terminal.discover_samples', return_value=[record]), \
              patch('rag.patient_parser.DDXPlusParser'), \
              patch('demo.terminal.Path.is_dir', return_value=True), \
              patch('demo.terminal.Path.is_file', return_value=True), \
+             patch('application.resources.prepare_runtime'), \
              patch('rag.config.load_generation_env'), \
              patch('rag.patient_rag.PatientCaseRAG', return_value=patients), \
-             patch('rag.medical_retriever.MedicalKnowledgeRetriever', return_value=medical), \
+             patch('rag.amg.AMGMedicalEvidence', return_value=medical), \
              patch('rag.llm.provider.OpenAIProvider') as provider, \
              patch('sys.stdout', new_callable=io.StringIO) as output:
             self.assertEqual(main(['--validate-only']), 0)

@@ -1,0 +1,39 @@
+Proceed with the recommended read-only independent source-text relevance review of the completed Task 7.8 comparisons.
+
+Use ONLY the saved Task 7.8 artifacts/comparisons. Do not run another reranker, do not score new pairs, do not modify thresholds, do not modify retrieval, and do not use benchmark labels or hidden DDXPlus labels.
+
+Review the actual query text and source/evidence text for the important eligibility transitions.
+
+At minimum inspect:
+
+* all 60 nonpositive → positive transitions, if practical;
+* all 10 positive → nonpositive transitions;
+* every Flu transition;
+* every Panic Disorder transition;
+* Fainting control;
+* asthma symptom/background/definition transitions;
+* Older Adult Mental Health transitions.
+
+Classify each reviewed transition using ONLY the saved query and source text:
+
+A. Clearly useful/relevant medical evidence
+B. Possibly useful / ambiguous
+C. Clearly weak or irrelevant evidence
+
+For selected evidence, also determine whether the passage is useful for the patient's observed findings versus merely related background information.
+
+Do not infer or assign a diagnosis. Do not use hidden labels or benchmark relevance labels.
+
+Produce:
+
+1. counts of A/B/C among the reviewed transitions;
+2. examples of important A/B/C cases with query and source title/section;
+3. which previously recovered evidence was lost under MedCPT;
+4. which new evidence MedCPT recovered;
+5. whether the Flu recovery appears substantively useful;
+6. whether Panic Disorder becoming eligible but not selected indicates an eligibility problem or a later selection problem;
+7. whether the asthma and Older Adult Mental Health regressions appear substantive.
+
+This is a read-only analysis. Do not modify production code, frozen candidate pools, Task 7.8 artifacts, manifests, or downstream agents.
+
+Stop after this review. Do not propose or execute another experiment unless explicitly authorized.

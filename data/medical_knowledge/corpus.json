@@ -1,15 +1,29 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "entries": [
     {
       "source": "medlineplus",
-      "raw_path": "raw/medlineplus/mplus_topics_2026-09-18.xml",
-      "sha256": "87f7d7bfc98721b3ea800ea817cb725515fcb66855df9c8b580f05988d3c82b4",
-      "titles": [
-        "Asthma",
-        "Diabetes",
-        "High Blood Pressure"
-      ]
+      "raw_path": "raw/medlineplus/mplus_topics_2026-09-22.xml",
+      "sha256": "b855b98aa3a6773c31188d91d948a91303a6e98a091f09163052a01db704460c",
+      "source_version": "2026-09-22",
+      "selection": "all-english-summaries",
+      "parse_stats": {
+        "total_records": 2033,
+        "english_records": 1017,
+        "parsed_documents": 1015,
+        "excluded_non_english": 1016,
+        "excluded_unselected": 0,
+        "missing_summary": [
+          {
+            "id": "899",
+            "title": "Electromagnetic Fields"
+          },
+          {
+            "id": "898",
+            "title": "Lactose Intolerance"
+          }
+        ]
+      }
     },
     {
       "source": "pmc",
@@ -24,6 +38,5 @@
       "pmcid": "PMC5451008"
     }
   ],
-  "failures": [],
-  "who_status": "No reviewed WHO selection; zero WHO documents downloaded/indexed"
+  "failures": []
 }

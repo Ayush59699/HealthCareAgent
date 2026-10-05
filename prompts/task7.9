@@ -1,0 +1,410 @@
+Task 7.9 — Controlled Selection-Stage Analysis Using Frozen Task 7.8 Results
+
+OBJECTIVE
+
+Determine whether the downstream evidence-selection stage is responsible for excluding useful medical evidence that has already passed reranker eligibility.
+
+This is a controlled diagnostic experiment only.
+
+Do NOT replace the reranker.
+Do NOT change retrieval.
+Do NOT change eligibility thresholds.
+Do NOT change production behavior.
+Do NOT add medical data.
+Do NOT use benchmark labels or hidden DDXPlus labels.
+
+The specific motivating finding is the Task 7.8/7.8.1 result:
+
+Panic Disorder evidence became eligible under MedCPT but was not selected.
+Flu evidence became eligible and was selected.
+Asthma evidence showed both eligibility and selection regressions.
+Task 7.8.1 source-text review found 22 clearly useful newly-positive pairs and 31 ambiguous pairs among the 60 newly-positive transitions.
+
+The purpose of Task 7.9 is to determine whether useful eligible evidence is being lost primarily because of the existing selection/diversity/document-budget logic.
+
+==================================================
+
+FROZEN INPUTS
+==================================================
+
+Use ONLY the saved Task 7.8/7.8.1 artifacts.
+
+Use the same frozen depth-50 candidate pools:
+
+validate:1 = 593 fused/reranked candidates
+validate:2 = 416 fused/reranked candidates
+validate:3 = 425 fused/reranked candidates
+
+Use the saved Task 7.8 control and experimental scores exactly as recorded.
+
+Do NOT rerun either reranker.
+
+Do NOT regenerate embeddings.
+
+Do NOT query Qdrant.
+
+Do NOT regenerate BM25.
+
+Do NOT regenerate RRF.
+
+Do NOT recreate candidate pools.
+
+Do NOT modify source text, query text, provenance, evidence IDs, or candidate ordering.
+
+Use the existing saved eligibility results from Task 7.8.
+
+The original MiniLM control and MedCPT experimental results must remain unchanged.
+
+This experiment remains completely label-free.
+
+Do NOT read:
+
+DDXPlus pathology labels
+DDXPlus differential-diagnosis labels
+benchmark relevance labels
+the previous 92-proposal relevance labels
+any hidden answer keys
+any human benchmark labels
+
+The Task 7.8.1 source-text review may be used only as the already-completed review artifact.
+
+Do not create new clinical/relevance labels.
+
+For candidates that are already eligible under the saved Task 7.8 reranker results:
+
+Does the existing selector unnecessarily exclude useful evidence because of:
+
+final evidence budget,
+document cap,
+history/background prioritization,
+current-finding prioritization,
+one-per-parent constraints,
+Jaccard redundancy threshold,
+query-role ordering,
+or another existing deterministic selection rule?
+
+Do NOT change these rules in production.
+
+We are only analyzing their behavior.
+
+First reproduce the existing Task 7.8 final selection from the saved artifacts.
+
+The control must produce exactly the previously recorded final evidence IDs/order for each case.
+
+If the control cannot be reproduced exactly, STOP.
+
+Do not proceed with any experimental analysis until the control is reproduced.
+
+Record:
+
+final evidence IDs
+final evidence order
+candidate eligibility
+candidate ranking
+document IDs
+role/query origin
+selector rejection reason where available
+
+Create an isolated diagnostic selector analysis.
+
+Do NOT invent a new production selector.
+
+The analysis should simulate the existing selector while recording, for EVERY eligible candidate that is not selected:
+
+candidate ID
+source/document ID
+title
+section
+role
+originating query
+reranker score
+ranking position
+whether it was eligible
+exact reason it was rejected by the selector
+
+Classify rejection reasons using the selector's ACTUAL existing logic.
+
+Possible reasons may include:
+
+evidence budget already full
+document cap reached
+parent/document duplicate
+Jaccard redundancy
+lower priority than already selected evidence
+role ordering
+history/background displacement
+current-finding displacement
+other existing selector rule
+
+Do not alter the actual selector to obtain these reasons.
+
+Pay particular attention to the following saved Task 7.8/7.8.1 evidence.
+
+A. PANIC DISORDER
+
+Find the Panic Disorder candidates that became eligible under MedCPT.
+
+Determine:
+
+their exact rank
+their score
+why they were not selected
+which selected passage displaced them
+whether the rejection was caused by the final evidence budget, document cap, redundancy, role priority, or another existing rule
+
+Do NOT decide whether Panic Disorder is the patient's diagnosis.
+
+We are only analyzing evidence-selection behavior.
+
+B. FLU
+
+Find the Flu candidate(s) that became eligible and were selected.
+
+Determine:
+
+why the Flu passage survived selection
+its rank
+its score
+its role
+whether its selection displaced any other eligible candidate
+
+Use this as a positive control for selection behavior.
+
+C. ASTHMA
+
+Inspect:
+
+asthma symptoms
+asthma definition
+asthma diagnostic-evaluation/background passages
+
+Determine which were:
+
+eligible
+selected
+rejected
+displaced
+
+Separate eligibility failure from selection failure.
+
+D. FAINTING
+
+Use Fainting as an existing positive control.
+
+Verify that its selection behavior remains reproducible.
+
+E. OLDER ADULT MENTAL HEALTH
+
+Inspect the saved Task 7.8 regression.
+
+Determine whether its selection/rejection behavior is caused by:
+
+eligibility,
+ranking,
+document budget,
+role priority,
+redundancy,
+or another deterministic selector rule.
+
+Do not make a clinical correctness judgment.
+
+After reproducing the control, perform ONE diagnostic counterfactual only:
+
+Temporarily remove the FINAL evidence-count budget from the selector analysis while leaving every other selector rule unchanged.
+
+This is NOT a production change.
+
+Purpose:
+
+Determine how many otherwise-eligible candidates would have survived if the final evidence-count budget alone were not limiting selection.
+
+Do NOT:
+
+change document caps
+change Jaccard threshold
+change role weights
+change ranking scores
+change eligibility
+change candidate pools
+change query wording
+change reranker
+change source text
+
+Only the final evidence-count budget is removed for this isolated diagnostic analysis.
+
+Report which additional eligible candidates would then be selected.
+
+This is a diagnostic counterfactual, not a recommendation to remove the evidence limit.
+
+For each case report:
+
+total eligible candidates
+total selected candidates
+eligible-but-not-selected candidates
+rejection reason counts
+candidates rejected solely because the final evidence-count budget was full
+candidates that become selectable when ONLY that budget is removed
+candidates still rejected after removing the budget
+final selected evidence IDs/order under control
+counterfactual selected evidence IDs/order
+
+Across all cases report:
+
+total eligible candidates
+total selected candidates
+eligible-but-not-selected candidates
+number rejected by each actual selector rule
+number recoverable by removing only the final evidence-count budget
+
+Cross-reference the already completed Task 7.8.1 source-text review.
+
+For the reviewed newly-positive candidates classified as:
+
+A = clearly useful
+B = ambiguous
+C = weak
+
+Report how many:
+
+were selected
+were eligible but not selected
+were rejected by which selector rule
+
+Do NOT create new A/B/C judgments.
+
+Use only the saved Task 7.8.1 classifications.
+
+This is important because we need to distinguish:
+
+"eligible but not selected"
+
+from:
+
+"eligible and substantively useful but not selected."
+
+This project has a 16 GB RAM machine.
+
+Use the existing memory-bounded execution mechanism:
+
+scripts/run_memory_bounded.py
+
+Keep ALL existing memory guards unchanged.
+
+Requirements:
+
+process one case at a time
+no parallel workers
+no model downloads
+no embedding generation
+no Qdrant rebuild
+no corpus loading
+no BM25 rebuild
+no reranker loading
+use saved Task 7.8 artifacts only
+release temporary objects where practical
+
+Do not bypass or weaken any memory guard.
+
+If memory approaches the existing stop threshold, stop immediately and report:
+
+current phase
+system memory
+process/tree RSS
+operation being performed
+
+Do not retry automatically after a memory stop.
+
+Do NOT modify:
+
+production retrieval code
+production selector
+reranker code
+Task 7.4 implementation
+Task 7.5 implementation
+Task 7.6 implementation
+Task 7.7 implementation
+Task 7.8 implementation
+Task 7.8 artifacts
+Task 7.8.1 artifacts
+historical manifests
+rag/config.py
+downstream diagnostic agent
+clinical critic
+grounding
+safety validator
+explanation agent
+
+Create only isolated Task 7.9 analysis files if needed.
+
+Suggested files:
+
+rag/experimental_medical/task79_selection_analysis.py
+scripts/experiment_task79_selection.py
+tests/test_task79_selection_analysis.py
+docs/task7.9-selection-analysis.md
+
+Suggested output directory:
+
+outputs/task7.9/selection-analysis/
+
+Do not overwrite previous Task 7.8/7.8.1 outputs.
+
+Add deterministic focused tests for:
+
+exact Task 7.8 control reproduction
+rejection-reason accounting
+final-budget-only counterfactual
+Panic eligible-but-not-selected analysis
+Flu selected control
+asthma eligibility-vs-selection separation
+Fainting control
+Older Adult Mental Health selection behavior
+Task 7.8.1 A/B/C cross-reference
+no mutation of frozen candidate data
+
+Run only the focused tests required for Task 7.9.
+
+Do not run the entire project test suite unless required to verify an unexpected regression.
+
+STOP immediately if:
+
+Task 7.8 control cannot be reproduced exactly
+saved artifacts are missing or inconsistent
+a new model must be loaded
+reranking would need to be rerun
+candidate pools would need regeneration
+production code must be modified
+benchmark/hidden labels are encountered
+memory guard triggers
+a protected-file mismatch appears
+selector behavior cannot be reconstructed from the saved artifacts
+
+Do not work around a stop condition.
+
+The final report must clearly answer:
+
+Can the Task 7.8 control selection be reproduced exactly?
+How many eligible candidates were not selected?
+What are the actual rejection reasons?
+How many candidates are rejected solely because the final evidence-count budget is full?
+How many additional candidates become selectable when ONLY that budget is removed?
+What happened specifically to Panic Disorder?
+What happened specifically to Flu?
+What happened specifically to asthma evidence?
+What happened specifically to Fainting?
+What happened specifically to Older Adult Mental Health?
+Among Task 7.8.1 A-rated newly-positive candidates, how many were selected vs eligible-but-not-selected?
+Does the saved evidence demonstrate a selection-stage bottleneck?
+Peak memory usage.
+Tests passed.
+Protected-file verification result.
+Do NOT state that any diagnosis is clinically correct or incorrect.
+Do NOT claim that removing the evidence budget is safe or desirable.
+Do NOT change production behavior.
+Task 7.9 ends after this analysis.
+Do NOT automatically implement a Task 7.10 experiment.
+Do NOT test another selector.
+Do NOT test another reranker.
+Do NOT change thresholds.
+Do NOT promote any experimental result to production.
+End with exactly ONE engineering recommendation based on the observed evidence-selection bottleneck.

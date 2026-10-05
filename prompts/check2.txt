@@ -1,0 +1,79 @@
+Run a controlled multi-case evaluation of the CURRENT healthcare-agentic-ai system.
+
+Goal: determine whether the CHECK1 problem (AMG retrieving weak/irrelevant medical evidence) is isolated or systematic.
+
+IMPORTANT CONSTRAINTS:
+
+Do NOT modify production retrieval.
+Do NOT change AMG.
+Do NOT change embeddings, vector DB, distance metric, top-k, gate, ranking, reranking, corpus, index, query compression, aliases, or candidate generation.
+Do NOT add multi-query retrieval.
+Do NOT modify benchmark/relevance labels.
+Do NOT use hidden DDXPlus diagnosis labels for runtime reasoning, retrieval, prompting, scoring, or routing.
+Use DDXPlus with include_labels=False.
+Do NOT train/retrain/download models.
+Do NOT add medical data.
+Do NOT weaken safety or human-review behavior.
+Do NOT force an ALLOW result.
+Do NOT change the existing production pipeline merely to make the evaluation look better.
+Keep memory usage safe for a 16 GB RAM machine.
+Run cases sequentially, not in parallel.
+
+Evaluation:
+
+Select 10 representative DDXPlus cases from the existing available data.
+Use only label-free patient information.
+Run the complete existing pipeline for each case:
+Patient Agent
+→ Patient Case RAG
+→ frozen AMG medical evidence retrieval
+→ Diagnostic Agent
+→ Grounding
+→ Clinical Critic
+→ Safety
+→ Final Decision.
+Save the complete trace for every case.
+For each case record:
+patient/case ID
+number of AMG passages retrieved
+retrieved passage titles
+whether any retrieved passage is actually used by the Diagnostic Agent
+number of cited medical passages
+number of hypotheses without medical references
+grounding status
+critic assessment
+critic safety flags
+safety decision
+final decision: ALLOW/HUMAN_REVIEW/BLOCK
+whether the workflow technically completed
+latency
+cloud/model calls
+any abstention or error
+Do NOT determine clinical correctness from hidden DDXPlus labels.
+Do not manually label the cases during this run.
+
+Then produce an aggregate report answering:
+
+A. How many cases completed successfully?
+B. How many retrieved at least one medically useful passage?
+C. How many retrieved passages were unused?
+D. How many cases had zero cited medical evidence?
+E. How often did the system reach ALLOW/HUMAN_REVIEW/BLOCK?
+F. How often did critic/safety block the case because medical evidence was missing?
+G. Is CHECK1 representative of the current system or an isolated case?
+H. Is the dominant problem retrieval/evidence availability, grounding, diagnostic reasoning, critic, or safety?
+I. Should retrieval now be investigated, or should another component be investigated first?
+
+Create:
+docs/multi_case_evaluation.md
+and
+outputs/multi-case-evaluation/
+
+Run all relevant existing tests before and after.
+
+At the end, make a clear recommendation:
+"RETRIEVAL INVESTIGATION NEEDED"
+or
+"RETRIEVAL DOES NOT APPEAR TO BE THE DOMINANT PROBLEM"
+
+Do not make any production changes unless absolutely required to execute the evaluation; if any are required, stop and report them before changing anything.
