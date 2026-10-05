@@ -1,0 +1,2 @@
+cd healthcare-agentic-ai
+..\.venv\Scripts\python.exe scripts\review_case.py outputs\phase6\20261005T133733712888Z\sample_case_001.json

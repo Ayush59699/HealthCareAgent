@@ -52,6 +52,12 @@ class SafetyScenarioLLM(ScenarioLLM):
         super().__init__(diagnoses=diagnoses or [diagnosis()], critiques=critiques, **kwargs)
 
     def respond(self, **request):
+        if request['text']['format']['schema']['title'] == 'TreatmentPlan':
+            self.calls.append(copy.deepcopy(request))
+            return envelope(json.dumps({'status': 'deferred', 'actions': [],
+                'patient_case_evidence': [], 'medical_knowledge_evidence': [],
+                'missing_information': ['Management support unavailable in synthetic fixture.'],
+                'uncertainty': ['Synthetic software test, not clinical guidance.']}))
         if request['text']['format']['schema']['title'] != 'SemanticSafetyResult':
             return super().respond(**request)
         self.calls.append(copy.deepcopy(request))

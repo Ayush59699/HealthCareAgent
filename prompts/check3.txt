@@ -1,0 +1,33 @@
+Current WHO lexical lookup ko change karke ek **isolated opt-in experiment** banao.
+
+Goal:
+
+`Patient case → LLM sees WHO document catalog → LLM selects relevant document IDs → system loads those local .txt files → selected WHO evidence goes to existing Diagnostic Agent`
+
+Requirements:
+
+* Existing WHO files/indexes reuse karo; kuch download mat karo.
+* LLM ko documents ka **catalog (ID + title + type + filename)** do, full documents nahi.
+* LLM sirf document IDs select kare; diagnosis predict na kare.
+* Max 5 documents.
+* Returned IDs validate karo; unknown/duplicate IDs reject karo.
+* Selected `.txt` files locally load karo with existing provenance/checksums.
+* Negations correctly preserve karo (`no chronic illness`, `no SOB`, etc.).
+* Existing AMG, Diagnostic Agent, Grounding, Critic, Safety aur production WHO lookup ko modify mat karo.
+* No benchmark labels, no hidden diagnoses, no new medical data.
+* Memory-safe, sequential execution.
+* CHECK3 manual case par selector-only test run karo.
+* Compare old lexical WHO results vs new LLM-selected documents.
+* Add focused tests.
+
+Create only the necessary selector/experiment code and tests.
+
+End me report:
+
+1. selected document titles
+2. old vs new WHO selection
+3. tests passed
+4. production code unchanged
+5. whether the `known/chronic` false matches disappeared.
+
+**Do not run the full Diagnostic/Critic/Safety pipeline yet. First validate only whether the LLM can select the right WHO documents.**

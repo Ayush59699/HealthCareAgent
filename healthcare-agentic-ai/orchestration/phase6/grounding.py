@@ -55,6 +55,13 @@ def grounding_report(diagnosis: DiagnosticResult, state, cases, medical) -> Grou
                 medical_support='reference_present_not_verified' if refs & medical_ids else 'unsupported_by_medical_evidence'))
         if not used & medical_ids:
             unsupported.append(path)
+    if diagnosis.treatment is not None:
+        for i, action in enumerate(diagnosis.treatment.actions):
+            refs = set(action.proposal.evidence_refs)
+            links.append(ClaimGrounding(claim_path=f'/treatment/actions/{i}/proposal',
+                patient_refs=sorted(refs & patient_ids), analogous_case_refs=sorted(refs & case_ids),
+                medical_refs=sorted(refs & medical_ids),
+                medical_support='reference_present_not_verified' if refs & medical_ids else 'unsupported_by_medical_evidence'))
     return GroundingResult(patient_fingerprint=fingerprint(state.model_dump()),
         diagnostic_fingerprint=fingerprint(diagnosis.model_dump()),
         evidence_snapshot_id=fingerprint({'patient_cases': [e.model_dump() for e in cases],

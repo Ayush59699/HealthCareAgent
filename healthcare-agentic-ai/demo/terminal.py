@@ -152,6 +152,7 @@ def make_workflow(provider, patients, medical, console, *, top_k, policy, enhanc
         def _invoke(self, ticket, operation):
             names = {'PATIENT': '[1] PATIENT AGENT', 'DIAGNOSTIC': '[4] DIAGNOSTIC AGENT',
                      'DIAGNOSTIC_REVISION': '[4] DIAGNOSTIC AGENT â€” REVISION',
+                     'TREATMENT': '[5] TREATMENT / MANAGEMENT AGENT',
                      'CRITIC': '[6] CLINICAL CRITIC',
                      'EVIDENCE': '[3] CHECK4 WHO SELECTOR / CONTENT REVIEW',
                      'SAFETY_VALIDATION': '[7] SAFETY VALIDATOR â€” PHASE 6 (semantic call)'}
@@ -486,6 +487,11 @@ def main(argv=None):
             console.field('Review state', decision.review_state)
             console.field('Proposal withheld', decision.proposal_withheld)
             console.say(decision.review_instructions)
+            from application.human_review import offer_human_review
+            human = offer_human_review(state, Path(__file__).resolve().parents[1] / 'outputs/human_reviews', emit=console.say)
+            if human:
+                console.field('Local human decision (AI/Safety unchanged)', human.human_decision or human.event)
+                console.field('Local human review state', human.review_state)
             return 1 if state.status == 'failed' else 0
     except (KeyboardInterrupt, EOFError):
         console.say('\nDemo cancelled. No result or safety decision is implied.')

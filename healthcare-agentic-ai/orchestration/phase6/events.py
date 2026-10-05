@@ -2,9 +2,10 @@
 from typing import Literal, Union
 from orchestration.events import Stage as Phase5Stage, EventName as Phase5EventName, WorkflowEvent
 
-Stage = Union[Phase5Stage, Literal['SAFETY_VALIDATION', 'HUMAN_REVIEW']]
+Stage = Union[Phase5Stage, Literal['TREATMENT', 'SAFETY_VALIDATION', 'HUMAN_REVIEW']]
 EventName = Union[Phase5EventName, Literal['safety_started', 'safety_deterministic_completed',
-    'safety_semantic_completed', 'safety_validated', 'safety_decision_recorded', 'human_review_required']]
+    'safety_semantic_completed', 'safety_validated', 'safety_decision_recorded', 'human_review_required',
+    'treatment_started', 'treatment_completed']]
 
 
 class Phase6Event(WorkflowEvent):

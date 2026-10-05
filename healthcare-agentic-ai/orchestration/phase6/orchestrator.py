@@ -14,7 +14,7 @@ from rag.agents.models import PatientState, DiagnosticResult, ClinicalCritique, 
 from rag.agents.grounding import patient_input, validate_patient, validate_references, context
 from rag.llm.provider import StructuredLLM
 from orchestration.contracts import StageTicket, DiagnosticRevisionInput
-from .contracts import SafetyTicket, Phase6Response, require_current
+from .contracts import SafetyTicket, TreatmentTicket, Phase6Response, require_current
 from orchestration.evidence import EvidenceService, EvidenceSnapshot, fingerprint
 from orchestration.events import timestamp
 from .events import Phase6Event as WorkflowEvent
@@ -56,10 +56,12 @@ class Phase6Orchestrator:
     def __init__(self, llm: StructuredLLM, patient_rag, medical_rag, *, top_k=1,
                  policy: WorkflowPolicy | None = None, clock=time.perf_counter,
                  enhanced_medical=False, medical_top_k=5, evidence_service=None,
-                  require_medical_evidence=False):
+                  require_medical_evidence=False, enable_treatment=False):
         self.patient = PatientAgent(llm)
         self.diagnostic = DiagnosticAgent(llm)
         self.critic = ClinicalCritic(llm)
+        from .treatment import TreatmentAgent
+        self.treatment = TreatmentAgent(llm) if enable_treatment else None
         self.safety = SafetyValidator(llm)
         self.evidence = EvidenceService(patient_rag, medical_rag, top_k=top_k)
         # Evidence composition is injected by application.workflow. The old flag
@@ -141,7 +143,8 @@ class Phase6Orchestrator:
                 commit(stage_seconds=durations)
 
         def ticket(version=None, diagnostic_hash=None):
-            return StageTicket(run_id=state.run_id, patient_id=patient_id, stage=state.current_stage,
+            schema = TreatmentTicket if state.current_stage == 'TREATMENT' else StageTicket
+            return schema(run_id=state.run_id, patient_id=patient_id, stage=state.current_stage,
                 revision_number=state.revision_count, diagnostic_version=version,
                 evidence_snapshot_id=state.evidence.snapshot_id if state.evidence else None,
                 diagnostic_fingerprint=diagnostic_hash)
@@ -290,6 +293,23 @@ class Phase6Orchestrator:
                 diagnosis = generate(diagnostic_ticket, lambda: self.diagnostic.run(
                     state.patient_state.model_copy(deep=True), cases, medical, **kwargs), DiagnosticResult)
                 event('diagnostic_validated', 'schema_passed', valid=True, version=version)
+                # Validate diagnosis before management consumes it, including with
+                # injected providers that do not execute validation callbacks.
+                if self.treatment is not None:
+                    if diagnosis.treatment is not None:
+                        raise WorkflowStop('schema_validation_failure')
+                    ground(diagnosis)
+                    from rag.agents.models import TreatmentPlan
+                    from .treatment import attach_treatment
+                    event('treatment_started', 'management_for_exact_diagnosis', stage='TREATMENT', version=version)
+                    management_ticket = ticket(version, fingerprint(diagnosis.model_dump()))
+                    plan = generate(management_ticket,
+                        lambda: self.treatment.run(state.patient_state.model_copy(deep=True),
+                            diagnosis.model_copy(deep=True), *snapshot.agent_evidence()),
+                        TreatmentPlan)
+                    diagnosis = attach_treatment(diagnosis, plan, state.patient_state,
+                                                 *snapshot.agent_evidence())
+                    event('treatment_completed', 'management_attached_for_grounding', valid=True, version=version)
                 event('grounding_started', 'mandatory_grounding_gate', stage='GROUNDING', version=version)
                 timed('GROUNDING', lambda: ground(diagnosis))
                 digest = fingerprint(diagnosis.model_dump())

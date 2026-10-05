@@ -1,0 +1,8 @@
+cd healthcare-agentic-ai
+..\.venv\Scripts\python.exe scripts\run_manual_who_amg.py data\manual_check5_hot_water.txt --live
+
+
+From `healthcare-agentic-ai`, the default batch route is also available:
+
+python scripts/run_phase6.py --queries 1
+python scripts/verify_who_amg_run.py outputs/check5/end-to-end/case_state.json

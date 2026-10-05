@@ -115,9 +115,13 @@ def build_final_decision(state: Phase6WorkflowState) -> FinalDecision:
     patient_facts = facts(state.patient_state) if state.patient_state else {}
     used_cases = set(diagnosis.patient_case_evidence) if diagnosis else set()
     used_medical = set(diagnosis.medical_knowledge_evidence) if diagnosis else set()
+    if diagnosis and diagnosis.treatment is not None:
+        used_cases.update(diagnosis.treatment.patient_case_evidence)
+        used_medical.update(diagnosis.treatment.medical_knowledge_evidence)
     uncertainty = list(dict.fromkeys([
         *(state.patient_state.uncertainty_notes if state.patient_state else []),
         *(diagnosis.uncertainty if diagnosis else []),
+        *(diagnosis.treatment.uncertainty if diagnosis and diagnosis.treatment else []),
         *(['No accepted AMG evidence; medical reasoning was not attempted.']
           if state.safety_skip_reason == 'no_medical_evidence' else []),
         *(['AI cannot finalize this case; human review remains pending.'] if not allowed else []),

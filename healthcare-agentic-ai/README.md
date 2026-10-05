@@ -14,6 +14,7 @@ Label-free DDXPlus case
   -> Diagnostic Agent -> Grounding -> Clinical Critic -> Safety
   -> bounded revision / final research output / abstention / block / human review
   -> typed FinalDecision (ALLOW / HUMAN_REVIEW / BLOCK)
+  -> LOCAL Human Review Gate when required (separate record; no Safety override)
 ```
 
 **AMG retrieves evidence; it does not diagnose.** The active backend is the supplied AMG `medlineplus_lab.Retriever`, with its existing alias lookup, complete-unit passages and 1.10 squared-L2 gate unchanged. Its historical `experimental` collection name is retained to avoid reindexing or falsifying snapshot identity. The graph/answer demo, web searches and answer synthesis are **not** part of this application. The original plain AMG demo store was not the improved MedlinePlus dataset implementation.
@@ -97,8 +98,12 @@ Batch execution writes `final_decision_001.json` and `combined_evidence_001.json
 run report. The final artifact contains status, cited evidence, deterministic grounding,
 critic/safety findings, uncertainty and an explicit review state. **BLOCK/HUMAN_REVIEW
 withhold the diagnostic proposal**; the separate local workflow audit retains it for
-human inspection, not clinical release. Review remains `pending`; no approval or scheduling
-is simulated. `ALLOW` only means eligible research output after all existing gates.
+human inspection, not clinical release. The immutable AI handoff remains `pending`.
+The local Human Review Gate now asks for an explicit decision in interactive terminals
+and records it in a separate version-bound audit; it never overrides Safety or
+changes BLOCK into ALLOW. Noninteractive/interrupted sessions stay pending.
+No scheduling or clinician authentication is simulated. `ALLOW` only means eligible
+research output after all existing gates.
 
 The Critic now receives a typed claim/reference grounding report. Citation presence is
 never labeled proof of medical support. Patient-case retrieval supplies analogous training
@@ -122,3 +127,26 @@ python scripts/run_manual_who_amg.py data/manual_check5_hot_water.txt --live
 
 Omit `--live` to parse input only; no WHO lexical fallback, retrieval or cloud call.
 The workspace-root `AHS_RUN.txt` contains plain-text commands for this example.
+
+## Local Human Review Gate (no cloud calls)
+
+Live batch, manual and demo CLIs now offer local review after the completed AI/Safety
+decision whenever review is required and a terminal is available. Choose REVIEW or
+DECLINE, then explicitly APPROVE, REJECT or REQUEST_MORE_EVIDENCE after viewing the
+complete context. APPROVE records a human opinion only; the original AI/Safety
+restriction and withheld proposal remain unchanged. More evidence is a recorded
+request, not an automatic retrieval or rerun.
+
+Review an existing saved result without opening models or making a cloud call:
+
+```text
+python scripts/review_case.py outputs/phase6/20261005T133733712888Z/sample_case_001.json
+```
+
+Use a real local terminal; piped input cannot approve. Separate append-only sessions
+are stored under `human_reviews/review-<session-id>/` next to the saved run, or in
+the directory chosen with `--review-dir`. Full context, original workflow snapshot
+and timestamped event records retain run/case/version and evidence/Safety fingerprints.
+The workspace `HUMAN_REVIEW_RUN.txt` contains plain-text commands. See
+[Human Review Gate audit and tests](docs/human-review-gate.md) for exact semantics
+and limitations.

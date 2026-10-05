@@ -94,12 +94,14 @@ def context(state: PatientState, cases: list[RetrievedEvidence], medical: list[R
             'MEDICAL_KNOWLEDGE_EVIDENCE': [e.model_dump() for e in medical]}
 
 
-def claims(diagnosis: DiagnosticResult):
+def claims(diagnosis: DiagnosticResult, *, include_treatment=True):
     hypotheses = ([diagnosis.primary_hypothesis] if diagnosis.primary_hypothesis else []) + diagnosis.differential_diagnoses
     for hypothesis in hypotheses:
         yield hypothesis.rationale
         yield from hypothesis.supporting_evidence
         yield from hypothesis.contradicting_evidence
+    if include_treatment and diagnosis.treatment is not None:
+        yield from (action.proposal for action in diagnosis.treatment.actions)
 
 
 def validate_references(output: DiagnosticResult | ClinicalCritique, state: PatientState,
@@ -113,7 +115,10 @@ def validate_references(output: DiagnosticResult | ClinicalCritique, state: Pati
     if isinstance(output, DiagnosticResult):
         if not set(output.patient_case_evidence) <= case_ids or not set(output.medical_knowledge_evidence) <= medical_ids:
             raise ValueError('Incorrect evidence source category')
-        used = {ref for claim in items for ref in claim.evidence_refs}
+        used = {ref for claim in claims(output, include_treatment=False) for ref in claim.evidence_refs}
+        if output.treatment is not None:
+            from orchestration.phase6.treatment import validate_treatment
+            validate_treatment(output.treatment, state, cases, medical)
         if set(output.patient_case_evidence) != used & case_ids or set(output.medical_knowledge_evidence) != used & medical_ids:
             raise ValueError('Evidence inventories must match claim references')
         # Every claim must reference actual supplied material. The explicit Phase 6

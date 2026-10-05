@@ -7,7 +7,7 @@ validation only, not a substitute Patient/Diagnostic/Critic/Safety agent run.
 """
 import copy
 import json
-from rag.agents.models import DiagnosticResult, ClinicalCritique
+from rag.agents.models import DiagnosticResult, ClinicalCritique, TreatmentPlan
 from rag.combined_medical_evidence import CombinedEvidenceService, MODES
 from orchestration.phase6 import Phase6Orchestrator
 
@@ -54,7 +54,7 @@ class EvidenceInputProvider:
         return getattr(self.provider, name)
 
     def generate(self, instructions, payload, schema, validator=None):
-        if schema in (DiagnosticResult, ClinicalCritique):
+        if schema in (DiagnosticResult, ClinicalCritique, TreatmentPlan):
             payload = separated_input(payload)
             instructions += SOURCE_INSTRUCTIONS
         return self.provider.generate(instructions, payload, schema, validator)

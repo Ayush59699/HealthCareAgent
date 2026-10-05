@@ -1,0 +1,40 @@
+Integrate the CHECK4 LLM-based WHO catalog selector directly into the existing healthcare-agentic-ai pipeline.
+
+Architecture:
+Patient → Patient Agent → LLM WHO Document Selector + AMG → Combined Medical Evidence → Diagnostic Agent → Grounding → Clinical Critic → Safety → Final Decision.
+
+Requirements:
+
+Replace the old lexical WHO document selection with the CHECK4 LLM selector.
+
+Use the existing 569-document WHO catalog.
+
+LLM selects max 3 relevant WHO documents.
+
+Load the selected .txt files and provide their relevant medical content to Diagnostic Agent.
+
+Preserve WHO provenance, document IDs, URLs, checksums and source separation from AMG.
+
+Fix the current 4,000-character WHO prefix limitation: the Diagnostic Agent must receive the relevant section/content from the selected document, not blindly only the beginning.
+
+Keep AMG unchanged.
+
+Keep Grounding, Critic, Safety, abstention and Human Review unchanged.
+
+Do NOT use benchmark labels, hidden DDXPlus diagnoses, or diagnosis injection.
+
+Do NOT add another tuning experiment or selector variant.
+
+No parallel cloud calls; keep calls sequential for memory safety.
+
+Make this the default WHO path in the application, while retaining AMG.
+
+Update/add tests and run the full regression suite.
+
+Report exactly what files changed, test results, and one real end-to-end run.
+
+Do not redesign anything else. Implement it directly.
+
+
+
+and also give me the code to run it myself, in a separate file names AHS_RUN.txt, no start, less # , no '''bash ''' just pure text code

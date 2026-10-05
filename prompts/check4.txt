@@ -1,0 +1,39 @@
+Continue the WHO LLM catalog-selector experiment. **Do not integrate it into production yet.**
+
+Improve the selector so it returns **maximum 3 WHO documents** and selects documents only when their topic/content is clearly relevant to the patient's positive presenting features.
+
+Important:
+
+* Do NOT use lexical keyword matching to select documents.
+* Do NOT treat negated facts as positive symptoms (`no chronic illness`, `no SOB`, etc.).
+* Do NOT select documents merely because they share a generic word/symptom.
+* Do NOT predict or output diagnoses.
+* Reuse the existing 569 WHO documents/catalog.
+* Do not change AMG, Diagnostic Agent, Grounding, Critic, Safety, or production WHO lookup.
+* No benchmark labels or hidden diagnoses.
+* Keep this isolated and memory-safe.
+
+Then evaluate the selector on **5–10 different label-free cases**, including:
+
+1. nonspecific symptoms
+2. multiple symptoms
+3. explicit negations
+4. sparse information
+5. a case where no WHO document is clearly relevant
+
+For each case record:
+
+* patient facts
+* selected document IDs/titles
+* selection count
+* loaded document contents/provenance
+* whether the selected documents are actually relevant
+* whether irrelevant/generic-word matches occurred
+
+Run sequentially; no parallel cloud calls.,llms may take their knowledge as well, but do not rely on it fully as it may lead to errors.
+
+**you may run Diagnostic/Critic/Safety to see the final reuslt.**
+
+At the end, tell me whether the selector is consistently good enough to justify integrating it into the experimental WHO+AMG pipeline.
+
+Do not change production behavior based on this experiment.

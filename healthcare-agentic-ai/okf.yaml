@@ -1,7 +1,7 @@
 okf_version: '0.2'
 project: Healthcare Agentic AI - AMG
 workspace_manifest: ../okf.yaml
-summary: 'Current application: label-free Patient Agent -> Patient Case RAG + CHECK4 WHO selector/content sections + unchanged AMG -> Diagnostic -> Grounding -> Critic -> Safety -> Final Decision.'
+summary: 'Current application: label-free Patient Agent -> Patient Case RAG + CHECK4 WHO selector/content sections + unchanged AMG -> Diagnostic -> Treatment -> Grounding -> Critic -> Safety -> Final Decision.'
 active:
   composition: application/workflow.py
   resource_preflight: application/resources.py
@@ -13,7 +13,10 @@ active:
   grounding: rag/agents/grounding.py
   grounding_report: orchestration/phase6/grounding.py
   final_decision: application/decision.py
+  human_review: application/human_review.py
+  saved_case_review: scripts/review_case.py
   workflow_engine: orchestration/phase6/orchestrator.py
+  treatment: orchestration/phase6/treatment.py
   patient_retrieval: rag/patient_rag.py
   safety: safety/
   batch: scripts/run_phase6.py
@@ -31,7 +34,7 @@ documentation:
   pre_change_audit: docs/final-system-audit.md
   historical_index: archive/pre_amg/okf.yaml
 verification:
-  project_suite: '768 tests, 767 passed, zero failed, one opt-in cloud skip; includes 16 DDXFIX patient-reference regressions.'
+  project_suite: '801 tests, 800 passed, zero failed, one opt-in cloud skip; includes 33 local Human Review Gate tests.'
   standalone_upstream_suite: '56 offline tests, OK in system Python environment with upstream dependencies.'
   real_case: 'FINAL task ddxplus:validate:1: 45.94s, five AMG passages, three cloud calls, no technical failure; BLOCK, pending human review, no released proposal. Source/safety/final handoff verified.'
   artifacts: outputs/final-validation/live/
@@ -281,7 +284,7 @@ check5_default_who_integration:
   report: docs/check5-integration.md
   run_commands: ../AHS_RUN.txt
   artifacts: outputs/check5/
-  architecture: Patient Agent -> unchanged CHECK4 catalog selector and content gate + unchanged AMG -> source-separated Combined Medical Evidence -> Diagnostic -> Grounding -> Critic -> Safety -> Final Decision.
+  architecture: Patient Agent -> unchanged CHECK4 catalog selector and content gate + unchanged AMG -> source-separated Combined Medical Evidence -> Diagnostic -> Treatment -> Grounding -> Critic -> Safety -> Final Decision.
   contract: Same 569-document catalog; maximum three selected WHO documents; exact complete source sections anchored by validated content quotes, never blind body prefixes; 12000 characters per document, oversize or ambiguous anchors fail closed.
   provenance: Stable catalog document IDs, URL/type/filename, catalog and document SHA-256, excerpt SHA-256 and character spans. Historical WHO backend key retained only for unchanged Grounding dispatch; selection method explicitly llm_catalog_verified_sections, no fabricated lexical terms.
   selector: CHECK4 prompt/schema/semantic validator bytes unchanged. Existing CHECK4 limits reused through shared client, max_output_tokens 1800 and max_retries zero; Diagnostic/Critic provider configuration unchanged.
@@ -315,3 +318,53 @@ ddxplus_patient_reference_fix:
   live_result: Exactly one ddxplus validate row 1 run, three sequential requests, zero repairs, 13.26 seconds. Patient and WHO catalog accepted; all four full patient quotes passed. Content review failed unchanged nonliteral_source_quote validation.
   final_result: BLOCK with pending review and technical failure; AMG, Diagnostic, Critic and Safety assessment not reached. No successful end-to-end claim or extra live rerun.
   verification: Saved old/new patient quotes checked offline; final BLOCK handoff independently revalidated. All prompts and other pre-existing production code/assets unchanged; see integrity.json.
+
+ddxplus_completed_block_audit:
+  request: ../prompts/ddxfix.txt
+  report: docs/ddx-block-cause-audit.md
+  full_passages: docs/ddx-block-evidence.md
+  artifacts: outputs/ddx-block-audit/
+  saved_run: outputs/phase6/20261005T133733712888Z/sample_case_001.json
+  scope: Updated request is offline investigation only; no code, prompt, retrieval, validation, policy or saved-run changes and no live calls.
+  run_result: Seven accepted requests, no repairs or technical failure; two WHO and five AMG passages; Diagnostic, Grounding, Critic and deterministic Safety completed; BLOCK, review pending.
+  exact_cause: Two Critic safety flags about bleeding-risk prominence and primary-label certainty each require BLOCK. Two uncited etiologic hypotheses independently require HUMAN_REVIEW, not BLOCK.
+  evidence_assessment: WHO anemia symptom and headache passages were cited. No supplied passage establishes GI/anticoagulant bleeding causing anemia or kidney failure causing anemia. No adequate missed causal citation or citation-transport loss found.
+  rules: Patient-only inference can pass Grounding under explicit disclosure yet still require Safety review. Critic flags override revision_required and skip semantic Safety generation under current policy.
+  recommendations_only: Label Possible current anemia (unconfirmed); describe pallor as patient-reported; foreground already-disclosed bleeding concern without asserting causation. No irrelevant citation padding or Safety-policy weakening. Clinical necessity of the flags is not established by this textual audit.
+  verification: Native sources, selector handoff, all four deterministic findings, Grounding and final handoff reverified offline; 3 reference-present claim records and 13 without medical references; patient reference audit has 20 unassessed clauses.
+
+local_human_review_gate:
+  request: ../prompts/ddxfix.txt
+  audit_and_report: docs/human-review-gate.md
+  gate: application/human_review.py
+  record: HumanReviewRecord
+  offline_command: scripts/review_case.py
+  tests: tests/test_human_review.py
+  run_commands: ../HUMAN_REVIEW_RUN.txt
+  artifacts: outputs/human-review-gate/
+  part1: Saved Diagnostic wording can be clearer about possible anemia, patient-reported pallor and unconfirmed bleeding prominence. Existing Diagnostic rules already require uncertainty; no prompt or Diagnostic behavior changed.
+  integration: Batch, manual and demo CLIs invoke the sequential local gate after the completed AI/Safety decision and saved AI artifacts. Core workflow and Safety remain unchanged.
+  interaction: REVIEW or DECLINE, then full context and explicit APPROVE, REJECT or REQUEST_MORE_EVIDENCE. Blank/EOF/interruption/noninteractive input never approves. Both input and output must be a terminal.
+  approval_boundary: Only explicit APPROVE after REVIEW, complete display and current assessed Diagnostic context records human_approval true. Original AI/Safety records and release restrictions remain unchanged, never BLOCK to ALLOW.
+  persistence: New exclusive-created fsynced session files contain full workflow/context plus chained timestamped events; bind case/run, Diagnostic version/fingerprint, evidence snapshot and exact Safety input. Local reviewer identity is unverified, not clinical authentication.
+  nonapproval: DECLINE and no response remain BLOCKED/pending; REJECT remains BLOCKED; REQUEST_MORE_EVIDENCE records unresolved/pending only, no retrieval or rerun. Stale data invalidates the decision.
+  tests_result: 33 new offline tests; 113 focused passed; full suite 801 run, 800 passed, one existing opt-in cloud skip.
+  saved_run_probe: Existing seven-request validate row 1 run verified offline; new review command recorded OFFERED then NON_INTERACTIVE, BLOCK/pending, no approval. Real saved-case approval was neither supplied nor simulated.
+  unchanged: WHO selection/validation, AMG, retrieval, Diagnostic prompts, Grounding, Critic, Safety, evidence gates, final-decision model/policy and source-run records. No live cloud calls or new medical data.
+
+treatment_management_layer:
+  request: prompts/ddxfix.txt
+  integration: Diagnostic -> Treatment -> Grounding -> Critic -> Safety -> Final Decision / Human Review
+  agent: orchestration/phase6/treatment.py
+  models: rag/agents/models.py (ManagementAction, TreatmentPlan, optional DiagnosticResult.treatment)
+  composition: application/workflow.py enables treatment by default; historical direct compositions remain opt-in
+  identity: Phase-6 TREATMENT stage/ticket/events; pre-management diagnosis bound to invocation; combined proposal fingerprint binds Critic/Safety/review
+  provider: Same existing .env-configured GPT-5-family StructuredLLM; no credentials or extra clients
+  contract: Patient and medical citations per action; exact separate inventories; explicit deferred plan when unsupported; conditional clinician-facing research considerations only
+  serialization: Nested treatment retained across state/final/review; absent legacy treatment omitted to preserve historical fingerprints
+  gates: Management claims extend existing Grounding report and Critic input; Safety policy and Human Review implementation unchanged; entire non-ALLOW proposal withheld
+  unchanged: Retrieval algorithms, WHO selector/content review, AMG, patient facts, diagnostic evidence inventories, Safety thresholds and review release rules
+  documentation: docs/treatment-management.md
+  tests: tests/test_treatment.py (17 new); 97 targeted tests passed
+  full_suite: 778 entries; 775 passed, one cloud skip, two WHO crawler import errors because beautifulsoup4 is unavailable; no assertion failures
+  live_validation: Not run; synthetic software contracts only, no clinical effectiveness claim

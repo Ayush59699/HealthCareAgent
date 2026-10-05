@@ -99,7 +99,7 @@ class Check5PipelineTests(unittest.TestCase):
         self.assertEqual(hit['text'], self.source_text[hit['char_start']:hit['char_end']])
         for call in llm.calls:
             name = call['text']['format']['schema']['title']
-            if name in ('DiagnosticResult', 'ClinicalCritique', 'SemanticSafetyResult'):
+            if name in ('DiagnosticResult', 'TreatmentPlan', 'ClinicalCritique', 'SemanticSafetyResult'):
                 payload = json.loads(call['input'][0]['content'])
                 self.assertIn(hit['text'], call['input'][0]['content'].replace('\\n', '\n'))
                 self.assertIn(hit['document_id'], call['input'][0]['content'])

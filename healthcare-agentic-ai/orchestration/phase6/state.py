@@ -8,7 +8,7 @@ from orchestration.state import (Outcome as Phase5Outcome, ValidationOutcome, In
 from orchestration.contracts import StageTicket
 from orchestration.evidence import EvidenceSnapshot, fingerprint
 from safety.models import SafetyAssessment
-from .contracts import SafetyTicket
+from .contracts import SafetyTicket, TreatmentTicket
 from .events import Stage, Phase6Event
 from .policy import Phase6Policy
 
@@ -20,7 +20,7 @@ class Phase6Validation(ValidationOutcome):
 
 
 class Phase6Invocation(InvocationTelemetry):
-    ticket: StageTicket | SafetyTicket
+    ticket: StageTicket | TreatmentTicket | SafetyTicket
 
 
 class Phase6WorkflowState(StrictModel):

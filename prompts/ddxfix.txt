@@ -1,0 +1,13 @@
+Analyze the current state of the project and implement a treatment/management layer using a GPT-5 LLM call.
+
+First understand the existing architecture and determine the correct integration point. The treatment layer should receive the relevant patient information, findings, diagnosis/hypothesis, retrieved medical evidence, missing information, and uncertainty already produced by the pipeline.
+
+Generate a structured treatment/management output that can be passed correctly to the existing Grounding, Critic, Safety, and Human Review stages. Preserve the existing patient data, evidence, provenance, citations, and safety flow.
+
+Use the existing .env credentials/configuration for the LLM call. Do not hardcode credentials.
+
+Keep the implementation minimal and consistent with the current architecture. Do not unnecessarily modify retrieval, WHO, AMG, Grounding, Safety, or Human Review.
+
+Also update the necessary models, validation, serialization, and tests so the new treatment output flows correctly through the pipeline.
+
+Before changing anything, inspect the existing code and choose the appropriate integration point. Then implement and test the change.

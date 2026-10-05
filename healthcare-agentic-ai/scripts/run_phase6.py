@@ -17,6 +17,7 @@ from rag.amg import AMGMedicalEvidence
 from rag.selector_evidence_service import BACKEND
 from application.workflow import create_workflow
 from application.decision import build_final_decision
+from application.human_review import offer_human_review
 from application.resources import prepare_runtime
 from rag.llm.provider import OpenAIProvider
 from orchestration.phase6 import Phase6Orchestrator, Phase6Policy
@@ -115,7 +116,8 @@ def main(argv=None):
                 decision = build_final_decision(result)
                 decision_name = f'final_decision_{i:03d}.json'
                 write_json_atomic(args.output_dir / decision_name, decision.model_dump_json(indent=2))
-                summaries.append({**case_summary(result), 'final_decision_file': decision_name,
+                human = offer_human_review(result, args.output_dir / 'human_reviews')
+                summaries.append({**case_summary(result), 'human_review': human.model_dump(mode='json') if human else None, 'final_decision_file': decision_name,
                     'final_decision_status': decision.status, 'human_review_required': decision.human_review_required,
                     'review_state': decision.review_state})
         report = {
@@ -127,7 +129,7 @@ def main(argv=None):
             'safety_policy_version': POLICY_VERSION, 'safety_prompt_version': PROMPT_VERSION,
             'cases': summaries, 'requested_cases': args.queries,
             'sampling': {'temperature_sent': False, 'effective_temperature': 'deployment_default'},
-            'disclaimer': 'Research only. CONTINUE is not clinical clearance. HUMAN_REVIEW is terminal and pending; no human approval or review scheduling is implemented.',
+            'disclaimer': 'Research only. CONTINUE is not clinical clearance. AI restrictions remain final. Local human decisions are recorded separately and never override Safety; no review scheduling is implemented.',
         }
         write_json_atomic(args.output_dir / 'phase6_run_report.json', json.dumps(report, indent=2))
         print(json.dumps({'output_dir': str(args.output_dir), **report}, indent=2))

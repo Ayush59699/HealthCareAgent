@@ -1,6 +1,6 @@
 """Phase 4 contracts. No evaluation labels belong in this module."""
 from typing import Literal
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, model_serializer, model_validator
 
 
 class StrictModel(BaseModel):
@@ -41,7 +41,48 @@ class Hypothesis(StrictModel):
     contradicting_evidence: list[EvidenceClaim]
 
 
+class ManagementAction(StrictModel):
+    category: Literal['evaluation', 'monitoring', 'referral', 'supportive_care', 'treatment_consideration']
+    proposal: EvidenceClaim
+
+
+class TreatmentPlan(StrictModel):
+    status: Literal['proposed', 'deferred']
+    actions: list[ManagementAction]
+    patient_case_evidence: list[str]
+    medical_knowledge_evidence: list[str]
+    missing_information: list[str] = Field(min_length=1)
+    uncertainty: list[str] = Field(min_length=1)
+
+    @model_validator(mode='after')
+    def consistent(self):
+        if (self.status == 'proposed') != bool(self.actions):
+            raise ValueError('Proposed management needs actions; deferred management has none')
+        if any(not text.strip() for text in self.missing_information + self.uncertainty):
+            raise ValueError('Management limitations cannot be blank')
+        if any(not action.proposal.statement.strip() for action in self.actions):
+            raise ValueError('Management proposals cannot be blank')
+        return self
+
+
+def _diagnostic_schema(schema):
+    # Live structured output requires every property, including explicit null.
+    # Local historical records may still omit treatment.
+    schema['required'] = list(schema['properties'])
+    schema['properties']['treatment'].pop('default', None)
+
+
 class DiagnosticResult(StrictModel):
+    model_config = ConfigDict(json_schema_extra=_diagnostic_schema)
+    treatment: TreatmentPlan | None = None
+
+    @model_serializer(mode='wrap')
+    def preserve_legacy_serialization(self, handler):
+        result = handler(self)
+        if self.treatment is None:
+            result.pop('treatment', None)
+        return result
+
     primary_hypothesis: Hypothesis | None
     differential_diagnoses: list[Hypothesis]
     patient_case_evidence: list[str]

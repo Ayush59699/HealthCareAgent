@@ -8,6 +8,13 @@ from orchestration.contracts import StageTicket
 from orchestration.policy import WorkflowStop
 
 
+class TreatmentTicket(StageTicket):
+    stage: Literal['TREATMENT'] = 'TREATMENT'
+    diagnostic_version: int = Field(ge=1, le=3)
+    diagnostic_fingerprint: str = Field(pattern=r'^[0-9a-f]{64}$')
+    evidence_snapshot_id: str = Field(pattern=r'^[0-9a-f]{64}$')
+
+
 class SafetyTicket(StrictModel):
     model_config = ConfigDict(extra='forbid', strict=True, frozen=True)
     run_id: str
@@ -24,7 +31,7 @@ class SafetyTicket(StrictModel):
 
 @dataclass(frozen=True)
 class Phase6Response:
-    ticket: StageTicket | SafetyTicket
+    ticket: StageTicket | TreatmentTicket | SafetyTicket
     generation: Generation
 
 

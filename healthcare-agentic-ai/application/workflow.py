@@ -9,4 +9,4 @@ def create_workflow(provider, patients, medical, *, top_k=1, medical_top_k=5,
     service = SelectorEvidenceService(provider, patients, medical, top_k=top_k,
                                      medical_top_k=medical_top_k, selector=who_selector)
     return orchestrator_class(EvidenceInputProvider(provider), patients, medical,
-        top_k=top_k, policy=policy, evidence_service=service, require_medical_evidence=True)
+        top_k=top_k, policy=policy, evidence_service=service, require_medical_evidence=True, enable_treatment=True)

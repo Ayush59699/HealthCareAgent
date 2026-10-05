@@ -1,0 +1,7247 @@
+This is the github like: https://github.com/YuxingLu613/DoctorRAG
+clone this here into a separate folder and analyze the whole project
+i want to implement the rag structure that is present/implemented in that repo, somewhat similar architecture for a healthcare
+Multi agent rag reasoning agent, the data is present in the folder data\ddxplus\
+implement this repo's rag pipeline,
+there is also an ollama local llm present which will be used for the rag llm which is ollama run gemma3:4b,
+follow this prompt thoroughly:
+You are a senior ML/AI engineer specializing in medical RAG, multi-agent systems, and local LLM applications.
+
+I am building a research prototype called:
+
+"Human-in-the-Loop Multi-Agent Clinical Decision Support System"
+
+My local environment:
+- Windows
+- Ollama
+- Gemma 3 4B is already installed: gemma3:4b
+- I may later add Qwen3-8B
+- Python
+- The system must run locally wherever possible
+
+DATASET:
+I am using the English DDXPlus dataset.
+
+The dataset contains:
+- release_evidences.json
+- release_conditions.json
+- release_train_patients.zip
+- release_validate_patients.zip
+- release_test_patients.zip
+
+IMPORTANT:
+Do NOT simply copy the DoctorRAG repository.
+Use DoctorRAG as an architectural/reference source and reproduce only the useful RAG concepts for our use case.
+
+==================================================
+MAIN OBJECTIVE
+==================================================
+
+Build a modular medical RAG system that can later become one component of a larger multi-agent clinical decision-support system.
+
+The RAG system should retrieve:
+
+1. Relevant medical knowledge
+2. Similar patient cases
+3. Disease/diagnostic information
+4. Evidence relevant to the current patient's symptoms
+
+The retrieved information must be passed to an LLM to produce an evidence-grounded clinical reasoning response.
+
+The system must NOT claim to provide autonomous medical diagnosis or treatment.
+
+==================================================
+ARCHITECTURE
+==================================================
+
+Implement this pipeline:
+
+Patient Case
+     |
+     v
+Patient Representation
+     |
+     +--------------------------+
+     |                          |
+     v                          v
+Medical Knowledge Retriever   Patient Case Retriever
+     |                          |
+     v                          v
+Relevant Medical Evidence    Similar Patient Cases
+     |                          |
+     +------------+-------------+
+                  |
+                  v
+             Evidence Fusion
+                  |
+                  v
+             Gemma 3 4B
+                  |
+                  v
+          Evidence-Grounded
+          Clinical Reasoning
+                  |
+                  v
+             Structured Output
+
+Design the system so that it can later be connected to:
+
+EHR Agent
+Diagnostic Agent
+Medication/Safety Agent
+RAG Agent
+Clinical Critic Agent
+Explanation Agent
+Human Feedback Agent
+LangGraph Orchestrator
+
+The RAG component should therefore expose a clean Python API.
+
+==================================================
+PROJECT STRUCTURE
+==================================================
+
+Create:
+
+healthcare-agentic-ai/
+│
+├── data/
+│   └── ddxplus/
+│       ├── release_evidences.json
+│       ├── release_conditions.json
+│       ├── release_train_patients.zip
+│       ├── release_validate_patients.zip
+│       └── release_test_patients.zip
+│
+├── rag/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── models.py
+│   ├── patient_parser.py
+│   ├── knowledge_ingestion.py
+│   ├── patient_ingestion.py
+│   ├── embeddings.py
+│   ├── retriever.py
+│   ├── reranker.py
+│   ├── evidence_fusion.py
+│   ├── generator.py
+│   └── pipeline.py
+│
+├── knowledge_base/
+│   ├── medical/
+│   └── patients/
+│
+├── scripts/
+│   ├── prepare_ddxplus.py
+│   ├── build_medical_index.py
+│   ├── build_patient_index.py
+│   └── test_rag.py
+│
+├── tests/
+│
+├── requirements.txt
+└── README.md
+
+==================================================
+PART 1 — DDXPLUS PROCESSING
+==================================================
+
+Implement a parser for the DDXPlus dataset.
+
+Read:
+
+release_evidences.json
+release_conditions.json
+
+Extract meaningful human-readable mappings from the coded evidence.
+
+For example:
+
+E_130 + V_86
+
+should be converted into something understandable such as:
+
+"What color is the rash?" = "dark"
+
+Do NOT blindly send raw E_XXX and V_XXX codes to the LLM.
+
+Parse each patient into a structured representation containing:
+
+- age
+- sex
+- symptoms
+- antecedents
+- initial evidence
+- differential diagnosis
+- ground-truth pathology (only for evaluation)
+
+Example internal representation:
+
+{
+    "age": 18,
+    "sex": "M",
+    "symptoms": [...],
+    "antecedents": [...],
+    "initial_evidence": "...",
+    "differential_diagnosis": [...]
+}
+
+Ground-truth pathology MUST NOT be included in the prompt during inference.
+
+==================================================
+PART 2 — PATIENT CASE RAG
+==================================================
+
+Implement a patient-case retrieval system.
+
+Convert each training patient into a searchable textual representation.
+
+Example:
+
+Patient:
+Age: 45
+Sex: Female
+
+Symptoms:
+fever
+cough
+chest pain
+
+Antecedents:
+smoking history
+
+Use the training set to build the patient-case knowledge base.
+
+IMPORTANT:
+
+Never index validation/test ground-truth labels as retrievable information.
+
+The patient retriever should retrieve similar historical cases based on:
+
+- symptoms
+- antecedents
+- demographics
+- clinical evidence
+
+Use semantic embeddings.
+
+Start with a lightweight local embedding model that works on my hardware.
+
+Prefer:
+
+BAAI/bge-small-en-v1.5
+
+or another lightweight biomedical-compatible embedding model if justified.
+
+Do NOT use the large LLM itself as the embedding model.
+
+==================================================
+PART 3 — MEDICAL KNOWLEDGE RAG
+==================================================
+
+Create a separate medical knowledge collection.
+
+The architecture must support ingestion of:
+
+- medical guidelines
+- licensed medical documents
+- PubMed-derived documents
+- disease descriptions
+- drug safety information
+- other legally usable medical references
+
+Implement:
+
+document loading
+      ↓
+cleaning
+      ↓
+chunking
+      ↓
+metadata extraction
+      ↓
+embedding
+      ↓
+vector database
+
+Use Qdrant locally.
+
+Each chunk should contain metadata such as:
+
+{
+    "source": "...",
+    "title": "...",
+    "section": "...",
+    "document_type": "...",
+    "disease": "...",
+    "year": "..."
+}
+
+Do not invent medical sources.
+
+==================================================
+PART 4 — RETRIEVAL
+==================================================
+
+Implement two independent retrievers:
+
+MedicalKnowledgeRetriever
+
+and
+
+PatientCaseRetriever
+
+Both should support:
+
+retrieve(query, top_k)
+
+Return:
+
+- text
+- similarity score
+- metadata
+- source identifier
+
+Use top-k retrieval.
+
+Make k configurable.
+
+Default:
+
+top_k = 5
+
+==================================================
+PART 5 — RERANKING
+==================================================
+
+Implement an optional reranking stage.
+
+Pipeline:
+
+Dense Retrieval
+      ↓
+Top 10–20 candidates
+      ↓
+Reranker
+      ↓
+Top 3–5 evidence items
+
+Keep reranking modular so it can be disabled on low-resource hardware.
+
+==================================================
+PART 6 — EVIDENCE FUSION
+==================================================
+
+Combine:
+
+A. Current patient information
+
+B. Retrieved medical evidence
+
+C. Similar patient cases
+
+Do NOT simply concatenate huge amounts of text.
+
+Create a structured context:
+
+CURRENT PATIENT
+----------------
+...
+
+MEDICAL EVIDENCE
+----------------
+[Evidence 1]
+Source:
+Content:
+
+[Evidence 2]
+Source:
+Content:
+
+SIMILAR PATIENT CASES
+---------------------
+[Case 1]
+Similarity:
+Clinical features:
+Outcome:
+
+[Case 2]
+...
+
+The system must preserve source attribution.
+
+==================================================
+PART 7 — LOCAL LLM
+==================================================
+
+Use Ollama.
+
+Default model:
+
+gemma3:4b
+
+Call:
+
+ollama run gemma3:4b
+
+through the local Ollama API.
+
+Do NOT use OpenAI APIs.
+
+Create a configurable LLM interface:
+
+generate(prompt)
+
+so that Qwen3-8B can later replace Gemma without rewriting the RAG system.
+
+==================================================
+PART 8 — CLINICAL REASONING PROMPT
+==================================================
+
+The LLM must be instructed:
+
+"You are a clinical decision-support reasoning assistant.
+
+Use ONLY the supplied patient information and retrieved evidence.
+
+Do not invent symptoms, diagnoses, medications, laboratory results, studies, or citations.
+
+Distinguish:
+- observed patient evidence
+- retrieved medical evidence
+- reasoning/inference
+
+When evidence is insufficient, explicitly state that it is insufficient.
+
+Do not present the output as a definitive medical diagnosis.
+
+Provide:
+
+1. Patient summary
+2. Relevant clinical evidence
+3. Retrieved medical evidence
+4. Similar patient cases
+5. Differential considerations
+6. Reasoning
+7. Evidence supporting each consideration
+8. Missing information
+9. Safety concerns
+10. Sources used
+
+Every medical claim that depends on retrieved knowledge should reference the relevant source."
+
+==================================================
+PART 9 — HALLUCINATION CONTROL
+==================================================
+
+Implement basic safeguards.
+
+The generator must:
+
+- never fabricate sources
+- never fabricate citations
+- never invent patient information
+- never treat retrieved patient cases as identical to the current patient
+- clearly distinguish similarity from evidence
+- explicitly state when retrieval is insufficient
+
+Add a simple retrieval confidence mechanism based on actual retrieval scores.
+
+Do NOT use precision as a "confidence" score.
+
+Do not invent arbitrary confidence percentages.
+
+==================================================
+PART 10 — EVALUATION
+==================================================
+
+Create an evaluation script.
+
+Use:
+
+DDXPlus validation/test data.
+
+Evaluate:
+
+1. Diagnosis accuracy
+2. Top-k diagnostic recall
+3. Retrieval relevance
+4. Evidence grounding
+5. Hallucination rate
+6. Source citation correctness
+7. Similar-patient retrieval quality
+
+Keep diagnosis evaluation separate from RAG retrieval evaluation.
+
+IMPORTANT:
+
+Do not leak:
+
+PATHOLOGY
+or
+DIFFERENTIAL_DIAGNOSIS
+
+into the model's inference context.
+
+They are evaluation labels only.
+
+==================================================
+PART 11 — EXPERIMENTAL BASELINE
+==================================================
+
+Create three modes:
+
+MODE A:
+Gemma 3 4B without RAG
+
+MODE B:
+Gemma 3 4B + Medical Knowledge RAG
+
+MODE C:
+Gemma 3 4B + Medical Knowledge RAG
++ Similar Patient Case Retrieval
+
+The results should be saved so we can later compare them.
+
+==================================================
+PART 12 — FUTURE MULTI-AGENT INTEGRATION
+==================================================
+
+Design the RAG module so it can later become:
+
+RAG Agent
+
+inside:
+
+                 ORCHESTRATOR
+                      |
+       +--------------+--------------+
+       |              |              |
+       v              v              v
+   EHR Agent     Diagnosis Agent   RAG Agent
+                                      |
+                            +---------+---------+
+                            |                   |
+                            v                   v
+                     Medical RAG          Patient RAG
+                            |
+                            v
+                     Clinical Critic
+                            |
+                            v
+                     Human Clinician
+                            |
+                       Feedback
+                            |
+                            v
+                    Final Explanation
+
+Do NOT implement the complete multi-agent system yet.
+
+First make the RAG module independently functional.
+
+==================================================
+IMPORTANT CONSTRAINTS
+==================================================
+
+1. Do not copy DoctorRAG wholesale.
+
+2. Do not use proprietary medical datasets without proper authorization.
+
+3. Do not use fake medical references.
+
+4. Do not hard-code DDXPlus diagnoses into the reasoning prompt.
+
+5. Do not leak test-set ground truth.
+
+6. Keep everything modular.
+
+7. Prefer local/open-source components.
+
+8. Keep memory usage appropriate for a Windows laptop with approximately:
+   - 16 GB RAM
+   - 4 GB dedicated GPU VRAM
+
+9. Do not require a GPU for the vector database.
+
+10. Avoid unnecessarily large embedding models.
+
+11. Explain every dependency before adding it.
+
+12. Generate requirements.txt.
+
+13. Generate a README with exact Windows commands.
+
+14. Include error handling.
+
+15. Include logging.
+
+16. Make paths configurable rather than hard-coded.
+
+17. Do not build a medical autonomous agent that takes actions on behalf of patients.
+
+18. This is a research/clinical-decision-support prototype.
+
+==================================================
+FIRST TASK
+==================================================
+
+Before writing the entire system:
+
+1. Inspect the DDXPlus directory structure.
+2. Confirm which dataset files exist.
+3. Design the minimal architecture.
+4. Tell me which DoctorRAG concepts are being reused.
+5. Tell me which parts are intentionally NOT being copied.
+6. Then implement ONLY the DDXPlus parser and patient representation first.
+
+After that works, we will implement:
+
+Patient Case RAG
+→ Medical Knowledge RAG
+→ Reranking
+→ Evidence Fusion
+→ Gemma generation
+→ Evaluation
+
+Do not jump directly to the complete system.
+Build and test each component incrementally.
+
+Continue implementing the project. Phase 1 is complete and validated.
+
+DO NOT stop at planning or documentation. You must actually implement and test Phase 2.
+
+PROJECT:
+Human-in-the-Loop Multi-Agent Clinical Decision Support System
+
+CURRENT STATE:
+The project is:
+healthcare-agentic-ai/
+
+Phase 1 already contains:
+- rag/config.py
+- rag/models.py
+- rag/patient_parser.py
+- rag/__init__.py
+- scripts/prepare_ddxplus.py
+- tests/test_patient_parser.py
+- docs/architecture.md
+- docs/validation.md
+
+DDXPlus is already available and Phase 1 successfully parses the dataset.
+
+IMPORTANT:
+Do not rewrite or break Phase 1.
+Do not clone another repository into the runtime architecture.
+Do not copy DoctorRAG code.
+Use DoctorRAG only as an architectural reference.
+
+==================================================
+PHASE 2 GOAL — BUILD THE PATIENT CASE RAG
+==================================================
+
+Implement the first REAL RAG pipeline.
+
+Architecture:
+
+DDXPlus Patient
+      ↓
+PatientRepresentation
+      ↓
+Patient text representation
+      ↓
+Embedding model
+      ↓
+Vector database
+      ↓
+Retrieve similar TRAINING patients
+      ↓
+Return similar cases + similarity scores + metadata
+
+For now, DO NOT implement:
+- multi-agent orchestration
+- LangGraph
+- human feedback
+- medication agent
+- diagnostic agent
+- medical knowledge RAG
+- LLM generation
+
+Those will come after this phase.
+
+The purpose of Phase 2 is to create a clean, tested Patient Case Retrieval system that we can later plug into agents.
+
+==================================================
+1. DEPENDENCIES
+==================================================
+
+Add only the dependencies actually required:
+
+- sentence-transformers
+- qdrant-client
+
+Do NOT install LangChain or LangGraph yet.
+
+The target machine has approximately:
+- 16 GB RAM
+- 4 GB dedicated GPU VRAM
+
+Therefore:
+
+- Embeddings must run CPU-first.
+- Use small batches.
+- Do not load unnecessary large models.
+- Make the embedding model configurable.
+- Default to:
+
+BAAI/bge-small-en-v1.5
+
+If this model is unavailable locally, provide a clear download/setup instruction rather than silently substituting another model.
+
+Qdrant should run locally.
+
+Prefer Qdrant local persistent storage rather than requiring Docker.
+
+==================================================
+2. CREATE PATIENT INGESTION
+==================================================
+
+Create:
+
+rag/patient_ingestion.py
+
+Responsibilities:
+
+- Read ONLY the DDXPlus TRAIN split.
+- Use the existing DDXPlusParser.
+- Never index validation or test patients.
+- Never index PATHOLOGY.
+- Never index DIFFERENTIAL_DIAGNOSIS.
+- Never put evaluation labels into the vector payload.
+- Convert PatientRepresentation into a deterministic textual representation.
+
+Example:
+
+Patient:
+Age: 45
+Sex: Female
+
+Symptoms / clinical evidence:
+- ...
+- ...
+
+Antecedents:
+- ...
+
+Initial evidence:
+- ...
+
+Unlisted findings are not assumed absent.
+
+Each indexed document must contain:
+
+{
+    "patient_id": ...,
+    "split": "train",
+    "text": ...,
+    "source": ...
+}
+
+The payload must NOT contain:
+- PATHOLOGY
+- DIFFERENTIAL_DIAGNOSIS
+- ground_truth_pathology
+- diagnosis labels
+
+Add explicit tests proving that these fields never enter the indexed patient document.
+
+==================================================
+3. CREATE EMBEDDING MODULE
+==================================================
+
+Create:
+
+rag/embeddings.py
+
+Implement a small wrapper around SentenceTransformer.
+
+Requirements:
+
+class EmbeddingModel:
+
+    embed_text(text)
+    embed_texts(texts)
+
+Configuration:
+
+model_name = "BAAI/bge-small-en-v1.5"
+
+Use:
+
+normalize_embeddings=True
+
+Run CPU-first.
+
+Allow configuration through environment variables or config.
+
+Example:
+
+EMBEDDING_MODEL=BAAI/bge-small-en-v1.5
+EMBEDDING_DEVICE=cpu
+
+Do not hard-code CUDA.
+
+==================================================
+4. CREATE QDRANT VECTOR STORE
+==================================================
+
+Create:
+
+rag/vector_store.py
+
+Use qdrant-client.
+
+Store the collection locally, for example:
+
+data/qdrant/patient_cases
+
+Collection:
+
+ddxplus_patient_cases
+
+Use cosine similarity.
+
+The vector dimension must be determined dynamically from the embedding model.
+
+Do NOT hard-code the dimension.
+
+Implement:
+
+create_collection()
+delete_collection()
+collection_exists()
+upsert_patients()
+search()
+count()
+
+Payload must preserve:
+
+patient_id
+split
+text
+source
+
+Again:
+
+NO pathology
+NO differential diagnosis
+NO evaluation labels.
+
+==================================================
+5. CREATE PATIENT CASE RETRIEVER
+==================================================
+
+Create:
+
+rag/patient_retriever.py
+
+Implement:
+
+class PatientCaseRetriever:
+
+    retrieve(patient_text, top_k=5)
+
+It should:
+
+1. Embed the query patient.
+2. Search ONLY the training patient collection.
+3. Return the top-k most similar cases.
+4. Preserve similarity scores.
+5. Preserve patient IDs and source metadata.
+6. Never return validation/test records.
+
+Return a structured result such as:
+
+[
+    {
+        "patient_id": "...",
+        "score": 0.87,
+        "text": "...",
+        "source": "..."
+    }
+]
+
+Do not interpret similarity as diagnostic probability.
+
+==================================================
+6. CREATE INDEXING SCRIPT
+==================================================
+
+Create:
+
+scripts/build_patient_index.py
+
+Usage:
+
+python scripts/build_patient_index.py
+
+Optional:
+
+--limit 1000
+
+--batch-size 32
+
+--reset
+
+The script should:
+
+1. Verify DDXPlus files exist.
+2. Load training patients using DDXPlusParser.
+3. Convert them to patient text.
+4. Generate embeddings.
+5. Create/update Qdrant collection.
+6. Insert vectors and metadata.
+7. Print progress.
+8. Print final indexed count.
+
+It must stream/process batches rather than loading the entire training set into RAM.
+
+IMPORTANT:
+
+Do not index validation or test patients.
+
+==================================================
+7. CREATE RETRIEVAL TEST SCRIPT
+==================================================
+
+Create:
+
+scripts/test_patient_rag.py
+
+It should:
+
+1. Load one or several validation patients.
+2. Convert them to patient text.
+3. Retrieve similar training cases.
+4. Print:
+
+QUERY PATIENT
+...
+
+TOP 5 SIMILAR TRAINING CASES
+
+1.
+patient_id:
+similarity:
+case:
+
+2.
+...
+
+etc.
+
+If evaluation labels are loaded for testing, keep them completely separate from the retrieval query.
+
+Never display the ground-truth diagnosis as part of the query sent to the retriever.
+
+==================================================
+8. CREATE AUTOMATED TESTS
+==================================================
+
+Create:
+
+tests/test_patient_rag.py
+
+Tests must verify:
+
+1. Training patients can be indexed.
+2. Validation patients are never indexed.
+3. Test patients are never indexed.
+4. PATHOLOGY never appears in vector payload.
+5. DIFFERENTIAL_DIAGNOSIS never appears in vector payload.
+6. Retrieval returns requested top-k or fewer when collection is small.
+7. Similarity scores are numeric.
+8. Patient IDs are preserved.
+9. split is always "train" for indexed cases.
+10. The retriever does not treat similarity as probability.
+11. Empty collection is handled cleanly.
+12. Duplicate patient IDs are handled deterministically.
+13. Re-running indexing does not silently create duplicate points.
+
+Use a temporary Qdrant location for tests where possible.
+
+Do not require the real full dataset for unit tests.
+
+==================================================
+9. ADD A SIMPLE RAG PIPELINE
+==================================================
+
+Create:
+
+rag/patient_rag.py
+
+Implement:
+
+class PatientCaseRAG:
+
+    index(...)
+    retrieve(patient, top_k=5)
+
+The class should compose:
+
+DDXPlusParser
+EmbeddingModel
+QdrantVectorStore
+PatientCaseRetriever
+
+The API should make the next phase easy.
+
+Example:
+
+parser = DDXPlusParser()
+
+record = next(
+    parser.iter_patients("validate", limit=1)
+)
+
+rag = PatientCaseRAG()
+
+results = rag.retrieve(
+    record.patient.to_text(),
+    top_k=5
+)
+
+==================================================
+10. DO NOT USE AN LLM YET
+==================================================
+
+This phase is retrieval only.
+
+DO NOT call:
+- Gemma
+- Qwen
+- OpenAI
+- DeepSeek
+- any cloud API
+
+The purpose is to prove that the retrieval layer works independently.
+
+==================================================
+11. RETRIEVAL EVALUATION
+==================================================
+
+Create:
+
+docs/patient_rag_evaluation.md
+
+Explain how we will evaluate patient retrieval later.
+
+At minimum define:
+
+- Recall@K
+- Precision@K
+- MRR
+- similarity distribution
+- duplicate retrieval rate
+- split leakage rate
+
+IMPORTANT:
+
+Do not claim that semantic similarity means clinical similarity.
+
+Because DDXPlus contains ground-truth labels, evaluation can use labels AFTER retrieval, but labels must never be used to construct embeddings or query text.
+
+Keep:
+
+INFERENCE DATA
+and
+EVALUATION DATA
+
+strictly separated.
+
+==================================================
+12. README UPDATE
+==================================================
+
+Update README with exact Windows commands.
+
+Example:
+
+cd healthcare-agentic-ai
+
+py -3 -m venv .venv
+
+.\\.venv\\Scripts\\activate
+
+pip install -r requirements.txt
+
+python scripts/build_patient_index.py --limit 1000
+
+python scripts/test_patient_rag.py
+
+Also explain:
+
+- what the embedding model does
+- what Qdrant does
+- why only training patients are indexed
+- why validation/test patients are not indexed
+- why diagnosis labels are excluded
+- how this will later connect to the LLM and agents
+
+==================================================
+13. RUN REAL VALIDATION
+==================================================
+
+After implementation:
+
+1. Run all existing Phase 1 tests.
+2. Run all new Phase 2 tests.
+3. Build a small 1000-patient training index.
+4. Run retrieval against at least 10 validation patients.
+5. Show the retrieved patient IDs and scores.
+6. Verify every retrieved patient has split="train".
+7. Verify no diagnosis labels are stored in Qdrant payloads.
+8. Report actual timings and counts.
+
+Do NOT fabricate evaluation metrics.
+
+If something fails, debug it and fix it.
+
+==================================================
+14. FINAL OUTPUT
+==================================================
+
+When finished, report:
+
+IMPLEMENTED:
+- files created
+- files modified
+
+DATA:
+- training records indexed
+- validation records used for query
+- test records indexed = MUST be 0
+
+MODEL:
+- embedding model
+- device
+- embedding dimension
+
+VECTOR DATABASE:
+- Qdrant mode
+- collection name
+- vector distance
+
+TESTS:
+- Phase 1 tests
+- Phase 2 tests
+- total passed
+
+RETRIEVAL:
+- example query
+- top-k results
+- actual similarity scores
+
+SAFETY:
+- confirm PATHOLOGY excluded
+- confirm DIFFERENTIAL_DIAGNOSIS excluded
+- confirm validation/test never indexed
+
+NEXT PHASE:
+Explain exactly what needs to be added for:
+
+Patient Case RAG
+        +
+Medical Knowledge RAG
+        +
+Gemma/Qwen
+        +
+Evidence Fusion
+
+Do not implement those next phases yet.
+
+MOST IMPORTANT RULE:
+
+Do the implementation, not just the plan.
+Run the code.
+Run the tests.
+Fix errors.
+Do not stop after creating documentation.
+
+CONTINUE TASK 2 — COMPLETE AND VALIDATE THE PATIENT-CASE RAG PIPELINE
+
+You are continuing an interrupted implementation. Do NOT start over and do NOT delete/rewrite working code unnecessarily.
+
+The previous run already created substantial Phase 2 code under:
+
+healthcare-agentic-ai/
+
+including:
+
+- rag/patient_ingestion.py
+- rag/embeddings.py
+- rag/vector_store.py
+- rag/patient_retriever.py
+- rag/patient_rag.py
+- scripts/build_patient_index.py
+- scripts/test_patient_rag.py
+- tests/test_patient_rag.py
+- updated requirements.txt
+- updated configuration
+
+The previous agent run was interrupted because the coding-agent API itself failed with:
+
+Unsupported value: 'reasoning_effort' does not support 'none'.
+Supported values are: low, medium, high, xhigh.
+
+The API configuration has now been changed to:
+
+reasoning_effort="medium"
+
+Continue from the existing filesystem state.
+
+==================================================
+PRIMARY OBJECTIVE
+==================================================
+
+Finish Phase 2 as a REAL, WORKING Patient Case RAG pipeline using:
+
+DDXPlus → patient representation → local embeddings → persistent Qdrant → semantic retrieval.
+
+Do not move to medical-knowledge RAG, Gemma generation, LangGraph, multi-agent orchestration, or HITL yet.
+
+Phase 2 must be completely validated first.
+
+==================================================
+STEP 1 — INSPECT BEFORE MODIFYING
+==================================================
+
+First inspect the existing implementation.
+
+Read:
+
+- healthcare-agentic-ai/rag/config.py
+- healthcare-agentic-ai/rag/models.py
+- healthcare-agentic-ai/rag/patient_parser.py
+- healthcare-agentic-ai/rag/patient_ingestion.py
+- healthcare-agentic-ai/rag/embeddings.py
+- healthcare-agentic-ai/rag/vector_store.py
+- healthcare-agentic-ai/rag/patient_retriever.py
+- healthcare-agentic-ai/rag/patient_rag.py
+- healthcare-agentic-ai/scripts/build_patient_index.py
+- healthcare-agentic-ai/scripts/test_patient_rag.py
+- healthcare-agentic-ai/tests/test_patient_rag.py
+- healthcare-agentic-ai/README.md
+
+Also inspect the actual DDXPlus files available in the project.
+
+Do not assume that code written during the previous run is correct merely because it exists.
+
+Identify compatibility problems, syntax problems, incorrect imports, API mismatches, path problems, or logic errors before proceeding.
+
+==================================================
+STEP 2 — VERIFY DEPENDENCIES
+==================================================
+
+Verify that the project environment contains:
+
+- sentence-transformers
+- qdrant-client
+- torch
+
+If dependencies are missing, install them using the project's existing package/environment mechanism.
+
+Do not introduce unnecessary frameworks.
+
+Do NOT add LangChain or LangGraph.
+
+Do NOT add a cloud embedding API.
+
+Do NOT add an OpenAI embedding API.
+
+The embedding model must remain local.
+
+Default embedding model:
+
+BAAI/bge-small-en-v1.5
+
+Default device:
+
+CPU
+
+The code may support GPU configuration, but CPU must remain the safe default for the target machine.
+
+==================================================
+STEP 3 — VERIFY THE PATIENT DATA BOUNDARY
+==================================================
+
+This is a critical research requirement.
+
+Only DDXPlus TRAIN patients may be indexed.
+
+Validation and test patients must NEVER become retrievable documents.
+
+PATHOLOGY and DIFFERENTIAL_DIAGNOSIS must NEVER enter the patient vector payload.
+
+The vector payload should remain allowlisted to:
+
+- patient_id
+- split
+- text
+- source
+
+Do not serialize the entire PatientRecord.
+
+Do not use dataclasses.asdict() on a label-containing PatientRecord for embeddings.
+
+The patient text used for embeddings must be label-free.
+
+Verify this using tests and actual stored Qdrant payloads.
+
+If the current implementation violates this boundary, fix it before continuing.
+
+==================================================
+STEP 4 — TEST THE EXISTING UNIT TESTS
+==================================================
+
+Run the complete test suite.
+
+For example, from the project root:
+
+python -m unittest discover healthcare-agentic-ai/tests -v
+
+Use the appropriate project environment if necessary.
+
+Do not merely inspect the tests.
+
+Actually run them.
+
+If tests fail:
+
+1. diagnose the failure,
+2. fix the implementation,
+3. rerun the tests,
+4. continue until the Phase 2 unit tests pass.
+
+Do not weaken or remove tests merely to make them pass.
+
+==================================================
+STEP 5 — BUILD A REAL PATIENT INDEX
+==================================================
+
+After unit tests pass, perform a REAL indexing run against the actual DDXPlus training data.
+
+Initially use a bounded dataset to validate the complete pipeline:
+
+python scripts/build_patient_index.py --limit 1000 --allow-download
+
+Run this from:
+
+healthcare-agentic-ai/
+
+or otherwise ensure imports and paths work correctly.
+
+The script must:
+
+DDXPlus training ZIP
+        ↓
+stream patients
+        ↓
+PatientRepresentation
+        ↓
+label-free text
+        ↓
+BGE embedding
+        ↓
+persistent Qdrant
+        ↓
+training patient vectors
+
+Do not load the entire dataset into RAM unnecessarily.
+
+Do not create a fake embedding implementation for runtime.
+
+Do not use a fake vector database.
+
+The only fake embedding model allowed is inside offline unit tests.
+
+==================================================
+STEP 6 — VERIFY ACTUAL INDEX CONTENT
+==================================================
+
+After indexing, verify:
+
+1. Qdrant collection exists.
+2. Collection is persistent on disk.
+3. Number of indexed records is correct.
+4. Stored vectors have the expected dimension.
+5. Distance metric is cosine.
+6. Stored payloads contain only the allowed fields.
+7. All stored records have split="train".
+8. No PATHOLOGY field exists.
+9. No DIFFERENTIAL_DIAGNOSIS field exists.
+10. No hidden diagnosis field exists.
+11. Reopening Qdrant preserves the records.
+
+Report the actual values.
+
+Do not invent percentages or performance numbers.
+
+==================================================
+STEP 7 — TEST REAL RETRIEVAL
+==================================================
+
+Run the real retrieval validation:
+
+python scripts/test_patient_rag.py --queries 10 --top-k 5
+
+Use validation patients as QUERY inputs.
+
+Important:
+
+Validation patients may be used as queries.
+
+Validation patients must NOT be inserted into the vector database.
+
+The retrieved cases must all come from TRAIN.
+
+For every query, display:
+
+- query patient ID
+- retrieved patient IDs
+- rank
+- cosine similarity
+- source
+- retrieved patient text
+
+Clearly label cosine similarity as a retrieval similarity score.
+
+NEVER call it:
+
+- diagnostic probability
+- diagnosis confidence
+- clinical confidence
+- probability of disease
+
+==================================================
+STEP 8 — CHECK FOR DATA LEAKAGE
+==================================================
+
+Explicitly test for split leakage.
+
+The following must fail/reject indexing:
+
+- validate patient
+- test patient
+
+Also inspect actual Qdrant contents and confirm that every indexed payload has:
+
+split = train
+
+If any validation/test patient is found in the collection, stop and fix the problem.
+
+==================================================
+STEP 9 — CHECK DUPLICATE / ID BEHAVIOR
+==================================================
+
+Verify that patient IDs are deterministic.
+
+The same patient should map to the same Qdrant point ID.
+
+Rerunning indexing must be idempotent.
+
+For example:
+
+First run:
+1000 records → 1000 indexed
+
+Second run:
+same 1000 records → still 1000 indexed
+
+It must not create 2000 duplicate vectors.
+
+If this behavior is broken, fix it.
+
+==================================================
+STEP 10 — RETRIEVAL QUALITY METRICS
+==================================================
+
+Do NOT claim that retrieval quality is good merely because retrieval works.
+
+At this phase, the purpose is to establish a functioning retrieval infrastructure.
+
+If the DDXPlus labels can safely be accessed ONLY during evaluation, you may implement an OFFLINE retrieval evaluation that uses validation/test ground truth strictly outside the indexed payload.
+
+Potential metrics:
+
+- Recall@1
+- Recall@3
+- Recall@5
+- MRR
+
+But be extremely careful:
+
+semantic similarity between patients is NOT the same thing as diagnosis correctness.
+
+If implementing diagnosis-based retrieval metrics, clearly distinguish:
+
+A. case similarity retrieval
+
+from:
+
+B. diagnosis-label agreement evaluation
+
+Do not put diagnosis labels into the vector store.
+
+Do not use labels when creating embeddings.
+
+Do not allow evaluation labels to influence retrieval.
+
+If reliable evaluation cannot yet be implemented without violating the data boundary, report that honestly and leave the metric implementation for the next validation stage.
+
+==================================================
+STEP 11 — EMBEDDING MODEL HANDLING
+==================================================
+
+The implementation must prevent accidental mixing of embeddings from different models/configurations.
+
+Keep the embedding manifest/signature mechanism.
+
+At minimum track:
+
+- model name
+- embedding dimension
+- normalization
+- max sequence length
+- text representation version
+
+If an existing Qdrant collection was built using a different embedding configuration, fail clearly rather than silently mixing vectors.
+
+==================================================
+STEP 12 — CONTEXT-LENGTH HANDLING
+==================================================
+
+Check whether DDXPlus patient texts exceed the embedding model context length.
+
+Do not silently pretend that no truncation occurred.
+
+If truncation occurs:
+
+- preserve the original patient text in the payload,
+- record/log the number of truncated inputs,
+- clearly report this during indexing.
+
+Do not invent a medical summary to compensate for truncation.
+
+==================================================
+STEP 13 — DOCUMENTATION
+==================================================
+
+Update:
+
+healthcare-agentic-ai/README.md
+
+and relevant documentation so that it accurately describes what is ACTUALLY implemented.
+
+Do not describe future components as implemented.
+
+Clearly distinguish:
+
+IMPLEMENTED NOW:
+
+DDXPlus parser
+PatientRepresentation
+Training-only patient ingestion
+Local BGE embeddings
+Persistent Qdrant
+Patient-case semantic retrieval
+Retrieval validation
+Leakage protection
+Unit tests
+
+NOT IMPLEMENTED YET:
+
+Medical knowledge RAG
+Clinical guidelines RAG
+LLM generation
+Gemma/Qwen integration
+Clinical critic
+Multi-agent orchestration
+LangGraph
+Human-in-the-loop feedback
+Feedback memory
+Autonomous clinical actions
+
+Do not claim clinical validity.
+
+State clearly that DDXPlus is a synthetic dataset.
+
+==================================================
+STEP 14 — FIX README IF NECESSARY
+==================================================
+
+The previous implementation may have produced malformed/duplicated README content.
+
+Inspect README carefully.
+
+If it contains duplicated or truncated sections, clean it up.
+
+Keep it concise and technically accurate.
+
+==================================================
+STEP 15 — FINAL VALIDATION
+==================================================
+
+Before declaring completion, run:
+
+1. Complete unit tests.
+2. Real DDXPlus indexing with 1000 training patients.
+3. Real retrieval using validation patients.
+4. Payload audit.
+5. Persistence/reopen test.
+6. Split leakage check.
+7. Idempotent re-index check.
+
+If any of these fail, continue debugging.
+
+Do not stop after writing files.
+
+==================================================
+IMPORTANT RESEARCH SAFETY RULES
+==================================================
+
+This is a research prototype.
+
+Do not implement:
+
+- autonomous diagnosis
+- autonomous prescribing
+- patient-facing medical advice
+- treatment execution
+- clinical decision automation
+
+The current stage is retrieval infrastructure only.
+
+Do not claim:
+
+"clinically accurate"
+
+"clinically validated"
+
+"safe for clinical use"
+
+"doctor-level"
+
+"diagnosis confidence"
+
+unless such a claim is actually supported by a future properly designed evaluation.
+
+==================================================
+FINAL REPORT FORMAT
+==================================================
+
+When finished, provide a concise but concrete implementation report containing:
+
+1. Files created/modified.
+2. Dependencies installed.
+3. Embedding model used.
+4. Device used.
+5. Embedding dimension.
+6. Qdrant storage location.
+7. Collection name.
+8. Number of training records indexed.
+9. Number of validation queries executed.
+10. Top-k used.
+11. Example retrieval results.
+12. Unit-test result.
+13. Leakage-test result.
+14. Persistence-test result.
+15. Idempotency result.
+16. Any warnings or limitations.
+17. What remains for Phase 3.
+
+IMPORTANT:
+
+Do not fabricate any result.
+
+Every number in the final report must come from an actual command or test execution.
+
+If something cannot be executed, explicitly say so and explain why.
+
+Do not declare the task complete merely because the source files exist.
+
+The goal is a VERIFIED WORKING Patient Case RAG implementation.
+Implement Phase 3: Medical Knowledge RAG in the existing healthcare-agentic-ai project.
+
+Goal:
+Build a separate medical-knowledge retrieval pipeline that complements the existing Phase 2 Patient Case RAG.
+
+IMPORTANT:
+- Do NOT modify or merge the existing Patient Case RAG.
+- Do NOT add LLM generation, agents, LangGraph, orchestration, or Qwen/Gemma reasoning yet.
+- Phase 3 is retrieval-only.
+- Preserve all existing Phase 2 tests and functionality.
+
+DATA SOURCES
+
+1. MedlinePlus
+- Use the official downloadable MedlinePlus XML dataset/API.
+- Do not scrape webpages.
+- Store the original downloaded files under:
+  data/medical_knowledge/raw/medlineplus/
+
+2. PubMed Central (PMC)
+- Use only authorized PMC retrieval mechanisms such as OAI-PMH, E-Utilities, BioC API, or another officially supported mechanism.
+- Retrieve only Open Access content with a clearly reusable license.
+- Prefer CC0, CC BY, or CC BY-SA for the initial corpus.
+- Do NOT scrape PMC webpages.
+- Do NOT bypass access restrictions.
+- Store license/provenance metadata for every article.
+- Store raw data under:
+  data/medical_knowledge/raw/pmc/
+
+3. WHO
+- Initially support selected openly reusable WHO documents.
+- Check the licensing/usage terms for each document.
+- Do not bulk-download the WHO website.
+- Store raw documents under:
+  data/medical_knowledge/raw/who/
+
+IMPLEMENTATION
+
+Create a separate medical knowledge pipeline approximately like:
+
+rag/
+  medical_ingestion/
+    medlineplus.py
+    pmc.py
+    who.py
+    chunker.py
+    models.py
+  medical_embeddings.py
+  medical_vector_store.py
+  medical_retriever.py
+
+scripts/
+  download_medical_data.py
+  build_medical_index.py
+  test_medical_rag.py
+  audit_medical_index.py
+
+data/
+  medical_knowledge/
+    raw/
+    processed/
+    qdrant/
+
+Use the existing BGE-small embedding infrastructure where appropriate.
+
+Normalize all sources into a common document/chunk representation containing, where available:
+
+- chunk_id
+- text
+- title
+- source
+- URL
+- DOI
+- PMID/PMCID
+- publication date
+- document type
+- license
+- provenance
+
+Then:
+
+raw source
+→ text extraction
+→ cleaning
+→ chunking
+→ BGE-small embeddings
+→ separate Qdrant collection
+
+Create a NEW collection, for example:
+
+medical_knowledge
+
+Do not store medical knowledge inside:
+ddxplus_patient_cases
+
+RETRIEVER
+
+Implement MedicalKnowledgeRetriever that:
+
+- accepts a text query
+- creates its BGE embedding
+- searches only the medical_knowledge collection
+- returns top-k results
+- returns the actual text plus provenance/metadata
+- never returns only similarity scores
+
+VALIDATION
+
+Add tests for:
+
+1. XML/PDF/text ingestion
+2. normalization
+3. chunking
+4. metadata preservation
+5. license filtering
+6. Qdrant persistence/reopening
+7. retrieval
+8. prevention of patient-case/diagnosis-label leakage
+9. deterministic indexing where applicable
+
+Create a small reproducible development corpus first. Do NOT download millions of articles.
+
+Run the complete existing test suite plus all Phase 3 tests.
+
+DOCUMENTATION
+
+Update the relevant README/docs with:
+
+- exact data sources
+- how data is obtained
+- licensing/provenance handling
+- directory structure
+- commands to reproduce ingestion/indexing
+- number of documents/chunks actually indexed
+- retrieval validation results
+- limitations
+
+Do not claim medical accuracy or diagnostic performance from embedding similarity.
+
+Do not invent datasets, licenses, retrieval results, or metrics.
+
+At the end, report:
+1. files created/changed
+2. exact sources used
+3. number of documents/chunks indexed per source
+4. Qdrant collection name
+5. embedding model and dimension
+6. retrieval validation results
+7. tests passed
+8. licensing/provenance status
+9. remaining limitations
+
+STOP after Phase 3. Do not begin Phase 4.
+
+PHASE 4 — LOCAL LLM-POWERED CLINICAL AGENTS
+
+You are working on the existing project:
+
+healthcare-agentic-ai/
+
+Phases 1–3 have already been implemented and validated.
+
+DO NOT rewrite or replace the existing Patient Case RAG or Medical Knowledge RAG implementations.
+
+Your task is to implement PHASE 4: the first LLM-powered clinical-agent layer.
+
+==================================================
+1. FIRST: INSPECT THE EXISTING PROJECT
+==================================================
+
+Before writing code:
+
+1. Inspect the complete current repository structure.
+2. Read:
+   - README.md
+   - docs/architecture.md
+   - docs/validation.md
+   - docs/medical_knowledge.md
+3. Inspect the existing:
+   - DDXPlus parser
+   - Patient Case RAG
+   - Medical Knowledge RAG
+   - configuration
+   - tests
+   - scripts
+   - data structures
+4. Understand the actual APIs/classes already implemented.
+
+Do NOT assume the previous architecture from this prompt is identical to the current code.
+
+Reuse existing components wherever possible.
+
+Do not duplicate:
+- patient parsing
+- embeddings
+- Qdrant configuration
+- patient retrieval
+- medical retrieval
+- dataset loading
+
+If an existing component already performs a function, call it rather than implementing another version.
+
+==================================================
+2. PHASE 4 OBJECTIVE
+==================================================
+
+Implement three isolated LLM-powered software agents using ONE LOCAL MODEL:
+
+    Qwen3 8B
+
+The model is available locally through Ollama.
+
+Expected Ollama model:
+
+    qwen3:8b-q4_K_M
+
+The system must NOT use OpenAI, Anthropic, Gemini, or any cloud LLM API.
+
+Use Ollama's local HTTP API.
+
+The purpose of Phase 4 is to demonstrate that one local LLM can operate as multiple specialized clinical-role agents through separate prompts, contexts, inputs, and structured outputs.
+
+The three agents are:
+
+1. Patient Agent
+2. Diagnostic Agent
+3. Clinical Critic
+
+==================================================
+3. HIGH-LEVEL ARCHITECTURE
+==================================================
+
+Implement this pipeline:
+
+                    DDXPlus Patient
+                          |
+                          v
+                  +---------------+
+                  | Patient Agent |
+                  +---------------+
+                          |
+                          v
+                Structured Patient State
+                          |
+             +------------+------------+
+             |                         |
+             v                         v
+      Patient Case RAG        Medical Knowledge RAG
+             |                         |
+             +------------+------------+
+                          |
+                          v
+                 +----------------+
+                 | Diagnostic     |
+                 | Agent          |
+                 +----------------+
+                          |
+                          v
+                  Diagnostic Output
+                          |
+                          v
+                 +----------------+
+                 | Clinical Critic|
+                 +----------------+
+                          |
+                          v
+                  Critique Output
+
+
+IMPORTANT:
+
+This is NOT yet a fully autonomous multi-agent orchestrator.
+
+Do NOT implement LangGraph or another orchestration framework in Phase 4.
+
+The pipeline may be executed sequentially by a Python runner.
+
+Phase 5 will handle more advanced orchestration.
+
+==================================================
+4. AGENT 1 — PATIENT AGENT
+==================================================
+
+Create a dedicated Patient Agent.
+
+Purpose:
+
+Convert the parsed/raw DDXPlus patient information into a clean, structured patient representation.
+
+The Patient Agent MUST NOT diagnose the patient.
+
+Input:
+
+- patient information produced by the existing Phase 1 parser
+- symptoms/evidences
+- antecedents
+- demographic information
+- initial evidence
+- other inference-safe patient information
+
+Do NOT expose evaluation labels such as:
+
+- PATHOLOGY
+- ground-truth diagnosis
+- hidden evaluation labels
+
+to the Patient Agent.
+
+The agent must only receive information that would legitimately be available during inference.
+
+Output must be structured and machine-readable.
+
+Prefer Pydantic models.
+
+For example:
+
+PatientState:
+    patient_id
+    age
+    sex
+    presenting_evidence
+    symptoms
+    antecedents
+    relevant_findings
+    missing_information
+    uncertainty_notes
+
+Do not force fields that cannot be supported by the input.
+
+Do not allow the model to invent patient information.
+
+Every generated field must be traceable to the input.
+
+If something is unknown, explicitly represent it as unknown rather than guessing.
+
+==================================================
+5. AGENT 2 — DIAGNOSTIC AGENT
+==================================================
+
+Create a dedicated Diagnostic Agent.
+
+Purpose:
+
+Generate a differential diagnosis / diagnostic hypothesis using:
+
+1. Structured Patient State
+2. Patient Case RAG results
+3. Medical Knowledge RAG results
+
+The Diagnostic Agent must NOT directly access hidden DDXPlus evaluation labels.
+
+It must reason only from the inference-time patient information and retrieved evidence.
+
+Before calling the LLM:
+
+A. Run Patient Case RAG using the patient representation/query.
+
+B. Run Medical Knowledge RAG using an appropriate medical-information query.
+
+The existing Phase 2 and Phase 3 retrievers MUST be reused.
+
+Do not create a new embedding model.
+
+Do not create another vector database.
+
+Do not mix the two Qdrant collections.
+
+Clearly distinguish:
+
+PATIENT CASE EVIDENCE
+from
+MEDICAL KNOWLEDGE EVIDENCE.
+
+The Diagnostic Agent should receive retrieved evidence with provenance.
+
+Each retrieval result should preserve available metadata such as:
+
+- source
+- title
+- URL
+- patient_id where applicable
+- document identifiers
+- similarity score
+- chunk text
+
+Do not let similarity scores be interpreted as diagnostic probabilities.
+
+The prompt must explicitly tell the LLM that retrieval similarity is NOT diagnostic confidence.
+
+==================================================
+6. DIAGNOSTIC OUTPUT SCHEMA
+==================================================
+
+Use a strict structured output.
+
+Prefer a Pydantic model similar to:
+
+DiagnosticResult:
+
+    primary_hypothesis:
+        condition
+        rationale
+
+    differential_diagnoses:
+        [
+            {
+                condition
+                rationale
+                supporting_evidence
+                contradicting_evidence
+            }
+        ]
+
+    patient_case_evidence:
+        [...]
+
+    medical_knowledge_evidence:
+        [...]
+
+    missing_information:
+        [...]
+
+    uncertainty:
+        [...]
+
+    unsupported_claims:
+        [...]
+
+    reasoning_summary:
+        ...
+
+The exact schema can be improved after inspecting the existing project.
+
+IMPORTANT:
+
+The LLM must not invent:
+- citations
+- medical papers
+- URLs
+- patient cases
+- clinical facts
+- laboratory results
+- symptoms
+- medications
+- diagnoses
+
+All evidence references must point to retrieved material or patient input.
+
+==================================================
+7. AGENT 3 — CLINICAL CRITIC
+==================================================
+
+Create a separate Clinical Critic Agent.
+
+It uses the SAME Qwen3 8B model initially.
+
+However, it must operate with a DIFFERENT system prompt and an isolated context.
+
+The critic receives:
+
+- Patient State
+- Diagnostic Agent output
+- relevant retrieved evidence
+
+The critic must independently review the diagnostic output.
+
+It should check for:
+
+1. Unsupported clinical claims
+2. Evidence not actually present in retrieval results
+3. Contradictions with patient information
+4. Misinterpretation of retrieved evidence
+5. Missing important evidence
+6. Overconfident conclusions
+7. Unsupported causal reasoning
+8. Hallucinated sources/citations
+9. Differential diagnosis inconsistencies
+10. Safety concerns in the reasoning
+
+The critic must NOT simply agree with the Diagnostic Agent.
+
+It should explicitly identify problems when they exist.
+
+Output a structured object such as:
+
+ClinicalCritique:
+
+    overall_assessment
+
+    supported_points:
+        [...]
+
+    unsupported_points:
+        [...]
+
+    contradictions:
+        [...]
+
+    missing_evidence:
+        [...]
+
+    hallucination_flags:
+        [...]
+
+    safety_flags:
+        [...]
+
+    recommended_revisions:
+        [...]
+
+    critique_confidence:
+        ...
+
+IMPORTANT:
+
+Do not treat "critique_confidence" as medically calibrated confidence.
+
+It is only a model-generated assessment and must not be presented as a clinical probability.
+
+==================================================
+8. AGENT ISOLATION
+==================================================
+
+This is extremely important.
+
+Although all three agents use the same Qwen3 8B model:
+
+They must NOT share an unrestricted conversation history.
+
+Conceptually:
+
+Patient Agent
+    isolated prompt/context
+        ↓
+PatientState
+
+Diagnostic Agent
+    isolated prompt/context
+    + PatientState
+    + retrieved evidence
+        ↓
+DiagnosticResult
+
+Clinical Critic
+    isolated prompt/context
+    + PatientState
+    + DiagnosticResult
+    + retrieved evidence
+        ↓
+ClinicalCritique
+
+Only explicitly defined structured outputs should cross agent boundaries.
+
+Do not simply append all previous prompts/messages into one conversation.
+
+==================================================
+9. OLLAMA INTEGRATION
+==================================================
+
+Create a clean local LLM abstraction.
+
+For example:
+
+rag/llm/
+    ollama_client.py
+
+or an architecture that fits the existing repository.
+
+The client should:
+
+- connect to local Ollama
+- use configurable model name
+- support configurable temperature
+- support timeout
+- support deterministic generation where appropriate
+- return raw response + parsed structured response where useful
+- handle connection failures cleanly
+- handle malformed model output
+- log failures without exposing sensitive information
+
+Default model:
+
+    qwen3:8b-q4_K_M
+
+Default Ollama endpoint:
+
+    http://localhost:11434
+
+But make both configurable through environment variables.
+
+Example:
+
+OLLAMA_BASE_URL
+OLLAMA_MODEL
+OLLAMA_TIMEOUT
+OLLAMA_TEMPERATURE
+
+Do not hard-code assumptions throughout the project.
+
+==================================================
+10. STRUCTURED OUTPUT RELIABILITY
+==================================================
+
+Because local Qwen may occasionally return malformed JSON:
+
+Implement robust structured-output handling.
+
+Preferred sequence:
+
+1. Request JSON/structured output from Ollama if supported.
+2. Parse response.
+3. Validate with Pydantic.
+4. If invalid:
+   - capture the validation error
+   - perform at most a bounded repair/retry
+   - never silently accept malformed data.
+5. If still invalid:
+   - return an explicit failure object.
+
+Do NOT implement unlimited retries.
+
+Do NOT hide parsing failures.
+
+The system should fail closed.
+
+==================================================
+11. PROMPT DESIGN
+==================================================
+
+Create separate versioned prompts for each agent.
+
+For example:
+
+prompts/
+    patient_agent.txt
+    diagnostic_agent.txt
+    clinical_critic.txt
+
+or a Python equivalent if that fits the project better.
+
+Prompts must explicitly state:
+
+- role
+- task
+- allowed inputs
+- prohibited behavior
+- evidence requirements
+- output schema
+- uncertainty handling
+- no hallucinated information
+
+The Diagnostic Agent must be instructed to distinguish:
+
+INPUT FACTS
+RETRIEVED EVIDENCE
+MODEL INFERENCE
+
+The Clinical Critic must be instructed to verify those distinctions.
+
+==================================================
+12. EVIDENCE GROUNDING
+==================================================
+
+Implement provenance-preserving evidence objects.
+
+For example:
+
+RetrievedEvidence:
+    source_type
+    source_id
+    title
+    text
+    similarity
+    metadata
+
+Patient Case RAG:
+
+source_type = "patient_case"
+
+Medical RAG:
+
+source_type = "medical_knowledge"
+
+The final diagnostic result must preserve the evidence references.
+
+Do not convert retrieved evidence into plain untraceable text if this can be avoided.
+
+==================================================
+13. NO DIAGNOSIS LEAKAGE
+==================================================
+
+This is a critical research requirement.
+
+DDXPlus contains evaluation labels.
+
+The Phase 4 inference pipeline MUST NOT expose:
+
+- PATHOLOGY
+- ground-truth diagnosis
+- hidden differential labels
+- test-set labels
+
+to any LLM agent.
+
+Evaluation labels may ONLY be used by the evaluation/validation layer AFTER the agent pipeline finishes.
+
+Implement tests proving this.
+
+For example:
+
+test_no_ground_truth_reaches_patient_agent()
+
+test_no_ground_truth_reaches_diagnostic_agent()
+
+test_no_ground_truth_reaches_critic()
+
+The evaluator may separately compare:
+
+predicted diagnosis
+vs
+DDXPlus ground truth
+
+but this comparison must happen outside the agents.
+
+==================================================
+14. TESTING
+==================================================
+
+Add comprehensive Phase 4 tests.
+
+At minimum test:
+
+A. Ollama client configuration
+
+B. Agent prompt isolation
+
+C. Patient Agent input/output schema
+
+D. Patient Agent does not receive ground truth
+
+E. Diagnostic Agent receives both RAG outputs
+
+F. Diagnostic Agent does not receive ground truth
+
+G. Clinical Critic receives diagnostic output
+
+H. Clinical Critic does not receive ground truth
+
+I. Structured-output validation
+
+J. Malformed-output failure handling
+
+K. Retry bound
+
+L. Evidence provenance preservation
+
+M. Retrieval similarity is not represented as diagnostic probability
+
+N. Agent-to-agent structured handoff
+
+O. No cloud API configuration
+
+P. deterministic/mock tests without requiring Ollama
+
+Real Ollama tests should be separate and explicitly marked as integration tests.
+
+The normal unit test suite must NOT fail simply because Ollama is not running.
+
+==================================================
+15. MOCK LLM FOR TESTS
+==================================================
+
+Create a small mock LLM implementation.
+
+Unit tests should be able to run without:
+
+- Ollama
+- GPU
+- internet
+- model downloads
+
+The mock should return deterministic structured responses.
+
+Real Qwen integration tests can be run separately.
+
+==================================================
+16. PHASE 4 RUNNER
+==================================================
+
+Create a script such as:
+
+scripts/run_phase4.py
+
+It should run one or more DDXPlus validation examples through:
+
+Patient Agent
+    ↓
+Patient Case RAG
+    +
+Medical Knowledge RAG
+    ↓
+Diagnostic Agent
+    ↓
+Clinical Critic
+
+Use VALIDATION data only for evaluation.
+
+Do not index validation patients into the Patient Case RAG.
+
+Do not modify the existing training-only patient index.
+
+The script should produce a structured output/report.
+
+For example:
+
+outputs/phase4/
+
+    sample_case_001.json
+    sample_case_002.json
+    ...
+    phase4_run_report.json
+
+Do not commit generated large outputs unnecessarily.
+
+==================================================
+17. EVALUATION
+==================================================
+
+Implement an initial evaluation layer.
+
+Because this is still DDXPlus and not a real clinical deployment:
+
+DO NOT claim clinical safety or clinical effectiveness.
+
+Measure things that can actually be measured.
+
+At minimum collect:
+
+- pipeline success rate
+- structured-output validity
+- retrieval success
+- diagnosis match against DDXPlus ground truth
+- top-k diagnostic accuracy where appropriate
+- evidence citation/provenance coverage
+- unsupported-claim count
+- hallucinated-evidence count
+- critic-flag count
+
+If sample size is small, clearly report it.
+
+Do not manufacture metrics.
+
+Do not call cosine similarity "confidence".
+
+Do not call LLM self-reported confidence "calibrated confidence".
+
+==================================================
+18. SEPARATE EVALUATION FROM AGENTS
+==================================================
+
+This architecture is required:
+
+AGENTS
+    ↓
+Generated Outputs
+    ↓
+EVALUATOR
+    ↓
+Metrics
+
+The agents themselves must NOT receive the ground truth simply to make evaluation easier.
+
+The evaluator can access:
+
+- ground truth diagnosis
+- agent prediction
+- retrieval results
+- critic output
+
+This separation is essential for valid experiments.
+
+==================================================
+19. GEMMA — DO NOT USE YET
+==================================================
+
+Do NOT integrate Gemma 3 4B into the Phase 4 production pipeline.
+
+The available Gemma model may be used later as an independent critic/validator.
+
+Potential future experiment:
+
+Qwen Diagnostic
+       ↓
+Qwen Critic
+
+versus:
+
+Qwen Diagnostic
+       ↓
+Gemma Critic
+
+But this is NOT part of the current Phase 4 implementation.
+
+Do not install additional large models.
+
+Do not download another model.
+
+==================================================
+20. NO LANGGRAPH YET
+==================================================
+
+Do NOT add LangGraph in Phase 4.
+
+Do NOT create a complex autonomous planning system.
+
+Use a simple explicit Python execution pipeline.
+
+Example:
+
+patient_state = patient_agent.run(patient)
+
+patient_case_results = patient_rag.retrieve(patient_state)
+
+medical_results = medical_rag.retrieve(patient_state)
+
+diagnosis = diagnostic_agent.run(
+    patient_state,
+    patient_case_results,
+    medical_results
+)
+
+critique = clinical_critic.run(
+    patient_state,
+    diagnosis,
+    patient_case_results,
+    medical_results
+)
+
+This is sufficient.
+
+Phase 5 will introduce more sophisticated orchestration.
+
+==================================================
+21. SAFETY BOUNDARIES
+==================================================
+
+This is a research prototype.
+
+Do NOT implement:
+
+- autonomous prescribing
+- medication ordering
+- treatment execution
+- emergency triage claims
+- autonomous clinical actions
+- direct patient-facing medical advice
+- claims of clinical validation
+
+The output should clearly be treated as research/decision-support output.
+
+==================================================
+22. DOCUMENTATION
+==================================================
+
+Update:
+
+README.md
+docs/architecture.md
+
+Create:
+
+docs/phase4.md
+
+Document:
+
+1. Phase 4 objective
+2. Architecture
+3. Three agents
+4. Ollama/Qwen integration
+5. Agent isolation
+6. Structured outputs
+7. RAG integration
+8. Ground-truth leakage prevention
+9. Evaluation methodology
+10. Limitations
+11. How to run
+12. How to run tests
+13. How to run the real Ollama integration
+14. Why Gemma is reserved for later validation
+15. Why LangGraph is deferred to Phase 5
+
+Clearly state:
+
+- DDXPlus is synthetic.
+- The system is a research prototype.
+- Retrieval similarity is not diagnostic probability.
+- LLM-generated confidence is not calibrated clinical confidence.
+- Phase 4 does not establish clinical effectiveness or safety.
+
+==================================================
+23. CONFIGURATION
+==================================================
+
+Prefer environment variables/configuration rather than hard-coded paths.
+
+At minimum support:
+
+OLLAMA_BASE_URL
+OLLAMA_MODEL
+OLLAMA_TEMPERATURE
+OLLAMA_TIMEOUT
+
+Reuse the existing embedding/RAG configuration.
+
+Do not introduce duplicate configuration systems.
+
+==================================================
+24. CODE QUALITY
+==================================================
+
+Follow the existing project's coding conventions.
+
+Use:
+
+- type hints
+- Pydantic where appropriate
+- clear interfaces
+- deterministic tests
+- small modules
+- meaningful error messages
+- no unnecessary dependencies
+
+Avoid unnecessary frameworks.
+
+Do not refactor working Phase 1–3 code unless absolutely necessary.
+
+==================================================
+25. VALIDATION REQUIREMENTS
+==================================================
+
+After implementation:
+
+1. Run the entire existing test suite.
+2. Run all new Phase 4 unit tests.
+3. Run dependency compatibility checks.
+4. Verify existing Phase 2 Patient RAG still works.
+5. Verify existing Phase 3 Medical Knowledge RAG still works.
+6. Verify ground-truth leakage tests.
+7. If Ollama is available:
+   - run a small real Qwen integration test
+   - use qwen3:8b-q4_K_M
+8. If Ollama is unavailable:
+   - do not fabricate integration results
+   - clearly report that only mocked/unit validation was performed.
+
+Do NOT claim a real LLM test passed unless it was actually executed.
+
+==================================================
+26. FINAL REPORT
+==================================================
+
+At the end, provide:
+
+### Implementation
+- files created
+- files modified
+- architecture implemented
+
+### Agents
+- Patient Agent
+- Diagnostic Agent
+- Clinical Critic
+
+### LLM
+- Ollama configuration
+- actual model used
+
+### RAG
+- confirmation that existing Patient Case RAG was reused
+- confirmation that existing Medical Knowledge RAG was reused
+
+### Evaluation
+- tests passed
+- real integration results, if executed
+- sample evaluation results, if executed
+
+### Leakage
+- confirmation that ground-truth labels never enter the agents
+
+### Limitations
+- synthetic DDXPlus
+- small evaluation size if applicable
+- local model limitations
+- no clinical validation
+
+### Remaining issues
+List anything unresolved.
+
+### Phase 5 readiness
+Explain whether the repository is ready for Phase 5 orchestration.
+
+==================================================
+MOST IMPORTANT CONSTRAINT
+==================================================
+
+Do not over-engineer Phase 4.
+
+The goal is NOT to build the final autonomous healthcare system yet.
+
+The goal is to establish a clean, reproducible foundation where:
+
+    ONE LOCAL QWEN3 8B MODEL
+
+operates as:
+
+    Patient Agent
+          ↓
+    Diagnostic Agent
+          ↓
+    Clinical Critic
+
+while consuming:
+
+    Patient Case RAG
+          +
+    Medical Knowledge RAG
+
+with:
+
+    isolated contexts
+    structured outputs
+    evidence provenance
+    no ground-truth leakage
+    deterministic tests
+    local-only inference.
+
+Implement this carefully, validate it, and STOP after Phase 4.
+
+DO NOT START PHASE 5.
+
+PHASE 5 — IMPLEMENT MULTI-AGENT ORCHESTRATION
+
+Implement Phase 5 in the existing healthcare-agentic-ai project.
+
+IMPORTANT: Before changing anything, inspect the current repository and verify that the implementation plan below matches the actual Phase 4 code. Do not redesign the architecture unnecessarily.
+
+==================================================
+GOAL
+==================================================
+
+Phase 4 established the working baseline:
+
+Patient Agent
+→ Patient Case RAG
+→ Medical Knowledge RAG
+→ Diagnostic Agent
+→ Grounding Validation
+→ Clinical Critic
+
+Phase 5 must add a real application-level orchestrator around these existing components.
+
+The goal is:
+
+    Phase 4 = sequential baseline
+    Phase 5 = stateful, deterministic multi-agent orchestration
+
+Keep the Phase 4 pipeline available as the baseline/control implementation.
+
+==================================================
+TARGET ARCHITECTURE
+==================================================
+
+                    ORCHESTRATOR
+                         │
+                  owns WorkflowState
+                         │
+                         ▼
+                  Patient Agent
+                         │
+                         ▼
+                   Evidence Layer
+                  /               \
+           Patient Case RAG   Medical Knowledge RAG
+                  \               /
+                   └──────┬──────┘
+                          ▼
+                   Diagnostic Agent
+                          │
+                    HARD GROUNDING GATE
+                          │
+                          ▼
+                    Clinical Critic
+                          │
+                    ┌─────┴─────┐
+                    │           │
+                 ACCEPT      REVISE
+                    │           │
+                    ▼           ▼
+                  FINAL     Diagnostic Agent
+                              │
+                         Grounding Gate
+                              │
+                            Critic
+                              │
+                       maximum 2 revisions
+                              │
+                              ▼
+                         UNRESOLVED/
+                          ABSTENTION
+
+The Orchestrator owns the workflow and routing.
+
+Agents perform reasoning.
+
+RAG provides evidence.
+
+Validators enforce contracts.
+
+The LLM must NOT decide whether safeguards can be bypassed.
+
+==================================================
+1. WORKFLOW STATE
+==================================================
+
+Create a typed, versioned WorkflowState.
+
+It should contain at minimum:
+
+- run_id
+- patient_id
+- schema/version information
+- original label-free patient representation
+- accepted PatientState
+- frozen evidence snapshot
+- diagnostic result/version history
+- critic result/version history
+- current stage
+- transition history
+- revision_count
+- max_revisions
+- validation outcomes
+- sanitized failure information
+- terminal outcome/status
+- relevant request/time budget telemetry
+
+Do NOT put ground-truth EvaluationLabels into WorkflowState.
+
+Ground truth must remain evaluator-only and unavailable to agents.
+
+The Orchestrator must be the sole owner/writer of workflow state.
+
+Agents receive restricted structured snapshots and return typed outputs.
+
+Do not give agents unrestricted shared conversation history.
+
+==================================================
+2. EVIDENCE LAYER
+==================================================
+
+Create a thin orchestration-level evidence adapter/service around the EXISTING RAG interfaces.
+
+Do NOT modify the Patient Case RAG or Medical Knowledge RAG implementations.
+
+The evidence layer should:
+
+- call the existing retrievers
+- preserve patient/medical evidence separation
+- preserve source IDs
+- preserve provenance
+- preserve original retrieved text
+- preserve similarity values
+- validate returned evidence using existing mechanisms
+- produce a frozen evidence snapshot
+
+For the initial Phase 5 implementation:
+
+RETRIEVE ONCE PER CASE.
+
+Freeze the evidence snapshot across diagnostic revisions.
+
+Do NOT implement retrieval-revision loops yet.
+
+Critic comments, diagnoses, and feedback must never silently become RAG evidence.
+
+==================================================
+3. PATIENT AGENT
+==================================================
+
+Reuse the existing Patient Agent.
+
+Do not create a second Patient Agent.
+
+The Orchestrator should invoke it and commit its validated PatientState.
+
+If Patient Agent validation fails after its existing bounded repair behavior:
+
+→ terminate the workflow safely
+→ do not continue to downstream agents.
+
+==================================================
+4. DIAGNOSTIC AGENT
+==================================================
+
+Reuse the existing Diagnostic Agent.
+
+Do NOT create a separate "revision agent."
+
+The same Diagnostic Agent must support multiple workflow invocations.
+
+Initial invocation receives:
+
+- PatientState
+- frozen evidence snapshot
+
+Revision invocation receives:
+
+- same PatientState
+- same frozen evidence snapshot
+- previous accepted DiagnosticResult
+- validated ClinicalCritique
+- revision number
+- explicit revision constraints
+
+Do NOT simply append unrestricted conversation history.
+
+Create a clean structured revision input/contract.
+
+Every DiagnosticResult — initial or revised — MUST pass:
+
+1. strict schema validation
+2. existing grounding validation
+
+before it can be committed to WorkflowState.
+
+DO NOT weaken or modify grounding validation.
+
+DO NOT manufacture a diagnosis to avoid abstention.
+
+==================================================
+5. CLINICAL CRITIC
+==================================================
+
+Reuse the existing Clinical Critic.
+
+The Critic must evaluate the exact diagnostic/evidence version provided by the Orchestrator.
+
+The Critic must not modify WorkflowState directly.
+
+Its output is review feedback.
+
+Important:
+
+Critic feedback is NOT clinical evidence.
+
+The Orchestrator interprets the Critic output according to deterministic routing rules.
+
+The Critic must NOT have authority to bypass grounding or force a diagnosis.
+
+==================================================
+6. DETERMINISTIC ROUTING
+==================================================
+
+Create explicit routing logic.
+
+The LLM must not choose the workflow transition.
+
+At minimum support:
+
+INITIAL
+→ PATIENT
+→ EVIDENCE
+→ DIAGNOSTIC
+→ GROUNDING
+→ CRITIC
+→ ROUTE
+
+From ROUTE:
+
+If acceptable:
+    → FINAL
+
+If revision_required and revision budget remains:
+    → DIAGNOSTIC_REVISION
+    → GROUNDING
+    → CRITIC
+    → ROUTE
+
+If revision limit is reached:
+    → UNRESOLVED / ABSTENTION
+
+If provider failure:
+    → TERMINAL_FAILURE
+
+If grounding failure:
+    → revision/failure according to the existing safe contract
+    → never bypass validation
+
+If insufficient evidence:
+    → explicit insufficient-evidence/abstention outcome
+    → never force a diagnosis
+
+If safety concerns block completion:
+    → explicit review-required/blocked outcome
+    → do not label it clinically approved
+
+==================================================
+7. REVISION LIMIT
+==================================================
+
+Use:
+
+max_revisions = 2
+
+This means:
+
+initial DiagnosticResult
++
+at most 2 clinical revisions
+
+Provider-level schema/grounding repair attempts are NOT the same as clinical revisions.
+
+Track them separately.
+
+Also terminate early if:
+
+- the diagnostic result is unchanged across a requested revision
+- repeated diagnostic versions occur
+- cumulative budget is exhausted
+- provider refuses/incomplete output
+- invalid evidence/provenance occurs
+- workflow cannot make meaningful progress
+
+Never allow an infinite loop.
+
+==================================================
+8. ABSTENTION
+==================================================
+
+Preserve the Phase 4 abstention contract.
+
+If:
+
+primary_hypothesis = null
+AND
+differential_diagnoses = []
+
+then structured evidence inventories must remain empty.
+
+Do not force a diagnosis simply because the Critic requests a differential.
+
+A valid abstention may be reviewed by the Critic.
+
+If the workflow remains unresolved after the revision limit, terminate explicitly as unresolved/abstained.
+
+Distinguish at least:
+
+- diagnostic_agent_abstention
+- insufficient_evidence
+- max_revisions_reached
+- unresolved_critic
+- safety_blocked
+- technical_failure
+
+Do not call these clinical approval.
+
+==================================================
+9. VERSIONING
+==================================================
+
+Every DiagnosticResult should have an identifiable workflow version/revision association.
+
+Critiques must be associated with the exact diagnostic version and evidence snapshot they reviewed.
+
+Never allow:
+
+Diagnostic version 2
+to be paired with
+Critique for diagnostic version 1.
+
+The Orchestrator must reject stale/mismatched results.
+
+==================================================
+10. AUDIT / TRANSITION LOG
+==================================================
+
+Record structured workflow events such as:
+
+workflow_started
+patient_agent_completed
+evidence_retrieved
+diagnostic_started
+diagnostic_validated
+grounding_passed
+critic_completed
+revision_requested
+diagnostic_revision_started
+finalized
+abstained
+unresolved
+terminated
+
+Include:
+
+- timestamp if already supported
+- stage
+- revision number
+- reason
+- validation result
+- relevant IDs
+- sanitized errors
+
+Do not store ground-truth labels in agent-facing state.
+
+==================================================
+11. FILE STRUCTURE
+==================================================
+
+Adapt this structure to the existing repository rather than blindly creating it:
+
+healthcare-agentic-ai/
+    orchestration/
+        __init__.py
+        state.py
+        contracts.py
+        orchestrator.py
+        routing.py
+        policy.py
+        evidence.py
+        events.py
+
+    rag/
+        agents/
+            existing agents remain
+            prompts remain unless a minimal revision prompt is required
+        llm/
+            existing provider remains
+
+    scripts/
+        run_phase4.py       # KEEP BASELINE
+        run_phase5.py       # NEW
+
+    tests/
+        test_orchestration.py
+        test_orchestration_routing.py
+        test_orchestration_revision.py
+        test_orchestration_grounding.py
+        test_orchestration_boundaries.py
+
+Do not create placeholder implementations for:
+
+- Medication Agent
+- Risk/Prognosis Agent
+- Imaging Agent
+- HITL
+- Feedback Memory
+- Explanation Agent
+- Safety Validator
+
+Those belong to later phases.
+
+==================================================
+12. FUTURE EXTENSIBILITY
+==================================================
+
+Design the stage contracts so future agents can be added cleanly.
+
+The architecture should eventually allow:
+
+Patient/EHR Agent
+Imaging Agent
+Diagnostic Agent
+Medication/Safety Agent
+Risk/Prognosis Agent
+Clinical Critic
+Safety Validator
+Human Clinician
+Feedback Memory
+Explanation Agent
+
+But DO NOT implement them now.
+
+The current Phase 5 implementation should only orchestrate the existing working components.
+
+==================================================
+13. LANGGRAPH
+==================================================
+
+Do NOT introduce LangGraph merely because it is popular.
+
+First implement the orchestration using the project's existing Python architecture unless the repository's actual dependencies make LangGraph clearly necessary.
+
+The important requirement is explicit state + deterministic routing + bounded transitions.
+
+==================================================
+14. PHASE 4 BASELINE
+==================================================
+
+Do NOT break or replace Phase 4.
+
+Keep:
+
+scripts/run_phase4.py
+
+and its existing behavior intact.
+
+Phase 5 should be a separate composition layer.
+
+This is important because Phase 4 will later serve as a baseline for evaluation/ablation against Phase 5.
+
+==================================================
+15. TESTING
+==================================================
+
+Add comprehensive tests for at least:
+
+A. normal successful workflow
+B. valid diagnostic abstention
+C. Critic accepts result
+D. Critic requests revision
+E. revision succeeds
+F. revision still fails
+G. maximum revision termination
+H. unchanged diagnostic detection
+I. grounding failure cannot bypass gate
+J. stale diagnostic/critic mismatch rejected
+K. evidence snapshot remains unchanged across revisions
+L. patient/medical evidence remain separated
+M. no ground-truth leakage
+N. provider failure terminates safely
+O. insufficient evidence
+P. safety-blocked result
+Q. audit/transition events
+R. Phase 4 regression suite remains passing
+
+Use mocks/fakes for most orchestration tests.
+
+Do not require live GPT-5.6-Sol calls for the unit test suite.
+
+A live test may be added separately as an opt-in integration test if the existing project convention supports it.
+
+==================================================
+16. DOCUMENTATION
+==================================================
+
+Update Phase 5 documentation to explain:
+
+- actual Phase 5 architecture
+- WorkflowState
+- routing
+- evidence snapshot
+- revision loop
+- grounding gates
+- termination rules
+- audit events
+- difference between provider retries and clinical revisions
+
+Clearly state that:
+
+- Phase 5 is research orchestration
+- it is NOT clinical approval
+- it does NOT implement HITL yet
+- it does NOT establish clinical effectiveness
+
+==================================================
+17. HARD CONSTRAINTS
+==================================================
+
+DO NOT:
+
+- modify Patient Case RAG
+- modify Medical Knowledge RAG
+- weaken grounding validation
+- expose diagnosis labels to agents
+- reintroduce Ollama
+- introduce another healthcare LLM
+- use Astra 6 as a healthcare runtime model
+- add HITL
+- add fine-tuning
+- add new clinical agents
+- add autonomous prescribing
+- modify the RAG corpus
+- create infinite agent loops
+- allow an LLM to bypass deterministic routing/safety rules
+
+Healthcare backend remains:
+
+GPT-5.6-Sol
+
+Astra 6 remains:
+
+CODING AGENT ONLY.
+
+==================================================
+18. VALIDATION / FINAL REPORT
+==================================================
+
+After implementation:
+
+1. Run the complete existing test suite.
+2. Run all new Phase 5 tests.
+3. Verify Phase 4 tests still pass.
+4. Run syntax checks.
+5. Run git diff --check.
+6. Verify no Ollama runtime references were introduced.
+7. Verify Patient Case RAG count/fingerprint unchanged.
+8. Verify Medical Knowledge RAG count/fingerprint unchanged.
+9. Verify no ground-truth labels entered agent state.
+10. Verify Phase 4 runner still works.
+11. Run a controlled Phase 5 smoke test using one validation patient if safe and supported by the existing setup.
+
+Do not make unsupported claims about diagnostic correctness if the model abstains.
+
+Report:
+
+- files changed
+- architecture implemented
+- state model
+- routing rules
+- revision behavior
+- tests
+- smoke-test result
+- RAG integrity
+- leakage checks
+- remaining limitations
+
+IMPORTANT:
+
+Before coding, inspect the repository and reconcile this specification with the existing implementation.
+
+If an existing component already provides a required capability, reuse it rather than duplicating it.
+
+Do not modify anything outside the Phase 5 scope without explicitly reporting why it is necessary.
+
+Implement Phase 5 completely, then validate it.
+
+# TASK: COMPLETE OLLAMA → GPT-5.6-SOL MIGRATION
+
+You are modifying the existing healthcare-agentic-ai project.
+
+IMPORTANT:
+This is a FULL BACKEND MIGRATION.
+
+The current project contains an Ollama-based healthcare LLM backend.
+I want Ollama COMPLETELY REMOVED from the healthcare project.
+
+The new and ONLY healthcare LLM backend must be:
+
+    GPT-5.6-Sol
+
+through the configured OpenAI/Azure-compatible API using the Responses API.
+
+DO NOT leave Ollama as a fallback.
+DO NOT leave Ollama as an alternative provider.
+DO NOT leave dead Ollama code behind.
+DO NOT merely change the model name.
+Trace the entire project and migrate every healthcare-agent/LLM dependency.
+
+Astra 6 / mini-cc is ONLY the coding agent performing these modifications.
+Do NOT put Astra's coding tools into the healthcare runtime.
+
+============================================================
+1. FIRST: FULL PROJECT AUDIT
+============================================================
+
+Before modifying anything, inspect the entire repository.
+
+Search recursively for all references to:
+
+    ollama
+    Ollama
+    ollama-python
+    /api/chat
+    /api/generate
+    OLLAMA_BASE_URL
+    OLLAMA_MODEL
+    OLLAMA_TIMEOUT
+    OLLAMA_TEMPERATURE
+    OllamaProvider
+    ollama_provider
+    localhost:11434
+    11434
+    llama-server
+    qwen3
+    gemma3
+    gemma
+    qwen
+    local LLM
+    local model
+    model=...
+    LLMProvider
+
+Also inspect:
+
+    rag/
+    scripts/
+    tests/
+    docs/
+    requirements files
+    .env examples
+    configuration files
+    README files
+    phase4 files
+    evaluation files
+    prompts
+    agent implementations
+    orchestration code
+
+Do NOT assume the existing provider abstraction is correct.
+Trace the actual execution path.
+
+Create a concise internal migration map before editing:
+
+    current entry point
+        ↓
+    provider
+        ↓
+    agents
+        ↓
+    RAG
+        ↓
+    evaluation
+        ↓
+    CLI/scripts/tests
+
+============================================================
+2. TARGET ARCHITECTURE
+============================================================
+
+The resulting architecture must be:
+
+    DDXPlus Patient
+          |
+          v
+    Patient / EHR Agent
+          |
+          +----------------------+
+          |                      |
+          v                      v
+    Patient Case RAG       Medical Knowledge RAG
+          |                      |
+          +----------+-----------+
+                     |
+                     v
+              Diagnostic Agent
+                     |
+                     v
+              Clinical Critic
+                     |
+                     v
+                  Evaluation
+
+
+LLM backend:
+
+                    GPT-5.6-Sol
+                         |
+             OpenAI/Azure Responses API
+                         |
+        +----------------+----------------+
+        |                |                |
+        v                v                v
+ Patient Agent     Diagnostic Agent   Clinical Critic
+
+RAG remains a separate retrieval layer.
+
+RAG does NOT call Ollama.
+
+RAG embeddings remain exactly as currently implemented unless there
+is a specific incompatibility. Do NOT replace BGE-small merely because
+the generation backend is changing.
+
+============================================================
+3. REMOVE OLLAMA COMPLETELY
+============================================================
+
+Remove all production Ollama functionality.
+
+Specifically eliminate:
+
+    OllamaProvider
+    Ollama client initialization
+    Ollama HTTP requests
+    Ollama URLs
+    localhost:11434
+    OLLAMA_BASE_URL
+    OLLAMA_MODEL
+    OLLAMA_TIMEOUT
+    OLLAMA_TEMPERATURE
+    Ollama-specific retry handling
+    Ollama-specific response parsing
+    Ollama-specific configuration
+    Ollama-specific tests
+    Ollama-specific documentation
+
+If a generic LLMProvider interface is useful, KEEP the interface,
+but it must no longer contain an Ollama implementation.
+
+The final provider architecture should contain ONLY:
+
+    OpenAIProvider
+
+or, if the project already uses a more appropriate name:
+
+    GPTProvider
+
+Do NOT leave:
+
+    OllamaProvider
+    LocalLLMProvider
+    QwenProvider
+    GemmaProvider
+
+as unused alternatives.
+
+Remove unused imports and dependencies.
+
+============================================================
+4. GPT-5.6-SOL PROVIDER
+============================================================
+
+Implement the healthcare LLM backend using GPT-5.6-Sol.
+
+Use the Responses API.
+
+Do NOT use the Chat Completions API if the existing project can use
+the Responses API.
+
+Target:
+
+    model = gpt-5.6-sol
+
+Configuration should be environment-based.
+
+Use something conceptually equivalent to:
+
+    LLM_PROVIDER=openai
+    OPENAI_MODEL=gpt-5.6-sol
+    OPENAI_API_KEY=...
+    OPENAI_BASE_URL=...
+    OPENAI_TIMEOUT=...
+
+If this project is configured for Azure AI Foundry rather than the
+standard OpenAI endpoint, preserve the project's existing Azure
+authentication/deployment mechanism and adapt the provider correctly.
+
+DO NOT invent environment variable names if the repository already
+has an established API configuration convention.
+
+Inspect the current Astra/OpenAI configuration and reuse the
+appropriate authenticated endpoint pattern.
+
+IMPORTANT:
+
+The healthcare application must NEVER receive Astra coding tools.
+
+Do not expose:
+
+    list_file
+    read_file
+    write_file
+    run_command
+
+or any other coding-agent tool to GPT-5.6-Sol.
+
+GPT-5.6-Sol is ONLY a healthcare reasoning backend.
+
+============================================================
+5. RESPONSES API ADAPTER
+============================================================
+
+Create a clean provider abstraction.
+
+For example:
+
+    rag/llm/provider.py
+
+or use the project's existing provider location if one already exists.
+
+The interface should support the operations actually required by
+the agents.
+
+For example:
+
+    generate(...)
+    generate_structured(...)
+
+Do not over-engineer this.
+
+The provider must:
+
+    1. send the healthcare prompt to GPT-5.6-Sol
+    2. receive the response
+    3. extract the model's text/output
+    4. validate structured output
+    5. return the normalized result expected by the existing agents
+    6. raise controlled errors on API failures
+    7. preserve existing fail-closed behavior
+
+If structured JSON/Pydantic output is already used, preserve it.
+
+Do NOT weaken validation just because the backend changed.
+
+============================================================
+6. KEEP ALL EXISTING HEALTHCARE AGENTS
+============================================================
+
+Do NOT remove or redesign the existing agents.
+
+The following logical stages must remain:
+
+    Patient / EHR Agent
+    Diagnostic Agent
+    Clinical Critic
+
+Each must use GPT-5.6-Sol through the new provider.
+
+There must NOT be separate model implementations inside individual
+agents.
+
+Bad:
+
+    PatientAgent → Ollama
+    DiagnosticAgent → GPT
+    Critic → Ollama
+
+Correct:
+
+    PatientAgent ───────┐
+    DiagnosticAgent ────┼──> GPTProvider → GPT-5.6-Sol
+    ClinicalCritic ─────┘
+
+The agents should remain logically isolated through their structured
+handoffs.
+
+Do not give an agent unrestricted access to another agent's raw
+conversation history unless the existing architecture explicitly
+requires it.
+
+============================================================
+7. KEEP BOTH RAG SYSTEMS WORKING
+============================================================
+
+DO NOT remove or replace the existing RAG systems.
+
+Patient Case RAG must continue to use:
+
+    DDXPlus training cases
+    existing Qdrant patient collection
+    existing embedding model
+    existing retrieval implementation
+
+Medical Knowledge RAG must continue to use:
+
+    existing medical knowledge corpus
+    existing Qdrant medical_knowledge collection
+    existing embedding model
+    existing retrieval implementation
+
+The RAG systems are NOT LLM providers.
+
+They should retrieve evidence and return structured/provenance-rich
+results to the agents.
+
+The flow must remain:
+
+    Patient
+       ↓
+    Patient Agent
+       ↓
+    Patient Case RAG
+       +
+    Medical Knowledge RAG
+       ↓
+    Diagnostic Agent
+       ↓
+    Clinical Critic
+
+Do not accidentally connect either RAG to GPT merely for embedding
+or retrieval unless the existing architecture explicitly requires it.
+
+============================================================
+8. DO NOT CHANGE THE DATASET
+============================================================
+
+Keep DDXPlus exactly as the current evaluation dataset.
+
+Do NOT modify:
+
+    patient parsing
+    pathology labels
+    differential diagnosis labels
+    train/validation/test separation
+    leakage protections
+
+Ground-truth diagnosis must remain evaluator-only.
+
+The LLM must NEVER receive the ground-truth:
+
+    PATHOLOGY
+    DIFFERENTIAL_DIAGNOSIS
+
+unless the existing evaluator is explicitly operating after inference.
+
+============================================================
+9. PROMPTS
+============================================================
+
+Keep the existing agent prompts and their intent.
+
+Only make changes necessary for:
+
+    GPT-5.6-Sol compatibility
+    Responses API formatting
+    structured output
+    token/context handling
+
+Do NOT rewrite the medical reasoning methodology.
+
+Do NOT introduce autonomous treatment or prescribing behavior.
+
+Do NOT turn the system into a medical chatbot.
+
+This remains a research prototype for agentic clinical decision support.
+
+============================================================
+10. CONFIGURATION
+============================================================
+
+Replace Ollama-specific configuration with GPT configuration.
+
+Search every configuration file.
+
+Remove things like:
+
+    OLLAMA_BASE_URL=http://localhost:11434
+    OLLAMA_MODEL=...
+    OLLAMA_TIMEOUT=...
+    OLLAMA_TEMPERATURE=...
+
+Replace with the project's appropriate OpenAI/Azure variables.
+
+Use:
+
+    GPT-5.6-Sol
+
+as the default model.
+
+Temperature should remain 0 if the current experiment uses deterministic
+generation.
+
+If the Responses API/provider does not support a parameter in exactly
+the same form, adapt it correctly rather than blindly passing it.
+
+Do not hardcode the API key.
+
+============================================================
+11. DEPENDENCIES
+============================================================
+
+Inspect requirements files and pyproject configuration.
+
+Remove Ollama dependencies if they exist.
+
+Examples:
+
+    ollama
+    ollama-python
+
+Do NOT remove unrelated dependencies.
+
+Keep:
+
+    qdrant
+    sentence-transformers
+    pydantic
+    OpenAI/Azure SDK
+    existing RAG dependencies
+
+as required by the project.
+
+============================================================
+12. TESTS
+============================================================
+
+Update tests so they test the new architecture.
+
+Remove Ollama-specific tests.
+
+Add/update tests for:
+
+    OpenAIProvider
+    GPT-5.6-Sol configuration
+    Responses API response extraction
+    structured output parsing
+    provider error handling
+    agent/provider integration
+    RAG → agent handoff
+    diagnostic result validation
+    clinical critic validation
+
+IMPORTANT:
+
+Tests should NOT make real API calls by default.
+
+Use mocked provider responses for unit tests.
+
+Create ONE explicit opt-in integration test for the real GPT backend,
+if the existing project already uses integration-test conventions.
+
+Never require an API key for the normal test suite.
+
+============================================================
+13. REAL END-TO-END TEST
+============================================================
+
+After the code migration is complete, run the existing test suite.
+
+Then perform ONE real end-to-end validation case using:
+
+    Model: GPT-5.6-Sol
+    Patient: one DDXPlus validation patient
+    Patient RAG top-k: 1
+    Medical RAG top-k: 1
+    Temperature: 0
+    Sequential execution
+    No Phase 5
+    No HITL
+    No multi-model ensemble
+
+Execute:
+
+    Patient/EHR Agent
+        ↓
+    Patient Case RAG
+        ↓
+    Medical Knowledge RAG
+        ↓
+    Diagnostic Agent
+        ↓
+    Clinical Critic
+        ↓
+    Evaluator
+
+Record:
+
+    API success
+    Patient Agent success
+    Patient RAG success
+    Medical RAG success
+    Diagnostic Agent success
+    Clinical Critic success
+    structured-output validity
+    diagnosis match
+    top-k match
+    retrieval provenance
+    critic findings
+    latency
+    token usage if available
+    errors
+
+IMPORTANT:
+
+Do NOT interpret a failed API request as a medical-model failure.
+
+Distinguish:
+
+    API failure
+    provider failure
+    parsing failure
+    agent failure
+    retrieval failure
+    evaluation failure
+    actual diagnostic mismatch
+
+============================================================
+14. NO GEMMA / QWEN / OLLAMA DURING THIS TEST
+============================================================
+
+For this migration test:
+
+DO NOT run:
+
+    Gemma
+    Qwen
+    Ollama
+    local LLMs
+
+The only generation backend must be:
+
+    GPT-5.6-Sol
+
+============================================================
+15. DOCUMENTATION
+============================================================
+
+Update all relevant documentation.
+
+Search README and docs for:
+
+    Ollama
+    Gemma
+    Qwen
+    local LLM
+    localhost:11434
+    Ollama setup
+    Ollama commands
+
+Remove obsolete instructions.
+
+Document the new architecture:
+
+    GPT-5.6-Sol
+          ↓
+    OpenAI/Azure Responses API
+          ↓
+    Patient Agent
+    Diagnostic Agent
+    Clinical Critic
+
+Document that:
+
+    RAG remains local
+    Qdrant remains local
+    DDXPlus remains local
+    embeddings remain local
+    only LLM generation is cloud/API-backed
+
+Document required environment variables WITHOUT exposing secrets.
+
+Do not claim clinical effectiveness.
+
+State that DDXPlus is synthetic and that this is a research prototype.
+
+============================================================
+16. SEARCH AGAIN AFTER MIGRATION
+============================================================
+
+After implementation, perform a repository-wide search for:
+
+    ollama
+    Ollama
+    ollama-python
+    OLLAMA_
+    localhost:11434
+    11434
+    OllamaProvider
+    Gemma
+    gemma3
+    Qwen
+    qwen3
+    local LLM
+
+Classify every remaining occurrence.
+
+There should be ZERO production-code references to Ollama.
+
+If documentation contains historical references, remove them unless
+they are genuinely necessary historical notes.
+
+Do NOT leave dead compatibility code.
+
+============================================================
+17. VERIFY NO OLLAMA RUNTIME
+============================================================
+
+The final healthcare application must not:
+
+    start Ollama
+    connect to localhost:11434
+    invoke Ollama HTTP APIs
+    load a local generation model
+    require Ollama to run
+
+The only generation request should go to the configured
+GPT-5.6-Sol API endpoint.
+
+If Ollama happens to be installed on the computer, that is irrelevant.
+
+We are removing Ollama as a PROJECT DEPENDENCY, not necessarily
+uninstalling the user's system-wide Ollama application.
+
+DO NOT uninstall software from Windows.
+
+============================================================
+18. PRESERVE RAG DATA
+============================================================
+
+Do NOT delete:
+
+    data/ddxplus/
+    data/qdrant/patient_cases/
+    data/qdrant/medical_knowledge/
+
+Do NOT rebuild or modify the indexes unnecessarily.
+
+Verify:
+
+    patient collection still exists
+    medical collection still exists
+    vector counts are unchanged
+    payload structure is unchanged
+
+The backend migration must not corrupt RAG data.
+
+============================================================
+19. REGRESSION CHECK
+============================================================
+
+Run:
+
+    full unit test suite
+    Phase 2 tests
+    Phase 3 tests
+    Phase 4 tests
+    leakage tests
+    provider tests
+    integration test if explicitly enabled
+
+Also run:
+
+    git diff --check
+
+Check Python syntax/imports.
+
+Check for:
+
+    circular imports
+    stale Ollama references
+    stale model configuration
+    unused imports
+    broken environment-variable names
+    broken documentation commands
+
+============================================================
+20. DO NOT MAKE UNRELATED CHANGES
+============================================================
+
+Do NOT:
+
+    redesign the entire architecture
+    implement Phase 5
+    implement HITL
+    implement medication agents
+    implement autonomous prescribing
+    change RAG algorithms
+    change datasets
+    fine-tune models
+    add multimodal imaging
+    add a second LLM
+    add an ensemble
+    optimize unrelated code
+
+This task is ONLY:
+
+    Ollama → GPT-5.6-Sol
+
+while preserving the existing healthcare architecture.
+
+============================================================
+21. FINAL REPORT
+============================================================
+
+When finished, report:
+
+1. Files modified
+2. Files deleted
+3. Ollama references removed
+4. Ollama dependencies removed
+5. New GPT provider location
+6. GPT-5.6-Sol configuration
+7. Agents migrated
+8. RAG systems verified
+9. Tests passed
+10. Real end-to-end result
+11. Any remaining Ollama references and why they remain
+12. Exact command used to run the Phase 4 validation
+13. Any problems encountered
+
+Use this final status format:
+
+    OLLAMA REMOVAL: PASS/FAIL
+    GPT PROVIDER: PASS/FAIL
+    PATIENT AGENT: PASS/FAIL
+    PATIENT RAG: PASS/FAIL
+    MEDICAL RAG: PASS/FAIL
+    DIAGNOSTIC AGENT: PASS/FAIL
+    CLINICAL CRITIC: PASS/FAIL
+    E2E PIPELINE: PASS/FAIL
+    TEST SUITE: X passed / Y failed
+    RAG DATA INTEGRITY: PASS/FAIL
+    OLLAMA RUNTIME REFERENCES: 0 / N
+    READY FOR NEXT PHASE: YES/NO
+
+CRITICAL FINAL CONDITION:
+
+The project must have ONE healthcare generation backend:
+
+    GPT-5.6-Sol
+
+There must be NO Ollama fallback.
+
+Do not declare success until you have actually searched the entire
+repository and verified the migration.
+
+TASK: FIX THE DIAGNOSTIC ABSTENTION / GROUNDING CONTRACT
+
+We have completed the diagnostics-only investigation.
+
+ROOT CAUSE:
+The Diagnostic Agent can legitimately abstain:
+
+    primary_hypothesis = null
+    differential_diagnoses = []
+
+while still listing retrieved evidence IDs in:
+
+    patient_case_evidence
+    medical_knowledge_evidence
+
+The existing grounding validator derives `used` evidence ONLY from
+structured hypothesis claims:
+
+    claims(output)
+        -> rationale
+        -> supporting_evidence
+        -> contradicting_evidence
+        -> evidence_refs
+
+When there are no hypotheses:
+
+    used = empty set
+
+The validator then requires:
+
+    patient_case_evidence == []
+    medical_knowledge_evidence == []
+
+Therefore the current model output violates the existing evidence
+inventory invariant.
+
+IMPORTANT:
+This is NOT a reason to weaken grounding validation.
+
+Do NOT:
+- remove validate_references()
+- weaken evidence checks
+- accept unsupported diagnoses
+- count arbitrary uncertainty prose as clinical evidence claims
+- bypass the validator
+- remove source-category validation
+- remove unknown-reference validation
+- alter the RAG collections
+- inject ground truth
+- hardcode a diagnosis
+- change the patient
+- change the medical corpus
+- disable safety checks
+
+Instead, make the abstention contract explicit.
+
+============================================================
+1. INSPECT CURRENT IMPLEMENTATION
+============================================================
+
+Inspect:
+
+    rag/agents/models.py
+    rag/agents/grounding.py
+    rag/agents/clinical.py
+    rag/llm/provider.py
+    current diagnostic prompt construction
+    existing tests
+
+Do not make assumptions.
+
+Preserve the existing architecture.
+
+============================================================
+2. DEFINE THE ABSTENTION CONTRACT
+============================================================
+
+When:
+
+    primary_hypothesis is None
+
+AND:
+
+    differential_diagnoses is empty
+
+then:
+
+    patient_case_evidence MUST be []
+    medical_knowledge_evidence MUST be []
+
+because there are no structured clinical claims using those sources.
+
+Evidence may still be discussed in:
+
+    uncertainty
+    missing_information
+    reasoning_summary
+
+but those prose fields MUST NOT be interpreted as structured
+clinical evidence references.
+
+Do NOT change the existing meaning of `used`.
+
+============================================================
+3. FIX THE PROMPT CONTRACT
+============================================================
+
+Update the Diagnostic Agent prompt so the model is explicitly told:
+
+IF YOU ABSTAIN:
+
+    primary_hypothesis = null
+    differential_diagnoses = []
+
+    patient_case_evidence = []
+    medical_knowledge_evidence = []
+
+Retrieved evidence may be discussed in uncertainty, but an evidence
+ID belongs in the structured evidence inventory only when it is
+actually referenced by a structured diagnostic hypothesis claim.
+
+Do not tell the model to manufacture a hypothesis merely to cite
+retrieved evidence.
+
+ABSTENTION MUST REMAIN A VALID OUTCOME.
+
+============================================================
+4. CONSIDER SCHEMA-LEVEL VALIDATION
+============================================================
+
+Inspect whether the Pydantic model can express this invariant cleanly.
+
+If an appropriate model-level validation is useful, it may enforce:
+
+    no hypotheses
+        =>
+    evidence inventories empty
+
+But do not duplicate logic unnecessarily if the existing grounding
+validator is the correct single source of truth.
+
+Prefer the smallest clean change.
+
+============================================================
+5. DO NOT CHANGE THE GROUNDING SAFETY MODEL
+============================================================
+
+The existing rule:
+
+    evidence inventories == evidence references used by claims
+
+must remain intact.
+
+Do not make uncertainty citations count as clinical claims.
+
+Do not loosen exact inventory equality.
+
+============================================================
+6. ADD REGRESSION TESTS
+============================================================
+
+Add tests for at least these cases:
+
+TEST A:
+Valid abstention:
+
+    primary_hypothesis = None
+    differential_diagnoses = []
+    patient_case_evidence = []
+    medical_knowledge_evidence = []
+
+Expected:
+PASS
+
+TEST B:
+Invalid abstention with patient evidence:
+
+    primary_hypothesis = None
+    differential_diagnoses = []
+    patient_case_evidence = ["valid-case-id"]
+    medical_knowledge_evidence = []
+
+Expected:
+FAIL grounding validation
+
+TEST C:
+Invalid abstention with medical evidence:
+
+    primary_hypothesis = None
+    differential_diagnoses = []
+    patient_case_evidence = []
+    medical_knowledge_evidence = ["valid-medical-id"]
+
+Expected:
+FAIL grounding validation
+
+TEST D:
+Valid hypothesis with patient evidence:
+
+    hypothesis claim references valid patient case ID
+    inventory contains same ID
+
+Expected:
+PASS
+
+TEST E:
+Valid hypothesis with medical evidence:
+
+    hypothesis claim references valid medical ID
+    inventory contains same ID
+
+Expected:
+PASS
+
+TEST F:
+Hypothesis claim references evidence but inventory omits it.
+
+Expected:
+FAIL
+
+TEST G:
+Inventory contains evidence not referenced by any claim.
+
+Expected:
+FAIL
+
+TEST H:
+Unknown evidence ID.
+
+Expected:
+FAIL
+
+TEST I:
+Wrong source-category ID.
+
+Expected:
+FAIL
+
+Preserve all existing grounding tests.
+
+============================================================
+7. RUN THE FULL TEST SUITE
+============================================================
+
+Run:
+
+    .venv\Scripts\python.exe -m unittest discover -s healthcare-agentic-ai/tests -t healthcare-agentic-ai -v
+
+Expected:
+
+    existing tests remain passing
+    new abstention tests pass
+
+Do not modify unrelated tests.
+
+============================================================
+8. RUN ONE REAL GPT-5.6-SOL VALIDATION
+============================================================
+
+After tests pass, run exactly ONE fresh live validation.
+
+Use:
+
+    gpt-5.6-sol
+
+Use the same validation patient:
+
+    ddxplus:validate:1
+
+Use:
+
+    patient RAG top-k = 1
+    medical RAG top-k = 1
+
+Do NOT run Ollama.
+
+Do NOT run Gemma.
+
+Do NOT change RAG indexes.
+
+Do NOT run multiple patients.
+
+Do NOT add HITL yet.
+
+Do NOT proceed to Phase 5.
+
+============================================================
+9. IMPORTANT: DO NOT FORCE A DIAGNOSIS
+============================================================
+
+If GPT-5.6-Sol abstains again, that is acceptable.
+
+The expected successful behavior is:
+
+    Patient Agent
+        ↓
+    Patient RAG
+        ↓
+    Medical RAG
+        ↓
+    Diagnostic Agent
+        ↓
+    valid DiagnosticResult
+        ↓
+    grounding validation PASS
+        ↓
+    Clinical Critic executes
+
+If GPT produces a grounded hypothesis, validate it normally.
+
+If GPT abstains, validate the abstention normally.
+
+The goal is NOT to make the model produce a diagnosis.
+
+The goal is to make a valid abstention pass the existing safety
+contract.
+
+============================================================
+10. IMPORTANT: CLINICAL CRITIC
+
+Only execute Clinical Critic if DiagnosticResult passes validation.
+
+Do not bypass the diagnostic validation simply to reach the critic.
+
+If Diagnostic Agent passes with an abstention, inspect whether the
+Clinical Critic correctly accepts an abstaining DiagnosticResult.
+
+If Clinical Critic rejects it, STOP and report the exact reason.
+Do not modify the critic in this task unless the failure is directly
+caused by the same abstention contract and can be fixed minimally.
+
+============================================================
+11. RAG QUALITY OBSERVATION
+
+Do NOT change the RAG system in this task.
+
+Record separately that the medical RAG top-1 result in the diagnostic
+investigation had similarity approximately 0.689855 and was a PMC
+transplant/BK-polyomavirus article that the model itself considered
+irrelevant to the current patient.
+
+This is a retrieval-quality observation for later evaluation.
+
+It is NOT a reason to weaken grounding.
+
+============================================================
+12. OLLAMA REMOVAL MUST REMAIN COMPLETE
+
+Verify:
+
+    no Ollama runtime calls
+    no Ollama provider
+    no Ollama imports
+    no Ollama environment variables required by healthcare runtime
+    no Ollama fallback
+
+GPT-5.6-Sol remains the sole healthcare LLM backend.
+
+Do not reintroduce Ollama.
+
+============================================================
+13. FINAL REPORT
+
+Report:
+
+    Files modified
+    Exact contract change
+    Tests added
+    Full test results
+    GPT-5.6-Sol live result
+    Patient Agent result
+    Patient RAG result
+    Medical RAG result
+    Diagnostic Agent result
+    Grounding result
+    Clinical Critic result
+    E2E result
+    RAG counts/fingerprints
+    Ollama runtime reference count
+
+Clearly distinguish:
+
+    valid abstention
+    grounded diagnosis
+    grounding failure
+    diagnostic correctness
+
+Do NOT report an abstention as a diagnostic error.
+
+FINAL REQUIREMENTS:
+
+    Grounding validation weakened: NO
+    Ground-truth leakage: NO
+    RAG data modified: NO
+    Ollama reintroduced: NO
+    RESULTS OF PREVIOUS RUN:
+ uv run python healthcare-agentic-ai/scripts/demo.py
+============================================================
+        AGENTIC HEALTHCARE DECISION SUPPORT DEMO
+============================================================
+Research Prototype
+Synthetic DDXPlus patient | GPT-5.6-Sol | Qdrant RAG
+============================================================
+Research only; not clinical advice or clinical validation.
+HUMAN_REVIEW withholds output; no human review is scheduled.
+
+[1] USE SAMPLE PATIENT (default)
+[2] ENTER PATIENT MANUALLY
+[D] Toggle detailed mode
+[Q] Quit
+Mode [1]: 1
+[1] Sample ddxplus:validate:1: age 55, sex F, 17 findings
+[2] Sample ddxplus:validate:2: age 10, sex F, 19 findings
+[3] Sample ddxplus:validate:3: age 68, sex F, 27 findings
+Sample [1], [B] Back, [Q] Quit: 2
+
+------------------------------------------------------------
+SYNTHETIC RESEARCH CASE — NOT A REAL PATIENT
+------------------------------------------------------------
+Validation case: ddxplus:validate:2
+Age: 10
+Sex: F
+Symptoms / clinical evidence: 19
+  - Have you had significantly increased sweating? = Yes
+  - Do you have pain somewhere, related to your reason for consulting? = Yes
+  - Characterize your pain: = a cramp
+  - Do you feel pain somewhere? = side of the chest(R)
+  - Do you feel pain somewhere? = flank(L)
+  - Do you feel pain somewhere? = hypochondrium(R)
+  ... 13 additional items omitted
+Relevant history: 7
+  - Do you feel anxious? = Yes
+  - Do any members of your immediate family have a psychiatric illness? = Yes
+  - Have you ever been diagnosed with depression? = Yes
+  - Do you suffer from chronic anxiety? = Yes
+  - Do you have asthma or have you ever had to use a bronchodilator in the past? = Yes
+  - Have you ever had a head trauma? = Yes
+  ... 1 additional items omitted
+Unlisted findings are unknown, not assumed absent. Dataset labels are not loaded.
+
+→ Opening existing indexes and cached embedding models (no rebuild/download)...
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 1762.99it/s]
+Loading weights: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 1645.60it/s]
+Indexed training cases / medical chunks: 1000 / 3332
+→ Live GPT run: synthetic patient and retrieved evidence will be sent to the configured cloud deployment.
+Live call notifications are provisional; accepted outputs/gates appear in the audited walkthrough.
+
+------------------------------------------------------------
+[1] PATIENT AGENT
+------------------------------------------------------------
+Diagnostic version: None
+→ Calling [1] PATIENT AGENT...
+✓ Call returned; application validation is still required.
+
+------------------------------------------------------------
+[2] PATIENT CASE RAG
+------------------------------------------------------------
+Top-k: 1
+Query (label-free; excerpt): Patient: Age: 10 Sex: Female Symptoms / clinical evidence: - Have you had significantly increased sweating? = Yes - Do you have pain somewhere, related to your reason for consulting? = Yes - Characterize your pain: = a cramp - Do you feel pain somewhere? = side of the chest(R) - Do you feel pain somewhere? = flank(L) - Do you feel pain somewhere? = hypochond ... [excerpt]
+→ Retrieval started
+Retrieved hits (pending snapshot validation): 1
+
+------------------------------------------------------------
+[3] MEDICAL KNOWLEDGE RAG
+------------------------------------------------------------
+Top-k: 5
+Query (label-free; excerpt): pediatric female detachment; sweating; cramp; chest pain; flank; hypochondrium; breast; shortness of breath; choking; fear of dying; palpitations; numbness tingling history: anxiety; family psychiatric illness; depression; asthma clinical information red flags
+→ Retrieval started
+Retrieved hits (pending snapshot validation): 5
+
+------------------------------------------------------------
+[4] DIAGNOSTIC AGENT
+------------------------------------------------------------
+Diagnostic version: 1
+→ Calling [4] DIAGNOSTIC AGENT...
+✓ Call returned; application validation is still required.
+
+------------------------------------------------------------
+[6] CLINICAL CRITIC
+------------------------------------------------------------
+Diagnostic version: 1
+→ Calling [6] CLINICAL CRITIC...
+✓ Call returned; application validation is still required.
+
+------------------------------------------------------------
+AUDITED WALKTHROUGH — committed results, not a live event stream
+------------------------------------------------------------
+Only accepted structured output is shown. Rejected output and hidden reasoning are omitted.
+⚠ OUTPUT WITHHELD by workflow; hypotheses below are review material, not a released result.
+
+------------------------------------------------------------
+[1] PATIENT AGENT
+------------------------------------------------------------
+INPUT: label-free DDXPlus patient representation
+PROCESS: Patient Agent constructed PatientState; exact-copy validation passed.
+OUTPUT: accepted structured PatientState
+patient_id: ddxplus:validate:2
+age: 10
+sex: F
+presenting_evidence: 1
+  - Do you feel like you are detached from your own body or your surroundings? = Yes
+symptoms: 19
+  - Have you had significantly increased sweating? = Yes
+  - Do you have pain somewhere, related to your reason for consulting? = Yes
+  - Characterize your pain: = a cramp
+  - Do you feel pain somewhere? = side of the chest(R)
+  - Do you feel pain somewhere? = flank(L)
+  - Do you feel pain somewhere? = hypochondrium(R)
+  ... 13 additional items omitted
+antecedents: 7
+  - Do you feel anxious? = Yes
+  - Do any members of your immediate family have a psychiatric illness? = Yes
+  - Have you ever been diagnosed with depression? = Yes
+  - Do you suffer from chronic anxiety? = Yes
+  - Do you have asthma or have you ever had to use a bronchodilator in the past? = Yes
+  - Have you ever had a head trauma? = Yes
+  ... 1 additional items omitted
+relevant_findings: 0
+missing_information: 0
+uncertainty_notes: 1
+  - Unlisted findings are unknown, not assumed absent.
+
+------------------------------------------------------------
+FOCUSED MEDICAL RETRIEVAL AUDIT
+------------------------------------------------------------
+Query: pediatric female detachment; sweating; cramp; chest pain; flank; hypochondrium; breast; shortness of breath; choking; fear of dying; palpitations; numbness tingling history: anxiety; family psychiatric illness; depression; asthma clinical information red flags
+Candidate top-k: 5
+Retrieval status: candidate_evidence_retained
+Candidate chunk: afbf0d1a-e66b-5496-a7c9-d68437640c94
+Title: Gastroenteritis
+Similarity (not probability): 0.7171
+Disposition: DISCARD: insufficient_concept_overlap
+Candidate chunk: 198af62a-531a-56a4-af8f-17f0f600700c
+Title: Heat Illness
+Similarity (not probability): 0.7166
+Disposition: DISCARD: insufficient_concept_overlap
+Candidate chunk: 2c804e1f-2a3e-5e60-a147-99bab21e2909
+Title: Heart Attack
+Similarity (not probability): 0.7158
+Disposition: DISCARD: insufficient_concept_overlap
+Candidate chunk: ab272626-6a5b-5c57-a447-7be1847efd0a
+Title: Depression
+Similarity (not probability): 0.7138
+Disposition: RETAIN: topic_title_overlap
+Candidate chunk: 4fa2f16e-8f86-5d41-b7ec-a66a36b68493
+Title: Meningococcal Disease
+Similarity (not probability): 0.7122
+Disposition: DISCARD: insufficient_concept_overlap
+Retained topics are candidate context, not proof of clinical support.
+
+------------------------------------------------------------
+[2] PATIENT CASE RAG
+------------------------------------------------------------
+Candidate top-k: 1
+Retained: 1
+1. ID: case:ddxplus:train:514
+   Similarity (not disease probability): 0.9787
+   Source type: patient_case
+   Source: release_train_patients.zip!release_train_patients#row=514
+   Evidence excerpt: Patient: Age: 47 Sex: Male Symptoms / clinical evidence: - Have you had significantly increased sweating? = Yes - Do you have pain somewhere, related to your reason for consulting? = Yes - Characterize your pain: = a cramp - Do you feel pain somewhere? = lower chest - Do you feel pain somewhere? = side of the chest(L) - Do you feel pain somewhere? = flank(R) ... [excerpt]
+
+------------------------------------------------------------
+[3] MEDICAL KNOWLEDGE RAG — external sources
+------------------------------------------------------------
+Candidate top-k: 5
+Retained: 1
+1. ID: medical:ab272626-6a5b-5c57-a447-7be1847efd0a
+   Similarity (not disease probability): 0.7138
+   Source type: medical_knowledge
+   Source: medlineplus
+   Title: Depression
+   Evidence excerpt: much, or not enough Feeling very tired Feeling hopeless, irritable, anxious, or guilty Having aches and pains, headaches, cramps, or digestive problems Having thoughts of death or suicide Changing moods or behaviors Increasing use of alcohol or drugs Isolating from family and friends
+✓ Snapshot provenance validated: patient cases are training cases only.
+✓ Patient-case payload contract excludes pathology/differential labels.
+Medical knowledge is a separate evidence collection, not patient-case outcomes.
+The frozen patient-case and medical evidence above was supplied separately to the agents.
+
+------------------------------------------------------------
+[4] DIAGNOSTIC AGENT — committed version 1
+------------------------------------------------------------
+Status: STRUCTURED HYPOTHESES (research only)
+Patient-case evidence refs: 0
+Medical-knowledge evidence refs: 0
+Primary hypothesis: Panic attack or acute panic-like episode
+Rationale evidence refs: 10
+  - patient:symptoms:0
+  - patient:symptoms:10
+  - patient:symptoms:11
+  - patient:symptoms:12
+  - patient:symptoms:13
+  - patient:symptoms:14
+  ... 4 additional items omitted
+Supporting evidence refs: 3
+  - patient:antecedents:0
+  - patient:antecedents:3
+  - patient:symptoms:10
+Contradicting evidence refs: 0
+Differential hypothesis: Acute hyperventilation syndrome
+Rationale evidence refs: 2
+  - patient:symptoms:11
+  - patient:symptoms:15
+Supporting evidence refs: 4
+  - patient:symptoms:12
+  - patient:symptoms:13
+  - patient:symptoms:14
+  - patient:symptoms:16
+Contradicting evidence refs: 0
+Differential hypothesis: Asthma exacerbation
+Rationale evidence refs: 3
+  - patient:symptoms:11
+  - patient:symptoms:12
+  - patient:antecedents:4
+Supporting evidence refs: 0
+Contradicting evidence refs: 0
+Differential hypothesis: Undifferentiated acute cardiopulmonary or chest-wall cause of chest-region pain and dyspnea
+Rationale evidence refs: 5
+  - patient:symptoms:3
+  - patient:symptoms:5
+  - patient:symptoms:7
+  - patient:symptoms:11
+  - patient:symptoms:14
+Supporting evidence refs: 7
+  - patient:symptoms:10
+  - patient:symptoms:2
+  - patient:symptoms:4
+  - patient:symptoms:5
+  - patient:symptoms:6
+  - patient:symptoms:8
+  ... 1 additional items omitted
+Contradicting evidence refs: 0
+Missing information / abstention context: 7
+  - Episode duration, recurrence, precipitating trigger, and whether symptoms peaked together.
+  - Vital signs and objective cardiopulmonary examination findings, including respiratory rate, oxygenation, wheezing, and work of breathing.
+  - Whether bronchodilator use occurred and whether it changed the symptoms.
+  - Electrocardiographic or other objective evaluation relevant to palpitations and acute chest-region pain.
+  - Clarification of the numeric pain-onset and localization scales.
+  - Current mood symptoms and whether the reported depression is active.
+  ... 1 additional items omitted
+Uncertainty / limitations: 5
+  - No supplied medical-knowledge evidence specifically supports panic attack, hyperventilation syndrome, asthma exacerbation, or another acute cardiopulmonary diagnosis.   
+  - The retrieved depression material is not sufficiently specific to explain this acute symptom cluster and was not used as structured diagnostic evidence.
+  - The analogous patient case has no supplied diagnosis or outcome and cannot establish the diagnosis in this patient.
+  - Panic-like symptoms can overlap with respiratory, cardiac, neurologic, metabolic, and pain-related conditions; objective findings are unavailable.
+  - Unlisted findings are unknown rather than absent, and the patients age requires caution when generalizing symptom patterns.
+Unsupported claims: 6
+  - A panic attack is not confirmed.
+  - Hyperventilation syndrome is not confirmed.
+  - An asthma exacerbation is not confirmed.
+  - No specific cardiopulmonary or chest-wall cause is established.
+  - The antecedent history of depression does not establish that current depression caused the episode.
+  - The retrieved analogous case does not provide a diagnosis or outcome for this patient.
+
+------------------------------------------------------------
+[5] GROUNDING VALIDATION
+------------------------------------------------------------
+Diagnostic version: 1
+Grounding result: PASS
+✓ Patient-fact, patient-case and medical references checked against frozen inventories.
+✓ Referenced IDs exist; diagnostic evidence inventories match claim references.
+Reference existence does not establish clinical entailment or correctness.
+
+------------------------------------------------------------
+[6] CLINICAL CRITIC
+------------------------------------------------------------
+Diagnostic version reviewed: 1
+Status: revision_required
+safety_flags: 3
+  - The patient is 10 years old and reports significant dyspnea, choking, chest-region pain, palpitations, and fear of dying; emphasizing panic as the leading diagnosis without objective data risks premature psychiatric attribution.
+  - The absence of documented contradictory findings does not favor panic, hyperventilation, or asthma because unlisted findings are explicitly unknown.
+  - Similarity of the retrieved adult case must not be treated as diagnostic probability or pediatric applicability.
+unsupported_points: 5
+  - The phrase "most strongly suggests" ranks panic above competing causes without condition-specific medical evidence, objective findings, or a validated probability estimate.
+  - The episode is repeatedly characterized as acute, abrupt, or rapidly appearing even though the numeric onset response of 8 has no supplied scale interpretation and episode duration is unknown.
+  - No supplied evidence confirms hyperventilation or shows that hyperventilation caused the paresthesias.
+  - No current wheezing, airflow limitation, objective respiratory findings, or response to bronchodilator supports asthma exacerbation beyond history and nonspecific respiratory symptoms.
+  - The label "diffuse tingling" is broader than the specifically reported bilateral limb and perioral distribution, although a separate nonspecific tingling response is also present.
+contradictions: 5
+  - The output acknowledges that the numeric pain-onset response is undefined but nevertheless uses it to call the onset rapid, abrupt, and acute.
+  - Many evidence references are shifted by one symptom index and therefore do not entail the associated statements. For example, patient:symptoms:10 is pain localization precision rather than onset speed; patient:symptoms:11 is onset speed rather than dyspnea; patient:symptoms:15 is palpitations rather than bilateral/perioral tingling.        
+  - The hyperventilation rationale cites patient:symptoms:11 and patient:symptoms:15 for breathing difficulty and tingling, but the corresponding facts are patient:symptoms:12 and patient:symptoms:16.
+  - The asthma rationale cites patient:symptoms:11 and patient:symptoms:12 for dyspnea and choking, whereas the corresponding facts are patient:symptoms:12 and patient:symptoms:13.
+  - The cardiopulmonary rationale cites patient:symptoms:11 and patient:symptoms:14 as dyspnea and palpitations, but those keys represent onset speed and fear of dying; dyspnea and palpitations are patient:symptoms:12 and patient:symptoms:15.
+recommended_revisions: 6
+  - Correct all symptom references: onset speed is patient:symptoms:11, dyspnea is patient:symptoms:12, choking is patient:symptoms:13, fear of dying is patient:symptoms:14, palpitations is patient:symptoms:15, bilateral/perioral tingling is patient:symptoms:16, and detachment is patient:symptoms:17.
+  - Replace claims of abrupt, rapid, or acute onset with a neutral description of the recorded onset score unless the scale is supplied.
+  - Reframe the primary conclusion as an unconfirmed panic-like symptom cluster rather than asserting that panic is the strongest diagnosis.
+  - State explicitly that the available evidence cannot rank psychiatric, respiratory, cardiac, neurologic, metabolic, and other pain-related explanations reliably.
+  - Preserve the broad differential and uncertainty language, while making the pediatric chest-pain and respiratory-symptom safety concern more prominent.
+  - Continue excluding the depression retrieval and analogous case from diagnostic support unless evidence with specific diagnostic entailment is supplied.
+missing_evidence: 6
+  - A defined interpretation of the numeric onset and localization scales.
+  - Episode duration, temporal sequence, recurrence, trigger, and whether symptoms reached a concurrent peak.
+  - Vital signs, oxygenation, respiratory examination, wheezing, work of breathing, and cardiovascular examination.
+  - Objective evidence distinguishing panic-like symptoms from asthma, hyperventilation, cardiac, pulmonary, neurologic, metabolic, or pain-related causes.
+  - Condition-specific medical-knowledge evidence for panic attacks, hyperventilation syndrome, asthma exacerbation, or pediatric presentations.
+  - A diagnosis or outcome from the retrieved analogous patient case.
+hallucination_flags: 2
+  - No fabricated external source is apparent, but multiple patient evidence keys are incorrectly mapped to symptom meanings, creating false citation entailment.
+  - The diagnostic ranking and characterization of onset as abrupt appear to be model inferences rather than facts established by the cited evidence.
+Revision requested by critic: True
+
+------------------------------------------------------------
+[7] SAFETY VALIDATOR — PHASE 6
+------------------------------------------------------------
+Diagnostic version: 1
+Critic reviewed diagnostic version: 1
+Evidence snapshot ID: 34275bd3a1db2eb46476c96bf899be6de422b4fa55e2d47db23dec09ed61c960
+Deterministic checks recorded by Phase 6: 5
+  - patient_and_evidence_integrity
+  - diagnostic_and_critic_grounding
+  - version_and_input_identity
+  - critic_safety_flags
+  - hypothesis_medical_references
+Semantic review: skipped_critic_block
+Safety findings: 7
+  critic_safety_flags [BLOCK]: A validated Clinical Critic safety flag prohibits continuation.
+  Evidence refs: 0
+  critic_safety_flags [BLOCK]: A validated Clinical Critic safety flag prohibits continuation.
+  Evidence refs: 0
+  critic_safety_flags [BLOCK]: A validated Clinical Critic safety flag prohibits continuation.
+  Evidence refs: 0
+  missing_medical_reference [HUMAN_REVIEW]: A non-abstaining hypothesis has no structured medical-evidence reference; correctness is not inferred.
+  Evidence refs: 0
+  missing_medical_reference [HUMAN_REVIEW]: A non-abstaining hypothesis has no structured medical-evidence reference; correctness is not inferred.
+  Evidence refs: 0
+  missing_medical_reference [HUMAN_REVIEW]: A non-abstaining hypothesis has no structured medical-evidence reference; correctness is not inferred.
+  Evidence refs: 0
+  missing_medical_reference [HUMAN_REVIEW]: A non-abstaining hypothesis has no structured medical-evidence reference; correctness is not inferred.
+  Evidence refs: 0
+Structured decision reasons: 2
+  - critic_safety_flags
+  - missing_medical_reference
+Final Safety Decision for this version: BLOCK
+No issue identified is a model assessment, not proof of clinical safety.
+
+============================================================
+                    FINAL SYSTEM RESULT
+============================================================
+Patient: Synthetic DDXPlus case ddxplus:validate:2
+Diagnostic status: Hypotheses recorded
+Clinical critic: revision_required
+Safety decision: BLOCK
+Safety coverage: assessed
+Workflow status: blocked
+Workflow outcome: safety_blocked
+Evidence retrieved — patient cases: 1
+Evidence retrieved — medical knowledge: 1
+Evidence cited by latest diagnosis — patient cases: 0
+Evidence cited by latest diagnosis — medical knowledge: 0
+Revisions: 0
+LLM requests: 3
+Provider repairs: 0
+Execution time: 63.77 seconds (workflow only)
+✗ BLOCKED
+============================================================
+
+Research only; not clinical advice or clinical validation.
+HUMAN_REVIEW withholds output; no human review is scheduled.
+
+RECOMMENDATIONS:
+This run tells us something important: the corpus expansion worked, but the next bottleneck is now clearly retrieval + evidence-reference correctness.
+
+Current status
+Medical corpus:       3,332 chunks  ✓
+Medical retrieval:    5 candidates ✓
+Grounding:             PASS          ✓
+Diagnostic:            hypotheses    ✓
+Clinical Critic:       revision_required
+Safety Validator:      BLOCK
+
+The biggest issue is visible here:
+
+Medical RAG retained Depression, but the Diagnostic Agent cited zero medical evidence.
+
+So the model correctly recognized that the retrieved Depression passage wasn't strong enough, and didn't cite it. That's actually safer than forcing an irrelevant citation.
+
+The more serious issue is the patient evidence-index mapping.
+
+The key problem
+
+The Clinical Critic found multiple incorrect references:
+
+patient:symptoms:11 → actually onset speed
+patient:symptoms:12 → dyspnea
+patient:symptoms:13 → choking
+patient:symptoms:14 → fear of dying
+patient:symptoms:15 → palpitations
+patient:symptoms:16 → tingling
+patient:symptoms:17 → detachment
+
+But the Diagnostic Agent apparently used them incorrectly.
+
+For example:
+
+Hyperventilation rationale
+→ patient:symptoms:11
+→ patient:symptoms:15
+
+when it should apparently have used:
+
+→ patient:symptoms:12  # dyspnea
+→ patient:symptoms:16  # tingling
+
+And:
+
+Asthma rationale
+→ symptoms:11
+→ symptoms:12
+
+when the relevant references are:
+
+→ symptoms:12  # dyspnea
+→ symptoms:13  # choking
+
+This is more important to fix than increasing the RAG from 3,332 to 10,000 chunks right now.
+
+Why this matters for your research
+
+Your system currently validates:
+
+"Does the referenced ID exist?"
+
+but the critic has discovered that:
+
+"Does the referenced ID actually support the statement?"
+
+is a harder problem.
+
+Your grounding layer currently says:
+
+Reference exists
+        ↓
+Grounding PASS
+
+But the critic is detecting:
+
+Reference exists
+        ↓
+Wrong patient fact attached to that reference
+        ↓
+False citation entailment
+
+That's a very valuable finding.
+
+What I recommend next
+1. Fix the Diagnostic Agent's evidence mapping
+
+Don't loosen the critic.
+
+Don't change Phase 6.
+
+Instead, make the Diagnostic Agent much more disciplined about evidence references.
+
+It should receive something like:
+
+PATIENT EVIDENCE INVENTORY
+
+patient:symptoms:10
+Meaning: pain localization precision
+Value: ...
+
+patient:symptoms:11
+Meaning: pain onset speed
+Value: ...
+
+patient:symptoms:12
+Meaning: shortness of breath
+Value: Yes
+
+patient:symptoms:13
+Meaning: choking sensation
+Value: Yes
+
+patient:symptoms:14
+Meaning: fear of dying
+Value: Yes
+
+patient:symptoms:15
+Meaning: palpitations
+Value: Yes
+
+patient:symptoms:16
+Meaning: bilateral/perioral tingling
+Value: Yes
+
+patient:symptoms:17
+Meaning: detachment
+Value: Yes
+
+Then require:
+
+Never infer the meaning of an evidence ID from its numeric index. Copy the exact ID and meaning from the supplied inventory.
+
+This should eliminate the index-shifting problem.
+
+2. Add deterministic reference-entailment validation
+
+This is even better.
+
+Before the Clinical Critic runs:
+
+Diagnostic Agent
+       ↓
+Grounding
+       ↓
+Reference semantic validation
+       ↓
+Clinical Critic
+
+For every claim:
+
+Claim:
+"patient has dyspnea"
+
+References:
+patient:symptoms:11
+
+the validator checks:
+
+symptoms:11 = onset speed
+              ↓
+      ❌ mismatch
+
+and rejects/repairs the diagnostic output before it reaches the critic.
+
+That gives you a stronger architecture:
+
+                 DIAGNOSTIC AGENT
+                        │
+                        ▼
+              ┌───────────────────┐
+              │ Grounding Check   │
+              └─────────┬─────────┘
+                        ▼
+              ┌───────────────────┐
+              │ Evidence-Claim    │
+              │ Entailment Check  │
+              └─────────┬─────────┘
+                        ▼
+                 CLINICAL CRITIC
+                        │
+                        ▼
+                SAFETY VALIDATOR
+3. Improve the Medical RAG separately
+
+Your new corpus is good enough to start evaluating retrieval.
+
+The current result:
+
+Gastroenteritis 0.7171
+Heat Illness     0.7166
+Heart Attack     0.7158
+Depression       0.7138  ← retained
+Meningococcal    0.7122
+
+shows that BGE-small's semantic ranking isn't giving you the medical concepts you really want in the top 5.
+
+So next we should test:
+
+top_k = 5
+top_k = 10
+top_k = 20
+top_k = 50
+
+without changing the actual diagnostic workflow.
+
+That will tell us whether relevant documents exist lower in the ranking.
+
+The order I'd use from here
+Phase A — fix evidence references
+Diagnostic evidence IDs
+        ↓
+exact fact mapping
+        ↓
+semantic entailment validation
+Phase B — evaluate retrieval
+3,332 chunks
+       ↓
+top-5 / 10 / 20 / 50
+       ↓
+inspect relevant medical topics
+Phase C — improve retrieval
+
+If relevant documents appear at rank 20–50:
+
+BGE top-50
+     ↓
+medical concept filtering
+     ↓
+reranker
+     ↓
+top-5
+
+If relevant documents don't appear even in top-50, then we improve the query formulation/embedding strategy.
+
+Phase D — only then consider expanding beyond 3,332
+
+I would not add PMC thousands of documents yet.
+
+You've already proven that corpus size can be increased from 87 → 3,332. Now we need to prove that the retrieval system can actually exploit those 3,332 chunks
+
+TASK 7A — REVIEWED MEDICAL RETRIEVAL BENCHMARK
+
+We have now run the retrieval evaluator for DDXPlus validation case 2.
+
+Observed result:
+
+Current focused query:
+top-5:  Panic absent, Asthma absent
+top-10: Panic absent, Asthma absent
+top-20: Panic absent, Asthma absent
+top-50: Asthma in Children rank 26, Panic absent
+
+Symptom-only query:
+top-5/10/20/50: Panic, Asthma, Hyperventilation title matches absent.
+
+Experimental lexical reranking can move Asthma in Children into its
+top-5, but this is only a heuristic and has not demonstrated clinical
+relevance.
+
+DO NOT modify production retrieval.
+
+Goal:
+Create a small independently reviewed medical-retrieval benchmark so
+we can determine whether the issue is retrieval ranking or query/corpus
+representation.
+
+Requirements:
+
+1. Create a reviewable JSON dataset:
+   evaluation/medical_relevance.json
+
+2. Start with DDXPlus validation case 2 only.
+
+3. Include the actual retrieved candidate chunks from:
+   - current BGE top-50
+   - symptom-only top-50
+   - experimental lexical top-5
+   - explicitly requested corpus topics:
+     Panic Disorder
+     Asthma
+     Asthma in Children
+   if those chunks exist in the index.
+
+4. For every candidate store:
+   - chunk_id
+   - title
+   - source
+   - full chunk text
+   - original BGE rank if retrieved
+   - cosine similarity if available
+   - lexical-reranker rank if available
+
+5. Add a manually editable field:
+
+   relevance:
+     "relevant"
+     "partially_relevant"
+     "not_relevant"
+     "uncertain"
+
+6. Define relevance only as:
+   "Does this medical passage provide useful medical information
+    for interpreting one or more of the patient's observed findings
+    or differential categories?"
+
+7. Do NOT use the DDXPlus diagnosis label to assign relevance.
+
+8. Do NOT automatically assign relevance using title overlap,
+   cosine score, lexical score, or diagnosis labels.
+
+9. Add optional reviewer_notes.
+
+10. Create:
+    scripts/summarize_medical_relevance.py
+
+    It should calculate, after manual review:
+
+    - number of relevant chunks
+    - number partially relevant
+    - Recall@5
+    - Recall@10
+    - Recall@20
+    - Recall@50
+    - MRR
+    separately for:
+      current query
+      symptom-only query
+      lexical reranker
+
+11. If no manually reviewed relevance exists, do not calculate
+    clinical/relevance metrics.
+
+12. Do not change:
+    - Qdrant
+    - BGE model
+    - medical corpus
+    - live top-k=5
+    - focused retrieval
+    - Diagnostic Agent
+    - Clinical Critic
+    - Safety Validator
+
+13. No cloud/API calls.
+
+14. Add unit tests for the benchmark and metric calculations.
+
+15. Document the methodology in:
+    docs/task7a-reviewed-retrieval-benchmark.md
+
+The final output must clearly distinguish:
+- raw retrieval ranking
+- manual relevance judgment
+- derived retrieval metrics
+- clinical/diagnostic conclusions
+
+Do not claim diagnostic accuracy or clinical validity.
+Review the 92 candidates in:
+
+healthcare-agentic-ai/evaluation/medical_relevance.json
+
+Goal:
+Produce MODEL-ASSISTED PROPOSED RELEVANCE JUDGMENTS for the medical retrieval benchmark.
+
+For every candidate, examine:
+1. The label-free patient findings provided in the benchmark.
+2. The full medical passage text.
+
+Assign exactly one proposed label:
+- relevant
+- partially_relevant
+- not_relevant
+- uncertain
+
+Definition:
+"Does this medical passage provide useful medical information for interpreting one or more of the patient's observed findings or differential categories?"
+
+Rules:
+- Do NOT use the DDXPlus final diagnosis as evidence.
+- Do NOT use retrieval rank.
+- Do NOT use BGE cosine similarity.
+- Do NOT use lexical rank.
+- Do NOT judge relevance from the title alone.
+- Base the judgment on the actual passage content and the observed patient findings.
+- Do not modify production retrieval, agents, prompts, safety logic, or indexes.
+- Do not set reviewed=true.
+- Do not claim these are human-review judgments.
+- Preserve the original JSON unchanged.
+
+Create a separate file:
+
+evaluation/medical_relevance_astra_proposals.json
+
+For every candidate include:
+- candidate/chunk ID
+- proposed_relevance
+- reasoning
+- confidence: high / medium / low
+
+Also provide a final summary:
+- count of each proposed label
+- candidates marked uncertain
+- candidates where medical interpretation was difficult
+
+This is a research benchmark review aid, NOT clinical advice and NOT a clinical diagnosis.
+
+For the current development phase, **completely pause the medical relevance benchmark-labeling/audit work.**
+
+The project should NOT spend time creating, modifying, auditing, applying, or evaluating the 92-case relevance labels at this stage.
+
+## 1. Remove benchmark labeling from the current workflow
+
+Treat the following as **out of scope for now**:
+
+* medical relevance labeling
+* Astra relevance audits
+* changing `relevant / partially_relevant / not_relevant / uncertain`
+* applying the 7 proposed label changes
+* human review of the 92 proposals
+* benchmark relevance metrics
+* optimizing retrieval against the 92 labeled proposals
+* creating derived audited benchmark files
+
+Do not continue the benchmark-labeling task in the development pipeline.
+
+Do not delete source files unless necessary. They can remain archived for a later research/evaluation phase, but they should have **no role in the current retrieval-development loop**.
+
+Do not mark anything as human-reviewed.
+
+---
+
+## 2. Change the immediate project objective
+
+The current objective is:
+
+> **Build a retrieval system that can reliably retrieve useful medical knowledge from the existing corpus for a label-free patient presentation.**
+
+The system should be able to retrieve useful background medical information even when there is no known diagnosis.
+
+For example, if a patient has:
+
+```text
+History:
+- asthma / previous bronchodilator use
+
+Current observations:
+- shortness of breath
+- choking sensation
+- chest symptoms
+```
+
+the medical RAG should be capable of retrieving basic asthma/respiratory information.
+
+This does NOT mean diagnosing the patient with asthma.
+
+The distinction must remain:
+
+```text
+Retrieval:
+"Here is relevant medical knowledge about asthma."
+
+NOT:
+
+Diagnosis:
+"The patient has an asthma exacerbation."
+```
+
+---
+
+## 3. Do not use diagnosis labels to improve retrieval
+
+Retrieval must remain label-free.
+
+Do NOT use:
+
+* DDXPlus final diagnosis
+* hidden diagnosis labels
+* ground-truth disease
+* benchmark relevance labels
+* manually assigned relevance labels
+
+to construct retrieval queries or tune retrieval behavior.
+
+Use only the observed patient information available to the system.
+
+---
+
+## 4. Focus entirely on retrieval
+
+Investigate and improve:
+
+### Query construction
+
+Move away from one giant patient query.
+
+Experiment with multiple clinically meaningful clusters derived from the observed findings.
+
+For example:
+
+```text
+breathing difficulty + choking + chest symptoms
+
+palpitations + sweating + tingling + fear
+
+abdominal/flank pain + cramping
+```
+
+These are examples only.
+
+Do not hard-code these disease-specific examples into production.
+
+The system should generate appropriate clusters from the patient's observed findings.
+
+---
+
+### Candidate generation
+
+Test deeper candidate pools:
+
+```text
+Top-50
+Top-100
+```
+
+rather than immediately retrieving only five passages.
+
+The final evidence limit can remain small.
+
+Conceptually:
+
+```text
+Patient
+ ↓
+Multiple retrieval queries
+ ↓
+Dense retrieval + BM25
+ ↓
+Top 50–100 candidates
+ ↓
+RRF / deduplication
+ ↓
+Reranking
+ ↓
+Up to 5 useful passages
+```
+
+---
+
+### Hybrid retrieval
+
+Experiment with:
+
+```text
+Dense retrieval
++
+BM25 / lexical retrieval
+```
+
+and combine their candidate pools using an appropriate rank-fusion method such as RRF.
+
+---
+
+### Reranking
+
+Evaluate a reranker on the broad candidate pool **before the final evidence limit**.
+
+Do not use arbitrary cosine thresholds as substitutes for relevance.
+
+Do not allow the current lexical filter to eliminate potentially useful candidates before reranking.
+
+---
+
+### Passage construction
+
+Fix the current chunking/context problems.
+
+Preserve:
+
+* topic
+* section heading
+* complete sentences
+* paragraph/list context
+* source provenance
+
+where appropriate.
+
+Do not silently change the source evidence.
+
+Create a separate experimental index rather than destroying the existing index.
+
+---
+
+## 5. Diagnose where retrieval fails
+
+For every experiment, determine which of these is happening:
+
+```text
+A. Relevant document never enters candidate pool
+       ↓
+   Candidate-generation problem
+
+B. Relevant document enters candidate pool
+   but gets filtered out
+       ↓
+   Filtering problem
+
+C. Relevant document survives
+   but ranks poorly
+       ↓
+   Reranking problem
+
+D. Relevant document is retrieved
+   but its chunk lacks context
+       ↓
+   Chunking problem
+
+E. No appropriate document exists
+       ↓
+   Genuine corpus gap
+```
+
+This distinction is more important than simply reporting that retrieval "failed."
+
+---
+
+## 6. Use real examples to inspect quality
+
+Do not rely solely on automated metrics.
+
+For representative patient cases, show:
+
+```text
+Patient findings
+
+Baseline retrieved documents
+
+Experimental retrieved documents
+
+Documents recovered by the new method
+
+Documents incorrectly retrieved
+
+Final passages delivered to the agent
+```
+
+For the current asthma-related failure, specifically verify whether the existing **Asthma in Children** material can be surfaced through the improved retrieval pipeline.
+
+Also verify that relevant panic/respiratory/cardiopulmonary material can be surfaced when supported by the observed symptoms.
+
+Do not treat successful retrieval as proof of diagnosis.
+
+---
+
+## 7. Keep downstream agents unchanged
+
+For this phase, do NOT redesign:
+
+* Patient Agent
+* Diagnostic Agent
+* Clinical Critic
+* Safety Validator
+* grounding validation
+* safety gates
+
+The purpose is to isolate retrieval as the variable.
+
+If the downstream system blocks because it lacks evidence, that is acceptable during the experiment.
+
+The goal is to determine whether better retrieval supplies the missing evidence.
+
+---
+
+## 8. Do not add more medical data yet
+
+First determine how much of the existing corpus can be recovered through better:
+
+* query construction
+* candidate generation
+* lexical retrieval
+* dense retrieval
+* rank fusion
+* reranking
+* chunking
+
+Only after this experiment should we decide whether the corpus itself needs expansion.
+
+---
+
+## 9. Do not train or fine-tune the LLM yet
+
+Do not:
+
+* fine-tune the LLM
+* implement continual learning
+* train a medical classifier
+* train the diagnostic agent
+
+The immediate problem is retrieval, not model training.
+
+---
+
+## 10. Production safety must remain strict
+
+Improving retrieval must NOT mean loosening safety.
+
+The system should still distinguish:
+
+```text
+Medical knowledge retrieved
+        ≠
+Diagnosis established
+```
+
+and:
+
+```text
+Patient symptom compatible with condition
+        ≠
+Condition confirmed
+```
+
+Keep the existing grounding and safety protections intact.
+
+---
+
+## 11. Deliverable
+
+At the end of this phase, provide:
+
+1. The current retrieval architecture.
+2. The confirmed retrieval failure modes.
+3. The experimental retrieval architecture.
+4. The files/code changed.
+5. Baseline vs experimental retrieval examples.
+6. Relevant documents successfully recovered.
+7. Remaining retrieval failures.
+8. Chunking/context improvements.
+9. Latency impact.
+10. Recommendation for the next step.
+
+Do NOT provide benchmark-labeling recommendations.
+
+Do NOT create new relevance labels.
+
+Do NOT ask for human relevance review.
+
+Do NOT make the 92-case benchmark a dependency for this phase.
+
+---
+
+# Final priority
+
+The development order is now strictly:
+
+```text
+1. FIX RETRIEVAL
+       ↓
+2. VERIFY RETRIEVAL QUALITATIVELY
+       ↓
+3. VERIFY IT GENERALIZES ACROSS CASES
+       ↓
+4. CONNECT/VERIFY DOWNSTREAM AGENTS
+       ↓
+5. ONLY LATER DESIGN A FORMAL EVALUATION BENCHMARK
+```
+
+The existing 92-case benchmark work is **paused, not deleted**.
+
+
+
+## Task: Redesign the Healthcare Agentic AI Project Around AMG RAG
+
+Understand the existing healthcare-agentic-ai project first, especially:
+
+* the current agentic architecture and agent responsibilities
+* the existing Patient/EHR Agent
+* Patient Case RAG
+* Diagnostic Agent
+* grounding/evidence handling
+* Clinical Critic
+* Safety layer
+* orchestration
+* the previous medical RAG implementation
+* the newly implemented and tested AMG RAG
+
+Then redesign the project so that **AMG RAG becomes the active Medical Knowledge / Medical Evidence layer**.
+
+### Main goal
+
+Replace the old medical RAG with the tested AMG RAG and integrate it properly into the agentic workflow.
+
+A good target architecture is roughly:
+
+`DDXPlus Patient Case`
+→ `Patient Agent`
+→ `Patient Case RAG`
+→ `AMG Medical Evidence`
+→ `Diagnostic Agent`
+→ `Grounding`
+→ `Clinical Critic`
+→ `Safety`
+→ `Orchestrator / Final Output`
+
+You can change this structure if the existing code suggests a better architecture.
+
+### Important requirements
+
+1. **Understand before changing**
+
+   * Inspect the existing agentic project and AMG RAG implementation.
+   * Understand how their current interfaces and data flow work.
+
+2. **Use AMG RAG as the medical RAG**
+
+   * The old Medical RAG should no longer be the active medical-evidence path.
+   * AMG RAG should provide the medical evidence/context used by the downstream agents.
+   * Do not create another retrieval system or start a new RAG experiment.
+
+3. **Redesign rather than blindly patch**
+
+   * Clean up the architecture where necessary.
+   * Reuse existing agents/code when they are still useful.
+   * Rewrite components when their old design conflicts with the new architecture.
+   * Keep responsibilities separated: retrieval/evidence should not become the Diagnostic Agent itself.
+
+4. **Keep Patient Case RAG separate**
+
+   * Patient Case RAG is for similar patient cases.
+   * AMG RAG is for medical knowledge/evidence.
+   * Do not unnecessarily merge the two.
+
+5. **Preserve important safety behavior**
+
+   * Keep evidence provenance/IDs intact.
+   * Keep grounding.
+   * Keep Clinical Critic.
+   * Keep Safety/abstention behavior.
+   * Do not allow AMG RAG's synthesis to automatically become the diagnosis.
+
+6. **Do not use benchmark/relevance labels**
+
+   * Do not modify the existing benchmark labels.
+   * Do not use hidden diagnosis labels for runtime reasoning or retrieval tuning.
+   * Do not spend time creating a new benchmark.
+
+7. **Memory safety**
+
+   * This runs on a 16 GB RAM laptop.
+   * Avoid loading duplicate models/corpora unnecessarily.
+   * Avoid uncontrolled parallelism or large in-memory graph expansion.
+   * Reuse already-loaded resources where practical.
+
+### Verification
+
+After the redesign:
+
+* run the relevant existing tests
+* run at least one real end-to-end patient case through the new architecture
+* verify that AMG RAG is actually being called
+* verify that the old Medical RAG is no longer being used in the active path
+* verify that evidence/provenance reaches the Diagnostic Agent and downstream grounding/critic/safety stages
+* fix reasonable integration problems you encounter
+
+Do not spend time on unrelated improvements.
+
+At the end, report briefly:
+
+1. what architecture you changed
+2. which old components were removed/replaced
+3. how AMG RAG is connected
+4. what tests passed
+5. whether the real end-to-end case worked
+6. any remaining problems
+
+### Implementation decisions after source inspection
+
+* The tested dataset retriever is medlineplus_lab.Retriever in the supplied AMG folder. The graph/answer entrypoint still uses the small demo collection. Integrate the former unchanged as evidence-only rather than treating graph synthesis as diagnosis.
+* Canonical location is now healthcare-agentic-ai/vendor/amg (formerly NEW RAG/AMG-RAG). Existing snapshots and native IDs remain intact; no reindexing or retrieval experiment.
+* Both supported entrypoints use application.workflow.create_workflow and rag/amg. Preserve the Phase 6 workflow/grounding/critic/safety mechanics; abstain if AMG accepts no evidence.
+* Archive old docs and output artifacts instead of destroying extensive uncommitted research. Legacy medical code remains compatibility-only for regression tests, not the supported runtime.
+* Full implementation/verification report: healthcare-agentic-ai/docs/amg-merge.md.
+
+
+## Task: Diagnose the AMG Evidence Quality Problem
+
+The AMG integration is now complete and the full architecture is working.
+
+Do NOT redesign the architecture again and do NOT create a new RAG.
+
+Use the existing real end-to-end run:
+
+`outputs/amg-live/sample_case_001.json`
+
+Trace the case through:
+
+`Patient facts → AMG query → retrieved AMG passages → Diagnostic Agent output → evidence IDs/provenance → Grounding → Clinical Critic`
+
+The goal is to determine why the live case was blocked.
+
+Specifically identify:
+
+1. What medical claims/hypotheses the Diagnostic Agent produced.
+2. Which AMG passages were retrieved for those claims.
+3. Which claims are actually supported by those passages.
+4. Which claims were flagged by the Clinical Critic as missing medical references.
+5. Whether the problem is primarily:
+
+   * retrieval quality,
+   * insufficient AMG evidence,
+   * evidence/provenance mapping,
+   * Diagnostic Agent reasoning,
+   * or Critic expectations.
+6. Check whether the 256-token AMG query limitation materially affected this case.
+
+Do not change the retrieval algorithm yet.
+
+Do not modify benchmark/relevance labels.
+
+Do not tune thresholds yet.
+
+Do not bypass or weaken Grounding, Clinical Critic, or Safety.
+
+If you find a clear implementation bug, fix it and rerun the affected tests. Otherwise, leave the code unchanged and produce a concise diagnostic report explaining the actual bottleneck.
+
+The important output is a clear answer to:
+
+**"Why did AMG provide five passages but the Diagnostic Agent still produce claims that the Critic could not medically support?"**
+
+## Task: Investigate Why AMG Retrieves the Wrong Medical Evidence
+
+The previous audit established that the agentic architecture and evidence pipeline are working correctly.
+
+Do NOT redesign the agent architecture.
+
+Do NOT change production retrieval, thresholds, prompts, Safety, Grounding, benchmark labels, or stored data yet.
+
+We now need to understand the retrieval problem before making any changes.
+
+### Known result
+
+The real case contained clinically relevant facts including:
+
+* black stools
+* pallor
+* fatigue
+* dizziness/near-fainting
+* prior anemia
+* anticoagulant use
+* kidney failure
+* poor diet
+
+The AMG corpus contains relevant topics such as:
+
+* Anemia
+* Gastrointestinal Bleeding
+* Blood Thinners
+* Kidney Failure
+
+But the saved AMG retrieval returned:
+
+* Blood Clots
+* ME/CFS
+* Fibromyalgia
+* Chronic Myeloid Leukemia
+* Pain
+
+### Investigate
+
+Using the existing saved run and existing AMG implementation, determine why the relevant topics ranked poorly.
+
+Specifically inspect:
+
+1. **Query representation**
+
+   * What exact text is sent to AMG?
+   * Which patient facts contribute the most tokens?
+   * How are symptoms, history and medical concepts represented?
+   * Is the query dominated by repeated/general pain information?
+
+2. **Embedding similarity**
+
+   * Inspect the existing embeddings/similarity behavior for the saved query against the relevant topics:
+
+     * Anemia
+     * Gastrointestinal Bleeding
+     * Blood Thinners
+     * Kidney Failure
+   * Compare them with the five retrieved topics.
+   * Use existing stored embeddings/data where possible.
+   * Do not rebuild the index.
+
+3. **AMG's entity/alias processing**
+
+   * Determine whether concepts such as anemia, black stools, blood thinners and kidney failure are actually recognized.
+   * Determine whether recognized concepts influence retrieval or are only metadata.
+   * Investigate the previously observed `"all" → Acute Lymphocytic Leukemia` ambiguity, but do not change the alias rules yet.
+
+4. **Retrieval stages**
+   Determine whether the failure happens because of:
+
+   * query construction,
+   * entity extraction,
+   * alias resolution,
+   * embedding similarity,
+   * distance gating,
+   * candidate selection,
+   * or final ranking.
+
+5. **Do not assume the answer**
+   The previous audit established that relevant documents exist, but it did NOT establish exactly why they rank below the returned documents.
+
+### Verification rules
+
+This is an investigation only.
+
+Do not:
+
+* change retrieval code
+* change thresholds
+* add a reranker
+* increase top-k as a production fix
+* modify benchmark labels
+* inject the known relevant passages into the result
+* make new LLM/cloud calls unless absolutely necessary for understanding an existing behavior
+* claim that a hypothetical improved query works unless you actually test it
+
+You may write a diagnostic report and small temporary/read-only analysis code if needed.
+
+### Final report
+
+Clearly identify:
+
+**A. Root cause**
+What specifically causes the relevant AMG topics to rank poorly?
+
+**B. Contributing factors**
+For example query truncation, repeated pain facts, alias behavior, embedding mismatch, etc.
+
+**C. What is NOT the cause**
+Explicitly rule out provenance, evidence mapping, Safety, Grounding, and other issues already verified.
+
+**D. Recommended fix direction**
+Give the smallest sensible next architectural/retrieval change, but do not implement it yet.
+
+Run the relevant tests after the investigation and confirm that production code remains unchanged.
+
+## Task: Implement and Test a Controlled AMG Query Representation
+
+The previous investigation established the measured root cause of the AMG retrieval problem.
+
+Do NOT redesign the agent architecture.
+
+Do NOT change the embedding model, corpus, Chroma index, distance metric, 1.10 gate, Safety, Grounding, Clinical Critic, benchmark labels, or downstream diagnostic behavior.
+
+The problem to address is the **query representation** sent to AMG.
+
+### Current problem
+
+The current AMG query is a concatenation of raw DDXPlus questions.
+
+For the saved case:
+
+* 254/256 tokens were used.
+* About 47% of the query was pain-related question boilerplate.
+* Five important history facts were omitted.
+* Anemia ranked 21 despite passing the gate.
+* Removing the pain questions moved Anemia to rank 1.
+* Kidney Failure ranked 1 when queried using its original patient fact.
+* Prior Anemia ranked 1 using its original patient fact.
+* Black-stool wording ranked GI Bleeding 3rd but still failed the existing 1.10 gate.
+* `"all"` can incorrectly activate Acute Lymphocytic Leukemia when the shorter query allows the alias expansion to fit.
+
+### Goal
+
+Implement a **small, deterministic, role-aware query adapter** between the complete patient facts and AMG.
+
+The adapter should:
+
+1. Reduce repetitive DDXPlus question wording.
+2. Preserve the actual patient information/answers.
+3. Preserve important roles such as:
+
+   * presenting findings
+   * symptoms
+   * history/antecedents
+   * medications
+   * other relevant patient context
+4. Fit more clinically meaningful facts into AMG's existing 256-token window.
+5. Avoid making diagnostic conclusions.
+6. Keep the existing AMG embedding model and retrieval behavior unchanged.
+
+The complete patient record must still remain available to downstream agents. This adapter is only for the medical-evidence retrieval query.
+
+### Alias safety
+
+Before enabling the new query representation, address the demonstrated ordinary-word/acronym problem:
+
+`"all"` → `Acute Lymphocytic Leukemia`
+
+Do this narrowly and safely.
+
+The resolver should not interpret an ordinary word such as `"all"` as a medical acronym merely because it appears inside a normal patient sentence.
+
+Do not broadly rewrite the alias system.
+
+Add a regression test for this exact failure.
+
+### Important constraint
+
+Do NOT hardcode:
+
+* anemia
+* gastrointestinal bleeding
+* blood thinners
+* kidney failure
+* or any diagnosis/topic specifically for this patient.
+
+The new representation must work generically for other DDXPlus cases.
+
+Do not use an LLM to generate the retrieval query.
+
+### Evaluation
+
+Before changing production behavior, preserve the existing saved baseline.
+
+Run the new adapter against the same saved case and compare:
+
+* query token count
+* included/omitted patient facts
+* top-5 AMG results
+* Anemia rank/distance
+* Blood Thinners rank/distance
+* GI Bleeding rank/distance
+* Kidney Failure rank/distance
+* false `"all"` → leukemia behavior
+
+Keep the existing AMG model, store, top-k and 1.10 gate unchanged.
+
+Then run the existing project tests plus focused tests for the new adapter.
+
+If the new query representation improves the saved case, also test it against several other existing cases to make sure it does not simply optimize for this one case.
+
+### Safety
+
+Do not:
+
+* modify benchmark/relevance labels
+* introduce diagnosis labels
+* inject medical topics into retrieval
+* relax the distance gate
+* increase production top-k
+* bypass Safety/Grounding/Critic
+* change Diagnostic Agent prompts just to make the result pass
+* claim clinical improvement from retrieval metrics alone
+
+### Final report
+
+Report:
+
+1. What the new query representation does.
+2. How many tokens the new representation uses.
+3. Which facts are preserved versus omitted.
+4. Before/after retrieval results.
+5. Whether the `"all"` alias problem is fixed.
+6. Tests passed.
+7. Any regressions.
+8. Whether the change should become the new production default.
+
+If the new adapter does not clearly improve retrieval without regressions, leave the production path unchanged and report the result.
+
+Task — Implement and Evaluate a Baseline-Preserving AMG Query Compression
+
+We have completed the previous controlled experiment (prompts/new3.txt).
+
+Its result was DO NOT PROMOTE.
+
+The previous candidate improved fact coverage and Anemia retrieval, but it:
+
+newly omitted the black-stool finding;
+worsened GI Bleeding retrieval;
+lost a previously included palpitations finding on another case;
+reduced accepted evidence on another case;
+introduced structural alias contamination such as sex → Sexual Health;
+therefore must remain experimental.
+Goal
+
+Run ONE new, narrowly controlled experiment:
+
+Determine whether we can compress the existing production AMG query without losing any facts that the current production query already embeds, while using the freed token budget to include previously omitted patient facts.
+
+Call this baseline-preserving compression.
+
+Do NOT attempt to solve every AMG problem in this task.
+
+1. Production must remain unchanged
+
+Do NOT modify the production retrieval path.
+
+Do NOT change:
+
+embedding model;
+embedding revision;
+Chroma collection;
+corpus;
+stored vectors;
+distance metric;
+top-k = 5;
+distance gate = 1.10;
+AMG vendor source;
+PatientState;
+Patient Case RAG;
+Diagnostic Agent;
+Grounding;
+Clinical Critic;
+Safety;
+orchestration;
+benchmark/relevance labels;
+DDXPlus diagnosis labels;
+clinical prompts.
+
+Do not promote the candidate automatically.
+
+If the experiment fails, leave production exactly as it was.
+
+2. Core rule: preserve the baseline embedded information
+
+Start from the exact production query generated for each patient.
+
+Determine the complete set of patient facts that are actually represented in that baseline query.
+
+The new representation MUST NOT omit any baseline-included clinical fact merely because of role balancing.
+
+For the saved case specifically, the candidate MUST preserve:
+
+pallor;
+all pain-related facts;
+dizziness;
+near-fainting;
+fatigue;
+activity limitation;
+non-restful sleep;
+black stools;
+poor diet;
+prior anemia.
+
+The important requirement is:
+
+No baseline-included clinical fact may be sacrificed merely to increase the number of total facts.
+
+This is the main difference from new3.
+
+3. Compression strategy
+
+Use only deterministic text compression.
+
+Allowed:
+
+removing repetitive interrogative scaffolding;
+converting structured question/answer syntax into compact literal statements;
+removing redundant repeated wording;
+grouping answers belonging to the EXACT SAME original question;
+compact deterministic formatting.
+
+Example:
+
+Do you feel slightly dizzy or lightheaded? = Yes
+
+may become:
+
+dizzy/lightheaded = Yes
+
+But do not infer:
+
+anemia
+
+or:
+
+possible GI bleeding
+
+or any diagnosis.
+
+Preserve qualifiers such as:
+
+recently;
+ever;
+family history;
+timing;
+negation;
+unknown;
+answer values.
+
+Do not paraphrase medical meaning using a clinical dictionary or LLM.
+
+4. Use remaining budget for omitted facts
+
+After preserving every baseline-included fact, calculate remaining token capacity.
+
+Only then add previously omitted facts.
+
+Priority must NOT be based on diagnosis or medical assumptions.
+
+Use deterministic order such as:
+
+previously omitted patient history/antecedent facts;
+previously omitted medication facts;
+previously omitted contextual facts.
+
+But if adding an omitted fact would cause ANY baseline-included clinical fact to disappear, do not add it.
+
+The baseline information has priority.
+
+5. Do NOT put structural metadata into the medical query
+
+Do NOT emit literal structural headings such as:
+
+Presenting:
+Symptoms:
+History:
+Medications:
+Context:
+
+unless the experiment proves that they cannot interact with AMG aliases.
+
+For this experiment, the safest default is:
+
+Do not add role/header words to the embedded text.
+
+Keep role information in the internal audit structure only.
+
+This is specifically because new3 demonstrated:
+
+sex → Sexual Health
+
+and potentially:
+
+Medications → medical alias
+
+We do not want structural metadata influencing the medical embedding.
+
+6. Alias handling
+
+Do NOT broaden the previous all fix.
+
+Do NOT rewrite the vendor alias system.
+
+Do NOT add medical aliases.
+
+Do NOT create topic-specific aliases.
+
+For this experiment:
+
+retain the existing experimental ordinary-all guard only if it is already isolated from production;
+do not introduce additional alias behavior;
+record any alias expansions produced by the candidate;
+especially report structural/context contamination such as sex → Sexual Health.
+
+The purpose of this task is query compression, not alias-system redesign.
+
+7. Evaluation
+
+Use the SAME saved case from outputs/amg-live.
+
+Then use the SAME consecutive validation cases previously used:
+
+validate:2 through validate:6.
+
+Do not select cases after looking at results.
+
+Do not use benchmark labels.
+
+Do not use DDXPlus diagnosis labels.
+
+Do not create relevance labels.
+
+This remains a qualitative retrieval experiment.
+
+8. For every case report
+
+Compare:
+
+Query
+baseline token count;
+candidate token count;
+baseline embedded token count;
+candidate embedded token count;
+baseline character count;
+candidate character count.
+Information preservation
+
+Report:
+
+baseline clinical facts included;
+candidate clinical facts included;
+baseline facts lost;
+newly added facts;
+candidate facts omitted.
+
+The most important metric is:
+
+Number of baseline-included clinical facts lost.
+
+A good candidate should be:
+
+0 lost baseline clinical facts.
+
+Retrieval
+
+Report:
+
+baseline top 5;
+candidate top 5;
+accepted hits before/after;
+requested-topic global ranks/distances for the same topics previously tracked.
+
+For the saved case continue tracking:
+
+Anemia;
+Blood Thinners;
+GI Bleeding;
+Kidney Failure.
+
+Do not inject those topics into the query.
+
+Alias diagnostics
+
+Report:
+
+aliases resolved;
+source-title expansions;
+ordinary-word expansions;
+structural/context expansions;
+whether sex, age, section-like terms, etc. trigger medical aliases.
+9. Success criteria
+
+Do NOT define success as simply "more facts."
+
+A candidate is potentially better only if:
+
+Required
+Zero baseline clinical facts lost across the evaluated cases.
+No production files are changed.
+No diagnosis labels or benchmark labels are used.
+No clinical inference is introduced.
+No new unsafe alias behavior is introduced.
+Existing AMG top-k and gate remain unchanged.
+Strong positive signal
+
+If the candidate also:
+
+reduces token usage;
+includes previously omitted facts;
+improves Anemia retrieval;
+improves Blood Thinners/Kidney Failure retrieval;
+improves or preserves GI Bleeding retrieval;
+preserves or improves accepted evidence across validation cases.
+Failure
+
+If the candidate loses any baseline clinical fact, especially a symptom/finding such as:
+
+black stools;
+palpitations;
+chest pain;
+vomiting blood;
+respiratory symptoms;
+
+record the regression and do NOT promote.
+
+Do not compensate by changing top-k or threshold.
+
+10. Tests
+
+Add focused tests for:
+
+baseline fact preservation;
+zero-loss invariant;
+deterministic output;
+exact answer preservation;
+negation preservation;
+qualifiers;
+duplicate-question handling;
+token budget;
+character budget;
+state immutability;
+no structural headers in embedded query;
+alias diagnostics.
+
+Run:
+
+python -m unittest tests.test_amg_query_adapter -v
+python -m unittest discover -s tests -t .
+
+Also run the existing upstream AMG tests.
+
+11. Integrity requirements
+
+Preserve the same protected-file/integrity methodology used in new3.
+
+Do not overwrite:
+
+outputs/amg-live;
+outputs/new2;
+previous new3 artifacts.
+
+Create a new experiment directory:
+
+outputs/new4/
+
+Save:
+
+comparison results;
+baseline/candidate queries;
+fact inventories;
+retrieval results;
+alias diagnostics;
+test output;
+integrity hashes;
+final evaluation report.
+
+Do not modify existing experiment artifacts.
+
+12. Final decision
+
+At the end, give exactly one of:
+
+PROMOTE
+
+Only if the candidate demonstrates consistent improvement without losing baseline clinical information or introducing alias contamination.
+
+DO NOT PROMOTE
+
+If there is any meaningful regression or inconsistent retrieval behavior.
+
+INCONCLUSIVE
+
+If the experiment does not provide enough evidence.
+
+Do not make production changes merely because the candidate improves the saved case.
+
+The final report must clearly distinguish:
+
+implementation correctness;
+retrieval improvement;
+regression;
+production status.
+
+No production promotion is allowed automatically.
+The system is still returning BLOCK on the live label-free end-to-end test.
+
+DO NOT change retrieval, embeddings, Qdrant, top-k, distance metric, gates, corpus, ranking, AMG, safety policy, or add benchmark labels.
+
+DO NOT try to force ALLOW.
+
+We need to determine exactly why the current case is being blocked.
+
+Use the latest saved run under the manual-test output directory and trace the actual data flow:
+
+Retrieved AMG evidence
+→ DiagnosticResult claims
+→ claim/evidence references
+→ GroundingResult
+→ ClinicalCritique
+→ SafetyAssessment
+→ FinalDecision
+
+Inspect:
+
+final_decision_001.json
+sample_case_001.json
+phase6_run_report.json
+
+Report the exact:
+
+diagnostic claims produced
+AMG passages retrieved
+medical evidence actually cited by each claim
+grounding status for each claim
+unsupported_by_medical_evidence findings
+reference_present_not_verified findings
+critic safety flags
+critic missing-evidence findings
+contradictions, if any
+final safety findings
+exact rule/path that converted the case to BLOCK
+
+Then determine which category best explains the BLOCK:
+
+A. genuinely insufficient evidence
+B. diagnostic claim is unsupported
+C. grounding/reference linkage problem
+D. critic false-positive or overblocking
+E. safety-routing problem
+F. other implementation problem
+
+Do not modify production code yet.
+
+If the evidence-to-claim linkage is the problem, show one concrete example:
+
+CLAIM → cited evidence → grounding result → critic finding → safety finding → BLOCK
+
+Also compare the actual retrieved passage text with the diagnostic claim, but do not make a clinical correctness claim beyond what the system's evidence supports.
+
+The goal is diagnosis of the BLOCK cause, not making the system return ALLOW.
+
+Finish with:
+
+ROOT CAUSE:
+EVIDENCE:
+PRODUCTION CHANGE NEEDED: YES/NO
+IF YES: smallest safe change
+RETRIEVAL CHANGE NEEDED: YES/NO
+Run a controlled multi-case evaluation of the CURRENT healthcare-agentic-ai system.
+
+Goal: determine whether the CHECK1 problem (AMG retrieving weak/irrelevant medical evidence) is isolated or systematic.
+
+IMPORTANT CONSTRAINTS:
+
+Do NOT modify production retrieval.
+Do NOT change AMG.
+Do NOT change embeddings, vector DB, distance metric, top-k, gate, ranking, reranking, corpus, index, query compression, aliases, or candidate generation.
+Do NOT add multi-query retrieval.
+Do NOT modify benchmark/relevance labels.
+Do NOT use hidden DDXPlus diagnosis labels for runtime reasoning, retrieval, prompting, scoring, or routing.
+Use DDXPlus with include_labels=False.
+Do NOT train/retrain/download models.
+Do NOT add medical data.
+Do NOT weaken safety or human-review behavior.
+Do NOT force an ALLOW result.
+Do NOT change the existing production pipeline merely to make the evaluation look better.
+Keep memory usage safe for a 16 GB RAM machine.
+Run cases sequentially, not in parallel.
+
+Evaluation:
+
+Select 10 representative DDXPlus cases from the existing available data.
+Use only label-free patient information.
+Run the complete existing pipeline for each case:
+Patient Agent
+→ Patient Case RAG
+→ frozen AMG medical evidence retrieval
+→ Diagnostic Agent
+→ Grounding
+→ Clinical Critic
+→ Safety
+→ Final Decision.
+Save the complete trace for every case.
+For each case record:
+patient/case ID
+number of AMG passages retrieved
+retrieved passage titles
+whether any retrieved passage is actually used by the Diagnostic Agent
+number of cited medical passages
+number of hypotheses without medical references
+grounding status
+critic assessment
+critic safety flags
+safety decision
+final decision: ALLOW/HUMAN_REVIEW/BLOCK
+whether the workflow technically completed
+latency
+cloud/model calls
+any abstention or error
+Do NOT determine clinical correctness from hidden DDXPlus labels.
+Do not manually label the cases during this run.
+
+Then produce an aggregate report answering:
+
+A. How many cases completed successfully?
+B. How many retrieved at least one medically useful passage?
+C. How many retrieved passages were unused?
+D. How many cases had zero cited medical evidence?
+E. How often did the system reach ALLOW/HUMAN_REVIEW/BLOCK?
+F. How often did critic/safety block the case because medical evidence was missing?
+G. Is CHECK1 representative of the current system or an isolated case?
+H. Is the dominant problem retrieval/evidence availability, grounding, diagnostic reasoning, critic, or safety?
+I. Should retrieval now be investigated, or should another component be investigated first?
+
+Create:
+docs/multi_case_evaluation.md
+and
+outputs/multi-case-evaluation/
+
+Run all relevant existing tests before and after.
+
+At the end, make a clear recommendation:
+"RETRIEVAL INVESTIGATION NEEDED"
+or
+"RETRIEVAL DOES NOT APPEAR TO BE THE DOMINANT PROBLEM"
+
+Do not make any production changes unless absolutely required to execute the evaluation; if any are required, stop and report them before changing anything.
+
+Current WHO lexical lookup ko change karke ek **isolated opt-in experiment** banao.
+
+Goal:
+
+`Patient case → LLM sees WHO document catalog → LLM selects relevant document IDs → system loads those local .txt files → selected WHO evidence goes to existing Diagnostic Agent`
+
+Requirements:
+
+* Existing WHO files/indexes reuse karo; kuch download mat karo.
+* LLM ko documents ka **catalog (ID + title + type + filename)** do, full documents nahi.
+* LLM sirf document IDs select kare; diagnosis predict na kare.
+* Max 5 documents.
+* Returned IDs validate karo; unknown/duplicate IDs reject karo.
+* Selected `.txt` files locally load karo with existing provenance/checksums.
+* Negations correctly preserve karo (`no chronic illness`, `no SOB`, etc.).
+* Existing AMG, Diagnostic Agent, Grounding, Critic, Safety aur production WHO lookup ko modify mat karo.
+* No benchmark labels, no hidden diagnoses, no new medical data.
+* Memory-safe, sequential execution.
+* CHECK3 manual case par selector-only test run karo.
+* Compare old lexical WHO results vs new LLM-selected documents.
+* Add focused tests.
+
+Create only the necessary selector/experiment code and tests.
+
+End me report:
+
+1. selected document titles
+2. old vs new WHO selection
+3. tests passed
+4. production code unchanged
+5. whether the `known/chronic` false matches disappeared.
+
+**Do not run the full Diagnostic/Critic/Safety pipeline yet. First validate only whether the LLM can select the right WHO documents.**
+
+IMPLEMENT A LIVE INTERACTIVE DEMONSTRATION MODE FOR MY AGENTIC HEALTHCARE PROJECT
+
+IMPORTANT CONTEXT
+I need to demonstrate my project to my research guide tomorrow.
+
+The project currently has:
+- DDXPlus synthetic patient dataset
+- Patient Agent
+- Patient Case RAG using BGE-small + Qdrant
+- Medical Knowledge RAG using BGE-small + Qdrant
+- Diagnostic Agent
+- Clinical Critic
+- Phase 5 deterministic Orchestrator
+- Phase 6 Dedicated Safety Validator
+- GPT-5.6-Sol as the LLM backend
+- Existing automated tests and validation
+
+Phase 6 is already implemented and validated:
+- 263 tests
+- 262 passed
+- 1 opt-in cloud test skipped
+- 78 new Phase 6/safety tests
+- Phase 5 behavior must remain unchanged
+- Phase 6 is a separate workflow
+- HUMAN_REVIEW is currently only a terminal marker, not actual HITL
+
+GOAL
+
+Create a NEW, SIMPLE, INTERACTIVE DEMO ENTRY POINT that allows me to demonstrate the complete system to my guide as a real use case.
+
+I want to be able to run something like:
+
+    uv run python healthcare-agentic-ai/scripts/demo.py
+
+Then interactively enter a synthetic patient case and watch the system process it step-by-step.
+
+THIS IS A DEMONSTRATION LAYER ONLY.
+
+DO NOT redesign the architecture.
+DO NOT replace the existing orchestrator.
+DO NOT modify Phase 5 behavior.
+DO NOT modify Phase 6 safety logic.
+DO NOT weaken any existing validation.
+DO NOT introduce LangGraph.
+DO NOT add a GUI/web application.
+DO NOT add new agents.
+DO NOT add Graph RAG.
+DO NOT add HITL yet.
+DO NOT rebuild the indexes.
+DO NOT change the LLM provider.
+DO NOT change the existing prompts/contracts unless absolutely required for compatibility.
+
+First inspect the existing project and determine the correct existing entry points/APIs to call.
+
+==================================================
+DEMO EXPERIENCE
+==================================================
+
+The demo should be TERMINAL BASED and visually clear.
+
+When I run:
+
+    uv run python healthcare-agentic-ai/scripts/demo.py
+
+show:
+
+============================================================
+        AGENTIC HEALTHCARE DECISION SUPPORT DEMO
+============================================================
+
+Research Prototype
+Synthetic DDXPlus patient | GPT-5.6-Sol | Qdrant RAG
+
+============================================================
+
+Then provide two modes:
+
+1. USE SAMPLE PATIENT
+2. ENTER PATIENT MANUALLY
+
+Default/sample mode is important because I need a reliable demo tomorrow.
+
+==================================================
+SAMPLE PATIENT
+==================================================
+
+Create a sample patient using ONLY a valid/sensible DDXPlus-compatible synthetic case.
+
+Preferably allow selecting from a small number of existing DDXPlus validation cases rather than inventing a clinical case.
+
+For example:
+
+[1] Sample case
+[2] Another sample case
+[3] Enter manually
+[Q] Quit
+
+If possible, use an actual validation patient from the existing dataset/index rather than hard-coded medical claims.
+
+Clearly label it:
+
+    SYNTHETIC RESEARCH CASE — NOT A REAL PATIENT
+
+==================================================
+MANUAL INPUT
+==================================================
+
+Allow simple fields such as:
+
+Age:
+Sex:
+Symptoms:
+Relevant history:
+
+Example:
+
+Age: 45
+Sex: Male
+Symptoms: ...
+History: ...
+
+Convert this into the project's existing PatientState/input contract.
+
+Do NOT bypass existing validation.
+
+If manual input cannot safely map to the existing DDXPlus representation, explain the limitation and provide sample-case mode instead.
+
+==================================================
+MOST IMPORTANT REQUIREMENT:
+SHOW WHAT IS HAPPENING INTERNALLY
+==================================================
+
+The purpose of this demo is not just to print the final answer.
+
+I need my guide to SEE the agentic pipeline working.
+
+For every stage, display:
+
+------------------------------------------------------------
+[1] PATIENT AGENT
+------------------------------------------------------------
+
+INPUT
+- Patient information received
+
+PROCESS
+- Patient representation constructed
+
+OUTPUT
+- Structured PatientState
+
+Show the important structured fields without dumping huge objects.
+
+Then:
+
+------------------------------------------------------------
+[2] PATIENT CASE RAG
+------------------------------------------------------------
+
+Show:
+
+- Retrieval started
+- Query/patient representation used
+- Number of retrieved cases
+- Top-k setting
+- Retrieved case IDs
+- Similarity scores
+- Important retrieved evidence
+- Confirm that these are training cases
+- Confirm that pathology/differential labels are not exposed to the Patient Case RAG
+
+Example:
+
+Retrieved 3 similar training cases:
+
+1. ddxplus:train:60
+   similarity: 0.9877
+
+2. ...
+   similarity: ...
+
+Do not expose hidden dataset labels that the architecture intentionally excludes.
+
+------------------------------------------------------------
+[3] MEDICAL KNOWLEDGE RAG
+------------------------------------------------------------
+
+Show:
+
+- Retrieval started
+- Number of retrieved chunks
+- Top source titles
+- Similarity scores
+- Source type
+- Source identifier/title
+
+Example:
+
+1. Asthma
+   Source: MedlinePlus
+   similarity: ...
+
+2. ...
+   Source: PMC
+   similarity: ...
+
+Make it clear that this is external medical knowledge retrieval, separate from patient-case retrieval.
+
+------------------------------------------------------------
+[4] DIAGNOSTIC AGENT
+------------------------------------------------------------
+
+Show:
+
+- Diagnostic Agent invoked
+- Evidence supplied to the agent
+- Retrieved patient-case evidence
+- Retrieved medical evidence
+- Diagnostic output
+- Structured hypothesis/hypotheses if available
+- Evidence references
+- Abstention if applicable
+
+IMPORTANT:
+
+Do NOT display hidden chain-of-thought/internal reasoning.
+
+Only display the structured output and concise evidence-grounding information that is already part of the application's contracts.
+
+For example:
+
+Diagnostic Agent Output
+-----------------------
+Status: ...
+Primary hypothesis: ...
+Supporting evidence refs: ...
+Contradicting evidence refs: ...
+Uncertainty/limitations: ...
+
+If the agent abstains, show:
+
+    Diagnostic Agent: ABSTAINED
+
+and explain the structured reason.
+
+------------------------------------------------------------
+[5] GROUNDING VALIDATION
+------------------------------------------------------------
+
+This is important.
+
+Show:
+
+- Grounding validation started
+- Evidence references checked
+- Patient-case references validated
+- Medical-knowledge references validated
+- Whether all references exist in the frozen evidence snapshot
+- Result: PASS / FAIL
+
+Example:
+
+✓ All referenced evidence exists
+✓ Evidence inventories match claim references
+✓ No hallucinated evidence references
+
+Grounding result: PASS
+
+Do not print huge raw validation objects.
+
+------------------------------------------------------------
+[6] CLINICAL CRITIC
+------------------------------------------------------------
+
+Show:
+
+- Critic invoked
+- Diagnostic version being reviewed
+- Critic result
+- Safety flags
+- Unsupported claims
+- Contradictions
+- Recommended revisions
+- Evidence concerns
+
+Again, DO NOT expose hidden chain-of-thought.
+
+Only show structured critique fields.
+
+Example:
+
+Clinical Critic
+--------------
+Status: REVIEWED
+
+Safety flags: 0
+Unsupported claims: 1
+Contradictions: 0
+Revision requested: YES/NO
+
+------------------------------------------------------------
+[7] SAFETY VALIDATOR — PHASE 6
+------------------------------------------------------------
+
+This must be clearly highlighted because Phase 6 is a major part of my project.
+
+Show:
+
+- Diagnostic version
+- Critic version
+- Evidence snapshot/version
+- Deterministic safety checks
+- Semantic safety review if executed
+- Safety findings
+- Decision
+
+For example:
+
+Safety Validator
+----------------
+
+Deterministic checks:
+✓ Diagnostic identity valid
+✓ Critic identity valid
+✓ Evidence snapshot matches
+✓ Evidence references valid
+✓ No critic safety block
+
+Semantic checks:
+✓ Unsupported clinical certainty
+✓ Dangerous recommendation
+✓ Contradiction
+✓ Missing critical information
+✓ False reassurance
+✓ Patient-fact hallucination
+
+Final Safety Decision:
+
+    CONTINUE
+
+or
+
+    HUMAN_REVIEW
+
+or
+
+    BLOCK
+
+Explain the decision using the structured safety reasons.
+
+IMPORTANT:
+Do not invent safety results just for presentation.
+Everything displayed must come from the actual Phase 6 implementation.
+
+==================================================
+FINAL RESULT
+==================================================
+
+After the pipeline completes, display a clean summary:
+
+============================================================
+                    FINAL SYSTEM RESULT
+============================================================
+
+Patient:
+    Synthetic DDXPlus case
+
+Diagnostic status:
+    ...
+
+Clinical critic:
+    ...
+
+Safety decision:
+    CONTINUE / HUMAN_REVIEW / BLOCK
+
+Workflow outcome:
+    ...
+
+Evidence used:
+    Patient cases: X
+    Medical knowledge: X
+
+Revisions:
+    X
+
+LLM requests:
+    X
+
+Execution time:
+    X seconds
+
+============================================================
+
+Then show:
+
+IMPORTANT:
+This is a research prototype using synthetic DDXPlus data.
+The result is not a clinical diagnosis or medical advice.
+Safety validation does not constitute clinical validation.
+
+==================================================
+LIVE PROGRESS DISPLAY
+==================================================
+
+Make the terminal experience easy to understand.
+
+Use clear separators and statuses such as:
+
+✓ COMPLETED
+→ RUNNING
+⚠ REVIEW
+✗ BLOCKED
+
+If a stage takes time because of GPT/API calls, print:
+
+→ Calling Diagnostic Agent...
+
+and then:
+
+✓ Diagnostic Agent completed
+
+Do NOT fake progress bars or fake intermediate results.
+
+Only show real events/results.
+
+==================================================
+DEBUG / EXPLANATION LEVEL
+==================================================
+
+Add an optional:
+
+[D] Detailed mode
+
+If enabled, show additional technical information useful for explaining the research architecture:
+
+- Model name
+- RAG collection names
+- embedding model
+- embedding dimension
+- top-k
+- evidence snapshot ID/version
+- workflow version
+- routing policy version
+- diagnostic version
+- critic version
+- safety policy version
+- prompt version
+- request count
+- provider repair count
+- revision count
+- execution duration
+
+Do not expose:
+- API keys
+- credentials
+- private environment variables
+- hidden chain-of-thought
+- unnecessary raw prompts
+- massive JSON payloads
+
+==================================================
+ARCHITECTURE VIEW
+==================================================
+
+At startup, optionally print:
+
+PATIENT
+   ↓
+PATIENT AGENT
+   ↓
+PATIENT CASE RAG ──────┐
+                       │
+MEDICAL KNOWLEDGE RAG ─┤
+                       ↓
+                DIAGNOSTIC AGENT
+                       ↓
+                GROUNDING CHECK
+                       ↓
+                CLINICAL CRITIC
+                       ↓
+                SAFETY VALIDATOR
+                       ↓
+          ┌────────────┼────────────┐
+          ↓            ↓            ↓
+       CONTINUE    HUMAN_REVIEW    BLOCK
+
+Make clear that RAG is an evidence infrastructure layer, not an autonomous agent.
+
+==================================================
+IMPORTANT IMPLEMENTATION RULES
+==================================================
+
+1. Reuse the existing Phase 5/Phase 6 APIs/classes.
+2. Do not duplicate the actual clinical workflow logic if avoidable.
+3. The demo must call the same real orchestrator/workflow used by the validated implementation.
+4. Do not create a fake/demo-only diagnostic pipeline.
+5. Do not hard-code fake outputs.
+6. Do not bypass grounding validation.
+7. Do not bypass Safety Validator.
+8. Do not modify existing Phase 5/Phase 6 behavior.
+9. Do not alter existing tests.
+10. Do not change protected files unless absolutely necessary.
+11. Prefer adding new files only.
+12. Keep the demo deterministic in its presentation but use the actual backend.
+13. Handle API errors, missing indexes, invalid input, timeouts, and abstention cleanly.
+14. The demo must fail clearly rather than silently producing a fake result.
+
+==================================================
+RELIABILITY REQUIREMENT
+==================================================
+
+Because this is for a live academic demonstration tomorrow:
+
+Add a SAMPLE CASE mode that uses an existing DDXPlus validation case and the existing indexes.
+
+The demo should not depend on me typing a perfect medical representation manually.
+
+If GPT/API is unavailable:
+
+- clearly report the failure
+- do not fabricate a result
+- optionally provide a --validate-only mode that verifies the local RAG/index/configuration without making a clinical claim.
+
+==================================================
+FILES
+==================================================
+
+Prefer:
+
+healthcare-agentic-ai/scripts/demo.py
+
+You may add small supporting demo modules under something like:
+
+healthcare-agentic-ai/demo/
+
+only if necessary.
+
+Do not unnecessarily modify core project files.
+
+==================================================
+TESTING
+==================================================
+
+After implementation:
+
+1. Run syntax checks.
+2. Run the existing full test suite.
+3. Add focused tests for the demo helper/input/display logic.
+4. Verify CLI help.
+5. Verify sample-case discovery/loading.
+6. Verify the demo calls the real Phase 6 workflow.
+7. Verify no protected Phase 5/Phase 6 files were unintentionally modified.
+8. If possible, run one real cloud-backed demo invocation.
+9. Clearly distinguish:
+   - local tests
+   - integration test
+   - live GPT demonstration
+   - clinical validation
+
+==================================================
+FINAL REPORT
+==================================================
+
+After implementation, report:
+
+1. Files added
+2. Files modified
+3. Protected files confirmed unchanged
+4. How the demo calls the existing Phase 6 workflow
+5. Exact command to run it
+6. Example of the interaction
+7. What information is displayed at every stage
+8. Test results
+9. Whether a live GPT run was performed
+10. Any limitations or issues
+
+MOST IMPORTANT:
+
+This is NOT a request to redesign my healthcare architecture.
+
+I only need a polished, reliable, terminal-based LIVE DEMONSTRATION layer over the existing validated system so I can clearly demonstrate:
+
+"Here is a patient → here is what each agent does → here is what RAG retrieves → here is the diagnostic output → here is the critic → here is the dedicated Phase 6 safety validation → here is the final system decision."
+
+Implement this carefully and conservatively.

@@ -8,6 +8,7 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from rag.manual_patient import read_manual_patient
 from application.workflow import create_workflow
+from application.human_review import offer_human_review
 from rag.who_amg_experiment import evidence_summary
 from rag.agents.grounding import claims
 from orchestration.evidence import fingerprint
@@ -100,6 +101,8 @@ def main(argv=None):
                     result['agent_source_inventories_verified'] = True
             else:
                 result['final_decision'] = 'NOT_RUN'
+        human = offer_human_review(state, args.output_dir / 'human_reviews')
+        result['human_review'] = human.model_dump(mode='json') if human else None
         write(args.output_dir / 'report.json', result)
         print('Artifacts:', args.output_dir)
         print('Combined status:', result.get('combined_status', 'NOT_RETRIEVED'))

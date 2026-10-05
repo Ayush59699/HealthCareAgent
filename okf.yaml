@@ -1,7 +1,7 @@
 okf_version: '0.2'
 project: Healthcare Agentic AI - AMG integration
 root: healthcare-agentic-ai
-summary: 'Label-free DDXPlus -> Patient Agent -> separate Patient Case RAG + supplied AMG MedlinePlus evidence -> Diagnostic -> Grounding -> Critic -> Safety. Research only.'
+summary: 'Label-free patient -> Patient Agent -> separate Patient Case RAG + CHECK4 WHO selector/content sections + unchanged AMG -> Diagnostic -> Treatment -> Grounding -> Critic -> Safety -> Final Decision. Research only.'
 entrypoints:
   - path: healthcare-agentic-ai/scripts/run_phase6.py
     command: 'python scripts/run_phase6.py --queries 1'
@@ -9,12 +9,12 @@ entrypoints:
   - path: healthcare-agentic-ai/scripts/demo.py
     command: 'python scripts/demo.py --validate-only'
     purpose: 'Local no-LLM probe; omit flag for live demo. Same composition as batch.'
-  - path: healthcare-agentic-ai/scripts/verify_amg_run.py
-    purpose: 'Offline saved-run validation: native source text/metadata, grounding, diagnostic snapshot and exact safety-input fingerprint.'
+  - path: healthcare-agentic-ai/scripts/verify_who_amg_run.py
+    purpose: 'Offline default saved-run validation: CHECK4 selection/sections/accounting, WHO/AMG sources, grounding, safety and final handoff. Legacy AMG-only verifier remains for historical runs.'
 modules:
   - path: healthcare-agentic-ai/application/workflow.py
     symbols: [create_workflow]
-    summary: 'Single supported composition root. Injects AMGEvidenceService into Phase6Orchestrator; no-evidence means abstention.'
+    summary: 'Single supported composition root. Injects SelectorEvidenceService (unchanged CHECK4 + AMG) and source-separated agent inputs; both-empty means abstention.'
   - path: healthcare-agentic-ai/application/resources.py
     symbols: [prepare_runtime]
     summary: 'Existing patient index, CPU and 2 GB available-memory preflight. Not a hard memory cap.'
@@ -33,6 +33,9 @@ modules:
   - path: healthcare-agentic-ai/orchestration/phase6/orchestrator.py
     symbols: [Phase6Orchestrator]
     summary: 'Preserved workflow, revision and safety tickets. Accepts injected evidence_service and require_medical_evidence. Historical enhanced flag only for compatibility.'
+  - path: healthcare-agentic-ai/orchestration/phase6/treatment.py
+    symbols: [TreatmentAgent, validate_treatment, attach_treatment]
+    summary: Separate GPT management call between diagnosis and Grounding; nested cited plan, explicit deferral, existing downstream gates.
   - path: healthcare-agentic-ai/orchestration/phase6/diagnostic.py
     summary: 'Existing exact patient-reference inventory and inference-disclosure contracts reused; retrieval is not diagnosis.'
   - path: healthcare-agentic-ai/rag/patient_rag.py
@@ -52,7 +55,7 @@ verification:
   tests: 'python -m unittest discover -s tests -t . (from healthcare-agentic-ai)'
   new_tests: healthcare-agentic-ai/tests/test_amg_integration.py
   fixtures: healthcare-agentic-ai/tests/amg_helpers.py
-  current_report: healthcare-agentic-ai/docs/final-system-validation.md
+  current_report: healthcare-agentic-ai/docs/check5-integration.md
   live_artifacts: healthcare-agentic-ai/outputs/amg-live/
   live_result: 'Real ddxplus:validate:1 completed in 39.2s, three cloud requests, five AMG passages. BLOCK, no technical failure; not a successful clinical diagnosis. Grounding/critic/safety provenance independently verified.'
 archive:
@@ -223,3 +226,172 @@ who_local_lookup:
   memory: Index metadata only between queries; sequential selected-text reads, no cache; 4096-character query, 5 MiB index, 4 MiB document and 20-result caps; no text truncation.
   verification: 28 new lookup plus 42 unchanged crawler tests passed; Initially 249 local entries, then 569 (244 Fact Sheets, 325 Q&A) after on-disk Q&A expansion; both checkpoints verified against source bytes; CLI works with site packages disabled; 479 protected files unchanged at initial checkpoint before collection update.
   boundary: No network, embeddings, vector DB, RAG integration, reranker, LLM or clinical inference; no AMG, Patient RAG, production agent/workflow, dependency, crawler or corpus edits.
+
+who_amg_combined_experiment:
+  request: prompts/whoinc3.txt
+  contract: healthcare-agentic-ai/rag/combined_medical_evidence.py
+  provenance: healthcare-agentic-ai/rag/who_provenance.py
+  entrypoint: healthcare-agentic-ai/rag/who_amg_experiment.py
+  runner: healthcare-agentic-ai/scripts/validate_who_amg_experiment.py
+  verifier: healthcare-agentic-ai/scripts/verify_who_amg_run.py
+  tests: healthcare-agentic-ai/tests/test_who_amg_evidence.py
+  report: healthcare-agentic-ai/docs/who-amg-experiment.md
+  artifacts: healthcare-agentic-ai/outputs/who-amg-experiment/
+  modes: [amg_only, who_only, who_plus_amg]
+  status: Opt-in only; do not promote; production factory and standalone WHO lookup unchanged.
+  composition: Existing AMG service unchanged plus existing literal WHO lookup; separate frozen WHO Fact Sheet, WHO Q&A and AMG groups; source-labeled Diagnostic/Critic input delegate.
+  bounds: At most three WHO matches, 4000 exact body-prefix characters each; source checksums and character spans; no WHO embeddings or new search.
+  shared_change: Five additive WHO provenance-dispatch lines in rag/agents/grounding.py; reference semantics, critic, safety and final decision unchanged.
+  validation: Two consecutive label-free cases across three modes; six completed live runs, 19 sequential requests, one repaired Diagnostic response; six BLOCK with pending review, zero clinical approval.
+  findings: WHO added limited cited kidney, anxiety and asthma context; AMG added arrhythmia context in case 2. Citation increases are not improved diagnosis; all medical entailment remains not_established.
+  verification: 24 new tests; 66 focused passed; 674 full tests (673 passed, one cloud skip); 56 upstream passed. Twelve WHO and twenty AMG source events plus all six grounding/safety/handoffs reverified offline.
+  unchanged: Crawlers, WHO documents/indexes, lookup, AMG retrieval parameters/models/corpus/index construction, Patient RAG, production prompts and safety policy.
+
+check3_manual_combined_run:
+  request: prompts/check3.txt
+  input_adapter: healthcare-agentic-ai/rag/manual_patient.py
+  runner: healthcare-agentic-ai/scripts/run_manual_who_amg.py
+  tests: healthcare-agentic-ai/tests/test_manual_patient.py
+  report: healthcare-agentic-ai/docs/check3-who-amg-run.md
+  artifacts: healthcare-agentic-ai/outputs/check3/live/
+  identity: Content-bound manual SHA-256 namespace; never a fake DDXPlus row. Shared patient_input admits exact manual identities; clinical/reference/safety rules unchanged.
+  result: One live WHO+AMG run, 42.94 seconds, three sequential cloud calls, no repairs or technical failure. Three WHO documents plus three accepted AMG passages; BOTH_AVAILABLE.
+  evidence_use: Zero Diagnostic WHO citations, two AMG citations; WHO matched headaches, known and chronic (latter two from No known chronic illness). AMG accepted only ME/CFS chunks; six-month criterion conflicts with three-week vignette.
+  decision: BLOCK, pending human review; anemia and orthostatic hypotheses lack medical citations; Critic safety flags dominate. No validated diagnosis or improvement claimed.
+  grounding_limit: Structural checks passed; manual-input patient-reference heuristic unassessed for 14 clauses; medical entailment not_established.
+  verification: Actual labeled agent-input inventories, three WHO and three AMG source records, grounding/safety/final decision verified. Nine new tests; 47 focused passed; 683 full tests (682 passed, one skip).
+  unchanged: Retrieval parameters, models, WHO lookup/crawlers/documents, corpus/index construction, diagnostic/critic/safety policy and benchmark data.
+
+check3_llm_who_catalog_selector:
+  request: prompts/check3.txt
+  selector: healthcare-agentic-ai/rag/who_catalog_selector.py
+  runner: healthcare-agentic-ai/scripts/evaluate_who_catalog_selector.py
+  tests: healthcare-agentic-ai/tests/test_who_catalog_selector.py
+  report: healthcare-agentic-ai/docs/check3-who-catalog-selector.md
+  artifacts: healthcare-agentic-ai/outputs/check3-selector/
+  scope: Isolated opt-in selector only; no live Diagnostic, Critic, Safety, AMG or patient-vector retrieval.
+  input: Exact original CHECK3 label-free payload restored from prior input.json because the task prompt replaced the vignette.
+  contract: Whole WHO catalog as ID/title/type/filename metadata only; strict zero-to-five unique known IDs; validate before sequential selected-file loading; truthful LLM-selector provenance, not fabricated lexical matches.
+  catalog: Reuses validated WHOLookup private frozen metadata; 569 entries, collision checks and full catalog hash; no production lookup API change.
+  observed_selection: [Anaemia, Menstrual health, Malnutrition, Diabetes, Hypertension]
+  result: One successful selector call, 4.26 seconds, 69103 request bytes, 18662 input tokens and 62 output tokens. All five sources match pre-run/current hashes.
+  comparison: Prior headache/UV-radiation/COPD lexical results not selected; known/chronic false-match titles absent this run. General negation handling and relevance of broad selections remain unproven.
+  verification: 24 new tests; 61 focused passed; 707 full tests (706 passed, one skip). All pre-existing Python and WHO assets unchanged; only two OKF manifests updated.
+  boundary: No downstream snapshot wiring yet; existing WHO provenance describes lexical selection and must not be misrepresented. No diagnosis predicted or clinical improvement claimed.
+
+check4_who_selector_evaluation:
+  request: prompts/check4.txt
+  selector: healthcare-agentic-ai/rag/who_catalog_selector.py
+  content_gate: healthcare-agentic-ai/rag/who_selector_relevance.py
+  runner: healthcare-agentic-ai/scripts/evaluate_who_selector_check4.py
+  verifier: healthcare-agentic-ai/scripts/verify_who_selector_check4.py
+  report: healthcare-agentic-ai/docs/check4-who-catalog-selector.md
+  artifacts: healthcare-agentic-ai/outputs/check4-selector/
+  status: Historical CHECK4 result; CHECK5 later explicitly authorizes default integration while retaining these reliability limitations.
+  contract: v2 catalog shortlist and final output each hard-capped at three unique known IDs; semantic full-content gate with literal positive-patient/source quotes; no lexical selection, diagnosis, refill or retries.
+  memory: Same 569 metadata entries; one selected full file and provider request at a time; existing file/catalog/request bounds, no truncation or model/vector loading.
+  evaluation: Eight fixed hand-authored label-free cases; 13 sequential live requests, 37.15 seconds provider time; all completed. Four final documents in three cases, five abstentions; maximum observed two.
+  quality: Four final documents topically relevant in limited coding-assistant source review; not clinical gold standard. One generic headache proposal rejected by content gate. No observed negation-driven selection; no Q&A selections, recall or repeatability validation.
+  decision: Keep isolated. Catalog-only prompt is insufficient; actual downstream body-prefix handoff and truthful nonlexical provenance require separate validation before experimental wiring.
+  verification: 45 focused tests passed; 728 full project tests (727 passed, one skip); 56 upstream passed. Five exact source events and four final selections independently replay-verified offline.
+  unchanged: Production composition, AMG, Patient RAG, Diagnostic, Grounding, Critic, Safety, WHO lookup/crawlers/catalog/documents and dependency files. Prior dirty changes preserved.
+
+check5_default_who_integration:
+  request: prompts/check5.txt
+  status: Implemented by explicit CHECK5 authorization; default WHO selection is now CHECK4, not lexical. Research only; strict quote failures remain a runtime limitation.
+  composition: healthcare-agentic-ai/application/workflow.py
+  service: healthcare-agentic-ai/rag/selector_evidence_service.py
+  sections: healthcare-agentic-ai/rag/who_sections.py
+  provenance_dispatch: healthcare-agentic-ai/rag/who_provenance.py
+  combined_contract: healthcare-agentic-ai/rag/combined_medical_evidence.py
+  accounting: healthcare-agentic-ai/orchestration/phase6/orchestrator.py
+  batch: healthcare-agentic-ai/scripts/run_phase6.py
+  manual: healthcare-agentic-ai/scripts/run_manual_who_amg.py
+  verifier: healthcare-agentic-ai/scripts/verify_who_amg_run.py
+  report: healthcare-agentic-ai/docs/check5-integration.md
+  run_commands: AHS_RUN.txt
+  artifacts: healthcare-agentic-ai/outputs/check5/
+  architecture: Patient Agent -> unchanged CHECK4 catalog selector and content gate + unchanged AMG -> source-separated Combined Medical Evidence -> Diagnostic -> Treatment -> Grounding -> Critic -> Safety -> Final Decision.
+  contract: Same 569-document catalog; maximum three selected WHO documents; exact complete source sections anchored by validated content quotes, never blind body prefixes; 12000 characters per document, oversize or ambiguous anchors fail closed.
+  provenance: Stable catalog document IDs, URL/type/filename, catalog and document SHA-256, excerpt SHA-256 and character spans. Historical WHO backend key retained only for unchanged Grounding dispatch; selection method explicitly llm_catalog_verified_sections, no fabricated lexical terms.
+  selector: CHECK4 prompt/schema/semantic validator bytes unchanged. Existing CHECK4 limits reused through shared client, max_output_tokens 1800 and max_retries zero; Diagnostic/Critic provider configuration unchanged.
+  budgets: Every selector/content request uses existing EVIDENCE tickets and global request/byte/time accounting; sequential calls and retrieve-once snapshot reuse across revisions.
+  failure_behavior: WHO source/quote/provider failures terminate safely before Diagnostic; no lexical fallback, weaker quote matching or hidden retries. Both sources empty retain existing abstention and pending review.
+  verification: Baseline 728 project tests; final 752 (751 passed, one skip), 143 focused and 56 upstream passed. 24 new tests. Source/section/request/grounding/safety/final decision independently replay-verified offline.
+  live_result: Manual hot-water observations completed in 49.20 seconds, five sequential requests, no repairs or technical failure; one WHO Burns section and one AMG Heat Illness passage. One WHO medical ID cited, zero AMG; unchanged Critic flags trigger deterministic Safety BLOCK and pending review.
+  live_limitations: All six attempts retained. Five earlier attempts failed strict quote validation, including dog-bite source punctuation and DDXPlus patient quoting; 24 requests total. Only final hot-water run completed all gates; not general selector reliability or clinical success.
+  unchanged: Grounding source, Diagnostic/Critic/Safety agents and policies, final-decision/human-review rules, AMG code/parameters, Patient RAG, WHO lookup/crawlers and all 577 existing WHO assets; no labels, index builds, dependency changes or new selector variant.
+
+three_request_failure_audit:
+  report: healthcare-agentic-ai/docs/three-request-failure-audit.md
+  artifacts: healthcare-agentic-ai/outputs/three-request-audit/
+  saved_run: healthcare-agentic-ai/outputs/phase6/20261005T131137964626Z/sample_case_001.json
+  finding: Request 3, WHO ContentRelevance, failed custom patient-quote validation after a completed API response. Requests 1 Patient and 2 catalog succeeded. Not missing DDXPlus data or invalid response schema.
+  cause: All four returned quotes exactly match rendered question-equals-answer facts; validator checks only bare Evidence.value. Bare Yes also fails the four-character quote minimum.
+  secondary_issue: Returned headache quote has added punctuation absent from local Anaemia text; exact requested document ID/payload not persisted, so source comparison is qualified.
+  verification: Offline schema validation and exact reproduction; zero cloud calls, no production edits. Saved parsed response retained, original raw HTTP/JSON bytes unavailable.
+  next_step: Historical audit recommendation implemented by DDXFIX below; exact source quotation remains a separate unresolved issue.
+
+ddxplus_patient_reference_fix:
+  request: prompts/ddxfix.txt
+  validator: healthcare-agentic-ai/rag/who_selector_relevance.py
+  tests: healthcare-agentic-ai/tests/test_ddx_patient_quotes.py
+  report: healthcare-agentic-ai/docs/ddxfix-patient-references.md
+  artifacts: healthcare-agentic-ai/outputs/ddxfix/
+  test_commands: DDX_TEST.txt
+  scope: Only validate_content_review patient matching changed; no selector strategy, prompt, source-quote, retrieval, Diagnostic, Grounding, Critic or Safety edits.
+  contract: Accept exact complete Evidence.text facts, never question substrings; retain existing exact non-missing answer-value excerpts for manual prose. No normalization/recombination, bare Yes/No still fail unchanged minimum length; polarity and uncertainty remain literal.
+  tests_result: 16 new tests reproduced one failure and nine errors before fix; after fix 94 focused passed; full suite 768 run, 767 passed, one existing cloud skip.
+  live_result: Exactly one ddxplus validate row 1 run, three sequential requests, zero repairs, 13.26 seconds. Patient and WHO catalog accepted; all four full patient quotes passed. Content review failed unchanged nonliteral_source_quote validation.
+  final_result: BLOCK with pending review and technical failure; AMG, Diagnostic, Critic and Safety assessment not reached. No successful end-to-end claim or extra live rerun.
+  verification: Saved old/new patient quotes checked offline; final BLOCK handoff independently revalidated. All prompts and other pre-existing production code/assets unchanged; see integrity.json.
+
+ddxplus_completed_block_audit:
+  request: prompts/ddxfix.txt
+  report: healthcare-agentic-ai/docs/ddx-block-cause-audit.md
+  full_passages: healthcare-agentic-ai/docs/ddx-block-evidence.md
+  artifacts: healthcare-agentic-ai/outputs/ddx-block-audit/
+  saved_run: healthcare-agentic-ai/outputs/phase6/20261005T133733712888Z/sample_case_001.json
+  scope: Updated request is offline investigation only; no code, prompt, retrieval, validation, policy or saved-run changes and no live calls.
+  run_result: Seven accepted requests, no repairs or technical failure; two WHO and five AMG passages; Diagnostic, Grounding, Critic and deterministic Safety completed; BLOCK, review pending.
+  exact_cause: Two Critic safety flags about bleeding-risk prominence and primary-label certainty each require BLOCK. Two uncited etiologic hypotheses independently require HUMAN_REVIEW, not BLOCK.
+  evidence_assessment: WHO anemia symptom and headache passages were cited. No supplied passage establishes GI/anticoagulant bleeding causing anemia or kidney failure causing anemia. No adequate missed causal citation or citation-transport loss found.
+  rules: Patient-only inference can pass Grounding under explicit disclosure yet still require Safety review. Critic flags override revision_required and skip semantic Safety generation under current policy.
+  recommendations_only: Label Possible current anemia (unconfirmed); describe pallor as patient-reported; foreground already-disclosed bleeding concern without asserting causation. No irrelevant citation padding or Safety-policy weakening. Clinical necessity of the flags is not established by this textual audit.
+  verification: Native sources, selector handoff, all four deterministic findings, Grounding and final handoff reverified offline; 3 reference-present claim records and 13 without medical references; patient reference audit has 20 unassessed clauses.
+
+local_human_review_gate:
+  request: prompts/ddxfix.txt
+  audit_and_report: healthcare-agentic-ai/docs/human-review-gate.md
+  gate: healthcare-agentic-ai/application/human_review.py
+  record: HumanReviewRecord
+  offline_command: healthcare-agentic-ai/scripts/review_case.py
+  tests: healthcare-agentic-ai/tests/test_human_review.py
+  run_commands: HUMAN_REVIEW_RUN.txt
+  artifacts: healthcare-agentic-ai/outputs/human-review-gate/
+  part1: Saved Diagnostic wording can be clearer about possible anemia, patient-reported pallor and unconfirmed bleeding prominence. Existing Diagnostic rules already require uncertainty; no prompt or Diagnostic behavior changed.
+  integration: Batch, manual and demo CLIs invoke the sequential local gate after the completed AI/Safety decision and saved AI artifacts. Core workflow and Safety remain unchanged.
+  interaction: REVIEW or DECLINE, then full context and explicit APPROVE, REJECT or REQUEST_MORE_EVIDENCE. Blank/EOF/interruption/noninteractive input never approves. Both input and output must be a terminal.
+  approval_boundary: Only explicit APPROVE after REVIEW, complete display and current assessed Diagnostic context records human_approval true. Original AI/Safety records and release restrictions remain unchanged, never BLOCK to ALLOW.
+  persistence: New exclusive-created fsynced session files contain full workflow/context plus chained timestamped events; bind case/run, Diagnostic version/fingerprint, evidence snapshot and exact Safety input. Local reviewer identity is unverified, not clinical authentication.
+  nonapproval: DECLINE and no response remain BLOCKED/pending; REJECT remains BLOCKED; REQUEST_MORE_EVIDENCE records unresolved/pending only, no retrieval or rerun. Stale data invalidates the decision.
+  tests_result: 33 new offline tests; 113 focused passed; full suite 801 run, 800 passed, one existing opt-in cloud skip.
+  saved_run_probe: Existing seven-request validate row 1 run verified offline; new review command recorded OFFERED then NON_INTERACTIVE, BLOCK/pending, no approval. Real saved-case approval was neither supplied nor simulated.
+  unchanged: WHO selection/validation, AMG, retrieval, Diagnostic prompts, Grounding, Critic, Safety, evidence gates, final-decision model/policy and source-run records. No live cloud calls or new medical data.
+
+treatment_management_layer:
+  request: prompts/ddxfix.txt
+  integration: Diagnostic -> Treatment -> Grounding -> Critic -> Safety -> Final Decision / Human Review
+  agent: orchestration/phase6/treatment.py
+  models: rag/agents/models.py (ManagementAction, TreatmentPlan, optional DiagnosticResult.treatment)
+  composition: application/workflow.py enables treatment by default; historical direct compositions remain opt-in
+  identity: Phase-6 TREATMENT stage/ticket/events; pre-management diagnosis bound to invocation; combined proposal fingerprint binds Critic/Safety/review
+  provider: Same existing .env-configured GPT-5-family StructuredLLM; no credentials or extra clients
+  contract: Patient and medical citations per action; exact separate inventories; explicit deferred plan when unsupported; conditional clinician-facing research considerations only
+  serialization: Nested treatment retained across state/final/review; absent legacy treatment omitted to preserve historical fingerprints
+  gates: Management claims extend existing Grounding report and Critic input; Safety policy and Human Review implementation unchanged; entire non-ALLOW proposal withheld
+  unchanged: Retrieval algorithms, WHO selector/content review, AMG, patient facts, diagnostic evidence inventories, Safety thresholds and review release rules
+  documentation: docs/treatment-management.md
+  tests: tests/test_treatment.py (17 new); 97 targeted tests passed
+  full_suite: 778 entries; 775 passed, one cloud skip, two WHO crawler import errors because beautifulsoup4 is unavailable; no assertion failures
+  live_validation: Not run; synthetic software contracts only, no clinical effectiveness claim
